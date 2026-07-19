@@ -1,0 +1,6 @@
+# 私密文件
+.env
+*.log
+__pycache__/
+*.pyc
+.DS_Store
