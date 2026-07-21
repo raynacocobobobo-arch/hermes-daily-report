@@ -1,0 +1,210 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T19:50:42+08:00",
+  "total": 20,
+  "skipped": 0,
+  "rejected": 0,
+  "source_directory": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21",
+  "entries": [
+    {
+      "source": "奇点财情 7.21 第一篇.txt",
+      "up_name": "奇点财情 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/奇点财情 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/奇点财情 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 8133,
+      "sha256": "ddab151d6d778d24e9d792394636c96e8956b55c54575bd8a860dfda9c4ac908"
+    },
+    {
+      "source": "小白投资笔记 7.21 第一篇.txt",
+      "up_name": "小白投资笔记 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/小白投资笔记 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/小白投资笔记 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 10738,
+      "sha256": "117e0c0a783058672db3b16e425a67a3978030b2b89122a9f85d9c6831014f56"
+    },
+    {
+      "source": "小白投资笔记 7.21 第二篇.txt",
+      "up_name": "小白投资笔记 7.21 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/小白投资笔记 7.21 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/小白投资笔记 7.21 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 1630,
+      "sha256": "a902c2baa165010c224de116f7efe07fa09ce3c61ea62b79314c66225ababe99"
+    },
+    {
+      "source": "投资笔记-原创 7.21 第一篇.txt",
+      "up_name": "投资笔记-原创 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/投资笔记-原创 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/投资笔记-原创 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 10215,
+      "sha256": "99a25bedb47097876aeddb46cbcc419f3b3ba71e6e606f91cbf0e2843cdf6322"
+    },
+    {
+      "source": "擒龙先生 7.21 第一篇.txt",
+      "up_name": "擒龙先生 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/擒龙先生 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/擒龙先生 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 7714,
+      "sha256": "e3d953929ef5872cb7904a99730976f53cf0c11271a4e9f4e84f2998553870ac"
+    },
+    {
+      "source": "杉门tepu大弟子 7.21 第一篇.txt",
+      "up_name": "杉门tepu大弟子 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/杉门tepu大弟子 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/杉门tepu大弟子 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 15423,
+      "sha256": "7bab605924e202fd0d9aefb366f6f518280d0ac7bdd58a6f48c36e6f80eaf48f"
+    },
+    {
+      "source": "杉门tepu大弟子 7.21 第二篇.txt",
+      "up_name": "杉门tepu大弟子 7.21 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/杉门tepu大弟子 7.21 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/杉门tepu大弟子 7.21 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 64314,
+      "sha256": "5add5003702402ccda75436e997b16d5adcd7f4e734d0b31255a25346c171399"
+    },
+    {
+      "source": "李一恩 7.21 第一篇.txt",
+      "up_name": "李一恩 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/李一恩 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/李一恩 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 123,
+      "sha256": "c88751c86ac4a2aa914a9d34ae24ef4b25c318c10883ef510e7ee35e9b7ea9c1"
+    },
+    {
+      "source": "李长胜621 7.21 第一篇.txt",
+      "up_name": "李长胜621 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/李长胜621 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/李长胜621 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 4858,
+      "sha256": "d41123ae4877997ace94d6902848ada9955502fa44b383876076b2cb9cd5db15"
+    },
+    {
+      "source": "李长胜621 7.21 第三篇.txt",
+      "up_name": "李长胜621 7.21 第三篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/李长胜621 7.21 第三篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/李长胜621 7.21 第三篇.txt",
+      "format": "txt",
+      "size_bytes": 6224,
+      "sha256": "c6f2a3308532169bbd14075b49ed9dcda98db916421606f8aaf8fa578777cfe8"
+    },
+    {
+      "source": "李长胜621 7.21 第二篇.txt",
+      "up_name": "李长胜621 7.21 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/李长胜621 7.21 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/李长胜621 7.21 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 3356,
+      "sha256": "aa68d6e9470516222bc4997da2c684005e66113195e275656eb08e2f14280ab4"
+    },
+    {
+      "source": "李长胜621 7.21 第四篇.txt",
+      "up_name": "李长胜621 7.21 第四篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/李长胜621 7.21 第四篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/李长胜621 7.21 第四篇.txt",
+      "format": "txt",
+      "size_bytes": 4024,
+      "sha256": "dc6567e654023132036d3832759d0802a7be84d14dd569c3277d7d6ebb54a4f2"
+    },
+    {
+      "source": "正经参考-大马猴 7.21 第一篇.txt",
+      "up_name": "正经参考-大马猴 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/正经参考-大马猴 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/正经参考-大马猴 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 4876,
+      "sha256": "cc543983f04a241af3dc6bdf339deaf6f575063cbf8bf75ac842f650efab9a86"
+    },
+    {
+      "source": "老柯复盘 7.21 第一篇.txt",
+      "up_name": "老柯复盘 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/老柯复盘 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/老柯复盘 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 8902,
+      "sha256": "0f73a2cd77c6899e8a328986eaf496724e9a90fe09d7b24882990ee3972ae9cb"
+    },
+    {
+      "source": "财经高一截 7.21 第一篇.txt",
+      "up_name": "财经高一截 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/财经高一截 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/财经高一截 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 3899,
+      "sha256": "d3992aa513640c82d93c37eb3305867bed8fc34554f14816311d0b2e7f7020b7"
+    },
+    {
+      "source": "财经高一截 7.21 第二篇.txt",
+      "up_name": "财经高一截 7.21 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/财经高一截 7.21 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/财经高一截 7.21 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 75353,
+      "sha256": "d0830b701e9446436af1c2acb2b444243bde0e4b631fa168ff1a94eef95ba34a"
+    },
+    {
+      "source": "趋势天哥 7.21 第一篇.txt",
+      "up_name": "趋势天哥 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/趋势天哥 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/趋势天哥 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 4301,
+      "sha256": "55ce1657d2d5449d4e35c5e6c7d5f28d4dee107a5fbee5a3737993efe2776172"
+    },
+    {
+      "source": "趋势耿鬼 7.21 第一篇.txt",
+      "up_name": "趋势耿鬼 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/趋势耿鬼 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/趋势耿鬼 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 24032,
+      "sha256": "2319ee86721c208e7736bb2276a2fc8f15a7c827d6f50175b816feea37825325"
+    },
+    {
+      "source": "趋势风哥 7.21 第一篇.txt",
+      "up_name": "趋势风哥 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/趋势风哥 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/趋势风哥 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 8672,
+      "sha256": "6aec373d6311ace32167e60eb7db772b5a81df7f8c46af922c899b4e9f53c1da"
+    },
+    {
+      "source": "逻辑哥复盘 7.21 第一篇.txt",
+      "up_name": "逻辑哥复盘 7.21 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-21/逻辑哥复盘 7.21 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-21/逻辑哥复盘 7.21 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 10908,
+      "sha256": "513ce0d493724ff9aba54f8069f7eb6bd9a9e342b94a67908ffa0f83aab06f25"
+    }
+  ]
+}
