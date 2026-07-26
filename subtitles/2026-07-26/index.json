@@ -1,0 +1,180 @@
+{
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T20:00:17+08:00",
+  "total": 17,
+  "skipped": 0,
+  "rejected": 0,
+  "source_directory": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26",
+  "entries": [
+    {
+      "source": "小白投资笔记 7.26 第一篇.txt",
+      "up_name": "小白投资笔记 7.26 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/小白投资笔记 7.26 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/小白投资笔记 7.26 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 7759,
+      "sha256": "ab68910f7455e6e809c234106d2b163958936f571fee997ea9f0042d7c466397"
+    },
+    {
+      "source": "小白投资笔记 7.26 第三篇.txt",
+      "up_name": "小白投资笔记 7.26 第三篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/小白投资笔记 7.26 第三篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/小白投资笔记 7.26 第三篇.txt",
+      "format": "txt",
+      "size_bytes": 8983,
+      "sha256": "e18b7bbc53a38203c2b365315aabb610488ccef7a8ca5bf563d5f1512d3ca769"
+    },
+    {
+      "source": "小白投资笔记 7.26 第二篇.txt",
+      "up_name": "小白投资笔记 7.26 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/小白投资笔记 7.26 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/小白投资笔记 7.26 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 6179,
+      "sha256": "ac6b9ab08c373155e889f7fc038fb79763910daac6b3155799358a2907902a73"
+    },
+    {
+      "source": "小白投资笔记 7.26 第四篇.txt",
+      "up_name": "小白投资笔记 7.26 第四篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/小白投资笔记 7.26 第四篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/小白投资笔记 7.26 第四篇.txt",
+      "format": "txt",
+      "size_bytes": 24982,
+      "sha256": "f06f40a7e6f639447ab55291c65edd8687d84848ae406debf572c86e691ad5c2"
+    },
+    {
+      "source": "投资笔记-原创 7.26 第一篇.txt",
+      "up_name": "投资笔记-原创 7.26 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/投资笔记-原创 7.26 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/投资笔记-原创 7.26 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 11151,
+      "sha256": "686d52798544b48405dab40cbc69f9a5ce56a784bcba97bd2a9ce2ef319bacc1"
+    },
+    {
+      "source": "杉门tepu大弟子 7.26 第一篇.txt",
+      "up_name": "杉门tepu大弟子 7.26 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/杉门tepu大弟子 7.26 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/杉门tepu大弟子 7.26 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 28378,
+      "sha256": "a66e82a8b968a37cea274ac15420b35e97c2759024d1184e41824517da6b0780"
+    },
+    {
+      "source": "杉门tepu大弟子 7.26 第二篇.txt",
+      "up_name": "杉门tepu大弟子 7.26 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/杉门tepu大弟子 7.26 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/杉门tepu大弟子 7.26 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 16196,
+      "sha256": "4dc8e9c5a9ffcab011bcc0c10a62f38f6d35610eda820fba5a1c54c4dcd057b7"
+    },
+    {
+      "source": "李长胜621 7.26 第一篇.txt",
+      "up_name": "李长胜621 7.26 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/李长胜621 7.26 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/李长胜621 7.26 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 5845,
+      "sha256": "61acdc706e1d59ff34ecbf890fcbde37da0baa7ec180c589ff83bb64fb944c4e"
+    },
+    {
+      "source": "李长胜621 7.26 第三篇.txt",
+      "up_name": "李长胜621 7.26 第三篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/李长胜621 7.26 第三篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/李长胜621 7.26 第三篇.txt",
+      "format": "txt",
+      "size_bytes": 501,
+      "sha256": "212090ef7d559b88de6e5aea98ce0e2c2325e4bda97c54f3e8085a3db806bdc1"
+    },
+    {
+      "source": "李长胜621 7.26 第二篇.txt",
+      "up_name": "李长胜621 7.26 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/李长胜621 7.26 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/李长胜621 7.26 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 3338,
+      "sha256": "ff8ccf18248fe110f9be9277d180fbb83979aa099beb1aa3d1fcaf1bfea0fc20"
+    },
+    {
+      "source": "李长胜621 7.26 第四篇.txt",
+      "up_name": "李长胜621 7.26 第四篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/李长胜621 7.26 第四篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/李长胜621 7.26 第四篇.txt",
+      "format": "txt",
+      "size_bytes": 17732,
+      "sha256": "c0bfe24ada7d4b42f5772843cef743713c5984a31ac0551c902b4fe04126967c"
+    },
+    {
+      "source": "研究员雷牛牛 7.26 第一篇.txt",
+      "up_name": "研究员雷牛牛 7.26 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/研究员雷牛牛 7.26 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/研究员雷牛牛 7.26 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 14253,
+      "sha256": "7bb32809731e83e029e0244268e4138f69edee16ae8bd2f508313b7cfc3380c8"
+    },
+    {
+      "source": "老柯复盘 7.26 第一篇.txt",
+      "up_name": "老柯复盘 7.26 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/老柯复盘 7.26 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/老柯复盘 7.26 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 9755,
+      "sha256": "0b67ebdea7800e76490aa621a03b3a1a5b36330b1b7a1a8b4dc748969648c392"
+    },
+    {
+      "source": "趋势风哥 7.26 第一篇.txt",
+      "up_name": "趋势风哥 7.26 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/趋势风哥 7.26 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/趋势风哥 7.26 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 4994,
+      "sha256": "f56534bb2573c814a02b26b4b06dd4e628fa11ecdc8b1ec598f61c46a8ecda03"
+    },
+    {
+      "source": "邪修炒股笔记 7.26 第一篇.txt",
+      "up_name": "邪修炒股笔记 7.26 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/邪修炒股笔记 7.26 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/邪修炒股笔记 7.26 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 25796,
+      "sha256": "062861236fadaa9f5aa72d00eceeebf700262229fe5e124e19cdb9a401bac171"
+    },
+    {
+      "source": "邪修炒股笔记 7.26 第三篇.txt",
+      "up_name": "邪修炒股笔记 7.26 第三篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/邪修炒股笔记 7.26 第三篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/邪修炒股笔记 7.26 第三篇.txt",
+      "format": "txt",
+      "size_bytes": 10898,
+      "sha256": "4f5cd32b12e12a2a3d2e250d23c67a5cadf274f4897e0f02a7084b4680b7cf49"
+    },
+    {
+      "source": "邪修炒股笔记 7.26 第二篇.txt",
+      "up_name": "邪修炒股笔记 7.26 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-07-26/邪修炒股笔记 7.26 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-07-26/邪修炒股笔记 7.26 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 21341,
+      "sha256": "b5dc2fe6c9dc5ea70bcb7582266633168fe807b19d1fb0a56b05bc6041aa7aa3"
+    }
+  ]
+}
