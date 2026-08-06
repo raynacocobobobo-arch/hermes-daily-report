@@ -1,0 +1,270 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T20:00:14+08:00",
+  "total": 26,
+  "skipped": 0,
+  "rejected": 0,
+  "source_directory": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06",
+  "entries": [
+    {
+      "source": "ETF战法 8.6 第一篇.txt",
+      "up_name": "ETF战法 8.6 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/ETF战法 8.6 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/ETF战法 8.6 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 3078,
+      "sha256": "fae029c368d501cd5e1424f4dd7dfb3723ab1fa77183b44f29308041a63a6f39"
+    },
+    {
+      "source": "ETF战法 8.6 第三篇.txt",
+      "up_name": "ETF战法 8.6 第三篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/ETF战法 8.6 第三篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/ETF战法 8.6 第三篇.txt",
+      "format": "txt",
+      "size_bytes": 6348,
+      "sha256": "3149a602c82081de68874762af562797ac17ae23b099e7f19bfc13f5f02a565b"
+    },
+    {
+      "source": "ETF战法 8.6 第二篇.txt",
+      "up_name": "ETF战法 8.6 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/ETF战法 8.6 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/ETF战法 8.6 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 4755,
+      "sha256": "6fc185c5f731b3a0f1b3bd40c9f6cad4a710a5a338e2fa42629f1d8643587235"
+    },
+    {
+      "source": "ETF战法 8.6 第五篇.txt",
+      "up_name": "ETF战法 8.6 第五篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/ETF战法 8.6 第五篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/ETF战法 8.6 第五篇.txt",
+      "format": "txt",
+      "size_bytes": 7148,
+      "sha256": "78a4331963b886725ad7a91f5ab57b2a597941168a6d13b47d000d79a491e9b2"
+    },
+    {
+      "source": "ETF战法 8.6 第四篇.txt",
+      "up_name": "ETF战法 8.6 第四篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/ETF战法 8.6 第四篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/ETF战法 8.6 第四篇.txt",
+      "format": "txt",
+      "size_bytes": 6823,
+      "sha256": "6abbc4ec403e9389e621539cee207fb1120832c4a6f9ac1e5f2dd7bd57d078de"
+    },
+    {
+      "source": "奇点财情 8.6 第一篇.txt",
+      "up_name": "奇点财情 8.6 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/奇点财情 8.6 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/奇点财情 8.6 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 13837,
+      "sha256": "d7248af8816b47b6923d8c74fd34d19e50dec19bdde99de9b2e3645e3a716e2f"
+    },
+    {
+      "source": "小白投资笔记 8.6 第一篇.txt",
+      "up_name": "小白投资笔记 8.6 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/小白投资笔记 8.6 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/小白投资笔记 8.6 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 51786,
+      "sha256": "cb18631661608fa4bf59cdac56c1c989b8e1e2eac1fdb5eba448447ae49e047c"
+    },
+    {
+      "source": "小白投资笔记 8.6 第三篇.txt",
+      "up_name": "小白投资笔记 8.6 第三篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/小白投资笔记 8.6 第三篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/小白投资笔记 8.6 第三篇.txt",
+      "format": "txt",
+      "size_bytes": 16677,
+      "sha256": "5d74c0d60f364a33c27d28b7b02d39c05dfb5c34add09c848b902629d1c5176c"
+    },
+    {
+      "source": "小白投资笔记 8.6 第二篇.txt",
+      "up_name": "小白投资笔记 8.6 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/小白投资笔记 8.6 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/小白投资笔记 8.6 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 12462,
+      "sha256": "dfdcba3196f42137845eeabc342223fecee686afa8823f79b86147ed69c46130"
+    },
+    {
+      "source": "小白投资笔记 8.6 第五篇.txt",
+      "up_name": "小白投资笔记 8.6 第五篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/小白投资笔记 8.6 第五篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/小白投资笔记 8.6 第五篇.txt",
+      "format": "txt",
+      "size_bytes": 32200,
+      "sha256": "786b02a2b0fea65108e07d6da597203617a39421b2b44e3a21379d2becdd9243"
+    },
+    {
+      "source": "小白投资笔记 8.6 第六篇.txt",
+      "up_name": "小白投资笔记 8.6 第六篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/小白投资笔记 8.6 第六篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/小白投资笔记 8.6 第六篇.txt",
+      "format": "txt",
+      "size_bytes": 16987,
+      "sha256": "3f43923fc6590dd75442fc200d339330af7c5e4de30aa11eeed7070f282c1e5d"
+    },
+    {
+      "source": "小白投资笔记 8.6 第四篇.txt",
+      "up_name": "小白投资笔记 8.6 第四篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/小白投资笔记 8.6 第四篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/小白投资笔记 8.6 第四篇.txt",
+      "format": "txt",
+      "size_bytes": 3143,
+      "sha256": "06859c15fd90af5ff173e47284ede982b8b2e1b56c15765cdb6509f48e61481e"
+    },
+    {
+      "source": "投资笔记-原创 8.6 第一篇.txt",
+      "up_name": "投资笔记-原创 8.6 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/投资笔记-原创 8.6 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/投资笔记-原创 8.6 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 10171,
+      "sha256": "9ab64c9183413fa5db122d9dba4a597aa6c1c29489dd01931478ed532c10feee"
+    },
+    {
+      "source": "杉门tepu大弟子 8.6 第一篇.txt",
+      "up_name": "杉门tepu大弟子 8.6 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/杉门tepu大弟子 8.6 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/杉门tepu大弟子 8.6 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 9787,
+      "sha256": "de5f6e3d940f8a0daf176ae631bd9eba22a208a4775efadc004deef1a87663fc"
+    },
+    {
+      "source": "李一恩 8.6 第一篇.txt",
+      "up_name": "李一恩 8.6 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/李一恩 8.6 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/李一恩 8.6 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 581,
+      "sha256": "02b0b2e271a904faf206f0d8c117a9cb67eec23b69277f6df997495387137b90"
+    },
+    {
+      "source": "李长胜621 8.6 第一篇.txt",
+      "up_name": "李长胜621 8.6 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/李长胜621 8.6 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/李长胜621 8.6 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 6690,
+      "sha256": "afeee7845c55d00561d7b77ac6505dbade5b009327d7bea0ab317d3913d737e5"
+    },
+    {
+      "source": "李长胜621 8.6 第三篇.txt",
+      "up_name": "李长胜621 8.6 第三篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/李长胜621 8.6 第三篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/李长胜621 8.6 第三篇.txt",
+      "format": "txt",
+      "size_bytes": 892,
+      "sha256": "2604ea3b614da23ff39ea0c394be93ef55b8131852c81643454832a6dd3b42fb"
+    },
+    {
+      "source": "李长胜621 8.6 第二篇.txt",
+      "up_name": "李长胜621 8.6 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/李长胜621 8.6 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/李长胜621 8.6 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 3668,
+      "sha256": "d0e6e5059a1317ffeeee3235074062008173f6d0f8d47c6bb44d6cbdce0712f5"
+    },
+    {
+      "source": "老柯复盘 8.6 第一篇.txt",
+      "up_name": "老柯复盘 8.6 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/老柯复盘 8.6 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/老柯复盘 8.6 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 8494,
+      "sha256": "cbced71f8f3c038681affbde960474ab0bd923e4432dbe1c83f175a4fdd86759"
+    },
+    {
+      "source": "财经企鹅姐 8.6 第一篇.txt",
+      "up_name": "财经企鹅姐 8.6 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/财经企鹅姐 8.6 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/财经企鹅姐 8.6 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 5559,
+      "sha256": "67d4c2e7bf80b20153a0544b344c544bb05f524408a72c0b9beeda46d58147c6"
+    },
+    {
+      "source": "财经高一截 8.6 第一篇.txt",
+      "up_name": "财经高一截 8.6 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/财经高一截 8.6 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/财经高一截 8.6 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 4466,
+      "sha256": "450b236413b4d5b81773ea49d25e2ed402a3f4ca1729ef8dae0fc82d2fae40b2"
+    },
+    {
+      "source": "财经高一截 8.6 第三篇.txt",
+      "up_name": "财经高一截 8.6 第三篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/财经高一截 8.6 第三篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/财经高一截 8.6 第三篇.txt",
+      "format": "txt",
+      "size_bytes": 58100,
+      "sha256": "ea28e8d9a6eaa7d8c64d5bc06146f3390d85bc119d65fbf20d86086807aaa511"
+    },
+    {
+      "source": "财经高一截 8.6 第二篇.txt",
+      "up_name": "财经高一截 8.6 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/财经高一截 8.6 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/财经高一截 8.6 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 57042,
+      "sha256": "0589bc696bc3650d3c187499493be64d2d0972bf1ffc1bda6cf5354af84e04d3"
+    },
+    {
+      "source": "财经高一截 8.6 第四篇.txt",
+      "up_name": "财经高一截 8.6 第四篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/财经高一截 8.6 第四篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/财经高一截 8.6 第四篇.txt",
+      "format": "txt",
+      "size_bytes": 56176,
+      "sha256": "21d96800101412d6baa8548b675e64bedaee8510ee18f55e71255950c7a97a95"
+    },
+    {
+      "source": "趋势天哥 8.6 第一篇.txt",
+      "up_name": "趋势天哥 8.6 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/趋势天哥 8.6 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/趋势天哥 8.6 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 5915,
+      "sha256": "8d076f6ee404978bfac7ffe7aee7ce726b28dac46c573ffae9ab113dc118aa71"
+    },
+    {
+      "source": "趋势耿鬼 8.6 第一篇.txt",
+      "up_name": "趋势耿鬼 8.6 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-06/趋势耿鬼 8.6 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-06/趋势耿鬼 8.6 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 20407,
+      "sha256": "273910b0cf2cb599152f6315287ebbe89cd5e65e620e6c2dc4481defe8faca82"
+    }
+  ]
+}
