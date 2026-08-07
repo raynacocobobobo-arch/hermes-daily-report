@@ -1,0 +1,140 @@
+{
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T20:00:19+08:00",
+  "total": 13,
+  "skipped": 0,
+  "rejected": 0,
+  "source_directory": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07",
+  "entries": [
+    {
+      "source": "奇点财情 8.7 第一篇.txt",
+      "up_name": "奇点财情 8.7 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/奇点财情 8.7 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/奇点财情 8.7 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 10217,
+      "sha256": "831cf5201f34a38d0d03189558ff430b84849f5c933a913832e3bd3f4ad7426c"
+    },
+    {
+      "source": "小白投资笔记 8.7 第一篇.txt",
+      "up_name": "小白投资笔记 8.7 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/小白投资笔记 8.7 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/小白投资笔记 8.7 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 21812,
+      "sha256": "668691cdd6e2561a0af391b572a1d4440d4f71a61a0204c6ce4ba17c0db36721"
+    },
+    {
+      "source": "小白投资笔记 8.7 第二篇.txt",
+      "up_name": "小白投资笔记 8.7 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/小白投资笔记 8.7 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/小白投资笔记 8.7 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 21817,
+      "sha256": "49c0f3356d0dfe06255a4f8688b70c0139ed4b4277c6a406215746865bc28794"
+    },
+    {
+      "source": "李一恩 8.7 第一篇.txt",
+      "up_name": "李一恩 8.7 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/李一恩 8.7 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/李一恩 8.7 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 1321,
+      "sha256": "3f9addab4bdc50512d8f4d9558aebcbae5f5379a15594ddb895e8d82da75d2c9"
+    },
+    {
+      "source": "李长胜621 8.7 第一篇.txt",
+      "up_name": "李长胜621 8.7 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/李长胜621 8.7 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/李长胜621 8.7 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 845,
+      "sha256": "2396898647eb9f56ab9a53a156021efb171bd855f4fbaa61bbc6ac3a8172c9a3"
+    },
+    {
+      "source": "李长胜621 8.7 第三篇.txt",
+      "up_name": "李长胜621 8.7 第三篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/李长胜621 8.7 第三篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/李长胜621 8.7 第三篇.txt",
+      "format": "txt",
+      "size_bytes": 2396,
+      "sha256": "78974928d7158e2ec2e1b08b2449a52f47ca458fbc5bffcb22d31a4347349d82"
+    },
+    {
+      "source": "李长胜621 8.7 第二篇.txt",
+      "up_name": "李长胜621 8.7 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/李长胜621 8.7 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/李长胜621 8.7 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 4814,
+      "sha256": "4bde2c4c74d0e9d79e3f68251a5b535cc709166e8b844f934993ff9ea45f5170"
+    },
+    {
+      "source": "财经高一截 8.7 第一篇.txt",
+      "up_name": "财经高一截 8.7 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/财经高一截 8.7 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/财经高一截 8.7 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 4183,
+      "sha256": "e3351a98dd0841b02d1603f7a67c808599b1da5364977380c961a060772a1daa"
+    },
+    {
+      "source": "财经高一截 8.7 第二篇.txt",
+      "up_name": "财经高一截 8.7 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/财经高一截 8.7 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/财经高一截 8.7 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 58980,
+      "sha256": "2bc4caba6206ef8706f4c5379aace424052797ebbe770a9e209f232926603d11"
+    },
+    {
+      "source": "趋势天哥 8.7 第一篇.txt",
+      "up_name": "趋势天哥 8.7 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/趋势天哥 8.7 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/趋势天哥 8.7 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 3577,
+      "sha256": "a7a258f44ef03cd43ae23c40fb80e1e002576235ad67082a00e0936a3fb222bb"
+    },
+    {
+      "source": "趋势风哥 8.7 第一篇.txt",
+      "up_name": "趋势风哥 8.7 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/趋势风哥 8.7 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/趋势风哥 8.7 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 6192,
+      "sha256": "0b772ed7392740fd1d583a0f25af8e6b1c731ae57d6059e6bc028279a8065fad"
+    },
+    {
+      "source": "邪修炒股笔记 8.7 第一篇.txt",
+      "up_name": "邪修炒股笔记 8.7 第一篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/邪修炒股笔记 8.7 第一篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/邪修炒股笔记 8.7 第一篇.txt",
+      "format": "txt",
+      "size_bytes": 34628,
+      "sha256": "f94debefc31db710a909ac78a66f7a154bf0d05a1ad9f561ce51162e9d8cfac7"
+    },
+    {
+      "source": "邪修炒股笔记 8.7 第二篇.txt",
+      "up_name": "邪修炒股笔记 8.7 第二篇.txt",
+      "title": "",
+      "original_path": "/home/ubuntu/Desktop/hermes/研报/字幕/2026-08-07/邪修炒股笔记 8.7 第二篇.txt",
+      "repository_path": "/home/ubuntu/projects/hermes-daily-report/subtitles/2026-08-07/邪修炒股笔记 8.7 第二篇.txt",
+      "format": "txt",
+      "size_bytes": 11670,
+      "sha256": "cfa135cd1615272e2ed037c24fa1045e0a970bd976e230e90439041b02ef984b"
+    }
+  ]
+}
