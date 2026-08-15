@@ -1,14 +1,27 @@
 {
   "schema_version": "public-crawl-preview/1.0",
   "target_date": "2026-08-15",
-  "started_at": "2026-08-15T20:32:57.976063+08:00",
+  "started_at": "2026-08-15T20:33:58.971579+08:00",
   "tracked_up_count": 17,
   "cookie_used": false,
   "videos": [],
-  "up_status": [],
+  "up_status": [
+    {
+      "up": "ETF战法",
+      "uid": 3546854339905896,
+      "status": "error",
+      "error": "412 Client Error: Precondition Failed for url: https://api.bilibili.com/x/space/wbi/arc/search?mid=3546854339905896&pn=1&ps=12&order=pubdate&platform=web&wts=1786797239&w_rid=a53125e326adcffd188cdf72972cf4e5"
+    },
+    {
+      "up": "趋势耿鬼",
+      "uid": 3546761960360178,
+      "status": "error",
+      "error": "video-list:趋势耿鬼: code=-352 风控校验失败"
+    }
+  ],
   "blocked": true,
-  "fatal_error": "nav: code=-101 账号未登录",
-  "finished_at": "2026-08-15T20:32:58.703980+08:00",
+  "fatal_error": "video-list:趋势耿鬼: code=-352 风控校验失败",
+  "finished_at": "2026-08-15T20:34:01.426790+08:00",
   "today_video_count": 0,
   "subtitle_count": 0
 }
