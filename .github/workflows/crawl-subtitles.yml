@@ -1,0 +1,82 @@
+name: Crawl Bilibili subtitles
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 14 * * 1-5"
+    - cron: "0 14 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl-bilibili-subtitles
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install crawler dependencies
+        run: pip install requests bilibili-api-python
+
+      - name: Restore crawler state
+        uses: actions/cache/restore@v4
+        with:
+          path: .crawler-state
+          key: bili-state-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            bili-state-${{ runner.os }}-
+
+      - name: Verify login secret
+        env:
+          BILI_SESSDATA: ${{ secrets.BILI_SESSDATA }}
+        run: |
+          if [ -z "$BILI_SESSDATA" ]; then
+            echo "::error::Repository secret BILI_SESSDATA is not configured"
+            exit 1
+          fi
+
+      - name: Crawl latest subtitles
+        env:
+          BILI_SESSDATA: ${{ secrets.BILI_SESSDATA }}
+          BILI_DATA_DIR: ${{ github.workspace }}/.crawler-state
+          HERMES_SUBTITLE_DIR: ${{ github.workspace }}/subtitles
+          BILI_VIDEOS_PER_UP: "5"
+          TZ: Asia/Shanghai
+        run: python3 scripts/bilibili-tracker.py > crawl-result.json
+
+      - name: Rebuild subtitle indexes
+        run: python3 scripts/build-subtitle-index.py
+
+      - name: Save crawler state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .crawler-state
+          key: bili-state-${{ runner.os }}-${{ github.run_id }}
+
+      - name: Commit subtitle updates
+        run: |
+          git config user.name "hermes-subtitle-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add subtitles/
+          if git diff --cached --quiet; then
+            echo "No subtitle changes"
+            exit 0
+          fi
+          git commit -m "自动抓取B站字幕 $(TZ=Asia/Shanghai date +%F)"
+          git pull --rebase origin main
+          git push origin HEAD:main
