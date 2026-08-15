@@ -1,12 +1,21 @@
 #!/usr/bin/env python3
 """B站UP主视频追踪 + AI字幕提取（cookie过期自动刷新）"""
-import browser_cookie3, requests, json, os, hashlib, time
+import requests, json, os, hashlib, time, sys
 from datetime import datetime
+
+try:
+    import browser_cookie3
+except ImportError:
+    browser_cookie3 = None
 from urllib.parse import urlencode
 from bilibili_api import user, sync
 
 UP_MASTERS = {
     "趋势天哥": 1372241958,
+    "奇点财情": 336730296,
+    "财经高一截": 269571531,
+    "趋势风哥": 613230878,
+    "邪修炒股笔记": 3546826766551823,
     "老柯复盘": 3546635351099881,
     "老丁逃顶": 1665414890,
     "笨笨的韭菜": 11473291,
@@ -17,12 +26,12 @@ UP_MASTERS = {
     "研报平权": 1646212867,
     "美股研报cc": 3706976613697550,
 }
-DATA_DIR = os.path.expanduser("~/.hermes/data/bilibili")
+DATA_DIR = os.path.expanduser(os.environ.get("BILI_DATA_DIR", "~/.hermes/data/bilibili"))
 STATE_FILE = os.path.join(DATA_DIR, "processed.json")
-COOKIE_FILE = os.path.join(DATA_DIR, "cookies.json")
-REPORT_DIR = os.path.expanduser("~/Desktop/hermes/研报")
-VIDEOS_PER_UP = 10
-CUTOFF_DATE = "2026-05-28"  # 只追踪此日期之后的视频
+COOKIE_FILE = os.path.expanduser(os.environ.get("BILI_COOKIE_FILE", os.path.join(DATA_DIR, "cookies.json")))
+REPORT_DIR = os.path.expanduser(os.environ.get("HERMES_REPORT_DIR", "~/Desktop/hermes/研报"))
+VIDEOS_PER_UP = int(os.environ.get("BILI_VIDEOS_PER_UP", "10"))
+CUTOFF_DATE = os.environ.get("BILI_CUTOFF_DATE", "2026-05-28")  # 可由环境变量覆盖
 
 MIXIN_ENC = [46,47,18,2,53,8,23,32,15,50,10,31,58,3,45,35,27,43,5,49,33,9,42,19,29,28,14,39,12,38,41,13,37,48,7,16,24,55,40,61,26,17,0,1,60,51,30,4,22,25,54,21,56,59,6,63,57,62,11,36,20,34,44,52]
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36', 'Referer': 'https://www.bilibili.com'}
@@ -36,6 +45,8 @@ _sessdata_tried_refresh = False
 def refresh_sessdata():
     """自动从Chrome刷新cookie，成功则保存到文件"""
     global _sessdata
+    if browser_cookie3 is None:
+        return False
     try:
         cj = browser_cookie3.chrome(domain_name='bilibili.com')
         for c in cj:
@@ -52,7 +63,8 @@ def refresh_sessdata():
 def get_sessdata():
     global _sessdata
     if _sessdata is None:
-        if os.path.exists(COOKIE_FILE):
+        _sessdata = os.environ.get("BILI_SESSDATA", "").strip()
+        if not _sessdata and os.path.exists(COOKIE_FILE):
             with open(COOKIE_FILE) as f:
                 _sessdata = json.load(f).get("SESSDATA", "")
         if not _sessdata:
@@ -85,6 +97,7 @@ def fetch_videos(uid):
             "title": v.get("title", ""),
             "pubtime": pubtime,
             "pubdate": datetime.fromtimestamp(pubtime).strftime("%m-%d") if pubtime else "?",
+            "date": datetime.fromtimestamp(pubtime).strftime("%Y-%m-%d") if pubtime else datetime.now().strftime("%Y-%m-%d"),
         })
     return results
 
@@ -93,6 +106,7 @@ def fetch_subtitle(bvid):
     global _sessdata_tried_refresh
     sessdata = get_sessdata()
     if not sessdata:
+        print(f"[WARN] 缺少B站登录态，无法抓取 {bvid}", file=sys.stderr)
         return None
     try:
         r = requests.get(f'https://api.bilibili.com/x/web-interface/view?bvid={bvid}',
@@ -164,6 +178,7 @@ def main():
     for name, uid in UP_MASTERS.items():
         videos = fetch_videos(uid)
         processed = set(state.get(str(uid), []))
+        successful_bvids = []
         
         for v in videos:
             # 跳过5/28之前的视频
@@ -176,12 +191,12 @@ def main():
                 v["has_subtitle"] = sub is not None
                 # 保存完整字幕到文件
                 if sub:
-                    today = datetime.now().strftime("%Y-%m-%d")
-                    save_subtitle_file(today, name, v["title"], sub)
+                    save_subtitle_file(v["date"], name, v["title"], sub)
+                    successful_bvids.append(v["bvid"])
                 new_videos.append(v)
         
-        all_bvids = [v["bvid"] for v in videos]
-        state[str(uid)] = list(dict.fromkeys(list(processed) + all_bvids))[-200:]
+        # 只有字幕成功落盘才标记完成；B站AI字幕晚生成时，后续任务会继续补抓。
+        state[str(uid)] = list(dict.fromkeys(list(processed) + successful_bvids))[-200:]
     
     save_state(state)
     
