@@ -8,20 +8,41 @@ Hermes 服务器把 B 站原始字幕和已有结构化 JSON 同步到此私有�
 - `data/`：Hermes 已生成的结构化 JSON（辅助来源）
 - `reports/hermes/`：Hermes 自有报告
 - `reports/chatgpt/YYYY-MM-DD/`：ChatGPT 生成的 `report.json` 与 `report.md`
+- `scripts/bilibili-tracker.py`：追踪UP主并抓取B站AI字幕
 - `scripts/sync.sh`：服务器同步脚本
 
 ## 推荐时序（北京时间）
 
 1. 交易日收盘后，市场温度仓库更新一次腾讯行情宽度数据。
-2. 22:15，Hermes 服务器运行 `scripts/sync.sh`，全量重建当天字幕索引并推送。
-3. 22:35，ChatGPT 定时任务读取全部字幕、校验清单和 SHA-256，然后生成当日研报。
-4. 周日 22:35，任务合并读取周六、周日字幕，去重后生成周末版研报。
+2. 22:00，Hermes 服务器运行 `scripts/bilibili-tracker.py`，追踪新视频并抓取AI字幕。
+3. 22:15，Hermes 服务器运行 `scripts/sync.sh`，全量重建当天字幕索引并推送。
+4. 22:35，ChatGPT 定时任务读取全部字幕、校验清单和 SHA-256，然后生成当日研报并同步网页。
+5. 周日 22:35，任务合并读取周六、周日字幕，去重后生成周末版研报。
 
 服务器 cron 需要单独配置；仅把脚本提交到仓库不会自动创建或修复服务器上的 cron。
+
+## 字幕抓取配置
+
+登录态只保存在服务器，不写入 GitHub。脚本按以下优先级读取：
+
+1. 环境变量 `BILI_SESSDATA`
+2. `~/.hermes/data/bilibili/cookies.json`
+3. 服务器本机 Chrome Cookie（仅安装并可读取 `browser_cookie3` 时）
+
+推荐的 Cookie 文件格式：
+
+```json
+{"SESSDATA":"在服务器本地填写，禁止提交到GitHub"}
+```
+
+脚本只把 Cookie 发送给 `api.bilibili.com`；下载独立字幕文件时不携带 Cookie。未生成字幕的视频不会被提前标记完成，后续运行会继续补抓。
 
 ## 手动运行
 
 ```bash
+# 抓取新视频字幕
+python3 scripts/bilibili-tracker.py
+
 # 默认使用北京时间当天
 bash scripts/sync.sh
 
