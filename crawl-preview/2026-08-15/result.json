@@ -1,0 +1,14 @@
+{
+  "schema_version": "public-crawl-preview/1.0",
+  "target_date": "2026-08-15",
+  "started_at": "2026-08-15T20:32:57.976063+08:00",
+  "tracked_up_count": 17,
+  "cookie_used": false,
+  "videos": [],
+  "up_status": [],
+  "blocked": true,
+  "fatal_error": "nav: code=-101 账号未登录",
+  "finished_at": "2026-08-15T20:32:58.703980+08:00",
+  "today_video_count": 0,
+  "subtitle_count": 0
+}
