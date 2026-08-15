@@ -30,6 +30,7 @@ DATA_DIR = os.path.expanduser(os.environ.get("BILI_DATA_DIR", "~/.hermes/data/bi
 STATE_FILE = os.path.join(DATA_DIR, "processed.json")
 COOKIE_FILE = os.path.expanduser(os.environ.get("BILI_COOKIE_FILE", os.path.join(DATA_DIR, "cookies.json")))
 REPORT_DIR = os.path.expanduser(os.environ.get("HERMES_REPORT_DIR", "~/Desktop/hermes/研报"))
+SUBTITLE_DIR = os.path.expanduser(os.environ.get("HERMES_SUBTITLE_DIR", os.path.join(REPORT_DIR, "字幕")))
 VIDEOS_PER_UP = int(os.environ.get("BILI_VIDEOS_PER_UP", "10"))
 CUTOFF_DATE = os.environ.get("BILI_CUTOFF_DATE", "2026-05-28")  # 可由环境变量覆盖
 
@@ -150,7 +151,7 @@ def fetch_subtitle(bvid):
 
 def save_subtitle_file(date_str, up_name, title, text):
     """保存完整原始字幕到文件"""
-    dir_path = os.path.join(REPORT_DIR, "字幕", date_str)
+    dir_path = os.path.join(SUBTITLE_DIR, date_str)
     os.makedirs(dir_path, exist_ok=True)
     safe_title = title.replace("/", "-").replace(":", "：")[:50]
     filepath = os.path.join(dir_path, f"{up_name}-{safe_title}.txt")
