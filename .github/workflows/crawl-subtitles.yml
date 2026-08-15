@@ -2,9 +2,6 @@ name: Crawl Bilibili subtitles
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 11 * * 1-5"
-    - cron: "0 11 * * 0"
 
 permissions:
   contents: write
