@@ -85,8 +85,14 @@ def api_json(url: str, *, stage: str, params: dict[str, Any] | None = None) -> d
 
 
 def get_mixin_key() -> str:
-    payload = api_json("https://api.bilibili.com/x/web-interface/nav", stage="nav")
-    wbi = payload["data"]["wbi_img"]
+    # The public nav endpoint can return code=-101 (not logged in) while still
+    # providing the WBI image keys needed for anonymous read-only requests.
+    response = SESSION.get("https://api.bilibili.com/x/web-interface/nav", timeout=20)
+    response.raise_for_status()
+    payload = response.json()
+    wbi = payload.get("data", {}).get("wbi_img")
+    if not wbi:
+        raise BiliApiError("nav", payload.get("code", "missing"), payload.get("message", "missing wbi_img"))
     img_key = wbi["img_url"].rsplit("/", 1)[-1].split(".", 1)[0]
     sub_key = wbi["sub_url"].rsplit("/", 1)[-1].split(".", 1)[0]
     joined = img_key + sub_key
