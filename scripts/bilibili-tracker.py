@@ -11,11 +11,14 @@ from urllib.parse import urlencode
 from bilibili_api import user, sync
 
 UP_MASTERS = {
-    "趋势天哥": 1372241958,
+    "常士杉": 3706937791219923,
     "财经高一截": 269571531,
-    "趋势风哥": 613230878,
-    "老柯复盘": 3546635351099881,
+    "ETF战法": 3546854339905896,
+    "趋势耿鬼": 3546761960360178,
     "李长胜621": 19239427,
+    "老柯复盘": 3546635351099881,
+    "趋势风哥": 613230878,
+    "趋势天哥": 1372241958,
 }
 DATA_DIR = os.path.expanduser(os.environ.get("BILI_DATA_DIR", "~/.hermes/data/bilibili"))
 STATE_FILE = os.path.join(DATA_DIR, "processed.json")
