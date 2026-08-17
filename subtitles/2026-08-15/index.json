@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-08-15",
+  "generated_at": "2026-08-17T08:29:08.656971+08:00",
+  "total": 1,
+  "rejected": 0,
+  "source_directory": "subtitles/2026-08-15",
+  "entries": [
+    {
+      "source": "李长胜621-中国股市教科书级别电视剧股市情潮第十三集解说 交易市场不能让他人代劳.txt",
+      "up_name": "李长胜621",
+      "title": "中国股市教科书级别电视剧股市情潮第十三集解说 交易市场不能让他人代劳",
+      "repository_path": "subtitles/2026-08-15/李长胜621-中国股市教科书级别电视剧股市情潮第十三集解说 交易市场不能让他人代劳.txt",
+      "format": "txt",
+      "size_bytes": 24264,
+      "sha256": "e6d6ab4f2b3632f876b65793423a74f5028bed08a068a06b59cfa929b85814ee"
+    }
+  ]
+}

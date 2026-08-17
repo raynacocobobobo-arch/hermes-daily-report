@@ -1,0 +1,100 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-08-12",
+  "generated_at": "2026-08-17T08:29:08.653844+08:00",
+  "total": 10,
+  "rejected": 0,
+  "source_directory": "subtitles/2026-08-12",
+  "entries": [
+    {
+      "source": "ETF战法-8月12号—继续上攻，顺势而为，明天策略.txt",
+      "up_name": "ETF战法",
+      "title": "8月12号—继续上攻，顺势而为，明天策略",
+      "repository_path": "subtitles/2026-08-12/ETF战法-8月12号—继续上攻，顺势而为，明天策略.txt",
+      "format": "txt",
+      "size_bytes": 10561,
+      "sha256": "a76663f5a463a8c71d9b5826dd385fdb7b4081939ec705ad306b7139ad0ac184"
+    },
+    {
+      "source": "常士杉-【私募一哥常士杉8.12直播】8月下旬全面进攻的号角吹响了？美股放下包袱继续前进？.txt",
+      "up_name": "常士杉",
+      "title": "【私募一哥常士杉8.12直播】8月下旬全面进攻的号角吹响了？美股放下包袱继续前进？",
+      "repository_path": "subtitles/2026-08-12/常士杉-【私募一哥常士杉8.12直播】8月下旬全面进攻的号角吹响了？美股放下包袱继续前进？.txt",
+      "format": "txt",
+      "size_bytes": 27729,
+      "sha256": "b0e4c18c6432781bce854dbe78ef46fd51e6836b697f7ab14237583abbedb0f4"
+    },
+    {
+      "source": "常士杉-【私募一哥常士杉8.12直播】美股放下包袱继续前进，当前A股港股市场温度深度解析.txt",
+      "up_name": "常士杉",
+      "title": "【私募一哥常士杉8.12直播】美股放下包袱继续前进，当前A股港股市场温度深度解析",
+      "repository_path": "subtitles/2026-08-12/常士杉-【私募一哥常士杉8.12直播】美股放下包袱继续前进，当前A股港股市场温度深度解析.txt",
+      "format": "txt",
+      "size_bytes": 7240,
+      "sha256": "ef1d1f0655c1cf5c8e1c59acecfeb5871dc2e1d19a291da54bd5568dfa9e03fa"
+    },
+    {
+      "source": "李长胜621-20260812股市午评：个股普涨 大盘比我预测的还要强势 单日阴线调整上攻 乱侃侃悲秋情绪.txt",
+      "up_name": "李长胜621",
+      "title": "20260812股市午评：个股普涨 大盘比我预测的还要强势 单日阴线调整上攻 乱侃侃悲秋情绪",
+      "repository_path": "subtitles/2026-08-12/李长胜621-20260812股市午评：个股普涨 大盘比我预测的还要强势 单日阴线调整上攻 乱侃侃悲秋情绪.txt",
+      "format": "txt",
+      "size_bytes": 8352,
+      "sha256": "29cb41fd814f0cf207b97189e5d2110a22725867c46e331ede59a4648af238ce"
+    },
+    {
+      "source": "李长胜621-20260812股市收评：宽松货币政策再次表态 个股和大盘都还不错 振荡上行态势不改.txt",
+      "up_name": "李长胜621",
+      "title": "20260812股市收评：宽松货币政策再次表态 个股和大盘都还不错 振荡上行态势不改",
+      "repository_path": "subtitles/2026-08-12/李长胜621-20260812股市收评：宽松货币政策再次表态 个股和大盘都还不错 振荡上行态势不改.txt",
+      "format": "txt",
+      "size_bytes": 7156,
+      "sha256": "760f8e49e5d7cd8bd8a871e576b950c86f0fe40f874f49eea3a4a4c60a076916"
+    },
+    {
+      "source": "老柯复盘-投机盛宴，哈药卡异动，百花能否穿越走高度，科技大票量能不足.txt",
+      "up_name": "老柯复盘",
+      "title": "投机盛宴，哈药卡异动，百花能否穿越走高度，科技大票量能不足",
+      "repository_path": "subtitles/2026-08-12/老柯复盘-投机盛宴，哈药卡异动，百花能否穿越走高度，科技大票量能不足.txt",
+      "format": "txt",
+      "size_bytes": 7509,
+      "sha256": "d5a599ceabcdb07f246162b149762370f16e5643b81bb0d442fe2ed41087af03"
+    },
+    {
+      "source": "财经高一截-修复，来了！明后天，检验成色！.txt",
+      "up_name": "财经高一截",
+      "title": "修复，来了！明后天，检验成色！",
+      "repository_path": "subtitles/2026-08-12/财经高一截-修复，来了！明后天，检验成色！.txt",
+      "format": "txt",
+      "size_bytes": 2977,
+      "sha256": "ba17283621743633ddc94e89ce4435fcf030ec5f201963c930efc100bdfda95a"
+    },
+    {
+      "source": "趋势天哥-电风扇行情还在持续！A股轮动再次加速，光芯片巨头财报超预期.txt",
+      "up_name": "趋势天哥",
+      "title": "电风扇行情还在持续！A股轮动再次加速，光芯片巨头财报超预期",
+      "repository_path": "subtitles/2026-08-12/趋势天哥-电风扇行情还在持续！A股轮动再次加速，光芯片巨头财报超预期.txt",
+      "format": "txt",
+      "size_bytes": 5414,
+      "sha256": "d63e3cc3b777cdb986a2853cb72073ebecddd026d8cb30af94c39daf5b7e6a42"
+    },
+    {
+      "source": "趋势耿鬼-260812 周三复盘 & 实盘公开.txt",
+      "up_name": "趋势耿鬼",
+      "title": "260812 周三复盘 & 实盘公开",
+      "repository_path": "subtitles/2026-08-12/趋势耿鬼-260812 周三复盘 & 实盘公开.txt",
+      "format": "txt",
+      "size_bytes": 17128,
+      "sha256": "d76cf66d1e01e522ebd043c47eaf3e8cfe9555f5cc4c87afec5c671c8f6bea17"
+    },
+    {
+      "source": "趋势风哥-科技反弹还能持续吗？接下来如何操作，要不要全部撤退？.txt",
+      "up_name": "趋势风哥",
+      "title": "科技反弹还能持续吗？接下来如何操作，要不要全部撤退？",
+      "repository_path": "subtitles/2026-08-12/趋势风哥-科技反弹还能持续吗？接下来如何操作，要不要全部撤退？.txt",
+      "format": "txt",
+      "size_bytes": 7643,
+      "sha256": "d4b533ca9460e6c6490cbe4c3e0f723c677f4fefe3491ea390991d0325d8551d"
+    }
+  ]
+}

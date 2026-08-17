@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-08-09",
+  "generated_at": "2026-08-17T08:29:08.645918+08:00",
+  "total": 1,
+  "rejected": 0,
+  "source_directory": "subtitles/2026-08-09",
+  "entries": [
+    {
+      "source": "老柯复盘-指数继续超预期反弹，医药，投机，ai科技各自走强，市场良性上涨.txt",
+      "up_name": "老柯复盘",
+      "title": "指数继续超预期反弹，医药，投机，ai科技各自走强，市场良性上涨",
+      "repository_path": "subtitles/2026-08-09/老柯复盘-指数继续超预期反弹，医药，投机，ai科技各自走强，市场良性上涨.txt",
+      "format": "txt",
+      "size_bytes": 10222,
+      "sha256": "5ab32a9c0a857a5fa0015859ed9ab33604b5628dc6f928965dbd68ba1cf57e1c"
+    }
+  ]
+}

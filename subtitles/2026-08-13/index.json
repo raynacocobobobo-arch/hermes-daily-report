@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-08-13",
+  "generated_at": "2026-08-17T08:29:08.654688+08:00",
+  "total": 9,
+  "rejected": 0,
+  "source_directory": "subtitles/2026-08-13",
+  "entries": [
+    {
+      "source": "ETF战法-8月13号—同志们，不要慌，明天策略.txt",
+      "up_name": "ETF战法",
+      "title": "8月13号—同志们，不要慌，明天策略",
+      "repository_path": "subtitles/2026-08-13/ETF战法-8月13号—同志们，不要慌，明天策略.txt",
+      "format": "txt",
+      "size_bytes": 9582,
+      "sha256": "a7d9f6a4991f81dd3da93c0ad4e143c70768d0d5e5cd5a4e57352e4dd0f65468"
+    },
+    {
+      "source": "常士杉-【私募一哥常士杉8.13直播】中国大爱泡沫中洗澡，当前A股港股市场温度深度解析.txt",
+      "up_name": "常士杉",
+      "title": "【私募一哥常士杉8.13直播】中国大爱泡沫中洗澡，当前A股港股市场温度深度解析",
+      "repository_path": "subtitles/2026-08-13/常士杉-【私募一哥常士杉8.13直播】中国大爱泡沫中洗澡，当前A股港股市场温度深度解析.txt",
+      "format": "txt",
+      "size_bytes": 8294,
+      "sha256": "e16c27ae6033f04a03f1e63c945aa861e6ab386e51e3d291632ec2894a922981"
+    },
+    {
+      "source": "常士杉-【私募一哥常士杉8.13直播】财报季利空或将出尽，美股科技继续走趋势？！无法心安的估值，中国大爱只能.txt",
+      "up_name": "常士杉",
+      "title": "【私募一哥常士杉8.13直播】财报季利空或将出尽，美股科技继续走趋势？！无法心安的估值，中国大爱只能在泡沫中洗澡！",
+      "repository_path": "subtitles/2026-08-13/常士杉-【私募一哥常士杉8.13直播】财报季利空或将出尽，美股科技继续走趋势？！无法心安的估值，中国大爱只能.txt",
+      "format": "txt",
+      "size_bytes": 37610,
+      "sha256": "a09f627d4cf5cd36fb54b03b9a40bc41a64dd318ed5e092c90527eaa9a1cf254"
+    },
+    {
+      "source": "李长胜621-20260813股市早评：注意压力位和明日多空争夺 今天和星期五我休息 你们自己把握走势.txt",
+      "up_name": "李长胜621",
+      "title": "20260813股市早评：注意压力位和明日多空争夺 今天和星期五我休息 你们自己把握走势",
+      "repository_path": "subtitles/2026-08-13/李长胜621-20260813股市早评：注意压力位和明日多空争夺 今天和星期五我休息 你们自己把握走势.txt",
+      "format": "txt",
+      "size_bytes": 2094,
+      "sha256": "baca2d5cb10daced5f029eb7cd655ff6c4bdfd88dd987818ba225b4bfc2e2681"
+    },
+    {
+      "source": "老柯复盘-指数经典高开低走，投机继续强，百花断板，后续投机面临强分歧.txt",
+      "up_name": "老柯复盘",
+      "title": "指数经典高开低走，投机继续强，百花断板，后续投机面临强分歧",
+      "repository_path": "subtitles/2026-08-13/老柯复盘-指数经典高开低走，投机继续强，百花断板，后续投机面临强分歧.txt",
+      "format": "txt",
+      "size_bytes": 9034,
+      "sha256": "328ce5a57fa4dc41284d8ab39e9a990afcb0b0b81729efb09addd5335e01486e"
+    },
+    {
+      "source": "财经高一截-成色，不足！再跌，要考虑防守！.txt",
+      "up_name": "财经高一截",
+      "title": "成色，不足！再跌，要考虑防守！",
+      "repository_path": "subtitles/2026-08-13/财经高一截-成色，不足！再跌，要考虑防守！.txt",
+      "format": "txt",
+      "size_bytes": 3672,
+      "sha256": "d500d18c62d458905ab4062b5aa8025268ac1a9cfa2118074442f9468b6f35fa"
+    },
+    {
+      "source": "趋势天哥-全球股市大涨，A股为何冲高回落？.txt",
+      "up_name": "趋势天哥",
+      "title": "全球股市大涨，A股为何冲高回落？",
+      "repository_path": "subtitles/2026-08-13/趋势天哥-全球股市大涨，A股为何冲高回落？.txt",
+      "format": "txt",
+      "size_bytes": 4719,
+      "sha256": "bad6a0bfcb1a09d295145c3ba38451e11a14507a26b361a5b4726439d56bd65b"
+    },
+    {
+      "source": "趋势耿鬼-260813 周四复盘 & 实盘公开.txt",
+      "up_name": "趋势耿鬼",
+      "title": "260813 周四复盘 & 实盘公开",
+      "repository_path": "subtitles/2026-08-13/趋势耿鬼-260813 周四复盘 & 实盘公开.txt",
+      "format": "txt",
+      "size_bytes": 13495,
+      "sha256": "217f4a57c358f61a412f9716726f19090ebad87031df14528f4b06918b5366a0"
+    },
+    {
+      "source": "趋势风哥-尾盘突然跳水，原因找到了，接下来还能不能重仓干？.txt",
+      "up_name": "趋势风哥",
+      "title": "尾盘突然跳水，原因找到了，接下来还能不能重仓干？",
+      "repository_path": "subtitles/2026-08-13/趋势风哥-尾盘突然跳水，原因找到了，接下来还能不能重仓干？.txt",
+      "format": "txt",
+      "size_bytes": 6966,
+      "sha256": "aa46407523cdacc0779ee3163a6de87bd81931fd4d703e7e6aeee96613c2b9fb"
+    }
+  ]
+}

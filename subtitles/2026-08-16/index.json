@@ -1,0 +1,46 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-08-16",
+  "generated_at": "2026-08-17T08:29:08.657673+08:00",
+  "total": 4,
+  "rejected": 0,
+  "source_directory": "subtitles/2026-08-16",
+  "entries": [
+    {
+      "source": "ETF战法-8月16号—半导体设备，科创50，半导体，下周策略.txt",
+      "up_name": "ETF战法",
+      "title": "8月16号—半导体设备，科创50，半导体，下周策略",
+      "repository_path": "subtitles/2026-08-16/ETF战法-8月16号—半导体设备，科创50，半导体，下周策略.txt",
+      "format": "txt",
+      "size_bytes": 7450,
+      "sha256": "413720e5b4ebb1e4ab83e2faaf19b3710e2594ddfa28d4234b9e6e8f298817de"
+    },
+    {
+      "source": "ETF战法-8月16号—通信cpo，人工智能，下周策略.txt",
+      "up_name": "ETF战法",
+      "title": "8月16号—通信cpo，人工智能，下周策略",
+      "repository_path": "subtitles/2026-08-16/ETF战法-8月16号—通信cpo，人工智能，下周策略.txt",
+      "format": "txt",
+      "size_bytes": 8372,
+      "sha256": "4734e01b92887ea92af54119f4e725e9540651992b8e5a70db09ac1c1dc17e3c"
+    },
+    {
+      "source": "李长胜621-20260814股市收评：虽然反弹但仅仅能谨慎看多.txt",
+      "up_name": "李长胜621",
+      "title": "20260814股市收评：虽然反弹但仅仅能谨慎看多",
+      "repository_path": "subtitles/2026-08-16/李长胜621-20260814股市收评：虽然反弹但仅仅能谨慎看多.txt",
+      "format": "txt",
+      "size_bytes": 5424,
+      "sha256": "53ca27627cc19125667cb36847896d9208c013514f3d1ae568c4ce9dea0ae482"
+    },
+    {
+      "source": "老柯复盘-连板中位大面横飞，小心高位继续退潮，科技反弹继续可以看.txt",
+      "up_name": "老柯复盘",
+      "title": "连板中位大面横飞，小心高位继续退潮，科技反弹继续可以看",
+      "repository_path": "subtitles/2026-08-16/老柯复盘-连板中位大面横飞，小心高位继续退潮，科技反弹继续可以看.txt",
+      "format": "txt",
+      "size_bytes": 9167,
+      "sha256": "3b0fd39c3b866ea1f05c57d1a0620ebfe25a4c9a4381ab828a679c06addcc04e"
+    }
+  ]
+}

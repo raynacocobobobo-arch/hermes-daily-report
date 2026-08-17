@@ -1,0 +1,64 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-08-10",
+  "generated_at": "2026-08-17T08:29:08.651119+08:00",
+  "total": 6,
+  "rejected": 0,
+  "source_directory": "subtitles/2026-08-10",
+  "entries": [
+    {
+      "source": "常士杉-【私募一哥常士杉8.10直播】中国大爱无声低调迎宇树？全球股市反弹或已进入深水区，短期随时会爆！.txt",
+      "up_name": "常士杉",
+      "title": "【私募一哥常士杉8.10直播】中国大爱无声低调迎宇树？全球股市反弹或已进入深水区，短期随时会爆！",
+      "repository_path": "subtitles/2026-08-10/常士杉-【私募一哥常士杉8.10直播】中国大爱无声低调迎宇树？全球股市反弹或已进入深水区，短期随时会爆！.txt",
+      "format": "txt",
+      "size_bytes": 28479,
+      "sha256": "46061110d7d31f3a35ec942fa7e244cc720a15c7ee2b0703c5f8800dc8377e61"
+    },
+    {
+      "source": "老柯复盘-上证指数继续走强，市场继续良性向上，上半月积极看多.txt",
+      "up_name": "老柯复盘",
+      "title": "上证指数继续走强，市场继续良性向上，上半月积极看多",
+      "repository_path": "subtitles/2026-08-10/老柯复盘-上证指数继续走强，市场继续良性向上，上半月积极看多.txt",
+      "format": "txt",
+      "size_bytes": 7752,
+      "sha256": "97a3f23324eaea0466eb032c24125e9adc23f209c7ec5448cea79926fbbaccd7"
+    },
+    {
+      "source": "财经高一截-警惕，警惕，短期可能要降温！.txt",
+      "up_name": "财经高一截",
+      "title": "警惕，警惕，短期可能要降温！",
+      "repository_path": "subtitles/2026-08-10/财经高一截-警惕，警惕，短期可能要降温！.txt",
+      "format": "txt",
+      "size_bytes": 4597,
+      "sha256": "63249642cce68e311ab44887873037f10f4d89382b0bc25c2a6afb6850659ffc"
+    },
+    {
+      "source": "趋势天哥-双创指数小幅调整，科技行情结束了吗？.txt",
+      "up_name": "趋势天哥",
+      "title": "双创指数小幅调整，科技行情结束了吗？",
+      "repository_path": "subtitles/2026-08-10/趋势天哥-双创指数小幅调整，科技行情结束了吗？.txt",
+      "format": "txt",
+      "size_bytes": 4609,
+      "sha256": "9a3bf46a8ed46426a7e44a2b675606d72677e4c2b0f82de52681ad6a9d454848"
+    },
+    {
+      "source": "趋势耿鬼-260810 周一复盘 & 实盘公开.txt",
+      "up_name": "趋势耿鬼",
+      "title": "260810 周一复盘 & 实盘公开",
+      "repository_path": "subtitles/2026-08-10/趋势耿鬼-260810 周一复盘 & 实盘公开.txt",
+      "format": "txt",
+      "size_bytes": 15098,
+      "sha256": "73e7dfeaa5db9b080a70a52f187e12f29e058a0ad327f1272c8da2f98c1217c8"
+    },
+    {
+      "source": "趋势风哥-切换轮动行情，科技、创新药、有色这些核心方向节奏不要做错了！.txt",
+      "up_name": "趋势风哥",
+      "title": "切换轮动行情，科技、创新药、有色这些核心方向节奏不要做错了！",
+      "repository_path": "subtitles/2026-08-10/趋势风哥-切换轮动行情，科技、创新药、有色这些核心方向节奏不要做错了！.txt",
+      "format": "txt",
+      "size_bytes": 8157,
+      "sha256": "71c119d5468aa8b2399b9688a521227c456e5cb583baa23239facbfb6fa9ac85"
+    }
+  ]
+}
