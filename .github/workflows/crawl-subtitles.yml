@@ -2,6 +2,13 @@ name: Crawl Bilibili subtitles
 
 on:
   workflow_dispatch:
+  schedule:
+    # 北京时间工作日 19:00。非交易日由上游自动化跳过，本工作流保持幂等。
+    - cron: "0 11 * * 1-5"
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/crawl-subtitles.yml
 
 permissions:
   contents: write
