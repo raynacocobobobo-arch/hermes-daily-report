@@ -10,6 +10,7 @@ Hermes 服务器把 B 站原始字幕和已有结构化 JSON 同步到此私有�
 - `reports/chatgpt/YYYY-MM-DD/`：ChatGPT 生成的 `report.json` 与 `report.md`
 - `scripts/bilibili-tracker.py`：追踪UP主并抓取B站AI字幕
 - `scripts/sync.sh`：服务器同步脚本
+- `scripts/save-chatgpt-report.py`：接收 ChatGPT 生成的 Hermes Daily Research，并保存为 `reports/chatgpt/YYYY-MM-DD/report.md`
 
 ## 自动时序（北京时间）
 
@@ -50,6 +51,29 @@ bash scripts/sync.sh 2026-08-07
 ```
 
 可用 `HERMES_REPO_DIR`、`HERMES_SOURCE_JSON`、`HERMES_SOURCE_SUB`、`HERMES_SSH_KEY` 覆盖服务器路径。
+
+## 保存 ChatGPT 日报
+
+ChatGPT 生成 Hermes Daily Research 后，把 markdown 传给保存脚本：
+
+```bash
+# 默认保存到北京时间当天
+python3 scripts/save-chatgpt-report.py < /tmp/hermes-daily-research.md
+
+# 指定日期
+python3 scripts/save-chatgpt-report.py --date 2026-08-23 --input /tmp/hermes-daily-research.md
+
+# 云端自动提交并推送
+python3 scripts/save-chatgpt-report.py --date 2026-08-23 --input /tmp/hermes-daily-research.md --commit --push
+```
+
+输出路径固定为：
+
+```text
+reports/chatgpt/YYYY-MM-DD/report.md
+```
+
+该脚本只保存 ChatGPT 生成的日报，不抓取字幕，不生成研究输入，也不改采集流程。
 
 ## 同步保证
 
