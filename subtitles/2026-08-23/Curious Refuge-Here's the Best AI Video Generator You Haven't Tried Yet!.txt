@@ -1,0 +1,436 @@
+UP主：Curious Refuge
+标题：Here's the Best AI Video Generator You Haven't Tried Yet!
+链接：https://www.youtube.com/watch?v=aA_AFy-GDwo
+
+Last week, SeaDance 2.5 launched and
+gave us the ability to generate videos
+up to 30 seconds long. Well, a brand new
+AI video generator is looking to take it
+to another level. Waifu 3.0 is here, and
+with it, you now have the ability to
+upload images, videos, audio clips,
+documents, scripts, and even websites
+inside the AI video generator. So, in
+this video, we're going to take a look
+at Waifu 3.0 and see how good it is.
+We'll also compare it against other AI
+video tools on the market to see how it
+stacks up. If you're not already
+familiar with Waifu, it is an AI video
+model that has been around for a little
+while, but this 3.0 release is just the
+newest version. Now, Waifu 2.2 and
+before are all open-waited, meaning you
+have the ability to download those video
+models to your machine and run them
+locally. Essentially, you can generate
+AI videos for free. Now, one thing I do
+want to mention is there's only one
+place that you can go to to generate
+Waifu 3.0 at this time. And if you go to
+Google and type in Waifu 3.0, you will
+more than likely go to a fake website
+that's actually generating in some sort
+of different AI video generation tool,
+but tricking you into thinking that it
+is actually Waifu 3.0. So, for example,
+I'm on this website right now that says
+Waifu 30ai.com,
+and you see it says Waifu 3.0 at the
+top, try Waifu 3.0, and the videos that
+are generated on this platform were not
+generated with Waifu 3.0. This is a fake
+website, and it will more than likely
+steal your information. So, I highly
+recommend only directly generating with
+Waifu, or when you see Waifu on a major
+aggregator like Magnific or Cria, then
+you can rest assured knowing that it is
+the actual model and your credit card
+information is safe. So, inside of 1
+3.0, like I said, you have the ability
+to upload up to 10 reference images,
+five video clips, five audio clips, and
+then you also have the ability to bring
+in documents and websites into your
+video generations. The model has the
+ability to generate video clips up to 30
+seconds long in up to 1080p. Now, in
+terms of overall cost, 1 3.0 really
+depends on how long your video
+generation is and how much resolution
+you want. So, like I said, you have the
+ability to generate a video clip in
+1080p up to 30 seconds long, in which
+case it would cost you about $5 to
+generate each shot. Now, if you brought
+that down to 720p for 30 seconds, it
+would cost you about $3. But, if you
+compare it against Seedance 2.5, the
+same generation in Seedance 2.5 at 720p
+would cost about $13 for a 30-second
+clip. So, it's about four times cheaper
+than Seedance 2.5 and two times cheaper
+than Seedance 2.0. So, to create a video
+clip inside of 1 3.0, we are on
+create.1.video
+fantastic URL guys, and there is a
+generation section at the very bottom,
+and you can see we are in the omni
+generation model because 1 3.0 is an
+omni model, meaning you can upload
+different assets into a single location.
+Now, in terms of media, for this
+example, we have a few different images.
+We have this image of a shopkeeper, we
+have this woman in a red dress, we have
+our main character. Again, these are
+character sheets generated in Chat
+GPT-2,
+and then we have just a bunch of other
+supporting assets for location and
+different things that we want to see
+around this antique market. Now, to
+upload the media, all you have to do is
+select the media icon here and you can
+select choose from history or upload
+from device. And from there, we
+explained what we wanted the AI tool to
+do. So, we said use image number three
+as a reference for Isaac, who is the
+main character of our scene. Use image
+one as a reference for Marcus. You get
+the point. We went in and defined what
+we want each object or character sheet
+to represent in the final generation.
+And then we typed in a very long prompt
+where we called for each object
+throughout the entire scene and broke
+down what we wanted to see. Now, if you
+go to the paperclip icon, you have the
+ability to bring in a text file or a URL
+for a website, which is pretty cool. I
+haven't seen a website before inside
+these Omni models, but I would imagine
+it's basically going to be industry
+standard moving forward. Now, under the
+regular settings here, you can see we
+are in a 16 by 9 format in 1080p and we
+changed the duration to 30 seconds long
+because we want to see the full scene
+here. And they also have this smart
+duration, which is pretty cool,
+especially if there's a little bit of
+flexibility in what you want your final
+shot to be like. I kind of like that
+because a lot of times you're paying for
+some seconds that you're not actually
+using in the final generation and it can
+use the AI system to really just charge
+you exactly what you are generating. And
+we have to generate audio natively
+inside the video clip, which is kind of
+industry standard at this point, but
+cool to see that it's in the platform.
+And when you're ready, go ahead and hit
+generate. So, the generations from One
+are taking a while, but it kind of makes
+sense because this model just launched,
+but in most of our test, it took about
+30 minutes. So, you've been warned. And
+here was our result from One
+Okay, I mean, that was a fairly
+impressive generation. There are some
+weird parts happening throughout the
+scene, but I think it did a pretty good
+job. Now, a few funny parts kind of
+stick out. Like, the guy definitely
+seems like he's almost Hugh Jackman, but
+not Hugh Jackman. And the shop owner
+also looks like Steven Spielberg, but
+not Steven Spielberg. So,
+uh clearly pulling from some
+questionable training data, but it did a
+really good job at defining the
+environment based on the uploaded
+reference image. And a lot of these
+supporting details, like the objects
+inside the antique market, were defined
+in the images that we uploaded. And in
+many ways, I actually think in this
+regard, it did a better job than
+SeeDance 2.5. So, in SeeDance 2.5, this
+is what we got. And you can see that
+it's slightly different.
+Okay, maybe I'm confused. Maybe this is
+actually uh just some footage from the
+new Green Lantern reboot series.
+So, you can see SeeDance definitely took
+some creative liberties there. And all
+together, the artifacting inside of
+Seedance was actually worse than what we
+saw inside of One 3.0.
+I do think that the camera movements
+were more interesting and dynamic inside
+of Seedance. But in this specific test,
+I actually think One 3.0 did a better
+job. And again, this was four times
+cheaper than 2.5. Now, let's really push
+this with a few different examples here.
+So, I have a character sheet of Adam,
+who is one of our lead researchers here
+at Curious Refuge. We have an alien, and
+we have just a bunch of supporting
+images for a scene that we want to
+unfold. Basically, we want Adam running
+away from the aliens, and in the end,
+the aliens are out to get him. So, we
+prompted in for a really long prompt
+that I'm not going to read inside of
+this video. Here's what we got inside of
+One.
+Okay, so that's not exactly Adam on our
+team, and there's definitely some
+funkiness going on. What I find to be
+really funny is the fact that this was
+generative AI, but the compositing looks
+like it was like a really bad green
+screen job. So, not the best result from
+One 3.0. And to put in perspective, this
+is what we got from Seedance 2.5, which
+again was not perfect, but the lighting
+and the compositing is just much, much
+more dynamic and interesting inside of
+Seedance. So, in this test, I definitely
+don't think that One did a better job.
+Now, we love testing for emotional
+resonance. So, we have a few different
+character sheets here. We have one of
+Shelby and one of me, and we want there
+to be just a really dramatic emotional
+scene inside of this coffee shop. And
+again, this was generated from a single
+generation, and this is what we got
+inside of 1 3.0.
+>> I've been trying to figure out how to
+say this since Thursday.
+>> I know.
+I've known since March.
+>> March?
+Why didn't you
+>> Because I kept thinking you'd tell me.
+>> I was going to.
+>> Okay, so what's interesting is from an
+emotional resonance perspective, or just
+looking at the people's faces, it's
+actually pretty good. Like, it did a
+decent job.
+But, there are absolutely some wonky
+elements that are going on inside of the
+frame. Like, the window magically turned
+into a mirror that was like really close
+to the main characters.
+Uh the continuity completely changed
+from shot to shot. And I should also
+note that it almost goes above and
+beyond when it comes to skin texturing.
+Like, the skin looks almost a little
+overly wrinkled compared to what the
+faces actually look like in real life.
+But, all things considered, one does
+seem like it could pull off a scene that
+does have emotional resonance in a way
+that is very impressive compared to
+other video models on the market. But,
+the big question is, how does it stack
+up against SeedDance? So, we generated
+the same shot inside of SeedDance and
+got this.
+>> I've been trying to figure out how to
+say this since Thursday.
+>> I know.
+I've known since March.
+>> March?
+Why didn't you
+>> Because I kept thinking you'd tell me.
+>> I was going to.
+>> So, yeah. From an emotional resonance
+perspective, I think that Sea Dance 2.5
+is still better. It did do a worse job
+on the text in the background, so you
+probably would want to create that
+initial shot using Sea Dance 2.0, maybe
+in 1080p or 4K, so you get all of the
+fine details that you need for the
+overall scene to not be distracting.
+But, all things considered, I do think
+that Sea Dance 2.5 is still better for
+emotional resonance. Now, let's speed
+run through a few practical tests here.
+So, we have our asteroid shot here. We
+love running this test inside the AI
+video platforms, and we prompted for a
+VFX scene where the car driver is
+running away from the asteroids. This is
+what we got.
+Okay, so some parts are cool. I really
+like the way the explosions happen with
+all the particles. That's very
+impressive. But, if you compare it
+against Sea Dance, I really don't feel
+like it did an amazing job. So, from a
+visual effects perspective, Wand 3.0 is
+a bit iffy. Now, we have this image of a
+samurai guy here, and we wanted to
+prompt for a scene of him fighting. This
+is what we got inside of Wand 3.0.
+And I'm going to have to cut before he
+gets that guy there because I'm pretty
+sure this video would be flagged on
+YouTube if I showed you.
+But, that's one thing to note, it does
+seem like you can generate action scenes
+with maybe a little bit of gore, which
+might run into content filters on other
+platforms. Now, if you compare that
+against SeaDance 2.5, this is what we
+got from 2.5.
+I love how the arrows are floating in
+the scene there throughout the entire
+shot. The AI system was like, "Why did
+the reference image have arrows just
+suspended in the air? I guess it's what
+they want." And it just kept it there,
+which is great. Now, I want to do
+another test here. So, we have this
+image of like this like maybe like real
+steel-esque type of scene of this guy
+fighting a robot, and we generated for a
+multi-shot composition inside of Wand
+3.0. That gave us this.
+Those ropes turned into wood there, and
+uh the continuity between shots is very
+questionable at best. And again, if you
+compare it against these same generation
+from SeaDance 2.5, it's not really
+close. So, those are some cinematic
+examples. Let's take a look at a few
+practical examples for day-to-day work.
+So, let's say that you wanted to create
+an advertisement for a mug. So, I'm
+going to take those same two character
+reference images of Shelby and myself
+and we'll prompt for an entire
+commercial inside of Waon 3.0.
+Okay, you get the idea. And again, if we
+compare it against the same generation
+inside of SeaDance 2.5, SeaDance is by
+no means perfect as well. And so, some
+of the shots are totally usable inside
+of Waon 3.0, especially if you brought
+them into an AI video up reser and
+smoothed out some of the frames at the
+same time. I think that you would have
+something that was absolutely workable
+and again, four times cheaper. Now,
+let's take a look at lip syncing. Most
+of these online AI video models promise
+some sort of lip syncing component where
+you can upload a character and then have
+their lips match the uploaded audio or
+black reference video. So, I have this
+image of me singing inside a jazz lounge
+and a song that we created inside of
+Suno. And we brought it all together
+inside of Waon and got this.
+>> A little shack of exits and weather
+stars and hunger alive.
+Oh, it's the
+>> Okay, so yeah, it did not do a very good
+job. But, let's compare it against some
+of the other tools on the market. So,
+for the next test, let's take a look at
+the same generation inside of MiniMax
+H3, which was also announced last week.
+I like how there's just like more band
+members as we kind of pan across the
+stage there. Now, the problem is that
+created an entirely new part of the song
+that was not inside the original track.
+So, that would not be usable inside a
+music video experience. Now, inside of
+SeaDance 2.0, which is the older version
+of SeaDance, but still one of our
+recommended AI video models, we got
+this.
+Okay, yeah, it's not perfect. I think
+you would need to run this a few times,
+but it definitely did a better job. So,
+it does seem like the best overall AI
+lip syncing continues to be SeaDance
+2.0. So, with all of these tests behind
+us, the big question is, what is the
+purpose of Waon 3.0 in an AI video
+workflow? From our test, it seems like
+it probably stacks up in second or third
+place depending on some of the features
+that you're looking at, with lip syncing
+being a huge knock against Waon 3.0.
+But, having the ability to generate up
+to 30 seconds long in 1080p is a really
+compelling value proposition. So, when
+you're asking yourself, why would I use
+Waon 3.0 versus Seedance 2.0, it really
+comes down to cost. In a lot of our
+tests, Seedance 2.0 and 2.5 were simply
+better than Waon, but it wasn't a slam
+dunk every single time. And in some
+cases, I do think that Waon did a better
+job. To put it in perspective, to create
+a 15-second long video in 1080p using
+Waon, it costs about $1.50. Inside of
+Minimax H3, it's going to cost about
+$1.95. And if you use Seedance 2.0, it's
+going to cost you about $8. So, the big
+question is, is Waon 3.0 four times
+worse than using Seedance? And in some
+cases, I would say, no. If you have
+establishing shots, if there are
+supporting details, or things that do
+not require specific lip syncing, then
+Waon 3.0 would be a very viable and
+interesting tool to check out. But for
+the shots that really need emotional
+resonance from your characters, which is
+probably a lot of your shots, Seedance
+2.0 and 2.5 are still a better tool,
+albeit more expensive. But that also
+brings up the larger question of Minimax
+H3. Now, the API version of Minimax is
+not as good as Waon 3.0 or Seedance in
+my opinion. But the thing that makes it
+very special is the fact that you do
+have the ability to generate video clips
+using the open-weighted version of the
+application. This means you can download
+it to your machine and run it locally.
+We actually saw an update from the
+Minimax team that said, if you fill out
+a form that you will find a link to
+below this video, you actually can
+generate with the open-weighted version
+of H3 in the United States, EU, UK, and
+South Korea. So, if you're looking for
+the best overall free tool, I highly
+recommend checking out H3. Otherwise, it
+feels like Waon 3.0 lives in this
+in-between space as being a very
+powerful workhorse model, but not quite
+as good as C Dance 2.0 or 2.5. I hope
+you enjoyed this video, and as always,
+if you have any ideas for future
+tutorials here on the channel, be sure
+to let us know in the comments. Thank
+you so much for being an incredible
+member of the community. We'll see you
+in the next one.

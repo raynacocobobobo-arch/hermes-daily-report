@@ -1,8 +1,8 @@
 {
   "schema_version": "2.1",
   "date": "2026-08-23",
-  "generated_at": "2026-08-23T12:49:07+08:00",
-  "total": 22,
+  "generated_at": "2026-08-23T14:13:43.646958",
+  "total": 34,
   "rejected": 0,
   "source_directory": "subtitles/2026-08-23",
   "entries": [
@@ -97,6 +97,69 @@
       "sha256": "9007d99e219faae82b084f7e7467c9ea826c33431c6adde98b630957028c5439"
     },
     {
+      "source": "Curious Refuge-16 AI Filmmaking News Updates You Missed.txt",
+      "up_name": "Curious Refuge",
+      "title": "16 AI Filmmaking News Updates You Missed",
+      "repository_path": "subtitles/2026-08-23/Curious Refuge-16 AI Filmmaking News Updates You Missed.txt",
+      "format": "txt",
+      "size_bytes": 42707,
+      "sha256": "fb2f63ae745c1bde7bcaff7b90b8c0f50c70dd0b74221415cbe8fd078b1c320b"
+    },
+    {
+      "source": "Curious Refuge-Apple Can Now Clone You and it’s CRAZY Realistic.txt",
+      "up_name": "Curious Refuge",
+      "title": "Apple Can Now Clone You and it’s CRAZY Realistic",
+      "repository_path": "subtitles/2026-08-23/Curious Refuge-Apple Can Now Clone You and it’s CRAZY Realistic.txt",
+      "format": "txt",
+      "size_bytes": 30865,
+      "sha256": "f183209d5806db0e9480b10cc3222471ad554b191e8f348e0fec10dcf5a57043"
+    },
+    {
+      "source": "Curious Refuge-Here's the Best AI Video Generator You Haven't Tried Yet!.txt",
+      "up_name": "Curious Refuge",
+      "title": "Here's the Best AI Video Generator You Haven't Tried Yet!",
+      "repository_path": "subtitles/2026-08-23/Curious Refuge-Here's the Best AI Video Generator You Haven't Tried Yet!.txt",
+      "format": "txt",
+      "size_bytes": 16006,
+      "sha256": "45f6734f16f9000fce5823e3dcec28cf5c010f584b1197db17af61f84231cbac"
+    },
+    {
+      "source": "Curious Refuge-I Can’t Believe This AI Video Generator is Free.txt",
+      "up_name": "Curious Refuge",
+      "title": "I Can’t Believe This AI Video Generator is Free",
+      "repository_path": "subtitles/2026-08-23/Curious Refuge-I Can’t Believe This AI Video Generator is Free.txt",
+      "format": "txt",
+      "size_bytes": 24904,
+      "sha256": "502213e9311b33b38a28a0354d9cd2c7ab9616db937fefa183d587e5281cc7a2"
+    },
+    {
+      "source": "Curious Refuge-Is Suno Still the Best AI Music Tool?.txt",
+      "up_name": "Curious Refuge",
+      "title": "Is Suno Still the Best AI Music Tool?",
+      "repository_path": "subtitles/2026-08-23/Curious Refuge-Is Suno Still the Best AI Music Tool?.txt",
+      "format": "txt",
+      "size_bytes": 14161,
+      "sha256": "d8354d9228af6e778d8e6d7cbaac0608af9f03a00fdfd323e2f4bb0e69ada997"
+    },
+    {
+      "source": "Futurepedia-A Complete Guide to the New Claude Design.txt",
+      "up_name": "Futurepedia",
+      "title": "A Complete Guide to the New Claude Design",
+      "repository_path": "subtitles/2026-08-23/Futurepedia-A Complete Guide to the New Claude Design.txt",
+      "format": "txt",
+      "size_bytes": 18265,
+      "sha256": "ee8afd771d81152ba5ae6bd64262ecea6a4228a233a57b1c9662f18972587d70"
+    },
+    {
+      "source": "Futurepedia-Claude Chat vs Cowork vs Code: Which One Should You Use?.txt",
+      "up_name": "Futurepedia",
+      "title": "Claude Chat vs Cowork vs Code: Which One Should You Use?",
+      "repository_path": "subtitles/2026-08-23/Futurepedia-Claude Chat vs Cowork vs Code: Which One Should You Use?.txt",
+      "format": "txt",
+      "size_bytes": 11825,
+      "sha256": "877aa1ccd379fa08f6c4af7f49565d632a7d571a7ab1ec41a313b171e6cfe496"
+    },
+    {
       "source": "Futurepedia-Claude Design Just Unlocked AI Motion Graphics.txt",
       "up_name": "Futurepedia",
       "title": "Claude Design Just Unlocked AI Motion Graphics",
@@ -122,6 +185,51 @@
       "format": "txt",
       "size_bytes": 17335,
       "sha256": "0b148a02db8efc97dac0c3eb1cbaf4b8fa9d66e353125183d7cf6a0453fc17be"
+    },
+    {
+      "source": "Matthew Berman-11 Grok Bot Use Cases That Could Save You Hours Every Day.txt",
+      "up_name": "Matthew Berman",
+      "title": "11 Grok Bot Use Cases That Could Save You Hours Every Day",
+      "repository_path": "subtitles/2026-08-23/Matthew Berman-11 Grok Bot Use Cases That Could Save You Hours Every Day.txt",
+      "format": "txt",
+      "size_bytes": 21899,
+      "sha256": "3708c6d3819fc258903ec99666d2215c8d5ec98a5995da14b9947d7ee3a504c4"
+    },
+    {
+      "source": "Matthew Berman-AI News: ChatGPT Ultrafast, Grok 4.6, 3 New Open-Source Models, and more!.txt",
+      "up_name": "Matthew Berman",
+      "title": "AI News: ChatGPT Ultrafast, Grok 4.6, 3 New Open-Source Models, and more!",
+      "repository_path": "subtitles/2026-08-23/Matthew Berman-AI News: ChatGPT Ultrafast, Grok 4.6, 3 New Open-Source Models, and more!.txt",
+      "format": "txt",
+      "size_bytes": 12939,
+      "sha256": "b9c8c3cfe1b92b608ba170b528d9ec9a840ab2c73f9314fab5ccc350fc97b172"
+    },
+    {
+      "source": "Matthew Berman-Cursor just made something incredible....txt",
+      "up_name": "Matthew Berman",
+      "title": "Cursor just made something incredible...",
+      "repository_path": "subtitles/2026-08-23/Matthew Berman-Cursor just made something incredible....txt",
+      "format": "txt",
+      "size_bytes": 17692,
+      "sha256": "dc36ae9ad1efff86b5f20b7b515a182c11224a833e6e3e69f252d2a43195d6da"
+    },
+    {
+      "source": "Matthew Berman-You NEED to try this 6 Open-Source Projects NOW.txt",
+      "up_name": "Matthew Berman",
+      "title": "You NEED to try this 6 Open-Source Projects NOW",
+      "repository_path": "subtitles/2026-08-23/Matthew Berman-You NEED to try this 6 Open-Source Projects NOW.txt",
+      "format": "txt",
+      "size_bytes": 9457,
+      "sha256": "858a2bc25cdbe4ea0c1de5b9e88bb8a71d5c5977e2999cded3b31efd0f07f251"
+    },
+    {
+      "source": "Matthew Berman-xAI actually did it... (Grok 4.6).txt",
+      "up_name": "Matthew Berman",
+      "title": "xAI actually did it... (Grok 4.6)",
+      "repository_path": "subtitles/2026-08-23/Matthew Berman-xAI actually did it... (Grok 4.6).txt",
+      "format": "txt",
+      "size_bytes": 15312,
+      "sha256": "9236dd25f41c201c4b0357aee59dc6e4459e3d0bd25e57cac20817bb3f4d8e78"
     },
     {
       "source": "OpenAI-How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens.txt",
