@@ -1,8 +1,8 @@
 {
   "schema_version": "2.1",
   "date": "2026-08-23",
-  "generated_at": "2026-08-23T14:13:43.646958",
-  "total": 34,
+  "generated_at": "2026-08-23T15:03:00+08:00",
+  "total": 39,
   "rejected": 0,
   "source_directory": "subtitles/2026-08-23",
   "entries": [
@@ -230,6 +230,51 @@
       "format": "txt",
       "size_bytes": 15312,
       "sha256": "9236dd25f41c201c4b0357aee59dc6e4459e3d0bd25e57cac20817bb3f4d8e78"
+    },
+    {
+      "source": "Mx-Shell-Ai原创短片《丧尸清道夫》-重制版，国产“爱死机”！.txt",
+      "up_name": "Mx-Shell",
+      "title": "Ai原创短片《丧尸清道夫》-重制版，国产“爱死机”！",
+      "repository_path": "subtitles/2026-08-23/Mx-Shell-Ai原创短片《丧尸清道夫》-重制版，国产“爱死机”！.txt",
+      "format": "txt",
+      "size_bytes": 942,
+      "sha256": "b59da469186666b280258a66b7aa62020948d755a2dc19e07b48443e090e0f00"
+    },
+    {
+      "source": "Mx-Shell-今天把我关于《丧尸清道夫》的创作思路分享给大家，如果能帮到你，我会很开心。.txt",
+      "up_name": "Mx-Shell",
+      "title": "今天把我关于《丧尸清道夫》的创作思路分享给大家，如果能帮到你，我会很开心。",
+      "repository_path": "subtitles/2026-08-23/Mx-Shell-今天把我关于《丧尸清道夫》的创作思路分享给大家，如果能帮到你，我会很开心。.txt",
+      "format": "txt",
+      "size_bytes": 35597,
+      "sha256": "802af6606d40b83b5536bbd498b26fc858d55234a1a6cf0ef96ea7bd222e747d"
+    },
+    {
+      "source": "Mx-Shell-国产“爱死机”《丧尸清道夫》图片资产工作流的创作思路分享！.txt",
+      "up_name": "Mx-Shell",
+      "title": "国产“爱死机”《丧尸清道夫》图片资产工作流的创作思路分享！",
+      "repository_path": "subtitles/2026-08-23/Mx-Shell-国产“爱死机”《丧尸清道夫》图片资产工作流的创作思路分享！.txt",
+      "format": "txt",
+      "size_bytes": 22054,
+      "sha256": "437463b1325f0ea50d47d528de4c09442dd10b9745f736044dbb6db1b4715a1f"
+    },
+    {
+      "source": "Mx-Shell-国产“爱死机”刷屏外网 好莱坞大佬全网寻人！wuhu独家专访导演MX-Shell.txt",
+      "up_name": "Mx-Shell",
+      "title": "国产“爱死机”刷屏外网 好莱坞大佬全网寻人！wuhu独家专访导演MX-Shell",
+      "repository_path": "subtitles/2026-08-23/Mx-Shell-国产“爱死机”刷屏外网 好莱坞大佬全网寻人！wuhu独家专访导演MX-Shell.txt",
+      "format": "txt",
+      "size_bytes": 26993,
+      "sha256": "5c16604fdf40edde167efe98a475c3255a16b86568a4942b962d34f32defb1dd"
+    },
+    {
+      "source": "Mx-Shell-说唱、摄影双重经验，是如何点亮 AI 创作的？【独家对谈】.txt",
+      "up_name": "Mx-Shell",
+      "title": "说唱、摄影双重经验，是如何点亮 AI 创作的？【独家对谈】",
+      "repository_path": "subtitles/2026-08-23/Mx-Shell-说唱、摄影双重经验，是如何点亮 AI 创作的？【独家对谈】.txt",
+      "format": "txt",
+      "size_bytes": 19639,
+      "sha256": "93bcc4152b2e65b818862b6f19c7ffa5300a4421e8a3d9ce3b8e8c89233a342a"
     },
     {
       "source": "OpenAI-How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens.txt",
