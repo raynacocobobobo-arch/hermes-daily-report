@@ -1,8 +1,8 @@
 {
   "schema_version": "2.1",
   "date": "2026-08-23",
-  "generated_at": "2026-08-23T15:30:00+08:00",
-  "total": 54,
+  "generated_at": "2026-08-23T16:00:00+08:00",
+  "total": 96,
   "rejected": 0,
   "source_directory": "subtitles/2026-08-23",
   "entries": [
@@ -322,6 +322,141 @@
       "sha256": "93bcc4152b2e65b818862b6f19c7ffa5300a4421e8a3d9ce3b8e8c89233a342a"
     },
     {
+      "source": "OpenAI-Build Hour: Valuemaxxing with GPT-5.6.txt",
+      "up_name": "OpenAI",
+      "title": "Build Hour: Valuemaxxing with GPT-5.6",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Build Hour: Valuemaxxing with GPT-5.6.txt",
+      "format": "txt",
+      "size_bytes": 49961,
+      "sha256": "0cac52fcbb7b5373495731a3b66b207888666343385b063f9720d37df29bdcdd"
+    },
+    {
+      "source": "OpenAI-Build custom financial forecasting apps with ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "Build custom financial forecasting apps with ChatGPT Work",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Build custom financial forecasting apps with ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 1357,
+      "sha256": "8489cffb570c38d663529ffd513dde815b424006b0163189f3dd261b6162991c"
+    },
+    {
+      "source": "OpenAI-Building at the pace of AI innovation | Grant Lee, Gamma.txt",
+      "up_name": "OpenAI",
+      "title": "Building at the pace of AI innovation | Grant Lee, Gamma",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Building at the pace of AI innovation | Grant Lee, Gamma.txt",
+      "format": "txt",
+      "size_bytes": 1939,
+      "sha256": "13a724745435bd464c16e431365bebd205d7f08dc05d332b15890777389ffe57"
+    },
+    {
+      "source": "OpenAI-Building with ChatGPT Voice | OpenAI.txt",
+      "up_name": "OpenAI",
+      "title": "Building with ChatGPT Voice | OpenAI",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Building with ChatGPT Voice | OpenAI.txt",
+      "format": "txt",
+      "size_bytes": 1373,
+      "sha256": "153c591d2393ed3baae4914235594dae54b01045aaf85ec42650a4274f241127"
+    },
+    {
+      "source": "OpenAI-ChatGPT Work for Sales: Account Planning and Meeting Prep.txt",
+      "up_name": "OpenAI",
+      "title": "ChatGPT Work for Sales: Account Planning and Meeting Prep",
+      "repository_path": "subtitles/2026-08-23/OpenAI-ChatGPT Work for Sales: Account Planning and Meeting Prep.txt",
+      "format": "txt",
+      "size_bytes": 1918,
+      "sha256": "29ae8bef488ece4fbb4f308223abcd502fff3df736e3e3e9ac2c1829dfb11866"
+    },
+    {
+      "source": "OpenAI-ChatGPT Work for Sales: Account Research and Customer Outreach.txt",
+      "up_name": "OpenAI",
+      "title": "ChatGPT Work for Sales: Account Research and Customer Outreach",
+      "repository_path": "subtitles/2026-08-23/OpenAI-ChatGPT Work for Sales: Account Research and Customer Outreach.txt",
+      "format": "txt",
+      "size_bytes": 2194,
+      "sha256": "4392eee80ec883292f9b43ef15b88bc3881d49129f1fcc7cf7733bf1bb9476de"
+    },
+    {
+      "source": "OpenAI-ChatGPT Work for Sales: Pipeline and Forecast Intelligence.txt",
+      "up_name": "OpenAI",
+      "title": "ChatGPT Work for Sales: Pipeline and Forecast Intelligence",
+      "repository_path": "subtitles/2026-08-23/OpenAI-ChatGPT Work for Sales: Pipeline and Forecast Intelligence.txt",
+      "format": "txt",
+      "size_bytes": 2378,
+      "sha256": "36d2a5f7e41c494dfb29e70762870d9ed2e0711917cdfa2be8ab25cd607e8803"
+    },
+    {
+      "source": "OpenAI-ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders.txt",
+      "up_name": "OpenAI",
+      "title": "ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders",
+      "repository_path": "subtitles/2026-08-23/OpenAI-ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders.txt",
+      "format": "txt",
+      "size_bytes": 2745,
+      "sha256": "57dff328116cb8225778be492a8bc3451df600fbab5577de216ece380e694722"
+    },
+    {
+      "source": "OpenAI-ChatGPT can now complete tasks on your computer.txt",
+      "up_name": "OpenAI",
+      "title": "ChatGPT can now complete tasks on your computer",
+      "repository_path": "subtitles/2026-08-23/OpenAI-ChatGPT can now complete tasks on your computer.txt",
+      "format": "txt",
+      "size_bytes": 1373,
+      "sha256": "7b01f11528aa79b24df8e48c07b9902ba581d3683ecf695a8873217956e889b0"
+    },
+    {
+      "source": "OpenAI-Computer History in ChatGPT.txt",
+      "up_name": "OpenAI",
+      "title": "Computer History in ChatGPT",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Computer History in ChatGPT.txt",
+      "format": "txt",
+      "size_bytes": 3150,
+      "sha256": "5c9ad5b1a37de461a83138460936bcaed8f7503e56daec78e13b062000c8918e"
+    },
+    {
+      "source": "OpenAI-From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France.txt",
+      "up_name": "OpenAI",
+      "title": "From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France",
+      "repository_path": "subtitles/2026-08-23/OpenAI-From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France.txt",
+      "format": "txt",
+      "size_bytes": 1610,
+      "sha256": "5cdd8522edf74dedf81166da4fc646a177c02e11d0432e6f6f7074b7a03a44cc"
+    },
+    {
+      "source": "OpenAI-Get a daily CFO briefing with ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "Get a daily CFO briefing with ChatGPT Work",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Get a daily CFO briefing with ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 1829,
+      "sha256": "b5060d0c436ec41894f04f0c878f71b0c8402160d4fb7fa910587ca9365a1882"
+    },
+    {
+      "source": "OpenAI-How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful.txt",
+      "up_name": "OpenAI",
+      "title": "How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful.txt",
+      "format": "txt",
+      "size_bytes": 1641,
+      "sha256": "75f9a73ba69011287b5f762f32d388805788770631c0217060763b9b301717b2"
+    },
+    {
+      "source": "OpenAI-How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum.txt",
+      "up_name": "OpenAI",
+      "title": "How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum.txt",
+      "format": "txt",
+      "size_bytes": 35497,
+      "sha256": "6254c473095abef4a34720482cae5f99eccf0e9df4dcbce427d50218252e57b9"
+    },
+    {
+      "source": "OpenAI-How BNY CEO Robin Vince Turns AI Optimism Into Action.txt",
+      "up_name": "OpenAI",
+      "title": "How BNY CEO Robin Vince Turns AI Optimism Into Action",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How BNY CEO Robin Vince Turns AI Optimism Into Action.txt",
+      "format": "txt",
+      "size_bytes": 1487,
+      "sha256": "a8be5f57a0de8cd2e071abe21aed244fdacc2ae82122770568521ea8e23f9562"
+    },
+    {
       "source": "OpenAI-How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens.txt",
       "up_name": "OpenAI",
       "title": "How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens",
@@ -329,6 +464,69 @@
       "format": "txt",
       "size_bytes": 1182,
       "sha256": "047277f552f7f9a43f595ed5f8a0019b683c8f89be426170e17697708ce37c20"
+    },
+    {
+      "source": "OpenAI-How California Small Businesses Are Using ChatGPT | OpenAI Academy.txt",
+      "up_name": "OpenAI",
+      "title": "How California Small Businesses Are Using ChatGPT | OpenAI Academy",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How California Small Businesses Are Using ChatGPT | OpenAI Academy.txt",
+      "format": "txt",
+      "size_bytes": 1490,
+      "sha256": "9e2f249d00f31f5d65b622cbec3f2cdefe3dab861f37038681ecd5b55a9306d3"
+    },
+    {
+      "source": "OpenAI-How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic.txt",
+      "up_name": "OpenAI",
+      "title": "How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic.txt",
+      "format": "txt",
+      "size_bytes": 1151,
+      "sha256": "3437dd2ea006c6a2a0f9c89e3b7d7dc8926738bacf3ab10d75c8e8a5c77303b5"
+    },
+    {
+      "source": "OpenAI-How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy.txt",
+      "up_name": "OpenAI",
+      "title": "How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy.txt",
+      "format": "txt",
+      "size_bytes": 1052,
+      "sha256": "afb1406ddc557122f92edbc843d01ec2db447beac71ad9f1d82c945f80819ce6"
+    },
+    {
+      "source": "OpenAI-How IT Admins can manage ChatGPT Work at scale | OpenAI.txt",
+      "up_name": "OpenAI",
+      "title": "How IT Admins can manage ChatGPT Work at scale | OpenAI",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How IT Admins can manage ChatGPT Work at scale | OpenAI.txt",
+      "format": "txt",
+      "size_bytes": 1750,
+      "sha256": "3d67c1e879d94023ab72dde9839465ad2512a64252b5807d34202369b55ad823"
+    },
+    {
+      "source": "OpenAI-How Model ML Uses GPT-5.6 Sol to Get Finance Work Done More Efficiently.txt",
+      "up_name": "OpenAI",
+      "title": "How Model ML Uses GPT-5.6 Sol to Get Finance Work Done More Efficiently",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How Model ML Uses GPT-5.6 Sol to Get Finance Work Done More Efficiently.txt",
+      "format": "txt",
+      "size_bytes": 1618,
+      "sha256": "73946091a88276c0d05be501836c50d4b40cdb4e3f880741949ebda3056fc148"
+    },
+    {
+      "source": "OpenAI-How Shopify Uses ChatGPT Work to Build Faster with AI Agents.txt",
+      "up_name": "OpenAI",
+      "title": "How Shopify Uses ChatGPT Work to Build Faster with AI Agents",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How Shopify Uses ChatGPT Work to Build Faster with AI Agents.txt",
+      "format": "txt",
+      "size_bytes": 1144,
+      "sha256": "e883c796834d0f49ea311bda2ce4e4c7cec5642a0daa19e4e04a83001925c895"
+    },
+    {
+      "source": "OpenAI-How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours.txt",
+      "up_name": "OpenAI",
+      "title": "How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours.txt",
+      "format": "txt",
+      "size_bytes": 1022,
+      "sha256": "0b61aa98b8d3d9f37c9f955afb66b0b955d9e7d78b0ff3c0fa6a1741e1db8b6c"
     },
     {
       "source": "OpenAI-How to Create a Solid Blog Draft With ChatGPT Work | Tutorial.txt",
@@ -349,6 +547,15 @@
       "sha256": "b14772152e789a38104fbefeb182d440c66fc5ba3007403d572a35ef2ce3ba7e"
     },
     {
+      "source": "OpenAI-How to Schedule a Weekly Metrics Report With ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "How to Schedule a Weekly Metrics Report With ChatGPT Work",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How to Schedule a Weekly Metrics Report With ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 1644,
+      "sha256": "93caa73a70af04e1b622c21647bfb106f105a072a29b7e29a4ed69c9334490b0"
+    },
+    {
       "source": "OpenAI-How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial.txt",
       "up_name": "OpenAI",
       "title": "How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial",
@@ -356,6 +563,177 @@
       "format": "txt",
       "size_bytes": 1528,
       "sha256": "b7ba5e484ece89e73b444fbbb48b03096e24b06cfc2d9afb238f91ba70bc6980"
+    },
+    {
+      "source": "OpenAI-How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 1645,
+      "sha256": "b9c776db3ea8a44196721772ee7008938e47b52a54456caa9db8301b73332e4c"
+    },
+    {
+      "source": "OpenAI-Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals.txt",
+      "up_name": "OpenAI",
+      "title": "Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals.txt",
+      "format": "txt",
+      "size_bytes": 4030,
+      "sha256": "025d2a628eeb0538ded4812605837ebfc88f3db11f3eb6af8faaf57530806122"
+    },
+    {
+      "source": "OpenAI-Introducing Agent Plugins.txt",
+      "up_name": "OpenAI",
+      "title": "Introducing Agent Plugins",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Introducing Agent Plugins.txt",
+      "format": "txt",
+      "size_bytes": 1501,
+      "sha256": "afc5859edfe449600b88746550b567974a0b5c71b251541cb3f8c9fae73beae4"
+    },
+    {
+      "source": "OpenAI-Introducing gpt-transcribe and gpt-live-transcribe.txt",
+      "up_name": "OpenAI",
+      "title": "Introducing gpt-transcribe and gpt-live-transcribe",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Introducing gpt-transcribe and gpt-live-transcribe.txt",
+      "format": "txt",
+      "size_bytes": 2200,
+      "sha256": "f5c18e83b77c243256e2f00fd9454632178cc990e7edb0b7a71c4be47db63f00"
+    },
+    {
+      "source": "OpenAI-Meet Birding Pal.txt",
+      "up_name": "OpenAI",
+      "title": "Meet Birding Pal",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Meet Birding Pal.txt",
+      "format": "txt",
+      "size_bytes": 426,
+      "sha256": "e3ef53b93b0ba4adc17ab7166bab85b8aa8ab84997849cec5324fb182c7515c5"
+    },
+    {
+      "source": "OpenAI-Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora.txt",
+      "up_name": "OpenAI",
+      "title": "Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora.txt",
+      "format": "txt",
+      "size_bytes": 1801,
+      "sha256": "5c70d8e10b8650ccb459991fad6906abc5459022ef81a66e3aec72ecc3f9245f"
+    },
+    {
+      "source": "OpenAI-Plugins in ChatGPT.txt",
+      "up_name": "OpenAI",
+      "title": "Plugins in ChatGPT",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Plugins in ChatGPT.txt",
+      "format": "txt",
+      "size_bytes": 1882,
+      "sha256": "90b5bbca75889085f15ab4e4a52d59dc113417088c14207a8cd734705f41a8ac"
+    },
+    {
+      "source": "OpenAI-Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed.txt",
+      "up_name": "OpenAI",
+      "title": "Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed.txt",
+      "format": "txt",
+      "size_bytes": 1731,
+      "sha256": "8517e29d053ed11ba6e1edb5c2a63b02be4af2da6775f854f1a0c090c2892b15"
+    },
+    {
+      "source": "OpenAI-Reconcile quarter-end financials with ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "Reconcile quarter-end financials with ChatGPT Work",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Reconcile quarter-end financials with ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 1460,
+      "sha256": "22120f2c37cc3e7598ddaf7169f08620e3e83e73753bc68b330c0e5ddb4d8da6"
+    },
+    {
+      "source": "OpenAI-Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France.txt",
+      "up_name": "OpenAI",
+      "title": "Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France.txt",
+      "format": "txt",
+      "size_bytes": 1595,
+      "sha256": "0ec9ee6bd4747c87868ad83a561a201d235e249ed39535a351d0d8ff2780d282"
+    },
+    {
+      "source": "OpenAI-The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France.txt",
+      "up_name": "OpenAI",
+      "title": "The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France",
+      "repository_path": "subtitles/2026-08-23/OpenAI-The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France.txt",
+      "format": "txt",
+      "size_bytes": 706,
+      "sha256": "0698145cdc95552dc9352091ccb2abc70710b3845b80764ea2c06a5c7587739d"
+    },
+    {
+      "source": "OpenAI-Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France.txt",
+      "up_name": "OpenAI",
+      "title": "Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France.txt",
+      "format": "txt",
+      "size_bytes": 1345,
+      "sha256": "e1ed734d31d0b271d4b3b48ead7c62123af05a9df7eefbe6d24d92db84c416c7"
+    },
+    {
+      "source": "OpenAI-Use ChatGPT Work to build custom forecasting apps.txt",
+      "up_name": "OpenAI",
+      "title": "Use ChatGPT Work to build custom forecasting apps",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Use ChatGPT Work to build custom forecasting apps.txt",
+      "format": "txt",
+      "size_bytes": 2610,
+      "sha256": "9553bffc37ae8f2e3b501075cd71f5d67f22e5548aa43afccdcd8705558cc481"
+    },
+    {
+      "source": "OpenAI-Use ChatGPT Work to deliver board-ready reporting.txt",
+      "up_name": "OpenAI",
+      "title": "Use ChatGPT Work to deliver board-ready reporting",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Use ChatGPT Work to deliver board-ready reporting.txt",
+      "format": "txt",
+      "size_bytes": 2786,
+      "sha256": "009bf9d7efbab7690e1e739301f7d65d98648802e2f93fdaf11a43ef7709ac2c"
+    },
+    {
+      "source": "OpenAI-Using Voice in ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "Using Voice in ChatGPT Work",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Using Voice in ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 3435,
+      "sha256": "0e4f7be1defa00048575265a1c81206c7813c8e6646c1116a40e1993149e6954"
+    },
+    {
+      "source": "OpenAI-We're giving 100,000 academic researchers free access to our frontier models.txt",
+      "up_name": "OpenAI",
+      "title": "We're giving 100,000 academic researchers free access to our frontier models",
+      "repository_path": "subtitles/2026-08-23/OpenAI-We're giving 100,000 academic researchers free access to our frontier models.txt",
+      "format": "txt",
+      "size_bytes": 4128,
+      "sha256": "5f48ca314b55285da74241eadac983bf035cb51f077095b3ab774ad2d72c8396"
+    },
+    {
+      "source": "OpenAI-What racing reveals about working with AI — the OpenAI Podcast Ep. 22.txt",
+      "up_name": "OpenAI",
+      "title": "What racing reveals about working with AI — the OpenAI Podcast Ep. 22",
+      "repository_path": "subtitles/2026-08-23/OpenAI-What racing reveals about working with AI — the OpenAI Podcast Ep. 22.txt",
+      "format": "txt",
+      "size_bytes": 38013,
+      "sha256": "8c309b305f520bd1fc6ac09d56e5619f8c9f8a0380917308329d63733ed61ba8"
+    },
+    {
+      "source": "OpenAI-Work with docs, sheets, and slides in ChatGPT.txt",
+      "up_name": "OpenAI",
+      "title": "Work with docs, sheets, and slides in ChatGPT",
+      "repository_path": "subtitles/2026-08-23/OpenAI-Work with docs, sheets, and slides in ChatGPT.txt",
+      "format": "txt",
+      "size_bytes": 1698,
+      "sha256": "89ed4189d3ea5e5a7f9491be056d44be8a79eeb81daba890ac5a3e127990aca1"
+    },
+    {
+      "source": "OpenAI-You can just finish the work | ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "You can just finish the work | ChatGPT Work",
+      "repository_path": "subtitles/2026-08-23/OpenAI-You can just finish the work | ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 168,
+      "sha256": "56c430192083729b3a1fff3008525ff240b446a36c17288f90c1f957bbf3097e"
     },
     {
       "source": "The AI Advantage-ChatGPT Can Now See Everything You Do On Your Screen.txt",
