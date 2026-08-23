@@ -1,0 +1,37 @@
+I started with one question. Which
+markets in Latin America should we
+prioritize next? ChatGPT work pulled
+together market research, account data,
+customer trends, and past strategy work
+to build this recommendation deck.
+Something like this used to take me days
+to pull together. Hi, I'm Arvind. I work
+in business strategy at OpenAI. Today,
+I'll show you how I use ChatGPT work to
+create a strategy deck for our business
+across Latin America. First, I open the
+ChatGPT desktop app and switch to
+ChatGPT work. You can also do this on
+web. Then, I start with the business
+question we're focused on answering.
+Next, I connect my tools through plugins
+so ChatGPT can pull in relevant
+research, customer data, and previous
+reports. I also add in our company's
+slide template. I ask ChatGPT to make a
+plan and propose a storyline before
+building the deck.
+Finally, I review the storyline, check
+the numbers and sources, refine the
+recommendations, and approve the final
+readout. I use ChatGPT work because I
+needed to handle the task end-to-end
+from analyzing data to producing
+reports. Finally, when it's ready, I ask
+ChatGPT to put this all together in a
+business expansion readout with market
+context, customer analysis, supporting
+tables, and recommended next steps.
+That's how partnering with ChatGPT work
+helps me go from a business question to
+a complete strategy.
