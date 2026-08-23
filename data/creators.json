@@ -1,0 +1,27 @@
+{
+  "Andrej Karpathy": {
+    "distillation_status": "completed",
+    "target": "shared/ai-workflow",
+    "last_updated": "2026-08-23"
+  },
+  "Anthropic": {
+    "distillation_status": "completed",
+    "target": "shared/ai-workflow",
+    "last_updated": "2026-08-23"
+  },
+  "Futurepedia": {
+    "distillation_status": "completed",
+    "target": "shared/ai-workflow",
+    "last_updated": "2026-08-23"
+  },
+  "Matthew Berman": {
+    "distillation_status": "completed",
+    "target": "shared/ai-workflow",
+    "last_updated": "2026-08-23"
+  },
+  "Curious Refuge": {
+    "distillation_status": "completed",
+    "target": "film-methodology",
+    "last_updated": "2026-08-23"
+  }
+}
