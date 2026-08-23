@@ -23,5 +23,10 @@
     "distillation_status": "completed",
     "target": "film-methodology",
     "last_updated": "2026-08-23"
+  },
+  "Theoretically Media": {
+    "distillation_status": "completed",
+    "target": "plugins/hermes-skills/skills/hermes-film-ai-production/references/workflows.md",
+    "last_updated": "2026-08-23"
   }
 }
