@@ -1,0 +1,609 @@
+UP主：Theoretically Media
+标题：Seedream 5.0 Tested & Seedance 2.5 Leaks Are Unreal!
+链接：https://www.youtube.com/watch?v=pn-YwWn3kkM
+
+So, I know everyone is waiting on news
+about Stable Diffusion 2.5 and I've got
+a little bit on that, but overall, I
+thought today would be a good day to
+check in on a roundup of everything else
+that's going on. But, I do have some new
+Stable Diffusion 2.5 examples to check
+out as well. Plus, you know, hands-on
+tests and quick hits for the balloon
+view on everything else. All right,
+let's hop in.
+Kicking off, yeah, sadly, like no big
+Stable Diffusion 2.5 release as of yet.
+But, in the meantime, ByteDance have
+released SeaDream 5.0 Pro. We're going
+to see how many times I screw up and say
+dance in this video. This is another one
+in kind of our thinking image model
+category. It does have a few interesting
+tricks, kind of. At baseline, we are, of
+course, looking at image generation with
+native text support. They say that it
+handles complex information
+visualization, so, you know, kind of
+infographic-y thing, accurately
+transforming data concepts and dense
+text into professional layouts.
+Interestingly, additionally, it takes up
+to 10 reference images, which I think
+does beat nano banana. Now, there are
+definitely some unique features here,
+including interactive precision editing,
+where you can use like a lasso or point
+selection, sketch rendering, and and
+whatnot, and layer separation. Although,
+although, we're going to take a look at
+that in a minute. I'll say the whole
+concept of layers with in generating
+within layers was probably the most
+exciting thing about it. Is it like that
+kind of system really allows you to lock
+in your compositions, but that feature
+is, I mean, not quite fully baked, as
+we'll see in a minute. So, in the
+meantime, let's just take a look at the
+model as a standalone. And I I mean,
+look, I'm going to be straightforward.
+I'm kind of on this part. Kicking off
+with our old chestnut, a man in a blue
+business suit walking down a busy city
+street. This it does generate in 4K,
+that's what this image is, so that's
+pretty nice. And I think at first
+glance, everything looks, you know,
+maybe a little bit bland, but I would
+say we got what we asked for here, and
+you know, it's definitely not the most
+bland generation of the man in the blue
+business suit. Um city details all look
+very nice. There's actually not I mean,
+I don't have a ton to complain about
+until you punch in. The problem is that
+once you kind of zoom in on some of the
+details of the image, uh we do see the
+return of the blobby face people. Uh
+even uh you know, our man in the blue
+business suit. Not full blob, uh but you
+know, it's like he's on his way to the
+blob transformation. Should be an AI
+horror movie about the blobby face
+people. Um so yeah, that you know, that
+is
+pretty disappointing though. And
+unfortunately, it wasn't just limited to
+that generation. On a subsequent
+re-roll, again, you know, pretty similar
+same prompt. I was like, "Oh, see the
+see Dream Weaving pretty smart there. Uh
+you got your man in the blue business
+suit faced away from us as well as a
+bunch of other people to keep the blobby
+face people away." But we do have a
+couple of folks over here. When you
+punch in on them, yep, uh we get our
+blobby face people. I And of course, we
+do get some like trademarky stuff up
+here. Starbucks, obviously CVS. Uh I
+don't know what this is. Is that
+Roscoe's?
+Oh, no, it's not Roscoe's. Is it Was it
+Nando's? I I haven't had I I've not
+actually eaten at Nando's yet. I really
+do want to try it. Um but yeah, so
+overall, uh you know, kind of a mixed
+bag here. Another example here.
+Actually, this one not too bad. Prompt
+on screen. Uh this one we ran in the um
+Muse video just a little while back. The
+This is a prompt by Fopher, someone who
+probably has eaten at a Nando's because
+he is from the UK. Um this I you know,
+honestly, this one didn't come out too
+bad. I was actually pretty happy with
+this. Again, uh everything in here all
+The reason that we run this particular
+prompt is to see, you know, how much
+detail uh in the prompt that the model
+is picking up with very identifiable
+landmarks uh such as the blue walls, the
+red carpet, the white wicker furniture,
+uh the I don't know, like 80s-ish
+computer eight like late 80s, early 90s.
+Um it looks more like I don't know. To
+me, it kind of looks a little like
+mid-80s. To be honest, I'm not I'm not
+really going to complain about this one.
+My next test was with references. And
+admittedly, I did not go ham here. I
+didn't put like 10 images in there as
+you can just cuz I didn't feel like
+Where's Waldo-ing all the references.
+So, it really was just two. It was this
+location. And then because I had, you
+know, some images available of of these
+guys, I used the Oni guys from Dragon
+Blue. Everybody, you know, we we
+constantly use flamethrower girl from
+that film. So, I figured give it up to
+these these hardworking stuntmen. The
+resulting image was this. Again, I
+didn't go crazy with putting them into
+elaborate poses or anything like that.
+It was just really just put these
+characters into this environment. And
+overall, I mean, I think it came out
+pretty good.
+Kind of ends up looking like
+uh if Blade Runner 2049 was directed by
+Quentin Tarantino. That is a movie I'd
+watch. To be fair, you can take the
+words Blade Runner directed by and then
+follow it with any name and I'm still
+I'm going to watch it. Now, where I did
+begin to run into some real weaknesses
+was with using flamethrower girl
+actually in her jungle girl adventure
+outfit. Um you know, this should be a
+pretty simple prompt, just her with her
+flamethrower in a jungle. Um and while
+this one's kind of passable, I mean, I
+do feel that her face is kind of losing
+a little bit of character identity
+there. But, I would also run into shots
+like this, which not only is, you know,
+wrong, but looks incredibly painful as
+well. I also ended up with this one
+which kind of created a shoulder-mounted
+flamethrower unit, which
+again, not what I was looking for, but
+now that I'm thinking about it, actually
+is kind of cool. So, after tuning up the
+prompt a little bit, I ended up with
+outputs like this, which
+you know, on the one hand, they're not
+necessarily bad. They're just kind of
+bland. I mean, from a technical
+standpoint, there's nothing much really
+to complain about in this output. You
+know, she's consistent with the lighting
+in the jungle. We do have the accurate
+flamethrower here. She does appear to
+have you know, four fingers and a thumb.
+Character model is done very well as
+well, even down to the sort of tattoos
+here, which she has in this version in
+the jungle girl adventure outfit.
+Yeah, but I mean at the same time it's
+just it's kind of just not an inspiring
+image. Although to its credit, I do
+think that it does a really good job
+with like these medium close-up type
+shots. Another example of that
+obviously, you know, referencing Ridley
+Scott like you know, early 80s sci-fi
+horror.
+Yeah, I mean this is the kind of stuff
+that I do think that the model does very
+well. And in particular I think that
+probably when you combine a frame like
+this
+and add the movement into see
+dance
+that you're going to get a pretty good
+output. Model does seem to have a very
+good handle on
+film genres and styles as well. For
+example, you know, here with very
+Italian Giallo, you know, Dario Argento
+Suspiria kind of vibe.
+Overall, what I think it does really
+well is environments. That's one thing
+that I do think that this model does
+like a really fantastic job with.
+Characters, poses, figures,
+kind of kind of mid on that. And again,
+playing around with it you can end up
+with some pretty interesting stylistic
+images. Like this was
+I think like Wong Kar-wai film by way of
+cyberpunk. I think that this I think
+this is like a cool looking image. Um
+Now, if you want to edit anything and
+well, this is the part that kind of gets
+a little bit on the frustrating side.
+So, one of the things that in like the
+marketing materials it made it look like
+is that you could take an image like
+this and like click a button and then
+like all the layers would like just auto
+layer everything they would explode out
+and you can kind of play with it. That
+that that's not it at all. In fact,
+actually I found this to be a fairly
+frustrating experience. This is over on
+Dreamina
+where I think that
+is the only place that maybe has this
+editing function. I did not see it
+available via the API. Some of the other
+stuff like drawing was, but I didn't see
+the layer stuff in there. So, your layer
+controls are over here. And you know,
+you can do some it's a lot of like brush
+based kind of stuff. Um so I think that
+if you right-click on it, you can do
+things like arrange layers, flip it,
+etc., etc. Um there is an ability to
+delete layers as well. It It's just a
+little like where is everything is kind
+of the idea. Oh, here's remove
+background here. So my initial like
+foray into this was like um you know,
+adding a new layer in and then
+generating up an image of like a
+cyberpunk cab flying through the street.
+Um the problem Well, two problems here
+is that one, uh this image is obviously
+not at all related to uh our base image.
+So it doesn't have any contextual
+wearing of of what it's generating into.
+Um two, I don't know for whatever reason
+it's it's image three and image 3.1 that
+are available as the {quote} inpainting
+models. Um so yeah, not great. Um so I
+mean even in a situation like this, um
+you know, we can hit remove background
+and it does this really weird thing
+where it does uh like the checkerboard
+transparency on the foreground object.
+I've actually never like it it looked
+really backwards and I you know, so I
+rolled the dice and I hit remove
+background um and it it does remove the
+background. It just feels like like the
+masking idea is flipped. I I don't it's
+really it's really an odd choice.
+Obviously once it's in there, we can,
+you know, place it wherever, but again,
+it perspective-wise it's it's in the
+wrong it's in the wrong place. Um so
+from there, I decided to take uh well,
+this image of flamethrower girl that we
+generated up in the Meta Muse video.
+This was just an an example. Once again,
+repeated the process of uh removing the
+background from her, which I think it
+does actually a pretty good job with
+that. Um you know, we can figure out a
+spot for her. So let's put her here, for
+example. And then if we try to um then
+take this into uh we'll do image to
+image, which I think repopulates. So
+that repopulates with our image here. Um
+and then simply enter our prompt.
+Relight the scene so that the woman in
+the foreground matches the color and
+lighting of the environment. I mean,
+pretty basic prompt. Um,
+turn up the intensity or whatever. A lot
+of this doesn't matter cuz well, you'll
+see. Uh, and then let's set it to edge.
+Why not? Um, sure. Cuz you hit generate
+and what ends up happening is, um, well,
+watch this actually work this time cuz
+it wasn't working pretty much all day
+long. So, we'll see what I Oh, there it
+is. So, yeah, couldn't generate. Um, did
+get refunded three credits though. So,
+yeah, um,
+bit of a problem there. So, yeah, I
+mean, overall, I mean, I I do hope that
+ByteDance can get this one up to speed.
+They're basically dominating in every
+other area, but for some reason image is
+one place they have like traditionally
+been lagging. Now, I do think that that
+if they do manage to get the editor
+really up and humming and probably using
+the, uh, 5.0 pro model to do its
+inpainting, outpainting, and composition
+blending, uh, you know, this could be a
+very interesting addition to GPT image
+two and, uh, Nano Banana two and well,
+more for me Nano Banana Pro. Um, but,
+you know, as it stands right now, it's
+kind of a mess. That said, let's let's
+remember that SeaArt's 1.0 was also not
+very good. Speaking of which and moving
+on to some quick SeaArt's 2.5 news.
+Maybe not the greatest of news, um, but
+it does look like the release has yet
+again been delayed till at least July
+20th. That said, in the meantime, we do
+have a few new samples that have leaked
+out. Um, these are focusing on one-shot
+camera output. So, uh, let's take a look
+at some of those.
+>> Please have your two strangers and we
+have sent this to your
+stations and
+>> [music]
+[crying and gasps]
+>> You're really here.
+You're actually here.
+>> How many times do you think this guy
+stood her up at the train station for
+her to have that reaction? Like, you're
+here, you're actually here. I I'm
+guessing at least three. Um, you know,
+overall, I think it's it's it's, you
+know, definitely a very nice C dance
+generation, uh, nice camera movement and
+everything. Very does very much have
+like a C dance look. Uh, 30 seconds. Um,
+you know, compression-wise, it might
+look a little on the crunchy side. You
+are looking at, uh, you know, a
+compressed video that has now, once
+again, via YouTube been compressed. So,
+yeah, it might look a little bit on the
+crunchy side. There is a little bit of
+like, I don't know, kind of a fast frame
+rate thing happening. So, I don't know
+if this has been upscaled to like 60 FPS
+or anything. Um, but yeah, there is
+something a little bit off, uh, about,
+again, the frame rate. Another example
+close to my heart cuz I just finished
+watching The Bear.
+>> TABLE NINE, LET'S GO. I need it hot. Two
+minutes, Chef.
+>> Overall, I think the, uh, scallop looks
+delicious there. Chef almost loses his,
+uh, eyebrow. Um, but, you know, as a
+holistic generation, a lot of really
+great camera movement in the beginning.
+Um, some, you know, dynamic acting here.
+Um, yeah, I mean, I think it this looks
+very promising. Now, one reason,
+possibly, that, uh, 2.5 is held up,
+well, resides in this next example.
+>> We made it.
+I really didn't think we would.
+>> That is one of those scenes that I mean,
+you can't really place. Is that the very
+end of the movie or the very beginning
+of the movie then we move into
+flashback. Either way, that movie is
+starring Andrew Garfield.
+>> Editor Tim breaking in here
+just as I was editing this video. My dad
+decided to drop an official
+short film
+utilizing C-Dance 2.0 because of course
+they did. Audio muted here cuz I don't
+know the source of the music that's
+playing under it. It's a short film that
+sort of details the 1988 World Cup goal
+that Michael Owen scored against
+Argentina. So, you know, very much
+queuing in on footy fever. You know,
+overall, it's a really nice little you
+know, short. Although, I will say that
+if you are paying close attention,
+visually there you know, it is not
+necessarily perfect. This is something
+that I've been kind of poking at a
+little bit and look, I'm not not bagging
+on it at all. I'm you know, C-Dance 2
+and clearly 2.5. They These are the best
+video models in the world right now.
+But, that does not mean that they aren't
+necessarily going to be prone to some
+physics problems here and there or
+actually I spotted a couple of like
+little weird morphs in here as well.
+But, you know, again, overall the story
+is what matters. Link to the full video
+with audio will be down below. Is it
+just me or did the whole thing also kind
+of have a bit of that like GPT image to
+grain to it. Let me know what you think
+down in the comments. Next up, we're
+going real-time, but first a actually a
+very short word about my upcoming live
+session. So, the fine folks at Teachable
+have been running an AI Academy, and
+there's already a number of sessions up
+and a few more upcoming, including my
+pal YouTube's own Matt Wolfe. Some more
+news on this in a minute, but here's
+something I think it you might find
+interesting. You know, one question I do
+get asked a lot is how do you keep up
+with everything in the creative chat AI
+space when the ground keeps shifting.
+Well, at least one trick I like to use
+is our recurring characters. The man in
+the blue business suit, our FBI agent
+drinking coffee at a Pacific Northwest
+diner, and of course fan favorite
+flamethrower girl. You know, having
+these characters as cornerstones, one of
+whom may or may not be trying to take
+over the channel. Well, I mean, it
+really does let me eyeball very quickly
+how a new model is reacting under stress
+tests to like these quantifiable
+characters that we all know. Plus, I
+mean, it is just really fun to have a
+roster of oddball characters to hang out
+with on the channel. And I'm happy to
+say that is just one of the insights
+I'll be sharing in my own AI Academy
+session at Teachable for a full 1-hour
+live stream session. You can sign up at
+the link down below, and no, I mean, I'm
+not ruling out that flamethrower girl is
+going to sub in. Uh my thanks to the
+folks at Teachable for sponsoring
+today's video and the upcoming live
+session. Hope to see you there. Moving
+on world of real-time video generation.
+Uh again, kind of the benchmark here is
+like Genie 3. At this point, we have
+seen a few of these released open
+source, and we have a new one, and it's
+pretty impressive. Uh this is Ling Bot
+World 2.0. Pretty sure that we looked at
+uh
+World 1.0, I think. Uh this is from
+Reactor. Um weights are available over
+on Hugging Face. I do think that it's
+probably pretty beefy. I haven't
+actually looked into that part of it.
+But yeah, this one kind of operates in
+sort of that hybrid space of like a
+genie three type thing and a bit like um
+what's the last one we looked at? Oh,
+happy oyster. Man, they're all starting
+to bleed together. Where you kind of
+have, you know, controllable uh events
+that you can text. Uh in this case
+actually uh you can add actions, events,
+weather changes, etc. etc. But it also
+has like an agentic brain and cerebellum
+system that uh continuously proposes new
+events as you interact. So, that's
+pretty impressive. Now, they do have
+kind of a sandbox uh that you can play
+around with so you can try it out
+without running it locally. Um you know,
+uh
+you get a sort of a time amount. There's
+a couple of like presets here. You can
+actually prompt your own world as well.
+Uh but let's try let's try siege of the
+keep, why not? Um so, we're going to
+enter the world here.
+Um
+So, loading is pretty quick. There's
+some tricks to this. Uh this is like the
+standard WASD thing. Um you know, of
+most of these types of things. And uh
+look, as much as I want to grab my mouse
+uh is actually just the left and right
+arrows. Uh and then we have a couple of
+like triggers that we can fire as well.
+Uh like a uh one is the flaming volley.
+Uh let's see what that does. Oh, there
+it goes, flaming volleys. Uh and then
+two is a rally cry. So, um I'm not sure
+in the other um
+uh versions or in the, you know, local
+version if you can actually, you know,
+prompt for events as well as you can.
+So, this is the trick with it um
+actually. So, as you can see it kind of
+like begins to really kind of like
+distort and morph out as you move out
+into I'm trying to get to this castle.
+Um I don't I don't think that this
+generates continuously um as, you know,
+something like um like genie will do.
+So, uh if we can get there in time, I
+think what you'll see when I was playing
+around with this earlier, what you'll
+see is when we get to the castle keep up
+here that what ends up I just want to
+throw some more fireballs out there cuz
+it's fun.
+Um ooh this guy is kill him.
+Um okay, I'm right out of time. I got to
+hurry up. Yeah, see there you go. That's
+where the switch ends up happening,
+right? So um once you get to a certain
+point in the world, what it just does is
+it kind of respawns you back to another
+location. In a weird sort of way, it's
+actually pretty smart um
+in that oh what are we getting over
+here? Oh, that's kind of cool. It's like
+um
+it's kind of freaking out. Oh, okay, we
+lost it there.
+Um yeah, that was kind of neat. We were
+kind of losing the edge of the
+singularity or the what does uh
+Dennis call or Dennis call it the
+footholds of the singularity? I think
+that's lit- literally what we just saw.
+So again, what I do like about this is
+the fact that it is a bit more on the
+contained side. Like it feels very open
+uh and that you can explore anywhere,
+but as we saw, it kind of kicks you back
+to another location at some point or
+another. I think that's pretty smart. Uh
+we've definitely seen that in Genie 3
+that when you kind of start to move
+outside of the bounds of what it, you
+know, it knows or what it what it seeds
+in with, the things start to get a bit
+blobby and decoherent. And in this case,
+it actually kind of manages to hold
+together a lot longer. So I think
+there's a lot of interesting use cases
+that can come out of this aside from
+just, you know, sort of like pseudo game
+um in that, you know, in the ca- in the
+case of like our castle over here that
+like if you just were to create this as,
+you know, a virtual set of sorts and
+then you can kind of like fly your
+camera around through this. That might
+be pretty interesting. That's just like
+one example of something you can do with
+uh a world model like this. Once again,
+code for Ling World 2.0 is over on
+Hugging Face. And uh if you don't feel
+like going through the hassle of the
+local install, you can try it out. That
+link is also down below. Closing out on
+real-time AI avatars. Uh Anima AI is
+releasing their Character 4 model. This
+is one that I've been keeping an eye on
+uh and this version looks pretty good.
+Here, let's check it out with uh two AI
+avatars talking to each other.
+>> Because people don't just want to spit
+words into the void. We want to see
+expressions and attention and emotion.
+A face gives you something to respond
+to, to connect with.
+>> yeah, that's pretty good. Uh you know, I
+think this this kind of puts us in a
+very interesting place right now with uh
+voice being as good as it is. I've been
+spending a lot of time playing around
+with uh GPT's voice uh voice one uh
+model, and that is a it's a very good
+voice model. I mean, it does still kind
+of mhm you when you're talking to it,
+but it can get a little annoying. So,
+you know, taking something like this
+really just goes to show that what, you
+know, we're getting to the point of
+voice sounding very good. So, pretty
+soon most of our our AI voices are going
+to have a face. Real-time flamethrower
+girl co-hosting the show along with me.
+I mean, yeah, probably going to happen.
+I mean, maybe even sometime this year.
+But, until then, I thank you for
+watching. My name is Tim.
