@@ -1,7 +1,7 @@
 # Hermes Research Input
 
 日期：2026-08-23
-生成时间：2026-08-23 11:02:39 CST
+生成时间：2026-08-23 12:31:56 CST
 
 ## 数据来源
 
@@ -56,12 +56,12 @@ to build this
 
 ## 今日全部素材索引
 
-- `shared/knowledge-library/raw/youtube/openai/XjSJ6ybS9I8`
+- `subtitles/2026-08-23/OpenAI-How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial.txt`
   - How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial
   - https://www.youtube.com/watch?v=XjSJ6ybS9I8
 
-文件：1 个目录
-路径：shared/knowledge-library/raw/youtube
+文件：1 个素材
+路径：subtitles/2026-08-23/
 数量：1 个素材
 
 ## 待分析队列
