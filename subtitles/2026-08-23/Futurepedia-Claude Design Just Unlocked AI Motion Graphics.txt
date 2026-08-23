@@ -1,0 +1,484 @@
+UP主：Futurepedia
+标题：Claude Design Just Unlocked AI Motion Graphics
+链接：https://www.youtube.com/watch?v=97Y5cz7H8SM
+
+Claude design is an awesome platform
+that's gaining popularity, but there's
+one feature that most people overlook.
+But, it's the one that I use the most,
+animations. That's what I used to make
+all the motion graphics you're seeing on
+the screen right now, and I've been
+using in every one of my recent videos.
+It can make all sorts of other
+interesting animations, too, but the
+most unique part is the ability to guide
+it with a transcript. I drop in a
+transcript, and it pops out animations
+fully synced up to the words I'm
+speaking. So, I'll walk through some
+different kinds of animations it can
+make and the exact prompts and process
+I've been using in my videos. I'll
+include the editing process since I've
+had a lot of people ask about that.
+First, just a quick overview and how to
+access it. You do need to be on a paid
+Claude plan to use Claude design, either
+Pro or Max. Then, you can go to
+claude.ai/design,
+or you can find it on the sidebar in
+Claude.
+Once you're there, you have all sorts of
+different templates to choose from. In
+my dedicated Claude design video, I
+covered all of those. We've got slides,
+mobile app design, UI mockups, resume,
+3D objects, and a lot more. But, for
+this video, I'm focusing on animations.
+I'll start by creating one with just a
+prompt, then I'll show using a reference
+image, then multiple reference images,
+then using a design system, which is
+where you can create a full brand style
+and voice guide that it will work from
+each time. And for every video I make
+about Claude, I have a Claude design
+system that includes the UI, the logo,
+colors, and all of that. So, all I have
+to do is select it, paste in my prompt,
+drop in a timestamped transcript, which
+I'll show you how to get easily, then
+send it.
+I'll build up to that. So, how about for
+this first example, I'll say, "Animate a
+visual explanation of how LLMs are
+trained and how they work." And I'll
+just send it like that. And some of the
+time, it will come back with a list of
+questions. Usually, it's just a couple,
+but for a very vague prompt like this
+was, it has quite a few. So, I'll answer
+those. This is for curious professionals
+and execs. 30 seconds, since this is
+just a demo. 16:9 aspect ratio. Decide
+for me. Decide for me. Minimal labels.
+And there's a few more. Then I will hit
+continue and it will start generating.
+In just a few minutes, that came back.
+Let's check it out.
+And it does have this tweaks panel where
+I can test different accent colors. I
+actually really liked that opening shot.
+Or the cat sat on the mat. That's the
+example I see used every time this topic
+is explained.
+And that was a solid transition.
+And I think I like this red color the
+most. And there is this timeline at the
+bottom where I can adjust the length of
+these shots. I could drag this in if I
+wanted this one to go faster. Yeah, you
+get the idea. This is looking great.
+What is awesome is I can make changes
+using natural language. So, maybe I want
+it to use a different phrase as an
+example. I can just ask for it to change
+that.
+And then it came back and it says, "The
+kettle began to boil." Yeah, changed it
+perfectly while keeping everything else
+the same. And I'll actually skip to the
+end, see if it switched it out in the
+question. And it did.
+So, that is amazing. It would take a
+really long time to create this from
+scratch. And that was still a relatively
+simple one. Another thing it's
+particularly useful for is data
+visualizations, like animated charts and
+graphs. Here's another quick one I did
+just from a prompt with no reference
+images. I asked for a comparison of the
+different market bubbles through history
+and where we're at now in the AI bubble.
+And that turned out amazing. And I
+didn't give it any of this information
+as part of the prompt. It went out and
+did the research itself to find all the
+numbers to use. So, just from a prompt,
+you can get some super helpful
+animations. And these are very different
+from what you would get from a typical
+text-to-video generator. Claude is
+writing actual code underneath, like
+HTML, CSS, and JavaScript, and it shows
+it to you live. And those three are
+basically the structure, the styling,
+and the motion. It's all happening in
+real time. It is totally different from
+a generator that sends back a completed
+video file. And that's why the output in
+design is so easy to make precise edits
+to. It's just changing parts of that
+code. I'm focused on just one of these
+templates in Claude design right now,
+but there is a way more to the platform.
+So, we created a free guide called
+Claude design in action with use cases
+you can try today. And each use case has
+an optimized prompt to get you the
+result you're looking for much faster.
+And we updated this to include the exact
+prompt that I'll be using in the next
+section to create these motion graphics.
+But on top of that, there's workflows
+for tailored pitch decks, landing page
+from competitor screenshots, social
+media templates, and more. These will
+save you a lot of iteration time with
+every step from prompt to export. That's
+a free guide at the link in the
+description.
+You can also create animations that work
+from an image. Here's an example from a
+previous video. I was covering the
+Claude ecosystem and had the idea of how
+I wanted it to look. So, I prompted GPT
+image two and it came back looking
+almost exactly how I was envisioning it.
+But I needed this animated. So, I can
+drop the image in and explain what type
+of animation I want. Basically, I want
+the top three at the start, then for
+each layer to animate in, pause, then
+move on to the next going down the
+ecosystem. And the pauses are because I
+was using it sort of like a title screen
+when I'd get to that section. And then
+this one did not have any questions. It
+just went for it and came back like
+this. It starts on the title, then the
+core products comes in.
+There's a pause, then the universal
+layer. These are all really smooth
+animations.
+There's context and memory, a pause,
+then the final autonomous layer.
+That nailed it on the first try. And
+this looks different from my reference
+image because again, it's not animating
+the image itself. It recreates the idea
+using code. That example was using the
+image for it to basically recreate it,
+but you can use image references for all
+sorts of things. A great one I've been
+using is the UI of different platforms
+since I need that regularly. I drop it
+in and it can simulate like a cursor
+moving around and clicking on things,
+windows popping up, or typing into a
+prompt box, or a conversation going back
+and forth. That stuff is really hard to
+do the traditional way. You know, unless
+you use a template, which you can find
+for some of the common platforms, but
+definitely not the less used platforms,
+and you can't really get that customized
+with it. So, this is a huge time saver
+there.
+Those were using one image reference.
+With multiple image references, you can
+really guide the style to be consistent
+across a long generation, while also
+including specific logos, UIs, icons, or
+anything you need. I'm going to make one
+about Claude. So, I'll use the little
+Claude character, then the prompt box,
+chat interface, and this one is what I
+want the background to look like. These
+four should give it everything I need,
+so I'll drop those in. Then, I have a
+relatively simple prompt I've been
+using. I made it a little more
+generalized with room for Claude to
+design things, so I can use it across
+any generations for different products,
+different concepts, and different types
+of explanations I'm giving. I want
+motion graphics that will be used over a
+talking head video. They should follow
+the transcript, illustrate the concepts
+at the matching timestamps, default to
+graphics and icons to illustrate
+concepts whenever possible, use the
+interface when applicable, use text
+minimally when appropriate to emphasize
+key points or label things. The
+exception is if there's a definition
+where the exact text on screen makes
+sense. So, you can see that's pretty
+generalized to work across basically any
+of the types of videos that I make. And
+the part about using text minimally is
+because it will default to using a lot
+of text almost like full captions
+throughout, which I don't like at all,
+but that's easy to fix. And then, the
+next part, this is telling it to leave
+blank space on the right third mostly,
+sometimes the top third for me to place
+the talking head. Otherwise, it defaults
+to full screen the whole time. Then I
+don't have a spot to place myself in it,
+and I tell it to switch between
+locations as it sees fit, but usually
+the top third open is for larger points
+and definitions. Or it can even go full
+screen if it calls for it. Then in this
+case, I actually need to add a line
+about how I added that background image
+for it to use. I'll tell it to add a
+subtle animation to it. We got aspect
+ratio 16:9. Then I need to paste in the
+transcript. The easiest and fastest way
+I've found to do this is using Gemini.
+Say, give me an SRT transcript for this,
+then I drop in the section of the video
+I want the animations over. Then in 5 to
+10 seconds, it comes back. And SRT
+stands for subrip text. It's just this
+format. It's a plain text file that
+includes the time codes with the text
+below and line breaks in between. Gemini
+knows what that means. I just click to
+copy that, then paste it at the end of
+the prompt, and send it off. And again,
+that prompt is included in that resource
+that's linked in the description. You
+can take that and modify it for whatever
+your purposes are. There were no
+questions to answer. This is what came
+back.
+You can see it left space on the right
+for my talking head. Then this chat
+interface looks amazing with the little
+Claude character floating up and down.
+This is looking great, but it really
+makes the most sense when my talking
+head is over the top. So I'll add that
+and play the full thing back with sound.
+Except it actually only left the space
+on the right this whole time. So I want
+to switch the open space to the top near
+the end. So I can send off a quick
+follow-up. Move conversation and one
+turn to the bottom center, leaving
+enough room up top for the talking head.
+And those are the titles Claude gave
+those sections. You can see those below.
+I usually just reference those by name
+when I need them changed, and that's
+worked really well. Man, that did come
+back perfect. So I'll come up to share,
+then select video, then I want to bump
+it up to a 1080p, export that, then I
+can bring it into Premiere. And this is
+my actual timeline from the previous
+video I made where this clip came from.
+Then I added the scale and position
+keyframes manually, then use a Bezier to
+smooth the motion out, and then do a
+similar thing with the mask. I would
+adjust that manually to where I want it,
+then sync it up with the movement. Then
+I'll go over to the next movement and
+click into that. And you can see it's
+just the same thing. And once I've made
+these moves once, I can copy-paste them,
+but the way to do that in Premiere is
+actually pretty annoying. So, I built a
+plugin for Premiere to fix that, plus a
+few other things that are just
+time-consuming for this type of video,
+like zooms and animated highlights and
+things like that. It's actually been
+amazing. It saves so much time on the
+really tedious things I do a lot, and it
+was fun to make, too. And this is just
+like a personal use plugin I've been
+making. Um this isn't something you can
+use right now if you want to, sorry. But
+I've been super excited about this, so
+I'll just really quickly show some of
+this, since this is what I'm actually
+using now. And I built the whole thing
+in Code X, by the way. For zooms, I just
+click where I want to zoom. I can change
+the scale if I want, and then just hit
+animate, and it's done. It's a super
+smooth zoom. Then for highlights, I
+position this rectangle, hit magnify to
+zoom in and get it just right. I can
+change the color or the animation style.
+I really like draw. Then it's good, hit
+animate.
+And now it has that highlight, and I
+have that so the highlight is animating
+in while it's zooming, and it adds a
+fade to the background all at the same
+time. Super easy, or I can even do a
+pop-up where I place another rectangle,
+then it will animate out into that.
+There's actually a bunch of other stuff
+in here, but I'll move on to the talking
+head option. So, I have the talking head
+clip on top, then the video I just got
+back from Claude below. Now, all I need
+to do is click one of these preset
+positions and a shape, then I can resize
+it manually if I want. And I don't need
+these on this one, but I can also add
+like a border and change the color and
+add a gradient, then a glow or drop
+shadow. I'll turn all that off, maybe
+leave the drop shadow. And then I'll
+actually reframe the shot a little. I
+like when the orange light is right at
+the top of the mask. That's better. Then
+I click animate to this state, and in a
+couple seconds, there it is.
+Everybody knows and it works the same
+across all three surfaces.
+That's a perfectly smooth animation.
+Then in the later section, I wanted that
+to move up to the center. So, I'll put
+the play head there, click refresh frame
+so I can see where it needs to go, click
+the location and shape. Again, got to
+make sure that orange light is perfectly
+at the top, then click animate.
+And now here it is. Perfect. So, now
+I'll make it bigger, then I can play
+that from the beginning and you can see
+how the animations sync up with what I'm
+saying.
+Chat is the one everybody knows and it
+works the same across all three
+surfaces. This is your back and forth
+with Claude for brainstorming, writing,
+research, working out an idea. It's a
+thinking partner. You can extend it with
+built-in features like projects, which
+give it permanent context about your
+work, or connectors, which let it use
+your other tools like your email or your
+calendar, or artifacts, which is that
+little app or document window that opens
+next to the chat. But at its core, chat
+is a conversation. Everything chat does,
+even when it makes you a file or builds
+you a little dashboard, it happens
+inside one turn. Then it hands it back
+and waits for you.
+I've used these in quite a few videos
+now, but it is still insane to me how
+easy it is to get this quality of motion
+graphics. But now I want to do one more
+example because there's still a really
+important feature I haven't covered yet.
+Uploading a series of reference images
+works great, but that only applies to
+that generation. A lot of the time
+you'll want to use a style across
+multiple generations so it stays
+consistent across shots or across
+videos. Maybe that's so it matches your
+brand colors every time. Or like me, I
+make a lot of videos about Claude and I
+want it to have the logo and UI and
+colors every time. Or even within a
+single video, I usually only generate
+around 30 seconds up to 2-minute
+sections at a time and I may have a few
+of those across a video. So, I need to
+create a reusable design system, which
+is really easy. You can click the plus
+button under the design system drop
+down, or below there's a design system
+tab where you can see all of your
+previous systems. Then for a new one,
+click create design system. Then either
+create using cloud code, or I'll show
+create here. Then you can link code from
+GitHub, your computer, upload a Figma
+file, or drop in the images you wanted
+to draw from. I just dropped in these
+three images. I used GPT image 2 to
+generate these in a consistent style
+across them, covering the types of
+things that would come up in some of my
+videos. Then you can add more notes to
+guide it, but I'll just call that good
+and say continue to generation. Then it
+will take about 5 minutes.
+Now it finished the whole document with
+the system laid out, the content
+fundamentals, visual foundations, then
+all these different visuals it will use
+across generations, types of lines
+connecting things, the style of glass
+and strokes, glow elevation,
+iconography. This keeps going on and on.
+Like there's a ton of stuff in here. And
+you can of course ask for any edits you
+want to this, but I'll use it as is. Now
+when I go back to the main screen and
+open up that design system drop down,
+it's right here. I didn't give it a name
+or specify what it's for, so it just
+called it Halo neon design system.
+Select animation. I'll paste in that
+same prompt, go to Gemini, drop in a
+section from an old video about agents,
+copy,
+paste that in,
+and send it off. Now that has come back
+and everything looks like it used the
+style from the design system perfectly.
+I'm going to go ahead and just export
+this so I can add the talking head over
+it. I'll do this in the same way,
+although I'm noticing the color grading
+was so bad in this video. I don't know
+why I made myself so bright compared to
+the background here. Oh well, just a few
+clicks using that plugin, finish the
+video up, and here it is.
+First, quick refresher for those new
+here. An AI agent is a system that can
+reason, plan, and take actions on its
+own based on information it's given.
+Think of it like a digital employee that
+can think, remember, and get things
+done. That's different from a chatbot or
+an automation. A chatbot answers
+questions, an agent takes your goal and
+delivers a result. An automation follows
+fixed steps. An agent reasons and
+chooses actions based on context. To
+pull this off, an agent has three core
+components: the brain, memory, and
+tools, integrations that let it take
+actions on your behalf. This is how it
+actually interacts with the world and
+accomplishes tasks.
+I think that looked amazing. Literally
+one shot, I just use it as is. That's
+the whole system. I am still genuinely
+blown away to be able to do this now.
+It's been a huge time saver for me. I
+don't know how many people that workflow
+is relevant to, but I'm sure there's
+some out there, so hopefully that helps,
+and I'll see you in the next one.

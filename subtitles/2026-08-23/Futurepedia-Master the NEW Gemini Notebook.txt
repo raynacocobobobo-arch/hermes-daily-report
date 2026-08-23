@@ -1,0 +1,619 @@
+UP主：Futurepedia
+标题：Master the NEW Gemini Notebook
+链接：https://www.youtube.com/watch?v=TGlPNGaHo6I
+
+One of my favorite AI tools has had
+massive updates over the past weeks and
+months. One of those is changing the
+name from Notebook LM to Gemini
+Notebook, but there's a lot of other
+very important changes that make it more
+powerful and easier to use. So, I'm
+going to cover the entire platform and
+how to use it to its fullest potential
+today.
+While there have been a lot of updates,
+the core reason to use Gemini Notebook
+hasn't changed. When you want an AI to
+dive into a specific topic without
+worrying about hallucinations, to
+utilize information across different
+file types and to transform that
+information into interesting and useful
+formats. No other option does it like
+Gemini Notebook does.
+To use it, you just log in with your
+existing Google account to
+notebook.google.com.
+Then all your notebooks will be listed
+on the main screen. If it's your first
+time using it, you'll only have the
+featured notebooks up top. Then when you
+open a notebook, you'll see three
+panels. The left is your knowledge base.
+These are sources you select or let
+Gemini find and you approve. Then it's
+grounded in those sources. So all of its
+information will come from those, which
+cuts hallucinations. In the middle, we
+have the chat panel, which feels just
+like a normal chat interface that we're
+all used to, but it only pulls in
+information from the sources on the
+left, then provides inline citations
+throughout its answer, so you can find
+exactly where that information came from
+and click in to read further context
+around it. Then on the right, we have
+the studio panel. This is how you
+transform your data and conversations
+into useful formats and visualizations
+like infographics, podcasts, even short
+form videos, or deliverables like slide
+decks and reports. I will click back
+out, create a new notebook, and we'll
+build one from scratch.
+In a new notebook, you'll need to start
+with sources. There's a few ways to get
+these. First, you can click add sources
+and upload sources you already have. And
+these can be all sorts of different file
+types, as you can see here, and across
+text, image, audio, and video. I'm going
+to make a notebook to learn about the
+environmental impact of AI. I'll start
+by uploading three PDFs. I found some
+papers that go pretty deep and you can
+see those get loaded in on the left
+panel. I want to add more sources. Now
+I'll use some websites. This one was
+very comprehensive. So I copy the link
+and then go just paste it in. Now if I
+hit space, I can add another. Here's
+just another website. I'll hit space.
+And this time I'll use a YouTube video.
+Again, just paste the link in. I'll do
+the same for another YouTube video and a
+couple more websites. Now when I hit
+insert, it will bring in all of those
+sources. And sometimes they will turn
+red, which means it can't load for
+various reasons. In this case, this one
+is actually a PDF that I can download.
+So, I'll do that. And turns out all
+three of these I could download as PDFs.
+When that's not the case, you could also
+just copy the full text and paste that
+in using the text option. It's actually
+pretty unusual to have three fail like
+this at once, but now they're in.
+Another way to find sources if you don't
+have enough that you've already found
+yourself is to let Gemini search the web
+for sources. is type in right here the
+environmental impact of AI. Then I'll
+let it search. It comes back with a list
+of sources. I always recommend opening
+that up and at least verifying that they
+all seem to come from reputable
+websites, but really it is best to go to
+each website and verify. Then you can
+deselect any you don't want. I'm going
+to remove Forbes. The rest look fine.
+I'll call that good. And there's one
+more way to find sources. For any topic
+like this one that is complicated and
+nuanced and is going to have a lot of
+differing perspectives, I run a few
+prompts to help me analyze the sources I
+have and to fill in any gaps. These
+prompts aren't necessary for every
+notebook, but for this type of topic, I
+find them extremely helpful. I'm doing
+this on the chat panel, and the first
+prompt is, are there any contrarian,
+alternative, or lesserk known viewpoints
+on AI's environmental impact that are
+not represented in these sources?
+describe those viewpoints at a high
+level and find reputable sources that
+represent those perspectives. And this
+is actually a new capability in here. If
+you send a prompt like this, it will
+understand that it's allowed to think
+and go find new sources rather than
+being forced to work only from the
+existing sources like it normally is.
+Then as soon as you ask a typical
+question, it will switch back to its
+more confined source citing. And this
+response starts with perspectives that
+are covered. Then down below it has some
+that aren't like EAC data centers as
+grid stabilizing assets and radical
+degrowth. Those are all perspectives I
+want included. So I'll say find
+reputable sources that represent those
+three viewpoints. Then after a minute or
+two, it comes back with a research
+report and seven new sources I can add.
+Especially for a topic like this one, I
+think that's really important. Then
+another prompt I like is based on these
+sources, what important questions or
+subtopics about AI's environmental
+impact are missing or barely covered?
+List the biggest gaps that would need to
+be filled to really understand this
+topic well. And now it lays out what's
+missing from the data we have on this
+topic. There are a lot of unknowns here.
+Then the last prompt I use is looking at
+all the sources in this notebook,
+identify any areas where the sources
+disagree with each other and any clear
+contradictions or conflicting claims.
+And especially after running that first
+prompt, there are going to be a lot of
+disagreements in these sources. And it's
+good to have all those laid out. I was
+just skimming through it. I have never
+thought about this one. Utilizing AI
+systems for writing and illustration
+resulted in 130 to 2,900 times lower
+carbon emissions than employing human
+writers and illustrators. Man, that is a
+weird one to think about. But yeah, I
+guess it's true. AI generating an image
+takes a lot less resources than if I
+were to design one in Illustrator or
+paint one or anything, but I think in
+this case it's worth it. Anyways,
+there's a bunch more listed out here.
+And sometimes you'll find a bad source
+you included using this prompt, too. And
+if I'm just learning about a topic for
+the first time, I may not have the
+knowledge yet to digest the answer here.
+But I click save to note. Then that adds
+the response to the studio panel. Then
+over there, I can click convert to
+source. And that's now saved as a
+source. So Gemini understands the nuance
+and conflicts in the sources as it
+responds. It's also there so I can come
+back to it after I understand the topic
+more deeply. I also want to save the
+response to that second prompt as well.
+Those are the three prompts I really
+like to analyze my sources and find new
+ones. I don't always use all three on
+every notebook. It depends on the topic.
+And I do have each of those prompts
+included in a free resource down in the
+description. It covers everything I'm
+going over in this video but in written
+form and makes it easy to copy paste the
+prompts I'm using. It also covers five
+specific use cases step by step. Then
+there's pro tips and a whole section of
+copy paste prompt templates. It's the
+perfect companion to this video. That's
+a free download using the link in the
+description. Now that I have saved those
+responses, I don't need this as part of
+the chat history anymore. So I will come
+up to the three dots and click delete
+chat history. This can't be undone. So
+make sure you have any important
+responses saved before you do this.
+That's one thing about Notebook LM is
+you can't have multiple separate threads
+on a topic. It's all one long chat, but
+these notebooks are also saved into
+Gemini where you can have multiple chats
+around one notebook. I'll show that
+later. While I'm up here, I'll also show
+what's under customized notebook. I
+usually change the title. I don't like
+the ones that get autogenerated. I
+prefer something concise and literal so
+it's easy to know which notebook is
+which at a glance from the main page.
+It's the same with these summaries. It
+gets autogenerated every time you open
+the notebook, and I don't need those, so
+it just takes up space. I usually just
+replace that with a simple custom one.
+Most of the time I just use the title
+again. Then you can also add a
+background image, which I typically
+don't, but it does look nice if you want
+to do that. And next to that button, we
+also have configure chat. You can define
+the conversation style, including a
+custom option to guide it in any
+direction you want. Then the response
+length, which I basically never switch
+to longer since the default is usually
+pretty long already. I do switch it to
+shorter a lot of the time, though. And
+back on the source panel, another cool
+function they added is auto label
+sources by topic. I click that, then it
+sorts them into different tabs with
+labels. And a source can be in multiple
+tabs if it applies. Also, you can move
+those around and reorganize them however
+you want. One other source option I'll
+mention that I didn't utilize here is
+you can use sources from Google Drive.
+That could be a document, spreadsheet,
+slides, or anything. If it is a doc or a
+sheet, those can act as living
+documents. If you update it, it will
+update here as well and use the current
+information. Now I am very confident in
+these sources and how everything is set
+up. We can move on to the chat panel
+more deeply.
+The chat panel should feel familiar. Ask
+questions, get a response. There's a few
+important things to pay attention to,
+though. First, inside this response,
+there are those inline citations I
+mentioned earlier. When I hover, it
+shows me the source. Then I can click in
+and see all the surrounding context on
+the source panel. That is awesome. And
+you can see this is all throughout the
+response. It's only using the sources I
+approve to formulate these responses.
+So, that does drastically reduce
+hallucinations. That does mean, of
+course, that you need to make sure you
+have good sources. That's one of the
+reasons why I usually use those
+additional prompts up front. And you'll
+see down on the prompt bar, it says how
+many sources it's using. By default,
+your questions will get their answers
+from all your sources, but you can
+manually curate which sources you want
+it to work from. So, I could click to
+deselect all, then choose one to dive
+into. Or an added bonus of that auto
+label feature is it makes it easy to
+select and deselect all the sources on a
+given topic. So I can hone in on the
+research in one particular area. Now if
+I ask a question, it's working from just
+14 sources, leaving out some of the
+stuff around like philosophy and policy
+focused papers.
+Now it's time to move on to the studio
+panel. This panel really makes Gemini
+notebook stand out. You have the ability
+to transform your sources and research
+into all these different formats for
+better retention of the information or
+polished deliverables. Audio overview,
+slide deck, video overview, mind map,
+reports, flashcards, quiz, infographic,
+and data table. I'll show an example for
+each one of these. Some of them like
+audio and video overviews do take a
+little while to generate. So, I will
+open up a different notebook where I
+already generated all of them. Starting
+with audio overview. This is the podcast
+feature. You can generate a conversation
+that discusses your topics. Each of
+these options have further customization
+available when you click on them. For
+audio overviews, I usually only use the
+deep dive option. The others like
+critique or debate. The idea sounds
+good, but I just haven't found them very
+useful myself. I usually use these deep
+dives to just get it in a different
+format to take in and review the
+information I'm learning. I typically
+listen to it while I'm driving or doing
+the dishes. I do that on the mobile app.
+All your generations sync there as well.
+Then you can choose a language, the
+length, select or deselect which sources
+to draw from, then guide the
+conversation further below to focus in
+on anything you want.
+>> When you click generate, it pops up in
+that studio panel. I have one already
+generated. You can click in to start
+playing it. Or if you click interactive,
+you have the ability to jump into the
+conversation yourself.
+>> When you type a prompt into an AI and it
+uh writes a poem or drafts an email, I
+mean, part of you wants to believe
+there's a digital brain in there,
+>> right? It really feels like magic
+sometimes. Exactly. But if we pull back
+the curtain, it's not. It's actually the
+world's most complex game of
+autocomplete.
+>> Okay, I'm going to
+>> welcome to this custom deep dot.
+>> Oh, hey, welcome. What's up?
+>> Would you still consider the newest
+reasoning models a complex autocomplete
+or has that changed?
+>> That is a fantastic point you are
+raising right now.
+>> Yeah. Is it really just guessing if it
+can solve?
+>> So, they start reacting to my input.
+That's a very unique feature. You can
+make a comment, ask a question, or steer
+the conversation how you want. Although
+I usually just listen to them, it's
+pretty rare that I actually jump in.
+Next up, we have slide deck. The options
+are detailed. That's where it includes
+all the relevant information to read
+through right on the slides. Then
+presenter is where it's meant to have a
+speaker adding context and explaining
+things. Language, length, select which
+sources to work from. Language and
+sources will be an option for all of
+these, so I'm going to stop mentioning
+those. Then describe the deck you want
+to create. This can further guide the
+content, and I'm also usually using it
+to guide the style. This first one is
+the presenter deck. Has a really nice
+style to it. It's a solid deck, nice to
+have in here. There's other tools that
+can do this, but I'll also show the
+detailed deck. These also look great,
+but if they're not perfect and you need
+anything changed, you can come up to
+this revise button. Then you're able to
+ask for any types of edits you want. You
+can click around to different slides,
+add multiple edits all at once, try to
+get all the edits you want in one go,
+and then send that and it will
+regenerate the whole thing with those
+edits. This next one is video overview,
+which can be really interesting. So,
+there's three options, cinematic,
+explainer, and short. I'm going to show
+this middle explainer one first. You can
+select a style. I used heritage for this
+one. So, I'm going to open that up. And
+it's basically just slides with a
+generated voice speaking over them.
+>> All right, let's just dive right into
+this. You know, have you ever stopped to
+wonder? Let's start with our very first
+hurdle here, a word order. To fix this
+glaring issue, the model uses positional
+encoding.
+>> Yeah, there it is. I mean, there's not
+much to it. The cinematic option is much
+more engaging. This will generate some
+of the videos with VO, but also mix in
+data visualizations. I'll play through a
+few parts of this one.
+>> When you type a prompt into a large
+language model, it can feel like you're
+speaking to a machine that understands
+English. Large language models do not
+process language. They perform massively
+parallel matrix multiplications on
+highdimensional vectors. Everything that
+feels like comprehension is actually a
+mechanical pipeline of linear algebra.
+>> Some parts of this look really good, but
+when you take these in as a whole, I
+rarely use this. Takes a long time to
+generate and just isn't good enough all
+the way through. The one that can turn
+out pretty good is the new short option.
+These are bite-sized overviews really
+made to feel like short form content.
+They called it doom scrolling but
+educational.
+>> How does a modern neural network
+actually understand the text you type?
+Older models read strictly in order but
+they struggled to remember earlier
+context. Take a sentence like the cat
+sat on the mat because it was tired. To
+process this accurately the network must
+figure out what it refers to. But the AI
+doesn't know English. It only sees
+isolated numbers called tokens. So, it
+has no built-in way to know if it
+connects to cat or matt. To solve this,
+the network runs a massive mathematical
+comparison. It scores the target word
+against every other word to measure
+relevance. The strongest mathematical
+relationship, the link with cat, gets
+the highest score. By looking across the
+sequence for context, the network
+performs self attention. Using that high
+score, it blends the mathematical
+meaning of cat into it, fundamentally
+updating the token's value to carry that
+specific feline context. So it is no
+longer just a blank pronoun. It is
+permanently anchored to the cat.
+Multiply that across every single word,
+creating a dense web of context that
+lets the network predict exactly what
+comes next.
+>> That one wasn't bad. I've had some of
+these turn out really well. Mind maps is
+the next one. I don't use these often,
+but here's what they look like. You can
+see a highle overview of your topic and
+all the subtopics. The part I do find
+useful is you can see this overview and
+then if there's a subtopic you notice
+that maybe you hadn't considered, you
+can click it to jump right into the chat
+about it. It autofills a prompt and
+sends it for you. Reports will open up a
+box with a few generic presets up top,
+plus the option to create your own, and
+we'll also generate four new suggestions
+below that that are customized to your
+sources. Usually those are much better
+options than the defaults. I'll click
+conceptual primer. Then it pops in with
+the description. You can add
+customization if you want. I will
+generate. Now this is a full report
+written on that topic.
+Flash cards is pretty self-explanatory.
+Select the number of cards, level of
+difficulty, and the topic. Then
+generate. Then you can test your
+knowledge. Process of breaking raw input
+text into units like words, subwords or
+characters is called tokenization. Nice
+primary role of the embedding layer
+creating the initial vectors. Yeah,
+saying the same thing. Maybe I didn't
+know that and want to dive in deeper. I
+can hit explain and it will pop into the
+chat. Quiz is also self-explanatory with
+the same options as flash cards. Here's
+what one of those looks like. It's a
+solid quiz to test your knowledge on
+whatever is in your notebook. And I will
+come back to infographic and look at
+data table first. Basically, if you have
+any information in your sources that
+would be helpful to lay out as a
+spreadsheet, that's what this option is
+for. This one was for all the key
+concepts and components of LLMs. And I
+can export it right to Sheets.
+Now, back to infographic because it's
+one of the more unique options. They can
+be great to use across social media or
+just to help visualize the topic for
+yourself. Once you choose the
+orientation, you can select a visual
+style. I'll show one from each of these
+presets so you can get an idea what they
+look like. Some of them are awesome.
+Choose the level of detail. Concise and
+standard are great. Detailed often tries
+to cram too much in and can be full of
+errors. I'll show a quick way to fix
+those though. Then below you can guide
+it further. Style, color, or focus. So,
+this one was just letting it auto select
+a style at concise. It's an in-depth
+topic, so there is still a lot on here
+actually. Now, standard has a lot of
+text on it, but I read through and
+didn't see a single error anywhere. But
+moving on to detailed. This looks great
+at first, but when you zoom in, you can
+see errors all over the place. This
+should be quick. This one brown. Down
+here, it says inject the injection
+or calculate chunk prevent 10 scening.
+Then this sideways one here should be
+translate synthesize. There's a lot more
+than just those issues, too. The easiest
+way I've found to fix those is actually
+to just drop it into chatbt and ask for
+it to fix all the errors. It will not
+only find the misspellings, but it will
+analyze the whole thing and if there's
+errors in the logic or grammar, it will
+just fix all of it. I've seen it catch
+like a random equation that was wrong
+and solve it. It'll try to put these
+next to each other so it's easier to
+see. To fix some of these, it did change
+the layout a little bit. You can ask it
+to not do that if you want, but fixed
+quick and brown. And the way it
+reorganized it, I actually do like more.
+It makes more sense. Then over here was
+that sentence that just didn't make any
+sense. chat GBT understood all the
+context of the image and had it say
+calculate cross entropy loss at each
+position in parallel to update the
+model. Then over here these sideways
+once it didn't just fix the words they
+were already up here. So it realized it
+didn't even make sense for those to be
+there and knew that this axis should be
+model performance. Yeah, GPT image 2 is
+just better at this level of detail and
+usually just comes back perfect with
+every single one of the errors fixed.
+Now here I'll play through each of the
+different styles and I generated each of
+these on just the standard level of
+detail. Oh,
+that's the studio panel. You can do some
+amazing things, but there are a few
+formats missing that you may want to
+use. There's a whole list of other
+formats that are now available like a
+word doc, markdown, powerpoint
+presentation, JSON, a PNG. If you need
+any of those, you can ask for it in
+chat. Then it will pop up on that studio
+panel. But with these, they won't be
+viewable in notebook. You'll need to
+click to download it first. You can also
+ask the chat to generate any of the
+studio options, which I do a lot. If
+there's relevant information from your
+chat and you don't want to open up the
+customization options and copy in the
+information to prompt for all of it, a
+lot of the time I just ask in chat.
+There's one more thing I want to cover.
+One of Gemini Notebook's greatest
+strengths, accuracy, can also become a
+weakness when you want creativity.
+That's where Gemini itself shines. And
+luckily, all your notebooks show up in
+the Gemini app. You can open them and
+your chats will work from that same
+knowledge base you built in Gemini
+notebook. Hopefully that makes sense.
+This was much less confusing to talk
+about when the name was notebook LM. But
+then you can have multiple conversations
+against that same notebook, keeping them
+all organized and have more creative
+conversations. Then those conversations
+you have in Gemini will show up in
+notebook under your sources. Although
+you may want to deselect those depending
+on what you were discussing, but it's a
+seamless integration to go back and
+forth between the two. You can have the
+accuracy of Gemini notebook, then jump
+in for the creativity of Gemini. So,
+that is the new Gemini notebook. It's an
+incredibly useful tool for research,
+learning, and many other things.
+Hopefully, that helps you understand the
+full platform. I'll see you in the next
+one.

@@ -1,11 +1,155 @@
 {
   "schema_version": "2.1",
   "date": "2026-08-23",
-  "generated_at": "2026-08-23T12:24:35+08:00",
-  "total": 1,
+  "generated_at": "2026-08-23T12:49:07+08:00",
+  "total": 22,
   "rejected": 0,
   "source_directory": "subtitles/2026-08-23",
   "entries": [
+    {
+      "source": "Andrej Karpathy-Deep Dive into LLMs like ChatGPT.txt",
+      "up_name": "Andrej Karpathy",
+      "title": "Deep Dive into LLMs like ChatGPT",
+      "repository_path": "subtitles/2026-08-23/Andrej Karpathy-Deep Dive into LLMs like ChatGPT.txt",
+      "format": "txt",
+      "size_bytes": 215485,
+      "sha256": "632a97f3492cb4a2a3b9284ddf7262e7e642d4ac201e4561cc65424106cb2378"
+    },
+    {
+      "source": "Andrej Karpathy-How I use LLMs.txt",
+      "up_name": "Andrej Karpathy",
+      "title": "How I use LLMs",
+      "repository_path": "subtitles/2026-08-23/Andrej Karpathy-How I use LLMs.txt",
+      "format": "txt",
+      "size_bytes": 129138,
+      "sha256": "42e1b48313c82e4e10050c025902bdcf99b0408042edcbbcbe59a5364d1542d7"
+    },
+    {
+      "source": "Andrej Karpathy-Let's build the GPT Tokenizer.txt",
+      "up_name": "Andrej Karpathy",
+      "title": "Let's build the GPT Tokenizer",
+      "repository_path": "subtitles/2026-08-23/Andrej Karpathy-Let's build the GPT Tokenizer.txt",
+      "format": "txt",
+      "size_bytes": 127420,
+      "sha256": "58144a667d8a7885c4a761416134e144b31526b1ec0edc81d61c04aaa46900a0"
+    },
+    {
+      "source": "Andrej Karpathy-Let's reproduce GPT-2 (124M).txt",
+      "up_name": "Andrej Karpathy",
+      "title": "Let's reproduce GPT-2 (124M)",
+      "repository_path": "subtitles/2026-08-23/Andrej Karpathy-Let's reproduce GPT-2 (124M).txt",
+      "format": "txt",
+      "size_bytes": 223459,
+      "sha256": "540de554a2258120dacf9634c8c8543228e8961ed8263cb6a47773cf99745559"
+    },
+    {
+      "source": "Andrej Karpathy-[1hr Talk] Intro to Large Language Models.txt",
+      "up_name": "Andrej Karpathy",
+      "title": "[1hr Talk] Intro to Large Language Models",
+      "repository_path": "subtitles/2026-08-23/Andrej Karpathy-[1hr Talk] Intro to Large Language Models.txt",
+      "format": "txt",
+      "size_bytes": 64482,
+      "sha256": "fee9d4e828716e89ad765dfa97277058d6c355af43d0ba9edf4cc717a86999cf"
+    },
+    {
+      "source": "Anthropic-An initiative to secure the world's software | Project Glasswing.txt",
+      "up_name": "Anthropic",
+      "title": "An initiative to secure the world's software | Project Glasswing",
+      "repository_path": "subtitles/2026-08-23/Anthropic-An initiative to secure the world's software | Project Glasswing.txt",
+      "format": "txt",
+      "size_bytes": 5511,
+      "sha256": "735ef0df0f66659798d17caa369cf79ab765b90ac4536a0a1984467676f29b34"
+    },
+    {
+      "source": "Anthropic-How Icelanders are thinking about AI.txt",
+      "up_name": "Anthropic",
+      "title": "How Icelanders are thinking about AI",
+      "repository_path": "subtitles/2026-08-23/Anthropic-How Icelanders are thinking about AI.txt",
+      "format": "txt",
+      "size_bytes": 4793,
+      "sha256": "628ca54a91c7e7037f77df666e57a5389de7e754cca23cc8936a65adc17e42cf"
+    },
+    {
+      "source": "Anthropic-Introducing Claude Fable 5.txt",
+      "up_name": "Anthropic",
+      "title": "Introducing Claude Fable 5",
+      "repository_path": "subtitles/2026-08-23/Anthropic-Introducing Claude Fable 5.txt",
+      "format": "txt",
+      "size_bytes": 2118,
+      "sha256": "19e5988b4fbc917ec3c5debd985aee4f3623f7ea70cafba402508c25274aefbd"
+    },
+    {
+      "source": "Anthropic-The different levels of how Claude thinks.txt",
+      "up_name": "Anthropic",
+      "title": "The different levels of how Claude thinks",
+      "repository_path": "subtitles/2026-08-23/Anthropic-The different levels of how Claude thinks.txt",
+      "format": "txt",
+      "size_bytes": 5034,
+      "sha256": "0ca9c012b72c28a08ab525395cecf9664453bf7cfe024d32323012a5449512c4"
+    },
+    {
+      "source": "Anthropic-Translating Claude’s thoughts into language.txt",
+      "up_name": "Anthropic",
+      "title": "Translating Claude’s thoughts into language",
+      "repository_path": "subtitles/2026-08-23/Anthropic-Translating Claude’s thoughts into language.txt",
+      "format": "txt",
+      "size_bytes": 3542,
+      "sha256": "9007d99e219faae82b084f7e7467c9ea826c33431c6adde98b630957028c5439"
+    },
+    {
+      "source": "Futurepedia-Claude Design Just Unlocked AI Motion Graphics.txt",
+      "up_name": "Futurepedia",
+      "title": "Claude Design Just Unlocked AI Motion Graphics",
+      "repository_path": "subtitles/2026-08-23/Futurepedia-Claude Design Just Unlocked AI Motion Graphics.txt",
+      "format": "txt",
+      "size_bytes": 18065,
+      "sha256": "042b90e2efe06c01026799c0874f5c23065595caca30904c991ac472071e6155"
+    },
+    {
+      "source": "Futurepedia-Master the NEW Gemini Notebook.txt",
+      "up_name": "Futurepedia",
+      "title": "Master the NEW Gemini Notebook",
+      "repository_path": "subtitles/2026-08-23/Futurepedia-Master the NEW Gemini Notebook.txt",
+      "format": "txt",
+      "size_bytes": 23185,
+      "sha256": "55a069508baf239f333d7429c6387faf501104c940bcbb39e73e52bc4cef2bb1"
+    },
+    {
+      "source": "Futurepedia-Use Claude Better Than 99% of People (Beginner to Pro).txt",
+      "up_name": "Futurepedia",
+      "title": "Use Claude Better Than 99% of People (Beginner to Pro)",
+      "repository_path": "subtitles/2026-08-23/Futurepedia-Use Claude Better Than 99% of People (Beginner to Pro).txt",
+      "format": "txt",
+      "size_bytes": 17335,
+      "sha256": "0b148a02db8efc97dac0c3eb1cbaf4b8fa9d66e353125183d7cf6a0453fc17be"
+    },
+    {
+      "source": "OpenAI-How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens.txt",
+      "up_name": "OpenAI",
+      "title": "How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens.txt",
+      "format": "txt",
+      "size_bytes": 1182,
+      "sha256": "047277f552f7f9a43f595ed5f8a0019b683c8f89be426170e17697708ce37c20"
+    },
+    {
+      "source": "OpenAI-How to Create a Solid Blog Draft With ChatGPT Work | Tutorial.txt",
+      "up_name": "OpenAI",
+      "title": "How to Create a Solid Blog Draft With ChatGPT Work | Tutorial",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How to Create a Solid Blog Draft With ChatGPT Work | Tutorial.txt",
+      "format": "txt",
+      "size_bytes": 2807,
+      "sha256": "d109c8319797d2106410944aba2fd0647ef98303d433c17effebd0a7e1b2f9ba"
+    },
+    {
+      "source": "OpenAI-How to Prepare for Customer Meetings With ChatGPT Work | Tutorial.txt",
+      "up_name": "OpenAI",
+      "title": "How to Prepare for Customer Meetings With ChatGPT Work | Tutorial",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How to Prepare for Customer Meetings With ChatGPT Work | Tutorial.txt",
+      "format": "txt",
+      "size_bytes": 1718,
+      "sha256": "b14772152e789a38104fbefeb182d440c66fc5ba3007403d572a35ef2ce3ba7e"
+    },
     {
       "source": "OpenAI-How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial.txt",
       "up_name": "OpenAI",
@@ -14,6 +158,51 @@
       "format": "txt",
       "size_bytes": 1528,
       "sha256": "b7ba5e484ece89e73b444fbbb48b03096e24b06cfc2d9afb238f91ba70bc6980"
+    },
+    {
+      "source": "The AI Advantage-ChatGPT Can Now See Everything You Do On Your Screen.txt",
+      "up_name": "The AI Advantage",
+      "title": "ChatGPT Can Now See Everything You Do On Your Screen",
+      "repository_path": "subtitles/2026-08-23/The AI Advantage-ChatGPT Can Now See Everything You Do On Your Screen.txt",
+      "format": "txt",
+      "size_bytes": 16482,
+      "sha256": "e37a909fba0943ba3f166b37c19860d86cc3192c5af15ee69df7acc6099d6756"
+    },
+    {
+      "source": "The AI Advantage-ChatGPT Plugins Finally Work!.txt",
+      "up_name": "The AI Advantage",
+      "title": "ChatGPT Plugins Finally Work!",
+      "repository_path": "subtitles/2026-08-23/The AI Advantage-ChatGPT Plugins Finally Work!.txt",
+      "format": "txt",
+      "size_bytes": 7107,
+      "sha256": "02c543d41c9966db1317a0d5825b0623ba18b2786198c9f0d0bb4ab2ef67fe46"
+    },
+    {
+      "source": "The AI Advantage-Claude vs. ChatGPT Just Got Serious.txt",
+      "up_name": "The AI Advantage",
+      "title": "Claude vs. ChatGPT Just Got Serious",
+      "repository_path": "subtitles/2026-08-23/The AI Advantage-Claude vs. ChatGPT Just Got Serious.txt",
+      "format": "txt",
+      "size_bytes": 13926,
+      "sha256": "179a9a22d4fb9ba057707755b957741c2070dcda6cf95bb5170d5ce059304794"
+    },
+    {
+      "source": "The AI Advantage-How to Set Up ChatGPT to Work Overnight in 7 Minutes.txt",
+      "up_name": "The AI Advantage",
+      "title": "How to Set Up ChatGPT to Work Overnight in 7 Minutes",
+      "repository_path": "subtitles/2026-08-23/The AI Advantage-How to Set Up ChatGPT to Work Overnight in 7 Minutes.txt",
+      "format": "txt",
+      "size_bytes": 9268,
+      "sha256": "29cc526d2e39753670ffbf1d7bc0cf776e3ecd9fc3184560cf3c5ed499ea15dc"
+    },
+    {
+      "source": "The AI Advantage-This New AI From SpaceX Is The Future (First Look).txt",
+      "up_name": "The AI Advantage",
+      "title": "This New AI From SpaceX Is The Future (First Look)",
+      "repository_path": "subtitles/2026-08-23/The AI Advantage-This New AI From SpaceX Is The Future (First Look).txt",
+      "format": "txt",
+      "size_bytes": 21769,
+      "sha256": "b6a9b992ae67403bdee5670289408439eb2c4cd5ccd0962c5ef5d3fff2f573e0"
     }
   ]
 }
