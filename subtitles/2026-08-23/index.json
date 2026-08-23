@@ -1,0 +1,19 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T12:24:35+08:00",
+  "total": 1,
+  "rejected": 0,
+  "source_directory": "subtitles/2026-08-23",
+  "entries": [
+    {
+      "source": "OpenAI-How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial.txt",
+      "up_name": "OpenAI",
+      "title": "How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial",
+      "repository_path": "subtitles/2026-08-23/OpenAI-How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial.txt",
+      "format": "txt",
+      "size_bytes": 1528,
+      "sha256": "b7ba5e484ece89e73b444fbbb48b03096e24b06cfc2d9afb238f91ba70bc6980"
+    }
+  ]
+}
