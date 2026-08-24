@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T19:17:42.717310+08:00",
+  "total": 7,
+  "rejected": 0,
+  "source_directory": "subtitles/2026-08-24",
+  "entries": [
+    {
+      "source": "ETF战法-8月24号—创新药，港股创新药，明天策略.txt",
+      "up_name": "ETF战法",
+      "title": "8月24号—创新药，港股创新药，明天策略",
+      "repository_path": "subtitles/2026-08-24/ETF战法-8月24号—创新药，港股创新药，明天策略.txt",
+      "format": "txt",
+      "size_bytes": 3181,
+      "sha256": "42e3518603b09ff7f9332399180b3a0694b681ed08870c450a8bf7b73a191eb8"
+    },
+    {
+      "source": "ETF战法-8月24号—半导体设备，科创50，半导体，明天策略.txt",
+      "up_name": "ETF战法",
+      "title": "8月24号—半导体设备，科创50，半导体，明天策略",
+      "repository_path": "subtitles/2026-08-24/ETF战法-8月24号—半导体设备，科创50，半导体，明天策略.txt",
+      "format": "txt",
+      "size_bytes": 8313,
+      "sha256": "437b6a8cd355f71d5cfab1815e1afaf7c97a7dc3a611e1dce5ec5b76d252ee79"
+    },
+    {
+      "source": "李长胜621-20260824股市午评：下午如攻破3888反压则有望企稳 如反压则看下方止跌位3867 3847.txt",
+      "up_name": "李长胜621",
+      "title": "20260824股市午评：下午如攻破3888反压则有望企稳 如反压则看下方止跌位3867 3847",
+      "repository_path": "subtitles/2026-08-24/李长胜621-20260824股市午评：下午如攻破3888反压则有望企稳 如反压则看下方止跌位3867 3847.txt",
+      "format": "txt",
+      "size_bytes": 6603,
+      "sha256": "43630e5cc9a1dbebd062679299111b30bc32a1368e09eedc110b6ed540faf92d"
+    },
+    {
+      "source": "李长胜621-20260824股市收评：弱反弹后压力位3888 3925 短线要看美股如何演绎.txt",
+      "up_name": "李长胜621",
+      "title": "20260824股市收评：弱反弹后压力位3888 3925 短线要看美股如何演绎",
+      "repository_path": "subtitles/2026-08-24/李长胜621-20260824股市收评：弱反弹后压力位3888 3925 短线要看美股如何演绎.txt",
+      "format": "txt",
+      "size_bytes": 6954,
+      "sha256": "eb753628c894a93c0b266976242c5f2f7964c09070e80e4bdbe964961238a2d3"
+    },
+    {
+      "source": "财经高一截-警惕，需要警惕！黄金股，出现风险信号！.txt",
+      "up_name": "财经高一截",
+      "title": "警惕，需要警惕！黄金股，出现风险信号！",
+      "repository_path": "subtitles/2026-08-24/财经高一截-警惕，需要警惕！黄金股，出现风险信号！.txt",
+      "format": "txt",
+      "size_bytes": 3515,
+      "sha256": "1521dd6e7e8cf6ace35b2b56bc2da2ed0b908dbc11b4e8b6b1615be1301a919a"
+    },
+    {
+      "source": "趋势天哥-医药科技集体重挫！A股还会继续跌吗？.txt",
+      "up_name": "趋势天哥",
+      "title": "医药科技集体重挫！A股还会继续跌吗？",
+      "repository_path": "subtitles/2026-08-24/趋势天哥-医药科技集体重挫！A股还会继续跌吗？.txt",
+      "format": "txt",
+      "size_bytes": 4076,
+      "sha256": "25d6534b421700711f23e735c7152505063e5a23703e0330f91d8395d765d53c"
+    },
+    {
+      "source": "趋势耿鬼-260824 周一复盘 & 实盘公开.txt",
+      "up_name": "趋势耿鬼",
+      "title": "260824 周一复盘 & 实盘公开",
+      "repository_path": "subtitles/2026-08-24/趋势耿鬼-260824 周一复盘 & 实盘公开.txt",
+      "format": "txt",
+      "size_bytes": 15431,
+      "sha256": "8a84787cd554725ee8bc5a88a1e46146609d0e93b0acc721596cb8312e274f2b"
+    }
+  ]
+}

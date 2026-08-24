@@ -1,8 +1,8 @@
 {
   "schema_version": "2.1",
   "date": "2026-08-23",
-  "generated_at": "2026-08-23T16:00:00+08:00",
-  "total": 96,
+  "generated_at": "2026-08-24T19:17:42.715785+08:00",
+  "total": 103,
   "rejected": 0,
   "source_directory": "subtitles/2026-08-23",
   "entries": [
@@ -185,6 +185,51 @@
       "format": "txt",
       "size_bytes": 15441,
       "sha256": "65e178db6e43736e0c89ae2800e78f894a220e366a940bc381954260133b3b6e"
+    },
+    {
+      "source": "ETF战法-8月23号—化工，储能电池，锂电池，下周策略.txt",
+      "up_name": "ETF战法",
+      "title": "8月23号—化工，储能电池，锂电池，下周策略",
+      "repository_path": "subtitles/2026-08-23/ETF战法-8月23号—化工，储能电池，锂电池，下周策略.txt",
+      "format": "txt",
+      "size_bytes": 5146,
+      "sha256": "01533984e8ea0e37174079427f306ba9afdf64cb4e299e3522b974105f6eb249"
+    },
+    {
+      "source": "ETF战法-8月23号—工业母机，有色金属，稀土，下周策略.txt",
+      "up_name": "ETF战法",
+      "title": "8月23号—工业母机，有色金属，稀土，下周策略",
+      "repository_path": "subtitles/2026-08-23/ETF战法-8月23号—工业母机，有色金属，稀土，下周策略.txt",
+      "format": "txt",
+      "size_bytes": 5864,
+      "sha256": "15718f349d1690689c68770f002cb1341756628a703211bb44f2ccd6a972c830"
+    },
+    {
+      "source": "ETF战法-8月23号—机器人，电网设备，消费电子，下周策略.txt",
+      "up_name": "ETF战法",
+      "title": "8月23号—机器人，电网设备，消费电子，下周策略",
+      "repository_path": "subtitles/2026-08-23/ETF战法-8月23号—机器人，电网设备，消费电子，下周策略.txt",
+      "format": "txt",
+      "size_bytes": 5781,
+      "sha256": "34230dc885b51211a4580e955808c0307b07682311094aebed22e11696a7b739"
+    },
+    {
+      "source": "ETF战法-8月23号—电力，煤炭，下周策略.txt",
+      "up_name": "ETF战法",
+      "title": "8月23号—电力，煤炭，下周策略",
+      "repository_path": "subtitles/2026-08-23/ETF战法-8月23号—电力，煤炭，下周策略.txt",
+      "format": "txt",
+      "size_bytes": 3324,
+      "sha256": "6de8c741e840717ad2604b2e4e04097c44036022815146502cc6d09d07ace479"
+    },
+    {
+      "source": "ETF战法-8月23号—芯片，软件，云计算，下周策略.txt",
+      "up_name": "ETF战法",
+      "title": "8月23号—芯片，软件，云计算，下周策略",
+      "repository_path": "subtitles/2026-08-23/ETF战法-8月23号—芯片，软件，云计算，下周策略.txt",
+      "format": "txt",
+      "size_bytes": 5414,
+      "sha256": "3403022ff69b73638c8c1d9ab3ac2168543a765db96e0152a35644c8b29eb117"
     },
     {
       "source": "Futurepedia-A Complete Guide to the New Claude Design.txt",
@@ -869,6 +914,24 @@
       "format": "txt",
       "size_bytes": 13454,
       "sha256": "a464b089dce8a816d1b00ff41688c53c2b8c10879202a149ed05260b15066e64"
+    },
+    {
+      "source": "李长胜621-20260823下星期股市展望：底部构筑复杂 纳指如走势不强 则避险为主.txt",
+      "up_name": "李长胜621",
+      "title": "20260823下星期股市展望：底部构筑复杂 纳指如走势不强 则避险为主",
+      "repository_path": "subtitles/2026-08-23/李长胜621-20260823下星期股市展望：底部构筑复杂 纳指如走势不强 则避险为主.txt",
+      "format": "txt",
+      "size_bytes": 3679,
+      "sha256": "08c947bd5874967e10a5e9584dd3562671ad3513f23b0a0a54c2a938205ad035"
+    },
+    {
+      "source": "老柯复盘-高位投机退潮，哈药跌停，科技弱反弹，量能不足，节奏很重要.txt",
+      "up_name": "老柯复盘",
+      "title": "高位投机退潮，哈药跌停，科技弱反弹，量能不足，节奏很重要",
+      "repository_path": "subtitles/2026-08-23/老柯复盘-高位投机退潮，哈药跌停，科技弱反弹，量能不足，节奏很重要.txt",
+      "format": "txt",
+      "size_bytes": 7049,
+      "sha256": "836ce263febbba8b706aa689ff6c7cefa634c2002adfa8c393dd7b4c644a99a9"
     }
   ]
 }

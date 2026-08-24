@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-08-18",
+  "generated_at": "2026-08-24T19:17:42.699407+08:00",
+  "total": 7,
+  "rejected": 0,
+  "source_directory": "subtitles/2026-08-18",
+  "entries": [
+    {
+      "source": "常士杉-【私募一哥常士杉8.18直播】珍惜暴跌即买点！下半年或迎来美股上升第二季！中国长鑫，爱你却不敢拥有！.txt",
+      "up_name": "常士杉",
+      "title": "【私募一哥常士杉8.18直播】珍惜暴跌即买点！下半年或迎来美股上升第二季！中国长鑫，爱你却不敢拥有！",
+      "repository_path": "subtitles/2026-08-18/常士杉-【私募一哥常士杉8.18直播】珍惜暴跌即买点！下半年或迎来美股上升第二季！中国长鑫，爱你却不敢拥有！.txt",
+      "format": "txt",
+      "size_bytes": 80828,
+      "sha256": "7bfeafdd282793dc84a22a634353d1cc45a3c3c2f2130b88f5cde889e033cd88"
+    },
+    {
+      "source": "常士杉-【私募一哥常士杉8.18直播】迎接宇树科技上市，当前A股港股市场温度深度解析.txt",
+      "up_name": "常士杉",
+      "title": "【私募一哥常士杉8.18直播】迎接宇树科技上市，当前A股港股市场温度深度解析",
+      "repository_path": "subtitles/2026-08-18/常士杉-【私募一哥常士杉8.18直播】迎接宇树科技上市，当前A股港股市场温度深度解析.txt",
+      "format": "txt",
+      "size_bytes": 7976,
+      "sha256": "46569c2996081abb5dec755eaf405dea70c33b56a9840610f8233bebdb0fd3e6"
+    },
+    {
+      "source": "老柯复盘-指数如期调整，投机高位依然强势，但是风险也在不断积累.txt",
+      "up_name": "老柯复盘",
+      "title": "指数如期调整，投机高位依然强势，但是风险也在不断积累",
+      "repository_path": "subtitles/2026-08-18/老柯复盘-指数如期调整，投机高位依然强势，但是风险也在不断积累.txt",
+      "format": "txt",
+      "size_bytes": 9523,
+      "sha256": "22d750017ceee5a576c9300d6d810d91c7c8021280c16d584b14d9e4ae91042b"
+    },
+    {
+      "source": "财经高一截-注意3956一带！一旦下破，全面防守！.txt",
+      "up_name": "财经高一截",
+      "title": "注意3956一带！一旦下破，全面防守！",
+      "repository_path": "subtitles/2026-08-18/财经高一截-注意3956一带！一旦下破，全面防守！.txt",
+      "format": "txt",
+      "size_bytes": 4431,
+      "sha256": "42d9b2549ec320aeb88c5836bb58f5379599a327fbd1df69d8a2522217b3de4f"
+    },
+    {
+      "source": "趋势天哥-粮食板块异军突起！美债收益率攀升，亚太市场全线回调.txt",
+      "up_name": "趋势天哥",
+      "title": "粮食板块异军突起！美债收益率攀升，亚太市场全线回调",
+      "repository_path": "subtitles/2026-08-18/趋势天哥-粮食板块异军突起！美债收益率攀升，亚太市场全线回调.txt",
+      "format": "txt",
+      "size_bytes": 4166,
+      "sha256": "eeadf286a305a6f96debf67d80cc21c4d5ac30b2712d408fb86745e23504c9c9"
+    },
+    {
+      "source": "趋势耿鬼-260818 周二复盘 & 实盘公开.txt",
+      "up_name": "趋势耿鬼",
+      "title": "260818 周二复盘 & 实盘公开",
+      "repository_path": "subtitles/2026-08-18/趋势耿鬼-260818 周二复盘 & 实盘公开.txt",
+      "format": "txt",
+      "size_bytes": 12390,
+      "sha256": "418279fe8be40b156d23aa3167f9dac81eb7e9086df4e115d9d1f762380311c3"
+    },
+    {
+      "source": "趋势风哥-冲高回落开始套人，接下来要注意风险了，不要乱冲了！.txt",
+      "up_name": "趋势风哥",
+      "title": "冲高回落开始套人，接下来要注意风险了，不要乱冲了！",
+      "repository_path": "subtitles/2026-08-18/趋势风哥-冲高回落开始套人，接下来要注意风险了，不要乱冲了！.txt",
+      "format": "txt",
+      "size_bytes": 5891,
+      "sha256": "58c71836755be88a700a6a74a3fb49304043593d0b38bde33a084c54be279fdc"
+    }
+  ]
+}

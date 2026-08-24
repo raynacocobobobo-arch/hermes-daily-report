@@ -1,0 +1,46 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-08-17",
+  "generated_at": "2026-08-24T19:17:42.698380+08:00",
+  "total": 4,
+  "rejected": 0,
+  "source_directory": "subtitles/2026-08-17",
+  "entries": [
+    {
+      "source": "老柯复盘-科技集体大涨，投机高位不退潮，创业板马上涨到一半，后面注意节奏.txt",
+      "up_name": "老柯复盘",
+      "title": "科技集体大涨，投机高位不退潮，创业板马上涨到一半，后面注意节奏",
+      "repository_path": "subtitles/2026-08-17/老柯复盘-科技集体大涨，投机高位不退潮，创业板马上涨到一半，后面注意节奏.txt",
+      "format": "txt",
+      "size_bytes": 8583,
+      "sha256": "d56eba996794c2325ab452d18b52ae72cc6eff0a1e041d66e163602c0ca9b6d3"
+    },
+    {
+      "source": "趋势天哥-茅台不及预期！市场全线普反，创业板大涨3.14%.txt",
+      "up_name": "趋势天哥",
+      "title": "茅台不及预期！市场全线普反，创业板大涨3.14%",
+      "repository_path": "subtitles/2026-08-17/趋势天哥-茅台不及预期！市场全线普反，创业板大涨3.14%.txt",
+      "format": "txt",
+      "size_bytes": 4591,
+      "sha256": "f2f2790e915890c1924dc103ee1c14dc3f27092de1689d6931aea0a11c7dbafd"
+    },
+    {
+      "source": "趋势耿鬼-260817 周一复盘 & 实盘公开.txt",
+      "up_name": "趋势耿鬼",
+      "title": "260817 周一复盘 & 实盘公开",
+      "repository_path": "subtitles/2026-08-17/趋势耿鬼-260817 周一复盘 & 实盘公开.txt",
+      "format": "txt",
+      "size_bytes": 10481,
+      "sha256": "6627b492bffb1d36cf59653f4f4fccc952ba6e4831f04b0acc96a8d5fadb3ba6"
+    },
+    {
+      "source": "趋势风哥-科技爆发，剑指4000点，接下来可以重仓猛干吗？.txt",
+      "up_name": "趋势风哥",
+      "title": "科技爆发，剑指4000点，接下来可以重仓猛干吗？",
+      "repository_path": "subtitles/2026-08-17/趋势风哥-科技爆发，剑指4000点，接下来可以重仓猛干吗？.txt",
+      "format": "txt",
+      "size_bytes": 6919,
+      "sha256": "e6c3055315ad3eddc7e8847d14b6fd8deb3a9d44fbba7bd7f6c7ba127892dc00"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-08-19",
+  "generated_at": "2026-08-24T19:17:42.700129+08:00",
+  "total": 7,
+  "rejected": 0,
+  "source_directory": "subtitles/2026-08-19",
+  "entries": [
+    {
+      "source": "常士杉-【私募一哥常士杉8.18直播】独家揭秘“暴跌战法”大跌暴跌量化指标.txt",
+      "up_name": "常士杉",
+      "title": "【私募一哥常士杉8.18直播】独家揭秘“暴跌战法”大跌暴跌量化指标",
+      "repository_path": "subtitles/2026-08-19/常士杉-【私募一哥常士杉8.18直播】独家揭秘“暴跌战法”大跌暴跌量化指标.txt",
+      "format": "txt",
+      "size_bytes": 2079,
+      "sha256": "04e564c1d5148c0c7c212c4c32f8f18ac2525588c1ab685016c7f288bd4dc8d4"
+    },
+    {
+      "source": "常士杉-【私募一哥常士杉8.19直播】前瞻性是资本市场最重要的赚钱核武！前瞻性的5大现象级解密！中国美国暴跌.txt",
+      "up_name": "常士杉",
+      "title": "【私募一哥常士杉8.19直播】前瞻性是资本市场最重要的赚钱核武！前瞻性的5大现象级解密！中国美国暴跌精准预判！",
+      "repository_path": "subtitles/2026-08-19/常士杉-【私募一哥常士杉8.19直播】前瞻性是资本市场最重要的赚钱核武！前瞻性的5大现象级解密！中国美国暴跌.txt",
+      "format": "txt",
+      "size_bytes": 32454,
+      "sha256": "d56883057bb76fddc2cf70fe11fce13f380c1d13fe48eea59e490527d9d7cf19"
+    },
+    {
+      "source": "常士杉-【私募一哥常士杉8.19直播】精准预判市场暴跌，当前A股港股市场温度深度解析.txt",
+      "up_name": "常士杉",
+      "title": "【私募一哥常士杉8.19直播】精准预判市场暴跌，当前A股港股市场温度深度解析",
+      "repository_path": "subtitles/2026-08-19/常士杉-【私募一哥常士杉8.19直播】精准预判市场暴跌，当前A股港股市场温度深度解析.txt",
+      "format": "txt",
+      "size_bytes": 8596,
+      "sha256": "cbe70cd7889cd2c0e5a918e90df1692bd5bf6e048dfbeb24cf8bc5bab205fa8a"
+    },
+    {
+      "source": "老柯复盘-昨日标题预言成功，高位投机开始补跌，科技大分歧，后面注意节奏.txt",
+      "up_name": "老柯复盘",
+      "title": "昨日标题预言成功，高位投机开始补跌，科技大分歧，后面注意节奏",
+      "repository_path": "subtitles/2026-08-19/老柯复盘-昨日标题预言成功，高位投机开始补跌，科技大分歧，后面注意节奏.txt",
+      "format": "txt",
+      "size_bytes": 8206,
+      "sha256": "5f55ffeda7f5b28d4a44cd30ae9f876bcfe91a5ccab6999c79a708b9144ff179"
+    },
+    {
+      "source": "财经高一截-3900附近，不用慌了！.txt",
+      "up_name": "财经高一截",
+      "title": "3900附近，不用慌了！",
+      "repository_path": "subtitles/2026-08-19/财经高一截-3900附近，不用慌了！.txt",
+      "format": "txt",
+      "size_bytes": 3855,
+      "sha256": "8b0ce1b7b9cc0896f30f79427bbb3c7a4a25451381e3a87d2f929addd6fdd4e5"
+    },
+    {
+      "source": "趋势耿鬼-260819 周三复盘 & 实盘公开.txt",
+      "up_name": "趋势耿鬼",
+      "title": "260819 周三复盘 & 实盘公开",
+      "repository_path": "subtitles/2026-08-19/趋势耿鬼-260819 周三复盘 & 实盘公开.txt",
+      "format": "txt",
+      "size_bytes": 16224,
+      "sha256": "31a3ca1d10575ba46aa7bf460b022c5521434e6c1c83db99d5206961f7ebb03a"
+    },
+    {
+      "source": "趋势风哥-百点大跌，完美精准躲过，节奏对了游刃有余，节奏错了深度套牢，今天的下跌都躲过了吗？.txt",
+      "up_name": "趋势风哥",
+      "title": "百点大跌，完美精准躲过，节奏对了游刃有余，节奏错了深度套牢，今天的下跌都躲过了吗？",
+      "repository_path": "subtitles/2026-08-19/趋势风哥-百点大跌，完美精准躲过，节奏对了游刃有余，节奏错了深度套牢，今天的下跌都躲过了吗？.txt",
+      "format": "txt",
+      "size_bytes": 6024,
+      "sha256": "9b3bd4c85bf4247f7f4fa03cf3ac8b0c40507817f34035ee50a4016bbb53cd94"
+    }
+  ]
+}

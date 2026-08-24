@@ -1,0 +1,500 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-24",
+  "checked_up_count": 8,
+  "checked_video_count": 80,
+  "eligible_video_count": 64,
+  "new_subtitle_count": 52,
+  "pending_retry_count": 12,
+  "coverage_complete": true,
+  "up_results": [
+    {
+      "up_name": "常士杉",
+      "uid": 3706937791219923,
+      "list_status": "success",
+      "checked_video_count": 10,
+      "eligible_video_count": 10,
+      "new_subtitle_count": 10,
+      "pending_retry_count": 0,
+      "videos": [
+        {
+          "bvid": "BV1wB8B6dEW8",
+          "date": "2026-08-21",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1SN8z6TEWp",
+          "date": "2026-08-21",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1238z6AELM",
+          "date": "2026-08-21",
+          "status": "success"
+        },
+        {
+          "bvid": "BV15u8P6mE1t",
+          "date": "2026-08-20",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1GL8P6CEE7",
+          "date": "2026-08-20",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1R78J64EvP",
+          "date": "2026-08-19",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1XW8J6WEJT",
+          "date": "2026-08-19",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1Kx8V6ZEVF",
+          "date": "2026-08-19",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1XX8V6uEhB",
+          "date": "2026-08-18",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1S58364Ehu",
+          "date": "2026-08-18",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "up_name": "财经高一截",
+      "uid": 269571531,
+      "list_status": "success",
+      "checked_video_count": 10,
+      "eligible_video_count": 10,
+      "new_subtitle_count": 10,
+      "pending_retry_count": 0,
+      "videos": [
+        {
+          "bvid": "BV1ip8v6uERS",
+          "date": "2026-08-24",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1pc8M6zEyV",
+          "date": "2026-08-21",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1nF8K6aEfM",
+          "date": "2026-08-21",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1pmbf6jEPp",
+          "date": "2026-08-20",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1BB8F6GELv",
+          "date": "2026-08-20",
+          "status": "success"
+        },
+        {
+          "bvid": "BV12J8F6sE6q",
+          "date": "2026-08-20",
+          "status": "success"
+        },
+        {
+          "bvid": "BV14J8F6sEgX",
+          "date": "2026-08-20",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1xJ8F6sEXF",
+          "date": "2026-08-20",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1u28E6UEZa",
+          "date": "2026-08-19",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1wT8g65Ea1",
+          "date": "2026-08-18",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "up_name": "ETF战法",
+      "uid": 3546854339905896,
+      "list_status": "success",
+      "checked_video_count": 10,
+      "eligible_video_count": 10,
+      "new_subtitle_count": 7,
+      "pending_retry_count": 3,
+      "videos": [
+        {
+          "bvid": "BV1UdhP6uEwr",
+          "date": "2026-08-24",
+          "status": "no_ai_subtitle"
+        },
+        {
+          "bvid": "BV1UdhP6uEET",
+          "date": "2026-08-24",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1MohP6zEu6",
+          "date": "2026-08-24",
+          "status": "success"
+        },
+        {
+          "bvid": "BV11T8v6JE2A",
+          "date": "2026-08-24",
+          "status": "no_ai_subtitle"
+        },
+        {
+          "bvid": "BV1hd8e6ZE46",
+          "date": "2026-08-24",
+          "status": "no_ai_subtitle"
+        },
+        {
+          "bvid": "BV1Jq8p63EvX",
+          "date": "2026-08-23",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1nq8p63EPJ",
+          "date": "2026-08-23",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1Jq8p63EBK",
+          "date": "2026-08-23",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1Jq8p63Eom",
+          "date": "2026-08-23",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1Ha8p6yE1F",
+          "date": "2026-08-23",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "up_name": "趋势耿鬼",
+      "uid": 3546761960360178,
+      "list_status": "success",
+      "checked_video_count": 10,
+      "eligible_video_count": 9,
+      "new_subtitle_count": 5,
+      "pending_retry_count": 4,
+      "videos": [
+        {
+          "bvid": "BV1YNhP65EgS",
+          "date": "2026-08-24",
+          "status": "no_ai_subtitle"
+        },
+        {
+          "bvid": "BV1CKhN6aELq",
+          "date": "2026-08-24",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1MQ8t6TE3L",
+          "date": "2026-08-23",
+          "status": "no_ai_subtitle"
+        },
+        {
+          "bvid": "BV1fs8q61Ef8",
+          "date": "2026-08-21",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1wi8w6HEGP",
+          "date": "2026-08-20",
+          "status": "no_ai_subtitle"
+        },
+        {
+          "bvid": "BV1hT8E6LELZ",
+          "date": "2026-08-19",
+          "status": "success"
+        },
+        {
+          "bvid": "BV14c8g6EEbY",
+          "date": "2026-08-18",
+          "status": "success"
+        },
+        {
+          "bvid": "BV17Gbe6PERJ",
+          "date": "2026-08-17",
+          "status": "no_ai_subtitle"
+        },
+        {
+          "bvid": "BV1z9be6KEcH",
+          "date": "2026-08-17",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1eRbX67Eiw",
+          "date": "2026-08-16",
+          "status": "outside_retry_window"
+        }
+      ]
+    },
+    {
+      "up_name": "李长胜621",
+      "uid": 19239427,
+      "list_status": "success",
+      "checked_video_count": 10,
+      "eligible_video_count": 10,
+      "new_subtitle_count": 8,
+      "pending_retry_count": 2,
+      "videos": [
+        {
+          "bvid": "BV1ZahP6REp4",
+          "date": "2026-08-24",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1G58i6eEPB",
+          "date": "2026-08-24",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1CX8x6oEfY",
+          "date": "2026-08-23",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1vg846LEHg",
+          "date": "2026-08-23",
+          "status": "no_ai_subtitle"
+        },
+        {
+          "bvid": "BV1yD8q6ZEQX",
+          "date": "2026-08-21",
+          "status": "no_ai_subtitle"
+        },
+        {
+          "bvid": "BV11S8q6bEjp",
+          "date": "2026-08-21",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1u38u6QEtv",
+          "date": "2026-08-21",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1ZD8K64Ecg",
+          "date": "2026-08-21",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1bJ8w6AEsG",
+          "date": "2026-08-20",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1GAbZ6tEiy",
+          "date": "2026-08-20",
+          "status": "success"
+        }
+      ]
+    },
+    {
+      "up_name": "老柯复盘",
+      "uid": 3546635351099881,
+      "list_status": "success",
+      "checked_video_count": 10,
+      "eligible_video_count": 6,
+      "new_subtitle_count": 5,
+      "pending_retry_count": 1,
+      "videos": [
+        {
+          "bvid": "BV1gXhP6GEbw",
+          "date": "2026-08-24",
+          "status": "no_ai_subtitle"
+        },
+        {
+          "bvid": "BV1Qz8x6iEYK",
+          "date": "2026-08-23",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1Krbf6HEmM",
+          "date": "2026-08-20",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1DT8E6LEWq",
+          "date": "2026-08-19",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1in8g6eECo",
+          "date": "2026-08-18",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1rbbv63E5M",
+          "date": "2026-08-17",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1nBbD6nENN",
+          "date": "2026-08-16",
+          "status": "outside_retry_window"
+        },
+        {
+          "bvid": "BV1QLgW61EsX",
+          "date": "2026-08-13",
+          "status": "outside_retry_window"
+        },
+        {
+          "bvid": "BV1rRg36hEYT",
+          "date": "2026-08-12",
+          "status": "outside_retry_window"
+        },
+        {
+          "bvid": "BV1Auuq6NE1E",
+          "date": "2026-08-11",
+          "status": "outside_retry_window"
+        }
+      ]
+    },
+    {
+      "up_name": "趋势风哥",
+      "uid": 613230878,
+      "list_status": "success",
+      "checked_video_count": 10,
+      "eligible_video_count": 5,
+      "new_subtitle_count": 3,
+      "pending_retry_count": 2,
+      "videos": [
+        {
+          "bvid": "BV1Pg8v6EEWD",
+          "date": "2026-08-24",
+          "status": "no_ai_subtitle"
+        },
+        {
+          "bvid": "BV1HR8c6JEjz",
+          "date": "2026-08-20",
+          "status": "no_ai_subtitle"
+        },
+        {
+          "bvid": "BV1j68n6hECu",
+          "date": "2026-08-19",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1EJ8g6KE39",
+          "date": "2026-08-18",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1Sgbv6WEUN",
+          "date": "2026-08-17",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1K3gP6UE8q",
+          "date": "2026-08-14",
+          "status": "outside_retry_window"
+        },
+        {
+          "bvid": "BV1qJgn6jEoF",
+          "date": "2026-08-13",
+          "status": "outside_retry_window"
+        },
+        {
+          "bvid": "BV1JrgG6FE8K",
+          "date": "2026-08-12",
+          "status": "outside_retry_window"
+        },
+        {
+          "bvid": "BV1x1uq6zExV",
+          "date": "2026-08-11",
+          "status": "outside_retry_window"
+        },
+        {
+          "bvid": "BV1r2ud6DE3g",
+          "date": "2026-08-10",
+          "status": "outside_retry_window"
+        }
+      ]
+    },
+    {
+      "up_name": "趋势天哥",
+      "uid": 1372241958,
+      "list_status": "success",
+      "checked_video_count": 10,
+      "eligible_video_count": 4,
+      "new_subtitle_count": 4,
+      "pending_retry_count": 0,
+      "videos": [
+        {
+          "bvid": "BV1rbhP6ZEb7",
+          "date": "2026-08-24",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1D78w6eE8q",
+          "date": "2026-08-20",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1RC8u6fEWH",
+          "date": "2026-08-18",
+          "status": "success"
+        },
+        {
+          "bvid": "BV15cbv6hEWD",
+          "date": "2026-08-17",
+          "status": "success"
+        },
+        {
+          "bvid": "BV1X6gP6oEGz",
+          "date": "2026-08-14",
+          "status": "outside_retry_window"
+        },
+        {
+          "bvid": "BV1b6gp66E2A",
+          "date": "2026-08-13",
+          "status": "outside_retry_window"
+        },
+        {
+          "bvid": "BV1HRg36hENg",
+          "date": "2026-08-12",
+          "status": "outside_retry_window"
+        },
+        {
+          "bvid": "BV1tzuq6CEXn",
+          "date": "2026-08-11",
+          "status": "outside_retry_window"
+        },
+        {
+          "bvid": "BV1Xpud6TEDk",
+          "date": "2026-08-10",
+          "status": "outside_retry_window"
+        },
+        {
+          "bvid": "BV1NDut6LEgv",
+          "date": "2026-08-07",
+          "status": "outside_retry_window"
+        }
+      ]
+    }
+  ]
+}
