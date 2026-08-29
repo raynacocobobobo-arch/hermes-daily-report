@@ -1,0 +1,418 @@
+UP主：Theoretically Media
+标题：Seedance 2.5 Masterclass & Early Review
+链接：https://www.youtube.com/watch?v=b5F81eip5BM
+
+So, a few days ago I released a short
+film using C-Dance 2.5. Uh released via
+the normal social channels and you guys
+seem to enjoy it. So, I thank you for
+that. So, today as promised we're going
+to take an extended behind-the-scenes
+look at how it was all put together.
+Kind of a mini master class uh plus some
+tips and tricks that I learned during
+the production. We'll also take an an
+early-ish review of C-Dance because as I
+have learned it is a bit of a different
+beast. On that note, saddle up to the
+bar. The first round's on me.
+Kicking off, I recently released Death
+Walks into a Bar, a short neo-noir kind
+of thing with a twist. If you haven't
+caught it, don't stress. We're actually
+going to run it here. If you have seen
+it, well, you know, it's only 2 minutes.
+So, uh it might be interesting. You
+might catch a few things on a second
+watch.
+>> They said you'd be here.
+And I knew you were coming.
+Right on time. That's good.
+You aren't what I expected.
+What? The cloak? The skull?
+Little cliché, wouldn't you say?
+>> So, you know why I'm here?
+>> At 11:21 tonight, your client's daughter
+passes.
+Little Julie.
+There is no cure.
+So, he asked you to do the one noble
+thing money could buy.
+Tell me.
+Were you paid well?
+>> I was.
+Really well.
+>> You should save it.
+After tonight, there won't be many jobs
+for a man in your line of work.
+>> I'm done after tonight.
+You're the last one. You stop me tonight
+and she lives
+with her pain forever.
+Everyone does.
+So many mouths,
+so many bodies that never return to
+dust. Smart people will figure it out.
+I don't think about it.
+There's a name, I do the job, I get
+paid.
+You can't outsmart the universe, James.
+It's always ahead of you.
+Nothing personal.
+>> You're
+forgetting something.
+>> Open it.
+This is yours now.
+As is the job.
+You were perfect for it.
+You should go.
+You have an appointment
+very soon.
+>> So the real takeaway here is that our
+guy James walked into that bar as an
+independent contractor and walked out
+with a full-time job. So yeah, all
+generations were made with C Dance 2.5.
+Uh specifically over on Dreamina
+utilizing Dreamina C Dance 2.5. They
+wanted me to say that. I don't know why.
+So the majority of the short was
+actually generated in the 30-second mode
+uh utilizing Omni reference. And
+reference wise it was it was really
+actually pretty simple. It really
+actually was just three images. Uh Death
+was portrayed by this guy generated up
+in Midjourney version 8. Our handsome
+hitman James was also likewise generated
+up in Midjourney version 8. Uh yes, he
+is going to kill you, but the last thing
+you'll see is that defined jawline and
+those those soulful blue eyes. So in
+some ways, I mean you should be thanking
+him. And finally, our location was
+actually just this shot. I mean kind of
+keep it simple stupid. I mean, no
+detailed character sheets, no like, you
+know, elaborate maps of the location.
+Really just three images. The thing that
+I was really interested in testing here
+was more about 2.5's ability to perform
+and act and and hold this scene, which I
+did think it did a pretty good job with.
+Although, I do have some pretty funny
+bloopers coming up in a bit. Again, I
+did mostly utilize 2.5's new 30-second
+time limit. And actually, that surprised
+me in its usefulness for a scene like
+this. Mostly because yes, while the cost
+is higher, although we'll talk about
+that in a little bit, I did also have
+fewer retakes. In total, uh this whole
+thing was about 15 generations.
+Although, in hindsight, always in
+hindsight, I think that I could have
+gotten it down to be less. But, I mean,
+there was a lot of like testing as this
+was a new model and it took me a few
+gens to figure out what was going on
+with it. Prompt-wise, yeah, I mean, it
+can be a bit of a beast. So, this is one
+of the prompts that I ended up utilizing
+for the short. I mean, it is straight-up
+wall of text. And that isn't even the
+technical correct way to prompt. We'll
+talk about that in the next section.
+But, I would say that currently I have
+found that 2.5 does require a little
+more effort in the prompting department,
+at least for now. I did have a lot of
+people asking about voice consistency,
+and I do wish I had a better answer.
+But, I mean, really it it's just
+C-Dance. Do have this theory that when
+you're using image references or omni
+references, C-Dance will kind of cast a
+voice based on what it thinks you were
+the character sounds like. You can
+direct it as well. Uh I do have an
+example of that, again, later on in the
+video. Overall, I mean, I do have to say
+I am very impressed with 2.5's prompt
+adherence. I mean, as always, and
+particularly with these longer like
+30-second generations, you will run into
+some things that work and some things
+that don't. For example, in one of our
+opening shots, uh Death's book came out
+a little bit on the like I'll I'll call
+it comically large size. It did end up
+happening a few times until I figured
+out how to prompt out of it. But, yeah,
+I mean, that's that's a very large book.
+It's less like less a book and more of a
+suitcase. Um but, the plus side to
+running these 30 second generations is
+that even if you're getting kind of
+something wonky there, the majority of
+the generation is still going to have
+stuff that you're going to be able to
+use and pick and mine from. Another
+handy trick for these longer
+generations, like when you have a
+section that isn't quite working, for
+example, one of Death's lines.
+>> At 11:21 tonight, your client's daughter
+passes, little Julie.
+There is no cure.
+>> So, just kind of an odd angle for that.
+So, what I ended up doing was just
+grabbing a screenshot of Death from
+another segment and then running that as
+an individual image to video. Now, in
+terms of challenges and problem spots, I
+would say the biggest one is probably
+actually the reverse shot of James
+seeing Death's name written on the page
+of the book, as well as Julie's name as
+well. Initially, of course, my thought
+was to use like GPT image 2 or Nano
+Banana, essentially utilizing the frame
+as a reference image. But obviously,
+like spatially and like, you know, in
+terms of dimensions, the book isn't
+quite working out.
+What is that? Is that Come on, Nano
+Banana. Was that a book for Smurfs? So,
+after pounding my head into the desk a
+few times, the simplest solution
+actually ended up being the one that
+works, which is just have SeeDeath
+itself do it. Yeah, generate prompt in
+the text and have SeeDeath generated.
+And well, I mean, he did a Yeah, he did
+a pretty bang-up job here.
+Performance-wise, I mean, I think that
+both of them did a pretty solid job in
+this. There was one when James is
+actually reacting to the book.
+Yeah, old James had that dialed up to
+about 10. We needed that to be about
+two. So, once everything was generated,
+I mean, to be honest, it was just pretty
+much a standard edit. I mean, actually
+nothing too crazy here. And again,
+actually I think here you can sort of
+see
+these big chunks, which I rarely do.
+But, you know, these are the benefit of
+the longer generations that I was able
+to kind of just slot those right in. The
+smaller ones are kind of our inserts or
+our patches. Um, there are a few of
+them. I should have color coded them.
+Um, but you know, really not not not too
+many of them. From there, as you are
+likely aware, 2.5 is only generating at
+720 right now. Uh, so I did end up
+taking this over to Topaz. Actually,
+Topaz desktop, um, like the regular
+version of Topaz upscaling, not the
+creative one. And then just gave it a
+plain Jane upscale. So, in terms of
+total cost, I know that's something that
+a lot of people have been asking about.
+Look, it's always a big foggy when it
+comes to any video generator, um, and
+credits and what that translates into
+dollars and then the API and etc. etc.
+and then various platforms. But like
+roughly speaking, so again, this was
+about 15 generations at 30 seconds with
+a couple of patches here and there that
+I'm not going to actually factor in. Um,
+I had Claude go out and check the Atlas
+Cloud pricing. So, it came up with, uh,
+like between 80 and 95 dollars, um, but
+then also kind of extrapolated out what
+it might be on a platform and then came
+out to 242 355 dollars. I I don't know.
+Somewhere between 90 dollars and what,
+like 280 dollars. Somewhere somewhere
+between there. Overall, we ended up
+generating about 450 seconds for this.
+The total run time was around 2 minutes
+and 22 seconds. So, uh, our ratio was,
+uh, 3.2 to 1, which is actually pretty
+good. Finally, and I mean this part is
+always pretty interesting to me. So,
+this is a rough breakdown of how much
+this would have cost if this was shot
+traditionally. Um, I didn't run these
+numbers. Claude ran these numbers. I'm
+not a line producer. Uh, but I mean, it
+looks pretty on point. Um, so, uh,
+Claude came up with about 55 to 85,000
+dollars, uh, if, you know, if like whole
+kit and caboodle, but did know that you
+could probably get away with like a
+scrappy indie version for somewhere
+around like 20 to 35. So, you know,
+yeah, looks pretty accurate to me. Line
+producers, feel free to argue with
+Claude. So, wrapping on Death Walks into
+a Bar, let's move over to some more
+general C-Dance 2.5 thoughts and
+discoveries. So, kicking off with some
+flamethrower girl tests. So, we're not
+allowed to go a video without her. One
+thing I did want to explore is C-Dance
+2.5's capability of doing up to 50
+references. I'm not a big like kitchen
+sink reference guy, but I did think a
+fun way to test it would be to go
+through like flamethrower girl's
+wardrobe. So, let's check this out real
+quick.
+>> Okay, [snorts] what are we wearing?
+To jungle.
+I'd fall asleep.
+Who am I kidding?
+What do these even do?
+No.
+Ooh.
+How do I even own this?
+I have nothing to wear.
+I mean,
+it is a business deduction.
+>> A, she really needs to clean her
+apartment and B, I have already canceled
+that credit card. But overall, as we can
+see, I mean, it holds up really well for
+multiple image references. As a note,
+this one was also upscaled in Topaz.
+We'll take a look at some other ones
+that were not upscaled in just a little
+bit. Another interesting test here, as
+mentioned actually in my teachable
+presentation that I did the other day.
+The link's down below if you want to
+check that out. Lately, I have been
+testing more first frame image to video
+as opposed to relying on omni
+references. So, I did think it would be
+an interesting idea to see what would
+happen if we kind of combine the two
+with 2.5 providing it with all of my
+first frames and then a relatively
+detailed omni reference. So, let's take
+a look at at at what it came up with.
+>> You're standing in my light.
+You're not the first tonight.
+>> Something took a girl. I need to find
+it.
+>> It finds them. It doesn't stop them.
+>> How much?
+>> You'll pay on the way back.
+>> Third arch past the water.
+Don't take the cross off.
+>> But I mean overall all of our shots are
+there out of order actually. Maybe
+that's something that I have to
+reinforce in the prompt itself, but um I
+mean I think it did a pretty decent job
+with this. So going back to prompting as
+I was saying earlier prompting in 2.5 is
+a bit of a different beast and some of
+your 2.0 prompts will not translate very
+well over. For example, this is a
+generation that we've done a few times
+on the channel now. And yeah, I mean in
+2.5 just again running the 2.0 prompt
+kind of comes out of a bit of a mess
+here. I mean in particular a shot like
+this, I mean I haven't seen anything
+like that weird in kind of a while. And
+just quickly to circle back to the
+voices thing, one interesting thing is
+that in these outputs 2.5 decided to
+give flamethrower a British accent.
+>> That's not good.
+>> So the lesson learned here is that she
+is speaking American. Not American
+English, American. If you do American
+English, she still ends up with a
+British accent. I think the English part
+in there. Nope, she's speaking American.
+>> That's not good.
+>> Finally in terms of like overall prompt
+strategy with 2.5, I found that it
+really does not want to do let like
+hyper cutting like 1 second edit stuff.
+It does want to breathe a little bit
+more. So like chilling out a little bit
+on jungle adventure, we end up with a
+much better output by trying to cram
+less into it. I'll have all the prompts
+in this week's newsletter. So make sure
+you're signed up down below.
+Overall, a lot of the structure of this
+is coming out of the official
+documentation. Yes, I read the docs so
+you don't have to. Actually Claude read
+the docs and I did also put together a
+quick MD like skill file for everyone.
+Again, that will be in this week's
+newsletter. Now one thing I do have to
+address is that even with the most like
+lockdowns, uh technically correct
+prompt, we're all still sort of running
+into decoherence and morphing issues. Um
+yeah, just a lot of like the sort of
+like spikiness that we generally see,
+especially in like the big action
+sequences. So, um that is something that
+I suspect will be patched out. And I
+should note, it does not always occur
+and it is not persistent through the
+entire generation, but um yeah, I mean,
+it's there and there's no like creative
+upscaling that is going to necessarily
+take that part out. There were a lot of
+like behind-the-scenes patches that
+happened with SDXL 2.0 after its launch
+as well. So, I expect that will not be a
+long-term issue. So, overall, I do
+consider 2.5 to be a very good model
+that is on the road to becoming a great
+model. I didn't really get a chance to
+test out things like uh smart edit and
+the long video functions, uh mostly
+because, well, I was busy working on a
+short, uh and uh a lot of those weren't
+available to me while I was testing.
+There is the issue that currently it's
+only generating at 720, but honestly, as
+a cost savings, I I would recommend
+generating at 720 and then just
+upscaling after the fact. And look, that
+30-second generation time, it's that I
+mean, that's really impressive. At the
+same time, I don't necessarily think you
+need it for everything. For something
+talky like Death Walks into a bar, I
+mean, I think that that's where
+30-second generations actually make
+sense. I mean, it's just overall, uh
+just, you know, kind of have an idea of
+what you're generating before you crank
+that knob over to 30 because, well, it's
+going to cost you. We're still very
+early into this model and I'm sure there
+is going to be a lot more to discover.
+Um so yeah, I mean, I will keep plugging
+away and experimenting. Uh definitely
+let me know what you think and any tips
+that you found in the comments down
+below. As always, I thank you for
+watching. My name is Tim.

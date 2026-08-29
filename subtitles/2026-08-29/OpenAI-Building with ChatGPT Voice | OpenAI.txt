@@ -1,0 +1,48 @@
+UP主：OpenAI
+标题：Building with ChatGPT Voice | OpenAI
+链接：https://www.youtube.com/watch?v=E0ZMOschrTU
+
+Hey Chat, put yourself on the projector.
+Play my daylist.
+One moment.
+So we got to prepare some
+launch materials for the voice
+launch next week. Could you help us
+draft some blog posts?
+Absolutely. A simple first pass.
+Meet Voice in the desktop app.
+Voice makes it easier to move
+work forward naturally.
+What do you think about that?
+Use your computer without breaking flow.
+Let's ship it.
+I got this feature idea for, like, some
+last-minute polish we can do.
+I'm going to ramble a little bit and
+then I want you to ask me some
+questions and push back on me.
+It looks like we can get pretty far
+just inside the shader since it already
+has the audio and phase inputs.
+Codex, could you go check
+the feature flags and make sure
+they're all configured properly?
+Wait, there's also a new bug report
+in the feedback channel.
+Can you spin up a new thread,
+make a pull request,
+find the root cause?
+Let me take a look.
+Found it. It was that feature flag.
+Totally misconfigured.
+Happens.
+We've got everything set
+for launch, right?
+Yeah, I think we're ready to go.
+You get the idea, just set a goal
+and then tag the team for review later.
+I'll check in with you from my phone.
+Got it.
+I'll create a follow-up goal for that.
+And then just, you know,
+make no mistakes.

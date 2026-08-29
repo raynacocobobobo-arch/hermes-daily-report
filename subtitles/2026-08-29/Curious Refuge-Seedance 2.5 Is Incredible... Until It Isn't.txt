@@ -1,0 +1,458 @@
+UP主：Curious Refuge
+标题：Seedance 2.5 Is Incredible... Until It Isn't
+链接：https://www.youtube.com/watch?v=xjyuNokwAPw
+
+SeeDance 2.5 is finally here and so many
+people have been saying that this is the
+future of filmmaking. So, in this video,
+we're going to be taking a hands-on look
+at SeeDance 2.5. I'll talk about some of
+the new features in this AI video model.
+We'll also talk about how it stacks up,
+what it cost, and what this means for
+the future of creativity. All right,
+let's get in. In order to use SeeDance
+2.5 at this time, you have to go through
+Dreambooth, which is the official
+aggregator of ByteDance. So, we're here
+on the Dreambooth website and at the
+bottom, you can see we have our menu
+here. In order to generate a video in
+SeeDance 2.5, just make sure you're in
+the AI video section here. You can type
+in your prompt and you can bring in
+references. So, inside of SeeDance, you
+can bring up to 50 references, which is
+a huge amount of references compared to
+what we had with just the 2.0 version.
+For this example, we're going to use
+this image of this spaceship falling to
+Earth. And under the model, we'll make
+sure we're in SeeDance 2.5. Now, in
+terms of resolution, right now, you only
+have the ability to generate outputs in
+720p. So, you're always going to need to
+use an AI up-reser if you want to use
+these generations in a professional
+capacity. And you do have the option to
+pick from various aspect ratios,
+including 9x16 if you want to do social
+media-centric content or something like
+micro dramas. And for the actual
+duration of the video, you can generate
+a clip up to 30 seconds long. And if you
+remember, the normal version of SeeDance
+allows you to do cuts between your shots
+in a single generation. So,
+hypothetically, you can do multiple cuts
+up to 30 seconds long in a single
+output. And we'll do some tests in just
+a little bit to see how well that stacks
+up. So, when you're ready, all you have
+to do is go ahead and hit generate. Now,
+real quick, let's take a look at a few
+of our examples, and I should note that
+they all have sound effects built in.
+So, this is our first shot here, and
+the ship blows up. The physics look
+really, really nice, and it just
+plummets through the cloud. Obviously,
+the physics and the visual effects look
+incredible, and it really mirrors what
+you would expect to see from a
+high-budget visual effects shot. The
+problem is there is quite a bit of
+artifacting inside of the video itself.
+It almost looks like a low-compression
+version of a high-budget movie. And so,
+again, you would need to use an AI
+system to uprez this if you wanted to
+use it on a professional project. We
+also have this shot here of a spaceship
+flying, and
+yeah, I mean, it just looks really good.
+Obviously, in this specific shot, I
+think there's some continuity issues
+with the clouds and where you would
+expect them in relation to the Earth,
+but the overall physics look very, very
+nice. We also took this image of the
+soldier here, and we wanted him to run
+into battle,
+and I mean, the camera shake, the mud
+from his feet, it looks really, really
+good. Obviously, there's some physical
+problems, like the way in which the dirt
+kind of evaporates as opposed to hitting
+the ground there is a little off, and
+there is some vertical banding
+happening. So, again, it's not perfect.
+Everyone online's going to say it's
+perfect. It is not, but it is very, very
+impressive. We also have this shot here
+where we wanted to prompt for him
+running into battle,
+and I mean, yeah, it's super, super
+impressive. So, now that we've taken a
+look at a few shots and examples from
+SeaArt 2.5, now let's get into the
+individual features and see how they
+stack up. So, for our first example, I
+wanted to do this alien invasion example
+where we prompted for a guy who's like
+running from an alien and then they land
+at the very end and you know something
+bad is going to happen. So, we have a
+few different references here. We have
+this image of a spaceship. We have this
+small town. I liked this image a lot for
+color grading. We have this alien named
+Jerry here and uh Tyler, we may have to
+blur that out for the folks. And we were
+very specific about what we wanted to
+see from the overall scene and from
+SeaDance we got this.
+>> [panting and sighs]
+[panting]
+[gasps and sighs]
+>> WE SHOT TARAN!
+>> [laughter]
+>> I DON'T KNOW WHAT HE said there at the
+end.
+Okay, so wildly impressive. Obviously,
+SeaDance there's something
+intellectually that's not happening with
+SeaDance. Uh for example, the bus the
+way it flips was unmotivated so you'd
+probably have to cut around that as an
+editor. And you know, the guy obviously
+looking the wrong direction compared to
+where the spaceship is flying is a
+little funny.
+But it's pretty wild like the continuity
+with the character throughout a
+30-second scene. Remember just a few
+years ago generating a shot that was 5
+seconds long was a huge accomplishment.
+The fact that it's able to pull off a
+30-second scene and the continuity looks
+so good is frankly really really
+impressive. Now, we wanted to do the
+same thing for an advertising project.
+So, I have this image of me as a
+character sheet that we brought into
+SeaDance and we have this shot of Shelby
+who's my wife although I think her face
+begins to change there towards the end.
+But you know You know We're just going
+to roll with it. And we prompted for an
+entire 30-second ad. I'm not going to
+read you out the entire prompts, but you
+can learn more by clicking the link
+below this video. And that gave us this.
+>> [laughter]
+>> Oh, amazing. Amazing. So, it's so funny
+because even though in the prompt
+everything totally made sense, you can
+see how C Dance really doesn't
+intelligently understand what's
+happening. There's just so many weird
+quirks with the way in which the
+characters interact and like the cups
+having lights in them. There There's
+definitely some stuff that is lost with
+C Dance. So, this is by no means type in
+a prompt, get a full advertisement in
+return. You're going to need to prompt
+it. You're going to need to direct it.
+And it's going to take iteration to get
+where you want to go. But again, that
+was all from a single prompt for that
+entire 30-second generation, which is
+frankly very impressive. So, the quick
+takeaway is 30-second generations are
+impressive, but they're not going to be
+production or advertisement ready. So,
+you probably need to break them up into
+smaller clips anyways. For our next
+example, we wanted to really push this
+idea of creating a single long shot from
+a single generation. And so, we have the
+same reference image of me, and we
+wanted to put me in this suburban
+environment. And basically, I'm talking
+to the camera for 30 seconds as
+shenanigans unfold. Let's take a look.
+>> Yeah, does 2:00 still work for you?
+I push it to 2:30 if you need.
+Hey, did you get a chance to send over
+that file? I still don't see it in my
+inbox.
+Honestly, the Wi-Fi at the office was so
+slow today. I couldn't even load a page.
+Anyway, let me know if the 2:30 works.
+Okay. Talk later.
+>> Okay. That's some really impressive
+match action there, but we prompted for
+the entire scene to be a single shot and
+it really uh took some creative
+liberties there. So, again, it's pretty
+wild that it was able to match the
+character and create that match action
+effect. We actually featured a film
+recently that took that same concept uh
+in an advertising capacity and did an
+amazing job. But again, you're getting
+into some logic loss whenever you try to
+generate those 30-second outputs. It's
+very impressive, but it's just worth
+noting. Next up, we wanted to test out
+using a lot of reference images. The
+idea is that you can upload a lot of
+assets. It could be your characters, it
+can be their clothing, it could be small
+objects that are inside the overall
+environment, and then you also have the
+ability to upload reference video and
+audio as well. And so, we have a bunch
+of different items here and I basically
+wanted to create an entire scene that's
+happening inside an antiques market, and
+we have everything from the main
+character to a supporting character to
+the shop owner himself and just
+different items that we want to see
+inside of this French market film that
+we're working on. So, we brought all of
+those references together, wrote a very
+long prompt of what we wanted to see,
+and this is what we got.
+>> Okay. I don't know why he turned into
+the Green Lantern at the end there. We
+did not prompt for that. So, it is
+impressive. It's definitely including a
+lot of the items that we uploaded. You
+can see we have the trumpet there. We
+have the sextant. We have the final
+glass that we want him to pick up. But,
+it's also taking some creative
+liberties. For example, the fox was not
+inside of the glass case, and the pocket
+watches were weirdly connected by a
+single chain. But, one thing I really
+like about the generation, in addition
+to the physics being really impressive,
+is the fact that it brought in all of
+the characters that we uploaded, but it
+didn't make them main characters. It put
+them correctly inside of the
+environment. For example, we have our
+main character, and he looks fine, but
+we also have the shopkeeper, but he's a
+little out of focus in the background,
+but there, and it feels realistic. And
+we also have our background actor in the
+red coat, and she's completely out of
+focus, but she's present in the scene,
+which helps with the overall realism of
+the piece. Now, one thing I do want to
+point out, this definitely feels like a
+0.5 improvement over SeaDance 2, and not
+a complete overhaul of the model. Some
+of the main problems that I'm looking at
+are some jitteriness to the motion. It's
+almost like the shutter speed changes
+throughout the overall scene, which we
+saw in previous versions of SeaDance.
+You also have a lot of kind of baked-in
+artifacting that feels like it's baked
+into the model in the outputs that are
+generated. I'm not entirely sure why
+Google VO also struggles with the same
+problem, but it's even more apparent in
+the 2.5 version of SeaDance. The next
+thing I want to look at is how SeaDance
+2.5 stacks up against other AI video
+models. They said it's a big
+improvement, so let's take a look. So, I
+have this shot here of this man riding a
+moped, and we animated him inside of
+SeaDance 2.5, and that gave us this.
+>> Hello, my friends.
+>> Okay, it did fine. I can't tell if it's
+in a slow frame rate or live action.
+It's a little unclear here. But, let's
+take a look at the same generation
+inside of Kling.
+>> AND HELLO, MY FRIENDS.
+>> SO, the lip syncing's nowhere close, and
+a lot of those background characters are
+just like morphing and weird. So, I feel
+like SeaDance 2.5 did a much better job
+than Kling. Now, let's compare it
+against SeaDance 2.0.
+>> Hello, my friends.
+>> Okay, so again, it's not perfect, but I
+actually think in this test, 2.0 did a
+better job than 2.5. Now, the one test
+that I was crazy excited to run is the
+asteroid test. So, we have this shot of
+a truck driving away from these
+asteroids. We wanted to prompt for an
+entire scene where they come crashing
+down, and we used SeaDance 2.5, and that
+gave us this.
+>> Okay, it's fine. Not the most dynamic
+physics, but the particles, the way that
+the background explosion happens, is
+very cool. But, the reason why I'm
+saying it's okay is because the previous
+version of SeaDance gave us this.
+Which, I mean, come on, is still
+amazing. The next test I want to show
+you is a multi-shot scene. So, we have
+this image here of a woman in a diner,
+and we prompted for a whole scene where
+a guy comes in, sits down, takes a bite
+of a burger, and you'll see in just a
+second. So, inside of SeaDance 2.5, we
+got this.
+>> Thanks for the food. I'm starving.
+>> I'm sorry. Who are you?
+>> Okay, so there's some issues with
+continuity, and like the neon signs
+don't really make a lot of sense. But,
+the final two shots there of the guy
+sitting down and then cutting to the
+woman looks incredibly realistic. Now,
+again, if we compare that to the
+previous version of SeaDance, we got
+this.
+>> Thanks for the food. I'm starving.
+>> I'm sorry.
+Who are you?
+>> Which again, that scene is not bad. I do
+think that the skin in 2.0 is a little
+more plasticky compared to the skin
+outputs that we're getting from 2.5 at
+least up to this point. So, next up, I
+really wanted to test out the emotional
+resonance of SeaDance 2.5. The idea is
+can it actually give us a performance
+that can go past the uncanny valley. And
+so for this example here, we have a few
+different shots. So we have me and
+Shelby and we wanted to have a really
+emotional scene inside of this coffee
+shop. So let's take a look at our
+output.
+>> I've been trying to figure out how to
+say this since Thursday.
+>> I know.
+I've known since March.
+>> March?
+Why didn't you
+>> Because I kept thinking you'd tell me.
+>> I was going to.
+>> Okay, so you get the idea. You can feel
+a lot of emotional weight behind those
+generations. I think that anyone says
+that AI is not quite there yet or it's
+just really uncanny, really ultimately
+isn't curating the quality of the
+outputs that they're consuming because
+it absolutely is. Now, that doesn't mean
+that these shots are perfect. There's
+definitely some issues especially with
+text in the final outputs, but the fact
+of the matter is it's very emotionally
+resonant and 2.5 is a really good
+improvement. Next up, by using SeaDance
+2.5, you can generate a clip up to 3
+minutes long by slowly continuing to
+extend your output. So it's only 30
+seconds at a time, but it can be up to 3
+minutes long. So for this example, we
+wanted to have some fun with it. So we
+uploaded the stock reference video from
+Artlist and had SeaDance 2.5 continue to
+generate the scene and there's some
+parts that are pretty funny. Obviously,
+the text in it is really weird and it
+just gets really wonky. The guy also
+begins speaking Chinese, which makes
+sense because I would imagine the
+majority of the training data is in
+Chinese, but it also goes completely off
+the rails there towards the end, which
+is uh kind of awesome. Like I think it'd
+be really fun to watch these infinite
+canvas films that just get really wonky
+over time. Uh so, it's not producing
+anything that I would say would resonate
+with an audience again unless you curate
+the outputs. Now, in terms of overall
+cost, believe it or not, C Dance 2.5 is
+not a free video model. So, on the
+Dreamina website, you can generate in
+480p or 720p. I'm going to focus on 720
+because it's just as close as we can get
+to the professional resolution that we'd
+be looking for. So, if you generate a
+5-second clip at 720p, it's going to
+cost you $2.18.
+And if you generate one of those
+30-second shots that I showed you, it's
+going to be $13.10.
+And while I think it's very impressive
+that you can generate a video clip up to
+30 seconds long, the fact of the matter
+is in none of the generations that we
+saw would you actually be able to use it
+on a project because there were
+problems. So, you're probably going to
+want to break it up anyways. So, in
+terms of how that stacks up against 2.0,
+C Dance 2.0 would cost you $1.14
+for 5 seconds in 720p versus $2.18
+for 2.5. So, it's almost twice as
+expensive. So, the big question is is it
+twice as good? And the short answer is
+no, it's not twice as good and you don't
+have the ability to generate in 4K or
+1080p. So, you're going to have to add
+an additional amount of cost associated
+to your production because you're going
+to have to use an AI video up-reser like
+Topaz in order to get it into a higher
+resolution format. The big value in
+using C Dance 2.5, in my opinion, is the
+expanded reference assets that you can
+upload. Having the ability to bring in
+more videos and more images gives you
+more control over your outputs.
+Obviously, from this video, you can see
+that those outputs aren't always exactly
+what you're looking for, but having a
+larger context window is absolutely the
+future of production, and I think it's a
+great improvement. So, the quick summary
+is from a physical dynamics and
+emotional resonance perspective, C-Dance
+2.5 looks like it's the best video model
+on the market, but from a price and
+fidelity perspective, I'm not entirely
+convinced it's the best video model for
+most projects. But, I'm sure you're
+going to see a thousand influencer posts
+that say the opposite. Thank you so much
+for watching this video. We'll continue
+to test C-Dance 2.5 to see all of the
+interesting workflows that we can pull
+off with the tool. But, in the meantime,
+if you want even more honest reviews and
+workflows in the latest AI tools, be
+sure to like and subscribe here on
+YouTube. Thank you so much for watching.
+Let me know what you think of C-Dance
+2.5 in the comments.

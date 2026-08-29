@@ -1,0 +1,47 @@
+UP主：OpenAI
+标题：How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful
+链接：https://www.youtube.com/watch?v=MX95QbxSc9Q
+
+It's a crazy time to be alive, right?
+It's one of the most exciting times
+maybe in human history.
+Wondr is a enterprise applied AI partner
+to the world's largest and most complex
+enterprises.
+We're getting so much value for the
+partnership with OpenAI. We needed to
+build a platform extremely fast, and
+without OpenAI and Codex specifically on
+our engineering team, there was no way
+we could have done it. But the second
+part of the OpenAI partnership is how
+we're bringing the intelligence that
+OpenAI is able to have to the
+enterprises that we work with around the
+world.
+We have an infrastructure platform to
+build, manage, and optimize agents
+paired with a local forward-deployed
+delivery team to enable enterprise to
+actually get agents into production. I
+think the enterprises that are moving
+fastest [music] recognize that they're
+not in the business of building AI
+infrastructure, they're in the business
+[music] of transforming their
+organization with AI. Focus on enabling
+your teams to move faster with the
+change management required for agentic
+go-live.
+I think now [music] we're entering a
+phase where you can do longer horizon
+agentic tasks with usually multiple
+agents, [music] and also multiple
+modalities in which you're interacting.
+You can start to redesign [music] how
+work is done to be able to optimize for
+productivity, not just trying to
+automate the manual tasks that we all do
+[music] today, but actually to rethink
+how an enterprise should work in 2026
+and beyond.

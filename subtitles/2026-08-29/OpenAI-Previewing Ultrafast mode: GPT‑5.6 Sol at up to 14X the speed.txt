@@ -1,0 +1,49 @@
+UP主：OpenAI
+标题：Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed
+链接：https://www.youtube.com/watch?v=EDWbX_-RYws
+
+This is the first time I felt like I was
+genuinely cheating at my job.
+When our systems go down, it's like
+somebody hit the emergency stop on the
+assembly line. I'll tell it to monitor
+and pull that channel and essentially
+act as my eyes and ears to do
+investigation, to determine what the
+root cause is, to answer other people's
+questions as they join the channel.
+There's an old adage that like
+performance can be a feature because
+when something becomes fast enough, it
+changes behavior.
+>> What used to take one to two hours to
+collect the data, sort through the data,
+normalize the data, and add context to
+it, rich intelligence to help me and my
+team make really effective decisions,
+now that happens within a 10 to
+15-minute time frame. At times, it's
+near real time.
+>> Using ultrafast, I'm able to essentially
+search all of those haystacks all the
+same time, which is really incredible,
+and do so concurrently. And now,
+frankly, ultrafast is fast enough that I
+can usually get the same quality results
+without splitting my attention.
+>> Once I'm in flow and writing code, I
+feel like I have per unit of time, which
+is really the constraint, more
+intelligence on tap.
+>> A quick code base refactor it costs
+almost nothing and it happens almost
+instantly. And this does mean that we
+build and ship things quicker, and we
+can sustain this momentum for much
+longer as well.
+>> Because it's so quick, it's so
+effective, you don't lose the quality of
+intelligence.
+>> We always want the most intelligence at
+the fastest speed. With 5.6 ultrafast,
+we don't have to compromise on either.
