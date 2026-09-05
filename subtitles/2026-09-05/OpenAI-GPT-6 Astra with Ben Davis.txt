@@ -1,0 +1,86 @@
+UP主：OpenAI
+标题：GPT-6 Astra with Ben Davis
+链接：https://www.youtube.com/watch?v=B-jjnydci50
+
+I'm very, very impressed.
+It was able to solve one
+that we did not get, actually
+three that we did not get,
+as well as one puzzle that
+no one else in the world has solved.
+So it was the first one to get it.
+That's what I was very impressed.
+So you spent some time testing Astra.
+Yes.
+Like what was the first moment
+where it really hit you how
+different this model was?
+I went to a big conference called
+DEF CON, where there are these big
+puzzle challenges that me and my
+friends spent days trying to solve.
+I took some of the hardest
+problems from that challenge and I
+threw them at the new model Astra.
+It solved this one big puzzle,
+which was like a bunch of Rubik's
+cubes that were arranged in this
+weird three by four pattern that you
+had to deduce a message from.
+It was able to get
+that three out of three times.
+The one thing it did
+need is it got the official
+hint from the puzzle creators,
+but it's the same thing we
+got when we were doing it.
+But once you gave it that,
+it got the actual solution.
+Same thing with this other puzzle,
+which was this like giant
+dress with tons of multicolored beads
+all over it that you had
+to again find a message from.
+This was a task that required
+it to be able to actually
+like see and understand what's happening
+across tons of disparate images that
+were not like, we didn't really
+take the best pictures of this thing.
+Yeah. But even so,
+it was able to figure it out.
+Ultimately got the answer once we got
+the main hint from the maintainers.
+It did it.
+So the model comes up with a theory.
+It sends off another agent to go
+test it, sees how it works.
+Then the research branches.
+So it has basically 10
+slots that can fill with other
+agents to go do things.
+So these are all running in parallel.
+Main agent is just kind
+of orchestrating these together.
+If you're just starting
+from here and then you have
+to get a word here, there's
+no verification in between these two.
+So it's very easy for the model
+to get lost on bad
+assumptions and bad paths and just
+disappear into something that won't work.
+I found this model is much
+better at keeping itself on track,
+which is a lot of the reason
+why it's been able to keep
+on task and solve these problems.
+And then the other
+side of this is really,
+really think that the sub-agent workflows,
+the swarm workflows, all of these
+like putting many instances of this
+agent together to work on much
+bigger, more complex problems that you
+probably feel like are currently possible.
+It is now possible and it's worth trying.

@@ -1,0 +1,47 @@
+UP主：OpenAI
+标题：Work with docs, sheets, and slides in ChatGPT
+链接：https://www.youtube.com/watch?v=E3dDr_QtBuo
+
+You can now use ChatGPT
+to work with documents, spreadsheets, and slide decks.
+Let me show you what that looks like.
+My team is getting ready for our next launch.
+We already have a launch plan,
+but the latest decisions are spread
+across Slack and our latest media notes.
+I'm going to ask it to bring it
+all together into one coherent plan.
+It updates the decisions,
+owners, and plan in the document.
+I can select one section, ask for a focus change,
+and leave everything else as it is.
+I can even export to Google Docs
+to share with my team.
+To help with the launch videos,
+I'm also going to have it dig
+into the performance data of past videos.
+I can ask it to compare viewer retention
+by length and engagement by format,
+and it turns the data into a spreadsheet
+so we can see what's working.
+Lastly, let's turn this launch plan into a deck
+that I can share with our leadership.
+I give it one of our existing
+launch decks as a reference.
+It follows the same structure and style,
+ready for my team to review.
+That looks pretty good.
+With the new Template Creator skill,
+I can also turn this file into a template
+it can use in the future.
+I'm going to show you one more thing.
+You can use ChatGPT to create spreadsheets and PowerPoints,
+but you can also use it within these files.
+This is great for needing to make
+more targeted edits and provide more specific instructions.
+So there you go.
+Point ChatGPT to the files you need
+to work with, tell it what you need,
+and produce polished spreadsheets, decks, and documents
+you can review and share more quickly.
+Give it a try.

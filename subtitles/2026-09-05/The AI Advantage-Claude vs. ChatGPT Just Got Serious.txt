@@ -1,0 +1,366 @@
+UP主：The AI Advantage
+标题：Claude vs. ChatGPT Just Got Serious
+链接：https://www.youtube.com/watch?v=ARnUlEyVRoY
+
+Both in chat GPT and claude these
+connector launches an update like Google
+mail or Google Drive they're a mess. So
+just had a claude announcement that hey
+the Google mail connector got smarter
+and better. It can send emails now and
+Google Drive can do way more now. They
+can manage files whatever that means.
+So, what I want to do today is skip all
+of this announcement language and just
+tell you exactly what they can do and
+what kind of workflows you could be
+doing every day with these tools because
+that's what matters. How you're actually
+putting it to work and if it can do
+novel things that are useful to you. So,
+with that being said, let's have a look
+at the Google mail and Google Drive
+connectors in both chat and claude. And
+I think you might be surprised by how
+capable some of these are. Sending
+emails, creating documents, editing
+documents. But spoiler alert, Chat GPT
+is actually way more capable when it
+comes to all of this. And this video
+will show you the exact boundaries plus
+some recommended workflows that I
+believe a lot of people will be adapting
+into their everyday work, which is
+amazing. All right, super quick recap on
+what happened. Well, Claude had this
+released that hey, their connectors are
+so much better now. and chat GPTO over
+the past 2 months has been shipping like
+almost weekly updates to their own
+version of these connectors which they
+call plugins. Okay, so it's different
+language, the same thing. You basically
+connect Google Drive or Google Docs and
+now your Chat GBT or Claude can interact
+directly with Gmail and do things like
+draft emails and now even send them. But
+as I said, it's a bit confusing because
+they're at different levels of
+capabilities. So, let me just start with
+examples that are going to be convenient
+to you hopefully. And I think the very
+first one is something that you should
+consider doing if you're not doing this
+already, which is email management with
+the help of AI. Hey, and before we
+begin, one thing that I should add is
+that these connectors and what I'm
+showing off today is on the paid plans.
+You need to pay $20 a month to get
+access to this, but I believe that what
+I'll be showing you here is actually
+well worth it, especially if you spend a
+lot of time on admin tasks like emails
+and working with documents. Okay, so
+baseline I basically have these things
+connected up. I'm not going to be
+explaining how because you just log in.
+You can go here to plus connectors and
+then manage connectors and here under
+add you would browse connectors and look
+for Gmail and G drive. Then you just log
+in. Same thing in chat. You just go to
+settings plugins and then either they're
+in the list here or below under browse
+plugins. Now that we've established the
+context so we're all on the same page,
+let's get to my favorite part which is
+doing things. So, let's start with this
+cheeky little prompt that I would
+recommend to you. Review up to 15 unread
+emails from the last 48 hours. Group
+each into reply today, review later, or
+no action. Then, draft a concise reply
+to the most urgent reply today email
+using the full thread, but ask before
+sending. And as long as your connector
+is enabled to Gmail, this is probably
+the simplest way you could start working
+with AI plus email. Going to do the same
+thing in chat GBT. But basically we're
+going to put them into free buckets and
+tell it that hey anything that needs to
+be replied to today already draft the
+reply. Now here we start talking about
+the updates. So it could draft things
+before already. That's why a lot of
+people are confused by this. But now it
+can also send. So if I'm happy with the
+draft I could just say yeah send it and
+the email is actually going to go out. I
+could also say hey for everything that's
+reply today just write replies and send
+them. Wouldn't recommend that though.
+You could do it now. So there's some
+great recommendations. I would agree
+with these. And there's a draft to the
+most urgent email, which I would
+actually agree. Now, let's review Chat
+Chip's result. Oh, it was actually way
+more critical on the evaluation. Look at
+that. Only two things that need to be
+replied to today. There's some test
+emails we just sent to review later and
+a bunch of no action stuff. So, from
+these two lists, me personally, just
+first try, I would agree with the chat
+evaluation here more. These are the two
+that actually need replies today,
+whereas there's a bunch of noise here.
+So, here's a note on what's new. What
+they added additionally to sending is
+also you can reply to emails. You can
+forward emails and then as mentioned you
+can also send emails. These are all new
+in Claude Chat GPD could already do
+this. Additionally, and this is a really
+important one regarding email. If you're
+in Claude and there's an email with an
+attachment, it is not going to be able
+to see inside of the attachment. To me,
+that's crazy important. We send PDFs
+back and forth all the time via email.
+Chat GBT on the other hand can totally
+do that. It sees inside of the
+attachments. Now, if this is not working
+for you right away, I would recommend
+switching to chat GPT work. That's where
+these features really shine and stuff
+like email triage is really going to
+work well. So, for this use case of
+working with your inbox, I would
+definitely recommend chat GPT work right
+now because of the claw Gmail
+limitations. Those attachments are
+mission critical to me. All the other
+features both have now, which is nice to
+know. And if you don't work with a lot
+of attachments, then both are great, I
+suppose. One more thing that I want to
+add on this email note is that if you
+have multiple emails, it's a problem
+with both of these. I personally have
+what five or six emails and you can only
+connect one here. A workaround that some
+people do is they just forward all the
+emails from, I don't know, email number
+2 3 4 5 to one inbox and then they
+connect that inbox, but it's kind of
+messy. And then also, if you want to
+reply in the other email, you can't
+really do it. So yeah, that's a big
+limitation right now. When it comes to
+working with one email, chat GBT is just
+better now. And hey, if you enjoy
+practical workflows like this, you would
+love the AI advantage club. We have a
+brand new onboarding that I'm so excited
+about. I've been working on this for
+months with the team where basically
+when you come in, you get a personalized
+learning plan for a month that shows you
+how to get time back with AI through a
+precise road map. When you come in, we
+give you a immediate quick win and a
+tool that you can start using dayto-day
+and then you build your fluency over
+time all on the mission to get time back
+with AI. It's personalized just for you
+based on over 100,000 students going
+through this journey already. So, if
+you're ready to start saving time with
+AI, join the AI Advantage Club. It's
+just $1. I'm the architect of the entire
+learning experience there. All the
+courses are for me. We're adding new
+courses every month. You would love it.
+Again, $1 to try it. First link in the
+description below. All right, back to
+the video. So, let's look at the next
+big one, which is creating and working
+with Google documents. And this is where
+they were pretty unclear to say the
+least in their announcement. So, we went
+ahead and tested actually all the
+different functionalities relating to
+Google Docs. And let me just show you.
+So, let's start with the basics, which
+is just creating a Google Doc. I'm going
+to pick a random topic, something that
+relates to our first use case. And I'm
+going to send this to both chat and
+Claude. Now, it asks for permissions.
+And at this point it would be probably
+wise to talk about permissions in both
+these. You can go to your settings down
+here and then inside of connectors you
+can manage how much access these have.
+So if I go on Gmail for example, you can
+see all the permissions in here. You can
+see that it does not need to ask me when
+it comes to things like [music] reading
+because everything is on this setting
+right here. When it comes to writing or
+deleting, it always asks me for
+permission. If I wanted to switch that
+off, I could flip all of these to well
+this mode right here and it would just
+go for it. You can see for sending email
+messages, I somehow gave it the
+permission already. And I can change
+that back to needs approval instead of
+always allow. And there you go. Those
+are all the capabilities and how you
+control them too. But now back to our
+use case, which is this email triage
+plan. You can see it created a new
+Google doc. I'll just open that link.
+Let's have a look. And there it is. It
+created a beautiful two-page Google Doc.
+Good starting point for whatever you
+might be doing. Oh, Chat GBD wanted
+permission. So I'll give it that. And
+there it is. Now what I really like
+about chat is that they also updated the
+interface and you see the Google doc
+right inside of here. It's not a
+separate tab as here with claude but
+it's just right inside. So I think that
+is one advantage full interface in here.
+But then furthermore this is the most
+important thing that I learned even with
+these updates. If I see something like
+make it more detailed add two pages just
+because this is going to demo well in
+both of these you're going to quickly
+see the limitation of claude. it cannot
+edit these documents. What Claude will
+do here is one delete this doc which is
+a new capability. Great it can do that
+now and two create a second version of
+the document whereas chat can go in here
+and actually make changes. So see claude
+is trying to use create file. Sure
+because it has to do that and there it
+is. It's not even done yet but you can
+already see the same document was
+expanded to six pages now inside of
+chatbt. Claude deleted the first version
+and now there's a brand new Google doc.
+This one is in trash and the new one,
+yeah, is expanded. But if you want to
+use this as a layer where humans are
+working on it or maybe you're making
+changes yourself, the ability to edit
+existing documents in chat is huge in my
+opinion. Now, on top of that, I want to
+show you a few quick tricks that I
+stumbled upon when looking at all of
+this. One is that you can now share
+these documents from here, too. Share
+this doc with Antonio that we just
+talked to via email. I can make mistakes
+in there, but Antonio is going to get
+this file who's helping me record this
+right here. Boom. There it is. It can
+make those changes now, too. That's a
+part of the update. So, you can change
+sharing, you can delete files, you can
+move them. But when it comes to editing,
+still limited to chat GPT. And this
+interface in here is just wonderful
+right now. Now, few additional tips
+inside of chat GPT. You can since I
+think a week now also run deep
+researches that read documents. Okay, so
+for anybody not familiar, this is one of
+the most powerful CHBD features where it
+goes out and looks at hundreds of links
+and synthesizes all of that into one
+research document for you. It's probably
+the easiest agentic use case and so so
+powerful if you're looking at new
+topics, comparing options, or you just
+want to get a lot of intelligence on a
+certain topic. Well, now you could
+activate deep research here in chat by
+saying at deep research and then you can
+say use the document we have on AI email
+triage and research how people are doing
+this across the internet. And now it's
+going to use the connector to take the
+document that we just created and run a
+deep research. This might take like 10
+15 minutes but it's going to be really
+comprehensive. And this was a thing that
+hasn't been available before. Deep
+Research did not work with these docs.
+Okay, so that's it when it comes to
+these connectors. A few more fun things
+when it comes to Chat GB that came out
+throughout the last week. It has a
+specialty feature for restaurant
+reservations. Now, it triggers when you
+just ask for reservations and there's a
+brand new feature in the background that
+makes that possible. I believe the
+change is the integration of this new
+interface where I could yeah select a
+time for its recommendation. I would
+actually agree with this. I've been here
+multiple times. This is one of the best,
+if not the best, here. And yeah, it
+could be like 7:45 and boom, if it's
+connected up to my information, I can
+book from right within here. You can see
+this is new. Additionally, there's a new
+feature where you can let it quiz you.
+That's also hidden. You just have to ask
+for a quiz and it will do that. There it
+is. It's this interface right here. And
+then final note, if you go into your
+library, you can see your Google Drive
+within here now. So, you could access
+files like this. You don't even need to
+go into Google Drive anymore. You just
+go into Docs like so. And then start
+chatting with them to use all the
+features. So they really blended chat
+GPT and Google Drive which our company
+runs on and many others do too. If you
+use it, I think this is huge. The Gmail
+stuff is useful, but most people have
+multiple emails. That would be the
+gamechanging feature. It's probably
+something right now where you can kind
+of get used to how working with AI and
+email feels like inside of Chat GBT. And
+in the future with multi email support,
+it's just going to be a game changer for
+most people, I believe. But yeah, this
+is how it begins. Feature by feature,
+week by week, we're getting there. I
+hope you enjoyed this week's news video
+where I showed you what changed and what
+in my opinion matters. If you have any
+thoughts on this or ways to use this
+yourself in a unique way, leave a
+comment below. I really want to see. I
+genuinely read the comments every week
+and it's just good to see what you guys
+are up to. And with that being said, my
+name is Eigor Pagani and I hope you have
+a wonderful week
+about
+here
+It up.

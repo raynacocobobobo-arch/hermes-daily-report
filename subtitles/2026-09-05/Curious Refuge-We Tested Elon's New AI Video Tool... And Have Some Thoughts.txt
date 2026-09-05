@@ -1,0 +1,425 @@
+UP主：Curious Refuge
+标题：We Tested Elon's New AI Video Tool... And Have Some Thoughts
+链接：https://www.youtube.com/watch?v=EbDzfeBwszM
+
+The team at Grok has released a brand
+new AI video model that is positioning
+itself as a competitor to online tools
+like Seed Dance. So, in this video,
+we're going to take an honest look at
+the brand new tool Imagine 1.5. We'll be
+comparing it against other AI video
+models on the market and determine where
+it fits in in the larger creative
+ecosystem. And I want to give a hat tip
+to the user Nimbab who asked us in the
+comments, "How come nobody is covering
+Grok? Is it not serious?" Well, that's
+what this video is all about. So, the
+big news is that the team at Grok has
+updated their AI video model to allow it
+to take reference images. This is a big
+deal because so many of the online AI
+video tools are transitioning away from
+just being an image-to-video platform.
+On most platforms like Seed Dance or
+even Minimax, this means you have the
+ability to upload audio, images, and
+video, bring them together, and output a
+video that can be an amalgamation of all
+of those references. But inside of Grok,
+they're actually taking a slightly
+different approach. Yes, you do have the
+ability to upload starting images and
+use images as a reference, but the thing
+that makes this tool specifically
+special is the fact that they're leaning
+into the ability to generate a
+consistent character, product, or
+location again and again. So, to create
+a video in the Grok Imagine 1.5
+ecosystem, you have to go over to
+grok.com. At the time of recording, this
+is a US-only tool, but they are slowly
+releasing it to more markets. So, to
+create a video, all you have to do is go
+to the window at the bottom. So, to get
+started, we're going to click the plus
+button in the bottom left to bring in a
+reference image, and we'll go ahead and
+upload media. So, for our example, I
+have this image that was generated
+inside of Midjourney of this guy running
+away from this cheese monster and
+it's one of my favorite images that
+we've generated in a while. It's a kind
+of awesome. And for our prompt, we're
+going to say a video of a man running
+away from a gross cheese monster and we
+went into more detail about what we
+wanted to see from the prompt. Now,
+what's really interesting is inside of
+Grok, you can either select first frame
+or use it as a reference and we're going
+to keep the reference button selected
+here because we want it to pull from the
+overall style of the image. I don't want
+it to start with that literal start
+frame here. And for the video output,
+you do have the ability to generate
+video up to 1080p, but you have to be on
+the $100 or $300 a month Grok plan,
+which is crazy expensive. There are some
+benefits to that, but we'll talk through
+this video about the overall pricing and
+if it makes sense for you. So, for our
+test, I'm going to run in 720p, but that
+should not affect the physics
+whatsoever. And we're going to select 15
+seconds for the generation, make sure we
+have audio on and select 16 by 9. And
+when you're ready, go ahead and click
+generate. And I got to say, it's
+actually pretty fast. It only took about
+60 seconds to generate the video, which
+is pretty cool because a lot of times
+when these models come out, it'll end up
+taking like 10, 20, sometimes even 30
+minutes to generate your video clips,
+but Grok actually seems to be pretty
+quick. So, this is what we got FROM
+GROK. NO, GET AWAY.
+IT'S GETTING CLOSER.
+NO.
+>> [groaning and screaming]
+[laughter]
+>> OKAY.
+YEAH, THAT WAS THAT WAS JUST A majestic
+shot right there. Obviously, the
+character's acting, it's really not very
+realistic. There's some really strange
+physics going on there, but I love the
+monster eating the dude at the end. I
+think he does kind of vaporize into the
+ground there, but it's just grotesque
+and weird and maybe it kind of makes
+sense for this shot, but all together
+kind of strange. Now, we ran the same
+generation inside of Seed Dance 2.0 with
+the same prompt and we got this.
+So, you can see the generation from Seed
+Dance is much, much better. I like how
+you can really feel the weight of the
+monster, but also kind of the
+quirkiness. It's almost like it's very
+quirky that he even exists because of
+his very strange walk cycle there. And I
+think a lot of these shots would look
+really impressive if you used an AI tool
+to up res them and remove some of the
+artifacting. It did a really good job in
+Seed Dance. The result from Grok, maybe
+not so much. Now, with this update from
+Grok 1.5, they said it's also very good
+for a multi-shot composition. So, I have
+a few tests that I want to run here. So,
+we have this starting reference image of
+this woman sitting down at a diner. We
+prompted for a man coming in, sitting
+down, taking a bite of the cheeseburger
+and saying, "Thanks, I'm starving." You
+get the idea. So, let's take a look at
+the result from Grok.
+>> Thanks for the food. I'm starving.
+>> I'm sorry, who are you?
+>> Those are some majestic cross dissolves
+we got there and I like that the guy
+just walked through the booth. And so,
+her question is, "Who are you?" not "How
+did you just magically teleport through
+a booth here?" So, obviously you can see
+it's just a little awkward. The timing
+of the dialogue doesn't really make a
+lot of sense and the physics are just
+kind of strange, right? So, this is the
+same result that we got from Seed Dance
+2.0.
+>> Thanks for the food. I'm starving.
+>> I'm sorry.
+Who are you?
+>> Okay. So, again, you can see it did a
+much better job. It's not perfect. It
+does come across as synthetic still, but
+all things considered, I think that C
+C-Dance again in this test did a much
+better job. Now, you may be asking how
+much does this cost because that is a
+real factor when you're talking about
+some of these AI tools that are
+seemingly getting more and more
+expensive. Well, for a generation inside
+of Grok 1.5, it cost about 25 cents a
+second at 1080p. So, a 5-second clip
+would be about $1.25,
+whereas a 1080p generation inside of
+C-Dance 2.0 would cost you about $3.40.
+So, it is about three times cheaper to
+use Grok, but it's definitely about
+three times worse from our test so far.
+But, let's keep it going because I want
+to be fair. So, we also prompted for a
+multi-shot composition starting with
+this reference image. Basically, the
+ship gets hit, emergencies start
+happening, and they start just running
+around the cabin. So, this is the result
+that we got from Grok.
+>> I want to commend all of you for your
+>> IMPACT BRACE! SHIELDS ARE DOWN! MULTIPLE
+HULL BREACHES! DAMAGE REPORT, NOW!
+REROUTE POWER TO STABILIZERS! ENGINES
+ARE FAILING! WE'RE LOSING CONTROL!
+>> [laughter]
+>> THERE'S SO MUCH weird stuff going on
+there. Like, the way that everything
+just like gets pushed to the center of
+the room and everyone starts rocking
+back and forth as if like the camera guy
+said, "Okay, we really need to sell that
+the ship is just rocking back and
+forth."
+>> [laughter and gasps]
+>> It's really strange in like a fantastic
+kind of way, but absolutely unusable in
+a professional context. And if we
+compare that against C-Dance, C-Dance
+gave us this. I want to compliment all
+of you for your
+>> David, locate the anomaly.
+>> Captain, scanner indicates a fusion of
+terric propulsion drive emitting high
+delta ionic frequencies.
+>> They're here.
+>> Okay. [laughter]
+Uh continuity aside, I I feel like it we
+cut to that reverse shot and uh the
+guy's haircut completely changed there.
+But overall, the cinematography, the
+physics, just much better job inside of
+Sea Dance versus Grok. Let's go ahead
+and test this from a visual effects
+perspective. So we have the shot here of
+a car driving down the dirt road, one of
+our favorite visual effects test here at
+Curious Refuge. We prompted for the
+meteors to hit the ground inside of Grok
+and got this.
+>> [laughter]
+>> Oh, so many great things. I love how the
+meteor kind of channels its inner blue
+shell and starts going straight for the
+car.
+>> [laughter]
+>> So funny. It just goes backwards at the
+end. Uh Grok is hilarious. This is
+awesome. And uh of course, the same
+generation inside of Sea Dance gave us
+this.
+And uh yeah, again, that generation's
+just not even on the same planet. So a
+much, much better job inside of Sea
+Dance. Okay, so from a cinematic AI
+filmmaking perspective, Grok 1.5 Imagine
+is not better than other AI video models
+on the market and I think you can
+totally skip it. But I'm very curious to
+test out the other value proposition
+that actually makes Grok a little
+special. And that's having the ability
+to create a person, a product, or a
+location and use them as references
+again and again. We've seen this inside
+of other tools like you can do this
+inside of Magnific or you can single
+shot this using reference images or
+character sheets inside of tools like
+Seedance, but I'm really curious to see
+this specific iteration of it because it
+is a compelling value proposition. So,
+in order to create your character, your
+product, or your location, all you have
+to do is click on the plus icon in the
+bottom left corner and we'll go to
+references. Now, from here we can go
+ahead and click plus new to create our
+new references and we'll give this one a
+name. So, from here we have the ability
+to upload some photos. So, I have some
+training data of me here wearing this
+pink jacket. I'm going to bring in two
+different images into Grok here. You
+have the ability to bring in up to seven
+reference assets depending on the
+specific model that you're using. And
+the other thing that makes this really
+special is you have the ability to bring
+in a voice to generate the same voice
+again and again. So, if you go to the
+audio icon here and go to curated
+voices, we have a few dozen voices that
+we can select. I'm just going to select
+this last one here and go ahead and hit
+add. You can give it a description if
+you want and under category you can
+select character, location, or prop
+depending on what the actual thing is
+you're trying to train the model on and
+go ahead and hit create. [music] So, now
+whenever you're prompting, you can do
+the at symbol and you can bring in your
+character, your prop, or your location
+and you can bring in multiple characters
+and props into your scene as well, which
+is pretty cool. [music]
+And for this generation, I have
+basically just an emotional scene that's
+taking place. We'll go ahead and hit
+generate. So, I prompted for a cinematic
+scene inside of a coffee shop and this
+is what we got from Grok. Again, this is
+only with character reference. We don't
+have stylistic reference, a location, or
+anything like that. We're just trying to
+see what the base model gives us with
+putting our character in a different
+environment. So, here's what we got from
+Grok.
+>> I never thought he could do something
+like this.
+And on Labor Day of all days.
+>> [laughter]
+>> Uh okay, so you can see that using that
+default voice inside of Grok kind of
+pushes the generation to feel a bit more
+like somebody reading an audiobook,
+which I'm almost certain is what the
+training data was because it just comes
+across as almost very like synthetic.
+It's not deeply performative. It just
+doesn't feel emotionally resonant. So, I
+actually created the exact same
+character, but I removed the audio
+reference. So, it's only image reference
+and ran it through Grok again and that
+gave us this.
+>> I never thought he could do something
+like this.
+And on Labor Day of all days.
+>> Okay, so actually I think that shot was
+okay. I don't know if the performance
+was my favorite, but it does look
+cinematic. It does come across as fairly
+realistic. So, I think that Grok
+actually did a pretty decent job here.
+Now, we do want to compare that against
+C Dance though. So, we took the same
+prompt and generated a character inside
+of C Dance, but this one used just
+images as the reference because we
+didn't have the ability to group it
+together into a single bucket for the
+character. So, we're just calling from a
+single reference image and that gave us
+this.
+>> I never thought he could do something
+like this.
+And on Labor Day of all days.
+>> Okay, again performance seems to be much
+better inside of C Dance. And the final
+test that I wanted to run was to combine
+characters, locations, and prompts into
+a single generation inside of Grok. So,
+again, I have the character training
+data of me here. We also have a prop
+that we trained a model on that has this
+luggage here. And then we brought in
+this image, which is the lemonade at
+LAX. And I wanted to prompt for a scene
+of me running through the airport and
+the luggage basically burst as I'm super
+busy. And this is what we got inside of
+Grok.
+>> [laughter]
+>> So, I know that his face is looking at
+the clothes all over the floor, but I
+think I'd be more amazed that his
+luggage has now turned into four pieces
+of luggage there. So, that's actually
+kind of awesome. And this is the result
+that we got from SeaDance just using a
+single image as a reference.
+>> I think we're going to miss our flight.
+>> [laughter]
+>> Uh that wasn't strange prompting. I
+don't know why SeaDance decided to do a
+bunch of jump cuts there. Uh but yeah,
+it also did not do a very good job. It's
+a kind of tricky prompt, I guess, for
+these AI systems to pull off. Okay, so
+we just took a look at Grok and compared
+it against some of the better tools on
+the market. The big question is, what's
+its place in the larger creative world?
+And the short answer is I don't really
+see a place inside a professional
+production environment. The main problem
+isn't the fact that it's just simply not
+as good of an AI video generator as
+other models that are available to you.
+It's also really expensive to even
+unlock some of the premium options. For
+example, if you want to generate in
+1080p, you have to be signed up for the
+Super Grok Plus plan. So, you have to
+pay $100 a month just to have access to
+a 1080p version that's simply not as
+good as other video models on the
+market. I also do think that having the
+ability to pre-train and define your
+characters, your props, your locations
+before you hit the generate button is
+very compelling. And I do think that is
+one of the primary reasons why people
+who are working in a professional
+environment often go into rabbit holes
+like Laura training because you want to
+generate these same objects or
+characters again and again. But, the
+execution on Grok is not very
+impressive. But, it's undeniable that a
+lot of people are going to be using this
+tool over other online tools because
+people use X on a day-to-day basis. And
+a lot of times people form their overall
+AI conclusions on X or ChatGPT or
+Claude, and they may never even get into
+other models like Seed Dance or Kling or
+Mini Max. And so, I do think it's
+important that tools like this are
+getting better. But, if you're a
+professional working with clients or on
+larger projects, I think it's best that
+you don't give Elon any more money here.
+Thank you so much for watching this
+video, and I do want to note that
+enrollment is open over at Curious
+Refuge. If you want to learn the latest
+AI filmmaking workflows and techniques
+from the world's home for AI
+storytellers, we would love to have you
+inside our community. We train artists
+at every major studio, and we're also
+hosting meetups all the time around the
+world. Let me know your thoughts of Grok
+1.5 Imagine in the comments, and we will
+see you in the next one.

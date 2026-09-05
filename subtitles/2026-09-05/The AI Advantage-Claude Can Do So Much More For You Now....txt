@@ -1,0 +1,389 @@
+UP主：The AI Advantage
+标题：Claude Can Do So Much More For You Now...
+链接：https://www.youtube.com/watch?v=yshSzI1rAMs
+
+We just got a wave of new releases from
+well, all the big players. Chat GPT,
+Claude, and Grok bot went down in price
+and all of them have some version of a
+browser or a computer in the clouds. In
+this video, I want to take time to break
+down what that exactly means. What's the
+difference between these different
+providers? Which one should you be
+using? And a bunch of use cases that you
+could be running on these cloud
+computers. That and more in this week's
+News You Can Use, that's what we used to
+call this show where I rounded up
+everything that came out every week in
+AI. But now I just look at the most
+significant stories and I think this is
+a exceptionally interesting and useful
+one, cloud browsers. So first of all,
+what does cloud even mean? You might
+have heard it, but it's basically
+compute that you rent from another
+provider. If that's not helpful, think
+of it as a MacBook that sits in some
+warehouse that you two can now access.
+For anybody who's technical, there's
+ways to do this, right? You can rent a
+VPS, a virtual private server, and for
+it, you know, a few dollars a year, you
+can basically have a permanently running
+computer. But all this is technical,
+there's setup involved, there's
+maintenance. They basically took that
+idea of having this, you know, MacBook
+in some warehouse that runs 24/7 and
+they added it to the Chat GPT
+subscription, to the Grok bot
+subscription, there's a version of it in
+the Claude co-work version. And all of
+that happened at the same time, they're
+kind of reacting to each other. So,
+what's new here? What came out this
+week? Well, first of all, if you check
+out this tweet, Chat GPT work released a
+cloud browser. Okay? So this is
+basically like a laptop in a warehouse
+running Google Chrome where you can let
+it do things while you're on your phone
+and you're out there plucking
+strawberries or whatever you're doing in
+your free time. Nobody actually does
+that. Anyway, maybe I wish I did that.
+Back in topic, so as you're plucking
+your strawberries, you can give it tasks
+and it's going to work remotely, okay?
+This sounds a little confusing because
+you might be like, "Hey
+wasn't this possible before? I asked for
+things in chat and then went out into
+the internet and found things. There's a
+few versions of this, and it is a little
+confusing. So, the first thing that we
+got, like already 3 years ago, was web
+search, where it basically Googles
+things and brings that info back. Okay,
+the basic thing. Then, like a year or
+two ago, we got the next level, which
+was a Chrome extension, where it could
+remote control your browser, your
+computer. So, if you have your own
+MacBook, then you could install an
+extension in your Chrome, where you
+allowed the ChatGPT or the Claude
+application to remote control your
+browser and basically do what you would
+do. So, if you're logged in into an app,
+it could kind of move around the mouse
+and do things there. Then, we realized,
+"Okay, that's really clunky, and these
+sites are built for humans, and it
+doesn't work so well." So, we started
+developing the MCP standard, which
+stands for model context protocol, which
+doesn't mean much for many people, and
+it's basically just a way to connect
+into different services and applications
+without using the website. And that's
+what we were doing over the past few
+years, but it still remains the fact
+that most websites out there, they don't
+have an MCP. Like most services you
+have, your banking applications are not
+going to provide an MCP, so you still
+have to use a browser to get that
+valuable information and the data from
+there to then do other things with it
+with AI. So, that's where the next step
+up from a remote-controlled browser on
+your computer comes in, and that's
+basically this week's Claude Co-work
+update, where now Claude Co-work has a
+built-in browser. I'll be showing you
+some examples and use cases of that
+later in this video, but it's like
+Google Chrome built into Claude Co-work.
+Now, you still have to run your computer
+and the Claude desktop application to
+use that, so it's not really in the
+cloud. But then, the ChatGPT feature
+that released this week is the next step
+up from that, because there,
+legitimately, you could be plucking your
+strawberries and using the browser that,
+you know, is in a computer elsewhere. We
+really tried testing it, VPNs, multiple
+people tried it in our team. They said
+it's rolling out, we really couldn't get
+it to work. But then, there's a further
+step up from that, which is not just a
+cloud browser, but a full cloud
+computer. Like desktop, file system,
+browser, other applications, everything.
+And that's what Grok Bot has, okay?
+That's why I was so enthusiastic when it
+came out. That is a full computer
+available to it. Matter of fact, I took
+everything that I just said here,
+including the two releases this week
+between the ChatGPT cloud browser and
+the Claude co-work desktop browser, and
+I created a little visualization for
+you. I hope that puts things into
+perspective. I use a little skill called
+ELI5. I'm going to tell you more about
+this next week in a video that is about
+my top five favorite skills that I
+currently use. Anyway, subscribe for
+that. That's coming up next week. All of
+them are free, amazing. This one is
+called ELI5. You can Google it if you
+want. Basically, create simple
+visualizations. And here you can see the
+progression. So, Claude in Chrome is the
+first evolution, and then Grok Bot is
+kind of the highest version of this,
+where it's a full computer and you can
+do things. Oh, one more note on
+accessibility. This thing is all over
+the place. We had multiple team members
+test these different features, and it's
+not just geographically limited or only
+available to paid plans. It's just
+inexplicably not available to some
+users. And the rollout should have
+happened by now. So, if you don't see
+this, just be a little patient. Check
+out your settings in Claude desktop app.
+You would go to settings, co-work, and
+then switch your preferred browser mode
+from Claude in Chrome to this new
+option. In ChatGPT, it's on by default.
+And in Grok Bot, it's also on by
+default. It's the way these Grok Bots
+operate. But here today, we're mainly
+going to talk about its built-in browser
+that is inside of co-work. But honestly,
+these use cases, they apply to that
+whole ladder of cloud browser use
+computing that I talked about in the
+intro to this video. All right. Let's
+look at some stuff you could be doing
+here, shall we? This is always fun. So,
+starting with probably my favorite test.
+You could use it to audit your other
+subscriptions. So, basically, if you
+take a prompt like this right here and
+you put it in, then it can go out in its
+own browser, and as you give it access
+to these different subscriptions, it can
+basically look at all of your usage and
+spend and audit if it's worth it to use
+this subscription for you. So, for
+example, this is what it looks like in
+ChatGPT. Here it is auditing ElevenLabs.
+Here it's auditing my Midjourney
+account. And the interesting thing is
+because this is now built in, you could
+also schedule this to run regularly.
+Maybe once a week you could monitor your
+usage. Now, this prompt that I shared
+with you is focused on monitoring the
+spend, but you could also monitor all
+the chats that you have and create sort
+of a report on what you've been doing
+inside of ChatGPT. Now, here's another
+one. You could take any analytics site
+that you have, and honestly, AI is
+amazing at data analytics, you probably
+know that. But, getting the data is a
+different story. It usually takes
+multiple steps. You have to kind of go
+to these websites, download CSV files,
+bring it into chat, come up with the
+right prompts. Well, what if it just did
+all of that in one process because it
+has a browser, and it doesn't need to
+use yours, and there's no like security
+issues with it. Look, this is it going
+into my YouTube studio looking at
+analytics for some previous videos, and
+voila, once we were through with this,
+it created an artifact from the data. I
+did do nothing. It literally kind of
+just navigated through, and now it also
+has the login to the YouTube studio. So,
+whatever I want to do in there
+regularly, maybe I want some peculiar
+report or a new finding presented to me
+once a day, well, I won't have to go
+through the whole process of bringing
+that in, or deal with stuff like Google
+Cloud and setting up the API, making
+sure everything is connected and
+authenticated. Like, I don't even know
+if that works with some of these deeper
+YouTube analytics because I always look
+at them from my browser, right? And now
+AI can really easily do that, too, and
+you can automate some of these reporting
+workflows where, you know, you just
+didn't have the energy to do it
+yourself. You could do this and maybe
+set that on a scheduled task. So, once a
+week you get a report on some of those
+numbers that are hidden in there behind
+a few clicks. And if you're not sure
+what to look into, ask AI. Just
+literally ask it, "Hey, what kind of
+reports could you create from this data
+ranked by usefulness to me?" And if you
+have enough context on yourself and your
+work in there, it should do a great job
+at ranking those and showing you exactly
+what to do. Okay, here's another fun
+opportunity. If you're a member of
+different communities or forums, you
+could now navigate those and consume
+the, you know, infinite amount of
+information that is available across the
+internet. And some of the best
+information is usually in these
+communities, whether it's gated
+communities or forums with real-world
+discussions or Reddit boards. The info
+is out there. So, for example, here I
+would let it go to the AI Advantage
+community, which, you know, over 60,000
+people in there learning about AI.
+There's multiple courses available by
+me. If you want to check it out, go
+ahead. Link is in the description. $1
+trial, well worth it. Anyway, I could go
+in there or have Claude go in there if
+I'm a member and see what other people
+are doing. And, for example, if you have
+good context, you could say, "Hey, this
+is what I'm doing with my business. I
+wonder if there's resources or other
+people in this community that work on
+the same thing or that are working on
+projects or having wins that I could
+copy into my own life." And it could
+just happen automatically on a schedule,
+again. Kind of amazing. Okay, I have two
+more for you, and this kind of gets into
+some of the limitations here. So, we
+tried this with different apps. Usually
+some social media platforms block you
+from, you know, going in there, but this
+actually worked. We went on X and it
+looked through the whole list of
+accounts and created a report for me.
+Now, usually you would need to use some
+external scraping service to access this
+information, but yeah, through the
+browser you can kind of just do it and
+get around some of those limitations,
+and you don't have to pay for an extra
+subscription for some scraper. It kind
+of just works. Not much else to note
+here. Okay, one more prompt and example,
+and I think this is a really good one.
+It's when you have a product that you
+want to check out alternatives to or
+maybe best sizes. In this case, we did a
+test with a shoe. Look, it's an image of
+a shoe and then with this prompt it goes
+out there, it researches alternatives.
+It took about 20 minutes, but with the
+browser it found way more because it's
+not just a Google search where it pulls
+up some links and then serves you up the
+info. It actually goes into the sites
+and clicks around and finds things,
+right? And these are just some examples
+of the things you can do. I thought it
+was interesting to see OpenAI's Chat GPT
+account, which if you're not following
+this on Twitter, by the way, this is
+where all these releases come out now,
+not on the official OpenAI account
+anymore, by the way. And their release
+tweet was, well, announcing this new
+feature, the Cloud Browser, with a list
+of use cases. So, if you want more
+things to try, there you go. But, I
+think the big lesson here is just that
+more and more of these workflows is
+automatable. You know, a year ago you
+had to manually export a lot of the data
+and bring it to chat and do things. Now,
+these agents are going out there and
+getting their context themselves. All
+right, a few more notes about this week.
+We got one more update from Claude where
+they unified memories across Claude
+co-work and normal Claude, the chat
+interface. What a no-brainer feature. It
+was so confusing before. Also, I noticed
+an interface change. If you go to
+claude.ai, they didn't announce this,
+but you can see that projects now are
+extra button and also this auto
+execution mode is an extra button. All
+of it was clumped into here and me, as
+somebody who uses projects all the time,
+this was such a mess. Honestly, there
+was co-work projects and memories that
+only live in certain projects and all of
+that. Now, they just unified it. You
+have account level memories, which is
+context that is tied to your account,
+and also they changed the way these
+look. Now, you have these different
+categories and you could go through and,
+I don't know, look at your hobbies, for
+example, kite surfing, scuba diving,
+paddle, use North Orbit kites trip to
+Tarifa for kite surfing, Python
+programming.
+Yeah, like Claude knows me. But,
+honestly, these memories just scratch
+the surface. Some of the deepest
+knowledge is inside of markdown files
+that I manually upload into projects or
+give to my agents. Oh, and by the way,
+Open Claw is still my main daily driver
+on the company side, but I also use Claw
+and Chat GPT all the time just inside of
+projects. If you're curious how to set a
+project like that up yourself, that too
+is a course inside of the AI Advantage
+Club. Join for a dollar, and then check
+out the Build Your AI Clone Navigator
+course. And that's it. That's this
+week's update that I thought was really
+relevant. It's going to be interesting
+to see how we can chain these browsers
+together with other steps and other
+capabilities in the future. But right
+now, I recommend you go check out some
+of these use cases, get a feeling for
+the difference between a Claw remote
+controlling your computer, or having a
+cloud computer with Chat GPT. And that's
+it. My name is Igor, and I hope you have
+a wonderful day.
+>> I knew
+you can use
+breaking down the stories you actually
+care about.
+I knew
+you
+can use
+Igor's here to help you figure it out.

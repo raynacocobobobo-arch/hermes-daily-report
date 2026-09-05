@@ -1,0 +1,34 @@
+UP主：OpenAI
+标题：How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens
+链接：https://www.youtube.com/watch?v=Cxp2aZQqkYM
+
+We saw two major step forwards uh with
+GPT 5.6 compared to 5.5. In our testing,
+it consistently delivered better
+outcomes that previous GPT 5.5 while
+using 20% fewer tokens.
+>> [music]
+>> Base44 is an AI-powered app-building
+platform that lets anyone create fully
+functioning, production-ready
+application using natural language
+without coding required. Our user used
+GPT 5.6 Soul and Terra to go from idea
+to fully functioning app or custom
+powerful AI agents. When uh GPT 5.6
+designed interface for complex
+application, it just nails the
+aesthetics and the user experience
+together from the first time. We
+stress-tested GPT 5.6 before putting it
+in production across a really wide range
+of scenarios. It performed remarkably
+better than GPT 5.5 while completing the
+task faster and using fewer tokens. Our
+builders spend less time correcting and
+re-explaining and more time just shaping
+the product [music] that they need,
+shortening the time to get from an idea
+to an actual product that they can put
+in front of their customers.
+>> [music]

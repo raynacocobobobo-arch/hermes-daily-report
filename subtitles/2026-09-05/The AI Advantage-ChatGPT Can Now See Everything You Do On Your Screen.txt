@@ -1,0 +1,438 @@
+UP主：The AI Advantage
+标题：ChatGPT Can Now See Everything You Do On Your Screen
+链接：https://www.youtube.com/watch?v=rzLYEIheLPs
+
+OpenAI shipped what you could call the
+most controversial feature that you
+could give any AI. ChatGPT can now be
+Big Brother and look over your shoulder
+as you work throughout your day so it
+remembers everything. And up until now,
+AI only remembered what you would tell
+it. Now, it knows what you actually did.
+And that, on the one hand, is extremely
+powerful and I want to talk about that
+and give this a spin. On the other hand,
+also really scary. We'll talk about
+that, too. So, let's start with the
+facts, okay? This is a brand new feature
+available in the ChatGPT desktop app and
+this is probably the most limited
+rollout that you could imagine. It's
+only available in the desktop app on
+Mac. Then, you need a pro, business, or
+enterprise plan, okay? So, for
+individuals, at least $100 a month to
+access this. And then, it's also
+unavailable in Europe, Switzerland, UK.
+So, I'm on a Mac desktop computer here.
+I'm on a pro plan and I VPN'd into the
+US to access this. And then, if you go
+into the settings here inside of the
+ChatGPT desktop app right here. If I
+click the settings right here, you will
+see a new tab called computer history in
+the integrations category. Let ChatGPT
+follow your work. ChatGPT can summarize
+your activity across the apps and
+websites you use without ever recording
+your screen or audio. Ask about what you
+were working on, get help without
+explaining everything again. And this is
+the best part, actually. Or, discover
+opportunities to automate repeated
+tasks.
+Ladies and gents, this is the missing
+ingredient in AI today. It has become so
+capable and so many users have become
+extremely good at, you know, piecing
+different systems together and tinkering
+with it full-time and automating a part
+of their life and their work, but it has
+been extremely technical. And me, as a
+teacher of these things, there's just
+certain concepts that you can't even
+communicate without getting into
+terminals and vector databases and
+multiple memory systems working
+together. I'll elaborate on that a
+little bit, but first let me show you
+one example from the blog post, which I
+think will communicate the power of this
+really well, and it's this one. Reuse
+workflows, okay? So without computer
+history enabled, you would say something
+like, "I just finished my video upload
+workflow. Make a skill for next time."
+And it would tell you, "Okay, please
+share the steps and the decisions along
+the way, and I can turn them into
+something reusable." With this computer
+history feature, "Created a video upload
+skill from the steps in your recent
+activity. You can review it before using
+it again."
+And not just that, because it records
+everything on your computer, you can
+then also ask which tasks that I did
+could you automate the next time. Like,
+so powerful, but also so scary because
+all of a sudden ChatGPT app is watching
+everything you do. So if you were scared
+before of, you know, OpenAI taking your
+data and your ideas, well, this is the
+ultimate version of that. It literally
+sees everything, and as per usual, I'll
+be your scapegoat here, where, you know,
+I'll go ahead and I'll turn this on, and
+let's see what this allows us to do.
+Okay, "You're in control. Sure. I can
+pause, clear my history, and manage
+which apps are included at any time.
+Consider pausing or excluding sensitive
+apps such as health or finance from your
+history. You also agree that you'll
+pause computer history during
+communications with others, such as
+video conferences or text messaging
+apps, unless you have their prior
+express consent." I mean, they just put
+this here for legal reasons, but
+basically this would be spying on every
+conversations that you have with
+everyone, including text messages,
+social media that you use on your
+desktop computer, and all Zoom calls.
+Let's start with customize apps. Exclude
+these apps. Okay, I'll exclude messages,
+and I'll also exclude my OpenClaw agents
+web hub. I mean, it's kind of tricky,
+this default of exclude these, because
+then you have to think of every single
+thing that you want to exclude. I'm
+going to go to include only these apps,
+the finder, text edit, and then I guess
+Chrome is going to be essential. And
+then yeah, let's continue with this. So,
+Google Chrome, text edit, and finder.
+And there it is. That's the base setup.
+So, no computer history yet. So, how
+about this? Let's put this on one side
+here and open a new Chrome window right
+here. And let's just do some work. All
+right, so just opening up Google Docs.
+And what do we see here? Skysite session
+start. You have no captured active work
+on this 10-minute window. Segment only
+recorded session start even. Okay, so
+it's recording now. Let's just do
+something simple. Let's say I am writing
+up a document on community onboarding
+redesign. That's something that we're
+doing in the Advantage Club right now.
+It's been a huge project. We use a bunch
+of AI in the process and it's fresh on
+my mind. So, I'll do this. Community
+onboarding redesign. All right, that's a
+good little list. And then let's say we
+use AI in this process. How about that?
+I'm literally going to open up a new
+ChatGPT chat, copy this over, and I'm
+going to say, "Okay, turn this into a
+one-page project plan to share with the
+team." Oops, and I haven't shared the
+context. So, here it is. And now let me
+replace the text with all of this. Hmm,
+almost a page. All right, that's pretty
+good. And now let's say we save this
+document locally, right? Cuz we have the
+finder. We go download PDF, have it
+here. And what I'll do is I'll just
+create a new folder on the desktop, say
+project plan 8 14 26. Open the downloads
+folder and move this in there. Also
+rename this.
+So, mind you, I'm not recording
+anything, right? I'm just doing and
+ChatGPT is listening. I guess it's not
+listening. I guess it's watching. And
+now maybe we could open Gmail. And then
+I'll send this to the email I wish I
+had, igor@gmail.com. Here is the plan.
+The plan for you, brother, with our
+clean email. Attach the project plan and
+send this. And now let's give this a
+shot. Let's just send a new chat ask,
+"What have I done today?" And there it
+is. An overview of what I did. Community
+onboarding redesign, PDF learning plans
+turned into one-pager, started working
+on a website. These were some earlier
+chats. Huh. Okay, so let's retry what we
+saw in the blog post that I thought was
+so impressive. I just finished my video
+upload workflow, make a skill for next
+time. Okay. I just finished the
+onboarding design work. Create a skill
+for next time. Whoa. And it adds all of
+this context. Look, this is a literal
+magic because it just has the recording
+of what I did and it adds it. Now, I'm
+concerned. This is too powerful. This is
+too much of a leap. How will they be
+able to like realize how strong this is?
+I mean, yes, there's all these privacy
+concerns. Yes, I already see the comment
+section of people saying like, "Hell no,
+I'm not doing that." Fair enough. I
+understand. But also, just understand
+the power of this. Like, AI's
+capabilities are all about the context
+you give it, okay? And I'm not saying
+that just with prompts. Look at all
+these harnesses around the most capable
+agents. Like, basically, they prompt
+themselves multiple times, right? That's
+what thinking is, in order to get better
+context to make the right decision. One,
+they use skills, which are just packaged
+prompts, so more context on the process
+and on what you're doing. They use
+connectors to bring context from other
+places to themselves. And then they use
+memories, which is basically just
+getting context from the past, from a
+vector database or whatever memory
+system you might be using. It's all
+about getting more context. And this is
+like the ultimate version on context
+from your life, because you're literally
+doing these things. If it captures your
+screen, if it sees you typing, if it
+sees what apps you're going to, it
+doesn't just have context on what you're
+doing. It also has the sequence of
+events. And that, dear ladies and
+gentlemen, that I really want to
+highlight as the big kind of outstanding
+feature of this, you don't even have
+that in all these agentic apps like RMS,
+Open Claw, all of these frontier memory
+layers, like they don't actually have
+access to your working machine and see
+it sequentially across time how your
+work has been evolving. Look at that. It
+created a skill called rough project
+plan and turns rough notes into to-do's.
+Okay, let's try and say "Extend the
+skill with the steps I took after two."
+Let's see if it can conjure that up. But
+this is crazy. It's a crazy level of
+access to your data and your life. And
+it's also a crazy ability because this,
+honestly, is the big missing piece in
+making agentic AI easy for people. Like
+a combination between this and Grok Bot
+that came out earlier this week. By the
+way, I created a great video on that. I
+really thought that more people should
+watch that. It's SpaceX AI's product
+that looks just like a messaging
+application, but you have multiple AI
+employees in there and they can just
+talk to each other and do things. It's
+so simple. You can't even pick a model
+or set custom instructions. It's just
+simple. And a combination of that
+interface that people just get cuz it's
+like a messaging application and
+something that records how you work
+day-to-day. Well, boof. That's the
+magical pairing because you do your work
+and then there is some middle layer that
+figures out which parts of your work you
+could be handing off to agents. And then
+you just talk to the agents like you
+would to a coworker in a Slack channel
+or a Messages chat or in WhatsApp,
+whatever you use. Those are the two
+user-friendly pieces. And honestly, like
+these agents that were really hard to
+set up and to maintain like Open Claw
+and RMS, they got one piece right, which
+is like the interaction layer and the
+memories. But the big question for
+everybody always was, "What do I even do
+with this?" And the answer is like,
+"Yeah, if you gave it access to your
+main workstation and it watched you for
+a week, it could figure those things out
+on its own." That was never a point of
+discussion cuz it's like those systems
+are completely open and crazy and that
+makes me want to talk about security for
+a second with this because what look at
+that fair enough it didn't even see that
+I went into Gmail so you know maybe room
+for improvement maybe I missed something
+but let me tell you about security with
+these things so with open cloud the way
+I've been approaching it is you know
+separate Mac Mini and it just doesn't
+have a single one of my real accounts it
+has its own email account it has its own
+Google workspace account it has its own
+notion account it has its own API keys
+it's completely sandboxed it doesn't
+touch any of my day-to-day workflows
+that's why I feel pretty good about
+experimenting with it this is the polar
+opposite so I guess the key to you know
+keeping this even like remotely secure
+is really scoping this in terms of what
+apps it can access so you know already
+giving it access to Google Chrome is
+wild cuz Google Chrome is like I don't
+know half my life in it and if you
+haven't asked yourself this question yet
+it's probably really time to draw a line
+in the sand and say okay like what
+information am I okay with sharing with
+these the companies and what am I not
+willing to share but as you can tell I'm
+pretty excited about this I think this
+feature is absolutely massive I want to
+try one more thing before I let you go
+here and that is which one of the tasks
+I did today could I automate turning on
+burning dogs into project plan highly
+automatable QA for PDF learning plan
+delivery highly automatable it's even
+looking into the to-do list that it saw
+within the document oh my god are you
+seeing this like it's literally
+considering the bullets that I kind of
+put in here in the beginning because it
+saw that there is some work that I have
+on my desk right now checked what
+documents you worked on highly
+automatable put on focus music to lock
+in here that's also highly automatable
+yeah QA for recommendation engine
+partial okay and building refining
+courses is low in automation fair enough
+so are you getting this this is not just
+the things you do this is also the
+things within the documents that you're
+working on so if you just like reading
+emails it's going to consider everything
+in every email if you just scroll over a
+document, it's going to get all pages,
+pull that into the context, and if you
+ask something like, "Hey, what can I
+automate?" It's really going to tell
+you. So, this is probably the best, you
+know, automation audit tool on the
+market right now. Like, insanely useful.
+I mean, this is going to spawn a huge
+discussion on the internet around, you
+know, safety boundaries. And just as a
+reminder, the last time somebody tried
+to track everything you do on your
+computer with Microsoft Recall, they got
+like the biggest backlash ever. They
+were like, "Are you crazy, Microsoft?
+I'm not going to give you all of my
+information on what I'm doing." And
+they're like, "All right, all right."
+I guess if Open AI is doing it, it's
+cool. I don't know. We shall see. This
+is a bold feature that they're only
+releasing because the competition is
+heating up and they want to
+differentiate themselves. I mean, this
+has to be a reaction to the Grok bot
+thing from Elon, cuz honestly, Grok bot
+is like two to three features away from
+being just a better consumer experience
+than ChatGPT and Codex combined. It's
+just simpler. It's just intuitive. Talk
+to your agents. Again, check out that
+video. I'm a real believer in that
+interface, okay? But this is a whole
+different beast. And that's today's
+video. That's what I wanted to show you.
+As per usual in these Friday videos, I
+also highlight some stories that were on
+my radar. I just want to do that quickly
+because Open AI showed off a new version
+of GPT 5.6 Soul, which they call ultra
+fast, which is up to 14 times faster.
+So, you know, could be reading all of
+your context and at 14 times speed, you
+could be getting things done. Okay, it's
+going to be impressive. They're
+releasing that through the API for
+mainly coding, customer support, and
+things like that. Oh, and then I should
+also note that this application ChatGPT
+desktop is now available across Linux,
+Windows, and Mac. So, they added Linux
+support, which is nice cuz people can
+run this on their virtual machines
+really easily. But this feature right
+here that I showed you, again, the
+computer history is Mac only. I'm just
+going to turn it off for now. I need to
+sleep over this and make up my mind if I
+want to be using this and how I want to
+use this. But yeah, I think those are
+the big releases. This is a milestone. I
+can't understate that. And finally, I'm
+going to say you have to realize that
+the timing of Microsoft's release with
+recall was way before we could do a lot
+of these agentic things. I mean, this is
+the year of agents. In human history, we
+will look back and say, "Hey, 2026,
+that's when the new Opus models came out
+and that's really what made projects
+like Openclaw and then Hermes and Claude
+code and Codex and co-work and now
+ChatGPT work really function. It's the
+increase in intelligence in the models
+that made this work. We had projects
+like this before, but these new models,
+they make it work. But up until now,
+most people weren't able to gather the
+context to have it be useful for them.
+With things like computer history to
+gather the context and things like
+Grokbot to then manage the agents while
+they're working on things, that changes.
+My prediction is going to be that before
+the end of the year, you're going to see
+all of these big AI companies compete
+for these two features. One, computer
+history and agentic interface that is
+just multiple chats like you have in
+messages because that's what we know,
+that's what we love, that's what we're
+used already on a day-to-day basis. And
+then computer history is going to be the
+thing that's going to solve the what are
+the use cases that are relevant to me
+issue that most people face. All right,
+that being said, my name is Igor Pogany
+and I hope you have a wonderful weekend.
+Stay safe.
+>> AI news
+you can use.
+>> [music]
+>> Breaking down the stories you actually
+care about.
+>> [music]
+>> AI news
+you can use.
+Igor's here to [music] help you
+figure it out.

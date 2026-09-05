@@ -1,0 +1,935 @@
+UP主：The AI Advantage
+标题：GPT-6 Astra: 20 Real Examples From Useful to Almost Impossible
+链接：https://www.youtube.com/watch?v=_AyXuJKm8iw
+
+As you might have heard, GPT6 Astra is
+here and it's not just, you know, better
+at doing typical tasks. It does a whole
+new category of things. And a lot of
+people had early access to this thing.
+So, they've already pushed this beyond
+the limits of what was possible with AI
+up until now. So, in this video, I want
+to show you my favorite 20 things that I
+found across hundreds of examples that
+the internet has produced of use cases
+and things that this model can do that
+just weren't possible before. Not at
+this level. And one important nuance to
+me is we're not going to just look at
+impressive, you know, rebuilds of cities
+or monuments in 3D. But half of these
+are genuinely useful and hopefully you
+can take some of them and implement them
+into your life, into your workflow. And
+then the other 10 are honestly hard to
+believe. But before we dive into that,
+this is not the focus of the video
+recapping the model release. I do want
+to do it in like 30 seconds though
+because this blog post is genuinely
+impressive. You know, first up,
+benchmarks. It just beat everything
+before Astra on most of them.
+Particularly the computer use meaning
+remote controlling a computer is super
+impressive. I always like looking at
+these professional benchmarks too where
+they actually do real world tasks
+crushing it. And then also very
+interestingly the long context
+capabilities have been praised by many
+people and also on the benchmarks it
+outperforms everything before meaning if
+you give it a ton of information it will
+actually remember it versus previous
+models claiming to have that capability
+but really it would get amnesia
+somewhere around a few hundred thousand
+tokens. Okay. So, those are benchmarks.
+And then this blog post has a ton of
+different graphs showing off how amazing
+Astra is, how better it is than all the
+competition. And yeah, it's, you know,
+it's it's real data. It's maps. But what
+I find even more interesting is, hey,
+how can I apply this to my world? That's
+what this video is about. That's what a
+lot of this blog post is about, too. I
+mean, you see these different games
+embedded in the blog post where you can
+play little games that, well, oops,
+there we go. Honestly, they look great.
+But beyond that, you'll quickly notice a
+lot of these demos are in 3D software.
+And that's going to be a big theme
+throughout the video. It's just insane
+at 3D modeling and creating 3D worlds in
+Unreal Engine and anything that has to
+do with 3D. So, let's explore some of
+these examples and I might sprinkle in
+some details from the blog post that you
+can kind of check out by yourself. By
+the way, this launch video, amazing.
+That's a great watch if you haven't done
+that yet. It's at the top of the blog
+post. But now let's begin with some of
+the most impressive examples and use
+cases that people have come up with all
+across the internet. Starting with this
+one. So it's an entire world with 600 AI
+people in it. Okay. And this was created
+by Matt Schumer on X and basically had
+early access and he built a entire well
+planet um islands
+village I guess and he put 600 people in
+it and he gave them autonomy to like
+walk around and the goal was for all of
+these humans to survive and they had you
+know access to AI to communicate to
+generate language and the way he puts it
+he story tells really well around it is
+that you know he came back into his room
+and all of a sudden he hear noises and
+these humans they were communicating
+with voices and making plans. I can
+bring Hoy some food if he needs it.
+>> Thanks, Bruce. I've got some food. I'll
+ask him when I get there.
+>> Honestly, that's one crazy to hear, but
+two, if you know anything about game
+development, if you set up a world like
+this and you put characters in there and
+they have the ability to use LLMs to
+generate text and then use other AI to
+turn the text into voices. That piece is
+not even that crazy. The crazy piece is
+that this was created by Astra. all the
+3D models of the people, this map, all
+the logic that holds it together. That's
+a team of developers working on
+something like this. You might have seen
+AI games before, and it's usually like a
+space shooter, like a little rocket
+going somewhere or really simple 2D
+games, but all of a sudden, it's making
+legitimate 3D worlds. And as you'll see
+with some of these other impressive
+examples, it's crazy that it put
+together all of this and then you can
+let that world run. So, let's look at a
+few more examples and then try and draw
+some conclusions on where this might be
+heading cuz this is really unique and
+interesting and cool. And here we have a
+second example where it rebuilt the
+Palace of Fine Arts in Blender, which is
+a 3D software if you're not familiar.
+This is a building in San Francisco, I
+believe. Yes, exactly right. Wasn't that
+in the park in front of the Golden Gate
+Bridge? Oh, yeah. Exactly right. It's
+here. And if you kind of check it out
+from the pictures, this is what it looks
+like. Gorgeous. Now, here's the AI
+generated. It's not an AI generated
+video. This is a 3D model. This has been
+fully created by Astra in a 3D modeling
+software, Blender. Okay. And look at
+that level of detail. Honestly, these
+images up here, this is fantastic. What
+about the hands though? Let's get
+nitpicky here. One, two, three, four,
+five fingers. Okay, pretty good. Pretty
+good. It's just a new category of
+capability. And very quickly as you look
+at these examples, it becomes obvious
+that they must have trained it on so
+many 3D models and so many workflows and
+people creating these 3D models that it
+can now replicate that. This is a great
+example just because it's so detailed.
+And if you're like, "Okay, Mingor,
+that's, you know, a building. Not bad,
+but like the world is a bit more complex
+than that." How about this next one? How
+about a three-dimensional city? This
+thing is essentially like Sim City.
+Check this out. It's called New Haven.
+You can try this yourself. I'll put all
+of these links in the description below,
+by the way, if you want to try them out
+yourself. But right here, this is New
+Haven, and you have so much
+functionality. Check this out. I'm kind
+of just going through these different
+areas. Now I can design uh well this
+looks let's do a office block. How about
+here? I'm going to designate this as
+office buildings and then I could go to
+the towers. Can I place a tower here? I
+bit need a bit more real estate. Huh?
+How about out here? Let's build a tower
+here. Oh, construction is beginning. I
+want one more tower next to it. Can you
+believe that all of this has been made
+by AI? Look at all these functionalities
+here on the left. Your city at a glance.
+Healthcare is doing good. But you can
+check this out as it moves along. Things
+happen here. There's a urgent police
+call that I can check out and deal with.
+There's a reported crime in this
+building. Oh my god, what's happening? I
+think you see the point. You can play
+around with this. There's a ton here.
+It's just this complexity that is
+impressive. And also, this looks really
+good. Like, nothing here is really
+wonky. Wouldn't you agree? Like, what
+about these windmills? They're great.
+These buildings look solid.
+Unbelievable, really. Okay, this one I
+particularly like to see because it's
+just so measurable. This is the kind of
+benchmark that I want to see. It crushed
+the Pokemon completion record. Okay, so
+if you were following this over the past
+years, you'll realize that even a year
+ago, no model could really complete
+Pokémon without any heavy external help.
+And then with the recent GPT models, GPT
+5.5 and then GPT 5.6 Saul, first it took
+200 hours. Then with 5.6 Sol, it took 96
+hours to complete Pokémon. It finally
+could do the whole game by itself.
+Models like GPT4 just couldn't do it.
+Astra on the highest settings, 18 hours.
+The entire game. I wonder how long does
+it take a human to complete Pokemon Fire
+Red 25. I knew it as a kid. This always
+took so long. I was always a do almost
+everything type. So it took 60 to 100
+hours. But even if you just go the main
+story and you beat the lead four in the
+end, 25 to 35 hours. So this is the
+first time AI has become even in the
+lower settings faster than a human
+completion. By the way, there's a Twitch
+channel where you can see it play
+Pokémon live. This is just GPD6 Astra
+playing Pokemon. So, if you're trying to
+do a faster playthrough, you can now
+look at how Astra would play it. It's
+pretty far along. It has most of the
+badges here. 120 people watching this
+live. All right, this next one is a
+really fun one from Petro Shirano. And
+this is where we start entering the
+territory of, hey, you might actually do
+this and use it for something practical.
+In just one sentence, hey Astra, make me
+a Mac app. It should render a freebie
+iPod that you'll build in Blender. Then,
+using the original iPod UI and
+interaction, I want to be able to
+visualize all my codec threads on it. So
+he's using it for different, you know,
+agent threads in codecs. But you could
+put anything on here. You could create a
+portfolio application on your site where
+you just put this into your site and
+yeah, all of a sudden you can use a 3D
+model of a iPod or any other object for
+that matter as a part of your website or
+you could use it as a presentation. The
+use cases for these things, they're
+still a bit blurry. Like it's not clear
+what the killer use case for all of this
+3D stuff is for consumers, right? If you
+want a game, you're still going to have
+a game studio build that. now with the
+help of this probably but for common
+people like we don't need and use 3D
+modeling all that often right in their
+demo video they showed off this example
+where you know he created a rocket that
+was really detailed and then he put it
+into a game and then he 3D printed that
+rocket again check out that video it's
+fantastic but people usually don't need
+3D printed rockets and that's not me
+saying that this is useless I'm just
+saying we have yet to figure out where
+this fits into our lives smoothly and
+the capabilities just haven't been at a
+point where people could freely
+experiment and try a lot of things just
+cuz the limitations were super limited.
+Every city, every object that you built
+was wonky and incomplete. And now, for
+the first time, we're seeing something
+that is complete. And I think people
+will quickly start figuring out what can
+be done with this new tech that hasn't
+been done before, even for consumers.
+Okay, next up, it took a Van Go painting
+and it turned it into a 3D world. So,
+you can do that, too. Look at the
+sunflowers here. Again, all of these
+links will be below. You can kind of try
+this out yourself. You can move through
+the Van Go painting and Van Go's world.
+It's kind of interesting. Again,
+remember we're in the first part of the
+video where we're looking at these
+interesting things. The useful ones are
+coming up soon and there's quite a few.
+All right, onto the next. And this one
+goes into the realm of video production
+where one prompt created a educational
+video. Now, we already saw that Fable 5
+and 5.1 that came out this week are
+super impressive at video production and
+motion graphics and all of these things.
+Now, from my first look at this, this
+looks to be next level. It's just clean.
+Look at this video. This is a 6-minute
+video, and I'm hardressed to find
+something that is obviously wrong with
+this. And look, this is not some
+pre-made presentation that is super good
+in advance. It's just a prompt that
+says, "Create a 5-minute educational
+video about T- cells." So, yeah, that's
+something quite concrete and useful.
+Whereas before, you know, these videos
+existed, you could create them with
+tools like Notebook LM. But often times
+they just had these artifacts in them
+that made them like, "Oh, that's
+obviously wrong and not supposed to be
+there." This looks increasingly clean
+and that threshold is an important one.
+As soon as these things that it creates
+don't obviously stink like AI slop,
+that's where people start using them and
+I think we just crossed that threshold
+for a lot of these use cases that I'm
+showing you here. Okay, three more
+interesting ones and actually this one
+enters into the useful territory
+already. These are video editors that
+gave it Final Cut Pro with a limited
+task. Importing certain files, doing the
+color grading, meaning adjusting the
+colors in the scene so it looks
+presentable, and then syncing up the
+various clips so the screen recording
+aligns with the video. Something that is
+a standard workflow with any video that
+we make here on this channel or any
+educational video. Okay. And this was
+actually quite a good watch. They go
+ahead and comment live over this thing
+as it brings in the files. It even
+created a separate folder for everything
+that makes it easier to share and
+they're like, "Oh my god, I wouldn't
+have thought of that. This thing is
+smarter than us." It was kind of fun.
+And then as it creates a sequence and
+syncs the things up correctly, it
+attempts the color grading. It does an
+okay job, I would say. And then it goes
+one step further. It actually finds the
+multiple audio tracks and it picks out
+the one audio track that is the best and
+deletes the rest. So, it went beyond
+what they asked for, but did a kind of
+obviously useful task for them. Now,
+this is not a full, you know, test suite
+for video editing. They didn't really
+edit anything together. They didn't have
+to make any hard decisions. It just
+followed a process that they have to do
+every time. So, I don't know how this is
+going to exactly evolve. I don't know if
+this model is good enough yet. We're
+going to see over the coming days and
+weeks to actually make the decisions of
+what should be taken out, what should be
+put in. I can tell you that no model
+this far has been useful at tasks like
+this whatsoever. It's just too
+unreliable. This looked really solid.
+Okay, here's a fun one. Ethan Mollik
+took a open- source repository from this
+guy called token gremlin where he
+created a fully procedural ocean and
+weather generator but it was only above
+water. Okay, so you could simulate
+different tides and different weather
+conditions. And procedural means that
+everything was generated by the computer
+not laid out by humans. And also as the
+computer lays it out, if it procedurally
+generates something, it's going to be a
+different result, a different
+composition of assets and everything
+every time you run it. And then this
+thing is open source. It's just out
+there. You can get the source files here
+on his GitHub. And he simply told it,
+hey, okay, this is a great simulation of
+everything above the water. GPT6 Astra,
+can you go ahead and create everything
+that is under the sea? And he was like,
+yeah, sure, no problem. And it just did
+that. And yeah, all of a sudden now,
+yeah, there's an underwater world that
+was just created by prompting it with a
+sentence. I mean, again, I'm not exactly
+sure where this comes into play in
+everyday life, but it's just crazy. Can
+we appreciate that for a second? Now,
+let's look at the last impressive one.
+And again, this is a oneshot example of
+something that a lot of us kind of have
+in their mind when it comes to AI. It's
+this idea of this minority report like
+interface when we interact with things.
+If you're not familiar, it's basically
+Tom Cruz sitting there and like remote
+controlling the computer with his hands
+and you know things happening. Well,
+this wonderful lady here, Claire, just
+went ahead and asked it in one sentence.
+Again, it's just Astra figuring it out.
+She just gave it one thing. No
+revisions, no corrections, just hey, can
+you build me a minority report like
+interface?
+>> I enable Mac control. If I point it now
+moves around my mouse, um, I can maybe
+go down here and pinch and actually open
+up.
+>> And in one sentence, she created a new
+interface for the computer where you
+can, you know, point your finger and if
+you do this, it clicks. Interesting,
+right? All right. So, let me tell you,
+the internet has hundreds of these
+examples. These were some of my
+favorites. But let's now look at 10 that
+maybe are a bit more practical and maybe
+you might gain inspiration for something
+you might want to do. But I really want
+to start out with this story where
+OpenAI shared how GPD6 Astra helped them
+run the launch campaign for GPT6 Astra.
+Look at all of these tasks that it did.
+This by itself could be a list of
+various things that you could do.
+building and maintaining Google Sheets,
+creating and updating communications
+plan as the team was moving forward,
+drafting pitches and managing embargos,
+tracking replies, press briefings,
+branded PDF creation for blogs, and then
+checking if the final results were
+actually aligned with what they put out,
+collecting all the assets across the
+teams and building press kits, tracking
+the coverage of the model across the
+internet in real time. This is what I
+built for myself, too. That's what I
+created this video from. created a site
+to analyze all the coverage and the
+social reactions and then writing a
+report summarizing all of that and then
+she could focus on you know the higher
+touch things not maintaining Google
+sheets or creating PDFs but
+communication between the team and the
+overall narrative and the strategy
+actually hosting the calls getting a
+full night of sleep monitoring the
+situation and making decisions that
+might need to be made with all of this
+information I think this is a really
+well-crafted kind of list of what AI
+should be doing and what humans should
+be doing and hey if you see any of this
+and you're like, "Oh my god, some of
+these use cases, they go directly into
+the areas that I get paid for in this
+world." Well, then it might be a good
+thing to think about how these tools
+could enhance what you do, so you can
+focus more on strategy and
+communication. I know that's not
+reasonable for everybody and every job,
+but that's probably the direction that
+this is moving us into. And this first
+example shows that really well. All
+right, so our journey into practical
+GPT6 Astra use cases continues. And I
+want to just tell you before we move
+into these examples that some of these
+are oddly specific. They're not going to
+be these general purpose category where
+everybody's going to be able to
+replicate this. But that's the point.
+Your work is probably specific to you.
+That's why you're doing it. And these
+are just examples. So, you know, when
+you see them, try to remove yourself one
+level from that work and see if you
+could apply that same idea to maybe what
+you're doing. And for some of them, it's
+just not going to be the case. But with
+that being said, let's look at this next
+one which is a scientist's app. So yeah,
+if you're not a scientist, this might
+not resonate so much, but here Daria
+reports on X that it built a
+sophisticated application that measures
+flow cytometry data. Honestly, I don't
+know anything about that. I guess he
+explains that it's one of the most
+essential technologies in immunology.
+But what he does state is that labs were
+paying thousands if not tens of
+thousands of dollars in subscriptions
+for applications like this. And now as
+he states he almost built a fully
+functional researchgrade version of such
+an application with Astra. And what I
+found interesting here is that he stated
+that he built previous versions of this
+idea with codeex before this which is
+the openi application to build things.
+But this is the first time he has
+reached a version that works exactly the
+way he wanted it to. So this is
+interesting. Many people experience this
+where they have an idea and they're
+like, "Oh my god, AI can do this." And
+they come in and then they're
+disillusioned. And often times that, you
+know, causes a negative emotion where
+you're like, "Ah, oh my god, this thing
+is not as good as it's advertised to
+be." And sometimes it's the context or
+the harness that gets the context that
+they got wrong. And other times it's
+just the pure capabilities of the model.
+And here across the board across
+everything we're seeing, these
+capabilities, they just rose. They can
+do things that weren't possible before.
+And you're going to see that pattern
+repeat over the next few examples, too.
+Because in this next example, Astra
+coordinated 55 agents to audit 10
+different financial models. Basically
+making sure that all of the information
+is correct. So doing that
+double-checking that often times was
+kind of the sticking point for many
+people. It's like okay AI generates
+things but then who makes sure it's
+correct? So he says that he gave it 10
+financial models and Astra audited
+everything and compared the results to
+the original workbooks and corrected any
+issues. Now, this is the type of thing
+that is, you know, hard to verify and we
+don't really have benchmarks on
+reliability of stuff like this. But as
+these things get smarter, it's also kind
+of intuitive to just think that, all
+right, so they also become more
+reliable. And things like
+double-checking sources can be done, and
+you can have one AI generate something,
+but then if you spawn another 54 AIS
+that are solely responsible for
+double-checking everything, well, who
+knows what's possible. Okay, so here's
+something completely different. Content
+creation and writing. So Dan Shipper on
+X shared the following and I thought
+this was particularly interesting. He
+said it's the best writing model he's
+ever tried. It's fast, I suppose, on the
+low setting, produces very little slop
+and is easy to steer. So good
+instructions following. Not every model
+has that by the way. Uh you might know
+this, but a lot of times you include
+something in a prompt, especially with
+Opus 5, for example, these days from
+Claude, and it just doesn't respect
+everything. It's like, okay, you said
+that, but I'll do my own thing. I have
+my own ideas. Easy to steer. Something I
+like to hear. And he also says it's a
+good companion for actually working
+through the writing I do every day. And
+that is a great writer by the way. So
+I'll give that a wait. If you look at
+the process that Fable Design versus
+Astro Design, you can see what I'm
+saying about the intuitive adherence to
+the sense of the prompt and then
+extending it. So what Fable Design
+pretty simple workflow just show a page,
+press one button, and then go to the
+next page and it'll just continuously
+transcribe.
+Astra, it has a more wellthoughtout,
+well-designed interface. Like, it's got
+the warm paper. Yeah, this is one
+signal. I haven't seen that reflected
+anywhere else. But I just can't wait to
+get my hands on this and see how the
+writing performs. But that seems very
+promising cuz honestly, that's one of
+the biggest use cases for most people.
+Just it's just writing stuff, whether
+it's, you know, documents, reports,
+articles, or just responses that they
+read and then do something with. Writing
+matters and seems to be very solid at
+that. And then this one is interesting
+because you might be able to find ways
+to use this for yourself. And basically
+what Theo here did is he connected it up
+to his email account and he had it
+search the entire email history and
+collect all of the SSDs and RAM that he
+has purchased over time. And then he had
+it compare to current market prices.
+Okay, so that's a relatively simple use
+case, but you could think about this
+idea of it looking over a massive set of
+data like all of your emails or maybe
+all of your files. We'll see more
+examples of that in a second here. And
+then using those results in some other
+way. In this case, the result is the
+price of all the SSDs and the RAM that
+he bought. And he compares it to the
+current market price. But it's a real
+pattern here, right? You can think about
+extracting one piece of knowledge from a
+set of data that you have and then using
+that knowledge to compare it to
+something else in the real world. Think
+about all the knowledge that hides in
+your email. There might be a lot there.
+Well, if you have your context set up
+correctly, you could just go into chat
+GPT or Claude and ask, "Hey, how could I
+apply this pattern, this use case to my
+world, and to my work, to my personal
+life, just need the right context in
+case you need help with crafting that
+context?" Well, that's exactly what I
+have a course on inside of the AI
+Advantage Club. It's called Build Your
+Clone, and you basically set up context
+so it mimics your values and your goals
+and all these other things. I show you
+how to do that. The trial to the club is
+just $1. You can try it out today. It's
+in the description below. Anyway, that's
+just a little note on how to get the
+context right. Let's look at the next
+use case. And this next one from Ethan
+Mik is really interesting and I think a
+lot of people could try this. And I mean
+talking about context, he just built a
+wiki of all of his work context. This is
+not a laser focused, hey, this is me and
+help me apply this to my work type of
+context like I just talked about I teach
+in that course. But this is more like
+here's everything about my career. What
+he did is he used GPT6 Astra to read
+through tens of thousands of his emails,
+his writing, his calendar appointments,
+and more. So, you know, you could give
+it your entire Slack history, all your
+email accounts, stuff like that. And
+then he built a personal wiki out of it.
+By the way, if you're not familiar, the
+personal wiki idea is something that
+Andre Karpathy popularized earlier this
+year. It's basically turning all your
+documents into a repository of different
+text files that are all linked to each
+other. If you Google Andre Kapathy wiki,
+you can find more on that and how to
+create that. But basically, he created
+that for his entire personal life with
+Astra. And now he has twice a day AI
+sent him an update that is a summary of
+things he should be paying attention to
+or things that he might be interested
+in. Interesting. So basically he took
+his entire work history and now uses
+that to inform what he might be
+interested in in the future. Using
+history to predict the future. Kind of a
+smart pattern, too. You could do this
+too. Few things to note here that he
+even highlights. He gave AI access to
+his computer, meaning it, you know, used
+the computer. For that, he probably used
+the desktop application with this model.
+And it looks like it pursued that goal
+for 4 days and 21 hours. You know, you
+could imagine how many tokens that cost.
+That's probably more than a $20
+subscription. I'm not going to cover the
+pricing aspect of this model in the
+video. All of that is in the blog post.
+But a multi-day run. I don't know if he
+went straight through the API or
+actually used the desktop app with the
+subscription, but this might cost you
+hundreds if not a,000 plus dollars
+depending on many factors like caching
+or which reasoning level of the model he
+used. He was not charged for tokens
+during the trial period, but yeah, I
+don't know. My my my guesstimate would
+be $500 to $1,000 for this task. I don't
+know. Might be worth it. You create that
+wiki once. Also, there's the risk factor
+of like giving it access to your
+computer. But honestly, I've yet to
+encounter somebody who had an issue
+going through the official apps like the
+Chaty desktop app where people run into
+issues is once they get into the
+terminal based um AI coding agents there
+things can go wrong. And yeah, for
+everybody curious in the comment
+section, he does highlight that it used
+Obsidian for the wiki as most people do
+when they build that. And by the way, I
+have the same thing set up. I have
+Obsidian with sync across my laptops
+working with my main agent which it's
+still open claw. I just seem so deeply
+entrenched and love it and it works for
+I customize it so much that I still use
+that. And I just noticed that my
+Obsidian account is not synced on this
+computer. It's between the other Mac
+Mini and my MacBook Pro that I always
+have with me on the go. This is kind of
+my recording station. Cool. Next up,
+quality control with Astra. Because it's
+so good at using a computer and because
+it's so much more precise and so much
+more intelligent and it's just better
+across the board, smarter across the
+board, more precise across the board,
+you can now do quality control at a new
+level of preciseness. So Claraara here
+on X highlights a bunch of different use
+cases, but particularly this one browser
+used for QA at 13 minutes caught my
+interest.
+>> She just reports that it's just straight
+up better than before and that the QA
+process ran for over an hour where it
+really checked all the buttons and
+everything that a user would experience
+while using this application.
+>> It started clicking through testing,
+sending chats, and what was really
+helpful about browser use here is it was
+inspecting the console, checking for
+error logs, it was doing things like
+race conditions. It would like refresh
+Chrome. It would do all this stuff that
+would be very tedious and hard to
+execute as a human.
+>> So, whatever you're doing or building,
+it's not just better at making things,
+it's also better at checking them, which
+makes it better at making things because
+it feeds that info back into the
+creation process. Okay, this next one is
+similar, but it talks about the speed of
+the model, which is lower than previous
+models that you might be used to. But
+Ben Davis here pointed out that it would
+more proactively open a browser to check
+its own features by default. This is a
+thing that in my own agents I had to set
+up manually where you give it entire
+processes of how to test and when to
+test, but it seems to be just better at
+not just using the computer, but knowing
+when to use it. That's what I'm reading
+out of this one. And he says it's the
+best oneshot model ever made. If you're
+not familiar, oneshot is basically
+giving it one piece of instructions and
+getting a result without refining it
+because it can use the computer really
+well to refine itself. And then that
+also was a reply to this tweet from Max
+talking about how it's basically the
+best personal software generation model,
+but sometimes you need to wait for it to
+get all the pieces put together. So
+yeah, just like we saw in the Ethan
+Molik example, if something runs for
+hours or maybe even days, like in his
+example, don't be surprised. It's, you
+know, using a computer to review work,
+but the result will be better than ever.
+So let's look at this next example of
+that in action because Wade Foster here
+shows several examples from how they
+tested it on automation bench which is
+basically a practical real world
+benchmark where it goes up against tasks
+that you would want to automate. One
+example he stated here is rebalancing a
+quarterly media budget from last
+quarter's actuals. And they tested that
+against the previous model that was the
+best one from OpenAI Saul. And Saul's
+result looked finish but had the splits
+wrong of the budget. And Astra found the
+adjustments of the splits and every
+number was right. Again, that loop of
+checking itself and just being smarter
+at doing that and smarter itself in
+action. There's another example where
+actually Soul outperformed Astra, but
+only by a little bit because it got
+partial credit for the task and Astra
+just gave up. This is a big difference
+between the models and I wanted to
+highlight this for you that Astra will
+not guess. When the instructions exist
+and it can find them, it finishes the
+entire job. When it cannot, it pauses
+the work instead of improvising. And
+this is just something to get into your
+head because up until now we're so used
+to AI going ahead and you know trying
+doing its best and then you correct it
+and you're like hey that is completely
+off. What are you doing? And then it
+will respond you're right eager and then
+it does the right thing. But if it tells
+that to you five times in a row, you
+just lose all trust in it. You're like,
+"Okay, why do you tell me I'm right
+every time? How about you be right for a
+change?" And that's the change that I'm
+seeing here or reading from in between
+the lines here. Or more like that's the
+feeling I'm getting by reading in
+between the lines of all of these things
+that people have been doing. And if you
+care about the automation bench results
+which Zapier runs and Wade is the
+co-founder and CEO of Zapier, Astra on
+the max setting just crushes even Fable
+5.1 and Gemini saw all the other models
+at a comparable cost to Fable 5.1.
+Interesting. And by the way, if you're
+curious about how it compares to some of
+these models and practical tasks like
+website building, hey, subscribe to the
+channel cuz I'm cooking up a video as
+soon as I have the API access to this
+thing. I'll be spending a lot of money
+on a lot of tests and I will present you
+with the results of that on this channel
+soon. And this last example here that I
+wanted to show you is acutely practical
+for so many people because it's a
+pattern and particularly I wanted to
+highlight this legal use case here
+saying it's jumped on their benchmark
+from 69% to 93 which is you know a
+massive jump and the task they gave it
+is reviewing an NDA against a company's
+own contracting policy and just reaching
+the right verdict in this case would not
+be enough. it had to actually accurately
+site the provision behind it. So whereas
+both models declined to approve this
+draft which did not align only Astra
+pointed to the exact policy language
+that settled it. And GP 5.6 arrived at
+the same conclusion but without citing
+the provision and I think this one in
+particular is so huge. It's this ability
+to also verify its work. That's a big
+pattern that I see across all of these.
+It's not just making better results.
+It's also working with the computer and
+with the data and with the context to
+arrive at conclusions that are
+defensible. Something that, you know,
+many people dismissed AI for up until
+now.
+>> Hey, what if it hallucinates? What if it
+comes up with something?
+>> Well, yeah, then it's going to spawn
+another 54 sub aents. And double check
+is twice, triple check is triple,
+quadruple check. What What is that
+expression? If it's 54 queen
+check,
+>> nailed it.
+>> That's the one. How do you come back
+from an argument like that? Because this
+is a new era. It's not just people
+double-checking work. It's AI, whatever
+that word is, checking stuff. And that,
+ladies and gentlemen, is some next level
+stuff. So, I hope some of this inspired
+you to what you can do. I know a lot of
+people out there right now are
+frustrated because they don't have
+access and they're rolling out super
+slow. But look, we're in a new world
+where technology like this that can, you
+know, do all of these checks and all
+these different use cases and build
+these 3D worlds is a thing now. Whereas
+yesterday it was not a thing. And you're
+already in the right place. You know,
+trying to stay in front of it, trying to
+wrap your head around what's possible.
+That's what you're doing with this
+video. That's what we're doing together
+here. And I think honestly that is the
+right posture in this situation. Over
+time, we'll discover exactly what this
+is going to be. super good for. I'll
+cover it on this channel. So, subscribe
+for more. As per usual, it's my pleasure
+to be your guide on this journey. If we
+haven't met yet, my name is Igor and I
+hope you have a wonderful day. AI news
+you can [music] use. Breaking down the
+stories you actually care [music] about.
+AI news you can use. Gar's here to help
+you
+figure it

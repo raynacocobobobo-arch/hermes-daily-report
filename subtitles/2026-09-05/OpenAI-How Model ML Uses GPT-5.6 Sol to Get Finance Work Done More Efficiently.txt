@@ -1,0 +1,46 @@
+UP主：OpenAI
+标题：How Model ML Uses GPT-5.6 Sol to Get Finance Work Done More Efficiently
+链接：https://www.youtube.com/watch?v=OEkxKdhtQng
+
+You know, world where we're seeing so
+much AI generated slop, there seems to
+be a big difference between slop and
+real work.
+>> [music]
+>> Model ML offers off-the-shelf and custom
+agents that operate exactly as our
+customers do. The first thing we did was
+we ran the model through our internal
+evaluation system and frankly it blew
+every metric out the water. Let's use
+the example where a user wants to build
+an IC memo. They give it a brief and
+they point it in the direction of the
+information that it wants to pull.
+[music] What we've seen 5.6 do is that
+it will start building out a plan of
+exactly what it wants the slides to be
+and what the slides to look like. It
+will commit to its work so both doing
+the research, doing any calculations,
+and then building out the native graphs,
+tables, charts, logos. Then it will do a
+final step where it looks at each slide
+from a visually appealing standpoint and
+we've not seen models do this anywhere
+near as good. It will then give the user
+an editable PowerPoint [music] with all
+of the traceable sources.
+The user should be focused on the
+judgment. In other words, [music]
+refining the assumptions, sharpening the
+message, not just rebuilding the
+analysis. Earlier models could do the
+work of an analyst,
+but the user would have to clearly break
+down the task, specifically what it
+wanted the output to look like. With GPT
+5.6 so, [music] we're finding that the
+agent gets far closer to the final
+output.
+>> [music]

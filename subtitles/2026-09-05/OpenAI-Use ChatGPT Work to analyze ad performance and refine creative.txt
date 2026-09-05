@@ -1,0 +1,85 @@
+UP主：OpenAI
+标题：Use ChatGPT Work to analyze ad performance and refine creative
+链接：https://www.youtube.com/watch?v=5iu0nY9lIy8
+
+Chat GBT has become the place where
+decisions take shape. People come to
+Chat GBT with goals. Uh in this case,
+you know, they're looking for
+headphones. But instead of of entering a
+few keywords, they explain what they
+want to accomplish, what matters to
+them, what constraints they face. You
+know, in this case, the headphones are
+for work, travel, and home. You know,
+the person really isn't sure what
+features are going to be appropriate.
+You see, with chat ads, you can reach
+consumers as they discover products, as
+they compare options, as they're
+deciding what to buy. So, in this case,
+our ads model delivered an ad for Nova
+Electronics headphones. But let's be
+clear, the ads do not influence the
+responses from ChatGBT. I mean, this of
+course is essential. Trust is the
+foundation of this opportunity. People
+trust the decision guidance from Chat
+GBT and our ad platform were designed
+with protecting this trust as this north
+star guided by our ads principles.
+Ads do not influence chatbt's answers.
+They're clearly labeled and displayed
+separately. So clearly now Nova is
+running ads on chat GBT. How are those
+ads performing? Um normally this is a
+complicated question. you know, requires
+pulling reports, accessing multiple
+tools. And of course, you can access
+your chat GBT ads reporting through our
+API or through our ads manager tool. Um,
+but actually now we've built an ads
+manager plugin for chat GBT for work and
+you can do it right there. Um, from
+there, let's ask the questions. I mean,
+what do we really want to know? We want
+to know how our ads performing.
+>> Yeah.
+And so, it's completely conversational
+now.
+>> No, exactly. And so, we're running three
+ads right now. You know, your world,
+your focus, here every detail made to be
+yours. And you can see, you know, just
+look at the data, some clickthrough
+rate, some conversion. It looks like
+your world your focus is doing better.
+But that's the basics, right? That's
+reporting. I think what's amazing here
+is what do we really care about, which
+is why, right? And that's that's a hard
+thing to get from straight to reporting.
+Well, let's let's ask the model, why are
+one of our ads performing better than
+the others? What we want to do is we
+want to take action. Yeah.
+>> We want how do we improve the campaign?
+And so again, let's ask the model, what
+should we do next? So you can kind of
+create a loop between what the ads
+manager is saying is working and then
+your creative workflows and really kind
+of work a lot faster and iterating on
+the creative side,
+>> right? And chat ads offers marketers
+something that has never existed before,
+an opportunity to contribute to those
+key moments that are shaping decisions.
+Now chat ads are now available in 40
+markets globally. We're actually just
+launched 31 markets in Europe yesterday,
+aren't they?
+>> Yeah.
+>> Um so to get started and learn more,
+>> you can head to uh ads.openai.
+Openai.com

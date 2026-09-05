@@ -1,0 +1,74 @@
+UP主：OpenAI
+标题：Build a Shareable Site
+链接：https://www.youtube.com/watch?v=0qK3KqvtRrg
+
+With ChatGPT Work, you can build an actual website.
+You tell it what you need,
+and it takes care of building it
+and putting it on the internet.
+I already used it to help book a trip with my friends,
+so I'm going to turn all of that into a site
+our group can actually use.
+I'm using the desktop app,
+but you can also create Sites in ChatGPT Work
+on the web – even from your phone.
+In this case, it already knows the trip details,
+and it can check our group chat
+for anything that's missing.
+I'm using dictation, so I can just say
+what I want the site to do.
+Use everything you already know about our group trip
+to plan a private, mobile-friendly site.
+Include everyone's arrival times,
+where we're staying, our reservations,
+a day-by-day itinerary,
+activities people can vote on,
+and a shared expenses tracker.
+Let me review it before sharing.
+This is a real website
+ChatGPT builds and hosts for you.
+It can save things like votes
+and expenses in a database,
+store uploaded files like receipts,
+and control who has access to the site.
+And the best part is,
+I don't need to write code
+or figure out how to put it online.
+I just tell ChatGPT Work what I want the site to do.
+Make the expenses tracker
+split shared costs automatically,
+show what each person owes,
+and let us add receipts.
+People can vote on what we do, add receipts,
+and see what they owe.
+If I want the site to work differently,
+I can just ask ChatGPT to change it.
+The site starts private.
+I can keep it that way, give specific people access,
+or share it publicly when that makes sense.
+If I share it with specific people,
+they can sign in with ChatGPT to see it.
+Alternatively, i can make the site public on the internet.
+The other case,
+I just ask ChatGPT to handle the sharing.
+Sites are useful for professional work, too.
+We just launched a new product,
+and I want one place where the team
+can see how it's actually performing.
+The dashboard pulls together the numbers,
+what the team knows, and what people are saying online.
+ChatGPT can check those sources each morning,
+update the site, and explain
+what changed or needs attention.
+Every weekday morning, use Databricks
+to check this launch's latest metrics,
+Slack to find campaign updates,
+and @Chrome to look for new public feedback.
+Update the dashboard, explain significant changes,
+and flag anything falling behind target.
+Everything I build shows up in the sites tab.
+I can open the trip site, check the launch dashboard,
+and grab the link whenever I need it.
+A trip everyone can plan together
+and a launch dashboard that stays up to date.
+That's ChatGPT Work.

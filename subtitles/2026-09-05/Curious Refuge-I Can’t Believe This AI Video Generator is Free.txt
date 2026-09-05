@@ -1,0 +1,661 @@
+UP主：Curious Refuge
+标题：I Can’t Believe This AI Video Generator is Free
+链接：https://www.youtube.com/watch?v=qv0s1_coX50
+
+The world's most popular free AI video
+generator just got a big upgrade. Image
+to 3D model is now more realistic than
+ever before, and you can now use the
+Creative Cloud inside of Chat GPT. We
+have all of that and more in today's
+episode. So, the big news that we're
+going to talk about first is the release
+of LTX 2.5. So, if you're not already
+familiar, LTX 2.3 was the previous
+version of this model and it was an
+openw weighted model. This means this is
+an AI video generator that you can
+download and run for free on your
+machine. Now, LTX 2.5 has some very
+specific things that make it even more
+interesting. Now, LTX claims that the
+videos that are generated have better
+quality, that they are more creative,
+and ultimately you have more control
+over the output. They also said that
+multi-shot consistency is much better.
+So, you can prompt between multiple
+shots using LTX 2.5, which we'll take a
+look at in just a second. Now, one of
+the main things that makes this very
+exciting is the fact that you also have
+the ability to generate 4K footage in
+HDR and RAW outputs. So, you have all of
+the information that you would need to
+plug it into a more professional color
+grading workflow. I'm not saying that
+you're going to get the same raw
+information that you would get directly
+from camera, but you have a lot more
+information inside of LTX 2.5. Now, one
+of the main reasons why so many AI
+studios utilize LTX is the fact that you
+have the ability to train it on your
+specific data or IP or characters and
+you can keep that all inhouse. So, that
+data is not being sent online to train
+some sort of other AI video model. You
+can keep it directly local on your
+machine, which is really helpful. Now,
+over on the LTX website, they have this
+chart that breaks down some of the
+features that makes LTX 2.5 unique
+compared to other AI video models on the
+market. You'll notice that we have
+Miniax H3, which we will talk about in
+just a little bit, but we also have
+Cedance 2.5 and Cling 3.0 Pro as well.
+Now, you'll notice that there are a few
+things that make LTX specifically
+unique. So you have the ability to
+download the open weights to your
+computer and you aren't gated behind a
+form or a geo restriction. You don't
+have to put LTX branding on your output
+which is very important. It can run on
+any GPU and not just specific GPUs. And
+you can run it with as little as 16 GB
+of VRAM which makes it one of the more
+efficient AI video models on the market.
+and they said that you can generate
+video with LTX faster than real time.
+So, let's put that into perspective. You
+can generate AI video footage faster
+than you can review AI video footage.
+So, this is absolutely a part of the
+future of production and a huge step
+forward compared to other AI video
+generators on the market. And if we
+think back to previous AI video models,
+including one 3.0 know that we just
+talked about that video model takes
+almost 30 minutes to generate a single
+shot, but this one can actually generate
+video footage faster than real time,
+which is incredible. Now, in terms of
+how this stacks up against other AI
+video generation tools on the market,
+assuming you had the most optimized
+machine, you could generate on LTX 2.5 a
+10-second clip in 1080p in 6.8 seconds.
+And there's also an online version that
+we'll take a look at in just a second.
+You can generate a 10-second clip in
+about 23 seconds, which again is crazy
+fast against other AI video tools on the
+market. Now, there's also a breakdown on
+the website that compares the speed of
+generations against other AI video
+tools. And I should note that a lot of
+these video tools are actually in 720p.
+It's not even comparing against the 1080
+version. So, LTX natively is in at least
+1080p. It's not natively in 720, which a
+lot of the other AI video models are.
+And they also said that there are less
+visual artifacts inside the final
+outputs, but we're going to put that to
+the test in just a second. So on their
+website, you can download the open
+weights and run it locally on your
+computer, or you can try it directly on
+the LTX website, which is what we're
+going to do right now. So let's go ahead
+and click that try now button. So, we're
+here on the LTX 2.5 website. And for
+this example, I'm going to go over to
+image to video, and we're going to
+select LTX 2.5 Pro 16x9 in 1080p for 8
+seconds. And it's pretty cool cuz you
+can select 24, 25, or 50 frames per
+second. We'll select 24. You also have
+the ability to generate up to four
+videos for your output. Now, for our
+starting image, we're going to use this
+image that we generated inside of
+Midjourney. And we will drag and drop
+that into LTX. And we'll say orbiting
+shot of a woman as she runs into a
+fight. We're keeping it crazy generic.
+Obviously, we can go into much much more
+detail. We'll talk about that in just a
+second. And when you're ready, go ahead
+and hit generate. And after a little
+over 20 seconds, we got this video from
+2.5.
+Okay, so there are some things that I
+like. Now, one thing that I do notice
+inside of the generations inside of LTX
+2.5 is when there is motion blur applied
+to the character, it almost comes across
+as a little blobby. I don't know how to
+describe it. It doesn't seem like it's
+coming from a naturalistic shutter. It's
+not the end of the world, but it can
+bring you out. And there's also some
+struggle with the kind of classic
+plastic skin texture problem that you
+get inside of an AI video tool. Now, I
+want to compare this against Miniax H3,
+which was basically up to this point the
+industry standard when it came to open
+weighted AI video models. Again, we'll
+talk more about them in just a second.
+Inside of Miniax H3, which again has
+only been out for like a week now, we
+got this.
+>> Hold the line.
+[panting]
+>> Holy parallax, Batman. So, I don't know
+what's going on there. She's just like
+running in circles for some reason, but
+I do think the motion blur looks better.
+I should note that because this is using
+the openw weighted version of Miniax H3,
+it only tops out at 768p. So you would
+need to use an AI system to upres it to
+1080p or 4K if you wanted to. Now let's
+take a look at a few more examples here.
+So I have this shot of this woman and I
+wanted her to basically kind of walk
+through this kind of neon noir kind of
+dystopian hazy landscape. And inside of
+LTX 2.5, we got this
+Okay, there's some wonkiness there.
+There's definitely some strange stuff
+happening with uh the background, too.
+And inside of Miniax H3, we got this.
+So, in this shot, it's not even on the
+same planet. Miniax H3 did a much, much
+better job. Now, to put it in context, I
+do want to show you the old version of
+LTX 2.3 so we can see how much better
+2.5 is. So, this is what we got using
+2.3 Pro.
+That's creepy as heck. They're not even
+moving. Uh, so yeah, I think 2.5 did a
+little bit better job. And uh, I don't
+know what's going on with this guy's arm
+there, but I think he may want to get
+that checked out. So, let's take a look
+at a few more examples here. So, we have
+this shot of this guy running away from
+an explosion inside of LTX 2.5. We got
+this.
+Okay, so very weird physics, especially
+in the small details there. This shot is
+uh basically unusable. And inside of
+Miniax H3, we got this.
+Okay, Miniax is much more compelling.
+It's not perfect by any stretch, but
+again, Miniax takes the cake in [music]
+that test. So, let's take a look at more
+of like an advertising example. So, have
+this shot of this woman and let's say
+that we want to do some sort of, you
+know, editorial style mood film about
+the clothes she's wearing. So, inside of
+LTX 2.5, we got this.
+And inside of Miniax H3, we got this.
+[music]
+So, I don't know if any one of those
+models did an amazing job in this test,
+but again, I do prefer the result from
+Miniax. Now, LTX also said that you have
+the ability to create a multi-shot
+sequence. So, let's go ahead and take a
+look at this quick example. So, I have
+this shot of a woman hanging out inside
+of this diner here. And inside of LTX,
+you can only generate a video up to 10
+seconds long, unfortunately. But we did
+get this from 2.5, and we defined the
+entirety of what we wanted to see from
+this scene.
+>> Thanks for the food. I'm starving.
+>> I'm sorry. Who are you? Okay, so it got
+cut off there, but that's not an error.
+We did prompt for a multi-shot sequence
+and it gave us a single shot. So, not
+entirely sure what's going on there. You
+probably would have to render it a
+couple of times to get multiple shots,
+but altogether, I don't know how
+realistic it was. It was okay, but it
+definitely was not perfect. Now, inside
+of Miniax H3, we got this.
+Thanks for the food. I'm starving.
+I'm sorry. Who are you?
+>> Okay, so again, the physics are very
+strange there at the beginning with the
+guy, but again, Miniax did a much better
+job. So, I'm going to skip to the
+takeaway here because as you can see,
+Miniax H3 has done a much better job
+across the board. So, we kind of have a
+conundrum here in the world of openw
+weighted models that you can download to
+your machine. In one sense, we have a
+very quick version of LTX 2.5 that has
+the ability to output in 4K in HDR.
+But the problem is the quality is just
+not as good as Miniax H3 from physical
+dynamics, realism, even adherence to a
+prompt. I think that Miniax H3 does a
+better job. Now, it doesn't do as good
+of a job as seance 2.0 or 2.5, but it
+still does a pretty good job. So, for
+putting a crown on the very best openw
+weighted AI video models in terms of
+physical dynamics, I got to give it to
+Miniax H3. Now, one thing that I
+absolutely want to address in this video
+is a bit of a follow-up to a
+conversation that we had last week
+whenever we announced the launch of
+Miniax H3. And again, we are never paid
+by any AI video model to say anything on
+this channel, but we did see a post that
+addressed one of the comments that we
+brought up on the channel that said that
+users inside of the United States, EU,
+UK, or South Korea do not have the
+ability to download or use Miniax H3 on
+your machine as per their license. Now,
+that is technically true with a huge
+caveat of there is an online form that
+you can fill out that will grant you a
+license. You'll find a link to this form
+below this video. And basically, you
+fill out the form. You put in
+information about yourself or the studio
+that you're working with. And you're
+going to select some terms that you
+definitely need to think about before
+you just do them automatically. One of
+the more important is the fact that you
+are certifying that you will indemnify
+Miniax if they get sued on behalf of
+some sort of generation that you create.
+So if anything comes back to the team at
+Miniax, you are basically agreeing to
+pay for their legal bills. So if you are
+working inside a studio environment, you
+probably want to run this one by a
+lawyer before you submit the form. But
+we submitted the form from the
+perspective of both an individual and a
+studio and it worked basically
+automatically. So you can get that
+license and then you would be covered
+under the agreement to use Miniax H3. So
+that is great news for you as an AI
+filmmaker and really that makes H3 the
+very best AI video model to use inside
+an openf free environment. Now, the huge
+caveat to that is you will always need
+to upres the outputs that you get from
+Miniax. But based on how good the
+physics are compared to other AI video
+models like LTX 2.5, I think that it is
+basically worth it. Now, the other
+alternative is to simply pay money to
+generate your AI video footage inside a
+really good AI video model like Cance
+2.5. You could totally do that as well.
+It's just going to cost you money. So,
+if you do have a decent computer, I do
+recommend using the openw weighted
+version of Miniax H3 to save a bunch of
+money. Now, if you're watching this
+video, you may be wondering like, how do
+I generate at scale? Because whenever I
+run it on my machine, it's pretty slow.
+And the short answer to that is one of
+the best workflows that I've seen is
+having people generate their AI video
+footage overnight. Essentially, you run
+a batched Comfy UI workflow to render
+your shots overnight. Now, with all of
+that being said, hypothetically, if the
+LTX website is to be believed, you could
+generate video clips from LTX 2.5 in 6.8
+seconds. And if that's the case, we
+might be running into a scale game. So,
+while you may have one clip from Miniax
+compared to one clip from LTX 2.5, in
+reality, they're claiming that the model
+is over 25 times faster. And so, if I
+had 25 video clips from LTX 2.5, I'm
+pretty confident that two or three of
+them are going to be better than the
+result that I would get from Miniax H3.
+So, you're going to have to mess around
+with them for yourself. And of course,
+be sure to read the full license to
+understand what watermarking and things
+like that you're going to have to
+include in your video output. And I
+should also note there's a new Laura
+model for Miniax H3 called Diff Studio
+that allows you to generate those video
+outputs up to five times faster. But it
+is cool to see there are different loras
+that are popping up for free. In 3D
+generation news, the team at Meshi has
+released Meshi7 that gives you the
+ability to upload an image and create a
+3D model with texturing automatically.
+To use Meshi 7, all you have to do is go
+to the Meshi website and bring in an
+image. And so we have this reference
+image of this like monster character and
+we'll just drag and drop it into Messi
+and go ahead and hit generate. And after
+a few minutes, you will get a model that
+looks like this. And honestly, I'm super
+super impressed. It's not perfect,
+especially if you zoom in here. There
+are some parts of the character that you
+would need to clean up, and the texture
+is not super super high-res, but the
+fact that it was able to generate this
+much geometry automatically inside of
+Meshi is pretty darn impressive. Now, if
+we compare it against some of the other
+generations that we got from other image
+2 model platforms, it seems like Meshi 7
+is basically in a league of its own. So,
+inside of Rodin 2.5, we got this
+character, which was much, much softer.
+In Trellis 2, which is open weighted, we
+got this, which is not great. And in
+Trio version 3.1, we got this monster,
+which does look pretty good, but it's
+not exactly the same monster that we
+uploaded. And if we were working on a
+film or a game, we would want to have
+very specific control over the output.
+We wouldn't want it to deviate too much.
+So, it definitely seems like Meshi7 did
+a much better job at keeping the overall
+character intact. We also saw some news
+this last week about a really big
+partnership between Chat GBT and Adobe.
+Essentially, Adobe can now be integrated
+into Chat GPT with a plug-in. And it
+says that it unlocks capabilities across
+Photoshop, Premiere, Lightroom,
+Illustrator, Acrobat, Firefly, and more.
+So, long story short, as we move into
+this omniod world where you have the
+ability to upload images, videos, audio
+clips, you also will be able to access
+AI models that can pull in information
+and bring it into the final output.
+Whether that's a PDF or a video or an
+image, having an intelligent layer to
+the generation process is absolutely a
+part of the future. And I think the fact
+that Adobe is teaming up with ChatGBT
+just really reinforces that this is a
+big part of the future of creativity. We
+also saw some news this last week that
+really echoes a lot of the patterns that
+we've seen time and time again in the AI
+space. So the team at Sunno is now
+limiting the number of songs you can
+download from their platform to being
+about 20 songs per month. So, you can
+generate an unlimited number of songs,
+but you can only download about 20. Why
+is that the case? Well, it could be the
+fact that platforms like Spotify are
+basically overran with AI music at this
+point, and they're trying to throttle
+and slow people down. But we've kind of
+been seeing this across the board. It
+seems like just about every company that
+had an unlimited model, whether it's in
+images, in videos, or in music, no
+longer supports those unlimited models.
+So, it's kind of unfortunate because a
+truly unlimited model that isn't rate
+limited based on the number of
+generations that you're creating or
+slowing you down in a queue essentially
+does not exist anymore. And so to you as
+an AI filmmaker, you're probably just
+going to have to pay a little bit more
+money if you're working with these AI
+video tools, unless you are running them
+locally on your machine. If there's one
+question I get asked all the time at
+Curious Refuge, it's what's the best AI
+tools on the market. And the short
+answer is we have a page over at Curious
+Refuge that talks about the very best AI
+tools. And a lot of people don't know
+this. We actually have a research team
+that goes in and tests all of these
+tools against ground truth to give them
+a real score. So, this isn't going off
+vibes. This is literally our team
+creating generations and comparing them
+against reality to give you the best
+overall recommendations. Now, having a
+realistic tool is different than having
+a tool that you are actually legally
+able to use to distribute your work. A
+lot of studios don't want you using just
+any AI image and video model. There are
+specific ones that are better than
+others. And so for this, we actually
+have a free compliance guide on our
+website that you can go to that will
+give you ratings for which tools,
+models, and aggregators you can use and
+which ones will keep your clients or
+your studio safe whenever you are
+working on a professional project. So,
+it's pretty cool. You can go in and
+select a model and then you can select
+whether it's image or video or text and
+go ahead and generate the results and it
+will give you a breakdown of different
+models that are available to you for a
+team environment. And it will give you
+more information that you can share with
+potential collaborators so that you can
+know which models are approved for your
+productions. And again, we're not
+sponsored by anybody. We don't give
+anybody bonus points. This is honest
+information that you can find over on
+our website. You'll find a link below
+this video. And I should note that we
+also came out with AI compliance and
+copyright training. If you're
+interested, you can check that out over
+at Curious Refuge. One thing that's been
+very popular in the AI filmmaking world
+over the last few weeks is the idea of
+taking a lowresolution 3D environment
+and turning it into a realistic
+environment by utilizing seed dance.
+Now, the prerequisite to that is you
+need to understand how to use a 3D tool,
+at least in a basic capacity, in order
+to create the reference footage and then
+turn it into something realistic. But
+there's a new feature inside of Magnific
+that looks to solve this problem in just
+a few mouse clicks. So, in order to use
+the tool, all you have to do is go over
+to the Magnific website. We're here
+under video generator, and from here,
+we're going to select Cedance 2.5. So,
+after we selected Cdance 2.5, we now
+have this 3D motion button. So, I'm
+going to go ahead and select that
+button. And you can see we have a few
+different buttons that we can select
+here. I'm going to select image
+reference. And we will bring in this
+image of me sitting at a computer. Or
+maybe he's like my evil twin or
+something like that. That's not exactly
+me, but it's kind of me. And we'll go
+ahead and bring him into the scene. Now
+I'll skip forward for the sake of time
+here, but it created this 3D environment
+where you can see we have a camera with
+key frames that we can move around the
+scene. And in fact, we can hit play here
+and get an representation of what the
+video will actually be. So that's a
+video feed inside this 3D world that
+came completely from an AI image that we
+uploaded to Magnific. So, this is crazy
+and I can't imagine even saying that
+sentence 2 years ago, but here's where
+we are. So, what you have the ability to
+do now is you can select use video and
+generate a video output. And for our
+example, we wanted to change our guide
+to be in a completely different
+environment utilizing seed dance. And
+that gave us this.
+>> Where is he hiding? [screaming]
+>> Oh, you'll never find me. I've made sure
+of that.
+>> Okay, so that's pretty cool. We had
+specific control over the camera
+movement but completely changed the
+environment. That's really really
+awesome. Now, we wanted to test this on
+another example here. So, I have this
+shot of this like, you know, spaceship
+and we created a 3D model that looked
+like this. We essentially wanted to
+orbit all the way around the character
+here. And we put him in space and this
+is what we got.
+Lieutenant, status update,
+>> sir. Biological scans indicate 03 delta
+class life forms, nominal atmospheric
+readings, and oxygen based respiration.
+>> We found it. Okay, so obviously that's a
+pretty interesting output. It's not
+completely realistic. I would say the
+background almost comes across as a bit
+Unreal Engineesque, but altogether it's
+not too shabby. And I really like this
+guy's sweater. Good on him for being
+comfortable in space. Now, moving over
+to China, we saw some news this last
+week where Beijing has allocated
+essentially 16 square miles of their
+city in what they're calling their AI
+innovation zone. So, this is a specific
+part of the city designed for AI related
+companies and initiatives. But what was
+also really interesting is somebody
+released an open- source community
+initiative inside of GitHub where you
+could run simulations of different
+legislation and ideas related to this
+city in this AI model and you could see
+how it plays out over time and there was
+like this whole voting structure. It's
+not connected to the government at all.
+But it is really interesting to think
+that there are already people who are
+thinking about utilizing artificial
+intelligence in a community designing
+way. I think there's a lot of sci-fi
+films that talk about this and I'm
+pretty sure most of them don't end well.
+So, uh, TBD will let you know how this
+news unfolds as it happens. In the AI
+competition world, we saw that Drama has
+released their story unboxed competition
+that challenges you to take a very
+primitive gray box video that already
+exists and basically stylize it using
+Seed Dance 2.5. And the entries are open
+until August 31st. The winner gets
+$50,000. So, I definitely recommend
+checking it out, especially because it's
+a very easy competition to enter. I
+should note that it does look like at
+this time if you're in the United
+States, you can't enter, but most of the
+other regions are available. So, be sure
+to check it out and uh let me know if
+you win. There are also a lot of AI
+events that you should know about
+popping up around the world. We just
+hosted an online workshop about landing
+a job from your social media feed that
+was created by Stacy Kelly. If you're a
+member at Curious Refuge, you can check
+that out inside the Curious Refuge
+portal. We also hosted our London meetup
+this last week. I hope that everyone had
+an amazing time. We also have meetups in
+Denver, Bulgaria, and Palm Beach coming
+up in just a few days. And that brings
+us to our AI films of the week. So, the
+first project that I want to shout out
+is an incredible advertising piece
+created by Adam Palmer. It was created
+as a spec ad for a drink to cure
+hangovers, and they did an amazing job
+on this project. I really feel like it's
+one of the very best AI ads that I've
+seen up to this point. And what I like
+about it is you can really tell that
+Adam has experience in the world of
+advertising because everything feels
+very high concept and it comes across as
+a very engaging story in just a short
+amount of time. So really, really good
+job. The next project that I want to
+give a shout out to is a film created by
+Danny Sang called The Tower. It's a
+really well done film that takes place
+in this very large open world. And I
+think it's just great execution through
+and through. The sound design, the
+music, the generations, it all looks
+very nice. And the last film that I want
+to shout out is called Plume by Dave
+Clark, the chief creative officer here
+at Promise AI. It's a really good AI
+film that traditionally would have cost
+millions of dollars to pull off. So, a
+really cool project from Dave. All
+right, thank you so much for watching
+this episode of AI Film News. As always,
+if you want to learn artificial
+intelligence from the home for AI
+storytellers, I highly recommend
+checking out curious refuge.com. We
+train artists at every major studio and
+we would love to have you inside our
+program. And if you want to get the
+latest AI news and information directly
+here on YouTube, be sure to like and
+subscribe. We'll see you in the next
+one.

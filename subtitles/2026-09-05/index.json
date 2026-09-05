@@ -1,0 +1,1342 @@
+{
+  "schema_version": "2.1",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T12:24:23+08:00",
+  "total": 148,
+  "rejected": 0,
+  "source_directory": "subtitles/2026-09-05",
+  "entries": [
+    {
+      "source": "Andrej Karpathy-Deep Dive into LLMs like ChatGPT.txt",
+      "up_name": "Andrej Karpathy",
+      "title": "Deep Dive into LLMs like ChatGPT",
+      "repository_path": "subtitles/2026-09-05/Andrej Karpathy-Deep Dive into LLMs like ChatGPT.txt",
+      "format": "txt",
+      "size_bytes": 215485,
+      "sha256": "632a97f3492cb4a2a3b9284ddf7262e7e642d4ac201e4561cc65424106cb2378"
+    },
+    {
+      "source": "Andrej Karpathy-How I use LLMs.txt",
+      "up_name": "Andrej Karpathy",
+      "title": "How I use LLMs",
+      "repository_path": "subtitles/2026-09-05/Andrej Karpathy-How I use LLMs.txt",
+      "format": "txt",
+      "size_bytes": 129138,
+      "sha256": "42e1b48313c82e4e10050c025902bdcf99b0408042edcbbcbe59a5364d1542d7"
+    },
+    {
+      "source": "Andrej Karpathy-Let's build the GPT Tokenizer.txt",
+      "up_name": "Andrej Karpathy",
+      "title": "Let's build the GPT Tokenizer",
+      "repository_path": "subtitles/2026-09-05/Andrej Karpathy-Let's build the GPT Tokenizer.txt",
+      "format": "txt",
+      "size_bytes": 127420,
+      "sha256": "58144a667d8a7885c4a761416134e144b31526b1ec0edc81d61c04aaa46900a0"
+    },
+    {
+      "source": "Andrej Karpathy-Let's reproduce GPT-2 (124M).txt",
+      "up_name": "Andrej Karpathy",
+      "title": "Let's reproduce GPT-2 (124M)",
+      "repository_path": "subtitles/2026-09-05/Andrej Karpathy-Let's reproduce GPT-2 (124M).txt",
+      "format": "txt",
+      "size_bytes": 223459,
+      "sha256": "540de554a2258120dacf9634c8c8543228e8961ed8263cb6a47773cf99745559"
+    },
+    {
+      "source": "Andrej Karpathy-[1hr Talk] Intro to Large Language Models.txt",
+      "up_name": "Andrej Karpathy",
+      "title": "[1hr Talk] Intro to Large Language Models",
+      "repository_path": "subtitles/2026-09-05/Andrej Karpathy-[1hr Talk] Intro to Large Language Models.txt",
+      "format": "txt",
+      "size_bytes": 64482,
+      "sha256": "fee9d4e828716e89ad765dfa97277058d6c355af43d0ba9edf4cc717a86999cf"
+    },
+    {
+      "source": "Anthropic-AI models can now help run physical science experiments.txt",
+      "up_name": "Anthropic",
+      "title": "AI models can now help run physical science experiments",
+      "repository_path": "subtitles/2026-09-05/Anthropic-AI models can now help run physical science experiments.txt",
+      "format": "txt",
+      "size_bytes": 7963,
+      "sha256": "cf8d5b9c64ea21459568f7d7eff740149e3651bb0b6b96cf54eb5c252c06728a"
+    },
+    {
+      "source": "Anthropic-AI on campus.txt",
+      "up_name": "Anthropic",
+      "title": "AI on campus",
+      "repository_path": "subtitles/2026-09-05/Anthropic-AI on campus.txt",
+      "format": "txt",
+      "size_bytes": 40396,
+      "sha256": "75023e32a6e83c6aae2c89c051133e7eb6e7d7c17e057ca6528742431668ee13"
+    },
+    {
+      "source": "Anthropic-An initiative to secure the world's software | Project Glasswing.txt",
+      "up_name": "Anthropic",
+      "title": "An initiative to secure the world's software | Project Glasswing",
+      "repository_path": "subtitles/2026-09-05/Anthropic-An initiative to secure the world's software | Project Glasswing.txt",
+      "format": "txt",
+      "size_bytes": 5511,
+      "sha256": "735ef0df0f66659798d17caa369cf79ab765b90ac4536a0a1984467676f29b34"
+    },
+    {
+      "source": "Anthropic-Binti helps social workers license foster families faster with Claude.txt",
+      "up_name": "Anthropic",
+      "title": "Binti helps social workers license foster families faster with Claude",
+      "repository_path": "subtitles/2026-09-05/Anthropic-Binti helps social workers license foster families faster with Claude.txt",
+      "format": "txt",
+      "size_bytes": 2146,
+      "sha256": "fbece9da472b613e172588f8c55ae16dec66c0e3bb237e9d74a20a580d3468e3"
+    },
+    {
+      "source": "Anthropic-Claude ran a business in our office.txt",
+      "up_name": "Anthropic",
+      "title": "Claude ran a business in our office",
+      "repository_path": "subtitles/2026-09-05/Anthropic-Claude ran a business in our office.txt",
+      "format": "txt",
+      "size_bytes": 5392,
+      "sha256": "6245bdca29bdd4b7a0f02743200f882f6cb665d304b9a6ad94bd2f06e9c3145c"
+    },
+    {
+      "source": "Anthropic-Getting started with connectors in Claude.ai.txt",
+      "up_name": "Anthropic",
+      "title": "Getting started with connectors in Claude.ai",
+      "repository_path": "subtitles/2026-09-05/Anthropic-Getting started with connectors in Claude.ai.txt",
+      "format": "txt",
+      "size_bytes": 4057,
+      "sha256": "7e24b7876264247a42837d29464964e64990ec07643d2ff6b76ef6374397de93"
+    },
+    {
+      "source": "Anthropic-How Icelanders are thinking about AI.txt",
+      "up_name": "Anthropic",
+      "title": "How Icelanders are thinking about AI",
+      "repository_path": "subtitles/2026-09-05/Anthropic-How Icelanders are thinking about AI.txt",
+      "format": "txt",
+      "size_bytes": 4793,
+      "sha256": "628ca54a91c7e7037f77df666e57a5389de7e754cca23cc8936a65adc17e42cf"
+    },
+    {
+      "source": "Anthropic-Introducing Claude Fable 5.1.txt",
+      "up_name": "Anthropic",
+      "title": "Introducing Claude Fable 5.1",
+      "repository_path": "subtitles/2026-09-05/Anthropic-Introducing Claude Fable 5.1.txt",
+      "format": "txt",
+      "size_bytes": 1479,
+      "sha256": "c8ef9cadba54ce24852c4735e3d7e07641a75cb3e170fedc73f8bf96e0699b32"
+    },
+    {
+      "source": "Anthropic-Introducing Claude Fable 5.txt",
+      "up_name": "Anthropic",
+      "title": "Introducing Claude Fable 5",
+      "repository_path": "subtitles/2026-09-05/Anthropic-Introducing Claude Fable 5.txt",
+      "format": "txt",
+      "size_bytes": 2118,
+      "sha256": "19e5988b4fbc917ec3c5debd985aee4f3623f7ea70cafba402508c25274aefbd"
+    },
+    {
+      "source": "Anthropic-Model Hardware Standard: AI operating physical equipment.txt",
+      "up_name": "Anthropic",
+      "title": "Model Hardware Standard: AI operating physical equipment",
+      "repository_path": "subtitles/2026-09-05/Anthropic-Model Hardware Standard: AI operating physical equipment.txt",
+      "format": "txt",
+      "size_bytes": 2092,
+      "sha256": "9ff958973cd9e3f33c6f88acd52136efaea7688d1e0379cfbd9ab42f0be82f79"
+    },
+    {
+      "source": "Anthropic-The different levels of how Claude thinks.txt",
+      "up_name": "Anthropic",
+      "title": "The different levels of how Claude thinks",
+      "repository_path": "subtitles/2026-09-05/Anthropic-The different levels of how Claude thinks.txt",
+      "format": "txt",
+      "size_bytes": 5034,
+      "sha256": "0ca9c012b72c28a08ab525395cecf9664453bf7cfe024d32323012a5449512c4"
+    },
+    {
+      "source": "Anthropic-Translating Claude’s thoughts into language.txt",
+      "up_name": "Anthropic",
+      "title": "Translating Claude’s thoughts into language",
+      "repository_path": "subtitles/2026-09-05/Anthropic-Translating Claude’s thoughts into language.txt",
+      "format": "txt",
+      "size_bytes": 3542,
+      "sha256": "9007d99e219faae82b084f7e7467c9ea826c33431c6adde98b630957028c5439"
+    },
+    {
+      "source": "Anthropic-What does AI mean for education?.txt",
+      "up_name": "Anthropic",
+      "title": "What does AI mean for education?",
+      "repository_path": "subtitles/2026-09-05/Anthropic-What does AI mean for education?.txt",
+      "format": "txt",
+      "size_bytes": 49564,
+      "sha256": "056e32018fc316d79e5b33c12e570bdd6e259075743d4ba7576706fffb7b6f81"
+    },
+    {
+      "source": "Anthropic-What is sycophancy in AI models?.txt",
+      "up_name": "Anthropic",
+      "title": "What is sycophancy in AI models?",
+      "repository_path": "subtitles/2026-09-05/Anthropic-What is sycophancy in AI models?.txt",
+      "format": "txt",
+      "size_bytes": 5749,
+      "sha256": "06b2fb89e35975b10eec7b8ae5a2099af1eb790e9779275a047bebb5bed2f280"
+    },
+    {
+      "source": "Anthropic-When AIs act emotional.txt",
+      "up_name": "Anthropic",
+      "title": "When AIs act emotional",
+      "repository_path": "subtitles/2026-09-05/Anthropic-When AIs act emotional.txt",
+      "format": "txt",
+      "size_bytes": 4657,
+      "sha256": "da409bb8ac7f8231f56e816f6b357823455bbfcd715c44a87952a2869916ab6f"
+    },
+    {
+      "source": "Anthropic-Why we built—and donated—the Model Context Protocol (MCP).txt",
+      "up_name": "Anthropic",
+      "title": "Why we built—and donated—the Model Context Protocol (MCP)",
+      "repository_path": "subtitles/2026-09-05/Anthropic-Why we built—and donated—the Model Context Protocol (MCP).txt",
+      "format": "txt",
+      "size_bytes": 38838,
+      "sha256": "a281b55d0a53d1fd99f01ae395e46b6112bcabb73e241c5c7ac825d4837f9249"
+    },
+    {
+      "source": "Anthropic-Your tools are now interactive in Claude.txt",
+      "up_name": "Anthropic",
+      "title": "Your tools are now interactive in Claude",
+      "repository_path": "subtitles/2026-09-05/Anthropic-Your tools are now interactive in Claude.txt",
+      "format": "txt",
+      "size_bytes": 151,
+      "sha256": "09c3eac4075718a16db45ae7c6f3329e4ac2b02175821e1ea2427f37f4e54aa8"
+    },
+    {
+      "source": "Curious Refuge-16 AI Filmmaking News Updates You Missed.txt",
+      "up_name": "Curious Refuge",
+      "title": "16 AI Filmmaking News Updates You Missed",
+      "repository_path": "subtitles/2026-09-05/Curious Refuge-16 AI Filmmaking News Updates You Missed.txt",
+      "format": "txt",
+      "size_bytes": 42707,
+      "sha256": "fb2f63ae745c1bde7bcaff7b90b8c0f50c70dd0b74221415cbe8fd078b1c320b"
+    },
+    {
+      "source": "Curious Refuge-Apple Can Now Clone You and it’s CRAZY Realistic.txt",
+      "up_name": "Curious Refuge",
+      "title": "Apple Can Now Clone You and it’s CRAZY Realistic",
+      "repository_path": "subtitles/2026-09-05/Curious Refuge-Apple Can Now Clone You and it’s CRAZY Realistic.txt",
+      "format": "txt",
+      "size_bytes": 30865,
+      "sha256": "f183209d5806db0e9480b10cc3222471ad554b191e8f348e0fec10dcf5a57043"
+    },
+    {
+      "source": "Curious Refuge-Here's the Best AI Video Generator You Haven't Tried Yet!.txt",
+      "up_name": "Curious Refuge",
+      "title": "Here's the Best AI Video Generator You Haven't Tried Yet!",
+      "repository_path": "subtitles/2026-09-05/Curious Refuge-Here's the Best AI Video Generator You Haven't Tried Yet!.txt",
+      "format": "txt",
+      "size_bytes": 16006,
+      "sha256": "45f6734f16f9000fce5823e3dcec28cf5c010f584b1197db17af61f84231cbac"
+    },
+    {
+      "source": "Curious Refuge-I Can’t Believe This AI Video Generator is Free.txt",
+      "up_name": "Curious Refuge",
+      "title": "I Can’t Believe This AI Video Generator is Free",
+      "repository_path": "subtitles/2026-09-05/Curious Refuge-I Can’t Believe This AI Video Generator is Free.txt",
+      "format": "txt",
+      "size_bytes": 24904,
+      "sha256": "502213e9311b33b38a28a0354d9cd2c7ab9616db937fefa183d587e5281cc7a2"
+    },
+    {
+      "source": "Curious Refuge-I found the craziest AI Film Tools you need to see....txt",
+      "up_name": "Curious Refuge",
+      "title": "I found the craziest AI Film Tools you need to see...",
+      "repository_path": "subtitles/2026-09-05/Curious Refuge-I found the craziest AI Film Tools you need to see....txt",
+      "format": "txt",
+      "size_bytes": 23365,
+      "sha256": "32b2bc5754e891564418c4e89dd63c3dfd2bd4792831f9363ca1efe858b1a87f"
+    },
+    {
+      "source": "Curious Refuge-Is Suno Still the Best AI Music Tool?.txt",
+      "up_name": "Curious Refuge",
+      "title": "Is Suno Still the Best AI Music Tool?",
+      "repository_path": "subtitles/2026-09-05/Curious Refuge-Is Suno Still the Best AI Music Tool?.txt",
+      "format": "txt",
+      "size_bytes": 14161,
+      "sha256": "d8354d9228af6e778d8e6d7cbaac0608af9f03a00fdfd323e2f4bb0e69ada997"
+    },
+    {
+      "source": "Curious Refuge-Is This the Best Free AI Video Generator?.txt",
+      "up_name": "Curious Refuge",
+      "title": "Is This the Best Free AI Video Generator?",
+      "repository_path": "subtitles/2026-09-05/Curious Refuge-Is This the Best Free AI Video Generator?.txt",
+      "format": "txt",
+      "size_bytes": 17045,
+      "sha256": "f34181f7f36738558fa6b16c03515aeed4f31ab529ceb218ada25306c0265ba0"
+    },
+    {
+      "source": "Curious Refuge-SeedDance 2.5 Just Got Upstaged by Nvidia.txt",
+      "up_name": "Curious Refuge",
+      "title": "SeedDance 2.5 Just Got Upstaged by Nvidia",
+      "repository_path": "subtitles/2026-09-05/Curious Refuge-SeedDance 2.5 Just Got Upstaged by Nvidia.txt",
+      "format": "txt",
+      "size_bytes": 33168,
+      "sha256": "a4e2539c91fb20df823c23e34e431f6d8a07c0b2efeedbd8ef78e9309d5d80d9"
+    },
+    {
+      "source": "Curious Refuge-Seedance 2.5 Is Incredible... Until It Isn't.txt",
+      "up_name": "Curious Refuge",
+      "title": "Seedance 2.5 Is Incredible... Until It Isn't",
+      "repository_path": "subtitles/2026-09-05/Curious Refuge-Seedance 2.5 Is Incredible... Until It Isn't.txt",
+      "format": "txt",
+      "size_bytes": 16776,
+      "sha256": "bb0586df999e78d3d29b5dbf0349590882f7363979aa91f25c8d53099b98188d"
+    },
+    {
+      "source": "Curious Refuge-We Tested Elon's New AI Video Tool... And Have Some Thoughts.txt",
+      "up_name": "Curious Refuge",
+      "title": "We Tested Elon's New AI Video Tool... And Have Some Thoughts",
+      "repository_path": "subtitles/2026-09-05/Curious Refuge-We Tested Elon's New AI Video Tool... And Have Some Thoughts.txt",
+      "format": "txt",
+      "size_bytes": 15441,
+      "sha256": "65e178db6e43736e0c89ae2800e78f894a220e366a940bc381954260133b3b6e"
+    },
+    {
+      "source": "Futurepedia-A Complete Guide to the New Claude Design.txt",
+      "up_name": "Futurepedia",
+      "title": "A Complete Guide to the New Claude Design",
+      "repository_path": "subtitles/2026-09-05/Futurepedia-A Complete Guide to the New Claude Design.txt",
+      "format": "txt",
+      "size_bytes": 18265,
+      "sha256": "ee8afd771d81152ba5ae6bd64262ecea6a4228a233a57b1c9662f18972587d70"
+    },
+    {
+      "source": "Futurepedia-Claude Chat vs Cowork vs Code: Which One Should You Use?.txt",
+      "up_name": "Futurepedia",
+      "title": "Claude Chat vs Cowork vs Code: Which One Should You Use?",
+      "repository_path": "subtitles/2026-09-05/Futurepedia-Claude Chat vs Cowork vs Code: Which One Should You Use?.txt",
+      "format": "txt",
+      "size_bytes": 11825,
+      "sha256": "877aa1ccd379fa08f6c4af7f49565d632a7d571a7ab1ec41a313b171e6cfe496"
+    },
+    {
+      "source": "Futurepedia-Claude Design Just Unlocked AI Motion Graphics.txt",
+      "up_name": "Futurepedia",
+      "title": "Claude Design Just Unlocked AI Motion Graphics",
+      "repository_path": "subtitles/2026-09-05/Futurepedia-Claude Design Just Unlocked AI Motion Graphics.txt",
+      "format": "txt",
+      "size_bytes": 18065,
+      "sha256": "042b90e2efe06c01026799c0874f5c23065595caca30904c991ac472071e6155"
+    },
+    {
+      "source": "Futurepedia-Master the NEW Gemini Notebook.txt",
+      "up_name": "Futurepedia",
+      "title": "Master the NEW Gemini Notebook",
+      "repository_path": "subtitles/2026-09-05/Futurepedia-Master the NEW Gemini Notebook.txt",
+      "format": "txt",
+      "size_bytes": 23185,
+      "sha256": "55a069508baf239f333d7429c6387faf501104c940bcbb39e73e52bc4cef2bb1"
+    },
+    {
+      "source": "Futurepedia-Use Claude Better Than 99% of People (Beginner to Pro).txt",
+      "up_name": "Futurepedia",
+      "title": "Use Claude Better Than 99% of People (Beginner to Pro)",
+      "repository_path": "subtitles/2026-09-05/Futurepedia-Use Claude Better Than 99% of People (Beginner to Pro).txt",
+      "format": "txt",
+      "size_bytes": 17335,
+      "sha256": "0b148a02db8efc97dac0c3eb1cbaf4b8fa9d66e353125183d7cf6a0453fc17be"
+    },
+    {
+      "source": "Matt Wolfe-AI News: OpenAI Just Put the Brakes on AI.txt",
+      "up_name": "Matt Wolfe",
+      "title": "AI News: OpenAI Just Put the Brakes on AI",
+      "repository_path": "subtitles/2026-09-05/Matt Wolfe-AI News: OpenAI Just Put the Brakes on AI.txt",
+      "format": "txt",
+      "size_bytes": 34308,
+      "sha256": "0dac912881343b28bf96aaf8e3beefa9f9cade965cf9b2f0340cd0a46718d91f"
+    },
+    {
+      "source": "Matthew Berman-11 Grok Bot Use Cases That Could Save You Hours Every Day.txt",
+      "up_name": "Matthew Berman",
+      "title": "11 Grok Bot Use Cases That Could Save You Hours Every Day",
+      "repository_path": "subtitles/2026-09-05/Matthew Berman-11 Grok Bot Use Cases That Could Save You Hours Every Day.txt",
+      "format": "txt",
+      "size_bytes": 21899,
+      "sha256": "3708c6d3819fc258903ec99666d2215c8d5ec98a5995da14b9947d7ee3a504c4"
+    },
+    {
+      "source": "Matthew Berman-AI News: ChatGPT Ultrafast, Grok 4.6, 3 New Open-Source Models, and more!.txt",
+      "up_name": "Matthew Berman",
+      "title": "AI News: ChatGPT Ultrafast, Grok 4.6, 3 New Open-Source Models, and more!",
+      "repository_path": "subtitles/2026-09-05/Matthew Berman-AI News: ChatGPT Ultrafast, Grok 4.6, 3 New Open-Source Models, and more!.txt",
+      "format": "txt",
+      "size_bytes": 12939,
+      "sha256": "b9c8c3cfe1b92b608ba170b528d9ec9a840ab2c73f9314fab5ccc350fc97b172"
+    },
+    {
+      "source": "Matthew Berman-Cursor just made something incredible....txt",
+      "up_name": "Matthew Berman",
+      "title": "Cursor just made something incredible...",
+      "repository_path": "subtitles/2026-09-05/Matthew Berman-Cursor just made something incredible....txt",
+      "format": "txt",
+      "size_bytes": 17692,
+      "sha256": "dc36ae9ad1efff86b5f20b7b515a182c11224a833e6e3e69f252d2a43195d6da"
+    },
+    {
+      "source": "Matthew Berman-You NEED to try this 6 Open-Source Projects NOW.txt",
+      "up_name": "Matthew Berman",
+      "title": "You NEED to try this 6 Open-Source Projects NOW",
+      "repository_path": "subtitles/2026-09-05/Matthew Berman-You NEED to try this 6 Open-Source Projects NOW.txt",
+      "format": "txt",
+      "size_bytes": 9457,
+      "sha256": "858a2bc25cdbe4ea0c1de5b9e88bb8a71d5c5977e2999cded3b31efd0f07f251"
+    },
+    {
+      "source": "Matthew Berman-xAI actually did it... (Grok 4.6).txt",
+      "up_name": "Matthew Berman",
+      "title": "xAI actually did it... (Grok 4.6)",
+      "repository_path": "subtitles/2026-09-05/Matthew Berman-xAI actually did it... (Grok 4.6).txt",
+      "format": "txt",
+      "size_bytes": 15312,
+      "sha256": "9236dd25f41c201c4b0357aee59dc6e4459e3d0bd25e57cac20817bb3f4d8e78"
+    },
+    {
+      "source": "Mx-Shell-Ai原创短片《丧尸清道夫》-重制版，国产“爱死机”！.txt",
+      "up_name": "Mx-Shell",
+      "title": "Ai原创短片《丧尸清道夫》-重制版，国产“爱死机”！",
+      "repository_path": "subtitles/2026-09-05/Mx-Shell-Ai原创短片《丧尸清道夫》-重制版，国产“爱死机”！.txt",
+      "format": "txt",
+      "size_bytes": 942,
+      "sha256": "b59da469186666b280258a66b7aa62020948d755a2dc19e07b48443e090e0f00"
+    },
+    {
+      "source": "Mx-Shell-今天把我关于《丧尸清道夫》的创作思路分享给大家，如果能帮到你，我会很开心。.txt",
+      "up_name": "Mx-Shell",
+      "title": "今天把我关于《丧尸清道夫》的创作思路分享给大家，如果能帮到你，我会很开心。",
+      "repository_path": "subtitles/2026-09-05/Mx-Shell-今天把我关于《丧尸清道夫》的创作思路分享给大家，如果能帮到你，我会很开心。.txt",
+      "format": "txt",
+      "size_bytes": 35597,
+      "sha256": "802af6606d40b83b5536bbd498b26fc858d55234a1a6cf0ef96ea7bd222e747d"
+    },
+    {
+      "source": "Mx-Shell-原创ai短片《明·东海灾异志》.txt",
+      "up_name": "Mx-Shell",
+      "title": "原创ai短片《明·东海灾异志》",
+      "repository_path": "subtitles/2026-09-05/Mx-Shell-原创ai短片《明·东海灾异志》.txt",
+      "format": "txt",
+      "size_bytes": 562,
+      "sha256": "6ca149247b43887465220d0f23428d492c9ac77cd34c67ab597de3fc8424cc97"
+    },
+    {
+      "source": "Mx-Shell-国产“爱死机”《丧尸清道夫》图片资产工作流的创作思路分享！.txt",
+      "up_name": "Mx-Shell",
+      "title": "国产“爱死机”《丧尸清道夫》图片资产工作流的创作思路分享！",
+      "repository_path": "subtitles/2026-09-05/Mx-Shell-国产“爱死机”《丧尸清道夫》图片资产工作流的创作思路分享！.txt",
+      "format": "txt",
+      "size_bytes": 22054,
+      "sha256": "437463b1325f0ea50d47d528de4c09442dd10b9745f736044dbb6db1b4715a1f"
+    },
+    {
+      "source": "Mx-Shell-国产“爱死机”刷屏外网 好莱坞大佬全网寻人！wuhu独家专访导演MX-Shell.txt",
+      "up_name": "Mx-Shell",
+      "title": "国产“爱死机”刷屏外网 好莱坞大佬全网寻人！wuhu独家专访导演MX-Shell",
+      "repository_path": "subtitles/2026-09-05/Mx-Shell-国产“爱死机”刷屏外网 好莱坞大佬全网寻人！wuhu独家专访导演MX-Shell.txt",
+      "format": "txt",
+      "size_bytes": 26993,
+      "sha256": "5c16604fdf40edde167efe98a475c3255a16b86568a4942b962d34f32defb1dd"
+    },
+    {
+      "source": "Mx-Shell-小城夏天.txt",
+      "up_name": "Mx-Shell",
+      "title": "小城夏天",
+      "repository_path": "subtitles/2026-09-05/Mx-Shell-小城夏天.txt",
+      "format": "txt",
+      "size_bytes": 123,
+      "sha256": "82050e342f207492f9826e6f62eb2af42183267cb8464e2dd90731a9c6ad109b"
+    },
+    {
+      "source": "Mx-Shell-早上好，夜之城！.txt",
+      "up_name": "Mx-Shell",
+      "title": "早上好，夜之城！",
+      "repository_path": "subtitles/2026-09-05/Mx-Shell-早上好，夜之城！.txt",
+      "format": "txt",
+      "size_bytes": 607,
+      "sha256": "a7df5d3bae7e9e9c5d7df7555cfaab7e4433261c72fcde83434e02221fe0d72e"
+    },
+    {
+      "source": "Mx-Shell-说唱、摄影双重经验，是如何点亮 AI 创作的？【独家对谈】.txt",
+      "up_name": "Mx-Shell",
+      "title": "说唱、摄影双重经验，是如何点亮 AI 创作的？【独家对谈】",
+      "repository_path": "subtitles/2026-09-05/Mx-Shell-说唱、摄影双重经验，是如何点亮 AI 创作的？【独家对谈】.txt",
+      "format": "txt",
+      "size_bytes": 19639,
+      "sha256": "93bcc4152b2e65b818862b6f19c7ffa5300a4421e8a3d9ce3b8e8c89233a342a"
+    },
+    {
+      "source": "Mx-Shell-赛博英雄传！.txt",
+      "up_name": "Mx-Shell",
+      "title": "赛博英雄传！",
+      "repository_path": "subtitles/2026-09-05/Mx-Shell-赛博英雄传！.txt",
+      "format": "txt",
+      "size_bytes": 339,
+      "sha256": "a79c3da7b3deb07b83e06dc5fde2feb6028293f53e93c74b778eaba34300c97b"
+    },
+    {
+      "source": "OpenAI-Build Hour: Valuemaxxing with GPT-5.6.txt",
+      "up_name": "OpenAI",
+      "title": "Build Hour: Valuemaxxing with GPT-5.6",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Build Hour: Valuemaxxing with GPT-5.6.txt",
+      "format": "txt",
+      "size_bytes": 49961,
+      "sha256": "0cac52fcbb7b5373495731a3b66b207888666343385b063f9720d37df29bdcdd"
+    },
+    {
+      "source": "OpenAI-Build a Shareable Site.txt",
+      "up_name": "OpenAI",
+      "title": "Build a Shareable Site",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Build a Shareable Site.txt",
+      "format": "txt",
+      "size_bytes": 2691,
+      "sha256": "61ce73048e067b0e63ce65f5b3711b32383a77e8980f6bd30db0a9c6249476b3"
+    },
+    {
+      "source": "OpenAI-Build agent-ready sites with WebMCP.txt",
+      "up_name": "OpenAI",
+      "title": "Build agent-ready sites with WebMCP",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Build agent-ready sites with WebMCP.txt",
+      "format": "txt",
+      "size_bytes": 2581,
+      "sha256": "662429d137e983387f42f2beed8e8dd6794a0d079c3c9a78fb0e4b125118fe5b"
+    },
+    {
+      "source": "OpenAI-Build custom financial forecasting apps with ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "Build custom financial forecasting apps with ChatGPT Work",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Build custom financial forecasting apps with ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 1357,
+      "sha256": "8489cffb570c38d663529ffd513dde815b424006b0163189f3dd261b6162991c"
+    },
+    {
+      "source": "OpenAI-Building at the pace of AI innovation | Grant Lee, Gamma.txt",
+      "up_name": "OpenAI",
+      "title": "Building at the pace of AI innovation | Grant Lee, Gamma",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Building at the pace of AI innovation | Grant Lee, Gamma.txt",
+      "format": "txt",
+      "size_bytes": 1939,
+      "sha256": "13a724745435bd464c16e431365bebd205d7f08dc05d332b15890777389ffe57"
+    },
+    {
+      "source": "OpenAI-Building with ChatGPT Voice | OpenAI.txt",
+      "up_name": "OpenAI",
+      "title": "Building with ChatGPT Voice | OpenAI",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Building with ChatGPT Voice | OpenAI.txt",
+      "format": "txt",
+      "size_bytes": 1373,
+      "sha256": "153c591d2393ed3baae4914235594dae54b01045aaf85ec42650a4274f241127"
+    },
+    {
+      "source": "OpenAI-ChatGPT Work for Sales: Account Planning and Meeting Prep.txt",
+      "up_name": "OpenAI",
+      "title": "ChatGPT Work for Sales: Account Planning and Meeting Prep",
+      "repository_path": "subtitles/2026-09-05/OpenAI-ChatGPT Work for Sales: Account Planning and Meeting Prep.txt",
+      "format": "txt",
+      "size_bytes": 1918,
+      "sha256": "29ae8bef488ece4fbb4f308223abcd502fff3df736e3e3e9ac2c1829dfb11866"
+    },
+    {
+      "source": "OpenAI-ChatGPT Work for Sales: Account Research and Customer Outreach.txt",
+      "up_name": "OpenAI",
+      "title": "ChatGPT Work for Sales: Account Research and Customer Outreach",
+      "repository_path": "subtitles/2026-09-05/OpenAI-ChatGPT Work for Sales: Account Research and Customer Outreach.txt",
+      "format": "txt",
+      "size_bytes": 2194,
+      "sha256": "4392eee80ec883292f9b43ef15b88bc3881d49129f1fcc7cf7733bf1bb9476de"
+    },
+    {
+      "source": "OpenAI-ChatGPT Work for Sales: Pipeline and Forecast Intelligence.txt",
+      "up_name": "OpenAI",
+      "title": "ChatGPT Work for Sales: Pipeline and Forecast Intelligence",
+      "repository_path": "subtitles/2026-09-05/OpenAI-ChatGPT Work for Sales: Pipeline and Forecast Intelligence.txt",
+      "format": "txt",
+      "size_bytes": 2378,
+      "sha256": "36d2a5f7e41c494dfb29e70762870d9ed2e0711917cdfa2be8ab25cd607e8803"
+    },
+    {
+      "source": "OpenAI-ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders.txt",
+      "up_name": "OpenAI",
+      "title": "ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders",
+      "repository_path": "subtitles/2026-09-05/OpenAI-ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders.txt",
+      "format": "txt",
+      "size_bytes": 2745,
+      "sha256": "57dff328116cb8225778be492a8bc3451df600fbab5577de216ece380e694722"
+    },
+    {
+      "source": "OpenAI-ChatGPT can now complete tasks on your computer.txt",
+      "up_name": "OpenAI",
+      "title": "ChatGPT can now complete tasks on your computer",
+      "repository_path": "subtitles/2026-09-05/OpenAI-ChatGPT can now complete tasks on your computer.txt",
+      "format": "txt",
+      "size_bytes": 1373,
+      "sha256": "7b01f11528aa79b24df8e48c07b9902ba581d3683ecf695a8873217956e889b0"
+    },
+    {
+      "source": "OpenAI-Codex, but make it weird. Hahahacks..txt",
+      "up_name": "OpenAI",
+      "title": "Codex, but make it weird. Hahahacks.",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Codex, but make it weird. Hahahacks..txt",
+      "format": "txt",
+      "size_bytes": 1378,
+      "sha256": "85d3858a2981586b25356fb940b15fef159733d4dfad7b23229612def33c22b9"
+    },
+    {
+      "source": "OpenAI-Computer History in ChatGPT.txt",
+      "up_name": "OpenAI",
+      "title": "Computer History in ChatGPT",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Computer History in ChatGPT.txt",
+      "format": "txt",
+      "size_bytes": 3150,
+      "sha256": "5c9ad5b1a37de461a83138460936bcaed8f7503e56daec78e13b062000c8918e"
+    },
+    {
+      "source": "OpenAI-Create Slides, Docs, and Templates.txt",
+      "up_name": "OpenAI",
+      "title": "Create Slides, Docs, and Templates",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Create Slides, Docs, and Templates.txt",
+      "format": "txt",
+      "size_bytes": 2906,
+      "sha256": "f309c21e23769eab446cbfd5cca4ac465c298ef4ce2cb071bfac5a0a7c70c5b2"
+    },
+    {
+      "source": "OpenAI-First impressions of GPT-6 Astra from developers.txt",
+      "up_name": "OpenAI",
+      "title": "First impressions of GPT-6 Astra from developers",
+      "repository_path": "subtitles/2026-09-05/OpenAI-First impressions of GPT-6 Astra from developers.txt",
+      "format": "txt",
+      "size_bytes": 2578,
+      "sha256": "8c69fc92abc14c4aa4f668ff70c9238c81be9768b56dff669d101cdf999b9b5c"
+    },
+    {
+      "source": "OpenAI-From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France.txt",
+      "up_name": "OpenAI",
+      "title": "From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France",
+      "repository_path": "subtitles/2026-09-05/OpenAI-From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France.txt",
+      "format": "txt",
+      "size_bytes": 1610,
+      "sha256": "5cdd8522edf74dedf81166da4fc646a177c02e11d0432e6f6f7074b7a03a44cc"
+    },
+    {
+      "source": "OpenAI-GPT-6 Astra with Ben Davis.txt",
+      "up_name": "OpenAI",
+      "title": "GPT-6 Astra with Ben Davis",
+      "repository_path": "subtitles/2026-09-05/OpenAI-GPT-6 Astra with Ben Davis.txt",
+      "format": "txt",
+      "size_bytes": 2613,
+      "sha256": "ce2a66bb39285ea74d9383a9407646776692f965d52efdedfc1f10a184fc7d4c"
+    },
+    {
+      "source": "OpenAI-Get a daily CFO briefing with ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "Get a daily CFO briefing with ChatGPT Work",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Get a daily CFO briefing with ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 1829,
+      "sha256": "b5060d0c436ec41894f04f0c878f71b0c8402160d4fb7fa910587ca9365a1882"
+    },
+    {
+      "source": "OpenAI-Getting Started with ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "Getting Started with ChatGPT Work",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Getting Started with ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 3463,
+      "sha256": "a13940cac4accfa2e90bda34efcb3a1ce75608aa8846439dfebc9cf9aa3201e0"
+    },
+    {
+      "source": "OpenAI-How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful.txt",
+      "up_name": "OpenAI",
+      "title": "How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful.txt",
+      "format": "txt",
+      "size_bytes": 1641,
+      "sha256": "75f9a73ba69011287b5f762f32d388805788770631c0217060763b9b301717b2"
+    },
+    {
+      "source": "OpenAI-How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum.txt",
+      "up_name": "OpenAI",
+      "title": "How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum.txt",
+      "format": "txt",
+      "size_bytes": 35497,
+      "sha256": "6254c473095abef4a34720482cae5f99eccf0e9df4dcbce427d50218252e57b9"
+    },
+    {
+      "source": "OpenAI-How BNY CEO Robin Vince Turns AI Optimism Into Action.txt",
+      "up_name": "OpenAI",
+      "title": "How BNY CEO Robin Vince Turns AI Optimism Into Action",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How BNY CEO Robin Vince Turns AI Optimism Into Action.txt",
+      "format": "txt",
+      "size_bytes": 1487,
+      "sha256": "a8be5f57a0de8cd2e071abe21aed244fdacc2ae82122770568521ea8e23f9562"
+    },
+    {
+      "source": "OpenAI-How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens.txt",
+      "up_name": "OpenAI",
+      "title": "How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens.txt",
+      "format": "txt",
+      "size_bytes": 1182,
+      "sha256": "047277f552f7f9a43f595ed5f8a0019b683c8f89be426170e17697708ce37c20"
+    },
+    {
+      "source": "OpenAI-How California Small Businesses Are Using ChatGPT | OpenAI Academy.txt",
+      "up_name": "OpenAI",
+      "title": "How California Small Businesses Are Using ChatGPT | OpenAI Academy",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How California Small Businesses Are Using ChatGPT | OpenAI Academy.txt",
+      "format": "txt",
+      "size_bytes": 1490,
+      "sha256": "9e2f249d00f31f5d65b622cbec3f2cdefe3dab861f37038681ecd5b55a9306d3"
+    },
+    {
+      "source": "OpenAI-How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic.txt",
+      "up_name": "OpenAI",
+      "title": "How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic.txt",
+      "format": "txt",
+      "size_bytes": 1151,
+      "sha256": "3437dd2ea006c6a2a0f9c89e3b7d7dc8926738bacf3ab10d75c8e8a5c77303b5"
+    },
+    {
+      "source": "OpenAI-How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy.txt",
+      "up_name": "OpenAI",
+      "title": "How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy.txt",
+      "format": "txt",
+      "size_bytes": 1052,
+      "sha256": "afb1406ddc557122f92edbc843d01ec2db447beac71ad9f1d82c945f80819ce6"
+    },
+    {
+      "source": "OpenAI-How IT Admins can manage ChatGPT Work at scale | OpenAI.txt",
+      "up_name": "OpenAI",
+      "title": "How IT Admins can manage ChatGPT Work at scale | OpenAI",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How IT Admins can manage ChatGPT Work at scale | OpenAI.txt",
+      "format": "txt",
+      "size_bytes": 1750,
+      "sha256": "3d67c1e879d94023ab72dde9839465ad2512a64252b5807d34202369b55ad823"
+    },
+    {
+      "source": "OpenAI-How Model ML Uses GPT-5.6 Sol to Get Finance Work Done More Efficiently.txt",
+      "up_name": "OpenAI",
+      "title": "How Model ML Uses GPT-5.6 Sol to Get Finance Work Done More Efficiently",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How Model ML Uses GPT-5.6 Sol to Get Finance Work Done More Efficiently.txt",
+      "format": "txt",
+      "size_bytes": 1618,
+      "sha256": "73946091a88276c0d05be501836c50d4b40cdb4e3f880741949ebda3056fc148"
+    },
+    {
+      "source": "OpenAI-How Shopify Uses ChatGPT Work to Build Faster with AI Agents.txt",
+      "up_name": "OpenAI",
+      "title": "How Shopify Uses ChatGPT Work to Build Faster with AI Agents",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How Shopify Uses ChatGPT Work to Build Faster with AI Agents.txt",
+      "format": "txt",
+      "size_bytes": 1144,
+      "sha256": "e883c796834d0f49ea311bda2ce4e4c7cec5642a0daa19e4e04a83001925c895"
+    },
+    {
+      "source": "OpenAI-How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours.txt",
+      "up_name": "OpenAI",
+      "title": "How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours.txt",
+      "format": "txt",
+      "size_bytes": 1022,
+      "sha256": "0b61aa98b8d3d9f37c9f955afb66b0b955d9e7d78b0ff3c0fa6a1741e1db8b6c"
+    },
+    {
+      "source": "OpenAI-How to Build a Personalized Meal Planner with ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "How to Build a Personalized Meal Planner with ChatGPT Work",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How to Build a Personalized Meal Planner with ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 1734,
+      "sha256": "6ed2aca28fcedbf73a0ef5773333b38d8ce5d5c8a737d2b9e2c9a0d7816d49dd"
+    },
+    {
+      "source": "OpenAI-How to Create a Solid Blog Draft With ChatGPT Work | Tutorial.txt",
+      "up_name": "OpenAI",
+      "title": "How to Create a Solid Blog Draft With ChatGPT Work | Tutorial",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How to Create a Solid Blog Draft With ChatGPT Work | Tutorial.txt",
+      "format": "txt",
+      "size_bytes": 2807,
+      "sha256": "d109c8319797d2106410944aba2fd0647ef98303d433c17effebd0a7e1b2f9ba"
+    },
+    {
+      "source": "OpenAI-How to Manage Your Workspace With ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "How to Manage Your Workspace With ChatGPT Work",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How to Manage Your Workspace With ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 2376,
+      "sha256": "153a646a4a8d331a37492d30327723423815feb4c294b5072a53ebeb4c396920"
+    },
+    {
+      "source": "OpenAI-How to Prepare for Customer Meetings With ChatGPT Work | Tutorial.txt",
+      "up_name": "OpenAI",
+      "title": "How to Prepare for Customer Meetings With ChatGPT Work | Tutorial",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How to Prepare for Customer Meetings With ChatGPT Work | Tutorial.txt",
+      "format": "txt",
+      "size_bytes": 1718,
+      "sha256": "b14772152e789a38104fbefeb182d440c66fc5ba3007403d572a35ef2ce3ba7e"
+    },
+    {
+      "source": "OpenAI-How to Schedule a Weekly Metrics Report With ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "How to Schedule a Weekly Metrics Report With ChatGPT Work",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How to Schedule a Weekly Metrics Report With ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 1644,
+      "sha256": "93caa73a70af04e1b622c21647bfb106f105a072a29b7e29a4ed69c9334490b0"
+    },
+    {
+      "source": "OpenAI-How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial.txt",
+      "up_name": "OpenAI",
+      "title": "How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial.txt",
+      "format": "txt",
+      "size_bytes": 1528,
+      "sha256": "b7ba5e484ece89e73b444fbbb48b03096e24b06cfc2d9afb238f91ba70bc6980"
+    },
+    {
+      "source": "OpenAI-How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work",
+      "repository_path": "subtitles/2026-09-05/OpenAI-How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 1645,
+      "sha256": "b9c776db3ea8a44196721772ee7008938e47b52a54456caa9db8301b73332e4c"
+    },
+    {
+      "source": "OpenAI-Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals.txt",
+      "up_name": "OpenAI",
+      "title": "Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals.txt",
+      "format": "txt",
+      "size_bytes": 4030,
+      "sha256": "025d2a628eeb0538ded4812605837ebfc88f3db11f3eb6af8faaf57530806122"
+    },
+    {
+      "source": "OpenAI-Introducing Agent Plugins.txt",
+      "up_name": "OpenAI",
+      "title": "Introducing Agent Plugins",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Introducing Agent Plugins.txt",
+      "format": "txt",
+      "size_bytes": 1501,
+      "sha256": "afc5859edfe449600b88746550b567974a0b5c71b251541cb3f8c9fae73beae4"
+    },
+    {
+      "source": "OpenAI-Introducing GPT-6 Astra for developers.txt",
+      "up_name": "OpenAI",
+      "title": "Introducing GPT-6 Astra for developers",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Introducing GPT-6 Astra for developers.txt",
+      "format": "txt",
+      "size_bytes": 3641,
+      "sha256": "568b0c6b452ee30633c96d6cb292e7d12957d02179891c7a860f14e6fba57fbd"
+    },
+    {
+      "source": "OpenAI-Introducing GPT-6 Astra: the most intelligent and aligned model in the world..txt",
+      "up_name": "OpenAI",
+      "title": "Introducing GPT-6 Astra: the most intelligent and aligned model in the world.",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Introducing GPT-6 Astra: the most intelligent and aligned model in the world..txt",
+      "format": "txt",
+      "size_bytes": 2109,
+      "sha256": "8d77399dff8ac9f191f40c39480a687abf2a24cd9e4c2792bab7cb8316a3dd18"
+    },
+    {
+      "source": "OpenAI-Introducing gpt-transcribe and gpt-live-transcribe.txt",
+      "up_name": "OpenAI",
+      "title": "Introducing gpt-transcribe and gpt-live-transcribe",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Introducing gpt-transcribe and gpt-live-transcribe.txt",
+      "format": "txt",
+      "size_bytes": 2200,
+      "sha256": "f5c18e83b77c243256e2f00fd9454632178cc990e7edb0b7a71c4be47db63f00"
+    },
+    {
+      "source": "OpenAI-Meet Birding Pal.txt",
+      "up_name": "OpenAI",
+      "title": "Meet Birding Pal",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Meet Birding Pal.txt",
+      "format": "txt",
+      "size_bytes": 426,
+      "sha256": "e3ef53b93b0ba4adc17ab7166bab85b8aa8ab84997849cec5324fb182c7515c5"
+    },
+    {
+      "source": "OpenAI-Mochi.txt",
+      "up_name": "OpenAI",
+      "title": "Mochi",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Mochi.txt",
+      "format": "txt",
+      "size_bytes": 129,
+      "sha256": "4b059fc6ca4e4b061a8d60ff7f6e14da727c3f779771ec816c3b2610d1c13ce9"
+    },
+    {
+      "source": "OpenAI-Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora.txt",
+      "up_name": "OpenAI",
+      "title": "Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora.txt",
+      "format": "txt",
+      "size_bytes": 1801,
+      "sha256": "5c70d8e10b8650ccb459991fad6906abc5459022ef81a66e3aec72ecc3f9245f"
+    },
+    {
+      "source": "OpenAI-Plugins & Skills.txt",
+      "up_name": "OpenAI",
+      "title": "Plugins & Skills",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Plugins & Skills.txt",
+      "format": "txt",
+      "size_bytes": 2380,
+      "sha256": "9b2c5829b9f074096a9567429f12b11d0811d9c36bffd25b53547c00669618ad"
+    },
+    {
+      "source": "OpenAI-Plugins in ChatGPT.txt",
+      "up_name": "OpenAI",
+      "title": "Plugins in ChatGPT",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Plugins in ChatGPT.txt",
+      "format": "txt",
+      "size_bytes": 1882,
+      "sha256": "90b5bbca75889085f15ab4e4a52d59dc113417088c14207a8cd734705f41a8ac"
+    },
+    {
+      "source": "OpenAI-Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed.txt",
+      "up_name": "OpenAI",
+      "title": "Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed.txt",
+      "format": "txt",
+      "size_bytes": 1731,
+      "sha256": "8517e29d053ed11ba6e1edb5c2a63b02be4af2da6775f854f1a0c090c2892b15"
+    },
+    {
+      "source": "OpenAI-Reconcile quarter-end financials with ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "Reconcile quarter-end financials with ChatGPT Work",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Reconcile quarter-end financials with ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 1460,
+      "sha256": "22120f2c37cc3e7598ddaf7169f08620e3e83e73753bc68b330c0e5ddb4d8da6"
+    },
+    {
+      "source": "OpenAI-Retirement.txt",
+      "up_name": "OpenAI",
+      "title": "Retirement",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Retirement.txt",
+      "format": "txt",
+      "size_bytes": 280,
+      "sha256": "35af7e08685aa3b255108785daebdd6ae265b51c61552e8519a8c1ebf46d36a0"
+    },
+    {
+      "source": "OpenAI-Scheduled Tasks.txt",
+      "up_name": "OpenAI",
+      "title": "Scheduled Tasks",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Scheduled Tasks.txt",
+      "format": "txt",
+      "size_bytes": 1668,
+      "sha256": "0d47c55bec54f03e5930875cab07923ed47ee5883833b0f9e16f4232f7dd1f1d"
+    },
+    {
+      "source": "OpenAI-Science Class.txt",
+      "up_name": "OpenAI",
+      "title": "Science Class",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Science Class.txt",
+      "format": "txt",
+      "size_bytes": 143,
+      "sha256": "d8d3af4e2fbc9d58cee6ec8c4aca506e9c6da77682bc1fef55bee649f8b70c5e"
+    },
+    {
+      "source": "OpenAI-Soccer.txt",
+      "up_name": "OpenAI",
+      "title": "Soccer",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Soccer.txt",
+      "format": "txt",
+      "size_bytes": 231,
+      "sha256": "cab8e9a9d95d68c6767fdcf6ff0dbbb2ffc39303c4f23a3029f8bc0c6173c2e8"
+    },
+    {
+      "source": "OpenAI-Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France.txt",
+      "up_name": "OpenAI",
+      "title": "Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France.txt",
+      "format": "txt",
+      "size_bytes": 1595,
+      "sha256": "0ec9ee6bd4747c87868ad83a561a201d235e249ed39535a351d0d8ff2780d282"
+    },
+    {
+      "source": "OpenAI-Talk to ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "Talk to ChatGPT Work",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Talk to ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 2023,
+      "sha256": "dc2b701fdbf2914180054fc79cf8370b40c0dae6a6a2d1094c74a1ca68e18824"
+    },
+    {
+      "source": "OpenAI-Tennis.txt",
+      "up_name": "OpenAI",
+      "title": "Tennis",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Tennis.txt",
+      "format": "txt",
+      "size_bytes": 213,
+      "sha256": "600b55a35b08df5c5e4aeb323db70c62a2f7cde713f091764848ee0047996433"
+    },
+    {
+      "source": "OpenAI-The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France.txt",
+      "up_name": "OpenAI",
+      "title": "The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France",
+      "repository_path": "subtitles/2026-09-05/OpenAI-The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France.txt",
+      "format": "txt",
+      "size_bytes": 706,
+      "sha256": "0698145cdc95552dc9352091ccb2abc70710b3845b80764ea2c06a5c7587739d"
+    },
+    {
+      "source": "OpenAI-Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France.txt",
+      "up_name": "OpenAI",
+      "title": "Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France.txt",
+      "format": "txt",
+      "size_bytes": 1345,
+      "sha256": "e1ed734d31d0b271d4b3b48ead7c62123af05a9df7eefbe6d24d92db84c416c7"
+    },
+    {
+      "source": "OpenAI-Use ChatGPT Images to explore campaign concepts.txt",
+      "up_name": "OpenAI",
+      "title": "Use ChatGPT Images to explore campaign concepts",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Use ChatGPT Images to explore campaign concepts.txt",
+      "format": "txt",
+      "size_bytes": 2360,
+      "sha256": "c10b5989faecdc64966896a4d691c47f012d3c6950f73cd098b3613422cfbdb8"
+    },
+    {
+      "source": "OpenAI-Use ChatGPT Work on Your Phone.txt",
+      "up_name": "OpenAI",
+      "title": "Use ChatGPT Work on Your Phone",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Use ChatGPT Work on Your Phone.txt",
+      "format": "txt",
+      "size_bytes": 2399,
+      "sha256": "980b28d96ba6dc0c0de0969a3cb42ae1ddc40c9309c9e834032c3d81ced8ada0"
+    },
+    {
+      "source": "OpenAI-Use ChatGPT Work to analyze ad performance and refine creative.txt",
+      "up_name": "OpenAI",
+      "title": "Use ChatGPT Work to analyze ad performance and refine creative",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Use ChatGPT Work to analyze ad performance and refine creative.txt",
+      "format": "txt",
+      "size_bytes": 3058,
+      "sha256": "1fbc5798b4ce84c9ff9c3e6f9e3b4dbacf251316debbe0e425de9fa15a81d298"
+    },
+    {
+      "source": "OpenAI-Use ChatGPT Work to build custom creative tools.txt",
+      "up_name": "OpenAI",
+      "title": "Use ChatGPT Work to build custom creative tools",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Use ChatGPT Work to build custom creative tools.txt",
+      "format": "txt",
+      "size_bytes": 3217,
+      "sha256": "f4d96d3536ab7358299b0f0c81f27d23af19f9a90a10de6eb79ff12ddf83a602"
+    },
+    {
+      "source": "OpenAI-Use ChatGPT Work to build custom forecasting apps.txt",
+      "up_name": "OpenAI",
+      "title": "Use ChatGPT Work to build custom forecasting apps",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Use ChatGPT Work to build custom forecasting apps.txt",
+      "format": "txt",
+      "size_bytes": 2610,
+      "sha256": "9553bffc37ae8f2e3b501075cd71f5d67f22e5548aa43afccdcd8705558cc481"
+    },
+    {
+      "source": "OpenAI-Use ChatGPT Work to create campaign emails.txt",
+      "up_name": "OpenAI",
+      "title": "Use ChatGPT Work to create campaign emails",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Use ChatGPT Work to create campaign emails.txt",
+      "format": "txt",
+      "size_bytes": 3350,
+      "sha256": "c86c6ea2dfed7c546d14799790bb2e16fd05a604a1da812d85f6ac0622159118"
+    },
+    {
+      "source": "OpenAI-Use ChatGPT Work to deliver board-ready reporting.txt",
+      "up_name": "OpenAI",
+      "title": "Use ChatGPT Work to deliver board-ready reporting",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Use ChatGPT Work to deliver board-ready reporting.txt",
+      "format": "txt",
+      "size_bytes": 2786,
+      "sha256": "009bf9d7efbab7690e1e739301f7d65d98648802e2f93fdaf11a43ef7709ac2c"
+    },
+    {
+      "source": "OpenAI-Use ChatGPT Work to pressure-test marketing campaign briefs.txt",
+      "up_name": "OpenAI",
+      "title": "Use ChatGPT Work to pressure-test marketing campaign briefs",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Use ChatGPT Work to pressure-test marketing campaign briefs.txt",
+      "format": "txt",
+      "size_bytes": 2965,
+      "sha256": "8daa8d0055cadf14c7ee1a200adde335b688f83c9e767d8383a009fd4453998f"
+    },
+    {
+      "source": "OpenAI-Use ChatGPT Work to turn marketing ideas into finished work.txt",
+      "up_name": "OpenAI",
+      "title": "Use ChatGPT Work to turn marketing ideas into finished work",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Use ChatGPT Work to turn marketing ideas into finished work.txt",
+      "format": "txt",
+      "size_bytes": 3121,
+      "sha256": "80234c22090da6e2093145d672ea56d3d0eb5f048098b646836867ffea68e228"
+    },
+    {
+      "source": "OpenAI-Use Your Computer and Browser.txt",
+      "up_name": "OpenAI",
+      "title": "Use Your Computer and Browser",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Use Your Computer and Browser.txt",
+      "format": "txt",
+      "size_bytes": 2912,
+      "sha256": "6bd7b625bfda9c439293029aa62e11adc65db9183c56cb6db99ec63cec2338f8"
+    },
+    {
+      "source": "OpenAI-Using Voice in ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "Using Voice in ChatGPT Work",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Using Voice in ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 3435,
+      "sha256": "0e4f7be1defa00048575265a1c81206c7813c8e6646c1116a40e1993149e6954"
+    },
+    {
+      "source": "OpenAI-We're giving 100,000 academic researchers free access to our frontier models.txt",
+      "up_name": "OpenAI",
+      "title": "We're giving 100,000 academic researchers free access to our frontier models",
+      "repository_path": "subtitles/2026-09-05/OpenAI-We're giving 100,000 academic researchers free access to our frontier models.txt",
+      "format": "txt",
+      "size_bytes": 4128,
+      "sha256": "5f48ca314b55285da74241eadac983bf035cb51f077095b3ab774ad2d72c8396"
+    },
+    {
+      "source": "OpenAI-What Codex Unlocks for loveholidays.txt",
+      "up_name": "OpenAI",
+      "title": "What Codex Unlocks for loveholidays",
+      "repository_path": "subtitles/2026-09-05/OpenAI-What Codex Unlocks for loveholidays.txt",
+      "format": "txt",
+      "size_bytes": 3473,
+      "sha256": "6b58b689759c247a16a659f57df21c3113135bf6d8f416fb8005c45668c7a2bb"
+    },
+    {
+      "source": "OpenAI-What racing reveals about working with AI — the OpenAI Podcast Ep. 22.txt",
+      "up_name": "OpenAI",
+      "title": "What racing reveals about working with AI — the OpenAI Podcast Ep. 22",
+      "repository_path": "subtitles/2026-09-05/OpenAI-What racing reveals about working with AI — the OpenAI Podcast Ep. 22.txt",
+      "format": "txt",
+      "size_bytes": 38013,
+      "sha256": "8c309b305f520bd1fc6ac09d56e5619f8c9f8a0380917308329d63733ed61ba8"
+    },
+    {
+      "source": "OpenAI-Work with docs, sheets, and slides in ChatGPT.txt",
+      "up_name": "OpenAI",
+      "title": "Work with docs, sheets, and slides in ChatGPT",
+      "repository_path": "subtitles/2026-09-05/OpenAI-Work with docs, sheets, and slides in ChatGPT.txt",
+      "format": "txt",
+      "size_bytes": 1698,
+      "sha256": "89ed4189d3ea5e5a7f9491be056d44be8a79eeb81daba890ac5a3e127990aca1"
+    },
+    {
+      "source": "OpenAI-You can just finish the work | ChatGPT Work.txt",
+      "up_name": "OpenAI",
+      "title": "You can just finish the work | ChatGPT Work",
+      "repository_path": "subtitles/2026-09-05/OpenAI-You can just finish the work | ChatGPT Work.txt",
+      "format": "txt",
+      "size_bytes": 168,
+      "sha256": "56c430192083729b3a1fff3008525ff240b446a36c17288f90c1f957bbf3097e"
+    },
+    {
+      "source": "The AI Advantage-5 Skills That Make ChatGPT & Claude Better at Everything.txt",
+      "up_name": "The AI Advantage",
+      "title": "5 Skills That Make ChatGPT & Claude Better at Everything",
+      "repository_path": "subtitles/2026-09-05/The AI Advantage-5 Skills That Make ChatGPT & Claude Better at Everything.txt",
+      "format": "txt",
+      "size_bytes": 17615,
+      "sha256": "35973786ffc882984d087debc5e9bc70868f67e8b6b9212f854a68175fde1229"
+    },
+    {
+      "source": "The AI Advantage-ChatGPT Can Now See Everything You Do On Your Screen.txt",
+      "up_name": "The AI Advantage",
+      "title": "ChatGPT Can Now See Everything You Do On Your Screen",
+      "repository_path": "subtitles/2026-09-05/The AI Advantage-ChatGPT Can Now See Everything You Do On Your Screen.txt",
+      "format": "txt",
+      "size_bytes": 16482,
+      "sha256": "e37a909fba0943ba3f166b37c19860d86cc3192c5af15ee69df7acc6099d6756"
+    },
+    {
+      "source": "The AI Advantage-ChatGPT Plugins Finally Work!.txt",
+      "up_name": "The AI Advantage",
+      "title": "ChatGPT Plugins Finally Work!",
+      "repository_path": "subtitles/2026-09-05/The AI Advantage-ChatGPT Plugins Finally Work!.txt",
+      "format": "txt",
+      "size_bytes": 7107,
+      "sha256": "02c543d41c9966db1317a0d5825b0623ba18b2786198c9f0d0bb4ab2ef67fe46"
+    },
+    {
+      "source": "The AI Advantage-Claude Can Do So Much More For You Now....txt",
+      "up_name": "The AI Advantage",
+      "title": "Claude Can Do So Much More For You Now...",
+      "repository_path": "subtitles/2026-09-05/The AI Advantage-Claude Can Do So Much More For You Now....txt",
+      "format": "txt",
+      "size_bytes": 14555,
+      "sha256": "92937444e5e95dda11ce8d7436f38ee04a778383d33c5e9b85894186aa816554"
+    },
+    {
+      "source": "The AI Advantage-Claude vs. ChatGPT Just Got Serious.txt",
+      "up_name": "The AI Advantage",
+      "title": "Claude vs. ChatGPT Just Got Serious",
+      "repository_path": "subtitles/2026-09-05/The AI Advantage-Claude vs. ChatGPT Just Got Serious.txt",
+      "format": "txt",
+      "size_bytes": 13926,
+      "sha256": "179a9a22d4fb9ba057707755b957741c2070dcda6cf95bb5170d5ce059304794"
+    },
+    {
+      "source": "The AI Advantage-GPT-6 Astra: 20 Real Examples From Useful to Almost Impossible.txt",
+      "up_name": "The AI Advantage",
+      "title": "GPT-6 Astra: 20 Real Examples From Useful to Almost Impossible",
+      "repository_path": "subtitles/2026-09-05/The AI Advantage-GPT-6 Astra: 20 Real Examples From Useful to Almost Impossible.txt",
+      "format": "txt",
+      "size_bytes": 35491,
+      "sha256": "ec8f620a30ff82c7d44c71b8e2fbc5334c830eeff0e9149dd093c4bb5cc27364"
+    },
+    {
+      "source": "The AI Advantage-Google Just Made Tutoring Free for Everyone!.txt",
+      "up_name": "The AI Advantage",
+      "title": "Google Just Made Tutoring Free for Everyone!",
+      "repository_path": "subtitles/2026-09-05/The AI Advantage-Google Just Made Tutoring Free for Everyone!.txt",
+      "format": "txt",
+      "size_bytes": 8145,
+      "sha256": "27159dd6a0220d34c092fe7f4c81a6c74451302427c52ae58e6d14b008ce91be"
+    },
+    {
+      "source": "The AI Advantage-How to Set Up ChatGPT to Work Overnight in 7 Minutes.txt",
+      "up_name": "The AI Advantage",
+      "title": "How to Set Up ChatGPT to Work Overnight in 7 Minutes",
+      "repository_path": "subtitles/2026-09-05/The AI Advantage-How to Set Up ChatGPT to Work Overnight in 7 Minutes.txt",
+      "format": "txt",
+      "size_bytes": 9268,
+      "sha256": "29cc526d2e39753670ffbf1d7bc0cf776e3ecd9fc3184560cf3c5ed499ea15dc"
+    },
+    {
+      "source": "The AI Advantage-I'm Obsessed With New ChatGPT Voice.txt",
+      "up_name": "The AI Advantage",
+      "title": "I'm Obsessed With New ChatGPT Voice",
+      "repository_path": "subtitles/2026-09-05/The AI Advantage-I'm Obsessed With New ChatGPT Voice.txt",
+      "format": "txt",
+      "size_bytes": 20535,
+      "sha256": "6f5799b45440043b5292343cf023828cd2857d00c5aace18d06f116a7b5eb64e"
+    },
+    {
+      "source": "The AI Advantage-This New AI From SpaceX Is The Future (First Look).txt",
+      "up_name": "The AI Advantage",
+      "title": "This New AI From SpaceX Is The Future (First Look)",
+      "repository_path": "subtitles/2026-09-05/The AI Advantage-This New AI From SpaceX Is The Future (First Look).txt",
+      "format": "txt",
+      "size_bytes": 21769,
+      "sha256": "b6a9b992ae67403bdee5670289408439eb2c4cd5ccd0962c5ef5d3fff2f573e0"
+    },
+    {
+      "source": "The AI Advantage-This is How You Delegate to AI in 2026.txt",
+      "up_name": "The AI Advantage",
+      "title": "This is How You Delegate to AI in 2026",
+      "repository_path": "subtitles/2026-09-05/The AI Advantage-This is How You Delegate to AI in 2026.txt",
+      "format": "txt",
+      "size_bytes": 14923,
+      "sha256": "caf0dbdb49660d1eb4ab18f19f9e2a6c3c9a7e4f995fdb3d99d1bbb58b24d519"
+    },
+    {
+      "source": "The AI Advantage-You Have to Try the New ChatGPT Voice!.txt",
+      "up_name": "The AI Advantage",
+      "title": "You Have to Try the New ChatGPT Voice!",
+      "repository_path": "subtitles/2026-09-05/The AI Advantage-You Have to Try the New ChatGPT Voice!.txt",
+      "format": "txt",
+      "size_bytes": 19437,
+      "sha256": "7537c998956fc415f40ce066bd9dc55b1b73997e9bcee7ab003a845bd166ea1a"
+    },
+    {
+      "source": "Theoretically Media-AI Film Just Hit A Landmark & Flux 3 Video Is Here!.txt",
+      "up_name": "Theoretically Media",
+      "title": "AI Film Just Hit A Landmark & Flux 3 Video Is Here!",
+      "repository_path": "subtitles/2026-09-05/Theoretically Media-AI Film Just Hit A Landmark & Flux 3 Video Is Here!.txt",
+      "format": "txt",
+      "size_bytes": 16821,
+      "sha256": "79be658c1493f1c6478272390e43ad8c6e73ae99acaf250bfe3a5e015ec3f674"
+    },
+    {
+      "source": "Theoretically Media-AI's Hardest Tool Just Killed The Hard Part!.txt",
+      "up_name": "Theoretically Media",
+      "title": "AI's Hardest Tool Just Killed The Hard Part!",
+      "repository_path": "subtitles/2026-09-05/Theoretically Media-AI's Hardest Tool Just Killed The Hard Part!.txt",
+      "format": "txt",
+      "size_bytes": 19869,
+      "sha256": "7957796f4bf3d7c0aa0547ae7d25605afb3435e6fb4eb0903d8d4331d9b3a829"
+    },
+    {
+      "source": "Theoretically Media-Fine. Let's Talk About Higgsfield..txt",
+      "up_name": "Theoretically Media",
+      "title": "Fine. Let's Talk About Higgsfield.",
+      "repository_path": "subtitles/2026-09-05/Theoretically Media-Fine. Let's Talk About Higgsfield..txt",
+      "format": "txt",
+      "size_bytes": 14220,
+      "sha256": "62cfd0f8e26d50a96bd925af869372fa0fbb3da64ae9232479544ea2c7afbd2f"
+    },
+    {
+      "source": "Theoretically Media-MiniMax Just Dropped a Open Source \"Seedance Killer\".txt",
+      "up_name": "Theoretically Media",
+      "title": "MiniMax Just Dropped a Open Source \"Seedance Killer\"",
+      "repository_path": "subtitles/2026-09-05/Theoretically Media-MiniMax Just Dropped a Open Source \"Seedance Killer\".txt",
+      "format": "txt",
+      "size_bytes": 19168,
+      "sha256": "27d6e510a9491a4eca4b9019b44284a56780accaf86bdda00877d35d0c8acee2"
+    },
+    {
+      "source": "Theoretically Media-Real-Time AI Video (FREE_Cheap!) & Seedance 2.5 Footage.txt",
+      "up_name": "Theoretically Media",
+      "title": "Real-Time AI Video (FREE/Cheap!) & Seedance 2.5 Footage",
+      "repository_path": "subtitles/2026-09-05/Theoretically Media-Real-Time AI Video (FREE_Cheap!) & Seedance 2.5 Footage.txt",
+      "format": "txt",
+      "size_bytes": 15721,
+      "sha256": "204c891ca6bca7c0815b972a8129efb08f169d8292c176d7754546233338de0e"
+    },
+    {
+      "source": "Theoretically Media-Seedance 2.5 Masterclass & Early Review.txt",
+      "up_name": "Theoretically Media",
+      "title": "Seedance 2.5 Masterclass & Early Review",
+      "repository_path": "subtitles/2026-09-05/Theoretically Media-Seedance 2.5 Masterclass & Early Review.txt",
+      "format": "txt",
+      "size_bytes": 14756,
+      "sha256": "143b404c69846c2ccebe070644916201f458654641373200fd08479eae4d773a"
+    },
+    {
+      "source": "Theoretically Media-Seedream 5.0 Tested & Seedance 2.5 Leaks Are Unreal!.txt",
+      "up_name": "Theoretically Media",
+      "title": "Seedream 5.0 Tested & Seedance 2.5 Leaks Are Unreal!",
+      "repository_path": "subtitles/2026-09-05/Theoretically Media-Seedream 5.0 Tested & Seedance 2.5 Leaks Are Unreal!.txt",
+      "format": "txt",
+      "size_bytes": 22382,
+      "sha256": "cdc93624b725573ef93be2df6662f31b0f6b05b8a2505688c32be66883e2341d"
+    },
+    {
+      "source": "Theoretically Media-The \"Secret\" to AI Character Sheets.txt",
+      "up_name": "Theoretically Media",
+      "title": "The \"Secret\" to AI Character Sheets",
+      "repository_path": "subtitles/2026-09-05/Theoretically Media-The \"Secret\" to AI Character Sheets.txt",
+      "format": "txt",
+      "size_bytes": 16976,
+      "sha256": "b5099fd6fd610eff8c4507a0702c10af2900bd580c0421f8e39b9befce9341e4"
+    },
+    {
+      "source": "Theoretically Media-The Best AI Short Film You'll See Today (Seedance 2.5).txt",
+      "up_name": "Theoretically Media",
+      "title": "The Best AI Short Film You'll See Today (Seedance 2.5)",
+      "repository_path": "subtitles/2026-09-05/Theoretically Media-The Best AI Short Film You'll See Today (Seedance 2.5).txt",
+      "format": "txt",
+      "size_bytes": 1184,
+      "sha256": "51f92af9cb73a5c485932e55af099f448b9b0d9da246a344806e0268f0acc79f"
+    },
+    {
+      "source": "Theoretically Media-Two NEW Mystery AI Video Models & A FREE Cinematic Library!.txt",
+      "up_name": "Theoretically Media",
+      "title": "Two NEW Mystery AI Video Models & A FREE Cinematic Library!",
+      "repository_path": "subtitles/2026-09-05/Theoretically Media-Two NEW Mystery AI Video Models & A FREE Cinematic Library!.txt",
+      "format": "txt",
+      "size_bytes": 13454,
+      "sha256": "a464b089dce8a816d1b00ff41688c53c2b8c10879202a149ed05260b15066e64"
+    }
+  ]
+}

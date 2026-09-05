@@ -1,0 +1,56 @@
+UP主：OpenAI
+标题：Talk to ChatGPT Work
+链接：https://www.youtube.com/watch?v=DLcQSp_CIIc
+
+Can you help me knock out some of my to-dos?
+And can you put on some music?
+You can already talk to ChatGPT using Voice.
+But when you use it in ChatGPT Work
+on your computer, it can actually start tasks
+and get things done.
+I start Voice from the Work tab
+in the ChatGPT desktop app.
+I can use the Voice button or a keyboard shortcut.
+I need your help working through a few things.
+Let's start with the Dev Day activation ideas.
+I've got a couple of ideas,
+and I'm hoping we can brainstorm together.
+One idea is controlling Codex from a Game Boy.
+Another is a booth where people use ChatGPT
+and image generation to design a custom T-shirt
+and get it printed right there.
+What do you think? Any other ideas?
+Those are all strong.
+Game Boy Hack is surprising.
+The shirt booth is personal and the collaborative game
+gives a shared artifact.
+For that one, imagine a big screen showing
+a simple game that evolves all day.
+Each person uses Codex to add a character level sound,
+whatever, and it becomes this community built theme
+or a living digital mural that gets built piece by piece.
+I think it sounds really interesting.
+Could you start working on a visual pitch deck?
+Use the OpenAI Slides template and image generation
+to show what these concepts could look like.
+Keep working on it in the background
+while we move on.
+On it, let me take a first pass.
+Here, ChatGPT can start the task
+and use my connected tools,
+and I can keep using my computer.
+The Dev Day deck is ready.
+with seven image led slides
+shared game, custom shirt booth,
+Codex Game Boy, living mural, build relay,
+and a few more.
+Want me to pull it up?
+Yeah, pull it up.
+This version of Voice runs in the desktop app.
+To use it from my phone,
+I connect my phone via Remote,
+and then tap the button to trigger Voice.
+Can you show me the latest version of the presentation?
+Now I have a pitch deck, ready to go,
+just by talking it through.
+That's ChatGPT Work.

@@ -1,0 +1,371 @@
+UP主：Theoretically Media
+标题：Two NEW Mystery AI Video Models & A FREE Cinematic Library!
+链接：https://www.youtube.com/watch?v=YQTduCzNoqw
+
+And I'm back. And today we've got to
+look at two new mystery video models
+that will be releasing shortly. One of
+them is probably Meta, but it also could
+be anything from like Kling 4 to a new
+VO model or a dark horse that we're not
+even aware of yet. Plus, get your
+bookmarks ready because I've got a
+really handy resource for anyone that's
+making AI films. This one is for sure
+worth your time and has a hidden
+superpower I have not seen anywhere
+else.
+Kicking off, it looks like Meta is back
+on the menu. Again, maybe. But
+considering we've seen a flurry of
+activity from Zuck and Co, I am highly
+leaning towards one of these mystery
+models being from Meta. You know, most
+recently Meta's superintelligence labs,
+of course led by Alexander Wang,
+launched Muse Image. I took a look at
+that a few videos back and I you know, I
+found it to be a pretty good image
+model. And of course, more recently Zuck
+released Muse Glimmer, which was a 30B
+open-source agentic LLM along with the
+promise to open-source Muse Spark 1.2,
+which is their frontier model. But
+circling back to Muse Image, well, along
+with that release, there was the
+announcement that a video model was
+forthcoming. And I mean, to be honest, I
+think we're getting our first look at it
+because two new models have popped up on
+the Artificial Analysis leaderboards. Uh
+these were spotted by a friend of the
+channel, Brett Lynch, and they are code
+named Polaris and Vega. Now, while there
+is no official confirmation that either
+of these models are the new Meta video
+model, I mean, I can say they do sound
+like two Street Fighter villains. But
+between Meta and Kling, I mean, those
+are the two outstanding video models
+that everyone is still waiting on. And
+this doesn't look like Kling 4 to me.
+Now, there are some other possibilities,
+but we'll talk about that in a little
+bit. In the meantime, let's take a look
+at one of the outputs, starting with
+Polaris.
+>> And coordinates confirmed.
+>> So, yeah, pretty solid output there. I
+don't know why my guy is so concerned
+about, you know, forgetting six digits,
+but then again, if he's sweating that
+much, it must be a pretty high-pressure
+situation. Now, as a quick note, these
+are, of course, on the Artificial
+Analysis Arena, kind of randomly popping
+up. Currently, the only text to video
+has been appearing, and they are limited
+to 10 seconds with audio though, and
+coming in at 1080. But, going back to
+our sweaty pilot, we do, of course, have
+some garbled text over there on the name
+patch, but what is pretty impressive is
+that it is multi-shot, and as he writes
+down the numbers, uh we see on his hand
+there, they remain consistent in that
+multi-shot. So, and it does look like at
+the beginning when he writes down, yeah,
+he gets 14 down beforehand. So, uh yeah,
+decent consistency there. Moving on to
+another Polaris output, this one
+featuring a good boy.
+As always, I don't care if that dog is
+AI generated or not, it is a good boy.
+Once again, we get some pretty good
+prompt adherence here considering that
+the prompt uh calls out for the breath
+to be fogging around the nostrils and
+leaving a smear when it pulls away. So,
+it did catch that. If I'm going to dock
+points on anything here, it's that the
+the dog's nose isn't quite pushed up
+against the glass or like squished up
+against the glass like it should be. Uh
+and also, if you've ever had a dog that
+like obsessively, you know, puts his
+nose up against the window like I do,
+you know, it leaves a bigger mess than
+that. Another Polaris example here, this
+one showcasing a near disaster.
+>> Okay, ready? Unfurl.
+>> [music]
+>> Whoa!
+>> I got you. I got you.
+>> [laughter]
+[music]
+>> I love our college kids down there about
+to film a man's death, but not wasting
+the opportunity to hit the front-facing
+camera for a quick selfie. I'll say,
+physics-wise, this one does stand out to
+me. I mean, obviously, we're getting,
+you know, correct spelling on
+congratulations, graduates, but within
+the prompt, uh we have uh the call out
+that the wind catches it mid-unfurl,
+turning it into a sail that nearly lifts
+one worker off their feet. And look,
+that nearly off his feet line, I mean,
+like 8 months ago, that pretty much
+would have guaranteed he would have
+either been floating or he would have
+flown away. Now, again, we're not 100%
+sure that Polaris is meta, but I can
+tell you it is a dirty model, as we're
+going to see with Bat-baby.
+>> [music]
+>> Vengeance has a name, and its diaper
+needs to be changed. Look, there's no
+kind of like keywording your way around
+this one. This isn't like, you know,
+cartoon version of a dark
+vigilante-costumed
+hero. Like, the bat symbol is all over
+this. I will say it is a pretty adorable
+output, though. Bruce looks so cute. He
+I maybe he doesn't know that his parents
+are getting shot in that alley below
+him. Rounding out on Polaris, we have a
+rock climber while rock climbing.
+>> [sighs]
+[music]
+>> Pretty solid output. We get multi-shot
+of the same location. Character remains
+pretty consistent. The only minor
+quibble that I have is actually in this
+reach coming up right here. Like, yeah,
+right there.
+Essentially, his the the rock placement
+that he has here sort of vanishes when
+he reaches up. But again, you know,
+minor quibble. So, overall, I mean, I'm
+curious to see what Polaris is revealed
+to be. It does look like a very good
+model. Is it meta? Is it cling? Is it
+something else? I mean, I'll definitely
+be keeping an eye on it. Let me know
+what you think in the comments below.
+Now, Vega was the other model that
+popped up, and Artificial Analysis does
+seem to be a little more generous in
+doling out these outputs. And once
+again, this one looks very impressive.
+So, kicking our look at Vega off with a
+physics test in a hall of mirrors.
+>> [music]
+>> Can you read this?
+>> [music]
+>> I can read that and I'm also expecting
+your reflection to reach out and start
+choking you because I know how horror
+movies work. Interestingly, Vega also
+seems to be multilingual. In another
+output with a very similar concept, uh
+we got our guy speaking in Italian.
+>> Physics
+uh
+difficile.
+>> So, I presume that's correct Italian.
+Italian speakers, please let me know in
+the comments. Also, I you know, I kind
+of want a a shirt that says physics on
+the front and on the back. So, if you
+don't know where to find one of those,
+also let me know. Now, I will say it is
+kind of breaking my brain a little bit
+here trying to figure out if physics is
+correctly reversed across all of the
+various reflections, but what I will say
+is that I am very impressed with the
+fact that all of our reflections are
+lip-synced correctly to our Italian
+physicist as he says his lines. Uh all
+of the reflections move. Also, one of
+those reflections is totally going to
+kill him. Now, admittedly, while Vega
+seems to be handling text very well, it
+is definitely not perfect. For example,
+guy painting a sign on a storefront
+window.
+So, yeah, while very impressive in terms
+of the signage, uh the font, the
+consistency of the spelling, uh and the
+overall design, we do see a lot of
+pop-up text happening here. Uh that or
+our guy has a magic paintbrush, which
+definitely was not in the prompt. And
+finally, rounding out, we have the Vega
+version of the Polaris pilot, who seemed
+to have a glandular sweat problem.
+>> Okay, ready.
+>> So, comparing the two, I would
+definitely take the Polaris output over
+the Vega output. Um that said, I mean, I
+think the big takeaway here is that we
+can definitely see that they are two
+different model families. Who they are,
+we don't know yet, but I would
+definitely be surprised if one of them
+was not meta. Of our outstanding video
+models, of course, we we are still
+waiting on Kling 4. One of them could be
+a VO update potentially or again a dark
+horse that we we don't even know about.
+If you have any guesses or suspects, let
+me know in the comments. Moving on, get
+your bookmark shortcut ready to go
+because I've got a site for you that I
+think you're going to find tremendously
+helpful for your next AI film. So, this
+is Stills Lab, which is well, I mean,
+kind of what it sounds like. It's a
+collection of still frames from various
+films, TV shows, and music videos to be
+used as a resource.
+We took a look at something very similar
+to this called Shot Deck well, I mean, a
+number of videos back, but this one
+actually does have a bit of a secret
+power as well.
+So, let's take a look at well, Fear and
+Loathing. So, if we open this up,
+we can see obviously we have just a
+number of stills from the film itself.
+And what's handy is if you hop into any
+one of these,
+it's just filled with a lot of
+information, very useful information as
+well, including you know, the color
+palette with hex codes, the lenses used,
+the cameras used, all of which is of
+course really, really valuable for
+prompting. Now, there are a couple of
+different ways that you can go about
+utilizing a resource like this. You can
+of course just grab, you know, the shot
+itself and then bring that into GPT
+Image 2 or Nano Banana and manipulate
+from there. Or there's a method that I
+like to utilize. Oh, cool, Dark. Have
+you guys seen Dark by the way? If you
+haven't seen Dark, definitely see Dark.
+It's German, it's on Netflix. You will
+not regret it. Dark is amazing. So, the
+method that I like to utilize is we're
+just going to grab a random frame from
+Dark here.
+It's just go ahead and grab all of this
+information. You can just screenshot it,
+really. Now, you can do this anywhere.
+I'm just going to do this over on Flora
+because uh you know, just because of the
+canvas-based feature of all of this
+stuff, it makes it very easy for all of
+you guys to follow along with. But, you
+know, essentially we're just dropping
+our um our image, our screenshot, into
+here, and then uh Flora does have a
+like, you know, a number of LLMs that
+you can you can pop in. Um so, I'm using
+GPT 5.5 here. We just connect it in and
+just say, "Take the color information,
+uh you know, hex codes, and camera
+information from this shot and provide
+me with an image prompt." Uh and then
+from there, we can kick out to either
+like Nano Banana Pro or GPT Image 2 or
+whatever. Um and it just kind of it's
+not going to one-to-one everything, but
+it's going to get you essentially into
+the ballpark of that original shot. Now,
+to note, I I'm not a big fan of saying
+like recreate the shot. We're not
+recreating the shot, obviously, here.
+But, um you know, a lot of similarities
+kind of land. Now, another potential use
+case is that once again, we can take our
+screenshot here in like kind of this
+random image that was just on my
+desktop, a flamethrower girl sitting at
+the desk. Uh and then lead those two
+into just like a color saturation pass,
+essentially. Um so, yeah, very overall,
+very, very handy resource. Now, the
+thing that I have not seen anywhere else
+uh that Stills Lab has is this visual
+search, which allows you to upload an
+image and it kind of finds similar
+shots. So, for example, taking our uh
+FBI agent in a Pacific Northwest diner,
+it comes up with uh a number of shots
+that uh you know, kind of are within the
+same tone. So, West Side Story, uh which
+I'm sure is picking up on the uh the
+color palette there. Of course, the
+remake, not the original. Um let's see,
+Le- Legend. Oh, not not the Tom Cruise
+uh 1985 Ridley Scott movie. Uh I have
+not seen this. Um
+so, um Midnight in Paris, of course,
+probably picking up on the Adrien
+Brody-ness of our guy. Um but, yeah. So,
+pretty handy. So, what can you use this
+for? Well, to be honest, I mean, I'm
+still sort of racking my brain on this,
+but I see this as a ton of potential. Um
+you know, obviously, if I loaded in this
+uh kind of pirate punk uh image that I
+generated up, something I was kind of
+just kind of playing around with. You
+know, end up with results like Dunkirk,
+of course.
+Frankenstein, obviously the sunken boat.
+Some stuff from Shogun. And then I ended
+up running across this wood kid,
+Goliath. I'm not sure what that is. I'm
+going to have to look that up and check
+it out. But within this shot, of course
+now we have a bunch of other reference
+shots down here as well. So, I think
+that when you start digging in here, you
+start finding more potential, you know,
+inspiration and resources and you know,
+ideas for perhaps other shots or you
+know, color palettes that might be in
+the same vein. So, now we're at
+Chernobyl.
+So, yeah, there's a lot I think that we
+can do or a lot of a lot of interesting
+potential within this. And it's free.
+Well, free or $4 a month, which is still
+stupidly cheap. So, I definitely worth
+heading over and just creating at least
+a free account. At the very least, I
+mean scrolling through you're going to
+find some titles that you've never heard
+of that look pretty cool. So, you know,
+you have a new movie to watch as well.
+Though, if you haven't seen Dark,
+definitely go definitely watch Dark
+first.
+Yeah, so Stills Lab.
+Head over and pop it in your bookmarks.
+So, that's it for today. I'm still
+getting caught up on everything. Lots
+happened in the open source front. I've
+been playing around with both MiniMax H3
+and Kwen 3.8 plus LTX 2.5 came out and I
+still want to test that out. So,
+needless to say lots of open source
+coverage coming up. In the meantime, I
+thank you for watching. My name is Tim.

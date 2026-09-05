@@ -1,0 +1,79 @@
+UP主：OpenAI
+标题：Use ChatGPT Work to deliver board-ready reporting
+链接：https://www.youtube.com/watch?v=_HCks5jkPLw
+
+So, as you can see, I'm in the Chat GPT
+window right now. I'm going to navigate
+to the work tab here,
+and I'm going to get ready to get
+started with my audit work.
+So, I've got my quarter-end materials,
+revenue memo for my executives, a board
+package, as well as my financial
+model. What I'm doing right now is I'm
+using the plugins functionality to bring
+all that data right into Chat GPT work.
+So, I prompt.
+I say, "We just closed the quarter.
+Please review the latest financial
+materials housed in my Google Drive."
+And so, it's pulling all that context
+into Chat GPT work. And take a check
+against what's been posted in NetSuite
+in our underlying financial system.
+There's a lot of numbers, thousands of
+rows,
+you know, multiple tabs, and it's come
+up with two key critical issues, and
+giving me, unfortunately, a no-go
+decision. So, to my team, let's figure
+out how to fix this. The first issue it
+spotted is that NetSuite actually posted
+an update to the actuals in June. We're
+also showing an outdated forecast that's
+flowing through my my revenue memo what
+what versus what's housed in my model.
+What I like about this workflow is that
+Chat GPT helps guide me through how to
+fix these errors, edit it one by one.
+I can use the browser functionality
+embedded right within chat to open this
+up and send a note or comment to my team
+to ask them, "Please fix."
+And I can tab around each of the tabs
+that has have been impacted by this
+error.
+>> [gasps]
+>> A lot of these documents, of course, are
+pretty dense. Let's look at my memo that
+I prepared for my executives. This is 20
+pages long. Total a lot of text, very
+easy to miss a number in all this dense
+documentation, but Chat GPT actually
+goes ahead and sort of highlights the
+areas in red, so I know exactly where to
+update before I sort of press my
+updates.
+The cool thing about this is once I've
+gone through and sort of asked the team
+to send the updates, I can rerun this
+again and again, and and in minutes I'll
+get a quick answer in terms of if we're
+ready to send. But I think what it
+really gives me is the confidence to
+sort this. And I think that the thing
+about using these plugins is this
+example can actually be extended beyond
+this. So, think about, you know, my
+board deck, which is, you know, 34
+pages, getting slotted into a broader
+deck board deck with hundreds of pages.
+I can use the same skill to cross-check
+numbers, but also surface themes that
+might be sort of conflicting across the
+different documentations. So, it's a
+great skill to get started.
+And a really good one to just make sure
+we're confident in the numbers we're
+[clears throat] putting out there to the
+world.

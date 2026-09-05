@@ -1,0 +1,114 @@
+UP主：OpenAI
+标题：Introducing GPT-6 Astra for developers
+链接：https://www.youtube.com/watch?v=bOC3DisEOfg
+
+GPT-6 Astra is here.
+It's our latest frontier model
+and the best model in the world
+for tasks where raw intelligence matters.
+For my own projects, Astra feels like
+working with an experienced collaborator.
+I'm able to hand it bigger,
+less well-defined tasks
+with minimal handholding.
+And whether you're coding, writing,
+designing, or just working on things
+that require a little bit more
+intellectual horsepower, you'll
+find that Astra delivers great results,
+often on the first attempt.
+So let's talk about the model's new
+capabilities, starting with computer use.
+You might already be
+familiar with computer use.
+It's a capability that
+lets a model use a computer
+or browser like you or I would.
+With Astra, the model is more accurate
+and more efficient when using a computer.
+It's easiest to show this in the ChatGPT
+app, but Astra's improved skills
+are also available in the API.
+I'm going to have
+it illustrate where I'm standing.
+I'll take a photo, then
+send it to Codex to paint.
+Use Krita to paint this picture
+in the style of Van Gogh and add
+the Golden Gate Bridge in the background.
+Astra has to keep track
+of the picture I asked for while working
+through the app's controls.
+It's using screenshots to see what's
+happening while keeping the app
+in the background, meaning I
+can stay focused on other work.
+The model is able to paint a hopefully
+recognizable picture far faster and far
+better than I could have done.
+The same ability can help
+with the workflows developers use every
+day, whether you're filling out forms
+for an API key or performing
+QA on a mobile app.
+When it comes to creativity
+and knowledge work, we've also
+seen Astra produce significantly
+better outputs than previous models.
+We took several prompts of demos,
+games, and tools we've
+built with previous models and rebuilt
+them at different reasoning levels.
+Across the board,
+Astra has more attention to detail,
+better understanding of the user's prompt,
+and can build more sophisticated outputs.
+In particular, it excels
+at building 3D models.
+I've seen it make incredible renderings
+of gardens, shipyards, animals,
+cityscapes, even Dyson spheres.
+And in my own experience,
+I've found Astra's outputs,
+from slideshows to essays,
+significantly easier to read and work
+with than other models I've tried.
+Its personality feels more natural to me,
+especially in the back and forth
+when I'm giving it feedback.
+As you might expect,
+Astra excels at long-running tasks.
+And as you give models longer,
+more involved pieces of work, you
+need better ways to work with them.
+That's why we're bringing
+asynchronous tool calling
+and steering to the Responses API.
+First, async tools.
+With asynchronous tool calling, the model
+can keep working on other parts
+of a task while a tool call runs.
+When the results are available,
+it can use that information to continue.
+Steering lets you give the model
+new context or change its direction
+while a response is still in progress.
+If you view steering in Codex,
+this should feel familiar.
+Let's go ahead and give the model
+a task and then change what
+we're asking for while it's working.
+You can see it pick
+up my new instruction and adjust
+its next steps while the tool
+it already started continues running.
+I can change the direction
+without having to cancel the running
+tool or start the task over.
+And I get the final
+result with the new context incorporated.
+Astra is now available in ChatGPT,
+Codex, and the API.
+Try it on your most challenging tasks
+and take a close look at the results.
+Happy building.
