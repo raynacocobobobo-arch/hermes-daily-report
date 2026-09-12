@@ -1,0 +1,429 @@
+UP主：AI Engineer
+标题：500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents — Ajay Prakash, LinkedIn
+链接：https://www.youtube.com/watch?v=9wZpvF3QleU
+
+[music]
+Hey everyone, good morning. Uh
+thanks for being here. Uh I see people
+are still coming. Uh but yeah, my name
+is uh AJ and uh I am a software engineer
+at uh LinkedIn.
+Today I'm going to be talking about how
+we are doing context engineering to
+improve the performance of coding agents
+at LinkedIn.
+Okay. Uh imagine you are a software
+engineer in a big tech company and your
+products are being used by millions of
+users on a daily basis
+and you are happen to be on a team which
+owns set of very critical services and
+you are on call right and you get an
+alert saying that there is an error
+spike in one of your services
+and uh by the time you're trying to
+figure out how to deal with this issue,
+you take the link to the alert, give it
+to a coding agent like Cloud Code or
+GitHub Copilot.
+While you're trying to figure out um how
+to deal with the issue, uh the coding
+agent is working in the background, it
+will fetch the instructions on how to
+debug such issues in your company and
+identifies that based on that
+instruction, it identifies that this
+alert is happening in uh specific
+service. Then it fetches instruction and
+context on how to debug that particular
+service and it will fetch the based on
+those instructions it will take actions
+like fetching logs metrics and then it
+uses those logs to identify the root
+cause of the issue right so it
+identifies based on the error logs where
+the issue is happening and it doesn't
+just find the root cause it also figures
+out the steps to mitigate the issue and
+once it finds all the det details. It
+summarizes and give it to you saying
+this is this is the error and this is
+the issue and this is the actions that
+you need to take to mitigate. And once
+you confirm, it also goes ahead and
+takes those actions on your behalf to
+mitigate the issue.
+And it doesn't just stop there. Uh it
+updates your incident management system
+with all the details, error metrics and
+dashboards etc. and also it checks out
+the code and creates a PR for you uh to
+fix the root cause of the issue. All of
+this happens in matter of few minutes
+which would have easily taken few hours
+if you were to do it manually.
+This is not fiction. So this is how
+teams at LinkedIn are using coding
+agents as effective co-workers with deep
+understanding of LinkedIn's internal
+systems and code to help the teams be
+really productive.
+And this is possible because of a system
+that we built called as contextual agent
+playbooks and tools at LinkedIn. And
+today I'm going to talk about why we
+built the system, how we built it and
+what are our learnings from the success.
+To understand why we built the this
+system, we have to go back to the early
+days of coding agents, right? So just
+like any other company even at LinkedIn
+we wanted to use the coding agents to be
+for our engineers and everyone to be
+really productive with the AI.
+So we started using started giving this
+coding agents to all of the engineers
+and the problem was the coding agents
+doesn't really or the w coding doesn't
+really work in a large enterprise at
+link um like LinkedIn.
+So the biggest problem is the coding
+agent or the LLMs are trained on
+open-source repos right. So they don't
+have the context of how we our uh mature
+code bases at LinkedIn or our internal
+frameworks or internal systems.
+So what used to happen was the engineers
+used to do wipe code or try the agentic
+coding but because it the agents lacked
+context they used to hallucinate and
+like get stuck in between or uh even
+more dangerous they used to make up
+things which is not correct. So the
+engineers had to prompt these agents
+manually um to do the right thing which
+used to take more time than the manual
+coding itself. So a lot of people a lot
+of engineers went back to manual coding.
+So coding agents was not effective
+to understand the problem uh to get more
+perspective. So if you look at the
+LinkedIn stack, we have over thousand
+repos which make up thousands of uh
+microservices and apps
+and we have a lot of all of these apps
+and services are built on lot of
+internal frameworks and libraries
+and we also have a lot of custombuilt
+infra. For example, we have our own
+databases. We have our own
+experimentation and tracking platform.
+We have our own configuration management
+system which is purely internal to
+LinkedIn and coding agents doesn't have
+any idea about them
+and engineers go through a week-long
+boot camp whenever a new engineer joins.
+So uh just to get familiar with these
+systems.
+So
+we looked at this problem and we asked
+ourselves the question how can we make
+any coding agent like cursor or cloud
+code or uh GitHub copilot understand our
+LinkedIn's internal system so well that
+they can ship the code that our
+engineers can trust.
+By trust I mean the code should be
+correct and also the quality of the code
+should be as good as uh it is written by
+an actual engineer. So that is the bar
+we set out and wanted to figure out how
+do we get there.
+So in early 2025 uh last year so uh
+Anthropic released MCB and it it quickly
+became the standard for industry
+standard for building tools to the
+agents. We leveraged that and pretty
+early on we built our own internal MCP
+and the first tool that we built was uh
+code search.
+So we have a pretty sophisticated code
+search system at LinkedIn where you um
+engineers can go and search for code. It
+will ingest all of uh search for any
+code across thousands of repos using
+keywords and custom filters and rejects
+etc. So we made that available to the
+coding agents via MCP. This was a really
+powerful unlock because now you don't
+have to manually figure out how to do
+better search the agent. You ask a
+question. Hey, how do I set up a
+particular thing? And the agent can use
+the code search tools to figure out the
+right examples of how we do things at
+LinkedIn and use that to give you answer
+and also uh implement it based on the
+its findings. This was really powerful.
+So we added more tools. We added docs,
+uh, Jiraa, Slack, um, even connected to
+all of our data platforms and even
+feature flags. So every core tool that
+we added to our internal MCP it created
+more value by comp it it's almost like a
+compounding effect because now a
+engineer can bring in the PRDS product
+requirement documents and design docs
+and also their Jira tasks which has mult
+uh different context and use all this to
+give to the coding agent to automate
+their um or help with their coding.
+But there was a problem. So you connect
+all these tools but it's not enough
+right? So even with a slightly complex
+workflow the agents used to not do
+really well. The problem for example if
+you give a context it is uh with the
+tools the agent was able to answer
+questions answer basic questions and
+find code examples but it cannot do a
+like a complete job reliably end to end.
+The main problem was to do a specific
+job end to end it needs to have a lot of
+tribal knowledge right. So all of for
+example how to fix a particular error or
+how to uh configure how do you debug a
+particular um error log right so all of
+this knowledge even though you have
+access to the tools it is scattered
+across lot of different surfaces for
+example docs wikis and slack
+conversations
+um etc and most of the times you may
+have experienced the docs and wikis
+might be outdated written and there
+might be like duplicate get docs, right?
+So, the problem is the agents even
+though they have access to the tools,
+they used to get lost.
+The second problem was context overload.
+As agents use more and more tools,
+their context gets overloaded which
+means every tool uh tool output it takes
+up space in the context which will
+eventually cause the agent to compact
+its um while it is working compacts it
+its context which causes it to lose some
+of the information. Then it has to do
+all over again.
+And the third problem was even though
+even if the agent was able to figure out
+all these uh details it can it doesn't
+have a way to retain this information it
+doesn't have a a durable memory. So
+every time a engineer asks the uh agent
+to do a certain task they have to start
+from scratch.
+So how do we solve this problem? So we
+give this instructions right away right?
+So we built a system, we invented a
+system in early 2025 called as uh
+playbooks where we not only provide the
+tools to the agents via MCP, we also
+allow the agents to access these
+instructions and prompts via MCP. We
+call it playbooks. And playbook
+it just appears just like any other
+regular tool.
+uh and they have uh names and
+description on what it does and the
+agent can decide to invoke that playbook
+just like any other regular tool and
+when the uh playbook is invoked the
+instructions and the context within that
+playbook are returned as the tool output
+to the coding agent.
+So that way the agents have both tools
+as well as instructions on how to use
+tools to set up a or uh uh perform a
+task. Right? For example, uh if the uh
+engineer goes and ask like how do I set
+up a airflow DAG uh at LinkedIn? The
+agent will first decide okay so I have a
+playbook for creating um that specific
+task and it will use that first fet uh
+uses that playbook to get the
+information and then it calls the
+necessary uh follows that instructions
+and calls the relevant tools to get the
+job done. This was really powerful
+um mainly because now anyone at LinkedIn
+can go ahead and create a set up a
+playbook and check it into a repository
+and make it available for everyone else
+at LinkedIn.
+So as people started creating more
+playbooks so we wanted so this is um one
+of two foundational principles we want
+everyone to follow when creating a
+playbook. The first one is a playbook
+should be self-contained which means it
+should do a very specific task only um
+for example um if it is for setting up a
+airflow DAG it should be about the
+instruction and the construct should be
+about uh one specific task. This helps
+the agents pick the right playbook for
+the right task. And the second uh most
+important one is to break a big playbook
+into multiple smaller playbooks.
+So this has um and reference those
+smaller playbooks from a bigger
+playbook. This is a really powerful
+um principle because just like um so it
+has two main advantages, right? So the
+first one is uh reusability. So if you
+have a small self-contained playbooks,
+it can be used from multiple uh
+reference from multiple playbooks and if
+you um the another big advantage is
+progressive discovery of um context
+which means the agent only when it needs
+to read a smaller playbook instead of
+reading the entire all of the playbooks
+at once it can uh progressively go and
+read the playbooks as it wants. So this
+is the same concept as skills as well.
+So playbooks are very similar to uh
+skills but we developed this entire
+system around playbooks even before
+skills was a thing. And uh playbooks are
+a little bit more nuanced because it
+helps us um it helps us seamlessly
+capture all of the organizational
+context and service via MCP without much
+of a setup.
+And another cool thing about this
+playbooks is this self-improving loop.
+So u you have uh engineers creating
+these playbooks and checking into the
+repository. And one of the main problem
+with any knowledge base is it gets
+outdated. How do you uh the biggest
+problem is how do you keep the context
+fresh right? So great thing about agents
+is they can improvise.
+So we have we encourage the agents to
+whenever they use a particular playbook
+at the end of the session to identify
+the learnings. So any outdated
+information or any discrepancy or any
+missing information and we also
+encourage the agents to figure out how
+to improve the playbook and use that
+context to check it uh to update the
+playbooks check out the uh repository
+and update the playbooks and create a PR
+and that once it gets upload it gets uh
+the playbooks gets updated right this
+creates a really seamless flywheel of a
+self-arning loop.
+So what does the architecture of a MCP
+server looks like?
+So this particular system we have one
+local MCP server and it is automatically
+installed on all of the LinkedIn laptops
+by default. So if you join LinkedIn and
+you get a laptop, it is pre-installed
+and any updates to the uh MCP server or
+the playbooks or the tools, it
+automatically gets updated every 1 hour
+on all the laptops.
+And we have a concept of two local
+playbooks and central playbooks which
+means so central playbooks are the
+playbooks which are crosscutting um in
+nature, right? So you have um these
+playbooks apply for multiple uh
+repositories not just one uh code
+repository and then you have local
+playbooks where it these are the
+playbooks which are very specific to
+your code repository and you can just
+have them checked in with your repo um
+uh with your repo and when only when the
+coding agents are working in your repo
+those playbooks will be automatically
+picked up. So this helps us scale the
+local playbooks which are very specific
+to repo without having to worry about um
+uh changing the uh central repository
+and also this is one MCP server which is
+serving all of the uh playbooks and
+tools. So this man helps us do a lot of
+uh central things like seamless
+authentication, telemetry and u that we
+can use for learning to make the whole
+uh ecosystem better.
+You may be wondering like how many tools
+and playbooks it can support, right? Uh
+so this is a common problem with MCP. we
+cannot scale it beyond 30 or 40 tools
+without degrading the uh context or
+degrading the performance of the system.
+So what we do is instead of uh surfacing
+all of these playbooks and tools through
+MCP we replace them with three meta
+tools. So the first one is search. The
+agent first uses this tool to search for
+the relevant tools and playbooks using
+keywords and tags. U so we also control
+the system instructions. Um so every
+coding agent is preconfigured with
+system instruction on how to use these
+tools and how to use the search really
+efficiently. And once it finds the uh
+right set of tool or playbook, it can
+then get the more details about that
+particular tool using get schema and
+then execute that tool or uh playbook.
+So this has allowed us to scale uh to
+thousands of tools in playbook.
+Um so this is u the growth chart. So now
+we have over 8,000 users daily um using
+the system daily. using uh tools and
+playbooks. So we have over,300
+uh tools and over 600 uh playbooks
+and it's not not just engineering right.
+So it is uh not just engineers but also
+product managers, designers, uh TPMS. So
+across different functions they are
+using the tools and bringing their
+playbooks uh to automate their uh
+workflows.
+uh so I'll leave you with this takeaway
+uh key takeaways that can based on our
+learning the first one is the system was
+successful because we thought about
+quality and reliability uh from day one
+right so even uh before creating a MCP
+server uh we thought okay the our
+fundamental principle should be how do
+we ensure not just productivity but how
+do we ensure the quality and also
+reliability of the system so that it
+doesn't degrade um as we move fast.
+Uh and the second one was u the build
+the right infrastructure for agents. Uh
+in a large enterprise like LinkedIn,
+it's not enough just enough to give all
+of the engineers the all the latest and
+greatest tools and models. Uh these are
+they are not very effective if you don't
+build the right infrastructure for the
+agents to operate within your
+enterprise.
+Um yeah that's my time. Thank you for
+attending and feel free to connect with
+me on [applause] LinkedIn.

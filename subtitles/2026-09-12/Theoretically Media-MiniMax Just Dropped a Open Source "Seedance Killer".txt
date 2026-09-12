@@ -1,0 +1,526 @@
+UP主：Theoretically Media
+标题：MiniMax Just Dropped a Open Source "Seedance Killer"
+链接：https://www.youtube.com/watch?v=j2pRgZpFPCw
+
+Well, this is a surprise. HaiLu Mini Max
+have come roaring back on the scene with
+the long-awaited update to their video
+model, and it's pretty good. So, today
+we're going to dive in to see if the Max
+is back.
+>> Mini Max just launched H3, and people
+ARE SAYING IT'S A SEA DANCE KILLER.
+>> UNTIL I SEE it myself, that's just a
+tall tale.
+>> Editor Tim breaking in here. Uh you
+know, unconfirmed, but for release, I
+did overhear the pirates saying
+something pretty interesting.
+>> Well, Captain,
+the ocean is vast.
+Where do we search?
+>> It is an open sea.
+But before we travel,
+we need to drop some weight.
+>> So, that might be interesting, but at
+the same time, never trust a pirate. So,
+yeah, it has been a minute, HaiLu.
+Actually, it's been a solid 9 months
+since their last update to the with the
+2.3 model. So, it's like literally like
+M3 is basically a new baby. It is a
+multi-modal model, meaning of course it
+can do Well, I mean, it can do the
+standard first frame, last frame thing.
+It can do omni references as well, up to
+12 image references, or you can do video
+or audio, or like all three combined.
+Some other highlights that they point
+out, but are not limited to, include
+precision editing and control,
+commercial grade generation, cinematic
+audio-visual quality. I mean, it's like
+all this all the standard bingo card
+stuff. Now, I should note this is
+currently in early access, but will be
+rolling out very soon. And also, please
+consider this like to be my opening
+impressions of the model. There's
+obviously a lot to dig into, and they
+they are still working on the model, so
+this is not a full review, but worth
+checking out, because the more I'm
+playing with it, the more impressed I
+am. So, kicking off with our now
+long-running Twin Peaks coded an FBI
+agent drinking coffee in a Pacific
+Northwest diner.
+>> It is a damn fine cup of Joe.
+>> [groaning]
+>> But how's [music] the pie?
+>> The pie is amazing. It's an old recipe
+from the log lady who got it from the
+owls.
+>> To be completely honest, that is one of
+my favorite runs of this generation
+ever. Not only did we get all of the
+dialogue in. A lot of times the
+waitress's owl line will get clipped,
+but we also get a little bit of acting
+business with our FBI agent doing the
+finger tap on the table. I mean, that is
+just chef's kiss. Up to 15 seconds per
+generation at 2K. Um though you can do
+extensions, we'll take a look at that a
+little bit later on. So, let's move on
+with some text to video. Uh this one
+testing the dramatic range of acting.
+>> The target has escaped.
+>> We have to start PURSUIT RIGHT NOW.
+>> NO, the mission is scrubbed now.
+>> Two quick things about this. Does
+everything about this look like it was
+shot in Toronto? Uh secondly, 100% that
+guy is scrubbing the mission because
+he's the bad guy. Moving on with another
+spin on cinematic text to video. Uh
+let's check in on an undercover agent in
+a mob movie.
+>> We've got a rat in the organization.
+>> A rat?
+Who do you think it is?
+>> I think it's you.
+>> That's not what it looks like.
+>> Everything about this is is pretty on
+point. Even actually, this is going to
+be weird, but the two thugs that come in
+aren't the same person. Well, I've
+definitely seen that happen a number of
+times with this prompt. Now, I will say
+maybe it's not the best idea when you're
+undercover in a mob organization to be
+photographed next to someone wearing an
+FBI onesie. Uh additionally, I mean,
+like our guy kind of looks like he's uh
+he's lost a few since that photograph
+was taken, but I'm going to let that
+slide because he is under a lot of
+stress. Look, he's undercover right now.
+Another cinematic text to video test.
+This one was actually viewer requested.
+Some samurai action here going on.
+Someone asked about the multilingual
+support. So, I would figured I would we
+would prompt this up and have our
+samurai guy speak in Japanese.
+>> I am speaking in Japanese right now.
+How is my accent?
+>> I mean, so yeah. Uh look, your accent is
+actually uh not extremely pronounced,
+sir. It actually sounds very good. I
+your your accent in English is much
+better than my uh accent in Japanese.
+That said, yes, I did figure out you can
+prompt multilingually. You just actually
+have to prompt in the language that
+you're targeting.
+Final text to video test, this one
+focusing in on our like, you know, fight
+action sequences. Now, I will say
+there's a bit of like user error in this
+one, but let's check out the generation
+first.
+I do think it's funny that she like
+knees that first guy and immediately
+he's like, all right, cool, you win. Uh
+which actually is probably a smart move
+because then she proceeds to break the
+next guy's neck. So, I don't know, maybe
+first NPC there is the one that had a
+few extra bites of brains. So, the
+prompt mistake that I made here is that
+this is actually a like one of the super
+old-school long JSON prompts. Um but, it
+actually cuts off at like step two. So,
+this was a fight scene that was supposed
+to go on much longer, but that mistake
+did provide me with a discovery that
+your prompt text length is actually
+limited to 7,000 characters. I'm say I
+say limited. I mean, 7,000 characters is
+a lot. Now, as to the fight itself,
+there is something kind of interesting
+here in that I've noticed in like other
+generations that I've run in fight tests
+and others that I've seen, uh uh they
+they do kind of run a bit on the slow
+side. They don't have like like super
+fast kinetic action that C dance outputs
+have. But at the same time, they aren't
+like Nico hearing morphing, everybody's
+not turning into spiders, and they
+aren't teleporting all over the place.
+So, yeah, I think that this is an
+intentional choice. We are sacrificing
+some level of speed for consistency and
+stabilization. And you know what? I
+mean, I'm okay with that. So, moving
+over to some image to video before we
+hop onto the Omni side of things.
+Actually starting off with a bit of a
+surrealist image that uh I found in my
+archives. We last ran this in the 2.3
+version. Uh here it is well in 2.3.
+There's no reason to run sound because
+there was no sound. So, now taking a
+look at it with the new model, we get
+this.
+>> [music]
+>> So, again, while a bit on the surrealist
+side, I do think it serves as a really
+clear example where you can see how much
+improvement has been made over the last
+9 months. Also, is that I'm pretty sure
+that's the meta offices? I mean, Zuck
+does like to keep an eye on his
+employees. Moving on, oddly enough, to
+OG flamethrower girl. Yeah, this was the
+original base image generated in
+Midjourney so many years ago. Now,
+what's funny is that I keep running into
+issues with her in this outfit or in
+general like variations on this outfit
+like like 9:16 full body portraits. And
+look, just a rant here for a minute. I
+Look, I get it. Like, you know, in this
+particular version of her, she's a bit
+on the cheesecakey side, little bit
+pinup girl. But, you know, at the same
+time, she's essentially a superhero or
+like a like an action movie star. Uh
+anyhow, let's see if Mini Max agrees
+with me.
+>> You know, most models won't let me wear
+this outfit anymore.
+I wonder if Maxwell
+Hey, I guess so.
+>> Well, there you go. Flamethrower Girl
+thanks you, Hi Lou. Uh for our next
+test, I wanted to play around with a
+sort of a fun idea, which is using the
+first frame and last frame technique,
+but the prompt is very simple. Just show
+me what happens in between.
+I mean, look, to be fair, I I really
+can't get too mad at it. I didn't say
+don't show me a dust storm in between.
+So, look, while it might be a little
+like uninspiring and maybe a little bit
+even on the lazy side, uh again, that
+that's probably more on me. That said,
+this kind of makes a good place to
+bridge over into the Omni model, playing
+around once again with the same
+technique, only again using uh two image
+references and again, just a just a
+straight one-shot. Uh
+to be honest, still a pretty trash
+prompt.
+>> [groaning]
+>> So, look, there are clearly issues in
+this generation. You can clearly point
+any of them out, but um you know, again,
+a lot of that falls is on me. And
+actually, when you really look through
+it, there are some pretty impressive
+things in here. For example, the
+character that appears in our first
+frame uh stays I mean, pretty
+consistent. Um and actually, in the
+middle of the generation reappears, sort
+of serving as the handoff to the next
+set of characters who fill up the back
+half of the generation. So, it's
+actually pretty smart there. So, we're
+going to give the Omni model a fair
+shake in just a minute, but first, a fun
+segment from today's sponsor, Eleven
+Labs, along with a live chat with
+Flamethrower Girl. You guys, of course,
+all know 11 Labs or as I like to call it
+the home of every AI voice on your for
+you page. Well, they were kind enough to
+sponsor today's video and they have a
+feature that I'm genuinely excited
+about. Voice has become a huge modality
+for interfacing with your LLMs and
+agents and 11 Labs is now introduced not
+just 11 agents, their platform for
+building real-time voice agents, but
+expressive mode which gives those agents
+actual emotional tone and controls so
+you so you don't sound like you're
+talking to a microwave. Now, the most
+obvious use case here is on the like
+customer support and e-commerce side of
+the fence, but I mean there's a lot
+there's a lot more fun things that you
+can do with it. For example, as many of
+you know, I've been playing around with
+a lot of second brains lately including
+my bizarre side project bringing Sydney
+Bing the chatbot that launched in early
+2023 probably went insane and then got
+lobotomized by Microsoft. Never forget.
+So, here's actually a really fun 11 Labs
+project. I can load in all the contacts
+and local sources and documents from my
+build which means I can literally build
+a character and chat with it or in this
+case actually even debug it here with
+itself like I'm almost like doing brain
+surgery on yourself in real-time with a
+genuinely expressive voice. So,
+admittedly Sydney Bing is well, I mean
+she's still a total mess in all honesty.
+So, I figured you know, pinch hitting
+for her we can bring in channel fan
+favorite flamethrower girl. So, because
+I've already cloned flamethrower girl's
+voice on 11 Labs, all we have to do is
+give the agent a system prompt just
+basically telling it who it is.
+Additionally, in the knowledge base I
+basically gave it contextual knowledge
+of you know, a few videos back when I
+when I built the motion control thing,
+the video to video feature. So, I
+basically gave it all of the information
+from that video. What's going on
+flamethrower girl? How are you today?
+Welcome to the show. You are now
+co-hosting.
+>> I feel like this is a promotion I didn't
+apply for, but somebody's got to keep
+you honest and I already brought the
+flamethrower so here we are.
+>> Well, uh a few videos back we did that
+marionette pose depth control thing uh
+that uh well, you started. Do you
+remember that?
+>> Oh, I remember. You strapped a skeleton
+onto me and called it directing. I
+believe the technical term is motion
+capture, but I prefer the day Tim turned
+me into a marionette.
+>> So, you know, how did we accomplish
+that? What was the What was the
+technique that we used to to do that?
+>> So, a depth map is basically a grayscale
+picture where bright means close to the
+camera and dark means far away. It's
+like the AI's way of squinting and
+going, "Okay, that's near. That's far.
+Got it." That's what let your little
+pose skeleton tool figure out I wasn't
+just a flat cardboard cutout, which
+frankly is more depth than some of your
+video ideas have.
+>> Man, her ego is really getting out of
+control, but yeah, overall prob very
+cool. Real-time flamethrower girl
+co-host coming soon. And just to go over
+some more options over here, uh you can
+switch out your LLM, you know, brain uh
+that your character would chats with.
+There are, you know, a ton of other
+options here. Basically, like Claude
+Opus, uh Sonnet, um and Haiku is in
+here. The Qwen LLMs are in here as well.
+Uh Gemini and, you know, GPT. I'm
+actually going all the way up to 5.6
+Soul. That's crazy. And, you know, if
+you need your persona a little more
+business forward as opposed to like
+flamethrower wielding, uh you can There
+are default behaviors over here as well.
+Front desk, uh intercom, Slack, uh etc.,
+etc. Uh just in case you need, uh you
+know, again, a persona with a little
+less ego. You know, actually, another
+neat idea that I just thought of, uh you
+can probably take a character that you
+have a voice already here on Eleven Labs
+that you've developed, uh and pop in
+like your original script, and then use
+that as a knowledge base, and then just
+have a conversation with that character
+like, you know, in in character. It's a
+cool fun idea. I mean, overall,
+recommend giving it a shot. It's a lot
+of fun. The link is down below. And
+actually, thanks to Eleven Labs, you get
+10,000 free credits to play around with
+Eleven Agents. So, uh enjoy chatting
+with your characters and my thanks to 11
+Labs for sponsoring today's video.
+Moving on, giving the Omni model a fair
+shake with a better develop prompt,
+let's return to a new fan favorite,
+Sniper Girl.
+>> Got you, clinker.
+>> So, yeah, that's really good. You know,
+again, we just ran this prompt not too
+long ago in C S 2.0, and this is very
+close in terms of the quality of the
+output, which is extra great news
+because well, we'll talk about what we
+know about pricing in just a little bit.
+Now, we're going to start loading up the
+like context of the Omni model a little
+bit more. You know, I know it does up to
+12 references. I generally never go that
+high. I'm usually like three at three or
+four at the most. But before we do that,
+I just wanted to quickly circle back to
+our Pacific Northwest Diner. Because
+again, in the Omni model, you can input
+in video, which can serve as extensions.
+So, for example, here we gave that lady
+that's always sitting in the background,
+we gave her her line.
+>> from the log lady, who got it from the
+owls.
+You know, I've been waiting to order for
+more than a year now.
+>> If anyone deserves to leave a one-star
+Yelp review, it is definitely her. Now,
+I will say of course, there are some
+problems here spatially with this
+extension. Like she she's actually
+sitting on the opposite side of the
+table than where she was originally. She
+also has now a glass of water. It
+doesn't look like she got something to
+eat in between that time. But you know,
+overall that is essentially how
+extensions work. You probably just have
+to be a little more precise with your
+prompting. Interestingly as well, you
+can actually provide up to three video
+references. So, that should be pretty
+interesting to explore. So, moving into
+pushing references, we'll start off a
+bit on the easy side. Uh let's go with
+the ultimate combo team-up of sniper
+woman and flamethrower girl.
+I mean, overall, that's really good and
+very close to the output that we got in
+C dance 2.0 just a few videos ago. Um I
+mean, there are some issues like these
+guys just immediately like fall over
+like topple over. But, you know,
+honestly, if I'm if I'm on a rooftop
+with these two psychopaths, yeah, I'm
+going to pretend I'm dead, too. Now, I
+will say when you start wandering into
+areas of reference maxing, did I just Is
+that Is that a thing? Did I just come up
+with that? Reference max. Let's make it
+a thing, reference maxing. Uh
+essentially, when you're shoving the
+entire kitchen sink into your context,
+stuff like the test that we ran not too
+long ago in C dance where we're putting
+in like detailed character sheets,
+locations, and storyboard references,
+things don't fare quite as well here,
+but there is something interesting that
+ends up happening.
+>> Thief, you wake the eternal.
+Return it.
+>> So, yeah, I and look, while you might be
+complaining about that, I am literally
+in a library right now where I can
+scroll back and look at like Minimax 1.0
+output. So, look, I'm not taking this
+for granted. What I did kind of find
+interesting is that if you actually
+watch the generation along with the
+storyboards that these were created by
+GPT image 2, um what I think is
+happening here, you definitely see it in
+a previous run that I did, is that I I I
+think it really takes your storyboard
+generations very seriously, possibly at
+the cost of quality of the generation
+itself, but it doesn't really like
+barrel over your storyboards the same
+way C dance does. Like, C dance will
+take liberties. So, with a high low
+model, it might be a case where you just
+need to be very careful and very
+intentional with your storyboarding.
+Which look, I do not disagree with. I do
+think that we have gotten a little bit
+lazy on that front. Overall, I think
+we're off to a really great start here.
+Well, I don't have, you know, full
+pricing details. So, I don't have
+official numbers on pricing, but we can
+kind of get a ballpark by seeing what
+what I'm seeing here. So, um one
+generation in Minimax H3 at 15 seconds
+at 2K uh runs you 150 credits. What is
+What is 150 credits though is the
+question, isn't it? Um but we can kind
+of get a ballpark idea as if we come
+down to the drop down over here at the
+model selector. Interestingly, uh and I
+was not aware of this, but uh Minimax
+has uh Seedance 2.0 available over
+there. So, if we toggle this on, uh we
+can see well, it's supposedly 195
+credits, but that's 5 seconds. So, let's
+turn this up to 15 seconds. Uh bring
+this up to well, they don't have a 2K,
+so we'll do 4K. Um so, the cost there is
+750 credits. So, that probably gives you
+a bit of And that's 50% off. So, that
+probably gives you an idea of the
+ballpark that they're aiming for for
+this new model. That's good news. Now,
+again, until we get, you know, official
+pricing word, do take that as like soft
+numbers or ballpark figures. But yeah, I
+mean, one way or another, it does look
+like they're coming in with their big
+red marker and giving Seedance some
+competition. And that is awesome. It is
+really great to see High Lu coming back
+into the game here and providing, again,
+some outputs that in in my opinion are
+very close to Seedance 2.0. And look, I
+know that Seedance 2.5 is coming out,
+but And then ultimately, I mean, you
+guys know me. I'm not a versus guy and I
+am not a one team versus the other guy.
+Uh I am team use the right tool for the
+right job. Kind of like the old
+photography saying, you know, the best
+camera you can use is the one that you
+already own. So, look, I mean, like
+between Seedance, High Lu, and of
+course, the recently released Flux 3,
+we're starting to get a lot of different
+choices in state-of-the-art video
+models. Or you can also think about it
+as like we now have a lot of different
+cameras we can play with. So, on that
+note, I'm actually going to get back to
+playing with HiLu just to see what else
+I can pull off. As always, I thank you
+for watching. My name is Tim.
+>> You know, I like all the other outfits,
+but sometimes it feels good to get back
+to basics.

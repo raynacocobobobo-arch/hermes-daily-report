@@ -1,0 +1,76 @@
+UP主：OpenAI
+标题：Introducing the Agents API
+链接：https://www.youtube.com/watch?v=2YHa1vhnmK0
+
+Getting a long-running agent into
+production takes a lot of work,
+even with a capable model.
+You need to connect tools,
+track progress, manage context,
+and secure and maintain
+the infrastructure around it.
+Today, we're launching the Agents
+API to handle that infrastructure for you.
+The Agents API brings a hosted version
+of the Codex harness to your applications.
+OpenAI handles orchestration,
+sessions, and context management
+so that you can stay focused on building.
+Let's look at an example.
+Suppose we want to build
+an agent that helps investigate
+incidents in our production stack.
+It would need access to observability
+data and recent code changes,
+along with our team's instructions
+for how to handle an outage.
+We can connect all of our necessary
+tools through MCPs and give the agent
+our investigation runbook via a skill.
+You control the agent's
+execution environment
+and the tools it has access to.
+That includes connecting a sandbox,
+whether it's through OpenAI,
+a third-party provider,
+or using your own infrastructure.
+In a situation like this, we'd also
+be working through a ton of logs,
+likely more than we could fit
+in the model's context window.
+With programmatic tool calling,
+the agent can process those logs
+and filter the results in code,
+meaning fewer tokens spent passing
+around raw data and more spent on
+the information the agent needs.
+For the largest tasks,
+independent work can be delegated
+via multi-agent orchestration.
+In this case, we might want one
+sub-agent to examine recent changes,
+another to check telemetry, and then
+have the lead agent unify their findings.
+But even in a single agent session,
+long-running context windows still
+work really well with compaction.
+It gives the model a summary of all
+prior work completed so the agent
+can continue its investigation.
+Once the work is complete,
+the findings should be served as a report
+that the on-call team can review,
+a likely root cause, the supporting
+evidence, and suggested next steps
+bundled into a single shareable file.
+And there we have it.
+With the Agents API, we were
+able to drive an entire workflow
+without building or maintaining any
+of our own agent infrastructure.
+Infrastructure that will continue
+to get better alongside new
+models and new capabilities.
+We're excited to bring you
+an ever-improving harness behind one API.
+Happy building.

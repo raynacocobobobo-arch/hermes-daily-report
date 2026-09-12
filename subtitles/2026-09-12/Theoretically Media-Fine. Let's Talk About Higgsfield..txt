@@ -1,0 +1,376 @@
+UP主：Theoretically Media
+标题：Fine. Let's Talk About Higgsfield.
+链接：https://www.youtube.com/watch?v=7vGp40qEV4s
+
+So, this is a video that I mean, I
+really don't want to make, but since I'm
+the guy that kind of ended up lighting
+the match on this whole thing, I guess I
+kind of should. So, let's talk about
+Higgs Field.
+So, just as a quick FYI, this is going
+to be a bit of a rough and tumble video,
+kind of more just like me talking to
+camera. You know, like the old school
+YouTube cuts where people talked, but
+the edits made everything super choppy.
+Like I said, I don't feel like making
+this video. Terms and conditions are
+really boring to me, but I do have to
+say like something kind of kind of
+important ended up happening. So, let's
+just let's recap the whole thing. So,
+this past Thursday, July 23rd, Higgs
+Field sent out one of those like fairly
+standard emails that we all get
+outlining updates to their terms and
+conditions. We all get them. We never
+read them. Because they are boring. They
+are written in legalese and I'm by
+design not readable unless it's your job
+and you're accruing billable hours to
+read it. There were some problems in
+that document. Just to set the stage,
+just as an FYI, I have never done a
+sponsored video with Higgs Field. As a
+number of you in the comments have
+pointed out a bunch of times, there
+there is a reason for that. And I'm not
+going to recap the whole like gnarly
+history. If you need to get caught up,
+there's a fairly like gloves-on write-up
+in Forbes. And then there's a decidedly
+gloves-off cataloging of all the
+allegations. And I want to be clear,
+allegations, over at
+higgsfieldsucks.com.
+And I guess just to clear the air here
+in full disclosure, I have in the past
+been offered sponsorships with Higgs
+Field. Wouldn't it be funny if I said,
+"In full disclosure, this video was
+sponsored by Higgs Field." Yeah, it's
+100% not going to be that. We'll talk
+more about like the sponsorship side of
+it in a minute, but in the meantime,
+let's talk about that initial terms and
+conditions email. Which of course I had
+my my legal firm of Claude Fable and
+Ultra Code review, and they had some
+issues. The biggest thing that Claude
+got in a tizzy about was the output
+license, which grants them perpetual,
+irrevocable, transferable,
+sub-licensable rights to everything you
+make. Second, they could train on uh
+like anything that you input. Uh and
+they could keep training on that even if
+you delete your account. Then, there was
+some stuff on biometric data, which I
+mean, I know that instantly when we hear
+that, it's like we go into like Bond
+villain level. Uh there wasn't anything
+like super evil in terms of like thumb
+prints or like retinal scans or anything
+like that. But, if you were to upload
+your face for a character, under the
+original terms, they got a perpetual
+irrevocable license to that face. To be
+clear, not ownership, but functionally a
+license that they could never lose and
+you could never take back. And it was
+sub-licenseable, meaning that they could
+pass those rights along. So, yeah, I
+mean, not not a not a good look.
+Separately, the privacy policy, which
+was a different doc, said that your data
+can flow uh to vendors and partners
+located throughout the world, including
+the US, the EU, the UK, and China, uh
+plus a company in Kazakhstan, which does
+make sense because that is where Higgs
+Field is based. And look, I'm not
+breaking any news here or anything. They
+are very proudly Kazakhstan-based, and I
+you know, I have no problem with that.
+More power to them. But, it is kind of
+funny that like comms that I get from
+them, that we all get from them, uh seem
+to come from 535 Mission Street uh in
+San Francisco. And apparently, that
+that's a WeWork. And then, obviously,
+unlimited isn't uh section 10.6. Uh
+unlimited tiers run on a separate slower
+queue than credit generations with
+dynamic throttling for anything that
+they deem uh quote excessive. Um look, I
+don't necessarily have a problem with
+that. Unlimited tiers in the past as
+well uh have all done like Runway did
+the same thing. Like, when you're when
+you when you're on the unlimited plan,
+you're on the slow boat. We all know
+that. The issue there wasn't necessarily
+anything about the fact that there was a
+slow boat, but it was kind of more in
+the they deem side of things. And of
+course, there's you know, there's all
+the money stuff. Subscription credits
+don't roll over like period. Uh add-on
+credit packs expire in 90 days. Refunds,
+a 7-day window, only if you've used zero
+credits minus a 6% service fee, and
+renewals, no refunds at all. And
+finally, terms can change anytime.
+Continued use equals acceptance. Look, I
+dislike that, and I was pretty sure that
+everyone would dislike that. So, I
+tossed it up as a thread on X, and well,
+it blew up to 331,000
+views as of now, and this was just my
+post. There were a number of like
+splinter posts, and yeah, it actually
+even made the news section on X.
+Clearly, this struck a nerve, and like
+to their credit, Hicksfield was quick to
+respond. Because by Sunday the 26th,
+actually about like 1:00 a.m. my time,
+they had released a revision to their
+terms, which addressed some of the
+issues here. But they also added some
+new stuff in that no one asked for. And
+I'm I'm not even necessarily mad at
+that. This is something that lawyers do
+all the time. The scorecard on the
+revised version looks a little bit like
+this. You can call it like six wins, but
+they one big thing that they held on to,
+and four things that they kind of
+quietly took back. So, we did get that
+perpetual irrevocable, transferable
+sub-license language completely deleted.
+So, now that dies when you delete your
+content or your account. Deleted content
+will not be used going forward for
+training. There was a sub-line in there
+somewhere that basically said like, you
+know, previous stuff that had been
+already trained on
+cannot be removed. That's totally fair.
+I I get it. It's baked in. Like like no
+harm, no foul there. Promotional use of
+your outputs now requires the content to
+be public or your consent. And then a
+couple of other things that well, nobody
+asked for.
+For one, your indemnification of them
+went from being unlimited to
+fault-based, and a bunch of like at our
+sole discretion language got scrubbed
+down to reasonable. The one thing that
+did not change is training. The The
+training grant in the new terms is
+word-for-word identical to the original.
+It is on by default, and the only way to
+opt out of it as a consumer is by
+deleting your content. Enterprise
+customers get a contractual promise that
+their data won't be trained on, but the
+issue with Higgsfields language in their
+training is that like at its core, like
+they are an aggregator. Like they don't
+have a model of their own. They do, they
+have Soul, which is their image model.
+So, I mean, on the one hand you could
+argue that like Craiyon with their image
+model K2, but Craiyon also open sourced
+K2. So, challenge to you Higgsfield, why
+don't you open source Soul? The other
+problem that I have is like you know,
+just the day that this whole terms of
+service thing kicked off, the CEO of
+Higgsfields posted this up on LinkedIn
+stating at our core we build generative
+video and image diffusion models. A big
+part of our work is teaching these
+models to get better through feedback
+technique called the reinforcement
+learning RL. It's how we make our videos
+look more realistic, more cinematic and
+closer to what the user asked for. Look,
+I mean, I get what he's saying here is
+there I mean, he's talking about Soul,
+probably the camera motion and depth of
+field thing, probably like prompt
+enhancement is in there and then what's
+the other one like maybe like character
+ID in Soul. The point being is that like
+at its core we build generative video
+and image diffusion models. I mean,
+that's doing that's doing a lot of heavy
+lifting. Anyhow, getting back to topic,
+we also did get four quiet takesies
+backsies. The privacy policy used to be
+and this is in their own language a
+notice and not part of this agreement.
+Now, now it is part of the agreement,
+it's part of the contract. Now, it might
+not be as like shady as it sounds. I
+actually ran that past a real like human
+lawyer who was was basically like that
+should have been in there to begin with.
+Next there was the guarantee that at
+least 15 days notice would occur like to
+us before any terms changed. Now that
+has been undefined as reasonable notice.
+Could that be as little as 24 hours?
+Maybe. I mean, they could certainly try
+it. So, that's kind of like the
+highlights of both of those documents.
+Hopefully I haven't put anyone to sleep
+yet. If you want to read through like
+the whole thing, the link to both X
+threads down below. You know, at the end
+of the day like look, there are parts of
+this that are good, and there are parts
+of this that are still not great. But, I
+am proud of the fact that we as a
+community saw something we did not like,
+and we pushed back, uh forcing a company
+pulling in, well, reportedly a half a
+billion dollars a year to take a step
+back. Higgsfield got caught trying to
+put its hand in the cookie jar, and
+collectively we all slapped it. Good
+job. Everyone go get a cookie. And
+clearly, look, I like I'm not team
+Higgsfield now. I still have a lot of
+issues with them, you know, and again,
+honestly, this is why I've never taken a
+sponsorship with them. Funny enough, I I
+mean, I did get this email in my inbox
+this morning. Although, admittedly, I
+think this is a third or third-party.
+I'm pretty sure Higgsfield's pretty mad
+at me right now. And look, to be clear,
+I'm not shaming anyone who has done
+sponsored content with them. My issues
+lie in like the dark patternings of
+their subscription funnel, where things
+like unlimited are promised with a lot
+of fine print. And judging by their own
+Discord and complaints cataloged over at
+Higgsfieldsucks.com,
+uh you know, a lot of people have issues
+with canceling a subscription. It's
+basically a nightmare. And look, this is
+literally happening right now. Here's
+some receipts. Um so, it is 11:52 a.m.
+or 53 a.m. right now. Uh at uh 11:34,
+someone was like, "How Why can't I
+cancel my subscription?" Well, we
+couldn't verify your cancellation. Look,
+maybe this is just my perception, but
+every time that I roll into this
+Discord, it's just like an absolute
+dumpster fire of users having issues
+with uh you know, either subscription
+tiers or cancellations or credits that
+were promised. Uh there was another one
+where someone did manage to get a
+successful cancellation off uh after
+having to contact a mod, but then was uh
+deducted 731
+credits, um you know, despite having
+time left in their billing cycle. To be
+fair, as far as I saw, those credits
+were refunded, but at the same time, you
+shouldn't have to go track down a mod on
+their Discord server in order for that
+to happen. It shouldn't have happened to
+begin with. On top of that, like, every
+major decision apparently has to run
+through one particular mod. So, if if
+he's busy, then then you wait. Uh look,
+I mean, if if you are a $500 billion
+company, give that give that dude a
+raise. Uh actually, give every mod in
+there a raise. They all deserve it. And
+to that, look, one thing I do want to
+make clear here is that like I don't
+have any like vendetta or blood feud
+against Higgsfield. Like I'm not going
+to name names here or anything, but I've
+gotten like outreach from ex-employees
+and people who were associated with the
+company who have told me that like a lot
+of the people that work there don't like
+the messaging and perception of the
+company. The overall Higgsfield
+playbook, at least from my vantage
+point, is capture as many users as
+possible via a very aggressive marketing
+campaign and then funnel them through a
+website that resembles a Vegas casino
+with upsell tactics and then lock the
+front door so that it's near impossible
+for them to leave. And I get it, from a
+business standpoint, that's going to
+make you a lot of money. So, speaking
+directly to Higgsfield, here's my
+thought. Why not try going the other
+direction? Stop relying on excessive
+unlimited campaigns with fine print. And
+if you're going to use your users'
+outputs for promotional material, like
+reach out to them. Maybe pay them a
+licensing fee. I mean, it doesn't have
+to be anything excessive. I mean,
+anything from like 25 bucks to like 100
+bucks, 200 bucks, whatever. Or even just
+offer them more credits. But like most
+importantly, ask. I mean, overall, just
+focus on a great user experience so you
+don't have to hide the keys to the exit
+door. You've very much established
+yourself as a name brand within the
+space. The name isn't very good right
+now, but, you know, you could reverse
+that. Everyone loves a good redemption
+arc. You could very easily be a shiny
+example of how to do this right. You've
+already proven that when a thread gets
+over like 300,000 views and the replies
+are that unanimous, that you're willing
+to change. You also had to throw some
+other stuff in there, but I'm going to
+let that slide for now. Look, at the end
+of my initial tweet, the one that kicked
+this whole thing off, I said like, "I'm
+not your dad. I'm not a lawyer. Make up
+your own mind." So, Higgsfield, I mean,
+I'm going to be your dad for a minute.
+Do better. Not just like surface level
+better, either. Like really do better.
+When my kids were really little, I would
+drop them off at school every day and I
+would always tell them make good
+choices. Just do that, Higgsfields. Make
+good choices. This is not a video I
+wanted to make. Terms and conditions are
+really boring to me. Um so and the last
+thing that I want to do is is become
+terms and conditions guy. So, um you
+know, I mean maybe a good idea is down
+in the comments if you guys want to like
+uh community source this. Uh everybody
+go grab a uh platform, uh put the terms
+and conditions into Claude or GPT and
+and find out what they are and then, you
+know, we can all cross-communicate
+there. Um personally, I mean I'm just
+putting this one to bed and I'm going to
+get back to doing some creative stuff
+and making some of those videos for you
+guys. As always, I thank you for
+watching. My name is Tim.

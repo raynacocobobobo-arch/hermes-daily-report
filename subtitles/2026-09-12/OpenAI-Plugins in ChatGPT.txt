@@ -1,0 +1,52 @@
+UP主：OpenAI
+标题：Plugins in ChatGPT
+链接：https://www.youtube.com/watch?v=pKwRNdDtai0
+
+You can now connect ChatGPT to your email,
+documents, calendar, and other tools
+to help you and your team get more work done.
+Let me show you how.
+Let's go to the new plugins directory in ChatGPT.
+I'm going to start with the tools I use the most,
+Gmail, Slack, and Google Drive.
+Plugins let you securely link an app
+to ChatGPT and include skills that give
+it a playbook for the job, like
+structuring a report, preparing for a meeting,
+or guiding a repeatable workflow.
+Let's take a look at an example.
+If you need to create a design asset
+for an upcoming event,
+like an event flyer, you can just talk
+to Chat about the details
+and use familiar tools like Canva to design the assets.
+Hey Chat, can you build me a flyer
+using Canva for the upcoming Student Science Fair next week?
+It's on Friday
+and use a 1950s retro-futuristic style.
+Hey, that was pretty good.
+I like the style and it's easy for me
+to jump into Canva and make the edits.
+ChatGPT also includes plugins for specific roles,
+like sales, finance,
+marketing, design, and many more.
+So let's say I have an important customer meeting tomorrow.
+I'm going to use the sales plugin to prepare.
+These tools and skills should look very familiar.
+I'll ask, can you prepare me for
+tomorrow's Astor Peak review using the sales plugin?
+Can you pull the relevant email,
+the latest proposal in Drive,
+and recent decisions from Slack?
+Give me a meeting agenda,
+breakdown of risks, and open questions.
+Here it is.
+That saved me a lot of time,
+which I can now review to better prepare
+for the upcoming meeting.
+From here, Chat can also save the brief
+as a new document and share with my team.
+With plugins, you can apply this same pattern,
+gathering context, doing some work,
+and producing an output to any type of task,
+all inside ChatGPT.

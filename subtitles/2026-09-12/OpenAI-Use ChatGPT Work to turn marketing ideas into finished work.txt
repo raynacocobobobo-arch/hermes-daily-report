@@ -1,0 +1,84 @@
+UP主：OpenAI
+标题：Use ChatGPT Work to turn marketing ideas into finished work
+链接：https://www.youtube.com/watch?v=NSqlZ1L81nQ
+
+Everyone is doing marketing now. We're
+seeing our uh engineers, our product
+teams, our finance teams even come to
+the table with marketing ideas. And
+they're not just like text messages
+like, "Hey, I think this is a good
+idea." They're coming to us with images,
+with creative ideas, which is so cool.
+The distance between thinking of a great
+idea and making it into reality is
+actually compressing. So, for example,
+Chad and I can grab breakfast in the
+cafeteria downstairs in the morning and
+by the time it's afternoon, Chad already
+has that idea mocked up in a slide
+presentation ready to show to
+>> probably before lunch.
+>> Yeah, exactly. So, chatbt work is a new
+way to use chatbt that basically turns
+it from the question and answer bot
+we're all familiar with to the world's
+smartest personal assistant. So, we're
+in chat mode right now, but let me go
+ahead and switch us to work and watch
+what happened to the prompt window,
+right? It kind of expands and it shows
+you plugins. And the way that I like to
+think about plugins, if I go to the
+directory here on the left, you can kind
+of think about this like new higher
+orientation for chatribute work. And
+this is basically the way that chatbt as
+an assistant gets plugged into all of
+your context. Things as simple as your
+Google Drive or Microsoft Office to your
+email and calendar and even specialized
+apps like Figma, Canva, and notion. So
+it can take action across your
+workflows. This is what really makes
+chatt work different from chatbt.
+>> Yeah.
+>> And with all these plugins kind of
+connected to your workflows, chach work
+can do so many different things from,
+you know, creating presentations, slide
+decks and sheets and docs from your
+templates to creating images and
+building an app and even automating
+repetitive work using your computer or
+your browser on a scheduled basis. We'll
+talk about that and even building a
+website which we're going to show you
+several demos about how that works. And
+so if we put these two things together,
+great ideas coming from everywhere in
+the org and making them come into
+reality is faster than ever. There's a
+third observation that we're seeing that
+is specific to all of us on this call,
+marketing leaders and marketing
+practitioners. It's that the
+fundamentals matter now more than ever.
+In a world where there's an abundance of
+great ideas, where it's easier than ever
+and and cheap as ever to make those
+ideas come to life, we need our judgment
+now more than ever to figure out what do
+we ship to users? How do we kind of make
+sure we're customer centric and we're
+thinking about their point of view? And
+we're seeing across the board that
+marketers are doing better work. Uh
+they're getting better training with
+chatbt work that's nudging them into
+more demand side thinking. And we're
+going to show you some examples of that.
+So this is not just about working
+faster, getting things done with less
+process. It's better marketing and it's
+actually driving the business.
