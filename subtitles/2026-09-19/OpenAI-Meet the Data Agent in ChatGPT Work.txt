@@ -1,0 +1,105 @@
+UP主：OpenAI
+标题：Meet the Data Agent in ChatGPT Work
+链接：https://www.youtube.com/watch?v=VMgEQ7ym9WU
+
+Your company has invested in data. Now
+let's put it to work. The ChatGPT work
+data agent brings trusted data and your
+data team's expertise into everyday
+decisions.
+Let me show you how we can go from a
+business question to a plan the team can
+act on.
+On my way into work, my management team
+asks how our new product launch is
+going.
+I send the question from my phone.
+The data agents get to work using our
+trusted data and existing sites context.
+By the time I'm at my desk, the analysis
+is ready. Here's the opportunity.
+Returning creators are driving growth,
+but look at the funnel. Only about 16%
+of people with access have started
+creating.
+We need to help more customers take that
+first step.
+With the data plugin, I can dig into
+evidence, the metric definitions, the
+underlying data, and the SQL queries
+behind the report. Our data team can
+inspect how the answer was produced and
+check that it answers the right business
+questions. Now I can check Slack
+conversations and existing reports in
+Google Drive for clues about why
+customers aren't creating sites.
+The feedback points to uncertainty about
+where to start. That gives me a
+practical recommendation. Give users an
+in-app pointer on how to publish a site.
+With those recommendations, I ask
+ChatGPT to help assign owners and next
+steps. I review the plan and share it in
+Slack. Now the right people can take
+action with clear responsibilities and a
+shared way to measure progress.
+Next, let's give the team a shared view
+of progress. The data plugin turns this
+analysis into a dashboard, so product
+leaders, customer success, and the data
+team can work from the same trusted
+sources and definitions. Now everyone
+has a place to answer the questions that
+come up every week. Are more customers
+adopting this product? Are creators
+coming back? Which customer groups need
+more help? Teams can explore those
+questions themselves, while the data
+team focuses on deeper investigation. I
+also want to be alerted if weekly
+creator adoption drops compared with the
+previous week. I asked ChatGPT to help
+define the rule, how large a drop
+matters, and when to check, and who
+should hear about it. Review those
+details before scheduling. With refresh
+options, we can keep that shared view
+current throughout the launch. The value
+is an ongoing way to spot changes, agree
+where to focus, and decide when to
+adjust the plan.
+And you're probably wondering how we can
+create consistent data across the
+organization, and that's where context
+comes in.
+The analysis and dashboard we just saw
+use an existing site's context layer.
+Now, let's look at how the data team
+created that foundation so future
+questions use the same business
+definitions. Here, I used the data agent
+to help create a data context layer from
+our warehouse, analytical conversations,
+and documentation.
+It brings together the knowledge our
+data team uses to interpret the data.
+This context spells out what our
+business terms mean. A person who views
+a site is different from someone who
+creates one. It also captures which
+sources and activity count, what
+reporting period to use, and how to make
+consistent comparisons. Now, I've got
+consistent metric definitions across my
+organization. So, when anyone asks
+questions of the data, they're working
+from the same business context and
+getting consistent trusted results. The
+data plugin brings trusted analytics,
+shared dashboards, and consistent
+business context into everyday work.
+Your data team's expertise can now
+support everyone who needs to make a
+decision. Now, you can put trusted data
+to work wherever decisions are made.

@@ -1,0 +1,82 @@
+UP主：OpenAI
+标题：GPT-6 Astra with Tom Krcha
+链接：https://www.youtube.com/watch?v=QDLlQ5IL2Bk
+
+Like it does amazing job
+that historically would be done
+by a trained designer, you know?
+But to a trained designer
+it actually allows you to take
+all of your skills and, you know,
+bring them up to the next level.
+Do you have an example?
+So I asked Astra
+to design me like a logo designer, which
+is fully parametric, you know?
+Okay.
+So you can, you can click on any
+of these logos and you can just
+basically adjust like
+all the different properties.
+So here I asked it to sort
+of design a website for like an offline
+gathering, you know, like an off site.
+And uh obviously this
+is like in the woods, you know, so
+the table is like wooden and so on.
+But it kept iterating,
+um, and here we have a website
+that's a little bit more modern,
+and our table is actually stainless steel.
+Oh wow.
+I just like keep going, you know,
+uh show me more variations and so on.
+And, and lastly this is like more
+rustic version, and you can see
+there is this pattern on the top.
+But also the tablecloth
+is matching that pattern.
+But also the clothes of the people
+are matching that pattern and so on.
+And it's been exciting to see
+that this model like comes
+up with the full story together.
+So I asked it to create
+like a film lab for me, um,
+and uh this is like the original photo.
+And I wanted to really try like
+different uh filters on photos.
+And uh it came up with shaders
+uh that I can like tweak,
+and I can adjust all of these
+different uh details over the shader.
+So here you can see
+that this is actually shader.
+This is not like a
+generated image, you know?
+It's, it's applied on
+top of an existing image and so.
+And you can tweak it.
+You can play with it.
+Uh I mean historically, um,
+I'm not sure I would be like able
+to write these shaders myself.
+Uh usually I would have to work
+with like an engineer and so on.
+And uh this really opens up
+that creativity where you can like
+dream up really big, and then maybe
+uh like go back to engineering team
+and say like this is the direction
+that I want to go with, you know?
+Like let's try to make this really
+polished experience and ship it.
+What is something that like now
+that you have Astra you want to explore
+next that it has unlocked for you?
+I really want to play
+with these like long-term,
+long-running goals, you know,
+over the weekend where you maybe
+give it like some inspiration
+and just like let it cook.

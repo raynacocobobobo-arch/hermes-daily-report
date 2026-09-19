@@ -1,0 +1,21 @@
+UP主：OpenAI
+标题：Use ChatGPT Work to help teams answer their own data questions
+链接：https://www.youtube.com/watch?v=euED8JRunBA
+
+Any data scientist, any manager of a
+data team knows that one of the major
+challenges you deal with is that usually
+data teams are subscale relative to our
+partner teams, so we get more questions
+than we can answer. Today we're seeing
+that across OpenAI and product and GTM,
+um, at least weekly, often more than
+that, most of the company is using the
+data agent we built to self-serve their
+own questions. We had to create a
+trustworthy foundation first to unlock
+this, and we'll talk a lot about this,
+but once we did that, pretty much anyone
+at the company could follow their
+curiosity and investigate their own
+questions.

@@ -1,0 +1,534 @@
+UP主：AI Engineer
+标题：It’s Tokens All The Way Down: How RLMs are Different — Kevin Madura, AlixPartners
+链接：https://www.youtube.com/watch?v=xo68uCibfm8
+
+Yep. Awesome. Thanks everyone for being
+here. My name is Kevin Madura. I'm from
+a company called Alex Partners. We're
+we're a consulting firm. Um I'm here to
+talk to you today about RLMs. Just
+curious, show of hands, who here is
+familiar with RLMs? So we know how much
+time to spend on it. Okay. So not many.
+All right. Well, that's good. So we'll
+start with what an RLM is and and why
+it's different. So RLM is recursive
+language model. And really the the key
+difference here is that it treats the
+context as an object that it can
+interact with symbolically in its
+environment. So it differs from a tool
+call in the sense that typically when
+you do a tool call it's JSON or some
+type of string that's being sent being
+interpreted elsewhere maybe by some
+other program and that's that's
+returning effectively as a string. The
+key difference here is that it's
+interacting with a symbolic environment.
+So typically that's a ripple Python
+ripple. Um so that's key difference
+number one. Key difference number two is
+that it's it has the ability to delegate
+to another LM often to itself. You can
+specify whether it's the same model or a
+different model, but fundamentally
+because it lives in this environment,
+you can offload or or make a sub call to
+another LM with particular parameters
+that also lives in that ripple
+environment. And so you get this ability
+to recursively decompose problems and
+apply and have the LLM basically decide
+how to apply certain logic or certain
+interpretations or write its own code to
+solve those problems and then that
+recurses down. So the subLM can do the
+same sort of thing in terms of
+understanding and interpreting what it
+thinks it needs to do. And I added this
+last one here. It's largely bitter
+lesson pilled in my opinion, right? is
+and and shared by Alex and the rest of
+the the creators of it. But as models
+get better, you should be able to defer
+more and more to the model for it to
+kind of figure out on its own what it
+needs to do.
+So the I don't know if this is the
+actual kind of starting point for RLMs.
+This is one that that I consider to be
+one of the the first kind of inklings of
+it. This is a tweet from Omar who is
+Alex's adviser um for for RLMs. And this
+was a concept that he had come up with
+where it was basically an ability to use
+DSPI and some other techniques to take
+in arbitrary
+um arbitrary length inputs. And
+basically the use case here would be
+summarizing an arbitrarily long document
+and coming up with a table of contents
+and some summary of of that content. But
+at least to me, this is kind of the
+first inkling of okay, context windows
+might not be something you need to
+deliberately manage. Although there's of
+course benefits to doing so, uh there
+there could be ways to um to exceed the
+the the context windows using some of
+these clever techniques.
+Uh and so if you read the paper and some
+of the blog posts that are out there
+from Alex and Omar, I mean it it it has
+demonstrabably better performance on
+some of these long context tasks. So,
+ulong is one benchmark where um the the
+intent of the benchmark it's is to
+measure model performance on answering
+questions about excessively long
+context. This another one browse comp
+where it needs to iterate through a
+large a large body and corpus of text
+and answer particular questions about
+it. You can see the blue line at the top
+there is the RLM. It's very good
+performance as compared to some of these
+other models. And even on on the price
+curve, the the purple is actually just
+using tool calling um with GBT5 calling
+a BM25
+tool. And that's actually even more
+expensive for worse performance than
+than an RLM. So it's worth reading into
+if you're interested in in some of the
+benchmarks and how RLMs perform. Um but
+fundamentally uh an RLM again takes in
+your input and you're kind of deferring
+to the model about how to decompose the
+process what code it needs to write and
+it is very tightly integrated with the
+ripple itself. So it it by itself
+defines what it needs to do. And so I
+kind of had this mental model in terms
+of and I'm very DSP pipel if if you
+couldn't tell by now basically a student
+of of Omar and the rest of the group
+there where you have this relatively
+deterministic shell of what you want to
+do like what what is your intent what is
+your actual task that you're trying to
+accomplish. You define that in terms of
+your inputs and your outputs and some
+type of guidance or prompt or what have
+you to the model to say this is
+generally what I want to achieve. go off
+and do it. Here's the things that you
+can expect as your input. Here's what I
+want out of it. Go figure out the rest.
+And so this applies for using something
+like DSPI, but I think it applies to
+RLMs as well because you don't have to
+worry as much now about how the actual
+implementation works in the middle. You
+can just have some guarantees about the
+inputs and the outputs and you can let
+the model figure out the rest of of that
+part of it.
+So, a lot of this comes down to if if
+you were at um I think it was code in
+November in uh in New York City, Dex had
+this great talk about just broader
+context engineering and he he coined
+something like the dumb zone which it's
+kind of grayed out at the bottom there.
+But the point is that we all know that
+there's context rot, right? Once you
+fill up the context window to a certain
+degree, performance starts to degrade.
+And so RLMs somewhat get around this
+problem because the context itself
+doesn't fill up as quickly because
+you're deferring a lot of the subtasks
+to the subm models and it's the full
+kind of context and the inputs aren't
+exposed to the context window itself. It
+lives as a variable in the ripple and so
+the main LM can choose how to um how to
+access that. It can offload some of
+these subtasks to to sublim. And really
+the only context that it gets back are
+the things that actually matter. So in
+terms of how it's meaningfully
+different, rag of course you kind of
+just stuff the context window. You want
+it to limit there. Agents are largely
+just bringing strings back and you don't
+have this tight coupling between the
+logic, the execution and the results.
+And so you still run into the same sort
+of problem there. Same thing with tool
+calling and and codec. And then RLMs as
+I mentioned you're act the the LLM is
+actually just interacting with the
+context the results as variables in the
+ripple so that it can do additional
+computation on versus it trying to
+attend to all these different tokens in
+this in its context window. It's it's a
+meaningfully different way of of the LLM
+interacting with the uh the actual
+content itself.
+And so people always say, okay, what's
+the difference between that and and
+encoding agents? Um,
+in my mind, the largest difference is
+that the way that tool calls are tool
+calls calls are done is passing strings
+back and forth. Um but you can see with
+the release recently of workflows that
+uh Anthropic is doing something fairly
+similar and they um at the CIS
+conference I think it was Tar or someone
+similar um mentioned the RLM paper as a
+key driver of workflows and how they're
+how they've implemented it. And you can
+see here the intermediate results for
+workflows live in script variables i.e.
+a variable in the context. So, it's
+driving some of these these
+breakthroughs and some of these
+techniques from the from the labs as
+well.
+I'll skip through this a bit just
+because I have about 10 minutes left,
+but generally speaking, when you want to
+use it, it's obviously for large or
+dense input context.
+An underexplored area is outputs as
+well. So if you have a some type of task
+where you need to generate hundreds of
+thousands of lines or whatever it might
+be, RLMs I think would be a good
+candidate for that as well. Obviously
+tasks that are imunable to some type of
+decomposition. So if you want to look
+through the entire I don't know the
+whole tax code as an example and try and
+find loopholes or something. You can't
+obviously put all of that into context
+at once. You could use an LLM to crunch
+through all of that and iteratively
+explore and use sub agents to explore
+interesting areas of this of the tax
+code. Bring back those sections and then
+reason over that and then just generally
+for for longer horizon sessions. And
+when you want to skip it, of course, it'
+be something that fits in context. You
+want something that's low latency or the
+the model itself is as strong of a
+coder.
+And uh our friend Raymond here did some
+great perfor performance testing on the
+long chain of thought benchmark. Um I'll
+leave this link as a as a leave behind
+after, but just to give you a sense of
+how well it performs on some of these
+tasks. It's a meaningful jump overall
+from from 2.6 to 45.4%
+um accuracy on many of these tasks. And
+you can see it performs really well on
+things that are amanable to code. So
+logic puzzles and and chess and
+chemistry and things like that where it
+can dynamically write code bring in only
+the relevant part of the context compute
+that and then return the result where
+the main model is really just harvesting
+the results from from the subLM and try
+instead of trying to do that by itself.
+Um I put together a few just super
+simple examples. I mean, these are kind
+of they're somewhat unfair, I suppose,
+to to the base model, but it it makes
+the point that there are certain tasks
+that base models just aren't really fit
+to do themselves because they because
+they have to attend all these to
+different tokens at once in the context
+window where you need or want to use
+some type of coding approach to that. So
+in this random example, summing 12
+numbers that are buried across 30,000
+tokens, the LLM trying to figure all
+that out by itself and give you the
+answer isn't always going to work as
+well as something that you can write reg
+x4 or something similar. And then the
+same same sort of thing particularly for
+data frames and we'll walk through a
+brief example here where because the LLM
+can
+interact with the data frame within the
+ripple. It just has a much better
+understanding of the content and can
+iterate through that much more quickly
+than having to pass tool calls back and
+forth in terms of like JSON strings and
+and that sort of thing.
+Um, and then I threw this in there in
+terms of running the same experiments
+with a coding agent. Now, I didn't look
+into this too deeply. There's probably
+some unfair math going on here, but you
+can see that it was totally bloated in
+terms of the way that cloud code tried
+to um tried to solve these tasks. So,
+there's more work to be done there, of
+course, in terms of like running
+experiments to compare base models
+versus RLMs versus something like a
+coding agent. But there's just for
+certain tasks for like production
+workloads. My sense is you probably
+don't want to just do cloud-p
+your prompt and like hope for a good
+result. Like you want more of a
+structured approach to your inputs, your
+outputs and you want a defined pipeline
+for doing so which reduces your cost, it
+reduces your complexity, reduces your
+bloat, all that sort of thing. Um where
+RLMs can can shine.
+So in the real world there are a bunch
+of different open source libraries that
+implement RLMs at some level. Some of
+them are more RLM focused uh like a
+predict RLM would be a good example of
+that versus others are kind of just
+integrating it into the broader approach
+or the broader framework. DSPI obviously
+uh there's axe which is really
+interesting work uh that's being done
+there. Predict RLM is more focused on
+like knowledge work. So it works with
+spreadsheets and PDFs and that sort of
+thing and then fast RLM. And then
+there's a tweet yesterday from this guy
+Sam Hogan
+um where who runs inference.net. He's
+using an RLM to basically run and
+extract um insights from your particular
+um production workload traces so that
+they can see what makes sense to defer
+off to something like a GLM 5.2 too and
+do that iteratively and automatically as
+your traffic goes through. So point
+being, you don't have to worry about
+context engineering. You can kind of
+just throw the RLM at it and have it
+figure it out. Um, I only have five
+minutes left, so we won't go through
+this whole example and I'll I'll skip to
+some of the traces because that's
+probably the most interesting. Um, but
+this is all you would really need to do
+in terms of a simple, in this case it's
+like a a cohort retention analysis,
+something that you might give to a data
+scientist. But this concept of applying
+an RLM to a complex data structure like
+a data frame becomes very easy to do.
+This is all the code you need to do it
+where I'm feeding in three different
+data frames. I'm saying these are the
+sorts of things you need to look for.
+These are the output types that I want.
+and then just let the RLM go on it. And
+I'll I'll show you some of the traces.
+Um, and so it has its own ripple where
+it can interact with those data frames.
+And you can see it reasoning through.
+Okay, first I need to do this. It's
+writing the code. And because it's li
+it's living in the ripple with the dataf
+frame, you don't have this additional
+bloat of the tool calls back and forth.
+It's actually interacting directly with
+the dataf frame as if it was typing in
+its own Jupyter notebook. And there
+there's significant advantages for for
+doing so. And so you can see the sorts
+of outputs that it gets as a result. And
+it by itself will iterate. And in this
+case it didn't, but it has the option to
+defer to subLM to do okay. And now I
+have this big whatever this big subset
+of the data sublm go off and do this
+analysis give me the result and it can
+do that iteratively over time. Uh but
+the point is that the LM is directly
+interacting with the data frame in its
+ripple
+um and kind of iterating through the
+results. And so this u this platform
+compound is RLM and DSPI native. So it
+gives you this really nice breakdown of
+the reasoning. It separates out the code
+that's being generated and ultimately
+you can see
+uh the final output which is here where
+it's formatting. Okay, here are the key
+findings that I have. Here are the
+recommendations. And then you have this
+final submit which is the final answer
+that gives you the the typed um outputs
+that you had defined up front. And the
+key thing here is that the LLM itself is
+deciding when to stop. So you have this
+you have a variable of max iteration. So
+you can just you can decide whether you
+want it to have a maximum of 10 or 100
+or whatever it is. But it will by itself
+explore the data, understand what needs
+to happen and then when it it itself is
+comfortable, it can run submit and give
+you the final output. Again, being
+bitter or less impilled, this will get
+better over time. You can kind of just
+defer everything and it will figure out
+what to do. And so the hope would be you
+don't have to I mean we're already you
+know whatever this is 20 lines of code
+or something. Um, but you can you can
+see a world where you can continue to go
+up levels of abstraction. As long as you
+can define what your objective is and
+what you want it to do, the the model
+will kind of figure out the rest. Uh, so
+we just walk through a bunch of this,
+but um these are the different steps
+that it took in this example in the code
+that it wrote. Um, and then I'll just
+breeze through a few real world case
+studies and where it's actually being
+used. So I mentioned predict rm before.
+So the company trampoline AI I think it
+is they're doing really interesting work
+in applying RLMs u like I mentioned
+before for different pieces of knowledge
+work. So natively interacting with PDFs
+and and spreadsheets and that sort of
+thing. So in this relatively simple
+example okay I have a bunch of I have a
+directory of invoices that I need to
+create one consolidated inventory out
+of.
+As we all know invoices can be
+complicated. that can be very long, that
+can kind of be all over the place. To do
+that today without RLMs or this sort of
+like framework gets very complicated
+very quickly. I have a lot of battle
+scars to to prove it. Um, but with
+something like an RLM, you you don't
+need to worry as much about, okay, if I
+have a 200page invoice or contract or
+whatever it is, you can let the RLM just
+churn through all of that and give you
+the result instead of having to worry
+about chunking and embedding maybe and
+doing all these different strategies to
+try and get around the context window
+management that we've all had to to do
+previously.
+Um, so it allows you, the point there is
+that you can focus on the abstractions
+and what you actually want to do instead
+of the context engineering itself, which
+I think is a really helpful um, helpful
+output of all of this. And an
+interesting tidbit for all the DSPI fans
+in the room, predict RLM uses DSPI to
+determine the schemas between the main
+LM and the subLM calls, which I
+personally think is is a nice feature
+because you have a lot more readability
+and maintainability. So you understand
+exactly what the model is trying to
+achieve and the model can be much more
+precise and prescriptive about the types
+of data that it's looking for from the
+subLM. And I would want to do some
+experiments to test this out, but I
+would think that this would improve
+performance for cheaper models like a a
+Quinn or some of the other ones because
+you're specifying the inputs and outputs
+and you're enforcing those types coming
+back. And so you get all the benefits of
+the RLM being able to churn through all
+this information, but you have a lot
+more of the structure in between where
+when it's handing off to a sublm, it it
+enforces some of the uh some of those
+schemas.
+This is an example from um an AWS
+engineer from a couple days ago. We were
+just kind of playing around with it, but
+I just thought it was a nice example of
+you can kind of just throw arbitrary
+data at RLM. In this case, it was a
+bunch of log data um to surface some
+interesting uh results and he he found
+it useful. Um there's a a project called
+Halo which uses an RLM to look at traces
+of um of different t uh agent tasks.
+And basically the promise of Halo is
+that instead of optimizing a particular
+like workflow or DSPI uh or or other
+framework
+uh like structure itself, it's it's
+actually iterating on the harness. So
+it's like a meta abstraction almost or
+meta optimization of the harness itself
+and it uses an RLM because as we all
+know tracing can get very long and and
+complicated.
+So the RLM can not only take in all that
+context but also leverage the um the
+structure of those traces to to
+recommend a better um a better harness.
+And then this last one uh this is all
+the code you need. I ran this little
+experiment. There's a an intentionally
+vulnerable application called uh it's
+from OASP, but basically there's a it's
+a web app with a bunch of
+vulnerabilities in it. This is all the
+code you need on the right hand side to
+run basically an agent to run through
+whatever it is 500,000 lines of code to
+generate some type of security report.
+That's just an arbitrary example, but
+the point is you don't need a lot of
+context engineering. You don't need a
+lot of structure around it to achieve
+what you want to do. And so you can feed
+in an arbitrary uh size codebase into
+this and get some type of insights out.
+So you can imagine that being applied to
+other areas as well. Um so I know I I
+rushed through everything a little bit
+but I'm happy to answer questions
+afterwards. Uh the I'll leave you leave
+you with this. The biggest promise I see
+here is just imagine a world where the
+models are actually post-trained and
+actually like RLM aware. I think things
+will get pretty crazy pretty quick when
+they actually know how to use and kind
+of take advantage of the RLM methodology
+natively. So, thank you so much for your
+time.

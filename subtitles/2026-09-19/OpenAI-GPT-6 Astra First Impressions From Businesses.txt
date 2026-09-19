@@ -1,0 +1,121 @@
+UP主：OpenAI
+标题：GPT-6 Astra First Impressions From Businesses
+链接：https://www.youtube.com/watch?v=n-dqdVMwoas
+
+What were your first
+impressions about Astra?
+Absolutely at the frontier,
+just a solid model for some
+of these use cases that have been
+just unbreakable in our stack.
+It has this unique confidence
+that feels like it sets it apart
+from what I've tried in the past.
+Its ability to really give
+itself time to understand a new
+task before it actually dives in.
+Something that makes it feel like it leads
+to far better results down the line.
+I really love the model,
+but beyond what it can do, you know,
+better at coding, better at computer use,
+this is a model that has made
+my own ambition a lot higher.
+The main first impression that I
+had was how much it kind
+of felt like a real coworker.
+And I think a lot of that is
+related to how good
+it is at computer use.
+Astra has really been a step up in
+a few ways, but especially in terms
+of dealing with research ambiguity.
+I think we've noticed it's
+super thorough and just pushes
+the frontier in many, many regards.
+I think we like its computer usability,
+we like its clarity of writing,
+but we've also thrown some like
+really hard research problems at it.
+It's been kind of like solving
+things we've never seen before.
+I'd love to dive in into
+how you're using Astra at Box.
+Absolutely. The one that I want to call out
+is the media and entertainment one.
+This is particularly one
+of my favorites primarily because it's
+difficult and it's very nuanced.
+What you start to see Astra
+doing is a lot of calculating,
+checking and verifying.
+Imagine if it did that wrong, it would
+have double counted this 20% incentive
+and gotten your entire cost wrong.
+Is it the very first time you're
+seeing a model get this right?
+Yes, this is one of the first times.
+This one was actually my personal favorite.
+It was this kind of static vector
+animation where what it was able
+to do here was actually have like
+a bird moving by only actually moving
+a set of lines across the canvas.
+To actually make it look like it was in motion.
+And then it added this little flex at
+the end where it shows the thing
+breakdown and actually
+showing all the poses underneath.
+That's super cool.
+We use Flora, which is a node-based
+video and image editing tool to make
+all of our YouTube thumbnails.
+Codex and Astra takes over Flora
+and starts to build the workflow,
+pull a node, do all the prompting,
+use Image Gen 2.
+I love the clicking around.
+So magical to watch.
+So magical to watch.
+And it's not looking at docs.
+It's just using
+computer use and browser use.
+This is me prompting
+inspect to add a nice badge.
+I just basically want to outline
+that some of these are for
+internal use and some of these
+obviously we're showing to customers.
+And then I asked it for screenshots
+and it was able to identify exactly
+where those changes are and then give
+me back desktop and mobile screenshots.
+Specifically what I'm using
+it for is being able to steer
+smaller and cheaper models to mine
+signals from lots of raw text.
+The model is able to both
+balance the breadth of the task
+as well as the depth of it.
+So it was able to explore each
+node thoroughly.
+It was making sure that the assumptions
+that it had made about the data
+actually held up, which is
+something that previous generations
+of models often struggled with.
+It was like testing,
+like exploring existing experiments
+that we've done over time and then
+finding like new optimization that made
+it 3.3% faster,
+which is maybe doesn't sound like a lot,
+but it's actually like really significant
+for like a workload that you
+run on like thousands of GPUs.
+Being able to do that all at
+the same time and in parallel is
+something that there's no doubt
+is going to massively speed up workflows
+and just ultimately let us ship
+a lot more product a lot faster.

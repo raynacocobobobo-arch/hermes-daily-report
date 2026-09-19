@@ -1,0 +1,1278 @@
+UP主：AI Engineer
+标题：Total Recall: Agent Memory and Harness Engineering — Ignacio Martinez, Oracle
+链接：https://www.youtube.com/watch?v=xs-ob87TTzg
+
+Hello. Hello. Perfect.
+>> Yep. So,
+perfect. Yeah, this this volume is
+perfect. It's just a website that I I
+registered the domain on Saturday just
+to do the registration of the workshop.
+But for those of you who are going to
+follow along with me, just know that
+after you complete that that process in
+the in the workshop, you will get an
+invitation to the repository and just
+view the invitation, accept it, and then
+you will be able to run the workshop.
+We'll be running the workshop on GitHub
+Codespaces. So, if you want to start
+that up, it takes like five minutes. Um,
+just for reference, I'm going to use the
+first 30 minutes to give you an
+introduction to agent harness and lots
+of other concepts and then in the next
+hour and a half, we're going to go
+actually go through uh the workshop
+together. Sound good? Okay, perfect. And
+thank you, by the way, for being here
+because I know it's Monday 9:00 a.m. So,
+I commend you all for for being here.
+Uh just two minutes before we begin. So
+I will shut up.
+All right. Well, let's let's begin,
+guys. So, thank you for being on this uh
+at this time here with me. Um, I know
+it's 9:00 a.m. like I said, so hopefully
+I can and and we me and my team can make
+your time worthwhile. At the end of this
+session, what I would like you to leave
+with is some knowledge on agent memory
+and agent harnesses. How you can build
+your own agent harness, which is
+nowadays one of the hot topics on AI, I
+would say. Um lots of people are talking
+about models constantly but the thing is
+that models like language models they
+are the frozen part of the reasoning
+right we just have to accept what we are
+given and uh during the past few weeks
+you will if you're following the news
+you will have seen that this is this has
+never been more true than now. So the
+harness is what we're going to talk
+about. For those of you who weren't
+here,
+uh you can scan this QR code or go to
+that website workshopwaiting room.com
+and just register. You will get an
+invitation to a GitHub repo and on this
+GitHub you will be able to create a
+GitHub code space where we will run the
+workshop
+and you will have everything set up for
+you. So
+just little introduction on on who I am.
+I've been working for Oracle for seven
+years. I've been a developer advocate
+for about four of them and you can find
+you know my talks and I'm very active on
+GitHub as well. So if you're a GitHub
+user uh just check out my GitHub profile
+if you like. Uh what is the highlight of
+my career so far? I launched a course
+with Andrew Ang on agent memory. So if
+you're interested on the memory
+components of what we're going to what
+we are going to discuss today, you could
+just check out that course if you'd
+like.
+Um these are the things that we are
+going to uh talk through today. Right.
+Uh first of all, we're going to do an
+little introduction on what the agent
+stack is and then we're going to zoom
+into the data layer where the memory
+lives. Then we're going to explore a
+little bit about the shapes, the
+different shapes that AI applications
+take nowadays.
+Uh what an agent is uh followed by the
+seven different layers that make up an
+agent harness. So we if you just follow
+these seven different structures, you
+will be able to create an agent harness,
+a minimal agent harness that you can
+connect any model to.
+Then we're going to finally talk a
+little bit about continual learning and
+how as as Oracle we are uniquely
+positioned to help you achieve and and
+develop agent harnesses and and AI
+applications.
+So the agent stack and by
+[clears throat] the way if you have any
+questions just raise your hand. I'm very
+happy to to take questions as well. So
+the agent stack,
+the agent stack like every agent, every
+AI agent sits on on these five layers.
+You either you have an application which
+is the product surface, right? What we
+interact with as users, you have data
+and that has lots of components. You
+have memory, you have knowledge, you
+have retrieval, encoding, search, you
+have the model itself, the reasoning
+large language model that is behind
+everything. Uh infrastructure which is
+the orchestration, what model do we
+serve depending on the reasoning effort
+that we need and things like that. And
+then we have compute which is the cloud
+or GPUs and also the the database engine
+and the application the model the
+infrastructure and the compute these
+four layers except for the data they are
+uh increasing increasingly commoditized.
+What do I mean by that? They are trying
+to take away the complexity from these
+layers out of out of our
+domain. Right? So the thing that we have
+the most control over when working with
+AI applications is actually the data and
+that's the part that we're going to
+focus in because the agent harness
+excels and you know lives very closely
+with the with the data layer.
+So let's focus on the on the data layer.
+The data layer is where an agent harness
+appears and it has you know many
+components. The first component is the
+gateway and MCP is interesting because
+that's the one that connects an agent
+harness to data and tools. So kind of
+think of of a large language model like
+a isolated thing that wouldn't be able
+to work at all if it didn't have access
+to things like data. Right? So
+you you you then have like the memory
+layer, the semantic layer, retrieval
+layer, context layer, and tools and
+skills that are built on top of the
+gateway and MCP layer. Let's say for
+instance that you have a I don't know an
+application on your computer and your
+large language model doesn't have access
+to it. For instance, Outlook, right? So
+if you might want to have your large
+language model connect to that, you can
+create an MCP, you specify some
+functions and then the LLM all of a
+sudden is able to communicate with this
+program. So gateway and MCP is like the
+layer that connects a large language
+model to the outside world or the factor
+to our computer or wherever you're
+working.
+And AI applications today they take up
+four different um four different shapes
+right you have LLM chat bots which are
+very passive uh they just respond when
+you ask a question you also have rag
+applications which are semi-passive
+because they have to do some kind of
+processing in the background but then
+you also have a passive nature of it and
+then you have the more active components
+of AI applications which are what we
+kind of use every day like cloud code
+etc etc which are a combination of LLM
+driven workflows that provide automation
+and AI agents that provide autonomy and
+we'll go we'll we'll explain later what
+what I mean by that but first I want you
+to have a very clear definition of what
+an AI agent is so to me an AI agent is
+essentially a model large language model
+plus a hardness
+The model itself will be the reasoning
+and everything else will be the harness.
+Um so this definition is something like
+this. An autonomous entity whose
+cognitive functions are powered by a
+large language model for reasoning. They
+are augmented by a database or files for
+memory. They are extended through tools
+for actions and grounded in inputs that
+let it p perceive uh its environment. So
+an agent is a a model plus the harness.
+So if the agent is the model plus the
+harness in this diagram, right, we have
+reasoning and the reasoning
+is the part that we don't control. It's
+the part that we are that's that's
+heavily subsidized. the part that we
+rent. If uh if you're like me, you're
+subscribed to every imaginable
+subscription on earth and that's the
+thing that we do not control, right? We
+have no control over what we are offered
+and then we have memory tools and
+perception that actually we get some
+customiz customizability that we can do.
+Um so the goal of harness engineering is
+to create reliable and predictable
+outputs over and over. Whereas a
+reasoning model is very
+non-deterministic. You might give it the
+same out the same input and it might
+produce different outputs every time.
+Right?
+So I said that you know in a AI
+applications the most typical ones
+nowadays cloud codeex
+uh and any other type that you can think
+of is a combination of automation plus
+autonomy. Why? Well because automation
+provides reliability to a system and
+autonomy gives flexibility. And this is
+a combination that is very
+convenient when we are developing
+ourselves. By the way, raise of hands.
+Who is working as an AI engineer or as
+an AI developer?
+Oh my god. Okay, good. So, you must all
+have used one of these systems, right?
+So, all of them they have this
+commonality which is they have autonomy
+and they have flexibility. Um,
+yeah. So the idea is that these systems
+right they are built on top of an a
+proprietary agent harness and an agent
+harness is nothing more than everything
+that we spoken about an AI agent all the
+things that you need to do around that
+to enable it to produce reliable and
+repeatable outcomes right so the model
+itself nondeterministic
+same input different outputs every
+But the harness, what we want to do with
+the harness is to turn this
+nondeterministic nature of a large
+language model and be able to produce
+reliable and repeatable results.
+So the reasoning which is the part that
+we do not control, we're not going to
+focus actually the harnesses are built
+on top of models that are kind of
+swappable. you just need like a common
+interface like an open AI protocol or
+the anthropic API specification, right?
+All these things make it so that the
+model part is swappable and the harness
+is what we're going to focus on today.
+So, seven things that make up an agent
+harness. And as I said, we're not going
+to touch on the model layer because we
+have no control over it. But let's go a
+little bit more uh in detail into each
+of these. Right? You need a storage
+layer on your agent harness that
+essentially
+determines where the data is going to
+live, where the memory physically lives.
+uh and we'll see about this dilemma that
+has been going on about the last six
+months about files versus databases and
+why I think a hybrid uh combination of
+both is actually the best part. Then you
+also have memory engineering components
+which are all the encoding, the search
+and the retrieval components of it.
+And also the semantic layer which is
+kind of the the hidden things that
+happen or the hidden vocabulary that we
+assume that a large language model knows
+that is kind of proprietary to our
+companies or our knowledge. What we
+don't say to the LLM kind of that's the
+semantic layer. We'll lightly touch on
+agent loops and what an agent loop is
+and how to implement a very very
+minimalistic agent loop and finally go
+about some context engineering
+techniques that you know keep the window
+as salient as possible the context
+window as salient as possible. You want
+to minimize the context window as much
+as possible so that that the task that
+you're solving stays relevant. So until
+here we have done an introduction to
+what an AI agent is right its use cases
+and now we're going to dive deeper into
+uh an agent harness and each one of the
+individual components. So the model
+layer right the frozen reasoning core I
+say it's frozen because typically the
+weights of a model don't change
+and I say typically because uh we are
+actually I'm actually in the process
+with Casio sitting right there. We're
+going to record a new course with Andrew
+on continue learning for a agents. So if
+you're interested just check that out in
+a couple couple weeks. But the thing is
+that 99.9% of the time you will have a
+model and the weights of the model will
+never change uh unless you have millions
+of dollars or you know a lot of time or
+GPUs it's very hard to change the
+weights of a model. So there are other
+ways in which you can affect the
+reasoning without actually changing the
+weights of the model. But this is
+motivation for for the continual
+learning part that we will see in the
+workshop.
+where does the memory live right the
+files versus databases dilemma that
+we've been having uh since January kind
+of some people are very maximalists of
+files and some of us are well oh I will
+not include myself but some of some
+people are also maximalists of the
+database um and you know both things are
+right files have convenient things
+convenient characteristics and also the
+databases So the files right they are
+very easy to
+like they are very they match the
+model's instincts they are very easy to
+create they are very easy to insert and
+append data into files right it's very
+it has a very unstructured nature to it
+and databases on the other hand or the
+conception that people have is that they
+have a very structured way right but
+that's when you're thinking about SQL
+like SQL And the thing is that you don't
+actually need to
+like choose one or the other. You can
+actually use both of them. Like files
+are attractive because the models picks
+them and they kind of work very very
+easily with operating systems. They
+follow posic semantics. So they are
+compatible on Debian, Ubuntu, any other
+operating system that you might want.
+And they also have some disadvantages.
+for instance they don't have
+transactional consistency. So this is uh
+one of the problems that I wanted to
+talk about. If
+you are a degenerate like me and you are
+working I don't know with 8 16 32 agents
+at a time. Uh the problem with this is
+that files cannot be modified and
+inserted and modified at the same time.
+So what is the solution nowadays
+to not having transactional consistency
+and working with files? Any suggestions?
+>> Work trees. Exa. Exactly. So agents what
+they when they want to modify a file but
+another agent is working on this thing,
+they just create a different work tree,
+right? They will do all the progress in
+the work tree and then after the
+implementation is done they will merge
+to master or the merge to main sorry. So
+this is the way that is a workaround
+against not having transactional
+consistency right and you also have
+other characteristics like for instance
+hybrid search um this is not available
+on files but is very very easily
+achieved on databases. Um you don't have
+backups either. So if your operating
+system gets corrupted or something, you
+will just lose everything. And these are
+things that the database fixed 354 years
+ago and people have kind of forgotten
+about that. So what I want to do is to
+give you kind of the best of each
+of the of the implementations, right?
+You can get the benefits of files and
+the benefits of databases in the same
+place. And we'll see why. But these are
+some of the advantages, right? You have
+acid consistency.
+So atomic operations, consistent
+operations, isolated and durable. You
+have high availability. You might
+replicate the database and let it be,
+you know, in three different places in
+the world with a replication factor. You
+also have vector search, which is very
+easy. In files, you just have to do like
+regular expression matching or a
+derivative of that.
+and you know lots of other lots of other
+things. So
+what we will do on the on the actual
+workshop is we're going to run an actual
+example of trying to modify a file with
+three different agents that will be
+working on the same file and trying to
+update a counter on this file and let's
+see who's faster. I know the answer of
+course but you will you'll get to know
+it later.
+But what I want to introduce to you is
+that we have a thing called the Oracle
+DBFS or the database file system where
+you can store files inside the database
+on a file system and that gives you you
+know lots of the advantages that we
+said. You will get files with acid trans
+uh transactional consistency. You will
+get vector search relations security
+high availability etc. Right?
+And my suggestion is that since a hybrid
+system works best um we can have things
+like for instance uh short-term memory
+right that lives in files and when
+something needs to be promoted into a
+long-term memory for instance user
+preferences things like this they can go
+into a more structured space like a
+database and this is what we'll do in
+the workshop
+for the encoding the search and the
+retrieval which was another of the
+components
+in the agent harness. We also have a
+lang chain integration that I want to
+mention called langchain Oracle DB that
+makes it very easy to insert into vector
+stores, search in the vector stores and
+retrieve from the vector stores. So also
+we have another thing called in database
+embeddings. Have you ever heard about in
+database embeddings? Yes. Okay. So in
+database embeddings is very convenient
+especially for enterprise customers
+because you will get the embedding model
+inside the database so that when you're
+doing embeddings you don't have to call
+a third party service and that's very
+convenient for isolate like data
+retention and data security purposes.
+So this is what a an an embedding
+searching and reranking model would look
+like from a chatbot interface for
+instance right you have a lot of
+documents then you kind of use a
+benccoder so a benccoder is essentially
+an embedding model you will create eno
+embeddings out of these document you
+will split them and create vectors put
+it into a vector store right and then
+you will get a user prompt a user query
+a question you can also create an
+embedding out of that and then compare
+it to what you had previously on your
+vector store. And this is how you get
+the most relevant
+vectors in in an answer. Then you will
+run an a cross encoder which is a
+reranker and take a look at the question
+plus the result and that's how questions
+are answered kind of in in in rag
+applications. Right? So these things we
+are also going to to touch briefly on
+the workshop
+and the things that you know imagine
+this rag application from the beginning
+from the documents you create you do
+lots of things right you do tokenization
+then you create the embeddings um you
+have to do things like the duplicating
+the data normalization
+uh personal like redacting personally
+identifiable information lots of things
+right and then on your on your store you
+have textual data from the documents you
+have metadata which is typically stored
+in JSON you have vectors which are
+represented as as dense embeddings of 32
+uh bits
+like you have so many types of data that
+you need to work on that typically what
+people have is for instance I don't know
+I will not name names so I don't get in
+trouble but you know you might need like
+different databases for each one of
+these, right? You you get what I mean?
+So there is a very high nowadays very
+high data synchronization logic overhead
+for AI engineers or even for agents,
+right? So lots of maintenance required
+and and and lots of engineering effort
+on it. And this is something that we
+want to avoid. So what I want you to do
+today is just to try us out as Oracle.
+Uh try our database. We have support for
+every type of data imaginable that you
+can think of. Um we are called the
+converg database. We are the only
+converg database in the market that we
+support JSON, we support relational, we
+support uh spatial, graph, JSON,
+anything that you can think of you'll be
+able to to create with us and you'll get
+like one database engine uh one query
+interface and uh one single development
+stack. everything will be in the same
+database. So also for data security
+purposes, you just have to
+you know secure and save all your data
+in one place. So a single attack vector
+is what you need to worry about. You
+don't need to worry about updating five
+different database. You can just worry
+on securing one database.
+So we can be the engine of your AI
+applications, not just a single step,
+which is what people think of when
+they're working with databases, right?
+Um,
+yeah. So
+agent memory,
+agent memory is essentially a
+description of all the mechanisms and
+the systems that allow an agent to
+retain, reuse, refine and recall
+information. We want to reuse the data
+and refine it in the process. But we
+want to reuse the data. So that the next
+time that an agent or us as engineers we
+are working on a problem that took us
+three hours, the next time that we
+observe this problem, the problem
+becomes easier either for AI agents or
+for us.
+And agent memory has lots of lots of
+components, right? We have short-term
+memory, we have long-term memory, and
+then we have shared memory, which is
+something that's relatively new. Um and
+this shared memory is kind of what
+happens when a sub agent is communicate
+with it is communicating with it with
+its parent for instance or two agents
+are trying to collaborate on solving one
+specific problem uh together and then
+what I want you to to see is that
+depending on the type of memory or or or
+the type of thing that we want to store
+it will be in one place or the other
+right so short-term memory is kind of
+ephemeral is very shortlived
+And it's very useful for things that are
+happening right now. For instance, the
+to-do list on a coding agent, right?
+It's happening right now, but you
+actually don't want to save that u you
+know in long term. But then there are
+things like for instance episodic memory
+things that previous conversations that
+you've had that's very useful to have
+for instance um I don't know if you if
+you use clot some people are using cloud
+um here uh but in in cloud you might
+take your previous conversations and try
+to refine all your workflows and your
+skills based on the things that you've
+done in the past. So this is something
+that makes sense to to save in the long
+run, right? You also have things like
+procedural memory, previous workflows
+that have worked very well for your
+system. For instance, you worked on this
+front end and then you created a very
+beautiful design that you like. You
+might take the whole conversation and
+turn that into a workflow that is
+repeatable and re reusable so that the
+next time you're working on a front end
+the results will be similar to the
+previous one. Right? So these are the
+things that we we will see on the
+workshop
+and some people say okay why do I even
+need all of these like people that are
+very that have animosity towards agent
+memory people say okay let's just put
+like 15 million uh context window even
+though it's not not possible yet but
+some people really believe that this is
+the the thing right but the context
+window is a type of short-term memory so
+it's useful for some things but not for
+all of them. And one of the problems
+that that happen with with working with
+a with a context is this thing called
+context rot or context degradation over
+time. And what happens is that the more
+things that you put into the context
+window, the less attention there will be
+for each one of the things that are in
+the context. So at the beginning of a
+conversation and this is a a famous
+problem that that the context window has
+is at the beginning of the conversation
+it will stay on track a lot because you
+are just you just started the
+conversation. So let's say that for
+instance like in school, right? Or if
+I'm having a conversation with you, um I
+might have the a chat with you for 30
+minutes and your attention to me is very
+very high because I just started
+speaking. But if the conversation goes
+on for eight hours, then you want to
+punch me, right? Because I haven't shut
+up and you haven't learned almost
+anything at the end. And the the problem
+is that attention like us humans is very
+limited. So the more things that you put
+in the context window, the attention
+matrix of the neural network will all
+also degrade and it will like scale
+quadratically because the attention
+matrix you know is one token. It's
+essentially a reference of one token for
+every other token in the context window.
+So the bigger the context window is, the
+matrix scales on the number of rows and
+on the number of columns as well, which
+is a problem. So you want to keep the
+context window as small as possible to
+avoid context rot
+and memory engineering the components of
+memory engineering. Um so it's like
+designing building and doing everything
+around building agent memory for AI
+agents and we want to retain recall
+reuse and refine this data in some type
+in some way. So it is a discipline right
+and here we have Valentine for instance
+and we have people from Oracle uh my
+colleagues all over the the room. So if
+you see them you can say hi to them.
+Valentine here he's working on the
+development or he worked on the
+development of this agent memory
+package. So if you have any questions
+about this you can ask him. Um, OAMP or
+Oracle agent memory package is the
+managed answer that we have in Oracle to
+lots of the problems that you will find
+when working with this type of data. For
+instance,
+as an engineer, if you do not have a
+managed solution, you need to make a lot
+of decisions. You need to see when do I
+do context compaction, when do I
+summarize,
+how do I write it, the summarizer, what
+do I keep, what do I not keep, um what
+do I extract from my previous
+conversations and when,
+how many tokens do I use for this
+problem and lots of these things, right?
+With OAMP, an Oracle agent memory
+package, you can actually just do all of
+this in one single line of code. And we
+want to make it easier so that we reduce
+the cognitive load of AI engineers and
+AI agents as well. And with this context
+card uh thing, you will get something
+like what you see on the left. And
+this is kind of an explanation of what
+each part does on it. But essentially
+the the topics uh that you see for
+instance from any conversation you can
+create a context uh card from the thread
+or from the conversation. The topics
+will orient the model. The summary will
+compact the thread and it will state the
+current intent of an AI agent and the
+relevant information has three different
+parts which is the the facts, the
+preferences and the memories that are
+associated to this conversation.
+uh then you have the episodic memories
+that explicit explicitly track the
+unanswered question that is going on
+right now and the recent messages give
+like local context to the model. So
+whenever you're feeling like unsure what
+do I need to do right now with the data
+that I have or this conversation you
+might use the Oracle agent memory
+package on on Python and it is all
+assembled by one single call.
+>> Yes.
+So you're not suggesting that this goes
+directly into the model. This is
+actually something that is used by the
+harness.
+>> Exactly.
+>> What's going into the model?
+>> Yes. Yes.
+>> The component that you're talking about
+that uses it knows about the structure.
+>> Exactly. Exactly. So this structure
+>> this is an abstraction that we build on
+top of the model because the model we
+have no control over in most cases,
+right? Um
+the thing is that we can build on top of
+that whatever abstractions we want to
+make the model perform as reliable as
+reliably as possible. Yep.
+So the memory and the semantic layer
+they kind of work together. We I know we
+talked only about memory components. Uh
+I'm going to walk you quickly because
+I'm I don't have a lot of time um to the
+semantic layer to the semantic
+components of it. Right? And the
+semantic layer is the the meaning of
+what's going on behind it that you kind
+of assume that that happens. Right? So
+anyone from Germany?
+Okay. So I apologize for my
+pronunciation but I'm going to try. So
+the is like the ambient of a model and
+this was coined by Jacob von Wexul.
+Um and this guy said that essentially
+every organism in the world uh that is
+living perceives its reality through a
+lens and the lens is what it has access
+to. For us humans for instance, we have
+our eyes, our senses, right? So
+everything that we perceive and
+everything that we leave, all our
+experiences are seen through this lens,
+right? And an agent doesn't have human
+like senses, but it has also a kind of
+semantic layer or a semantic lens that
+everything that you ask it is filtered
+through. And this lens is essentially
+what you train it with. And then what
+you also give context to. So everything
+that you talk to the agent right when
+you talk to the agent this agent will
+look it through the belvelt
+and the semantic layer is essentially
+the agent's velvet.
+So the onset is what what what I want to
+focus on like for instance
+organizational knowledge or enterprise
+knowledge things that when you're
+working with a colleague you don't
+mention this because this is already you
+know known between you and your
+colleague you need to specify everything
+that you work on every day. If there was
+someone else like a a child that wanted
+to that [clears throat] wanted to start
+uh working with you, you would have to
+specify everything very very in detail.
+These are all the answers and this is
+what the semantic layer captures. So the
+answer is the actual tribal knowledge
+that that an enterprise has right
+institutional knowledge as well like how
+the data is modeled, how the queries are
+executed, what is the metadata, all
+these things are in the semantic layer.
+Um and quickly just for you to know that
+we're also going to implement a very
+minimalistic agent loop. And an agent
+loop is like the driver of the model,
+right? It lets a model be kind of
+independent and autonomous
+and it is what makes a model it it turns
+a model into an agent, right?
+And this is like the simplest agent look
+that you can find is kind of this
+observing and reasoning and then acting
+part that happens all of the time. All
+of the time. And you know it's it has to
+be failure uh failure resistant so that
+we never exit the loop. This is the idea
+that the agent you give autonomy to the
+agent. Well you give autonomy to the
+model so that it becomes the agent.
+And then on the context engineering part
+which is the last part of the seven
+layers of an agent harness. You also
+have lots of things that you can do. For
+instance, the toolbox pattern and the
+skillbox pattern which we are this is on
+the workshop as well. And these are ways
+in which you can store the available
+tools and the available skills of a
+model so that they are retrieved
+optimally. And what you want to do is
+only
+retrieve the tools and the the skills
+when they are actually needed and put it
+on the context window only when needed.
+every iteration of an agent loop you
+will see if this is actually the right
+place and then if it's not you can just
+take them out temporarily
+so
+uh oh sorry I thought I saw a question
+so we will see all of this in the
+workshop I don't want to take up too
+much time but the idea is that we will
+assemble the context at every iteration
+on the agent loop
+and then continue learning is the part
+that that we talked before about the
+ability to get better over time with the
+things that we've done with a model,
+right? So a frozen model as we saw it
+doesn't get better, right? But there are
+ways in which we can make an agent
+improve in the weights which is the
+parts that we are going to work on uh in
+the representation part. So on the
+embedding and the reranking part and
+also in the context window
+and these are the three types of
+continual learning techniques. We are
+going to focus on the workshop on the
+context and the token space because it's
+one of the easiest ones and one of the
+least expensive ones as well. I assume
+no one is a millionaire or not many of
+us are millionaires. So this is also the
+most achievable and the most realistic
+way to change the model behavior over
+time.
+So
+without further ado, I just want to
+introduce you to this part which is
+skill promotion and workflow workflow
+promotion. So those skills or those
+workflows that you've done for three
+four hours, right? you've been working
+for the whole day on a workflow,
+you were able to successfully do your
+job. Um, and then these things can
+actually be retrieved, they can be
+stored into the memory components that
+we'll see. And then we will see about
+skill promotion. So if we promote a
+skill for instance, we can promote it
+through a distillation process and
+create a better skill.md than the
+original. So we will retire the old
+version and update from the new version.
+And this allows us to do some kind of
+continual learning on our own skills
+that turn them into more customized
+skills for ourselves, for our tone, our
+way to work, our preferred like our
+preferences. Like for instance, let's
+use this specific library because I
+really like the look and feel of it.
+let's use this uh specific database
+engine because it has less bugs or I
+found it easier to work with. All these
+things can be promoted into reusable and
+improvable skills over time.
+So
+this is what the whole harness would
+look like at the end of the of the
+workflow uh sorry at the end of the
+workshop and hopefully what you leave
+this uh you'll leave today with a better
+understanding of all the specific
+components that make up an agent
+harness.
+So let me go to
+here before I forget. If you are
+interested in the Oracle agent memory
+package or are working on the agent
+memory package, we have a discord server
+in which you can just chat with us as
+stuff. If you're a Discord user, just
+feel free to to join this discord
+server. I'll put the link later as well.
+But without further ado, let's begin
+with the actual workshop and I will tell
+you how. So let me show you first what
+we are going to build right this is an
+app book. Oh sorry uh you don't see
+this.
+>> Yeah.
+First, yes, the workshop instructions,
+right? So, for those of you who weren't
+here, you can just go into this website,
+register with your GitHub user, and then
+you will get an invitation like this to
+a GitHub repo and from here we will
+create a GitHub code space. Uh, so
+please make sure to do that right now
+and all my colleagues are are around the
+room to answer any questions that you
+might have during the creation of the
+code space, etc.
+Yes. Yeah.
+>> The internet. Are you having issues with
+the with the internet?
+>> Okay. Let's see.
+>> So, do you guys have my the same Wi-Fi?
+Um, AI.gineer Wi-Fi.
+Okay. So, can someone assist people with
+the Wi-Fi if possible?
+Whether you can help each and every one
+of us, you need to fix the system.
+>> Yeah, please fix the system. Whoever
+>> do it.
+>> I can't I can't.
+>> Yeah. Yeah. Uh my colleagues will we'll
+take a look at that if
+>> Right.
+Yeah. Yeah. It always happens, you know.
+>> Yep.
+>> All right.
+>> Say again, sir. slides that you were
+showing or they
+>> Yes, they will go into the AI I believe
+they they will go into the AI engineer.
+So, if you go into the session,
+uh I'll make sure to to to go there. If
+not, if you either join the discord or
+any other, you know, you can just
+message me as well on LinkedIn. I'll
+gladly give you the the slides if you
+want.
+All right. Um,
+video team, can you turn me on? Uh,
+sorry, switch me on, please.
+Uh, oh, perfect. Thank you. So, what I'd
+like you to to show you is that we have
+built also apart from the notebook that
+we're going to go through, we also built
+this app book. And with the app book,
+you can actually test every of the
+individual components of an agent
+harness uh individually, right? So just
+for me to show you that this is possible
+and you will get this automatically
+deployed in GitHub code spaces as well.
+So you will have um this uh already
+deployed and you will say well how am I
+actually making requests? We are going
+to be making requests to
+uh Oracle. Uh oh.
+Okay. Not file. Demo time. Um the idea
+is that
+Yeah. Okay. I I know what's happening.
+So I lost connection to my to my code
+space because of inactivity. Let me
+restart.
+Uh this appbook is going to allow you to
+create and chat and interact with the
+whole agent harness and the models that
+we're going to use are actually deployed
+on a managed service that we have on
+Oracle called OCI the generative AI
+service. We have partnerships with
+Google, with Meta and with OpenAI and
+with XAI for the time being. And we can
+actually provide inference to their
+models through our managed uh server. So
+think of us as the
+enterprise open router if you'd like. So
+let me just go so you get started. Uh
+you can get started. This is the repo,
+right? So the agent harness workshop. If
+you're here and thank you for starting
+that by the way. Um if you're here you
+just have to click on open in GitHub
+code spaces and it will take you here
+and you can select as many course as you
+like.
+uh if you so if you want to create this
+with eight or 16 please don't because I
+I don't I'm paying for this myself but
+uh you might also create this with more
+resources but just create the code space
+and I'm going to pay for it as I said so
+don't worry about that and this will
+create a new
+a new code space instance and once it
+finishes
+which it hasn't yet I will show you what
+we can do with the appbook and the
+notebook. But the idea is to use the
+remainder of the time that we have 1
+hour and 15 minutes to go through the
+notebook and you will actually have to
+let me show you on on GitHub actually.
+Um you can go here and inside the
+notebook after you deploy the code space
+you will get uh a student notebook here
+and this is one part of the of the
+workshop right and here we're going to
+implement the whole agent harness
+substrate
+from scratch. So, we're going to start
+with only the model and then we're going
+to keep adding layers to the agent
+harness as we saw the seven layers,
+right?
+And we're going to be here to to assist
+you. You will have to do some to-dos.
+So, let me show you. There are a couple
+of things to do for you.
+So, for instance, the first thing that
+you need to do, you need to create a
+question, right? The simplest thing of
+everything, you just have to communicate
+with a model with no agent harness
+implemented, right? So the first thing
+you'll need is to ask any question that
+you like. This will go through the
+OpenAI completions API and it will
+return you a response. This is the
+simplest of all. And then we will start
+adding search, retrieval, encoding
+and all the other components that we
+that we have seen. There are a total of
+19 things that you need to do. If you
+finish first, raise your hand and
+I will give you a hug because I don't
+have anything else.
+And yeah, so anyone already deployed the
+code space?
+Okay, one person. Okay, good job. So
+any yeah, if you have any questions or
+any problems, uh, let me know. But this
+is what it looks like when you have it
+deployed. Okay. So, let me go through
+this quickly.
+So, you will get an app, right?
+>> Um, and the app will already have
+everything that you need. If you want to
+deploy this app
+yourself, you might change this total
+recall port here.
+Let me show you how I did it again. I go
+into ports. I clicked on the visibility
+of the port and I changed this to
+public.
+And then this is now using a public
+gateway. So that if I open the browser,
+I can actually get access to my
+individual u total recall instance. So
+for instance, if I ask a question
+like show the total revenue by product
+category and of course this is mission
+control. So this is this has all of the
+components that we've uh spoken about
+implemented already. You will get also a
+context window visualization of the
+things that are going on on the
+background. For instance, these are the
+tools that were selected by the agent
+harness to be loaded into the context to
+answer this question. This is the schema
+that's happening. And then we can also
+take a look at the individual agent
+traces that are going on. For instance,
+which skills, which skills are being
+loaded, what sources of data are we
+taking and what are the tool calls being
+used like for instance running SQL
+commands etc to answer your question. So
+the question is still being built. It's
+taking 16 steps
+and you know it's gonna for instance
+here it detected an error right but
+because our agent harness is
+um fault tolerant it will keep trying
+because it's part it has an agent loop
+implemented etc right so all these
+things will actually yield you this
+result uh from from the data in the
+database right and you can actually go
+into the context window see how many
+tokens we're using And if you're
+particularly interested in some of these
+parts for instance the Oracle Asian
+memory package for instance you can
+interact also with only the uh the
+context card how to how the context card
+is being created etc etc. So you will
+all get this deployed in your codebase.
+>> Yeah.
+>> Yeah.
+So his question for those of you who
+didn't uh listen where what happens if
+you have thousands of tools in an
+organization right well we introduced
+this concept called the toolbox pattern
+in this course with Andrew Yang and the
+thing is that you can optimize so that
+the retrieval of these tools is
+negligible. So you will use uh
+hierarchical navigable small world
+indexes that use a graph u a graph
+structure and then each node in the
+graph is a vector index or a vector
+store and then you can actually like
+hnssw indexes they can be create created
+for these types of problems only in the
+database not not in files. Um, so great
+question. It doesn't have to worry you
+until you reach millions and millions of
+users and tool calls like different
+specific tool calls. You might not get 5
+million. It's more like reading a file,
+writing a file, grapping, all these
+kinds of tool calls that that that we do
+every day, they typically don't ex like
+exceed 100 or a thousand. Um but by
+being on a vector store you abstract the
+complexity uh the complexity and the
+amount of it. You can just make a a
+query 2,000 just as simply as you would
+10,000 because of the storage component
+that we we choose it which is an HNSW
+index.
+Yeah, some of them they have access to
+confidential data for instance. Some of
+them don't.
+Yes.
+>> Great question. So his question was what
+happens if the tool descriptions that
+two different companies have are very
+similar, right? And one of the things we
+we can do on the toolbox pattern is
+actually generate with LLM enhanced
+toolbox descriptions for these for
+specific tools to increase the
+separability of the of the tools. So if
+you think that the current descriptions
+of a tool or of a skill as well are not
+enough, you can actually enhance them
+with LLM retrieval like you would uh
+instead of running for instance named
+entity recognition which is very uh
+caveman style. You can also do something
+more sophisticated which is enhancing
+the kind of like dock string uh enhanced
+representations of a tool so that you
+increase the separability when you're
+doing vector search.
+Does that answer the question?
+the agent loop is that?
+>> Yeah.
+>> Oh yes. Yes.
+We have seen some.
+>> Yes. So there there is a there is a
+limit of course because we don't have
+infinite money. So we can't just keep
+trying and trying over and over if the
+generations are just hallucinations
+right. Uh there is a cutff point that I
+set depending on the frontier LLM that
+I'm using for instance for Grog 4.1 fast
+reasoning which is the one that we're
+using here. Um I found that a value of 8
+to 12 like maximum number of tool calls
+before giving up is correct. Uh depends
+also on the on the accuracy and the and
+the correctness of the model like for
+instance in this case it was just able
+to to to to show it in two before it was
+able to find it in 16. So t sometimes it
+will have a faster retrieval, sometimes
+you will need to be a little bit more
+patient. But what I like to define is a
+variable like a hysterosis variable that
+holds the amount of patience that the
+harness will get with the model. Then
+you can do some other things like for
+instance if the model is garbage. You
+can just use or use like a router for
+more different like for difficult types
+of problems you will route this problem
+to a frontier LLM and then for the
+easier types of problems you can just
+attach an open weights SLM for instance
+which will be more more interesting.
+>> Do you recommend models for
+>> Yes. Yes. I think that's like my
+personal opinion is that the future is a
+mixture of small experts for for each
+type of problem. some companies that
+they have developed like a 100 million
+parameter models that work exceptionally
+well for one type of problem and if you
+just have an aggregator and an
+orchestrator that routes the correct
+model to that like the correct query to
+that model then you will have a very
+token efficient type of uh agent
+harness. So you you can actually do
+model routing inside the agent harness.
+Some companies are actually
+essentially only doing that and they
+will charge you like let's do I'm going
+to charge you 10% of the tokens that I'm
+going to save you from the original uh
+amount of money that you were going to
+spend right uh so let's uh let me show
+you the the student notebook right so
+once you are inside the student notebook
+for those of you who are not familiar
+with Visual Studio Code you might need
+to select a kernel here so that you run
+the the notebook. So you might select
+Python 3.12 here and then you can just
+start reading. If you stumble into a
+to-do that you need to do, you have a
+docs folder with all the explanations,
+the individual explanations that you
+need to solve this specific problem. For
+instance, the first to-do which is just
+talking to the reasoning core to the
+model layer without doing anything else.
+It will just explain what you need to
+implement on that sale so that it works
+and you can proceed to the next one
+and also have the solution. But if you
+if you're not lazy, you will try and
+hope that you that you try and we will
+be here answering questions around the
+room. I'm gonna turn off my microphone,
+just come down with my colleagues and
+then let's chat about it uh for the
+remainder of the of the session. And if
+you have any questions or you like to
+talk um more to us, please come by and
+and swing by the booth, the Oracle
+booth. We'll be there every day uh all
+the time. And you know, it makes it
+makes us feel good like we are wanted
+and we have friends. So if you want to
+come up to us, just chat with us a
+little bit. It it will be nice.
+>> Internet. How is the internet?
+>> I feel like Cesar. Right.
+So, I'm gonna leave this here. I'm going
+to keep this here. And I'm going to come
+down.
+>> [music]

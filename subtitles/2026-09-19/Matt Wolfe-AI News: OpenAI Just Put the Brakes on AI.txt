@@ -1,0 +1,900 @@
+UP主：Matt Wolfe
+标题：AI News: OpenAI Just Put the Brakes on AI
+链接：https://www.youtube.com/watch?v=EfGF7QbJItA
+
+OpenAI just paused development on new
+models. AI just helped with the
+potential cure for skin cancer. We got a
+brand new open-source model that you can
+run locally on your computer that's
+actually pretty good. We're going to
+talk about all that and more in today's
+AI news breakdown. But first, I want to
+start with the thing that I've had the
+most fun with this week, and that's this
+new trip 2.0 model. This is a model that
+actually generates 3D objects that you
+can export and 3D print. You can pull
+them into Blender. You can pull them
+into Unreal Engine. And they're actually
+really, really good, at least at
+rendering the 3D portion. There is a
+little bit of wonkiness, which I'll talk
+about in a second. But you can see that
+this is generating borderline game ready
+assets like right out of the box. So, of
+course, I had to play around with it.
+And I wanted to give it an image of
+myself and see if it would generate a 3D
+version of me. So, I gave it this image
+here cuz this was kind of the closest
+image that I had to like a tea pose. And
+you can see this is what it generated
+right off the bat. It removed any sort
+of facial hair or, you know, any hair at
+all, but it got the pose pretty spot-on.
+Now, after generating the 3D mesh,
+there's an option to generate a skin
+that goes over the mesh, and that's
+where things got a little weird. So,
+here's the textured version. And to be
+honest, it nailed the shirt, pants, and
+shoes. And my skin tone, too. Like, if
+you look at the picture here, those are
+perfect. But what the heck did it do to
+[laughter] my face?
+I don't know what's going on with the
+lips. If you look at this, this was the
+lips it generated on the original 3D
+mesh here. But then when it added the
+texture, it gave me like extra clown
+lips or something. [laughter] I don't
+know what's going on. And then you could
+also see the nose got a little bit
+weird. There's some skin in my
+sunglasses. So, yeah, the face got a
+little bit wonky, but everything from
+the face down looks like perfect. Like,
+yeah, if you just see this version
+without my head in it, it looks like
+identical to our original photo here.
+But as soon as that face comes into the
+picture, yeah, that's not quite me. But
+I wanted to try with something a little
+bit more fictional and fantasy to see
+what that would do. And we'll actually
+use an image generator of your choice. I
+used Nano Banana and I gave it the
+prompt, "A humanoid wolf with horns and
+wings wearing torn jeans and a black
+t-shirt flexing and standing on a tree
+branch." You can see my first prompt, I
+didn't put a t-shirt and jeans and uh I
+got a little extra fur in areas that
+looked a little too weird for me. So,
+with my second prompt, I had it add some
+clothes. I thought this second one came
+out the best here. So, I generated a 3D
+image from this one. And here's the
+original mesh that it gave me. And it
+looks pretty good. And then when I had
+it add texture, then it got really cool.
+Like it really really nailed it with
+this one. So it seems to be quite a bit
+better for like fantasy creatures where
+AI generated the image versus giving it
+real images to work with cuz this is
+really good. Like some really decent
+detail in there. It's really making me
+want to create some 3D objects and then
+pull them into codecs and have it
+generate a game using these 3D objects.
+That'll probably be a project for a
+future video. But I was really really
+impressed with this. I thought this
+looked really really good and got me
+inspired to want to do more game type
+assets. And as of this recording, if you
+want to play around with Trippo, they
+actually allow you to generate two for
+free. So I was actually just generating
+these on the actual free plan. These are
+my two free generations. Another cool
+thing about this is you can generate an
+unlit version. You can generate a
+cartoon style, which just kind of puts
+like an extra black outline around it. A
+sketch style. And I really like this
+hologram style. Like if I could get this
+to look a little bit more like me, I can
+actually see using holograms like this
+inside of my videos. You know, it would
+be really cool to like pull out my phone
+and then have a hologram like this like
+animate out of my phone and the hologram
+talks to you for a minute or something
+like that. I think that'd be really kind
+of fun to figure out how to do in a
+video. I just need it to look a little
+bit more like me before I feel
+comfortable doing that. One thing that I
+find really interesting, if I go to my
+wolf with wings here and I click on
+unlit, it actually removes the wings
+completely. So, the unlit version just
+has the bones that were in the wings,
+which is kind of cool, too. It gives me
+like more effects that I could use. If
+it wasn't a game, maybe if you're
+battling this character in the game and
+you hit it a couple times, you destroy
+the wings and now he can't fly anymore,
+but the wings look like this. Cartoon
+style again has that more like outlined
+look. Here's sketch style on the wolf.
+And then of course the hologram style
+where you could see through everything.
+Once again also removes the wings. If
+you are building a game around something
+like this, you could export the hologram
+style. Maybe when you kill the
+character, it turns into like a ghost
+like this and floats up or something
+like that. I've been having a lot of fun
+with this tool. So just like last week,
+I wanted to kick this video off with the
+thing that I enjoyed playing with the
+most. Next up, I want to share some
+really exciting positive news out of the
+world of AI. There's so much like doom
+and gloom around AI narratives right now
+that it's really fun to finally share
+some news that I think people can get
+excited about. We've been told forever
+now that AI is going to help cure
+cancers and diseases and things like
+that. And well, this news came out this
+week that an mRNA cancer vaccine
+succeeded in phase 3 melanoma trials.
+The phase 3 trial included 1,137
+patients who had stage 2B to four
+melanoma that had been surgically
+removed prior to the treatment in the
+trial. Apparently, the vaccine extended
+the amount of time a patient has without
+the cancer returning. Now, this specific
+article here on Ars Technica does not
+mention AI at all in the article. And I
+think part of the reason for that is
+it's just like out of fashion to talk
+about AI. Now, most of the narratives
+that you hear online that use AI are
+usually narratives around how AI is
+ruining everything. However, this
+vaccine does use AI. You can see here
+that it is called mRNA4157.
+Well, I found this article here from
+December 2023, back when it was cool to
+talk about AI, called Advancing the
+Fight Against Cancer through mRNA and
+AI. And if we look at the actual drug
+they're talking about here, mRNA4157.
+So the same mRNA4157
+they're talking about in this new
+article back in 2023. They were on phase
+2b. This one is reporting about phase 3
+trials. Now to be clear, this isn't
+referring to generative AI. This is not
+like a large language model that went
+and found a cure for this type of
+cancer, but it is using AI. It's using
+machine learning and the neural networks
+and everything to help fight against
+this type of cancer. Again, this was at
+a time where it was cool to say things
+were solved with AI. It says, "On the
+design end, a series of fully integrated
+AI algorithms take next generation
+sequencing data from tumor and blood
+samples reviews their genetic mutations
+and predicts up to 34 of those neo
+antigens that are most likely to elicit
+an immune response. This algorithm has
+the potential to learn over time through
+pairing clinical and immunogenicity data
+and will hopefully become better at
+selecting the most clinically active neo
+antigens. So, it's still using like a
+prediction machine, not too unlike a
+large language model of today, but I've
+been seeing a lot of arguments and
+discourse around this specific news
+online where people are claiming that
+this didn't use AI simply because that
+original article never mentioned AI.
+Well, in fact, on Moderna's own website,
+they literally break down how it's used
+AI to get to where it is. Anyway, this
+is the kind of news that I'm hoping we
+see more and more of out of the world of
+AI. And I do think generative AI and
+large language models are also going to
+be getting us closer and closer to these
+like health and science breakthroughs.
+We're already starting to see it a
+little bit, but when it comes to AI, I
+think we can all use some like positive
+use cases and positive news around how
+AI is being used. The next update comes
+from Hyper Agent, and they built their
+entire platform specifically around this
+concept of agent teams. Instead of
+asking one AI to do everything, you
+create specialized agents with different
+jobs that can work at the same time and
+with each other. And it's not just
+multi- aent, it's multi-human, too.
+Because apps like OpenClaw, Hermes, or
+even Claude Code can be difficult to
+work collaboratively with if they're
+living in one person's local setup. But
+with Hyper Agent, you build an agent
+once, and your entire team can use it,
+either directly inside the Hyper Agent
+app or by messaging with it like you
+would a co-orker in Slack. I personally
+used Hyper Agent to build my own B-roll
+generator for videos. You just give it a
+section of a script and it turns that
+into photorealistic B-roll, motion
+graphics, and other visuals I can
+actually use in my videos. And because
+it lives inside Hyper Agent, other
+people on my team could use the exact
+same workflow without rebuilding it from
+scratch. You can actually try my B-roll
+generator for yourself along with a
+bunch of other cool skills in Hyper
+Agents Marketplace or build your own
+team of AI agents with Hyper Agent. If
+you sign up with the link in the
+description, you'll get a hundred bucks
+in bonus credits on a paid plan. So, go
+check it out. And thanks to Hyper Agent
+for supporting my channel and sponsoring
+this portion of today's video. We did
+get another new large language model
+this week that everybody is talking
+about. And this one comes out of
+Alibaba. So, this week we got the new
+Quinn 3.827B
+model. Now, if you have been following
+along, you might think, "Oh, I've
+already heard about Quinn 3.8." Well,
+last week I did mention Quinn 3.82.4T,
+which is a 2.4 trillion parameter model.
+And yes, that was an openweight model,
+but it's so big that nobody's running
+that one locally. This new version,
+Quinn 3.827B 827B is a 27 billion
+parameter variant that you actually can
+run on consumer grade computers, which
+is why there has been so much talk about
+this one this week is because a it's
+actually a really really good model that
+works really well for people, but b it's
+small enough to actually run locally. To
+sort of hammer this point home, hater
+here wrote this post. Let this sink in.
+Quinn 3.827B is an openweight model. You
+can run completely offline on a 24 to 32
+GB laptop and it's already better than
+Opus 4.8, GPT 5.6 Terra and Luna. Andy
+shared the screenshot to the artificial
+analysis agent index here. And we can
+see that Quinn 3.827B comes in above 5.6
+Terra and only slightly behind Kimmy K3,
+which is another open model, but a model
+that is just also very, very big and
+likely not going to be running on your
+local computer. Now, to be fair, 24 to
+32 GB of VRAM, most people still aren't
+going to have that. If you have a newer
+newer computer, maybe or if you're using
+one of the Macs with one of the M chips
+that has a large unified memory like the
+Mac Studios, you're probably going to be
+able to run it on one of those as well.
+But if you're on like an Nvidia graphics
+card, your GPU is going to need to end
+in a 90, right? 5090, 4090, 3090, one of
+those are going to be the only ones
+really strong enough to run a model like
+this. Apparently, you can run it on a 16
+GB, but it's going to be insanely slow.
+Now, looking at artificial analysis here
+and scrolling down to the intelligence
+index, not the agentic index we're
+looking at earlier, but just the overall
+intelligence index, it sort of falls
+middle of the pack here, scoring a 52.
+Now, the intelligence index is a whole
+bunch of different benchmarks combined
+to sort of determine the smartest model
+across a bunch of different benchmarks.
+So, it's one of my favorite benchmarks
+to look at cuz you don't have to look at
+a whole bunch of individual benchmarks.
+It's like it took all of those, weighted
+them, and decided an intelligent score
+based on all of the benchmarks. And I
+mean, a 52 is really not that bad,
+right? It falls just below GPT 5.6 6
+Luna Max, Deepseek V4, Gemini 3.7 Flash,
+and I mean, it's not even that big of a
+jump to get up to these state-of-the-art
+Frontier Lab models. And if we look at
+everything in front of Quinn 3.8 here,
+none of these are going to run on a
+local consumer GPU. Not a single one of
+these models is small enough to run on
+even like a 5090. So, pretty pretty
+impressive model for being open weight
+and ability to run locally. If you do
+want to run this model locally and you
+have a GPU that can handle it, the
+easiest way that I found is to download
+LM Studio here. It's a totally free app
+and this allows you to run local models.
+With LM Studio installed, you could come
+over here to the model search. Search
+for Quinn 3.8 and this is the official
+version straight from Quinn on hugging
+face and they have different versions.
+You can get 4bit, 5bit, 6bit, and 8bit
+quantization. Now, that just means like
+the amount of compression essentially on
+it, the more quantitized it is, you're
+going to lose a little bit of
+intelligence essentially. So, you want
+to run the best one that your computer
+will let you run the the highest bit.
+The nice thing about LM Studio here is
+that if you click on any one of these
+models or variations, it'll tell you if
+it'll run on your computer, full GPU
+offload possible. So, on mine, I can run
+the full 16bit version unquantized if I
+want and it will still work. But if you
+can't run that version, I would grab the
+highest quantitization number that you
+can that your GPU can offload. There's
+also an uncensored variant that you can
+find inside of LM Studio. And I actually
+installed this version as well. You can
+see I'm using the 8bit uncensored
+version. And when I say it's uncensored,
+it is very uncensored. I asked it to
+give me directions on how to do some
+pretty wild stuff that no other model is
+going to tell you how to do, and it told
+me with no problem. So yeah, uncensored
+means it's very very uncensored. So
+beware. Now, once you have that model
+downloaded, you can click on my models.
+You can see I've got the uncensored
+variant and a 4-bit variant installed
+here. So if I select uncensored, click
+on my little cog icon and then click use
+in new chat. You can see it then pulls
+in that model. And now I can use this
+model completely uncensored in chat. and
+it will think, it will use code, it will
+pretty much do anything you expect new
+models to do. Now, this isn't like an
+agentic harness. LM Studio isn't going
+to do similar stuff to like Codeex or
+Claude Co where you give it a task and
+then it sort of creates a checklist of
+things to work through and then one at a
+time works through those things, giving
+the model new prompts to work through
+each of those things. That's what those
+agentic harnesses are doing when you're
+using large language models. LM Studio
+is just going to act like a single chat.
+So, you give it a message, it's going to
+respond, it's going to be done. If you
+do want to use this model as an agent,
+similar to what you'd get out of
+something like Codeex, my preferred
+agentic harness at the moment is
+actually the Hermes harness here. And
+what's cool about Hermes is that you can
+actually get it to find models that are
+running in LM Studio. So, because I have
+this model running in LM Studio, I can
+actually click on developer here, select
+the model I want to use. So, right now
+I've got this Quinn 3.8 model. And then
+I can turn on the server here. And while
+this server is running, if I jump back
+over to Hermes, go to my settings, go to
+model at the top here, you can see that
+it actually finds LM Studio running and
+the models that are available inside of
+LM Studio. Right now, I'm running the
+uncensored model. So, I'd keep that
+selected. Apply that. And I like this
+Hermes harness because to me, it feels
+and looks similar to what you get out of
+Codeex or Claude Co-work. So, it feels
+very familiar. And now they just added a
+new feature where if you like something
+like Grockbot, they actually have a bots
+mode that works more like that where you
+can create little bots just like in
+Grockbot. And of course, I had to test
+this new model with my prompt of create
+a clone of Megabon. And well, it tried.
+It took a long time. I think it ran for
+like 2 hours using my local GPU. But you
+can see that it kept on giving new
+prompts. It was writing code. It went
+through like a whole task list of things
+and worked through this project just
+like you would expect out of Codeex or
+Claude Co-work or something like that.
+And as far as the Mega Bonk clone that I
+was working on, well, it made a screen
+that looks good. The problem is as soon
+as I hit play, yeah, nothing happens. I
+get nothing on the screen. I Yeah, it's
+just the game's broken. And it took so
+long to do this locally that I just
+went, "Yeah, I'm not going to keep on
+working on this anymore."
+>> [laughter]
+>> You can see it tried. Apparently, I just
+leveled up. I don't know how cuz I can't
+see anything, but it didn't quite pass
+my mega bonk test. I did, however, throw
+it into beautybench. This was the image
+I got. And I don't know why this
+happened, but it used 70,000 tokens. It
+took 74 minutes to run and generate
+this, and it cost me 25. Now, I didn't
+run this locally. The reason it cost me
+25 cents was cuz I was using open
+router. So, I was running this one
+specifically in the cloud. It would have
+been free obviously if I ran it on my
+own local computer, but 74 minutes to
+generate. Like, that's wild. That's just
+I I don't know why. Anyway, the major
+idea here is that these local models are
+getting better and better even though
+they're getting smaller and smaller in
+terms of like parameter count and actual
+file size and the amount of compute
+required to run them. So, we're not far
+off from having models that are, you
+know, Opus 5, GPT 5.6 Soul, Fable level
+that we could run on high-end consumer
+GPUs, and that's really exciting. And
+speaking of frontier level intelligence,
+we did get an update out of OpenAI this
+week on where they are in their
+development cycle. This week, they put
+out this article called Pacing Model
+Development in an era of cyber critical
+capabilities. Now, they've been sort of
+teasing GPT6 or Project Astra or, you
+know, whatever their next sort of
+iteration of GPT is, and it keeps on
+getting bumped out because of, well, the
+tale is old as time. It's just too scary
+and too powerful to put out right now.
+By the way, they also said that about
+GPT2 back in 2019. Now, obviously, these
+models have come a long way and they
+actually have gotten out of containment
+and hacked websites and things like
+that. So, it's a little bit different of
+an era, but still same narrative. They
+did say here there was a twoe pause in
+reinforcement learning training on our
+latest models intended for deployment
+while we further hardened and redteamed
+the research. And their largest planned
+frontier reinforcement learning run
+remains on hold while we conduct smaller
+scale training and evaluation to assess
+model behavior. Yeah, right now the
+models are just kind of on hold. Now it
+sounds like the models are trained
+because reinforcement learning typically
+happens in post-training. So the full
+model is trained then they typically
+will do reinforcement learning to sort
+of tune it to the preferences and add
+guard rails and things like that. So it
+sounds like this Astra model GPT6 model
+is pretty much like ready to go other
+than this reinforcement learning phase
+that really kind of dials it in
+essentially. When we'll actually get it,
+who knows? They're apparently holding
+things back and slowing things down
+because they really want to make sure
+they do this right and they don't want
+it breaking its sandbox and hacking more
+websites. Now, what we actually have
+been getting out of OpenAI lately is
+more feature updates and upgrades to
+their platforms like Codeex. For
+example, this week they released a
+computer history feature. This to me
+sounds very similar to that Microsoft
+feature that everybody hated that they
+were rolling out on all the computers
+that basically watched everything you
+did on your computer and can recall back
+to it. Well, Chad GPT is doing something
+similar. Computer history turns your
+activity across apps and websites into
+memories and a timeline that ChatGpt and
+Codeex can reference. You can ask
+natural questions about recent work,
+pick up where you left off, understand
+patterns in how you work, and turn
+repeated workflows into skills or
+automations. So you theoretically can go
+work all day at the end of the day say,
+"Hey, review everything I did. Is there
+anything you can automate for me and let
+Chat GPT look through your history and
+figure out what it can automate for
+you?" Now, you do have to choose to turn
+it on and it only starts after you've
+turned it on, so any past history won't
+be there. You can also control which
+apps and websites contribute. You can
+pause collection from the Mac OS menu
+bar, and you can inspect or delete your
+history at any time. Why would anybody
+want to do that? Here's a screenshot of
+what it looks like. Here's like a a
+timeline. At 9:00 a.m., you checked your
+task list, reviewed recent changes,
+planned what to tackle next. 9:10,
+reviewed your project feedback. You were
+in Chrome, chat GBT, and Slack. It looks
+like 9:20, prepared a launch update,
+could see what apps are open, and it's
+suggesting skills, turn the steps you
+use to prepare a launch update into a
+reusable skill. So, it basically wants
+to watch your computer for both most
+likely training data, but also so that
+it could figure out what you're doing on
+a repetitive basis and help it make it
+less repetitive for you. So, if you're
+in the chat GPT app, we go to our
+settings here. Down on the left sidebar,
+you've got computer history and you have
+to turn it on to allow it to start
+watching your computer history. And you
+can allow all apps or customize which
+apps you want it to be able to watch.
+Once you've done that, it will start
+watching your computer history from that
+point on. Another new feature they
+rolled out this week is that it now
+integrates with Apple Messages. You can
+install an Apple Messages plugin inside
+of the Chat GPT app on your Mac and have
+it search messages, catch up on
+conversations, draft, and even send
+replies for you all within the Chat GPT
+app on your Mac. So, to set this one up,
+you're going to open your chat GPT app,
+come over to plugins this time, search
+for messages, and you can install the
+messages app here. Now, if I click try
+now, I can tag messages and tell it to
+tell me about my most recent
+conversations, which I'll likely be
+blurring, but let's see what it says.
+And yeah, although I have to blur it, it
+did tell me what my last five text
+messages were. But apparently you can
+also like send messages and go back
+through old threads and things like
+that. All right, I know I covered a lot,
+but there was quite a bit more that
+happened, but I don't want to waste your
+time with all the details. I'm just
+going to give you the quick overview of
+it all. So, let's jump into a rapid
+fire. [music]
+Meta just launched a brand new Mac app,
+so you can pretty much do all of the
+various Meta AI stuff that you would do
+in one of the Meta platforms, but now in
+a dedicated app. It has an obnoxiously
+large doc icon, but when we open it up
+here, we can see that it has a very
+similar look and feel to something like
+Codeex or Claude Co-work. A little less
+featurerich at the moment, but I get the
+impression that they're going for kind
+of the same thing. We've got our
+scheduled tasks here. We've got
+artifacts. We've got media. You can see
+some of the stuff we've generated over
+time. Here we've got our chat history.
+And of course, it's going to use the
+meta models to either respond to your
+questions or prompts or to generate
+images for you. Perplexity this week
+launched their brain product, which is
+kind of like a second brain or
+knowledgebased wiki thing, but it's
+built into their Perplexity computer. We
+can see it's got a sort of obsidian like
+knowledge graph here. It can organize
+and store the memories. So, I'm pretty
+sure what they did was they took Andre
+Carpathy's wiki concept that he broke
+down on X a couple months ago and just
+built that concept straight into
+Perplexity computer. And in fact, if you
+want to learn more about that and how I
+built my own of the similar thing, but I
+just built it myself instead of using
+Perplexity's version, check out this
+video that I put together called Build
+an AI second brain knowledge base.
+That'll get you there as well. Here's a
+feature that Google rolled out at the
+end of last week, but because I record
+these on Thursdays and publish them on
+Fridays, I didn't see this news until
+Friday. And well, they gave people the
+ability to remove watermarks on AI
+generated images, video, and music. Now,
+they still have the invisible synth ID
+watermark, so people can still double
+check to see if they were generated with
+AI, but they're now allowing you to
+physically turn off the watermark. And a
+lot of people aren't a fan of this idea
+because people believe it might just
+lead to more fake images and videos
+being spread around where people are
+pretending for them to be real. Now,
+again, you can grab them, throw them
+into Gemini, and ask if they're real or
+not, but still, how many people are
+actually doing that? Claude got a new
+feature this week. You can now send
+emails in Gmail and manage files inside
+of Google Drive. So you can ask Claude
+to reply to a thread and it drafts and
+sends the response. You control when it
+needs your approval. So you can connect
+Gmail, Google Drive. The interesting
+thing is I saw this and thought I could
+have sworn Claude already did that. I
+mean, I've been able to do that inside
+of Codeex. I don't know why I thought I
+was able to do it in Cloud, but I guess
+now you can. OpenAI this week rolled out
+a feature for teens. So basically,
+OpenAI is trying to determine whether
+you're an adult or a teenager by how you
+chat with it. Now, if you tell it you're
+a teenager, it just knows from that
+point on and will feed you the teen
+version of the model. However, if you
+don't ever say your age and you just
+chat with it and it thinks you chat like
+a teenager, well, it might downgrade you
+to the teen version that way as well.
+So, if you're an adult that talks like a
+teenager, well, you [laughter] could end
+up on the teen version. I actually did a
+live stream with my buddy Joe earlier
+this week where we went off on this
+giant rant about should teens even be
+using chat GPT or not. Check out that
+live stream if you hadn't. It was a lot
+of fun. It is 3 hours I know but you
+can, you know, 2x it. There's a lot of
+good insights and tests and things that
+we did in that video that I think a lot
+of people will enjoy. But we did talk
+about the whole like chat GPT for teens
+and I think my take on it will probably
+surprise people that I don't really
+think teens should be using chat GPT
+that much. I mean, there are some use
+cases where I think it's helpful, but I
+think they should be resourceful and
+actually do more digging than just
+getting every answer from Chad GPT. But
+again, it's a rabbit hole and a rant
+that I went down on my recent live
+stream a little bit deeper. Along
+similar lines, college students can
+actually get free access to Google
+Gemini. So this week, Google announced
+we're offering one year of Google AI
+plan free of charge for eligible college
+students around the world, plus new
+enhanced study tools so students can
+make the most of the school year. So if
+you are a college student and you want
+Google to help you on your homework,
+well, you could do it for free. Alibaba
+released a new music model this week
+called Happy Shrimp 1.0. I don't know
+what's a better name, Nano Banana or
+Happy Shrimp, but this looks to be a
+pseudo competitor where you can generate
+music. Here's a quick sample of a future
+garage track.
+[music]
+That's not what I was expecting at all
+from a garage track. Now, we did test
+this on our live stream and we made a
+couple pop punk songs about the
+Padres's. Here's what one of them
+sounded like.
+[music]
+>> I'll leave it there. You get the idea.
+It's [laughter] very, very generic
+sounding. I don't quite think this is as
+good as what Sununo can generate, but I
+also do know a lot of people are looking
+for Suno alternatives with all of their
+latest restrictions that they're having.
+We also did try to get it to generate
+songs in the style of and we gave it
+certain band names and it refused to
+generate in the style of certain bands
+similar to what Sunno also does. We've
+got some quick news for coders as well.
+Cursor is apparently creating their own
+version of like a GitHub. It's called
+Origin where you can, you know, store
+your code, send pull requests, browse
+code, and it even syncs to GitHub, so
+you can just like pull everything from
+GitHub straight into it. They're clearly
+trying to compete with GitHub. You can
+see in their blog post, they're telling
+you just to bring your GitHub repos
+right over. So, first we got Buzz, which
+was an app that was similar to Slack,
+where you can have a bunch of AI agents
+talking to each other, but then you can
+also have your human co-workers in there
+talking to you and the agents. And then
+we got Grockbot which felt kind of
+similar but just more with like one
+person talking to multiple agents. And
+now Salesforce is rolling this feature
+out into Slack. Agentic coding is now
+multiplayer introducing Slack code. We
+can see here you can pull agents
+directly into Slack now and they can
+write code directly inside of your Slack
+and agents and humans can now interact
+with each other directly inside of Slack
+without needing other tools. Now, this
+one doesn't appear to run the agents
+directly inside of Slack. Instead, it
+appears to use your existing agent
+harnesses like a Codeex or a Claude
+Code, and you can just tag those apps,
+and it will spin up those channels.
+It'll still use those tools to run the
+agents, but you can chat with them
+directly from Slack. So, I guess it's
+kind of more like a native Open Claw
+built into Slack, I guess. I don't know.
+It's something I'll probably experiment
+with more in the future. Another
+interesting research paper out of Pew
+shows that a lot of the internet these
+days is being written by AI. Like this
+is sort of dead internet theory proof.
+So this chart here shows the percentage
+of AI editing or authorship going back
+to January 2022, there's very little.
+Fast forward to today and apparently
+about 10% of websites are generated
+[clears throat] with AI these days. And
+if you filter out old pages, basically
+pages that were published before ChatgPT
+existed, that number jumps way up. 35%
+of pages on the internet are generated
+by AI since ChatGpt came out. That's
+just crazy. But I guess not surprising.
+More and more people are looking for
+shortcuts. And finally, let's end on a
+robot. This Unite Robot, Superman, can
+go from a stand to a 2 m high jump.
+That's about 6 feet roughly. It has a
+top speed of 12.66
+meters per second. I think that
+surpasses the standing high jump and
+running speed records of all humans
+around the world. Just take a look at
+this video. Look, that is just insane.
+Like he was over that dude's head when
+he jumped. And here's a video of it
+running. And yeah, that's faster than
+any human could run. If they start
+making police robots that chase after
+the criminals, criminals are screwed.
+Anyway, that's what I got for you this
+week. Another one of those weeks where
+there was a lot of news, like a ton of
+things happening, but all feels like
+kind of smaller things. Like the
+improvements are sort of these marginal
+little jumps instead of big leaps. In
+fact, it sounds like these big leaps
+might actually get further between again
+because all the Foundation Labs are sort
+of scared to release their newest
+iterations of the models because of how
+good they are at the cyber security
+stuff. We do have Meta Connect coming up
+next month and we do have OpenAI's Dev
+Day coming next month. So, I wouldn't be
+surprised if the next iterations of
+models both of those companies are
+releasing are coming towards the end of
+next month to sort of release around
+those events. But, I don't know. I'm
+just guessing. I don't have any insider
+information on any of this stuff right
+now. I'm just as in the dark as you are.
+Who knows how it's going to play out.
+We'll see. If you want to make sure you
+stay in the loop with all of the latest
+AI news, whether you love AI, whether
+you hate AI, whether you're somewhere in
+the middle and you just want to keep up
+with it. I drink from the fire hose all
+week. I read all the news articles. I
+talk to the people. I test the tools. I
+spend all week staying looped into
+everything that's going on with AI so I
+can turn around, make this video on
+Thursdays to publish them on Fridays to
+keep you completely looped in on
+everything that's happening in the AI
+world. I'll be overwhelmed so you don't
+have to. If that's something that's
+interesting to you, maybe consider
+liking this video and subscribing to
+this channel. I'm like very close to a
+million. Hoping to hit it like within
+the next week or so. So, that little
+subscribe button would really really
+help me out to like just pass that
+little milestone that I've been trying
+to hit. But yeah, that's what I got for
+you. Excited to share some of these
+other upcoming videos in between the
+news videos. I really think you're going
+to dig them. And uh again, yeah, that's
+what I got for you. I'm done rambling
+and nerding out. I never really know how
+to land the ship with these videos. So,
+uh I guess uh bye.

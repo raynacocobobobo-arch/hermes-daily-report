@@ -1,0 +1,619 @@
+UP主：The AI Advantage
+标题：OpenAI Just Rebuilt ChatGPT
+链接：https://www.youtube.com/watch?v=gRH1dv9VGN4
+
+OpenAI released a brand new chatt that
+now has a new work tab that does things
+for you. They overhauled the mobile app.
+They sunset some of their other
+applications to unify them into this
+stuff. And they have a new family of
+models 5.6 Saul, Terra, and Luna with
+Saul being as capable as Fable or that's
+what they claim. We're going to have a
+look at all of that plus the new voice
+dictation. Really, this is going to be a
+chat GBT focused week because they went
+crazy and I've been trying a bunch of
+this stuff. I want to show you what my
+first results look like. Plus, a lot of
+this is available on the free plan,
+which cannot be said about the competing
+products from Claude. And finally, we
+have some competition for some of these
+products like Fable and Claude Co-work
+that, you know, didn't have a match in
+the market. We'll look at all of that in
+this week's episode of AI News. You can
+use News, the show that looks at all the
+releases. This week is chat GPT Heavy.
+and then I get to break down the ones
+that matter to you. Let's do it. Okay,
+let's just begin with what changed in
+the web interface because this is where
+a lot of people are spending their time.
+And as you might be able to notice right
+away, there's a new tab up here up top
+from chat. You can go to work. And if
+you go to work, it's basically, if
+you're familiar, just like claude
+co-working
+system loop in the background where it
+makes a plan before it acts and then it
+just connects to more things. You can
+connect it to plugins. I believe they
+just renamed that. Just a few days ago,
+this was called apps in Claude. It's
+called connectors. Yes, the nomenclature
+is confusing here, but that's what it
+is. But basically, you can connect it to
+all of these plugins. You can work
+inside of a project here as I love to
+do, which you probably know by now. And
+you have a new model selector where you
+can basically pick between the new
+models. If you go to advanced and the
+default selector is this one with this
+ultra mode being reserved to the $200
+pro plan. Okay, so that's a bunch of
+changes and I didn't even talk about
+everything yet. There's a feature in
+here that I really want to show you
+called sites because they focused on
+hosting web apps or websites in a really
+pretty and clean way. Cleaner even than
+artifacts and it's just built into here.
+But the sites feature is a paid plan
+only one. So I know there's a lot here.
+So let's break it down step by step.
+Basically, all plans, including a free
+plan, get a new desktop chat GPT app. In
+my case, I've updated this thing. I'm in
+the US. I still haven't got it. It's
+still rolling out, but the base
+capabilities are very similar to what
+you see here in the web app with the
+most interesting one to me being this
+sites feature, which is gated behind the
+paid plans. Sites basically allows you
+to do something like say make a website
+about my life. Pick a new soul model,
+which we'll talk about in a second. I'll
+just hit enter. And then it starts
+thinking and you might notice this
+little guy here on the left. This is a
+new feature where you can choose your
+pet and basically instead of the default
+chat loading icon, you can switch it
+fireball type of guy. Maybe leave a
+comment below on which one you chose. I
+wonder if there's like a popular one.
+Anyway, back on track. As you can see
+here on the right, as it starts building
+out this site, I really love how simple
+Chatip made this. As per usual, they're
+trying to be the consumer app for a
+billion people or eight billion people,
+I suppose. And they're good at that.
+They're good at simplifying things. If
+you look at this right interface, it
+shows you two things. One, what is the
+input, the source, and two, what is the
+output? In this case, the output is the
+site that automatically picked that. In
+other cases, you could kind of select
+that if you run a prompt, hey, I want a
+different output. I want a presentation,
+I want a spreadsheet, or I want a site
+as a source. Well, there's a bunch.
+There's either the plugins, you could
+add custom ones. This is nothing new.
+It's just reorganized. What's genuinely
+new is the sides feature and also these
+new models are apparently way better at
+creating presentations, documents,
+spreadsheets, all of that. So, what does
+it look like when it finishes up
+creating a website about my life? Well,
+it's going to be a generic one here
+because there's not much context
+attached and I didn't tell it more than
+that. But if I look at it and I say open
+in a new tab, notice a few things. First
+of all, the URL pretty clean. You know,
+it's not like 7x5ZB.artifact.claude.ai
+or something like that. That was
+actually a simplification of what the
+claud URL looks like. But it's this.
+It's something that you could reasonably
+share in a chat and yeah, it's just
+hosted on there. So, that's pretty good.
+Secondly, they're just good. That can
+also be said about the claw sides
+though. So, you know, everything working
+at this stage with AI is sort of
+expected. But you can see these are
+really solid. Everything is nicely
+animated. All the buttons work as
+expected. But thirdly, and I think this
+is really important, and to me this is a
+standout feature, this doesn't show up
+like a clawed artifact. There's no,
+"Hey, remix this artifact or copy it to
+your account just like you have with
+artifacts." If you're not familiar with
+what I'm talking about is if you do the
+same thing inside of Claude, well, you
+can totally say publish and go to that
+link, which you know looks like this,
+but then that link will contain this bar
+up here. Hey, Clot content is user
+generated and unverified. So, it's not a
+legitimate site. Whereas chat GPT, as
+the name implies, it built an actual
+site for you that you could now use and
+refine here in chat. I think that is
+very neat. So, that's the first big
+feature both in the web app and on the
+desktop app. And that is only a paid
+feature, but more widely this general
+work feature where you connect things
+and you define an input and output. This
+is available on all plans including free
+which is not the case with claude
+coowork. Love to see that because
+coowwork is just the sweet spot for so
+many people in terms of AI user
+friendliness and the capabilities.
+There's also some new plugins here. I
+want to quickly say that. So if you go
+to browse all plugins they have some
+featured ones plus they boast over,500
+plugins in this store whereas claude
+only has a fraction of that. Now, here
+is a thing that was not obvious to me
+when I looked at this, watching the
+presentation, looking at the release
+materials, scouring the internet for
+what other people are doing. They
+brought my favorite Claude feature into
+here, skills. Yes, you heard me right.
+It's a bit hidden. You need to go to the
+plug-in store and here, switch over to
+skills. And it's the same skill file
+format that already works in Claude. So,
+any skill you might have in Claude, you
+can just put in here. So, I brought over
+my favorite one, eagle voice. Okay. How
+does it work? Well, write a quick thank
+you note in at eigore and then here you
+see the eagore voice. I just hit enter.
+Maybe I take a weaker model and then
+we're going to get that with the skill.
+Also, these icons are kind of nice. It's
+a small touch, but I think it's just a
+better way than the equivalent in Claude
+where you'd say slash and then pick the
+voice and it looks like this. Subtle
+differences, but they're really going
+for the widest market possible and I
+think they're making some brilliant
+design decisions here. There you go.
+That is my writing voice. And I could
+turn that into a presentation. Let's
+crank up the model because that's going
+to help. As you can see here, it's going
+to ask me some follow-up questions that
+I chose to ignore. And now it's doing
+some completely random presentation,
+which is fine because what I want to
+show you is the core interface. It's
+just like homework. It gives you the
+process up here. And again, inputs down
+here, sources, and outputs up there.
+That's the first thing you think about
+in a system. What comes in? What comes
+out? What do the steps in between look
+like? And then if you want to automate
+it and get it off your table, you think
+about what triggers it and does the
+output go in some destination. Okay.
+Anyway, I couldn't help myself but go
+into some automation theory back into
+this. My chatbt work here is doing what
+exactly it's using the image generation
+skill for a small set of original visual
+assets since the deck benefits from
+consistent imagery rather than generic
+stock photos. Nice. So, it's using the
+chat GPT image generation capabilities
+that are really good, actually
+bestin-class to make images before it
+builds the PowerPoint deck. Then, it's
+going to inspect it and save and then
+deliver the final deck to me. Can't wait
+to see what it looks like. Might take a
+minute, though. So, this presentation
+took about 10 minutes to generate, but I
+actually was almost done with the video
+by that. So, let's check it out here.
+Let's see what we got. Practical AI for
+everyday work. This is the image it
+generated. Looks solid. Honestly, first
+of all, there's nothing obviously wrong
+with this. Secondly, it's also nothing
+super special first look, right? So,
+what I did right now, and by the way,
+yes, I'm by the way, backstage just
+finishing this video cuz it needs to be
+complete. What I did is I took a image
+from our website just down here, this
+one. And I was like, hey, apply this
+style to the presentation. And in
+another 8 minutes, it restyled the whole
+thing. And actually, this was the point
+where I was like, "Oo, that looks really
+good." Look at that. It applied the
+direction. It has the background with
+the grid. I really like it. Even these
+little glows. This is really good. I'm
+not blown away by it. But also, I feel
+like all of this being editable in here
+now is so powerful that it makes me want
+to use this as my primary presentation
+creation tool. I mean, look at that. I
+just open it in PowerPoint and all of
+this is just so easy to manipulate. And
+I bet if I wanted I could ask it to
+create more images to enhance the
+presentation just like this just because
+chat GBT image already has the best
+image creation right now. So yeah,
+presentations really solid at the very
+least. No wonder they made it a core
+piece of the interface when making
+something here under outputs. And by the
+way, one more thing on chat GPT work. If
+you're curious about some use cases,
+their website did a really good job of
+adding several videos and you can kind
+of just flip between these. Worth
+checking out. Okay, but now let's talk
+about the models. Usually I talk about
+those first, but at this point I think
+these features, especially in the web
+app, are even more interesting than the
+models. Not to downplay the models,
+though. They're amazing on benchmarks. A
+lot of it is at Fable level, which is
+amazing. Finally, a second model at the
+level of Fable. And I don't even know
+why I say finally. It's just been a few
+weeks since that has been even
+announced. But I love to see
+competition. and they have no plans of
+taking this one down from the paid
+plans. Whereas with Fable, they extended
+it now. So if I look into here, Fable is
+available till July the 12th, which is
+two more days from the date of this
+recording. Whereas GPT Saul, that as you
+can see is on a very similar level on a
+lot of these benchmarks, but just the
+cost is around 2.5x. It's amazing. Look,
+it's been a few hours since the
+announcement, and I don't want to sit
+here and pretend like I'm going to give
+you the exact breakdown of which model
+is better when, but what has proven to
+be true over the past few weeks is that
+Fable is just the goat at planning and
+orchestrating complicated things. A lot
+of people adopted a workflow where they
+use it to plan and then they use other
+models like Opus to execute those plans.
+And it's not just because of cost. as a
+model that is doing things. It turns out
+that Fable is really good but maybe not
+even the best. So it's actually not just
+a cost decision but also quality
+decision why some people are falling
+back to Opus to do things. Fable to plan
+things for this model. I think it's
+going to be really interesting to see
+over time where it lands and if this is
+a doer model or a planner model or a
+both. Either way, it's way cheaper and
+there's no plans of them taking it down.
+And on the benchmarks, it performs well
+as I said and people online are
+reporting that still for these big
+complicated tasks or things where in one
+shot you're going to make a big plan,
+Fable is still the goat as opposed to
+GPT 5.6 Saul. That's the first reports.
+I'm just paring opinions online. But
+what I do want to point out is that
+well, first of all, I love this slider
+where you can go from the lighter model
+all the way to 5.6 ultra. And basically
+what ultra does versus some of the other
+settings is that it coordinates multiple
+agents at a minimum four to get the task
+done. Meaning it's going to spawn four
+instances of chat GPT with a varying
+purpose and they're going to work
+together to get your thing done. You can
+think of it as starting four chat GPTs
+to do the same task. Obviously, that's
+going to eat up your usage super
+quickly. As per usual, Reddit users uh
+did not hesitate to share their
+frustrations. And I like this particular
+post here where he said, "Hey, I gave it
+10 different PDFs to combine everything
+into one comprehensive document and he
+used CHBD 5.6 Soul Ultra with this
+multi- aent system in the background. It
+created a final output with roughly 700
+pages. Nice. But that one prompt ate up
+his entire pro account, which is the $20
+plan. And well, that one prompt. And
+then once his usage limit reset, he ran
+one more task and his entire allowance
+disappeared. I mean, easy to complain,
+but brother just organized 1,400 pages
+for $20. Honestly, is that a bad deal?
+Is that not a No, no, no, no. A human
+would um charge more than $20 for that.
+That's for sure. Anyway, it's an
+interesting age. These things are going
+to get cheaper over time. Certainly
+powerful stuff. And I want to point out
+that they made a big point in the
+presentation that the big standout
+capability of this is not just some of
+these work features and the sites
+feature and the intelligence of this saw
+model which is at fable level but also
+the ability to process a lot of varying
+documents and turn them into something
+concrete. So if you're like hey I have
+an Excel sheet and all these reports and
+make a PowerPoint presentation out of
+that. It's really good at synthesizing
+things into anything that you need. And
+I think that's why they timed this with
+the work modality because as you can see
+this brings together a lot of the things
+that Chach could already do and here
+with the varying sources all the plugins
+they have really a lot of variety there
+and all the stuff that you can attach
+and all the context you can bring in
+from projects and the image generation
+and the web search all of it comes
+together to create useful outputs. I
+think that's the big idea here. Whether
+it's a site, whether it's a document,
+whether it's just a normal answer or a
+700page document, it can do it at a
+level of intelligence that is
+unprecedented. And I think that's the
+core story here. And there you go. Chad
+GPT work making an image of a cat with a
+hat. Always love to do that. It's sort
+of like a baptism type of moment for a
+new model or interface for me at least.
+Now, I would want to show you the
+desktop app. As I said, I don't have the
+update here yet because there's one
+feature in there that we didn't show off
+yet, which is the web browsing, which is
+supposed to be so so so much better than
+anything before. And I always love a
+good web browser. Matter of fact, this
+web browser is so good that they sunset
+their separate web browsing application,
+Atlas. Remember that? Really hyped when
+it came out a few days later. Nobody was
+talking about it anymore. And now they
+sunset it. It's just gone. It's built
+into the new chatbt desktop application
+which again it's available to everybody
+even free plans. So check out if you
+have it. I'm going to keep my eye on it
+and feature it in next week's video. Oh,
+and there's one more thing which is a
+new voice mode in the chat GPT mobile
+app and desktop app. Look, voice mode
+improvements are always so subtle that
+they're really hard to notice, right?
+They're like, "Ooh, it's a few% more
+accurate." All right, but it was already
+perfect. So what really changed here to
+me is not the accuracy. It's the ability
+to speak over itself. I'm just gonna hit
+the voice mode and
+>> Yeah.
+>> Yeah. Talk to me about something.
+>> Sure. So, fun thing about voice modes is
+that everyone has a natural range,
+right? Chest voice and then you can
+slide up. And
+>> so, so listen, if I talk, can you like
+talk over me while I'm saying something?
+>> Yeah, I can do that. And I'll keep
+talking right through little pauses.
+Think of it like a co-aration for
+example.
+>> So if we co-arate something and I pause
+a little bit. Yeah.
+>> Oh there he is talking right over
+>> right right over me right over a blend.
+So the use case for this is actually
+live translation. So to test the live
+translator I have a fantastic idea today
+because we're actually putting like a
+inperson conference for some of our
+closest members in our program here in
+Arizona. We have the entire team out
+here and with me over here sits the
+legendary editor, the one and only
+Robert. Robert, come join me over here.
+Robert is one of the two geniuses
+editing this video. Well, every time I
+have a chance to do some fun edit, I do
+it.
+>> That's exactly right.
+>> His favorite hobby is embarrassing me
+slightly, but that's what we do on this
+channel. We're just real with it.
+Anyway, Robert, we're going to do a
+little thing. We both speak Slovak,
+right? So, what we're going to do is I'm
+going to represent the English speaker.
+You're going to represent the Slovak
+speaker, and we're going to use this to
+translate. See how it goes. Hey, can you
+act as a translator, live translator
+between Slovak and English? I'm going to
+speak English and then translate into
+Slovak and then Slovak into English.
+>> You got it. Starting live English to
+Slovak and Slovak to English translation
+now.
+>> All right. Um, how are you doing today?
+I'm doing great. And you?
+>> Oh, I'm doing fantastic. It was a long
+day. There was a lot of Chip replaces.
+Okay.
+>> It was a very long day. Lots of
+presentations.
+>> Wow. Okay. So, it really does translate
+quickly. You notice that? Oh my god.
+That is impressive. What do you think?
+>> Really, really impressive. And it was
+like instant
+>> instant. It really felt fluid. You could
+kind of just keep talking. At first I
+was a bit surprised that it kind of
+talked over us, but then you get used to
+it. And yeah, I I think I've tried all
+of them. This feels like the best live
+translator. Wouldn't you agree?
+>> For sure.
+>> Amazing. Thank you. So there you go.
+That's another big chat GBT upgrade.
+Overall, they're really just making this
+into the most solid consumer
+application. All of these little
+interface simplifications, little icons.
+The fact that work is available on the
+free tier is just unbelievably
+userfriendly and it's just asking for
+billions of people to adopt it. Whereas
+Claude, you know, is a strong competitor
+and I still use it every single day, but
+it's just positioned a bit more towards
+people who take more control of their
+context and people who are maybe more at
+intermediate and even advanced level.
+like you can fluidly go from chat GPT to
+chat GPT work now but in cloud it's
+cloud cloud co-work and then claude code
+which I suppose now would be in the
+openi universe the chat GBT desktop app
+because yeah I think I didn't mention
+this because the desktop app is now
+going to include the web browser they
+don't have atlas anymore it replaces the
+old desktop app so that's obvious but
+thirdly it also replaces codeex the
+standalone application so really they
+merged multip multiple things into one.
+It's good at web browsing. You have the
+recording feature where you just hit
+record, you do something on your desktop
+and then it records it just like Codeex
+had before and it does everything
+Chachib did and it does the stuff that
+work does now. So they just unified a
+bunch of stuff and they made it really
+user friendly and I think people are
+going to love it. So go ahead, give it a
+shot, try one of the hosted sites if
+you're on a paid plan and let me know
+what you think. I'll be following up on
+these stories. I think they're super
+interesting. To round out the videos, I
+want to point out one radar story that I
+thought was really relevant this week
+and that's the fact that clot coowork
+upgraded and I think they were aware of
+what's coming from chat GPT. So they
+shipped a very important update. It's
+the fact that now co-work is also
+available in the web. So before we only
+used to have it in the desktop
+application. Now if I go to claude.ai,
+you can see right here I can switch from
+claude chat to claude co-work and I can
+just work. You might be asking, Eigor,
+wasn't a standard feature of Cloud
+Co-work, the fact that it would use
+local folders. And yeah, that's exactly
+right. Now, it uses a cloud folder. And
+additionally, if you look into the
+scheduled tasks, you will see that
+there's a new option where there's a
+cloud icon next to the scheduled tasks,
+meaning scheduled tasks can now run in
+the cloud, meaning they can run without
+you keeping your computer open. So,
+anybody who bought something like a Mac
+Mini or a dedicated MacBook Neo just for
+claw co-work, well, they're still used
+to that. Let's talk about that in a
+second. But by default, you can run many
+of these tasks in the cloud and you do
+not need a dedicated computer. Now, I
+said most of them because I did a bunch
+of testing and certain connectors still
+only work with the desktop application
+where you need the computer open. So, a
+lot of stuff works in the cloud, not all
+of it though. Oh, and one more thing. If
+you want to move a schedule task over
+from running locally on your machine
+over to the cloud, there's no switch. So
+if I have this daily briefing, for
+example, what I would do is just copy
+the full instructions. Go to schedule
+task, say new task, set up manually,
+paste it in here, daily briefing cloud.
+And then here I can select I can say I
+want this to run in the cloud or on my
+computer. And yeah, if I put this on a
+daily schedule, then it's going to run
+every day in the cloud. Pretty neat. And
+if you wondered, that's basically the
+default experience of chat work. And
+also here I can go to scheduled and
+schedule things out. And yeah, that's
+pretty much what came out of both chat
+and claw this week. A big week. Super
+useful stuff. Look forward to some more
+use cases and tutorials on this channel
+because that's what we do out here. And
+that's pretty much everything I have for
+this week. My name is Eigor and I hope
+you have a wonderful day.
+The Twitter threads are hyping, but you
+know they filled with bots. Most of
+these releases are made of pure noise.
+We're here to help you separate the
+tools from the [music] toys
+you can use. Breaking down the stories
+you
+can use here to help you figure it

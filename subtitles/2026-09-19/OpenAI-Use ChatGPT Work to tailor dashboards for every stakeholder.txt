@@ -1,0 +1,35 @@
+UP主：OpenAI
+标题：Use ChatGPT Work to tailor dashboards for every stakeholder
+链接：https://www.youtube.com/watch?v=Wb8MhkpQpX8
+
+Every stakeholder, every organization
+has a different preference for how they
+want to see data. Maybe we don't call
+these organizations internally, we call
+them customers. I can edit the text
+directly like I did in the analytics
+report.
+Um, I can similarly edit the chart types
+if I just go to edit chart. Maybe
+instead of a bar chart, we want this to
+be a line chart. So, um, lots of cool
+functionality here. Um, in front of me
+now, we have like a very
+business-oriented KPI-oriented
+dashboard where you can kind of flip
+between some KPIs and see this like
+custom visualization. There's this neat
+tree map on a customer level here. If I
+go over to the next tab, here's like a
+compute dashboard um, where we can see
+what like demand looks like over time.
+But if I want to click into a particular
+cluster, all of the metrics change. So,
+it's a really cool way to have
+this like interactivity and bring some
+information density without it feeling
+crowded and just feeling very very
+clean. And so, they have a trusted
+dashboard, but they can look at it in
+the way that matters most for their
+business.

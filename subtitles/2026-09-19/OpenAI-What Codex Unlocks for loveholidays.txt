@@ -1,0 +1,111 @@
+UP主：OpenAI
+标题：What Codex Unlocks for loveholidays
+链接：https://www.youtube.com/watch?v=o38xYi2mtgc
+
+The more you can hand off a lot of the
+work to AI to do for you,
+your job elevates.
+Your job isn't anymore to be handed a
+solution and implement it.
+You've got something
+else to do that for you now.
+You have to get involved
+in the business problem.
+Scene 1A,
+Take 1,
+OpenAI,
+loveholidays.
+I'm Mike Jones, I'm CTO at loveholidays.
+I've also looked after the contact center
+here for the last four years too.
+loveholidays is a
+leading online travel agent.
+We operate in eight
+different countries across Europe.
+We use our technology to process
+trillions, well, 60 trillion package
+combinations each day
+to help people find
+their perfect holiday.
+At loveholidays, our platform vision is
+to build the general
+intelligence for travel.
+Bringing together the great technology
+that we have with the
+people expertise, and Codex
+is basically the means that we're
+democratizing all of that
+work across the organization.
+At loveholidays, Codex is becoming a
+single control plane, a single interface
+that is shared by engineers, by data
+scientists and by business.
+It has a lot of power through that
+because you no longer need to teach
+everyone a different tool.
+We codify all the best practices.
+We codify validations.
+We continuously approve it each time we
+notice that actually we
+had the wrong assumptions,
+or the reality has changed.
+This means that expertise of data
+engineers or cloud infrastructure
+engineers is fully codified.
+So the best they know is now also
+available to Codex and
+therefore anybody self-serving
+their infrastructure data needs,
+get that expertise on tap 24-7.
+We want to decouple our ability to trial
+new ideas from actual engineering time.
+Our engineers developed a portal called
+Search Playground,
+which is using our design systems,
+it uses our front-end technologies
+and it has an interface to Codex.
+We have developed more than 10 different
+novel search experiences.
+Majority of those were
+developed by non-engineers.
+What they provide is an ability to
+have an idea, materialize it into a real
+website that's running,
+share the same websites with external customers,
+gather their feedback, or
+actually launch real
+experiments on our website.
+Over the last year, AI-assisted coding
+has gone from essentially zero to about
+80% of all of our code
+and that's helped us actually go a lot
+faster than we've done previously.
+In that time, we've increased deploys by
+about 73% with the headcount
+remaining broadly the same.
+We doubled the amount of changes done to our data,
+yet we have half as
+many support requests coming in.
+Users of our data platform can make a lot
+more changes autonomously,
+whilst data infrastructure engineers can
+spend more time actually
+improving the platform,
+making it smoother again or solving novel
+problems that we
+couldn't address previously.
+Technology is just a means to an end.
+It's not about the technology itself,
+it's about the impact that it has,
+making sure that we're really intentional about
+not just giving people access to the tools
+but helping them solve business problems
+and measuring the impact that they're having.
+Everybody is a builder. Making changes to
+our applications, infrastructure and deploying code,
+is no longer engineering-only activity.
+We have product managers, designers and
+commercial business stakeholders
+driving value and making deployments.
+Amazing, nice one.
+Thank you so much.

@@ -1,0 +1,401 @@
+UP主：Curious Refuge
+标题：Is Suno Still the Best AI Music Tool?
+链接：https://www.youtube.com/watch?v=wEU5yR9koeg
+
+AI music tools have gotten really good
+over the last few weeks. So, in this
+video, I decided to take a look at the
+top AI music tools on the market and
+give you some recommendations for the
+very best tools that you can use to
+create realistic songs. Plus, I'm going
+to be showing you how you can clone your
+voice and put it into any track. And
+we'll take a look at how you can hum a
+simple song and turn that into a
+polished piece of music. It's going to
+be a lot of fun. Now, let's get to it.
+Now, the reason why we're doing this
+video today is because there were just
+some brand new AI music tools released
+over the last few weeks. Notably, we
+have a brand new music tool from Miniax
+that is open weight, meaning you can run
+it for free on your machine. And there's
+a brand new AI music tool from the team
+at Alibaba with by far the best AI name
+I've ever heard of, Happy Shrimp. So,
+let's get started. So, there are a lot
+of AI music tools on the market. I'm
+going to focus on the ones that we think
+are most helpful for realworld
+production projects. So, a few of the
+better options are Sunno 5.5, 11 music,
+LRA 3.5 from Google, we have Happy
+Shrimp from Alibaba, Pika Audio, Miniax
+3 Music, which again is open weighted,
+meaning you can download it to your
+machine and run it for free. And we also
+have Udio. Now, I'm not going to bury
+the lead here. Our favorite AI music
+generator at this time is Sunno 5.5. We
+really feel like it gives you the best
+balance of creativity and realism,
+albeit it's not realistic every single
+time. So, it's always going to take more
+than one generation to get what you're
+looking for. To create a song inside of
+Sunno, you have a few different options.
+So you can select the create tab on the
+left there and we can go to the simple
+song creator. Now I will say once you
+get really deep into this. You will more
+than likely live more in the advanced
+column versus the simple column. But if
+this is your first time, you can totally
+use this method. So for our song here,
+let's go wild with it. Let's say a
+modern pop country song all about banana
+bread. Now, we could totally go ahead
+and click create and get a song in just
+a few seconds, but I do want to note
+that if you go to the advanced tab here,
+you actually do have the ability to add
+in your own custom lyrics. So, I find
+that to be really fun, especially if
+there's a specific song that you're
+trying to create. So, I have some lyrics
+here, all about banana bread. And down
+here under styles, you have the ability
+to put in whatever styles and genres
+that you want to pull off. So, we could
+say modern pop country. And you can go
+in and add commas and add in more tags
+related to the specific genre that you
+want to create. Now, for the sake of
+this example, I'm going to keep it
+pretty generic because I want to compare
+it against other AI tools on the market,
+but of course, you can add in as many
+style tags as you want. And they also
+have some carrots here that you can
+select if you want some inspiration
+about what types of genres or music
+tonalities to bring to your song. So
+we'll go ahead and click create. So
+here's a clip from the song inside of
+[music]
+a banana bread feeling of the [music]
+night. Banana bread
+warm
+heaven [music]
+fresh.
+>> Okay, you get the idea. It sounds like a
+generic country song because we prompted
+for a generic country song. But all
+things considered, not too shabby. But
+let's go ahead and compare that against
+other AI music tools on the market. So,
+let's take a quick listen to 11 music 2,
+which comes from the team at 11 Labs.
+>> Banana [music]
+bread,
+warm and sweet.
+Little slice [music] of heaven that you
+love to eat,
+fresh from the oven, golden [music]
+brown.
+Best darn comfort food in this hotel.
+>> Okay, again, not too shabby. I think the
+vocals have that kind of metallic tamber
+to them that you get a lot of inside of
+AI music tools. So, maybe not quite as
+good as Suno, but very, very close. Now,
+let's listen to LRA 3.5 from the team at
+Google.
+The night [music]
+banana bread
+and sweet
+little heaven. [music]
+>> Okay, there are some things that I like
+about that song and some things that
+come off as a little generic. So maybe
+third place for LRA 3.5. Now, those are
+the tools that you hear a lot about in
+the AI music space, but there's a few
+tools that are brand new that I want to
+compare so we can see how they stack up.
+The first is Happy Shrimp from Alibaba.
+There's an online tool that you can use
+to run this for yourself. So, let's hear
+a quick sample.
+>> Windows [music] up and little rhythm
+[singing] in these tired feet. When that
+timer starts to sing, I know what
+comfort's going to bring. never want
+[music] that sweet little slice of
+heaven [singing] that you love to eat.
+Fresh from the oven and golden round
+comfort suit in this whole town.
+[laughter and gasps]
+>> Okay. Um, it's fine. Maybe not my
+favorite. What's also very funny is it
+just added in a precourse that we did
+not prompt for. So, all things
+considered, Happy Shrimp pretty
+impressive, but not as good as the other
+AI music tools on the market. and I
+don't really know exactly why it would
+fit into your creative workflow because
+of that. Now, the next tool I want to
+take a quick listen to comes from the
+team at Pika Labs. So, Pika has kind of
+been in dark mode, I feel like, for a
+little while. We used to talk about them
+a lot, especially in the AI video space,
+and then uh their model kind of fell
+behind, and we don't really talk about
+them a lot. So, let's hear what we have
+from Pika Music. Sugar, [music] flour,
+cinnamon. Mix it up just right.
+Smell banana [singing] bread filling up
+[music] the night. Banana bread. Warm
+and sweet. Warm and sweet. Little slice
+of heaven. [music]
+That's the only one that's like
+legitimately giving me anxiety here. So,
+I don't think that Pika music is a
+legitimately helpful tool inside a
+professional workflow. Why do I think
+that? Well, because the very next tool
+that we're going to look at is an openw
+weighted tool. This means you can
+download it to your machine and run it
+locally on your computer completely for
+free. It's called Miniax Music 3 and it
+just dropped a little over a week ago.
+Let's take a quick listen. Banana bread,
+[music]
+warm and sweet,
+little slice of heaven that you love to
+eat.
+Fresh from the oven, golden brown.
+[music]
+Best darn comfort food in this whole
+[music] town.
+Oh man, I tell y'all what, being a boy
+from Texas, I I really resonate with
+that song. Um, okay. Miniax Music 3 is
+pretty good. And I do feel like
+especially because it's open-weed, that
+makes it very interesting because you
+don't actually have to pay money to run
+this model. Now, one of the problems
+with using Miniax 3 is that the
+licensing is much much murkier than the
+other tools that we'll talk about inside
+of this video. So, I do think that
+Miniax Music is very fun to play around
+with. It would be very tricky if you
+ever wanted to go through the process of
+actually monetizing that track and
+making money because technically the
+license is probably not going to protect
+you or cover you whenever you decide to
+go down that road. So, it's just one
+thing you really need to think about if
+you are trying to work with Miniax Music
+in a professional capacity. Now, we went
+in and tested all of these tools across
+a ton of different genres to see which
+ones were best. And I want to play back
+a few of our favorite tracks. So, the
+next track we're going to listen to is a
+death metal song, and we really felt
+like Sunno 5.5 did the best job. What's
+really funny is in a metal genre,
+because it's obviously less popular than
+pop, it was actually harder for some of
+these models to actually pull off the
+process of generating the track. But
+here's what we got from Sunno 5.5. And I
+should note, this song is all about
+having a bright and happy day in the
+form of a death metal song. There's room
+[music] in this world for me and you.
+So laugh a little louder. [music]
+I love a little more.
+[music]
+[laughter]
+>> I I love it. I love it. Incredible job
+from Sunno 5.5. Now, for our next test,
+we wanted to prompt for a musical that
+was all about chocolate. And most of the
+models did a good job, but I actually
+think I liked LRA 3.5 the best.
+[music]
+[music]
+>> Melting slowly, rich and warm. A little
+piece of comfort in a candy bar. [music]
+From the first sweet taste to the very
+last bite, [music]
+chocolate makes the whole world feel.
+>> And the same is true across a variety of
+different genres. The big thing that you
+always want to look out for is does that
+voice sound metallic? And if it does,
+you can either reprompt or use a
+different tool for that specific genre
+or track because you can get different
+results depending on the tools that
+you're working with. Now, unlike AI
+video, I wouldn't say that there are
+specific AI music tools that are just
+head and shoulders above other tools on
+the market. So, it really comes down to
+secondary reasons as to why you would
+want to use each individual tool. For
+example, one reason why you may want to
+use 11 Labs is the fact that it is the
+only AI music tool that was trained on
+licensed data. That means that whenever
+you generate your music track inside of
+their tool, you can rest assured knowing
+that you have full ownership rights of
+the output. And of course, it's also
+helpful because you can use their
+texttospech models, which are helpful
+for other creative applications. Outside
+of being what I believe to be the best
+overall AI music tool, one reason why
+you may want to use Suno is the fact
+that you have the ability to edit your
+tracks directly on their website. So
+instead of just having to reprompt, you
+can literally go into a timeline, select
+an area that you want to reprompt, and
+you can type in what you want to get
+from that specific portion of the song.
+LRA 3.5 is much more about a
+conversational workflow. So instead of
+you having to go in and learn the
+individual tools, you can have a
+conversation with the agent that will
+then create your song. So if you're
+looking for the absolute easiest tool to
+use, it's incredibly powerful. Now,
+let's say you want to clone your voice
+and put it into a song. How do you pull
+that off? Well, to do that, all you have
+to do is go to the Sunno website and I'm
+under the advanced tab. Now, from here,
+I have some lyrics that I pasted into
+the lyrics section. And for the style,
+we're going to do an early 2000s punk
+rock anthem, which was uh absolutely my
+jam. And to clone the voice, we'll go to
+the voice section here and go to create
+a voice. Now, from here, you'll either
+need to upload a voice track or record
+your own voice. I did a version of me
+singing country roads to train the model
+on. So we'll go down here and select me
+and go ahead and hit generate. [music]
+And that gives us this.
+>> Want to know how it feels? Like this.
+Like this. [music] Like this. I make it
+look easy. I make it look clean.
+[music]
+Cool kid. Right down the middle.
+>> All right. You get the idea. I can
+promise you the training data was not
+that good in terms of singing. So, it's
+doing a much better job and I don't know
+why I have this like vaudeville tamber
+to my voice, but uh I kind of love it.
+We also did a different test in a singer
+songwriter style and that gave us this
+one [music and singing] breath at a
+time.
+This is my home [music]
+now.
+Under [singing]
+the fur trees, this is my home now.
+[music]
+where the cold still freeze me. Call my
+[singing] name soft. [music]
+>> Okay, it did a pretty good job. Now, how
+does that actually compare against just
+a normal prompt? Because obviously, it's
+kind of living under the limitation of
+the training data that we uploaded,
+which again, I can promise you was not
+very good. So, here is that exact same
+song whenever we just prompted inside of
+Sununo 5.5 without a cloned voice. One
+breath [singing and music] at a time.
+This is my home now.
+Under the fur trees,
+this is my [music] home now where the
+cold still freezes me. Call my name
+soft. [music]
+Okay, so obviously that is much more
+impressive. And so when you're working
+with a cloned voice, the quality is
+always going to take a massive hit. So
+unless it's just something fun that
+you're doing between your friends,
+you're probably just going to want to go
+to text to music to get the best
+results. Now, the next thing that I want
+to show you is what if you actually
+wanted to take a simple little melody,
+whether it's you humming into a
+microphone, playing piano, a simple
+little guitar lick, and then upload it
+into an AI system and turn that into a
+song. How do you pull that off? It's
+actually really easy. So, I'm here
+inside of Sunno, and under lyrics, we
+have the same lyrics from the previous
+test in the exact same style. But for
+this one, under audio, we're going to
+bring in a very rough audio track that
+Adam on the team here at Curious Refuge
+put together.
+[music]
+>> Okay, so very simple track. What if we
+wanted to take that and turn it into
+inspiration that can be used to create
+an actual song? So, we'll go ahead and
+bring that into the upload section, and
+we'll go ahead and hit create. And that
+gives us this.
+[music]
+The house is finally still. [music]
+Your shoes by the door.
+One lamp in the hole
+and the world [singing and music] wants
+less.
+I watch the moon hang low. So there you
+go. That's how you go from a rough idea
+for music into something that sounds
+truly amazing. So hopefully you enjoyed
+this overview of the very best AI music
+generators on the market. Again, our
+very favorite tool is Sunno 5.5. But if
+you want the tool that has maximum
+copyright protections, I highly
+recommend checking out 11 Music. And if
+you want a completely free tool that you
+can download to your computer, Miniax
+Music 3 is the way to go. I hope you
+enjoyed this video and as always, if you
+want to get the latest creative AI
+tutorials and news directly to your
+inbox, be sure to visit
+curiousrefuge.com
+or you can subscribe here on YouTube.
+And if you have any ideas for future
+videos, be sure to let us know in the
+comments.

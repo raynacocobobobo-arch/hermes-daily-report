@@ -1,0 +1,78 @@
+UP主：OpenAI
+标题：Plugins & Skills
+链接：https://www.youtube.com/watch?v=5QPBVrAAdBk
+
+You know that feeling when you need to
+schedule a meeting, but everything
+you need to know is scattered?
+I need to schedule a kickoff
+for a client's website redesign,
+and I want to walk in with a plan.
+The client already sent
+the pages they want updated.
+Their launch date
+and a few sites they like.
+I'm going to have ChatGPT find that email,
+schedule the meeting,
+and build a brief to prep me.
+Then I'll save the process as a skill
+I can use the next time I need it.
+I'm using the desktop app here,
+but you can also do this in work mode on the web
+or mobile at chatgpt.com.
+Plugins connect ChatGPT Work
+to the apps I already use.
+Gmail is already connected,
+so ChatGPT and I'm adding Google Calendar
+can find a time and schedule the meeting.
+I'll open Plugins, search for Google Calendar,
+and select Install.
+Then I'll connect my account.
+Now, ChatGPT can use my inbox
+and my calendar together.
+I'll ask ChatGPT
+to check for times I'm available
+for this specific meeting before Friday.
+Looks like it found a few options.
+Great.
+Now I'll have ChatGPT find the client's email
+and use it to draft the meeting invitation.
+We'll have it figure out
+the right attendees,
+a title, and an agenda.
+Here's the email,
+suggested time, and the meeting invitation.
+Everything looks right, so now I'll have
+ChatGPT create the calendar event.
+The meeting is booked,
+but I still need to prep.
+for client kickoffs, I like my meeting brief
+to cover the objective,
+client priorities, decisions,
+risks, and next steps.
+I'll ask ChatGPT to pull that together
+from the email calendar event.
+Great.
+This is exactly how I like
+my meeting briefs.
+I have meetings like this often,
+and instead of explaining how to do this every time,
+I can save it as a skill.
+A skill is a reusable set of instructions
+ChatGPT can follow whenever I need
+the same kind of work done.
+I'll call this one meeting prep.
+Awesome.
+It made the skill, and now I want to make sure
+it works the way that I want it to.
+I'll run meeting prep on another meeting
+and check that it uses the same format
+and pulls in the right email context.
+All right.
+Now the meeting is booked.
+The brief is exactly how I like it,
+and the next time I need one,
+I can run the meeting prep skill.
+Booked, briefed,
+and ready for the next one.
+That's ChatGPT Work.

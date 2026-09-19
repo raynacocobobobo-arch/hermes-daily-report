@@ -1,0 +1,403 @@
+UP主：Matthew Berman
+标题：xAI actually did it... (Grok 4.6)
+链接：https://www.youtube.com/watch?v=rdYBjpylJUQ
+
+Over the past 2 years, it has become
+clear there are only two main players in
+AI, OpenAI and Anthropic. But within the
+last couple of days, a new player has
+emerged and I am taking them very
+seriously. Grok was late to the AI party
+and they came out with a bang but
+fizzled very quickly and basically
+haven't been doing much since. But this
+has completely changed. It all started
+with Grok buying this company called
+Cursor, which gave them the missing
+ingredient they needed to become a
+dominant player. But it all starts with
+today's news. xAI just dropped their
+latest model Grok 4.6. I've got the blog
+open here and I'm going to go over
+everything that's changed and why it
+matters. Introducing Grok 4.6. This is a
+phenomenal model, competitive with the
+top models out of OpenAI and Anthropic.
+And so, let me show you everything about
+it because it's actually quite unique in
+a number of different ways. So, this is
+a dot upgrade iteration building on Grok
+4.5. So, this isn't a completely new
+training run or anything completely new
+at all, but it is a vast improvement on
+Grok 4.5, their last model. And they
+continue to make it better at coding and
+knowledge work in general. This is their
+focus. And it all stems from the Cursor
+acquisition, which I'm going to touch on
+a number of times through this video.
+All right, so let's get right into the
+benchmarks because it does perform
+incredibly well. And a lot of people
+really liked Grok 4.5, including myself.
+It became the default kind of sub agent
+model in Cursor and I used it all the
+time. It was really capable, very fast,
+and now look, we got massive
+improvements from Grok 4.5 to Grok 4.6,
+Basically, across the board, huge huge
+improvements and you're going to be
+pleasantly surprised. It got even
+faster. And if you're a speed maxi like
+me, you will appreciate it. Now, first
+is GDP val, which is a benchmark from
+OpenAI, which measures a model's
+effectiveness on actual knowledge work
+tasks, GDP val. And what we can see here
+is Grok 4.6 high has the number one
+score, beating out 5.6 Soul, beating out
+Fable 5 Max. We have Cursor Bench, which
+is obviously Cursor's internal
+benchmark. Surprisingly, did not get the
+number one score, but basically
+equivalent with Fable 5 Max. And next we
+have Deep Sweet, which in many people's
+opinions is the most accurate benchmark
+to how people are actually feeling with
+a coding model. Because usually we have
+these benchmarks in which, you know,
+some model performs incredibly well, but
+then when you actually go and use it for
+coding use cases, it doesn't feel quite
+right and we kind of gravitate towards
+another model. That other model has been
+GPT 5.6 Soul to me for a long time, even
+more so than Fable 5 in a lot of cases.
+But what we're seeing here, Deep Sweet,
+is it is in third place. So, 65.9,
+GPT 5.6 Soul Max at 73, that is
+currently my favorite model.
+And 70% for Fable 5. So, definitely not
+quite as good as these other models. And
+on Terminal Bench, it jumps from 15% to
+26% from the previous version of Grok to
+this new version 4.6. Then we have
+Harvey Lab, which is legal use cases and
+it actually dominated 15.8%
+as compared to 2.5% and 11.3% for Soul
+and Fable respectively. So, very very
+good, but if you've watched any of my
+videos over the past few months, you
+know a benchmark only showing a quality
+score is not sufficient. We want to know
+how much does it cost per task. That's
+just as important as quality. Okay, so
+let's take a look at artificial
+analysis, which is really one of my
+favorite websites nowadays. This is the
+artificial analysis intelligence index,
+which takes a bunch of different e-vals
+and basically measures against all of
+them. And what we see here is Grok 4.5
+is here and we have this nice jump all
+the way to fourth place, where kind of
+crazy Claude Opus 5 is number one, then
+Fable 5 number two, 5.6 Soul number
+three, and tying with Soul is Grok 4.6
+High. But again, that doesn't tell the
+whole story. How is it doing on a cost
+per task? Let's take a look. This is the
+chart that matters. On the Y axis, we
+have the index score. This is basically
+the quality or the intelligence coming
+out of the model, but just as
+importantly, we have the cost per task.
+How much does it cost to complete the
+task to get the intelligence score? And
+the way you should think about this is
+really it's two things. One, how many
+tokens does it use? And two, what is the
+price of those tokens? So, when we look
+at, for example, Kimi K3 Max, which is
+half the price of Soul and Fable, the
+reason why we're seeing it at about the
+same price as Soul is because it used
+twice as many tokens. So, if it's half
+the price and uses twice as many tokens,
+it's effectively the same price. That is
+why the cost per task is such an
+important factor to look at. Now, here
+is what we get. Here is Grok 4.5 High,
+which is coming in at about 36 cents
+cost per task and an intelligence index
+of about 55 56, and we get this jump.
+Now, unfortunately, it does get more
+expensive. Now, it's at about like 83
+cents cost per task, but we also got a
+jump in intelligence from about 55 to
+60. Now, hopefully, this price continues
+to come down over time, but we can see
+the other models that are around it. We
+have 5.6 Soul Max, which is basically
+equivalent in intelligence, but Grok 4.6
+is less expensive. We have Kimmy K3,
+which is the same price and slightly
+less intelligent. And then, of course,
+we have Opus 5 way out here, very
+expensive, definitely more intelligent,
+but much more expensive. And let's look
+over here. GPT 5.6 Luna Max coming in at
+like 5 cents per task completed, and
+it's at, let's say, 52 on the
+intelligence index. Really, where you
+want to be as a model is as high up and
+to the left as possible. This green
+quadrant is the killer quadrant. This is
+where you want to be. And so,
+unfortunately, Grok got more expensive.
+It got more intelligent as well, but
+that's how it all came together. All
+right. So, I gave three of the top
+models the same exact prompt to generate
+kind of a designy, cody, single profile
+card, and this is Fable 5. It is so bad.
+Look what they decided to do as the
+image. This is just like the worst SVG
+Microsoft Paint thing I've ever seen.
+And look how much better this is. This
+is GPT 5.6 Soul. They actually generated
+this image of this woman, and just
+design-wise, it's beautiful. Everything
+looks really good. It's clean. It's
+visually appealing. I mean, just look at
+the difference between these two. I What
+is happening with Fable? That is
+horrendous. And now, here's Grok 4.6.
+So, pretty good, not great. It also
+generated this image of a woman, kind of
+the same looking woman, which is a
+little surprising. But, the following
+button is kind of cut off. There's no
+padding at the bottom. It's a little bit
+weird spacing with the text and this
+line break. So, overall, it's pretty
+good. I would say GPT 5.6 definitely
+won. Definitely won. And I I'm I'm
+embarrassed for Fable here. And I know
+the design benchmarks are hard to
+measure. It's really subjective, but I
+think it's actually pretty clear which
+one won. All right, so Grok 4.6 is
+available today. You can get it in
+Cursor. You can get it in Grok Build,
+which are kind of competing products at
+this point, and they're probably going
+to merge eventually. It's also available
+in the API and Open Router Vercel and
+Cloudflare. Now, what's important is the
+price. $2 per million input tokens and
+$6 per million output tokens, which is
+fantastic. And as a reminder, GPT 5.6
+Soul is multiple times more expensive
+than that. And Fable, even more. So,
+this is a very efficient model, a very
+inexpensive model. And I continue to say
+Grok is this workhorse model for my use
+cases. And they even have a fast
+variant, which is twice the price, but
+it is much faster, which is crazy
+because it's already very fast. And
+they're offering 2x usage, double usage
+for the first week if you're using it in
+Grok Build and Cursor. And the last
+thing is, it is also powering Grok Bot,
+which is Cursor's latest product that
+they just released yesterday. And Grok
+Bot just came out yesterday, and we
+talked about it already today in our
+newsletter, forwardfuture.com.
+And so, I think what's happening here is
+post-Cursor acquisition, Grok is really
+excelling now. We now have a third major
+US AI lab. We have OpenAI, Anthropic,
+and now xAI. xAI certainly still feels
+like they're in third place,
+but they are really close and
+accelerating very quickly. And it all
+stems from their increased focus on
+coding use cases and knowledge work use
+cases. That seems to be the winning
+formula that was originally implemented
+by Anthropic. They just went so hard on
+the coding use case, built this
+incredible flywheel where developers
+used Claude code, all of that data fed
+back into Anthropic, all of the revenue
+fed back into Anthropic, and then they
+used that coding model to train their
+next model. And this incredible flywheel
+was then replicated by OpenAI. And don't
+forget, OpenAI was the original large
+language model company, but they fell
+behind for a little bit because they
+were focused on so many different
+things. And now they are so heavily
+focused on Codex and coding use cases
+that they've caught up to Anthropic. And
+it just seems like the winning formula
+for large language models for artificial
+intelligence
+is simply go hard on coding. Coding is
+the key, and we're seeing that
+post-Cursor acquisition. So, xAI
+acquired Cursor, they acquired all of
+this incredible coding data that they
+are now using to train and post-train
+their models. And so, the Grok model is
+now really good at coding. And they even
+say it in the blog post, they used Grok
+4.5 to train Grok 4.6. That's the key,
+recursive self-improvement. We might not
+have a fully closed-loop and
+self-improving AI, but certainly current
+models are training next-gen models
+from all of the major labs. And we're
+seeing it here with Grok as well. We
+then use Grok 4.5 to regenerate the SFT
+trajectories across reasoning efforts,
+agent harnesses, and domains such as
+STEM, software engineering, and
+knowledge work. So, the important thing
+to note is they're using 4.5 to help
+curate the data used to train 4.6. So,
+now we have another incredibly powerful
+coding agent with Grok 4.6. Obviously,
+we have OpenAI's models and Anthropic's
+models, but what really sets Grok apart
+is it seems like they're very focused on
+the broader market, not necessarily
+developers. And that's actually okay.
+They have Cursor, which is definitely a
+product made for developers, but now
+they have Grokbot, which is very clearly
+made for a much broader, less technical
+audience. You still get all of the power
+of a really good coding model. It can
+still get real-world work done for you
+because essentially everything's built
+with code. And so, that's what is so
+special about this new Grok model paired
+with Grokbot. They've stripped out model
+selection. There's literally no way to
+tell even what model you're using. They
+don't show any code at all. So, you're
+just looking at text and artifacts like
+PowerPoint presentations, Word
+documents, everything that could be
+output from knowledge work. Even the way
+that they have these little guys right
+here, these little mascots, each thread
+is an agent, and each agent has their
+own little guy. I don't even know what
+to call it. It's a little guy. So, this
+Grokbot plus 4.6 is very powerful. And
+if you haven't had a chance to check out
+Grokbot yet, I definitely recommend it.
+It's really cool, very powerful, yet
+very simple to use. And it also tells
+more of the story of the transformation
+of XAI. If you remember a year and a
+half ago, Elon was talking all about how
+the Grok model was aiming to be
+maximally truthful. And that seemed like
+almost an impossible bar to reach. They
+built a model, it was pretty good, but
+they quickly fizzled out. Anthropic and
+OpenAI just accelerated forward, had the
+best models in the world, all the
+developers moved to one of the other
+products, and I think they got the
+message. The only thing that matters is
+the coding use case because the entire
+market of knowledge work is basically
+built on code. But to better understand
+how well xAI is positioned today, you
+have to understand a little about the
+history of how we got here. Just a few
+months ago in April, SpaceX acquired
+Cursor. If you remember, Cursor was
+really the company that changed the
+coding landscape. They were the first
+ones to deeply integrate artificial
+intelligence into an IDE to allow you to
+code in a new way using AI. They were
+the first. And then Claude Code, and
+then Codex. But when Claude Code came
+out, Cursor fell behind. Everybody was
+really choosing Claude Code, and then
+they started choosing Codex. So this
+acquisition was just so good because
+Cursor had this mountain of coding data,
+just incredibly valuable data, but they
+didn't have a data center. They didn't
+have GPUs to train their own models. And
+then you have Elon and the xAI company,
+which in 122 days built out 200,000
+GPUs, which is just insane velocity. But
+the only problem is they didn't have a
+good model. Nobody wanted to use the
+model, so all of these GPUs sat idle.
+And so all of a sudden you have Cursor
+sitting over here with a mountain of
+data, xAI sitting over here with a
+mountain of GPUs, and what happens if
+you merge them together? You get
+something incredible. You get to use all
+of that data powered by all the GPUs to
+create the next generation of coding
+model, which is what we're now seeing
+with Grok 4.5 and now Grok 4.6. Now, I
+want to point out something here.
+Anthropic partnered with XAI. Anthropic
+has one of the best models on the
+planet, but they underestimated the
+demand for their models. And so, now
+again, you have XAI sitting on so many
+idle GPUs, they need to sell them. They
+need to actually use the GPU, so they
+partnered with Anthropic. Anthropic is
+now buying compute from XAI, and this is
+like selling weapons to your enemy. This
+must have hurt Elon so badly because he
+has said so many negative things about
+Anthropic and then had to sell them
+compute. But now imagine you're
+Anthropic and you're sitting here today,
+and you're like, "Oh, wow, Grok 4.6 is
+actually quite good." And if they start
+to garner a bunch of attention and a
+bunch of demand, I guarantee
+at the end of the term for their deal
+with Anthropic, XAI is going to allocate
+all of that GPU capacity to Cursor and
+to Grok. Why wouldn't they, right? So, I
+would be a little bit nervous if I were
+Dario and Anthropic. And it's not
+stopping. They continue to get better
+and better. Elon just tweeted, "Grok 4.7
+is significantly better than 4.6 and
+should be ready in 3 to 4 weeks. The
+initial training is complete. Now
+they're adding a massive amount of
+SpaceX company data in supplemental
+training. It will be something special."
+I am so happy about this. We need
+competition. Competition is good.
+Open-source model competition is good.
+Frontier closed-source model competition
+is good because all of that means better
+models, less expensive for all of us.
+And I'm really excited about GrokBot. I
+have been using it. I made an entire
+video about it, breaking it all down.
+Check that out right here.

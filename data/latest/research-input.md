@@ -1,7 +1,7 @@
 # Hermes Research Input
 
-日期：2026-09-12
-生成时间：2026-09-12 12:17:03 CST
+日期：2026-09-19
+生成时间：2026-09-19 12:21:48 CST
 
 ## 数据来源
 
@@ -13,6 +13,7 @@
 - YouTube: Futurepedia
 - YouTube: Matt Wolfe
 - YouTube: Matthew Berman
+- YouTube: MrOrangeDream
 - YouTube: OpenAI
 - YouTube: The AI Advantage
 - YouTube: Theoretically Media
@@ -21,970 +22,1250 @@
 
 ### AI Engineer
 
-视频/文章：Your company brain will leak secrets: how we stopped it for big banks — Tanmai Gopal, PromptQL
-链接：https://www.youtube.com/watch?v=0uC6u0lJJl4
-发布时间：2026-09-03T15:30:26+00:00
+视频/文章：Homa: The End of TCP for AI Clusters — John Ousterhout, Stanford
+链接：https://www.youtube.com/watch?v=eZ8WWZzoaR0
+发布时间：2026-09-17T13:00:08+00:00
 
 原始内容摘要（仅整理，不判断）：
 - [music]
-All right. Um, everybody can see. Hey
-everybody. Um, thank you for being here.
-I'm going to talk about um
-the fact that if you go ahead and build
-a company brain, it will um likely leak
-company secrets. um which is kind of the
-big fear that we have about building a
-company brain anyway, right? Which is
-this case of like intern joins the
-company and then suddenly gets like comp
-details and everybody kind of situation,
-right? You want to you want to guard
-against that. Um this has kind of been I
-guess pretty much the biggest thing
-that's been holding us back from just
-deploying openclaw and Hermes all over
-the place, right? It's also kind of the
-reason it's like this big opportunity
-that Claude Tag had with it recent
-launch a few days ago where like it was
-going to be the company bra...
+Please welcome to the stage the
+professor emmeritus at Stanford
+University,
+John Sterhout.
+Good morning. It's really great to be
+here to talk about the network side of
+AI applications and in particular to
+make the case that latency matters and
+it's probably going to be mattering more
+in the future. But I just want to say
+this is a talk is unusual for me. I've
+never before given a talk where there
+are fog generators in the auditorium.
+Just a really San Francisco experience,
+I guess.
+So, it's it's well known that AI
+workloads depend on really great
+networking performance in order to
+achieve their own performance. And of
+course, that's because the workloads are
+so large that they have to be
+distributed across machines and then you
+have to communicate between the
+machines. But what I w...
 
 涉及对象：
-股票：Apple, META, Meta
+股票：GOOGL, Google, META, Meta, NET
 行业：AI
-主题：GPT, Claude, LLM, Agent, RAG, prompt
+主题：Agent, RAG
 
 关键原文：
 > [music]
-All right. Um, everybody can see. Hey
-everybody. Um, thank you for being here.
-I'm going to talk about um
-the fact that if you go ahead and build
-a company brain, it will um likely leak
-compan
+Please welcome to the stage the
+professor emmeritus at Stanford
+University,
+John Sterhout.
+Good morning. It's really great to be
+here to talk about the network side of
+AI applications and in p
 
 ---
 
 ### AI Engineer
 
-视频/文章：Why AI Agents Need Million-Token Context — Thomas Wolf & Olive Song, MiniMax
-链接：https://www.youtube.com/watch?v=5Cxe5dv2Xlw
-发布时间：2026-09-04T13:00:26+00:00
+视频/文章：Stop Chunking Like It's 2022 — Yuval Belfer, AI21 Labs
+链接：https://www.youtube.com/watch?v=r9OwPx_HoV0
+发布时间：2026-09-16T17:00:06+00:00
 
 原始内容摘要（仅整理，不判断）：
 - [music]
->> Joining us on stage is the co-founder
-and chief science officer at Hugging
-Face, Thomas Wolf.
->> [music]
-[music]
->> Hello everyone.
-Hello Olive, nice to have you on stage.
->> Hi, nice to meet you. Thanks for having
-me, yeah.
->> So I think you're on for a treat today
-because you just saw a GLM
-uh which is current number
-two on the artificial intelligence
-leaderboard. I take Fable out because
-nobody can use it. And now we have
-number four. So you basically you will
-have all the top models, at least the
-top open source model in a row. And
-we're very lucky to have
-Olive who has a
-pretty amazing path in life.
-Uh so she came to the US, Pennsylvania.
-She was studying, doing PhD at uh
-NYU uh in the lab of Jan LeCun
-working on J Pa, but we decided we won't
-talk about J Pa today, right?
-S...
-
-涉及对象：
-股票：ARM
-行业：AI
-主题：ChatGPT, GPT, Agent, RAG, workflow
-
-关键原文：
-> [music]
->> Joining us on stage is the co-founder
-and chief science officer at Hugging
-Face, Thomas Wolf.
->> [music]
-[music]
->> Hello everyone.
-Hello Olive, nice to have you on stage.
->> Hi, nice to me
-
----
-
-### AI Engineer
-
-视频/文章：Mousepower: agents that can’t be measured, can’t be managed. — Maximillian Piras, Yutori
-链接：https://www.youtube.com/watch?v=8KkibGU_DDY
-发布时间：2026-09-10T15:00:39+00:00
-
-原始内容摘要（仅整理，不判断）：
-- [music]
->> Um well, thanks all for your time.
-Really appreciate you dropping by and
-it's always a a great honor to speak at
-the world's fair. So, I'll do my best to
-uh
-give you guys some valuable insights and
-um
-yeah, hopefully make it worth your time.
-So, my name's Maximilian Piros and today
-I'll be talking about mouse power.
-And this is a talk about measuring
-agents through mental models.
-But before I get into talking about
-measuring agents, I'm going to talk
-through a bit about how I use them every
-day. And it might seem familiar to you,
-but just to level set, we'll go through
-it. So, uh I tend to background them
-like I'm sure a lot of you people are as
-well.
-Um so, while my active attention is
-focusing on one thing, like perhaps
-giving this talk to you, I still want to
-make some progre...
-
-涉及对象：
-股票：ARM
-行业：AI
-主题：ChatGPT, GPT, Claude, Agent, RAG
-
-关键原文：
-> [music]
->> Um well, thanks all for your time.
-Really appreciate you dropping by and
-it's always a a great honor to speak at
-the world's fair. So, I'll do my best to
-uh
-give you guys some valuable insi
-
----
-
-### AI Engineer
-
-视频/文章：Build-Time vs. Run-Time: Why Dev Tools Fail in Production — Averi Kitsch & Prerna Kakkar, Google
-链接：https://www.youtube.com/watch?v=9R--1tg45Jg
-发布时间：2026-09-09T13:00:04+00:00
-
-原始内容摘要（仅整理，不判断）：
-- [music]
-Hey everyone, how all of you are doing
-today?
-Yeah. Uh so nice to meet you everyone.
-Uh today uh I and my friend Avery are
-going to talk about build time versus
-runtime. Why your developer tools fail
-in production.
-So firstly, know about us.
->> Hi everybody. I'm Avery Kit and I'm a
-staff software engineer working on
-Google Cloud databases. I'm currently
-the technical lead for MCP toolbox for
-databases, our open-source uh database
-MCP server and our Google Cloud MCP
-server um maintainer.
-Hi, I'm Pna and I am currently working
-as senior software engineer at Google
-and I am currently tech lead for Eval
-bench which is the evaluation framework
-for all your agent tech MCP and skills
-need and I'm also an active contributor
-to MCP toolbox.
-So today we are going to cover three
-areas broadly...
-
-涉及对象：
-股票：GOOGL, Google, ARM
-行业：AI
-主题：Gemini, Agent
-
-关键原文：
-> [music]
-Hey everyone, how all of you are doing
-today?
-Yeah. Uh so nice to meet you everyone.
-Uh today uh I and my friend Avery are
-going to talk about build time versus
-runtime. Why your developer too
-
----
-
-### AI Engineer
-
-视频/文章：500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents — Ajay Prakash, LinkedIn
-链接：https://www.youtube.com/watch?v=9wZpvF3QleU
-发布时间：2026-09-09T14:00:06+00:00
-
-原始内容摘要（仅整理，不判断）：
-- [music]
-Hey everyone, good morning. Uh
-thanks for being here. Uh I see people
-are still coming. Uh but yeah, my name
-is uh AJ and uh I am a software engineer
-at uh LinkedIn.
-Today I'm going to be talking about how
-we are doing context engineering to
-improve the performance of coding agents
-at LinkedIn.
-Okay. Uh imagine you are a software
-engineer in a big tech company and your
-products are being used by millions of
-users on a daily basis
-and you are happen to be on a team which
-owns set of very critical services and
-you are on call right and you get an
-alert saying that there is an error
-spike in one of your services
-and uh by the time you're trying to
-figure out how to deal with this issue,
-you take the link to the alert, give it
-to a coding agent like Cloud Code or
-GitHub Copilot.
-While ...
-
-涉及对象：
-股票：META, Meta
-行业：AI
-主题：LLM, Agent, RAG, prompt, workflow
-
-关键原文：
-> [music]
-Hey everyone, good morning. Uh
-thanks for being here. Uh I see people
-are still coming. Uh but yeah, my name
-is uh AJ and uh I am a software engineer
-at uh LinkedIn.
-Today I'm going to be talk
-
----
-
-### AI Engineer
-
-视频/文章：Building ambitious software — Jonathan Kelley, Dioxus Labs & Cognition
-链接：https://www.youtube.com/watch?v=H7vFrcNWXzs
-发布时间：2026-09-11T20:00:06+00:00
-
-原始内容摘要（仅整理，不判断）：
-- [music]
-Hello, my name is Jonathan Kelly and
-today we're going to talk about what it
-means to build ambitious software in the
-age of AI.
-5 years ago, I made the first commit
-ever to a project called Diosis. I used
-the last summer I had as an
-undergraduate and instead of getting an
-internship at Google or doing research
-in AI like many of my friends at the
-time, I spent it exploring an idea I had
-for a crossplatform app framework
-written in the Rust programming
-language.
-In 2021, Rust was still pretty niche,
-but the ecosystem was growing, the
-tooling was improving, and the pitch of
-native performance, a solid type system,
-and simple cross compilation really sold
-me. It's extremely nerdy.
-The idea for Diosis was straightforward.
-What if we had an crossplatform app
-framework? Instead of waiti...
-
-涉及对象：
-股票：Apple, GOOGL, Google
-行业：AI
-主题：Agent, RAG, prompt
-
-关键原文：
-> [music]
-Hello, my name is Jonathan Kelly and
-today we're going to talk about what it
-means to build ambitious software in the
-age of AI.
-5 years ago, I made the first commit
-ever to a project called D
-
----
-
-### AI Engineer
-
-视频/文章：Your agents lack context: Here's how to fix "You're absolutely right!" — Brandon Waselnuk, Unblocked
-链接：https://www.youtube.com/watch?v=KcVkq5L-0f0
-发布时间：2026-09-09T14:30:12+00:00
-
-原始内容摘要（仅整理，不判断）：
-- [music]
->> Good afternoon.
-I hope you're all having a lovely day
-here at AIE.
-We've had great weather, though the UV
-has been like nine. So, hopefully you
-put your sunscreen on your being
-appropriate adults.
-I'm here to talk to you about context
-engineering, and I have the good fortune
-of following AJ from LinkedIn because he
-talked a lot about the system that we
-actually design and sell to other
-solutions. And I'm going to give you a
-bunch of open source tools. So, if you
-watch that last talk just before me,
-you're going to get a bunch of tool
-chance you can go mess around yourself,
-and I'll teach you a bunch of techniques
-today. The goal, of course, is to fix
-your absolutely right.
-I think they've taken that out of the
-prompts now, so it just says you're
-right or other things, but I'm su...
-
-涉及对象：
-股票：NET
-行业：AI
-主题：LLM, Agent, RAG, prompt, workflow
-
-关键原文：
-> [music]
->> Good afternoon.
-I hope you're all having a lovely day
-here at AIE.
-We've had great weather, though the UV
-has been like nine. So, hopefully you
-put your sunscreen on your being
-appropriate 
-
----
-
-### AI Engineer
-
-视频/文章：Generative UI... in Python? — Jeremiah Lowin, Prefect
-链接：https://www.youtube.com/watch?v=Krzs8GeiWTc
-发布时间：2026-09-10T16:30:07+00:00
-
-原始内容摘要（仅整理，不判断）：
-- [music]
-Good. Um, thank you all for for coming
-out. Um, I'm going to talk today about
-one of the weirdest pieces of software
-I've ever written. It's sort of on the
-edge of a whole lot of stuff I've been
-putting putting forward into the world.
-Um, so join me if you will. We're going
-to try and have the most reasoned
-approach to to a very strange thing that
-agents and MCP and other things have
-enabled. And so to begin, I want to talk
-about MCP apps. I don't know if any of
-you were able to join any of the other
-talks earlier today. Maybe the one that
-um Edo and Lead just gave maybe an hour
-ago. Just a show of hands. MCP apps
-familiarity.
-Okay, this is probably the best crowd
-I've ever given this talk to actually.
-So that's that's fantastic. Um, for
-those that didn't put their hands up,
-MCP ap...
-
-涉及对象：
-股票：NET
-行业：AI
-主题：Claude, Agent, RAG
-
-关键原文：
-> [music]
-Good. Um, thank you all for for coming
-out. Um, I'm going to talk today about
-one of the weirdest pieces of software
-I've ever written. It's sort of on the
-edge of a whole lot of stuff I've be
-
----
-
-### AI Engineer
-
-视频/文章：The Design-Code Roundtrip That Isn't — Jonathan Gordon, ReWeaver AI
-链接：https://www.youtube.com/watch?v=NW-jwOVr32w
-发布时间：2026-09-10T14:30:11+00:00
-
-原始内容摘要（仅整理，不判断）：
-- [music]
-Hello everyone. I'm Jonathan Gordon. I'm
-a founder of Reweaver AAI, a new
-company, you know, on the scene, let's
-say. I want to share one thing with all
-of you that was really fascinating. So,
-I I plugged in my laptop and I realized
-I had to mirror. So, I no longer have my
-speaker notes. So, I went into Claude
-and I said, "Can you extract my speaker
-notes from my slide deck, please?" And I
-had my speaker notes now.
-I love AI.
-The suspense was killing me. I was
-talking to Claude
-now. Who knows if it got it right. I
-don't know. Whatever. Um, so I also
-realized that my title slide buried the
-lead. I shouldn't have put it up. Um,
-but nonetheless, let's play with this.
-So, uh, yeah, my name is Jonathan. Um,
-I'm here to talk to you about the design
-code roundtrip that isn't.
-And I guess ...
-
-涉及对象：
-股票：Microsoft, NET
-行业：AI
-主题：Claude, LLM, Agent, prompt, workflow
-
-关键原文：
-> [music]
-Hello everyone. I'm Jonathan Gordon. I'm
-a founder of Reweaver AAI, a new
-company, you know, on the scene, let's
-say. I want to share one thing with all
-of you that was really fascinating. So,
-
----
-
-### AI Engineer
-
-视频/文章：One Designer + AI. Hundreds of Deliverables. — Vincent Wendy, AI Engineer
-链接：https://www.youtube.com/watch?v=O1FN4awNEtM
-发布时间：2026-09-10T17:00:06+00:00
-
-原始内容摘要（仅整理，不判断）：
-- All right.
-Hello everyone. Hope you guys having a
-good time at the conference.
-So, before we start
-how many of you are actually uh
-designers? Like a product designer. Hey,
-one hands and another. Okay.
-And how many I assume that the rest of
-you are engineers? Is that correct?
-Yeah, pretty much. Okay.
-So, today's talk is a non-technical
-talk, but more of a real-world
-experience how I created the design for
-AI Engineer this conference and
-our other past conference as well and
-how AI has helped me. And so, the talk
-today is one designer plus AI, which is
-me as the designer,
-and hundreds of deliverables.
-All right, let's start.
-So, my name is Vinson Weng. I am a
-senior creative designer at AI Engineer.
-And at AI Engineer, it's a very small
-team. So, we only have around 12 people
-to 15 people at...
+Hi everybody. Uh thank you for coming
+today. Uh welcome to a talk about
+nothing. Sorry, a talk about retrieval.
+Uh my name is Yuval. I work at AI21
+which is essentially an AI research lab.
+And today I want to talk to you about
+something that most people don't want to
+talk about which is chunking. And I hope
+to convince you by the end that chunking
+isn't dead and there is something to do
+with that. And really if you are at Axe
+LinkedIn wherever you probably seen that
+rug is dead right I think people also
+killed MCP lately and Rag is dead again.
+Long live identic retrieval, identic
+search and there is come a time where
+you have to ask yourself how many times
+can Rag die right and even when someone
+says well ra isn't dead like Jerry the
+CEO of Llama index they still have to
+kill somet...
 
 涉及对象：
 股票：（无）
 行业：AI
-主题：ChatGPT, GPT, LLM, workflow, automation
-
-关键原文：
-> All right.
-Hello everyone. Hope you guys having a
-good time at the conference.
-So, before we start
-how many of you are actually uh
-designers? Like a product designer. Hey,
-one hands and another. Okay.
-
----
-
-### AI Engineer
-
-视频/文章：The Spatial Harness: Bringing Agents to the Canvas — Max Drake, tldraw
-链接：https://www.youtube.com/watch?v=XWcXwnysmpY
-发布时间：2026-09-10T14:00:06+00:00
-
-原始内容摘要（仅整理，不判断）：
-- [music]
-Thank you for coming here to my talk to
-watch me talk about uh agents on the
-canvas. Um the first thing I'm going to
-do though is uh before I have to record
-my screen. Uh the first thing I'm going
-to do is I'm going to ask my agent to do
-something on the canvas.
-And what I'm going to do is say, "Hey,
-uh, my colleague Spencer just emailed me
-a link to a notion document, uh, for a
-really cool demo we could build with the
-TL desktop app. Can you like find that
-document and then can you build it on
-the desktop app?"
-Thank you.
-Okay, so that's going to build uh, and
-then we're going to come back to it
-later and hopefully it'll work. Um, hi
-everyone, my name is Max Reich. Thanks
-so much for coming. Um I work on uh
-agents on the canvas at uh TLA. I'm a
-product engineer there. Um so first
-...
-
-涉及对象：
-股票：Apple
-行业：AI
-主题：Claude, LLM, Agent, prompt
+主题：Agent, RAG, workflow
 
 关键原文：
 > [music]
-Thank you for coming here to my talk to
-watch me talk about uh agents on the
-canvas. Um the first thing I'm going to
-do though is uh before I have to record
-my screen. Uh the first thing I'm g
+Hi everybody. Uh thank you for coming
+today. Uh welcome to a talk about
+nothing. Sorry, a talk about retrieval.
+Uh my name is Yuval. I work at AI21
+which is essentially an AI research lab.
+And
 
 ---
 
 ### AI Engineer
 
-视频/文章：How long can your skills be before your agent forgets what you told it? — Laurie Voss, Arize AI
-链接：https://www.youtube.com/watch?v=XzJD1bvXKjs
-发布时间：2026-09-09T15:00:06+00:00
+视频/文章：Total Recall: Agent Memory and Harness Engineering — Ignacio Martinez, Oracle
+链接：https://www.youtube.com/watch?v=xs-ob87TTzg
+发布时间：2026-09-18T16:00:11+00:00
 
 原始内容摘要（仅整理，不判断）：
-- [music]
-All right. Hello everybody.
-Thank you for coming to this
-delightfully nerdy talk. Uh this talk
-has a really long title. Uh so let me
-give you the short version up front. You
-write skills files uh and stuff them
-full of instructions. At some point the
-model stops keeping track of all of
-them. The question is where is that
-point? At what point have you put too
-many instructions in your skills files?
-Uh and the answer has changed a lot in
-the last year. I'm Lori. I'm head of
-developer relations at Arise AI. Uh in a
-former life, I co-founded npm Inc. So
-some of you may know me from the days of
-JavaScript. These days I spend a lot of
-time thinking about AI and how to test
-it.
-Uh a few months ago I was at AI engineer
-in Miami which was a good conference. Uh
-and I was watching a talk by D...
+- Hello. Hello. Perfect.
+>> Yep. So,
+perfect. Yeah, this this volume is
+perfect. It's just a website that I I
+registered the domain on Saturday just
+to do the registration of the workshop.
+But for those of you who are going to
+follow along with me, just know that
+after you complete that that process in
+the in the workshop, you will get an
+invitation to the repository and just
+view the invitation, accept it, and then
+you will be able to run the workshop.
+We'll be running the workshop on GitHub
+Codespaces. So, if you want to start
+that up, it takes like five minutes. Um,
+just for reference, I'm going to use the
+first 30 minutes to give you an
+introduction to agent harness and lots
+of other concepts and then in the next
+hour and a half, we're going to go
+actually go through uh the workshop
+toge...
 
 涉及对象：
-股票：NET
+股票：GOOGL, Google, META, Meta, NET
 行业：AI
-主题：GPT, Claude, Gemini, LLM, Agent, RAG, prompt, workflow
+主题：LLM, Agent, RAG, prompt, workflow, automation
 
 关键原文：
-> [music]
-All right. Hello everybody.
-Thank you for coming to this
-delightfully nerdy talk. Uh this talk
-has a really long title. Uh so let me
-give you the short version up front. You
-write skills files
+> Hello. Hello. Perfect.
+>> Yep. So,
+perfect. Yeah, this this volume is
+perfect. It's just a website that I I
+registered the domain on Saturday just
+to do the registration of the workshop.
+But for those
 
 ---
 
-### AI Engineer
+### MrOrangeDream
 
-视频/文章：ACP: The Universal Remote Control for AI Agents — Alex Hancock, Block
-链接：https://www.youtube.com/watch?v=YkNulwcc5jk
-发布时间：2026-09-09T16:00:03+00:00
-
-原始内容摘要（仅整理，不判断）：
-- [music]
->> Hey everybody.
-Um
-my name's Alex Hancock. Today I'm going
-to talk about a universal remote control
-for AI.
-And before I start, I just want to say
-the previous speaker said that MCP
-client maintainers haven't implemented
-support for tasks because they're smart.
-I'm an MCP client maintainer. I can tell
-you it's just because I'm lazy. I
-haven't done it.
-Um
-Okay. So, a little bit about me before
-we start. I am a software engineer at
-Block, which is the parent company of
-Cash App and Square and Title. We have a
-few different things going on now. Um
-and I've worked there for a long time. I
-worked on Square product stuff and Cash
-App stuff, but I've been doing open
-source AI for the last couple years.
-Specifically, I work on this open source
-harness project called Goose, which
-started ...
-
-涉及对象：
-股票：META, Meta, NET
-行业：AI
-主题：Agent
-
-关键原文：
-> [music]
->> Hey everybody.
-Um
-my name's Alex Hancock. Today I'm going
-to talk about a universal remote control
-for AI.
-And before I start, I just want to say
-the previous speaker said that MCP
-client m
-
----
-
-### AI Engineer
-
-视频/文章：MCP Apps: Give the Model Data, Give the User a UI — Dustin Mihalik, Indeed
-链接：https://www.youtube.com/watch?v=lbaXnx0KLA8
-发布时间：2026-09-09T15:30:08+00:00
+视频/文章：Traffic Ignition Review 2026 - Can You Really Earn $19,525 Per Month?
+链接：https://www.youtube.com/watch?v=3SfW_1lbaG8
+发布时间：2026-08-21T23:30:13+00:00
 
 原始内容摘要（仅整理，不判断）：
-- [music]
->> Uh hey everyone, I'm Dustin Macholic. Uh
-I work at Indeed.
-Uh we're the number one job site in the
-world. And I have to apologize for my
-voice. I'm recovering from a cold that I
-had last week.
-Um
-Yeah, so at Indeed, we build
-uh
-job search. And uh I also work on a team
-that does AI platform. And I do like AI
-guardrails and and gateways and
-compliance stuff. Uh occasionally uh my
-team gets cool projects to work on
-because we have relationships with the
-vendors. Uh MCP apps is one of those.
-And um
-MCP connectors. So, this is a little bit
-of like practical MCP apps. They gave a
-great introduction uh to MCP apps. This
-is a little bit of a lessons from the
-trenches, uh which is a little bit of
-like what did we learn in building MCP
-and MCP apps for Claude chat chat GPT
-and our own int...
+- Is Traffic Ignition worth your money?
+Should you join this program? And can
+you really make $19,525
+a month as a complete beginner online
+without personally referring anyone and
+all while paying you to build your list?
+Is that actually true? And is it
+realistic for the average person getting
+online? So, I'm going to talk about
+everything that you get inside of
+Traffic Ignition and then you can decide
+for yourself whether or not you want to
+join this program or if you want to
+invest your energy and time elsewhere.
+So, this program right here is a rather
+new program that's come out. Um, they're
+still kind of in their like pre-launch
+founding phase right now and I believe
+that's until the 31st of August. So, I'm
+filming this on the 21st of the month
+and so this program, the way it's set
+up, t...
 
 涉及对象：
 股票：NET
 行业：AI
-主题：ChatGPT, GPT, Claude, Agent, RAG
+主题：RAG
 
 关键原文：
-> [music]
->> Uh hey everyone, I'm Dustin Macholic. Uh
-I work at Indeed.
-Uh we're the number one job site in the
-world. And I have to apologize for my
-voice. I'm recovering from a cold that I
-had last we
+> Is Traffic Ignition worth your money?
+Should you join this program? And can
+you really make $19,525
+a month as a complete beginner online
+without personally referring anyone and
+all while paying you t
 
 ---
 
-### AI Engineer
+### MrOrangeDream
 
-视频/文章：Training Taste — Thais Castello Branco, Taste Labs
-链接：https://www.youtube.com/watch?v=sDMGWK4wZ_w
-发布时间：2026-09-10T16:00:20+00:00
-
-原始内容摘要（仅整理，不判断）：
-- [music]
->> Test.
-Okay, amazing.
-It's great to meet everyone. I'm Taís.
-I'm the founder of Taste Labs. Uh for
-those of you who don't know us, we came
-out of stealth a few weeks ago and our
-whole mission is basically how do we end
-AI slop? I that's my personal enemy. Um
-and so we really believe that to solve
-this problem of slop, we have to like
-decode subjective domains. Uh there's
-been so much effort being put into
-getting models and agents amazing at
-things like coding and math. Uh and it's
-time that we put all that same effort
-into making them great at things like
-design uh and writing. And so design is
-this first pillar that we're starting
-with and it's been it's been incredibly
-exciting. Um
-We work primarily in two ways. So we
-work a lot with the frontier labs on how
-do we evaluate the...
-
-涉及对象：
-股票：NET
-行业：AI
-主题：LLM, Agent, RAG, prompt
-
-关键原文：
-> [music]
->> Test.
-Okay, amazing.
-It's great to meet everyone. I'm Taís.
-I'm the founder of Taste Labs. Uh for
-those of you who don't know us, we came
-out of stealth a few weeks ago and our
-whole missio
-
----
-
-### AI Engineer
-
-视频/文章：Design at the Speed of Adjectives — Paul Bakaus, Renaissance Geek, Inc.
-链接：https://www.youtube.com/watch?v=v42opQpCy60
-发布时间：2026-09-10T15:30:14+00:00
+视频/文章：How To Get Paid In Exitus Elite Tutorial - $2000 Instant Payments
+链接：https://www.youtube.com/watch?v=3cYpVRKP3lY
+发布时间：2026-08-21T23:30:24+00:00
 
 原始内容摘要（仅整理，不判断）：
-- [music]
-Cool. Uh, let's get this going. Welcome
-everyone. Thanks for coming. Um, my name
-is Paul and, uh, I'm going to try to
-save you from the midday slump. So,
-let's, uh, let's see if we can do that.
-Um, okay. So this talk, this cold open
-of this talk will make a lot more sense
-if you know uh what impeccable is. Uh
-but if you don't know what it is, it's a
-design, it's a design skill that turns
-your coding harness into a better
-designer and hopefully you into a better
-designer. Um and you can try it out. It
-works across all harnesses, cloth code,
-github, copilot, cursor, codex, etc. Um,
-and this talk is really about uh my
-approach to how to building this tool as
-opposed to the tool itself. Um, but
-let's get started with a pretty typical
-website. So, this is a intentionally
-very basic webs...
+- So, how do you actually get paid in
+Exodus Elite? How do you actually make
+money in this program? And how are you
+able to collect payments? I'm going to
+go over exactly how all that works. This
+is going to be a rather quick video.
+Um if you want to learn more about the
+compensation plan and how much you get
+earned, then of course, I will have a
+video link um in the description where,
+you know, I have another video talking
+about that. So, you can learn more about
+the compensation plan down below, but I
+thought I would just do a quick video
+here talking about how you of course get
+paid inside of this program. So, the
+benefit of this program is you can get
+paid almost any way that you could think
+of, right? So, inside of the group of
+this group right here, there's members
+showing their income...
 
 涉及对象：
 股票：（无）
 行业：AI
-主题：GPT, Claude, Agent, prompt, workflow
+主题：RAG, prompt
 
 关键原文：
-> [music]
-Cool. Uh, let's get this going. Welcome
-everyone. Thanks for coming. Um, my name
-is Paul and, uh, I'm going to try to
-save you from the midday slump. So,
-let's, uh, let's see if we can do that
+> So, how do you actually get paid in
+Exodus Elite? How do you actually make
+money in this program? And how are you
+able to collect payments? I'm going to
+go over exactly how all that works. This
+is goi
 
 ---
 
-### AI Engineer
+### MrOrangeDream
 
-视频/文章：It’s Tokens All The Way Down: How RLMs are Different — Kevin Madura, AlixPartners
-链接：https://www.youtube.com/watch?v=xo68uCibfm8
-发布时间：2026-09-09T13:30:27+00:00
+视频/文章：High Ticket Vs. Recurring Affiliate Programs - Which Is Better?
+链接：https://www.youtube.com/watch?v=ALYuEiaKQ30
+发布时间：2026-08-15T22:30:28+00:00
 
 原始内容摘要（仅整理，不判断）：
-- Yep. Awesome. Thanks everyone for being
-here. My name is Kevin Madura. I'm from
-a company called Alex Partners. We're
-we're a consulting firm. Um I'm here to
-talk to you today about RLMs. Just
-curious, show of hands, who here is
-familiar with RLMs? So we know how much
-time to spend on it. Okay. So not many.
-All right. Well, that's good. So we'll
-start with what an RLM is and and why
-it's different. So RLM is recursive
-language model. And really the the key
-difference here is that it treats the
-context as an object that it can
-interact with symbolically in its
-environment. So it differs from a tool
-call in the sense that typically when
-you do a tool call it's JSON or some
-type of string that's being sent being
-interpreted elsewhere maybe by some
-other program and that's that's
-returning eff...
+- So, which is better, [snorts] high
+ticket or recurring affiliate programs?
+What is it that will allow you to build
+up consistent income online and be able
+to quit your 9-5 job? I want to talk
+about the pros and cons of both of them
+and my ultimate recommendation for if
+you're looking to walk out of your 9-5
+as quickly as possible and of course
+maintain consistent income online. Now,
+let's first start off by talking about
+high ticket affiliate programs. Um, so
+what a lot of people consider to be high
+ticket is going to be anywhere $1,000
+plus in commissions. So on average
+anywhere from a,000 to $2,000 um, you
+know, commissions that you get per sale.
+Um, in my case, I would say that like
+500 could be like the minimum. Some
+would consider that like mid ticket. I
+would say more of like 100 to ...
 
 涉及对象：
-股票：META, Meta, NET
+股票：GOOGL, Google, NET
 行业：AI
-主题：LLM, Agent, RAG, prompt, workflow
+主题：RAG, prompt
 
 关键原文：
-> Yep. Awesome. Thanks everyone for being
-here. My name is Kevin Madura. I'm from
-a company called Alex Partners. We're
-we're a consulting firm. Um I'm here to
-talk to you today about RLMs. Just
-curious
+> So, which is better, [snorts] high
+ticket or recurring affiliate programs?
+What is it that will allow you to build
+up consistent income online and be able
+to quit your 9-5 job? I want to talk
+about th
 
 ---
 
-### AI Engineer
+### MrOrangeDream
 
-视频/文章：From coding to Knowledge work agents — Karan Vaidya, Composio
-链接：https://www.youtube.com/watch?v=xxfMT-bPEmU
-发布时间：2026-09-03T16:00:06+00:00
+视频/文章：Best Affiliate Marketing Blueprint To Fire Your Boss ASAP!
+链接：https://www.youtube.com/watch?v=EKGtMbkuba0
+发布时间：2026-08-19T00:11:08+00:00
 
 原始内容摘要（仅整理，不判断）：
-- [music]
->> Uh hey folks. Uh I'm Karan Vedya,
-co-founder and CTO of Composio.
-Most agentic tool calls today are still
-happening in one field. No guesses, it's
-software engineering.
-Every other kind of work is trailing far
-behind.
-If models keep getting better, then why
-are we still limited to just agentic
-coding?
-That's the trillion-dollar question I'm
-here to answer.
-Three years ago, coding agents were just
-auto complete.
-Today, software engineering is fully
-autonomous. We went from pressing tab
-tab tab
-to
-let just Claude cook. That's just magic.
-And why did it happen so fast in coding?
-Most people would think it's models.
-Yeah, models got really better over time
-over the last two to three years.
-And so did the harnesses. Claude code,
-Codex, Cursor.
-But on their own, it wouldn't have been
-...
+- If you have been looking for a realistic
+way that you can generate a full-time
+income online without needing a massive
+following on social media and just
+following a very simple blueprint, then
+you've come to the right place because
+I'm going to show you exactly what to do
+to build up a full-time income online
+and do so without having to be super
+salesy or without having to hit need a
+massive following on social media. Now,
+right here what you're seeing on screen
+are results members are getting inside
+of one of the income streams that I'm
+running with right here. This is a
+high-ticket program and what's really
+cool about this program is the fact that
+you get paid instantly directly from the
+customer. So, you could earn commissions
+anywhere from 100, 250, 500, 1,000, and
+$2,000 instant paym...
 
 涉及对象：
-股票：META, Meta, NET
+股票：NET
 行业：AI
-主题：Claude, Agent, RAG, prompt
+主题：RAG, prompt
 
 关键原文：
-> [music]
->> Uh hey folks. Uh I'm Karan Vedya,
-co-founder and CTO of Composio.
-Most agentic tool calls today are still
-happening in one field. No guesses, it's
-software engineering.
-Every other kind of 
+> If you have been looking for a realistic
+way that you can generate a full-time
+income online without needing a massive
+following on social media and just
+following a very simple blueprint, then
+you've
 
 ---
 
-### AI Engineer
+### MrOrangeDream
 
-视频/文章：Deep dive on LLM Inference at Scale — Harshul Jain, Audible & Tanmay Sah, Independent AI Researcher
-链接：https://www.youtube.com/watch?v=y2W4FNAuPEA
-发布时间：2026-09-08T15:00:06+00:00
+视频/文章：Best Instant Pay Affiliate Program For Beginners - Exitus Elite Review 2026
+链接：https://www.youtube.com/watch?v=OToOTXihL64
+发布时间：2026-08-23T01:00:33+00:00
 
 原始内容摘要（仅整理，不判断）：
-- Uh so good afternoon everyone. Um my
-name is Hershel Jan and he is Tanisha.
-Uh and we would like to welcome you all
-in this two hours workshop on the LLM
-inference. Uh so the goal of this
-workshop is to understand this domain
-from the first principles uh dive deeper
-into it and like understand what's going
-on throughout the industry.
-Uh a bit of background about us. So I am
-a senior software engineer at Audible.
-uh have been building MLA data platforms
-for the past five years and on the sides
-I have been writing this opensource
-handbook on LLM inference
-and Tanme he is the senior quantitative
-modeler at XAN cup bank corporation he
-recently completed his PhD and he has
-been actively doing research in the
-agent verifiers and the world models
-Uh so a quick show of hands here. Uh Vu
-here is li...
+- If you're looking to fire your boss and
+quit your job and have total freedom,
+then the best thing that you could have
+is an instant pay affiliate program.
+In this video, I'm going to show you the
+number one instant pay affiliate program
+that I found that is allowing complete
+beginners to earn high-ticket
+commissions online anywhere from $100 at
+the very minimum
+all the way up to $2,000 at the maximum.
+The cool thing about this program is
+when you make a sale, you get paid
+instantly
+directly from the customer. And what
+this means for you is there's no waiting
+for commissions to be paid out. There's
+no waiting a week, 2 weeks.
+When you make a sale, the second you get
+the notification, you receive that money
+instantly. And you can get paid directly
+however you want, whether that's PayPal,
+Cas...
 
 涉及对象：
-股票：NVIDIA, GOOGL, Google, NET
+股票：（无）
 行业：AI
-主题：GPT, LLM, Agent, RAG, prompt, workflow
+主题：RAG
 
 关键原文：
-> Uh so good afternoon everyone. Um my
-name is Hershel Jan and he is Tanisha.
-Uh and we would like to welcome you all
-in this two hours workshop on the LLM
-inference. Uh so the goal of this
-workshop is 
+> If you're looking to fire your boss and
+quit your job and have total freedom,
+then the best thing that you could have
+is an instant pay affiliate program.
+In this video, I'm going to show you the
+numb
+
+---
+
+### MrOrangeDream
+
+视频/文章：Best Digital Business Opportunity For 2026 - Make $2K Per Sale!
+链接：https://www.youtube.com/watch?v=Oxpelf9kXlo
+发布时间：2026-08-19T00:30:04+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Hey, it's Ari here. Hope you're doing
+well. In this video, I want to talk
+about the best digital business
+opportunity for 2026 and likely the next
+few years to come. Now, the program that
+I'm going to go over in this video has
+been around for quite a long time. This
+is not a new opportunity by any means.
+And if you're looking for the next
+latest shiny object or the next
+pre-launch, then this is not going to be
+for you, but this is going to be more
+for the person that wants to
+realistically build up a full-time
+income online,
+walk out of the 9-to-5 rat race, and
+also plug into something that is going
+to be sustainable for the long term. So,
+there's a lot of new programs that
+launch every month or so, and
+unfortunately with most of them, they
+don't really last that long. You know,
+they're ho...
+
+涉及对象：
+股票：NET
+行业：AI
+主题：RAG
+
+关键原文：
+> Hey, it's Ari here. Hope you're doing
+well. In this video, I want to talk
+about the best digital business
+opportunity for 2026 and likely the next
+few years to come. Now, the program that
+I'm going to
+
+---
+
+### MrOrangeDream
+
+视频/文章：Exitus Elite Review - Can You Make Money With The Lower Levels?
+链接：https://www.youtube.com/watch?v=PvB8ctQ439c
+发布时间：2026-08-24T01:00:18+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Hey, it's Aura here. Hope you're doing
+well. In this video, I want to answer a
+quick question regarding Exodus Elite.
+So, if you're looking into this program,
+you're thinking about getting started,
+but you don't have the money to go all
+in with this program, and you want to
+just get started right away, but the you
+know, the idea of investing $2,000 right
+up front kind of scares you off. I
+totally get that.
+Um but, you want to get in, you want to
+start earning commissions, and you're
+wondering, is it worth joining this
+program if you are only able to come in
+at one of these lower levels, like G100
+or G250,
+or maybe the G500. Maybe this is like
+the maximum you can go. So, of course, I
+recommend coming at the highest level
+you can afford. If you're able to go all
+in, then by all means do that...
+
+涉及对象：
+股票：（无）
+行业：AI
+主题：（无）
+
+关键原文：
+> Hey, it's Aura here. Hope you're doing
+well. In this video, I want to answer a
+quick question regarding Exodus Elite.
+So, if you're looking into this program,
+you're thinking about getting started,
+bu
+
+---
+
+### MrOrangeDream
+
+视频/文章：3 Simple Steps To Earn $1000 Per Day Online - Affiliate Marketing 2026
+链接：https://www.youtube.com/watch?v=S_i7T_lB4NU
+发布时间：2026-08-16T23:00:02+00:00
+
+原始内容摘要（仅整理，不判断）：
+- In this video, I'm going to reveal the
+three simple steps that you could use to
+make $1,000 per day online or more doing
+affiliate marketing in 2026. So, this is
+exactly what I would do if I had to
+start over online and I was looking to
+make a full-time income. And if you want
+to learn more in depth about this, then
+at any point you could check out the
+system that I'm using down below, and
+that will go more in depth about how you
+could, of course, get up and running
+with this. Right. So, the first thing
+that you need, of course, is you're
+going to need a a high-converting
+digital product, right? So, what a lot
+of people do when they get into online
+marketing or they're trying to find
+products to promote is they'll go to
+platforms like, you know, ClickBank, JV
+Zoo, Warrior Plus, uh, Digi St...
+
+涉及对象：
+股票：NET
+行业：AI
+主题：RAG
+
+关键原文：
+> In this video, I'm going to reveal the
+three simple steps that you could use to
+make $1,000 per day online or more doing
+affiliate marketing in 2026. So, this is
+exactly what I would do if I had to
+st
+
+---
+
+### MrOrangeDream
+
+视频/文章：How To Make High Ticket Affiliate Marketing Work - $2000 Per Sale
+链接：https://www.youtube.com/watch?v=TuGL5eNl8hk
+发布时间：2026-08-21T23:30:07+00:00
+
+原始内容摘要（仅整理，不判断）：
+- How to make high-ticket affiliate
+marketing work for you in 2026
+so that you can build up a full-time
+income online, walk out of your 9-to-5
+job, and have total freedom for yourself
+to live wherever you want, and spend
+more time with your family. So, right
+here what you're seeing on screen is a
+member by the name of Shawn in the
+system that I'm currently running with
+right now, and he's actually been part
+of this high-ticket affiliate program
+for 10 years ago, as you could see right
+here. So, uh this program that I'm going
+to show you in this video has been
+around since 2014. It's been around for
+quite a while, and it's still working
+very well. It's still converting very
+well, and I really love this program
+because of the way that it's kept
+everything the same, and the owner is
+always addi...
+
+涉及对象：
+股票：（无）
+行业：AI
+主题：RAG, prompt
+
+关键原文：
+> How to make high-ticket affiliate
+marketing work for you in 2026
+so that you can build up a full-time
+income online, walk out of your 9-to-5
+job, and have total freedom for yourself
+to live wherever y
+
+---
+
+### MrOrangeDream
+
+视频/文章：Make Money Online Anywhere In The World - Become A Digital Nomad 2026
+链接：https://www.youtube.com/watch?v=UXvzXE4vtEs
+发布时间：2026-08-19T00:30:15+00:00
+
+原始内容摘要（仅整理，不判断）：
+- So, you've been watching a ton of travel
+vlogs lately. You've been learning about
+Southeast Asia, Latin America, Eastern
+Europe, and you really want to travel
+overseas. You want to see how life is in
+other countries. You feel like life in
+America is a complete rip-off, and the
+cost of living is
+way higher than it should be. It's
+absolutely ridiculous. But, you just
+want to live comfortably. You maybe you
+want to start a family. Maybe you want
+to retire. You just want to enjoy the
+rest of your years. And the best way of
+doing that is by making money online.
+When you make money online, you can live
+anywhere in the world. You have a lot
+more flexibility. You can move around a
+lot easier. And the question is, how do
+you make money online?
+There's all these these different ways
+of making money ...
+
+涉及对象：
+股票：Amazon, NET
+行业：AI
+主题：RAG
+
+关键原文：
+> So, you've been watching a ton of travel
+vlogs lately. You've been learning about
+Southeast Asia, Latin America, Eastern
+Europe, and you really want to travel
+overseas. You want to see how life is in
+
+
+---
+
+### MrOrangeDream
+
+视频/文章：The Home Business Academy Review (August 2026 UPDATE)
+链接：https://www.youtube.com/watch?v=WPJvwMZ-HPI
+发布时间：2026-08-15T22:30:30+00:00
+
+原始内容摘要（仅整理，不判断）：
+- It is August of 2026 and I want to do my
+HBA review for right now and beyond and
+whether or not you should actually join
+this program if you're looking to build
+an online business, right? So, I've
+actually been a member of the Home
+Business Academy since 2023. [snorts]
+I've been with these guys for quite a
+while and I've also met the owners. And
+the question is do I still recommend uh
+do I still recommend this program,
+right? So, these are the owners right
+here and the answer is absolutely,
+right? So, I want to talk about what you
+get inside of HBA
+and also I will talk about how to make
+money with this exact program as well.
+So, if you're looking to build up a
+residual income online and you want to
+earn consistent 20 and $100 uh
+residuals, then that's exactly what I'll
+go over uh right her...
+
+涉及对象：
+股票：NET
+行业：AI
+主题：RAG, prompt
+
+关键原文：
+> It is August of 2026 and I want to do my
+HBA review for right now and beyond and
+whether or not you should actually join
+this program if you're looking to build
+an online business, right? So, I've
+act
+
+---
+
+### MrOrangeDream
+
+视频/文章：Is Traffic Ignition Legit Or A SCAM?! - WATCH ASAP! 🚨🤯
+链接：https://www.youtube.com/watch?v=WYU5TTuQ0CE
+发布时间：2026-08-23T01:00:07+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Hey, it's Aura here. Hope you're doing
+well. If you've clicked on this video,
+then you're probably doing a bit of
+research on a new program called Traffic
+Ignition. You want to know if this is
+actually legitimate and if you could
+actually make $19,525
+a month without personally referring
+anyone as this site actually claims. So,
+I'm going to go over everything that you
+get inside this program. I'm going to
+talk about uh how this program is
+structured, how you make money, and of
+course, whether or not it is worth
+joining this program. So, uh real quick,
+if you want to check out my number one
+recommendation to earn a full-time
+income online, then you could check out
+the system that I'm using down below and
+that is a high-ticket program that I'm
+using
+where you can get paid directly and earn
+i...
+
+涉及对象：
+股票：（无）
+行业：AI
+主题：（无）
+
+关键原文：
+> Hey, it's Aura here. Hope you're doing
+well. If you've clicked on this video,
+then you're probably doing a bit of
+research on a new program called Traffic
+Ignition. You want to know if this is
+actuall
+
+---
+
+### MrOrangeDream
+
+视频/文章：Exitus Elite Best Traffic Sources To Get Sales! ($1000-2000 Per Day)
+链接：https://www.youtube.com/watch?v=Wmm0pulkDu0
+发布时间：2026-08-24T01:00:34+00:00
+
+原始内容摘要（仅整理，不判断）：
+- So, how do you actually market your
+Exodus Elite business? How do you get
+traffic and of course, how do you start
+earning the big commissions like what
+you see right here on the screen? The
+$500 days, the $1,000 and the the $2,000
+commissions.
+How do you do this if you're someone
+who's brand new without a massive
+following online? So, I'm going to go
+over the three uh different ways that I
+recommend getting traffic uh that you
+could use if you are just uh getting
+started in Exodus Elite or if you are uh
+just looking into this program. And real
+quick, what I want to mention is when
+you decide to jump on board via the link
+down below. So, if you're not already in
+Exodus Elite already, then you can get
+access to my bonuses where I give you
+additional trainings that go over how to
+get traffic ...
+
+涉及对象：
+股票：NET
+行业：AI
+主题：RAG
+
+关键原文：
+> So, how do you actually market your
+Exodus Elite business? How do you get
+traffic and of course, how do you start
+earning the big commissions like what
+you see right here on the screen? The
+$500 days,
+
+---
+
+### MrOrangeDream
+
+视频/文章：Thinking Of Joining Exitus Elite? - WATCH THIS FIRST! 🚨
+链接：https://www.youtube.com/watch?v=XJZJjD8LyBw
+发布时间：2026-08-16T23:00:30+00:00
+
+原始内容摘要（仅整理，不判断）：
+- If you're thinking about joining Exodus
+Elite, watch this video all the way
+through before you decide to jump on
+board because I will go over exactly
+what to expect when you decide to get
+started today. I'm also going to go over
+a couple bonuses when you decide to jump
+on board via the link down below and you
+you decide to partner up with myself.
+So, rest be assured assured that if you
+are looking for a sponsor that is here
+to help and here to help you get
+results, then I'm going to be here for
+you. I'm going to answer any questions
+that you have going through it and if
+you need any help along the way as far
+as like feedback goes for marketing,
+then you'll be able to message me as
+well. So, real quick, uh this is the
+Exodus Elite homepage and you've
+probably seen it before.
+Um so, with thi...
+
+涉及对象：
+股票：NET
+行业：AI
+主题：RAG
+
+关键原文：
+> If you're thinking about joining Exodus
+Elite, watch this video all the way
+through before you decide to jump on
+board because I will go over exactly
+what to expect when you decide to get
+started toda
+
+---
+
+### MrOrangeDream
+
+视频/文章：How To Promote Your Exitus Elite Affiliate Business 2026
+链接：https://www.youtube.com/watch?v=Z_7U-Sm1_nM
+发布时间：2026-08-18T00:00:27+00:00
+
+原始内容摘要（仅整理，不判断）：
+- How to promote Exodus Elite and make
+sales in the program online. So, in this
+video I want to talk about the top two
+ways that I recommend promoting your
+Exodus Elite link. And whether you're
+someone who's just joined the program
+right now, or you're thinking about
+joining, then pay close attention to
+this video because I'll talk about
+exactly what to do. So,
+uh at any point in this video you can
+click on the link down below to become
+part of my team.
+Inside of Exodus Elite, when you join
+specifically through me, I have a custom
+funnel that you're going to get access
+to. It's going to provide a free lead
+magnet that you could offer people, and
+it just uh talks about a free training
+with affiliate marketing. So, if you
+want to just promote that, um you know,
+share the free training, get peo...
+
+涉及对象：
+股票：NET
+行业：AI
+主题：RAG
+
+关键原文：
+> How to promote Exodus Elite and make
+sales in the program online. So, in this
+video I want to talk about the top two
+ways that I recommend promoting your
+Exodus Elite link. And whether you're
+someone 
+
+---
+
+### MrOrangeDream
+
+视频/文章：How To Earn Instant $2000 Commissions (High Ticket Affiliate Marketing)
+链接：https://www.youtube.com/watch?v=ZupJecTfep8
+发布时间：2026-08-15T22:30:36+00:00
+
+原始内容摘要（仅整理，不判断）：
+- How to earn instant commissions anywhere
+from $100 up to $2,000.
+I'll show you exactly how you could do
+this step-by-step in this video. Real
+quick, some proof of concept and these
+are results from many members inside of
+this group right here. So, uh this
+member Ann earned a couple $2,000
+and right here $2,000 sent directly to
+her Bank of America account right here.
+So, yeah, these are well, not all within
+the same day, but multiple payments that
+she's earned right here.
+Next, we have Matthew got his first $500
+commission of the year. So, what's cool
+about this program is you can get paid
+however you want. Cash App, PayPal,
+Zelle, Venmo,
+um Stripe, TransferWise, whatever you
+want to use, you can get paid directly
+from the customer, which is pretty cool.
+So, when you make a sale this progra...
+
+涉及对象：
+股票：NET
+行业：AI
+主题：RAG
+
+关键原文：
+> How to earn instant commissions anywhere
+from $100 up to $2,000.
+I'll show you exactly how you could do
+this step-by-step in this video. Real
+quick, some proof of concept and these
+are results from ma
+
+---
+
+### MrOrangeDream
+
+视频/文章：How Much Does It Cost To Join Exitus Elite? - WATCH ASAP!
+链接：https://www.youtube.com/watch?v=gxHPx6RQlyU
+发布时间：2026-08-18T00:00:04+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Hey, it's Aura here with a quick video
+on Exodus Elite. Right now you're
+watching this because you're wondering
+how much does it cost to join this
+program. So, if you want to earn high
+ticket commissions online and you want
+to build up to a full-time income,
+ideally with this program you want to
+come in at the highest level that you
+can afford. And with Exodus Elite, there
+are five different levels that you could
+come in at. You have the 100, the 250,
+the 500, the thousand, and then the
+$2,000 level. Now, every single level in
+this program has a small admin fee that
+you got to pay to of course get access
+to, and that will give you access to the
+reseller rights
+of the product that you came in at.
+So, the $100 level has a $49 fee.
+The 250 has a $99 fee.
+The The 500 has a
+$199 fee, and then t...
+
+涉及对象：
+股票：NET
+行业：AI
+主题：（无）
+
+关键原文：
+> Hey, it's Aura here with a quick video
+on Exodus Elite. Right now you're
+watching this because you're wondering
+how much does it cost to join this
+program. So, if you want to earn high
+ticket commissi
+
+---
+
+### MrOrangeDream
+
+视频/文章：Best Affiliate Programs For Beginners To Quit Your Job 2026
+链接：https://www.youtube.com/watch?v=iRsYWDgBuA8
+发布时间：2026-08-16T23:00:32+00:00
+
+原始内容摘要（仅整理，不判断）：
+- So, if you're looking to build up a
+full-time income online and you want to
+do so without having to refer hundreds
+or thousands of people online, then
+these are going to be the best affiliate
+programs that you could start promoting
+right now if you want to get to your
+income goal fast. Whether you're looking
+to earn an extra $1,000 per month,
+$2,000 per month, or you're looking to
+build up a stable income that is maybe
+recurring, then that's exactly what
+these programs will help you to do. So,
+um, the I'm going to go over the my top
+two affiliate programs in this video for
+complete beginners and both of these are
+complimentary to one each other. So, if
+you want, you could even promote both of
+them together or you could just promote
+one of them if you want and both of them
+are converting ve...
+
+涉及对象：
+股票：NET
+行业：AI
+主题：RAG, prompt
+
+关键原文：
+> So, if you're looking to build up a
+full-time income online and you want to
+do so without having to refer hundreds
+or thousands of people online, then
+these are going to be the best affiliate
+programs
+
+---
+
+### MrOrangeDream
+
+视频/文章：Exitus Elite Done For You Affiliate System Review - Watch ASAP!
+链接：https://www.youtube.com/watch?v=nwFBucdy7cU
+发布时间：2026-08-18T00:00:24+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Hey, it's Ari here. Hope you're doing
+well. Today, I want to talk about the
+Exodus Elite done-for-you affiliate
+marketing system. So, this program is
+set up in a way for complete beginners
+to get up and running online. And
+whether you are someone who's
+experienced in building funnels or not,
+or you just want to plug into something
+that is proven, that's converting, then
+the cool thing about Exodus Elite is it
+has done-for-you funnels you can plug
+into. And depending on the level that
+you come in at, the higher level, of
+course, will get you access to more
+funnels inside of your system. So, with
+Exodus Elite,
+inside of your back office when you
+become a member, you will have a series
+of capture pages you can plug into.
+They're going to be fully set up for
+you. And all you really need is you...
+
+涉及对象：
+股票：（无）
+行业：AI
+主题：RAG
+
+关键原文：
+> Hey, it's Ari here. Hope you're doing
+well. Today, I want to talk about the
+Exodus Elite done-for-you affiliate
+marketing system. So, this program is
+set up in a way for complete beginners
+to get up a
+
+---
+
+### MrOrangeDream
+
+视频/文章：Exitus Elite Real Income Proof 2026 - Is This Still Converting?
+链接：https://www.youtube.com/watch?v=xe8_YpIKJ2g
+发布时间：2026-08-23T01:00:00+00:00
+
+原始内容摘要（仅整理，不判断）：
+- So, if you're thinking about joining
+Exodus Elite right now and you want to
+know is this program still converting 12
+years later after its initial release,
+then I want to answer that question in
+this video right now. And this is going
+to be a rather quick video where I'm
+just going to go over exactly what is
+possible inside of this program. So,
+keep in mind regardless of what online
+business you start, regardless of what
+program you join, results are never
+guaranteed and it's always depending on
+the work that you put in. So, what I
+want to first mention is I have my own
+community that you're going to get
+access to when you decide to join with
+my with myself.
+This is going to have additional
+trainings on how to go out there, how to
+market your link, how to get traffic.
+And then I'm also goi...
+
+涉及对象：
+股票：NET
+行业：AI
+主题：（无）
+
+关键原文：
+> So, if you're thinking about joining
+Exodus Elite right now and you want to
+know is this program still converting 12
+years later after its initial release,
+then I want to answer that question in
+this 
 
 ---
 
 ### OpenAI
 
-视频/文章：Templates with ChatGPT Images 2.5
-链接：https://www.youtube.com/watch?v=-VukmrOT1eE
-发布时间：2026-09-08T18:48:03+00:00
+视频/文章：Meet ChatGPT: Ask Your First Question | OpenAI Academy
+链接：https://www.youtube.com/watch?v=4UTn7oWvSJc
+发布时间：2026-09-16T22:29:47+00:00
 
 原始内容摘要（仅整理，不判断）：
-- [music]
-[music]
-[music]
-[music]
->> Ah.
+- Hey, I'm glad you're here. Today, we're
+going to do one simple thing together.
+Ask ChatGPT a question. You can think of
+ChatGPT like an assistant that never
+runs out of patience. You can type a
+question or say it out loud.
+If the answer is not quite right, you
+can ask another question. You don't have
+to get everything perfect the first
+time.
+Here's the message box. This is where
+you type.
+And that there, that's the voice button.
+Tap it to speak your message instead of
+typing it. Let's start with an easy
+question.
+Give me three easy ideas for using
+ChatGPT this week.
+And now, we get an answer.
+Maybe it suggests planning a meal,
+drafting a message, or learning
+something new.
+I don't have to use every idea. I can
+pick the one that sounds best to me.
+And now, I can keep the conversation
+going....
 
 涉及对象：
 股票：（无）
 行业：（无）
-主题：（无）
+主题：ChatGPT, GPT
 
 关键原文：
-> [music]
-[music]
-[music]
-[music]
->> Ah.
+> Hey, I'm glad you're here. Today, we're
+going to do one simple thing together.
+Ask ChatGPT a question. You can think of
+ChatGPT like an assistant that never
+runs out of patience. You can type a
+questi
 
 ---
 
 ### OpenAI
 
-视频/文章：Discovering new antibiotics with ChatGPT
-链接：https://www.youtube.com/watch?v=0XLGisanEAs
-发布时间：2026-09-10T15:59:55+00:00
+视频/文章：Create a Coloring Page with ChatGPT | OpenAI Academy
+链接：https://www.youtube.com/watch?v=4gYJxduFN3c
+发布时间：2026-09-16T22:29:27+00:00
 
 原始内容摘要（仅整理，不判断）：
-- Imagine a molecule that you created on a computer capable of saving lives.
-Instead of having to go around nature and dig into soil and water,
-which is a very painstaking process,
-we do everything on the computer.
-Tools like ChatGPT are helping us accelerate scientific discovery.
-We can now uncover new antibiotic molecules in a few hours
-instead of five, six years.
-Modern medicine as we know it would collapse without effective antibiotics.
-Antimicrobial resistance is ... you know, I really can't think of anything more consequential.
-These are bacterial infections
-that are associated with about five million deaths per year around the world.
-If we don't come up with new solutions by 2050, that number is projected to double.
-Routine interventions, surgeries, even childbirth,
-you need to have a...
+- Chat GPT can be useful for a ton of
+practical things. But you know what?
+Let's do something just for fun. Let's
+create a simple coloring page for a
+grandchild who loves dinosaurs. Think of
+it like describing a picture to an
+artist. The clearer the description, the
+closer the picture gets to what you
+imagined.
+Create an original black and white
+coloring page of a friendly dinosaur
+having a picnic in the park. Use thick
+outlines, no shading, and plenty of open
+space for coloring. Do not use any
+copyrighted characters.
+Now Chat GPT makes an image. I'm looking
+for simple shapes, clear outlines, and
+enough white space to color.
+Maybe I like it, but I want one small
+change, and I can ask for that. Make the
+dinosaur smaller and add a kite in the
+sky.
+Keep it black and white with thick
+outlines.
+N...
+
+涉及对象：
+股票：（无）
+行业：（无）
+主题：GPT
+
+关键原文：
+> Chat GPT can be useful for a ton of
+practical things. But you know what?
+Let's do something just for fun. Let's
+create a simple coloring page for a
+grandchild who loves dinosaurs. Think of
+it like des
+
+---
+
+### OpenAI
+
+视频/文章：Use ChatGPT Work to build dashboards from a business question
+链接：https://www.youtube.com/watch?v=GzCsKuDgr6Q
+发布时间：2026-09-18T13:27:46+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Create a dashboard using the data
+plug-in and the site semantic layer to
+measure site adoption and usage. And on
+the right, we can see what this looks
+like. There's a lot of like custom
+visualizations that are possible here.
+We can see the funnel over time. There
+are different tabs at the top. Like
+here's one for organizations where we
+can see different metrics on the
+customer segment view. Um so up here you
+can see when the data was last
+refreshed. You can refresh it again.
+Or you can set up a scheduled refresh so
+you can have the data pull from whatever
+source you used on a regular cadence.
+
+涉及对象：
+股票：（无）
+行业：AI
+主题：（无）
+
+关键原文：
+> Create a dashboard using the data
+plug-in and the site semantic layer to
+measure site adoption and usage. And on
+the right, we can see what this looks
+like. There's a lot of like custom
+visualizations
+
+---
+
+### OpenAI
+
+视频/文章：How to Ask ChatGPT Better Questions | OpenAI Academy
+链接：https://www.youtube.com/watch?v=P-8sCH6syag
+发布时间：2026-09-16T22:29:43+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Sometimes ChatGPT's first answer may not
+quite be what you need. When that
+happens, you can ask it to try again,
+add more detail, or explain the answer
+in a different way.
+It's a bit like giving directions to a
+friend. Say what you're trying to do,
+what matters to you, and how to make it
+easier to help.
+Let's look at a very short question.
+Help me with dinner.
+Now, ChatGPT can answer that, but it has
+to do a lot of guessing.
+Dinner for how many people? Do I want
+something quick? What kind of food do I
+like? Do I want a recipe, shopping list,
+a full meal plan?
+So, let me give it a few helpful
+details.
+Help me plan three easy dinners for two
+people this week. Keep the ingredients
+simple, and give me a short shopping
+list. Now, that answer is way better
+because I told ChatGPT what I want, who...
+
+涉及对象：
+股票：（无）
+行业：AI
+主题：ChatGPT, GPT
+
+关键原文：
+> Sometimes ChatGPT's first answer may not
+quite be what you need. When that
+happens, you can ask it to try again,
+add more detail, or explain the answer
+in a different way.
+It's a bit like giving direc
+
+---
+
+### OpenAI
+
+视频/文章：Detecting wildfires with ChatGPT
+链接：https://www.youtube.com/watch?v=PSnJBfa183Y
+发布时间：2026-09-14T15:57:33+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Ryan's technology could absolutely save property and lives.
+This would be a breakthrough technology even if it hadn't been developed by a kid.
+Hey Chat
+Schedule a task to run a sensor test every morning at sunrise.
+If a fire gets large, it's unstoppable.
+Ryan’s sensors and ChatGPT allowed us to find new ways to solve an old problem:
+catching fires faster.
+So this is the first ever heat detector I made for my fifth grade science class.
+I got an A on that project, thankfully.
+You just kept at it for years, literally just improving and improving and improving,
+started winning bigger and bigger science competitions, got media attention,
+until one day he was like, “Dad, I think you got to see this email.”
+We looked at the technology and said, “This is really interesting.”
+So we reached out to h...
 
 涉及对象：
 股票：NET
@@ -992,81 +1273,182 @@ you need to have a...
 主题：ChatGPT, GPT
 
 关键原文：
-> Imagine a molecule that you created on a computer capable of saving lives.
-Instead of having to go around nature and dig into soil and water,
-which is a very painstaking process,
-we do everything on t
+> Ryan's technology could absolutely save property and lives.
+This would be a breakthrough technology even if it hadn't been developed by a kid.
+Hey Chat
+Schedule a task to run a sensor test every morni
 
 ---
 
 ### OpenAI
 
-视频/文章：Introducing the Agents API
-链接：https://www.youtube.com/watch?v=2YHa1vhnmK0
-发布时间：2026-09-10T19:26:05+00:00
+视频/文章：Reimagining IT with ChatGPT
+链接：https://www.youtube.com/watch?v=Q_MEaNdMpZw
+发布时间：2026-09-17T02:11:53+00:00
 
 原始内容摘要（仅整理，不判断）：
-- Getting a long-running agent into
-production takes a lot of work,
-even with a capable model.
-You need to connect tools,
-track progress, manage context,
-and secure and maintain
-the infrastructure around it.
-Today, we're launching the Agents
-API to handle that infrastructure for you.
-The Agents API brings a hosted version
-of the Codex harness to your applications.
-OpenAI handles orchestration,
-sessions, and context management
-so that you can stay focused on building.
-Let's look at an example.
-Suppose we want to build
-an agent that helps investigate
-incidents in our production stack.
-It would need access to observability
-data and recent code changes,
-along with our team's instructions
-for how to handle an outage.
-We can connect all of our necessary
-tools through MCPs and give the agent
-our in...
+- [music]
+>> Hi, I'm Kunal Malik and I lead the
+global [music] IT team at OpenAI. Adding
+AI to just specific parts of the process
+is not going to be enough. To really
+reimagine the process completely [music]
+is the paradigm in which we can
+transform. We look at it in three
+layers. How we amplify individuals by
+giving them AI tools so that they can
+increase their throughput. [music] How
+we amplify an entire team, that's where
+you have to go to the end-to-end
+workflow, and how you amplify the entire
+company. [music] And what we've seen
+using ChatGPT work is amazing. We've
+seen 5 to 10x increase in throughput of
+individuals. The biggest operating model
+shift is that everybody is becoming a
+builder. And what's interesting is the
+folks that are closest to the problem
+actually know how to create t...
 
 涉及对象：
 股票：（无）
 行业：AI
-主题：Agent, workflow
+主题：ChatGPT, GPT, Agent, workflow
 
 关键原文：
-> Getting a long-running agent into
-production takes a lot of work,
-even with a capable model.
-You need to connect tools,
-track progress, manage context,
-and secure and maintain
-the infrastructure aroun
+> [music]
+>> Hi, I'm Kunal Malik and I lead the
+global [music] IT team at OpenAI. Adding
+AI to just specific parts of the process
+is not going to be enough. To really
+reimagine the process completely [m
 
 ---
 
 ### OpenAI
 
-视频/文章：Introducing ChatGPT Images 2.5
-链接：https://www.youtube.com/watch?v=6l7ble9P74o
-发布时间：2026-09-08T18:44:08+00:00
+视频/文章：Meet the Data Agent in ChatGPT Work
+链接：https://www.youtube.com/watch?v=VMgEQ7ym9WU
+发布时间：2026-09-18T13:24:22+00:00
 
 原始内容摘要（仅整理，不判断）：
-- [music]
-Everybody
-[music]
-Yeah. Yeah.
-Yeah. Yeah. Yeah. [music]
-Yeah. Yeah. Yeah.
-[music]
-[music]
->> [music]
-[music]
->> We're going to go back and
->> [music]
+- Your company has invested in data. Now
+let's put it to work. The ChatGPT work
+data agent brings trusted data and your
+data team's expertise into everyday
+decisions.
+Let me show you how we can go from a
+business question to a plan the team can
+act on.
+On my way into work, my management team
+asks how our new product launch is
+going.
+I send the question from my phone.
+The data agents get to work using our
+trusted data and existing sites context.
+By the time I'm at my desk, the analysis
+is ready. Here's the opportunity.
+Returning creators are driving growth,
+but look at the funnel. Only about 16%
+of people with access have started
+creating.
+We need to help more customers take that
+first step.
+With the data plugin, I can dig into
+evidence, the metric definitions, the
+underlying data, and the SQ...
+
+涉及对象：
+股票：GOOGL, Google
+行业：AI
+主题：ChatGPT, GPT, Agent
+
+关键原文：
+> Your company has invested in data. Now
+let's put it to work. The ChatGPT work
+data agent brings trusted data and your
+data team's expertise into everyday
+decisions.
+Let me show you how we can go from 
+
+---
+
+### OpenAI
+
+视频/文章：How to Spot Scam Messages with ChatGPT | OpenAI Academy
+链接：https://www.youtube.com/watch?v=WY_PHjGilVs
+发布时间：2026-09-16T22:29:36+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Have you ever received an email or text
+like this? Your package cannot be
+delivered. Pay a small fee now.
+Suspicious activity was found in your
+bank account. Click here immediately. Hi
+Grandma, this is my new number. I'm in
+trouble and need money.
+Scam messages often use fear, urgency,
+or familiar relationship to make you act
+before you have time to think.
+When a message pushes you to act in a
+hurry, that is a good reason to slow
+down.
+ChatGPT can be a second set of eyes for
+you, helping you spot warning signs that
+you might be dealing with a scam.
+I'm going to copy the text into ChatGPT.
+I am not opening the link. I am not
+calling the number in the message. I am
+just asking for a second look.
+Point out warning signs in this message.
+Do not open links. Tell me how to verify
+safely through ...
+
+涉及对象：
+股票：（无）
+行业：AI
+主题：ChatGPT, GPT
+
+关键原文：
+> Have you ever received an email or text
+like this? Your package cannot be
+delivered. Pay a small fee now.
+Suspicious activity was found in your
+bank account. Click here immediately. Hi
+Grandma, this i
+
+---
+
+### OpenAI
+
+视频/文章：Use ChatGPT Work to tailor dashboards for every stakeholder
+链接：https://www.youtube.com/watch?v=Wb8MhkpQpX8
+发布时间：2026-09-18T13:27:02+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Every stakeholder, every organization
+has a different preference for how they
+want to see data. Maybe we don't call
+these organizations internally, we call
+them customers. I can edit the text
+directly like I did in the analytics
+report.
+Um, I can similarly edit the chart types
+if I just go to edit chart. Maybe
+instead of a bar chart, we want this to
+be a line chart. So, um, lots of cool
+functionality here. Um, in front of me
+now, we have like a very
+business-oriented KPI-oriented
+dashboard where you can kind of flip
+between some KPIs and see this like
+custom visualization. There's this neat
+tree map on a customer level here. If I
+go over to the next tab, here's like a
+compute dashboard um, where we can see
+what like demand looks like over time.
+But if I want to click into a particular
+clus...
 
 涉及对象：
 股票：（无）
@@ -1074,102 +1456,367 @@ Yeah. Yeah. Yeah.
 主题：（无）
 
 关键原文：
-> [music]
-Everybody
-[music]
-Yeah. Yeah.
-Yeah. Yeah. Yeah. [music]
-Yeah. Yeah. Yeah.
-[music]
-[music]
->> [music]
-[music]
->> We're going to go back and
->> [music]
+> Every stakeholder, every organization
+has a different preference for how they
+want to see data. Maybe we don't call
+these organizations internally, we call
+them customers. I can edit the text
+directly
 
 ---
 
 ### OpenAI
 
-视频/文章：GPT-6 Astra with Peter Gostev
-链接：https://www.youtube.com/watch?v=A4BUbpKdenc
-发布时间：2026-09-06T17:53:59+00:00
+视频/文章：Use ChatGPT Work to ground analysis in your semantic layer
+链接：https://www.youtube.com/watch?v=bbNTY8O0GTY
+发布时间：2026-09-18T13:28:31+00:00
 
 原始内容摘要（仅整理，不判断）：
-- I value this so much that I don't
-need to babysit it because I only have
-so much space in my head and I
-cannot think of every single task.
-How did you think about what
-to evaluate Astra on?
-If I give it like a medium difficulty
-test, any model can do it or so
-many models can do it now.
-So I have to think of what's
-the hardest thing I can push it on
-and make it work for as long
-as possible and really explore the space.
-Yeah, so what I've been
-trying to do, and I really like this
-kind of 3D visual tasks, but I like
-them because I can visually track
-how capabilities of the models improve.
-And now what I've built here is
-a voxel 3D
-representation of historic London, which
-goes across the different eras,
-medieval London, Tudor London,
-and it transforms all within the same map.
-But here I pretty...
+- I'm sure many of you in the audience are
+probably wondering how we would even
+trust chat GPT to find and query the
+correct data. Then even simple data
+questions can have very complex queries
+or metric definitions underpinning them
+and that knowledge can be scattered
+across tools, across people
+and if it's not accessible to the agent
+then
+it's not going to be able to make the
+right decision. So it's all about making
+it accessible to the agent. And with the
+data plugin we can take that existing
+knowledge and then turn it into a shared
+skill. So this this site semantic layer
+it contains information about key
+entities,
+key metrics, different standard filters
+or dimensions. It has some information
+on like open questions, pitfalls.
+Someone from your data team who is or
+who is familiar with this ...
+
+涉及对象：
+股票：SNOW
+行业：AI
+主题：GPT, Agent
+
+关键原文：
+> I'm sure many of you in the audience are
+probably wondering how we would even
+trust chat GPT to find and query the
+correct data. Then even simple data
+questions can have very complex queries
+or metric
+
+---
+
+### OpenAI
+
+视频/文章：Use ChatGPT Work to build your data agent
+链接：https://www.youtube.com/watch?v=cXUmFec2PNY
+发布时间：2026-09-18T13:25:00+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Um, the way I typically like to think
+about this is what would I give a new
+analyst? Like what kind of context would
+I give a new analyst on the team? Give
+that to the agent. And so for this
+analysis, the first thing I'm going to
+do is make sure that Chat GPT work is
+using and connected to the same tools
+that I would use myself to do this job.
+And so to do that, we can go to the
+plugins tab, um, which is up here on the
+top left. Um, the other thing I want to
+call out here is that I'm also I also
+have the data uh agent installed here,
+which Molly just spoke about. Um, and to
+install any of these, all you have to do
+is click this plus button and then log
+into your account if that's required.
+Um, and if you're on a business or an
+enterprise plan, you might find that you
+have to also ask your ...
+
+涉及对象：
+股票：GOOGL, Google
+行业：AI
+主题：GPT, Agent
+
+关键原文：
+> Um, the way I typically like to think
+about this is what would I give a new
+analyst? Like what kind of context would
+I give a new analyst on the team? Give
+that to the agent. And so for this
+analysis,
+
+---
+
+### OpenAI
+
+视频/文章：ChatGPT Privacy: What Not to Share and When to Double-Check | OpenAI Academy
+链接：https://www.youtube.com/watch?v=dfAZbuAQxi8
+发布时间：2026-09-16T22:29:31+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Let's talk about privacy. That's an
+important thing to keep in mind when
+you're using AI.
+Think of using ChatGPT like packing a
+small bag. Bring only what you need for
+the trip. Leave the rest behind.
+Let's say I have a utility bill I want
+help understanding.
+The best thing to do might be to take a
+picture and upload it to ChatGPT.
+But the bill has my name, phone number,
+and my account number. Those have
+nothing to do with my question, so I
+should cross them out with a pen or
+marker. Or make sure the picture I take
+doesn't show that personal information.
+What are some common charges on a
+utility bill?
+And which one should I ask the utility
+company to explain?
+That prompt gives me some useful
+information without sharing any of my
+personal details. And I can ask
+follow-up questions, too.
+Wha...
 
 涉及对象：
 股票：（无）
-行业：（无）
-主题：GPT, prompt
+行业：AI
+主题：ChatGPT, GPT, prompt
 
 关键原文：
-> I value this so much that I don't
-need to babysit it because I only have
-so much space in my head and I
-cannot think of every single task.
-How did you think about what
-to evaluate Astra on?
-If I give 
+> Let's talk about privacy. That's an
+important thing to keep in mind when
+you're using AI.
+Think of using ChatGPT like packing a
+small bag. Bring only what you need for
+the trip. Leave the rest behind.
 
 ---
 
 ### OpenAI
 
-视频/文章：Introducing GPT-Image-2.5 in the API
-链接：https://www.youtube.com/watch?v=A7MSwdXj86k
-发布时间：2026-09-08T19:11:55+00:00
+视频/文章：Use ChatGPT Work to help teams answer their own data questions
+链接：https://www.youtube.com/watch?v=euED8JRunBA
+发布时间：2026-09-18T13:25:54+00:00
 
 原始内容摘要（仅整理，不判断）：
-- Today, we're launching two
-new image generation models.
-GPT Image 2.5 Sunburst and Flare.
-Sunburst is our most capable
-model for image generation.
-It brings significant advances
-in visual fidelity, including
-sharper detail rendering, more
-natural lighting, and richer textures.
-With Sunburst, you can bring
-high-quality visual ideas to life
-with stronger style and detail.
-You can also refine an idea over
-multiple edits, like exploring different
-setups for your dream living room,
-with better preservation
-of the details you want to keep.
-This model follows detailed
-instructions more closely,
-down to which hand someone writes with.
-The second model, Flare, is our
-fastest image generation model to date.
-It's over 50% faster than GPT Image 2,
-while delivering equal quality,
-so you can explore mor...
+- Any data scientist, any manager of a
+data team knows that one of the major
+challenges you deal with is that usually
+data teams are subscale relative to our
+partner teams, so we get more questions
+than we can answer. Today we're seeing
+that across OpenAI and product and GTM,
+um, at least weekly, often more than
+that, most of the company is using the
+data agent we built to self-serve their
+own questions. We had to create a
+trustworthy foundation first to unlock
+this, and we'll talk a lot about this,
+but once we did that, pretty much anyone
+at the company could follow their
+curiosity and investigate their own
+questions.
+
+涉及对象：
+股票：（无）
+行业：AI
+主题：Agent
+
+关键原文：
+> Any data scientist, any manager of a
+data team knows that one of the major
+challenges you deal with is that usually
+data teams are subscale relative to our
+partner teams, so we get more questions
+than
+
+---
+
+### OpenAI
+
+视频/文章：Use ChatGPT to Organize Everyday Tasks | OpenAI Academy
+链接：https://www.youtube.com/watch?v=gKyEzP_jhZc
+发布时间：2026-09-16T22:29:39+00:00
+
+原始内容摘要（仅整理，不判断）：
+- Let's talk about something that we can
+all use some help with, getting
+organized. Chat GPT can help turn a
+loose idea into a simple plan. It's like
+taking a big mess of papers spread
+across a kitchen table and putting them
+into one short list.
+Let's say I have relatives visiting this
+weekend and could use some backup.
+My family's visiting this weekend. Help
+me make a simple plan for getting the
+guest room ready, buying groceries, and
+tidying the house. Spread the task over
+3 days.
+Now Chat GPT knows what I'm preparing
+for, what I need to accomplish, and how
+much time I have. The first answer may
+still include more detail than I need. I
+can ask Chat GPT to shorten it or
+organize it differently.
+Turn this into a short checklist
+organized by day.
+Now I have something I can take with me,
+a sho...
+
+涉及对象：
+股票：（无）
+行业：AI
+主题：GPT
+
+关键原文：
+> Let's talk about something that we can
+all use some help with, getting
+organized. Chat GPT can help turn a
+loose idea into a simple plan. It's like
+taking a big mess of papers spread
+across a kitchen 
+
+---
+
+### OpenAI
+
+视频/文章：Assess Usage and Value of ChatGPT Work
+链接：https://www.youtube.com/watch?v=iZE2r-Vx5b8
+发布时间：2026-09-16T19:03:38+00:00
+
+原始内容摘要（仅整理，不判断）：
+- As AI adoption grows,
+admins need to answer a bigger question.
+Where is AI driving value
+and where should we invest next?
+Insights in the admin console help you
+connect AI usage to the work being done
+and the outcome it delivers
+so that you can decide
+where to focus enablement,
+allocate budget, and expand access.
+Let me show you.
+Here, I can see who's using the tools
+and where credits and tokens are going.
+I can filter by group or users
+to understand where usage is growing.
+Now let's connect that usage
+to the work people are doing.
+In the Insights tab,
+user activity is classified into
+predefined use case categories
+with a breakdown into specific tasks,
+as you can see here.
+You can get an overview
+and drill down into the details.
+Similar to Usage,
+I can filter these insights by group
+and se...
+
+涉及对象：
+股票：（无）
+行业：AI
+主题：workflow
+
+关键原文：
+> As AI adoption grows,
+admins need to answer a bigger question.
+Where is AI driving value
+and where should we invest next?
+Insights in the admin console help you
+connect AI usage to the work being done
+
+---
+
+### OpenAI
+
+视频/文章：Jump Trading points GPT-6 Astra to its most ambiguous, difficult tasks
+链接：https://www.youtube.com/watch?v=s495saGYWFg
+发布时间：2026-09-17T18:03:17+00:00
+
+原始内容摘要（仅整理，不判断）：
+- You can give much more ambiguously
+specified, much more difficult, and
+broad-ranging tasks to the model, and it
+just works.
+Maybe 2 years ago, it became capable of
+writing short snippets of code. Maybe 8
+or 9 months ago, capable of writing not
+only snippets or files, but entire
+repositories, [music]
+entire services by itself. I mean, it
+was a revelation to use Astra [music]
+primarily because you can enable it with
+the right capabilities, carefully
+scoped, [music] and have it go out and
+search, perform analyses for you. You
+can define something that needs to run
+for days, it needs to pull from many
+data sources. [music]
+It needs to make those subtle calls
+about what is important and what is not,
+[music] and it needs to interrelate
+everything to create a comprehensive
+analysis. That actually...
+
+涉及对象：
+股票：（无）
+行业：AI
+主题：Agent
+
+关键原文：
+> You can give much more ambiguously
+specified, much more difficult, and
+broad-ranging tasks to the model, and it
+just works.
+Maybe 2 years ago, it became capable of
+writing short snippets of code. Mayb
+
+---
+
+### OpenAI
+
+视频/文章：How Fyxer built an AI executive assistant people trust
+链接：https://www.youtube.com/watch?v=uA5PiAXKGis
+发布时间：2026-09-14T09:00:55+00:00
+
+原始内容摘要（仅整理，不判断）：
+- We've had real customers say to us,
+"This year, I think you've saved me from
+getting a divorce."
+>> [music]
+>> Fixer is an AI assistant for people
+managing clients, colleagues, and
+conversations every day to make sure
+they don't miss anything important.
+>> The divorce guy, he's real and just
+awesome. He's called Mike. He's a
+commercial real estate manager managing
+hundreds of different properties,
+hundreds of different people. And so,
+all day on the road, can't text while
+driving. And so, comes home in the
+evening and has to like catch up on
+emails. And that one to two hours a day
+he's unable to like have proper family
+time.
+>> We want Mike to get to a place that when
+he opens his laptop, the prioritizing
+has already been done for him. It's all
+been read, it's all been sorted, and all
+the ...
 
 涉及对象：
 股票：（无）
@@ -1177,1432 +1824,1034 @@ so you can explore mor...
 主题：ChatGPT, GPT, workflow
 
 关键原文：
-> Today, we're launching two
-new image generation models.
-GPT Image 2.5 Sunburst and Flare.
-Sunburst is our most capable
-model for image generation.
-It brings significant advances
-in visual fidelity, in
-
----
-
-### OpenAI
-
-视频/文章：GPT-Live-1 is now in the API
-链接：https://www.youtube.com/watch?v=OSaP6bJoU44
-发布时间：2026-09-11T17:06:25+00:00
-
-原始内容摘要（仅整理，不判断）：
-- Hey, what are we launching today?
-We're launching GPT-Live 1 in the API.
-It's a full-duplex model
-for natural, expressive conversation,
-built to handle background noise
-and interruptions smoothly,
-while pairing with a back-end model
-for tools and reasoning.
-Think of it like ChatGPT Voice for all-
-Wait, you were saying
-I don't have to worry
-about interruptions anymore?
-Right, you can jump in.
-I can listen and speak at the same time.
-Sorry, there's some background noise here.
-Can you still hear me OK?
-Yeah, you're coming through clearly.
-I can follow your voice
-even with noise around.
-And you were saying something
-about a back-end model?
-Mm-hmm.
-GPT-Live 1 pairs with one
-for reasoning and tools.
-That's how I delegate actions
-to the robot and display here,
-while keeping the conversation flowi...
-
-涉及对象：
-股票：（无）
-行业：AI
-主题：ChatGPT, GPT
-
-关键原文：
-> Hey, what are we launching today?
-We're launching GPT-Live 1 in the API.
-It's a full-duplex model
-for natural, expressive conversation,
-built to handle background noise
-and interruptions smoothly,
-whi
-
----
-
-### OpenAI
-
-视频/文章：In Harmony
-链接：https://www.youtube.com/watch?v=PbfXbDbCthA
-发布时间：2026-09-10T17:29:32+00:00
-
-原始内容摘要（仅整理，不判断）：
-- They approve the project. Update the
-launch deck with the team's latest
-meeting notes.
-[music] Oh
-[singing]
-[music]
-
-涉及对象：
-股票：（无）
-行业：（无）
-主题：（无）
-
-关键原文：
-> They approve the project. Update the
-launch deck with the team's latest
-meeting notes.
-[music] Oh
-[singing]
-[music]
-
----
-
-### OpenAI
-
-视频/文章：GPT-6 Astra with Tom Krcha
-链接：https://www.youtube.com/watch?v=QDLlQ5IL2Bk
-发布时间：2026-09-07T17:15:32+00:00
-
-原始内容摘要（仅整理，不判断）：
-- Like it does amazing job
-that historically would be done
-by a trained designer, you know?
-But to a trained designer
-it actually allows you to take
-all of your skills and, you know,
-bring them up to the next level.
-Do you have an example?
-So I asked Astra
-to design me like a logo designer, which
-is fully parametric, you know?
-Okay.
-So you can, you can click on any
-of these logos and you can just
-basically adjust like
-all the different properties.
-So here I asked it to sort
-of design a website for like an offline
-gathering, you know, like an off site.
-And uh obviously this
-is like in the woods, you know, so
-the table is like wooden and so on.
-But it kept iterating,
-um, and here we have a website
-that's a little bit more modern,
-and our table is actually stainless steel.
-Oh wow.
-I just like k...
-
-涉及对象：
-股票：（无）
-行业：AI
-主题：（无）
-
-关键原文：
-> Like it does amazing job
-that historically would be done
-by a trained designer, you know?
-But to a trained designer
-it actually allows you to take
-all of your skills and, you know,
-bring them up to th
-
----
-
-### OpenAI
-
-视频/文章：ChatGPT Work, now powered by GPT-6 Astra
-链接：https://www.youtube.com/watch?v=kuGjypoJKwk
-发布时间：2026-09-09T21:54:53+00:00
-
-原始内容摘要（仅整理，不判断）：
-- [music]
-[music]
->> Help me put together a strategy deck for
-leadership on our UK payments launch.
+> We've had real customers say to us,
+"This year, I think you've saved me from
+getting a divorce."
 >> [music]
-[music]
-[music]
-[music]
-[music]
-
-涉及对象：
-股票：（无）
-行业：（无）
-主题：（无）
-
-关键原文：
-> [music]
-[music]
->> Help me put together a strategy deck for
-leadership on our UK payments launch.
->> [music]
-[music]
-[music]
-[music]
-[music]
+>> Fixer is an AI assistant for people
+managing clients, colleagues, and
+conversations every
 
 ---
 
 ### OpenAI
 
-视频/文章：Helping a small business go big with ChatGPT
-链接：https://www.youtube.com/watch?v=mPAmXQnhv2E
-发布时间：2026-09-10T16:00:09+00:00
+视频/文章：Use ChatGPT Work to turn product insights into a team action plan
+链接：https://www.youtube.com/watch?v=wK0zWeVyLM4
+发布时间：2026-09-18T13:25:37+00:00
 
 原始内容摘要（仅整理，不判断）：
-- Hey ChatGPT,
-can you build me a microsite with the run of show today?
-Okay.
-Ladies and gentlemen,
-we are the ATV Big Air Tour!
-For the past 11 years,
-we've traveled the country putting on ATV stunt shows,
-and now we're one of the largest motorsports tours in the country.
-This is a family tour, and we're competing against multi-million dollar companies.
-It's just us turning this into a small business that works.
-We’re a team of two, and we try to do as much as we possibly can.
-But you're definitely limited when it comes to different skill sets.
-Show me how to put my PA system in this covered grandstand.
-I didn't go to school to be a graphic designer
-or to do any type of media.
-I never felt confident in any of those areas
-until ChatGPT came along.
-Chat helps close the gap between the 27 othe...
-
-涉及对象：
-股票：（无）
-行业：AI
-主题：ChatGPT, GPT
-
-关键原文：
-> Hey ChatGPT,
-can you build me a microsite with the run of show today?
-Okay.
-Ladies and gentlemen,
-we are the ATV Big Air Tour!
-For the past 11 years,
-we've traveled the country putting on ATV stunt sh
-
----
-
-### OpenAI
-
-视频/文章：GPT-6 Astra First Impressions From Businesses
-链接：https://www.youtube.com/watch?v=n-dqdVMwoas
-发布时间：2026-09-09T19:00:16+00:00
-
-原始内容摘要（仅整理，不判断）：
-- What were your first
-impressions about Astra?
-Absolutely at the frontier,
-just a solid model for some
-of these use cases that have been
-just unbreakable in our stack.
-It has this unique confidence
-that feels like it sets it apart
-from what I've tried in the past.
-Its ability to really give
-itself time to understand a new
-task before it actually dives in.
-Something that makes it feel like it leads
-to far better results down the line.
-I really love the model,
-but beyond what it can do, you know,
-better at coding, better at computer use,
-this is a model that has made
-my own ambition a lot higher.
-The main first impression that I
-had was how much it kind
-of felt like a real coworker.
-And I think a lot of that is
-related to how good
-it is at computer use.
-Astra has really been a step up in
-a fe...
-
-涉及对象：
-股票：（无）
-行业：AI
-主题：prompt, workflow
-
-关键原文：
-> What were your first
-impressions about Astra?
-Absolutely at the frontier,
-just a solid model for some
-of these use cases that have been
-just unbreakable in our stack.
-It has this unique confidence
-tha
-
----
-
-### OpenAI
-
-视频/文章：Two blind brothers using ChatGPT to navigate life and run their nonprofit
-链接：https://www.youtube.com/watch?v=qg_54P-oPgI
-发布时间：2026-09-10T16:00:27+00:00
-
-原始内容摘要（仅整理，不判断）：
-- Hey, brother Brad.
-Where are you, man?
-ChatGPT is saying I'm at Mercer Street and Broome.
-What street corner am I on?
-West Broadway and Grand Street.
-You have a very visually-impaired friendly head, so I'm keeping an eye out for it.
-Good to see you, man.
--How you doing, buddy? -I'm good.
-Oh, I love you.
-Come on.
-Bryan and I have a condition called Stargardt’s
-where you lose your center vision over time.
-When you live in a world that is not designed for you, you have to be creative.
-You know, 100% of my day, I'm using ChatGPT.
-Can you tell me what's on the menu and tell me what I’ll like?
-Go for the Croque Madame, if you want rich and classic.
-I'm going to take a picture of the specials board.
-Can you tell me what's up there?
-Can you tell me what's on the plate?
-I just want to know where ev...
-
-涉及对象：
-股票：（无）
-行业：AI
-主题：ChatGPT, GPT
-
-关键原文：
-> Hey, brother Brad.
-Where are you, man?
-ChatGPT is saying I'm at Mercer Street and Broome.
-What street corner am I on?
-West Broadway and Grand Street.
-You have a very visually-impaired friendly head, s
-
----
-
-### The AI Advantage
-
-视频/文章：OpenAI Just Gave Codex a Superpower & More AI News You Can Use
-链接：https://www.youtube.com/watch?v=K7F0fNIQWKg
-发布时间：2026-06-26T17:35:25+00:00
-
-原始内容摘要（仅整理，不判断）：
-- Welcome to another week in AI. There's a
-lot of things that were released. I
-think honestly most of them do not
-matter. Look, I know this can be a lot,
-but these are all the stories we looked
-at this week and some of it sounds
-really fancy, but doesn't work as you
-would expect it to. Whereas other stuff
-is just not practical to a consumer
-who's just trying to get things done.
-And that's why this Friday we'll be
-focusing on the stories that make a
-difference. I think there's two things
-here really. First one is OpenAI Codex
-record and replay where you can just do
-something, have AI record you while you
-do it and then it can repeat that. And
-this one actually works. Seen that
-That's what we're going to talk about
-today. This episode of AI news you can
-use where we basically round up the
-stuf...
-
-涉及对象：
-股票：（无）
-行业：AI
-主题：ChatGPT, GPT, Claude, workflow
-
-关键原文：
-> Welcome to another week in AI. There's a
-lot of things that were released. I
-think honestly most of them do not
-matter. Look, I know this can be a lot,
-but these are all the stories we looked
-at this 
-
----
-
-### The AI Advantage
-
-视频/文章：How to Use New ChatGPT Work in 12 Minutes
-链接：https://www.youtube.com/watch?v=MpVX4fMXv0A
-发布时间：2026-07-18T14:00:19+00:00
-
-原始内容摘要（仅整理，不判断）：
-- So, if you heard people talking about
-the new chat GPT or chat GPT work, well,
-that's for a good reason. They reworked
-the entire product. It goes way deeper
-now. You can do so much more. You can
-have it work for you. And this video is
-going to explore exactly that. It's a
-complete beginners quick start tutorial
-for chat GPT work and you don't need any
-coding or technical knowledge
-whatsoever. By the end of this, you'll
-know exactly what chat GPT work is, how
-to find it, and how to give it your very
-first task where it actually does
-something for you, including the
-planning phase. And today, in just a few
-minutes, we'll be building a stunning
-website like this that is hosted on the
-web. And this idea can be transplanted
-into any other site or application that
-you want to make. It's really ...
-
-涉及对象：
-股票：NET
-行业：AI
-主题：GPT, Agent, RAG, prompt
-
-关键原文：
-> So, if you heard people talking about
-the new chat GPT or chat GPT work, well,
-that's for a good reason. They reworked
-the entire product. It goes way deeper
-now. You can do so much more. You can
-have
-
----
-
-### The AI Advantage
-
-视频/文章：Is ChatGPT Still the Best AI Agent in 2026?
-链接：https://www.youtube.com/watch?v=Nq3S_vNjw5E
-发布时间：2026-07-17T21:16:33+00:00
-
-原始内容摘要（仅整理，不判断）：
-- So AI really is quite interesting now
-because the big companies are fighting
-for the consumers. Everybody wants to
-have the agentic consumer product. It
-started with Claude's cowork and this
-week Gemini entered the ring with their
-spark product. Last week we talked about
-chat GBT work. So now all of them have a
-product. So what I wanted to do today
-for well myself and therefore also for
-you is compare them on day-to-day use
-cases on things that I regularly do with
-chat GPT. We prepared some mock data. We
-used some connectors in some of them and
-we ran the same tests inside all three
-of these apps. That's going to be the
-theme and topic of this week's news you
-can use video. The show where we look at
-all the latest releases and then I give
-you my take on what I think is worth
-using. This we...
+- Imagine
+that leadership is meeting this
+afternoon to decide where to invest in a
+new product that we just launched.
+They're hearing from the market that too
+few customers are trying it. So for this
+demo, the product that we will be
+focused on is called sites. Um sites
+interactive web apps that can be created
+and shared with your colleagues. So I
+have asked chat GBT work. I said that we
+just launched sites and we want to
+understand whether it's resonating with
+external customers and where we should
+focus the team's efforts use the data
+agent and the site semantic layer to
+assist in the analysis. So we're going
+to fast forward into the future assume
+that we did submit this prompt. So over
+here we actually have an analytics
+report that's built using sites the same
+product that we are talking ...
 
 涉及对象：
 股票：GOOGL, Google
 行业：AI
-主题：GPT, Claude, Gemini, Agent, prompt, workflow
+主题：Agent, prompt
 
 关键原文：
-> So AI really is quite interesting now
-because the big companies are fighting
-for the consumers. Everybody wants to
-have the agentic consumer product. It
-started with Claude's cowork and this
-week Gemi
+> Imagine
+that leadership is meeting this
+afternoon to decide where to invest in a
+new product that we just launched.
+They're hearing from the market that too
+few customers are trying it. So for this
+de
 
 ---
 
-### The AI Advantage
+### Theoretically Media
 
-视频/文章：10 Ways to 10x Your Claude Usage in 2026
-链接：https://www.youtube.com/watch?v=bruDxPBMN7I
-发布时间：2026-06-24T18:33:06+00:00
-
-原始内容摘要（仅整理，不判断）：
-- Everyone who's used AI has ran into this
-problem of the usage being limited. And
-many people think that it's limited by
-the amount of messages per day. Like you
-get 45 messages and then boom, you're
-cut off. But that's wrong. It's not how
-it works at all. And once you understand
-what's going on under the hood, you can
-get way more out of the exact same plan
-that you're paying for. And that also
-goes for the free plans and applies to
-all AI models, not just Claude, without
-spending an extra dollar. And here's the
-best part. Almost everything I'm about
-to show you comes straight from
-Anthropic's own documentation on how to
-get more out of their services. People
-just don't talk about this stuff. So
-we're not guessing here. This is from
-people who actually built the thing. So
-here's the most i...
-
-涉及对象：
-股票：NET
-行业：AI
-主题：Claude, RAG, prompt
-
-关键原文：
-> Everyone who's used AI has ran into this
-problem of the usage being limited. And
-many people think that it's limited by
-the amount of messages per day. Like you
-get 45 messages and then boom, you're
-c
-
----
-
-### The AI Advantage
-
-视频/文章：Fable 5 is Back! Here's the Best Way to Use It...
-链接：https://www.youtube.com/watch?v=dQkVUANCYgc
-发布时间：2026-07-03T16:48:11+00:00
+视频/文章：Seedance 2.5 is a GAMECHANGER!
+链接：https://www.youtube.com/watch?v=s40M0IvBEpM
+发布时间：2026-06-23T15:29:10+00:00
 
 原始内容摘要（仅整理，不判断）：
-- Fable 5, the best model ever available
-to the public that they took down is
-back and along with that it's Sonnet 5.
-And we still have Opus 4.8, which was
-the best as of 3 days ago. How are
-normal people supposed to make sense of
-this? Well, I think they're not, at
-least not just based off the press
-releases. That's why in this video I'm
-going to break down what the differences
-are, what you should use, and I actually
-have some prompts here that I want to
-show you that work particularly well
-with uh extremely powerful new
-generation model like Fable 5. Not all
-use cases are created equal, and it's
-always fun to talk about things that
-work particularly well with a flagship
-release. And also the clock is ticking
-cuz this thing will not be free forever.
-It's literally just a few days, so I
-hop...
+- Well, Bike Dance just changed the game,
+unveiling Seance 2.5, and it is
+impressive. Today, we're going to dig
+into that. Plus, in a wave of
+announcements, Seance 2.0 also goes 4K.
+And well, that's available right now,
+but it's going to cost you. Is that
+juice worth the squeeze? And I've got a
+really cool look at a new feature from
+the Clling team. Something that I think
+that you're going to be seeing in the
+next big update from them. kicking off.
+Yeah. In a rather splashy announcement
+from the Bite Dance team at the Volcano
+Engine Force conference, uh the massive
+update to Cance 2.0 was unveiled. The
+model upgrade, now officially known as
+2.5, has been showcased with specs. Uh
+take a quick look at the reel.
+No, no, no, no, no, no, no, no, no,
+no. my prompt.
+>> Hello.
+>> Is it fixed yet?
+>>...
 
 涉及对象：
-股票：ARM, NET
+股票：（无）
 行业：AI
-主题：GPT, Claude, Gemini, Agent, RAG, prompt, workflow
+主题：prompt
 
 关键原文：
-> Fable 5, the best model ever available
-to the public that they took down is
-back and along with that it's Sonnet 5.
-And we still have Opus 4.8, which was
-the best as of 3 days ago. How are
-normal peop
-
----
-
-### The AI Advantage
-
-视频/文章：ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy
-链接：https://www.youtube.com/watch?v=dZnsz2RYoAQ
-发布时间：2026-09-11T17:30:19+00:00
-
-原始内容摘要（仅整理，不判断）：
-- Chat GPT image 2.5 is here. And
-honestly, some of the results are pretty
-damn good. But the part that gets really
-crazy is what happens when you combine
-it with GPT6 Astra because up until now,
-most AI gives you advice or it does a
-one-off task, right? Astra can now pilot
-your computer. So, I'm going to show you
-the new Chat GBT image feature, which is
-amazing. But then we're going to take
-one real job across five different apps.
-And what started with Chachibd image is
-going to turn into this, a full poster
-that has been submitted for print with
-our online printing provider. But I want
-you to know this. This is not really a
-video about making a poster. It's a
-video about one job surviving every
-handoff between apps and ending as
-something actually usable. Because we
-basically started with ...
-
-涉及对象：
-股票：GOOGL, Google
-行业：AI
-主题：GPT, Agent, prompt, workflow
-
-关键原文：
-> Chat GPT image 2.5 is here. And
-honestly, some of the results are pretty
-damn good. But the part that gets really
-crazy is what happens when you combine
-it with GPT6 Astra because up until now,
-most A
-
----
-
-### The AI Advantage
-
-视频/文章：OpenAI Just Rebuilt ChatGPT
-链接：https://www.youtube.com/watch?v=gRH1dv9VGN4
-发布时间：2026-07-10T23:27:35+00:00
-
-原始内容摘要（仅整理，不判断）：
-- OpenAI released a brand new chatt that
-now has a new work tab that does things
-for you. They overhauled the mobile app.
-They sunset some of their other
-applications to unify them into this
-stuff. And they have a new family of
-models 5.6 Saul, Terra, and Luna with
-Saul being as capable as Fable or that's
-what they claim. We're going to have a
-look at all of that plus the new voice
-dictation. Really, this is going to be a
-chat GBT focused week because they went
-crazy and I've been trying a bunch of
-this stuff. I want to show you what my
-first results look like. Plus, a lot of
-this is available on the free plan,
-which cannot be said about the competing
-products from Claude. And finally, we
-have some competition for some of these
-products like Fable and Claude Co-work
-that, you know, didn't ha...
-
-涉及对象：
-股票：NET
-行业：AI
-主题：GPT, Claude, Agent, prompt, workflow, automation
-
-关键原文：
-> OpenAI released a brand new chatt that
-now has a new work tab that does things
-for you. They overhauled the mobile app.
-They sunset some of their other
-applications to unify them into this
-stuff. And 
-
----
-
-### The AI Advantage
-
-视频/文章：Astra vs Fable 5.1: Which AI Builds Better Websites?
-链接：https://www.youtube.com/watch?v=twFYccH1A_A
-发布时间：2026-09-09T18:40:57+00:00
-
-原始内容摘要（仅整理，不判断）：
-- AI is really, really good at building
-websites. Whether it's tools for
-yourself or others, learning
-experiences, something that you're using
-instead of a PowerPoint presentation, or
-just a prettier way to look at AI
-output. Websites are one of the big
-capabilities, and I think you already
-know that. And if you don't, by the end
-of this video, you surely know this. But
-with all these new AI models coming out,
-which one builds the best websites? Is
-it Claude's Fable 5.1? Is it the new
-GPT6 Astra? We by now know that Astra
-can do some crazy stuff and I covered
-that on this channel. But concretely, I
-just wanted to know when it comes to
-creating sites, which is the best one.
-So, I created my own benchmark where I
-created 50 sites from different
-categories and I generated them with
-these differ...
-
-涉及对象：
-股票：NET
-行业：AI
-主题：GPT, Claude, Agent, RAG, prompt
-
-关键原文：
-> AI is really, really good at building
-websites. Whether it's tools for
-yourself or others, learning
-experiences, something that you're using
-instead of a PowerPoint presentation, or
-just a prettier wa
+> Well, Bike Dance just changed the game,
+unveiling Seance 2.5, and it is
+impressive. Today, we're going to dig
+into that. Plus, in a wave of
+announcements, Seance 2.0 also goes 4K.
+And well, that's ava
 
 ---
 
 ## 今日全部素材索引
 
-- `subtitles/2026-09-12/AI Engineer-Your company brain will leak secrets: how we stopped it for big banks — Tanmai Gopal, PromptQL.txt`
+- `subtitles/2026-09-19/AI Engineer-Your company brain will leak secrets: how we stopped it for big banks — Tanmai Gopal, PromptQL.txt`
   - Your company brain will leak secrets: how we stopped it for big banks — Tanmai Gopal, PromptQL
   - https://www.youtube.com/watch?v=0uC6u0lJJl4
 
-- `subtitles/2026-09-12/AI Engineer-Why AI Agents Need Million-Token Context — Thomas Wolf & Olive Song, MiniMax.txt`
+- `subtitles/2026-09-19/AI Engineer-Why AI Agents Need Million-Token Context — Thomas Wolf & Olive Song, MiniMax.txt`
   - Why AI Agents Need Million-Token Context — Thomas Wolf & Olive Song, MiniMax
   - https://www.youtube.com/watch?v=5Cxe5dv2Xlw
 
-- `subtitles/2026-09-12/AI Engineer-Mousepower: agents that can’t be measured, can’t be managed. — Maximillian Piras, Yutori.txt`
+- `subtitles/2026-09-19/AI Engineer-Mousepower: agents that can’t be measured, can’t be managed. — Maximillian Piras, Yutori.txt`
   - Mousepower: agents that can’t be measured, can’t be managed. — Maximillian Piras, Yutori
   - https://www.youtube.com/watch?v=8KkibGU_DDY
 
-- `subtitles/2026-09-12/AI Engineer-Build-Time vs. Run-Time: Why Dev Tools Fail in Production — Averi Kitsch & Prerna Kakkar, Google.txt`
+- `subtitles/2026-09-19/AI Engineer-Build-Time vs. Run-Time: Why Dev Tools Fail in Production — Averi Kitsch & Prerna Kakkar, Google.txt`
   - Build-Time vs. Run-Time: Why Dev Tools Fail in Production — Averi Kitsch & Prerna Kakkar, Google
   - https://www.youtube.com/watch?v=9R--1tg45Jg
 
-- `subtitles/2026-09-12/AI Engineer-500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents — Ajay Prakash, LinkedIn.txt`
+- `subtitles/2026-09-19/AI Engineer-500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents — Ajay Prakash, LinkedIn.txt`
   - 500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents — Ajay Prakash, LinkedIn
   - https://www.youtube.com/watch?v=9wZpvF3QleU
 
-- `subtitles/2026-09-12/AI Engineer-Building ambitious software — Jonathan Kelley, Dioxus Labs & Cognition.txt`
+- `subtitles/2026-09-19/AI Engineer-Building ambitious software — Jonathan Kelley, Dioxus Labs & Cognition.txt`
   - Building ambitious software — Jonathan Kelley, Dioxus Labs & Cognition
   - https://www.youtube.com/watch?v=H7vFrcNWXzs
 
-- `subtitles/2026-09-12/AI Engineer-Your agents lack context: Here's how to fix "You're absolutely right!" — Brandon Waselnuk, Unblocked.txt`
+- `subtitles/2026-09-19/AI Engineer-Your agents lack context: Here's how to fix "You're absolutely right!" — Brandon Waselnuk, Unblocked.txt`
   - Your agents lack context: Here's how to fix "You're absolutely right!" — Brandon Waselnuk, Unblocked
   - https://www.youtube.com/watch?v=KcVkq5L-0f0
 
-- `subtitles/2026-09-12/AI Engineer-Generative UI... in Python? — Jeremiah Lowin, Prefect.txt`
+- `subtitles/2026-09-19/AI Engineer-Generative UI... in Python? — Jeremiah Lowin, Prefect.txt`
   - Generative UI... in Python? — Jeremiah Lowin, Prefect
   - https://www.youtube.com/watch?v=Krzs8GeiWTc
 
-- `subtitles/2026-09-12/AI Engineer-The Design-Code Roundtrip That Isn't — Jonathan Gordon, ReWeaver AI.txt`
+- `subtitles/2026-09-19/AI Engineer-The Design-Code Roundtrip That Isn't — Jonathan Gordon, ReWeaver AI.txt`
   - The Design-Code Roundtrip That Isn't — Jonathan Gordon, ReWeaver AI
   - https://www.youtube.com/watch?v=NW-jwOVr32w
 
-- `subtitles/2026-09-12/AI Engineer-One Designer + AI. Hundreds of Deliverables. — Vincent Wendy, AI Engineer.txt`
+- `subtitles/2026-09-19/AI Engineer-One Designer + AI. Hundreds of Deliverables. — Vincent Wendy, AI Engineer.txt`
   - One Designer + AI. Hundreds of Deliverables. — Vincent Wendy, AI Engineer
   - https://www.youtube.com/watch?v=O1FN4awNEtM
 
-- `subtitles/2026-09-12/AI Engineer-The Spatial Harness: Bringing Agents to the Canvas — Max Drake, tldraw.txt`
+- `subtitles/2026-09-19/AI Engineer-The Spatial Harness: Bringing Agents to the Canvas — Max Drake, tldraw.txt`
   - The Spatial Harness: Bringing Agents to the Canvas — Max Drake, tldraw
   - https://www.youtube.com/watch?v=XWcXwnysmpY
 
-- `subtitles/2026-09-12/AI Engineer-How long can your skills be before your agent forgets what you told it? — Laurie Voss, Arize AI.txt`
+- `subtitles/2026-09-19/AI Engineer-How long can your skills be before your agent forgets what you told it? — Laurie Voss, Arize AI.txt`
   - How long can your skills be before your agent forgets what you told it? — Laurie Voss, Arize AI
   - https://www.youtube.com/watch?v=XzJD1bvXKjs
 
-- `subtitles/2026-09-12/AI Engineer-ACP: The Universal Remote Control for AI Agents — Alex Hancock, Block.txt`
+- `subtitles/2026-09-19/AI Engineer-ACP: The Universal Remote Control for AI Agents — Alex Hancock, Block.txt`
   - ACP: The Universal Remote Control for AI Agents — Alex Hancock, Block
   - https://www.youtube.com/watch?v=YkNulwcc5jk
 
-- `subtitles/2026-09-12/AI Engineer-MCP Apps: Give the Model Data, Give the User a UI — Dustin Mihalik, Indeed.txt`
+- `subtitles/2026-09-19/AI Engineer-Homa: The End of TCP for AI Clusters — John Ousterhout, Stanford.txt`
+  - Homa: The End of TCP for AI Clusters — John Ousterhout, Stanford
+  - https://www.youtube.com/watch?v=eZ8WWZzoaR0
+
+- `subtitles/2026-09-19/AI Engineer-MCP Apps: Give the Model Data, Give the User a UI — Dustin Mihalik, Indeed.txt`
   - MCP Apps: Give the Model Data, Give the User a UI — Dustin Mihalik, Indeed
   - https://www.youtube.com/watch?v=lbaXnx0KLA8
 
-- `subtitles/2026-09-12/AI Engineer-Training Taste — Thais Castello Branco, Taste Labs.txt`
+- `subtitles/2026-09-19/AI Engineer-Stop Chunking Like It's 2022 — Yuval Belfer, AI21 Labs.txt`
+  - Stop Chunking Like It's 2022 — Yuval Belfer, AI21 Labs
+  - https://www.youtube.com/watch?v=r9OwPx_HoV0
+
+- `subtitles/2026-09-19/AI Engineer-Training Taste — Thais Castello Branco, Taste Labs.txt`
   - Training Taste — Thais Castello Branco, Taste Labs
   - https://www.youtube.com/watch?v=sDMGWK4wZ_w
 
-- `subtitles/2026-09-12/AI Engineer-Design at the Speed of Adjectives — Paul Bakaus, Renaissance Geek, Inc..txt`
+- `subtitles/2026-09-19/AI Engineer-Design at the Speed of Adjectives — Paul Bakaus, Renaissance Geek, Inc..txt`
   - Design at the Speed of Adjectives — Paul Bakaus, Renaissance Geek, Inc.
   - https://www.youtube.com/watch?v=v42opQpCy60
 
-- `subtitles/2026-09-12/AI Engineer-It’s Tokens All The Way Down: How RLMs are Different — Kevin Madura, AlixPartners.txt`
+- `subtitles/2026-09-19/AI Engineer-It’s Tokens All The Way Down: How RLMs are Different — Kevin Madura, AlixPartners.txt`
   - It’s Tokens All The Way Down: How RLMs are Different — Kevin Madura, AlixPartners
   - https://www.youtube.com/watch?v=xo68uCibfm8
 
-- `subtitles/2026-09-12/AI Engineer-From coding to Knowledge work agents — Karan Vaidya, Composio.txt`
+- `subtitles/2026-09-19/AI Engineer-Total Recall: Agent Memory and Harness Engineering — Ignacio Martinez, Oracle.txt`
+  - Total Recall: Agent Memory and Harness Engineering — Ignacio Martinez, Oracle
+  - https://www.youtube.com/watch?v=xs-ob87TTzg
+
+- `subtitles/2026-09-19/AI Engineer-From coding to Knowledge work agents — Karan Vaidya, Composio.txt`
   - From coding to Knowledge work agents — Karan Vaidya, Composio
   - https://www.youtube.com/watch?v=xxfMT-bPEmU
 
-- `subtitles/2026-09-12/AI Engineer-Deep dive on LLM Inference at Scale — Harshul Jain, Audible & Tanmay Sah, Independent AI Researcher.txt`
+- `subtitles/2026-09-19/AI Engineer-Deep dive on LLM Inference at Scale — Harshul Jain, Audible & Tanmay Sah, Independent AI Researcher.txt`
   - Deep dive on LLM Inference at Scale — Harshul Jain, Audible & Tanmay Sah, Independent AI Researcher
   - https://www.youtube.com/watch?v=y2W4FNAuPEA
 
-- `subtitles/2026-09-12/Andrej Karpathy-Deep Dive into LLMs like ChatGPT.txt`
+- `subtitles/2026-09-19/Andrej Karpathy-Deep Dive into LLMs like ChatGPT.txt`
   - Deep Dive into LLMs like ChatGPT
   - https://www.youtube.com/watch?v=7xTGNNLPyMI
 
-- `subtitles/2026-09-12/Andrej Karpathy-How I use LLMs.txt`
+- `subtitles/2026-09-19/Andrej Karpathy-How I use LLMs.txt`
   - How I use LLMs
   - https://www.youtube.com/watch?v=EWvNQjAaOHw
 
-- `subtitles/2026-09-12/Andrej Karpathy-Let's reproduce GPT-2 (124M).txt`
+- `subtitles/2026-09-19/Andrej Karpathy-Let's reproduce GPT-2 (124M).txt`
   - Let's reproduce GPT-2 (124M)
   - https://www.youtube.com/watch?v=l8pRSuU81PU
 
-- `subtitles/2026-09-12/Andrej Karpathy-Let's build the GPT Tokenizer.txt`
+- `subtitles/2026-09-19/Andrej Karpathy-Let's build the GPT Tokenizer.txt`
   - Let's build the GPT Tokenizer
   - https://www.youtube.com/watch?v=zduSFxRajkE
 
-- `subtitles/2026-09-12/Andrej Karpathy-[1hr Talk] Intro to Large Language Models.txt`
+- `subtitles/2026-09-19/Andrej Karpathy-[1hr Talk] Intro to Large Language Models.txt`
   - [1hr Talk] Intro to Large Language Models
   - https://www.youtube.com/watch?v=zjkBMFhNj_g
 
-- `subtitles/2026-09-12/Anthropic-Claude ran a business in our office.txt`
+- `subtitles/2026-09-19/Anthropic-Claude ran a business in our office.txt`
   - Claude ran a business in our office
   - https://www.youtube.com/watch?v=5KTHvKCrQ00
 
-- `subtitles/2026-09-12/Anthropic-When AIs act emotional.txt`
+- `subtitles/2026-09-19/Anthropic-When AIs act emotional.txt`
   - When AIs act emotional
   - https://www.youtube.com/watch?v=D4XTefP3Lsc
 
-- `subtitles/2026-09-12/Anthropic-An initiative to secure the world's software | Project Glasswing.txt`
+- `subtitles/2026-09-19/Anthropic-An initiative to secure the world's software | Project Glasswing.txt`
   - An initiative to secure the world's software | Project Glasswing
   - https://www.youtube.com/watch?v=INGOC6-LLv0
 
-- `subtitles/2026-09-12/Anthropic-AI on campus.txt`
+- `subtitles/2026-09-19/Anthropic-AI on campus.txt`
   - AI on campus
   - https://www.youtube.com/watch?v=N5yJJA0NCU0
 
-- `subtitles/2026-09-12/Anthropic-AI models can now help run physical science experiments.txt`
+- `subtitles/2026-09-19/Anthropic-AI models can now help run physical science experiments.txt`
   - AI models can now help run physical science experiments
   - https://www.youtube.com/watch?v=P1zBiAQU1IA
 
-- `subtitles/2026-09-12/Anthropic-Why we built—and donated—the Model Context Protocol (MCP).txt`
+- `subtitles/2026-09-19/Anthropic-Why we built—and donated—the Model Context Protocol (MCP).txt`
   - Why we built—and donated—the Model Context Protocol (MCP)
   - https://www.youtube.com/watch?v=PLyCki2K0Lg
 
-- `subtitles/2026-09-12/Anthropic-Introducing Claude Fable 5.1.txt`
+- `subtitles/2026-09-19/Anthropic-Introducing Claude Fable 5.1.txt`
   - Introducing Claude Fable 5.1
   - https://www.youtube.com/watch?v=ROF2Nv_KjOM
 
-- `subtitles/2026-09-12/Anthropic-What does AI mean for education?.txt`
+- `subtitles/2026-09-19/Anthropic-What does AI mean for education?.txt`
   - What does AI mean for education?
   - https://www.youtube.com/watch?v=Uh98_aGhAuY
 
-- `subtitles/2026-09-12/Anthropic-Model Hardware Standard: AI operating physical equipment.txt`
+- `subtitles/2026-09-19/Anthropic-Model Hardware Standard: AI operating physical equipment.txt`
   - Model Hardware Standard: AI operating physical equipment
   - https://www.youtube.com/watch?v=UxJZrCFzTHY
 
-- `subtitles/2026-09-12/Anthropic-Introducing Claude Fable 5.txt`
+- `subtitles/2026-09-19/Anthropic-Introducing Claude Fable 5.txt`
   - Introducing Claude Fable 5
   - https://www.youtube.com/watch?v=Y9Wz2PV404E
 
-- `subtitles/2026-09-12/Anthropic-Getting started with connectors in Claude.ai.txt`
+- `subtitles/2026-09-19/Anthropic-Getting started with connectors in Claude.ai.txt`
   - Getting started with connectors in Claude.ai
   - https://www.youtube.com/watch?v=_jjSS0qGFbI
 
-- `subtitles/2026-09-12/Anthropic-Your tools are now interactive in Claude.txt`
+- `subtitles/2026-09-19/Anthropic-Your tools are now interactive in Claude.txt`
   - Your tools are now interactive in Claude
   - https://www.youtube.com/watch?v=bluAmTHoEow
 
-- `subtitles/2026-09-12/Anthropic-Binti helps social workers license foster families faster with Claude.txt`
+- `subtitles/2026-09-19/Anthropic-Binti helps social workers license foster families faster with Claude.txt`
   - Binti helps social workers license foster families faster with Claude
   - https://www.youtube.com/watch?v=i9U_b-8KKno
 
-- `subtitles/2026-09-12/Anthropic-How Icelanders are thinking about AI.txt`
+- `subtitles/2026-09-19/Anthropic-How Icelanders are thinking about AI.txt`
   - How Icelanders are thinking about AI
   - https://www.youtube.com/watch?v=iF5IWjOWcA4
 
-- `subtitles/2026-09-12/Anthropic-Translating Claude’s thoughts into language.txt`
+- `subtitles/2026-09-19/Anthropic-Translating Claude’s thoughts into language.txt`
   - Translating Claude’s thoughts into language
   - https://www.youtube.com/watch?v=j2knrqAzYVY
 
-- `subtitles/2026-09-12/Anthropic-What is sycophancy in AI models?.txt`
+- `subtitles/2026-09-19/Anthropic-What is sycophancy in AI models?.txt`
   - What is sycophancy in AI models?
   - https://www.youtube.com/watch?v=nvbq39yVYRk
 
-- `subtitles/2026-09-12/Anthropic-The different levels of how Claude thinks.txt`
+- `subtitles/2026-09-19/Anthropic-The different levels of how Claude thinks.txt`
   - The different levels of how Claude thinks
   - https://www.youtube.com/watch?v=rKV5JcALQoQ
 
-- `subtitles/2026-09-12/Curious Refuge-SeedDance 2.5 Just Got Upstaged by Nvidia.txt`
+- `subtitles/2026-09-19/Curious Refuge-SeedDance 2.5 Just Got Upstaged by Nvidia.txt`
   - SeedDance 2.5 Just Got Upstaged by Nvidia
   - https://www.youtube.com/watch?v=2vSqzvonRts
 
-- `subtitles/2026-09-12/Curious Refuge-We Tested Elon's New AI Video Tool... And Have Some Thoughts.txt`
+- `subtitles/2026-09-19/Curious Refuge-We Tested Elon's New AI Video Tool... And Have Some Thoughts.txt`
   - We Tested Elon's New AI Video Tool... And Have Some Thoughts
   - https://www.youtube.com/watch?v=EbDzfeBwszM
 
-- `subtitles/2026-09-12/Curious Refuge-16 AI Filmmaking News Updates You Missed.txt`
+- `subtitles/2026-09-19/Curious Refuge-16 AI Filmmaking News Updates You Missed.txt`
   - 16 AI Filmmaking News Updates You Missed
   - https://www.youtube.com/watch?v=N7zh3PoMeSk
 
-- `subtitles/2026-09-12/Curious Refuge-Here's the Best AI Video Generator You Haven't Tried Yet!.txt`
+- `subtitles/2026-09-19/Curious Refuge-Here's the Best AI Video Generator You Haven't Tried Yet!.txt`
   - Here's the Best AI Video Generator You Haven't Tried Yet!
   - https://www.youtube.com/watch?v=aA_AFy-GDwo
 
-- `subtitles/2026-09-12/Curious Refuge-Apple Can Now Clone You and it’s CRAZY Realistic.txt`
+- `subtitles/2026-09-19/Curious Refuge-Apple Can Now Clone You and it’s CRAZY Realistic.txt`
   - Apple Can Now Clone You and it’s CRAZY Realistic
   - https://www.youtube.com/watch?v=gnp86XUSzgg
 
-- `subtitles/2026-09-12/Curious Refuge-I Can’t Believe This AI Video Generator is Free.txt`
+- `subtitles/2026-09-19/Curious Refuge-I Can’t Believe This AI Video Generator is Free.txt`
   - I Can’t Believe This AI Video Generator is Free
   - https://www.youtube.com/watch?v=qv0s1_coX50
 
-- `subtitles/2026-09-12/Curious Refuge-Is This the Best Free AI Video Generator?.txt`
+- `subtitles/2026-09-19/Curious Refuge-Is This the Best Free AI Video Generator?.txt`
   - Is This the Best Free AI Video Generator?
   - https://www.youtube.com/watch?v=rUGbh6hjijc
 
-- `subtitles/2026-09-12/Curious Refuge-I found the craziest AI Film Tools you need to see....txt`
+- `subtitles/2026-09-19/Curious Refuge-I found the craziest AI Film Tools you need to see....txt`
   - I found the craziest AI Film Tools you need to see...
   - https://www.youtube.com/watch?v=uiYnWs6Wcqs
 
-- `subtitles/2026-09-12/Curious Refuge-Is Suno Still the Best AI Music Tool?.txt`
+- `subtitles/2026-09-19/Curious Refuge-Is Suno Still the Best AI Music Tool?.txt`
   - Is Suno Still the Best AI Music Tool?
   - https://www.youtube.com/watch?v=wEU5yR9koeg
 
-- `subtitles/2026-09-12/Curious Refuge-Seedance 2.5 Is Incredible... Until It Isn't.txt`
+- `subtitles/2026-09-19/Curious Refuge-Seedance 2.5 Is Incredible... Until It Isn't.txt`
   - Seedance 2.5 Is Incredible... Until It Isn't
   - https://www.youtube.com/watch?v=xjyuNokwAPw
 
-- `subtitles/2026-09-12/Futurepedia-A Complete Guide to the New Claude Design.txt`
+- `subtitles/2026-09-19/Futurepedia-A Complete Guide to the New Claude Design.txt`
   - A Complete Guide to the New Claude Design
   - https://www.youtube.com/watch?v=3RWm4inkS2E
 
-- `subtitles/2026-09-12/Futurepedia-Use Claude Better Than 99% of People (Beginner to Pro).txt`
+- `subtitles/2026-09-19/Futurepedia-Use Claude Better Than 99% of People (Beginner to Pro).txt`
   - Use Claude Better Than 99% of People (Beginner to Pro)
   - https://www.youtube.com/watch?v=5aUgDDWd4-k
 
-- `subtitles/2026-09-12/Futurepedia-Claude Design Just Unlocked AI Motion Graphics.txt`
+- `subtitles/2026-09-19/Futurepedia-Claude Design Just Unlocked AI Motion Graphics.txt`
   - Claude Design Just Unlocked AI Motion Graphics
   - https://www.youtube.com/watch?v=97Y5cz7H8SM
 
-- `subtitles/2026-09-12/Futurepedia-Claude Chat vs Cowork vs Code: Which One Should You Use?.txt`
+- `subtitles/2026-09-19/Futurepedia-Claude Chat vs Cowork vs Code: Which One Should You Use?.txt`
   - Claude Chat vs Cowork vs Code: Which One Should You Use?
   - https://www.youtube.com/watch?v=PtGQaduZwmA
 
-- `subtitles/2026-09-12/Futurepedia-Master the NEW Gemini Notebook.txt`
+- `subtitles/2026-09-19/Futurepedia-Master the NEW Gemini Notebook.txt`
   - Master the NEW Gemini Notebook
   - https://www.youtube.com/watch?v=TGlPNGaHo6I
 
-- `subtitles/2026-09-12/Matt Wolfe-AI News: OpenAI Just Put the Brakes on AI.txt`
+- `subtitles/2026-09-19/Matt Wolfe-AI News: OpenAI Just Put the Brakes on AI.txt`
   - AI News: OpenAI Just Put the Brakes on AI
   - https://www.youtube.com/watch?v=EfGF7QbJItA
 
-- `subtitles/2026-09-12/Matthew Berman-You NEED to try this 6 Open-Source Projects NOW.txt`
+- `subtitles/2026-09-19/Matthew Berman-You NEED to try this 6 Open-Source Projects NOW.txt`
   - You NEED to try this 6 Open-Source Projects NOW
   - https://www.youtube.com/watch?v=1RTq_EWv2Yo
 
-- `subtitles/2026-09-12/Matthew Berman-11 Grok Bot Use Cases That Could Save You Hours Every Day.txt`
+- `subtitles/2026-09-19/Matthew Berman-11 Grok Bot Use Cases That Could Save You Hours Every Day.txt`
   - 11 Grok Bot Use Cases That Could Save You Hours Every Day
   - https://www.youtube.com/watch?v=5CSXUsljJ_E
 
-- `subtitles/2026-09-12/Matthew Berman-AI News: ChatGPT Ultrafast, Grok 4.6, 3 New Open-Source Models, and more!.txt`
+- `subtitles/2026-09-19/Matthew Berman-AI News: ChatGPT Ultrafast, Grok 4.6, 3 New Open-Source Models, and more!.txt`
   - AI News: ChatGPT Ultrafast, Grok 4.6, 3 New Open-Source Models, and more!
   - https://www.youtube.com/watch?v=9qix4oDB5aw
 
-- `subtitles/2026-09-12/Matthew Berman-Cursor just made something incredible....txt`
+- `subtitles/2026-09-19/Matthew Berman-Cursor just made something incredible....txt`
   - Cursor just made something incredible...
   - https://www.youtube.com/watch?v=mZM-J7XK5Aw
 
-- `subtitles/2026-09-12/Matthew Berman-xAI actually did it... (Grok 4.6).txt`
+- `subtitles/2026-09-19/Matthew Berman-xAI actually did it... (Grok 4.6).txt`
   - xAI actually did it... (Grok 4.6)
   - https://www.youtube.com/watch?v=rdYBjpylJUQ
 
-- `subtitles/2026-09-12/OpenAI-First impressions of GPT-6 Astra from developers.txt`
+- `subtitles/2026-09-19/MrOrangeDream-Traffic Ignition Review 2026 - Can You Really Earn $19,525 Per Month?.txt`
+  - Traffic Ignition Review 2026 - Can You Really Earn $19,525 Per Month?
+  - https://www.youtube.com/watch?v=3SfW_1lbaG8
+
+- `subtitles/2026-09-19/MrOrangeDream-How To Get Paid In Exitus Elite Tutorial - $2000 Instant Payments.txt`
+  - How To Get Paid In Exitus Elite Tutorial - $2000 Instant Payments
+  - https://www.youtube.com/watch?v=3cYpVRKP3lY
+
+- `subtitles/2026-09-19/MrOrangeDream-High Ticket Vs. Recurring Affiliate Programs - Which Is Better?.txt`
+  - High Ticket Vs. Recurring Affiliate Programs - Which Is Better?
+  - https://www.youtube.com/watch?v=ALYuEiaKQ30
+
+- `subtitles/2026-09-19/MrOrangeDream-Best Affiliate Marketing Blueprint To Fire Your Boss ASAP!.txt`
+  - Best Affiliate Marketing Blueprint To Fire Your Boss ASAP!
+  - https://www.youtube.com/watch?v=EKGtMbkuba0
+
+- `subtitles/2026-09-19/MrOrangeDream-Best Instant Pay Affiliate Program For Beginners - Exitus Elite Review 2026.txt`
+  - Best Instant Pay Affiliate Program For Beginners - Exitus Elite Review 2026
+  - https://www.youtube.com/watch?v=OToOTXihL64
+
+- `subtitles/2026-09-19/MrOrangeDream-Best Digital Business Opportunity For 2026 - Make $2K Per Sale!.txt`
+  - Best Digital Business Opportunity For 2026 - Make $2K Per Sale!
+  - https://www.youtube.com/watch?v=Oxpelf9kXlo
+
+- `subtitles/2026-09-19/MrOrangeDream-Exitus Elite Review - Can You Make Money With The Lower Levels?.txt`
+  - Exitus Elite Review - Can You Make Money With The Lower Levels?
+  - https://www.youtube.com/watch?v=PvB8ctQ439c
+
+- `subtitles/2026-09-19/MrOrangeDream-3 Simple Steps To Earn $1000 Per Day Online - Affiliate Marketing 2026.txt`
+  - 3 Simple Steps To Earn $1000 Per Day Online - Affiliate Marketing 2026
+  - https://www.youtube.com/watch?v=S_i7T_lB4NU
+
+- `subtitles/2026-09-19/MrOrangeDream-How To Make High Ticket Affiliate Marketing Work - $2000 Per Sale.txt`
+  - How To Make High Ticket Affiliate Marketing Work - $2000 Per Sale
+  - https://www.youtube.com/watch?v=TuGL5eNl8hk
+
+- `subtitles/2026-09-19/MrOrangeDream-Make Money Online Anywhere In The World - Become A Digital Nomad 2026.txt`
+  - Make Money Online Anywhere In The World - Become A Digital Nomad 2026
+  - https://www.youtube.com/watch?v=UXvzXE4vtEs
+
+- `subtitles/2026-09-19/MrOrangeDream-The Home Business Academy Review (August 2026 UPDATE).txt`
+  - The Home Business Academy Review (August 2026 UPDATE)
+  - https://www.youtube.com/watch?v=WPJvwMZ-HPI
+
+- `subtitles/2026-09-19/MrOrangeDream-Is Traffic Ignition Legit Or A SCAM?! - WATCH ASAP! 🚨🤯.txt`
+  - Is Traffic Ignition Legit Or A SCAM?! - WATCH ASAP! 🚨🤯
+  - https://www.youtube.com/watch?v=WYU5TTuQ0CE
+
+- `subtitles/2026-09-19/MrOrangeDream-Exitus Elite Best Traffic Sources To Get Sales! ($1000-2000 Per Day).txt`
+  - Exitus Elite Best Traffic Sources To Get Sales! ($1000-2000 Per Day)
+  - https://www.youtube.com/watch?v=Wmm0pulkDu0
+
+- `subtitles/2026-09-19/MrOrangeDream-Thinking Of Joining Exitus Elite? - WATCH THIS FIRST! 🚨.txt`
+  - Thinking Of Joining Exitus Elite? - WATCH THIS FIRST! 🚨
+  - https://www.youtube.com/watch?v=XJZJjD8LyBw
+
+- `subtitles/2026-09-19/MrOrangeDream-How To Promote Your Exitus Elite Affiliate Business 2026.txt`
+  - How To Promote Your Exitus Elite Affiliate Business 2026
+  - https://www.youtube.com/watch?v=Z_7U-Sm1_nM
+
+- `subtitles/2026-09-19/MrOrangeDream-How To Earn Instant $2000 Commissions (High Ticket Affiliate Marketing).txt`
+  - How To Earn Instant $2000 Commissions (High Ticket Affiliate Marketing)
+  - https://www.youtube.com/watch?v=ZupJecTfep8
+
+- `subtitles/2026-09-19/MrOrangeDream-How Much Does It Cost To Join Exitus Elite? - WATCH ASAP!.txt`
+  - How Much Does It Cost To Join Exitus Elite? - WATCH ASAP!
+  - https://www.youtube.com/watch?v=gxHPx6RQlyU
+
+- `subtitles/2026-09-19/MrOrangeDream-Best Affiliate Programs For Beginners To Quit Your Job 2026.txt`
+  - Best Affiliate Programs For Beginners To Quit Your Job 2026
+  - https://www.youtube.com/watch?v=iRsYWDgBuA8
+
+- `subtitles/2026-09-19/MrOrangeDream-Exitus Elite Done For You Affiliate System Review - Watch ASAP!.txt`
+  - Exitus Elite Done For You Affiliate System Review - Watch ASAP!
+  - https://www.youtube.com/watch?v=nwFBucdy7cU
+
+- `subtitles/2026-09-19/MrOrangeDream-Exitus Elite Real Income Proof 2026 - Is This Still Converting?.txt`
+  - Exitus Elite Real Income Proof 2026 - Is This Still Converting?
+  - https://www.youtube.com/watch?v=xe8_YpIKJ2g
+
+- `subtitles/2026-09-19/OpenAI-First impressions of GPT-6 Astra from developers.txt`
   - First impressions of GPT-6 Astra from developers
   - https://www.youtube.com/watch?v=-TTyyY3VWh8
 
-- `subtitles/2026-09-12/OpenAI-Templates with ChatGPT Images 2.5.txt`
+- `subtitles/2026-09-19/OpenAI-Templates with ChatGPT Images 2.5.txt`
   - Templates with ChatGPT Images 2.5
   - https://www.youtube.com/watch?v=-VukmrOT1eE
 
-- `subtitles/2026-09-12/OpenAI-You can just finish the work | ChatGPT Work.txt`
+- `subtitles/2026-09-19/OpenAI-You can just finish the work | ChatGPT Work.txt`
   - You can just finish the work | ChatGPT Work
   - https://www.youtube.com/watch?v=-vvGAKtV_Ek
 
-- `subtitles/2026-09-12/OpenAI-Discovering new antibiotics with ChatGPT.txt`
+- `subtitles/2026-09-19/OpenAI-Discovering new antibiotics with ChatGPT.txt`
   - Discovering new antibiotics with ChatGPT
   - https://www.youtube.com/watch?v=0XLGisanEAs
 
-- `subtitles/2026-09-12/OpenAI-Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals.txt`
+- `subtitles/2026-09-19/OpenAI-Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals.txt`
   - Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals
   - https://www.youtube.com/watch?v=0XPk_MAwCW4
 
-- `subtitles/2026-09-12/OpenAI-How to Create a Solid Blog Draft With ChatGPT Work | Tutorial.txt`
+- `subtitles/2026-09-19/OpenAI-How to Create a Solid Blog Draft With ChatGPT Work | Tutorial.txt`
   - How to Create a Solid Blog Draft With ChatGPT Work | Tutorial
   - https://www.youtube.com/watch?v=0j9yDUDMrBs
 
-- `subtitles/2026-09-12/OpenAI-Build a Shareable Site.txt`
+- `subtitles/2026-09-19/OpenAI-Build a Shareable Site.txt`
   - Build a Shareable Site
   - https://www.youtube.com/watch?v=0qK3KqvtRrg
 
-- `subtitles/2026-09-12/OpenAI-Introducing GPT-6 Astra: the most intelligent and aligned model in the world..txt`
+- `subtitles/2026-09-19/OpenAI-Introducing GPT-6 Astra: the most intelligent and aligned model in the world..txt`
   - Introducing GPT-6 Astra: the most intelligent and aligned model in the world.
   - https://www.youtube.com/watch?v=1QNsdr-Qx_I
 
-- `subtitles/2026-09-12/OpenAI-Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France.txt`
+- `subtitles/2026-09-19/OpenAI-Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France.txt`
   - Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France
   - https://www.youtube.com/watch?v=1fL_lwsdMd4
 
-- `subtitles/2026-09-12/OpenAI-How to Manage Your Workspace With ChatGPT Work.txt`
+- `subtitles/2026-09-19/OpenAI-How to Manage Your Workspace With ChatGPT Work.txt`
   - How to Manage Your Workspace With ChatGPT Work
   - https://www.youtube.com/watch?v=29SyCndnMZs
 
-- `subtitles/2026-09-12/OpenAI-Introducing the Agents API.txt`
+- `subtitles/2026-09-19/OpenAI-Introducing the Agents API.txt`
   - Introducing the Agents API
   - https://www.youtube.com/watch?v=2YHa1vhnmK0
 
-- `subtitles/2026-09-12/OpenAI-Codex, but make it weird. Hahahacks..txt`
+- `subtitles/2026-09-19/OpenAI-Codex, but make it weird. Hahahacks..txt`
   - Codex, but make it weird. Hahahacks.
   - https://www.youtube.com/watch?v=2f9bBlGOuX4
 
-- `subtitles/2026-09-12/OpenAI-How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy.txt`
+- `subtitles/2026-09-19/OpenAI-How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy.txt`
   - How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy
   - https://www.youtube.com/watch?v=4Nv--b12hxQ
 
-- `subtitles/2026-09-12/OpenAI-ChatGPT Work for Sales: Account Research and Customer Outreach.txt`
+- `subtitles/2026-09-19/OpenAI-Meet ChatGPT: Ask Your First Question | OpenAI Academy.txt`
+  - Meet ChatGPT: Ask Your First Question | OpenAI Academy
+  - https://www.youtube.com/watch?v=4UTn7oWvSJc
+
+- `subtitles/2026-09-19/OpenAI-Create a Coloring Page with ChatGPT | OpenAI Academy.txt`
+  - Create a Coloring Page with ChatGPT | OpenAI Academy
+  - https://www.youtube.com/watch?v=4gYJxduFN3c
+
+- `subtitles/2026-09-19/OpenAI-ChatGPT Work for Sales: Account Research and Customer Outreach.txt`
   - ChatGPT Work for Sales: Account Research and Customer Outreach
   - https://www.youtube.com/watch?v=5DbZAMGZ5oM
 
-- `subtitles/2026-09-12/OpenAI-Plugins & Skills.txt`
+- `subtitles/2026-09-19/OpenAI-Plugins & Skills.txt`
   - Plugins & Skills
   - https://www.youtube.com/watch?v=5QPBVrAAdBk
 
-- `subtitles/2026-09-12/OpenAI-Use ChatGPT Work to analyze ad performance and refine creative.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to analyze ad performance and refine creative.txt`
   - Use ChatGPT Work to analyze ad performance and refine creative
   - https://www.youtube.com/watch?v=5iu0nY9lIy8
 
-- `subtitles/2026-09-12/OpenAI-Introducing ChatGPT Images 2.5.txt`
+- `subtitles/2026-09-19/OpenAI-Introducing ChatGPT Images 2.5.txt`
   - Introducing ChatGPT Images 2.5
   - https://www.youtube.com/watch?v=6l7ble9P74o
 
-- `subtitles/2026-09-12/OpenAI-Build custom financial forecasting apps with ChatGPT Work.txt`
+- `subtitles/2026-09-19/OpenAI-Build custom financial forecasting apps with ChatGPT Work.txt`
   - Build custom financial forecasting apps with ChatGPT Work
   - https://www.youtube.com/watch?v=94Td-y5z5rk
 
-- `subtitles/2026-09-12/OpenAI-Use Your Computer and Browser.txt`
+- `subtitles/2026-09-19/OpenAI-Use Your Computer and Browser.txt`
   - Use Your Computer and Browser
   - https://www.youtube.com/watch?v=981SivztzOc
 
-- `subtitles/2026-09-12/OpenAI-GPT-6 Astra with Peter Gostev.txt`
+- `subtitles/2026-09-19/OpenAI-GPT-6 Astra with Peter Gostev.txt`
   - GPT-6 Astra with Peter Gostev
   - https://www.youtube.com/watch?v=A4BUbpKdenc
 
-- `subtitles/2026-09-12/OpenAI-Introducing GPT-Image-2.5 in the API.txt`
+- `subtitles/2026-09-19/OpenAI-Introducing GPT-Image-2.5 in the API.txt`
   - Introducing GPT-Image-2.5 in the API
   - https://www.youtube.com/watch?v=A7MSwdXj86k
 
-- `subtitles/2026-09-12/OpenAI-GPT-6 Astra with Ben Davis.txt`
+- `subtitles/2026-09-19/OpenAI-GPT-6 Astra with Ben Davis.txt`
   - GPT-6 Astra with Ben Davis
   - https://www.youtube.com/watch?v=B-jjnydci50
 
-- `subtitles/2026-09-12/OpenAI-How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens.txt`
+- `subtitles/2026-09-19/OpenAI-How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens.txt`
   - How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens
   - https://www.youtube.com/watch?v=Cxp2aZQqkYM
 
-- `subtitles/2026-09-12/OpenAI-Use ChatGPT Work to build custom creative tools.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to build custom creative tools.txt`
   - Use ChatGPT Work to build custom creative tools
   - https://www.youtube.com/watch?v=D-QteDHdHes
 
-- `subtitles/2026-09-12/OpenAI-Talk to ChatGPT Work.txt`
+- `subtitles/2026-09-19/OpenAI-Talk to ChatGPT Work.txt`
   - Talk to ChatGPT Work
   - https://www.youtube.com/watch?v=DLcQSp_CIIc
 
-- `subtitles/2026-09-12/OpenAI-Building with ChatGPT Voice | OpenAI.txt`
+- `subtitles/2026-09-19/OpenAI-Building with ChatGPT Voice | OpenAI.txt`
   - Building with ChatGPT Voice | OpenAI
   - https://www.youtube.com/watch?v=E0ZMOschrTU
 
-- `subtitles/2026-09-12/OpenAI-Work with docs, sheets, and slides in ChatGPT.txt`
+- `subtitles/2026-09-19/OpenAI-Work with docs, sheets, and slides in ChatGPT.txt`
   - Work with docs, sheets, and slides in ChatGPT
   - https://www.youtube.com/watch?v=E3dDr_QtBuo
 
-- `subtitles/2026-09-12/OpenAI-Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed.txt`
+- `subtitles/2026-09-19/OpenAI-Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed.txt`
   - Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed
   - https://www.youtube.com/watch?v=EDWbX_-RYws
 
-- `subtitles/2026-09-12/OpenAI-Use ChatGPT Images to explore campaign concepts.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Images to explore campaign concepts.txt`
   - Use ChatGPT Images to explore campaign concepts
   - https://www.youtube.com/watch?v=Ez-anO32D_s
 
-- `subtitles/2026-09-12/OpenAI-Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France.txt`
+- `subtitles/2026-09-19/OpenAI-Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France.txt`
   - Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France
   - https://www.youtube.com/watch?v=Fu3WWi-pAv4
 
-- `subtitles/2026-09-12/OpenAI-Use ChatGPT Work to pressure-test marketing campaign briefs.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to build dashboards from a business question.txt`
+  - Use ChatGPT Work to build dashboards from a business question
+  - https://www.youtube.com/watch?v=GzCsKuDgr6Q
+
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to pressure-test marketing campaign briefs.txt`
   - Use ChatGPT Work to pressure-test marketing campaign briefs
   - https://www.youtube.com/watch?v=HHt8CPJRviA
 
-- `subtitles/2026-09-12/OpenAI-Build agent-ready sites with WebMCP.txt`
+- `subtitles/2026-09-19/OpenAI-Build agent-ready sites with WebMCP.txt`
   - Build agent-ready sites with WebMCP
   - https://www.youtube.com/watch?v=Is2NHa7awWY
 
-- `subtitles/2026-09-12/OpenAI-What racing reveals about working with AI — the OpenAI Podcast Ep. 22.txt`
+- `subtitles/2026-09-19/OpenAI-What racing reveals about working with AI — the OpenAI Podcast Ep. 22.txt`
   - What racing reveals about working with AI — the OpenAI Podcast Ep. 22
   - https://www.youtube.com/watch?v=KNPjRpNtQ7s
 
-- `subtitles/2026-09-12/OpenAI-Reconcile quarter-end financials with ChatGPT Work.txt`
+- `subtitles/2026-09-19/OpenAI-Reconcile quarter-end financials with ChatGPT Work.txt`
   - Reconcile quarter-end financials with ChatGPT Work
   - https://www.youtube.com/watch?v=Ljm3nHQQiSk
 
-- `subtitles/2026-09-12/OpenAI-We're giving 100,000 academic researchers free access to our frontier models.txt`
+- `subtitles/2026-09-19/OpenAI-We're giving 100,000 academic researchers free access to our frontier models.txt`
   - We're giving 100,000 academic researchers free access to our frontier models
   - https://www.youtube.com/watch?v=MLehRytu9Zo
 
-- `subtitles/2026-09-12/OpenAI-How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful.txt`
+- `subtitles/2026-09-19/OpenAI-How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful.txt`
   - How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful
   - https://www.youtube.com/watch?v=MX95QbxSc9Q
 
-- `subtitles/2026-09-12/OpenAI-How BNY CEO Robin Vince Turns AI Optimism Into Action.txt`
+- `subtitles/2026-09-19/OpenAI-How BNY CEO Robin Vince Turns AI Optimism Into Action.txt`
   - How BNY CEO Robin Vince Turns AI Optimism Into Action
   - https://www.youtube.com/watch?v=MmYCdNhrhfA
 
-- `subtitles/2026-09-12/OpenAI-Use ChatGPT Work to create campaign emails.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to create campaign emails.txt`
   - Use ChatGPT Work to create campaign emails
   - https://www.youtube.com/watch?v=N-MJ1W8Vj9E
 
-- `subtitles/2026-09-12/OpenAI-Use ChatGPT Work to turn marketing ideas into finished work.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to turn marketing ideas into finished work.txt`
   - Use ChatGPT Work to turn marketing ideas into finished work
   - https://www.youtube.com/watch?v=NSqlZ1L81nQ
 
-- `subtitles/2026-09-12/OpenAI-How Model ML Uses GPT-5.6 Sol to Get Finance Work Done More Efficiently.txt`
+- `subtitles/2026-09-19/OpenAI-How Model ML Uses GPT-5.6 Sol to Get Finance Work Done More Efficiently.txt`
   - How Model ML Uses GPT-5.6 Sol to Get Finance Work Done More Efficiently
   - https://www.youtube.com/watch?v=OEkxKdhtQng
 
-- `subtitles/2026-09-12/OpenAI-How Shopify Uses ChatGPT Work to Build Faster with AI Agents.txt`
+- `subtitles/2026-09-19/OpenAI-How Shopify Uses ChatGPT Work to Build Faster with AI Agents.txt`
   - How Shopify Uses ChatGPT Work to Build Faster with AI Agents
   - https://www.youtube.com/watch?v=OHVu3Y4B3RI
 
-- `subtitles/2026-09-12/OpenAI-GPT-Live-1 is now in the API.txt`
+- `subtitles/2026-09-19/OpenAI-GPT-Live-1 is now in the API.txt`
   - GPT-Live-1 is now in the API
   - https://www.youtube.com/watch?v=OSaP6bJoU44
 
-- `subtitles/2026-09-12/OpenAI-Building at the pace of AI innovation | Grant Lee, Gamma.txt`
+- `subtitles/2026-09-19/OpenAI-How to Ask ChatGPT Better Questions | OpenAI Academy.txt`
+  - How to Ask ChatGPT Better Questions | OpenAI Academy
+  - https://www.youtube.com/watch?v=P-8sCH6syag
+
+- `subtitles/2026-09-19/OpenAI-Building at the pace of AI innovation | Grant Lee, Gamma.txt`
   - Building at the pace of AI innovation | Grant Lee, Gamma
   - https://www.youtube.com/watch?v=PB7DBemxl3E
 
-- `subtitles/2026-09-12/OpenAI-In Harmony.txt`
+- `subtitles/2026-09-19/OpenAI-Detecting wildfires with ChatGPT.txt`
+  - Detecting wildfires with ChatGPT
+  - https://www.youtube.com/watch?v=PSnJBfa183Y
+
+- `subtitles/2026-09-19/OpenAI-In Harmony.txt`
   - In Harmony
   - https://www.youtube.com/watch?v=PbfXbDbCthA
 
-- `subtitles/2026-09-12/OpenAI-GPT-6 Astra with Tom Krcha.txt`
+- `subtitles/2026-09-19/OpenAI-GPT-6 Astra with Tom Krcha.txt`
   - GPT-6 Astra with Tom Krcha
   - https://www.youtube.com/watch?v=QDLlQ5IL2Bk
 
-- `subtitles/2026-09-12/OpenAI-Getting Started with ChatGPT Work.txt`
+- `subtitles/2026-09-19/OpenAI-Reimagining IT with ChatGPT.txt`
+  - Reimagining IT with ChatGPT
+  - https://www.youtube.com/watch?v=Q_MEaNdMpZw
+
+- `subtitles/2026-09-19/OpenAI-Getting Started with ChatGPT Work.txt`
   - Getting Started with ChatGPT Work
   - https://www.youtube.com/watch?v=Rk4VyQxDq5s
 
-- `subtitles/2026-09-12/OpenAI-How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum.txt`
+- `subtitles/2026-09-19/OpenAI-How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum.txt`
   - How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum
   - https://www.youtube.com/watch?v=SJJBPwlPpww
 
-- `subtitles/2026-09-12/OpenAI-How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work.txt`
+- `subtitles/2026-09-19/OpenAI-How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work.txt`
   - How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work
   - https://www.youtube.com/watch?v=TryfaGZwvIE
 
-- `subtitles/2026-09-12/OpenAI-Introducing Agent Plugins.txt`
+- `subtitles/2026-09-19/OpenAI-Introducing Agent Plugins.txt`
   - Introducing Agent Plugins
   - https://www.youtube.com/watch?v=UaeWJK_vv-Y
 
-- `subtitles/2026-09-12/OpenAI-Computer History in ChatGPT.txt`
+- `subtitles/2026-09-19/OpenAI-Meet the Data Agent in ChatGPT Work.txt`
+  - Meet the Data Agent in ChatGPT Work
+  - https://www.youtube.com/watch?v=VMgEQ7ym9WU
+
+- `subtitles/2026-09-19/OpenAI-Computer History in ChatGPT.txt`
   - Computer History in ChatGPT
   - https://www.youtube.com/watch?v=W-HhMUe9hOg
 
-- `subtitles/2026-09-12/OpenAI-From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France.txt`
+- `subtitles/2026-09-19/OpenAI-From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France.txt`
   - From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France
   - https://www.youtube.com/watch?v=W0mU8zgop60
 
-- `subtitles/2026-09-12/OpenAI-Introducing gpt-transcribe and gpt-live-transcribe.txt`
+- `subtitles/2026-09-19/OpenAI-How to Spot Scam Messages with ChatGPT | OpenAI Academy.txt`
+  - How to Spot Scam Messages with ChatGPT | OpenAI Academy
+  - https://www.youtube.com/watch?v=WY_PHjGilVs
+
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to tailor dashboards for every stakeholder.txt`
+  - Use ChatGPT Work to tailor dashboards for every stakeholder
+  - https://www.youtube.com/watch?v=Wb8MhkpQpX8
+
+- `subtitles/2026-09-19/OpenAI-Introducing gpt-transcribe and gpt-live-transcribe.txt`
   - Introducing gpt-transcribe and gpt-live-transcribe
   - https://www.youtube.com/watch?v=WeP9VUf1OoE
 
-- `subtitles/2026-09-12/OpenAI-How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours.txt`
+- `subtitles/2026-09-19/OpenAI-How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours.txt`
   - How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours
   - https://www.youtube.com/watch?v=WwxZeU4WH14
 
-- `subtitles/2026-09-12/OpenAI-How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial.txt`
+- `subtitles/2026-09-19/OpenAI-How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial.txt`
   - How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial
   - https://www.youtube.com/watch?v=XjSJ6ybS9I8
 
-- `subtitles/2026-09-12/OpenAI-The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France.txt`
+- `subtitles/2026-09-19/OpenAI-The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France.txt`
   - The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France
   - https://www.youtube.com/watch?v=Xk-X1TI2pQ4
 
-- `subtitles/2026-09-12/OpenAI-Using Voice in ChatGPT Work.txt`
+- `subtitles/2026-09-19/OpenAI-Using Voice in ChatGPT Work.txt`
   - Using Voice in ChatGPT Work
   - https://www.youtube.com/watch?v=_Gd9yzAc-WI
 
-- `subtitles/2026-09-12/OpenAI-Use ChatGPT Work to deliver board-ready reporting.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to deliver board-ready reporting.txt`
   - Use ChatGPT Work to deliver board-ready reporting
   - https://www.youtube.com/watch?v=_HCks5jkPLw
 
-- `subtitles/2026-09-12/OpenAI-Introducing GPT-6 Astra for developers.txt`
+- `subtitles/2026-09-19/OpenAI-Introducing GPT-6 Astra for developers.txt`
   - Introducing GPT-6 Astra for developers
   - https://www.youtube.com/watch?v=bOC3DisEOfg
 
-- `subtitles/2026-09-12/OpenAI-Get a daily CFO briefing with ChatGPT Work.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to ground analysis in your semantic layer.txt`
+  - Use ChatGPT Work to ground analysis in your semantic layer
+  - https://www.youtube.com/watch?v=bbNTY8O0GTY
+
+- `subtitles/2026-09-19/OpenAI-Get a daily CFO briefing with ChatGPT Work.txt`
   - Get a daily CFO briefing with ChatGPT Work
   - https://www.youtube.com/watch?v=bl2eGejkbaU
 
-- `subtitles/2026-09-12/OpenAI-How California Small Businesses Are Using ChatGPT | OpenAI Academy.txt`
+- `subtitles/2026-09-19/OpenAI-How California Small Businesses Are Using ChatGPT | OpenAI Academy.txt`
   - How California Small Businesses Are Using ChatGPT | OpenAI Academy
   - https://www.youtube.com/watch?v=cFyFF3Ad2aM
 
-- `subtitles/2026-09-12/OpenAI-ChatGPT can now complete tasks on your computer.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to build your data agent.txt`
+  - Use ChatGPT Work to build your data agent
+  - https://www.youtube.com/watch?v=cXUmFec2PNY
+
+- `subtitles/2026-09-19/OpenAI-ChatGPT can now complete tasks on your computer.txt`
   - ChatGPT can now complete tasks on your computer
   - https://www.youtube.com/watch?v=dB6pOolO7io
 
-- `subtitles/2026-09-12/OpenAI-ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders.txt`
+- `subtitles/2026-09-19/OpenAI-ChatGPT Privacy: What Not to Share and When to Double-Check | OpenAI Academy.txt`
+  - ChatGPT Privacy: What Not to Share and When to Double-Check | OpenAI Academy
+  - https://www.youtube.com/watch?v=dfAZbuAQxi8
+
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to help teams answer their own data questions.txt`
+  - Use ChatGPT Work to help teams answer their own data questions
+  - https://www.youtube.com/watch?v=euED8JRunBA
+
+- `subtitles/2026-09-19/OpenAI-ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders.txt`
   - ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders
   - https://www.youtube.com/watch?v=g-g6E-qtCjA
 
-- `subtitles/2026-09-12/OpenAI-ChatGPT Work for Sales: Account Planning and Meeting Prep.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT to Organize Everyday Tasks | OpenAI Academy.txt`
+  - Use ChatGPT to Organize Everyday Tasks | OpenAI Academy
+  - https://www.youtube.com/watch?v=gKyEzP_jhZc
+
+- `subtitles/2026-09-19/OpenAI-ChatGPT Work for Sales: Account Planning and Meeting Prep.txt`
   - ChatGPT Work for Sales: Account Planning and Meeting Prep
   - https://www.youtube.com/watch?v=hjXi7b01s2c
 
-- `subtitles/2026-09-12/OpenAI-Tennis.txt`
+- `subtitles/2026-09-19/OpenAI-Tennis.txt`
   - Tennis
   - https://www.youtube.com/watch?v=huct2N_J5mc
 
-- `subtitles/2026-09-12/OpenAI-Build Hour: Valuemaxxing with GPT-5.6.txt`
+- `subtitles/2026-09-19/OpenAI-Assess Usage and Value of ChatGPT Work.txt`
+  - Assess Usage and Value of ChatGPT Work
+  - https://www.youtube.com/watch?v=iZE2r-Vx5b8
+
+- `subtitles/2026-09-19/OpenAI-Build Hour: Valuemaxxing with GPT-5.6.txt`
   - Build Hour: Valuemaxxing with GPT-5.6
   - https://www.youtube.com/watch?v=jyuyY86GJnA
 
-- `subtitles/2026-09-12/OpenAI-ChatGPT Work, now powered by GPT-6 Astra.txt`
+- `subtitles/2026-09-19/OpenAI-ChatGPT Work, now powered by GPT-6 Astra.txt`
   - ChatGPT Work, now powered by GPT-6 Astra
   - https://www.youtube.com/watch?v=kuGjypoJKwk
 
-- `subtitles/2026-09-12/OpenAI-Mochi.txt`
+- `subtitles/2026-09-19/OpenAI-Mochi.txt`
   - Mochi
   - https://www.youtube.com/watch?v=lPgm4LByPRw
 
-- `subtitles/2026-09-12/OpenAI-Use ChatGPT Work to build custom forecasting apps.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to build custom forecasting apps.txt`
   - Use ChatGPT Work to build custom forecasting apps
   - https://www.youtube.com/watch?v=mOAHWk24D28
 
-- `subtitles/2026-09-12/OpenAI-Helping a small business go big with ChatGPT.txt`
+- `subtitles/2026-09-19/OpenAI-Helping a small business go big with ChatGPT.txt`
   - Helping a small business go big with ChatGPT
   - https://www.youtube.com/watch?v=mPAmXQnhv2E
 
-- `subtitles/2026-09-12/OpenAI-GPT-6 Astra First Impressions From Businesses.txt`
+- `subtitles/2026-09-19/OpenAI-GPT-6 Astra First Impressions From Businesses.txt`
   - GPT-6 Astra First Impressions From Businesses
   - https://www.youtube.com/watch?v=n-dqdVMwoas
 
-- `subtitles/2026-09-12/OpenAI-What Codex Unlocks for loveholidays.txt`
+- `subtitles/2026-09-19/OpenAI-What Codex Unlocks for loveholidays.txt`
   - What Codex Unlocks for loveholidays
   - https://www.youtube.com/watch?v=o38xYi2mtgc
 
-- `subtitles/2026-09-12/OpenAI-Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora.txt`
+- `subtitles/2026-09-19/OpenAI-Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora.txt`
   - Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora
   - https://www.youtube.com/watch?v=oXu6JGxW_YM
 
-- `subtitles/2026-09-12/OpenAI-Plugins in ChatGPT.txt`
+- `subtitles/2026-09-19/OpenAI-Plugins in ChatGPT.txt`
   - Plugins in ChatGPT
   - https://www.youtube.com/watch?v=pKwRNdDtai0
 
-- `subtitles/2026-09-12/OpenAI-How to Schedule a Weekly Metrics Report With ChatGPT Work.txt`
+- `subtitles/2026-09-19/OpenAI-How to Schedule a Weekly Metrics Report With ChatGPT Work.txt`
   - How to Schedule a Weekly Metrics Report With ChatGPT Work
   - https://www.youtube.com/watch?v=p_slDAvPjv0
 
-- `subtitles/2026-09-12/OpenAI-Science Class.txt`
+- `subtitles/2026-09-19/OpenAI-Science Class.txt`
   - Science Class
   - https://www.youtube.com/watch?v=ppVPLmfKSfo
 
-- `subtitles/2026-09-12/OpenAI-ChatGPT Work for Sales: Pipeline and Forecast Intelligence.txt`
+- `subtitles/2026-09-19/OpenAI-ChatGPT Work for Sales: Pipeline and Forecast Intelligence.txt`
   - ChatGPT Work for Sales: Pipeline and Forecast Intelligence
   - https://www.youtube.com/watch?v=q9TPE7pKkIo
 
-- `subtitles/2026-09-12/OpenAI-Two blind brothers using ChatGPT to navigate life and run their nonprofit.txt`
+- `subtitles/2026-09-19/OpenAI-Two blind brothers using ChatGPT to navigate life and run their nonprofit.txt`
   - Two blind brothers using ChatGPT to navigate life and run their nonprofit
   - https://www.youtube.com/watch?v=qg_54P-oPgI
 
-- `subtitles/2026-09-12/OpenAI-Meet Birding Pal.txt`
+- `subtitles/2026-09-19/OpenAI-Meet Birding Pal.txt`
   - Meet Birding Pal
   - https://www.youtube.com/watch?v=r64krUavXJU
 
-- `subtitles/2026-09-12/OpenAI-Retirement.txt`
+- `subtitles/2026-09-19/OpenAI-Retirement.txt`
   - Retirement
   - https://www.youtube.com/watch?v=rh4BtN2NxmE
 
-- `subtitles/2026-09-12/OpenAI-Create Slides, Docs, and Templates.txt`
+- `subtitles/2026-09-19/OpenAI-Jump Trading points GPT-6 Astra to its most ambiguous, difficult tasks.txt`
+  - Jump Trading points GPT-6 Astra to its most ambiguous, difficult tasks
+  - https://www.youtube.com/watch?v=s495saGYWFg
+
+- `subtitles/2026-09-19/OpenAI-Create Slides, Docs, and Templates.txt`
   - Create Slides, Docs, and Templates
   - https://www.youtube.com/watch?v=syML5KT-HzI
 
-- `subtitles/2026-09-12/OpenAI-How to Build a Personalized Meal Planner with ChatGPT Work.txt`
+- `subtitles/2026-09-19/OpenAI-How to Build a Personalized Meal Planner with ChatGPT Work.txt`
   - How to Build a Personalized Meal Planner with ChatGPT Work
   - https://www.youtube.com/watch?v=t64oZKCdG8Q
 
-- `subtitles/2026-09-12/OpenAI-How IT Admins can manage ChatGPT Work at scale | OpenAI.txt`
+- `subtitles/2026-09-19/OpenAI-How IT Admins can manage ChatGPT Work at scale | OpenAI.txt`
   - How IT Admins can manage ChatGPT Work at scale | OpenAI
   - https://www.youtube.com/watch?v=t8Ej9aeW388
 
-- `subtitles/2026-09-12/OpenAI-Scheduled Tasks.txt`
+- `subtitles/2026-09-19/OpenAI-How Fyxer built an AI executive assistant people trust.txt`
+  - How Fyxer built an AI executive assistant people trust
+  - https://www.youtube.com/watch?v=uA5PiAXKGis
+
+- `subtitles/2026-09-19/OpenAI-Scheduled Tasks.txt`
   - Scheduled Tasks
   - https://www.youtube.com/watch?v=urXc4xxixVU
 
-- `subtitles/2026-09-12/OpenAI-Soccer.txt`
+- `subtitles/2026-09-19/OpenAI-Soccer.txt`
   - Soccer
   - https://www.youtube.com/watch?v=w1dcfvUCZYw
 
-- `subtitles/2026-09-12/OpenAI-How to Prepare for Customer Meetings With ChatGPT Work | Tutorial.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work to turn product insights into a team action plan.txt`
+  - Use ChatGPT Work to turn product insights into a team action plan
+  - https://www.youtube.com/watch?v=wK0zWeVyLM4
+
+- `subtitles/2026-09-19/OpenAI-How to Prepare for Customer Meetings With ChatGPT Work | Tutorial.txt`
   - How to Prepare for Customer Meetings With ChatGPT Work | Tutorial
   - https://www.youtube.com/watch?v=yQZgOSHHxjk
 
-- `subtitles/2026-09-12/OpenAI-Use ChatGPT Work on Your Phone.txt`
+- `subtitles/2026-09-19/OpenAI-Use ChatGPT Work on Your Phone.txt`
   - Use ChatGPT Work on Your Phone
   - https://www.youtube.com/watch?v=yfnh8SuMbNw
 
-- `subtitles/2026-09-12/OpenAI-How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic.txt`
+- `subtitles/2026-09-19/OpenAI-How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic.txt`
   - How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic
   - https://www.youtube.com/watch?v=zq88iLsSfMA
 
-- `subtitles/2026-09-12/The AI Advantage-Claude vs. ChatGPT Just Got Serious.txt`
+- `subtitles/2026-09-19/The AI Advantage-Claude vs. ChatGPT Just Got Serious.txt`
   - Claude vs. ChatGPT Just Got Serious
   - https://www.youtube.com/watch?v=ARnUlEyVRoY
 
-- `subtitles/2026-09-12/The AI Advantage-5 Skills That Make ChatGPT & Claude Better at Everything.txt`
+- `subtitles/2026-09-19/The AI Advantage-5 Skills That Make ChatGPT & Claude Better at Everything.txt`
   - 5 Skills That Make ChatGPT & Claude Better at Everything
   - https://www.youtube.com/watch?v=DdV0f8eu6XI
 
-- `subtitles/2026-09-12/The AI Advantage-OpenAI Just Gave Codex a Superpower & More AI News You Can Use.txt`
+- `subtitles/2026-09-19/The AI Advantage-OpenAI Just Gave Codex a Superpower & More AI News You Can Use.txt`
   - OpenAI Just Gave Codex a Superpower & More AI News You Can Use
   - https://www.youtube.com/watch?v=K7F0fNIQWKg
 
-- `subtitles/2026-09-12/The AI Advantage-How to Use New ChatGPT Work in 12 Minutes.txt`
+- `subtitles/2026-09-19/The AI Advantage-How to Use New ChatGPT Work in 12 Minutes.txt`
   - How to Use New ChatGPT Work in 12 Minutes
   - https://www.youtube.com/watch?v=MpVX4fMXv0A
 
-- `subtitles/2026-09-12/The AI Advantage-Is ChatGPT Still the Best AI Agent in 2026?.txt`
+- `subtitles/2026-09-19/The AI Advantage-Is ChatGPT Still the Best AI Agent in 2026?.txt`
   - Is ChatGPT Still the Best AI Agent in 2026?
   - https://www.youtube.com/watch?v=Nq3S_vNjw5E
 
-- `subtitles/2026-09-12/The AI Advantage-You Have to Try the New ChatGPT Voice!.txt`
+- `subtitles/2026-09-19/The AI Advantage-You Have to Try the New ChatGPT Voice!.txt`
   - You Have to Try the New ChatGPT Voice!
   - https://www.youtube.com/watch?v=UIKgq0LBfws
 
-- `subtitles/2026-09-12/The AI Advantage-GPT-6 Astra: 20 Real Examples From Useful to Almost Impossible.txt`
+- `subtitles/2026-09-19/The AI Advantage-GPT-6 Astra: 20 Real Examples From Useful to Almost Impossible.txt`
   - GPT-6 Astra: 20 Real Examples From Useful to Almost Impossible
   - https://www.youtube.com/watch?v=_AyXuJKm8iw
 
-- `subtitles/2026-09-12/The AI Advantage-I'm Obsessed With New ChatGPT Voice.txt`
+- `subtitles/2026-09-19/The AI Advantage-I'm Obsessed With New ChatGPT Voice.txt`
   - I'm Obsessed With New ChatGPT Voice
   - https://www.youtube.com/watch?v=_HzdjYg0vXs
 
-- `subtitles/2026-09-12/The AI Advantage-10 Ways to 10x Your Claude Usage in 2026.txt`
+- `subtitles/2026-09-19/The AI Advantage-10 Ways to 10x Your Claude Usage in 2026.txt`
   - 10 Ways to 10x Your Claude Usage in 2026
   - https://www.youtube.com/watch?v=bruDxPBMN7I
 
-- `subtitles/2026-09-12/The AI Advantage-This is How You Delegate to AI in 2026.txt`
+- `subtitles/2026-09-19/The AI Advantage-This is How You Delegate to AI in 2026.txt`
   - This is How You Delegate to AI in 2026
   - https://www.youtube.com/watch?v=cBdFhHyEW4Y
 
-- `subtitles/2026-09-12/The AI Advantage-ChatGPT Plugins Finally Work!.txt`
+- `subtitles/2026-09-19/The AI Advantage-ChatGPT Plugins Finally Work!.txt`
   - ChatGPT Plugins Finally Work!
   - https://www.youtube.com/watch?v=cqYLBYenBA0
 
-- `subtitles/2026-09-12/The AI Advantage-Fable 5 is Back! Here's the Best Way to Use It....txt`
+- `subtitles/2026-09-19/The AI Advantage-Fable 5 is Back! Here's the Best Way to Use It....txt`
   - Fable 5 is Back! Here's the Best Way to Use It...
   - https://www.youtube.com/watch?v=dQkVUANCYgc
 
-- `subtitles/2026-09-12/The AI Advantage-ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy.txt`
+- `subtitles/2026-09-19/The AI Advantage-ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy.txt`
   - ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy
   - https://www.youtube.com/watch?v=dZnsz2RYoAQ
 
-- `subtitles/2026-09-12/The AI Advantage-How to Set Up ChatGPT to Work Overnight in 7 Minutes.txt`
+- `subtitles/2026-09-19/The AI Advantage-How to Set Up ChatGPT to Work Overnight in 7 Minutes.txt`
   - How to Set Up ChatGPT to Work Overnight in 7 Minutes
   - https://www.youtube.com/watch?v=gNltRF2XPTg
 
-- `subtitles/2026-09-12/The AI Advantage-OpenAI Just Rebuilt ChatGPT.txt`
+- `subtitles/2026-09-19/The AI Advantage-OpenAI Just Rebuilt ChatGPT.txt`
   - OpenAI Just Rebuilt ChatGPT
   - https://www.youtube.com/watch?v=gRH1dv9VGN4
 
-- `subtitles/2026-09-12/The AI Advantage-This New AI From SpaceX Is The Future (First Look).txt`
+- `subtitles/2026-09-19/The AI Advantage-This New AI From SpaceX Is The Future (First Look).txt`
   - This New AI From SpaceX Is The Future (First Look)
   - https://www.youtube.com/watch?v=ifToIqwU3Jg
 
-- `subtitles/2026-09-12/The AI Advantage-ChatGPT Can Now See Everything You Do On Your Screen.txt`
+- `subtitles/2026-09-19/The AI Advantage-ChatGPT Can Now See Everything You Do On Your Screen.txt`
   - ChatGPT Can Now See Everything You Do On Your Screen
   - https://www.youtube.com/watch?v=rzLYEIheLPs
 
-- `subtitles/2026-09-12/The AI Advantage-Astra vs Fable 5.1: Which AI Builds Better Websites?.txt`
+- `subtitles/2026-09-19/The AI Advantage-Astra vs Fable 5.1: Which AI Builds Better Websites?.txt`
   - Astra vs Fable 5.1: Which AI Builds Better Websites?
   - https://www.youtube.com/watch?v=twFYccH1A_A
 
-- `subtitles/2026-09-12/The AI Advantage-Google Just Made Tutoring Free for Everyone!.txt`
+- `subtitles/2026-09-19/The AI Advantage-Google Just Made Tutoring Free for Everyone!.txt`
   - Google Just Made Tutoring Free for Everyone!
   - https://www.youtube.com/watch?v=uaMbKQIOtwk
 
-- `subtitles/2026-09-12/The AI Advantage-Claude Can Do So Much More For You Now....txt`
+- `subtitles/2026-09-19/The AI Advantage-Claude Can Do So Much More For You Now....txt`
   - Claude Can Do So Much More For You Now...
   - https://www.youtube.com/watch?v=yshSzI1rAMs
 
-- `subtitles/2026-09-12/Theoretically Media-The Best AI Short Film You'll See Today (Seedance 2.5).txt`
+- `subtitles/2026-09-19/Theoretically Media-The Best AI Short Film You'll See Today (Seedance 2.5).txt`
   - The Best AI Short Film You'll See Today (Seedance 2.5)
   - https://www.youtube.com/watch?v=4wFBA9-KyzY
 
-- `subtitles/2026-09-12/Theoretically Media-Fine. Let's Talk About Higgsfield..txt`
+- `subtitles/2026-09-19/Theoretically Media-Fine. Let's Talk About Higgsfield..txt`
   - Fine. Let's Talk About Higgsfield.
   - https://www.youtube.com/watch?v=7vGp40qEV4s
 
-- `subtitles/2026-09-12/Theoretically Media-Real-Time AI Video (FREE_Cheap!) & Seedance 2.5 Footage.txt`
+- `subtitles/2026-09-19/Theoretically Media-Real-Time AI Video (FREE_Cheap!) & Seedance 2.5 Footage.txt`
   - Real-Time AI Video (FREE/Cheap!) & Seedance 2.5 Footage
   - https://www.youtube.com/watch?v=FCXz8uyPa3Y
 
-- `subtitles/2026-09-12/Theoretically Media-AI Film Just Hit A Landmark & Flux 3 Video Is Here!.txt`
+- `subtitles/2026-09-19/Theoretically Media-AI Film Just Hit A Landmark & Flux 3 Video Is Here!.txt`
   - AI Film Just Hit A Landmark & Flux 3 Video Is Here!
   - https://www.youtube.com/watch?v=TZ1uAQazv90
 
-- `subtitles/2026-09-12/Theoretically Media-The "Secret" to AI Character Sheets.txt`
+- `subtitles/2026-09-19/Theoretically Media-The "Secret" to AI Character Sheets.txt`
   - The "Secret" to AI Character Sheets
   - https://www.youtube.com/watch?v=X-rlr3k-2TI
 
-- `subtitles/2026-09-12/Theoretically Media-Two NEW Mystery AI Video Models & A FREE Cinematic Library!.txt`
+- `subtitles/2026-09-19/Theoretically Media-Two NEW Mystery AI Video Models & A FREE Cinematic Library!.txt`
   - Two NEW Mystery AI Video Models & A FREE Cinematic Library!
   - https://www.youtube.com/watch?v=YQTduCzNoqw
 
-- `subtitles/2026-09-12/Theoretically Media-Seedance 2.5 Masterclass & Early Review.txt`
+- `subtitles/2026-09-19/Theoretically Media-Seedance 2.5 Masterclass & Early Review.txt`
   - Seedance 2.5 Masterclass & Early Review
   - https://www.youtube.com/watch?v=b5F81eip5BM
 
-- `subtitles/2026-09-12/Theoretically Media-AI's Hardest Tool Just Killed The Hard Part!.txt`
+- `subtitles/2026-09-19/Theoretically Media-AI's Hardest Tool Just Killed The Hard Part!.txt`
   - AI's Hardest Tool Just Killed The Hard Part!
   - https://www.youtube.com/watch?v=ghCKziHvGXo
 
-- `subtitles/2026-09-12/Theoretically Media-MiniMax Just Dropped a Open Source "Seedance Killer".txt`
+- `subtitles/2026-09-19/Theoretically Media-MiniMax Just Dropped a Open Source "Seedance Killer".txt`
   - MiniMax Just Dropped a Open Source "Seedance Killer"
   - https://www.youtube.com/watch?v=j2pRgZpFPCw
 
-- `subtitles/2026-09-12/Theoretically Media-Seedream 5.0 Tested & Seedance 2.5 Leaks Are Unreal!.txt`
+- `subtitles/2026-09-19/Theoretically Media-Seedream 5.0 Tested & Seedance 2.5 Leaks Are Unreal!.txt`
   - Seedream 5.0 Tested & Seedance 2.5 Leaks Are Unreal!
   - https://www.youtube.com/watch?v=pn-YwWn3kkM
 
-- `subtitles/2026-09-12/Mx-Shell-说唱、摄影双重经验，是如何点亮 AI 创作的？【独家对谈】.txt`
+- `subtitles/2026-09-19/Theoretically Media-Seedance 2.5 is a GAMECHANGER!.txt`
+  - Seedance 2.5 is a GAMECHANGER!
+  - https://www.youtube.com/watch?v=s40M0IvBEpM
+
+- `subtitles/2026-09-19/Mx-Shell-说唱、摄影双重经验，是如何点亮 AI 创作的？【独家对谈】.txt`
   - 说唱、摄影双重经验，是如何点亮 AI 创作的？【独家对谈】
   - https://www.bilibili.com/video/BV192Vb66E8b
 
-- `subtitles/2026-09-12/Mx-Shell-国产“爱死机”刷屏外网 好莱坞大佬全网寻人！wuhu独家专访导演MX-Shell.txt`
+- `subtitles/2026-09-19/Mx-Shell-国产“爱死机”刷屏外网 好莱坞大佬全网寻人！wuhu独家专访导演MX-Shell.txt`
   - 国产“爱死机”刷屏外网 好莱坞大佬全网寻人！wuhu独家专访导演MX-Shell
   - https://www.bilibili.com/video/BV19r5Y6WEYV
 
-- `subtitles/2026-09-12/Mx-Shell-早上好，夜之城！.txt`
+- `subtitles/2026-09-19/Mx-Shell-早上好，夜之城！.txt`
   - 早上好，夜之城！
   - https://www.bilibili.com/video/BV19uAAz9ERA
 
-- `subtitles/2026-09-12/Mx-Shell-赛博英雄传！.txt`
+- `subtitles/2026-09-19/Mx-Shell-赛博英雄传！.txt`
   - 赛博英雄传！
   - https://www.bilibili.com/video/BV1DEAAzmEcz
 
-- `subtitles/2026-09-12/Mx-Shell-Ai原创短片《丧尸清道夫》-重制版，国产“爱死机”！.txt`
+- `subtitles/2026-09-19/Mx-Shell-Ai原创短片《丧尸清道夫》-重制版，国产“爱死机”！.txt`
   - Ai原创短片《丧尸清道夫》-重制版，国产“爱死机”！
   - https://www.bilibili.com/video/BV1FFRQB2Eqw
 
-- `subtitles/2026-09-12/Mx-Shell-原创ai短片《明·东海灾异志》.txt`
+- `subtitles/2026-09-19/Mx-Shell-原创ai短片《明·东海灾异志》.txt`
   - 原创ai短片《明·东海灾异志》
   - https://www.bilibili.com/video/BV1ksQPBVEXw
 
-- `subtitles/2026-09-12/Mx-Shell-小城夏天.txt`
+- `subtitles/2026-09-19/Mx-Shell-小城夏天.txt`
   - 小城夏天
   - https://www.bilibili.com/video/BV1mReszHEHs
 
-- `subtitles/2026-09-12/Mx-Shell-国产“爱死机”《丧尸清道夫》图片资产工作流的创作思路分享！.txt`
+- `subtitles/2026-09-19/Mx-Shell-国产“爱死机”《丧尸清道夫》图片资产工作流的创作思路分享！.txt`
   - 国产“爱死机”《丧尸清道夫》图片资产工作流的创作思路分享！
   - https://www.bilibili.com/video/BV1qJ7C6cEfS
 
-- `subtitles/2026-09-12/Mx-Shell-今天把我关于《丧尸清道夫》的创作思路分享给大家，如果能帮到你，我会很开心。.txt`
+- `subtitles/2026-09-19/Mx-Shell-今天把我关于《丧尸清道夫》的创作思路分享给大家，如果能帮到你，我会很开心。.txt`
   - 今天把我关于《丧尸清道夫》的创作思路分享给大家，如果能帮到你，我会很开心。
   - https://www.bilibili.com/video/BV1xuVC6AEbg
 
-文件：188 个素材
-路径：subtitles/2026-09-12/
-数量：188 个素材
+文件：230 个素材
+路径：subtitles/2026-09-19/
+数量：230 个素材
 
 ## 待分析队列
 
@@ -2742,4 +2991,46 @@ just a prettier wa
 - youtube:5Cxe5dv2Xlw → knowledge_extraction
 - youtube:xxfMT-bPEmU → knowledge_extraction
 - youtube:0uC6u0lJJl4 → knowledge_extraction
+- youtube:bbNTY8O0GTY → knowledge_extraction
+- youtube:GzCsKuDgr6Q → knowledge_extraction
+- youtube:Wb8MhkpQpX8 → knowledge_extraction
+- youtube:euED8JRunBA → knowledge_extraction
+- youtube:wK0zWeVyLM4 → knowledge_extraction
+- youtube:cXUmFec2PNY → knowledge_extraction
+- youtube:VMgEQ7ym9WU → knowledge_extraction
+- youtube:s495saGYWFg → knowledge_extraction
+- youtube:Q_MEaNdMpZw → knowledge_extraction
+- youtube:4UTn7oWvSJc → knowledge_extraction
+- youtube:P-8sCH6syag → knowledge_extraction
+- youtube:gKyEzP_jhZc → knowledge_extraction
+- youtube:WY_PHjGilVs → knowledge_extraction
+- youtube:dfAZbuAQxi8 → knowledge_extraction
+- youtube:4gYJxduFN3c → knowledge_extraction
+- youtube:iZE2r-Vx5b8 → knowledge_extraction
+- youtube:PSnJBfa183Y → knowledge_extraction
+- youtube:uA5PiAXKGis → knowledge_extraction
+- youtube:Wmm0pulkDu0 → knowledge_extraction
+- youtube:PvB8ctQ439c → knowledge_extraction
+- youtube:OToOTXihL64 → knowledge_extraction
+- youtube:WYU5TTuQ0CE → knowledge_extraction
+- youtube:xe8_YpIKJ2g → knowledge_extraction
+- youtube:3cYpVRKP3lY → knowledge_extraction
+- youtube:3SfW_1lbaG8 → knowledge_extraction
+- youtube:TuGL5eNl8hk → knowledge_extraction
+- youtube:UXvzXE4vtEs → knowledge_extraction
+- youtube:Oxpelf9kXlo → knowledge_extraction
+- youtube:EKGtMbkuba0 → knowledge_extraction
+- youtube:Z_7U-Sm1_nM → knowledge_extraction
+- youtube:nwFBucdy7cU → knowledge_extraction
+- youtube:gxHPx6RQlyU → knowledge_extraction
+- youtube:iRsYWDgBuA8 → knowledge_extraction
+- youtube:XJZJjD8LyBw → knowledge_extraction
+- youtube:S_i7T_lB4NU → knowledge_extraction
+- youtube:ZupJecTfep8 → knowledge_extraction
+- youtube:WPJvwMZ-HPI → knowledge_extraction
+- youtube:ALYuEiaKQ30 → knowledge_extraction
+- youtube:xs-ob87TTzg → knowledge_extraction
+- youtube:eZ8WWZzoaR0 → knowledge_extraction
+- youtube:r9OwPx_HoV0 → knowledge_extraction
+- youtube:s40M0IvBEpM → knowledge_extraction
 

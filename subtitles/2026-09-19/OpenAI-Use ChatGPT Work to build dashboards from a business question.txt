@@ -1,0 +1,20 @@
+UP主：OpenAI
+标题：Use ChatGPT Work to build dashboards from a business question
+链接：https://www.youtube.com/watch?v=GzCsKuDgr6Q
+
+Create a dashboard using the data
+plug-in and the site semantic layer to
+measure site adoption and usage. And on
+the right, we can see what this looks
+like. There's a lot of like custom
+visualizations that are possible here.
+We can see the funnel over time. There
+are different tabs at the top. Like
+here's one for organizations where we
+can see different metrics on the
+customer segment view. Um so up here you
+can see when the data was last
+refreshed. You can refresh it again.
+Or you can set up a scheduled refresh so
+you can have the data pull from whatever
+source you used on a regular cadence.

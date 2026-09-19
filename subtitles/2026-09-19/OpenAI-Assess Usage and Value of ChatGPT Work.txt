@@ -1,0 +1,104 @@
+UP主：OpenAI
+标题：Assess Usage and Value of ChatGPT Work
+链接：https://www.youtube.com/watch?v=iZE2r-Vx5b8
+
+As AI adoption grows,
+admins need to answer a bigger question.
+Where is AI driving value
+and where should we invest next?
+Insights in the admin console help you
+connect AI usage to the work being done
+and the outcome it delivers
+so that you can decide
+where to focus enablement,
+allocate budget, and expand access.
+Let me show you.
+Here, I can see who's using the tools
+and where credits and tokens are going.
+I can filter by group or users
+to understand where usage is growing.
+Now let's connect that usage
+to the work people are doing.
+In the Insights tab,
+user activity is classified into
+predefined use case categories
+with a breakdown into specific tasks,
+as you can see here.
+You can get an overview
+and drill down into the details.
+Similar to Usage,
+I can filter these insights by group
+and see how different teams use AI.
+With that context,
+I can work with these teams
+to tie it to business outcomes.
+Let's double click into
+account research and planning
+under sales.
+The model, reasoning,
+and speed breakdowns help me check
+whether the setup fits the tasks,
+and where a faster,
+lower cost option could work better.
+I can also see
+what plugins support the work.
+So for account research, I'd expect
+Salesforce to provide that context.
+And if it isn't being used,
+that's a place to focus training.
+Skills help make the workflow repeatable
+and consistent with company practices.
+Seeing which ones people use
+helps me decide what to maintain
+and what to share broadly.
+For coding, we can also see
+measurable outcomes
+directly in the admin console.
+So here, I can see Codex contributions
+to commits, merged code, and code review.
+Following these contributions
+over time and across developers
+gives me evidence to discuss
+with engineering leaders
+when evaluating the rollout
+and deciding where to expand access.
+The admin plugin brings
+these analytics into one conversation.
+I can explore adoption or spend,
+combine views, and ask
+follow-up questions as I investigate.
+For example, let's say I'm preparing
+for a monthly AI rollout review.
+Help me prepare for
+our monthly AI rollout review.
+Visualize how Codex and Work usage
+and credits have been trending
+by team over the last 30 days.
+Also visualize each team's
+top use cases and task breakdown.
+For engineering, include Codex
+contributions to commits and code review.
+Pull out the biggest changes
+and where we should focus next.
+And now I can follow up with,
+turn this into a short leadership deck
+with charts, key takeaways,
+and recommended next steps,
+and share it in the AI Rollout
+Slack channel.
+As you just saw,
+through the insights
+in the admin console,
+we were able to understand usage
+and spend metrics across the org,
+as well as understand
+what people are using AI for
+and connect it to outcomes
+for the enterprise.
+And then through the admin plugin,
+we were able to bring these analytics
+into a single conversation.
+So open the admin console
+or admin plugin today to see where
+your teams are putting AI to work.
+Thank you.

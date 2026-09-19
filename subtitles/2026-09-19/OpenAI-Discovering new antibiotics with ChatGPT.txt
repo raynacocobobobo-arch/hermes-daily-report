@@ -1,0 +1,40 @@
+UP主：OpenAI
+标题：Discovering new antibiotics with ChatGPT
+链接：https://www.youtube.com/watch?v=0XLGisanEAs
+
+Imagine a molecule that you created on a computer capable of saving lives.
+Instead of having to go around nature and dig into soil and water,
+which is a very painstaking process,
+we do everything on the computer.
+Tools like ChatGPT are helping us accelerate scientific discovery.
+We can now uncover new antibiotic molecules in a few hours
+instead of five, six years.
+Modern medicine as we know it would collapse without effective antibiotics.
+Antimicrobial resistance is ... you know, I really can't think of anything more consequential.
+These are bacterial infections
+that are associated with about five million deaths per year around the world.
+If we don't come up with new solutions by 2050, that number is projected to double.
+Routine interventions, surgeries, even childbirth,
+you need to have antibiotics that work.
+One of the big breakthroughs that we've made
+is thinking of all of biology as information.
+The “code of life” is just a code.
+That gives us this superpower
+of being able explore the tree of life.
+We’ve explored venoms.
+We’ve looked at the genetic code of woolly mammoths,
+of ancient penguins that were extinct in the 50s.
+A lot of the molecules that we've discovered,
+we’ve seen that they are indeed capable of killing contemporary pathogens.
+I could synthesize next week.
+Let’s go.
+ChatGPT has really eliminated
+that barrier for scientists to be able to do computational biology.
+It can enable them to analyze data in new ways, to write algorithms.
+We're trying to decipher all these secrets that are embedded in biology.
+AI systems can run through that vast complexity and identify patterns.
+One of the dreams that we have
+is that one of the many molecules that we have designed on the computer,
+they can save lives, right? Reduce suffering, benefit humanity in some way.
+It's part of the fire that we feel every single day
+to be able to help people.

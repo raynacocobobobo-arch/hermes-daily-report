@@ -1,0 +1,310 @@
+UP主：Theoretically Media
+标题：Seedance 2.5 is a GAMECHANGER!
+链接：https://www.youtube.com/watch?v=s40M0IvBEpM
+
+Well, Bike Dance just changed the game,
+unveiling Seance 2.5, and it is
+impressive. Today, we're going to dig
+into that. Plus, in a wave of
+announcements, Seance 2.0 also goes 4K.
+And well, that's available right now,
+but it's going to cost you. Is that
+juice worth the squeeze? And I've got a
+really cool look at a new feature from
+the Clling team. Something that I think
+that you're going to be seeing in the
+next big update from them. kicking off.
+Yeah. In a rather splashy announcement
+from the Bite Dance team at the Volcano
+Engine Force conference, uh the massive
+update to Cance 2.0 was unveiled. The
+model upgrade, now officially known as
+2.5, has been showcased with specs. Uh
+take a quick look at the reel.
+No, no, no, no, no, no, no, no, no,
+no. my prompt.
+>> Hello.
+>> Is it fixed yet?
+>> We're about to play your video at the
+event.
+>> There's been a small unexpected issue.
+I'll fix it right away. Just give me a
+few more minutes.
+>> Feel it underneath the fire and the
+hunger me.
+Oh.
+Oh,
+wait for the thunder.
+>> So, that's just kind of a short look at
+it. The full reel uh will be available
+down below. It's very impressive, but I
+think as we dig into the specs, you'll
+see exactly how much of a game changer
+this really is. 2.5 will be available
+with native 4K. The 4K part is actually
+available right now for 2.0. Uh, and
+that's coming up in our next section.
+You'll definitely want to check that
+out. The kind of jaw-dropper here though
+is that 2.5 will be able to generate 30
+second shot lengths. Now, that is double
+the current rate. And admittedly, the
+spec card reads as single shot, but I am
+presuming that's like a loss in
+translation issue. I don't think those
+30-second shots will all have to be
+warners. I presume that multi-shot will
+be included here. But the one that I
+mean really kind of turned my head is
+the massive amount of multimodal
+reference you can pack into this thing.
+Yeah. Apparently up to 50 references per
+generation. 50. I mean that is insane.
+And they're saying that this will not
+only cover images, video, and audio, but
+also 3D assets. Speaking of the 3D
+assets, I'm not sure if like the slot
+machines here are 3D assets. It kind of
+looks like we may have already seen this
+right now. I will say with those 50
+references, of course, like my head
+immediately goes to like, well, you can
+put an entire lookbook in there for each
+generation. Although, I do want to note
+that like in the sizzle reel, most of
+the references were around like, you
+know, four references per. So, a lot of
+times with these reference capabilities,
+you know, you you can cram a lot of them
+in. How much the model is going to
+contain and respect those references, I
+mean, that can be a bit questionable.
+Look, that said, 50 references, it's a
+lot. Additionally, we're going to have
+smart and localized editing. So, you can
+target very specific parts of your
+generation for regeneration kind of
+showcased in this timeline UI um where
+uh interestingly they do drop 50 files
+in there as references. So, and here we
+can also see the 30-cond time limit. So,
+um I don't know how fullfeatured an
+editor this is necessarily going to be,
+but again I mean well actually later on
+in the video they actually showcase uh
+somebody working in uh it looks like I
+mean it's probably Cap Cut. It kind of
+has a premiere look to it though,
+doesn't it? And of course the standard
+bingo card slot of stronger consistency
+and control. I mean that's basically the
+center star on every bingo sheet. Uh but
+that said, I mean it does look really
+good. Overall, this is a very remarkable
+achievement for a.5 update. It does kind
+of make your head spin thinking about
+what 3.0 might look like. Now, to be
+clear, as of today, 2.5 is not available
+yet, but it does not look like we'll
+have very long to wait as the current
+release date is scheduled for early July
+2026. Naturally, no word on pricing as
+of yet. I we we all do know that Cance
+2.0 know is not a budget model and I'm
+sure that there will be a new car tax on
+the 2.5 model. So I am very curious to
+see what the final cost will be in terms
+of credits and well dollar costs via
+API. Either way, this is a pretty
+massive blockbuster to kick off uh well
+AI summer 2026. So uh well I mean let
+the speculation and hype begin. Moving
+on, Seance just went 4K. So now we have
+a mini, a fast, a regular, and an extra
+large flavor of Cance 2.0. Uh, you know,
+the question is less about the flavor
+and more about the cost. Now, I do have
+to say this just launched as of
+recording this video and sort of per
+typical uh with like Cance by Dance
+releases. Um, you know, things are
+running pretty slowly, if they even are
+at all. So this these two generations
+have been stuck at 99% for like the last
+like 3 hours or so. Uh, so I did get a
+few off. So, we're going to take a look
+at those. Kicking off with Kota's
+looping prompt, which I've benchmarked a
+number of times here. It's cuz I love
+this prompt.
+So, definitely not perfect. This was
+just a oneshot roll. Um, no
+cherry-picking on this one. A lot of
+people were wondering why she's making
+eggs in the refrigerator, but I'm kind
+of thinking there's like some Gordon
+Ramsay secret here. On the plus side,
+she did not tie her shoes together this
+time. So, AI, it is evolving. I mean,
+overall, it's fine. This is one of those
+prompts that I generally have to run
+three or four times before like you you
+get that roll that gets everything. Uh,
+you know, this this particular one
+wasn't its job wasn't to be perfect. Its
+job was to be in 4K, and it did pass
+that test. Another test. This one not
+reference to video, but rather just
+straight image to video. Uh, let's check
+this one out. Again, the job here is, is
+it 4K?
+You know the rule, if you're cool, you
+never look back at an explosion. And
+yes, it did pass the 4K test. Now, I do
+have to point out that there has been
+some speculation that this isn't
+natively generating 4K. Uh that there's
+like a sneaky upscaler that's happening
+behind it, which I don't know if that's
+true or not. But what I can say is that
+it's definitely slow and it definitely
+costs a lot. In terms of cost, I mean,
+there's always kind of that fog of war
+around cost and, you know, how that
+translates into actual money. So, I
+don't know exactly what the cost of 4K
+is. Now, I can tell you over on the
+mother ship of Dream Enena, uh if we
+were just to run this prompt as is at
+720, so 15 seconds, uh that would run
+you 360 credits. If you kick this up to
+1080, you're looking at 885 credits. And
+then when you get up to uh 4K, that is a
+whopping uh 1,890
+credits. So, you can kind of backtrack
+the math a little bit there. I mean,
+it's a lot. And in my opinion, it's too
+much for the squeeze unless you know
+that your generation is going to be
+exactly what you want. And let's face
+it, that never happens. To me, the
+better and more costefficient method if
+you need 4K is to just generate in like
+regular 1080 and then use something like
+uh you know, Topaz or a different
+upscaler to upscale it as we as we see
+here uh between this fight between
+Flamethrower Girl and Groundhog's Day
+Girl. Granted, there are costs on Topaz,
+so you're not getting completely around
+the system, but at least you aren't
+burning through credits trying to get
+the correct shot. Uh, by the way, I've
+got my money on Flamethrower Girl here
+because the redhead always ties her
+shoes together. All that said, if if
+you're dying to give the 4K a shot, it
+is available now. It It just might take
+a while to render. Sliding over to
+something very cool that is coming out
+of Clling, we have Omni Director, and
+it's going to be a very big deal for you
+camera control freaks. But first, a word
+from today's sponsor, our friends at Art
+List. So, if you've been creating with
+AI video, you know the feeling. You're
+midflow, the shot is finally working,
+and the whole time you're doing the math
+in your head, watching your credit
+balance drop with every generation. So,
+you stop experimenting. You settle, and
+that's usually right where the best
+version of an idea quietly dies. Well,
+Artless just took that ceiling off with
+unlimited generation on leading models.
+VO cling nano Banana Pro and 2 and GBT
+image 2 plus a whole bunch more are now
+unlimited on select annual plans right
+inside the art list AI toolkit and with
+unlimited you're creating at the speed
+of your ideas instead of the speed of
+your budget. Given the range of options
+available to you on AI Toolkit or on Art
+List Studio, I mean, you could do
+anything from taking your own footage
+and generating an angle you didn't get
+that day to creating entire worlds that
+have only previously existed on a script
+page. And because you're not rationing
+credits, you can run variation after
+variation until you find that thing that
+you're looking for and in parallel until
+it's not a rough pass. It's the cut that
+you hand to a client. So now the
+distance from brief to finished, ready
+to deliver video collapses. Same team
+that you've always worked with. Way more
+output, zero creative compromise. Your
+creativity was always unlimited and now
+your generations can be too. The link is
+down below. You'll get unlimited
+generations plus two free months on Art
+List. So go make the thing that you've
+been rationing credits on. My thanks to
+Art List for sponsoring today's video.
+Moving on, we have Omni Director from
+the research guys at Quaishu. So, I do
+want to be clear off the top, this isn't
+necessarily set to be released on Clling
+next week or anything, but I do think
+that this shows where they're headed.
+And in particular, I feel like it's
+pretty likely that we'll see a feature
+like this on Cling 4.0. So, this feature
+works a bit like omni referencing, only
+in this case, it's specifically looking
+at camera movements, and well, that
+includes cuts. an example like this. I
+mean, this is one of those ones that
+kind of takes your head a second to get
+around because what it's doing here is
+actually matching the timing of the cut.
+Um, and as always, I don't care if that
+dog is AI generated or not. It is
+adorable. It is happy and it is a good
+boy. I mean, it's a pretty wild idea.
+And, you know, there's some weirdness to
+it. Like, for example, in here, we're
+definitely getting the uh camera crane
+shot uh from Furiosa here. But as it,
+you know, it kicks off, we we have this
+woman there. And I think that what she's
+doing there is actually sort of
+mimicking the propeller blades. So there
+could be some really interesting use
+cases that come out of like just
+experimentation with something like
+this. And again, while this isn't
+available just quite yet, I think it
+gives you an idea of a very powerful
+feature that we will be seeing very
+soon. I'll be keeping an eye on this one
+and I'll definitely let you know when we
+get some cleaning news hopefully in the
+next few weeks. I I do have my fingers
+crossed there. So, I guess that's it for
+today. Oh, you know, one thing I did
+hear from a few of you that you had
+signed up for the newsletter and you
+haven't been receiving the newsletter.
+Uh, if so, please do let me know down in
+the comments. Um, I have to I have to
+pay Beehive to send out the newsletter.
+So, if I if I'm paying them and you're
+not receiving it, well, I'm going to go
+give them a give them a little what for.
+Um, in the meantime, if you haven't
+signed up for the newsletter, you would
+like to, please do so at the link down
+below. As always, I thank you for
+watching. My name is Tim.
