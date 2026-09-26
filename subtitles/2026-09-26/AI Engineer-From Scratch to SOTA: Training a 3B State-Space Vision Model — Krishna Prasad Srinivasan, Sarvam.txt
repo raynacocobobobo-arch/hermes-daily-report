@@ -1,0 +1,405 @@
+UP主：AI Engineer
+标题：From Scratch to SOTA: Training a 3B State-Space Vision Model — Krishna Prasad Srinivasan, Sarvam
+链接：https://www.youtube.com/watch?v=T72nqdC92PM
+
+All right. Um, hi everyone. Good
+afternoon. I'm Krishna. Uh, and I'm a
+general manager at Servin. Um today I'm
+going to tell you how a three billion
+parameter model uh small enough to run
+on a single GPU gets state-of-the-art uh
+in document AI and beats models 100
+times larger in size.
+It is also a slightly unusual model in
+two ways. Firstly u the language model
+used is not a standard transformer. Um
+and the entire model building from data
+to training to compute uh was done end
+to end in India and for English and for
+22 official Indian languages uh which I
+think uh are personally uh uh one of the
+hardest document intelligence problems
+uh in the world right now. Um this is
+how we went from scratch to SOTA.
+Who are we? Uh we are serv uh a
+sovereign foundation model company uh in
+India. We work across different
+modalities voice, text and vision. Uh in
+voice we have speech to text and
+texttospech models. In text we have uh a
+30 billion and 100 billion parameter uh
+uh models and in vision we have a
+document intelligence model which is
+what we are going to talk about today.
+Um, India is largely missing from the
+machine readable world. Um, according to
+a published language distribution study,
+well under 1% of the common crawl uh
+corpus on which frontier models are
+trained uh have uh um Indian language
+representation.
+Now in several forums you may have heard
+Frontier Labs say that um India is their
+um India is one of their larger uh uh
+and fastly growing markets and to that
+end um India is still missing uh in
+terms of data from frontier models that
+uh um are being trained every day here.
+Now why is that? Uh primarily not
+because there is uh a lack of data or
+the knowledge does not exist. It is
+because the data has never been
+digitized and we are solving that
+problem at server.
+Um why is Indic document intelligence
+hard? Uh firstly the goal is that of
+knowledge extraction not just purely
+text extraction. Uh extracting pure text
+without logical coherence is
+meaningless. And secondly in index
+scripts the shape of uh the words and
+the language you see are very different
+from what a machine sees. that is Indian
+languages have a complex uh set of uni
+codes fused together to get right the
+language model needs to be strong at all
+22 languages. Third, majority of Indian
+languages can be considered low resource
+due to which there is a lot of uh um
+lack in data today to train these
+models.
+Our answer to this is server vision
+India's first sovereign vision language
+model built from scratch. um a three
+billion parameter model with state space
+architecture
+data compute and training all of which
+done in India. When we started the
+initial work in late 2025 most VLMs uh
+in the OCR space were monolith VLMs. uh
+they performed page level OCR and we at
+the time took a contrarian bet to focus
+on block level OCR instead adding a
+document hardness around the model. Um a
+lot of models since then uh released uh
+uh recently in 2026 have converged onto
+the same uh hardness plus small model
+paradigm for OCR which shows a lot of
+value in the direction we uh set off.
+Serverom vision in particular uh has two
+hardness modules one for layout and one
+for reading hardness and a state space
+model uh VLM for block level OCR.
+Again um today uh why do we use state
+space and not a transformer? Um most OCR
+models today uh like general VLMs, open
+source VLMs like Quen, Gemma etc. are
+all transformers based. We took an
+alternate approach uh using an SSM. Why?
+Both are fundamentally sequenced models
+transformers and SSMs but with very
+different underlying mechanics. A
+transformer has every token look at
+every other token where the compute
+grows with square of the sequence
+length. Uh that is the L cross L
+interactions and the memory goes as the
+sequence grows as well. Now on the other
+hand, SSMs have a single state. They
+maintain a single state through the
+sequence updating it token by token. Now
+as compute grows only linearly, the
+memory stays constant for SSMS. Now why
+is this the right uh architecture for
+OCR? It really depends on the uh uh
+trade-offs here uh for long documents in
+particular which can lead up to uh uh 5
+to 10,000 uh visual tokens per page and
+quadratic complexity of you know uh
+compute and memory becomes very
+expensive for inference. On the other
+hand,
+um doing block level OCR with somewhat
+of a lossy recall using SSMs can be
+justifi justified to uh um avoid high
+compute costs imposed by transformers.
+So how do you actually train this? We
+built a staged curriculum four stages
+each uh building on the last um stage
+one is texton pre-training uh 13
+trillion tokens across English, Indian
+language, text, math and code. This
+builds the three billion parameters
+language backbone and a strong language
+prior is what lets the model resolve a
+smudged or an ambiguous text from the
+image. the same way you can read a half
+blurred word because you know which word
+is supposed to uh u be at the right
+place. So we focused on building the
+competence of the language model first
+uh before the model ever even sees a
+pixel. Stage two is where we performed
+continual pre-training uh on 300 million
+image text pairs. This teaches the
+language model general vision
+capabilities and teaches how to see how
+to interpret pixels and so on. Then
+comes stage three where we performed uh
+supervised fine-tuning on 100 uh uh
+million uh OCR uh samples. Now the um
+stage three is primarily focused on
+letting a general VM model become strong
+at OCR. What that includes is having
+diverse data across all 22 languages and
+English and also incorporating all kinds
+of uh uh document components such as
+tables and uh um equations and
+handwritten documents and so forth. Now
+and stage four is re reinforcement
+learning which helps push past the
+ceiling of whatever uh supervised
+fine-tuning is able to achieve. Here you
+will see this is a standard recipe.
+However, the moat here is the two things
+underneath the data layer and the eval
+layer. Um the first is the data engine.
+For most of the 22 languages, there is
+no label data available readily.
+When label data does not exist, building
+the data engine becomes hard. And that
+is something we have done extensively.
+We've built pipelines to create
+synthetic data and doc data from real
+documents and also helped
+build the uh pipeline for continuously
+improving the data that goes into
+training based on the eval performance
+and so on. So we are currently actively
+looking at the paradigm of RLMs um as uh
+uh we explore the agentic vision
+capabilities for our models in the
+upcoming releases. The second mode is
+the eval. You cannot reach
+state-of-the-art if uh um you cannot
+measure how well your model performs. We
+have curated extensive evals to ensure
+what we are measuring is truly sota and
+also truly meaningful in terms of
+usefulness for end uh uh users. So I
+want to take just a minute to dwell on
+our RL pipeline uh stage four because uh
+a lot of gain comes from RL. Essentially
+in OCR correctness is a machine readable
+problem right a lot of tests can be set
+up to uh um reward and score the models
+against uh uh these uh samples that you
+create. And in the world of
+deterministic OCR, these are all machine
+uh uh verifiable. Hence, RL gives us a
+major boost.
+Sample a group, score with unit tests,
+reinforce what the average uh uh value
+to beat is, and then repeat the process.
+And this makes RLVR for OCR very very
+scalable.
+Now after all the from scratch training
+we've done and the data effort we've
+made we were able to establish sot in
+two of uh the global English benchmarks
+one is CRB bench and the other is
+omnidoc bench at launch we were at 84.3
+on CR and then 93.2 into on omnidok
+bench. Um the models uh that have
+released since have moved the needle
+quite a bit and we'll soon have a a
+stronger model in the global leaderboard
+as well.
+Secondly and more importantly um on 22
+Indian languages we have an unbeaten
+lead even compared to all the frontier
+models such as Gemini and uh chat GPT
+and Opus and so on. And this is where
+we've extended the lead significantly
+and we remain uh uh strong compared to
+all of these newer models that have come
+in.
+Now server vision pars our agentic
+document intelligence workbench called
+aure where we enable
+human in the loop agentic digitizations
+uh and uh extractions and then
+injections for various uh downstream uh
+document intelligence problems. We
+provide confidence scores um and we uh
+have block level grounding and then also
+the ability to do uh agentic proof
+reading etc.
+Now benchmarks and soda are uh uh one
+thing they have their place. Today some
+of the largest enterprises in the world
+from insurance to banking to governments
+to historical preservation organizations
+are using server vision to digitize more
+than 35 million pages across English and
+uh uh 22 Indian languages. The model is
+available as API and on prem and then
+the agentic platform.
+So in conclusion until 4 months ago uh
+there was no sovereign model uh from
+India. Today we have server vision which
+was trained from scratch and has
+established sot um at a price point that
+is extremely competitive with uh all the
+other solutions including open and close
+source. Uh first we've started by uh uh
+solving some of the hardest problems for
+Indian language document intelligence.
+Soon uh we'll be releasing general
+purpose uh VLMs which are capable of
+much more uh uh vision capabilities and
+uh look forward to uh uh all of you
+trying out our models. Thank you.
+[applause]
+Happy to answer any questions. Yeah.
+Yes.
+>> Yes. Absolutely. Uh in general, the
+language capability of the 22 languages
+enhances English uh by quite a margin.
+And this is applicable to any low
+resource language, not just Indian low
+resource languages.
+>> Yeah.
+Right. Um we don't quite go in that
+direction with this model because this
+is a vision focused uh uh model wherein
+we are focused on extracting information
+or knowledge from documents. But yes,
+there could be uh some parallels to um
+helping models use general languages to
+speed up coding as well. But yeah,
+that's not the uh periphery of this uh
+uh work.
+Yeah.
+Right. Um so there are two things uh we
+uh create artificial documents synthetic
+documents as they are called for general
+post-raining uh that includes SFT and
+RL. Um however coming to your specific
+question on RL uh we don't uh you can
+generate uh synthetic documents there as
+well. However, um the best thing to do
+is to take real world documents complex
+enough that uh help you set up unit
+tests or different kinds of uh uh
+rewards, right? like say a a reward
+based on character error rate or a a
+reward based on table structure or a
+math equation or something uh that is
+pertinent to a language or like grammar
+rewards or so on and then help the model
+iteratively improve based on uh um rules
+that the model is able to produce at
+different uh u settings. Yeah. Yes.
+Sorry, did you say big fan of Chundra?
+>> All right. Uh, that's from a different
+lab. Uh, I'm also a big fan of the lab
+that produced Chundra. But yes, took
+your question uh on Indic benchmark.
+Yes, we will release the server indic
+benchmark that we have created for 22
+languages and it uh spans um a a huge
+time period starting from 1800s until
+modern day and also different kinds of
+layouts, different kinds of documents in
+Indian languages. You can imagine
+documents with pros, poetry, literature,
+uh tables, finance and all of those
+things. We'll soon release that
+benchmark uh in public as well.
+So translation is again uh
+transliteration is again not directly
+involved here because in OCR what we
+care about is high fidelity extraction
+right uh you want even if there is a
+mistake in an image you want that
+mistake to be extracted correctly and
+not the model uh uh making changes at
+whim uh hence that is not directly
+applicable but yes uh what we see is a
+lot of data that is coming through
+transliteration for even OCR training
+now and the um jury is out on what is
+the quality of that data and how useful
+it is etc
+Yeah.
+Right. Um there are few things to
+consider. Um first is no other model
+frontier uh closed source or open model
+does well with complex Indian language
+documents right so for a size of uh for
+a country with 1.4 4 billion people you
+want to be able to address their
+day-to-day lives in uh uh terms of
+document intelligence problems because
+there is a lot of paperwork in India
+right it is a up and cominging country
+and it's still being digitized as we
+speak and it's important that
+representation or ability to digitize
+the country exists to begin with.
+Secondly on uh the training side what we
+have uh uh done in particular is to
+create data that can be added to a lot
+of training downstream. So uh we are at
+a very early stage in terms of AI
+becoming you know a regular parts of our
+lives and we need the data to start to
+be able to eventually get to a place
+where we can uh have personalized agents
+in the language you prefer in language I
+prefer and however I want in uh uh in
+some so to do all of that we need to
+start somewhere and the data needs to be
+created and if the data is of good
+quality then that helps the model become
+sota and If a model is sot then uh from
+uh insurance agencies to government
+organizations to others who care about
+sovereignity in AI right uh as a
+government body I cannot have a model
+deployed elsewhere and I don't know
+where the data is going for uh uh the
+transcriptions so I need to be able to
+control where the data is sent and when
+it is used how much it is used etc. So
+sovereignity becomes very crucial and
+hence this model really is now uh uh
+like it's been what four months since we
+launched and already we are we are
+digitizing 35 million pages. So that is
+that shows that the market was waiting
+for something sovereign in this space
+that can really kickstart uh the AI
+digitization wave in India. So yeah
+primarily like three aspects one on uh
+sovereignity the other is the model uh
+capability itself and the third is data
+uh that is required to train these
+models.
+Yeah, it is it is uh um 40% uh indic and
+then uh the rest is English and
+comprises of math and code etc.
+>> All right.
+Just a curious question.
+Um currently the uh the deployments
+we've made uh with this model are in
+different states uh uh trying to
+digitize regional languages and along
+with all the English and mixed language
+uh uh documents and hence we'll soon uh
+be able to train with the um uh feedback
+we get from uh the current deployment.
+So yeah, we have started that uh
+pipeline as well.
+>> [music]

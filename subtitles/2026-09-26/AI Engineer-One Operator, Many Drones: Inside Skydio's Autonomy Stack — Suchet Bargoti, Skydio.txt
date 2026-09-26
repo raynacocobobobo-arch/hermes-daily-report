@@ -1,0 +1,565 @@
+UP主：AI Engineer
+标题：One Operator, Many Drones: Inside Skydio's Autonomy Stack — Suchet Bargoti, Skydio
+链接：https://www.youtube.com/watch?v=2wgPHvW0mG8
+
+Thanks everyone for coming. So we'll be
+talking about how um to use Agentic sort
+of orchestration to command many many
+different drones to achieve the
+different tasks that we have ahead of
+us. and just going to rethink this
+presentation a bit and not just jump
+straight into slides, but instead we're
+going to fly. Um, so what we have here
+on the left hand side is a real time
+view. What we're going to be doing right
+now, am I showing anything?
+>> Well, I'm flying. There you go. Sweet.
+Okay. Um, we are somewhere here in the
+city down south, which where where our
+headquarters is. Uh we have a few drones
+up and I'm going to hit launch. Uh and
+these are drones that are in docked
+stations. So we calling this drones as
+infrastructure uh where we actually have
+thousands of these drones now planted
+around the country with power utilities
+with uh public safety uh with
+construction companies. And what I'm
+doing right now is using my keyboard to
+simply fly here. Uh for those of you
+that know the area, this is San Mateo.
+And perhaps if I kind of zoom in here,
+we may see a very faint render of the uh
+SF skyline. Although the uh the fog city
+is always there. So we might just say
+hello to um the uh SFO airport here.
+Some planes are launching. If anyone has
+a plane tracker app, they can sort of
+see this is uh realtime stuff there. So
+what we have been building is the full
+autonomy stack behind like how does a
+vehicle operate autonomously? How does
+the cloud system operate here? How do
+the cloud servers work? uh and where
+does the uh different levels of
+intelligence and automation needs to
+happen for us to make this happen
+robustly such that when I'm here and
+saying hey oh there's an incident
+happening here I need to go respond I
+could at the same time go back here and
+say hey what about that other thing
+that's happening on the other side of
+the country what if we launch that
+instead so while that's happening I'm
+now going to launch something in
+Colorado
+so this is a imagine some sort of fire
+incident has happen on your on the power
+lines and we wanted to go out and
+inspect those things. So, a dock is now
+opening up in Colorado while the first
+drone is still flying safely. Um, and
+I'm just going to uh let it do all the
+safety checks that it needs to do before
+the launch. And this is all happening in
+sort of conference Wi-Fi traffic. So,
+you can imagine I can shut down my
+laptop right now and everything needs to
+safely happen behind the scenes.
+Um, so I'm going to do this while the
+first part is still happening.
+Let me let's go back to the first drone.
+Might give it another set of
+instruction. Let's have a look around
+here on the first drone. The second
+drone has sort of kick started off and
+maybe there's some cars sort of going
+around there um that we can perhaps
+track. So, let's track and what's this
+car doing here? All right. So, we're now
+tracking this car. Maybe this is a
+runaway car that we needed to follow.
+And I'm hands off right now. This is uh
+the autonomous system kind of taking
+over um through the various interactions
+that I've given uh for it to do. And at
+the same time while this is happening we
+can do the final thing which is yet
+another sort of drone in the system uh
+back at our HQ
+and we can say hey let's why don't we
+run a third drone.
+So what we're building towards is how do
+we enable autonomy at scale where
+traditionally how it started off
+historically 15 years ago that you might
+have a drone at home. It's a hobbyist
+drone and you might play around with it.
+You will tinker with it. You will work
+with the controlling software. And then
+about 10 years ago drones started to
+become a lot more available and they
+started to become a tool. A lot of
+industries out there started to use
+them. They will carry them with them in
+the truck, go out there, deploy it. And
+the next era that we're working towards
+is drones as infrastructure. Imagine
+these systems. And for the sake of this
+conference, I'm going to call them
+agents. These are physical emboded
+agents that are kind of available at all
+times at anywhere for the different sort
+of use cases that we're interested in
+that can automatically uh uh launch,
+execute, and do their tasks. And what is
+the minimum amount of autonomy that
+needs to be begged in? And what does the
+future interface look like today?
+Everyone needs to be a dedicated pilot.
+I go went through a certification
+exercise. I need to think about the
+safety standards here. But you can
+imagine in a few years time the safety
+is going to be determined by the
+autonomous system and the interface
+becomes really high level. It could be a
+little slack bot that says, "Hey,
+something's happened here. Why don't we
+go send a drone?" And you might not even
+know that the drone launched.
+So, while this is happening, I'm going
+to tell all the drones to pause and
+return to doc.
+So, we'll write this. They're all going
+to start returning to doc. And while
+that's happening, I'm going to start on
+the presentation.
+So, what I've shown you here is not just
+concept. These are literally systems
+that are being used in production. Uh as
+was mentioned we are the largest
+manufacturer of drones in the US and we
+want to give people superpowers uh
+through this technology.
+Let's take a quick look at what some of
+the people are doing here. This is um in
+the northeast coast of the US uh where
+our client has set up uh the system next
+to a power station and they kind of used
+this to do normal patrols and as they
+flew around they found that some of the
+there was a the pole was burning from
+the inside and it was really starting to
+show up here and this could have fallen
+at any time and created a fire risk that
+they would have otherwise not caught
+without having to send people there
+which itself is quite uh expensive.
+Moving on to the sort of next use case
+is on the public safety side. This is
+San Francisco. Uh we work very closely
+with SFPD. Um normally when a car gets
+stolen, you'll see a high-speed chase
+happening in the city. Quite dangerous.
+But what if you could deploy a drone
+instead where the uh people in the car
+don't even know that there's a drone
+following them. Here's a person who has
+stolen the car on the right hand side
+and they're about to change their
+license plates uh on that. So they go
+here, get out their tools. They come
+back, luckily they point the license
+plate up so the drone can see it and we
+know exactly what they're doing. But
+they're now replacing the plate uh in
+the car uh with a new one. And all this
+time they don't know that there's
+they're being chased. The the the how
+they behave in the uh public, how they
+behave out there is very different and
+it's a lot safer uh in how the
+operations are done. They're now going
+to go ahead and tint the windows. uh but
+this allows the police to like
+strategically position themselves in the
+most safest way form to intervene at the
+right time rather than doing a
+high-speed chase outside.
+So these are being used across many
+different industries
+and we are really starting to treat this
+as infrastructure that can operate day
+in day out nighttime rain sunshine.
+We've got a few of these docs deployed
+in Alaska, so very cold weathers. Few of
+these docks deployed in uh Texas, so
+extreme heat. And these need to be
+reliable down to 99.9999%
+uh where we do our sort of simulation
+and testing to be able to prove that.
+And today, uh we have about 16 million
+people living within 2 mi radius of this
+infrastructure that the uh um public
+safety, the power companies can kind of
+use this technology to be able to
+respond to such incidents without having
+to travel there.
+So, what really happens when this
+happens at scale? Can I get a hands up
+of people that have flown a drone
+before? A couple of hands up. When I
+started to fly it, it was like kind It
+took me a few hours to like really
+figure it out. Then I put on the FPV,
+that was even more tricky, but it felt
+good to get get that expertise up, but
+it's kind of like a skill that you
+develop and you develop that skill over
+time and you say, "Okay, for each
+skilled person, we're going to put them
+next to a drone and they're going to
+start working." But now you want more of
+these. So, uh, police companies,
+infrastructure companies need to start
+hiring these people more. And at some
+stage, this really starts to break down.
+The more 911 calls come that come in,
+the more alerts that can come in, it
+doesn't really scale. So, we kind of
+rethinking as to what this means in
+terms of this like initial firsterson
+view engagement with these systems to
+how do we convert this to a more
+strategic uh, multi- aent view that you
+can kind of command the entire fleet
+with an objective in mind without having
+to worry about the flight. Let me just
+go back and see if that was all working
+well. Great. They all landed. I am still
+pleased when that happens successfully.
+Although it's meant to happen all the
+time.
+All right, let's go back to this.
+Oh,
+all right. We're just going to carry on.
+So, what does that mean when we start to
+launch different things? You saw me
+launch them. I was still kind of
+thinking about it. Okay, I need to
+launch this one, that one, that one. And
+even myself in this like uh who's used
+to this, I'm going to have some
+cognitive challenges where our vision is
+to be able to launch uh many many of
+them uh in a potentially unsupervised
+way. So what sort of commands these
+things? How do we get it to like just
+hey get out there, launch, search in
+this area, find a missing person or look
+out for this type of car and hold your
+position there.
+And in order to do that, we really need
+to think about how do we get like really
+like the many nines of reliability that
+we need in autonomous flight. And that's
+where we get an edge in the industry
+because at Sky we're sort of controlling
+the hardware, the software, the cloud,
+the user interface to be able to manage
+all that and specifically the autonomy.
+uh allowing us to think about how our
+underlying vision system should work to
+see the environment to behave in the
+environment correctly whether it's at
+high altitudes whether it's cloudy
+whether it's at high speeds how do we
+deal in the rain on the bottom left
+we're showing how do we navigate in
+cities how do we plan large scale and be
+able to do that and for anyone that has
+worked with any sort of GPS device in
+the city even our phones they kind of
+suck uh so how do we robustly do that
+and how do we also like do tracking when
+there's a lot of occlusion
+These are the all the different places
+where we're thinking about how to train
+AI systems quote unquote models. The
+word model itself is uh has different
+meanings in different places and I'll
+discuss a little bit on what that means
+for us.
+But in order for us to you like really
+harness this is we are learning on the
+go. This is a learning flywheel that
+we're getting out there, we're
+collecting data, we're operating, and
+we're coming back and doing that so that
+each flight we can log the data. Uh kind
+of like Google Street View where we need
+to think about sanitizing that data,
+make sure there's no private information
+left there. Uh and make sure we don't
+sort of like uh uh the customers know
+exactly what they're sharing with us.
+But if we can once we do that, we have
+access to a huge amounts of data that we
+can kind of learn from every single time
+we instructed this but the drone did
+this. every single time. We thought this
+was going to happen, but this happened.
+That can come back to our uh learning
+agents, our reinforcement learning
+ecosystems to be able to retrain,
+evaluate, and send it back out there and
+kind of continue that flywheel that
+allows us to uh have that robust
+framework.
+And the other added advantage that we
+have is it's not just about having
+autonomy on the drone. As I mentioned
+earlier, we have the luxury now to have
+autonomy on the edge device, but also
+have autonomy on the cloud. what I was
+showing you earlier, all that video
+feed, all the telemetry that's going
+through a cloud server. We could set up
+GPUs and we could set up inference
+engines there to be able to have that
+heavier lifting, maybe that longerterm
+planning there, whereas the immediate
+autonomous actions happen on the drone
+and kind of always thinking about the
+trade-off that we need to make uh to
+make that successful.
+One thing is true, however, that uh once
+you do start thinking about having your
+agents from the cloud, this the amount
+of data coming to the cloud really
+matters. Uh here's us sort of investing
+in how we think about enabling the best
+um uh video quality coming up through to
+the servers uh in uh low lower low sort
+of bandwidth areas. Uh being able to
+sort of optimize that being able to un
+uh um encode that information into
+smaller sizes and be able to decode into
+something clear that allows us to have
+much higher quality exact same sort of
+network conditions here. uh and it's the
+some of the areas of investments that we
+make so that we can have this more
+cloud-based infrastructure uh to be able
+to manage this at scale.
+So once we do that I want to sort of
+explore at a high level some of the uh
+models that we um uh have in our system
+uh that allows us to orchestrate all of
+this.
+Firstly a model this is a section about
+world models. I want to sort of talk
+about world models from a context of
+maps. Not too dissimilar to how uh Whimo
+works. They have a map of the world and
+they kind of navigate in that world.
+They do local perception, but also think
+about global planning. If I want to go
+from part A of the city to part B, I
+can't just like keep hitting every
+building and kind of navigating around
+them. I need to think about what's the
+optimal path uh along the way. So, we
+start off with a lot of prior
+information. uh um and we merge that
+with uh not just sort of building data,
+but maybe there's uh vector data such as
+where the power lines are, where the
+roads are, if you want different
+behavior in these areas. And we think
+about how to combine these resources to
+ultimately build a map that we can plan
+and navigate around. And the drone has
+knowledge of this map uh at all times to
+be able to go around that.
+But like any map, maps can go out of
+date. Uh luckily we have so many eyes in
+the sky to think about how to maintain
+and update these maps along the way. On
+the left hand side uh we are rendering
+our knowledge of the world in the points
+onto our video feed. However, that
+doesn't line up perfectly everywhere. Uh
+there's some sections here that um if I
+sort of zoom out here, there's some
+sections here that a new construction
+site had set up uh that we did not know
+about. Uh however as a drone now starts
+to fly and not this is not just one
+drone but your fleet of drone they're
+now observing these things that we can
+feed back into our uh map syncing
+process that can come back land give the
+data and now once uh in the next
+iteration all the drones in the fleet
+have this most updated map of the world
+that they can uh do all the planning in.
+A second type of model is uh perhaps
+today a more conventional sort of uh
+machine learning uh inference model uh
+which is the ability to uh be able to
+track understand objects in the scene
+but be able to track them be able to
+track them behind occlusions. So the uh
+this implicit representation behind the
+scene is some sort of world
+representation of the object that hey
+it's gone behind this building and it
+might come out on the other side. So I
+should navigate myself so I can kind of
+follow it there or I should move myself
+in a different direction to be able to
+do that. Maybe 5 years ago this would be
+more done uh in a more conventional way.
+You have to like manually think about
+how to move. But now you can think about
+uh more reinforcement learning style
+techniques or more learned end to-end
+approaches that can really help out here
+without you having to engineer all the
+edge cases uh that can go in. And then
+obviously like how do we do this
+robustly rain, snow, day, night um uh
+using um vision only.
+One other thing that we're sort of doing
+here on the tracking side is we have
+some minimal set of tracking that's
+happened on device on the edge but we
+can do some higher level tracking that
+happens on the cloud. So perhaps it can
+reason more about your entire map.
+Perhaps you can reason more about use
+heavier models. Use VLMs uh uh with
+lower which have u which don't respond
+as quickly uh at a rate of like let's
+say 7 to 10 hertz but can give you
+feedback at a 1 to two second uh latency
+but that's good enough for us to make uh
+broad decisions about um where to move.
+For a lot of our um infrastructure
+customers uh we're doing a lot of
+semantic reasoning. So what is there in
+the scene? Uh here is an illustration of
+us thinking about um uh utility poles
+and we want to uh when a instruction
+comes in hey go look at this line
+there's something gone wrong the drone
+needs to go there it needs to understand
+the scene then it needs to take actions
+within that scene and we're constantly
+looking at how to build these primitives
+these tools ultimately uh that uh we
+today code but uh at any time an agent
+can access these tools to better
+understand uh what the drone is seeing
+and what it could do about
+So an example of uh the agentic sort of
+system in action is a visual language
+model on the top left side. The user
+here is typing in look for a white jeep
+uh and it's doing a sort of find and
+follow. It in it uh accesses a drone API
+to command a certain sort of trajectory
+that it should take. While that is
+happening the detection head is kind of
+uh the V uh the VLM is kind of running
+here to say hey what's what in the scene
+am I looking for? it finds something,
+then it has access to the tools that
+allow the drone to track and follow. And
+that's without any specific coding of
+that law rules, but instead uh having a
+more sort of agentic uh giving the
+agents the all the tools that it needs
+to be able to um understand the drone
+state and make decisions given the uh
+information and the context that's
+available there.
+And then there's uh always the sort of
+long-term vision uh that's often there
+in the self-driving community here right
+now or any sort of robotic system. What
+if uh we could just give it raw sensor
+data and out comes uh the perfect uh
+results. Uh perhaps that's the actuation
+that happens. Perhaps it's where the
+drone is pointing. Perhaps it's where
+the drone goes. And we're definitely
+sort of doing a lot of testing and
+triing with reinforcement learning on
+what that looks like if we have multiple
+uh instantiations of uh this um
+behavior. Does it get to the right um
+end spectrum? The main consideration
+whenever we work with a physical system
+is that you're often looking at really
+high volumes of reliability as I was
+saying many nines of reliability. uh and
+the um doing a completely end to-end
+system uh does have its challenges in
+the sense that the observability of
+what's going wrong and the guarantees on
+reliability is very difficult today. So
+while it's a direction that we're
+continuously taking and exploring, it's
+kind of figuring out which segments of
+your end to-end chunk need to move to a
+more uh um like sort of world model
+representation of it. Uh, and it's
+specifically the things where we always
+find ourselves, okay, I need to
+handgineer this. I need to code this in
+specifically. I need to look at these
+rules. Like search and rescue is one of
+those things like, oh, go look for these
+trees, but if you don't find the trees,
+look under here or then turn on thermal
+or but then if you didn't find it here,
+look there. We're trying to get away
+from having to have all these if
+statements and the code and these
+branching strategies and kind of let the
+agent have some highle tools uh to be
+able to instruct these very high level
+commands uh for the drone.
+So um I talked about a quadcopter today,
+but we're kind of doing this similar
+with a much smaller from form factor
+quadcopter and we're now starting to
+look at this what this looks like from a
+fixed wing as well. all in the world of
+infrastructure. Uh so they can be
+launched from anywhere, recovered from
+anywhere and ultimately the sweet spot
+where we can kind of start to very
+quickly build on the cloud uh to
+orchestrate these things. And the way we
+thinking about it is allowing these
+systems to have basic APIs of
+interactivity that the cloud agents can
+come in and uh tap into and make
+decisions on and ultimately allow for
+very high level thinking when we uh uh
+work with these drones.
+So like many talks here we are hiring uh
+as as I said we have full stack sort of
+uh we do the end toend thing hardware
+software autonomy full stack front end
+back end uh wireless networking
+everything all the technologies on our
+mobile phones we're now making them fly
+um so uh come say hi or look at our
+website uh would love to talk more thank

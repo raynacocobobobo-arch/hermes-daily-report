@@ -1,0 +1,1080 @@
+UP主：AI Engineer
+标题：World Models Need Causality, Not Pretty Pixels — Christopher Manning, Moonlake AI
+链接：https://www.youtube.com/watch?v=4Gqg0HVe-AY
+
+[music]
+Okay. Hi everyone. [applause]
+Um, and thanks a lot for making it down
+to the second floor and finding my
+session here. Okay. So I'm Chris Manning
+and what I want to do today is present
+something about Moonlakes's approach to
+producing a simulation infrastructure
+for practical physical AI. The overall
+goal here is that a north star for AI
+and actually cognitive science as well
+has always been to understand and work
+out how to build embodied intelligence.
+So today I'm going to tell us about some
+of the recent work that we've been doing
+at approaching a practical form of
+embodied artificial general
+intelligence.
+But you know I'm not actually going to
+start there because uh you know um Swick
+said no you shouldn't just do that. Um,
+you should have a double slot. And first
+of all, since I've got you here today, I
+should have people tell you about the
+history. You should tell people about
+the history of AI and your journey
+through it and how you ended up here.
+Um, so, uh, sit back, um, get ready for
+story time and we're going to have the
+really slow build and we're going to
+hear about all about the history of AI
+for 20 minutes and then we're going to
+hear the details about what Moon Lake is
+doing. Um, he looks very persuasive
+there, doesn't he? Whereas at the time
+we were having this conversation, I was
+having a very bad hair day. So I had
+very little um choice um to agree to
+this task. Um so here I am with some
+long-term remarks on how did I and all
+of us get to this moment from the far
+ago days um when AI didn't work. Um so
+the very beginning of AI was the
+Dartmouth summer research project in
+1956. It was for the holding of this um
+kind of summer group project was when um
+John McCarthy coined the term AI and got
+together um this group of people. Um so
+that one on the back right there, that's
+John McCarthy, there's Minsky and both
+most of them look like a real bunch of
+geeks as you can see. Um but the
+attractive one on right on the right end
+is you know my personal hero as more of
+a language guy um Claude Shannon.
+So this is sort of the start of AI 1956.
+It's where the the term AI came from.
+But really there's other stuff that came
+earlier than 1956.
+So really starting in the 40s and early
+in the 50s there was work on
+cybernetics. So cybernetics sought to
+tie together communications control and
+feedback in living things and computers.
+Um so uh you know kubernetes is really
+the same word as cybernetics just less
+anglicized um but has very different
+meaning. Um yeah so this led to the
+earliest work on neural networks and the
+perceptron network. So here's Frank
+Rosenlat's perceptron um that was you
+know predated the term artificial
+intelligence and as you can see like in
+those days you actually used to wire
+neural networks now this modern matrix
+multiplication but another thing that
+actually started before the term
+artificial intelligence and has been my
+long-term area of interest is doing
+things in natural language processing
+and natural language processing
+began as machine translation. And so
+here we are again in 1954,
+two years before the term artificial
+intelligence was coined. And here's the
+front page of the New York Times. Now,
+there's a way in which the front page of
+the New York Times in 1954 is
+surprisingly reminiscent of the issues
+that you see in the front page of the
+New York Times um in 2026 because it's
+exactly the same issue. President
+proposing ending citizenship for people.
+Um not much has changed in the um
+intervening 75 years. Um allegations of
+various kinds of behavior akin to
+treason. All sounds very familiar. Um,
+but this was the top half of the page.
+And if you went down to the bottom half
+of the page, um, you found this article.
+Russian is turned into English by a fast
+electronic, um, translator. A public
+demonstration of what's believed to be
+the first successful use of a machine to
+translate meaningful text from one
+language to another took place here
+yesterday afternoon. Um, and here's a
+little bit of video of showing that
+system.
+into
+one of the first nonmerica
+were made that the computer would
+replace most human translators.
+>> Okay. Um, and we'll come back to that
+again in a little bit. Um, but coming
+off of the founding of AI, um, by John
+McCarthy, fairly soon after that, John
+McCarthy moved to Stanford and founded
+Stanford Artificial Intelligence, the
+Stanford Artificial Intelligence Lab,
+starting from 1963.
+And the original Stanford AI lab was in
+this um, building up in the foothills.
+Um if you down if you know the South Bay
+well um if you've ever been to a
+restraero and you look over next to a
+restraero um where there's the Portola
+pastures um horse area or if you ride a
+horse um that's where this AI lab used
+to be and that was the site of many of
+the um founding um work in artificial
+intelligence and also a lot of other
+stuff. Um the Stanford AI lab was the
+where the very first video game
+tournament was played in 1972.
+Um now McCarthy himself um was um
+mathematical logician and nearly all of
+his work was sort of building out these
+not notions of mathematical logic but in
+his thinking he was very wide ranging
+and so he
+he liked the idea of how could we build
+an embodied artificial general
+intelligence and was very happy to sort
+of provide the facilities and the money
+for other people to start to explore
+this. Um so this was the Stanford AI
+Labs um very first robot um the Stanford
+cart not very fancy um the old um sale
+building um but more relevant to what
+we're going to talk about today for
+simulation infrastructures for AI um was
+another robot um Stanford SRRI shaky
+robot
+>> mach
+audio Um, so this was a robot that could
+um perceive the environment, move
+around, move boxes and so on in the
+environment and do things like that.
+Okay. And so this sort of started to
+explore this idea of having an embodied
+in artificial intelligence that had an
+understanding of a world and its
+environment.
+Um, just one little distraction that's
+not really about AI. Um, who here has a
+connection to Stanford? Stanford
+connections. Who here has a connection
+to Berkeley? Berkeley connections. Less
+Berkeley people. Anybody with a
+connection to both places? There are
+some people who've been to both of them.
+No. Okay. Um, so I just have to put in
+my advertisement for early Stanford. Um
+if you're an artificial intelligence
+person you know the story in the early
+days is all Stanford. I mean there you
+know there are two different stories I
+can tell right you know if you're in the
+history of west coast universities
+really in the first half of the 20th
+century all the prominent stuff was
+Berkeley and that Stanford was um this
+sort of pokey regional school but once
+you get to the second half of the 20th
+century which is the era of computers
+and AI um it all happened at Stanford um
+So that you know if you look at things
+like the beginnings of the internet, the
+Arpanet, um here it is in 1972
+and it connects up some UC campuses,
+Berke um UCLA and Santa Barbara and
+connects to Stanford, MIT, Harvard, but
+no Berkeley. Go ahead to 1980. Um
+Berkeley still isn't part of the
+internet. you know, it's made it as far
+as Hawaii and London and Berkeley is
+still not there. Um, and really in all
+of this period, there just wasn't AI at
+Berkeley. I mean, there was other stuff
+that went on at Berkeley, I should be
+fair. There was important systems work.
+There was ingress database and BSD Unix,
+which some of you probably remember if
+you have gray hair like me. Um, but you
+know, essentially through the 60s and
+70s and the first half of the 80s, there
+was just no AI at Berkeley. And so AI at
+Berkeley really only got underway in
+1986
+um when two fresh Stanford PhD grads um
+Jendra Malik and Stuart Russell um moved
+from Stanford um to Berkeley to take up
+professorships. Now of course that's 40
+years ago now. So, they've had they've
+had um AI for a while at Berkeley now,
+but not in the old days. Um, if you'd
+like to know more about this history of
+the old days, um, a couple of years ago,
+we actually put together, um, a story of
+the first 60 years of, um, AI at
+Stanford. Conveniently, um, the 60 years
+stopped just before the arrival of chat
+GPT and large language models. Um, and
+you can, um, find it on YouTube.
+Um, okay. So, that was my very brief
+potted history of AI. Um, what did I do
+for my life? Well, what I did for my
+life was to be a natural language
+processing person. And so, a natural
+language processing that was where we
+developed language models. And language
+models actually in some form go back a
+very very long way. So the first
+language model was proposed by Andre
+Marov who invented Markoff models right.
+So in developing the idea of Markoff
+models he actually did it with language
+um taking a novel of Pushkin's Eugene
+Anagen and developed a character level
+language model over that. Um but the
+famous thing is then back to Claude
+Shannon who we saw earlier who sort of
+formalized information theory and
+started to build um word and character
+engram language models in the late 1940s
+which is the dominant stuff that we went
+on and using and in particular um then
+in 1975
+again so back in the sort of early part
+of AI um a famous group at IBM Fred
+Gelan's group at IBM sort of defined
+well they came up with the term language
+model that we still use today and they
+defined this idea of probabilistic
+models of text that could be used as a
+basis for all kinds of speech and
+natural language processing
+applications. So really from very early
+on in the speech and NLP tradition,
+language models were seen as a central
+technology that other people in other
+areas of AI and um machine learning just
+didn't really know about. And it was
+what enabled
+um interesting good things to happen
+early in speech and various areas of
+NLP. So both early speech recognition
+systems but also the kind of um machine
+translation that you got at Google
+starting about 2007. It was considerably
+powered by language models. And so I
+think there's actually a kind of an
+interesting story here of the
+development of our modern AI
+um sorry which is um slightly different
+to the story most people remember which
+um is a story that's dominated by the
+vision story because the vision sort of
+came in most people's head to be seen as
+the sort of entry place of neural
+networks in a large scale. Um but
+nevertheless I'll point out the
+limitation of this early work in
+language models. It was used for
+spelling correction, machine
+translation, all of these things. But at
+this time, nobody thought of language
+models as these were going to solve
+artificial intelligence. We still all
+bought the old AI story of that we're
+going to need memories, knowledge
+representations, planning systems,
+reasoning systems, all of these classic
+AI things.
+Yeah. So here's the sort of history of
+large language models from an NLP
+suspect perspective. So the very first
+mention of the term large language
+models was in 1998 as far as I can tell.
+But you know really that was sort of a
+how are we going to store all this text
+um to build a model. So the first
+interesting um connection of large
+language models was in 2000 when Joshua
+Benjio and colleagues defined new
+probabilistic language models. the first
+neural language model. Um, but as you
+can see from those stats of 32 million
+um token corpus, 31,000word vocabulary,
+this was a teeny model because at that
+point they just didn't have enough
+compute to do anything interesting. Um,
+but interestingly as early as 2007
+at Google they were able to solve the
+compute problem and the data problem.
+Um, so most people forget this now, but
+in 2007,
+um, Google had a language model that was
+built on two trillion tokens of text.
+So, you know, that's a bit smaller than
+the state-of-the-art models now that
+might be trained on 15 trillions of
+text, but it's actually the same order
+of magnitude, right? So we all already
+in sort of two decades ago there was the
+scale of data and compute to build a
+form of language model. The big problem
+was they didn't have enough model
+flexibility that the kind of modern
+powerful neural networks that we use
+today hadn't yet been invented.
+Um and so it was then only in 2018 that
+modern large language models started to
+appear using transformers. But the early
+versions of those um were back to small
+amounts of data. So the early GPT model
+only used 3.3 billion tokens. So down
+three orders of magnitude in size again.
+So we reverted to not enough data. And
+then it was eventually only in 2020 with
+GPT3 forward that all of those things
+came together and language models really
+took off as we know about it now.
+Um and so that led to this surprising
+victory of natural language processing.
+I mean it actually gives me a bit of a
+laugh um that if in the sort of mass
+media if you see a reference to AI these
+days with pretty high probability
+they're actually going to be talking
+about a large language model which
+wasn't the way it used to be where NLP
+used to be a fairly marginal area of
+artificial intelligence. And as we all
+know, these large language models have
+allowed us to do amazing amazing things.
+And so the ability of these systems to
+reason and solve complex problems like
+math problems is just completely
+stunning. I mean, you know, even for
+someone like me who's spent my 30 years
+working in natural language processing,
+I kind of find it hard to believe that
+you can pick really difficult math
+problems of a kind I certainly could not
+solve myself and just feed it into a
+large language model and somehow it can
+um chunk along doing its test time
+thinking and come up with right answers.
+I mean it's just been a sort of a
+stunning breakthrough from an unexpected
+direction. Um so that's been most of my
+world but then here we are um now
+getting back into the main topic of the
+talk of well where are we um why is
+embodied artificial general intelligence
+a north star that we should be looking
+at and the reason for that is even
+though it's been so amazing what can be
+done with large language models they're
+still this textbased description of the
+world. And it turns out that you can do
+a lot of stuff with a textbased
+description of the world. I think it's
+true that we can do just way more than
+almost anybody believed possible with a
+textbased description of the world.
+Certainly a lot of prominent people in
+robotics and computer vision spent a
+decade saying, "Oh, you'll never be able
+to do that with a large language model."
+where actually we've been able to do a
+lot of that with a large language model.
+But still at the end of the day um we do
+actually want to deal with the world
+around us and have artificial
+intelligence that can operate in our
+world. And so the question is then how
+can we build these embodied artificial
+general intelligences?
+And so gradually I started to um get a
+bit more interested in well how can we
+start to incorporate the visual world
+and I started to look at things like
+visual question answering and how you
+could connect between um text and then
+generative models of visual worlds and
+reason about that. And so today I'm
+going to be telling you more about how
+you can build out that line of work and
+be using simulation as a way to start to
+approach um embodied artificial general
+intelligence. So why do we want
+simulation? Um there are sort of two
+ways that you can go about um starting
+to build intelligent models of the
+physical world. One way of doing it is
+that you're actually going to directly
+learn in the real world. So you can um
+set up hardware or collect your YouTube
+videos in the real world and start
+learning intelligent policies for how to
+act. So this was the kind of approach
+that was used in Google X's QOP um work
+that you've got your um rows of robot
+arms that are doing things. you're
+recording what they're doing and you're
+in the physical world starting to learn
+a policy. Um, that's a really unpleasant
+way to try and make progress. So, when
+people are do making progress in this
+kind of world, you're getting about
+10,000 hours of teleyop, that means a
+human is moving the robot around um data
+to start to train a model. um it's not a
+very appealing picture. If we want to
+start having generally good robotics,
+we're just not going to get very far if
+we're sort of um chugging along at the
+speed of these robots um moving.
+But interestingly, if we go back to
+Shaky in the 1970s,
+Shaky had a different answer. Shaky
+said, "Well, we shouldn't just have the
+real world that's surrounding us. We
+should also have in the robot's head a
+world model that has an internal
+representation of what the world is
+like. So this idea of a world model as
+an abstracted internal representation of
+the world which can be used for
+simulation and planning that's an idea
+that goes back to cognitive science. So
+it was first proposed by Kenneth Craig
+um in the 1940s. So he argued that
+humans and other creatures have world
+models inside their own heads. Um so um
+that they can think about alternatives
+and how they're likely to play to play
+out and therefore they can think of good
+plans um before acting. And so that's
+also what we'd like our robots to do is
+to have the same kind of abilities. Um
+so this was Shaky's world model. So,
+Shiki had a kind of a blocks world where
+it was actually a grid world as you
+might remember from your early AI
+textbooks, but it was representing um
+what was in different places in the
+world and what were the attributes of
+different things and it was all stored
+in this kind of logical representation
+in those days. So how now can we start
+um building a 21st century version of an
+embodied artificial general
+intelligence? And I think the right way
+to do it is to work out how to build
+good action condition world models. And
+today I want to talk about a practical
+effective way to build a simulation
+infrastructure that can be used um for
+as a basis from embodied AGI.
+So the idea of a world model is now
+normally formalized in terms of
+reinforcement learning ideas that what
+we do is we have observations of a world
+but we assume that underlying those we
+have a semantic abstracted
+representation of the state of the world
+in our head. And what the world model
+does is gives us an ability to try and
+predict um when an action is taken in
+one state, what new state is going to
+emerge. And so the crucial thing there
+is that the world model is abstracted
+and has more semantics. Quite a lot of
+the time when people have talked about
+world models, they haven't really been
+thinking about the abstraction and the
+semantics, they've just been talking
+about can you produce beautiful
+generative AI video. Um so here's um
+Genie 3. Um this is kind of a cute
+example by Riley Goodside who was the
+same person who got a lot of fame in the
+early LLM days by being a good prompt
+engineer. um and he's now playing around
+um here with Genie 3. And you know the
+the kind of things you can do with Genie
+3, you know, it looks beautiful, it's
+wonderful, it's pretty fluid, it seems
+great, but you know, most of visual AI
+for this period has been just judged by
+the pixels. If you've got beautiful
+pixels, you've got a beautiful piece of
+software, but these pixels are trying to
+simulate observations. They don't
+actually have or represent any of the
+semantics behind the world. And
+therefore, they aren't good at realism.
+They aren't good for giving a basis to
+plan. They aren't good for actually
+having a robust simulation
+infrastructure of the real world. And so
+we want this kind of simulation
+infrastructure because with a good
+simulator we actually have causal
+knowledge of how the world works which
+allows us to predict and plan how things
+will work in any situation. And so
+that's the kind of world um that we're
+wanting to have and make available at
+Moon Lake. So the starting point is a
+real world observation. Um, so given an
+image or a bit of video, we want to be
+able to interpret this image as an
+observation which is always partial of
+what's actually in the underlying world.
+And then what we want to do is
+reconstruct a model of this world which
+actually allows us to do stuff in it and
+see how it reacts. that this will give
+us a basis of being able to work out
+causality, work out how to plan and
+reason in a repres representation
+condition way which gives us the basis
+for intelligent robot actions inside
+this world.
+So what might one do here? Well, the
+first thing you can do is take that um
+picture and feed it into one of our
+well-known um other companies products
+and say, "Okay, make a simulation of
+this world." Um and so this is what you
+get from Marble. And it's a pretty good
+simulation of the world. And if what you
+want to do is just uh walk around in
+this world and see it from different
+angles, this works pretty well. Um the
+question is is this a good simulation
+and whether it's a good simulation
+depends on
+what problem you want to solve in the
+real world. And then is does this give
+you sufficient information to solve the
+problem in the real world? And if all
+you want to do in the real world is to
+be able to wander around and see the
+view from different angles, then this is
+great. We're done. But a lot of the time
+what you'd like to do in the real world
+is understand the objects are here and
+to be able to do things with them.
+Right? So there's some objects here.
+There's a kettle and there's a box and
+there's a cup. But in the marble world,
+there's nothing you can actually do with
+these things. All you can do is sort of
+wander around as a disembodied figure.
+Um, and so for a lot of purposes such as
+doing things with robotics or other
+physically accurate worlds, um, we need
+to be able to have more understanding in
+our model of the world, a better, more
+detailed simulation. And so at Moon
+Lake, we're wanting to work out what
+people actually want to do with their
+simulation, and then to build the kind
+of simulation that will power that. So
+you might think, oh, I actually want to
+be able to move around the objects in
+the world. And so that's the kind of
+starting point of the kind of thing that
+we're trying to do at Moon Lake. So if
+we want to um have a world in which we
+can move things around then we're saying
+okay kind of like um image blaster a
+system like that we actually need to
+take this world and understand what's in
+it and then have objects that can be
+manipulated. So we separate out a
+background and then objects inside that
+background with then being able to sort
+of have the background world in a
+representation that's similar to marble.
+But then in the foreground there are
+various kinds of objects that we can
+manipulate and move around. Now, well,
+that's a start, but um in the previous
+picture, um the tea box was always
+closed. And we might wonder if you can
+open up the tea box and see what's
+inside it. Um and well, this is sort of
+a part of how observations of a world
+are always partial. Um for what we could
+see in the actual photo, there was a
+closed tea box. We couldn't even see the
+tea box very well. How could we possibly
+know what's inside it? And well, the
+answer to the way we can know what's
+inside it in the 21st century is we go
+off and do a little bit re of research.
+We fire up um getting information um off
+the web um in a
+a rag style fashion um to work out
+what's there. And then we can find
+images of this um tea um box on the web
+which show it in more detail. They show
+a picture of what it's like when it's
+open. There are descriptions of it.
+Organic luxury tea bag collection,
+leather gift box. It gives its size. We
+can find all about it. So therefore, we
+can build um in our simulation um a tea
+box with an understanding of the
+contents of that tea box. Well, that's
+really good. Um, so how now we have um
+the tea box with tea bags inside it. But
+if we do nothing else, um, they're just
+sort of sitting there and movable. So
+we'd like to realize the fact, well,
+wait a minute, tea bags you can lift up
+and you can take out of a tea box. So
+then we need to start having these
+teaags also um be objects that are
+modeled in our simulation that they have
+a size and an ability to be manipulated
+as well. Um so how are we doing all of
+this? And so a distinctive part of
+what's happening at Moon Lake is
+building although part of this is in the
+world of vision
+a lot of what we're doing is actually
+back in the world of code. So this is
+picking up on the idea um that what's
+normally referred to as language models
+but these days are really symbolic
+models which work on not only human
+languages but also math code and things
+like that that they that has been just a
+very powerful substrate with which to
+make progress. And so we are producing
+controllable manipulable world models by
+generating the controllable parts of
+these worlds by putting code under them.
+And in particular, um, we can train
+these code models using the same kind of
+loop engineering that many of you will
+have seen, um, with Claude that we're
+having a loop where we're writing code
+to render objects,
+um, and put on that um, diffusionbased
+textures, etc. We can then assess how
+good our render is against physical
+reality and then we can work out the
+deviations. We can revise the code and
+make better and better um renders of
+what goes along. And so that's the way
+that so we're building this detailed
+action conditional world model so that
+we can take actions on the objects in
+the world.
+Um so that means that we have a kind of
+neuros symbolic representation of the
+world here and neuros symbolic
+representations have a big advantage
+that the symbolic representation can be
+easily interfaced controlled edited and
+maintained in our human world. Um, and
+so the message I'd like to give as a
+little delta of a message here, um, is
+most of you are probably familiar with
+Mark Andre's famous statement 15 years
+ago, software will eat the world. And
+you know, that was mostly right. Um but
+I think it wasn't completely right
+because it's just not the case that
+software ate the physical world. Um it,
+you know, a lot of the world went
+virtual and um a lot of the world is
+inside computers now and yeah it could
+eat all of the processes of managing,
+counting, supplying all um records of
+suppliers, all the stuff that's in the
+virtual world. But we hadn't had the
+power for software to eat the physical
+world. Whereas the hope is with this new
+ability of being able to build
+verifiable simulations powered by code
+of the sort that I've just sketched for
+a moment there that this will allow us
+to actually have verifiable simulation
+which will also eat the physical world.
+And so that's the kind of thing we
+built. And we can go on from here and um
+you know keep on making further steps of
+this. Right? So we maybe don't want to
+only have tea bags um in foil
+containers, but we'd like to be able to
+um take them out of the foil container
+and we don't we somehow want to actually
+get the tea bag inside the cup because
+that's a useful step for making tea. And
+then of course we also want to have um
+the jug of um water which we want to be
+able to boil and then be able to pour
+that into the tea. Um and once we have a
+good world simulator like that, the idea
+of this is that we are building in all
+of the parts of the simulated world
+which will allow effective transfer into
+the real world. And it's important to
+think about that as to sort of what's
+necessary for different kinds of
+transfer. And the argument um that I
+we'd like to make is that you know
+normally uh simulation isn't complete
+and accurate in every detail because
+there are sort of parts of the world
+that are important to you and parts of
+the world that aren't important to you.
+I mean, this is the same with human
+world models, right? That a lot of the
+world we're not actually modeling at any
+time, but we're modeling the bits of it
+that are important to us. And it's
+having that control of which things you
+need to model and use is what needed
+then to give you the actual simulations
+that will be allowed to be effectively
+used um in the real world. So, what kind
+of applications
+um is this going to allow us to do? So
+the hope is that um rather than having
+to collect 10,000 hours of data in by
+teley op in the real world, we can
+instead build accurate simulations which
+will allow transfer to real. So let me
+show you the kind of progress that we've
+been making on this. So this is um not
+highuting robotics um but is the kind of
+physical AI that you find everywhere in
+the real world that there are things
+happening in physical processes um which
+you'd like to be able to um understand
+and automate. And so in particular, um,
+if we're going to realize any of the
+dreams of bringing back America as a
+great manufacturing economy, it seems
+like we have to work out how to be able
+to automate much more in the physical
+world. Well, um, using the Moonlake AI
+technology, what we can then do is say,
+so from this short video, we can
+automatically produce an accurate
+simulation of that world, turning it
+into a 3D world with enough detail about
+how things move and what objects are in
+the world that we can start to build on
+this and use it as a basis of simulated
+data which transfers refers accurately
+to the real world. So we then have this
+model which allows us to get 10,000
+hours of simulation um for free. And so
+on the basis of that um we can then
+train up a robotic system that can
+operate um to actually um explore what
+you can do in this world and learn the
+way to operate in the world so it works.
+and then we can have the effective and
+cheap training of robotic systems.
+Okay. Um so that's the story. Um thanks
+a lot everyone.
+[applause]
+And I do have time for questions I
+believe.
+>> Thank you very much for the
+conversation. Um, super deep. My first
+question is, would this be applied to
+something like the gaming industry and
+how could they use it for we're seeing
+GTA 6? Everyone is talking about this
+new game. Um, I could see a very
+application there where you could have
+endless interaction with the world model
+that they're building. U, have you been
+working with the gaming industry at all
+or this is more applied to robotics?
+>> Um, so yeah, absolutely. Um, another
+hugely good area for this is in the
+gaming industry. And you know, the real
+world is then kind of a virtual world,
+but you can have a simulation of your
+gaming world um, and then be building
+the same kind of embodied intelligence.
+And the gaming industry has some really
+appealing attributes. Well, you know,
+there are millions and millions of game
+players, so there's lots of easy data to
+collect. Um the people who are gaming
+have goals which are fairly clearly
+known. So you can sort of learn in a
+reinforcement learning loop good ways to
+act. And so absolutely one of the
+applications that Moon Lake has explored
+is in the gaming industry and there's
+likely to be more of that. Um but
+recently we've been actually
+particularly emphasizing physical
+infrastructure and doing simulations in
+the physical infrastructure world.
+>> Thank you so much.
+Uh so it's fascinating to me that that
+you're turning back to neurosy symbolic
+representations and um the part of the
+original kind of old school AI involved
+a lot of ontology development and
+knowledge representation and logic and
+representation of that. Do you see a
+role for uh deepening the neuros
+symbolic representation using kind of
+like what we how ontologies have been
+developed previously to model um a
+representation of the real world? Um and
+do you see that as being a kind of an
+area of expansion and development for
+the type of tools that you're working
+in? Yeah, I mean I don't think we're
+quite going to go back to old style
+ontologies and knowledge bases, but I
+mean effectively
+that is what we're doing, you know,
+apart from it's in new clothing of um
+having it being um code that I mean I I
+do you know this is an interesting space
+and we can talk about it in more general
+right there is you know there's sort a
+purely neural approach in which your
+latent representation of the world is
+purely neural and so that's the kind of
+thing that the jeoper architecture is
+after I mean in some ways that's a good
+pure neural approach but on the other
+hand that's very hard for humans to
+connect to in any way or for other
+applications to connect to in any way
+and so our bet is that the sort of
+practical ical way to have a physical AI
+simulation infrastructure for the
+foreseeable future is to base it on
+symbolic representations.
+Taking advantage of sort of the huge
+power of code that we see everywhere
+around us in the sort of um codeex cla
+code era that those kind of symbolic
+representations allow um neural eye
+systems to reason, plan and do all of
+these things excellently well. And so to
+some extent yes that will be bringing
+back notions like older fashion
+knowledge representation.
+Mic keeps on.
+Hello. Hello. Oh hi. Um so a lot of our
+existing um it seems like industrial
+robotics use cases or to sort of
+automate existing sort of human manual
+intensive processes. Um would investment
+in
+development of like world models would
+that allow us to go explore novel new uh
+processes or activities where they're
+currently not accessible by human labor
+or by even the kind of existing um
+industrial manufacturing processes that
+we have.
+>> I mean sure absolutely. Yeah. So for the
+example at the end I showed a very old
+school um conveyor belt system but I
+mean you know we're also in this world
+of amazing things happening in humanoid
+robotics and for any of the new forms of
+robotics automation
+other cases you could think about doing
+things in space well you'll have exactly
+the same problem that You want to train
+up AI agents to be able to act in
+different scenarios and it's extremely
+costly and difficult to do that training
+in the real world. Um and it's very hard
+when training in the real world to get
+out into the sort of tale of rare cases.
+I mean you've seen that um for
+autonomous driving, right? There's a
+reason why autonomous driving kind of
+took 20 years to arrive. Um from you
+know Stanley breakthroughs of yay
+autonomous car wins the race to actually
+having Whimos um widely deployed is
+because you have this enormous tail and
+the way to get out to that tail for all
+of these new applications with um
+humanoid robotics, space robotics, etc.
+is to have good simulation.
+>> Hey, uh thank you for your talk. I love
+the energy. Uh my question is you showed
+a video of water. Uh so is everything
+like learned from videos or is like
+physics ingrained in anything like for
+example does your model know any
+physical properties of water like
+viscosity, Bernali's laws or like for
+example friction. uh for some use cases
+like self-driving maybe those things are
+like not important right you just need
+to know the velocity and stuff but like
+for other use cases I would imagine
+these physical properties are important
+so
+>> and we absolutely know physics I mean
+this is the sense in which this
+neurosyolic approach is you know you
+call a conservative approach if you will
+you know that this is absolutely using
+physics engines and knowledge of physics
+um to in its generation and control of
+movement, right? That if you're what you
+know when you've just started off with
+an image of water or and you want to
+understand how that's behaves, you're
+using a physics model to predict how
+it's going to behave.
+Okay.
+Um I know is there time for Oh, there's
+someone else at the mic.
+Hi.
+>> Hey. Uh, Professor Manning, thank you
+for this presentation. Um, I have a
+question about seem to row gap. So, I
+mean, simulation is great. It's cheap,
+is scalable. Um do you have a suggestion
+for um how we close the simulation to
+real gaps
+[snorts] encounter you know like the
+like fix part that we are not able to
+accurately simulate and like mechanical
+tolerancing back latches like all those
+things that we are not able to put into
+the simulations.
+Um yeah so traditionally the problem has
+always been the simtoreal gap and the
+simtoreal gap seeming too large so that
+a lot of the training has had to happen
+in the real world
+and we believe that the answer to that
+is you know effectively claude code loop
+we're now in this world in which we can
+do neural optimization.
+So we can have the simulation
+compared to behavior in the real world
+with video and we can automatically
+learn to shrink the sim to real gap in a
+way that just wasn't possible when you
+had people trying to handr write a
+physics simulation of something.
+This this was a great discussion. Thank
+you. Um tangential to the question that
+was just asked, how do you see like what
+do you see the biggest challenges are to
+adding like the sociote techchnical
+layer, the pieces, the the processes,
+the people, the authorities that make
+decisions on the objects that you're
+looking to simulate. What are the
+biggest challenges to developing a
+system that has accurate representation?
+So for example, if we want to model uh
+EV tolls or um doing you know
+forecasting of energy at airports uh you
+know things like that not necessarily
+extending beyond the robotics into these
+other um use cases areas.
+>> Um yeah that's a great area. Um in all
+honesty it's not something we've been um
+really dealing with at Moon Lake. Um,
+you know, at the there are still some
+limitations, but you know, large
+language models with their slurping up
+of enormous amounts of human behavior
+data that they're actually getting
+better and better at being able to
+simulate how human beings, different
+kinds of human beings are going to
+behave and react in different
+circumstances.
+So I think we are starting to approach
+the point in which we can have fairly
+good human behavior simulators that are
+being powered by the knowledge of large
+language models and there are a couple
+of companies that are now starting to
+look at that.
+>> Cool. Last question. Yeah.
+person over here has one for a long
+time. [laughter]
+>> Thank you. Um so if you look at um
+analog chips for instance right the
+physics is understood but as you go
+higher up the chemical operations then
+the heat and those things are still
+people are working on it. So that's not
+what you call completely
+um understood. Now I'll give you another
+example of say I'm looking at kidney
+related uh literature and stuff and then
+liver related stuff
+these things it gives a pretty good
+answer the kidney stuff it gives answer
+but when you look at the relations
+between the two people have somewhere
+u doctors have made a link and that's
+why you are able to see my take is if we
+operated completely in the
+latent space and we did not know the
+connection connections at a human level.
+Can we explore in the latent space
+completely and be able to find hidden
+connections over there that could
+translate into the real world or am I
+thinking something crazy?
+>> Yeah, I mean absolutely. I mean to the
+extent that we have a pretty good
+simulation, we can hope to find
+surprising discoveries that turn out to
+be correct in the simulated world. I
+mean, you know, things go both ways,
+right? There are also likely to be
+things that turn out to be true in the
+real world that weren't in our
+simulation, right? There's this famous
+statement about all models are wrong,
+but some models are useful, right? And
+that so anybody's world model,
+regardless of whether it's the one we're
+building or the world model in a human
+head, right, they're not always right.
+Sometimes we think a person's going to
+react in one way and they react in
+another way. But nevertheless, a lot of
+the time it can let us explore much more
+widely and discover new facts and new
+connections that we weren't aware of in
+the real world.
+Okay,
+>> awesome. That's a wrap everyone. Thank
+you so much, Chris.

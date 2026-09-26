@@ -1,0 +1,620 @@
+UP主：AI Engineer
+标题：Mousepower: agents that can’t be measured, can’t be managed. — Maximillian Piras, Yutori
+链接：https://www.youtube.com/watch?v=8KkibGU_DDY
+
+[music]
+>> Um well, thanks all for your time.
+Really appreciate you dropping by and
+it's always a a great honor to speak at
+the world's fair. So, I'll do my best to
+uh
+give you guys some valuable insights and
+um
+yeah, hopefully make it worth your time.
+So, my name's Maximilian Piros and today
+I'll be talking about mouse power.
+And this is a talk about measuring
+agents through mental models.
+But before I get into talking about
+measuring agents, I'm going to talk
+through a bit about how I use them every
+day. And it might seem familiar to you,
+but just to level set, we'll go through
+it. So, uh I tend to background them
+like I'm sure a lot of you people are as
+well.
+Um so, while my active attention is
+focusing on one thing, like perhaps
+giving this talk to you, I still want to
+make some progress on peripheral tasks.
+So, I'll keep my attention focused on
+giving this talk, while my agents can
+help me explore some designs in the
+background cuz I think that uh my slides
+need a bit of work. So, you know, I've
+got my design system already set up.
+I've got some guidance uh given to my
+agents. So, I'll kick off an agent to
+just try to explore some different
+directions on the type type two
+treatment and the layout. And um you
+know, just try to get as many
+explorations as possible.
+But of course, uh one agent's never
+enough. So, I like to kick off a bunch
+in parallel. You know, I've got a lot of
+slides to get through. So, I need all of
+my agents on and exploring it in
+different directions and
+uh hopefully I can get some interesting
+things to make my slides a bit better.
+And uh hopefully they can finish the job
+pretty soon cuz we're obviously kind of
+up against uh the timeline the the uh
+deadline here.
+So, um
+this is generally how I work. I'm sure
+it's probably familiar to a lot of you
+where we're just trying to kick off
+agents for as much as possible in
+parallel cuz it always feels like
+there's just way more research to do. We
+want it to be as thorough as possible.
+There's way more design explorations to
+do. So, whenever our main focus is on
+one thing, why not kick a bunch of
+agents off in parallel and just try to
+maximize your time. And it's a lot of
+fun, of course, until you get the bill.
+And then you start to wonder, was it all
+worth it? Right? Did
+did you vibe code too hard?
+Were you token maxing too much? Like,
+could you have been more efficient in
+how you approached
+your sequencing your agents?
+And so, this is what I'm going to get
+into today. It's It's how do we evaluate
+the token cost? And specifically, how do
+we help our customers value it?
+So, for the past year and a half, I've
+had the pleasure of working as a
+founding designer at a company called
+території and we focus on computer use
+models. These are models that learn to
+use a computer like a human would and
+the use case for them is when you can't
+get information from an API or an MCP,
+why not just send an agent out to use
+the computer like a human would and then
+we can extract all types of data and
+manipulate it in ways that let us access
+all the stuff that wasn't accessible
+previously. So, obviously less efficient
+than APIs and MCPs, but as a last
+resort, just have an agent go use the
+computer and try to get the information.
+Here's the U території agent using the U
+території website.
+Um checking out its own benchmark. So,
+kind of it's admire itself in a way. So,
+yeah, it gets it gets a bit weird. Like,
+and a lot of what I do as a founding
+designer there is talk to customers, try
+to understand how can we make agents as
+intuitive as possible, how do we figure
+out the mental models they're using to
+value the use cases they want to send
+out agents for.
+And a lot of them do seem pretty
+confused so far. A lot of people are
+excited about agents, but the phrase
+that comes up quite often is that they
+feel like they're just scratching the
+surface. Um
+it seems like it's not quite intuitive
+how we can best use them yet. And so, in
+a lot of my uh customer discussions,
+it's it always comes down to a question
+of like, what is the best way to use use
+uh to use agents? What are the best use
+cases for them? And how do I think about
+the trade-offs with regards to token
+costs relative to value? So, I think
+we're still kind of building this muscle
+today. And this leads me to the thesis
+of the talk, which is that I think
+agents have a measurement problem.
+And uh as an example, here's me at work
+trying to measure some agents, and one
+of my co-workers took this photo and
+told me I looked like
+I was uh trying to solve the mystery of
+Pepe Silvia. So,
+uh
+as you can see, it's it's
+it's not a it's not an easy task to to
+measure agents. But, I'm sure some of
+you are saying, "Hold on a sec. Like,
+what is this guy talking about? I've got
+a fleet of agents working for me right
+now. We're building our next
+million-dollar app as we speak, and I'm
+having a a totally fine time uh
+measuring my agents." Uh to which I will
+agree with you, uh but then I will point
+you to the mandatory Upton Sinclair
+quote to remind us all that everybody in
+this room is very biased, and we're
+early adopters, and we're very excited
+to explore this new technology, but it
+doesn't mean that we represent the
+people that ultimately we're going to be
+trying to help adopt this technology.
+And so, you know, I think it's important
+to remind ourselves that in some way or
+another, we probably are selling tokens,
+whether it's indirectly or directly. And
+so, when we think about our own token
+usage, uh is it really representative of
+all the people out there who have never
+touched an agent yet? Uh some people are
+still copy and pasting into ChatGPT.
+I may be married to one of these people,
+and despite how much I tried to get her
+to try out agents, she's not let me uh
+set her up with it yet. And so, um as a
+reminder, uh when we think about helping
+people adopt agents, you know, all the
+people across the world that we think
+could get as much uh excitement and
+value as as we do when we run off
+parallel agents, let's uh just remember
+this quote.
+>> [snorts]
+>> And um
+so, it really boils down to the age-old
+problem of a new technology.
+And of course, there's tons of history
+we can go to to study how people solved
+this in the past. We have this really
+exciting new thing, but we haven't quite
+uh figured out the right ways to
+communicate it.
+And so for this talk, I'll go back to
+the 1700s and we can take some notes
+from when James Watt was trying to sell
+steam engines.
+And at the time he decided that uh a
+great use case for his steam engines was
+trying to replace a horse gin. And these
+are the was the power source of a mill
+at the time. So when you're
+for uh let's say a brewery and you you
+need some power source to to grind your
+barley or whatever. I don't know. I'm
+not I'm not like a big brewery guy, so I
+don't know exactly what how it's made,
+but you need a power source and the
+power source at the time that was common
+was you hooked a horse up to a rotary
+arm and the horse walked in a circle and
+that's how you generated your power.
+Uh and seems crazy today maybe, but um
+at the time was commonplace and Watt
+thought, you know, it would be much
+better than a horse is like a very
+efficient machine.
+Although he um rightfully acknowledged
+that one of the big barriers to adopting
+it would be this cognitive dissonance of
+trying to tell people who kind of think
+in horses, how do you adapt to this to
+this uh cold machine that's kind of
+intimidating and scary and perhaps uh
+somebody's going to say it's going to
+solve all your problems, but you you
+can't quite see the vision yet. So uh
+perhaps that sounds familiar to any of
+us working in agents today.
+And Watt's solution was that he needed
+to understand um the mental model of
+these people and specifically to create
+a metric that would help him uh give
+some baseline of the relative
+improvement in efficiency.
+And so he literally studied uh horse
+gins and tried to get some kind of
+armchair measurements of of how is uh
+like where the mechanics and the average
+um performance of it and eventually came
+to a metric called horsepower,
+which may sound familiar.
+And uh he used this measure to, you
+know, this was to quantify the the
+general power that the horses were were
+um creating at the time and then he
+could use that as a basis to show the
+multiplier of efficiency that a steam
+engine could provide.
+And this metric was not very scientific
+at the time. It was not necessarily even
+accurate, you could say. But the main
+thing it did was it communicated an
+increase in value and so this led people
+who love horses
+let them kind of calibrate their
+the the efficiency gains that they could
+get by by attempting to adopt a steam
+engine. So not even necessarily um
+what you would get when you use it, but
+what would get you over the limit of
+trying it out in the first place.
+And you know, it's it's it's a pretty
+big feat because like although um
+he had efficiency on his side with
+regards to this metric
+you know, let's be honest regardless of
+how efficient this was
+horses just have
+great vibes. So like it's kind of hard
+to beat the vibes of horses and so he
+knew he had to kind of overcome the
+emotion
+and actually speak to to something that
+gave them an ability to calculate the
+ROI.
+And oh, sorry. Skipped something.
+And so yeah, the the lesson being if
+we're not able to give something that is
+a tangible ROI for our customers, then
+it's very hard for us to communicate
+value.
+And I think we only need look to our own
+industry to see all the examples where
+other people in the technology sector
+are failing to calculate good ROIs as
+well.
+And so we might in this room think this
+is some sort of solved problem.
+But if you look to the other engineers
+in the world who are perhaps not as AI
+pilled they're theoretically very smart
+and should be able to figure out how to
+calculate this pretty well, but then you
+get these scenarios where people are
+blowing through their entire
+token budget for a year and they're
+blowing through it in in a quarter or
+they're like dealing with token
+leaderboards and such and so obviously
+the incentives haven't quite aligned and
+we haven't perhaps got the right measure
+of value in terms of the technology
+sector itself. And so how then do we end
+up scaling past past that and talk to
+people who have no idea what we're
+talking about, but still try to provide
+them um a measure of the like increase
+efficiency with agents.
+And so right now I think we're kind of
+in this doom loop where we're
+we're overspending and we're underusing.
+Uh this is a term I borrowed from Ramp
+um and they have a great blog post on
+this. And so it's kind of this vicious
+cycle where we're just token maxing and
+ourselves into austerity
+kind of dropping out of the loop until
+we get more FOMO to to get activated
+enough to try it again.
+And so I think we have to break this
+loop and I think the way we do that is
+by getting better measures of that will
+communicate value.
+Some people are obviously on the right
+track. There was this chart floating
+around on X recently that the Coinbase
+Coinbase CEO posted where they hadn't
+really started changing the defaults of
+what models they will start with and
+trying to only save the frontier models
+for the hardest tasks and as a result
+saw some good
+saw AI spend start to diverge from token
+usage.
+And uh this is a good start. Uh Ramp
+also, as I mentioned, has a great blog
+post about this. Uh but I think the
+problem is still that it's too focused
+on tokens.
+And tokens are of course uh useful as a
+measurement of an internal system, but
+at at the end of the day they're just an
+output. And so the tokens need to then
+be traced very cleanly to an outcome.
+So how many
+uh bug how many bugs did the tokens uh
+how sorry how many um
+bugs squashed did the tokens that we
+bought um sorry, totally butchered that.
+Um how many uh bugs got squashed with
+the to with our token spend? How many uh
+support requests got closed, etc. So
+clean outcomes and then cleanly tying
+those to
+to progress on our objectives. And so
+without uh a very tight measure of ROI,
+this becomes very hard to do.
+And I think I'll take this further and
+um say that it need not even be the the
+broader um, technology industry where
+it's encountering this problem, but also
+many of us in this room perhaps are.
+And uh, although we're all probably
+enjoying uh, coding with uh, with
+various agents and feeling like it it's
+it does feel like there's something
+there in terms of the increase in
+ability and efficiency.
+Um, the problem of course is that we're
+all kind of dying by a thousand pull
+requests. And so, uh, even Anthropic who
+has uh, some people on the team have
+claimed have solved coding, uh, they
+have also admitted that they've not
+solved code review. And so, as a result,
+um, the the bottleneck is now shifted to
+the human review where the efficiency
+gains from coding agents aren't quite
+are aren't seen yet because we spend
+most of the time reviewing the code and
+we've not figured out how to scale that
+in tandem with uh, the generation of the
+code itself.
+And so, the bottleneck ends up shifting
+to the verification side and thus we
+don't have a way to uh, measure value at
+scale and uh, to judge quality at at the
+same speed. And so, again going back to
+the ROI calculations, we generate all
+this code, but how do we know uh, we
+don't know that enough of it is good to
+justify the spend.
+And of course, maybe uh, code review was
+always flawed, uh, but it's just that
+agents are now exposing it for
+uh, the are exposing the actual problem.
+Um, but I like this quote by Noah Hein
+who from a a post about how to solve
+code review where he's mentioning
+specifically that the assumptions
+underneath code review are what's now
+being uh, what needs to be revisited.
+So, you have to uh, check our priors to
+try to figure out a new basis for um,
+how we can code review in the age of
+agents.
+And I'm not going to go into how to
+solve code review. I think that's
+definitely better uh, a talk that's
+better given by somebody else and um, is
+totally different subject, but uh, what
+I think is important for this talk is
+why does code review feel like it is
+solvable? And I think that Noah is
+hitting on something important here
+which is that as a as a culture uh, code
+review has a a good uh,
+convergence on shared assumptions and
+that lets you
+um
+that lets you measure things at scale
+when we can all kind of converge on the
+measurement and it becomes somewhat of
+clear rubric and so the task at hand now
+is we have to adopt we have to adapt
+those assumptions for the agentic age.
+And so
+we can we need to go if we're able to do
+that then we can go from execution at
+the speed of computer to measurement at
+the speed of computer and of course the
+measurements need to fit the mental
+models of the customers using it.
+And
+I think the lesson here being that if
+you're going to
+think of how to build an agent for
+something you also have to think about
+how do you help the customers build
+build or at least create a method for
+verifying that the output is good and so
+it's not enough to build it we also have
+to help them
+we also we also also have to help them
+get to clear ROI calculations to justify
+their spend.
+And so this brings me to the idea of
+mouse power which could be the
+equivalent of horsepower for the agentic
+age just as James Watt was able to show
+a measure of efficiency relative to the
+horses in in the gins in the horse gins
+that were the source of power at the
+time we perhaps can also figure out how
+do we create a baseline of efficiency
+for the way we use computers today and
+can then demonstrate how much better or
+perhaps more performant on certain
+vectors an agent could be at that task.
+Um and
+of course it's not as easy perhaps as
+easy a task as he had back then where he
+could just study the horse gin cuz it's
+not as if we can create some method to
+measure cursor movements and like figure
+out the delta of how much more efficient
+an agent could move them and thus we can
+say yeah agents are this much more
+performant than humans at these tasks.
+Trust me I've I've tried I had Claude
+vibe code me this measurement device and
+I thought maybe if I can figure out the
+movement like the potential movement
+across the screen and measure how fast
+it went, I could get some clean measure
+of mouse power. Uh but of course this is
+only joking. Um this is of course um
+like a fool's errand because information
+space is just way too high dimensional
+and so I think mouse power is is never
+going to be a metric of course, but it's
+more so an idea. Which the idea being if
+you're going to sell somebody an agent,
+you also have to help them with the with
+the rubric of how do we actually verify
+that this agent is doing good work and
+thus we can uh have a good measure of
+saying that these tokens are worth it.
+Um so how to do that of course is is
+really up to you and I won't be able to
+tell you how do you I don't have any
+good frameworks for how do you figure
+out the right measurements to to help
+provide anybody you're building an agent
+for. Uh but what I can do is give a
+principle uh give an idea that I've been
+kicking around which is based um
+in information theory. So going back to
+Claude Shannon's ideas about measuring
+entropy and information.
+Uh entropy being uh the uncertainty of a
+probability distribution and of course
+very much the basis of how we train
+agents today.
+Things like cross entropy and such uh
+being a big factor in determining how
+capable an agent is.
+Um I think that entropy's an interesting
+idea to think through with regards to
+not just the performance of an agent,
+but also the task that we're setting
+them out to to perform on.
+And so uh I put together this matrix
+which uh it maps on the x-axis axis the
+uncertainty in the steps it takes to
+perform a task. And so when we're
+thinking of building an agent, I think
+it's not enough to just think what would
+be a valuable task for the agent to do,
+but also thinking about how um how much
+uncertainty are in the steps to perform
+that task itself. So an example would be
+uh booking a flight has uh much less
+uncertainty than let's say painting a
+masterpiece, right? Because you know
+there's certain information that has to
+be that has to happen in the flight
+purchase. There has to be a departing
+destination, arriving destination.
+There's going to be a seat chosen. It
+might be by the person. It might just be
+random.
+But these things have to happen for that
+task to be completed. And on the other
+hand, there is the task of like painting
+a masterpiece, right? And who knows what
+the steps are to that? Maybe you can get
+an agent to do it, but it would be very
+hard to figure out how we can actually
+create a a relatively predictable
+pathway to that.
+But then on the other axis is the the
+uncertainty in the acceptance criteria
+itself. So not just can the agent
+perform the task, but can we help
+somebody actually or is is there
+actually a a clean rubric for how it's
+graded? And so thinking about ideas on
+on these two axes and where they
+intersect, perhaps gives us a better
+guide for how to build agents and we can
+run through a few examples. So if we
+look at the at the left side, your right
+side.
+Yes.
+No, you're left as well.
+Then
+No, last speaker was also a confused
+about.
+So uh
+Yeah, on the left side when uncertainty
+in the task steps are low, then it's a
+very it's a very predictable outcome or
+it's a very predictable pathway to
+achieve that goal. And so then, you
+know, why would you waste tokens? Just
+write a script. On the other side, when
+the
+the steps to do perform the task are
+very high in in uncertainty, then you
+you have very unpredictable information.
+And so it's probably at risk of being
+out of distribution in pre-training and
+probably has very sparse rewards for
+reinforcement learning. And so perhaps
+it's not a a good task for an agent
+because it's just much harder to figure
+out how to actually model that data.
+And so obviously in the middle is is um
+is so I'm I think I'm out of time, but
+I'm not getting kicked off yet.
+So I'll just finish this up quickly. Um
+so yeah, in the middle is is probably
+the sweet spot, but then on the other
+axis,
+what's the uncertainty in verifying that
+this is actually valuable? So when you
+have high uncertainty in the acceptance
+criteria, you pretty much are in a spot
+where verification is indistinguishable
+from execution. So, why would you build
+an agent for something that to verify
+was useful, a person pretty much has to
+do the work again. So, like waste of
+tokens obviously.
+And then it leaves that that middle area
+where you have this interesting
+intersection of tasks that are um
+they're not too uncertain in that
+they or they they have a degree of
+uncertainty where they're not great
+they're not just a a script or they're
+not out of distribution for training,
+but they have enough uncertainty to be
+interesting, but at the at the same time
+they also have a property of being
+relatively easy to
+validate the
+to check the value of them. And so they
+become in this place where they kind of
+become the shape of an NP-style problem,
+which means they're easier to verify
+than to execute. And the reason I say
+that is because if you can figure out a
+pretty repeatable pattern for verifying
+their their work, you can actually just
+throw agents to that problem as well.
+And so of course you don't just build
+the agent, you perhaps build the agent
+that verifies the work of the agent.
+Um and so yeah, this is perhaps this is
+a thought starter mostly kind of have
+kind of still in the works, so
+I'm happy to hear any thoughts on it,
+but if with this guidance I hope when
+you're building your next agent you can
+also figure out how to also build its
+mouse power.
+And thanks very much.

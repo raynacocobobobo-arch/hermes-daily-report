@@ -1,0 +1,43 @@
+UP主：OpenAI
+标题：Use ChatGPT Work to build your data agent
+链接：https://www.youtube.com/watch?v=cXUmFec2PNY
+
+Um, the way I typically like to think
+about this is what would I give a new
+analyst? Like what kind of context would
+I give a new analyst on the team? Give
+that to the agent. And so for this
+analysis, the first thing I'm going to
+do is make sure that Chat GPT work is
+using and connected to the same tools
+that I would use myself to do this job.
+And so to do that, we can go to the
+plugins tab, um, which is up here on the
+top left. Um, the other thing I want to
+call out here is that I'm also I also
+have the data uh agent installed here,
+which Molly just spoke about. Um, and to
+install any of these, all you have to do
+is click this plus button and then log
+into your account if that's required.
+Um, and if you're on a business or an
+enterprise plan, you might find that you
+have to also ask your admin to enable
+certain plugins. So here I'm pointing
+the data plugin to a few different
+assets. One of them is our data tables
+in Databricks. Another one is an
+analytics channel that we have in Slack.
+Um, and the last one is a document in
+Google Drive that contains some
+information on Site metrics. And then
+the data plugin will be able to look
+across all of those sources and put
+together a data context skill, which is
+what we have on our right here. Someone
+from your data team who is or who is
+familiar with this data should like
+review and refine this. And then when
+they think it looks good, they can
+package this up into a plugin and share
+that across your company.

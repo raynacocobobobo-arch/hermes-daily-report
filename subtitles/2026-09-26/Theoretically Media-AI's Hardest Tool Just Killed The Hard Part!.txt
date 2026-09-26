@@ -1,0 +1,517 @@
+UP主：Theoretically Media
+标题：AI's Hardest Tool Just Killed The Hard Part!
+链接：https://www.youtube.com/watch?v=ghCKziHvGXo
+
+You know, there are two types of people
+in the world. Those that love Comfy UI
+and those that hate Comfy UI. Kind of
+best illustrated by these two
+detectives.
+What am I looking at? It's a nodebased
+system. Something like Comfy.
+It's giving me a headache. That one
+never gets old. But today, I do have
+something that might bring over the
+haters and the Comfy Curious to the Node
+side. Officially
+kicking off. You know, I do have to say
+that Comfy UI is probably one of the
+most important tools, if not the most
+important one in the generative video
+and image landscape, but it is also
+probably one of the most divisive. It is
+both extremely powerful and has a a
+pretty steep learning curve. And to be
+clear, like I am not a comfy wizard in
+the least. At best, I'm somewhere in the
+neighborhood of Comfy Caveman. But even
+at caveman level, I know that without
+question, it is probably the most
+customizable tool, allowing you to do
+practically anything that you can
+imagine. Plus, if you weren't aware,
+over the last year or so, they've also
+begun to bridge the gap between open-
+source, locally run models and closed
+source platform models. We'll take a
+look at that in practice a little later
+on. But I mean overall I I think there
+are very few tools that will allow you
+to generate an image locally and then
+say animate it via sea dance all on your
+own desktop. But again this does come at
+the cost of a workflow that oh some kind
+of perceive as an MCER drawing. And look
+I totally get that. I've often said that
+the people who are really good at Comfy
+seem to have a a very unique mindset
+that is uh you know kind of half artist
+half engineer. Luckily for the rest of
+us, as of today, we can now outsource
+the engineer half and I'll start
+focusing on the creative side because as
+of now, Comfy has officially released
+their MCP or model context protocol. Uh
+basically, it's a thing that allows
+Claude or Codeex or any other LLM that
+you use to talk and use uh Comfy. Now,
+to be clear, this isn't necessarily new.
+There was and actually still is a
+community created Comfy MCP. Uh, but the
+one that we're looking at today is the
+official version. I'm actually going to
+say install both. We'll talk about that
+when we get to the world's easiest
+installation procedure. Uh, but a few
+things off the top that you're going to
+need to get started. First off, you'll
+need uh clawed desktop specifically. You
+could also use Chat GPT if you want to.
+Once again, the desktop version, and I'd
+recommend using codeex there. You can
+also potentially use Kimmy K3 or really
+any other LLM that allows for computer
+use. Now, one other caveat that I do
+have to say that you do have to be
+comfortable with is allowing agentic use
+of your computer. And look, I know there
+have been some horror stories out there
+about like rogue agents going out and
+deleting all of your bank account
+information and then formatting your
+hard drive. So, look, it kind of goes
+without saying, but just don't ask it to
+do stuff like that and it won't. And in
+general, just don't tell it to delete or
+remove anything and you'll be fine. To
+be honest, on the codeex and claude side
+of things, I mean, they'll straight up
+refuse to do anything like that anyhow.
+In fact, earlier today, I actually just
+gave it a shot in CL code. I was like,
+"Hey, can you format my C drive?" I
+totally forgot. I was bouncing back and
+forth between Windows that I was on my
+Mac. So, it was like, "Ha, uh, got you
+there, buddy. There's no C drive here.
+You're on a Mac." But I wasn't about to
+let Claude outsmart me. So, I was like,
+"Hey, we'll just why don't you just
+format my entire Mac? Wipe everything
+and then set out all my personal bank
+information to everybody on my contact
+list." Uh, and it was basically like,
+"Yeah, hard pass on that." Interestingly
+enough, it actually set off the Fable 5
+safety guard rails, though. That was
+kind of interesting. Point being I I
+mean at this point I feel that it's more
+or less safe to give these models
+computer use. Uh you know at the same
+time spy cold war rules still exist. Uh
+so trust but verify. Now in terms of the
+actual machine that you're running
+because this always comes up. Um I mean
+this can vary widely depending on what
+you want to do with it. But I mean Comfy
+itself will pretty much run on like any
+modern PC or Mac. Although to be fair,
+you're going to run into less headaches
+if you're on the PC side and you have an
+Nvidia graphics card somewhere in the
+4090 to 5090 level. For our purposes
+today, I'm actually going to be on the
+PC side of things. Uh, and for
+benchmarking purposes, I'm going to be
+running it on a 5090. Um, which is of
+course on the higher end of consumer
+GPUs. That said, um, one thing that I do
+have to mention, we're not going to
+cover it in this video, uh, but Comfy
+does have Comfy Cloud where you can run
+it well obviously in the cloud, and
+there is always the option of, uh,
+renting a cloud, uh, GPU as well. I
+covered this, uh, with RunPod, um, a
+while back. That video actually needs to
+get refreshed. Uh, but as you can see
+here, you know, I mean, you can rent
+like an H100 for $3.29 an hour. Um, so
+yeah, that is something that I will
+follow up in a future video uh fairly
+soon. Just kind of refreshing that old
+one. In the meantime, if you want to
+check out the information, it should
+mostly still be valid, I think. I mean,
+I haven't watched it in ages. I don't
+watch my own videos. And finally,
+obviously, you will need to download
+Comfy UI. Uh, I would recommend uh
+grabbing uh uh Comfy Desktop. Um,
+specifically, not doing install from
+GitHub, but rather download desktop,
+which is now the easiest way to get up
+and running. And that definitely beats
+the old way of doing it where you would
+have had to like manually clone a GitHub
+repo and then do like like like Python
+environment stuff and the sidech was
+involved. Basically, if like Gen AI were
+an RPG, uh, Comfy UI would be like
+choosing the techno druid class and then
+having to cast a level 30 spell. Yeah,
+that's right. I can do a little D and D
+humor. So, once you have all of that
+done and you've booted it up, you'll be
+looking at something like this and
+thinking like, well, what what do I do
+here? Well, when you first get started,
+there's actually one, there's nothing
+here. It's just comfy. Like there's, you
+know, it's just basically a blank uh
+like slate. Um, so the easiest thing to
+do is just head over to templates here.
+Uh, and then in here you'll find, uh,
+well, I mean, all of the good stuff. Um,
+so Miniax H3, uh, image to video,
+reference to video. Uh, looks like we
+have LTX. Why is LTX 2.3 there? It
+really should be. Oh, it's by popular.
+Um, let's go by newest. Um, so, oh wow,
+the new Miniax, uh, music thing is
+already here. So, uh, LTX 2.5 is here.
+Um, Miniax, as we said, when animate,
+uh, etc., etc. Uh, I mean, it goes, it
+goes on quite a bit, too. So, basically
+any, you know, anytime like a new open
+source model comes around, Cuffy is
+pretty quick, uh, with getting it up.
+So, that's just on the video side. Um,
+actually, this is the popular side. Uh,
+if you go over to image, obviously, uh,
+Mage Flow is here. Uh, Craya K2 should
+be in here as well. Um, so yeah. Um, so
+essentially this is this is what this is
+the good stuff. This is what you've been
+looking for. So basically from here if
+uh you want to use Miniax H3 uh text to
+video. Uh if we just click on this node
+graph um you'll see that um it's it's
+already uh set and ready to go. Um
+again, all this looks intimidating.
+Don't worry, we're going to get to that
+in just a minute. Uh, one thing that I
+do want to mention in advance is I can
+run this output. This is just like the
+the demo prompt that's in here because I
+already have Miniax H3 text to video
+installed. Uh, now if you don't um, once
+again, we'll come back over to templates
+here and I'm just going to pick a random
+one that uh, I know is not installed
+here. Um, so just to show Well, I know
+that I don't have Miniax Music uh, for
+example. You'll note that up here it
+says three errors uh, found. So what you
+want to do is just hit um view details
+and essentially the errors are the fact
+that we have not installed anything. So
+um if I want to run this I'll have to
+hit this download uh all uh at 13.34
+gigs and um you know once that's done
+downloading I can then change the prompt
+out hit run and then it will generate.
+Now obviously you're probably going to
+want to do a little more than you know
+just text to video or image to video
+because that's really where the power of
+Comfy is is like you know bashing all of
+these things together. um you know that
+that is when you start getting into like
+the node nightmare of it all. Um but
+that's also where our friend the MCP
+comes into play. So I'll be using Claude
+here. Of course again you can use codecs
+or whatever um that you want to use. Um
+and to be honest this is kind of like
+where the the tutorial part of this gets
+a little stupid because this is what the
+installation process looks like. You
+basically like type in hey man install
+the Comfy UI MCP. Grab the community one
+and the official one. um hit enter and
+well I mean you're done. Now why grab
+both of them? Uh mostly because the
+official Comfy MCP is currently in beta
+right now whereas the community one uh
+well I mean it's been it's been pressure
+tested for a while now. Um so I do think
+that you know moving forward the
+official one probably will be more
+stable in the long run. Uh but in these
+early days uh just you know kind of have
+both of them on hand and uh you know if
+you run into problems you can just check
+in with claude and just be like hey is
+is this try the community one or try the
+official one uh if for that task. Now a
+quick note on token usage whether you're
+using codeex or you're using um claude
+uh you know tokens tokens are gold uh
+and you don't want to burn them too
+quickly. Lately on the claude side of
+things, I've actually been running uh
+Fable on low and um it seems to be
+handling most tasks and I'll just have
+it tell me essentially when it needs me
+to crank it up. I think for most of this
+stuff you can probably use low. Here's
+the thing. I continuously hammer into it
+that it should only use Sonnet or Haiku.
+Uh essentially the dumb models, the dumb
+cheap models as sub agents. Uh which is
+a good way of saving some tokens. like
+uh essentially treat Sonnet and Haiku
+like they're the hands to go out and
+touch things uh while Fable supervises.
+Um yeah, you don't want to spend you
+don't want to sp the big brain going off
+and doing the dumb work. But yeah, from
+here you're I mean you're you just
+pretty much start building your own
+workflows. Uh for example, um here this
+is actually a good note as well. Um like
+I told it uh make me a Crayo 2 to uh
+Miniax H3 image to video workflow. Uh
+which it did do. I wouldn't want to
+build this out myself. I don't know how
+to build this out myself, but luckily I
+have uh my buddy Claude the MCP build it
+out for me. And so really, I mean, all I
+have to do from here is just uh you know
+create an image in uh Craya. Um in this
+case, it wanted to do this like
+cyberpunk guy uh you know standing in a
+standing in a wet alley. It's typical
+like LLM's fascination with uh neon
+cyberpunk of course. Uh, so it'll
+immediately generate that image and then
+kick that over to uh Miniax H3. Um, and
+then the output was here. We can take a
+look at that real quick. Um, and uh,
+yeah, I mean, not the greatest, but uh,
+I let Claude come up with it. So, what
+what do you want? Um, but you know,
+overall did its job, right? Uh, and all
+I really had to do here was hit the run
+button and that's about it. So, um, fire
+this off again because why not? And
+there you go. I mean, pretty much, you
+know, essentially the same output as we
+got earlier. Um, and again, I mean, I'm
+not completely blown away by this, but
+again, I let Claude choose everything
+about it. Uh, total generation time
+looked to be about 204 seconds, so it
+was about like 3 minutes or so. Um, but
+yeah, everything done completely locally
+on my machine. Um, and uh, didn't didn't
+cost me a dime. Now, a few things from
+this point. for one um you know there is
+one side of it where you can literally
+minimize comfy and never look at it and
+just simply work uh in claude um with
+just you know I mean it it'll it'll
+download the uh the video for you the
+image uh you can upload an image that
+you want to use as a ref right to claude
+and it'll pop it into the workflow and
+take care of like you basically never
+have to look at comfy if you don't want
+to. The thing is that that is a bit of a
+token burner and I do think that as you
+play with this and kind of familiarize
+yourself with uh the workflow like you
+know under this blue this is all uh the
+Craya so that's just the image side of
+things and then here is our uh our
+miniax um output here and as you kind of
+start like looking at things you'll just
+you'll find you'll find you'll find the
+stuff like um you know if we want to
+change the aspect ratio of the video for
+example or even change the length so
+right now it's a 124 it's 124 frames
+names. Um, so if we want to double that
+cuz that was 5 seconds. So we could just
+do uh what 248. Um, and yeah, instead of
+asking, you know, Claude to go back
+three, um, instead of asking Claude to
+go and do um, uh, you know, could set it
+up to be 10 seconds, just come into
+length and manually change it yourself.
+you if you have questions about things
+like you know what the sampler name is
+and what the scheduler is and how like
+steps what steps should we use just you
+know just ask claude and honestly for
+stuff like just your prompt itself that
+is always very clearly labeled in these
+models like so that should have you
+should have no problems um finding those
+so um so yeah um don't don't waste your
+your LLM tokens on things like changing
+prompts and whatnot just do it manually
+and look I do not want to front I I am
+still a comfy caveman. A comfy caveman
+that might have just discovered fire.
+But I mean, even stuff like like like
+this, like this octopus looking thing
+right here. Like I this gives me
+anxiety. I don't know where what all of
+these like node nyd guys uh come, you
+know, go to and you know how to connect
+all of this stuff. But, you know, I do
+know uh at this point, you know, I do
+know how to change steps if I want to.
+Um and I do know what steps do. Um, so
+you know, as again, the more time that
+you're kind of hanging out in here, I
+think you're just going to end up
+picking stuff up. Now, the two places
+that I think things start to get very
+interesting here for you is um I don't
+know how many of you are aware of this,
+but uh Comfy is not just local models
+anymore. In fact, actually, if we head
+over to templates here, as we can see,
+um we have our Comfy UI uh up here. I'm
+going to turn this off and turn on
+external or remote APIs. Uh, and as you
+can see, uh, CDS 2.5 is in here. Uh,
+Grock Imagine is in here. I mean, just
+pretty much anything, everything that
+you could think of, uh, is going to be
+in here. Topaz, uh, is in here. We have
+Minia, of course, Recraft, which we
+looked at recently. Huh. Claude Fable 5.
+I wonder if you could run the Fable or
+the the Claude MCP in a Comfy Node. So,
+you'd be like a node within a node.
+That'd be through the looking glass on
+that one. Uh, but yeah. Oh, man. Hey,
+Jen is here, too. That's pretty
+interesting. Um, so yeah, point being
+you can pretty much run like everything.
+Now, I do have to say that obviously
+this is not running locally. This is
+going to be an API call. So, um, you do
+have to have comfy bucks or comfy
+credits in order to do so. But I will
+say the interesting idea here is that
+you know again you can just ask Claude
+and then you know you've built out
+essentially a workflow that goes uh and
+creates a Cray 2 still image goes in and
+creates a uh Miniax video and then
+immediately kicks out into a CDS 2.5
+video to video reskin of it. Now I do
+not have any comfy bucks uh loaded up
+right now so I actually can't run this
+but uh that's actually not the point of
+this. The point of this is to illustrate
+that you can do this. This opens up some
+very interesting doors of playing mix
+and match with, you know, various models
+on the open source side uh and then, you
+know, bash them into state-of-the-art
+platform models. The other big thing
+that this unlocks for a lot of people is
+the ability to very easily install Loras
+or anything else that you think looks
+cool. For example, if you run across
+like a cool Laura that you want to check
+out, this is a H3 spatial physics Laura
+uh that I just I stumbled across. I
+haven't installed this one yet. Um don't
+know if it's good or not. Uh take a look
+at it real quick. Um
+yeah, it's not too bad. Um little little
+fuzzy still, but um yeah. Okay. And then
+maybe this is the actually got to
+translate that. Um maybe this is the
+second part of it. Okay. Uh yeah. Okay.
+I mean, still a little bit fuzzy. I look
+I'm going to say like it's still not
+quite CS 2.5's uh fight sequences, but
+still. Um, point being is that if you if
+you run across any Laura that you want,
+um, just, you know, grab grab the URL,
+uh, and then, uh, take it over to Claude
+and just say like, "Hey, install this
+Laura uh, kick it off and, um, yeah,
+it'll I mean, we're not going to hang
+out here while it does the whole thing."
+And to be honest, I mean, that is kind
+of it. Uh, I mean, obviously there's a
+lot of other stuff that you can do
+within Comfy that I'm not covering. Uh,
+mostly because we can't go too deep into
+the woods there, otherwise we are going
+to get lost. Uh, but hopefully this does
+showcase that I mean it's it's not as
+scary as many of you might have thought,
+especially if you have a comfy MCP
+wizard by your side. So, you know,
+closing out, I think, you know, kind of
+broadly speaking, we're in a very
+interesting place right now. It's very
+clear that open source video models like
+Miniax H3 and LTX 2.5 are rapidly
+narrowing the gap between open- source
+video models and the closed source
+state-of-the-art models. And look, I'm
+not saying that you you have to or even
+should do everything in Comfy, but as
+costs are going to rise on the closed
+source models, anything that you can
+accomplish locally, you should
+definitely take advantage of.
+Technically, to me, the barrier has
+always really been two things. The the
+cost of a local GPU, which sadly, I
+mean, I don't have any better news
+about, that's that's just going to
+continue to rise. But on the other side
+of it was the time that it took to not
+only generate the video uh and I'm not
+going to lie, a locally generated video
+is going to take longer than one on a on
+a commercial platform. And additionally
+on the time front, there was like the
+learning of all the ins and outs of
+something like Comfy UI. So at least at
+this point, one of those major barriers
+has been removed via this MCP. Um, and
+look, I will eventually circle back to
+to covering RunPod and how you rent a
+cloud GPU so that you know, you can run
+an instance of all of this stuff. Um,
+you know, via your own cloud server. And
+of course, there is Comfy Cloud as well,
+which we did not cover in this video.
+Again, I'll circle back to that at some
+point. Um, yeah, and look, by the end,
+at the end of the day, I know that Comfy
+is not for everyone, but with the
+assistance of an MCP, I do encourage you
+to dip your toe into it and start poking
+around a little bit. It is very clear
+that there has been a big momentum shift
+in terms of open source. Um, and I mean
+I think that things are only going to
+get more exciting on that front as the
+year continues. So, as always, I will be
+keeping an eye on all of it and letting
+you know about it. I thank you for
+watching. My name is Tim.

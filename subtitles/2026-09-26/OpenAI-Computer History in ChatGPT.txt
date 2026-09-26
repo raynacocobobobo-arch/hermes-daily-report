@@ -1,0 +1,94 @@
+UP主：OpenAI
+标题：Computer History in ChatGPT
+链接：https://www.youtube.com/watch?v=W-HhMUe9hOg
+
+You can now just show ChatGPT and
+Codex how you work using Computer
+History so you can talk more naturally
+with your agent. Once you turn on
+Computer History in the settings of your
+desktop app on macOS,
+it takes what you're already doing on
+your desktop and turns it into memories
+and a timeline that your agent can
+reference the next time you ask a
+question or start a task.
+Let me show you an example.
+Hey, what was the last Google Doc I
+was looking at? Okay,
+I'll check your recent activity to that
+doc. I'm checking the recent activity
+history to identify the last Google Doc.
+The last Google Doc you were editing was
+VideoScript Computer History earlier
+today. Codex can leverage the Computer
+History to know exactly which doc I was
+looking at. Can you make sure the doc
+was shared with Josh and
+Priya in the group DM from earlier?
+On it, checking that DM shared out.
+Codex knows what conversation I was
+looking at earlier and
+can contextualize the message.
+All set. Josh and
+Priya now have viewer access to the
+video scripts and
+I shared it in that group DM from
+earlier. By the way,
+can you briefly summarize how I spent my
+time this morning?
+Sure, I'll check this morning quickly.
+I'm using your local activity history to
+build a concise recap.
+This morning you mainly drove the
+Computer History launch video forward.
+Drafting, refining the script and
+iterating with teammates on framing and
+flow. You also prototyped the 3D World
+Builder in Codex and
+triaged some usage limit feedback.
+It knows what actions I took so
+I can converse more naturally without
+having to give all the context.
+Computer History doesn't rely on screen
+or audio captures. And
+instead it captures interaction events
+like clicking, typing, app switches and
+more. So it can capture memories faster
+and more efficiently.
+It also gives you more granular control
+over which apps and
+websites Computer History can't access.
+You can either quickly exclude websites
+or entire apps from the new menu bar
+entry. Or by explicitly listing them in
+the settings of your desktop app.
+This is also where you can review
+everything Computer History has
+captured. Beyond a summary,
+you can delete individual entries here,
+clear the most recent history entirely,
+or reveal the actual memory files.
+Memories continue to be on your file
+system so you can see exactly what has
+been captured and remembered by the
+agent. Computer History will also
+suggest skills and
+automations it can generate based on any
+repetitive work you do.
+You'll be able to check these out in
+the history section of the settings.
+Once your agent understands what you do
+and how you work,
+it changes how you can engage with it.
+You can ask it to create skills based
+on what you just did,
+run an automation every morning to draft
+a standup update for your team,
+or simply tailor its use of tools to
+how you work, like drafting documents
+and the app you always use to draft
+docs. Computer History makes ChatGPT and
+Codex more personalized for you and
+how you work. Give it a try and
+let us know what you think.

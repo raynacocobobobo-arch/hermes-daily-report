@@ -1,0 +1,410 @@
+UP主：AI Engineer
+标题：The Best Models Still Reason Like Toddlers — Andrew Dai, Elorian
+链接：https://www.youtube.com/watch?v=A_I8mw8yfns
+
+[music]
+Hi, thanks for coming everyone. Um, I'm
+the co-founder and CEO of Elorium and
+I'm here to talk about some of the
+issues with current models, current
+frontier models. This includes um Claude
+Chat GBD and Gemini um and how they
+handle visual problems and um uh this
+might be new to some of you who don't
+work in the visual space but actually
+there's quite a big gap between how
+these models handle visual reasoning and
+how humans deal with it. And you will
+see that we're actually quite far away
+from any definition of AGI for visual
+reasoning.
+So here are some examples of where uh
+how easy it is to find where models
+break down. And um you can find these
+examples yourself. Just takes a few
+minutes. Uh in this first example uh we
+have a chessboard hallucination and we
+give the models um this picture and ask
+how many white squares are in the image
+and any ordinary person uh who doesn't
+hallucinate would probably not say it's
+32. So 32 of course the models say this
+because they see part of the chessboard
+and they hallucinate the complete board
+and as a result they give the wrong
+number and you see this quite a lot that
+models rely a lot current models rely a
+lot on pattern matching. That's what
+makes them so good at identifying plants
+and animals and flowers uh in the real
+world. But when it comes to like complex
+questions that part hurts them. So the
+pattern matching is actively hurting
+them in this case. Um so in their in
+what's going on in their reasoning is
+that oh this is a chess board. Chess
+boards all have 32 squares. Therefore
+this one must have 32 Y squares too. On
+the right example um I'm a big board
+game player. Have quite a collection. Um
+so you can see there's a a board game
+theme going on here. And actually you
+can uh reproduce this outside if you
+just go to you know outside the talks.
+It's a ball game area there. There are
+chess boards. Um I will bet if any of
+you uh place the pieces in some kind of
+random position, no frontier model will
+be able to tell you where those pieces
+are located, where all those pieces are
+located. Um and then another example
+here is katan. Um here another very
+simple question. How many rows does the
+blue player have? Um, these frontier
+models think extensively about this
+problem. Uh, one response I've seen is
+that, oh, the the guy has uh 10 blue
+rows off to the side of the board.
+Therefore, there must be five uh blue
+rows on the can board. Uh, but obviously
+that's not true. There's seven if you
+actually count. So these models um again
+are great at guessing uh great at
+pattern matching but they are not very
+spatially grounded and they just can't
+handle any kind of detailed questions.
+Um and then finally um we have this
+example where it actually um affects
+robots where here you have a robot arm
+uh manipulating this uh cup and um uh
+cooker basically and the
+state-of-the-art models today they miss
+the fact that the uh robot arm lifted
+the lid um and at the end they also
+missed the fact that the robot is
+turning on the stove like right now. So
+there's uh essentially context amnesia
+happening. Um and this is because these
+models can't maintain consistency um
+across long videos and they very easily
+lose track of what's happening. And a
+very common question I get is how do you
+define a visual reasoning problem versus
+a visual understanding problem? Um or
+you could say like visual thinking um
+compared to visual understanding. I
+think a very simple way to do it is just
+um ask yourself the same question. If
+you looked at an image or a video, how
+long would it take you to answer the
+question? So uh for example, in both of
+these cases, I doubt anyone in this room
+would be able to give an answer uh if
+they were only allowed one second to
+look at the image. So 1 second isn't
+enough to do these kind of like complex
+questions also called like system two um
+kind of thinking in Daniel Canon's book.
+But if I asked you what game is this uh
+or similarly what flower is this or if
+there are only three pieces on the
+chessboard if I asked you how many
+pieces are there those questions uh I'm
+sure all of you would be able to answer
+in less than a second and similarly all
+the frontier models would get that kind
+of question right. So that is the
+distinction um that we make between what
+is understanding uh what is like pattern
+recognition versus what is reasoning
+where you actually have to look in
+detail at the picture and um look at
+various things and this is exactly where
+frontier models uh fall apart today. So
+as you are designing your own systems uh
+that's something to keep in mind keep
+these visual tasks very simple otherwise
+you will have hallucinations a lot and a
+lot of hallucinations
+um so uh this leads into evals of course
+um frontier models there are already a
+bunch of multimodal reasoning evals or
+visual reasoning evals some that you
+might have heard of is arc agi this is
+uh quite often
+brought up to um people saying oh we the
+frontier models are 85% or 90% on RKGI
+therefore we are 90% of the way to a uh
+to AGI itself uh but I think these
+people they haven't really looked at any
+of the benchmark data because if you
+actually look at the data you will
+notice that the images are only 32x 32
+or 64x 64 pixels and I would challenge
+anyone uh to give me like a real world
+complex task that can be reduced to a
+32x 32 pixel problem. Um I think you'll
+very quickly realize almost no tasks
+almost no interesting tasks can be
+reduced to that kind of resolution.
+Another eval that people commonly uh
+bring up is MMU. Uh this is the massive
+multiddiscipline multimodal
+understanding. This is a step up from
+MMLU because it has um images rather
+than just pure text science questions.
+This is science questions based on
+images. But still images are a minor
+part of a lot of these questions. A lot
+of the questions you can just answer
+without looking at the image or just
+doing some pattern recognition just
+knowing roughly what the image is about.
+So what we really need is new visual
+reasoning benchmarks in the industry
+that really target the things that
+people care about like geometric align
+alignment, spatial intelligence, um
+object terminus and these are really
+critical for AI to be deployed in these
+visual use cases. And you might have
+noticed that still in a lot of
+industries that uh are primarily visual
+um which I will go into there isn't much
+uptake of AI right a lot of the AI
+uptake has been in the software
+engineering world and in the
+mathematician world um and in like
+documents um document handling etc. But
+this uh there is actually a huge gap
+huge opportunity that is just being
+looked over right now um based on the
+interest in coding.
+[clears throat] And so the missing
+paradigm in visual AI is thinking. So we
+have generation models very high quality
+generation models like bite dances
+seance model. Um, so we have these very
+high fidelity models and they look
+great, but they lack actual physical
+grounding um and causal logic. So you
+will you probably notice that if you ask
+these models to produce a a picture um a
+video of a some like uh something
+blowing up like um or a building falling
+down or these things they look very
+cartoonish they look Hollywood style
+kind of things and that's because they
+are just outputting what was in the
+training data and a lot of disaster
+videos um a lot of like action kind of
+videos on the internet are just going to
+be from Hollywood or game engines. So
+they're working to reproduce that and
+that's fundamentally a problem because
+it means they can be no better than
+those kind of uh videos. Um on
+understanding the what we are where we
+currently are is we have lot of tools
+that can map pixels to semantic labels
+like Google lens is obviously great to
+identify plants and flowers and I use
+that all the time. The SAM 3 for
+segmentation, YOLO for uh object
+recognition detection, mascaras CNN.
+These are of course highly robust and
+they're used everywhere in the industry,
+but they're fundamentally passive. So
+there's no reasoning capability to them.
+So they can't answer more complex
+questions. Um and really where the
+frontier is is uh with thinking visual
+thinking models. These models will have
+active spatial and temporal
+intelligence. They can extract actional
+logic for planning uh agentic workflows
+and physical execution.
+And so our approach uh is uh four stage.
+So we are collecting and generating our
+own uh multimodal data uh visual
+reasoning specific data. This this kind
+of data we found you just can't uh get
+online. Uh we have a synthetic data
+flywheel using evals agents SFT and RL
+to improve the model. We're making some
+uh we made some advances to the
+architecture um in terms of uh various
+different time um advance various
+different improvements on top of the
+transformer-based architecture and we're
+also enabling visual chain of thought
+reasoning and this is one of the key
+things that humans have that no frontier
+model has today since the frontier
+models are only textual uh chain of
+thought based
+um and this is one example of a visual
+chain of thought. So the question is
+like how many red hotels are built in
+this photo? Then the model realizes oh
+uh first we need to identify all the
+hotels. So it draws boxes around hotels
+um and other objects and then uh it
+reduces that to the red hotel. So it's
+this multi-step uh process happening in
+the visual space natively.
+So um about our company um I'm the
+co-founder and CEO. I spent the last 12
+years at Google Brain and Deep Mind. Um
+I developed a lot of the foundational
+techniques for the model for modern
+LLMs. 11 years ago I was the first
+author of the work that introduced
+pre-training and fine-tuning. That's the
+work when combined with the transformer
+paper in 2017 led to the GBT series of
+models. So all the GBT uh papers site
+our paper. Um I co-led the earlye models
+uh the first model that was
+state-of-the-art called glam and then um
+more recently I co-led the palm to 2
+pre-training architecture and I was
+co-lead for the gemini data area and my
+co-founder info
+and Google research he led research for
+Apple's first public multimodal model
+MM1 and he's has a a lot of experience
+in visual reasoning um across uh
+language as
+And this is our team. So we're roughly
+20 people now. Um we've also have a
+chief reasoning architect Dustin Tran.
+Previously he was lead of post training
+at XAI. Um and we've hired a world-class
+team um across uh many other uh
+companies like Apple uh XAI um deep mind
+Amazon and so on.
+Um and in terms of the uh use cases that
+I mentioned, robotics is one primary use
+case. So robots have uh really critical
+bottlenecks performing complex real-time
+physical actions uh in these kind of
+like dynamic environments. Uh but
+existing vision models uh you probably
+realize are trained from static images
+and very directed videos. They are not
+like act they don't have active physical
+interaction. So existing methods are
+overengineered and brittle. Um and uh we
+are planning to release a model API
+available uh by the end of this year. Um
+and at that point the API can be used to
+deliver action relevant uh scene
+understanding into existing um planning
+and control systems for these um robots.
+Another important use case for uh visual
+reasoning um is construction. So
+construction sites they have these very
+complex zone specific safety rules. Um
+and uh computer vision can't adapt fast
+enough to changing safety rules. They
+also can't interpret things like OSHA
+policy language and match the that
+language to what's actually going on at
+the site or understand the spatial
+relationships that are important there.
+For example, like how many of these
+workers are wearing helmets or like is
+the construction um happening according
+to the plans that uh were defined
+earlier.
+And um currently enforcing these rules
+require training separate models for
+different use cases uh because they're
+very these models as I said before are
+very brittle. So you constantly have to
+do uh retraining. Um and our approach uh
+with the video um understanding
+capabilities that we are building into
+our models is um allows you to um ground
+these video streams in the safety
+regulations. And of course the safety
+regulations are in text, they're in
+language. So you have to be um the model
+has to manipulate both language and
+vision very well.
+And um yeah uh this will allow these
+models to interpret uh site policies
+using the current camera infrastructure
+that they have.
+Um and then finally architecture and
+design we think is also a very uh
+promising use case here. Uh this is
+exactly the use case where you need to
+be very detail oriented. So back to the
+board game example around counting
+spatial relationships. This shows up a
+lot in architecture and design. Uh like
+if you design a if you design a house
+with with four bedrooms instead of
+three, that homeowner is going to be
+very angry, right? Um so obviously
+counting is actually important. Um and
+also just understanding these spatial
+constraints, real world constraints is
+uh is a very manual process uh these
+days. We spoke to a mechanical
+engineering company just a few weeks ago
+and they said to design one small part
+of a robot testing platform takes 100 to
+200 hours uh of the time to design the
+entire testing platform. Um, I believe
+it takes 2,000 to 3,000 hours of human
+uh time there. And they've uh a lot of
+these places they've tried frontier
+models, but they just don't work for
+these use cases. They really struggle to
+understand uh visual context across
+these like architecture blueprints, 3D
+CAD, CAM files. Um, and so there are
+lots of errors there. Um and similarly
+we believe that this can be useful
+useful for other kinds of design as well
+not just um architecture and engineering
+but maybe like designing
+um yeah for the web or fashion or other
+things and our approach is uh we're
+using multimodal reasoning to uh to
+extract um this uh geometric logic
+that's important. We're allowing
+programmatic validation or simulation
+validation. Just like in code, you can
+run code against unit tests. You can
+also run u mechanical devices through
+simulators that have been developed
+through seammens um and uh v various
+other companies to see if something will
+work in the real world. So there's a lot
+of parallels actually between uh this
+kind of like mechanical design and
+coding itself. But mechanical design is
+still relatively untouched by AI.
+Um and yeah, CAD CAM quality control is
+another potential use case and
+ultimately we believe that this is going
+to be a critical step to the future of
+mechanical design where the where AI can
+make faster cars, more efficient
+rockets, better batteries and all these
+things cannot be done just with code. Uh
+people are not coding up the next iPhone
+or coding up the next uh SpaceX rocket.
+It's all fundamentally very visual.
+So, um you can find out more about us
+through our website um lauren.ai, our
+Twitter page xx.comai
+or our LinkedIn uh page. And yeah, happy
+to take any questions. I'll be standing
+around here for for a little bit.
+Thanks.
+[applause]

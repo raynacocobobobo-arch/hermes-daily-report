@@ -1,0 +1,465 @@
+UP主：The AI Advantage
+标题：Fable 5 is Back! Here's the Best Way to Use It...
+链接：https://www.youtube.com/watch?v=dQkVUANCYgc
+
+Fable 5, the best model ever available
+to the public that they took down is
+back and along with that it's Sonnet 5.
+And we still have Opus 4.8, which was
+the best as of 3 days ago. How are
+normal people supposed to make sense of
+this? Well, I think they're not, at
+least not just based off the press
+releases. That's why in this video I'm
+going to break down what the differences
+are, what you should use, and I actually
+have some prompts here that I want to
+show you that work particularly well
+with uh extremely powerful new
+generation model like Fable 5. Not all
+use cases are created equal, and it's
+always fun to talk about things that
+work particularly well with a flagship
+release. And also the clock is ticking
+cuz this thing will not be free forever.
+It's literally just a few days, so I
+hope that this video will help you
+squeeze the most out of these model
+releases. Plus we're going to talk about
+other things that happened in the AI
+space briefly in this week's episode of
+AI News You Can Use, a show where I used
+to cover every single story and now I
+focus more on the things that I think
+actually matter like Fable 5 and Sonnet
+5 this week. But as per usual, we always
+keep it practical. It's about the stuff
+that you can actually use. So let's get
+into it. And yeah, the headline is
+simple. Fable 5 is back. Sonnet 5 was
+just released and it's the new default
+inside of Claude. A lot of people
+immediately ask, "Okay, so which one is
+the smartest?" I think a more practical
+question is, "Which one should I
+actually use in what scenario?" So let's
+talk about that. But first the facts.
+Fable, if you're not aware, was released
+a few weeks ago and then just after a
+few days it has been taken down by the
+US government saying, "Hey, this is too
+powerful for the entire world to have
+access." So Anthropic just made the call
+to take it down for everyone. Now that
+those export controls were lifted on
+June the 30th, as of July 1st, everybody
+has access to this again. Check it out.
+You go to claude.ai and there it is,
+Fable 5. Now you can immediately see
+that this is only available through July
+7th. So if you're watching this video
+shortly after the upload, you're in luck
+because you can still use this thing for
+free. One important nuance, it already
+shows here. This thing is going to shut
+off when you hit 50% of your weekly
+usage limits. So you can check those out
+under the profile, settings, and then
+here, usage. Here it says weekly limits.
+They even have an extra Fable counter
+cuz they know everybody's going to be
+all over this. If you're not familiar,
+Fable 5 eats your credits the fastest.
+You guys, rightfully so, corrected me on
+the last video that it's not exactly 2x
+of Opus 4.8, which used to be the best
+model, you know, just as of a few days
+ago, but it's actually roughly 70% more
+tokens. We're going to touch on usage
+and tokens in the end a bit more, but
+for now, just know that yeah, this is
+the hungriest model, and you can't even
+use all of the usage you have in your
+account, just 50%. Additionally, they
+added more cybersecurity safeguards on
+Fable 5. So, some prompts that might be
+harmless might get flagged now, whereas
+before they would go through. It was
+already very strict, now it's even
+tighter. Whenever it hits one of those
+safeguards, it's going to fall back to
+Opus 4.8, their second smartest model.
+And then, on a different note, they also
+launched Sonnet 5, which is an upgrade
+from Sonnet 4.8 that we used to have
+before. If you're not familiar, it's
+basically the smaller brother of Opus.
+It's usually faster and way cheaper than
+Opus, but also not quite as smart. Now,
+in short, the gap between Opus 4.8 and
+Sonnet 4.8 just got smaller, way
+smaller. Opus is still better, but
+Sonnet is so much faster and more
+cost-efficient, that's why they set it
+as the default. On many use cases, you
+won't even notice. As we ran all of our
+benchmarks, we basically found, "Hey, on
+some of them it's a bit worse than Opus,
+but it's minimal and it's just a great
+deal." That's why they set it to the
+default for free and pro users. Also, it
+eats up your usage on your account way
+slower. Like, depending on what you're
+doing, it might be free 4x, but that's
+just after one day of usage. But here's
+the important part. The important part
+is that Fable is still the goat. It's a
+whole new class of model, and you should
+totally be using it for complex tasks,
+for things that need a lot of thinking.
+That's sort of the conclusion of this
+video that I'm giving you already, but I
+also want to give you some things to do
+and some things to tackle right now
+before Fable 5 runs out and they switch
+to token-based usage, where you'll
+literally be paying dollars for every
+single prompt that you run. As as of
+now, you have a few days to kind of do
+these things that I'll tell you about.
+So, let's do that. Okay, in no
+particular order, here are use cases
+that I have found super super useful.
+And for most everyday people that are
+not a hardcore devs, this is what I
+would try now with Fable 5 cuz again,
+it's just the best thing out there.
+First up, the high-level idea here is
+turning chaos into a plan. So, Fable 5
+more than any model before is really
+really good at taking in a bunch of
+chaotic documents, maybe launch
+documents or business con text, and you
+can ask it to sequence and organize the
+work. What are the decisions that need
+to be made here? In what order should I
+tackle all of this madness? What am I
+missing? And what is the first step?
+It's so good at organizing chaos. It's
+better than anything I've seen before.
+This one would be hard to demo in the
+video and also you don't need a precise
+prompt. Kind of what I just said there
+roughly is going to do it. It's more
+about the context you provide. And no,
+you don't want to overwhelm it. You
+don't want to give it hundreds of pages,
+but if you have a lot of varied stuff
+and you're trying to make sense of it or
+trying to plan if that didn't work
+perfectly before, well, try that again
+in Fable. So, the demo that I'm going to
+do here for you is creating something
+like a AI operating system for your
+business or personal life. This has been
+idea that I was pursuing early last year
+already, kind of building my own AI
+advantage OS and experiments, but people
+are doing this all over the place.
+They're building simple little hubs for
+themselves where different applications
+and prompts and loops all kind of live
+in one space. It's a beautiful thing,
+but many people are kind of overwhelmed
+by this idea and rightfully so. It can
+be kind of a lot at once. Like ego or AI
+operating system, what do I even do?
+Where do I even start? Well, I prepared
+a prompt here for you and Fable happens
+to be the perfect partner for you to do
+that. So, let me open up Claude here and
+I'll put this prompt into the
+description below. And really this
+prompt is going to have three blocks, so
+let's talk about these for a second.
+First up, it's context on the task and
+the task itself. So, this is a demo
+example for you here, but let's say
+you're a non-technical business owner
+that wants to turn their company into a
+simple AI operating system. And then the
+concrete task is going to be building a
+30-day AI productivity plan. But with
+this context here, it's going to start
+designing tooling, not just telling you
+what to do, which is powerful,
+especially with Fable 5. Okay, here's
+really the key ingredient. These are
+things that I found to work really well
+and good ones to start with. First of
+all, we're going to have the five
+highest value workflows to automate or
+assist with AI. Fable 5, more than ever,
+is really good at being self-conscious
+and realizing what it can do, cuz it
+just trained in all the cybersecurity
+and development data. It's kind of my
+explanation for it, but really it's just
+better than any model before, so try
+that. The exact first workflow to build
+this week makes it very specific, gives
+you like a single win. If you don't like
+it, by the way, you can always iterate.
+What input each workflow needs. This is
+key because oftentimes, you know, you'll
+need some sort of data or something from
+your side. What output it should
+produce. I mean, that's workflows
+one-on-one. Something comes in,
+something comes out. Make sure to define
+that here. The human review step. Hey,
+if you're working with AI, you'll know
+that most use cases, especially the
+high-leverage ones, have a human in the
+loop. So let's include that. The likely
+time saved each week. This one is at the
+core of our teaching philosophy at the
+AI Advantage. We think about how we can
+save people time and then they can reuse
+that in other ways, which makes it feel
+like an investment rather than a chore.
+A simple tech stack using tools a normal
+business owner can handle. This just
+grounds it in the context we gave it in
+the beginning. And number eight, the
+first prompt I should paste into Claude
+to start building this. We don't want an
+abstract plan, we want like a concrete
+first step where you can just copy-paste
+something and start making stuff. Nice.
+And then there's a bit more context, a
+small coaching and consulting business
+with three people, sell workshops,
+one-on-one coaching, a monthly
+membership. Anyway, there's more details
+here, including the tools. This is the
+part that you would customize to
+yourself. And then I guess you could
+also customize this first piece. And you
+could go beyond business, you could make
+this personal, you could create this for
+a larger business. I just think this
+middle stack is really going to be
+helpful to many people watching this
+video. So go ahead and try it. So I'm
+going to run it in here. And you know
+what, for comparison, we're also going
+to run it inside of Sonnet, which is
+great. Like I'm not making this video to
+talk badly about Sonnet. It's a
+fantastic model. It's just Fable is
+better than anything else. All right,
+the results are in. Let's start by
+reviewing the Sonnet output here. Again,
+identical prompt. Okay, so let's look at
+the top three, especially at the one
+that it highlighted as the first
+workflow to build and compare that just
+in interest of time. So first of all, a
+client QA assistant, like a chatbot with
+context, call to action plan converter,
+so it takes transcripts and tells you
+what to do next, okay? Launch planner or
+an email writer, which turns a launch
+idea into full email sequences. Uh
+can tell you this wouldn't be a valuable
+one, not with a ton of work, that is.
+Now, the Fable result. So the ideas are
+similarish, but you can see they're all
+more specific, which always makes things
+more actionable. So for example, this
+one is called client Q&A inbox
+assistant, and then it tells you that
+this one is specifically built for
+emails, and it actually considered the
+human review piece, which Sonnet
+ignored. In this case, it would be
+reading, tweaking, and sending. And then
+we also have the time saved, which we
+asked for. Okay, up until now, both
+pretty good, actually. Small
+differences, but not night and day. But
+check this out. The recommendation here
+is completely different. It says, "Build
+this first, the call converter, because
+the input already exists. Zoom generates
+the transcripts for you. There's zero
+preparation, and you can judge the
+output instantly because you were on the
+call." And then also the clients feel
+it. A same-day recap with clear next
+steps looks premium. And all you need to
+do on this one is, well, just copy this
+prompt, and as it says, paste in a
+transcript, and boom, you have a first
+version working. Whereas I think the
+Sonnet suggestion was also good, but
+there's way more steps. You have to
+actually paste in the common questions.
+So when I told you that Fable is just
+more practical with these relatively
+complex tasks, I mean, this is simple
+enough for demo here in the video, it
+just consistently holds true. I mean,
+the brief was getting a workflow set up
+immediately, and this just gives you a
+prompt where you can just get a
+transcript, and boom, you're up and
+running, and there's no extra work. I
+like that. I know that's subtle, but
+those subtle differences are the
+difference between making things happen
+immediately or not. Now, here's what I
+would actually do if I ran this. I would
+do the same prompt with Fable, but I
+would also attach details on my
+products, on my clients. And then, if
+you have a 3-month or a 12-month goal,
+also include that. You could put that
+below this prompt or inside of the
+context. And then, here's a bonus tip.
+If you go to Claude Co-work
+documentation, and then you add in the
+support article on how to get started
+with Claude Co-work that includes some
+sub-links to how to schedule tasks, or
+you add any other source or link that
+basically is context on how a product
+that you use works. In this case,
+Co-work, which is really good at
+intermediate agentic use cases. Well, it
+will use that information, and this is
+important, to ground the truth that
+Fable 5 provides you. It knows a lot.
+It's very smart, but it's not
+all-knowing. And oftentimes, you kind of
+have to nudge it a little bit and give
+it a chance to do the good work by
+providing it with the context that
+matters, which in this case would be the
+help center of Co-work, or maybe
+documentation on an app that you use.
+You might assume it has that, but
+usually it doesn't. AI models are
+notoriously bad at self-awareness and
+knowing what exactly they can do.
+They're good, especially now with Fable,
+at making sense of what you need and
+what's doable with these apps and
+reconciling that. So, whether it's this
+prompt or another, giving it grounding
+information and deep context on you and
+your business is a high-level idea that
+is going to apply now and 2 years from
+now. All right, that was very use-casey.
+Here's one more. Use it to plan your
+application or tool builds. So, I know
+many viewers of this channel have
+probably built a version of a
+personalized tool, and Fable is just so
+good at planning them or improving them
+or building them, too. But, if I had to
+rank those three, planning and improving
+are kind of fighting for spot one, and
+then building is spot two. Other tools
+are great at building, too. It's just
+when you make the plan with Fable, gosh,
+everything just works better, looks
+cleaner. I guess you could extrapolate
+that to really planning anything that is
+a bit more complex. Fable 5 is just the
+best at that. But there you go, that
+rounds out our little, you know, Fable
+use case segment. So in conclusion on
+these three models, I would say use
+Fable 5 for the most valuable and the
+messiest work. Use Sonnet 5 for everyday
+work. You're going to get a lot of
+mileage on your subscription. Or
+alternatively, use Opus 4.8 if you don't
+really care about the usage or the money
+it costs to buy these subscriptions that
+much. But we're probably going to get
+Opus 5 soon, and that is kind of the
+overview of that. All right, that was a
+bit more time than I planned, but I hope
+that was valuable to you. And if you
+want to learn more about context
+management, there's a link in the
+description to the AI Advantage Club
+where I teach courses on context
+management just like this, but more
+detailed. It's a $1 trial for 30 days,
+you can check that out in the
+description. Let's get back to the
+video. A few more things that were
+interesting and hit my radar this week.
+First of all, Gemini Study Notebooks is
+an outstanding feature. It's a free
+adaptive AI tutor inside of the Gemini
+app. Basically quizzes you and adjusts
+to you. I really love watching the
+educational space change, and I think
+this future where eventually everyone
+will have a personalized tutor is a very
+compelling one. And this is probably the
+most mature product that I've seen in
+that category, especially on a free
+tier. If you have kids and want to use
+AI for tutoring, this is the product I'd
+recommend right now. And we're going to
+be making a separate video just on this,
+just cuz I like this so much. And then
+there's Gemini Omni Flash, which kind of
+introduced a new thing that I haven't
+seen before, which is conversational
+video editing. It's in developer only
+access right now through the API.
+Eventually, this is surely going to come
+to the Gemini consumer app. It looks
+rather gimmicky to be honest. You kind
+of talk to it and it does that, but
+that's not really how you edit videos.
+Editing is really about thousands of
+decisions and having a vision for the
+final product, which I guess you could
+communicate through voice eventually.
+Again, I'm intrigued, not convinced yet.
+I'll keep my eyes on this as it matures.
+I want to add that we're going to get a
+new OpenAI model soon. They announced
+some GPT 5.6 models this week, but only
+certain organizations in the US have
+that for now, so we'll see, but that's
+going to be the new frontier model
+family upgrading from GPT 5.5 now, which
+is also amazing, but probably at like
+Oppo's 4.8 or Sonnet 5 level. And yeah,
+those are pretty much all the stories
+and use cases I wanted to show you this
+week. Leave me a comment on what you
+wish was in this video or what we
+covered on the channel. It's been a
+while since I asked for ideas. I always
+love hearing from you guys and yeah,
+that's pretty much it. I hope this was
+helpful. My name is Igor and I hope you
+have a wonderful week.
+>> [music]
+>> Can you use?
+Breaking down the stories you actually
+[music] care about.
+I lose, you can use.
+Igor's here to help you
+>> [music]
+>> figure it out.

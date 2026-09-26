@@ -1,0 +1,460 @@
+UP主：The AI Advantage
+标题：5 Skills That Make ChatGPT & Claude Better at Everything
+链接：https://www.youtube.com/watch?v=DdV0f8eu6XI
+
+Recently, even the most advanced users
+of AI shifted to using way more skills.
+Some of them can show you different
+perspectives. Others refine your ideas.
+Yet again, others make the AI writing
+sound less like AI. I truly believe that
+there is a skill out there for everyone.
+And in this video, I'm going to give you
+a quick intro to skills and show you the
+top five skills that I think you should
+be considering. I'm just excited about
+showing you two. They're free. Work in
+chat and claude. Let's get to it. So
+let's start with the basics. What is a
+skill? Well, it's basically an
+instruction manual that Claude or Chacht
+can reuse. So you don't have to
+reexplain the process again and again in
+every conversation. Now as of
+accessibility, I want to be clear,
+Claude adapted this first and you can
+access them under customize. And here if
+you go down to skills here, you can see
+various skills. You can add them here in
+this button and on the top right saying
+add where you can upload skills or
+create new ones. If you have an existing
+one, you could just click it and with
+these free dots, you can download it.
+That's claude. That's how you download
+and upload them. Okay. And it works also
+on the free planning claude. In chat,
+it's a bit different. They added them
+recently and as of now, might change in
+the future, but as of now, they're only
+accessible inside of chat GPT work. And
+work is only available on the paid plan
+for $20. As soon as you have work, you
+would click plugins here on the left.
+And then up here, you can see this
+skills tab. This is a bit non-obvious,
+but when you go there, you can see that
+you can add skills by clicking plus and
+upload from your computer, or you could
+be creating new ones. Same thing goes
+for downloading. You just click these
+three dots and you can download a skill.
+And at the end of the day, they are just
+markdown files, which means they're
+basically just text. Now, there's one
+nuance, and that is that Claude actually
+changes the text format to akills file,
+but honestly, it's just text in the
+background. So, these are transferable.
+It might not always be perfectly smooth,
+but it's basically text fast. So, let's
+talk about what these do. Well, they
+execute the instructions. Sure, they can
+also include code, but mainly it's just
+text. I would say they're prompts in a
+shoe box. But honestly, with some of
+these that I'll be focusing on today,
+you don't even need to know exactly how
+it works. I mean, it's all there. It's
+in the text. If you're worried about the
+security aspect of any skill, you can
+always just open it and just read the
+text. Like, that's it. There's no hidden
+agenda or something inside of the
+skills. And what I'm going to be doing
+in this video is giving you a folder
+with all the skills that I talk about
+here today. Just going to put them up on
+Google Drive. We're going to credit
+everybody because I didn't create every
+single one of these, but you can just
+download them from the link in the
+description and then install them in
+chatblad. All right, that's your intro
+to skills. Let's look at the first one.
+And the first one we should always look
+at is actually a built-in one. This one
+you won't install, but you need to know
+about it. It's called, and if I go all
+the way to the bottom of the list, this
+one, skill creator. And the skill
+creator is basically a skill that well
+let's see create and save other skills.
+So maybe you're doing something in
+Claude and you did a multi-step process.
+You can always go in and say /kill
+creator turn what I did into a skill and
+it will save that. Now knowing of the
+skill creator can be very useful because
+in various situations maybe you're
+uploading a chache skill and it's a
+different file format. You can always
+just say skill creator and be like save
+this skill to my library. Often times if
+you do that without calling the skill
+creator, it will struggle a little bit.
+So that's really it. Chat GPT has the
+same thing. I should note that if you're
+in chat GPT, you don't say slash, you
+say at. And the second difference is
+that they call this the template creator
+in chat GPT. It's the same thing. Okay,
+that was sort of a prep skill. Now let's
+get into the actual list. And I'll start
+with the one that is probably the most
+popular across both consumers and
+developers and everybody else. It's
+called grilling and it's a skill created
+by a fellow creator called Matt. And he
+publishes a bunch of workflows and
+different things, but this one just
+called Verality. And basically the idea
+is very simple. It just asks questions
+until it has clarity on an idea that you
+want to pursue. Okay. So often times you
+might have a direction in mind. If you
+grill the idea, well, the scale might
+hit you over the head with 25 questions.
+Luckily, it always has a suggested
+answer, so you can kind of just say,
+"Yeah, I agree with all the
+recommendations." But it does take some
+work. In some cases, I had up to 50
+questions to clarify something. Usually,
+it's between 15 and 25. And the entire
+instructions on this are right here. So,
+look, there's a few ways. You could
+download the skills from the link in the
+description. Again, it's free. There's
+no catch. It's just a Google Drive file
+from me. Or alternatively, you could go
+to this page. You could copy this skill
+and include you could say hey /skll
+creator save this as a skill and then
+you paste the content. I already did
+that and have it. It's called grilling.
+This is the one that I'm sharing with
+you. And now let me show this to you in
+practice. I want to start a hot dog
+selling business. Okay. Very little
+detail. Right. So if I say say / slash
+grilling and I hit enter, you will now
+see it come up with a bunch of ideas to
+clarify this. It kind of goes round by
+round. It clumps questions together. So
+you might answer highle questions first
+and then things about the business model
+second and then it always pushes the
+frontier further and ask questions at
+the frontier. That's how it works. It
+just comes in multiple rounds. A lot of
+these skills, they're built for claw
+code or openclaw or hermes where you
+have access to sub agents, meaning you
+can spin up extra chats where the AI
+just goes off and does something. So, it
+does use that language in here. And here
+a sub agent to find information. The
+fact is if you just use the skill
+creator, you will adapt the skill and
+you can use it in chat too. And there we
+are. Here are the questions. So, you can
+see number one, what is the business
+actually for? And then it gives an
+answer and it gives a recommendation.
+You could also go full lazy and just be
+like agree or recommendations, but that
+kind of defeats the purpose of the
+skill. Often times you will also see
+multiple choice answers right
+afterwards. So because this one is so
+wide open, it doesn't even give you
+choices. It kind of gives you free form
+answers. But there you go. That's
+grilling. This is I would highly
+recommend you try this one. It's so
+useful. And people who create stuff,
+build things, this is often the very
+first thing they do with their idea.
+They grill it and then they're clear on
+what they want to do. And AI is just
+amazing for this. Second is one that we
+actually use internally. This is so
+simple and you can customize it to your
+own workflows. I actually don't have it
+in this Claude account. So, I'll just
+show you the uploading. I go to upload.
+I will drag and drop the skills file
+into here. And boom. That's how simple
+it is. Now, I have the professional
+reports generator. This is a generic
+version. You would want to customize
+this skill to the kind of reports that
+you're creating, but this is a really
+great one to create any sort of report.
+If I click the skill, you can always
+open it up and see what's inside. First,
+it clarifies the scope, then it searches
+the web, and then it plans the report
+structure, and only then does it write
+the content, and finally, we end with a
+doc x file. You could change the file
+format there. But you can see how this
+is a multi-step process where it only
+delivers in step six rather than just
+giving you a report right away. It's
+just a superior workflow. And let's say
+you work with somebody who keeps giving
+you very sloppy reports that are created
+by I, or you can hand in the skill and
+be like, "Hey, here's a process that you
+should actually follow when doing
+these." Because really what you're doing
+is just pushing your work onto me and a
+report generator like this avoids that
+because well it goes through these
+multiple rounds before you actually get
+something look at it asking me
+questions. It sort of has a mini version
+of grilling built in. But yeah, it's
+just a age-old technique to let AI ask
+clarifying questions before you move on.
+This skill has that built in. So if
+you're creating reports, I recommend
+this one. We have versions of this
+customized to our own templates
+internally. Super good and easy win if
+you create reports regularly. Hey, and
+as I said, everything in this video is
+free and there's no catch to the skills
+that are downloaded. But if you're
+interesting in learning more stuff like
+this, if you enjoy this, if you want to
+start saving time with AI and get these
+slowhanging fruits and tools that we
+built for you so you don't have to do
+the work yourself, well, that's why we
+created the AI Advantage Club. We have
+multiple courses in there and we add new
+content and have new guests every single
+month. Everything is about upgrading
+your fluency with AI and getting you
+time back. If that sounds like something
+that's interesting to you, make sure to
+click the first link in the video
+description. You can get a trial for $1
+only where you get access to everything.
+And also, I'm the main instructor in
+there. So, if you enjoy this, chances
+are you would love the club. All right,
+let's look at the next skill. And this
+one is a personal favorite of mine. But
+you got to know that I'm sort of a ideas
+guy, a creator, you might say. And this
+one is well, it's there to refine your
+ideas. So, let's just take this
+ridiculous example of the hot dog stand
+that we were kind of throwing around
+here. and let's say I want to start a
+hot dog stand to finance my life. Now,
+idea refine is kind of wild and it also
+hasn't been created by me. This is yet
+another agent skill and there's multiple
+layers to this but basically it
+generates five to eight idea variations
+using these frameworks and then there's
+way more details under it but if you're
+not sure about an idea and you want
+alternatives this is the one. It uses
+inversion. What if we did the opposite?
+Uses simplification. what's the version
+that's 10 times simpler or the 10x
+version? What would this look like at
+massive scale? And it just gives you
+these different perspectives that no
+single human brain can consider at once.
+I made slight tweaks to that skill
+inside of Claude. And what you'll see
+here is something that does take quite a
+bit of brain power to even read because
+it's just going to be these completely
+varying perspectives on your idea. So
+the grilling skill that I showed you is
+that hey, you have an idea and you want
+to get clear on the details of it. This
+one is about finding alternative ideas.
+Okay, so it goes through some economics
+and then here are the alternatives. The
+night and weekend card. So this would be
+the constraint on time lens. And you
+might have to pull up this reference
+page. I know I did in the beginning. So
+this removes the constraint on time.
+What if budget time tech weren't factors
+and that's exactly the customization I
+made here. I added the lens in here cuz
+by default it comes without this lens
+and it was just so confusing to me. So
+look, Friday and Saturday only 10 p.m.
+to 3:00 a.m. near the night life spill
+in Kaish. All right. So that's a very
+lightweight version. How about
+inversion? If I do the opposite, the
+owner you hire. You never stand in the
+cart. You buy the card, secure the
+pitch, hire a student to run it, and
+keep the spread. Okay, so it inverts the
+idea of me running the cart, right? So,
+let's look at one more. Maybe the
+simplification. I always enjoy that one.
+10 times simpler. The 300 version. Rent
+a stall at a Lisbon market for two
+Saturdays. Borrow or rent equipment.
+Sell 100 dogs. Count what you actually
+make and how you actually feel at hour
+7. Yeah. So, that's the simple version.
+I mean, all of these are useful. Again,
+you're going to need a lot of brain
+power to even consume this, but Idea
+Refine is really good at showing you
+alternatives that are well, sometimes
+far out there and unusable, and
+sometimes you get the moment of like,
+oh, how did I not consider that? And
+hey, if you're getting value from this
+video, make sure to subscribe. We're so
+close to half a million. Help us get
+there. And now, let's move on with the
+video. Next one is a skill that became
+popular on Twitter over the past few
+weeks because a lot of anthropic staff
+uses it internally to explain things
+like your five in a visual way. Now, you
+might have heard of that prompt, right?
+Explain like I'm 14, explain like I'm
+five, all of that where it simplifies
+down what you do. But this goes deeper.
+It creates a HTML that really shows off
+complicated ideas in a super super
+simple way. So, when you're learning new
+things, Eli 5 is actually super useful.
+So, look here, I did /5 explain the US
+tax system. I mistyped, but it
+understood it and it created this
+artifact with the skill. Now, look at
+this. Not many things are more
+complicated than the US tax system,
+right? We can agree on that. Sure, you
+could come up with something, but it's
+like up there. And then this skill
+created this beautiful visual that shows
+you where your paycheck goes. Now, given
+this might not be at the level of a
+5-year-old, fair enough. But it shows
+you, hey, if you make 60K, this is
+basically how things land. This is the
+federal income tax with the different
+levels. And you just get these
+simplified visuals to understand it.
+Your tax return is a receipt check. This
+is what you get back. And this is the
+federal government spent on what it used
+the taxes for. Like, we're not here to
+debate taxes. We're here to show you
+that this skill can make the most
+complicated things on planet Earth
+digestible. And it's a fantastic first
+step into new topics. And no wonder that
+anthropic staff loves this because they
+deal with new ideas all the time. And
+you can have the power of that, too. Eli
+5. I put it in the package. It's in a
+zip file below. All right, let's look at
+the next one. And this is sort of a
+bonus skill because all these other ones
+I actually use regularly and have used
+extensively. This one I just found, but
+I think you would enjoy this. So, I kind
+of wanted to throw this in as a bonus.
+It's called unslop. And basically, if
+you're not familiar with the
+terminology, AI slop is what people
+refer to as lazy work where they just
+handed it off to the AI and essentially
+you're pushing the work onto the next
+person that is responsible for the next
+steps. And also it often returns to the
+style of AI writing that just just
+robotic and sloppy. So what this one
+does is very simple. Again, it's just
+text here, but it basically scans for
+various patterns and it adds soul and it
+audits for certain recurring AI words.
+And I just saw this and I was like, yes,
+this is right. I like it. Have opinions,
+vary rhythm, use I when it fits, all
+things that AI basically avoids in its
+writing. And then you have all of these
+patterns that it detects and fixes. Like
+of course you have classic stuff like EM
+dashes in here, but there's way more. It
+scans for all of these 31 things for
+you. And I'll show you how I would
+install a scale that well even in this
+case is meant for agents, but I'll just
+put it into my cloud cuz I want to use
+that on the go and easily all the time.
+I'm just going to copy this and this
+time I'm going to do it in chat GPT. I'm
+going to say at template creator. That
+would be slashkill creator in claude.
+I'm just going to say save this unslop
+skill and then paste this in. And there
+it is. Unslop is created. Now I could
+say at unslop at any time. And that's
+pretty much how you do it. One last
+thing before I send you off. Security.
+Now look, there's thousands of skills
+out there. I wanted to show you the ones
+that I use regularly here today. But be
+careful when downloading these because
+they can have malicious code or text in
+them. So, you know, downloading them is
+not a problem. Just look over them if
+you're not getting them from a trusted
+source like me. I mean, I've been here
+for 4 years pouring my heart and soul
+into this. The download file below is
+literally just exports from my personal
+claude account that I use all the time.
+Okay? But if you go out there and if
+you're some GitHub repository from a
+person you've never heard before and I
+don't know, you look at it and maybe it
+has a few hundred stars, you know, just
+read through the whole thing. At the end
+of the day, it's just text, but it
+definitely is a way that somebody could
+put some code in there that could do
+something on your computer that you
+don't want. I haven't heard of an
+instance of that before. I just want to
+make sure that you're aware that it
+could be a possibility. And then
+finally, I'll just say share the love.
+If you have some skills that you love,
+leave a comment below. I would love to
+hear about them. These are my favorite
+ones. And that's basically it. My name
+is Igor and I hope you have a wonderful
+day.

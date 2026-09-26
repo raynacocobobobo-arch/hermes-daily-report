@@ -1,0 +1,324 @@
+UP主：The AI Advantage
+标题：OpenAI Just Gave Codex a Superpower & More AI News You Can Use
+链接：https://www.youtube.com/watch?v=K7F0fNIQWKg
+
+Welcome to another week in AI. There's a
+lot of things that were released. I
+think honestly most of them do not
+matter. Look, I know this can be a lot,
+but these are all the stories we looked
+at this week and some of it sounds
+really fancy, but doesn't work as you
+would expect it to. Whereas other stuff
+is just not practical to a consumer
+who's just trying to get things done.
+And that's why this Friday we'll be
+focusing on the stories that make a
+difference. I think there's two things
+here really. First one is OpenAI Codex
+record and replay where you can just do
+something, have AI record you while you
+do it and then it can repeat that. And
+this one actually works. Seen that
+That's what we're going to talk about
+today. This episode of AI news you can
+use where we basically round up the
+stuff that matters in the AI space. And
+yeah, as per usual I'm on the go in the
+Slovakian mountains as you can see. This
+is real. Let's get into it. Starting
+with Codex. The only unfortunate thing
+about this story is that it's Mac only.
+And you do need a subscription. But I
+think this is going to be widely spread
+in a few months now. Probably in the
+free plans too. I mean, this is premium
+functionality. The breakdown of it goes
+like this. Inside of Codex you enable
+this functionality and when you hit
+record you have 30 minutes to record any
+workflow on your computer. It records
+your microphone and it records what
+you're doing. And as you do it, it
+creates what they call a skill which is
+a bit more in-depth than Claude skills.
+And then you can reuse that skill to
+redo the workflow that you recorded at
+any time. You could even schedule it
+out. Now, some of you might be saying,
+"Hey Igor, but this has been a thing
+before. Different providers. Maybe most
+notably Anthropic's Claude have this."
+If you use the Anthropic Claude Chrome
+extension that I have right here,
+there's the exact functionality in there
+where you hit this button, teach Claude,
+you enable the microphone and yeah, then
+you can do things and then Claude
+repeats them while considering the
+context from your mic. Yes. It's not
+that reliable though. This has been
+around for a while and it sounds so good
+in theory, but for me in practice and
+the team that tested it too, the one
+that came out in Codex this week is just
+more reliable than the Claude one. This
+might change in the future, but right
+now my initial take after testing Codex
+and testing Claude is Codex is so much
+more reliable that it actually makes me
+want to use it. Whereas Claude is kind
+of just under that threshold. You can
+make up your own mind, you know, at the
+end of the day I'm just here to show you
+stuff and you can try it yourself, but
+what we're going to be doing now, we're
+going to be doing this workflow in
+Codex. Again, Mac only and you need at
+least a $20 plan to do this. But if you
+have that, this is what it looks like.
+You head into Codex desktop application
+and here on the plugins, it's not one of
+these plugins in here, but you need to
+go to create on the top right and then
+you go to this new option up here called
+record skill. Now, this might be
+geo-fenced, too. I know,
+paid plan, Mac, and only certain
+regions. But hey, we like to feature
+that on this channel, the stuff that is
+brand new and that actually works really
+well. For everybody else, hey, there's
+the Claude one that you can use right
+now. But yeah, back to Codex. So, what
+we did in our testing is we tried a few
+examples and I thought one of the most
+interesting ones is just something
+manual that you would do on a computer,
+something like uploading files to a
+service, like we do with some of our
+shorts every week, and then moving them
+from one folder to the next. So, this is
+what we're going to do here. We have one
+folder with shorts over here, okay?
+These are finished edited shorts from
+our editor, ready to be added. Then we
+want to upload them to the YouTube
+channel through the browser. Simple as
+that, you know, click upload and then
+add them. And then as a short has been
+uploaded, we want to move it from one
+folder to another one, which is
+basically an archive of uploaded shorts.
+It's really a three-step process, but
+with the upload we just have to make
+sure it's a draft. So, here's what's
+going to happen. We're just going to
+navigate up here and say record a skill.
+And as we select that, we get the choice
+of in which project we want to do it.
+I'm just going to say don't work in a
+project, we're just going to record a
+general skill with no extra context. And
+now, when I hit enter, it's going to
+start, well, recording. It runs for 30
+minutes and I can just do something. So,
+I'm going to do exactly what I said I
+was going to do. I'm going to go into
+the desktop. You can see the shorts
+right here. I'm going to upload one of
+them to YouTube. And then additionally,
+you can actually comment over it. So,
+whatever I say into the microphone as I
+record this will be considered as
+context. So, in practice, when we were
+trying this the first time, essentially
+what you do is you comment on every
+little step just like you would to a
+co-worker, right? You would be saying
+things like, "Hey, now we're going to
+take the files from this folder. The
+order doesn't really matter. And we're
+going to go into YouTube Studio up here,
+go to this upload button, and then add
+one of the shorts." As soon as the short
+is uploading, we will switch it to be a
+draft. And then, once the short is done
+uploading, we will take the file on the
+desktop, verify if it's the same file
+name with YouTube Studio, and then we
+will move the file from one folder into
+the next. And that concludes our
+workflow. Everything you just said there
+will be transcribed and included as
+context for the skill. And we'll be
+repeating this. Pretty neat. So, I can
+tell you in practice this took about 10
+minutes in total, and we edited it down
+for you. But the beautiful thing is you
+take these 10 minutes once, and now I
+can type {slash} and find the skill that
+I recorded. And when I hit enter, it's
+going to execute the same skill. And
+look at that, right here it's taking the
+second video file, it's uploading it to
+YouTube Studio, and voila, it's in a new
+folder. Now, you could go more complex.
+You could do five-step, 10-step
+workflows. I think at a certain point,
+it's probably going to start falling
+apart. Even with this one that is like
+three steps, we found that by running it
+a few times, well, the first one or two
+times you're going to run into things
+like, "Hey, can I have permissions to
+this? And are you sure I can use the
+browser?" And things like that. So, I
+would recommend running the skill a few
+times as after you recorded it. But
+then, once you're over those hurdles,
+there's just what I mentioned in the
+beginning, which is that slight
+unreliability. It's not 100% reliable
+like a human who has been doing the work
+for a few years. I mean, sure, humans
+are never 100%, but you know what I mean
+in terms of, "Hey, move the file from
+here to here." If something goes wrong,
+a human self-corrects or he finds a
+replacement for the work that needs to
+be done, whereas AI kind of just gets
+stuck, and that's that. And it did
+happen even in our testing. Like, right
+here where we copied an unrelated
+screenshot into shorts, published, and
+then it's asking, "May I undo that
+copy?" And then you kind of have to tell
+it, "Yeah, uh you can undo your mistake.
+That's okay, Codex." I think in practice
+with these things it's always the same.
+The idealistic version of it sounds so
+good. It's like, "Oh my god, I'm going
+to do this once and never again." And
+then in practice it kind of does it
+eight out of 10 times, nine out of 10
+times. Still a huge lift, but you just
+don't build this like deep trust with
+the workflow or with the tool here. But
+I guess what I'm saying is that Codex is
+just more reliable than all the ones
+we've tried before, and that's a win. We
+just haven't reached this point where
+you're like record 50 of these and then
+you have to work like one day a week
+instead of five. It's more like you
+record these and instead of spending, I
+don't know, 10 minutes on a task, you're
+just going to check if it ran correctly
+and then you can run multiple in
+parallel and kind of more like a human
+overseer than a human worker. I think
+that's just the reality today, but
+nevertheless it's really exciting to
+just know that, hey, you can, you know,
+hit record and then semi-automate things
+in such a simple manner. I mean, let's
+be real, clicking and talking, everybody
+can do that, and I think that's the
+beauty of this. The other story that I
+wanted to cover this week is some of the
+minor chat GPT updates. There's a bunch,
+but honestly I think most of them are
+like, "Okay, the image upload on mobile
+is a bit faster now. Great." But I think
+the one that I thought was interesting
+as a regular user is this ability to pin
+chats. Look, you can now pin both chats
+and projects from this menu, so you can
+kind of create a favorites list up here.
+So, you could just pin something and
+voila, your pinned chats include that. I
+think this is really neat. Another one
+is for all the football or soccer fans.
+ChatGPT made a football product, which,
+hey, I don't know about you, but during
+the World Cup I become a soccer fan.
+Over here, if you go to
+chat.openai.com/football,
+you will see this interface where you
+can look at all the standings and really
+easily learn more. Obviously, it's chat.
+Maybe there's sites out there that do it
+really well, but just having this inside
+of ChatGPT super clean, seeing exactly
+what games are coming up with all all
+standings in one place is pretty great.
+And hey, look look look, I know soccer
+fans out there, you're going to have
+your sites where it's like, "Hey, I they
+have that where you talking about? Are
+you or this not unique?" I just mean for
+everybody else who might not have this
+or wants an even cleaner view that, I
+don't know, comes without ads. It's
+right there in chat. You can kind of
+follow up and ask things about the
+groups, about the rules, about whatever.
+I think this is best experience for
+people who are new to soccer. And then
+maybe even some more experienced people
+might enjoy this. So, I wanted to show
+that to you. And by the way, as I live
+there, go Portugal. Oh, I guess I should
+speak about one thing that we tried. We
+thought this was going to be the lead
+story. It was Claude tag, where you can
+just add Claude and bring it into any
+conversation. We actually tried this a
+bunch with the team and gave up on it
+about 24 hours or something. It's just
+not as reliable as we want it to be.
+Now, I can't help but think that maybe
+we're doing something wrong, but we
+literally had all our technical
+moderators try them talking back and
+forth and sometimes it just completely
+lost the context and thread of what was
+actually going on and gave nonsensical
+answers. Thought that D was really
+interesting and got really hyped on
+Twitter, but practically, we don't love
+it. If you have a different opinion or
+if I might be missing something, let me
+know. Okay, and those are the stories.
+Honestly, as of the rest, you might know
+this, but a few months ago I used to
+cover everything that came out. And
+something about that just didn't feel
+right. I was like, I don't want to
+represent stories that I do not
+genuinely care about or want to
+recommend in these videos. The frame
+that I always keep in mind for the
+YouTube channel is, "Hey, just me and
+you getting coffee or dinner and you
+asking, 'Hey, what's new in AI that
+matters?'" And then, you know, I tell
+you what I think that matters. That's
+the point of the channel. But if you
+want to dig in, hey, here's the overview
+of our research database this week. But
+that's pretty much the stories from this
+week. I hope you found something useful
+or inspirative for yourself. My name is
+Igor and I will see you very soon.
+>> I knew
+you can use
+AI
+breaking down the stories you
+actually care about.
+I knew
+you can use
+AI is here
+you figure
+it out.

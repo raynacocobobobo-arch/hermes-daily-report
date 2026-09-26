@@ -1,0 +1,428 @@
+UP主：The AI Advantage
+标题：Is ChatGPT Still the Best AI Agent in 2026?
+链接：https://www.youtube.com/watch?v=Nq3S_vNjw5E
+
+So AI really is quite interesting now
+because the big companies are fighting
+for the consumers. Everybody wants to
+have the agentic consumer product. It
+started with Claude's cowork and this
+week Gemini entered the ring with their
+spark product. Last week we talked about
+chat GBT work. So now all of them have a
+product. So what I wanted to do today
+for well myself and therefore also for
+you is compare them on day-to-day use
+cases on things that I regularly do with
+chat GPT. We prepared some mock data. We
+used some connectors in some of them and
+we ran the same tests inside all three
+of these apps. That's going to be the
+theme and topic of this week's news you
+can use video. The show where we look at
+all the latest releases and then I give
+you my take on what I think is worth
+using. This week we'll be comparing the
+free big agentic consumer products plus
+a few other stories like OpenAI
+releasing their first hardware product.
+But those are really just side notes.
+Let's get to the meat of this video.
+Starting with the methodology. So look,
+I guess you could do this in a really
+complex manner. What we did is we found
+a bunch of use cases for chat GBT work
+as we were researching it throughout the
+past week. But then in our discussions
+we kind of arrived at hey like a lot of
+this stuff is one of uses what about the
+stuff that we actually do regularly like
+summarizing meetings or looking through
+business documents or getting summaries
+of your meeting inbox. And the fourth
+one is letting AI help us with customer
+support and responses. We deal with a
+ton of customers. All of these are real
+things we do dayto-day. A bunch of the
+other use cases they're interesting but
+this is really at the core of how we use
+it as a company. And I thought these
+four use cases were just relatable for a
+lot of people. Day-to-day work, the
+typical stuff that consumers do. Which
+one of these tools is actually the best?
+And as mentioned, the free tools are
+going to be chaty work that released a
+week ago. Gemini Spark that well has
+been releasing over the past two weeks,
+but now it's finally available to all
+Ultra subscribers. That's the $100 plan.
+And then Claude Co-work, which is
+available on the $20 plan. So the
+cheapest one is definitely chat GPT
+work, but you can't even do all the
+things that we try today on that plan.
+So essentially, you need the $20 plan
+for Claude or Chachi, and the Google one
+is only available behind the $100 plan.
+For all three of these models, I set it
+to the state-of-the-art model at the
+default setting. So that's Fable High,
+Chetchup, Saul High, and then in Gemini,
+you don't even get a choice on
+prompting. Okay, that being said, what
+we're testing here is their version of
+Clot Co-work. And I'm saying that
+because they were first. It's basically
+a consumer focused agent that plans and
+connects to a bunch of tools and then
+gets you a output. but it's supposed to
+work for you, not with you. And I think
+that's enough context. Let's actually
+look at the results here. Starting with
+the first use case, meeting transcript
+to action plan running in all three of
+these. Okay, let's start by Gemini
+because it's the new kit on the block.
+So, meeting transcript analysis and
+planning. It's pretty simple. We just
+run this prompt that extracts five
+different things like this key
+decisions, action items, blockers,
+follow-up emails, and a Slack summary.
+and we attached a meeting transcript
+that in this case is a fictional one but
+it's based off real conversations that
+we had with real team members and you
+can see it's a pretty short one. This is
+what we got from Gemini Spark. This is
+what we got from Claude Cowork and this
+is what we got from chat GPT work. So
+after looking over this for a bit I
+would conclude the following. Chat GPT
+is the most complete and detailed. One
+thing that I particularly liked and also
+our AI analysis, which I'm also going to
+show you, noticed is that it flagged if
+certain ownership is implied and I need
+to confirm it. I thought that was very
+thorough and it just gave me this
+feeling of me being able to hand off
+important work to this. The others just
+made assumptions for everything that
+needed to be assigned. Overall, you can
+pause the video and look at these
+results if you want to look at them.
+Claude was the most concise and created
+a separate markdown file. Gemini just
+gave me the answer like so without many
+bells and whistles and chat GPT again
+very thorough with a lot of
+functionality here like being ready to
+send this email if I add the recipient
+right here. This table formatting that I
+always like and clean sourcing which you
+know the others didn't have. Overall I
+would prefer chatbt and as mentioned I
+run all of this through AI analysis and
+the result for this one was chatbt with
+a 9.1 and Gemini being last. One thing
+that should be flagged is that Claude,
+as per usual, has the best writing. It
+was just more human sounding, but it
+invented and assumed a bit too much. I
+would totally agree with that. So,
+overall, this one goes to Chad GPT. All
+right, next up, and we'll keep this very
+brief. It's just attaching a bunch of
+business context. We have this file
+called business DNA with all details on
+our product and what the outcomes are.
+And then I just ask rather generic
+questions. What is our core product?
+What is the outcome most of our
+customers can expect? I want clear
+sitations, short answers, and the
+practical next step. The first question,
+all three gave an identical answer. But
+here on question number two, the
+expected customer outcome, Gemini shows
+that the expected outcome is getting two
+to five hours back every single week by
+being a part of the club, which is our
+core product, which is very obvious from
+the business DNA. But the practical next
+step differs. So Gemini recommended that
+we audit all upcoming content streams to
+ensure every piece of content clearly
+serves this metric, the time that people
+get back by participating. Claude flags
+the same thing but the practical next
+step is different. It says we should
+make the one hour per week outcome the
+headline of every piece of member facing
+copy and the onboarding touch point. I
+actually like that more. It thinks about
+the onboarding which is the beginning of
+the journey rather than just all the
+content. And then it adds this filter
+that hey if the content inside doesn't
+fit the filter of saving time then take
+it out. I think that is smarter than
+trying to force like a number onto each
+piece of content. And then finally, chat
+is the most concise, which I actually
+like because we asked for that. The
+practical next step is that we should
+establish a baseline for one recurring
+task, implement a taught AI workflow,
+and measure the time saved each week.
+So, it's the most granular and practical
+from all three of these. I think
+personally, I enjoyed the Claude answer
+the most, but it's very close. And the
+AI analysis actually reflects that. Chad
+Chipy with 9.0 zero and Claude with 8.9
+saying Claude gave the richer answer but
+ChachiD followed the brief best shorts
+cited practical and no extra baggage. I
+would agree with that. This is a very
+close one though. Maybe I'd give this
+one to Claude. I will point out that
+Claude did not site the source which
+both Gemini and Chad GPT did. I like
+that. Okay, two more examples and then
+we'll look at the theme between all of
+these. So this one is going to be
+customer feedback analysis. We have so
+many different customers and we love
+looking at their responses through both
+a human lens and an AI lens. It's just
+useful. So what we did is give it data
+on customer feedback. Just a table again
+created for this test but based on real
+feedback. And the prompt here is very
+simple. Analyze it. Top five recurring
+themes. Give me the percentages
+sentiment. Three most important product
+priorities. A short leadership summary.
+Be specific. Do not just summarize. Turn
+the feedback into decisions. We're going
+to be looking for that. But I always
+like saying something like this in the
+end of prompts that are rather vague.
+Like give me the next actions. Give me
+the next decisions that we need to take
+based on this analysis, not just, you
+know, a long document. Gemini spark
+clot co-work
+concise
+and chat work.
+Okay, it's a good table up top and super
+concise. Okay, leadership summary. Let's
+start with chat as we're here. Members
+generally trust the content and believe
+in the time-saving promise, but the
+product repeatedly leaves them at the
+boundary between understanding and
+execution. The immediate opportunity is
+not more content. It is better execution
+infrastructure, clear next action,
+taskbased technical runbooks, automatic
+guidance on using DNA files. Okay, what
+did Claude think about this document?
+Nobody's questioning the value. The
+feedback is about packaging, not
+product. People consume the content that
+install because they don't know the next
+action. Free fixes, a mandatory one
+action closer on all content, a deist
+agent hub onboarding for mastery, and a
+DNA cheat sheet. Address roughly 80% of
+the negative feedback. See how
+actionable this is. Again, this is just
+a theme just like with the previous one.
+And this is my experience with Claude
+overall. It just tells you really what
+to do. Sometimes it might make
+assumptions just like in the first
+example of the meeting analysis. This is
+really good. This just reads really
+well. Let's look at Gemini to round this
+out. Leadership summary. Our offering is
+structured like an extensive menu which
+intimidates trial members. Key
+takeaways. Setup friction. 28% is the
+largest blocker closely followed by
+onboarding direction and DNA management.
+Shift in delivery. We must shift from a
+content delivery long video model to an
+action first prepackaged prompt delivery
+system. Okay, I'm not sure I agree with
+that. I think to me clearly Claude won
+this one. Let's see what the AI analysis
+says though. Oh, it says again, Chachi
+won. Claude understood the member
+psychology best, but Chachi turned it
+into the clearest action plan. I think
+that's fair. U he's probably referring
+to this part, the decision ready
+readout. And then this comment is
+interesting. Gemini was polished, but
+overentered technical setup. Yeah, even
+from that reading, I agreed. He was
+really going into the exact tactic, but
+it wasn't even a good one. And I don't
+think it had enough consideration for
+the member experience. And hey, if
+you're interested in these tools and
+wonder what else they can do, cuz
+they're so so so powerful, I created a
+document where I shared some of my
+favorite prompts and use cases for well,
+all of these Agentic consumer tools. I
+created it for chat GPT work, but really
+it's applicable everywhere and you can
+get it for free by going to the first
+link in this video's description. And
+yeah, we did test all of them and select
+from dozen other use cases. So really,
+these are the ones worth trying if you
+want to go beyond this video. Let's get
+back to the results here. Okay, last
+one. really simple and this is a use
+case more and more people are doing. You
+can simply connect Gmail to one of these
+accounts and it will just go through all
+of your emails and then give you a
+summary once a day. This didn't work so
+well in Chat GPT because it sort of
+pulled in the data and then messed it up
+sometimes. But with these products,
+these agents, hey, it actually creates a
+plan and goes line by line and calls
+itself, I don't know, 20 times if you
+have many emails. And this works really
+well. How well? Check it out.
+Intuitively, I would expect Gemini to
+shine at least in this one. No, I mean
+it is Gmail that we connected which
+stands for Google mail and this is the
+Gemini AI. So let's have a look. It's
+this simple email scan today's Gmail
+inbox. Look at the messages and then we
+want to surface a few specific things
+mainly stuff that is immediately
+actionable. And again we want a summary
+and next steps. This was linked to one
+of my emails that I don't even use
+regularly. I suppose I signed up to the
+dentist there. So it highlights that
+there's some YouTube sponsorship
+proposal. There's some co-working event
+tomorrow. Stop hop ticket survey. AI
+master class reminder. Let's have a look
+at Claude. So, this is what the result
+looks like. Way more concise. And again,
+it highlights the dental appointment
+that has been cancelled, the YouTube
+collab, and the event tomorrow. Very
+similar results, but it only gave me
+three instead of five. Whereas, I would
+agree the stub hub ticket survey
+reminder should not be something that's
+actionable for me. I mean, that's a big
+miss by Gemini. No. Let's look at Chip
+again. Same setup. connector plus this
+prompt. Google security alert. Okay, so
+it surfaced that as the only one. I
+don't know if I like that. Guess it just
+shows that it's a bit more security
+focused. The chat GPT model. Then the
+receipt for the Google AI Ultra account
+here. I don't know why it highlights
+that. The dental appointment that got
+cancelled, YouTube collaboration, the
+co-working event, and the masterclass.
+Okay, so this is similar to Google. I
+liked Claude the most. I think it did
+the filtering for what matters to me the
+best. And to round this out, let's look
+at the AI analysis here, which says
+Chacht is the best with Gemini last. So
+I don't know, I would probably put
+Claude here. So the AI analysis is four
+for four Chacht. For me, it would be two
+of them Chacha.
+And then I'll say one more thing. This
+entire analysis was created by OpenAI
+model. So it would often agree with its
+own results, right? So what I did is I
+ran the whole thing through Fable, the
+Claude model. And here we're just going
+to see what Fable got us. Oh, Fable
+agrees. Chat GPD is the winner on all
+categories. It likes that the inbox test
+comes down to security and billing. And
+then I guess here's the overall verdict
+from Fable 5. Chat GPD wins on a
+criteria that matters most for real
+teams. Groundedness, exact instruction
+following, and safety judgment. Claude
+is the clear second for voice and
+narrative synthesis. Gemini is competent
+but repeatedly needs cleanup. And then
+here finally, you have recommendations.
+What you should use for what. Claude for
+member facing communications, executive
+storytelling, emails in Egor's voice,
+Slack updates and leadership summaries
+and chat for consequential work, action
+plans, doc rounded answers, feedback,
+quantification, inbox security, billing
+triage, and anything where facts must
+stay separate from inference aka the
+AI's knowledge. There's a lot here.
+Overall, I agree. Chat GPD for everyday
+work seems like a good model. Soul is
+unbelievable. Fable did well. that has
+the classic claw shrimps of writing well
+and surfacing actionable items. A lot of
+people call it like the creative genius,
+which I think is accurate, but for the
+day-to-day work, it's probably chat. And
+then Gemini just lags behind on
+everything. They haven't released a
+model that competes at the level of Saul
+or Fable yet. So, you know, that could
+have been expected, but I did want to
+put it to the test. And now you
+definitely know that the $100 is not
+going to be worth it. If you're looking
+for a day-to-day agent to help you in
+your work, it's going to be between
+cowork or chat GPT work. And there you
+go. That's really the core message of
+this video. And yet another hotel room.
+And look, there was actually one more
+story that I wanted to briefly talk
+about. So, let's do that. OpenAI is
+doing a hardware. Now, they released the
+$230 Codex Micro, which is essentially
+like a stream deck if you're familiar
+with those. They have a bunch of buttons
+for agentic coding. I think the biggest
+feature for most people is the dedicated
+button to use dictation so you don't
+have to type your prompts. That's the
+same thing that I have programmed onto
+my stream deck. All right, that's the
+video. I'm going to keep using a
+combination of chat work and claude
+co-work. My name is Eigor and with that
+being said, I hope you have a wonderful
+day.
+The stories you actually care about
+news.
+Eagor is here [music] to help you figure
+it

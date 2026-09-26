@@ -1,0 +1,67 @@
+UP主：OpenAI
+标题：Use ChatGPT Images to explore campaign concepts
+链接：https://www.youtube.com/watch?v=Ez-anO32D_s
+
+So we basically have our image model,
+Image Gen 2, and it's an incredible
+model. It's it's literally best of
+breed, and it's incredible for its
+ability to produce fonts. It's
+multilingual, but the idea you could
+take anything in your mind's eye and
+sent it's essentially can visualize it.
+So we said, "Well, how do we capture
+that in an ad campaign?" And so we built
+this as say taking very, very large
+format billboards around various cities
+in the United States and saying, "Let's
+reimagine Almost taking kind of these
+ordinary ad spots and turning them into
+something more extraordinary, almost
+surrealistic visions.
+>> Yeah, I love this stuff.
+>> Now we started with the scouting photo.
+So our location team went out, took
+these reference photos, beautiful day.
+The problem is it's from literally a
+street view. It's like at an off angle.
+And you can see
+I just basically asked, "Make this a
+straight-on view of the building showing
+that whole billboard space. You can read
+the prompt." And you can see very nice
+image here.
+Just obviously exactly what I asked for,
+straight-on. So now with that, our team
+could start to brainstorm. I mean
+literally we could start to fill a
+whiteboard with ideas of what we we what
+we want Excuse me, put on that
+billboard. So we're going to remove that
+blank billboard and replace it with a
+matching brick wall. And within that,
+we're going to have the bricks falling
+away and almost like revealing a portal
+into another world. And you can see I
+asked for four variations
+at a again high resolution at high
+quality. And then we have of course got
+to the iconic L train.
+>> Classic Chicago.
+>> And and just the whole idea that it's
+emerging from this building in the air.
+Very cool. So you there's the again the
+scouting photo and I just show you the
+final composite of how it looked
+uh in in the actual site. And so you can
+imagine
+if you had that whiteboard filled with
+ideas. Normally, I mean honestly, a few
+months ago we would say, "Okay, what are
+our best three or four?" And that's all
+we'd have the time to explore. This
+gives us the ability to literally go and
+say, "Let's actually kind of dive into
+each one, see what's working, see what's
+not." And to your point, iterate.
+>> iterate.

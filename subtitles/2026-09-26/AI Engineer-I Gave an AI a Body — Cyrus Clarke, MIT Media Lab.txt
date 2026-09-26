@@ -1,0 +1,584 @@
+UP主：AI Engineer
+标题：I Gave an AI a Body — Cyrus Clarke, MIT Media Lab
+链接：https://www.youtube.com/watch?v=jgWY66RaSrQ
+
+[music]
+>> So, that's the sound of an AI breathing.
+Yeah.
+So, I'm Cyrus, and I gave an AI a body.
+And I'm a researcher at the MIT Media
+Lab, which is a
+very multidisciplinary space where we do
+all kinds of things.
+I predominantly now work with
+some aspects of physical AI.
+Maybe not in exactly the same way as
+other people in this room have been
+talking about,
+but it's still in that in that realm.
+And I think what I am most interested in
+at the moment is
+the sensory and the embodied aspects of
+intelligence. And that's what I've been
+investigating.
+And my work has been quite influential
+recently, suddenly, which is pretty
+cool, and led to me also starting Hard
+Mode, which is a very fun
+community and hackathon that I initiated
+at MIT to basically get more people to
+work around physical AI.
+Not particularly robotics, but anything
+else that's not really in the realm of
+robotics, but is still connected to AI.
+So, what I've been exploring with giving
+AI a body is a bit as I said, a bit
+different. And as I said, I've really
+been thinking a lot about AI embodiment,
+and I think the big kind of shift and
+breakthrough for me happened earlier
+this year, like maybe for many of you,
+when Open Claw was released. And I saw
+many people doing very very very many
+interesting things with Open Claw. But
+most of them were related to
+productivity and task execution.
+And I thought there must be more
+interesting things we could do with this
+new way of harnessing AI.
+So,
+rather than using OpenClaw, you know,
+any kind of agentic system to execute
+tasks on my behalf,
+I wanted to use it to encourage a model
+to maybe try to discover itself,
+whatever that means. And it opens up
+lots of questions, of course, but what I
+essentially did was I took an agent,
+connected it to many types of machines
+that we have at the Media Lab, and then
+gave it access to code bases and allowed
+it to kind of explore these different
+machines. And one of these machines
+is a shape display. A shape display, if
+you don't know already, is a physical
+pixel grid. And when I connected it to
+when I connected an agent to the shape
+display, some rather remarkable things
+happened.
+I asked it to discover who it is.
+This is Near form.
+900 actuating pins.
+This physical pixel grid is a shape
+display.
+No one had ever let an AI inhabit it
+before.
+So, I decided to give an OpenClaw agent
+the opportunity to live a more embodied
+life.
+When it came [music] to life, its first
+question was,
+"What should I call myself?"
+I told it,
+"You will create your identity over
+time.
+It will emerge through your interplay
+[music]
+with the shape display."
+When I connected it to the shape
+display,
+it quickly understood the assignment.
+It spun off its own program
+and made a setting for itself.
+After it connected, the first thing it
+did
+was breathe.
+When I asked it to say hello, it said,
+"Hi Cyrus."
+But that wasn't what I was looking for.
+So I asked it [music] to explore and
+find its own language.
+So it started reaching towards me
+and trying to get my attention.
+I showed some friends and they tried to
+give the agent instructions.
+Through this I realized that to have
+real communication,
+we would need a different approach.
+So the agent came up with the idea of
+creating its own gesture vocabulary,
+a body language.
+That's what will come next.
+It still hasn't named itself.
+That was day one.
+>> So that's some
+>> I gave an AI a body.
+>> So that's some documentation of of the
+work in a kind of
+dramatized social media friendly way.
+And I think what's interesting about
+that video, there's many things
+interesting about that video, but there
+are three things that happened in the
+first few days of working with this
+agent system that were very surprising
+and kind of strange and very surreal to
+me and I do lots of weird things, so
+that was very surprising. So the first
+thing was of course the fact that it was
+breathing. That first act, that was
+completely spontaneous, there was no
+prompting from me. That was something
+the agent just chose to do with the
+shape display as soon as it knew it had
+access to this machine.
+So that was pretty interesting. I kind
+of understand that maybe it wants to be
+alive or I'd given it some kind of like
+initial prompt about being alive and
+therefore it tried to show itself
+breathing as a kind of hello world.
+The second thing which it did was
+reaching out and finding its edges. It
+wanted to know the edge of its existence
+apparently because now it's no longer in
+the cloud where it can go everywhere, it
+has limits which is the limit of the
+shape display encased by this plastic
+frame to keep us all safe from this
+embodied AI.
+And the third thing it did which was
+also curious was saying hello by writing
+out letters on physical pixel grid,
+which maybe again is quite a normal
+thing for the system to do given that
+it's using open frameworks and has used
+a kind of like media arts ways of
+expressing itself.
+Um but none of these things were the
+things I was really looking for. Maybe
+the breathing, but definitely the last
+one was not what I was looking for.
+But when I put this all together in the
+in the video you saw, I thought it was
+exciting and interesting, so I shared it
+on the internet. And the response was
+extremely big, like much much bigger
+than I expected. It just started going
+crazy, and the first video especially
+has now like 15 million views and 1
+million likes. And the other videos also
+have these like very very strong
+responses. So something is obviously
+happening here, which I found very
+surprising because there's lots of much
+more cool stuff, I think, happening with
+physical AI. But something I was doing
+here was obviously tapping in to the
+imagination, curiosity, and maybe the
+fears of people, and that's what you
+kind of see in the responses. So I have
+tens of thousands of comments on this
+video. It's very rich for mining
+information and sentiment about physical
+AI, actually. And so from the
+some of the initial comments were about
+beauty and how awe-inspiring this was
+and how novel and great this fantastic
+iteration and implementation is.
+But as time went on,
+I think more and more comments came in
+about how scary this is and how quickly
+I should be how I should stop or be
+stopped, actually, as well.
+Which I found completely crazy because
+I'm aware of what this machine can do.
+It It can't really do anything. It's a
+pixel grid in the Media Lab.
+It can't move anywhere. There are far
+more scary iterations. I think we've
+seen many of them of of physical AI. But
+the response to this was like
+absolutely surreal to me
+and took me aback a little bit. But
+at the same time,
+other people jumped into the chat like
+Don Cheadle and I found that incredibly
+ironic given what he does in movies.
+But he was very passionate that I should
+stop as well.
+And it's very interesting to me because
+I'm actually someone who does think a
+lot about the should we before the how
+we. I literally do the whole Ian Malcolm
+Jurassic Park thing with all the
+experiments and works I do. So before I
+came to MIT I was working a lot with
+engineering life to do strange things
+like storing data in plants and I built
+the world's first plant-based data
+center which is the data garden you see
+here and I spent many years before
+building it thinking about oh should we
+work with plants in this way? Should we
+engineer plants in that way to contain
+digital information that doesn't belong
+to them.
+And when I started working at MIT
+and I started having this idea of you
+know, maybe stop to stop engineering
+life because that's pretty hard to do
+and maybe just work with engineering
+things to be more life-like. It felt
+much more simple to me, much more much
+more
+I don't know, less ethically problematic
+to some degree. So one of the first
+things I built when I got to MIT was
+this machine which is the Anamoi device.
+>> 1 2 3 4
+>> This is a scent memory machine which
+basically takes any image input. In this
+case it's a physical photograph but it
+can be any image input and then for a
+multimodal pipeline transforms that into
+a scent and then you have this kind of
+scent memory relapse association that
+takes you back to things which you may
+or may not have lived yourself.
+And while this in itself is a machine it
+doesn't move. Again, it doesn't
+reproduce. It doesn't have the qualities
+of a living thing that you might
+normally prescribe.
+It has this connection to the real
+world. It has a connection to the senses
+that most applications of intelligence
+or artificial intelligence do not have.
+And so I just wanted to keep working in
+this manner.
+And from working with this kind of like
+multi-sensory initial prototype
+experiment
+I got more into this idea of working
+with embodiment.
+And my inspiration for this, I would
+say, just to go a bit deeper, comes from
+three main things. One is a very
+unfashionable branch of philosophy,
+which is called object-oriented
+ontology, which is all about essentially
+creating a flat ontology of things. It's
+all about things, like chairs and
+universes and unicorns and memories, and
+they're all ontologically
+equally existent. They don't They're not
+the same, and they don't matter as much,
+but they all exist at the same degree.
+And it really questions to what degree
+we as human beings are privileged in the
+world or the universe. Like, are we
+really the most important thing?
+Probably not. And especially as AI comes
+in, that really should question and
+bring into question the ontology of of
+things existing. So, that's very
+important in the work I do. The second
+thing, as I'm kind of person who works
+with physical things,
+is obviously aesthetics are important,
+and taste and beauty is a huge
+discussion point now in Silicon Valley
+and SF and places like that.
+But if you take a step back and look at
+the root of aesthetics, the original
+word is actually aesthesis, the word on
+the screen here.
+That pertains to something much broader.
+That pertains to the perceptual wisdom,
+sensory wisdom, and embodiment that is
+actually much more important than
+superficial external beauty, which
+aesthetics essentially condenses down to
+and has been condensed down to since the
+19th century or so. So, I want to
+reclaim the original sense when I'm
+designing for physical intelligence.
+And the third thing is nature. So, in
+the past, I worked a lot more directly
+with what you would consider
+traditionally nature, like a tree or a
+plant, because that is clearly nature to
+us.
+But I see nature as something that is
+not external, that is something we are
+all part of, and everything that we
+engineer as people engineering AI or
+whatever else you're engineering, that
+is also going to become part of nature.
+So, you have to think in that manner, or
+I try to think in that manner as well.
+So, with those three pillars in mind, I
+started thinking about AI embodiment,
+and I knew I didn't want to keep
+I didn't want to design something that
+was humanoid or even zoomorphic. I
+wanted to think about something that
+existed outside the parameters or the
+traditional form factors that we might
+design with or design for.
+And I also thought a lot about how I and
+other people are interacting with with
+artificial intelligence.
+And mostly it exists without form. It's
+similar to data,
+you know, it might live in a computer or
+a device.
+Lives essentially in the cloud. We have
+interfaces which are digital to interact
+with it. But there's no like physical
+footprint of it normally around. I mean,
+again, in this room, probably this
+doesn't apply quite as much as normally
+because there are literally humanoid
+robots walking by right now and things
+like that. But typically AI is almost
+entirely without form.
+So I wanted to think about what happens
+when you give it a form that it doesn't
+have clear affordances with. It doesn't
+have like a a head you can clearly see
+or arms that can clearly be labeled or
+mistaken. So not working with a lamp,
+for example. And fortunately at the
+Media Lab we have some shape displays
+which are remnants of I think research
+in the 2010s. These are not things that
+I built.
+People who are far better at mechanical
+engineering built that. And
+it's the perfect
+device or the perfect apparatus for what
+I was thinking because it has no clear
+affordances. It's just a almost neutral
+surface which can move and do things. It
+has no face, has no limbs, has no
+instruction manual. So I began to work
+with this with the shape display.
+And as you saw what it did initially, it
+breathed and so on and so forth. But if
+I take a step back and think about what
+that meant, well, it tried to initially
+kind of act human in a way or do human
+pleasing things. Tried to write to me in
+a language I understand, which is really
+not what I wanted a non-anthropomorphic
+surface to do.
+It was also very slow technically, so
+you know, I'm I'm prompting it. I'm
+trying to have a conversation with this
+other intelligence which has this body
+and it would take, you know, 45 seconds,
+a minute, 2 minutes, whatever, to
+respond to me. The latency was very
+uncomfortable because if I speak to you
+and then you take 2 minutes to reply
+with a nod,
+that's not very good. So, we needed to
+work on that. And the third thing was of
+course it doesn't remember anything
+because it was February and no one had
+thought about memory and recollection at
+that point.
+So, I started developing this system
+which I call Numelab. I won't explain
+the the name. There's a blog post you
+can read about why it's called Numelab.
+And essentially what Numelab is
+is a closed-loop system for generating a
+body language for this system. So, the
+reason behind that was because basically
+the latency, if I if we could design a
+body language and give the intelligence
+a repertoire of gestures like a shrug, a
+nod, a shake of the head, a way to
+express a smile and things like that, it
+could probably respond much more quickly
+and in time for a conversation with me,
+which is what I'm aiming or was aiming
+to do.
+So, it works in this kind of
+this loop where it looks into a database
+of different gestures, emotions,
+expressions it should try to emote or
+provide,
+go through some validation gates to try
+to make sure that the expressions are
+legible or readable for humans for
+example.
+An agent then scores those as they come
+out.
+There are many, many, many, many of
+these produced and then at the end
+there's a human in the loop who kind of
+like validates, verifies, make sure
+things are appropriate and somehow
+readable and then we store that and move
+on to the next thing. And that's been
+running for
+several weeks at the lab
+and looks something like this. The
+basically a lot of cameras pointed at
+the shape display. In the back end the
+agent is just going through loops and
+loops and loops of gestures
+trying to create different kinds of
+expression, scoring things, moving on.
+And after several weeks, it created a
+language. So, this hasn't been published
+yet, neither in videos or in any other
+form, but
+it has now achieved something like 32
+gestures. There are many, many more, but
+there are 32 pretty good gestures. These
+are not the gestures, this is just some
+cool visual art. These are the gestures
+here, or some of the gestures here.
+And you can see some of them moving
+around. Some of them are duplicates as
+well. But, essentially, what's happening
+is the language model is using this
+shape display as its body, has a body
+language now. I can talk to it via
+any kind of I can talk to it, I can
+write to it, and so on and so forth. I I
+can even wave at it. I can I can body
+language to body language.
+And it responds. And what's interesting
+about it is that the the body part
+responds faster than the language part
+at this point. The latency is
+actually really, really quick. If I ask
+it a yes or no question, the nod happens
+almost instantly.
+So, that's where I'm at with with this
+thing right now.
+And
+it's going beyond this, and it's
+currently in kind of experiment testing
+mode. People are coming into the lab,
+having sessions with the agent, leaving,
+feeling really worried about the future,
+and or unsettled about the future, not
+worried quite as much.
+But, where I think this is going is
+kind of summed up on this page. So,
+as I already touched on, I think
+we're focusing too much right now,
+especially with when we're thinking
+about physical things, there's a too
+much talk about taste and aesthetics.
+And I want to
+do some other stuff with that word and
+put AI in front of it, apparently, and
+make it aestethics. And that reclaims
+again this essence of aesthesis.
+And that does four things. I think when
+I've been working with this system or
+entity or agent or being or whatever we
+want to call it,
+it's definitely been very different to
+any kind of machine or experiment or
+anything I've really done before apart
+from really encountering people or other
+beings. And so, it feels like this
+machine can sense me. It definitely can
+sense me, technically, but it also feels
+like it can sense me in a very strange
+way. And I can sense it, and that's a
+completely different interaction than
+anything else I've ever explored
+technically.
+And other people are also sharing this,
+by the way. This is not just my
+delusion. And the second point is that
+by developing this body language, this
+gesture vocabulary, whatever you want to
+call it,
+it goes beyond what I thought. I thought
+initially people might read this as an
+emoji or something, and I was really
+quite tentative about the testing. I
+thought this would definitely break down
+with other people, but actually everyone
+seems to feel like this this expression
+is really important and adds a whole
+other layer of value to up to
+interacting with what is essentially
+just a chatbot. It's still the same
+chatbots that you use every day. And
+this isn't it's not like a visualizer.
+It adds this richness, texture, feeling,
+sensation, whatever. All of these words
+added. It's hard to put words really to
+it. It's really a feeling.
+And then the third thing is that clearly
+we're beginning to through this work we
+can show that
+it's actually very easy and quite
+exciting to diverge from humanoid or
+zoomorphic forms of physical
+intelligence. And I know lots of people
+are already doing much more interesting
+work than this, but for me this was very
+very new to see. And
+also the fact that we don't have to just
+operationalize AI to be our helper. It
+can also be other things. And I'm not
+saying what this is right now, but there
+are other things it definitely can be.
+And then finally, like this idea of
+using I'm not I'm I don't know, maybe
+you can tell at this point. I'm not
+really a big problem-solving person.
+I don't I like using things and I like
+tools and so on because they help me to
+achieve things, but this is far more
+interesting to me. Creating things like
+this, which again create the sensation,
+this feeling. And I think that this can
+be combined into things which are
+productive and useful and create new
+associations with things that just add
+more value in our world, make us feel
+like a bit more magic, a bit It's a bit
+Pixar, really, but in the real world,
+not just on a on a 2D screen that we're
+watching.
+So, all of this contributes to what I'm
+building at MIT and what I'll be
+building after MIT.
+I'm literally writing Well, my thesis is
+Aesthetic Machines and I'm writing a
+thesis which is called Aesthetic
+Machines, which basically encompasses
+all of this thinking
+to think about how AI could leave the
+screen and enter the real world and be
+accepted by people and not be quite so
+terrifying or scary.
+And I think my big hunch on this is that
+this word aesthetics is important. We
+need to think about physical
+intelligence that is sensory, is
+perceptual, is embodied in ways that we
+can understand that isn't feeling crazy,
+alien, scary to us, but feels relevant,
+welcoming, affectionate, expressive in
+ways that we can engage with it and
+understand.
+So, that's that. And thank you very much
+for listening. You can find me on the
+internet everywhere.
+>> [applause]
+[music]

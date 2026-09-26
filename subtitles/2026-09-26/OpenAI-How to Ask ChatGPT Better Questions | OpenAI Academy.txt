@@ -1,0 +1,50 @@
+UP主：OpenAI
+标题：How to Ask ChatGPT Better Questions | OpenAI Academy
+链接：https://www.youtube.com/watch?v=P-8sCH6syag
+
+Sometimes ChatGPT's first answer may not
+quite be what you need. When that
+happens, you can ask it to try again,
+add more detail, or explain the answer
+in a different way.
+It's a bit like giving directions to a
+friend. Say what you're trying to do,
+what matters to you, and how to make it
+easier to help.
+Let's look at a very short question.
+Help me with dinner.
+Now, ChatGPT can answer that, but it has
+to do a lot of guessing.
+Dinner for how many people? Do I want
+something quick? What kind of food do I
+like? Do I want a recipe, shopping list,
+a full meal plan?
+So, let me give it a few helpful
+details.
+Help me plan three easy dinners for two
+people this week. Keep the ingredients
+simple, and give me a short shopping
+list. Now, that answer is way better
+because I told ChatGPT what I want, who
+it's for, and what I want back. Three
+dinners, two people, simple ingredients,
+and a shopping list. If one part doesn't
+work, I can change it right inside that
+conversation. You don't have to start
+over, just keep going. Like a regular
+conversation.
+Make the second dinner vegetarian, and
+keep a shopping list grouped by aisle.
+A good question doesn't even need to be
+fully fleshed out or even in a complete
+sentence.
+It just needs to include the details
+that matter.
+One important note, you don't need to
+add private details just to make a
+question more thorough. ChatGPT does not
+need your full name, address, account
+numbers, or anything else you would not
+share with a stranger. The best question
+is the one that helps you take the next
+step.

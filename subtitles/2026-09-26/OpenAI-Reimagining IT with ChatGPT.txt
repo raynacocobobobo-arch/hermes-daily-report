@@ -1,0 +1,110 @@
+UP主：OpenAI
+标题：Reimagining IT with ChatGPT
+链接：https://www.youtube.com/watch?v=Q_MEaNdMpZw
+
+[music]
+>> Hi, I'm Kunal Malik and I lead the
+global [music] IT team at OpenAI. Adding
+AI to just specific parts of the process
+is not going to be enough. To really
+reimagine the process completely [music]
+is the paradigm in which we can
+transform. We look at it in three
+layers. How we amplify individuals by
+giving them AI tools so that they can
+increase their throughput. [music] How
+we amplify an entire team, that's where
+you have to go to the end-to-end
+workflow, and how you amplify the entire
+company. [music] And what we've seen
+using ChatGPT work is amazing. We've
+seen 5 to 10x increase in throughput of
+individuals. The biggest operating model
+shift is that everybody is becoming a
+builder. And what's interesting is the
+folks that are closest to the problem
+actually know how to create the best
+solutions [music]
+with AI.
+>> Historically, in IT organizations,
+whenever you have a problem, you come to
+a physical help desk location or you
+file a ticket with IT [music]
+in order for that to be addressed. Here
+at OpenAI, we've deployed IT agent.
+Rather than coming and waiting hours or
+[music] days for a human to see your
+task and help you with it, you get
+immediate feedback [music] around what
+you can do to unblock yourself, or it's
+escalated to a human queue with context,
+or the IT [music] agent itself will
+actually resolve that task for you. It
+also enables our human help desk teams
+to be able to focus on those really
+critical tasks that have high security
+needs [music] or are things that humans
+are really just uniquely positioned to
+do.
+>> I've seen a lot of our support team
+actually go and build their own micro
+sites, build their own [music]
+agents to be able to help them do their
+jobs more efficiently.
+>> big processes within IT and transform
+them and really build that credibility
+to [music] understand how value can be
+created with AI.
+>> Software used to be governed and
+assessed at a point of time, and that
+limits its [music] ability to truly
+understand software for a fast-growing
+company. There are hundreds, if not
+thousands, of software [music] in any
+given company. The tool was able to
+first group them into roughly 30
+categories. [music]
+ChatGPT work with able to do is give me
+a initial assessment of what [music]
+software should be potentially keep and
+grow, and then looking at the risks and
+governance around them. It actually give
+me the first set of advice. A third you
+need to review, a third you need to
+retain, another third we need to defer.
+[music]
+With new process, what we think 70% of
+the software needs can be met with
+existing software
+>> [music]
+>> without buying new software. So, it's
+very powerful analysis that
+traditionally I think I would take a
+couple [music] months to get to.
+>> Teams that are learning from use cases
+can then take those learnings, be the
+starting point for other teams, making
+those teams further ahead.
+>> We created [music] the ticket dispenser
+skill that allows you to just dispense
+five tickets um based off of the highest
+priority or aging ticket based off of
+SLA breach. This is where we store all
+of our skills that [music] the IT
+support team has created. It's a good
+way of sharing skills so that everyone
+stays in sync with the whole team and
+everyone's using a fresh up-to-date
+skill.
+>> CIOs at this point [music] have to make
+these big bets on how they want to
+create the right foundation for the
+company to unlock the value from AI.
+Having the ability to experiment,
+[music] to test, to deploy, that allows
+them to achieve the outcomes much
+quicker.
+That is collective acceleration.
+>> [music]
+>> We got to get some new ones in.
+>> Yeah, it's nice.

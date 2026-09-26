@@ -1,0 +1,535 @@
+UP主：AI Engineer
+标题：You’re Not Thinking Big Enough: Rebuilding Food Systems with AI Agents — Cody Menefee, Firecrawl
+链接：https://www.youtube.com/watch?v=ztlXKfPCT3Q
+
+[music]
+>> All right. Hello everybody.
+My name is Cody. Um
+I put this picture up here because this
+jacket so far has not actually landed as
+well as I thought it would. No one gets
+the joke. Um so this was to really put
+it in front of your face. I don't just
+enjoy wearing heavily branded letterman
+jacket. We intentionally tried to
+play into the bit a little bit. Um so,
+my name is Cody. I'm on the growth team
+at Firecracker. Um and today I'm here to
+tell you you're not thinking big enough.
+Um but before I actually get into that,
+I have to address a bit of an elephant
+in the room which is Theo stole my talk.
+Uh Theo put out a video about a month
+ago uh called uh you need to think
+bigger. But I would like to say I
+submitted the name for this talk a month
+before Theo put his video out. I didn't
+steal his talk. He stole my talk. So,
+um
+Today we're actually going to talk about
+farming. And yes, I actually mean
+farming. Uh more specifically, I mean
+livestock farming. And even more
+specifically, I mean automating pasture
+rotation for grass-fed livestock
+systems.
+Um I have a feeling most of you did not
+expect to learn about cows and grass and
+farming today, but I'm here so you're
+going to.
+Uh little bit of background on who I am
+and why maybe you should listen to me.
+Uh the short version is I actually have
+no credentials that qualify me for this
+talk, but nonetheless I'm going to do my
+best to give it. Uh I grew up in
+Kentucky. Uh have a background of blue
+collar work. I was a bartender, a
+mechanic, a uh um
+a server, uh a whole bunch of things. Uh
+never actually a farmer though.
+Um and then I sort of found my way into
+engineering, uh software development,
+etc. I actually don't really like taking
+the title of software engineer. Um I'm
+pretty averse to that. Feels like stolen
+valor because I am the vibe coder most
+of you all are scared of.
+I use AI agents all day long. I don't
+have any syntax memorized. I am not
+proficient in any particular coding
+language, but I will crank out some
+stuff on a weekend.
+But today I actually work at Firecrawl
+where we're building context for AI
+agents. We have a series of
+web data APIs to give your agents access
+to the web. Again, I said I'm on the
+growth team, but today we're actually
+getting into some more farming stuff.
+But first a bit of credential I do have
+is this is a real picture of me hauling
+turkeys on top of my Tesla and I do
+still have a crack in that glass ceiling
+because of it.
+This was in Nashville where I live in
+the middle of a residential neighborhood
+where you are not allowed to raise
+turkeys,
+but I raised 10 turkeys in my backyard
+cuz I wanted to know what it was like to
+actually
+raise livestock myself that I would eat.
+It's a very mentally
+difficult process to be mentally honest,
+but this was me loading them up onto the
+roof of my Tesla and then I drove for 3
+hours with them to the processor. Had to
+stop at a supercharger on the way
+and lots of people were taking pictures
+and what I can tell you is if your range
+is sufficiently decreased when you have
+a giant windbreak full of turkeys on top
+of the roof.
+So that was
+quite the anxious drive I can tell you.
+I also almost left engineering to be a
+farmer. I really wanted to raise
+chickens. This is a real product image
+that I came up with. I wanted to wrap
+turkeys in white wrapping and literally
+just slapped the word eat me on top of
+it. I thought it was provocative. I
+thought it would get you to buy
+chickens,
+but I realized it's actually really hard
+to make any money farming.
+Surprise, surprise.
+And I have a wife. I have two kids. It
+didn't feel
+right to ask them to give up the lives
+they had so that I could go cosplay as a
+farmer and raise chickens. So
+I decided to pivot and see if there were
+ways that we could scale farming itself
+and the the types of systems that I'm
+interested in when it comes to livestock
+agriculture. So, three things I want to
+get accomplished in this talk is one,
+convince you all to pursue bigger ideas.
+Um I think a lot of these talks, a lot
+of these conferences, a lot of us
+individually
+uh spend a lot of time talking about
+building software for people who build
+software for people who build software,
+so on and so forth. And I really am just
+here to challenge you that there are
+other problems to solve than just
+another MCP for another SaaS solution at
+another company. Um but also, I'm just
+really trying to take advantage of a
+captive audience. Uh if you corner me
+anywhere at any time, there's a good
+chance I will talk to you about farming.
+Um so, here I am. Uh and hopefully, I
+can convince you to come work at Fire
+Crull.
+So, uh first things first, I believe
+livestock belongs on pasture. I think
+animals should live on grass. Um I think
+it's better for the animal, the
+consumer, the farmer, the ecosystem. I
+can give you a whole TED Talk on each of
+those if I need to. You can find me
+later if you need me to tell you why
+it's better for animals to be on the
+grass, but I don't have enough time to
+get into all of that. Take my word for
+it. Let's start there. The assumption is
+animals should be on grass.
+Um this is the goal I want to hit. I am
+not actually anti-containment farming. I
+think there's a reason we needed to do
+that, but 97% of cows are still
+currently uh finished on feedlots. 3%
+are raised on pasture. My opinion here,
+more animals could be on grass. I want
+to try to figure out how we get more
+animals on grass. The question is, why
+aren't they on grass? And that is labor
+is the bottleneck. It is a pain in the
+ass to actually raise animals on grass.
+Uh pasture done right actually means
+moving animals constantly. And that
+takes a lot of work. Um if you think
+about grass-fed uh beef, you might think
+of I have 100 cows, 100 acres. I put 100
+cows on 100 acres. They eat grass. I got
+beef at the end of the year. That's not
+quite how it works. Um Um, will
+uh very rapidly decrease the quality of
+your pasture if you just let cows graze
+where they want cuz they'll graze their
+favorite things, ignore things that they
+shouldn't, trample areas consistently,
+so on and so forth. So, the solution to
+that is rotational grazing. What this
+means is you break up your pasture into
+individual paddocks where the animals
+have enough uh food for one one day and
+then you move them every single day. Um,
+this allows certain areas to rest and
+other areas to be grazed and over time
+will increase the efficacy of your
+pasture. But,
+this takes a whole whole whole lot of
+work. Um, this means you have to move
+fences, animals, water, and keep track
+of it every single day in order to
+uh appropriately move the animals as
+often as they need to.
+There are some solutions actually trying
+to work on this problem. Uh, you may
+have seen a company called Halter uh in
+the news recently. Peter Thiel invested
+at a $2 billion valuation.
+Uh, No Fence is another company. What
+these companies do is provide collars
+for the animals connected to the GPS
+satellites that allow you to draw
+virtual boundaries where you can move
+the animals uh remotely. Um, I think
+this is a great step in the direction of
+trying to
+uh expand labor. Um, but this has a
+problem which is you have to know where
+to move the animals. This is not a
+science to actually be honest with you.
+You can't just move them in a straight
+line across the pasture routinely every
+single day to the same part of land. Um,
+the reason is is grass doesn't grow the
+same every single day. Uh, there are
+drought conditions, rainfall, uh how
+much impact a particular section of the
+paddock has had. And the way that this
+is solved today is actually farmers
+going out on pasture, putting eyeballs
+on the grass, and making intuitive
+decisions about where the next best move
+should be. So, the question is how do we
+replace the farmers' eyes on pasture so
+that they can remotely make educated
+decisions on where to move their virtual
+fences.
+Uh there's a bit more that actually goes
+into this as well, and that is you can't
+just you have to also know how tall the
+grass is. Um grass has a growing cycle.
+If you grow it way too short, it takes
+really long time to come back. If you
+let it go too long, it becomes old and
+bitter and the animals don't like it.
+There's this juvenile sweet spot that
+you want to keep the grass in. You want
+to cut it before it gets too tall, but
+then you also don't want to cut it too
+short. So you need to keep the animals
+moving and then constantly coming back
+to the same pasture so that your grass
+stays at the most optimal growing age
+and constantly has uh the most
+productivity possible.
+So, a couple of ways that we can do
+this. Um these are things These are my
+solutions. This is something I've
+actually been working on thinking about
+how we can do this. Um a couple of
+options that I have are drone
+orthomosaic maps. If we could find a way
+to automate drone flights, we could go
+flying around our pasture, take a whole
+bunch of pictures, get some very high
+fidelity high resolution images of the
+grass that farmers could analyze. The
+problem with this is uh there's a lot of
+uh skill upgrade you need to do with the
+farmers to teach them how to fly drones,
+a lot of regulatory issues with keeping
+the drones in sight, and ideally this
+would be autonomous and there currently
+isn't a jurisdiction in the world that
+has approved autonomous drones for these
+types of applications. So this is really
+big bottleneck. Um I think it has pretty
+high fidelity in the quality of imagery,
+but is going to be a hard problem to
+solve in terms of actually getting all
+those hurdles accomplished. Uh
+satellites is my most favorite option
+today. There's a really cool company
+called Planet out there taking pictures
+of the entire globe every single day
+um with a uh 1 by 1 m resolution. Um but
+they're still
+those satellites are really high up in
+the sky and uh it's hard to tell some of
+the things you need to tell uh to
+actually make those educated decisions.
+Uh the middle photo here is actually
+from a friend of mine out in Missouri
+working as a research grad assistant at
+the Missouri Lincoln University. And
+this idea is just putting a trail cam
+next to a tree and some measuring
+apparatus that camera can look at and
+just figuring out how tall is the grass
+in relation to that particular object.
+Just so that we have some sort of
+reference point that we can use to see
+how well the grass is growing back.
+If we can solve this problem along with
+the
+the the collar situation, I think
+there's a world here where we can drop
+an LLM in the middle of this loop and
+start to work on autonomous grazing
+operations. And so what this would mean
+is an LLM essentially making the next
+best decision on where the animal should
+be any given day. But this isn't
+multivariate analysis. This requires the
+LLM to have several data inputs
+including where the animals are in GPS
+location, where they were yesterday,
+where they might go tomorrow, what the
+drought condition is in the area, how
+tall the grass is across the entire
+farm. And actually it has to make this
+decision not just on day-to-day basis,
+but in varying
+degrees of relation. So where's the best
+next place for a particular cow to be,
+but where's the best next place for the
+herd to be in relationship to the
+pasture itself, in relationship to the
+farm as a whole, and then more broadly
+the ecosystem at large. There's
+all of these components feed back into
+each other and if you can optimize this
+entire picture, you have a more
+productive farm where you can actually
+have more animals on fewer acres, which
+is how we end up actually scaling to
+compete with the feedlot style where you
+can actually have more cows on fewer
+grass.
+How do we solve this problem? There's a
+couple of components. There's three main
+blockers that I think need to exist in
+order for us to actually create this
+system. The first one is building a
+knowledge base and this is primarily
+what I'm working on at Fire Corral and
+then an open source project I have
+called Open Pasture. The idea here is a
+lot of the knowledge on when to move,
+why where how to move,
+the benefits of moving, etc. is all
+locked up in primarily YouTube videos.
+There's a bunch of really cool farmers
+out there. I can give you a whole bunch
+of channels you can go down rabbit holes
+on of just good old guys out in
+Missouri, Tennessee, Kentucky trying to
+move their animals every single day
+telling you what they're learning,
+telling you what species are best for
+this,
+what lagoons are you want to aim for in
+the biodiversity in your pasture.
+There's a whole bunch of things that go
+into this and we need to build that
+knowledge base.
+Fire fall is a toolkit that I used
+actually collect this data going out
+scraping those YouTube videos, scraping
+research papers out to archive building
+this knowledge base up and open pasture
+is the actual repository I put this
+information in to make it available to
+any farmer I think that might be able to
+use it.
+The next thing to solve is the actual
+visualization layer. There's a lot of
+components we need to know about the
+grass that the farmers primarily getting
+out of the intuition from looking at the
+pasture. The two main things worth
+figuring out about the pasture both
+where the animals are, where they should
+go and where you want them to be is what
+is the biomass, how much foliage
+actually is available for them to
+consume and then long-term what is the
+biodiversity of that particular pasture.
+If they overgraze sections too heavily
+they'll start to over index on different
+types of cool season, warm season
+grasses, lagoons, etc. and ideally you
+want a really rounded, really diverse
+pasture over time to make sure that the
+cattle are getting the nutrients they
+need so you don't have to supplement
+with things like hay, copper, aluminum,
+etc.
+Ideally they get all of the
+macronutrients and micronutrients from
+the grass itself which becomes an
+entirely ideally hands-off system.
+And then the third one is
+those geofence companies. So no fence,
+Halter. While I appreciate the
+technology they're trying to push
+forward I have a pretty strong
+disagreement with them which is in order
+to use their software they require you
+buy their collars, and you can't plug
+your own software into their collars.
+From a business standpoint, I get why
+this is. From an industry standpoint, I
+think it's really a pain in the ass. Um
+I would like to innovate on the software
+layer. I would like to push GPS
+locations to these collars that my LLM
+can predict. I don't want to have to
+rely on their software to do this
+because I don't think it's as good, or I
+think I can make it better, if I'm being
+totally honest with you. Um so, a bit of
+the purpose of this talk is actually a
+call to action for you all in the
+audience. I need someone to make me a
+collar.
+Um I need it to be open the APIs need to
+be open. Ideally, it's an off-the-shelf
+solution. Uh some of the component parts
+that we can slap together. Uh farmers
+are pretty scrappy and like to heal
+their own things. There's a lot of uh
+animosity towards John Deere in this
+sort of like right to repair. Um so, my
+ask to anyone maybe looking at this
+problem is design me a collar where the
+patent can be open and the APIs are open
+so that we can compete on software
+>> and optimize this solution.
+>> Uh the next thing I'd like to maybe
+tease you about is this actually goes
+beyond just ruminants. Uh so, ruminant
+is a type of animal, cows, sheep, goats.
+Uh those are all ruminant animals. They
+chew grass. They uh digest it in the
+rumen in uh which is an organ that's
+what they're called ruminants. Um but
+there's actually an additional benefit
+we get where we can stack species on
+these pasture rotations. This is a
+company called Pasture Bird. Uh they
+were a big catalyst for me to really get
+in obsessed with this idea. What they
+did is took their normal chicken house,
+put it up on big wheels, and automated
+the movement so it creeps its width
+every 24 hours across pasture. The
+reason you can do it this scientifically
+with chickens is cuz they don't actually
+get most of their nutrients from the
+grass. You have to supplement them with
+grain feed uh because chickens are
+omnivores, not quite just herbivores. Um
+so, you can just inch this coop across
+the grass uh giving them a uh uh uh land
+to grow on. Uh the nitrogen from their
+droppings actually help uh
+as a manure or as a as a fertilizer for
+for the the grass itself. And there's an
+added benefit here. When you stack the
+ruminants with the chickens, if you run
+your ruminants first, they sort of cut
+off the top of the grass, and then
+chickens come behind them and peck out
+the parasites from their droppings, and
+it reduces the parasite load overall
+across your farm, which reduces the
+medication expense you have to actually
+pay to keep your animals healthy. And
+over time you have a more robust uh
+uh seed stock or uh breeding stock so
+that you can have stronger animals over
+time that require fewer interventions
+and can be left alone to just eat grass
+and uh turn into meat eventually.
+Um so, the three things I really hope
+you all take away from this talk is one,
+I think we need to find big, real-world
+physical problems that we can solve um
+that require multivariate analysis and
+not quite uh yes or no decisions. Um
+there are lots of problems out there
+that don't actually have deterministic
+solutions. I hear a lot of engineers
+talk about how we turn LLMs into
+deterministic processes, and my
+contention is actually there's a lot of
+problems that you can't solve with
+deterministic uh algorithms. Um this is
+one of them. It's a multivariate
+analysis. There isn't a next best
+paddock to move to. There's just your
+best guess on where you think they
+should go. Um and I think if we can take
+systems like that, these uh multi-data
+input systems, and drop an LLM in the
+center to actually reason over the data
+and at least make a suggestion that the
+human can confirm or deny, uh we can
+really start to scale systems like this
+that are very much uh restricted by the
+farmer's ability to scale their own
+labor, their own decision-making power,
+um and really give them the tools that
+they need to grow their operations to
+hopefully, I think uh all animals could
+be raised on grass if we uh solve these
+problems. And then the last one is is
+maybe you can come help me solve some of
+these problems. Um the number one
+problem is actually just giving the
+agents the context they need, gathering
+the data, packaging that data, and then
+presenting it in a way that the LLM can
+reason over. And that's what we do over
+at Firecrawl. Uh, so you're not thinking
+big enough. Firecrawl is where we're
+building the context layer for AI, and I
+hope you can come build it with us. Uh,
+we're hiring. Uh, so here's all the job
+postings we currently have. Go to our
+website and maybe find one that works
+out for you. Uh, reach out to me. We'd
+love to have more people trying to
+figure out how we get data off the web
+to solve some of these complex problems
+and present that that data as context
+uh, to these AI agents, and perhaps
+we can make the world a better place.
+My name's Cody. Uh, Open Pastures is my
+open source project. Firecrawl is where
+I do my day-to-day life, and uh, these
+are my socials. I'll hang around for a
+little bit. I love to chat more about
+animals, cows, birds, uh, all the alike.
+Uh, thank you very much for coming.
+>> [music]

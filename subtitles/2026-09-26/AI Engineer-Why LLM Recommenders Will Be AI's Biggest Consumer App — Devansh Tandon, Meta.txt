@@ -1,0 +1,423 @@
+UP主：AI Engineer
+标题：Why LLM Recommenders Will Be AI's Biggest Consumer App — Devansh Tandon, Meta
+链接：https://www.youtube.com/watch?v=lIgdnF0s0kQ
+
+[music]
+Welcome everyone. Thank you for coming
+out to the LM Rexus track. Um I'll be
+sharing the first talk. Uh my talk is
+titled tokens and engagement out
+training LM recommenders. Um, and I want
+to make two big arguments today. The
+first is that recommendation systems
+scale just like LMS do and that the
+field is very early in that scaling
+curve. Um, and the second is that the LM
+recommener is going to be one of the
+biggest consumer applications of AI.
+Um, okay. So, quickly about me. Uh, I
+currently work at Meta on research and
+product. Uh I lead a team called Meta
+Recommendations Research uh which is
+this group that's training frontier
+models, LLMs and recommenders that power
+Instagram, Facebook ads, the meta family
+of apps. Uh before this I was at Google
+for a long time uh working on a lot of
+the key ML teams including deep mind and
+YouTube. Last year I gave a talk at AI
+engineer called teaching Gemini to speak
+YouTube about two ideas semantic IDs and
+generative retrieval which we also wrote
+two papers about which I've linked here.
+Um it was really fun and it led to a lot
+of discussions and collaborations. Uh
+the ideas behind semantic ID and
+generative retrieval have really taken
+off in the industry over the last year.
+Um and they've moved from more research
+to now scaled production systems. And
+I've seen exciting launches and papers
+from YouTube, Meta, Spotify, Door Dash
+across the industry. And we have a
+couple of examples of that later today.
+This year I want to talk about four uh
+sections. Recommendation scaling curves,
+a framework of four, recommendation
+paradigm scurves that we are climbing as
+an industry. um sharing the recommener
+recipe and finally this consumer AI app
+framework.
+Um let's start with scaling curves. So I
+wanted to start with this landmark
+scaling curve paper from 2020 which
+feels like a lifetime ago. This is when
+Daario was still at OpenAI and Anthropic
+didn't exist yet. But the core idea that
+this paper shared is the power law of
+scaling. As you increase model size,
+data, the amount of compute flops
+trained uh for model training, the loss
+falls on this log linear scale. And this
+clean and predictable curve is what
+really set off the race for the AI
+frontier because you can forecast what
+model quality and capability
+improvements will look like. And this is
+what's underwriting the massive capex
+investments and the AI buildout today.
+It turns out that recommendation systems
+follow a very similar scaling law. In
+fact, before this wave of LLMs, Rexs
+were the largest production ML models in
+big tech companies. And they're still
+some of the largest models that are
+served at a scale of a billion plus
+daily active users.
+And they follow this similar power loss
+scaling curve. On the x-axis, you have
+data, compute, and model size. And on
+the Y ais you would see falling loss or
+in this chart uh an improvement in
+recommendation quality. In offline evals
+it's net entropy or AU gains and then
+when it's translated to a real
+production launch it's engagement impact
+revenue impact at some of the biggest
+consumer app scale.
+Here's a real example from Meta that
+demonstrates these power loss scaling
+curves. uh there's a paper the first is
+a paper HSTU from 2024 and the second is
+a followup from this year both
+demonstrate that as we scale model size
+compute and data we see this clear
+improvement in offline eval of
+recommendation quality
+scaling curves aren't just academic
+research they're driving real product
+impact at scale for some of the biggest
+consumer businesses in the world here's
+a couple of examples I have from Meta's
+recent earnings reports. Um, Instagram
+reels had a strong quarter, 30%
+year-on-year watch time. And,
+uh, the optimizations we made to improve
+the quality of recommendations included
+simplifying our ranking architecture to
+enable efficient model scaling and
+longer interaction histories to identify
+a person's interests.
+uh we doubled the length of user
+interaction sequences used for training
+Instagram and increased the richness of
+each user interaction.
+So these are direct parallels to the
+power loss scaling curves for LLMs.
+And I want to introduce this idea of a
+flywheel of tokens in engagement out
+which is what's powering all of these
+Rex model scaling. You train a model.
+You then run inference on it which is
+the tokens in that recommendation model
+results in better content
+recommendations. It drives consumer
+engagement, daily active users time
+spent. It translates to monetization and
+ads or subscription which pays for the
+next model training run. And so every
+step on the scaling curve is one loop
+around this flywheel. And a lot of
+consumer apps are spinning this core
+flywheel at the heart of their business.
+So we have a long way to scale these
+recommener systems. I want to talk about
+the four paradigms that I see the
+industry progressing through. The first
+scurve was more traditional Rexus where
+this scurve focused more on feature
+engineering and user and content
+embeddings. Most production systems are
+still sitting on this curve. they're
+running some type of two tower sparse
+network rankers scaling the embedding
+models. I don't think this curve is
+going to go away but model development
+here will be accelerated with auto
+research and things like feature
+engineering will be handled by agents uh
+rather than real ML engineers. The next
+curve is kind of LM inspired models
+where you are scaling models ideally end
+to end. HSTU and one wreck papers are
+examples in this paradigm. I think this
+is
+where the leading recommener systems in
+the industry are largely operating
+today. I think the next scurve will be
+this paradigm of LLM native where you
+adapt a base model that understands and
+can reason uh and adapt it for
+recommendation tasks. The tiger and plum
+papers are some examples of this
+paradigm. And I think the final paradigm
+that I start to see emerging is agentic
+where LLMs will start to orchestrate Rex
+systems in a loop. I think there's a
+parallel here with coding agents. So the
+LM native models are like improving the
+core capabilities of the model going
+from opus 45 to 48 versus the agentic
+curve will be like improving the coding
+harness behind claw code or codeex. Um
+and so instead of just having a single
+forward pass through the recommener, you
+can imagine a loop where agents plan,
+retrieve, rank and then critique the
+recommendations. They can refine them by
+calling models again and finally deliver
+the recommendations. This I think is an
+interesting area of research. Now
+let me jump into
+so here here's kind of the framework of
+all the four Rex paradigms. I think
+companies are scaling across each of
+these curves in parallel.
+Most of recommendations I think lives in
+LM inspired today and is trying to
+graduate into LM native. Uh but then a
+lot of companies are still using
+traditional models uh and climbing that
+scurve.
+Let me shift gears a bit to share the
+recipe of how to actually build a LLM
+recommener.
+I think it's pretty simple. It's three
+steps. Uh you start with tokenizing your
+content and creating a language for your
+domain.
+Then you want to adapt the LLM so that
+it understands both English and your
+domain language and becomes this
+bilingual model. Finally, you can prompt
+this model with user information and it
+will directly decode recommendations
+from your content corpus.
+Let's go a bit deeper. This is the LLM
+recommener as a five layer cake. Um,
+we'll start at the bottom. Uh, that's
+semantic ID where you're converting your
+content corpus into tokens that the LLM
+can understand and reason over. Then you
+have kind of the base LLM foundation
+model. This can be an open weights model
+or an internal first party model. Then
+the core training stages. Pre-training
+is around bridging English and these
+recommener tokens. Post-raining is about
+steering the model towards
+recommendation tasks like predicting
+engagement or reasoning over
+recommendations.
+And then finally, you can just do some
+light surface specific fine-tuning to
+deploy it on a product surface. The
+exciting thing about this paradigm is
+most of the compute is shared across all
+of the product surfaces. So you don't
+have to train individual models from
+scratch for every product surface.
+I'll go a bit deeper into each stage for
+semantic ids. I think this has seen
+incredible adoption. A lot of teams are
+just replacing their hash ID with the
+SID in traditional models and seeing
+good impact. I think there's two big
+reasons to tokenize content. The first
+is it gives you the stable
+representation for models to learn over
+rather than a constantly shifting hash
+that the model can only memorize. And
+the second is compression. You want to
+be reasoning over these long sequences
+of user interactions. And if you don't
+compress the content, for example, a
+threeminut Instagram real video would be
+10,000 tokens and it will just fill up
+the content context window too quickly.
+So you have to to compress it into about
+10 tokens. And so here I have some
+examples of Instagram reels about
+tennis. You can see that the semantic
+token shares the prefix of the first
+three tokens because they're very
+similar reels. You can imagine the first
+token representing sports um and the
+second two tokens representing tennis
+and then the final token making these
+videos individual.
+Once you have a semantic ID, you can
+train it to understand both English and
+semantic ID. And so the task I have on
+the left for pre-training here is an
+example of where you prompt with a video
+with semantic ID ABC has the description
+blank and the output is a shot that was
+instantly iconic from Wimbledon. Here
+you're teaching the model to connect
+these semantic tokens with synthetic
+English natural language text. The
+example on the right is about reasoning
+over sequences of semantic IDs. And so
+in a user's interaction history, you can
+mask some parts of the sequence and the
+model learns to predict them and
+understand what videos are watched
+together in sequence.
+Here I have an example of post training
+where we're teaching the model how to
+rerank content. So the input is a bunch
+of user information and 30 candidate
+videos that are then ranked to be the
+top five recommendations from this LLM
+ranker. What's really interesting here
+is that you can see the chain of thought
+reasoning of this model. And because
+this model knows both English and
+recommendations, you can simply just
+inspect the model and understand why it
+made the decisions that it did. In this
+example, the model understands the
+user's topic interests like comedy,
+food, DIY, wellness. It understands the
+engagement style and what creators this
+user has an affinity towards.
+and then it reranks the content based on
+this chain of thought reasoning.
+I think this is super exciting because
+once you have a model that can
+understand both English and
+recommendations, it opens up new product
+surfaces and new experiences where users
+can steer their feed. Here's an example
+from your algorithm on Instagram where
+users can talk to the algorithm while
+they're consuming content. It's a
+screenshot from scrolling through reels
+or when you click in you can understand
+what the Instagram algorithm thinks
+about you and your interests and then
+you can add or remove interest and talk
+to it in natural language. And so we're
+going to see this shift I think from
+blackbox recommendations algorithms to
+giving users more control over their
+algorithm and algorithms becoming more
+interactive and steerable.
+I'm really excited that users can direct
+it towards their own goals that's
+expressed in language rather than just
+likes or comments. Um, and I think this
+can this foundation model can also start
+to explain its recommendations.
+And so for this example, I've added an
+interest that I want to follow the FIFA
+World Cup at this time. And the model
+would get both my user history and this
+new input and then be able to decode
+recommendations that are personalized to
+me like this free cake that Messi scored
+recently.
+I think these interactive recommenders
+are going to be a really interesting new
+product surface and we're seeing this
+across the industry. We have some
+examples of prompted playlists from
+Spotify, custom feeds from YouTube, Ask
+Door Dash, and we'll be hearing more
+from speakers about these.
+Um, finally, I want to talk about kind
+of the framework of tokens in engagement
+out this flywheel that I started with um
+of model training, inference, consumer
+engagement, and then monetization.
+This is actually the same flywheel
+that's shared by content feeds and the
+AI chat apps. And this is a lens that
+you can use to evaluate any consumer
+app. What'll make an app successful on
+the training ROI side is how well can it
+translate compute into a frontier model.
+On the inference side, how well can the
+inference tokens translate into
+engagement and then monetization.
+And so if you try to compare content
+feeds and AI chat apps, I think that LM
+recommenders are actually structurally
+more token efficient than the AI chat.
+So on the left you have content feeds
+like Instagram, Facebook, Tik Tok and
+YouTube. On the right you have the big
+AI chat apps like Gemini, ChatGpt and
+Claude.
+Content feeds are currently using models
+that are around 1 to 10 billion active
+parameters. The chat apps are serving
+much larger models 10 to 100 billion
+active parameters. Um the output for the
+content feed is a semantic ID token
+which is a pointer or an address to
+existing content because the content
+supplied on these content feeds is
+uploaded by creators. There's a very
+healthy creator economy and so the
+supply of content is effectively free or
+it's uploaded by creators. For the AI
+chat apps, they have to decode every
+token of content themselves and the
+amount of tokens output in every turn of
+an LM chat interaction is a few thousand
+tokens. Uh, and the the big difference
+here is that every token has to be
+manufactured by the app at inference
+time. And so what that means is if you
+compare these two apps on how much
+inference cost and compute is spent to
+generate an hour of consumer engagement,
+there's a huge structural gap where
+content feeds are significantly cheaper
+up to 100 times or more cheaper than AI
+chat apps because they're decoding
+pointers to content rather than content
+itself.
+Um, finally I want to kind of end with
+why I think LM Rexus is one of the most
+significant consumer AI applications. If
+you look at the top apps by daily active
+users, these are the top 10 apps. Four
+out of 10 of them are content feeds. And
+so this is a really significant consumer
+uh application. If you look at the
+content feeds, almost all of the
+consumer app growth on both the
+engagement and monetization side is
+driven by the recommener and ads models.
+And these are going to be entirely
+transformed by LLM recommenders.
+It's a very large and very token
+efficient application of AI for consumer
+apps. We're going to see a lot of new
+product experiences come through with
+steerable and interactive
+recommendations, explanation of
+recommendations, and just putting more
+users in control of their experience on
+these apps. I think we're going to see
+some really exciting research on
+consumer agents and recommendation
+agents that come out over the next year
+or so. Um and so this is why I think
+this is a super exciting area of both
+research and product uh at this
+intersection of LLM and recommendations.
+That's all. Thank you so much.

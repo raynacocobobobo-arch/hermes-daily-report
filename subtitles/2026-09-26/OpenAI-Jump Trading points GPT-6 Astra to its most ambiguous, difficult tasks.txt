@@ -1,0 +1,30 @@
+UP主：OpenAI
+标题：Jump Trading points GPT-6 Astra to its most ambiguous, difficult tasks
+链接：https://www.youtube.com/watch?v=s495saGYWFg
+
+You can give much more ambiguously
+specified, much more difficult, and
+broad-ranging tasks to the model, and it
+just works.
+Maybe 2 years ago, it became capable of
+writing short snippets of code. Maybe 8
+or 9 months ago, capable of writing not
+only snippets or files, but entire
+repositories, [music]
+entire services by itself. I mean, it
+was a revelation to use Astra [music]
+primarily because you can enable it with
+the right capabilities, carefully
+scoped, [music] and have it go out and
+search, perform analyses for you. You
+can define something that needs to run
+for days, it needs to pull from many
+data sources. [music]
+It needs to make those subtle calls
+about what is important and what is not,
+[music] and it needs to interrelate
+everything to create a comprehensive
+analysis. That actually works now, and
+now
+agents and generally AI are a part of
+everything we do.

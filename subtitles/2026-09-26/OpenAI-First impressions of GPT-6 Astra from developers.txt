@@ -1,0 +1,74 @@
+UP主：OpenAI
+标题：First impressions of GPT-6 Astra from developers
+链接：https://www.youtube.com/watch?v=-TTyyY3VWh8
+
+It is smarter, it unlocks a lot of
+workflows that I previously just haven't
+been able to do.
+And what blew your mind with Astra?
+Can you show me?
+What I've built here
+is a voxel 3D
+representation of historic London, which
+goes across the different eras,
+medieval London, Tudor London, and it
+transforms all within the same map.
+Oh, you know it, I can actually play
+this. And what I can do is I
+can even keep playing the same person
+and it can keep going into the modern
+times. But here I pretty much gave it
+maybe a couple more prompts in terms of
+I wanted to go overhead so it looks
+like GTA 2. Suddenly I've got this pretty
+much kind of simulation slash game
+that really works super cool.
+You know, so here I have sort of
+asked you to design like a matcha shop
+website. But like the fact that like here
+you have the photo in the center and
+it actually wrote a really interesting
+prompt even for that photo to be generated
+this way and like the circle around it
+and so on. And then it came up
+with another version of that,
+which is completely different.
+But also surprisingly, it even comes
+up with like things that I wouldn't
+otherwise like think about, you know,
+in which I can finally start using it
+for like a new source of inspiration,
+which I find incredibly exciting.
+I went to a big conference called DEF CON
+where there are these big puzzle
+challenges that me and my friends spent
+days trying to solve.
+It solved this one big puzzle,
+which was like a bunch of Rubik's cubes
+that were arranged in this weird three by
+four pattern that you had to deduce a
+message from. It was able to get that
+three out of three times.
+The one thing it did need is it
+got the official hint from the puzzle
+creators. So that's the same thing we got
+when we were doing it.
+But once you gave it that it got
+the actual solution. So the model comes up
+with a theory. It sends off another agent
+to go test it, sees how it works.
+So these are all running in parallel.
+Main agent is just kind of orchestrating
+these together. I found this model is much
+better at keeping itself on track and
+knocking out of those doom loops,
+which is a lot of the reason why
+it's been able to keep on task and
+solve these problems. It's been amazing.
+I've got so many problems that accumulated
+that I couldn't quite solve with the
+previous models. And now I've got finally
+a chance to solve them.
+It's been incredible to see Astra going
+through them one by one
+and getting them done.

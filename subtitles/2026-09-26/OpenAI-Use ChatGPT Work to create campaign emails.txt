@@ -1,0 +1,90 @@
+UP主：OpenAI
+标题：Use ChatGPT Work to create campaign emails
+链接：https://www.youtube.com/watch?v=N-MJ1W8Vj9E
+
+That would have taken two weeks end to
+end. I mean, I would have had to write
+the marketing brief, then do the kickoff
+meeting with our lifecycle team and
+creative, go back and forth on drafts,
+and then finally two weeks later get a
+handoff. All of that has been compressed
+in about two days, which is pretty cool.
+And so with ChatGPT work plugged in with
+Figma, we were able to create a new
+series of templates that are a lot more
+dynamic that now we can automate the
+creation of those end to end. And just
+guys, look how much more
+rich these new templates are. And we
+basically just told ChatGPT, "Hey,
+here's a spreadsheet of prompts. Can you
+turn this into an interactive site, like
+a dashboard our teams can use to find
+specific use cases to feature in our
+marketing?" And guys, look what it
+created with This is just like a couple
+of minutes. It came up with this cool
+website where as a marketer I can go in
+and say, "Okay, what capability of
+ChatGPT work do I want to talk about?"
+Let's say schedule tasks. And then what
+life situation do I want to talk about?
+Let's say we're talking to knowledge
+workers like all of us on this call. And
+look at it came up with all the tiles
+from the Excel spreadsheet where I can
+just click on the prompt and actually
+copy paste it and use it in my
+marketing. And speaking of which, of
+course we didn't stop there. The next
+question was, "This is so cool. How do
+we share this with our users and make it
+public?" So, what we actually did and
+this is crazy, we scanned Instagram for
+all of the reels that mentioned ChatGPT
+work, and the team basically built their
+own social media app where we put
+together all the Instagram reels that
+featured ChatGPT work, and the user can
+just kind of roll through and see these
+different use cases. And on the
+right-hand side, they can actually see
+the prompt that was used in that
+situation and click on this button to
+actually try it themselves. And this was
+all created using sites. So, now that we
+kind of have our use cases, and I talked
+about going from these old templates to
+these new ones, I want to quickly show
+you what that plugin looks like. So,
+what you can do is if you do any sort of
+email marketing, you can break down
+every part of the process into specific
+skills. So, we have like adhering to our
+brand guidelines, reading a brief, and
+if you click on each one of these, it
+provides a lot more detail here, uh
+plugging into Figma and using your
+templates. And so, this plugin is a
+package of about a dozen different
+skills. And now I can install this
+plugin, share it with my team, and
+anyone can use it to write emails. So,
+you would just summon the plugin here at
+the top of this prompt box and say,
+"Create five connector emails for
+knowledge workers that feature plugins,
+and use our use case library." So, this
+is a really cool way where ChatGPT will
+then go off and work for a couple of
+minutes, and it'll start to use your
+files, and you can even connect it
+specifically, and then it'll output
+something like this. And now our
+meetings can be about, "How do we refine
+the messaging, the copy, the the
+visuals?" Instead of talking about the
+work around the work. And it's a lot
+faster of a way to kind of get things
+done.

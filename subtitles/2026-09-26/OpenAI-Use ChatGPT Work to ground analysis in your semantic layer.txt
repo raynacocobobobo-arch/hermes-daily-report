@@ -1,0 +1,53 @@
+UP主：OpenAI
+标题：Use ChatGPT Work to ground analysis in your semantic layer
+链接：https://www.youtube.com/watch?v=bbNTY8O0GTY
+
+I'm sure many of you in the audience are
+probably wondering how we would even
+trust chat GPT to find and query the
+correct data. Then even simple data
+questions can have very complex queries
+or metric definitions underpinning them
+and that knowledge can be scattered
+across tools, across people
+and if it's not accessible to the agent
+then
+it's not going to be able to make the
+right decision. So it's all about making
+it accessible to the agent. And with the
+data plugin we can take that existing
+knowledge and then turn it into a shared
+skill. So this this site semantic layer
+it contains information about key
+entities,
+key metrics, different standard filters
+or dimensions. It has some information
+on like open questions, pitfalls.
+Someone from your data team who is or
+who is familiar with this data should
+like review and refine this and then
+when they think it looks good they can
+package this up into a plugin and share
+that across your company.
+>> So if you have a relatively well
+contained domain this is a great skill
+to try out. The second is that if your
+team has already invested in creating a
+semantic layer whether that's as a skill
+or it might exist in Snowflake Cortex or
+Databricks Genie you can bring that in
+so you don't need to create something
+that new. It can just learn from what
+you already have.
+>> But to do this really well it does take
+focused effort and like a team of people
+who is focused on this and continuing to
+invest in it.
+>> Yeah you have to really think this is
+important for the organization. I think
+we can attest that it has been but you
+do need that attention. We will have
+another another announcement around a
+product in this space.
+I've said too much but anyway stay
+tuned.

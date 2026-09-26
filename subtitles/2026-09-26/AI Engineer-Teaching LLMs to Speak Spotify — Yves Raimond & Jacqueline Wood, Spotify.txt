@@ -1,0 +1,449 @@
+UP主：AI Engineer
+标题：Teaching LLMs to Speak Spotify — Yves Raimond & Jacqueline Wood, Spotify
+链接：https://www.youtube.com/watch?v=2LRIAfng7eA
+
+[music]
+Welcome everyone. Um really glad and
+thank you Deven for inviting us as well
+to talk today. Uh so um uh Jackie and I
+are going to present today about making
+LLMs speak Spotify and how we turned our
+recommendation system on its head to be
+LLM native. Uh just a few quick words
+about myself. Uh I joined Spotify a year
+ago. Before that I was at Google working
+on personalization for Google search and
+prior to that I was uh working on
+personalization at Netflix.
+Um all right so let's dive in. Um
+first a couple of numbers to describe
+the scale of the problem that we have to
+solve. Um Spotify has about I was a
+little bit sad not to see it on the DAU
+by chart because it should be up there
+but it has about 760 million uh active
+uh users monthly uh in about 184
+markets. But one thing that makes uh the
+Spotify personalization problem
+particularly challenging is the size of
+its catalog. Uh so of course you know
+Spotify has basically all music ever
+published a bit more than 100 million uh
+music tracks but it also has a range of
+videos, podcasts and audio books as
+well. So the matching problem uh is uh
+actually surprisingly uh complicated.
+So today what we're going to talk about
+Jackie and I is basically the extent of
+this matching problem and how we uh how
+we are solving it. I'm going to talk
+about a little bit of history, the new
+phase that we're entering and then
+Jackie is going to help us uh go into
+the guts of the modes as well to
+understand how those things are trained
+as well. Uh so a little bit on history.
+Uh initially Spotify personalization was
+really built around curation. So uh
+people basically manually assembling
+playlists that target specific taste.
+And that's still a very common uh use
+case on Spotify. Right now we have about
+10 billion playlists with many many uh
+created every every hour.
+Uh then you know Spotify moved into
+taking these creation signals and order
+signals and moving into recommendations.
+So basically being able to turn these uh
+creation signals to something that can
+be applied at scale. Uh and a great
+example of that would be discover weekly
+for example that was launched in 2014 as
+one of the one of the early like
+recommendation use case on on Spotify.
+But the phase that we entering now which
+uh uh which we're going to talk about in
+more details is something that we call
+generative personalization where we are
+not only solving a matching problem from
+the user to the content. We're also
+solving the ability to generate an
+experience that is interactively and
+dynamically shaped around each user.
+And that transition from recommendations
+to generative personalization involves a
+couple of different uh a couple of
+different big shifts. One is move from
+moving moving from personalization as
+guessing uh where basically you have a
+ranking algorithms that spits out a
+brand ranked list of entities in your
+catalog to personalization as reasoning
+that can introspect these results and
+really try to understand whether that's
+indeed the right match for this user in
+this particular context.
+The other aspect as well is moving from
+blackbox algorithms. uh it's very
+difficult to fully introspect a
+multi-stage ranking system for example
+to transparent and steerable
+personalization where the user is always
+fully in control. So uh basically giving
+the ability to these mods to speak and
+understand English.
+The other thing that these these systems
+can do is uh uh not stopping just at
+recommending but also generation of
+experiences and explaining as well. uh
+and we're going to show a couple of
+examples of that.
+So one example that uh we launched a
+couple of years ago uh so pretty early
+in that journey was the Spotify DJ. Uh
+so the Spotify DJ is something that you
+can spin up that will start playing
+music for you of course personalized
+uh and but one interesting thing about
+it is that since last year you can tap
+that button on the bottom uh right and
+steer it in whatever direction you see
+fit. So at any point you can chime in
+and let the algorithm know what you want
+and it's going to steer the session in
+the in in that in that direction.
+Uh another example of what we call
+generative personalization is uh
+showcased in a prompted playlist here
+that Deanch showed a little bit earlier
+as well. Uh and here you can you
+basically have full unfettered access to
+the recommendation algorithm that
+Spotify has. uh and you can uh prompt it
+with very high level prompts or very
+detailed prompts. On the left hand side
+here, I have a prompt that tells me uh
+create me a playlist of bands that are
+playing in San Francisco tonight. Uh so
+turns out there's a bunch of good shows
+if you're excited to check them out. On
+the right hand side, you see a prompt
+that is asking for a playlist to
+accompany me on my run. And what's
+interesting with the right hand side as
+well is that you will see that the
+experience itself gets dynamically
+shaped as a function of the request on
+the user to be able to introduce itself
+and different phases in my run as well.
+Uh, another one that I'm really excited
+about, we launched it in New Zealand a
+couple of months ago and uh, it's coming
+soon in more markets is something called
+the taste profile. And that basically
+gives you the ability to introspect in
+natural language what the Spotify
+algorithm has understood about you in a
+way that you can edit and refine. Uh, so
+if you see something that's missing or
+something that's wrong. Uh so for
+example one of my edit is that all
+Disney music are my kids because we have
+a bunch of shared devices at home but
+please don't recommend that to me that's
+not my taste please. Uh and the
+algorithm would then take that into
+account uh making sure that we never
+recommend this this in the wrong
+context. Uh and similarly you can also
+use the taste profile to share some more
+aspiration uh goals as well. Uh so
+getting into a new genre, getting into a
+new topic, uh learning about a new
+language for example, all of these
+things can be can be done.
+Uh another one that's coming uh soon uh
+which we uh announced very recently is
+something called personal podcast where
+the the the generative personalization
+system doesn't stop at just recommending
+and ascending experiences but also
+generating content as well. In this
+particular example, I'm generating a
+daily brief that's uh that's generated
+on a cadence daily. Uh and I'm going to
+uh let it uh tell me about what's
+happening in my community.
+All right. So now to go into the guts of
+it. So there's one big system that
+controls like all of these different
+applications I mentioned and we call
+that internally some the large taste
+model. We're not great at naming these
+internal things. Um so it has a couple
+of properties. One is that it
+understands every historical interaction
+piece of content on Spotify. Uh it
+combines prediction and reasoning to the
+point that I mentioned earlier. So not
+only guessing but also reasoning layered
+on top and it gives users the ability to
+shape and generate experiences in real
+time. So it's fully steable and
+promptable by uh by users. Um and uh as
+of today about one in four US premium
+subscribers interact with that system on
+a daily basis as well. So that's pretty
+exciting. Um, one thing that's exciting
+as well to uh is that deploying this
+system across existing recommendation
+surfaces as well also led to some gains.
+Uh, we saw gains on autoplay, we saw
+gains on podcast discoveries. Uh, we saw
+gains on users interacting with DJ
+messages as well. So, we saw pretty
+pretty sizable gains across the board as
+well by deploying the system. On that
+note, I'm going to hand it over to
+Jackie to talk to us about what's one of
+the core component that underpins this
+whole system.
+Hi everyone, I'm Jackie or Jacqueline, a
+staff machine learning engineer at
+Spotify. So let's dive a little bit
+deeper and talk about how these models
+are actually trained at least at
+Spotify. So semantic IDs were presented
+in the previous talk, but that is how we
+are embedding these openweight LLMs with
+knowledge of Spotify's catalog. They are
+created by taking existing content
+embeddings such as podcast episode
+embeddings and applying a quantization
+algorithm to convert them to a set of
+discrete tokens. We then take a
+openweight LLM such as Quen and we
+modify its vocabulary to add these new
+special tokens and then we fine-tune the
+model to be able to understand both
+natural language as well as these new
+special tokens semantic IDs that
+represent Spotify catalog entities. So
+we can power experiences such as this
+where the user can ask in natural
+language for a podcast on morality. And
+that is passed to the prompt along with
+their listening history represented as
+semantic IDs. And the model responds
+both with a relevant semantic ID podcast
+episode
+as well as a natural language
+description of why they recommended that
+to this user.
+So how is this model actually trained?
+Um we published a paper linked here
+uh describing our training paradigm
+called NEO which consists of four
+distinct stages. The first I already
+covered which is the semantic foundation
+stage where we construct meaningful
+semantic ID tokens and then add them to
+an openway LLM's vocabulary.
+The second stage we call domain
+grounding in which we align these new
+semantic ID token embeddings in the
+original language embedding space.
+We do this by learning a birectional
+mapping between semantic ids to text,
+text to semantic ids and any
+combination.
+And we actually freeze the LLM backbone
+at this stage and only train the new
+semantic ID embeddings. So the original
+model weights and embeddings are frozen
+and we just learn those new semantic ID
+tokens and this helps us to mitigate
+catastrophic forgetting of the
+pre-trained LLM's core language
+abilities.
+The third stage we call capability
+induction which is multitask instruction
+tuning on tasks that Spotify cares about
+such as the ones shown here. next item
+recommendation retrieval etc.
+This is done by unfreezing the whole
+model all of its weights and embeddings
+and running either full parameter
+fine-tuning or Laura fine-tuning on the
+multiple Spotify tasks and then there is
+an optional fourth stage to do post-
+training such as RL fine-tuning etc.
+So, how much of a difference does this
+four-stage training paradigm actually
+make? I'll dive into a few of the
+abilations we've done to investigate
+this. First, we assessed whether
+multitask training is actually hurting
+performance by comparing the multitask
+model against single task variance. And
+we consistently saw that across our
+tasks, the multitask model can match or
+actually beat the single task
+performance indicating that there is
+some positive cross-learning happening
+across the tasks. This is particularly
+noticeable for audiobook
+recommendations. If you look here, which
+is a new newer content type at Spotify,
+demonstrating that these multitask
+models can help with cold start entities
+by learning from other items in the
+catalog such as podcast recommendations,
+how to make meaningful audiobook
+recommendations.
+Then we did some abilations on the
+actual training recipe. We evaluated
+both dropping the frozen backbone domain
+grounding stage altogether
+as well as combining the domain
+grounding stage with the capability
+induction stage in a multitask
+instruction tuning stage that those are
+rows A and B here in the middle and we
+saw for both of those that it degraded
+performance but actually the biggest
+drop in performance was from using a
+randomly initialized backbone instead of
+the pre-trained openweight LLM that we
+are using. We also evaluated using
+continuous pre-training for the domain
+grounding stage. And as you can see,
+it's it's minimal actual degradation on
+the task specific performance.
+But where continuous pre-training really
+hits us is on the natural language and
+world knowledge capabilities of the
+pre-trained backbone LLM we are using.
+after we do continuous pre-training, it
+goes to essentially zero versus if we do
+the frozen backbone domain grounding. We
+retain all of that core language ability
+and are still able to learn the semantic
+ids.
+I want to call out that these abilations
+were done with Quen, but we also
+validated that these findings hold with
+Llama. So, it is not specific to the
+model backbone, but actually the
+training paradigm itself.
+And then lastly, we did some
+investigation on different inference
+strategies and their effect on accuracy
+versus latency. We tested beam search
+with both constrained decoding and not.
+And we saw that even without constrained
+decoding, we can generate valid semantic
+IDs 98% of the time.
+Constrained decoding does add a little
+latency overhead, but it's also helpful
+for specific cases where you want to
+target specific types of content, such
+as only make new content
+recommendations, for example.
+We also compared top P sampling to beam
+search and saw that top P sampling
+pretty significantly hurts our accuracy.
+So although beam search is a little more
+latency intensive, we decided that
+trade-off worked for us.
+So what is meaningful about this? There
+have been lots of work in the industry
+in the space on generative semantic ID
+retrieval, toolbased LLM recommenders,
+the plum paper, etc. But NEO is actually
+the first example of combining all these
+capabilities into one system that
+understands grounded catalog items, is
+naturally language steerable,
+can do search, recommendation,
+explanation use cases, as well as
+low latency tool-free inference at an
+industrial scale.
+And we are using this in production
+today. Um there's a paper linked as well
+here for how we're using this to power
+podcast discovery.
+What we saw is that using a model train
+like this, we can break users out of
+their habitual patterns and get them to
+listen to more unfamiliar content. And
+we saw huge wins online with this.
+So none of this works without meaningful
+evaluations. So I want to talk about
+that a little bit as our recommendations
+are becoming more generative and
+explanatory.
+We our original maybe traditional
+offline eval metrics are not sufficient.
+Yes, they can tell us whether or not the
+user interacted with that content, but
+they can't tell us whether or not the
+user or that recommendation makes sense
+for the user, whether the explanation is
+accurate, whether it aligns with the
+user's intent, etc. So, that's where LLM
+judges really shine. But in our work at
+Spotify, we really find that you need to
+invest in grounding your LLM judges in
+meaningful data. so that they can be
+reliable
+evaluators that align with human
+preferences. So, a few examples um for
+evaluating the podcast recommendations
+that I just mentioned, we create textual
+user profiles summarizing the users's
+listening history and that is passed to
+the LLM as a judge and we saw that this
+corresponded with a 75% alignment
+between the LLM judge and human
+preferences.
+Similarly, you can use actual behavioral
+signals to ground these LLM judges. So,
+for example, for a search task, you can
+for a given query, you can take similar
+queries and how the user has interacted
+with them in the past and pass that to
+the model. And we saw that overall it
+increased alignment by 5% but on
+ambiguous queries it actually increased
+alignment by 91%.
+Showcasing the value these this
+grounding of the LLM judge plays
+especially in ambiguous cases where LLM
+judges tend to struggle.
+Lastly, we used grounded LM judges to
+scale up our Cranfield style
+collections.
+These are evaluation sets that are
+constructed by taking candidates from
+multiple different sources, creating a
+pool, and then using a human to rank
+that pool. However, that human ranking
+stage is expensive. So, we invested in
+significant grounding for our LM as
+judge and are able to have an LLM judge
+that aligns with uh human system
+rankings
+with an agreement value of 0.87.
+In summary, um like we're going to hear
+a lot about today in all the talks,
+there is a new era of personalization
+among us. this generative
+personalization.
+And if you want to power language
+steerable personalized recommendations
+for your user, this is how we taught
+openweight LLMs to speak Spotify. Thank
+you.
+[applause]
+>> [music]
