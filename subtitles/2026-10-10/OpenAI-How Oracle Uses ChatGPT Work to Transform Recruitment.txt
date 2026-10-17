@@ -1,0 +1,33 @@
+UP主：OpenAI
+标题：How Oracle Uses ChatGPT Work to Transform Recruitment
+链接：https://www.youtube.com/watch?v=Mm3EsJL73tM
+
+We've gone from zero to 100, not zero to
+60.
+We built our talent market intelligence
+tool using ChatGPT work, and it's really
+revolutionized how we do the front end
+of our recruitment process. What we've
+done is we've really created a quality
+and consistency in gathering all these
+independent [music] insights and bring
+that to our hiring managers, our TA's,
+and give them one way of doing
+something. So, we start off with a job
+description, then we actually use this
+GPT that we created to search multiple
+external sources for comparable roles
+out there in the marketplace, what
+competitors are doing. This has
+certainly taken the front end of the
+process where we actually sit down and
+gather requirements with a hiring
+manager that typically would take maybe
+two, three, [music] four days to prepare
+for, and now it's down to literally 20
+minutes of sitting down with work and
+[music] working with the GPT we've
+created. It's really changed the way we
+approach a search from an executive
+search to a professional search here at
+Oracle.

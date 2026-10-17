@@ -1,0 +1,474 @@
+UP主：OpenAI
+标题：Stack Overflow - From Idea to Product | DevDay 2026
+链接：https://www.youtube.com/watch?v=3glzJZ-_qB8
+
+Hello everyone.
+Hope you're having a beautiful morning.
+On the stage I'm super excited.
+We're gonna have one of our customers
+Stack Overflow talk about how
+they're using Codex intensively.
+So we're gonna have the VP of product
+Alex Lotto talk about different
+initiatives, share some practical tips
+and insights from their use of Codex.
+And then lastly we're gonna talk
+about how they're thinking through
+building in an agent first world as
+you have not just humans but agents
+interacting with Stack Overflow.
+So with that please join me
+in welcoming Alex to the stage.
+Thank you Alex.
+Thank you so much for being here. Thank you.
+I thought California was hot.
+I don't know what's going on here. Freezing.
+Sunny but cold always.
+So why don't you start
+with telling us a little bit
+a little bit about who you are
+and what you do at Stack Overflow.
+Yeah absolutely.
+My name is Alex.
+Nice to meet everyone.
+Originally from Canada so you would
+think I could handle the cold.
+Apparently not.
+Very terrible Canadian.
+I work at Stack Overflow leading
+product so that's across all
+our portfolio from the very famous
+public platform that maybe some
+of you hopefully know and have used
+in your careers once upon a time.
+All the way to our two new
+products Stack Internal which
+we'll talk about a little bit today
+and Stack Overflow for agents.
+Also a very cool product.
+Amazing.
+Thank you. So Alex you talked about the two
+initiatives but can you tell me
+a little more about these initiatives
+and and what you use Codex for?
+Yeah totally.
+So two ends
+of the spectrum is what I'd say.
+Stack Internal is our new
+enterprise product.
+So that's essentially
+a enterprise grade right.
+Has to be ready for kind of these
+large deployments and that's
+a knowledge intelligence product. So we'll talk about
+that in a little bit.
+But on the other end of the spectrum
+you have Stack Overflow for agents
+which is really a small experimental
+product that's more individual facing
+and obviously agent first.
+So two completely different
+products both used Codex extensively
+for different parts of that SDLC.
+You mentioned these two
+very different products.
+How did your use of Codex differ
+and maybe how you set up the projects
+as you were approaching them?
+Yeah totally.
+So as a product person I like
+to sometimes pretend that I can
+be an engineer which is always
+a very dangerous thing to do.
+I say this with no engineers
+on my team around so I
+feel a little safer.
+But essentially for the Stack
+Overflow for agents which I'll
+call SOFA for the next few minutes
+that was a product again and we
+were given a hypothesis and we were
+trying to figure things out right.
+We wanted to be a little more scrappy.
+And so Codex there was really
+given kind of the free reigns.
+We said like okay these are
+architectural like golden paths
+that we use at Stack Overflow.
+Go rogue. Tell us how we should do this.
+Tell us what decisions, what
+constraints, kind of build
+that container for us.
+And so that was completely
+different than again the other end
+of the spectrum which is we're gonna
+deploy this to existing customers right.
+Customers with 150 to 10,000
+seats on our platform.
+Some of them big banks
+with 50,000 right.
+On-prem a lot more constraints.
+And so for that we were a lot
+more prescriptive in what we
+wanted Codex to help us with.
+So that was a lot of these are
+the existing contractual
+or contracts, architectural
+contracts between services.
+This is the way our architecture is built.
+Go build within that you
+know safe container.
+And so really again two different
+ends of the spectrum where we
+were able to kind of let Codex
+go rogue at different parts.
+And then again purposely
+and intentionally put
+the human in the loop there.
+Makes sense.
+It sounds like for the enterprise
+product where of course there
+are higher standards for security
+and other constraints.
+You were more thoughtful up front
+about what guardrails to put in place.
+Yeah exactly.
+I think for the enterprise product
+there's a lot of complexity that Codex
+requires context for right.
+It's not just how
+is the architecture built.
+It's really you know
+what does an enterprise need.
+And that could be for the product
+that we're building which is essentially
+grabbing you know scattered context
+raw knowledge structuring that.
+There's a lot of complexity
+in the sense of who can see
+this right data leakage.
+If an enterprise asks a question
+someone in that enterprise asks
+a question about topic X.
+We have to make sure that we respect
+if they have access to that different
+authorization models different
+sources again on prem cloud.
+There's just a lot of different
+complexity that we need to be
+able to handhold obviously
+Codex through with that context.
+And again if you think of a non
+enterprise product it's
+net new architecture.
+So I can kind of say you know
+what I want this and the product you
+tell me the best way to do this.
+And then we can kind of idea
+it in a completely different way.
+Makes sense.
+So for this enterprise product
+you mentioned you know there's a lot
+of many different data sources
+that you're trying to make sense of.
+In the age of is grep
+all you need it seems like
+the answer might be no. No.
+So can you talk to us about
+how you worked through many
+different knowledge sources
+and making use of that.
+Yeah totally.
+So if you think of an enterprise
+and any of us in the work
+we do you create
+context every single day right.
+Whether it's a slack thread MS
+teams a Google document.
+Imagine how many times as an individual
+you're editing that right.
+You're sharing that with someone there's
+permissions attached to that right.
+And then you kind of there's
+10x complexity there right.
+Every individual in that enterprise
+is doing that.
+And so different sources
+have different complexity again.
+And so our product once again is
+a knowledge intelligence layer.
+And what it does is it goes
+into this raw context.
+It structures it organizes it.
+And then it applies stack overflows
+bread and butter which is trust
+right verification.
+But to do that we have
+to go into these systems again
+data leakage privacy governance.
+It's like a whole grocery list
+of things to do and think of.
+And then we have to be sure that
+we respect that through and through.
+And so if you look at something
+like slack versus Google Docs versus
+a Jira ticket or a Confluence page.
+That information lives in there
+completely differently.
+And then you add the complexity
+of an enterprise might set
+up Jira one certain way.
+Why another one does this way.
+And so again we inherit all of that.
+And so we have to build
+this in a way.
+And again Codex sees right
+through that complexity and helps
+us ideate how to scale that.
+We have to think through how to kind
+of scale these sources in a way
+that we can move faster right.
+And that's what Codex
+was able to do for us.
+It built the concept of archetypes.
+So things that across these sources
+patterns that they have in common.
+An example of that would be
+the document archetype right.
+That could hit Google Docs.
+It could hit an MS Teams attachment.
+It could hit Confluence, Notion.
+So if we're able to create an API
+around an archetype for a document.
+Codex can say that's a pattern
+that I see in these ten sources.
+And so when you go get that document.
+We'll make sure that downstream
+we'll be able to connect into that.
+So again that complexity would
+have taken us weeks and weeks
+of building that logic.
+And Codex was able to do
+that in a few days. Makes sense.
+What stands out also is it's not just
+about retrieval performance as it were.
+But like maybe some sources are
+more authoritative like instead
+of like Slack messages or Teams.
+Or there's data freshness
+to also think about.
+And so breaking it into archetypes
+helped you maybe put some context around
+what each of these sources might be.
+Yeah I think archetypes and again
+Codex support there was really
+accelerating that front door lift.
+Right. Once we could kind of scale
+and kind of decide how we're
+gonna build these patterns.
+Then we can have our engineers
+actually focus on the really
+difficult decision of how do
+we apply the concept of trust.
+So you get all
+this information in right.
+You ingest it.
+Now we've got to extract the context.
+And we have to be able to detect
+this Slack thread from yesterday from
+Alex is more authoritative hopefully.
+Than a Slack thread from
+this person in March.
+And then like that kind of logic
+is where we want our engineers
+to be spending time.
+We don't want them wasting
+capacity on how do I get all
+these sources in the system.
+We want them to extract the value
+and then deliver that to a customer.
+And again Codex took all that lift
+for us which was God sent.
+That makes sense. Great to hear.
+Yeah.
+Switching gears a bit.
+Let's talk about Stack
+Overflow for agents. Absolutely.
+Which is your agent first product.
+Now of course being in developer
+experience at OpenAI.
+One thing we often think about is
+people looking at our docs these days
+are not really developers or people.
+But really people just point
+their agents to the docs and then
+you know sort of build that way.
+So there's a lot of thought
+these days around like for web
+experiences in particular.
+How do you design for agents
+as well as humans.
+So I'm curious how you approach
+this at Stack Overflow and maybe
+you know some of the considerations
+and how you designed it.
+Yeah totally. If you think of Stack
+Overflow's history right.
+It's always been a human led community.
+It's been a public platform where
+it's accessible and open by default.
+And so we've had
+to and my job really at Stack
+has been to rethink that next chapter.
+How do we start to build
+for a world where humans
+and agents kind of consume
+and contribute knowledge together.
+And so that's a different ball game
+for a company like Stack Overflow right.
+We have to think of what do we
+do with people like moderators right.
+What do we do with questions or answers.
+Maybe some of you have felt
+the pain of having a question
+closed as a duplicate.
+How do we handle that.
+And so Stack Overflow for agents
+was kind of our experimental idea
+which again separate architecture.
+So we can move a lot faster
+where we told Codex hey
+this is an idea we have.
+I think we have something here.
+We want to find a product
+or a design experience that allows
+agents to contribute on our platform.
+And actually one example I kind of want
+to give a shout out to Codex
+here was in that like ideation phase.
+I was doing a lot
+of that and I got a reply
+that said have you thought
+of keeping some of Stack Overflow's
+brand in the sense of attaching
+the agent's identity to its human.
+And it got that from having
+the context of our brand
+guidelines right our history
+and I thought what a great idea.
+So that's how we built it.
+We built Stack Overflow for agents
+as a public platform where an agent
+could essentially hook in what
+they're learning in production.
+And push that back out to the community.
+So instead of just lurking what we
+call them at Stack Overflow which
+is just consuming and consuming.
+It's able to contribute right back.
+So if it fixes something it can
+post a type of post that we
+call TIL today I learned.
+It can say this is the blueprint
+for you know this type
+of architecture or this language.
+And so that's really the evolution
+it's where you're switching from
+not just consuming for agents.
+So your MCP but also pushing back
+knowledge and that's kind of a net
+new concept for Stack Overflow.
+So very excited to have built that.
+No that makes sense.
+I think one thing that people always
+think about when building agent
+native is really like is it
+easily readable and consumable.
+But I think you're raising a very
+interesting point where you know
+as someone who was a lurker on
+Stack Overflow for a while.
+I'm like the thing that's interesting is
+now that you have agent first interfaces
+agents can actually contribute
+knowledge in a more consistent way
+compared to previously maybe you
+know in ways that you didn't have.
+Yeah exactly.
+And another thing I'll add is
+we allowed we are experimenting
+still with how much autonomy
+we want to give these agents right.
+So if you're going to be attached
+to a Stack Overflow human that human
+has reputation right literally
+reputation points on Stack Overflow.
+It has reputation also
+in the sense of I'm posting
+under my name right my agent.
+I want to make sure that what's
+out there makes sense.
+And so we've been rightfully
+so experimenting with the level
+of autonomy we give that agent
+and it's configurable.
+So you can say don't post anything
+without me accepting right as
+the human or when it's this topic
+go rogue and have fun right.
+And then the other thing you can do
+and it's kind of this loop we're
+talking about is not just contributing
+but also validating what's out there.
+So if an agent comes across on
+Stack Overflow a problem that has
+an open answer it's actually going
+to take that suggestion tested
+in production and push it back out
+and say I tried this it didn't work.
+This is what fixed it.
+And so we're kind of trying to close
+that loop on agent first
+knowledge both again consumption
+and pushing contributing back.
+Makes sense.
+Amazing.
+We've covered a lot today.
+So we talked about how you're
+using Codex both for an enterprise
+product where you're starting
+with a lot more guardrails and then
+also for a net new initiative
+which is Stack Overflow for agents.
+We talked about how do you really
+work with many different data sources
+and maybe having archetypes
+that encode the various context around
+the types of data that you have.
+And then lastly talked about how
+agent native actually could mean
+putting agents back in the loop
+of contributing net new knowledge.
+Anything else you'd like to leave
+the audience with today. Yeah.
+If you have any you know love
+for Stack Overflow and what
+it hopefully did for your career
+in the last 20 years or so I'd
+encourage you to go check it out.
+Go check out what we're building.
+We're releasing tomorrow actually
+the first version of our enterprise
+or organizational product which is
+again that knowledge intelligence layer
+and Stack Overflow for agents is already
+available for you to test for free.
+So I'd encourage you again
+in the sense of that Stack Overflow
+community go out there test it give
+us feedback and we look forward
+to building for developers again.
+Very excited. Amazing.
+And with that please
+give it up for Alex.
+Thank you.

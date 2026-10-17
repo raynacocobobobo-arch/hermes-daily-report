@@ -1,0 +1,436 @@
+UP主：The AI Advantage
+标题：ChatGPT Images 2.5 Is Here. Together With Astra It’s Crazy
+链接：https://www.youtube.com/watch?v=dZnsz2RYoAQ
+
+Chat GPT image 2.5 is here. And
+honestly, some of the results are pretty
+damn good. But the part that gets really
+crazy is what happens when you combine
+it with GPT6 Astra because up until now,
+most AI gives you advice or it does a
+one-off task, right? Astra can now pilot
+your computer. So, I'm going to show you
+the new Chat GBT image feature, which is
+amazing. But then we're going to take
+one real job across five different apps.
+And what started with Chachibd image is
+going to turn into this, a full poster
+that has been submitted for print with
+our online printing provider. But I want
+you to know this. This is not really a
+video about making a poster. It's a
+video about one job surviving every
+handoff between apps and ending as
+something actually usable. Because we
+basically started with two ordinary
+photos, used images 2.5 to create and
+edit the visuals. Then Astra took it
+over to Canva, created the whole poster,
+exported it for print, uploaded it to
+the online printing service, and heck,
+while we were at it, we even had it
+handled the screen recording of the
+entire process. All of that just worked.
+The full run took about half an hour and
+needed one permission click. So, first,
+let me show you what images 2.5 can do
+on its own and then what happens when
+Astra takes over. All right, so welcome
+to another week in AI. OpenAI released
+images 2.5. We got Astra last week and
+well, they basically said that this
+images model brings sharper details,
+more natural lighting and textures,
+better reference image handling. That's
+a big one cuz you can make images of
+yourself or your friends and they
+actually look like them. And more
+precise editing. And finally, you can
+make multiple changes to the same image
+and it actually maintains that history.
+This was the most annoying thing with
+the previous image model. that was
+really good at editing, but when you
+edited two things, it forgot about the
+first edit and you went back to square
+one every time you wanted to change
+something. So, additionally to that,
+they claim that this is about 50% faster
+than the previous model. It feels
+faster. I don't know if it's exactly
+50%, but the most important question
+here is simple. What can you actually
+make with this that would be interesting
+to you? So, let's start with some
+examples of what we made. I mean, we
+just started off with the YouTube thing
+cuz it's top of mind as we're making a
+YouTube video. One example that
+immediately got me is we went from this,
+you know, very serious and sexy image
+right here to these thumbnails and it
+actually looks like me, which I got to
+say, the fact that it can preserve
+identity more than any image model
+before is huge because you can now do
+images of yourself and your friends. So,
+if I just Google a person and I take a
+image of that person, it does it. And
+wouldn't you agree that this is the same
+person whereas you know how it went with
+previous models, it was slightly
+different. The difference in identity
+has never been smaller though and he's
+really good at editing as you can see.
+So what we did is we took an object and
+we edited that with multiple prompts and
+look at that. We started with this naked
+mug and we just wanted to change one
+thing and leave everything else alone.
+That's the color. Make the mug forest
+green. Look at that. Did it. Even if I
+move between these images, can you see
+how it maintains well almost the
+perfectly same position in the frame?
+That used to not be the case. But then
+while we said keep everything else the
+same, look at that. The lighting
+shifted, the structure of the table
+shifted. So, it's not perfect. I'm not
+sitting here saying that, you know, it's
+going to keep everything the way it is.
+I'm just saying if you want consistency,
+it's getting better at it. So, next up,
+we just created a simple poster and
+we're like, oh, instead of a coffee,
+hey, how about a croissant? Boom.
+Perfect change. See how everything else
+is consistent? So, this is new and very
+nice.
+>> Wow. Wow. Very nice.
+>> For the lack of a better word. Really
+very nice. That's how deep my vocabulary
+goes. It's opulent iteration on the
+technological state-of-the-art image
+generation and editing capabilities.
+That makes sense. I don't know. I still
+prefer nice.
+>> Nice.
+>> Okay. But then on to what I think is
+really cool. It has a new feature where
+you can sketch things out really simply
+and it turns them into reality. Okay.
+So, so look, this would be the example.
+You kind of make these boxes and boom,
+you have a poster for your pottery
+class. Let's try this ourselves right
+here. This one is really fun. All you
+need to do is go into chat GPT can be in
+either chat or work and with at you're
+going to say sketch with this new
+sketching functionality. Look at that. I
+could draw the one thing that I know how
+to draw is I mean veryish.
+Let me know if you can identify this
+character.
+>> Hell yeah.
+>> What's this?
+>> It's an art project.
+>> Okay, I like it. Picassle.
+>> That's Homer Simpson. Hey, golden star
+to you if you manage to actually
+identify it by this drawing.
+>> Make this into a realistic person with
+yellow toned skin.
+>> Make this into a person with yellow
+skin. And based off of our sketch, we
+can make things. Okay, as that
+generates, I also want to show you these
+editing features because if I go on
+here, I could mark things up now. So, if
+I was like, hey, this guy absolutely
+needs a cylinder
+and then we need text across it saying
+good day. Just make those edits. send
+the message.
+Let's see what we get here. Oh, and it
+asked for clarity cuz as if this wasn't
+obviously a red top hat and a good day
+caption on top of the headsh shot. I
+mean, hey, have you never done this
+before, chat? Come on. There it is. He
+has a hat and it says good day. But see,
+this is exactly how it works. And now,
+if I wanted to say, okay, make the hat
+burgundy and add a cigar. I want you to
+pay attention to what he looks like and
+how this flows. We went from this image
+to a corporate headsh shot to whatever
+this is. And now we're making edits.
+It's a continuous flow. If you ever
+tried this preferring chat, you would
+have experienced that, hey, okay, first
+edit it makes and it's pretty good.
+Sure, there's improvements, but the main
+thing is if you tried to continue the
+workflow, whether through language or
+sketching, which is new, this image
+would have abandoned everything that
+happened here along the way. So this
+corporate variation so maybe you would
+have seen him in the brown sweater again
+with the top hat and you'd be like what
+was going on as it wasn't carrying
+forward the context between the images
+now it does that yay can we have a
+little like confetti thing yay there he
+is all the edits in place still looking
+like the same person staying true to his
+original identity let's have a look at
+back at the
+yellow person that was apparently
+it may apparently violate their guard
+rails concerning similarity to for party
+content. This looks too much like Homer
+Simpson. That's what I'm sensing here
+from their guidelines. All right, so I
+did too good of a job of drawing him.
+Let's see what we get. Anyway, I wanted
+to check for this because previously
+they were very strict on their guard
+rails. Let's see where we land here.
+Usually on launch it's a bit more loose
+and then they tighten it up over time.
+Come on. 99%. You can do it.
+>> Come on, Chad.
+>> Just do it.
+>> DO IT. JUST DO IT. WELL, it's refusing
+to do it still. So, I tried regenerating
+a few times. So, let's just try again at
+sketch. Here's my second character. Now,
+this is no particular person.
+It's just sort of I don't know, Mr.
+Worm.
+And he too has a red cylinder inspired
+by a good old Worms game. Anybody
+remember this one? Be such a fun
+multiplayer thing. Guys, I apologize for
+these examples today. I swear we have
+some good stuff. We have a proper
+workflow in the second video. I just
+felt like trying random stuff here, so I
+did. And oh my god, is he made out of
+tooth? Okay, so my hope is you're going
+to use this for something proper. But
+yeah, editing images, amazing tool for
+that. Now, okay. And hey, if you're
+enjoying practical and sometimes
+light-hearted videos like this, make
+sure to subscribe to the channel. I do
+this every week. Now, additionally, if
+you want to find some fun things to do,
+they have this template gallery. Just go
+to images here on the left. And by the
+way, if you see this updated badge, that
+means that well, you have the new 2.5
+version. It's also available for the
+API. I already connected it to my agent.
+Can create things in bulk if I want. But
+there you go. There's a bunch of things
+like this is really the answer to, hey,
+what useful things could I create? Well,
+here's a bunch of ideas. So, all of this
+makes image generation more useful. And
+now, this is clearly the
+state-of-the-art image generator that I
+would recommend to 10 out of 10 people
+really, except maybe if you're looking
+for the artistic look of mid journey.
+It's an option. But the next question is
+really whether AI can take the image and
+continue the job because oftentimes
+creating something is just the first
+step. Okay? And we'll move away from
+these fun examples here in the
+beginning. But usually creating and
+editing an image is just a part of a
+workflow, right? Then you're going to do
+something with the image. That's the
+whole point. Whether it's a headshot
+right here that you're going to upload
+straight to LinkedIn or you're going to
+continue the workflow. So we tested a
+bunch of things and what we found is
+that once you hand the keys to your
+computer to Astra to remote controller
+concretely through the chat GPT desktop
+app that you'll update to the newest
+version and then when you switch over to
+the work tab and then in the model
+switcher you switch over to Astra. And
+by the way I would recommend the medium
+setting. That's really the sweet spot
+between performance and cost. Many
+people have been talking about how high
+or extra high just gets you a few
+percentages more in certain benchmarks
+and use cases and medium is really the
+best bang for the buck. And then here's
+what we did in our testing. We ran a
+bunch of different prompts and this one
+impressed me the most cuz it's like
+using five different apps in the process
+and it just works. So we gave it one
+detailed brief on the workflow. We'll
+put that on screen right now and we'll
+also share this prompt with you for you
+to try this yourself. Additionally, we
+gave it access to the tools it needed.
+Okay. and a clear rule for when to stop,
+what the result should look like. And
+yes, we were logged into Canva and to
+Dropbox along the way for this to work
+in the browser that this piloted. And it
+just moved through the job with five
+different apps. So, what exactly does
+this workflow consist of and what can
+you model? Well, we just started out by
+giving Astra access to the photos folder
+in Dropbox. Literally just two images in
+Dropbox. And in the prompt, we describe
+the poster, what we want as the output.
+As long as you're specific about the
+result you want, or in other words, what
+good looks like to you, then it will be
+able to find a route to get to that
+result with any tools it might have or
+any tabs that you provide to it to work
+within. So then it took it into chat GPT
+in the web and it created this first
+image for the poster. Okay. So the brief
+was create a kite surfing private
+lessons with Eigor type of poster to
+promote it and find the online service
+that can print it and upload the image
+so it's ready for the order to be
+submitted. So as you can see it first
+made the image then it also edited the
+image as I just showed you with the new
+images 2.5 which is really impressive.
+Then it downloaded the image and it
+wasn't done yet. It was like okay this
+is a good starting point but usually
+graphic designers take this stuff and
+they use something like Photoshop or
+Canva. So, in our case, it just moved
+over to Canva and did all the work with
+laying out the poster. I mean, check
+this out. Pretty sweet. Again, reminder,
+this was all one prompt and a permission
+and just hitting enter. All this text
+stays editable, so you can change it
+afterwards. That's the difference
+between a nice image and a useful
+working file. Okay, now it exported the
+whole thing as a print ready PDF and
+found a site that can print these sorts
+of things and uploaded the poster to
+their service. Now we have an 18x 24 in
+poster ready to continue through
+checkout. The whole thing took about
+half an hour including waiting and
+correction. We have not printed this,
+but it was like two clicks away. Heck,
+fun fact, during the production of this,
+we even asked it to stop the screen
+recording once it's done and it opened
+up OBS and clicked stop on that thing
+once the whole workflow was done. It's
+crazy. And it all just worked and we
+didn't need like multiple attempts to
+get it done. kind of put these things in
+and it's just reliable enough for you to
+hand these things off. That's new. And
+think about it. If previously you were
+like, okay, I'll make an image with AI
+and then I have to do something with it,
+then great. Then automated like that
+image making piece. But now it can do
+that and it can use Canva and then do
+the other thing that you wanted to do
+with that result while maintaining
+editability. Like you still have the
+chatb chat where you could change
+things. You still have the Canva file
+where you could make changes. You can
+create these workflows that are
+non-destructive because whatever happens
+along the way, you could revert each
+each step or make changes, which makes
+working with AI so much simpler than
+having to blindly rely on some workflow
+that it just does in the background.
+It's a legit co-orker that you can hire.
+And all of that from one prompt pretty
+impressive. And look, this poster is
+just one example. The reusable idea is a
+job that has to move through several
+tools before it's actually finished.
+We're already trying these sister use
+cases like video production because
+really it can research, it can create
+the brief, it can script, it can
+generate the voice, it can edit the
+video, it can render it, it could do
+final quality control. You could still
+make the creative decisions, but you
+know the rough work is done and you
+would be there to judge the outputs and
+fine-tune it. Another example would be a
+weekly operating review where you pull
+the status or information from one
+application. You pull the financial
+numbers from another and you pull the
+decisions that have been made from your
+own meeting notes and you assemble
+everything into one review with
+priorities, owners, blockers, just a
+once a week report on how things are
+progressing. Guess it's really things
+that up until now you need a project
+manager for and now wow you can really
+piece these things together and have a
+working version. And the key here is
+that it can keep the same job intact
+from beginning to end. So is chatb
+images 2.5 good? Yeah, it can produce
+some excellent first images. Gives you
+more ways to steer it and it holds
+references and edits better than
+anything before. But this combination
+with Astra is one more interesting shift
+because instead of downloading the image
+and starting over in another tool, the
+image can become the first input in a
+larger job. So you can start thinking
+bigger because Astra can carry it across
+multiple apps preserving the objective
+that you initially stated and leave you
+with something you can actually continue
+using or something that gets you an
+actual result rather than AI helping
+with one step of a longer workflow. The
+one thing that I will say is that this
+was not fully autonomous. I needed to
+log into the apps first and give it
+permission once to do all of this. But
+once you do that and figure these
+workflows out, you could schedule them
+to run regularly if that produces value
+to you. And there you go. That is pretty
+much everything I have for you today. Go
+create something amazing and let me know
+what you're doing with this combination
+of images and Astra. My name is Eigor
+Pugani and I hope you have a wonderful
+and productive day.

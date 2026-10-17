@@ -1,0 +1,101 @@
+UP主：OpenAI
+标题：How Fyxer built an AI executive assistant people trust
+链接：https://www.youtube.com/watch?v=uA5PiAXKGis
+
+We've had real customers say to us,
+"This year, I think you've saved me from
+getting a divorce."
+>> [music]
+>> Fixer is an AI assistant for people
+managing clients, colleagues, and
+conversations every day to make sure
+they don't miss anything important.
+>> The divorce guy, he's real and just
+awesome. He's called Mike. He's a
+commercial real estate manager managing
+hundreds of different properties,
+hundreds of different people. And so,
+all day on the road, can't text while
+driving. And so, comes home in the
+evening and has to like catch up on
+emails. And that one to two hours a day
+he's unable to like have proper family
+time.
+>> We want Mike to get to a place that when
+he opens his laptop, the prioritizing
+has already been done for him. It's all
+been read, it's all been sorted, and all
+the stuff that actually needs him is
+right there at the top. Fixer multiplies
+across the team now, meaning everyone
+can collaborate on anything important to
+avoid anything slipping through the
+cracks.
+>> [music]
+>> We've been in this office six months, I
+think. We're all in the same floor
+[music] now. Like, we all have lunch
+together, and it's just like a nice
+vibe.
+>> We already know that ChatGPT is like the
+second biggest AI tool that our
+customers use besides Fixer. I mean,
+their models are obviously just
+state-of-the-art. So, when they release
+a new model, it's really easy to create
+something really good.
+>> This is [music] engineering, where all
+the real work happens. This is Joey,
+Eleonora, David. They work closely with
+OpenAI.
+>> Literally my first day at the company, I
+met with Matt, the CTO, and he was like,
+"Okay, your job is going to be to figure
+out a way to make the drafts that we
+generate for people better." Various
+parts of that flow integrated using
+OpenAI. So, we use OpenAI models for
+everything from digesting the email, so
+we can break down and understand what
+the email is actually about, to pulling
+in and re-ranking the context that we
+want to include. We've had an amazing
+experience working with the team at
+OpenAI. Guessing their thoughts on how
+we can improve our models, how we can
+improve costs, how we can make things
+more efficient, and actually getting
+some of that technical input as well.
+>> [music]
+>> So, with the release of GPT-3,
+it was the moment where I just like got
+exactly the answer back that I expected.
+>> So, my brother called me, and he was
+like, "It's actually working." We'd been
+building an executive [music] assistant
+agency together, but it was OpenAI that
+actually made Fixer possible. It allowed
+us to learn from the 500,000
+[music] hours of EA workflows in just a
+matter of months. And the result of that
+was in our first year we went from zero
+to 30 million in ARR.
+>> [music]
+>> One of the real keys for Fixer
+succeeding as a business and delivering
+a better product than anyone else has
+literally just been about doing hard
+work of learning our customer really
+well. And what OpenAI was then really
+pivotal for us in doing was being able
+to take that learning and successfully
+incorporate it into how the models work.
+>> I can see the white sea mentality is
+absolutely coded into the OpenAI team.
+At any moment, I can drop a question in
+Slack, [music] and I've got an answer
+coming out pretty quickly. I've got what
+feels like a very kind of
+entrepreneurial [music] and dynamic
+team. Honestly, it feels like a
+five-star hotel.

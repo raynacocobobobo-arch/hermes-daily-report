@@ -1,0 +1,111 @@
+UP主：OpenAI
+标题：“A Staff Engineer Collaborator” | Notion’s First Look at GPT-6 Astra
+链接：https://www.youtube.com/watch?v=dtNlpZI86Dk
+
+I think a [music] better metaphor today
+is more like a like a staff engineer
+collaborator. [music] You don't give a
+staff engineer tiny tickets. You give
+them a hard problem that you've tried to
+solve before but couldn't.
+>> All right, Hi Gwen. Thank you so much
+for coming.
+>> Hey, yeah. Thanks for having me.
+>> What have you been working on?
+>> [music]
+>> As of late, it's been a lot of
+how do we make sure that we can both
+give users like great experiences
+[music]
+but also maybe make it hard to like get
+free tokens and other things like that.
+That's been a fun interesting [music]
+growth challenge.
+>> I'm curious to hear what was your first
+impression?
+>> So I mainly used it in Codex [music]
+cuz as an engineer that's where I live
+like most of my time. It was [music]
+much better at communicating. My
+experience with Soul and previous models
+have been that they are very smart. They
+can find [music] very interesting things
+and they're really bad at telling me
+what they found and Astra was so much
+better at like talking like a human to a
+human [music]
+because my main job working with these
+models is to kind of unblock them,
+right? Like giving it tasks and having
+to do tasks for me. Like that was last
+year's like coding approach. This year's
+is much more around giving it a goal and
+[music] helping it like navigate and I
+was spending less time and that the main
+time I'm looking at
+>> [music]
+>> the chat is trying to figure out what
+question is it asking of me and what do
+I need to answer for it?
+>> Yeah.
+>> So closing the loop with the model a lot
+faster. [music]
+>> And that means that like that that time
+I spend actively like working with the
+model is shorter, too.
+>> What's the first like big thing you
+worked on with Astra?
+>> We spend a lot of money on tokens
+and one of the main things that impacts
+that is how good are you at cash reuse,
+right?
+>> [music]
+>> Are we as close to our theoretical max
+as we think we should be? You have a lot
+of like optimizations as well. The very
+first task I gave to Astra was
+>> [music]
+>> here's all the stuff we've done before.
+Here's our current understanding.
+What what did we miss in our last like
+[music] audit of this? Astra just found
+things that were were missed.
+Uh where Soul [music] would be able to
+like dig into something and see a
+pattern, but Astra would be able to like
+kind of like put the dots together
+faster, [music]
+see something that we had overlooked as
+a pattern. But like if you if you
+thought about it, kind of implied that
+something else was happening. [music] It
+was just very very clear with
+communicating here was like the problem.
+Here is [music] the specific scenario.
+>> It's very crisp. Like there's no fluff.
+It's like exactly the way you would have
+written.
+>> Yeah, like I was able to understand
+without rereading it.
+Uh which [music] stood out at least
+compared to a lot of times I've asked
+coding agents to explain what they
+found.
+>> That's awesome. So as we roll out Astra
+now, how would you describe it to your
+Notion teammates as they start using it?
+>> Instead of giving it a task, maybe just
+give it
+uh like top-line [music] goal.
+Maybe I give it a number on a like
+dashboard and say this
+like number just needs one [music] more
+nine.
+And that is like the appropriate scope
+you should be giving these models.
+>> That's awesome. Well, I can't wait to
+see that. [music] And uh
+thank you Quinn for the great feedback
+as always. And we can't wait to see what
+Notion will do next with it.
+>> Yeah, [music] super excited.

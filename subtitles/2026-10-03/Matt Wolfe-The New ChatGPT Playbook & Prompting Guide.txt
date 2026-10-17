@@ -1,0 +1,1122 @@
+UP主：Matt Wolfe
+标题：The New ChatGPT Playbook & Prompting Guide
+链接：https://www.youtube.com/watch?v=MDy_b9F7oUc
+
+In this video, I'm going to share with
+you the ultimate guide to Chat GPT 5.6
+and the updated Chat GPT app that
+combines [music]
+all of OpenAI's offerings into one
+place. I'm going to walk you through the
+features, the how-to, and then get into
+some detailed prompts of some of the
+crazy things you can do with this app
+and model. Let's get into it. Oh, by the
+way, before we get into it, this video
+is sponsored by OpenAI, but I owe it to
+you to be honest and truthful with
+everything I say. I always do that with
+all of my videos. So, everything in this
+video is truthful and my experience and
+also me showing some other things that
+other people have done with it. But, I
+do appreciate OpenAI for agreeing to
+sponsor this one. All right, let's get
+into the good stuff. Let's start with a
+bit of a tour of the new Chat GPT app.
+Because this new app is essentially
+OpenAI taking Chat GPT, taking Codex,
+taking their browser app, and taking
+their new Chat GPT work platform, and
+mashing them all together into one
+product. So, you don't need to switch
+between tools all the time. So, we have
+Chat GPT Codex. You get to it by
+clicking on the little drop-down in the
+top left here. And this is the portion
+of the platform that's for developers.
+This is where you're going to be writing
+code, prompting it to write code,
+reviewing diffs, fixing bugs, exploring
+code, that sort of thing. And then you
+have the new Chat GPT work section of
+the app. This is the section that's for
+like regular people that just want to
+give this tool actions to go do on their
+behalf. This is where you're going to
+have it be like your assistant and have
+it connect to your various tools and
+just go do things. I'll get to some
+examples of what that looks like in just
+a minute here, but let's continue the
+tour for a second because there's some
+other really cool things they've added
+to this platform. You've got sites over
+here. This is OpenAI making it so you
+don't need a million different tools to
+get something online. You don't have to
+deal with web hosting or back-end
+databases or CDNs or anything like that.
+When you're building something like a
+website or an app or a game, you can
+actually tell this new app, send it to
+sites, and it will be live and online,
+and you can share it with anybody.
+Anybody can access it. It is all just
+hosted for you now with this new sites
+feature inside of Chat GPT. Now, there's
+also a browser built-in. If I toggle our
+side panel here, you can see there's a
+link to a browser. If I click into this,
+I can open this window wider, and we
+have a browser where you can go
+anywhere. For example, futuretools.io.
+One thing that's really cool about this
+browser is you've got this annotate
+feature. So, let's say you're working on
+a website inside of the new Chat GPT
+app, you can tell it exactly which
+section you need help with. Like, let's
+say I want to edit this brain here, I
+can select this section and annotate it
+and say, "Let's add more green to this."
+And you can see over in my chat window
+here, it added the one annotation that I
+just gave it. If I was actually working
+with the code for this website, it would
+know exactly what I'm talking about. I
+don't have to give it more context
+because it knows which part of the
+screen and what I want it to do. You can
+also import your cookies and passwords
+from your other browser if you want. So,
+if you're already using something like
+Chrome, you can pull them all over, and
+it will be able to log into those
+websites on your behalf, which is really
+cool, which I'll show you more examples
+of that in a few minutes here, too. But,
+let's continue the tour here cuz there's
+still more to show off. You can create
+scheduled tasks. So, let's say you have
+a prompt that you just want this prompt
+to run every single day or every single
+hour. You can create these scheduled
+tasks that will just run on autopilot.
+Let's say you want it to do something
+like clean your downloads folder. You
+can have it automatically clean your
+downloads folder for you and organize
+things into folders at a regular cadence
+once a day. You can have it create daily
+briefs where it'll read your calendar,
+your unread emails, things like that,
+and give you that brief. You could do
+weekly reviews or follow-up monitor
+where it will watch your emails and let
+you know when you need to follow up with
+somebody. This comes in really handy and
+I have a whole bunch of scheduled tasks
+as you can see. Later in the video,
+those tasks that you're seeing on the
+screen will make more sense of what
+they're actually doing. You've also got
+this chat up here. This is for when you
+just want to ask Chat GPT a question. So
+if I click this chat, it'll open up this
+sidebar chat and this is really handy
+because you can have this sidebar chat
+open while you're coding something else.
+Let's say I'm working on Future Tools
+over here and it's coding up some new
+feature for me. I can be working on the
+code right here while having a separate
+side chat and asking a question to Chat
+GPT over here. And of course, it
+connects to like every app you're going
+to use. You can see what I have it
+connected to right now. If I show you my
+full list, you can see I've got it
+connected to the full suite of Google
+Docs. I've got it connected to GitHub,
+Google Drive, Gmail, Slack, Google
+Calendar, Canva, Figma, Superbase,
+Vercel, Granola, Todoist, and a handful
+of other like little skills and plugins
+that I've installed. But because it's
+connected to so much and because I allow
+it to actually use my computer and
+because I actually gave it access to use
+the browser, it can like do anything on
+my computer that I could do almost. It
+also knows everything about me and my
+business because it sees my Slack
+conversations, it sees my Gmail
+conversations, it sees my Todoist, it
+sees all of my previous chats I've had
+with it, it sees all of my meetings that
+I have on Granola. So it knows
+everything that's going on in my
+business at any time which makes it
+really, really easy to ask it questions
+and get advice on my business because
+it's got so much information about it.
+And again, you can allow it to use your
+computer as well. So if you go into
+settings and computer use, you can allow
+it to use any app for you. You can allow
+it to use Google Chrome. You can also
+let it control the internal browser
+which is really cool when you want it to
+go and like scan Twitter or Instagram or
+something like that for you. All right,
+I think that's pretty much the tour. I
+could keep on sharing features but let's
+actually get our hands on it and dive in
+and show you what it can really do. So,
+I'm going to show off a bunch of prompts
+here. Some of them are going to be
+prompts that I gave the model. Some are
+going to be prompts that I found that
+the community used and created some
+really cool stuff with it. One thing
+you're going to notice when using the
+new ChatGPT app is that sometimes it's
+going to take a bit longer to get the
+outputs, especially on some of these
+more complex and like intense projects
+to show you. So, what I'm going to do is
+I'm going to show you the prompt on the
+screen and then we'll look at and talk
+about the output. I'm not actually
+prompting these in real time as I'm
+recording this, not because I don't know
+what the outcome's going to be, but
+because some of these I would have given
+it a prompt and it might have taken an
+hour to complete. Some of them it might
+have taken only two or three minutes to
+complete. But because of that
+uncertainty around the amount of time it
+took to get these responses, I just went
+ahead and pre-prompted them all. When
+you're using this new ChatGPT app, what
+you'll notice is that sometimes these
+prompts take a little bit longer to give
+you a response because your first prompt
+is sending off little workers to go and
+do all of the other little prompts for
+you and do a bunch of little tasks. So,
+again, because of that, some of these
+take a little bit longer to generate the
+response and give you the output you're
+looking for, but the results are
+typically something way better than
+we've seen from any previous AI models.
+let's check out some of these prompts.
+So, one of the coolest things about the
+new app is the ChatGPT work mode that
+acts kind of like a personal assistant.
+And I've been really, really impressed
+with what it can do. So, I actually
+created a project that's pinned to the
+top of my sidebar here. It's actually
+the top-most pinned project cuz I find
+myself using it the most, but I called
+it my personal assistant project. Now,
+when I created this project, I gave it a
+couple prompts so that it becomes a
+better personal assistant from here on
+out. The first prompt I gave it was to
+create a skill for itself that gives it
+access to everything. So again, I'm not
+going to read this whole prompt, but
+here's what I essentially said. I want
+you to create a skill where every time I
+give a prompt inside of the personal
+assistant project here in ChatGPT, you
+automatically have access to everything.
+You can see my Gmail, calendar, Slack,
+Granola, Google Drive, Second Brain
+files, journals, all of my other
+prompts, projects and chats, my
+memories, what's in my control tower,
+future tools, my Twitter and Instagram
+accounts via the browser, my YouTube
+channel, literally everything. And then
+I essentially told it that when I'm
+prompting the personal assistant, call
+on this skill so my personal assistant
+knows it can access all of that. I also
+gave it instructions that this should be
+read-only, you don't have access to
+write to any of those things, but you
+can read from any of those things. So
+you can see it created a full context
+skill, so it'll proactively retrieve
+relevant context while defaulting to
+read-only. It created a project-wide
+trigger, so requires the skill for every
+new prompt in this personal assistant
+project here. It's got an evolving
+source map, so the source map is
+everything I told it it can access, but
+also it evolves. So if I add new plugins
+or new tools, they get added to the
+source map as well. So now I've got this
+personal assistant project that knows
+literally everything about me that I do
+on my computer. So then the second
+prompt that I give to sort of train my
+personal assistant here is this analyze
+email and chat voice. And this is so
+that when I have it write emails on my
+behalf or Slack messages on my behalf,
+it knows how to write like me. Now, I
+don't give it access to write and then
+send on my behalf, but I do allow it to
+write for me, save things as a draft so
+I can review and modify them a little
+bit and then click send. But here's the
+prompt that I give, essentially just
+saying analyze the messages I've
+authored in my sent email and work chat
+over the last 12 months, exclude
+forwarded material and copied text, and
+then it created an email voice profile
+and a work chat voice profile. And so
+now, when I ask it to draft emails for
+me or draft a Slack message for me, it
+has a voice profile to follow that
+theoretically will sound fairly close to
+me. It's still not perfect. You're still
+probably going to want to reword some
+stuff and take out some of the
+ChatGPT-isms,
+but it gets pretty close. Now, once
+you've got those few things dialed in
+with your personal assistant, you can do
+some pretty cool stuff. So, I'm actually
+working on a book right now that's going
+to be through a traditional publisher. I
+can't talk too much about it, but I had
+my personal assistant create a book
+one-pager for me. And here's the thing,
+since it has access to my previous
+chats, I can go to a previous chat,
+right-click on it, and then say copy
+session ID, and then I can paste those
+session IDs in, and my assistant will
+read those past chats specifically. The
+current working title of the book is The
+New Leverage. That's probably not going
+to be the final title. That's just kind
+of the code name for it now, but I gave
+it this prompt. I've been planning a
+book. I've talked about it in this
+session, this session, and this session.
+Help me put together a one-pager or one
+sheet for this book. I need a one-page
+write-up that sums it all up and pitches
+the idea to people. And because it saw
+my past discussions, it knows everything
+I'm talking about with the book, it
+created a one-sheet for that book. Now,
+I'm blurring most of it cuz I'm still
+dialing it in and working with people on
+it, but uh there's a little teaser right
+there that you can see. The beautiful
+part about this was I didn't have to
+give it a ton of extra context cuz I've
+already had multiple chats about my book
+with ChatGPT. I just pointed my
+assistant back to them and said, "We've
+already talked about this. Go write me
+the one-pager." You can have it help
+build a slide deck for you. This is
+something I actually did recently. I'm
+actually doing a webinar with Teachable
+on July 22nd called Deciding What to
+Automate with AI in your personal and
+work life. I had the outline of the
+presentation. I knew everything I was
+going to talk about, but I really,
+really don't like making slide decks.
+It's like one of my least favorite
+things ever. So, I gave the outline to
+the ChatGPT app along with a brief that
+Teachable wrote up for me, so it knew
+additional context around it and
+basically said, "Make the slide deck for
+me." And it did, and it looks pretty
+decent as well. I'm not going to show
+the entire presentation. I'll save that
+for when I actually do the webinar, but
+it went and grabbed screenshots from my
+actual website, put text on the screen,
+knew the context of everything that I
+was talking about, and built out slides
+to make the presentation look good. Now,
+I did have to go back through and me and
+one of my team members kind of overhaul
+the slides a little bit to make them
+look a little bit better, but this got
+us like 95% of the way there. I know
+this is very, very meta, but I had it
+help me outline this ChatGPT video that
+you're watching right now. Now, I
+changed up the concept quite a bit, and
+a lot of what it found for me I ended up
+using, but a lot of it I didn't end up
+using. But essentially, I asked it for
+50 cool ways to use this new app, and it
+went off and did it for me. But here's
+the coolest portion of it right here.
+This is something that when I prompted
+it, I didn't even know if the app would
+do it or not. So, I was pretty impressed
+when it did. But I said, "Research how
+people have been using it with YouTube,
+X, Instagram, blog posts, etc." I logged
+into both X and Instagram in the ChatGPT
+browser in this app, so you can access
+them to find ideas. Now, it's very
+expensive to use the X API to go and
+search for things for you. But if I go
+and log in on my browser, you can see I
+can go to x.com here, and it's logged in
+as me inside of X here. I can go to
+instagram.com
+here, and you can see it is logged in as
+me inside of Instagram. So, it doesn't
+need to use the API. It just goes and
+logs in and skims these sites looking
+for stuff that it can share. I thought
+that was pretty cool. Now, it gave me
+back this long document of all of these
+ways that people have been using Chat
+GPT, and it gave me a nice little
+starting point. Now, I obviously didn't
+use all of these in this video. I would
+say maybe I used about five of them,
+which I'll get to in a minute. But, it
+hunted down a ton of really, really,
+really cool use cases. I just won't be
+sharing them all cuz then this would be
+like a 2-hour video. I'm actually
+speaking on a panel at Open Sauce this
+week on Friday, and I wanted to feel
+super, super prepared for the panel that
+I'm going to be on. The moderator of the
+panel actually gave us talking points
+and a list of questions the panel was
+going to go in. And in order to prepare
+myself, I gave it this prompt here. Now,
+I'm blurring some of the prompt out cuz
+I did give it some like personal
+information and some details that I
+can't really share. But, the main idea
+of the prompt is that I'm speaking on a
+panel on Friday at Open Sauce. I've been
+provided with details and briefs to
+prepare me for the panel, and then I
+say, "You know a lot about me and what I
+do and what I've built. Everything about
+me is in our past chats, social, second
+brain journals, projects, email, etc.,
+and everything else you have access to."
+Now, you can't see this cuz it's
+blurred, but I do go on to say, "I do
+plan on responding off the cuff and not
+having a bunch of pre-planned answers."
+But, I'm essentially looking for
+reminders of things that I've built,
+things that I've chatted with you about,
+and discussions that you know I've had
+about AI so I have some nice anecdotes
+and stories to tell at the event. And
+then I had it just go and find a whole
+bunch of anecdotes and stories based on
+what I've actually used AI for. And it
+actually created this monster doc. This
+is a 32-page document that it created of
+potential talking points. Now, I know
+not everybody speaks on panels or
+conferences, but you could use this
+technique before going into a board
+meeting at your work or before jumping
+on a meeting to pitch your product or
+your service to somebody else. Like
+having a little bit of a prep doc before
+going into something like this could
+help sort of pre-load some ideas into
+your brain before you go do the thing
+you're going to do. Another really cool
+use of the AI personal assistant here,
+give it a prompt like this. What's on my
+calendar, Slack, and in my email that I
+need to do this week? Are there things
+you can take off my plate for me? Now
+again, I do need to blur a lot of this
+cuz there's some personal details here,
+but it basically told me like what I
+have to do this week. It does say must
+close before Thursday because it knows
+I'm flying out to San Francisco for Open
+Sauce on Thursday. So these tasks need
+to get done in the three days that I
+have this week before I leave. So for
+this one I need to record the A-roll and
+B-roll for a specific sponsor ad I'm
+working on. I did some interviews
+recently. I need to record some intros.
+It's reminding me that on Wednesday I'm
+doing a technical run with Teachable for
+the webinar we're doing. It found some
+items in my To Doist, put my sort of
+itinerary for travel up here. But if I
+scroll down a little bit here, it says
+work already taken off your plate cuz it
+already did a few things for me. Help me
+come up with prompt ideas for the video
+that you're watching. I'll get to some
+of those community prompts in a minute.
+Some of them are really cool. Help me
+create the Teachable slide presentation,
+created an Open Sauce study deck, and
+help me with a one sheet. So these were
+things that were on my task list that my
+ChatGPT personal assistant is basically
+saying, "Look, I already did all these
+for you." And then it goes on to say the
+highest leverage next bundle I can
+handle is. So it's telling me what it
+can take off my plate. Create the reply
+to the book publisher to attach the
+finished one sheet. My bookkeeper asked
+some questions, so organize the 25
+bookkeeping questions into a fast
+decision sheet, add some reminders for
+me. I mean, I'm pretty dialed in for
+this week, so there's not a whole lot
+more I need to do before I leave. But it
+did find a handful of things that it's
+like, "Hey, I can take these off your
+plate for you." All right, so check this
+one out. This one's pretty cool. This is
+this is like a an example. This isn't
+something I'm actually doing, but let's
+say you're in sales and you need to go
+like pitch something and find cold leads
+to pitch to. Here's an example prompt
+that I gave. I want to sell AI
+consulting services to small business in
+San Diego. Find me 20 solid leads that
+can use my help and write up a draft
+email pitching of my services. You can
+read the whole prompt if you want, but
+it says done. I created the complete
+outreach package. 20 research and ranked
+leads, 20 individually personalized
+emails, found all the details for these
+companies here. And then I said, cool,
+create the drafts inside Gmail so I can
+review them. And it said, done. Cuz it
+has access to my Gmail. So now if I
+click open Gmail drafts, check this out.
+It wrote all 20 of these drafts and
+they're all personalized for the company
+that it's sending to. Like different
+subject lines and everything. It plugged
+in their email automatically cuz it
+found that for me and it wrote an email
+that was personalized to them
+specifically. I'm Matt Wolfe, a San
+Diego-based AI educator and creator of
+Future Tools. I help establish local
+businesses use AI to remove repetitive
+coordination while keeping the customer
+relationship and creative decision
+human. It actually gives some
+suggestions of things I can create for
+them and even says if you reply, I'll
+shoot you some workflow ideas and maybe
+we can jump on a call. I mean, it's a
+decent email and it wrote 20 of these
+catered to every single individual
+business. Now all I have to do is review
+each one and click send. Most of them I
+probably don't even need to change very
+much. Now, I don't provide consulting in
+reality. I just thought it was a cool
+demo to show off for people that do. So
+I'm going to go ahead and discard these.
+Now, I'm actually going to blur out the
+response on this one here, but this is a
+fun prompt to give your personal
+assistant that has access to literally
+everything. What do I need to hear right
+now? Easiest prompt in the world, but
+because it's looking at all of your
+emails, all of your slacks, all of maybe
+your granola meetings, all like all that
+stuff, it probably knows what you're
+overwhelmed with, what you're good at,
+what you're not good at, what other
+people are doing for for and it can use
+all of that information to give you a
+nice little piece of advice of what you
+need to hear right now. And it's pretty
+good. All right, that's my personal
+assistant. As you can see, I do use it
+quite a bit. But this ChatGPT work mode
+can do even more than that. You can give
+it access to folders on your computer
+and have it do things in those folders.
+So, for example, I've used this example
+in the past with other agent type tools.
+But maybe this is the first time you've
+seen one of my videos, so let's do it
+again. I can come up here to new task
+and I can tell it to clean up my
+downloads folder for me and organize my
+files into the existing folders there.
+So, if I open my downloads folder, you
+can see I have a whole bunch of stuff in
+here that just sort of accumulates over
+time. And then down at the bottom, I
+have a bunch of folders that I've
+created in the past to sort of sort
+things into. So, if I tell this, "Clean
+up my downloads folder for me and it
+organize my files into the existing
+folders there." And submit it. I don't
+even need this on extra high. Let's
+bring this down to to sole medium.
+Submit that. We can see here it says, "I
+found clean existing category
+structure." So, it found these folders
+that I've already got there. And just
+like that, it cleaned them all up. It's
+been about a minute and 11 seconds
+total. And it moved everything into the
+proper folders already. And there we go.
+Minute and 23 seconds total. Organized
+65 loose files into existing folders.
+Another cool thing I'd like to do with
+this ChatGPT work feature is So, I've
+got this folder on my computer with a
+bunch of thumbnails in it, but the
+titles are all just thumbnail 1 2 3 etc.
+That's not very helpful to know what's
+going on in these thumbnails here
+without me just like clicking through
+and looking into each one individually.
+So, if I right click here and copy the
+path name to this folder, let me create
+a new task up here and then say, "In
+this folder." And then link to my
+thumbnails folder here. "Look at all of
+the images and title them based on the
+content of the image." It will go
+through, look at each image, detect
+what's in the image, and then rename the
+file based on what it sees. Not the most
+elegant prompt in the world, but it will
+work. Check this out. There's 21
+thumbnails, all standard. I'm reviewing
+them in labeled batches. The final file
+names reflect both the visible subject
+and any prominent on image text. And I
+can actually see it happening in real
+time there. It just renamed everything
+here. Who will win? If I look at what
+this image looks like, who will win?
+This is the new oil. This is the new
+oil. So, it's titling them based on what
+text is in the image. So, now it's much
+easier for me to click through these
+thumbnails and get exactly what I'm
+looking for. And that whole process took
+1 minute and 19 seconds to do 21 images.
+So, if you have a giant folder of, let's
+say, screenshots or YouTube thumbnails
+or images that you downloaded on the
+internet that are like a stock image
+folder, you can have it go through and
+quickly rename everything so you can
+easily find exactly what you're looking
+for in the future. All right. Now, let's
+switch from ChatGPT work over to Codex.
+Again, work is like your personal
+assistant to do little tasks for you and
+to, you know, manipulate things on your
+computer and use your tools for you and
+things like that. Codex is where we
+start actually writing code. Now, if
+you're in work mode, a lot of times it
+will write code to accomplish the tasks
+for you, but Codex is specifically
+designed for when you're in developer
+mode. And one of the best parts about
+the launch of the new ChatGPT app with
+Codex was that we also got these new 5.6
+models that are really, really good. 5.6
+Soul Ultra, I've had it work on tasks
+for 18 hours straight and build entire
+projects for me. So, when I start
+showing off some of this stuff in Codex,
+it's kind of a combination of what Codex
+can do, but it's also a result of these
+really good new 5.6 models. And one
+thing these new models are really good
+at is building websites. It's getting
+harder and harder to like immediately
+tell that AI built a website cuz they're
+looking less and less vibe Cody as time
+goes on. So, I gave it this prompt,
+recreate the website for Craigslist
+without duplicating it. The idea and
+functionality should be the same, but
+let's put our own unique spin on it.
+Reimagine it to improve UI UX. Now, I
+did say save it to sites so I can demo
+it every once in a while. It still
+doesn't totally do what you ask and you
+got to kind of, you know, nudge it a
+little bit, right? So, like it built it
+on my local host here. You can see it's
+showing that IP address for a local
+host, but I wanted it to show up on
+their sites platform so they host it for
+me. So, I gave it a little nudge down
+here and said you were supposed to
+publish it on sites. But, that little
+nudge was all it took and it built this
+website that it calls Cornerpost. It
+built it so it's only San Diego, so it
+didn't go and build it out for like
+nationwide, but I'm sure if you were to
+put it on Soul 5.6 Ultra, I'd say build
+it out nationwide, it would work for
+like 3 days and build it out nationwide
+for you. But, it did put a bunch of
+sample stuff in here. Like if I click in
+housing, you can see there's a sunlit
+studio near the park here. If I click
+into for sale, there's bikes and chairs
+and vintage turntables and if I click
+into events, there's events. If I heart
+this, you can see I can click on the
+heart and see the various things that
+I've, you know, favorited already. I
+mean, it's really just kind of a
+cleaner, simpler version of Craigslist.
+Obviously, nowhere near the depth. It
+doesn't have all the cities and there's
+no sort of like submission forms. It's
+sort of a proof of concept, but
+honestly, this design does not look like
+a vibe coded design to me. Most vibe
+coded websites have a look and this
+doesn't meet that look, in my opinion.
+This guy, Sunny Lazardi here, built a
+new landing page for his Compressor
+website. And again, in my opinion, it
+looks really good. It looks clean. It
+does not look like a vibe coded site. I
+wanted to test building games. So, in my
+previous news video where I announced
+the launch of 5.6, I built Soul Bonk,
+which is one of my tests I like to do
+where we see how well it can clone the
+game Mega Bonk. And well, I mean, it
+actually did a pretty dang good job.
+This is the game that it developed. But,
+this isn't an original game. This is
+just kind of taking somebody else's
+concept and modeling it. So, for today,
+I wanted to test something completely
+unique. And here's the prompt. Uh feel
+free to pause it and review it, but this
+is a very, very different game. This is
+kind of a concept that hasn't been seen
+before called Echo Garden. And once
+again, I had it save it to sites. And if
+I open this game, it's a very different
+type of game. So, I've got my character
+here that has a little laser, and I go
+into the memory bed, and I can point the
+laser at the seed. And then, what ends
+up happening is after a certain amount
+of time, a clone comes in. And then,
+when the clone copies what I did, it
+will open up a bridge so I can get
+across. And you have to do things and
+get your clone to follow to beat the
+level. But, over time, more and more
+clones build up, and you need to
+leverage different clones doing
+different things to solve the puzzle.
+It's kind of a really fun concept. Um
+you can see the URL on the screen, but
+I'll link to it. You can see I'll point
+my laser to this little thing here. It
+doesn't do anything yet, but then I need
+to get my clone to go do the same thing.
+It opens up my bridge, and I come across
+and beat the level. But, then the levels
+start to get more complicated. I need my
+clone to open up this one, and then it
+needs to go and stand on this other bed
+and open up this one. So, here comes my
+second clone. It opens up the bridge. I
+can come across here, and the bridge
+isn't going to open until another clone
+is touching this one. So, I need two
+clones, one touching this one, one
+touching this one for it to actually
+open for me. And the puzzles get harder
+and harder, and it's just like a really
+fun game. Now, there's only I think six
+levels built out, but I can see this
+game being something I further develop
+out because I love puzzle games like
+this. If you do video work, this new
+chat GPT model is actually really,
+really good at doing video stuff for you
+as well. This was originally translated
+from Japanese here, so I'm not going to
+even attempt to pronounce this, but this
+person managed to have GPT 5.6 create an
+entire video for them. It planned the
+script, created the characters and
+images, created the storyboard,
+generated the videos with Seed Dance
+2.0, created the subtitles, created any
+sort of screen effects, and then edited
+it and finalized the whole thing
+together to create a whole video from a
+single prompt here. That one's pretty
+cool, but this one here is even more
+next level. This is Nate Herk, who I
+actually recently did a live interview
+with over on his channel, but he had AI
+make an entire talking head video. Now,
+this video that you're seeing, all the
+graphics on the screen, him talking on
+the side, everything was done with AI.
+He actually made a whole YouTube video
+breaking down how he did this, and we'll
+make sure it's linked below in the
+description if you want to see the
+step-by-step for that, but check this
+out real quick. Let's just take a little
+like teaser sneak peek, and remember,
+when you're watching this, all of his
+avatar talking, the whole script, all of
+the visuals, all of the editing,
+literally from giving it the prompt to
+this final video was all AI.
+>> Okay, so you're looking at Nate, and
+you're hearing Nate, but Nate never
+stood in front of a camera for this. He
+didn't record this narration, and he
+never opened the editor. He gave me one
+prompt. That's it. I'm GPT 5.6 Soul
+running inside Codex on Ultra, and I
+controlled the workflow that created
+every word, cut, motion graphic, and
+quality check you're about to see.
+>> Okay, I'm going to stop it there cuz I
+don't want to like ruin the whole video.
+You got to go check it out on Nate's
+channel, but he does break down the
+whole thing of how he made this video.
+And literally, he gave GPT 5.6 a prompt,
+access to HeyGen to create the avatar,
+access to HyperFrames to create the
+visuals, and it just went and built and
+edited the whole video together. You can
+actually control Blender through the new
+GPT model. So, Eva here says, "Here's
+GPT 5 Soul making a cannon in Blender."
+But, this video is not sped up. This is
+at 2x speed. So, here's the video. You
+can see Blender actually building out
+this entire cannon here, and GPT 5.6
+Soul is the one who's writing the code
+and telling Blender what to do via the
+MCP server. Like, this is
+pretty mind-blowing. This is getting
+really, really crazy. And I actually
+thought she was using the MCP server,
+but no, she was using 5.6 Soul Ultra in
+fast mode with the graphical user
+interface only, no MCP. She actually
+used the CUA, or computer use agent. So,
+this was GPT 5.6 taking over the
+computer and going and moving all the
+things around in Blender for her. That
+is absolutely wild, and I didn't even
+realize that context until I was
+recording this video. I thought it was
+MCP until now. So, just insane what
+people are doing with this stuff. David
+here built a Game Boy emulator for New
+York City that streams real-time city
+data, subway, weather, ferries, etc.,
+all layered on a 3D map of New York
+City. All the data exists in spatial
+intelligence layer that agents can use
+to experience your favorite place in the
+city. So, taking a closer look at this,
+you can see the full city, and it's got
+like the controller, and and as he uses
+the controllers, you can see that he's
+like using his fingers to steer his way
+around New York City and see real-time
+flight data, real-time traffic,
+everything going on in New York. Like,
+dude, that's crazy. This person on
+Reddit here said they challenged GPT 5.6
+Soul, and it completed the challenge in
+literally 5 minutes. Here was their
+prompt. "I want to test your
+capabilities. Build me a website that
+has a 3D interactive replica of Central
+London. Use whatever stack you think is
+best. Show me what you can do." And they
+have this 3D map of London. I'm
+wondering if this pulled in from Google
+Maps or something else. I'm actually not
+sure like what API it connected to to
+get this, but it looks really good and
+they have like an interactive map of
+London now. Like that's pretty sweet. It
+is pretty impressive, but I do think it
+just pulled in from an existing API from
+somewhere else that this map was
+probably already created. I don't know
+for sure. So, looking in the Reddit
+comments, it looks like it uses MapLibre
+GL JSQ and open free map vector tiles.
+So, it found some existing libraries and
+it just like pulled them together to
+make this. This one on the other hand
+from Matt Schumer, he built a
+voxel-based Manhattan and he said it
+took almost a week completely
+autonomously. So, he gave it the prompt
+and it went and built this voxel-based
+Manhattan here that has tons of detail
+that you can zoom in on. And this does
+not appear to have used an existing like
+API or library that already exists. It
+actually built it all, which just
+insane. I mean, it makes sense when you
+realize it took a week of AI just
+chugging along cranking out tokens to
+build it, but it is really, really
+impressive nonetheless. And of course,
+since I've been playing with these tools
+for a couple weeks now, I've built what
+I think is some pretty impressive stuff,
+too. For example, I've completely
+overhauled the Future Tools website. The
+top 20 AI tools section here is actually
+voted on by the community and you can
+see tools move up and down throughout
+the day based on community voting on
+these tools. And the tools that end up
+getting the most upvotes in a day end up
+on the homepage here. I actually built
+an entire recommendation algorithm. So,
+if you look at any one tool and you
+scroll down to similar AI tools, this is
+actually a super, super sophisticated
+recommendation algorithm based on like
+tools that you're looking at and similar
+tools to the description here and no
+longer just based on like, oh, it has
+overlapping categories. It's it's quite
+insane, and it took 18 hours to develop
+the code for it. I also built BuseyBench
+with these tools, which is a benchmark
+to see how good new AI models are at
+generating SVG images of Gary Busey,
+just because it's fun and
+pointless and useless, but actually kind
+of not useless. I don't know. It's
+actually kind of cool, cuz you can see
+by going to the timeline how far some of
+these models have come. For instance, if
+I go to OpenAI here, you can see this is
+GPT-3.5 Turbo back in 2023, and you can
+see the evolution of how much better
+they got at drawing faces all the way up
+through what they're drawing today. And
+then there's a leaderboard that's built
+that uses LLM as a judge, and then for
+tiebreakers, it actually puts two images
+side by side, and different LLMs vote on
+which one looks more like Gary Busey to
+break the tie. And you can see GPT-5.6
+and Seoul are in the top two spots at
+the moment. So, they're also winning the
+BuseyBench. But probably my favorite
+thing that I built recently is something
+I built just for myself, and I call it
+the Wolf Control Tower. Actually, GPT
+named it the Wolf Control Tower, and I
+just stuck with it. But this is my
+business dashboard. It gives me this
+today panel where it brings up any new
+news as it happens from any of the big
+AI labs. So, at any moment, I can check
+in here and see what the sort of
+discourse is, and what the latest sort
+of big ideas are happening in AI. And
+you can see like, here's where it's
+detecting news from. It's this giant
+list here. Anthropic, OpenAI, Alibaba,
+AMD, Apple, Black Forest Labs,
+ByteDance, Character AI, Deep Seek,
+Eleven Labs, Google, Google, all of
+these sources here. It's watching for
+new news on, and then pulling it in when
+anything gets announced. The tool is
+also subscribed to a whole bunch of
+newsletters, and it keeps track on what
+newsletters are talking about and what
+news they find. It's got a brand page
+here, which I'm I've cleared it all up,
+but there's an archive of 101 that it's
+found. This is like a Google Alerts.
+Whenever my name or BusyBench or Future
+Tools or Mr. E Flow or any of my handles
+are mentioned anywhere online, it pulls
+that news in here, so I can go review it
+and see what people are saying. I have a
+page that's constantly keeping an eye on
+the traffic of my various websites,
+Future Tools, BusyBench, and
+mattwolf.com. And I have an audience
+tab, which is watching all of my social
+media accounts and telling me my stats
+on literally every platform and how my
+growth is looking on those platforms.
+And I can see week-over-week growth
+numbers across everything here. This
+thing, I'm like logged in and looking at
+stats and understanding the news and
+what's going on all day long. It's
+probably my favorite thing I've built,
+and it's something I just built for me.
+>> [laughter]
+>> But, I think that's one of the coolest
+things about AI right now is when you
+find little things in your business that
+you can solve with AI, you could just
+build them for yourself. You don't need
+to go and subscribe to monthly SaaS
+products or go and hire developers to
+build the stuff for you. You just go to
+something like Codex with the GPT 5.6
+model and say, "Here's something I'm
+trying to solve in my business. Can you
+build the solution for me?" And it'll
+just go build it. You don't need to sell
+it. You don't need to turn it into a
+business. You could just have your own
+little bespoke apps that you need for
+yourself. And I just love that about
+what we can do with these AI models
+right now. Like, that's the thing I'm
+most excited about. It lights me up the
+most right now is like just going and
+building these little things that solve
+my problems. Like, here's another
+really, really stupid simple one that I
+built today. When I record videos, I
+like to hide my dock, right? I like to
+have this feature where my dock
+disappears and it only shows up when I
+move my mouse down to the bottom. But,
+when I'm not recording, I want my dock
+to always be there. So, I always have to
+come up to the Apple. I have to go to
+system settings, I have to go to desktop
+and dock, and I have to toggle
+automatically hide and show dock all the
+time. When I'm recording, I turn this
+on. When I'm not recording, I turn it
+off. I was kind of getting annoyed doing
+that. So, I basically asked Codex, "Can
+we make a little app that does that for
+me?" And it went and made an app, and
+I've got this little Stream Deck thing
+here that you can see. Like, this is my
+Stream Deck. It's got a whole bunch of
+macro buttons on it. I took this little
+app that it built here called Dock
+Toggle, and I dragged this button that
+it created for me over onto my Stream
+Deck. And now, whenever I press this
+button, I can hide my dock, and I can
+show my dock, all with a Stream Deck
+button without having to go into my
+settings anymore. It's really, really
+dumb. It's really simple, but it saves
+me like three button clicks and 5
+seconds of my life every time I'm about
+to go into video mode. And I just love
+little stuff like that. It's so much fun
+to me. Anyway, that's what I got for you
+today. I know this video is probably a
+little bit longer, but I get really,
+really nerding out about this stuff.
+Like, I love the GPT-5.6 models. I'm not
+just saying that because OpenAI
+sponsored this video. You want proof of
+that? Here's your proof. I've used 6.8
+billion tokens on Codex. On this day
+alone, on July 11th, I used 1.3 billion.
+On July 13th, I used 2 billion tokens. I
+am using this tool every day and
+building stuff and just constantly,
+constantly creating. I absolutely love
+building inside of Codex, and I love
+using these new models, and I just
+constantly keep finding new things that
+I can go make with them. And I have not
+had more fun with AI than I've had in
+the last couple weeks since these models
+and this app came out, and that is the
+honest truth. I'm absolutely having a
+blast just building and creating, and
+literally anything that pops into my
+head, I feel like I can build now, and
+that is so exciting to me. So, hopefully
+you enjoyed this video. Hopefully you
+learned something, you have some new
+ideas, new prompts, new things you can
+go and test. Thank you so much to OpenAI
+for sponsoring this one. I really,
+really appreciate you guys doing that.
+If you like videos like this and you
+want deep dives on how to use various
+tools in the AI world, and you want to
+keep up with all the latest AI news, I
+also make AI news breakdowns every
+Friday. Maybe consider liking this video
+and subscribing to this channel. It will
+make sure more stuff like this shows up
+in your YouTube feed. You'll always be
+looped in with the latest AI news and
+tools, and you'll know how to use it and
+do some cool stuff with it. Again,
+thanks so much for hanging out and
+nerding out with me. I really, really
+appreciate you, and hopefully, I'll see
+you in the next one. Bye-bye.

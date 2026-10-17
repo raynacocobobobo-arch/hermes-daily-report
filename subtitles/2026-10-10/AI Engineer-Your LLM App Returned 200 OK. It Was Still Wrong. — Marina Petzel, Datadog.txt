@@ -1,0 +1,411 @@
+UP主：AI Engineer
+标题：Your LLM App Returned 200 OK. It Was Still Wrong. — Marina Petzel, Datadog
+链接：https://www.youtube.com/watch?v=rTojoVotlD8
+
+[music]
+>> Hello everyone. Thank you for joining me
+today.
+It's time to begin.
+And for years, many of us monitored our
+applications with the golden signals,
+which is was latency, error, traffic,
+and saturation. And shortly we call them
+lads.
+And they were and still they are and
+will be remain sufficient and critical
+for determine the health of our
+applications.
+However, today when we enter the new era
+era of generative AI, it's becoming not
+enough. And today we going to talk about
+what are the new metrics we need to look
+if we want to build the healthy gen AI
+application.
+Very shortly, my name is Marina Petzel.
+I am gen AI advocate here in DataDog.
+And today
+I will walk you through the metrics that
+we need to look for.
+So, when we talk about traditional
+applications,
+the main specific of them is that the
+same input always yield the same output,
+right? It's predictable. But with
+generative AI applications, we all know
+that the same prompt can generate
+different responses every time we run
+it. And which means we cannot rely on
+the standard regression testing alone.
+And you must constantly evaluate quality
+in the live environment.
+The second difference between
+traditional applications and gen AI
+applications, it's variable cost
+structure. Traditional compute cost are
+predictable, right? We pay for machine
+that is running our code. But for gen
+AI, this this is dynamic variable here.
+They might They vary from the number of
+tokens, the model that we are using, or
+the size of the context window that you
+have. And it's become essential to do
+the real-time
+granular course cost to prevent the
+spending out of control.
+The third problem is that we face the
+new attack vectors. We used to worry
+about SQL injection or cross-site
+scripting before, but today we must
+defend against the prompt injection,
+jailbreaking, or PII outage in our
+output. And that's becoming a big
+problem, and this are security issue,
+not a simple 500 error code can will
+never catch, and demanded entirely new
+forms of security monitoring.
+And finally, quality is very subjective
+for GenAI applications. The traditional
+systems either work or do not work,
+right? But
+generative AI output is judged on the
+spectrum. Is it relevant? Is it
+accurate? Is it complete or not? And the
+problem is that 200 okay response from
+your server doesn't necessarily mean
+that the answer was helpful or correct
+for your final user. And we must now
+integrate the continuous
+quality evaluation
+directly in your monitoring stack.
+And at the beginning we all were
+thinking that these golden signals will
+be enough for our systems, but
+unfortunately they are not. Traditional
+metrics will tell you if your system is
+up and running,
+but it won't tell you how well it's
+running.
+And established metrics lets will be
+still essential, but we going to talk
+about what else on addition to that we
+need to implement into our systems?
+And first I want to start with the cost
+monitoring.
+How we can track the spending before it
+uh spirals out of control?
+And I think we all know the financial
+implications of GenAI, and a lot of
+companies are facing the huge outage of
+the uh cost per their monthly usage. And
+while the same is true as for
+traditional applications, there were
+more linear scale between the throughput
+and the uh the cost. If the user loads
+um load goes up, our resources uh usage
+goes up, and sequentially the cost goes
+up. But the cost structure for LLM is
+highly dynamic and unpredictable, which
+means we can we don't have this
+visibility, and we need to really pay
+attention how we track that.
+And what are the problems you might
+encounter with the cost?
+And here we talk about the three major
+way for cost tracking, uh and so you can
+track them
+um to prevent the cost outage. So, the
+first is a token creep.
+Uh this happens when engineers or
+product managers trying to improve the
+quality quietly increasing the context
+window.
+And let's say the context window was
+4,000 tokens, and then it's like blow to
+132
+without any financial review. And what
+it can cost like the the cost is depends
+very uh significantly to the context
+count, and that might result up to eight
+x cost increased. And
+and a month it might cost you thousands
+of dollars.
+Second is the model drift. Uh that is
+also the pretty typical problem when the
+team switches from cheaper and faster
+model, like let's say Hi Cool 4.5, to
+the more powerful and more expensive
+model, like Opus 4.8.
+And which promise you obviously the
+better quality. But at the same time,
+Opus, for example,
+uh can be higher 15 times higher uh per
+the cost request.
+And this change in model, even with the
+same usage volume,
+might blow your cost significantly
+within a month, too.
+And finally, it's on hash code.
+In generative AI, the same query can hit
+the API repeatedly if you haven't
+implemented the effective caching layer.
+And what you will see from um our
+uh own research that 70% of the spend
+sometimes are redundant because the
+system is paying for exactly the same
+expensive model completion uh over and
+over again.
+And with this granular visibility into
+these three layers, you would be able to
+escalate your cost rapidly. And now,
+let's talk about how you can prevent
+that and get more granular data.
+And when we um
+talk about that, we
+uh try to think about the implementation
+of cost attribution strategy, which is
+you must tag absolutely everything.
+For example, uh tagging uh can help you
+to uh Why it's important, right? You
+receive a lot of uh interactions with
+your agents, and but all of these uh
+interactions are undifferentiated. You
+don't know what's blow your actual cost.
+That is why
+first layer what you can implement is
+the feature level level. By tagging the
+intention of the feature, like it was a
+chat or summarization, you can attribute
+the cost for the specific product areas.
+And this data is crucial not only for
+engineering your cost management, but
+also for the product road map decisions,
+like knowing which features are actually
+the budget hawks.
+The second level is the use user level.
+Using the tags like the user ID or your
+org name is essential for chargebacks,
+accurate billing, but also quickly
+identify by the patterns of abusive
+usage before they drain your budget.
+Third is the model level. Also tag your
+models like GPT-5.5
+or the provider, OpenAI or Tropic.
+It will give you visibility into the
+high-level areas of cost optimization.
+And you can benchmark the true expenses
+of using one model versus another.
+And the finally,
+endpoint level tagging.
+Attributing cost to regions or to your
+production or like to your environment
+like production or staging helps your
+infrastructure planning. And you can see
+how regional distribution or staging
+versus production environment can impact
+your total spend. And by making this
+tagging mandatory practice, you gain the
+essential visibility to understand
+exactly where your money is going and
+how important
+to control it.
+Well, but now let's talk if like let's
+let's imagine that we handle all the
+cost issues, right? We took that under
+control.
+And your finance
+team is obviously get very happy, but
+the next one
+problem is the safety. And your AI can
+be cheap, but still leak some of the
+sensitive or personal information, which
+is not great.
+And even though like your let scores can
+be perfect,
+it cannot tell you if there are some
+metrics went wrong. So, what we can
+track here in the safety metrics to
+First is the prompt injection rate,
+which has become the very crucial
+problem. This metrics detects the
+manipulation attempts into your user
+prompts. There are It's infrastructure
+If the infrastructure design doesn't
+have any guardrails.
+And this can be um
+prevent by using some advanced
+techniques like a pattern matching or
+specialized classifier models.
+And for this, we usually need to target
+for very aggressive thresholds.
+The second is PII detection rate.
+Um
+PII So, which is a crucial and zero
+tolerance issue here. We can scan all
+the model outputs for sensitive data
+like social security, like credit cards,
+or personal information. And you can use
+some
+um methods like regex or
+named entity recognition here. And only
+acceptable target should be 0% of your
+production outputs.
+The third is the content moderation
+score.
+How you can determine if your content is
+toxic, harmful, or biased uh towards
+some of the topics.
+And by running all outputs through
+toxicity classifier can give give you a
+scores uh how what is the risk of your
+output for being exposed to this uh
+toxic uh
+output. And this allows you to set some
+clear thresholds, and we always target
+to uh
+minimize that as much as we can.
+And then finally,
+the jailbreak attempts.
+And there are persistent attempts by
+users to bypass the safety guardrails
+and often
+um
+through the elaborate scenarios. And
+tracking tracking patterns to indicate
+the system prompt overrides,
+you should design and become so it
+become the absolute blocker for you. So,
+ideally, we should block all the 100% of
+the attempts of that.
+Now, let's imagine that cost is checked,
+security is checked,
+but now you arrive to arguably the most
+crucial
+dimension and the quality monitor that
+at least the most crucial for our final
+users.
+And even though your let's metrics
+showing that your service is up and
+running and running, your cost and
+safety tells you that
+your service is budget compliant and
+also secure, but ultimately for any
+application, but more for generative
+application, it's whenever output is
+good. But
+we all know that 200 okay response from
+your server sometimes can be a lie
+if the answer is hallucination.
+And I'm sure many of you got some
+response from modern AI applications,
+right? But like we know that it's can
+confidently by like but lie to you.
+And now let's understand what type of
+metrics you can apply implement to your
+application right now to prevent it from
+being
+unsafe for your final user.
+We recommend to focus on these five
+metrics. One of them is hallucination
+rate.
+Um, this measures the percentage of
+respondent contain claims unsupported by
+the grounded data.
+Um, we need to mix that with the manual
+review as well as with automated fact
+checks to achieve the aggressive targets
+here, too.
+The final The next one is the relevance
+scores,
+which helps you to understand if the
+response actually address the user
+question. Um, that techniques like that
+you can use here is similarity using
+bird or embedding similarity that can
+score you
+um,
+how relevant is the final answer was to
+the user.
+The next one is user satisfaction,
+which directly falls into your end user.
+Uh, you must implement You can implement
+some mechanisms like thumbs up, thumbs
+down, or some of the stars ranking, and
+also NPS scores um,
+to capture the subjective data, but also
+you should target that you get
+more than 80 85% of the positive
+feedback, at least.
+Next one is the answer completeness, and
+this metric is often evaluated by LLM as
+a judge, answering whenever the response
+was fully or holistically addressed
+um, the user intent.
+Um, and final one, the fifth one, um,
+if you are using rag, retrieval
+augmented generation system, you should
+always track the quality of your rag.
+What's if all the documents that were
+fetched were relevant to the user query?
+And here you have a lot of metrics and
+mechanisms how you can calculate that.
+For example, top K accuracy or
+normalized discounted gains, and that is
+uh, essential to track because whenever
+like you contacts is explode is getting
+harder and harder to pick the most
+relevant one.
+And by implementing this metrics, you
+can gain
+some understanding of like more
+dimensional view of the quality that
+necessary
+you need to optimize to improve your
+journey application.
+Well, and now let's summarize um
+what we need to implement to make sure
+that our journey application is healthy,
+right? We are not saying that we need to
+get rid of traditional understanding. We
+always need to look into our metrics,
+lay let's latency error traffic and
+saturation, but also on top of that, we
+need to put another layer. Layer of
+which is more relevant to generative
+applications. And in this case, we
+talked about the cost, safety, and also
+quality.
+And I know that for us as an engineer is
+becoming more and more critical right
+now to track it all not be don't need
+just build application and make sure
+that it's running in production, but now
+we also need to care about additional
+layer of complexity. And thankfully,
+Datadog has your back here since we are
+working in observability and monitoring
+space for for really long time. So, we
+do have our agent observability
+uh product which allows you to quickly
+and easy understand if your AI
+application is healthy, if it's running,
+or there is any problem that you need to
+fix.
+And we do have a lot of different way
+things that you can track inside of
+that. And um if you want to hear more
+about that, please feel free to see me
+afterwards. We also do have the booth
+here
+uh which you can check it out. We do
+have a really good
+um
+offers for you if you want to just try
+it out and see how agent observability
+can help your application. We have some
+QR codes for the free trials. And with
+that, I want to thank everyone. Again,
+my name is Marina Betzel. If you want to
+contact me, please feel free to
+use this QR code. And yeah, thank you
+for being here today.
+>> [music]

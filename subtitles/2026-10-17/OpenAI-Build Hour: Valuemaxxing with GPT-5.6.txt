@@ -1,0 +1,1453 @@
+UP主：OpenAI
+标题：Build Hour: Valuemaxxing with GPT-5.6
+链接：https://www.youtube.com/watch?v=jyuyY86GJnA
+
+Hi everyone, welcome back to OpenAI
+Build Hours. I'm Christine on the
+startup marketing team and today I'm
+here with Charlie.
+>> Hi, I'm Charlie from the developer
+experience team.
+>> So today our topic is going to be about
+value maxing with GPT-3.5.
+So next slide. If this is your first
+time with us, uh the whole purpose of
+Build Hours is to empower you with the
+best practices, tools, and AI expertise
+to scale your company using OpenAI APIs
+and models. Uh down below is our
+homepage. So we're constantly posting
+new sessions as they come up. Feel free
+to check back and you can also catch up
+on demand. We also post all of these
+sessions on YouTube um on the day of. So
+check back later in case you want to
+review anything that we're chatting
+about today.
+So we've traditionally started every
+Build Hour with a meme and we're back.
+Uh so if we have any Office fans around,
+um this is really about just getting
+more value per token um and Charlie's
+going to walk you through uh some tips
+and tricks on how to do this.
+So this is our first Build Hour after
+GPT-3.5 release. Um so right after we
+released this model, we asked everyone
+on X kind of why they love this model um
+and we were really just like humbled and
+and also like taken away by all the
+reasons that people submitted. And I
+think a common theme that we saw was
+just how token efficient this model is
+particularly in just having you guys get
+the most bang for per token. Um and
+recently actually, I think this is two
+days ago on X, uh we reached a new
+milestone. Um so we're we're really
+happy to see that this is resonating
+with people um and that this new model
+um
+is is letting people do more with with
+less tokens.
+So to give you a snapshot of what we're
+talking about today, the first is we're
+going to explain this shift that's gone
+from token maxing to value maxing.
+Um we're going to show you value maxing
+in Code X and then also value maxing
+your harness. And then I'm really
+excited that we will have Floy, um one
+of our favorite startups uh join today
+to chat about how they've actually
+migrated their AI agent over.
+And last but not least is Q&A. Um so on
+the right side of your screen, if you
+toggle over to the Q&A button, you can
+actually submit questions and our team
+will be in the room um answering them on
+chat and then also selecting a few to
+answer live towards the end. And we'll
+have our friends from Floy also join. So
+feel free to ask any questions um
+and we're really excited to kick this
+off. So over to you, Charlie.
+>> Thanks so much, Christine. Um thanks
+everybody for joining. So excited to be
+here. Uh
+I want to talk about value maxing, but
+I'm sure there's you know a lot of
+questions about what what is that,
+right? And I think you can't quite
+explain what it is without first
+starting with token maxing. Um and I
+think token maxing is a term that that
+emerged, you know, earlier in this year.
+Um and to kind of encapsulate it, right?
+It was essentially this this idea of
+measuring progress by how much AI you're
+using. I think that might be how many
+tokens you're burning, how many prompts
+you're sending, how many agents you're
+managing at the same time. And I think
+we even saw companies that had stood up
+internal leaderboards to just track, you
+know, how many tokens their employees
+were using day over day or week over
+week.
+Later on in the year though, I think
+some of that sentiment started to
+change, right? Uh we started to see uh
+you know, companies that were
+accidentally burning through their
+entire annual budget for AI in a handful
+of months, right? And we started to see
+a lot of enterprises start to pull back
+and say, "Well, maybe we should be
+throttling our AI spend." Um or even
+some AI CEOs saying that, you know, some
+companies may have gotten carried away
+with their with their token
+leaderboards. Um and importantly that we
+should be measuring employees on the
+outputs instead, right? and the value
+that they're generating.
+So that brings us to value maxing. In
+contrast with token maxing, it's
+measuring progress not by how much AI
+you're using, but what AI is actually
+helping you to accomplish, right? How
+much work you're getting done, how much
+time are you saving, how much, you know,
+quality are you improving in the code
+and the artifacts that you're making.
+I think a question that I like to come
+back to when I think about, you know,
+this framing of value
+is something like if you doubled your
+token spend tomorrow, how would you know
+if it was worth it, right? You know,
+there is perhaps a
+naive assumption of like, yeah, like we
+spend more on tokens, it's going to be
+better, but, you know, how does that
+work back to to concrete outcomes?
+And I think there are a few questions
+that you can start to ask yourself as
+you're thinking through this for your
+own processes or your own company.
+Things like what are the outcomes that
+you are trying to improve?
+With those outcomes, what are the
+workflows that lead to, you know, good
+quality outputs? Where in those
+workflows can you add intelligence, can
+you add AI, can you add tokens, right?
+And maybe accelerate or improve quality.
+And, you know, what evidence do you have
+that you are improving the quality or
+that you are, you know, using, building
+a working system here, right? A lot of
+this, I think when it when folks work
+with AI, you've probably heard the term
+evals, and I think a lot of AI research
+and engineering these days is driven by
+having good evals, which to boil it
+down, to oversimplify it, basically
+means
+how do you define what good looks like?
+And I think as we move from just having
+to AI, you know, having AI chatbots
+perform simple tasks to having AI agents
+be responsible for entire outcomes, that
+question is still very valuable. What
+does good look like and how do you
+define that and track that within your
+company or your role?
+And I think I think I I I do want to say
+too that, you know, in some cases it
+might seem like the answer here is,
+well, we should spend fewer tokens,
+right? Like we should um our models or
+cut spend, and I'm sure in some cases
+that's that's absolutely true. Um I did
+also want to point out there might be
+some cases where you want to spend more
+tokens and that's actually still driving
+more value, right? Um you may decide,
+"Hey, we we actually want to ensure that
+we have a high-quality result, so we're
+going to bump the reasoning level on the
+model um or switch to a bigger model."
+You might say, um "It's important that
+this gets done faster, so we are going
+to spend more on tokens now in order to
+save uh you know, real-world all clock
+time." Um that might be the case. You
+maybe you've got a big migration and you
+want to migrate something into a
+different programming language. Um maybe
+you could do it, you know, in a couple
+of months with fewer tokens or, you
+know, maybe you can do it in a couple of
+weeks and spend some more. Uh similarly,
+if you know your workflows are working
+well and you want to scale them, then
+you can decide to spend more uh in order
+to just scale those outputs if they're
+working well. And last but not least,
+you know, if you want to manage risk, um
+you might have a system where it's
+really important that the output is is
+high quality and, you know, and
+bulletproof. Um and in that case, you
+may want to do something like use LLMs
+as a judge, um and you may want to use
+more or use a diverse range of them,
+right? In order to ensure that it's
+catching uh all sorts of different edge
+cases.
+Okay. So, with that in mind, I want to
+talk about two ways of thinking about
+value maxing here. I think one is as an
+individual developer while you're using
+Codex. Uh and I think another is uh as
+an organization or as a company that's
+building on top of OpenAI's APIs.
+We're going to start with Codex.
+Um
+like Christine mentioned, I think this
+the story of of value maxing in Codex uh
+really starts with the GPT-3.5 family,
+right? Um if you're not familiar, we've
+got three new models in this family:
+Soul, Terra, and Luna. Uh Soul is, you
+know, our frontier model, our our um
+flagship model for the most complex
+coding and professional tasks. Terra is
+a really great daily driver um and I
+think it is, you know, good for uh for
+more balanced work where intelligence
+and cost or latency both matter.
+And Luna, you know, is we really like
+and we've gotten a lot of positive
+feedback around it for high-volume
+workloads where, you know, the the
+intelligence level is not as demanding,
+but you really do care about cost and
+latency.
+And I think we've we've put a lot of
+work Open AI has put a lot of work into
+making these models, especially 5.6,
+token efficient.
+If you kind of look at this is Deep
+Suey, a benchmark popular coding
+benchmark that's out there. And if you
+take a look at, you know, the
+performance on the benchmark relative to
+how many tokens you're spending, you can
+see that like the most bang for your
+token, as Christine mentioned, is is
+coming from the 5.6 family. And it's a
+mix of different models at different
+reasoning levels. So, I think as as as
+we've gotten better models and as we've
+as we've gotten them to run for longer,
+one of the most important things to
+think about is not just how many tokens
+does it spit out or even like what is
+necessarily the the highest amount of
+intelligence that it has. I think we're
+finding that you can take a model that
+is maybe not as smart at one shotting
+something, and if you're willing to
+spend more tokens on it, you can get
+similar performance. So, I think as you
+evaluate some of this type of work, it's
+useful to take a look at not just cost
+per token, but cost per overall task to
+completion, right? And
+you can you can start to like fiddle
+with these and and see how different
+things compare along different axes.
+Speaking of comparing along different
+axes, I want to jump into a demo to
+explore a little bit around these models
+and their reasoning levels to kind of
+get an an idea of you know, what we're
+doing.
+So, this is a value maxing lab that I
+built with the help of GPT 5.6 and
+Codex. We're going to make sure this is
+open source after the build hour today,
+so everybody's going to have access to
+this code and you can run this yourself.
+Um,
+here just on this first page, uh
+I had 5.6 build a three-dimensional
+chart comparing, you know, a lot of the
+leading models in the artificial
+analysis intelligence index. Um,
+and you can take a look at how they kind
+of compare along these different axes of
+intelligence, um, cost, and speed,
+right? And how often how long it
+actually takes to to generate these
+outputs.
+Um, but I think the more interesting
+thing here is this visual matrix, uh
+where um
+if you supply an API key, like I've done
+here, um
+I actually I'm going to render a number
+of SVGs along the different models and
+the different reasoning modes, so we can
+kind of see what what the output looks
+like. So, um
+let's just say instead of a pelican
+riding a bicycle, I want a
+panda bear,
+uh
+riding a jet ski.
+And I've selected all of them. Let's go
+ahead and run
+the matrix.
+Um, it's going to work in the
+background. I think to start with
+though, I do want to show everybody, um,
+I previously ran this with the pelican
+on a bicycle and you can start to see I
+think the difference in sophistication,
+um, as the models move up, right? And
+even if you take a single model, um, I
+think you can see the difference in
+sophistication, um, along, you know, if
+you just take Luna for example,
+this first model is, I think, you know,
+to be fair is a little bit crude, right?
+Um,
+but as you introduce more reasoning, uh
+the final result is is actually pretty
+good, right? Um, it looks like we're
+getting some results in here, um, but
+you can see like for example Sol starts
+out pretty high fidelity, um, and then
+as it goes up, it just gets even more
+more powerful, right? Obviously, you
+want your own benchmarks, you want your
+own evals to to measure, and I think a
+great product will have this sort of
+thing coming in. Um but uh this is just
+a a nice little demo to kind of out of
+the box take a look at um what is it
+like how does it compare across multiple
+different uh reasoning levels, right?
+And so we can see um
+we can see the run that I just started,
+right? It's coming in and you know
+already uh
+you know even just on a few examples
+here, you can see there's like not much
+shading going on in this first one uh
+versus now we've added like green for
+the islands, uh bigger like more
+detailed waves, uh shading on the sun
+and the clouds in the background, um
+which I think is pretty cool just to be
+able to visually see everything that's
+going on here.
+>> Cool.
+>> Um
+I think some more practical tips and
+tricks when it comes to uh using Codex
+and trying to get the most value out of
+it. Uh
+you know, we saw a little bit of the the
+grid there in terms of how the reasoning
+levels differ, but my rule of thumb here
+is to start with Soul uh and
+specifically start with Soul on medium.
+Um I think it's a really great model,
+and I do want to kind of dispel the
+notion here. I see a lot of developers
+who just assume I have to be on extra
+high for everything out of the box,
+right? Um and I think that is definitely
+true for for sophisticated workloads,
+for complex projects that you're
+tackling, but a lot of day-to-day stuff
+is actually going to be really well
+served by 5.6 Soul on medium. Um I think
+if you're finding it's not quite as
+intelligent as you need, or it's not
+quite as thorough as you were hoping
+for, um you can tune up. Uh and in some
+cases, you might even decide to to tune
+down and to swap to uh the light
+reasoning or even to to 5.6 Tera um if
+the work you're doing is not very
+coding, you know, intensive.
+Um I think the second tip here is to
+consider when you might want to trade
+tokens for time. I think there's like uh
+a number of ways where uh you you might
+just want something to go faster and you
+might want to save your own time in in
+exchange for more tokens. Fast mode is
+the obvious um use case here. You can
+turn on
+fast mode
+uh to run your outputs at 1.5 x speed.
+Though, it will consume your usage
+limits a bit faster. Um, you we highly
+recommend auto approval as the default
+mode um for a number of reasons. I think
+um you know, we we don't recommend using
+full access in Codex at this point. Um,
+and I would you know, I know personally
+and from hearing from a lot of
+developers uh requesting permissions on
+every single action is a little bit
+frustrating. So, um auto approval I
+think is a great sweet spot uh to have
+another model review the uh the outputs
+and make sure that they're safe.
+Um, and Chronicle is a a relatively new
+feature in Codex. Um, and if you turn
+that on, that will allow you to I think
+record your screen and it basically
+develops memory for the task that you're
+doing. So, as you start to do similar
+tasks over and over again, um you can
+you know, use you'll use more tokens to
+to remember what's happening, but it'll
+get smarter about the type of work that
+you do every day.
+Uh the third thing here is um take a
+look at your agent's MD and your skills.
+I think models have gotten um you know,
+very much more sophisticated, much more
+intelligent, and I think a lot of the
+things that we had in our agent's MD and
+our skill instructions 6 or 12 months
+ago um might be unnecessary now. I think
+when it comes to instruction following
+and persistence, um you know, we can go
+back and audit and say, "Hey, do we
+really need to be explicit about every
+single thing in here?" Or is there a way
+to make this concise and save on our
+input tokens?
+So, now I want to switch to talking
+about value maxing your harness, right?
+Or you know, your your product if you're
+building on top of uh our APIs.
+Um there are a handful of I think key
+API features here that um
+we we've recently introduced or or
+somewhat recently introduced to try to
+help uh developers get more value. Um
+and I'm going to talk through a few of
+them here. I think programmatic tool
+calling is a big one. Uh we recently
+introduced this with the launch of 5.6.
+And this is a really cool new feature
+where um to oversimplify a little bit,
+we give the model access to a sandbox, a
+JavaScript sandbox, and it can write
+code to execute in that sandbox. Um that
+code can do things like call tools or
+run computations. Um and you're moving
+all of that, you know, all of that work
+out of the model's chain of thought, out
+of its reasoning, um and into the
+sandbox. And so, you're both saving
+tokens because it's not, you know,
+itself reasoning through the math or the
+logic of something, and you're saving
+time potentially because it can make a
+bunch of tool calls um without having to
+round trip all the way through the model
+and then all the way back uh to the end
+user.
+Um we also have had prompt caching. I
+think that's changed a little bit
+recently with the introduction of 5.6.
+Um but now uh we Yeah, we we have the
+ability for you to specify, you know,
+which parts of your prompts you want to
+cache. Um
+this can be a really great way to to
+save both time and tokens as well. Um I
+think you can do some things um You can
+be also a little bit smart about how
+you're using your prompts. I think one
+example here is
+let's say you have a product where it's
+important to know what date it is, for
+example, right? Um you would want to
+actually append that information to the
+end of your prompt. Um and if you may
+maybe you've got like a massive a 10,000
+token prompt, and then you want to
+append at the end, oh, and by the way,
+today's date is, you know, July 23rd,
+right? Um and by doing so, like if you
+did it at the beginning, uh it would
+make your life a lot harder when it
+comes to trying to cache that prompt. Um
+and if you do it at the end, you can
+take all of that, you know, chunks of
+your prompt that don't change and save a
+lot of money by caching them. Uh
+persistent reasoning is another new
+feature. Um basically, we've exposed the
+ability in the API to uh previously, it
+would we would have like reasoning
+summaries or you would just chain the
+the final assistant messages together.
+But now with persistent reasoning, you
+can save the reasoning turns across and
+we do find this um this improves uh
+continuity of answers. So, it is a boost
+to performance and capability, but also
+cache efficiency, right? If you do want
+to just say, "Okay, we're we're just
+going to keep sending all of these
+through and and we can get better on our
+caching." Um and last but not least,
+compaction. Uh this one has been around
+for a little while, but definitely want
+to call this one out because um if you
+are finding that your use case has a lot
+of user prompts that get very long, uh
+very heavy, lots of tool calls, lots of
+things that were exploratory, but maybe
+not useful in the long run, um you can
+uh turn on auto compaction um or you can
+decide if you want to explicitly trigger
+compaction yourself through the API, uh
+and then, you know, just reduce the
+amount of inputs that you're sending
+every time.
+Cool. So, if we go back to uh the demo,
+uh we can see I think a bunch of these
+pandas finished up, right? Um again, I
+think some of them to varying degrees of
+realism and and accuracy here. Um but I
+want to go to this third tab here um in
+our uh
+optimization lab, right? And I want to
+share maybe I need to refresh this real
+quick.
+Um
+I think I want to share uh some of these
+outputs um because we're going to do a
+little bit of AB testing across some of
+the features that I just talked about,
+right? Um this first one is prompt
+caching. And so, in this demo, uh behind
+the scenes, I'm making an API request um
+with a I think it's like a 5 and 1/2
+thousand token prompt. Um, and we're
+going to go ahead and cache it and then
+we're going to do two API requests to
+see um, how how the results ended up
+coming out with and without caching,
+right?
+And so we can see here that um,
+the input costs were 90% lower um, when
+it comes to to using the cache, right?
+Um, and uh,
+if you have things it looks like the the
+wait time slowed down by a couple of
+seconds. Um, but if you're if you don't
+need, you know, like the absolute most
+latency and you know you're going to
+reuse a bunch of prompts, um, if you've
+got like a massive, you know, system
+prompt that you want to cache, uh, this
+is uh, a really great way to uh, to save
+on cost.
+Um, the second here is going to be uh,
+programmatic tool calling.
+And so uh, behind the scenes I've I've
+crafted a prompt um, that's basically
+asking for a specific task. Uh, it needs
+to call a number of tools, it needs to
+list accounts, track their usage, um,
+and then, you know, create a support
+ticket. Um, and normally with uh,
+without programmatic tool calling, um,
+we would have the model, it would call
+tools, those results would be returned
+to the model, it would decide what to do
+next, maybe call more tools, and then
+generate the final answer. Um, with
+programmatic tool calling though, the
+model, like I said, has this JavaScript
+sandbox. It's writing code to just
+inject into that sandbox, and the
+sandbox is going to call the tools, it's
+going to crunch the numbers, uh, and
+then return the final results, and then
+the model is going to decide to answer,
+right?
+And so we can see here um, that yeah, we
+ended up with 24% fewer tokens, uh,
+input tokens by using programmatic tool
+calling. Um, we saved I think an entire
+model turn, uh, by using the sandbox.
+Um, and not only I think is the, you
+know, this is a little bit of a toy
+example, right? Um, so I think, you
+know, if you want to test this yourself,
+definitely use a real world use case.
+Um, but not only did we save on input
+tokens, um, we actually save on output
+tokens cuz the model had to do less
+reasoning about the final answer um, and
+then figure out how it's going to like
+return that to the user. Um, and in this
+demo too, we can just check um, you
+know, if you if you behind the scenes
+change the prompt, you can check like
+did it actually get to the same uh,
+output, right? Which in this case it did
+and that's what we want to see.
+Um, in this one uh, this is a also a
+quick context compaction one, right? So,
+um, basically, you know, there's a uh,
+pretty big history. I think there was
+like 72 prior turns or hand-offs in this
+uh, in this use case. Um, and I want to
+see how it compares when we um,
+ask a a question and ask for the answer
+versus if we trigger a compaction first
+uh, and then ask for the answer, right?
+And what I'm expecting to see um, is
+hopefully the same answer, but also um,
+I think significantly fewer uh, input
+tokens when when it comes to uh,
+comes to our costs, right? Yeah, and so
+I think this is you know, uh, quite a
+dramatic output. We've got 82% fewer
+input tokens for the same task. Um,
+without compaction, we were sending
+24,000 input tokens and then after it
+was, you know, a little over 4,000. Um,
+in this case it's just asking for a
+single answer, so there was not a ton of
+of output or reasoning. Um, but I think
+again a useful experiment for your own
+use cases. If you think you will need a
+lot of reasoning tokens, can we tune
+this this prompt or this scenario to
+figure out how it's going to go, right?
+Um,
+I think in this case it was a little bit
+faster um, but uh, you did ultimately
+take a hit on the compaction time. It
+looks like it took uh, a little under 30
+seconds to to compact. Um, and then
+yeah, we expect to see the exact same
+answer coming out uh, which is what we
+see here.
+>> [clears throat]
+>> Cool. Um, and so I've talked a lot about
+you know, uh, theoreticals and in in how
+OpenAI sees stuff, but I also want to
+make sure we're we're talking about some
+real-world use cases. And for that,
+we're going to turn it over to Ploy.
+>> Awesome. Thanks so much.
+Um
+Let's please welcome Ploy on stage.
+We'll just give them a minute.
+Ryan, Lorenzo.
+>> Yeah. Can you guys hear me?
+>> Yes, you're good.
+Hey Ryan. Hey Lorenzo.
+Okay. Thanks for joining us today. Um
+we saw on the front page of Hacker News,
+you guys put out a great guide on
+migrating a production agent over um to
+5.6 Soul. Um so really excited for you
+guys to be here with us live chat
+through. Um first, a little bit about
+what what you guys are building over at
+Ploy. Um and then also just kind of a
+step-by-step guide um through through
+this um
+through how you guys migrate your agent.
+So feel free to take it away.
+>> Amazing. Um hi everyone. Uh I'm just
+trying to share my screen. It's
+disabled.
+>> We'll stop sharing screen on our side.
+>> Okay, great.
+Amazing. Um all right. Welcome everyone.
+Um
+my name is Bryant and I'm excited to
+uh share a little bit about what we're
+building here at Ploy. And uh today
+uh I have my AI engineer extraordinaire
+Lorenzo joining me.
+Um so I was previously the co-founder
+and CTO of Webflow. So I spent about 12
+and 1/2 years there. And
+about
+eight or nine months ago,
+you know, AI happened,
+agents happened, and I'm like, well,
+what can the website actually do to help
+a business grow? You know, I made a tool
+that made it easy for folks to design,
+but I just had this incredible itch to
+take the website much further.
+So, that's what we're building at Play.
+So, what Play is, it's an entire
+marketing platform that's starting with
+your website. It gives you the ability
+to run SEO, AEO optimization,
+helps you improve your conversions. It's
+also a web host. But, then on top of
+that, it can also power your ads, it can
+help you find customers, it can
+de-anonymize the visitors coming to your
+website, all with the purpose to help
+turn your website into your hardest
+working employee. And by that, I mean
+help you drive revenue as automatically
+as possible.
+So, how does it work? So, very simple,
+you sign up and within 60 seconds, you
+have a Slurp'd website. So, what that
+means is is that we're crawling your
+sites, we're taking all of the CSS,
+we're looking at every single responsive
+breakpoint, and we're actually
+deterministically
+converting your existing homepage into a
+design system that Play can then use to
+build subsequent pages or optimize your
+existing ones.
+And if you actually want to design from
+scratch, uh you can also use Play to do
+that, too. So,
+really sort of proud of the fact that
+Play's platform doesn't have any AI
+tells or as few of them as possible.
+Every single site is actually incredibly
+bespoke.
+So, there's a lot of different things
+that Play can do for you. So, it can
+design with human taste, it can drive
+revenue outcomes, it can help you
+measure your entire sort of marketing
+funnel with built-in analytics. And
+then, we also have these expert
+Playbooks that you can run, and you can
+think of them as marketing skills.
+Just to drive home this sort of point a
+little bit. So, this is something that
+people can actually do with Play, which
+is they can actually create this whole
+sort of marketing funnel that's
+autonomous. So, someone comes to your
+site, we can deanonymize that person, we
+can help qualify that person to see if
+they're your ICP, and we can activate
+that lead. We can sync it to your CRM,
+we can draft the email and send it out.
+These are just some of the ways that we
+can really turn your website into a
+growth engine.
+And you can do a bunch of things, too.
+So, we actually have these playbooks
+that, you know, really well-known growth
+and marketing leaders throughout the
+tech startup scene have created for
+Play. So, to help you create AEO
+comparison pages, to help you build a
+content strategy,
+or even email your ICP website visitors.
+And just to wrap it up,
+it's really for a lot of different
+audiences. So, large startups, large
+enterprises, [clears throat] agencies,
+and
+a place where I have a lot of affinity
+for, which is YC startups. And I was
+part of the last YC batch, and really
+proud to say that around 13% of the
+startups in the last batch are also
+using Play.
+So, I'll just hand it over to let
+Lorenzo to actually talk about the true
+value maxing part
+that we spent a lot of time on here at
+Play.
+>> For sure.
+Um
+let me get my presentation up.
+All right. What up, fam?
+My name's Lorenzo, and I'm an AI
+engineer. I
+just I actually started AI engineering
+when I joined Play, and I've just been
+obsessed and having so much fun. Um I
+really love optimizing things and saving
+costs. So, this is actually something
+we've been working on for a long time
+with our agent even
+before we switched to GPT 5.6.
+Um but all the work that we've done
+prior carries over to GPT 5.6 and I
+figured that was probably the most
+valuable thing to talk about in this
+presentation.
+So, this
+dovetails really nicely off of
+um Charlie's talk about, you know,
+compaction, efficient tool calling, uh
+programmatic tool calling,
+um caching.
+I I of those four,
+I would say caching is kind of the the
+most
+important and sort of easily overlooked.
+And there's a lot of details, so I
+figured it's worth diving in.
+So, just a quick explainer on
+how exactly
+KV caching or prompt caching works
+um in your typical agent loop.
+When you Every time the agent
+try decides what to do next, it has to
+process all of the prior input tokens.
+So, if you have an agent loop that
+calls, you know, 10 tools across 10
+different steps, there's actually a n
+squared amount of like tokens that get
+processed because um the context
+accumulates and every time you call the
+next tool call,
+you have to process all the previous
+tokens
+and that's just, you know, building up
+is kind of what you're seeing here.
+So, with caching enabled, what that
+allows is uh basically a 10x reduction
+in cost for all of the tokens that have
+already been processed uh cuz OpenAI and
+other AI providers store the embeddings
+from all those tokens.
+And so, you know, this is just massive
+for
+cost efficiency
+and um it also helps with um
+responsiveness in
+generally with
+with really long contexts.
+Um but even if you have
+uh caching enabled
+it's really easy for this
+cache to break because this context
+window needs to be append only in order
+for the
+um for the caching to accumulate and
+persist. So this example here, if you're
+trying to be smart about saving tokens
+and say like dynamically loading tools,
+the tools actually live at the very
+beginning of the uh context window. So
+if you are modifying the tools as you
+are going through different steps uh in
+the agent loop, that breaks your cache
+and you're going to end up with a ton of
+next cost um like we talked about on the
+previous slide.
+Um as Charlie mentioned too, like if
+you're updating any information in the
+system prompt like uh the current time,
+that will break the system
+uh the KB cache as well
+um which really hurts your uh
+cost. So um
+there's a few
+tricks that we've implemented
+um in order to
+first load tools on demand without
+breaking the cache. So all we've really
+done here is
+we decided what tools need to be always
+on.
+And those are like the core tools that
+we see
+um but based on usage patterns they are
+used in like you know 70% or more of
+sessions. And then we have a lot of
+tools that are more niche and we call
+these on-demand tools.
+And so when the agent needs to use one
+of these on-demand tools, it simply
+loads this tool schema. It gets appended
+to the end of the uh context window. So,
+you don't break any of the cash up here.
+And then the agent is is able to use the
+these on-demand tools perfectly fine
+using the on-demand tools tool.
+And um yeah, in our testing we saw a 45%
+We're able to reduce the the tokens of
+our tool schemas by 45%.
+Um and in evals that showed like a 33%
+cost reduction, which was really
+awesome.
+Um
+and and and quick side note is like if
+we had broken the cash every time we're
+like
+updating the tool schema, this would
+actually end up being more expensive.
+So, it's a it's a really great uh
+strategy, but you need to make sure you
+do it right to not break the KV cache.
+Um
+another thing that is really helpful for
+uh maximizing the cache hit rate is
+using breakpoints.
+And this is something that I went over
+in uh my GPT-5.6
+implementation guide. Um
+this is slightly different between AI
+providers. We've we've used both uh
+Claude, Gemini, and GPT models. And um
+this is this is a part where there's a
+little bit of variation between
+providers. Um but the the core concept
+is the same.
+Uh which is you
+if if if you have a user that is um
+creating multiple chats within your
+platform,
+you will likely have a set of tools and
+a system prompt that is the same for
+every chat.
+So,
+this like we were talking about before,
+you don't need to process the system
+prompt and the tools every single time.
+So, you if you if you set a a breakpoint
+to cache the system prompt and the
+tools, this now gets saved for every
+single chat afterwards. And
+so, you can save a lot of tokens this
+way. Um and then on top of that, there
+there's like
+um a feature that we have in the Play
+Agent is working memory
+or the workspace memory. So, this is
+persistent across chats.
+And this is unique to each workspace.
+And this may change between chats, but
+it may not. So, we set another
+breakpoint after the workspace memory.
+So, if there's multiple chats where the
+workspace memory does not change, then
+we're able to cache that as well and uh
+increase the cache hit rate um
+by And yeah, and the results of this was
+the first message, if you're able to
+cache the system prompt, uh and the tool
+calls, which is really large for us, we
+saw an 89% reduction in the first
+message in a new chat.
+And um yeah, this this reduced our token
+spend by 5% overall in production.
+And um
+this is a trick I love because it's so
+simple um
+and
+kind of like right under your nose sort
+of thing. So, if you have a an agent
+that's making a lot of tool calls, for
+example, a coding agent, like uh the
+Play Agent,
+there's going to be a lot of token uh a
+lot of tool calls within a single
+uh session.
+So,
+and and batching these together makes a
+huge difference. So, this example is
+three tool calls: edit file A, read file
+B, read file C. They're all independent.
+Um but if the agent is doing these in
+three separate steps, it has to re
+uh process all of the input tokens and
+the whole context window, and it
+actually does a little bit of thinking
+for each tool call.
+Um but this is all this can be saved if
+you just prompt the agent to try to
+batch together tool calls into a single
+step.
+Um that looks like this, and you save
+all of these um cached input tokens and
+the extra thinking tokens here.
+Um lastly, you can also design your
+tools to perform multiple actions in one
+tool call. So, that's what we've done
+here, where you say read file B and file
+C in one tool call, and that saves um
+output tokens. And so, when we we
+implemented this, ran some evals, we saw
+a 14% cost reduction with the same pass
+rate, and and I think it was actually a
+little bit faster, too. So, win across
+the board.
+Um lastly,
+I just There's a lot more I didn't cover
+here, but as kind of a general
+tip or or area of focus for me is really
+optimizing your tools. So, Charlie,
+again, mentioned programmatic tool
+calling.
+There's so much you can do just if you
+or just design your tools in an
+intelligent way.
+Um
+one really easy win for us, we use Exa
+as our web search provider, and they
+have a feature called highlights, which
+slims down the output to just the most
+important sort of like bullet points.
+Immediate 70% reduction
+in the web
+tool response size, and that's estimated
+to save us $37,000 a year in tokens. Um
+and the same quality on our evals.
+Um another thing here, we have
+put a lot of thought into
+thinking about what needs to be done by
+the agent versus what can we just make
+deterministic. Um there's one tool where
+we um were able to save like a huge
+round trip from the tool to the agent to
+the next tool call.
+Um and yeah, that was like a 54%
+reduction in token spend.
+So, yeah, that's pretty much it.
+Uh lot more I could cover, and then as
+Christine mentioned, we have a blog post
+here on actually migrating to GPT-5.6.
+There were for the most part, like I
+said, everything carried over really
+easily from the previous agent in terms
+of our caching stuff, but there were
+some details on the
+breakpoints and stuff that we cover in
+that blog.
+Uh but yeah, that's it for me.
+>> Awesome. Thanks so much for joining us.
+Um we'll go back and share screen.
+Thanks everyone who submitted so many
+questions. We answered as many as we
+could. We had chat, there's a couple
+that we flagged to answer live and chat
+go through them, especially with with
+Brian Lorenzo here with us to kind of
+share this actual real-life example.
+Um so, the first one was probably the
+most important.
+Brian,
+>> [snorts]
+>> Troy really loved it.
+I think it's awesome for you to be here,
+especially as a founder. We have a ton
+of startup founders who are building
+really on early on in their journey.
+Would love to hear from you, just like
+kind of a quick update on like why you
+chose to migrate and some of the
+trade-offs, especially as a second-time
+founder.
+>> Yeah.
+I think, you know, as a startup, we're
+constantly looking for some type of
+alpha, right? Some type of advantage.
+But then, honestly, with with building
+AI tools, you you really just have to
+try every single model that's out there,
+right? And
+we have spent a lot of time making sure
+that our evals reflect real-world use
+cases, and that whenever a new model
+comes out, many companies do this,
+obviously, but we really want to stress
+test, you know, whether or not they fit
+Poe's use cases. So, you know,
+everything from marketing strategy to
+following really long instructions to
+redesigning a whole page to importing a
+WordPress site. You know, these are all
+things that are
+our agents uh need to be really good at.
+So, um as a second-time founder, I don't
+know, maybe
+there's potentially even a disadvantage
+in this in the sense that AI is just so
+uh quick that a lot of my learned
+experiences may need to be unlearned,
+and I have to really drink from the
+firehose now. So, that's um that's been
+really, really fun.
+>> Love that. Thanks for sharing.
+Um okay, let's dive into some of the the
+technical questions. Um this first one,
+when using GPT-5 uh 0.6 with Ultra
+Effort, it seems extremely token
+intensive when delegating work to sub
+agents. Are sub agents given only the
+specific context needed for their task,
+or do they receive and maintain the full
+context of the current chat or
+workspace?
+>> Um I love that somebody asked this.
+Thank you for asking this question, cuz
+I think there's currently a lot of
+confusion out there around the
+differences between Ultra and Max and
+Pro. Um
+and so, I think to to maybe start, like,
+I want to explain the difference between
+um Max and Pro, and then we'll get to
+Ultra. So, uh Max is a new reasoning
+effort level above extra high. Prior to
+GPT 5.6, uh the highest you could go was
+extra high. Um and then now with 5.6,
+there is there is Max, which essentially
+just like, you know, fully takes the
+leash off and and tells the model like,
+"Use as much reasoning as as you think
+you might need to solve this problem."
+Um that is in contrast to Pro, which
+historically is, you know, been
+available as an option in ChatGPT and
+not Codex. Um
+as well as through the API. Uh you may
+have noticed if you're a heavy API user,
+you may have noticed that there's no GPT
+5.6 Pro uh model slug in the API. Um and
+that's because we've actually moved it
+into a new reasoning mode uh parameter.
+And so, you can take uh any of the new
+5.6 models in reasoning mode, you know,
+there's like standard and Pro. Um and
+that'll essentially give you the same uh
+the same effect as using Pro in chat. Um
+but it'll spend significantly more
+tokens, will take significantly longer
+to come back to you with an answer.
+Um
+Okay. So, now that we've talked about
+those two, let's talk about Ultra. Um
+Ultra is not quite a new reasoning
+level, but it's it's a little bit of a a
+new mode that exists on top of Max
+reasoning. And so, in Codex or in
+ChatGPT work, um if you select Ultra
+mode, and by the way, to get to Max and
+Ultra, um I believe they're not enabled
+out of the box uh because, you know, we
+we want folks to be mindful about their
+token spend. Um and so, if you go into
+settings, you can enable those two
+options. But, Ultra takes Max reasoning,
+um which already is like uses many
+reasoning tokens as you need, um and
+then also modifies the underlying system
+prompt to um
+push it in the direction of using more
+subagents, right? And 5.6 is the first
+model that we've trained that's like
+natively um meant to use subagents. I
+think in previous models in Codex, you
+could tell it, "Hey, use subagents for
+this task." and it would do so. But, 5.6
+is the first model where
+it is making calls for itself and like,
+"Okay, here's where I should probably
+use a sub agent or not." And and Ultra
+basically turns that behavior also to
+the max, right?
+So, if it seems extremely token
+intensive, it 100% is extremely token
+intensive. And we do recommend it for
+like the, you know, the really heavy
+hitter use cases where,
+just, you know, you need to spin up sub
+agents to to accomplish a ton of work.
+Otherwise, you know, if you're using it
+to check your email, it's a little bit
+like bringing a bazooka to a knife
+fight, right? Like, you probably don't
+need that much firepower.
+Um,
+but let's get back to the to the meat of
+the question here. You know, are sub
+agents given only the specific context
+needed or do they receive the full
+context?
+They're given the context that they
+need, right? And so, the the
+main agent will dispatch
+a sub agent and that can go and and
+perform tasks and then return. That's
+different to say like a side chat in
+Codex, which is going to get the full
+context of the current chat as it works.
+>> Thanks for sharing that, Lorenzo.
+Anything on your end that you wanted to
+add to this if you've you've tried it?
+>> Um,
+this [clears throat] Yeah, my first
+thought when I saw this question was you
+could actually, if from a developer's
+standpoint, you could implement it
+either way. I haven't tried this, but I
+have thought about um,
+this [clears throat] this idea of giving
+a sub agent the full context. It would
+almost be like forking the context
+window.
+Um, I haven't tried this. I think most
+implementations just have the
+orchestrator agent write up a summary of
+whatever the sub agent needs. That's
+probably more efficient in most cases.
+>> Awesome, thanks for sharing. Okay, next
+question. How does agent depth, meaning
+the number of delegation layers where
+sub agents can spin up their own sub
+agents, affect performance? What types
+of tasks benefit from greater depth, and
+when is a wider but shallower agent
+structure more effective.
+>> Um I think the first question is that's
+a really good question. I I don't know
+that I that I have all the data to
+recommend something on here, right? In
+terms of performance. Um I think I what
+I can say about the types of tasks is
+uh you know I think it's
+you know, I think it's it's I personally
+in the work that I do, I think I
+personally um find it less effective
+once you get past maybe two layers of
+sub agents because I think you're losing
+a lot of context um as you continue to
+delegate and again that's that's totally
+anecdotal. Um and in general I think I
+find that agents like sub agents in
+general are more useful when the work
+can be like parallelized pretty um
+effectively, right? And you're not super
+worried about like having to share state
+or having to like touch the exact same
+files as you go um and you're able to
+like, you know,
+carve out independent lanes for each sub
+agent to work with, but again, Lorenzo,
+happy to to hear your take.
+>> Yeah, the we we've been experimenting
+with sub agents for a while in Poe and
+we found with, you know, the models that
+were around 3 months ago
+we're actually way better off just not
+using sub agents at all in terms of
+costs, uh performance, and time.
+Um I think the the meat of this question
+really comes down to which model are you
+using and how good are the orchestration
+abilities of that model cuz
+sub agents, like delegating a task from
+one LLM to another LLM,
+is is a bit lossy.
+Um
+you
+want these,
+you know, tasks or the direction to be
+as human-driven as possible or
+expert-driven. Um Um, that is changing
+with recent models. Um, like G G5.6
+Souls orchestration abilities are much
+better. Um, if you want to do multiple
+layers,
+the question is
+the the if you're having a an
+orchestrator agent delegate to a sub
+agent and then that sub agent delegates
+to another sub agent, is that second
+level sub agent good at orchestrating
+sub agent tasks? If you're doing Soul
+Soul Soul, maybe, but if you're doing
+Soul
+Terra Luna, you might be losing uh
+some efficiency there, but overall, I'd
+just say proceed with caution and
+yeah. [laughter]
+>> Love that. Great advice.
+Um, okay. Next question. Are there
+instances where starting a new chat in a
+project such repo is better than
+compaction?
+>> Um, yeah, I don't know if this is a
+little bit of a spicy take, but I think
+there there probably still are some some
+instances. Um, and
+by and large, I I don't think about
+compaction anymore. I think when I work
+in Codex, I'm happy to work in the same
+thread for for days if not weeks and and
+I, you know, just keep going. I think I
+used to be a year ago I used to be one
+of those people that was like every
+single new thing is like new thread, new
+chat, right? To avoid, you know, context
+pollution. Um, and now I don't worry
+about that as much. I think the
+instances where it is so useful is if
+your uh personal setup is like very
+heavily loaded with like a ton of
+context out of the box, um, and you are
+enabling like a ton of plugins or skills
+or, you know, attaching files, um,
+because that is going to be stuff that
+you want to, you know, presumably
+they're all relevant, but that is stuff
+that you're going to want to be bringing
+in. Um, and if it's, you know, if it's
+stuff that the model has to keep in mind
+for every answer, then in that case, uh
+it probably makes sense to start a new
+chat rather than relying on compaction.
+>> Yeah.
+All right, so are you team new chat,
+same chat? Thoughts?
+>> Yeah, we've seen users have super long
+chats in work sessions in play and then
+just use that for everything. And it's
+like if you're working on your website
+and then you want to
+do some random search after, you're just
+wasting tokens if it's a a completely
+separate task. Uh so this is something
+that is kind of a UX
+new UX problem of like when do you
+switch to a new chat? Do you let users
+decide? Do you use LLMs to decide? And
+that's still an area that we're thinking
+about.
+>> Yeah, good point of view.
+Okay, we have two more questions left.
+Uh the presentation covers the benefits
+of caching well. Can you please touch on
+the downsides to overly relying on
+caching for value maxing?
+>> Uh
+>> I I can I can say a few words.
+>> Um
+yeah, like
+we like I think Charlie's portion was a
+great overview of like
+all the tools.
+Um I definitely did more of a deep dive
+into caching. So this is assuming that
+you're like
+you've you've already done a little bit
+of an audit of all your traces and say
+like oh, this tool call is outputting
+way too many tokens. Um or you're like
+duplicating
+um outputs in the in the context window
+or you are
+making the agent do stuff that it
+doesn't need to do, that you could just
+write code for.
+Um so that all comes down to just
+basics of um like auditing the traces of
+what your agent is doing. Um and then
+once you've done, you know, uh
+the 80% of the job there, then you can
+you can definitely get a lot of value
+from the caching side.
+>> Nice.
+>> Yeah, I think the only thing I'd add is
+is, you know,
+um
+caching as a general concept, right? I
+think it like it is often very
+beneficial, but um you want to introduce
+it when you're ready for it. I think
+when you feel like you have a good grip
+on like the the parts of the application
+that will benefit, otherwise you can get
+brittle, right? And you can you can feel
+a little bit hamstrung.
+>> Awesome. Thanks. Okay, last question
+before we wrap up. Does Compact run
+differently on different models and
+reasoning levels?
+>> Uh the underlying endpoint should work
+should work the same, right? And I think
+like with different models, um you know,
+essentially uh there's some secret
+sauce, so I can't talk about everything
+here, but uh essentially we're taking
+the um
+the history of the conversation and
+turning it into like uh a representation
+that the model can can understand and
+reuse in the future. Um and uh
+that, you know, depending on the model
+and the reasoning level, um
+you know,
+what gets encoded maybe maybe slightly
+different, but that also depends on the
+chat, right? And so I think like uh you
+would expect um
+as a mechanism, it it runs the the same,
+but, you know, per chat the the outputs
+might be a little bit different.
+>> Okay, awesome. Lorenzo, Bryant, thanks
+so much for joining us, um especially on
+the Q&A, super insightful, and I think a
+lot of um the startup founders and and
+developers um really appreciated it.
+So, to wrap up, here are some resources.
+Um first and foremost, GPT 5.6 blog, um
+programmatic tool calling guide, um
+compare models, um and Cohere's uh
+migrating a production AI agent um
+uh blog. And then a couple of people
+asked in the post actually about your
+demo and if you can try it themselves.
+So the answer is yes. Our all the code
+that we use for build hours is shared on
+our build our repo. So feel free to
+check it out. And as I mentioned
+earlier, we're going to post all of this
+on demand, send out an email with all of
+these links. So don't worry too much
+about copying all of this down.
+Next we have our upcoming build hour on
+July 29th. This one's going to be on
+ImageGen 2. So you'll learn the latest
+on that. And as always, copy down this
+link. We're constantly posting new
+sessions. Feel free also to reach out if
+you have any ideas on what you want to
+hear next. And with that, thanks so
+much. And we'll see you next time.
+>> Thanks, everybody.

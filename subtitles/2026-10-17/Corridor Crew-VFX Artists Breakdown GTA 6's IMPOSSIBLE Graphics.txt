@@ -1,0 +1,1049 @@
+UP主：Corridor Crew
+标题：VFX Artists Breakdown GTA 6's IMPOSSIBLE Graphics
+链接：https://www.youtube.com/watch?v=ULM2OIj5o0I
+
+I don't know about you, but when I first
+saw the GTA 6 extended trailer, my blood
+was boiling. These are the best video
+game graphics I've seen in my entire
+[music] life. And as a lonely VFX
+artist, I'm jealous. It would take me
+hours, if not days, to render a shot
+like this, and they're just doing it in
+real time, 30 times per second. How is
+that possible? Well, lucky for us, the
+world of visual effects and video games
+share a lot of the same technology. So,
+if I can assemble a panel [music] of VFX
+experts to go through this trailer frame
+by frame, I think we can get to the
+bottom of how Rockstar is pulling off
+the impossible.
+>> [groaning]
+>> You know them for their energy drink,
+but what about their video games?
+Rockstar's Grand Theft Auto is coming to
+store shelves this November.
+>> No, it's actually not. That's the fun
+part.
+>> Specifically not.
+>> the one that is not coming to store
+shelves.
+>> Now, we're not game developers, but we
+are visual effects artists. So, we're
+going to be using those lenses to watch
+this thing, to point out to you what we
+think is actually special that other
+people might not have pointed out to you
+yet.
+>> I also have never looked at the trailer.
+This is going to be my first time. You
+guys are going to get my raw reactions
+here.
+>> I guess they know we're coming.
+>> All right, that's the block right here.
+>> So, already I'm noticing the wrinkles on
+the shirt moving as he walks.
+>> Yeah.
+>> Dude, there's hair on his arms.
+>> There's hair There's literally hair on
+his arms. I was I'm glad you pointed
+that out. Oh, we're going to be talking
+about the hair, don't worry.
+>> Legit.
+>> But like already, the first thing that I
+noticed when we hit this lighting
+environment is the quality of the skin.
+>> I'm lost. I need to find a way out.
+>> And you notice the haze is catching the
+light. Where there's a light, the haze
+is lit up, and then the haze is [music]
+dark, and then it's lit up again by the
+next light. A lot of the graphics and
+technology here was started and
+developed in Red Dead Redemption 2, and
+it has like carried on into this game.
+>> Rockstar has their own proprietary
+ecosystem for this game. It's called
+Rage, Rockstar Advanced Game Engine.
+>> And from the lens that I'm watching it
+from was as a Houdini artist in
+particular, in Houdini proceduralism is
+everything. Building a system that works
+is like one of the powerhouses of the
+software. And this engine is built
+primarily for their needs and is
+therefore able to absolutely max the
+possibilities that technology allows for
+all the different areas they're trying
+to flex in basically for this game,
+which is like lighting for example.
+>> Everybody like falling down from being
+shot. Like when you want a character
+like to fall down but keep acting, you
+either have [music] to motion capture
+it, which requires you to display a
+canned animation that actually can't
+physically interact with the ground, or
+you have to do some really high-level
+smart ragdoll stuff where you're
+actually doing a physics sim, and then
+once like the skeleton in the game is
+hitting the ground, you then have to
+like activate muscles and have them
+physically collide with things. And they
+are getting this like realistic movement
+while also having it be a physics sim at
+the same time.
+>> Dude, ragdolls are like my one of my
+favorite things in the world. And
+there's a moment coming up here that
+that illustrates how good the ragdolls
+are or
+Okay, he switches to pistol and takes
+out this guy's leg. Look at this. And he
+gets
+>> He hits the box and falls over and dies.
+>> Look at that. In Houdini for example,
+with all the ragdolls that I've ever
+done in crowd simulations is a really
+good example. You will have your agents,
+these are your crowds that have been
+built, your traditional like bipedal
+structure, and you have your run
+animation called a state. It's just what
+is the character's current state? Are
+they running? Are they walking? Are they
+turning? We blend between those states
+based on triggers. Triggers are just
+environmental or personal reasons for
+change. If [music] I tell one agent,
+"Hey, you have a trigger changing from
+running to ragdoll based on if you are
+hit with a certain velocity." Once that
+velocity is met, it will then go, "I'm
+no longer running. I'm ragdolling." And
+the way that ragdolls work is you have
+your bone structure, your joints so to
+speak, and on top of that you have
+low-res collision geometry that is kind
+of reaching out and interacting with the
+world. That's the simple system, right?
+Trigger one state, then trigger another
+state from running into ragdoll, full
+flop. There are ways in Houdini
+to elevate this experience or elevate
+the feeling of life in a rag doll.
+Because we all know rag dolls in the
+traditional sense are just infinitely
+floppy. And it's really funny, but it's
+not realistic. So, the first thing that
+you do with a rag doll is you give all
+of the joints limitations of how far
+they're allowed to bend or move. The
+cone of the leg can only rotate so far.
+It can't go up to here cuz that's just
+not realistic at all. So, you limit the
+motion of all the joints. And then you
+can use what's known as motors inside of
+these joints. So, if I have an animation
+of me writhing in pain, I can turn on
+motors for certain joints when they're
+in rag doll, and those joints will fight
+to enter that position. Depending on the
+strength of those motors, they may only
+get halfway there and kind of be
+writhing a little bit. Or if the motor
+is really strong, it'll just be the
+animation. I can essentially
+>> your motor
+>> If there's something blocking the motor,
+exactly. It's still interacting with the
+environment. So, in this way you can
+kind of blend in some life into your rag
+dolls.
+Rockstar's system blows all of this out
+of the water.
+>> [laughter]
+>> They got a patent for it.
+>> They got a patent for it. They are
+hoarding the most valuable rag doll gold
+in their cave. They have the system
+Euphoria, which we used to have access
+to it in the film world known as
+Endorphin. That got removed. Now it's
+Euphoria, which is the real-time version
+of Endorphin. And now we have nothing.
+>> We we used Endorphin in a video. We used
+it [music] in Fart Attack.
+>> Oh, and more than that, dude. That was
+pretty critical to a lot of our early
+videos. Like the gravity gun when you
+shot the freaking trash can across the
+way and [music] knocked the soldiers
+down.
+>> I love that that's the application. It's
+like the the best rag doll software.
+It's like, put on Fart Attack.
+>> [screaming]
+>> LIKE OBVIOUSLY, ALL OF THIS IS HAND
+CURATED. I want this state to trigger
+based on this, and I am hand curating
+it. And I'm seeing what I like, what I
+don't, and I'm going through and I'm
+changing it again. But I am choosing the
+states and when they trigger. Endorphin
+has a simulated nervous system. So, if
+we've got our bones and we've got our
+motors, basically our muscles that are
+triggering and flexing, they have the
+third key, which is really the brain of
+the operation. And that's the simulated
+nervous system. This is a collection of
+states and triggers and rules of what
+state to activate and when to activate
+it, and it's running in parallel with a
+physics solver. So, basically what that
+means is my crowd, instead of saying,
+"Hey, run." and then when you get hit by
+this thing, fall, it will make up its
+own mind. So, the animations that we're
+seeing, the motion capture animations,
+are running in tandem with a physics
+solver in Endorphin that will take over
+and think through what it should be
+doing. If this character gets shot in
+the right leg, Endorphin then takes over
+the animation. I'll handle it from here,
+he's in ragdoll state. Now, let me get a
+lay of the land, and it will look at the
+body, it will look at the center of
+mass, it will look at the foot
+placement, then take the mass, the
+velocity of the thing that [music] just
+impacted it, and go, "Let's do some
+quick math here. If this impacts me in
+this way, I need to [music] counteract
+that force. So, my right leg got taken
+out, guess what? I can't put any weight
+on that. I'm going to trigger and
+activate the muscles on the left leg to
+counteract it." And that simulated
+nervous system will enter balancing
+mode, but it's essentially preservation
+of balance. My leg's been taken out, I
+know I have all these other muscles, I'm
+going to start triggering these motors
+to balance myself. Once I lose balance,
+I enter the self-preservation mode,
+which is the collection of options for
+animation that it will go to while still
+running the simulation. So, for example,
+if I know an object is in close
+proximity, you should try to lift your
+arms and protect yourself, and it will
+handle that for you. It is like the
+sexiest thing.
+It's like I just would love to see I
+mean, we'll see where it's at, but I'd
+love to get my hands on it. I mean, man,
+it's like that to me is their ultimate
+superpower. That's the one I love the
+most, and uh why I'm just going to shoot
+legs.
+That's it. Maybe arms, we'll see. We'll
+see what happens. What's up, guys?
+Christian here. When a new GTA 6 trailer
+drops, we all immediately want to know
+what's better. Better lighting, better
+animation, better reflections. We could
+spend this entire episode looking for
+those improvements. But outside of this
+trailer breakdown, better isn't always
+about doing more or making everything
+perfect. Everyone's version of better is
+different. It might mean setting
+healthier boundaries, feeling less
+overwhelmed, or simply just having
+someone to talk to. For me, sometimes it
+means being able to switch off after a
+busy day instead of taking the entire
+production schedule home in my head.
+Therapy can be one tool for working
+towards that, a place you could process
+your thoughts, build healthy coping
+skills, and keep growing over time. And
+that's why this portion of the video is
+sponsored [music] by BetterHelp.
+BetterHelp makes starting therapy
+easier. You take a quiz to help match
+you with a therapist, and you
+communicate however you feel
+comfortable, whether that's a phone
+call, video call, or text. And if your
+therapist is ever not the right fit for
+you, you can switch therapists at no
+extra cost at any [music] time. Better
+is personal, and I think therapy should
+be, too. So, click the link in the
+description or go to
+betterhelp.com/quartercrew
+and get 10% off your first month of
+therapy. I've been using therapy for a
+long time. I I swear by it, and I hope
+it helps at least one of you out there.
+So, thanks to BetterHelp for sponsoring
+this portion of the video. Now, let's
+get back to the GTA 6 extended look
+trailer.
+So, I just want to bring something to
+your attention here. Like, the lighting
+here, when you're seeing shadows, and
+you're seeing light on the characters
+that's not directly coming from a light,
+but bouncing off a wall and hitting
+them, these are things that kind of only
+exist in the world of movies, at least
+in real time, cuz that's so hard and
+crazy to do in a video game. So, as you
+watch this, take note of that. Look at
+not the direct light, but how the light
+is balancing off of walls and other
+things like that in the scene.
+When you're building a scene like this
+in a movie, you just build the thing the
+camera needs to look at. And a lot of it
+can just be dumb, as in like you can
+hand animate a car to go from point A to
+point B, and that's it. Whereas here,
+everything needs to be an intelligent
+system that like can constantly be
+running on its own and simulating
+itself.
+>> Normally with video games, you have to
+basically model and design every single
+space that you interact with. It's all
+very manual and intentional. The way to
+get around that is through using a
+procedural system where you kind of set
+up some sets of rules and then stuff
+kind of gets built out from that.
+Minecraft, for instance, is procedural
+where it's very, very random, but it all
+follows a set of rules.
+>> Building a procedural system is way
+harder than just doing it manually when
+you're talking about one, two, or three
+things. So, in Houdini, Houdini is built
+to be a procedural system. If, for
+example, I need to design, I don't know,
+150 unique crystal shapes for a cavern
+or something like that. I could go
+through and I could model one of them.
+That's way faster than building a system
+to generate them. But, if I need 150
+unique ones, I'm way better off building
+a system that I change one value at the
+top and it trickles down and changes
+everything about it. This is that on
+crack.
+>> Like Joel Terry said, if you have to do
+something three times, build a script.
+>> Beautiful. Up to three crystals can be
+handmade and then beyond that, you have
+to create a system.
+>> Building a procedural system like world
+generator is a whole different kettle of
+fish, which is totally the legit saying.
+Look it up.
+Um they're using a tag system. Every
+object has a certain number of tags
+associated to it. You can choose how
+many you want, but basically the tags
+pertain to the rules of that object or
+that thing, that beard, that outfit,
+where it can exist, what it can exist
+near, what it can exist on top of, the
+order of operations in which the
+procedural system is deciding what to
+create. And so, you know, you have a
+room that's in this area of town that's
+allowed this particular option of
+flooring. Like it literally builds
+itself up from the ground all according
+to the tags and the rules that are
+built. And one of the major advantages
+to having it procedurally generate the
+rooms or the environment as you're like
+driving through it is it doesn't need to
+store crazy amounts of assets in the
+files because it's procedurally
+generating it in real time, which is way
+lighter computationally, which means you
+can have a lot more detail existing in
+and around your game.
+>> The most complex system I would have
+made is like probably the equivalent of
+of like a table with things on it once
+once like you can have three different
+things populate on your table. This is a
+world builder. GTA to me is the Avatar
+of video games where they have the
+funding to like push us forward. Avatar
+exists for me from a visual effects
+sense of like hey, we'll invent the tech
+to make it possible and I'm so glad
+video games has that too. I mean I think
+about things in terms of the scale of a
+movie like trying to get something done.
+How many visual effects shots are there
+of those visual effects how much motion
+capture is required. This scale is
+absolutely certainly going to be much
+larger than even Red Dead Redemption 2
+was but Red Dead Redemption 2 had over
+2,200
+days of motion capture work in order to
+get all the animations in. Oh here here
+here here here. Oh my gosh yes dude.
+The reflection on the door that we
+passed. Look at the reflections in the
+door that we passed. I think this is so
+cool. Pause right now. Frame by frame.
+Do you see it?
+>> Yeah, it's an actual reflection of the
+stuff on the other side of the door.
+>> So note woman in red at the bar. We
+crossed through we look over a woman in
+red at the bar. Are you kidding?
+>> Yeah, that's a real reflection.
+Everyone's like who cares what's the big
+deal about a real reflection. If you
+play in a video game you probably heard
+of screen space reflections or ray
+tracing.
+>> If I haven't what the heck is that?
+>> All right well if you go a little bit
+further here there's a little fountain
+there. The fountain's reflecting things
+that are on the screen right? So that's
+something that could be a screen space
+reflection in the sense that all you're
+doing is when you're rendering that
+water you're just looking at the image
+on the screen already going oh the
+pixels here in the water have already
+been rendered. They're right here and
+I'm just going to repaint them down
+here. The problem is if the camera then
+like looks down like let's say the
+camera tilted down so the top edge of
+the frame didn't show that plant then
+you wouldn't have the reflection of that
+plant in the water and you see that in a
+lot of games like with oceans and water
+as you look down things that were
+reflecting like clouds and planes
+disappear as they get clipped out of
+frame.
+>> Cuz it's just way more efficient to not
+worry about rendering those things when
+they're not in your actual direct view.
+>> It's basically a free way of getting
+reflections. But the door The door
+requires you to render something that's
+not in frame. And so what you have to do
+is actually to bounce a ray from the
+camera to wherever that ray would go
+when it bounced off the door and then
+render that thing. And that's really
+intense on your graphics processing
+unit. And that's like the basis of like
+modern CG rendering for visual effects.
+>> We're watching that happen here in this
+demo, which was recorded on a PS5, and
+we're watching it happen 30 times every
+second.
+>> Well, how are they doing that? How are
+they like why aren't movies rendering
+reflections like this? What are they
+doing that's magic? It's really pretty
+straightforward. It's like when you look
+at the reflection, you'll notice that
+it's actually still a little bit grainy
+and a little bit low res.
+>> It's like It's like warpy.
+>> Yeah, it's a little warpy. And that's
+because they're doing those samples are
+called tracing a ray out and having it
+bounce and hit something. They're not
+doing that many of them. And you're
+getting a very blotchy image back, but
+then they're using advanced noise
+reduction to smooth it all out. And not
+only is it doing, you know, a couple of
+like, you know, blurs effectively
+between all the samples, it's also
+looking at what the previous frame saw
+and the frame before that and using that
+as kind of extra information to all
+group up and make a predicted smooth
+image rather than just having to render
+it from scratch every frame, which is
+what they do for movies. So they get
+away with a little bit lower resolution,
+they get away with noise, and they, you
+know, do all these little tricks to
+smooth it out, but still it's crazy.
+>> It's not all magic though, because
+there's no splashes from the little
+fountains landing back in the water. So
+they're not doing that. It is still a
+game at the end of the day.
+>> What's up?
+>> Good job. It has to be done in the
+night.
+>> Tonight.
+>> There's a spot coming up here. There's
+such a flex coming up, Nico. Watch Watch
+the background. Watch the NPCs in the
+back.
+>> He only wants one of you.
+>> World?
+>> You know
+>> I don't mind.
+>> NPC in the background?
+>> Wait, what?
+>> Oh, she just brushed Oh my gosh. She
+literally flicks her hair out.
+[laughter]
+She's an NPC in the background. Why do
+you have that level of detail in your
+hair?
+>> [laughter]
+>> You should have a static mesh. You
+should have a LEGO head. And you're over
+there flicking your hair around, getting
+all flirty with it.
+>> He wants it on the quiet, huh?
+>> This is my favorite shot. Her hair there
+>> Loses her head and catches on her sweaty
+shoulder that we're seeing sweat on her
+shoulder.
+>> Dude, look at the mojito with the
+freaking mint leaves stuck on the side
+of the glass.
+>> Yeah, and it's also translucent, so it
+captures that shadow from the backside.
+>> It It is refracting.
+>> It's refracting, dude.
+>> refracting the mat the mat texture
+through the glass.
+>> Okay, why are we freaking We got to talk
+about why we're freaking out a little
+bit here.
+>> Once again, it's ray tracing. You have
+to draw a ray, have it hit the cup, see
+where it bends. But glass actually like
+a cup like that has four intersections.
+When you hit the glass, you come out of
+the glass, you go through the center of
+the glass like the eye of the hurricane,
+then you hit the other side of the
+glass, then you hit the other end of
+that glass to get out. That's four
+refraction hits for any ray going
+through that cup, and you can see the
+detail of that place mat behind it. Like
+that's a lot of GPU cycles.
+>> What's [laughter] interesting though is
+we're not getting refraction through the
+flower vase.
+>> Oh.
+>> So it's almost like they I mean again,
+the systems being built the way that
+they are, they adapt and prioritize
+different areas and different things in
+order to keep your frame rate consistent
+cuz that would just piss everybody off.
+>> That's the hidden work. That's the stuff
+you don't see.
+>> That's the magic sauce is how they slide
+a hand you and take away detail in this
+area when your eye is drawn here and
+make sure it has it there.
+>> Look at that mojito cup and compare that
+to that bunk cup.
+>> Yeah, bunk cup.
+>> in the middle of the table. But you know
+what? It's like they got the one in the
+front, they're done.
+>> Yeah.
+>> Go back to your hair.
+>> In video games, hair is usually a
+texture on effectively a ribbon, like a
+cloth simmed ribbon doing very basic
+like sim, and then you just have a
+texture that's almost like a brush
+stroke, and you just do like a hundred
+of those on a character's head and
+that's what you do hair. [music] And
+Rockstar has not released any
+information on how they're doing the
+hair.
+>> Yeah, we'd love to know.
+>> So in a film, if you want to simulate
+hair, you're going to basically simulate
+ropes, strings coming out of the
+character's head, and you're going to
+dictate how much actual hairs are going
+to be parented to that string. So let's
+say I was a CGI character in a movie,
+and you have my hair here. So like this
+strand of hair in a movie might be
+represented basically by just doing the
+physics simulation on one hair or one
+string. When you render it, you render a
+bunch of other lines or strings that are
+basically just being moved by that one
+string and they can have their own like
+slightly different interpolation on it
+so they feel like they're separate but
+in reality the sim is just one rope
+that's happening and it's rendered with
+multiple ropes effectively parented to
+that one rope. And the more advanced the
+movie, the more of those basic strings
+they're simulating to the point where
+sometimes you can get to the you can
+just simulate every single hair. If we
+are doing a full on hair groom for a
+movie, you utilize something called
+guide hairs. These like individual
+splines with a certain amount of points
+that you can groom and comb into the
+style that you want but it's way
+computationally lighter to have far
+fewer of them. The actual individual
+hairs don't come until render time
+because it's computationally way lighter
+to do that way but you would groom and
+simulate the motion and then create
+interpolated hairs in between all of
+those guides. And basically it's a
+simple linear interpolation between
+them. If I have a straight one and I
+have a curly one, all the hairs that are
+created come render time will slowly
+morph between the two. So the more guide
+hairs you have, the more diversity you
+can have, the more individual behavior
+you can have, the stray hairs that pop
+out. But of course it comes at a higher
+computational cost. So what I'm seeing
+here is probably a few different
+approaches. Like as we move further
+away, are they changing the systems on
+the fly? I don't know.
+>> So actually Jordan, this has been deeply
+analyzed by other people than myself and
+they concluded that there is no other
+hair system in the game.
+>> Are you kidding me?
+>> It's all strand based hair.
+>> Are you kidding me?
+>> No, and it's definitely not being
+rendered the same way the hair is being
+rendered in a movie. It's getting really
+close to approximating that. And if you
+look closely, you can see a little bit
+of grain in the hair implying that the
+hair is being rendered almost at like a
+lower resolution or like a different
+kind of process and being up sampled
+with you know temporal anti-aliasing and
+other types of anti-aliasing to get that
+clean look.
+>> Jason,
+we'll see you.
+>> Here.
+>> Yeah.
+>> We got to go.
+>> Go?
+>> Hey, did you have you guys noticed how
+they're able to like get into cars and
+the lighting in the car looks good?
+>> You can't just put actors in a car and
+film and expect them to be lit well.
+These look like they're cinematically
+lit inside of the car.
+>> But that means that if you're going to
+make a video game, you have to somehow
+manually set up lights for every
+character in every single car in this
+world that's all set up for every single
+spot you could possibly be in. That
+doesn't make any sense. Somehow you need
+a dynamic system that's lighting the
+characters in the car correctly based on
+the world around them.
+>> You have direct light from the sun, but
+everything else you just saw was ambient
+light, global illumination.
+>> Yep.
+>> Which by the way, is one of those like
+big boy ray tracing things that you only
+really get in movies. You don't get that
+in video games. And the entire scene
+here has been lit with that. And global
+illumination was like the key to making
+things look photoreal in CGI. Well, one
+of the many keys, but it's a very
+important one. So, for example, right
+here in this room, we have a light right
+there. We have a pink light right there
+and a pink light in the back. And then a
+blue light shining on that wall.
+>> And yet, even though there's no lights
+over here, if I hold my hand here, you
+can still see light on my hand. There's
+no lights over here. So, how is my hand
+getting any light? It's impossible.
+>> So, anyways.
+>> [laughter]
+>> The reason is that light is hitting that
+wall. It's bouncing off that wall after
+losing a little bit of energy and then
+hitting my hand. So, the whole world
+around you, everything is bouncing
+light. Everything is a light. But the
+whole world being lights is not
+something that you can render on your
+PlayStation 5.
+>> [laughter]
+>> In movies, like for example, in the
+first Avatar, they're walking through
+Pandora, there's all these glowing
+things. And they're not direct lights,
+but yeah, you're seeing that glow and
+that bounce light on the characters. So,
+for the very first Avatar, they used a
+piece of technology called spherical
+harmonics. And that's a very similar
+thing they're doing in GTA 6, actually.
+>> You guys might be familiar with the idea
+of image-based lighting. The idea that
+you take a 360° image, you make a ball
+out of it or a dome, and then you light
+something within that. Pretty
+straightforward rendering technique,
+it's been around for a long time. Even
+in a lot of video games, you'll light a
+world with that. But you can use that
+concept to effectively cheat or mimic
+global illumination by making a lot of
+little 360° lights that are sitting
+everywhere. So, imagine I go right here
+and I do a little scan of the room and
+make a little 360° light sphere here.
+Then imagine I also do it right here.
+And then I do it right here. And then I
+do it right here. And as I move a 3D
+object through the room, rather than
+actually calculating all the global
+illumination, it just transitions to
+being lit by each one of these little
+360° light scans that I do.
+>> Like a little HDRI?
+>> Exactly, like a little HDRI.
+>> Localized HDRI, that's cool.
+>> So, what they are doing in GTA 6 is the
+whole world is being basically divided
+up into grids. And then these little
+light probes, they're called, but
+basically imagine them being little 360°
+cameras are inside each one of those
+grids and going
+and just doing a really fast low
+resolution render of just the lighting.
+And then as your characters are moved
+through these, that becomes the
+lighting. That's the thing that says
+like, "Okay, hey, there's a light source
+here and there's a light source here."
+But the crazy thing is, those little
+spheres update every frame. And so, when
+you first walk into a room in that very
+first frame, they haven't updated yet.
+But with each frame, they're going to
+render the scene again and again and
+again, and that lighting will stack. And
+that's effectively your bounces. Cuz in
+real life, that light hits the wall,
+boom, and bounces off the wall and hits
+me, but it also hits the wall, bounces
+off Jordan's white coat, and hits me.
+And that's a two-bounce thing. And so,
+for every frame, those little spheres
+update, and then you get more and more
+bounces until the scene is fully
+rendered.
+>> of black magic freaking That's just one
+of the however many things we're seeing
+per frame that's going on, cuz there's
+so many other systems at play.
+>> Right.
+>> I don't I don't understand Leave a
+comment down below if you understand how
+any of this is possible.
+>> They've put almost all of their ray
+tracing budget, all the GPU cycles, into
+this global illumination. You get a
+little bit of ray tracing on certain
+glass objects, like the door that we
+saw. Nothing else gets ray tracing. The
+only other thing that's that gets ray
+tracing is the global illumination
+system. Because this game is built where
+that's all unified and that's all there
+is, all the volumetric light just pulls
+from those probes when the light wants
+to light itself. So, when you're looking
+down that hallway and you saw the light
+where the haze is lit underneath the
+light and then it start and then it
+slide again, that haze itself is pulling
+the light from that 360° probe of the
+scene right there, not just from the
+direct light sources. And here's the
+biggest thing, most gamers, most top-end
+PC gamers like myself
+>> [laughter]
+>> are used to running 60 frames per second
+4K. So, for GTA 6, they're not putting
+out a 4K image at 60 frames a second.
+First off, they are doubling the amount
+of time they get per frame to render it
+by getting down to 30 frames per second.
+And then on top of that, instead of
+doing 4,000 by 2,000 pixels, they're
+actually doing about 1,400 p, maybe even
+less. I wouldn't be surprised if it
+dynamically scales the resolution
+depending on what's on screen. So,
+you're actually getting a lower res
+image being rendered effectively at half
+frame rate that's then scaled up for
+your 4K TV. And that's another way
+they're getting this kind of
+performance. You start to see how
+they've shaved off and optimized this
+and done as much as they can to get the
+look of what you get from a movie, but
+they're taking all the shortcuts they
+possibly can and all the optimizations
+they possibly can
+to like not make your PS5 melt.
+>> [laughter]
+>> You can You can see some of the noise
+there on her arm.
+>> Oh, you're right. Wow. It's like a
+flickery splotchiness that you're seeing
+in the shadows.
+>> If you don't render with enough samples,
+it's called, you're going to have a
+whole bunch of noise in the image. But
+when you have frame after frame after
+frame after frame and every single noise
+pattern is completely different, it
+starts to flicker like crazy. And if
+you're low enough samples, the
+flickering is really ugly. And so, you
+do some denoising on the back end of
+removing that noise outside of sending
+more and more and more samples, which
+just takes forever to render. So,
+denoising, as Nico said, has gotten so
+much better, but if your samples are low
+enough, the denoising can only do so
+much and so you still see that
+undulating noise pattern, but now it's
+kind of smoothed out like butter on
+toast. a obviously a lot of like very
+optimized denoising going on to keep the
+samples as low as possible so they can
+pack in the detail on a frame-by-frame
+basis in real time. It's so crazy. I
+know I called GTA like the avatar of
+video games and it totally is, but it's
+funny that the the principles are
+completely inverted where every time
+we've had someone from Weta and we're
+like, "How did you do this?" Like
+She-Hulk, we were talking about the
+eyes. The eyes looked really good. We're
+like, "How did you do that?" And he's
+like, "Oh, we just built the eye. Like
+we built the physical model of the eye
+exactly how light is supposed to
+penetrate the eye. That's why it looks
+real cuz it basically is real." This is
+like the opposite of that. It's like,
+"How do we do that while not doing any
+of it?" You know? And it's such
+[laughter]
+it's such an interesting art form.
+>> The fire uh when she throws the Molotov
+cocktail, that was the one moment where
+I'm like, it's fine.
+>> flames on it.
+>> It's 2D sprites of fire placed in 3D
+space as opposed to like a full fluid
+fire simulation. They're doing
+everything so crazily. It's nice to know
+that there's still some things they
+can't do.
+>> Look how many people are in that scene.
+Go back to the club.
+>> That's a club, dude.
+>> The sweat on her shoulders there.
+>> She got sweaty.
+>> It's hot. It's Florida, dude. We've been
+experiencing Florida weather here the
+last week.
+>> [ __ ] I look basically just like her in
+the morning.
+They got a specific patent for their
+solution for small-scale fluid
+simulation. And that's the sweat that
+we're seeing on the back. This stuff is
+being generated and simulated in real
+time, rasterized as 2D texture, and put
+onto the body. [music] This is actually
+something that you can do in Houdini
+right now where you can do a fluid
+simulation, let's say a pyro simulation
+for example, generate your smoke,
+rasterize it as a 2D flat thing, and
+then stick it to the UVs of your
+character or your object. essentially
+turned a simulation into a lightweight
+texture. And that's what they're [music]
+doing with these liquid simulations. Of
+course, since they patented it, it's
+their own unique real-time way of doing
+it, which is so cool. But we're seeing
+it utilized all over the place. It's not
+[music] real liquids that are being
+simulated per se, it's a lightweight
+approximation just through a change in
+lighting. Like this is a perfect
+example. Like all the sweat that is
+running down her body. [music] So many
+complex systems at play at the same
+time. It's like just thing after thing
+after thing.
+>> Can I introduce you to Undress's new
+security detail, Jason and Lucia?
+>> I've noticed the more I watch this, the
+more I'm seeing how they are repeating
+the same stuff. Not in a bad way, but
+like they're really good at plant
+leaves. So, there's plants everywhere.
+They're really good at hair, so there's
+hair everywhere. They're really good at
+fabric that has like the close-up
+texture, so all the clothes have fine
+textured patterns on them. So, they're
+identifying what they've built in their
+engine, and then they're flexing that
+feature as often as possible throughout
+the game.
+>> I have so much respect for the
+developers and designers behind this
+game because they released something
+like this, which there are so many
+categories of technology where they're
+now leading the charge. And I still saw
+on Reddit someone post a screenshot and
+go, "I'm really worried about this
+vignette." Vignette's a bit much, no?
+It's like, "Dude, shut up."
+>> [laughter]
+>> He's worried about the vignetti?
+>> He's worried about the vignetti. I'm
+like, "Then don't buy it, but I'm going
+to."
+>> Now, I've been waiting for somebody to
+do this in a video game where like they
+fully commit the real-time global
+illumination, and they fully commit
+[music] to like legit physics sims and
+proper bounce light for how you're
+rendering your world. And that stuff is
+so hard to do. As you can see, it takes
+years and years and years of just
+programming those systems cuz no one
+else has made them. And then you have to
+sit there and be like, "How are we going
+to get this to work on a PS5?" But, they
+are bringing rendering techniques
+[music] that really only existed in the
+CGI world to the world of real-time.
+What you're seeing with GTA 6 is special
+in that it's a bespoke from the ground
+up for this one thing, a decade of
+[laughter] work. Like, yeah, you don't
+you don't get this kind of stuff very
+often.
+>> Yeah, I feel like you need industry
+leaders like this, like Avatar is for
+visual effects, this being for video
+games, to make everyone aware of what is
+actually possible. It's funny, I find
+myself creatively in a bit of a box
+sometimes when I'm like, "Oh, that's not
+possible for us." And then you go to
+Avatar 3 and you go, "Oh shoot, wait, it
+totally is." And then often times years
+later you'll get kind of the
+trickle-down tech that results from that
+or people now knowing it's possible, so
+trying to implement it in a cheaper way
+or in an open-source way. And so, I'm
+excited for these systems to kind of see
+the light of day and have much smarter
+people than me iterating on systems that
+we can access and use. If I can make one
+play, there's a lot of patents having
+been made. A lot of tech that's being
+protected here. You guys are going to
+release this game. You're going to make
+$2 billion in the first day, probably.
+Keep selling it for 15 years. I don't
+care. Just please, please give us
+Euphoria.
+>> Yeah.
+>> Please.
+>> real.
+>> Can we have Can we just have a piece of
+it? Come on. Come on. Come on.
+>> Come on.
+>> Come on. I know one of you are watching
+this. I've seen there's backdoors at
+Rockstar. Some stuff's been slipping
+out. What's [laughter] one more leak?
+>> Yeah, come on.
+>> Come on, man.
+>> out there. All right, so that's a little
+deep dive into the world of game tech
+and how it intersects with movie tech
+and all the crazy stuff they're doing in
+GTA 6. If there's technology from GTA
+that we didn't touch upon and you want
+us to maybe hit in a react episode or
+something like that, you know, let us
+know in the comments below. And in the
+meantime, some of the dungeons are
+coming out soon. Get ready.
+quarterdigital.com. Thanks for watching.

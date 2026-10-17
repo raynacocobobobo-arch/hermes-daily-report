@@ -1,0 +1,323 @@
+UP主：AI Engineer
+标题：ACP: The Universal Remote Control for AI Agents — Alex Hancock, Block
+链接：https://www.youtube.com/watch?v=YkNulwcc5jk
+
+[music]
+>> Hey everybody.
+Um
+my name's Alex Hancock. Today I'm going
+to talk about a universal remote control
+for AI.
+And before I start, I just want to say
+the previous speaker said that MCP
+client maintainers haven't implemented
+support for tasks because they're smart.
+I'm an MCP client maintainer. I can tell
+you it's just because I'm lazy. I
+haven't done it.
+Um
+Okay. So, a little bit about me before
+we start. I am a software engineer at
+Block, which is the parent company of
+Cash App and Square and Title. We have a
+few different things going on now. Um
+and I've worked there for a long time. I
+worked on Square product stuff and Cash
+App stuff, but I've been doing open
+source AI for the last couple years.
+Specifically, I work on this open source
+harness project called Goose, which
+started as an internal project at Block.
+Yeah, some Goose fans out there. And
+then uh yeah, we open sourced it and we
+donated it to the Linux Foundation. So,
+now the IP is there, but we still lots
+of us from Block still work on it.
+Um I'm also a maintainer of MCP, the
+Model Context Protocol. I work on the
+Rust SDK for that project. And more
+recently, I've also started some work on
+ACP, the Agent Client Protocol, which is
+what I'm going to talk about today.
+So, I think I think we have an issue
+with harnesses that I want to I want to
+try to put to you all today,
+uh propose to you all today as a problem
+and then and then recommend a a
+solution.
+So, what I've been noticing recently
+is that we've got lots of great
+harnesses out there, right? There are
+ones from the labs, there are one from
+ones from different companies, there's
+lots of open standards-based ones.
+Um but I noticed that the interface to
+them
+is often custom or bespoke. And in in
+the worst case, it's like you might have
+some harnesses where there's literally
+only one client application you can use
+to control that harness, right? And I
+think this has a couple issues with it,
+but the analogy that I'll make with the
+web is it would be like if you had to
+use one browser or a
+one given protocol to connect to a to
+every website, right? That just wouldn't
+work. You wouldn't have something like
+the open web if if that were the reality
+with browsers. And so I think we can do
+better.
+And the thing about standards by finding
+a standard and the thing about standards
+is that they create ecosystems and
+markets.
+And I would argue that in the agentic AI
+space, we have a good standard for the
+agent going out and doing things, right?
+Calling tools, taking actions in other
+systems, reading resources, reading
+data. We've all benefited as a community
+from having MCP.
+Right? And the most powerful thing about
+MCP is not anything about MCP itself,
+but it's that everyone uses MCP.
+And that's why we have, you know,
+thousands or tens of thousands of
+servers around the world and all the
+agents can connect to them and go and do
+things in those other systems.
+I would say that we don't yet have a
+good solution or a standard for client
+software to tell agents what to do.
+Giving it tasks, telling it what to work
+on and getting updates.
+And so
+I'm going to put forward an option today
+that I think is a good option that that
+we on our team have been working on and
+we think is a good a good solution in
+the open standards space.
+And this is ACP, so agent client
+protocol
+is the name of this project and it came
+from the editor companies. It came from
+like if you've used the Zed text editor
+or you've used any of JetBrains
+products, the Zed folks and the
+JetBrains JetBrains folks teamed up and
+proposed a standard for
+um clients to be able to control
+harnesses. And it makes sense if you put
+yourself in their shoes, right? What
+they wanted to be able to do is write a
+single high quality client
+implementation in an editor, maybe in
+Zed or in IntelliJ or something like
+that, and be able to control any harness
+by with that single client
+implementation, sending tasks, getting
+results back,
+seeing what files are being edited, etc.
+It makes a ton of sense if you put
+yourself in their shoes, right? But we
+saw this on the Goose team, and we think
+that there is a much broader utility
+than just editors, right? So it's a
+it's it's relatively neutral and it
+doesn't have many editor specific
+features. And so we think that this can
+can go to a be spread to a wider range
+of client software.
+To go into a little bit more depth about
+ACP's design and and what you can do
+with it,
+it lets you establish connections
+between clients and agent harnesses that
+have a given
+a set of capabilities associated with
+the the connection, and then you can
+make sessions. Within sessions, you can
+send user messages, the things that a
+user is maybe typing into the app or
+that the client software wants to send.
+The agent can then respond to those with
+text,
+uh more images or audio, text, etc., or
+updates about what's going on. So like,
+if a tool is called, it can send a tool
+call notification and explain what tool
+was called and what the metadata was.
+Um and it can also send things like
+permission requests, so that if the
+client software needs to show the user,
+you know, "Should I do this tool call?
+Yes or no?" It can go over this uh
+this protocol. And it's it's pretty
+simple in its design. Uh it uses JSON
+RPC messages, and the thing we like
+about it most is that it's extensible as
+well, so you're not limited to just
+what's in the vanilla protocol. You can
+add custom methods. So the
+the convention is you put an underscore,
+and then you start to put your custom
+methods. And the thing I like about this
+is that if enough harness projects or
+client projects adopt this,
+we can start to see what we're all doing
+that's the same,
+right? Like if the Codex team has some
+custom methods, the Goose team has some
+custom methods,
+uh the client team has some custom
+methods, whoever, we can see what
+emerges in the in the ecosystem and what
+makes sense to get on a standards track
+and bring into the protocol itself so
+that this is sort of shaped by usage and
+shaped by the community.
+Um I'm going to do a demo
+of a standard IO version of this. So,
+I'm going to open Zed and I just have a
+really simple project here
+where I'll say, "Tell me about this
+project." And so, this is a single HTML
+file.
+So, you can see I was able to type my
+query into Zed and this is the agent in
+play here is Goose, so it's using
+Goose's ACP interface.
+And it's you can see it's like sending
+text back, it's sending tool call
+information back
+um about what it read and what it did
+and then it found, you know, that it's a
+single HTML file and then explained it.
+And I'll do another
+I'll do another one. This is one from a
+company called Poolside AI.
+Uh
+I'll say, "Tell me about this project."
+In the same project. And so, this is a
+terminal-based client getting exactly
+the same experience from the same agent,
+one implementation on the harness side,
+and you can now use any client. Right?
+And so, you can see it did the same
+thing. It showed me
+some text results back, it showed a tool
+call, and then it showed a It's it's
+streaming in a summary.
+Um
+So, that's a basic demo showing two
+clients talking to the same agent
+uh over standard IO locally in this
+case.
+But local obviously isn't enough, right?
+If you want this to take off, you have
+to be able to do remote as well. Agents
+are going to be running in the cloud.
+And so, when we came to this project, we
+saw that it did not have remote support
+yet. So, we specified an HTTP transport.
+There's an HTTP version and there's a
+websocket upgrade. And so now, the
+messages are the same, the protocol
+semantics are the same, but there's a
+new transport that is just landing now
+that enables remote.
+And
+the way we think about this on the Goose
+team, the agentic stack, is there's sort
+of these four important components,
+right? You have the client,
+which is like the app that the user is
+using or a headless app running
+somewhere on a machine. There's the
+harness, which is the program that
+implements the tool calling loop.
+There are the tools themselves. This
+often MCP. And then there's the model,
+right? And if you do a remote transport
+for the agent client protocol,
+and MCP has remote transport for tool
+calling,
+and the models have kind of all had
+remote endpoints like responses APIs for
+a long time. Now you have the
+flexibility to move all of these four
+components around. They could all be on
+the same machine. The harness could be
+on a different machine than the client.
+Uh the model could be the only thing
+that's remote. The tools could be the
+only thing that's remote. Uh aligning on
+standards and making sure that they have
+good transport stories is what's going
+to let us move all the pieces of this
+agentic stack around.
+And I can show a quick demo of this as
+well.
+So, this is a a client just to show how
+easy it is to create clients for this. I
+just live-coded this, you know, last
+night. And I'll say, "Write a poem." So,
+this is again connecting to that same
+process on my machine.
+Uh in this case I'm running it over the
+network, but it's on my machine. It's
+connecting and sending Goose
+instructions for what to do uh remotely.
+So, this could be in a container, could
+be up in the cloud, but the messages are
+the same and the library you use is the
+same. So, you can just switch between
+local and remote very, very easily.
+Um
+So, if you want to get plugged into this
+ecosystem, start experimenting with
+support, either making your own clients
+or adding stuff to harnesses, this is a
+this will link you to the agent client
+protocol site for
+how to get started. There's a number of
+clients and and agent servers are out
+there. This ranges from editors, desktop
+applications, mobile applications,
+terminal based things, like there's a
+proliferation.
+And
+I I think the use cases are are are
+potentially huge, right? If we if we get
+some interoperability going here because
+you can have people can make personal
+clients that's exactly how you want it
+orchestrating your agents. You could
+have sort of clients created for certain
+business domains or an individual
+company or a set of clients from a
+company you could customize like a white
+label
+client have it work with all the
+harnesses. And I also think if we make a
+new category here,
+we're going to see quality of the
+clients go up, right? Because any
+anytime you get an ecosystem or a
+marketplace going and there's many
+options,
+users can vote with their feet if
+clients aren't meeting their needs and
+so people will start to compete on the
+quality of the user experience and and
+like overall I think this should drive
+up uh
+the user experience of using AI.
+That's what I've got today. Thank you
+very much. And if you want to chat with
+me, find me after or send me an email.
+Um happy to get you plugged into this
+work.
+Thank you.
+>> [music]

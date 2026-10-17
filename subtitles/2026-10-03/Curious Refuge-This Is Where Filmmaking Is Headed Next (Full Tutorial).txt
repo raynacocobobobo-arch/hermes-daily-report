@@ -1,0 +1,396 @@
+UP主：Curious Refuge
+标题：This Is Where Filmmaking Is Headed Next (Full Tutorial)
+链接：https://www.youtube.com/watch?v=HVeHHAfiR44
+
+Last week we talked about a brand new
+production workflow that has the power
+to completely transform the way that we
+create films. It's called gray boxing
+and essentially all you have to do is
+shoot a version of your film in a very
+plain environment with very flat
+lighting. And then by utilizing AI
+tools, you can take that very simple
+scene and transport it into any
+environment. For example, we have this
+very simple footage of Joel, who is a
+member of the Curious Refuge community,
+hiding behind a car. And by uploading
+that video clip to C-Dance 2.5 and
+prompting for a dystopian environment,
+we got this. And that's pretty crazy.
+Essentially, we created an entire world
+that would have been crazy
+cost-prohibitive to pull off. Now, that
+workflow is cool, but there's a very
+glaring problem here. Every single time
+that you hit render, you're not actually
+controlling what the environment looks
+like. You're prompting for it. And
+because of that, there's going to be a
+lot of inconsistency inside your
+environment. But what if it was possible
+to have even more control over what your
+scene looks like? Well, that's what this
+video is all about. My name's Caleb,
+welcome to Curious Refuge. Be sure to
+like and subscribe if you want more
+videos like this in the future. So,
+let's get into the meat and potatoes of
+this tutorial. So, for this test, I have
+this video footage of Joel running
+inside our gray box environment. Again,
+this is lit with some very large
+diffusion screens to keep everything
+fairly flat. So, you can see we have our
+camera here that's tracking above her,
+and we asked to simulate a cliff
+environment. Camera looks over the top
+to really reinforce how high up she is.
+You get the idea. Now, we want to
+replace this studio environment using
+artificial intelligence. So, normally
+inside of this workflow, you would have
+to take this video clip, upload it to C
+Dance, prompt for the changes you're
+looking for, and basically re-prompt
+again and again, and that can really add
+up inside of C Dance. So, what we're
+actually going to do is take our very
+first frame here and change it utilizing
+AI image tools. And there's a lot of
+ways to get still images of that very
+first frame, but inside Adobe Premiere
+Pro, which is the video editing tool
+that I typically use, all you have to do
+is bring your footage in, and then
+there's this little camera icon to
+export the frame, and then you can save
+it to your computer. Now, to stylize
+that starting frame, there's quite a few
+different tools that you can use.
+Notably, you have GPT 2.5, C Dream 5,
+and then you also have Nano Banana Pro
+or Nano Banana 2, although Pro tends to
+do a better job. I'm going to utilize
+GPT 2.5 because it's the more recent
+model that has dropped, but you can get
+decent results with all of those tools.
+Sometimes it really does depend on the
+overall scene that you're working with,
+and we'll talk about that in just a
+second. So, to create your image, you're
+going to need to hop into an AI image
+aggregator. I'm utilizing Magnific, but
+you could use Artlist or Korea, or
+really any aggregator that you want to
+use. Now, you can see I have GPT 2.5
+here selected, but for the variant,
+we're actually going to select Sun Burst
+here, which is a more intelligent
+version of the model. Now, for our first
+image that we uploaded, we have our
+starting image of the very first frame
+in the gray box environment, and for our
+second image, we have a mid-journey
+image that embodies the color grading
+and overall cinematic style that we're
+going for. And for our prompt, we'll say
+change the location and setting in image
+number one to the edge of a cliff in
+Ireland. Use image number two as a color
+grading, lighting, and style reference.
+And of course, if we wanted to get into
+even more specificity regarding what we
+want to see from this overall scene, we
+can do that. We can bring in more
+supporting assets, we can prompt it
+further. It really just depends on the
+project you are working on. Now, you
+have the ability to create multiple
+images at a time. I recommend creating
+more than one, and then you can change
+the resolution. You do need to probably
+have at least a 2K resolution just to
+get maximum quality there. And then I'm
+in the high setting. You can go to max
+if you wanted to, but I recommend only
+going there if you're not getting what
+you want from the initial generation.
+And when you're ready, go ahead and hit
+generate. And after about a minute, we
+have a few different references, but
+this is my favorite one here. I think it
+feels very filmic. I love the color
+grading. I like that the lighting has
+changed, and I like that you can really
+feel the suspense of that cliff right
+around the corner. And the overall angle
+is actually very accurate to it being
+kind of over her shoulder still looking
+down. I think it did an amazing job. So,
+we'll use that as our starting image.
+So, now we have our reference image
+here, and we have our reference video of
+our actor running up to the edge of a
+fake cliff. The last thing that I want
+to create is a depth map. And a depth
+map is basically a black and white
+version of your scene that interprets
+depth. You can use it to help the
+overall AI generation understand what is
+happening in terms of where objects
+should be positioned throughout your
+scene. It's very helpful in a visual
+effects workflow as well. This is an
+optional step. You don't have to use a
+depth map, and sometimes it's actually
+worse to use a depth map, but I want to
+compare and contrast the results. So, to
+pull this off, I'm going to utilize an
+AI video aggregator inside of Magnific,
+and we have Seedance 2.5 selected. So,
+we have both video clips and the
+starting reference image and for our
+prompt we'll say use image one. That's
+the starting image as the first frame
+and then use video one. In this case
+that's the depth map as the motion
+reference. The woman runs to the edge of
+a cliff and then there is no music only
+ambient sound effects. And that works
+some of the time but you'll see in just
+a second. Now you do have the ability to
+generate multiple shots at a time.
+Depending on your budget that may be
+feasible for you. If not you may have to
+do one at a time. It does take longer to
+pull that off but you end up saving
+money. So it just depends on what the
+overall project is that you're working
+on. And for resolution you can go up to
+1080p and then set the overall duration
+to the exact duration of the inputted
+video clip. I should note that this only
+works up to 30 seconds long which should
+be longer than most video clips that you
+have inside a film context. And then you
+are in 16 by 9 and we will have audio
+on. You don't have to have audio on and
+sometimes it does a better job when you
+don't have audio on. So that's just a
+bonus. You really don't have to have
+that selected. And when you're ready you
+can go ahead and hit generate. So I have
+two different examples I want to show
+you here. One version is using the depth
+map as the motion reference. The other
+is using the original source video. So I
+wanted to compare and contrast both of
+them to see what we get. So with just
+the original source video and the image
+that is not the black and white version
+of the video we get this.
+And yeah, got to say that's pretty darn
+amazing. I do think there's something
+about the way her feet are hitting the
+ground especially in the early part of
+the scene that doesn't feel crazy
+realistic. It's not terrible and it took
+me quite a few watches before I really
+began to notice it, but it is there.
+It's almost like a weird virtual
+production workflow that just got
+slightly off. And frankly, most of the
+high budget TV series that I watched
+lately kind of struggle with the same
+thing and so I think audiences are
+willing to suspend their disbelief. It's
+really kind of splitting hairs at this
+point. But overall, it did a pretty good
+job. But I do want to compare that
+against the same generation utilizing a
+depth map workflow. So this is the black
+and white version of the footage in
+conjunction with the original footage as
+well, but we're trying to use the black
+and white footage for the motion
+reference. The reason why I want to use
+both the original video and the black
+and white footage is because I want the
+actual likeness of our character to come
+through. And that gives us this video.
+And yeah, that one was really good. In
+fact, I think that one might be a little
+better. So both workflows are very
+interesting and you can see we had much
+more control over the color grading and
+the output of this specific video clip
+versus if we would just would have gone
+to see "Dance Alone". But I have a few
+different examples that I want to show
+you that I think are also really
+interesting. So for our next video clip
+here, we have this camera slowly
+approaching the two actors here as
+they're having a conversation. And we
+want to convert it into a fancy bar
+scene. So for this example, I have two
+different images. I have this one here
+that utilized GPT 2.5 and then I have
+this image that utilized C Dream. So we
+ran the first one through with the depth
+map and that gave us this.
+>> I want I think it's time for us to sip
+some Merlot
+and
+let the storm pass.
+>> In 4 days
+the army's going to here and the city is
+going to be flat. You know you want out.
+Do you want to go down with it?
+>> Okay. And uh yeah, it's pretty good. I
+don't know if I love the lighting, but
+that really is more of a problem with
+the base image as opposed to what we
+were expecting to get from C Dance. So,
+let's do the same generation utilizing
+an image from C Dream. This one you can
+see had much more dynamic changes to the
+lighting. I think C Dream's a little
+better at changing the overall lighting.
+GPT can tend to stay with the base
+lighting that you have in the original
+source image. Not always, but most of
+the time. And that's why it's important
+if you know what the lighting should be
+to basically move your lights around
+inside your gray box environment. You
+don't always have to shoot it flat. So,
+we rendered utilizing C Dance 2.5 and
+that gave us this.
+>> Thinking I want I think it's time for us
+to lay low
+and
+let the storm pass. In 4 days,
+>> And yeah, it did an amazing job. There
+are some slight differences in the
+performance of our actors there. It's
+ever so slight, but it's worth noting.
+You do want to keep an eye out for that
+if there are specific performances that
+you want to come across inside of your
+project, but it still was pretty darn
+impressive. So, for our next example
+here, I want to take this video footage
+of Joelle here grabbing the screwdriver.
+And I went into GPT 2.5 and replaced it
+with a scroll here. So, that's our
+starting image. And then we also have
+this outfit reference that we want to
+replace her clothing with. So, we have
+the starting image just of the scroll,
+the original reference footage, a depth
+map, and then also the outfit. We fed
+all of those assets into C Dance and
+that gave us this.
+And yeah, it did a pretty cool job. I
+should note that she's missing the hat
+that was in the outfit, but the fact
+that it was able to completely replace
+the screwdriver with this scroll here,
+the lighting looks pretty good. Like it
+really does seem like the lighting's
+coming from the environment. I love the
+candle. Overall, I think it did an
+amazing job. This looks very close to
+screen ready. Now, let's go back to that
+bar example. So, we have this starting
+reference video footage here of Joel
+picking up the coffee. She looks up and
+then she looks over to her left. So,
+remember that performance there. So,
+using that seedance image, we prompted
+for the scene to unfold using the
+reference footage and the depth map, and
+our very first video clip gave us this.
+And you can see it added the coffee cup
+back in, which is fantastic. But, the
+very next generation gave us this.
+And yeah, it did a much better job. You
+can see she actually does stretch her
+hand a little further than the original
+reference footage, but all things
+considered, it's very similar to the
+original footage and it did a very good
+job. Now, I was also curious to see if
+we took the edited image of Joel wearing
+the cardigan and the wine glass in front
+of her along with this outfit and the
+video reference footage, put it all
+together, and that gave us this.
+>> [snorts]
+>> And yeah, it did a really good job. The
+biggest problem that I have is because
+we shot the lighting very flat, you can
+see that the output also feels a little
+flat. So, you probably would want to go
+in and adjust the lighting on location,
+and then work with both seed dance and
+then whatever the reference image is
+that you're using to really push that
+lighting style in the specific direction
+that you're looking for. Otherwise, it
+probably is going to come across as a
+little flat. And then we also wanted to
+test it using a seed dream image, and
+that gave us this.
+Not too bad.
+I should also note that we tested this
+across a few different genres from
+sci-fi to fantasy. And across the board,
+it works pretty darn well. If you wanted
+to pull this off for yourself, I would
+say you really need to plan on two
+things. The first is have a really good
+understanding of what you want your
+overall scene to look like in your very
+simple environment. While we're shooting
+in a gray box environment for our test,
+you could of course utilize a normal
+space that is available to you. What's
+more important is to understand the
+overall lighting that you hope to
+achieve. If your scene takes place under
+light, then maybe you want to set up a
+really big softbox above your subject's
+head to simulate what that's going to
+look like. If it's window lighting, then
+maybe you want to do the same thing but
+have the light coming from the side. It
+really just depends on the overall scene
+that you're going for. If you don't know
+what the lighting should look like, then
+of course you can shoot it flat and get
+really good results. But if you do
+understand where certain lighting
+sources should be as you're shooting
+your scene, I do recommend at least
+lightly having them present in your
+generation because it's going to go a
+long way. I hope you enjoyed this video,
+and of course if you want to learn the
+latest AI filmmaking workflows, I highly
+recommend checking out our AI filmmaking
+course over at Curious Refuge. Our
+members have weekly workshops and office
+hours where they can ask questions
+alongside AI experts and get their
+filmmaking questions answered. We're the
+home for AI storytellers, and we train
+artists at every major studio, and we
+would love to have you inside the
+program. Thank you so much for watching.
+Be sure to like and subscribe if you
+want more tutorials like this in the
+future.

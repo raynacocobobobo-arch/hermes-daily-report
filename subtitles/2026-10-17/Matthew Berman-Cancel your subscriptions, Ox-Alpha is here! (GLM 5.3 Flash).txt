@@ -1,0 +1,466 @@
+UP主：Matthew Berman
+标题：Cancel your subscriptions, Ox-Alpha is here! (GLM 5.3 Flash)
+链接：https://www.youtube.com/watch?v=TOWXXhn7ctY
+
+A few days ago, rumors started swirling
+around this mystery model that showed up
+on Open Router. It was called Ox Alpha,
+and people were speculating as to what
+it could be. Maybe it's the new Gemini
+model. Maybe it's some new continual
+learning model. Here's the thing, it was
+fantastic. People were loving it, and it
+was seemingly comparable to the top
+frontier models out there. And then we
+found out what it was. This is the
+newest open-source open weights model
+from Z AI. This is GLM 5.3
+Flash. And you know, if it says flash,
+that means fast, cheap, and smaller than
+a usual model. And that's what makes it
+super special. This model performed
+incredibly well despite its small size.
+And this might be one of the most
+exciting model releases to date because
+you actually might be able to download
+this model and run it locally, but
+certainly you're going to be paying a
+fraction of the price that you're paying
+for Fable or GPT 5.6 Soul for a model
+that is insanely capable. So, I'm going
+to tell you about the model. I'm going
+to show you the benchmarks, the pricing,
+which is crazy. I'll show you how to use
+it, and some of the demos that I
+created. But there's something more to
+this story than just how the model
+performs. and it's going to have a
+massive impact on the world. And this
+video is brought to you by Higsfield.
+More on them later. So, the first thing
+you need to know is ZAI is a Chinese AI
+lab. And like usual, they're putting out
+incredible open-source and open weights
+models. They're telling the world how
+they're baking the model and they're
+giving the weights so you can actually
+use it. You can customize it. You can
+fine-tune it. You can host it yourself.
+It is just such an incredible value to
+the world, these open source models. So
+this is a relatively small model. It is
+320 billion parameters, 18 billion are
+active. That's called mixture of
+experts. It just means it can run really
+efficiently while also being extremely
+capable. It outperforms GLM 5.2 which is
+the last version of the GLM series of
+models but also the full version of it.
+And this is a flash version and it is
+onetenth of the price of the previous
+GLM 5.2 2 which was already cheap and it
+is approaching claude opus 4.8 on coding
+and agentic benchmarks. Now if you were
+expecting it to be on the same level as
+a fable it's not. It's not that far from
+it but you can't really compare a seven
+or eight trillion parameter model which
+is what fable is to a 320 billion
+parameter model. I mean they're just
+completely different class sizes. And
+the fact that it's even close at all is
+what is so mind-blowing here. So, here
+are some benchmarks. And keep in mind,
+they're comparing this new GLM 5.3 Flash
+to other models that are comparable in
+size. So, here we go. Here's Terminal
+Bench coming in at 84.3.
+A nice bump over the last full-size 5.2
+model. Here's Deepseek. Here's Opus 4.8.
+Here's GPT 5.6 Terra, which remember
+Terara is kind of that middle child
+between Soul and Luna on the GPT 5.6
+family. And then here's Gemini 3.7
+Flash. Here's Deep Suite, which is
+probably the most accurate benchmark for
+how people are actually feeling about a
+model, how good it is when it's really
+being used in the real world. So, here
+it is at 63.4, a massive jump from 5.2.
+And we can see quite competitive with
+5.6 Terra. Here is Opus. Here's
+Deepseek. Here's Gemini. Here's GDP val.
+The OpenAI benchmark testing realworld
+knowledge work. and it is number one by
+a large margin. So now let's talk about
+the benchmarks that I think matter more
+which is the total cost per task
+completed and we're going to start
+adjacent to that with this right here
+which is a gentic coding performance by
+effort level. Now what you're seeing
+right here is the output tokens per task
+and then on the y-axis over here we have
+accuracy. So higher up on the y-axis is
+better and to the left of the x-axis
+means less tokens used, more density,
+more intelligence per token, which is
+also better. And what we're seeing right
+here is GLM 5.3. So here's Fable, which
+is crazy. GLM 5.3 Max sits nearly as
+high as Fable High and it does use a
+little bit more tokens, but the fact
+that it's even getting close and that it
+is a fraction of the price and I'm going
+to get to price in a few minutes is kind
+of just insane to look at. Now, when you
+go to max effort on Fable, you do get a
+massive jump, but you're using a lot
+more tokens and each one of those tokens
+is much more expensive. So, here's GLM
+5.3 Flash on the artificial analysis
+intelligence index coming in at 57.
+Claude Fable 5 is 62.
+62 compared to 57. And we are talking
+about a model that is literally a
+fraction of the size and price. And I'm
+able to make videos just like this
+because of the sponsor of today's video,
+Higsfield. Every week there's a new AI
+image or video model that you might want
+to use inside of your product. Adding
+each one usually means a separate API,
+separate billing, and more code to
+maintain. Higsfield API solves it. It
+gives you models like Cling, Nano
+Banana, VO3, and Higsfield Soul, all
+with a single API key. You pay per
+generation rather than paying a monthly
+fee. So, you're literally only paying
+for what you use. And they tell you the
+cost before the generation. Failed
+generations are not charged. And as they
+add new video models, new image models,
+you don't need to change anything in
+your code. Higsfield also supports web
+hooks and concurrent jobs, which makes
+it easier to run real applications for a
+team or your customers. Higsfield is one
+of the fastest growing companies of all
+time. There are so many people out there
+who are using it and loving it right
+now. And during your first week, you can
+choose two image models and two video
+models to get at a discounted price. So
+go click it down below. Thanks to
+Higsfield. Now, back to the video. Now,
+here's where it gets wild. Look at this.
+So, this is the cost per intelligence
+index task. This is how much does it
+cost to actually get things done? And
+that factors in multiple things. That
+factors in how many tokens does it need
+to complete a task? How expensive are
+those tokens? So, we see Claude Fable 5
+at $3.14.
+Incredibly expensive. We have GPT 5.6 6
+soul coming in at 95, a third of the
+price of Claude Fable 5. Here's Kimmy K3
+at 84 cents, which when we first saw it,
+that's amazing. Now look at this GLM 5.3
+Flash coming in at 9.
+9 cents per task completed. And that is
+just a smidge off of the absolute
+frontier of Fable 5 intelligence. Not
+that much off. It's like maybe, you
+know, 5 7% off of the absolute frontier
+of intelligence. And it's about 2 or 3%
+of the price. That is so crazy to see.
+Now, this is really the important chart.
+Intelligence versus cost. And where you
+want to be is in this quadrant right
+here. That's why it's green. You want to
+be as high up and to the left as
+possible. So, what's really cool is GPT
+5.6 Luna Max is incredibly cheap.
+actually about half the price of GLM 5.3
+flash, but for double the price, you get
+about five points higher on the
+intelligence index. So, that's a nice
+trade-off, but you also get open
+weights. You also get full control over
+the model. You can customize the model.
+So, look, GPT 5.6 Luna is fantastic
+because it is so cheap, especially after
+that 80% discount a couple weeks ago.
+But GLM Flash is a better model. It has
+a higher intelligence score and it's
+about 40% more cost. But we're talking
+about 5 cents versus like 9. So it's
+really really inexpensive. So when I say
+40% more, both of them are still
+incredibly cheap. So here's Deepseek V4
+Pro coming in at 27 cents. Much more
+expensive, but also not as good. So GLM
+Flash is sitting in a great place. If
+you really care about cost, GPT 5.6 6
+Luna still is the number one model in
+terms of the best trade-off of cost and
+quality, but GLM 5.3 Flash, man, that
+offers a lot of benefits. Now, here's
+something really interesting. If we look
+at GPT 5.6 Luna Max, this is the output
+tokens per intelligence task. Basically,
+how many tokens does it take to arrive
+at the same answer as another model? And
+again, here's Luna at 20,000 tokens on
+average. Now, if we go all the way to
+the top, GLM 5.3 Flash is actually one
+of the most token intensive models out
+there, which is kind of crazy at 47,000
+tokens. So, when you go back to this
+chart and you see Luna Max here, you see
+GLM 5.3 Flash here, Luna Max is less
+expensive because it uses far fewer
+tokens, less than half the amount of
+tokens to arrive at the same solution as
+GLM 5.3 Flash. So again, these are all
+the different factors you need to keep
+in mind when evaluating a given model.
+But the nice thing is with open weights
+open source, they will continue to
+iterate and everybody will have their
+eyes on it and they will improve it and
+potentially improve the number of tokens
+used per task theoretically more quickly
+than what an open AI can do. Now I'm
+saying this all in a vacuum. This is all
+speculation, but I really am a big
+proponent of open- source open weights
+for that reason. Now, a couple last
+things before I reveal the most shocking
+part of this entire story. So, number
+one, it's a million token context.
+Wonderful.
+131,000 max output tokens and max
+reasoning by default. This is all really
+good stuff. You know, 1 cent per million
+cached input. It's it's incredibly
+cheap, incredibly great. But here's the
+crazy part. reported by semi analysis.
+It was serving a 100red trillion tokens
+per day on purely Chinese chips. That is
+crazy. That type of capacity without
+using a single Nvidia chip is wild. And
+I've been talking about this on the
+channel for a little while now. China is
+developing their own chips. They are
+co-designing it with the models that are
+incredible. Plus, of course, the model's
+small, it's efficient, it's a flash
+version. So when you pair these things
+together, the fact that they can have
+near frontier intelligence at a fraction
+of the price served entirely on their
+own infrastructure is quite surprising.
+I was not expecting this. So over the
+past week, we have served GLM53 flash on
+a large-scale cluster of Chinese AI
+chips supported by high bandwidth
+interconnect and a serving stack
+optimized for the underlying hardware.
+All of the parts of the AI stack are
+being co-designed for Chinese models,
+Chinese hardware, Chinese interconnects.
+All of these things are being
+co-designed together and they have
+capacity now. Hardware efficiency and
+per token cost comparable to mainstream
+Nvidia GPUs. This demonstrates that
+Chinese chips can support Frontier model
+inference efficiently and economically
+at scale. This is all great. This is all
+really cool news. So, the way that I
+tested it out, the way that you can test
+it out is by going to Z.AI, which is
+being served from China, so keep that in
+mind. And I've just spun up an API key.
+I'm not doing anything sensitive. I'm
+not sending sensitive information. But
+if you just wanted to try it out, this
+is probably the most straightforward
+way. You can go to Open Router as well.
+You can go to a bunch of different
+inference providers because it is an
+open weights model and so anybody can
+serve it and they're all going to
+compete on price. are all going to look
+for their own optimizations to ek out
+every penny they possibly can out of
+that price which of course benefits us.
+This is the promise of open source and
+today I'm plugging it into open code.
+You can plug your API key into anything
+your project, you can plug it into T3,
+you can plug it into anything you want
+as long as it supports an OpenAI
+compatible API endpoint and the API
+keys. And of course, the first thing I
+wanted to test is a Rubik's Cube
+simulation. And here it is. It looks
+hyper realistic. It's smooth. I can grab
+one of the sides and turn it easily. I
+asked it to create a bunch of different
+sliders. We can see right here. You can
+change all of these. Now, click scramble
+right there. And it scramles. Everything
+looks accurate. It's scrambled
+correctly. The physics are all correct.
+And then, of course, we can solve it
+just like this. Now, all recent models
+can pretty much create the Rubik's cube
+simulation, but it's a good baseline to
+just see how it does. And by the way, we
+can also change the size of it. We can
+change the colors. So, these are all
+settings that it decided to create. So,
+here's this. I'll do scramble. Now, you
+can see this is a 5x5 cube. And let's
+solve it. Yeah, look at that. We can
+change the turn speed, the scramble
+length. Let's turn that up. We can do
+auto spin. So you can see right there
+field of view, zoom in and out the glow,
+the exposure, the key light, here's some
+shadow, material. We can change the
+reflection amount, the metaleness, which
+I don't even know what that is. And then
+clear coat, so you can make it shinier
+or less shiny. So very cool. Worked very
+well. Now, I also wanted to test it
+against GPT 5.6 Soul. So I gave Soul and
+GLM 5.3 Flash the same prompts to create
+a few different demos. Let me show you
+those. All right. So, here's the first
+experiment. Build a beautiful
+interactive 3D scene featuring seven
+miniature biome diaramas floating
+against a deep navy background. So, I'm
+basically trying to create these little
+low poly diarama type things. And let me
+show you the results. All right. So, the
+final comparison on the left is Soul. On
+the right is GLM. Now, GLM looks good,
+but you can just clearly see the winner
+by far is Soul. just the amount of
+detail, the coherency of it, it just
+looks a lot better. Okay, next I had
+Soul and GLM53 create five different
+websites just to see how it does on
+website design. So, I had it create one
+about apples, a DJX Spark, Rubber Ducks,
+Galaxy Zfold, and the Tesla Model Y.
+Now, here's the website about Apples. It
+just like kind of plopped a photo of
+Apples right in the middle. It really
+does not look good at all. And actually
+one other thing I want you to keep in
+mind is that GPT 5.6 soul and within
+codeex has access to the internet and
+open code right now kind of doesn't. So
+just keep that in mind. But you know the
+website overall is okay. It's pretty
+sparse. The colors are okay. But just
+plopping this image of three apples
+right in the middle does not look good
+at all because it overlaps with the text
+in the background. And here's GLM 5.3. I
+think this is overall a much better
+website. Obviously, it does not have
+access to the internet cuz it did not
+grab an image of a real apple. But
+overall, I think it looks better. Here's
+something kind of interesting. It
+actually put an address here. 42 Frost
+Hill Road in Vermont. Let's see if
+that's even a real place. Yeah. Okay.
+So, here it is. It is a real place. I
+can't tell if it's actually an apple
+orchard, but yeah, there it is. I wonder
+why it chose this address. That's kind
+of wild. All right, so here it is side
+by side. I think GLM53 won by a pretty
+big margin on this one. Now, here's the
+comparison of a website about the DJX
+Spark. On the right, we have GLM53. On
+the left, we have Soul. And once again,
+I actually think GLM1, it has better
+design taste than Soul. Soul made up
+this image of what the DGX looks like.
+GLM 53 didn't have an image, so it
+didn't try to make it up. I really like
+that it has this kind of terminal
+looking UI here. Uh but yeah, overall
+Soul is not as good. This is much
+better. Next, rubber ducks. Here's a
+website about a rubber duck. So this is
+on the left soul on the right GLM. And I
+actually think they're both really good.
+This is okay. I don't know what these
+are. They kind of look like parts of a
+duck. Uh all of them tend to be very
+very simplistic. I would still give the
+overall win to GLM. I mean, the duck
+actually looks like a duck here.
+Obviously, Soul was able to pull a real
+image, but like look at these
+recreations of ducks on the left, which
+is Soul, on the right, which is GLM.
+Here's a website about a galaxy Zfold.
+And again, it was actually able to pull
+up an image. I actually think they both
+are pretty bad. This is like a very
+simplistic website. It did pull some
+information about it, although I don't
+think these are accurate. This just has
+completely blank space that doesn't look
+good at all. Yeah, these are both really
+bad. And then a website about the Tesla
+Model Y on the right. GLM. This is
+embarrassing. They basically just copied
+the Tesla website. It looks identical to
+this. And then somehow created this SVG
+uh of I don't even know what it is, a
+limousine. If you scroll down, I mean,
+the website itself looks good. It's
+just, you know, more or less a copy of
+the Tesla website, whereas Soul actually
+built a website. Now, this one has an
+image. These two do not. Yeah, they're
+both quite bad. I don't know if either
+of them wins. Okay. Next, I had it put
+together a PowerPoint presentation about
+data centers using Forward Futures brand
+guidelines. And it actually did go to
+the website forwardfuture.com,
+downloaded our branding. This is the
+accurate logo. These are the actual
+colors. And it's quite good,
+surprisingly good. Look at this. And
+this, by the way, is what would show up
+in the GDP valpoints
+and real knowledge work. So, here we go.
+All the colors are accurate. The text
+looks good. We see a little M dash right
+here. Yeah, I mean, this is a great
+deck. Yeah, this is phenomenal. I'm very
+impressed with this. And once again,
+thank you to Higsfield for sponsoring
+this video. I'm going to drop a link
+down below so you can go check them out.
+Click that link, let them know I sent
+you. Open source is just so important.
+The fact that we're getting these
+open-source open weights models out of
+China is incredible. And I break it down
+in full. Go check out that video right

@@ -1,0 +1,579 @@
+UP主：Futurepedia
+标题：ChatGPT Work Is More Powerful Than You Think
+链接：https://www.youtube.com/watch?v=18Ih4w16UP0
+
+There's a lot of things that you
+probably do in Chat GPT that would get
+better results if you did them using
+work instead. Sometimes just by
+switching to the work tab and sending
+off the same prompt. Other times because
+it has additional very powerful features
+like building a shareable fully hosted
+website, scheduled tasks for automated
+workflows, and an in-app browser which
+can even be used to create editable
+motion graphics. Work is one of the most
+powerful updates to Chat GPT and now
+that it's been out for a while and I've
+used it a lot, I want to go through how
+to get the most out of it, what all it
+can do, and when you should choose work
+over chat.
+I'll start off with a simple example
+sending off the same prompt to chat and
+to work to show the difference in their
+approach. I will cover some more
+business-related use cases in a minute,
+but here's something simple that I'm
+actually in the process of. I'm planning
+a Disneyland trip. Then I've got the
+dates, kids' ages. I wanted to research
+everything, hotels, dining,
+time-sensitive things to book.
+Basically, everything to help make this
+a good trip. So, I will send that off.
+Now I will open up a new chat, come up
+top and switch it over to work,
+paste in the same prompt and send it.
+Now they're both working and that
+actually shows a small feature I'll
+mention. You can have multiple sessions
+running at once. For a big task, work
+can take a while. So, you can send it
+off, then while it's working, start a
+new one or multiple. I have a bunch of
+these going at once sometimes. It's nice
+to be able to multitask. These are both
+done now. Starting with chat, this took
+just under 5 minutes and this is the
+type of response you're probably used
+to. It did pull in a couple images,
+that's nice. And it realized it's during
+Halloween time, ranked the hotels, and
+pulled in a map so I can see where they
+are, the types of tickets, reservation
+calendar, day-to-day plan, lightning
+lane, toddler logistics, cost model,
+booking order. So, this is a great
+response, very helpful. Now, let's open
+up the one from work.
+Now, this worked for over 10 minutes, so
+about double the length of time, and
+this response has the recommended plan,
+hotel decision, and booking order, kind
+of the key points here, but it looks
+like down below it created a document we
+can open up. And this is where the
+response looks a lot different. I'm not
+going to go through this whole thing,
+obviously, but you can see it's
+formatted and color-coded nicely, has
+checklists and tables throughout when
+it's helpful, has red for important
+information that isn't obvious, tons and
+tons of good stuff in here, and a list
+of helpful links at the bottom. So, that
+looks great. And if we prompted for it
+in chat, we could get it to create a
+document like this. But the point is
+that that was work's default tendency.
+It did that without asking explicitly,
+because that's what it's more suited
+for. So, that changes the kind of work
+you should give it. In chat, the work
+happens through the conversation. You go
+back and forth, iterating and refining
+until you get what you want. In work,
+you give it the outcome you want, and it
+can break that up into tasks, explore
+different directions, use tools, build
+things, and spend however long it needs
+working towards a finished result.
+Chat could have also made that document
+with the right prompting. So, to go
+beyond that, here's a feature that's
+unique to work, sites. This is a live
+website it will spin up that's hosted by
+ChatGPT, and you can make public to
+share with people. So, I'll take this
+further using that same thread. I'll
+say, "Based on the playbook, create a"
+then I'll tag sites, "make it
+interactive and useful."
+14 minutes later, it built the
+Disneyland family trip command center. I
+can open that up and check it out.
+Definitely looks nice. We've got a
+checklist for the next moves, then the
+hotel options. It recommends the Grand
+Californian, which I'm not very big on
+fancy hotels, just in general really,
+but especially with kids, so I'm going
+to switch that to the Disneyland hotel.
+We have what to do in the park broken
+down by the different days, the working
+budget that I can adjust to be more
+accurate, then a full packing checklist.
+This turned out awesome and could
+actually be useful. So, if I go back
+out, I can hit share and switch it to
+public, then I could share it with my
+wife or whoever else. Anyone can enter
+this URL and go there in the browser
+from any computer. This is a live
+website. Now, if I go back to share,
+then click the settings icon, I could
+also change the URL. It's still going to
+have the .chat.chat.site at the end, but
+you can change the beginning of it. And
+right in here, you could switch that out
+for a full custom domain without that,
+you know, if you buy one elsewhere. You
+can also add environment variables if
+you need to add like a different AI
+model to the site or anything like that.
+A reason why Work is more suited to this
+type of task is it's given its own cloud
+computer for every task, so it can build
+up its work over time throughout the
+whole session. It can spend more time on
+the task and take far more actions to
+actually get it done. It takes the power
+and agentic capabilities you get from
+Codex and makes them easy to use for
+everyone and for much more general work.
+These work sessions do also sync to your
+phone, so I can see all of what it did
+there. And I could have also started
+this from my phone. The capabilities are
+the same if I send it off from my phone
+or the website. And I don't have to keep
+the tab open or anything. I could send
+the prompt on my phone, exit the app,
+come back to it later on my phone or
+computer when it's all done. It is a
+little different if you use the desktop
+app, where it can work with your local
+files. I will show that later. To help
+you get started faster, we put together
+a full guide on ChatGPT Work. It has a
+lot of what I'm covering here in written
+form and as a quick reference sheet, but
+also nine use cases with full prompts
+you can copy paste for analyzing data,
+building a dashboard or site, a daily
+command center, cross-tool marketing,
+and more. That's a super fast and
+actionable way to get started. Just grab
+that for free using the link in the
+description.
+That was a simple everyday example to
+show Works default way of operating. Now
+through plugins, you can give it the
+ability to take far more actions through
+external tools that you already use. You
+find them over on the side panel under
+plugins. And you'll see a lot of the
+common plugins on the main page, but
+there are far more than what's here.
+Just use the search bar to find anything
+you don't see right away. And to add
+one, you click the plus button. Then it
+will prompt you to log into that
+account, select what it can access, then
+just like that, it's installed and now
+Work has access to my calendar to read,
+edit, and create new events. And this
+actually works well now. Plugins used to
+be pretty clunky and annoying to use.
+Now you just ask it and it does it. And
+when I open up a plugin, you can see
+they come with the connection to the
+tool, but also skills which help teach
+ChatGPT how to actually use that tool
+properly. In some cases, they may just
+be one skill. Other times, there's a
+bunch of skills teaching it how to use
+it across a bunch of different
+scenarios. Now I already have a lot of
+plugins connected, so I'm going to send
+off a prompt and we can see it in action
+using multiple plugins at once. Prepare
+for my upcoming meeting today. Look
+through my calendar, emails, and
+previous meeting notes to figure out
+what I need to prepare, then do it. In
+my Google Calendar, it needs to find
+this meeting with Sam Altman for a
+follow-up about Futurpedia's $2 trillion
+acquisition of OpenAI. From there, it
+needs to find meeting notes in Granola
+where I had a preliminary meeting
+relating to this that has some
+instructions in the notes about creating
+a presentation. And in my Gmail, I also
+have an email with the title from Sam
+Altman that has some more details. And I
+do mention in this one that it's for a
+demo. That's mainly so it doesn't stop
+when it realizes I sent this to myself.
+But let's see how it does.
+All right, it was able to track all of
+that down and it prepared an eight-slide
+presentation based on the requirements
+it found.
+I will open that up and that looks nice
+right off the bat. The The all follow
+what was asked. I like that it will be
+using a strategic equity consortium for
+a little over 1 trillion of it.
+That looks solid, and I will mention
+that this is a PowerPoint file. So, when
+I download it, it's fully editable. I
+can bump that up to 3 trillion.
+Normally, it is a good idea to be more
+specific in your prompt and mention what
+tools it should use, but I was
+intentionally vague just to show that
+it's good at figuring things out then
+coming up with a plan and changing
+course when it needs to. I didn't tell
+it to explicitly use Gmail. I didn't
+tell it to check granola or tell it what
+presentation to make in my prompt. The
+plugins gave it access to the places
+where that context already existed and
+work figured out what it needed. It used
+all the tools. Then, once it created the
+presentation, it reviewed it and did a
+visual pass and found two issues. So, it
+fixed those before finishing it up and
+sending it to me.
+A lot of plugins work anywhere like the
+ones I just showed, but there are some
+that only work on the desktop app
+because they need access to local files,
+the terminal, or the in-app browser. A
+really cool one is Remotion to create
+motion graphics. You can create editable
+motion graphics right in the ChatGPT
+desktop app, which if you don't have it
+already, I highly recommend you download
+it. It will be needed if you want it to
+work with local files. So, you just
+download it, open the app, and then log
+in to your ChatGPT account, and you're
+good to go. Once you're in here,
+switching between chat and work feels
+just like it did on the web. This is
+where you also have access to Codex,
+which I use every day. You don't have
+to, but that's where I switch if I'm
+building something. We will stay on the
+work tab. Then, over on the right,
+there's an option to switch between your
+computer or in the cloud. So, in the
+cloud is what I've been showing, and it
+works the same if you're in the desktop
+app. You'll be able to see these here on
+your phone or the web app. But, one more
+benefit of the desktop app, I'll show
+more of in a second, is the in-app
+browser. It opens up on the right and
+works like a normal browser for yourself
+or for ChatGPT to use.
+But, first, back to this Remotion
+plugin. This only works on the desktop
+app and set to on your computer. I'm
+going to drop in the ChatGPT logo and
+then ask for an editable motion graphic.
+Then I have a little description of
+exactly what I want it to do. Then at
+the end, I will say use @remotion. That
+will make sure it uses that instead of
+Hyperframes, since I have both plugins
+set up. Anytime there might be
+confusion, you can tag your plugins with
+the @ symbol. I'll send that off and
+come back when it's done. It's all done.
+This did work for over 12 minutes, so
+it's not fast, but it is amazing. I'll
+hit play.
+Start with a chat.
+Then it will move over to work and a
+bunch of different tools pop up to show
+it's multitasking. That is a super
+smooth animation and exactly what I
+asked for. It looks almost perfect on
+the first try, except the logo is
+covering up the text right here. But
+this is playing right in an editor
+within the ChatGPT app, so I can
+actually resize the logo manually really
+quick. Then when I play it back, that is
+perfect.
+I would use this exactly as is in a
+video.
+Now I'll really quickly show how the
+same prompt came back using the
+Hyperframes plugin, because people
+always ask about that if I mention
+Remotion and vice versa if I mention
+Hyperframes. This is what that looked
+like. It's definitely good, but I prefer
+the Remotion version. And that tends to
+be the case in what I typically use
+these for. I'm sure for other use cases,
+Hyperframes is better.
+So, that is an awesome plugin and I
+think it's a really good example of how
+powerful plugins can be. There's
+thousands, so there's way more options
+and combinations than what I've shown.
+Definitely spend some time going through
+and connecting good plugins.
+This Remotion editor opened up in the
+in-app browser, and that browser is an
+extremely useful feature in here. This
+opens up on the side and functions just
+like a normal browser. You can browse
+the internet, look up things, and leave
+the tab open for work to look at or just
+browse something while you're waiting if
+you don't want to have to switch to a
+different browser. But, it's also there
+for Chat GPT to use itself. It can also
+open sites, click around, fill out text
+fields, and navigate. It's much better
+at browser use through this native
+browser than it was in the past through
+the Chrome extension. Let's try "Look up
+land for sale in Utah. I want it to be
+forested and near cool areas for
+adventure between 0.5 and 5 acres. Pull
+up the best option in each area in a
+separate tab in the in-app browser."
+That's a prompt I could send in chat or
+using work in the web app, but if I do
+it in the desktop app, I can send that
+prompt off, work on something else, or
+leave my computer. Then, when I come
+back, it not only did the research, but
+it also has them all pulled up. Chat
+could link them, but I'd have to open
+the link separately. It's kind of
+annoying. This way, they're all right
+here with the response in the little
+table it made right next to it. It's
+just much more convenient. And these
+tabs will stay with this chat. I can
+leave to a different chat, open
+different tabs if I want, then come
+back, and it's all still here. For some
+use cases, you may want it to be logged
+into your accounts. But, you can log in
+manually one-by-one. Under settings,
+there is also an option to import
+cookies and passwords. Then, it will all
+be there automatically from a separate
+browser history like Chrome. You can't
+even create a file or spreadsheet with a
+list of the apps and login information
+you want it to have. Then, it will be
+able to log itself in whenever it needs
+to if it's not usually just for sites
+where they make you log in all the time.
+Otherwise, it will just stay logged in.
+So, right here, I'm logged into X. I
+could ask it to scroll my feed for me,
+or you can ask it to talk with tech
+support or submit a return for you. You
+can just ask it to do things. And you'll
+see its cursor moving around and
+clicking on drop-downs, opening things,
+typing into fields. It operates just as
+a person would. Because of that, a
+really good use case for browser use is
+if you're building a website. You can
+let it pull it up and act as a new user
+and test every part of it to find bugs.
+Another option is you can use it to
+interact with a site that doesn't have
+an API or plugin. There's a lot of
+options depending on what you're trying
+to do. But just in general, it's pretty
+convenient to have the browser right
+here on the side so you don't have to
+context switch between different apps.
+Then in addition to your browser, it
+does also have the ability to use your
+whole computer when you're using it on
+the desktop app. It can open up and do
+anything you normally would. That's not
+something I use much with work. I do use
+it in Codex sometimes. Like right now
+I'm fine-tuning a Premiere Pro plugin
+I've been working on. I can let Codex
+open up Premiere and test out features
+like a person would. So after I ask it
+to implement something or it tries to
+fix a bug, it can go test it out for
+itself. But in general, I don't think a
+lot of people will have that many uses
+for computer use. Most of what you want
+to do will be in the browser.
+Another really cool thing Work can do is
+create what they call blocks. This comes
+in a lot of different forms. The
+simplest is writing blocks. I'll come
+back to this thread with the
+presentation for Sam Altman and I'm back
+in the web version by the way. Draft me
+an email I can respond to Sam with. Make
+it editable in here.
+Then it comes back with this inline
+block where I can make changes to this
+myself. A non-negotiable is we must
+change the name to Futurpedia GPT. Then
+what's especially cool with an email
+block in particular is I can actually
+send this. So it has from my connected
+Gmail already in there. Then I'll say to
+Kevin@futurpedia.io
+then hit send and it actually sends
+this. I'll go into my email and there it
+is. And that was a writing block which
+could also be for messages, social
+posts, documents, checklists, that sort
+of thing. Then there's also code blocks.
+These can come in a ton of different
+forms. I'll show a few. So maybe I want
+an interactive Kanban board for the the
+There it is. I can move this stuff
+around and track it all. Or here's an
+interactive dashboard. Here's a
+calculator that shows how many YouTube
+views I need to earn 2 trillion at
+different RPMs. With a $20 RPM, which is
+probably double my RPM actually, I just
+need 100 trillion views, the equivalent
+of 100 million viral videos. And here's
+how long it takes to save 2 trillion if
+you invest $10,000 per month with an
+average return of 8%. 182 years, which
+seems insanely short, but that's the
+power of compound interest. I've got an
+interactive timeline of major generative
+AI releases, got a flowchart,
+a little tier list for the different
+LLMs. Here I'll actually rank these.
+ChatGPT S, mainly because I've mostly
+switched from Claude Code to Codex.
+Claude A,
+Gemini C, Grok D, Perplexity F. Can't
+even remember the last time I used
+Perplexity. Anyway, I think you get the
+idea. You can make a lot of cool and
+useful stuff with these blocks. And that
+was actually a good example of the
+multitasking option I mentioned earlier.
+I had all of these being built in
+separate chats at the same time.
+A small feature that I find very useful
+that didn't have a good spot to mention
+before is the ability to branch chats.
+There's times where you'll ask for
+something and you don't get the result
+you want, or maybe you've gone back and
+forth for a while, but you want to ask a
+question and go down a different path
+from an earlier response. You can go to
+any message, hit the three dots, then
+click branch a new chat. Now this
+conversation splits off from right here
+and I can continue it. Then the other
+chat remains intact.
+Anytime you have a process you'll want
+to repeat again in the future, it's a
+good idea to turn it into a skill. The
+skills are like recipe cards for
+workflows, a package of instructions
+that teach ChatGPT how to repeat a
+specific task, and that can involve many
+steps. So anytime you've gone back and
+forth iterating on something to get to a
+final result, if you'll ever do that
+again, just ask ChatGPT to package the
+process up as a skill. Then you'll save
+all that time in the future. Like I have
+a specific visual style I like it to use
+sometimes in Remotion, where I've
+uploaded it. Reference images it's
+trained on, talked about pacing and the
+types of graphics I like. Now, anytime I
+call that skill, it will use the
+Remotion plugin to create in a very
+specific way without me having to send
+off a long prompt. You can create skills
+for endless types of things, your
+business practices, how to create sheets
+or presentations in a certain way, how
+to convert one piece of content into
+different platforms, on and on. And if
+you have ever created skills in Claude
+Chat or Co-work, and you want to use
+those here, it's really easy to transfer
+them. So you go to Claude, go to where
+your skills are under customize,
+and find the one you want, click
+download skill, then that file will be
+downloaded to your computer. You can
+just drop that into ChatGPT and ask it
+to turn that into a skill. It's really
+as easy as that.
+With everything we've covered so far,
+there's a lot of really powerful
+features and use cases, but we've been
+prompting it ourselves each time. Skills
+was getting a little closer to
+automating things, but scheduled tasks
+can get us all the way there. Over on
+the side panel, you'll see a tab that
+says scheduled. This is where all of
+those scheduled tasks are. That could be
+just a one-off task you want it to do in
+the future. It could be something you
+want it to do every week, every day, or
+every hour. You can fully automate the
+process. Just tell it what you want it
+to do and how often, and it will create
+the automation for you. A good way to do
+this is often to create a skill first.
+Just like I talked about in that
+section, do that whole iteration process
+to get something just right, turn that
+into a skill, then you can just ask it
+to run that skill on a schedule. So that
+way you get super consistent results.
+And I like to create scheduled tasks in
+the cloud whenever possible, because
+that way your computer doesn't have to
+be on for them to run. If I need it to
+work with any files, I'll make sure
+they're in Google Drive and make sure
+the plugin's working. That way it can
+access them anytime. If you're on the
+desktop app and it's working locally,
+your computer has to be on. So,
+personally, I rarely create them that
+way. It's almost always in the cloud.
+And you can fully automate really long
+workflows this way.
+If you've been using ChatGPT but haven't
+used Work yet, I definitely recommend
+you start. Anytime you have a long task,
+especially one with a deliverable at the
+end, just send that off in Work instead.
+Hopefully, this helps you get the most
+out of it. I'll see you in the next one.

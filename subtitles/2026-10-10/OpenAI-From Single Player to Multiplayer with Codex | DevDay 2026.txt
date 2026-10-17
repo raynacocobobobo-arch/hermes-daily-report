@@ -1,0 +1,788 @@
+UP主：OpenAI
+标题：From Single Player to Multiplayer with Codex | DevDay 2026
+链接：https://www.youtube.com/watch?v=aDTPTwnrRyA
+
+Whoa.
+This is cool.
+I feel like I recognize half
+the people in the audience.
+Thank you all for being here.
+Last year I was
+in the seating over there.
+It's kind of crazy to be
+up here now.
+Today I'm excited to talk about
+multiplayer and what that means.
+I'm Jason from the developer
+experience team at OpenAI.
+I've only been here about seven months.
+We've shipped a ton of features.
+As I got more productive,
+I felt like at some point I
+was the glue for all
+these systems and I felt like I
+was a bottleneck for a lot
+of the things I was doing.
+Just as a show of hands, who
+else feels this way now?
+There's so much to do,
+you're micromanaging.
+Thank God.
+But what ends up happening is
+first as you start, it's just
+about what I can do with AI.
+Then it becomes what can AI do
+with access to my computer and its
+files and the browser and these apps.
+But I think more than ever
+with these new tools, a lot
+of it now has become how can
+I make systems that bring the rest
+of my team along rather than
+just being this super-powered IC.
+So, when we saw tools like computer
+use and voice and all these cloud
+features, I wanted to try them all.
+But they were still mostly
+focused on scaling the individual.
+But now with things
+like dots, space,
+that has page instructions, team
+automations and plugin extensions,
+a lot of it now has become how
+we set up the team for success rather
+than just scaling up the individual.
+So, the talk is called multiplayer.
+So, let me also define what
+I think is multiplayer.
+It doesn't just mean that I have one
+chat bar with a bunch of my coworkers
+talking in the same thread.
+For me, it's about having the ability
+to know that I'm not the only
+individual that has to carry the work
+all the way through to the end.
+It means that the conversations I'm
+having with my teammates are just
+automatically picked up and so we can
+build systems where everything works
+together and comes together.
+And there's other tools
+and other AI that's helping me
+keep track of what's been done
+and know that it will lead on
+us to make the right decisions.
+So let's start with a hypothetical
+example.
+Imagine it's me, it's 8am, I'm on
+Twitter and there's some comments about
+usage limits or rate limit issues.
+Obviously, I don't know what happened.
+I don't know what broke.
+I don't know if anyone else
+is investigating.
+But I do know that we take
+these things really seriously.
+And if they're related, I need
+to keep track of everything.
+I need to escalate when it
+makes sense to.
+I need to make sure that none
+of all this content gets
+lost in my browser on
+a conversation in Slack.
+Six months ago, I was doing
+a lot of this manually. Right?
+Manually with Codex, at least.
+I would use internal tools or Codex.
+I would ask it to check Slack
+and make sense of what's going on.
+And on top of that, all
+of it still ran on my computer.
+And I was still the one pushing things
+forward, gluing these pieces together.
+And it was a lot of work.
+Three months ago,
+things got a lot better.
+Tasks could work on my behalf.
+I would pin a thread,
+set an automation, and then hope
+that everything was caught up on time.
+But the issue was that people
+couldn't pick up where I left off.
+And so everything still came through me.
+I just became, like,
+a PM and also customer support.
+And then what you find out is,
+like, half the other teams are also
+doing the same task and just repeating
+all this work instead of actually
+participating in a more unified push.
+Now I think we're entering a place where
+multiplayer makes a lot more sense.
+We have a world where if someone
+leaves an issue or comments on
+Slack, my dot can pick it up
+and follow along, keep track of things,
+independent of whether it's email
+or Slack or a browser or anything else.
+And then I can just tell my dot
+to keep an eye on the investigation
+and make sense of it and unblock
+itself as it interacts with other
+people on my team, the engineers,
+and even some of the customers.
+Right? Tools like dot and space make it
+much easier for people to work together
+without having to do all the stuff
+that I did, which is, like,
+15-pinned automations with heartbeats
+and a memory vault and markdown that
+I'm, like, not updating well enough.
+And then what's going to happen is
+as these things work across the team
+and people understand these tools,
+you can start turning them into more
+shareable skills and plugins
+and extensions that make everyone's
+lives easier, not just yourself.
+And to be fair, like, if you
+use a lot of, you know, agents
+and tokens, I don't think it makes
+your life easier either.
+And so if you've seen me give
+these talks in the past,
+I tend to think about these things
+in terms of three big acts.
+The first one is, like, how do
+I bring the context into my agent?
+This might be context from my desktop,
+the browser, it might be from my mind
+and the mind of my coworkers and on
+Slack and email and all these things.
+Then it's about how you actually
+keep the work moving.
+How do you keep it organized?
+Because I can't even fit in my mind.
+And then lastly, how do you
+actually share that with the team
+and level them up as well?
+So first, let's gather the context.
+So if you go back to this example
+of maybe seeing some stuff online
+in my browser, the first thing I
+would do is take an app shot.
+As a show of hands, like, how
+many people have sent or used
+apps in the past?
+Nice.
+I'm trying to convert you today as well.
+So an app shot is a great
+way of sending context to ChatGPT.
+So what you do is if you
+just, like, find the space bar
+and there's going to be two command
+buttons on the side.
+And it takes a screenshot.
+But not only does it take a screenshot,
+it takes the context of the entire app.
+Any, like, metadata, any
+URLs, everything below the fold.
+And it's kind of the first time
+I felt like I could tag Chat
+in any application I was in.
+Right?
+And at some point, I think, like,
+30% of all the sessions I started
+in Codex came from an app shot.
+It wasn't me opening the app into
+the empty composer than thinking
+about, you know, please read Slack
+or please look at my browser.
+And app shot just kicks me off
+right where I am.
+And this is really the idea of just
+having an agent meet you where you are.
+And tagging it, I think, is going
+to be a concept we think about
+a lot as we move forward.
+All right.
+The issue, though,
+is I'm still doing everything.
+Now I just use more app shots.
+And now I'm, like, the top three
+app shot users of all time.
+And I'm still just, like,
+working until 2 or 3 a .m.
+in the morning.
+You take more app shots, you pin more
+threads, you name them, you set up
+another heart view automation, and then,
+you know, something else happens, you
+tell it to check Slack because it was,
+like, between your two-hour automation.
+I still feel like the bottleneck.
+And then after a meeting, I have
+to tell my agent there was a meeting
+so I can read more context and, you
+know, this is my own punishment.
+And ultimately, the issue was that I
+felt like I was very limited by
+my APM, my actions per minute.
+Right? And I just became a really,
+really good micromanager.
+But with dots,
+all these things are just
+very persistent and proactive
+and work in the background.
+If someone leaves a comment,
+sends an email, replies to a thread,
+my dot is just waiting to soak
+up all that context.
+If someone shows a report online,
+we can just add it to a tracker.
+And then I don't have to worry
+about all these clues falling
+through the cracks.
+And a lot of this is
+because we've made our agents more
+persistent and more proactive,
+and especially more embodied.
+Right? And this is because of the great work
+that research has done for things
+like memory and compaction
+and being able to run longer,
+as well as our product teams,
+and just exposing more surfaces.
+And so let's also talk about
+what it means to be embodied
+in a couple of ways.
+Back to app shots.
+The issue is when I take an app
+shot, it's just my desktop context.
+But the app shot is
+sent to the cloud.
+My dot runs in the cloud.
+It has its own computer,
+its own browser, its own files.
+And so it can run this investigation
+regardless of whether or not
+your computer is turned on.
+But it's nice that dot
+still meets me where I am.
+It can still take the context
+from my laptop.
+And I can check up on it
+on the phone, in the browser,
+whatever it is.
+But working from your phone
+isn't necessarily new either.
+This is kind of like remote control.
+The difference is that dot,
+even though it runs in the cloud,
+it can still control my computer
+when I give it permissions to you.
+Right? This is like remote control on steroids.
+And so if you just enable it
+in your settings, your computer can
+still be the last mile of work
+for any of your agents in the cloud.
+Right? The investigation can
+start on my computer.
+I can check up it on my phone.
+And at some point it might say, hey,
+I need to log into a browser.
+Are you already logged in?
+Can I get access to your computer?
+Right? Is there a local app
+that we need to check?
+Can I test it on your machine?
+And it can do that, which
+is pretty awesome.
+But that's just how dots can
+work with you as an individual.
+But multiplayer is also thinking about
+how we can give a team context.
+Or at least have the team give
+context to the agent. Right?
+In the beginning, you're just
+telling AI what to do.
+As they get smarter and run for longer,
+you can now collaborate with the agents.
+At some point, your whole team
+should get involved.
+And so let's start with an example
+with voice.
+So I imagine most people here have
+tried some form of voice prompting.
+Right? It is sort of the easiest way
+to prompt anything these days.
+And generally, for most people,
+including me, I talk about three
+to four times faster than I type.
+And so it's a little bit...
+Maybe I see some nods.
+Maybe I'm talking too fast.
+But dictation is the first
+version of this.
+Right? It's one directional.
+But then we introduce agentic voice,
+which is now two directional.
+Right?
+Whether it's on a mobile device
+or on a desktop app, I
+can now talk to it.
+It will do some work in the background.
+It will do some reading.
+And then it will give me an update.
+And then I can tell it
+to ask me questions.
+Help me brainstorm.
+And it's the first
+time I feel like a superhero.
+Right? And it's the first time I think so
+many people have experienced,
+like, another wave of AGI.
+But you're still kind of talking
+to yourself.
+Right? But with chat TV meetings,
+for example, now these conversations
+are multi-directional.
+I'm prompting my coworkers.
+Right?
+And more importantly,
+the conversations we have are going
+to be transcribed and picked up by
+the dot in the background.
+I don't know if I'm ready
+for my dot to join the call
+and start chiming in just yet.
+Right? Maybe we'll get there one day.
+But prompting the team is
+definitely, definitely useful.
+And the benefit of voice
+is just the fact that you can
+be incredibly messy and you can let
+the AI do all the cleaning up.
+This is like a real conversation
+I had over a meeting.
+But basically, it was me and a couple
+of coworkers and it was just like,
+I think it might be guardian mode.
+I think I saw a Slack message from
+a guy whose first name starts with T.
+Can you also check the configuration
+for the feature flags, caching updates
+and also compare some pull requests?
+I would have never typed any of that.
+I would have just, like, taken the app
+shot and said, like, please investigate
+and then just complained that the model
+is not doing a good job.
+But with all this, like, rambling, I
+don't have to be the one taking
+notes, but I can know that these
+things are running in the background.
+But just like remote control,
+like, transcribing a meeting
+is obviously not new.
+The difference, though,
+is that because we have a very
+persistent and proactive dot,
+it just picks up
+the meeting notes automatically.
+And it tries to push the work
+forward as long as you
+gave it the permission to.
+Right? And it's just a much more natural
+way of working with my team knowing
+that things can work in the background.
+And personally, I just find
+the voices to be nicer when I
+talk to humans than the AI.
+I see some of my coworkers
+here, and I think they
+all kind of know that.
+If we're ever in a meeting together
+and there's a good idea
+for a blog post or maybe, like,
+a script for a screenplay or an ad
+or even some copy for a product,
+I'll just, like,
+prompt it in the middle of a call.
+Oh, that's a good idea.
+Let's turn it into a blog post.
+Dot, please go draft something
+that we can review later.
+Use this new screenplay tool
+to make some new timelines.
+Same with, like, wrapping up a meeting.
+At the end of a meeting, I'll give
+action items for my team and then
+even more action items for my agent.
+Please use my Slack connector to message
+these two people to see if they
+understand, like, what's changed.
+And when they reply, post back
+in the main Slack channel.
+Use my browser to reach out
+to these four people online to ask
+them for their feedback IDs.
+Right? Really simple things, but
+I can just now trust that it's
+going to be working for me rather
+than now just realizing, all right.
+Open up the meeting, take another
+app shot, please review
+this meeting and reach out
+to the person, et cetera, et cetera.
+And this is sort of the advantage
+of persistence, right,
+on top of this context.
+These conversations are also
+going to be happening outside
+of meetings, obviously.
+And this is where embodiment,
+again, really helps out.
+The conversations we have
+with my teammates ultimately become
+the prompts that we use for our agents
+that are running in the cloud.
+So, earlier, I said app shots
+feels like tagging a system.
+Right? I'm tagging the agent to do something.
+We've also made these things
+a little bit more embodied by having
+them have different identities.
+So, for example, if you use Slack
+or Teams, you can now just tag
+your dot and ask it to follow up.
+Right? You can have a long conversation with
+coworkers about some kind of design.
+Maybe you have a meeting about it.
+And you just go, at Jason
+dot, please investigate.
+And all of a sudden, I feel
+like the CEO who's just tagging
+people left and right.
+And you can have your dot
+and my dot and also
+team dots in the future.
+Right? And, again, we're going to keep
+working towards allowing these
+agents to meet you where they are.
+So, we're also going to be launching
+even more services in the future.
+All right.
+We brought the context in through
+my voice, my coworkers voice, all these
+other plugins, and maybe my browser.
+Now we have to actually organize things.
+Right? We have to make sense of it
+and make sure things are up to date.
+So earlier I mentioned that all
+this kind of worked for me as long
+as it was on my local machine.
+I had a bunch of automations.
+I had a bunch of different workflows.
+But what this really meant was, one,
+my team could not contribute.
+And two,
+now that we have way better cloud
+agents, I couldn't use any of it.
+Right? And it was really hard for the entire
+team to start contributing because I
+sort of locked myself on my computer.
+But agents contributing on a single
+source of truth is the reason
+why software engineering has become
+so much more productive.
+We really haven't had
+that for knowledge work just yet.
+Right?
+I think we're slowly getting
+over these hurdles.
+So for this investigation,
+I might use a space.
+I'll tell my agent to create
+up a new page based off
+some template that I have.
+And then I can just share it
+with the team and the agents
+that they work with.
+And now I treat space as
+my local memory vault.
+But now it's in the cloud.
+Right? And all I need to know is
+that as long as I tell Dot
+to keep track of these things and update
+the information, it's always
+going to be up to date.
+So then you say, okay, well, why
+did you use markdown files originally?
+Right? And the answer is, like, directories
+and agent MD files are super useful.
+Right? All my automations
+ran in different threads.
+But with these agent MD files,
+I can at least guarantee that when
+they write to the thing, it's
+human readable, the citations are
+correct, the formatting is the way
+I want it to be useful.
+So with page automations,
+you basically start with page
+instructions, you basically get that.
+Right? You can effectively define agent
+MD files for your documents.
+And so as you do things like
+having, you know, custom artifacts
+or embedded HTML and visualizations,
+your agent's MD file can define
+how these things are going to be
+updated by your agents, whether it's
+an automation or anything else.
+And that way, all your co-workers'
+agents can now contribute without
+making a mess of what's going on.
+For this space, maybe it's
+a really simple automation.
+Maybe I just have a couple of dots
+contribute to just updating Slack
+posts and leaving comments about
+what feedback IDs we've captured.
+But automations can also
+be defined not at the level
+of your dot, but also at
+the level of a page or a team,
+if you create a team in ChatGPT.
+So for example, we have
+a finance team, and they do these
+weekly analytics reports.
+And this is done by a cloud
+agent that updates this document
+and is connected to all the things
+you have enabled in the cloud.
+For engineering, simple things could
+be organizing all your pull requests
+and the scope of these projects
+and just figuring out who the DRI is
+and just knowing you have a single
+page to review all the things
+that need to get merged.
+For research, it's about just
+tracking long-running experiments.
+And for me, I basically use
+this to delegate most of my work
+for DevDay, whether it's this talk
+and the slide updates,
+the booths that you see outside,
+or even like the mod retro.
+Right? And basically, it was able to capture
+all the different work
+that I had delegated.
+And ultimately, the goal for me was
+just to not be distracted by Slack
+because, you know, obviously, some
+of these things come in pretty late.
+All right.
+You have the context.
+You keep it moving
+with all these automations.
+Now you have to actually do something
+with it and share it with the team.
+Right? You have to share the results.
+So ideally, if we did our jobs
+correctly, we'll have a single
+space that has a timeline of what's
+going on, the reports, feedback IDs
+that we've been collecting online,
+and just, hopefully, links
+and citations of all these conversations
+so we know what to believe in.
+Now we have a hypothesis, and obviously,
+I can just point a cloud agent
+at it, and it can go reproduce
+the issue, investigate the issue,
+and try to solve this.
+You know, it's part of the conversation
+we have on Slack.
+Maybe we decide on what the comms
+look like to let everyone know
+that things are back online.
+And ideally, no one
+has to be the glue.
+And we can just make better informed
+decisions rather than just
+scrambling to understand, like,
+when this was addressed.
+But if you've been on call before, you
+know that, like, a pull request isn't,
+like, the final thing that you deliver.
+Right? You have your postmortems,
+your presentations,
+your blog posts.
+And I imagine for these things,
+you probably already have a bunch
+of different skills for comms or design.
+But all these things are mostly
+instruction-based plugins.
+Like,
+if you think about rules and automations
+as a way of keeping the work
+moving and up-to-date,
+plugins and extensions are sort
+of the next step of that journey.
+Right? Plugins are both shareable
+and updatable and versioned.
+So, as you make improvements now,
+they can just be widely distributed
+to the rest of your team.
+With things like plugin extensions,
+you can build custom interfaces
+directly in the Codex app.
+Right? Now it can be your cockpit
+for everything.
+Our meetings product and our code review
+product are all built on the same
+components as plugins.
+For example, if you build
+a lot of sites,
+you can now have better tools
+to log in with ChatGPT and connect
+your connectors.
+But on top of that, sites can
+now also serve MCP servers
+with authentication.
+And also, with WebMCP, you can
+build tools that both a person
+and the AI can use together. Right?
+And these give you a ton of new
+capabilities to expose to your team
+as you invest in this infrastructure.
+And I think for the most part,
+like, we're all the early adopters. Right?
+And as these technologies come
+in, we're mostly asking ourselves, like,
+what can I do with these tools?
+But I think the next stage is
+not going to be just about using
+more agents or more tokens.
+Right? It's about how we can invest in these
+systems so that the automations
+and the plugins and the skills
+are shared across the team
+and it becomes a team responsibility.
+Right? How do I set up my, like, agentic
+infrastructure for the team and become,
+like, the plugin hero of the company?
+I think if you're at DevDay,
+it's probably you.
+But I think that's a pretty good
+place to be.
+And so, I talked about this engineering
+use case, but obviously, like,
+it's not just engineering.
+Right?
+I use my dots and my space
+to manage a bunch of different things
+like production shoots, content planning
+with the team, and it's pretty fun.
+So, for example, like, when I do
+a lot of these production shoots as we
+shoot, like, launch videos, for example,
+I'm just on set, really scrambled.
+But my dot keeps me up to date.
+It will update me during the breaks.
+I try to give it some ambitious tasks
+on how to unblock itself.
+And it tries to keep everything up to date.
+And so, if I have, like, ten
+minutes to spare, I just
+read the, you know, update.
+And everyone else can see it.
+Then I can make things like different
+kinds of sites or documentation
+changes just based on the feedback
+and the approval process.
+And if I have very little time,
+I just call it.
+And we can use voice as
+a faster way of communicating.
+Another example I use a lot
+is just when I'm doing a lot
+of content planning.
+So, with the creative team, with the
+marketing team, we're always just
+brainstorming on Slack or in a meeting.
+And it just keeps me accountable.
+It doesn't let me let good
+ideas slip through the cracks.
+And so, as a result, I've built way
+more skills and plugins and websites
+just to do more, like, prototyping.
+Because now I know if there's a good
+blog post idea or a launch
+video, I can just, like,
+shout it into the ether.
+And at some point in the future,
+my dot will just give me a message
+to a site or a presentation
+or a website that just gives
+an idea of, like, how we should
+do this ad or maybe how we
+should think about the launch process.
+And I think for the first time
+in a couple of months, really,
+these automations now are the ones
+that are giving me my attention back.
+Right? And as a result, I can sort
+of work with my coworkers a little
+bit more, think a little bit bigger
+and be a little bit more ambitious.
+But one thing you'll hear me
+talk about a lot today is just
+the fact that it's really nice
+to work with other people.
+Maybe those are some disagreements,
+but my guys are pretty nice.
+And the more my team can
+help me with this work and push it
+forward and pick up where I left
+off, the more I feel
+like I'm working on a team again
+for the first time in a while.
+Right? And this is a really great feeling.
+You know, because I think
+in 2026, I think it's so
+easy to feel like you can just
+walk in with your coding agent
+and, like, work until 3 a .m.
+in the morning.
+But that's just personally not
+very fun to me.
+I joined a company so I could
+work with great people and figure
+things out together.
+And the more I do this process,
+the more I think about that line,
+which is, you know, I want
+AI to do my laundry and wash
+my dishes so I can make art.
+And I'm definitely fully seeing that. Right?
+Or at least the work that feels
+like laundry and the work that feels
+like the dishes and the work
+that feels like the art.
+And so in the past couple of months,
+I've actually been able to spend even
+more time worth research and creative
+and product and marketing and having,
+like, more fun than I did before
+when I was just, like, in the cave.
+And so I think if you feel
+the way I do, I really encourage you
+to try these tools out for yourself
+and really think about bringing in more
+collaboration in the work that you do.
+Thank you.

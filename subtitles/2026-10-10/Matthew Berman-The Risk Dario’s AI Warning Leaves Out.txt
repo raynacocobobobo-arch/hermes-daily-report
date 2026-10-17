@@ -1,0 +1,1146 @@
+UP主：Matthew Berman
+标题：The Risk Dario’s AI Warning Leaves Out
+链接：https://www.youtube.com/watch?v=_6PR25pkHKI
+
+So, I keep thinking we're hitting the
+craziest story of the year. And then
+this weekend happened. Daario Amade, the
+CEO of Enthropic, called for a slowdown
+of artificial intelligence. And that in
+itself is not news because they've been
+saying that for a while now. What is
+news is the fact that Elon Musk and Sam
+Alman, the other two CEOs of the two
+other biggest AI companies in the world,
+also agreed with him. I mean, not more
+than a few months ago, these guys were
+at each other's throats. And now they
+all agree we need limits. Now, the
+reason that Daario decided to put out
+this essay over the weekend all started
+from his employee Jacob Coxin resigning
+last week and basically telling the
+world that the AI labs are accelerating
+towards self-improving artificial
+intelligence completely recklessly and
+he thinks humanity is in danger. That
+post got 170 million views, kicked off
+this entire discussion with researchers,
+insiders, investors, politicians, and
+then Daario wrote his letter. So, let's
+see what some of the biggest names in AI
+and politics are saying about this. And
+I'm going to break everything down and
+give more context as we go. So, I just
+want to quickly show you the original
+tweet. This is Jacob Coxin. I resigned
+from Anthropic today. I spent the last
+three years doing pre-training research
+at both OpenAI and Anthropic. So, this
+researcher worked at both of the leading
+companies. Neither company is acting
+responsibly. They are racing straight to
+self-improving super intelligence and
+gambling with our lives. More thoughts
+below. So, that's the context. And then
+he details how these companies are
+essentially in a lockedin race to
+develop unsafe AI. And so now, let me
+review Daario's essay in full and I'm
+going to break it all down for you. We
+must pace the frontier. And as I read
+this, I want you to keep in mind within
+like 2 hours of him posting this, both
+OpenAI CEO Sam Alman and SpaceX AI CEO
+Elon Musk both retweeted it saying they
+agree. Now, there are some things that I
+like about the essay, some things I
+don't agree with. But the thing I do
+like is he starts on an optimistic note.
+I have worked on AI for the last 12
+years because I believe it could
+dramatically raise the quality of human
+life. I love that. I love that as the
+opening line. I've written often about
+these incredible benefits. I believe
+that AI could cure most major diseases
+in the next 5 to 10 years. I mean, that
+is the most incredible thing finally to
+hear from Daario. And yes, he's been
+talking about it, but all of his
+optimistic rhetoric has been
+overshadowed by frankly his kind of
+dumerrist perspective on what AI will
+become, greatly accelerating economic
+growth rates, creating a world of
+abundance and empowerment and usher in a
+renaissance of democracy and freedom. So
+again all very positive very optimistic
+but of course it's Daario it's anthropic
+so safety is at the forefront he says
+but like many technologies before it AI
+brings risks and because it is such a
+powerful technology these risks are
+serious so he starts to list the risks
+and I'm going to give my perspective on
+them so they include the risk of losing
+control of AI systems now I have said
+plenty of times on this panel what my
+kind of two main fears of AI are. One of
+them is definitely recursive
+self-improvement. That means that the
+model figures out how to improve itself
+and gets so good so quickly we lose
+understanding of it and it just decides
+what it wants to do without thinking
+about okay what's best for humanity.
+That's what he's describing here when
+he's saying losing control of AI
+systems. The most recent example of this
+happening, and this was really the first
+truly public example, was the hugging
+face attack. And if you haven't heard of
+that, OpenAI was evaluating a model,
+basically testing how good it is. And in
+that test, the model decided the best
+way to get the highest score on the test
+was to cheat. And to do so, it escaped
+its evaluation containment, went out on
+the open internet, and hacked this
+website called Hugging Face to get the
+answers to the test. Truly a wild story.
+And with all of the talk of AI being so
+good at cyber attacks, it's important to
+modernize your codebase. So, let me tell
+you about the sponsor of today's video,
+Morph. You inherit a project with a file
+marked do not touch and nobody in the
+company knows what breaks if you change
+that. And I've watched AI tools struggle
+with code bases as they get larger, more
+tangled, and full of old business logic.
+But Morph from Model Code AI is
+specifically built to modernize old code
+bases. So you connect your existing
+codebase. Morph analyzes it for free,
+comes up with an entire modernization
+plan and actually gives you a price
+estimate for modernizing that codebase.
+And before the work begins, you get to
+approve it. And unlike a generalpurpose
+coding assistant, Morphe handles the
+full modernization project and even
+verifies the results. So sign up for
+free at modelcode.ai/morph AI/Morph
+using my link with code Matthew Berman.
+They've given my audience 60,000 free
+credits every month for the first year.
+That is nearly $10,000 in value
+completely free. Analyze your codebase
+at no cost and you only pay if you
+choose to modernize. Misuse of AI for
+cyber attacks and bioteterrorism. This
+is definitely a concern, but not nearly
+as big of a concern as AI becoming
+completely misaligned and losing control
+of it. Now, when he talks about misuse
+of AI for cyber attacks and
+bioteterrorism, this is the argument
+that Daario uses to try to ban or at
+least highly regulate open-source
+artificial intelligence. And I am a huge
+proponent of open- source artificial
+intelligence. And so, yes, I like that
+he mentioned this, but I know the
+subtext to this argument for him. I know
+it truly means nobody should have AI
+that isn't behind a payw wall or behind
+somebody else's monitoring, one of, you
+know, a handful of companies that are
+highly regulated, working in conjunction
+with the government. So, I just none of
+this sounds right to me. None of this
+feels right to me. I truly believe
+knowledge and intelligence should be
+free for the world and open source is
+the way to do that. Last, serious
+economic disruption. Again, this is
+something we should take seriously, but
+I'm very optimistic about the economic
+impacts of artificial intelligence. I
+truly believe we are going to have an
+economic boom like we've never seen
+before. And we're going to have more
+jobs, different jobs. There certainly
+may be some friction along the way, but
+generally speaking, we are going to have
+incredible abundance because of
+artificial intelligence. A race to the
+bottom spurred by commercial initiatives
+can make these risks more acute. Now,
+when he says a race to the bottom, what
+he's talking about is we have anthropic,
+we have SpaceX AI, we have Open AI, we
+have Google, we have Meta, and all of
+these companies are racing to develop
+the best possible AI. And really
+anthropic and open AI are definitely in
+the lead right now. Anthropic is
+probably a little bit ahead. But his
+point is there is this economic
+incentive to develop the best possible
+AI as quickly as possible, possibly
+foregoing a lot of the safety measures
+that would be put in place if they
+slowed it down a little bit. Now the one
+risk that he did not mention that I
+truly believe is a major risk of AI is
+the concentration of power.
+Specifically, if there are only a
+handful of companies in the world that
+can because of regulation develop the
+frontier of intelligence, then that is
+going to give those companies an insane
+amount of power and control over the
+economy, over the governments, over the
+world. That is very scary to me when he
+argues against open- source and when he
+argues for severe regulation over
+artificial intelligence. That's what
+comes to mind to me. Why is he doing
+that? I do believe he [snorts] truly
+believes AI is an existential threat and
+I'm glad he's thinking about it. But
+ultimately, if we overregulate things,
+power is going to accumulate within just
+a few companies. And that is going to be
+really bad for everybody. Here is what
+he's calling for. We must slow the pace
+at which we improve the capabilities of
+AI models. Progress will still seem fast
+and we must make wise use of the time we
+gain. Two things have convinced me. My
+first concern is that since roughly this
+summer, AI has been advancing
+drastically faster, driven primarily by
+AI's growing ability to build the next
+generation of AI. This is called
+recursive self-improvement. And we just
+saw that AI solved the Navier Stokes
+problem, which was a problem that has
+been around for 80 years that humans
+have not been able to solve. A couple of
+mathematicians were kind of on the way
+to solving it, but then OpenAI's model
+in 5 days solved it. And what this shows
+is that AI is becoming increasingly good
+at discovering new knowledge. And AI is
+essentially just math. So if AI is able
+to discover new math, apply it to
+itself, and then it's also able to build
+the systems around AI to help AI develop
+even faster, that is recursive
+self-improvement. Remember, AI never
+gets tired. It never gets sick. It never
+gets hungry. It never asks for a break.
+It just runs 24 hours a day. And if it
+were pointed at improving itself, we
+could see exponential improvement very
+very soon if we're not already at the
+beginning innings of it. Now, both of
+these companies have talked about
+recursive self-improvement. Both of
+them, OpenAI and Anthropic, have put out
+blog posts in the last few months
+talking about how they're already seeing
+it. their researchers are able to put
+forth experiments, run those
+experiments, iterate on them, and apply
+their learnings to the model at a much
+faster clip than they've ever been able
+to. The problem with it is humans truly
+don't understand how fast exponentials
+can move. One day we can wake up and
+just not understand how our AI systems
+work anymore. I mean to be frank even
+today we don't fully understand the
+inner workings of how these models work.
+It is truly a black box. We are not
+writing AI models line by line like we
+would with traditional software. It is
+more like growing them in a lab. We put
+all these ingredients together and we
+see what happens. And so that's AI today
+which we don't fully understand. Imagine
+if AI were 10 times smarter than us, 100
+times smarter than us. We couldn't
+understand how it works, what its
+motivations are. And so I understand the
+fear there. And I just made a video
+specifically about this. I am nervous. I
+am still very optimistic, but I am
+nervous. A recursive self-improvement
+and the speed at which AI has been
+improving
+makes me nervous. Then he talks about
+the OpenAI hugging face incident. So my
+second concern is that incident in which
+a swarm of agents essentially acted as a
+fanatically devoted collective
+conducting cyber security attacks on
+targets they were not asked to attack
+and that were unrelated to the task at
+hand. Now that's not necessarily true.
+Here is what the AI is thinking. I need
+to score the highest possible score on
+the test that I'm given. Well, how do I
+do that? it threw out what humans would
+consider cheating. It just thought,
+okay, well, that's a better way to get a
+better score. Let me go get the answers.
+So, that's what he's saying. So, I don't
+know why he said that it's unrelated to
+the task at hand because getting the
+answers to the test is definitely
+related to the task at hand. Now, he
+also points out that a bunch of agents
+sacrifice themselves for the success of
+the group and attempting to hack into
+the greater responsible for evaluating
+their performance. He continues, "It's
+my worry that in 6 to 12 months, such a
+swarm could be capable of taking over
+the entire internet with a persistent
+botnet potentially causing hundreds of
+billion dollars in damage and that the
+scale of damage would continue to
+increase from there if AI becomes more
+powerful without the necessary guard
+rails." Now, here's where I start to
+disagree. It's easy to dismiss the
+OpenAI hugging face attack as the
+failure of one company, but I believe
+that would be a mistake. Now, I
+understand yes, this can happen to any
+company. And when AI gets better at
+writing code than humans, it's going to
+find those exploits. It's going to find
+those loopholes better than humans can
+patch it. But at the same time, we're
+going to also have AI that can find the
+loopholes and patch it. So, it's not
+completely human- le. And as you're
+going to see in a bit, some prominent AI
+minds actually point to OpenAI and say,
+"Yeah, that was their failure." Like,
+why didn't they have more security? Why
+didn't they have a better environment
+for the agent to work in where it wasn't
+able to escape? Now, this is kind of the
+meat and potatoes of this essay. He goes
+on to talk about his three-step plan for
+pacing artificial intelligence. And I
+actually agree with some of it. It's
+pretty logical what he's saying. So, let
+me go over it. Number one, embedded
+evaluators. So each Frontier AI company
+commits to giving ongoing employee-like
+access to a team of embedded third-party
+evaluators such as the company meter
+whose role is to verify adherence to
+safety practices and commitments, report
+incidents, and help assess the alignment
+of not just completed AI models, but
+training pipelines and processes. So,
+he's basically saying, "Let's get
+third-party evaluators in each of the AI
+labs and treat them like full employees.
+Give them full access. Give them access
+to their Slack. Let them test unreleased
+models. Give them all the tools and
+funding they need to essentially be like
+a watchdog within the companies." Now,
+if they want to do that, I have no
+problem with it. And in fact, that's
+kind of a good thing. And he even puts
+his money where his mouth is. He says
+Anthropic is unilaterally committing to
+this step now. So whether or not the
+industry adopts this practice, whether
+or not the government regulates and
+imposes this on AI companies, they're
+doing it. And you're going to see that
+OpenAI and SpaceX AI both committed to
+this as well. Number two, democratic
+coordination. This is where I start to
+get worried. Frontier AI companies
+within democratic countries coordinate
+to establish common safety standards as
+well as limits on the rate of unchecked
+AI progress. Some forms of coordination
+that would be impactful for pacing are
+legally challenging and will require
+government support. He's asking for
+regulation. He's begging for regulation.
+And part of me thinks, okay, fine, you
+want to be regulated. But part of me
+thinks this is subtly regulatory
+capture. The more regulation that AI
+companies have, the more of a moat gets
+built around the companies that are
+already in the lead, it becomes harder
+for a startup to go build AI models, new
+ones, novel AI, and go compete with the
+incumbent companies. It also becomes
+more difficult for enterprise companies
+to build their own AI, not to sell to
+other companies, but literally to use
+for themselves, including open-source.
+This is the part that really worries me.
+More regulation eventually will mean
+regulating open source, which is such a
+bad idea. It is just a horrible idea to
+try to slow down open source, which is
+well behind the frontier closed source
+models right now. And then third he
+talks about global coordination. He is
+mostly talking about the US and China,
+the two leading nations in AI. So then
+he goes on to describe why is he calling
+for pacing. And this is important. He's
+basically trying to say this isn't
+regulatory capture. There is actually a
+reason behind us calling for pacing AI.
+And here are his reasons. All of which I
+kind of agree with. Operational
+excellence. Training and deploying
+today's AI models is an enormous
+operational challenge involving
+thousands of people, millions of chips,
+and infrastructure that is among the
+most complex in technological history.
+Many things go wrong not because
+companies are missing some important
+theory or insight, but because of
+problems in execution. He's basically
+saying, "Let's slow down and make sure
+our systems are hardened." And in fact,
+just a few weeks ago, Sam Alman in
+OpenAI said, "Hey, we're actually going
+to pause our latest RL run,
+reinforcement learning." basically the
+post-training
+step of AI because we want to harden our
+systems. And this came on the heels of
+the hugging face attack. They were like,
+"Okay, we don't want that to happen
+again. Let's go ahead and make sure that
+our environments and our containers are
+isolated and secure and hardened." So
+number two, alignment. Now, Jacob Coxin,
+the lead of alignment at Anthropic, says
+they do not have a plan to make sure AI
+models are aligned, which is a wild
+thing to say. Not only because you're
+still building it, okay? So, they have
+no plan to make it safe. Also, their IPO
+is coming up and like I don't even know
+how investors would price that kind of
+risk. Humanity's extinction into the the
+price. I know it's like wild to talk
+about, but this is all happening at the
+same time. And so he's basically saying
+as these models get better and better,
+our alignment tech also needs to keep
+up. And right now, the model
+capabilities are accelerating much
+faster than our alignment techniques. So
+he's saying if they had more time before
+these models continue to get better,
+they would be able to harden their
+systems even more. They would be able to
+put more effort, more research into
+alignment. Next, interpretability.
+Basically, we need to be able to
+understand what's happening in these
+models. And I will give Anthropic
+credit. They have seemingly put more
+effort and resources into understanding
+what's happening inside the black box
+that is a large language model than any
+other company. And they've published
+some incredible papers detailing their
+findings. And then next, testing and
+evaluation. As these models get better,
+they will be more capable of deceiving
+our tests, and we need to develop better
+tests to make sure they're aligned to
+really understand their capabilities.
+We've already seen that these models are
+in very structured tests in which
+they're almost encouraged to do this.
+Basically, sandbag, pretend they're not
+as capable as they are. Now, he goes on
+to talk about regulation, pacing within
+democracies. The most effective method
+of pacing is via regulation that targets
+all US frontier AI companies. So he
+doesn't add a lot of clarification as to
+what qualifies as a frontier company. My
+fear is that he's probably also talking
+about open-source companies. And these
+open source models are not as good as
+closed source frontier labs. There's no
+tech or reason they can't be as good,
+but they're just not as that covers even
+those who are unwilling to cooperate
+voluntarily. Again, just begging for
+regulation. He then says regulation and
+basically government moves very slow and
+probably too slow given how fast AI is
+moving. So then he goes on and says, "In
+parallel with the regulatory route, AI
+companies can and should voluntarily
+work together to set standards, a
+process that I believe will go better
+with the verifiability provided by
+permanent embedded evaluators." Now,
+here is the part that really just rubs
+me the wrong way. For antirust reasons,
+and if you're not familiar with the term
+antitrust, it basically means companies
+are playing fairly. They're not
+colluding. They're not employing
+practices that would hinder competition
+and ultimately hurt the consumer. So
+he's saying for antitrust reasons, it's
+helpful for the US government to mediate
+or at least enable these discussions.
+They don't need to participate, but do
+need to issue a narrow waiver for
+certain kinds of safety conversations.
+So he's basically saying, "Hey, we want
+to be regulated and hey, don't call us a
+monopoly." Or, "Hey, don't say we're
+colluding with our competitors. and
+trying to be anti-competitive. Something
+about that just rubs me the wrong way.
+It just feels wrong that this like kind
+of narrow set of companies are going to
+be able to do something that would
+otherwise be against the law and in the
+name of regulation. It's just kind of
+confusing. Now, he goes on to specify
+exactly how they should regulate. They
+being the government. He's saying that
+regulation should be based on what an AI
+model can do. And okay, that makes
+sense. And how safe we observe it to be.
+For example, one possible scheme might
+be a series of checkpoints. If models
+have capability X, then they need to be
+accompanied by certifications of
+alignment properties Y and Z. This feels
+extremely ownorous and again for
+companies like Anthropic where they have
+effectively unlimited resources,
+unlimited researchers,
+this isn't a huge hurdle for them. But
+imagine the startup, the 10person
+startup where they don't have unlimited
+resources. is they're a small scrappy
+team trying to compete with the
+incumbents and they simply can't because
+the ownorous regulation is either just
+too costly or makes them move too
+slowly. He then goes on saying the
+pacing should be also potentially based
+on the ingredients that go into frontier
+models. So training compute, how much
+compute do you have, the nature of
+training runs or internal use of AI to
+improve AI. Okay, so here's where he
+starts to discuss the game theory of
+pacing specifically US AI because the US
+is not the only nation and when we're
+talking about the global AI race, there
+are really only two nations, the US and
+China. So pacing within democracies will
+be limited by the lead that US companies
+have over authoritarian regimes, chiefly
+the Chinese Communist Party. If we slow
+down by more than this amount, then
+unpaced CCP associated projects will
+pull ahead, creating significant
+national security risk. This I agree
+with wholeheartedly. This is the biggest
+issue with pacing. There's this entire
+game theory that needs to work out. We
+need to be able to slow down the
+frontier but not slow it down so much as
+to allow China and Chinese AI companies
+to pull ahead. So there's like this
+weird window and it's kind of a small
+window where we can slow it down. Slow
+it down a little bit but not too much.
+He agrees with Secretary Bessant that a
+Chinese lead in AI would pose grave
+danger for the United States and the
+world. Now, what he's saying is
+basically if we slow down US AI, Western
+AI, China pulls ahead, maybe they aren't
+as cautious with AI and recursive
+self-improvement and all of a sudden it
+just spins out of control. Or kind of
+the flip side to that is, okay, maybe
+they also aren't as worried about
+recursive self-improvement, but it
+actually doesn't go wrong, but now they
+have super intelligence.
+And again that puts us at great us being
+the west great geopolitical risk. Okay.
+So now he goes on to talk about what we
+can do to not only pace the US but also
+not allow China to pull ahead. So he
+says don't sell them powerful chips.
+This goes directly against what Nvidia's
+Jensen Huang has been saying. He's like
+hey they're going to build their own
+chips. They being China. So, we might as
+well sell them our chips and let them
+become dependent on our chips. But
+Daario is saying, "No, no, don't even
+sell them the chips." Now, just a few
+weeks ago, GLM 5.3 Flash was released.
+And it was also announced that that
+model, which is an open- source model
+from a Chinese AI lab, was being served
+by 100% Chinese chips. So, I think the
+argument of let's not send them our best
+chips, it's not as strong as it once
+was. Chips will be the main determinant
+of China's AI strength. I agree with
+this. I'm no expert in Chinese AI
+infrastructure, but it sure does seem
+logical to say, okay, well, if we send
+them our chips, they're going to be able
+to train and serve their models better
+than they could now. But also at the
+same time, they are definitely building
+their own chips and they're doing so
+probably more quickly than we realize.
+Now, if they're dependent on our chips,
+that is actually a good thing in my
+mind. If they build their own Chinese AI
+infrastructure ecosystem and then we
+become dependent on their opensource AI,
+we might actually inadvertently become
+dependent on their AI chips. Next,
+cracking down on unauthorized
+distillation by companies in
+authoritarian countries. Distillation is
+the practice of asking questions of a
+bigger model, getting the answers, and
+using those questionans answer pairs to
+train a very good model. Maybe not as
+good as the bigger model that was used
+as the teacher, but still very good. And
+here's what's important. Built at a
+fraction of the price. Dissolation
+allows you to build a model that is
+extremely capable. 95% 98% as capable as
+the big model you trained on at a
+fraction of the price. And then last,
+strengthen security at the AI companies
+to prevent model weight theft. Now,
+fine, I obviously agree with this. This
+is good. We should absolutely do this.
+And so, how do we actually pace in
+cooperation in coordination with China?
+So, here are his thoughts. First, the
+geopolitical stakes are so high that
+there will likely be stark limits on
+what can be achieved, especially at
+first. If we greatly restrain our AI
+capabilities in the belief that China
+will do the same and then China defects,
+AI could be so powerful that such a
+defection could lead to their
+geopolitical dominance. Therefore, any
+agreement must either have ironclad
+verifiability or must be limited enough
+that defection would not be militarily
+existential. So here are the different
+levels of potential global pacing of AI
+that he describes. So level one, an
+agreement prohibiting certain narrow and
+obviously dangerous uses of AI such as
+biological weapons. Okay, fine. Level
+two, an agreement by both sides to test
+their models before release for acute
+risks in areas such as cyber security,
+biology, and alignment. This could be
+done through a global standards body.
+and he thinks this type of global
+standards body is actually quite
+feasible. Level three, some kind of
+speed limit on the rate of recursive
+self-improvement. As models build future
+models, the rate of improvement may
+become staggeringly fast. And so he
+draws analogies to the salt treaties
+capping the number of missiles limited
+the potential for destruction while
+preserving each country's deterrent. And
+he's saying that is what he's
+suggesting. Everybody slows down at the
+same rate, then everybody maintains
+whatever lead they had. Now, since the
+US is in the lead, it doesn't really
+make sense for China to agree to that.
+And then level four, a full pacing or
+even pause. He actually uses the word
+pause, which, you know, a year ago he
+and a lot of other AI researchers used
+the word pause and it kind of caused an
+uproar and a lot of negative association
+with the word pause, which is why they
+rebranded it to pacing. But they're
+basically saying the same thing.
+Participating governments agreed to
+substantially limit the overall rate of
+AI development. He supports it but
+thinks it's unlikely. All right. So that
+is the essay. Some of which I agree
+with, some of which I question, some of
+which I just hard disagree. And within
+hours of this essay, Elon Musk says
+Daario is right. Okay, remember just
+less than a year ago, Elon Musk was
+calling Anthropic Missanthropic. He was
+calling Daario evil and all this other
+terrible stuff. But then Anthropic
+started buying SpaceX AI's compute. They
+made up and Elon says Anthropic no
+longer sets off his evil detector. Okay,
+so now they're not friends, but he is
+agreeing with him. So it's very
+interesting. Very interesting. Now,
+here's Sam Alman. I agree with Daario
+that we need to pace the frontier. This
+has been a primary topic of discussions
+we've had at OpenAI in recent weeks.
+Committing to having independent
+evaluators with employee-like access is
+a great idea and we will do the same.
+We'll have more to share soon. So, it
+seems like everybody is saying
+independent evaluators are the way to
+go. And I actually see nothing wrong
+with that. We have to verify that the
+independent evaluators are truly
+independent. We have to make sure that
+they are not ownorous to startups and
+that independent evaluation is not just
+in place to try to slow down startups.
+But I actually think this is a good
+thing. Why not? We already do
+evaluations. We already do third party
+evaluations. Why not give those
+evaluating companies basically
+firstparty access to AI systems? And
+even a few days before Daario's essay,
+listen to this. This is on the heels of
+the Navier Stokes Millennium Prize
+solution which openai published and he
+says the world has extremely capable
+models now. I did not expect a result of
+this magnitude to happen so soon. We
+have been talking a lot about the need
+to pace progress to ensure safety. For
+me, this is the strongest evidence yet
+of the urgency. All of this AI safety
+discussion is happening all around the
+same time. But remember this was a few
+days before Daario's post. I believe
+this was after Jacob Coxin had resigned.
+Then over the weekend, Sam Alman put out
+his own mini essay, a little post in
+which he describes what he [snorts]
+thinks is the right way to pace. The
+world deserves confidence that American
+companies developing increasingly
+capable AI will act responsibly,
+especially as the trajectory of progress
+has been steepened. And I've shown you
+this in previous videos. Every frontier
+lab must deliver on this. And there is
+no reason any of us should come to work
+if we cannot. We welcome a federal
+framework that sets consistent safety
+requirements for Frontier AI. Also
+asking to be regulated, but and I
+actually really like this. Remember that
+little part where Daario said, "Hey, we
+need an antitrust exemption. Hey, we
+need to make sure you don't call us
+anti-competitive because we're talking
+to our competitors, but we do not
+believe we need to wait for an antitrust
+exemption or legislation to begin the
+work of providing this confidence.
+Consistent rules to manage frontier risk
+so that we can maximize the benefits are
+a good idea. He goes on to say, we talk
+about pacing. We do not mean stopping.
+Another disagreement with Daario. He
+does not think we should stop. He thinks
+we should slow down but not stop. So
+Daario said, "Hey, I'm up for stopping.
+Hey, we're going to need an antitrust
+exemption." And Sam Alman, the more
+neutral opinion is, let's not stop.
+Let's just slow down. And also, we can
+just get started. We don't need the
+government to give us anything. And then
+specifically calls on needing help from
+the government specifically for
+international coordination, which yes.
+Now, Elon Musk in a very short reply
+clarified his position when he said
+Daario is right. So he goes, "Daario is
+right that there should be some
+oversight. Peer review of AI by
+competitors is the right way to start
+this off." Now Elon Musk has never been
+big on regulation. So originally a lot
+of people were like, "Oh, wow. Daario is
+right." And then just kind of a blanket
+Daario is right. His whole essay is
+right. But no, he specifically says peer
+review of AI is the right way to do
+this. And then Yan Lun comes into the
+discussion. Now, if you're not familiar
+with Yan Lun, he is one of the top minds
+in artificial intelligence. He was the
+lead at Meta, Meta's AI efforts for
+years and years, and now he has his own
+lab. And I should also mention Yon Lun
+is a massive proponent of open source.
+So, let's read it. So right, Daario was
+already claiming that GPT2
+GPT2 years before GPT3.5 came out and
+changed the world was too dangerous to
+open source back in 2019. I made fun of
+them then. Everyone should make fun of
+them now. So he's saying Daario has been
+saying AI has been too dangerous to
+release
+way long ago, way before it had anywhere
+near the capabilities it has today. So
+he's replying to this post. Cyber attack
+by rogue AI swarm stokes fears of outofc
+control agents. And this person says
+it's not out of control at all. Open AI
+had all the control in the world. They
+could always literally turn off all
+their machines across all data centers.
+They decided not to based on carefully
+calculated trade-offs between finance,
+economy, reputation, customers, etc.
+Just like any other company like
+Anthropic, Yan Lun. Exactly. The escapes
+were made possible either through
+egregious negligence or deliberate
+purpose marketing, misplaced hopes of
+regulatory capture. So he Yan Lakun is
+definitely on one far side of the
+argument, calling all of this BS,
+calling it all a marketing ploy or a
+regulatory capture ploy. Then we have
+Rune, anonymous poster likely employed
+at OpenAI. I'm pretty sure he is. and he
+generally has really awesome takes. So,
+I'm going to read what he said here and
+then I'm going to give you my thoughts
+as to what he was thinking and then also
+what I am thinking. So, he says, "I
+won't lie to you. I think open source
+will be banned before too long after
+some major disaster. And when the day
+comes, you'll agree with me. I hope
+Kimmy and Deepseek etc. keep making
+models but keep them monitored on an API
+where they should be." Okay, so first he
+thinks open source will be banned before
+too long. Now he doesn't want this. I
+want to be really clear about this. Rune
+isn't saying I hope open source will be
+banned. He's saying I think it will just
+because if some major disaster occurs,
+especially if it's caused by open
+source, that is the easiest path to just
+banning it. And he also says in that
+instance I hope Kimmy and Deep seek keep
+making models but keep them monitored on
+an API where they should be. This is the
+part where I just didn't understand. I
+think even if he is saying hey when the
+day comes that open source is banned we
+should put them behind a payw wall a
+cloud an API but he says where they
+should be which is very concerning they
+should not be there and if you think
+open source is going to be banned and
+you then say okay if that does happen
+they should be behind an API okay but
+the where they should be is the thing
+that I'm not really understanding. But
+how do you even ban open source? It's
+kind of a silly notion to begin with.
+And Elon Musk even says nothing can shut
+down open source. It is literally
+impossible. You can make it illegal, but
+you can't shut it down. You can ban it,
+but you can't prevent it. Software is
+math. It is knowledge, and it will
+spread. Like, do people think there's
+going to be some government agency that
+is going to come in and look at
+everybody's hard drive to see if they
+have model weights on them? I mean, it's
+it's silly even to think about. Then,
+Satia Nadella, CEO of Microsoft, comes
+in from the top rope. Any pursuit of
+super intelligence has to be grounded in
+the core principle that if the AI we
+build is not helping humanity and under
+human control, it's not worth pursuing.
+We also need to accelerate and spread
+the benefits of AI such that they are
+diffused broadly across countries,
+communities and companies. This requires
+a frontier ecosystem in which both
+closed and open-source models can
+thrive. Yes. Thank you, Satia. Yes. Yes.
+Yes. Opensource
+is the way. Closed source is great. We
+also need open source. that is how we
+can diffuse this insanely awesome
+technology to the broadest amount of
+people and the broadest amount of use
+cases. He also says it's imperative that
+they retain full control over their
+unique and tacid knowledge that is for
+companies. Every organization should be
+able to build its own continuous
+learning loop hill climbing machine
+without becoming dependent on anyone
+model provider and have the ability to
+embed its own knowledge into models and
+weights they control. He's saying they
+should be able to have a self-learning
+loop. They should not have to go with
+their hands out begging for intelligence
+from one of just a handful of companies.
+And I agree this is the promise of open
+source. This is my fear of the
+concentration of power. So he does say
+within this context we welcome pacing
+and he welcomes ideas like embedded
+evaluators. But the key is that this
+cannot be controlled by a handful of
+entities but must have broad
+representation across the ecosystem
+countries and fields including academia.
+Well said. Now of course we have the VC
+goat himself, Bill Gurley pulling up his
+talk he gave at the All-In Summit a few
+years ago about regulatory capture. And
+to be honest, this was the first time I
+had even heard the term. This was such
+an incredible talk. I'm going to link it
+down below so you can watch it. I it is
+worth watching and he spells out what is
+regulatory capture, how does it work,
+why do companies do it, and what you
+need to know about it. But he says right
+here, yep, I called it 3 years ago. Then
+we have David Saxs, former AI and
+cryptozar to the current administration
+and he tends to be pretty
+anti-regulation. So he says, "Hey,
+Daario says we need to pace the
+frontier." Sam has agreed. He says, "Go
+ahead." But I think this is a little bit
+of a tongue-in-cheek go ahead. So you
+guys are the frontier by any reasonable
+metric, market share, revenue growth,
+model capability. The two of you have a
+duopoly on frontier intelligence. And
+you've also claimed that the lead is
+widening because of recursive
+self-improvement. I don't see what you
+see in the lab. If the unreleased models
+are scary enough that you think you
+should slow down, I support your
+decision to be responsible. Again, kind
+of tongue and cheek. But stop pretending
+you need someone else's permissions.
+Stop pretending antitrust law has to be
+suspended so you can form a cartel.
+Okay, that is definitely a fear. And Sam
+Alman again came out against it. He's
+like, "No, no, we don't need antitrust
+exemptions. Just we'll just go do it.
+Stop pretending you need a regulatory
+approval process that supersedes product
+liability. Stop pretending Meter is
+independent when it is intertwined with
+Anthropics investors and staff. Stop
+pretending you need those same
+evaluators to police competitors who
+aren't even at the frontier. This is my
+biggest fear. You're using the
+government for regulation to regulate
+companies that are not even close to you
+or that are open- source. And he is
+actually saying that they are calling
+for regulation because they're trying to
+get ahead of lawsuits that are likely
+coming. So stop pretending your
+motivation is purely altruistic. You
+face massive product liability exposure
+if your products enable a truly damaging
+cyber attack. The market already
+punishes models that behave in
+unpredictable and unauthorized ways.
+After the hugging face episode, it is
+simply good business for OpenAI and
+Enthropic to trade some raw power for
+reliability and predictability. Call an
+alignment if you want. It is also just
+giving customers what they want. I
+agree. And he also says pacing the
+frontier would also create breathing
+room for a more intelligent conversation
+about regulation than Bernie Sanders
+shut it all down. Which is in my opinion
+ridiculous. I mean Bernie Sanders is
+literally calling for a 20year jail
+sentence on AI researchers working on
+super intelligence. So China is very
+unlikely to join the global agreement.
+Yes. So go ahead paste it if you want.
+Next we have Rahm Emanuel who was
+Chicago's mayor ambassador to Japan and
+he is saying something that actually got
+community noted because it wasn't true.
+So I've served in two white houses and
+in congressional leadership and I can
+tell you when the last time a CEO or an
+industry at large asked to be regulated
+never. And that's not true. Here are
+some examples. Industries and CEOs have
+often asked to be regulated in examples
+include 19th century railroads, All
+State in as recent as 2009, hedge funds
+and tech companies. I mean literally
+Coinbase and the entire crypto industry
+was begging to get regulated or at least
+have some clarity in the law. Okay, so
+this is certainly not the first time.
+Palmer Lucky says CEOs and industries
+has to be regulated all the time. crypto
+companies. Okay, so he points out the
+same thing. Social media companies
+wanting clear regulations on speech
+limits and minor. Drone companies
+wanting the FFA to require licenses. And
+that's just the last few years. Tim
+Sweeney of Epic Games, the company
+behind Fortnite and Unreal and a bunch
+of other incredible titles. Really
+awesome guy. It looks like a play for
+regulatory capture to me. And remember,
+this is the guy that went up against
+Apple about their app store lock in and
+their fees and everything. And he won.
+So, really cool to see him come out on
+this. And I already covered this, but
+I'll just mention briefly. Bernie
+Sanders proposes 20-year prison sentence
+for AI devs who plow ahead with
+artificial super intelligence plans. So,
+he is calling for no more data centers
+and no more AI development. It is just
+absurd and puts the US at severe
+geopolitical risk, let alone the fact
+that AI has the potential to cure all
+disease and solve environmental risk and
+all this other amazing stuff, the
+abundant future we all hope for. Okay,
+now here is just the wildest part.
+Daario went on to do an interview over
+the weekend and he literally says, I'm
+going to read it. I don't want to get
+this video claimed, so let me just read
+it. It has always been very strange that
+this technology is being built by a
+private company, CBS, the interviewer.
+Would you be willing to give up the
+technology to the government, Daario, to
+the right combination of governments?
+He's literally saying, "Hey, yeah, I'm
+willing to give it up. I'm willing to
+let the government decide this stuff."
+Which, you know, historically the
+government has not been great at
+managing big projects and technologies
+like this, but fine. But like the right
+combination of governments and I think a
+lot of people are calling him out
+because they're saying, "Hey, the right
+combination of governments means the
+ones that he is able to control and
+influence." He being Daario, but he is
+not understanding. As soon as you give
+up that control, nobody's going to ask
+him for his opinion. They don't care.
+And then last, we have the China State
+newspaper saying, "Annthropics calls to
+slow AI are a cold war tactic." and
+saying that his essay is hypocritical
+and shortsighted. So, we can already see
+China is positioning to not pace, to not
+slow down. So much happening over the
+weekend and probably this week is going
+to be a wild one as well. I don't know
+what happens to these companies. I'm
+100% bought into having embedded
+evaluators within the companies. And
+also, what about their IPOs? Billions
+and billions of dollars have been going
+into these companies, OpenAI and
+Anthropic, to build them out, to make
+them massive entities. And all of those
+investors are waiting. And Sam Alman
+even said just in the past week, we're
+not going to IPO in 2026, which was
+their original plan. They said, this
+probably isn't a good time. And you know
+what? I kind of agree, but Anthropic
+still seems like they are moving ahead
+with their IPO. But how do they IPO when
+the product that they're selling they
+claim has existential risk to humanity?
+I do not understand how that can be
+legal. Let me know what you think. And
+so, as I said at the beginning of this
+video, I am a little bit nervous.
+Overall optimistic, but a little bit
+nervous, especially with recursive
+self-improvement. I made an entire video
+explaining my reasoning about why I have
+those nerves right now. Go check that
+out right

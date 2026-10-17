@@ -1,0 +1,82 @@
+UP主：OpenAI
+标题：Build agent-ready sites with WebMCP
+链接：https://www.youtube.com/watch?v=Is2NHa7awWY
+
+Codex has been able to use the web for
+a while now and watching it click around
+never gets old.
+But one thing that is annoying is that
+it's quite slow. We're releasing WebMCP support
+in Codex and
+what that lets you do is just add tools
+straight into your website and
+it lets Codex go ahead,
+pull it down and figure out exactly the
+capabilities that it needs to know about
+to make really great results on your website.
+I've put together a little demo called Codex
+Modeling Studio and it lets Codex open the
+website and just visually iterate on a 3D
+model that you
+can even 3D print after. It's able to
+set up shapes, take screenshots from
+different
+angles without
+interrupting your view and
+we can kind of
+collaborate Codex and I on the demo and
+I can give
+it notes as it works. It's a little demo
+just to show off the capabilities of something
+like pretty
+advanced that you can put in a website.
+You know, sites are not just for, you know,
+simple eShop pages
+you can actually have full 3D
+renderings
+and all kinds of things going on there
+and having WebMCP
+just really elevates the possibilities of
+what you can show and distribute to
+people. Adding WebMCP to
+your site is just as easy as asking
+Codex to do it. It can go ahead, figure
+out the spec and write the
+tools for you. What I recommend is that
+you spend some time dogfooding, iterating with
+Codex. Codex is
+your customer. It's the one using the
+tools, not the user. So you want to make
+sure that tools are
+discoverable to it and it knows exactly
+what it needs to do. You can spend some
+time trimming down
+your tool set making sure the
+descriptions
+are clear and it's able to get to
+where it needs to go as
+efficiently as possible. Codex will tell
+you if you ask it for feedback and
+I've even added a feedback
+tool in the demo here. So as
+Codex works it can flag errors and
+let me know when there's something that
+needs fixing. It's a very different world
+to build tools for a model versus
+having
+them be for a
+person but we're in this world now where
+models and people can collaborate on the
+same interface
+with different channels and
+it's a very different experience but
+it's a whole new world having Codex
+build tools for itself and being able to
+iterate on visuals alongside you as
+you see something
+different than it does. I'm just starting
+to scratch the surface of what's possible
+to build
+now that agents can interact with sites
+independently of you, and I'm really excited to see
+what you all build.

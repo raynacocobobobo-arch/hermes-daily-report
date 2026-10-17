@@ -1,0 +1,330 @@
+UP主：Futurepedia
+标题：I Tested OpenAI's New Personal Assistant Agent: DOTS
+链接：https://www.youtube.com/watch?v=V_1Vn2WfpEY
+
+Open AAI just released an always on
+proactive personal assistant agent
+called DOTS. I've had early access and
+have been testing it for a few days
+already, so I want to show you how it
+works and what it's capable of. They
+gave me early access, but this video is
+not sponsored in any way. Now, the
+easiest way to understand what it is is
+to see it in action. But first, I'll
+give a quick explanation. Dots is an
+agent that's always on and has access to
+all parts of your chat GBT. the
+memories, your connected tools and
+skills, your scheduled tasks. It can
+start new chats, new work sessions or
+codec sessions, including on your
+computer when it's on. I think of it as
+the bridge to all of these systems. The
+more threads and projects across chat,
+work, and codecs you have going, the
+nicer it is to have one central place
+you can go to understand and direct it
+all. Dot can be the orchestrator of all
+those systems at once from one place.
+And it will even find and suggest things
+to you based on all it knows. Plus, it
+also gets its own persistent cloud
+computer it can use to pull things up
+and store things over time. And you can
+talk to it on your phone or your
+computer and the chat persists between
+them. Now, like I said, I've been
+testing it already, but I actually just
+reset it so I can demo setting it all up
+from scratch. as it's rolling out. It's
+only available on pro and enterprise
+plans. I have no information on when it
+will be rolled out to everyone. If you
+have it, it will be over on the left
+panel near the top where it says your
+dot. So, it's introduced itself, said,
+"Message or call me anytime. I'll keep
+things moving even when we're not
+talking and check in with updates or
+questions." Said, "What do you want to
+call me?" And it's already starting to
+be proactive here. So, it said, "I'll
+start looking for ways to help, anything
+top of mind." And it also made us a
+scratch pad and started suggesting
+things. First off, it did ask what I
+want to call it. I'll say I'll just call
+you dot. I'm good with that. And dot it
+is. Now, when I click on the dot up top,
+it will open up a panel on the right. I
+can easily edit the name or I can change
+the look of it. Got the dot icon or
+there's all these cute little
+characters. Personally, I like the
+little dot, so I'm going to stick with
+that. Nice and clean. Then you'll see
+the options for call, email, or Slack.
+So, call is basically just voice mode.
+Now, with email, they actually haven't
+given them their own personal emails
+yet, but there is the option for Slack.
+So, you can add it to a workspace, and I
+think it's actually really good to set
+it up in Slack if you have it. And below
+that, you'll see the computers. You have
+your dots computer. It gets its own
+personal cloud computer where it can
+look things up, pull up multiple tabs,
+and you can see what it's doing and take
+over if you want to. We'll get to that
+later. Then, there's also my computer
+since I am on the desktop right now,
+which I am going to give it access to.
+then it will be able to control all of
+my codeex threads. Let's toggle that
+back off and let's ask it something.
+Since me and Saj from Skillap both had
+early access, we put together a free
+resource with a few use cases and sample
+prompts you can copy paste to get
+started. It also explains what it is,
+how it works, and some best practices.
+And we are going to keep updating this
+resource over time as we build up our
+use cases. Download that for free using
+the link in the description. So, I'll
+just ask it. What types of things can
+you help me with? List out everything
+that you're capable of and why I would
+use you over chat work or codeex. And it
+responds once right away. The biggest
+reason to use me is continuity. And that
+has been my experience. The continuity
+in having one place to go for everything
+is the biggest benefit for me. And I
+like that it sends me a little bit while
+it's working on the rest. So then it's
+got the longer response now talking
+about using it for ongoing projects that
+connect several things, videos,
+research, email, files, tools, and
+follow-ups. Still use chat for quick
+thinking and codecs directly when you
+want to work closely with it on a build.
+And then gives a bunch of example use
+cases. The strongest use case for me, it
+says, would be something like, "Help me
+keep this video moving through research
+script, demo assets, and release checks.
+Bring me decisions when you need me." So
+I'll try out an example like that in
+just one second. First, I want to go
+back to this scratch pad it created. So
+I can open up that and this is another
+new feature they have called pages. So
+it's kind of a notion like system for
+taking notes and storing knowledge. So
+you can build that up over time since
+your dot is just one really long chat
+thread. Sometimes previous context can
+get lost in the mix. So having this
+scratch pad or with those pages you can
+create brand new ones for separate
+projects. So it's nice to have that to
+keep all of your ongoing notes and
+context. This is an awesome new feature
+that I'm sure I'll go deeper on in a
+separate video. It's already created
+this from what it knows about me and it
+has all the sections you can look
+through and then it has these hyperlinks
+with more information. You can create
+subpages if you've used notion before.
+It is a lot like that. So I'll say since
+you understand what dots can do, create
+a new subpage in the scratchpad for a
+video I'm making about the launch of
+dots. All right, it created the dots
+page. It has all these notes about it.
+Made some checklists. links out to some
+different chats we've had, created
+multiple different subpages, and you can
+see the pages it's created up here. Now,
+I've got a home for any notes about the
+video. And this has all been pretty
+basic so far. So, I'm going to ramp it
+up a lot with this next one. I mentioned
+it can access and use basically any part
+of your chat GPT. So, I'll have it use a
+few things at once. I'm going to hide
+this sidebar, and then those tabs will
+still be there anytime I want to go back
+in. I'll say, "Now, use my skills to get
+this video started. Use the intro skill
+to write three intros in work. Read
+through them. Then pick the best one.
+Next, take that intro and make some
+motion graphics that follow the script
+using the codec skill. Then also get a
+thumbnail started using the thumbnail
+skill in a separate chat. It's going to
+use three skills across multiple chat
+threads to accomplish this task. And one
+of them is actually running a skill for
+the intro using work. Then it's going to
+take that response once it's done and
+start a new thread in codeex and use a
+separate skill there. So it's waiting
+for one to finish before moving on to
+the next step somewhere else while at
+the same time starting a whole separate
+chat to create the thumbnail. So it's
+orchestrating across all of this. And
+while that's working, I'll show the
+voice mode as well for something else.
+And I'll do this one from my phone
+because that's the only time I ever use
+voice mode. So I'll click my dot up top.
+Then I'll hit the call button. I
+actually think it's kind of weird that
+they make it seem like a phone call and
+have it ring.
+>> Hey, welcome back.
+>> Hey, so recently I saw a really cool art
+piece that was like a magnetic wooden
+car.
+>> Ah, okay.
+>> Yeah, they were made of real wood then
+had magnets so they could stack up and
+look balanced like a Kairen. Can you use
+your browser to find some online that
+are like that? Just open any links you
+find in your browser as separate tabs.
+so I can see them.
+>> Got it. Let me take a look.
+>> For me, I only really use voice mode
+while I'm
+>> Okay, I found a really strong match.
+Handshaped walnut stones with hidden
+magnets, plus a few similar and mixed
+wood sets. I sent the four closest links
+to our chat for you. The walnut one is
+especially close. I can't open tabs in
+your browser from this call, though.
+>> Now, currently, cloud computer is down.
+I don't know what's going on there. It
+was working before I reset my dot. Um,
+doesn't seem like it can figure it out.
+So, it did pull these up in separate
+tabs using codeex's inapp browser. It's
+a good workaround. And that is exactly
+what I was looking for. I did a bunch of
+testing with this browser. It's been
+working perfectly for the past few days.
+Maybe it's because I reset my DOT. Also,
+this is a beta version of the chat GPT
+app. That could have something to do
+with it. I was using this function all
+day, so it should be working at launch.
+But let's go check in on the other
+project I gave it. Looks like it's got
+some of this going. So, let's see what
+it did. It's got it actually created a
+thumbnail already. You can see here
+where it was messaging back and forth.
+It's got the three intros. Then it's
+like picked one and sent that into this
+chat here. Selected intro number one.
+Then it's asking it to use the specific
+motion graphic skill I have. And that's
+another benefit of having dots delegate
+to codecs or work. It will prompt itself
+with a lot of detail that you might not
+put into your prompt yourself because it
+would take too long. And it looks like
+it's got a thumbnail for me, but I
+actually already had an idea for this
+thumbnail. I'll ask for a quick change
+to the thumbnail. And the motion
+graphics are done. And this is obviously
+supposed to go with the script where I'm
+talking about how it works and then it
+is going along with exactly what I'm
+saying just like I do in my normal
+videos. But I'll skip ahead here. Yeah,
+that looks awesome. That was a nice
+transition there. And the intro skill
+and this remotion motion graphics skill
+are both ones that I was working on in
+Claude Code. I actually just barely
+transferred them here so I could demo
+this. They'll probably need a little
+finetuning to work smoother in here, but
+that was still really solid. Just about
+there on the thumbnail I will be using
+for this video. I'm actually currently
+working on refining my entire content
+system, so these skills are still brand
+new. But I'm trying to get everything to
+kind of match the midjourney background
+I have behind me and keep it cohesive
+across the thumbnail, the motion
+graphics, and my background. And been
+working on that for the past couple
+days. So, these skills are not all the
+way there yet. My last video was the
+first time I've used them. But that
+example involved multiple tasks and
+threads over multiple responses with DOT
+acting as basically the project manager
+across all of it. And you can get it
+managing far more than that and managing
+multiple projects at once. Another thing
+it can do is set up recurring tasks,
+triggers, reminders, and various forms
+of automations. I'll do something
+simple. Tomorrow is OpenAI's dev day.
+Set a reminder for yourself. Review the
+main keynote. Soon as it's finished,
+give me a summary everything they
+launched.
+Then under scheduled tasks, there's now
+a separate tab for your dot, which for
+some reason is not able to open right
+now, but the task is there. And these
+work like the existing scheduled tasks
+where it can trigger from something
+being added to a form or an email coming
+in or set it up on a schedule every day
+or every week or just a one-off task you
+want done in the future. All sorts of
+different ways to automate work just
+like before, but these ones go directly
+to your dot. So that's been my
+experience so far with DOT. It's worked
+best for me as a bridge to all my
+threads and projects. It's nice to have
+one central place to delegate from
+instead of jumping between each of them
+all the time and as a way to get work
+started while I'm out. It is brand new
+and they are rolling out some of the
+capabilities a little slowly. More will
+be getting added to it over time like
+multiple dots, their own emails, the
+ability to pay for things, things like
+that and probably a lot more. And as you
+can see, there were a couple hiccups
+along the way. There are some bugs
+still. I said that I tested its cloud
+browser extensively before I started
+filming, but then I guess after I reset
+my dot, it just stopped working. Then
+for some reason, this scheduled task
+won't open. And this is a separate beta
+version of the desktop app that could
+have something to do with it as well.
+I'm sure people will be flooding the
+feed with new use cases and experiments
+over the coming weeks.

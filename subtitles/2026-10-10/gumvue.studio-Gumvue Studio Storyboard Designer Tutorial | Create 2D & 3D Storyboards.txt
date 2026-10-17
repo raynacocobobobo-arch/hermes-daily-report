@@ -1,0 +1,172 @@
+UP主：gumvue.studio
+标题：Gumvue Studio Storyboard Designer Tutorial | Create 2D & 3D Storyboards
+链接：https://www.youtube.com/watch?v=vsY3M-Bg_3c
+
+Hello everyone. Today, I'm going to show
+you how to create storyboards and design
+your own images for them using Gum View
+Studio. We added a new tool called the
+storyboard creator, which will help you
+generate these kinds of shots or images.
+Let's log in.
+You can log in with your Patreon
+account. If you are a Patreon member,
+you can access it by logging in.
+These are the projects I'm working on.
+Here we have all kinds of studio
+production workflows across different
+applications, but we are going to tools,
+and this is the new one, the storyboard
+designer.
+When you log in, you have 2D combo. You
+can come here, select a pen, and draw
+whatever you want. You can draw here,
+remove your drawings, and then capture
+them.
+You can also import an image. For
+example, this is an image I'm importing.
+Then I click capture.
+Here, I can open the processing settings
+and click generate.
+You can see that I generated this image,
+which I can use as support for my video
+generation.
+In the same way, I can use the depth
+maps if I want. As you can see, it
+generated depth maps.
+All of this can be used to generate new
+images or videos. You can download them.
+This is the 2D combo. You can also draw
+here if you want to edit something. You
+can remove this, add something else, or
+make any changes you want. We also have
+a 3D scene where you can use 3D objects
+and generate the image you want to
+capture. For example, um, let me move
+her closer to him. This is not like
+Blender, but if you do not know how to
+use Blender, this tool is easy to use.
+For example, this object is a little too
+large, so let's make it smaller.
+You can do the same thing here. Let's
+remove all of this.
+For example, I can position it like
+this, capture it, select different
+processing styles, and use the results
+as support for my video generation. You
+can import 3D models from your computer.
+For example, this is one I'm importing.
+It also reads the textures. So, the
+model includes all of its textures.
+You can also move different parts of the
+model. For example, if I click these
+nodes, select rotate, and click rotate,
+you can move the hand into the correct
+position. In the same way, you can
+capture it and create the storyboard you
+want to show.
+You can also add primitive objects. You
+can build your world here in 3D. You can
+also update the background and other
+colors. If you do not want a black
+background, you can change it to white.
+Here, you have all of these tools. You
+can select an object, remove it, or edit
+it in the same way. I can bring it here
+and change its shape. We have all of
+these tools. You can experiment with
+them and create what you want. The tool
+allows you to make unusual shapes and
+designs.
+You can download the result as a 3D
+object, import it here again, and start
+working with your new object. This is
+mainly designed to help you, and you can
+use it whenever you need it. In the same
+way, you can import models here. You can
+see several different websites where you
+can find free 3D models. The models
+should be in GLB or GLTF format. You can
+also import a model from a link. You can
+import it and then start working with
+it. This is useful when you need to make
+small edits before exporting the model.
+You can select import,
+type the link to your file,
+and it will be imported. Let me show you
+another feature.
+If we go to edit and click here, you can
+select and adjust these bones. You can
+also manage the brush strength and size,
+as well as other settings in this
+control layer, which you can move
+wherever you want. It is a useful 3D
+tool that can help you achieve better
+results in your production when you are
+creating a video or something similar.
+For example, I needed to create a
+battleship video, but I did not know how
+to create the necessary shots.
+I found a 3D model of a battleship,
+imported it here, moved it into the
+position I wanted, and captured it.
+I can position it, capture the angle I
+want, and generate the 3D maps, meshes,
+depth maps, and other elements from
+here.
+I can then use those elements to create
+the video.
+Remember that we also have a TV app
+where you can upload your videos.
+We will review and approve them, and
+anyone who has the application installed
+on their computer can watch these
+creations.
+We have films and series. For example,
+this is an anime series.
+You can open and watch it here on your
+TV or on your computer. This is
+completely free.
+You only need to submit a video longer
+than 3 minutes. It can be a video, film,
+music video, or any other type of
+content.
+We also have this studio, which uses
+Pollinations' AI and is very affordable.
+If you have an account, you can add your
+key and use CineForge.
+CineForge provides a breakdown and all
+the necessary content you need for your
+film production.
+It can break down the cinematic
+elements, handle character revival, and
+complete everything else. You can
+complete everything with one click. You
+can click the button and generate the
+content as a batch.
+We also have other tools including the
+DJ creator.
+You can come here and click to log in.
+It supports different formats. You can
+write your prompt here and generate the
+result. There is a video generator,
+music generator, image generator, and
+audio generator.
+Most of these tools are unique and you
+cannot find them on other websites
+because they were developed through time
+and experience using these tools to
+create content. The platform includes
+many different tools.
+There is also a discovery section where
+other users can share their work.
+You can click on their work, view it,
+and access the prompts and other
+information. You can come here and find
+the prompt. That's it. You can try
+logging in.
+Remember that this is part of my
+Patreon.
+By becoming a paid Patreon member, you
+receive direct access to these tools.
+Bye-bye.

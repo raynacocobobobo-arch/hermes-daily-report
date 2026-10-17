@@ -1,0 +1,87 @@
+UP主：OpenAI
+标题：Build Plugins for ChatGPT
+链接：https://www.youtube.com/watch?v=LiNhqbetrbU
+
+If you're building plugins for ChatGPT,
+you need to know about plugin extensions.
+Plugin extensions let you bring more
+of your product's UI into ChatGPT,
+so you can build richer
+and more interactive experiences.
+You can add your own tools, interfaces,
+and workflows that feel native.
+That goes beyond embedding a web page
+or just displaying an artifact.
+Your plugin can have
+a persistent home in the sidebar,
+or an interactive side panel
+besides an existing conversation.
+You can control the layout,
+the navigation, and the interactions.
+You decide what people can explore
+and how they work with it.
+In fact, items that we've
+added to the sidebar recently,
+like code reviews or meetings,
+are all built with the same plugin system.
+Take this design editor, for example.
+It supports plugin extensions,
+so I can open it up from
+the sidebar and start making changes.
+I can bring it besides the conversation
+and ask ChatGPT for help,
+and their work is still in view.
+Your extension connects
+those interactions to the conversation.
+If someone selects
+part of a design and asks,
+can we try a different layout here?
+It can tell ChatGPT
+what specific element is selected.
+You're building an experience
+inside ChatGPT that fits your product,
+your team, or the way you work.
+Now, there are a few more areas
+that you can customize
+as a part of the extensions platform.
+The onboarding flow
+after plugin installation,
+@mentions in the composer,
+and new controls and settings.
+The docs go into all that in more detail,
+but let's look at a few specific examples.
+Let's start with meetings, which
+helps you record conversations
+and work with the notes in ChatGPT.
+From the sidebar, I can choose a meeting
+and ask, what do we decide
+and what do I need to follow up on?
+Once I've reviewed the next steps,
+I can ask ChatGPT to draft a follow up.
+Like I said before, we've built
+this experience with the same
+extension platform you can use.
+Here's another example,
+the OpenAI Developers plugin.
+I built this in Codex
+and used Plugin Creator.
+I can open it up from the sidebar
+to find documentation,
+developer tools, and talks from DevDay.
+These examples show new modalities
+of working with AI,
+where you can move between
+using the interface yourself
+and asking ChatGPT to help.
+You can explore the information
+and make a choice, then review the result
+before deciding what comes next.
+Plugin extensions
+build on MCP and MCP apps,
+so you can bring your products, tools,
+and interface into the same conversation.
+To start your own, choose something
+your users need help with and build
+your first version with Plugin Creator.
+Then try it yourself
+and improve it from there.

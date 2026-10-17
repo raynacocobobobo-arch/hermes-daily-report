@@ -1,0 +1,75 @@
+UP主：OpenAI
+标题：How to Create a Solid Blog Draft With ChatGPT Work | Tutorial
+链接：https://www.youtube.com/watch?v=0j9yDUDMrBs
+
+ChatBT work turns scattered product
+documents into a structured first draft
+of a launch blog. Hi everyone, I'm Sahil
+and I work in marketing here at OpenAI.
+One of the most important parts of
+launching a new [music] product is
+writing the blog post which serves as
+the blueprint for our product launch
+campaigns. Before chatbt work, writing
+blogs meant spending days piecing
+[music] together information from Slack,
+meeting notes, product documentation,
+and user research, and then translating
+all of that into why it matters for our
+users. I'll show you how Chach work now
+lets me do that first part in the time
+it takes me to commute into [music] the
+office. And I'll use the very real
+example of writing a blog post for the
+chatupt work launch. First, I open the
+chat desktop app and switch to work. You
+can also do this on chatbt.com and your
+mobile phone. I connect my tools through
+plugins so chatbt can reference my
+messaging framework, product documents,
+research, meeting notes, and all other
+source material. During this phase, I
+like to use voice because I can think
+out loud and it's much faster than
+typing. [music]
+It feels like I'm talking to a
+colleague. For example, hey Chachabt,
+pull the latest context from these
+sources into a first [music] pass blog
+post draft. Then I give Chachabt our
+blog template and examples of previous
+posts so it understands the format,
+structure, tone, and what success
+[music] looks like. Our blog posts
+aren't just walls of text. They have
+different interactive components to help
+readers understand the product and
+[music] what it means for them. So now
+that we have a solid first draft with
+structure and copy, let me show you how
+ChatPut helped me build out some of
+these more interactive sections. For
+example, we like to feature real
+customers who have used our products and
+felt the magic themselves. [music] On my
+desktop, I have a handful of customer
+interview transcripts that the team
+recorded. Previously, I'd have to
+[music] spend hours listening to these
+transcripts and piecing together quotes
+we can use for our blog that supports
+our messaging and represents different
+points of view. With Chacha BT work, I
+can give it the shape and the story arc
+of the customer [music] quote I'm
+looking for and have it scan through
+transcripts and pull together blog ready
+testimonials in just minutes that meet
+all of my requirements. [music] Lastly,
+I asked Chatbt to monitor my sources and
+suggest updates to the blog post if
+launch details change throughout the
+process. And that's how I go from
+scattered information about a product
+launch to a solid blog draft that's
+ready to share, all in less than a day.

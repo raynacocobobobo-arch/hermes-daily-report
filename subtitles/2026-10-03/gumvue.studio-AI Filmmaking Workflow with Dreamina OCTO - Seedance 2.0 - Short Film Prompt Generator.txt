@@ -1,0 +1,196 @@
+UP主：gumvue.studio
+标题：AI Filmmaking Workflow with Dreamina OCTO - Seedance 2.0 - Short Film Prompt Generator
+链接：https://www.youtube.com/watch?v=fT5Gt3L5DmY
+
+The championship [music] final, one
+match, one title, one destiny. Years of
+hard work, lifetimes of sacrifice.
+But only one leaves with it.
+>> This is where legends are made.
+Welcome to the final. Breathe.
+Focus.
+Hey, Lena.
+I didn't expect to see you here.
+Can we
+talk?
+You know this isn't a good idea. I've
+been coming here, coaching. Coaching
+who? Sofia Meier. You chose her over us.
+I never wanted to lose you.
+Stay focused. One point at a time.
+They don't know what this took.
+Ladies and gentlemen, welcome to the
+final. This is for me.
+>> [cheering]
+>> Trust. Just trust.
+This is my moment.
+Reset.
+One point.
+One moment.
+The women's final. It all comes down to
+this.
+Focus.
+One point at [music] a time.
+First serve. Game on.
+Don't think about anything [music] else.
+Championship point. I got this.
+First serve. Backhand from Lena.
+Crosscourt forehand. Now.
+Big forehand. Championship point. Lena
+Ball,
+champion.
+A champion [music] isn't just made in
+the crowd.
+That was incredible.
+You trusted the plan. Couldn't have done
+it without you.
+Tomorrow we train again.
+Together.
+This is [music] my moment.
+Same time [music] tomorrow?
+Tomorrow's yours to lose.
+Hello everyone. So today I'm going to
+show you how I create a short film
+using short film prompt generator. So
+first of all, I just click one of the
+buttons on the top and it says write six
+short film diverse loglines.
+And as you can see that it gives me the
+like six loglines.
+I select match point which I just like.
+It says sport drama romance.
+And then
+here is and then it starts generating
+the story with a center list.
+And after it
+character descriptions, 1 2 3 and where
+where are the the the place location and
+then props.
+So in this case it gives me like one
+prop which is probably this.
+Genie's rocket. I mean that's a prop and
+then location is a stadium.
+But later you will see I asked to
+generate more so and it start generating
+the first character sheet.
+So as you can see this is chat GPT
+generated image
+which is pretty pretty good but again I
+don't like the face so so it's kind of
+very chat GPT.
+The same with the guy. So what I did I I
+go to Grok and then inside the Grok I
+just copy password chat GPT gives me as
+a prompt and just get this face
+for the for her and then I
+just said
+just take this image and update the
+sheet image.
+And as you can see, now we will get
+better one so it's much much realistic.
+Now to do I did the same with for the
+guy.
+And then I generate my props.
+And then I generate a location. What I
+did then I asked okay just give me more
+extra characters and extra props and
+then I get a list of them.
+Again, same way I just generate all the
+props so this is all the elements which
+I will need in the short.
+So we can keep all this consistent.
+And then I have coach
+image and then I have another secondary
+player image.
+Then I asked to generate the location
+because now it's just generate the
+location closer what I want. So far this
+is not the best run which it's giving me
+but it's close.
+And the next
+I asked to generate
+Yeah, I ask if there is anything missing
+so it just go goes through all and then
+recommended to do like two more extra
+shots.
+A extra channel like bridge and it
+insert shots which is fine.
+And there is it so again it's listing me
+all back again what is going on each
+stand up.
+And then I will just go down and just
+ask okay, just create my first shot
+sheet list. And then I get this
+which is like the first
+here how we start the story.
+And then I just keep doing this process
+like asking for each center separately.
+I think it's like 10 of them.
+And then I just get all of them and then
+I said
+let's do one more extra for the end just
+in case and then it excuse me one more.
+So, I just generate this is the last
+run.
+And during generation I note that
+ChatGPT just reducing the quality of the
+images probably because it's repeating
+every time over the image.
+And sometime you have to ask just remove
+the white and black dots which appears
+on the image so it just re- clean up
+that image and you start again. Now I
+again ask the location because I feel
+like now I have the story and it it's
+now where is what is going.
+So, now the story is better. These
+locations are better.
+But, I ask
+give me a colored version. So, this is
+the colored version.
+Now we know what is it all location and
+time because it's night day you see it's
+night.
+The corridor and then the interior
+place.
+And all this I bring to my Dreamina.
+I bring to my Dreamina as you can see.
+I already generate one video so I I
+upload all the shorts and I did like
+just
+drag and drop from my
+de- from my
+desktop into the
+Canva and just get it all here.
+Now I generate one one video so let me
+download this
+and open here the championship final.
+One match, one title, one destiny. Years
+of hard work, lifetimes of sacrifice.
+But only one leaves with it. Stay
+present.
+This is where legends are made.
+Welcome to the final.
+Okay.
+So, let's see.
+Probably I will go and generate once
+again in this shot because it's kind of
+uh the location is not so correct but
+that's fine. So, let's go and do I'm
+just showing you how it's working right
+so
+and then I select the second one and
+what I do is usually click on
+I click here on generate video, so I
+select all my elements. So for do that I
+just click here select from camera just
+go and click. That's it that's it. So I
+select omni reference select seedance
+model. There's a
+okay, so you see I select the
+the
+aspect ratio resolution and then click
+enter. So that's way I finish all these
+videos.
+Hope this is helpful for you and
+check my next video. Bye-bye.

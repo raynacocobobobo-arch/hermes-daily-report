@@ -1,0 +1,312 @@
+UP主：Futurepedia
+标题：Claude Chat vs Cowork vs Code: Which One Should You Use?
+链接：https://www.youtube.com/watch?v=PtGQaduZwmA
+
+Claude has three core products, chat,
+co-work, and code. They can seem the
+same sometimes. They all talk, they all
+make files, and can connect to tools,
+but they're built for different jobs. If
+you choose the wrong one, you might
+spend an hour in chat doing work that
+co-work could have done while you were
+sleeping. Most people don't know the
+difference between them. I get asked
+this question all the time, but that is
+understandable because Claude doesn't
+really make it clear at all. So, in this
+video, I'm going to break down exactly
+what each one is, when to use it, and
+the types of work you should be handing
+to each one.
+First, a quick note about pricing and
+where these are available. There's three
+surfaces where you can interact with
+Claude. The web version at claude.ai,
+the mobile app, and the desktop app. All
+three products are available across all
+three surfaces, depending on which plan
+you're on. Chat is available on all
+plans, including free, but you do need a
+paid plan to access co-work and code.
+You can use them in the desktop app if
+you're on pro and up. Then, recently
+they added co-work and code to the
+mobile and web versions, but only for
+the max plan and up. Although, that
+should be rolled out to the pro plan
+soon, so depending on when you're
+watching this video, they may be
+already. Now, the framework for choosing
+between these three is simple. Chat to
+think, co-work to delegate, code to
+build. But, to fully understand that, we
+need to go deeper into each one.
+Chat is the one everybody knows, and it
+works the same across all three
+surfaces. This is your back and forth
+with Claude for brainstorming, writing,
+research, working out an idea. It's a
+thinking partner. You can extend it with
+built-in features like projects, which
+give it permanent context about your
+work, or connectors, which let it use
+your other tools like your email or your
+calendar, or artifacts, which is that
+little app or document window that opens
+next to the chat. But at its core, chat
+is a conversation. Everything chat does,
+even when it makes you a file or builds
+you a little dashboard, it happens
+inside one turn. Then it hands it back
+and waits for you. That's great. Often
+times the work is the conversation.
+Brainstorming names or angles for a new
+product, working through the pros and
+cons of a pricing change, figuring out a
+legal or contract clause you don't fully
+understand. But when you start taking
+chat's output and assembling it into
+something, copying it into docs or
+stitching pieces together or doing busy
+work around the answer, that's a signal
+you're in the wrong mode. Instead of
+using your thinking partner, that work
+should have been delegated. If you want
+to learn how to implement Claude into
+your work, we have a free guide for you.
+It's broken into four parts, getting
+started, core features, real-world
+applications, then advanced
+implementation. It also covers use cases
+like content creation, data analysis,
+and strategic planning with frameworks
+and prompts you can start using right
+away. So whether you're just getting
+started or wanting to level up, there's
+something actionable in there for
+everyone that uses Claude. That's a free
+guide, just click the link in the
+description.
+Co-work is where you stop asking Claude
+questions and start assigning it work.
+You give it a goal, then it goes off and
+completes it. It builds a checklist,
+works through it step by step, checking
+things off as it goes for however long
+it takes. Often it will multitask and
+delegate multiple sub-agents to do
+separate tasks on the checklist. Then it
+comes back with a finished result. Now,
+if you've used Claude a lot, you might
+be thinking chat can already do some
+pretty complex tasks if you have a
+thorough prompt. And do that while
+connecting to tools and creating files.
+Like what's actually different here? So
+there's three big differences in how
+they get the job done. One is the finish
+line is different. Chat is done the
+moment it gives you an answer, whether
+or not the job is actually finished.
+Co-work doesn't stop until the goal is
+achieved, and that might take 2 minutes
+or it might take 40. A chat is working
+to give you a response, Co-work is
+working to complete a task. It's like a
+vending machine versus a kitchen. A chat
+is the vending machine, you put in a
+prompt, you get the result back. Co-work
+is the kitchen. You place an order, it
+gathers the ingredients, works through a
+multi-step recipe, plates it, then
+brings it out to you completed. Number
+two, Co-work gets its own workspace. In
+the desktop app, that's your own
+computer. In a mobile or web session, it
+gets its own computer, too, but that's a
+fresh sandbox session in the cloud. I'll
+come back to that later, but the point
+is Co-work gets an environment it can
+keep building on for the entire job.
+Like a desk it gets to keep working at.
+Chat can go grab a calculator that it
+uses once and then puts away. Co-work
+keeps everything on the desk. It builds
+on its own work step after step. Can
+spread out its research, save its
+drafts, decide on a different approach,
+and change course, and build things up
+across the entire session. Number three,
+you can have it work without your input
+using scheduled tasks. You just set a
+task up once, decide on the schedule,
+then it runs completely on its own. On
+Monday morning, while you're still
+asleep, Co-work is reading your email
+threads from last week, pulling your
+meeting transcripts, checking recent
+news on your client. By the time you sit
+down with your coffee in the morning,
+there's a briefing doc waiting for you
+and a follow-up email already drafted.
+You didn't prompt anything. You just set
+it up once months ago. That's how
+Co-work is different from chat, but
+there are two versions of Co-work as
+well. We have the desktop version, which
+runs on your computer, or the mobile and
+web version, which runs in the cloud.
+You know, they're the same system
+operating underneath, it's just where
+it's running that's the difference. The
+main reason that matters is if you want
+to work on your local files or not.
+That's what the desktop version can do.
+You assign Cogram a folder on your
+actual computer, then it can see
+everything in there, open files, edit
+them, create new ones, even organize an
+entire messy folder for you. Then on
+mobile and the web, Cogram works in the
+cloud instead. Now that's really nice
+because it can run without your computer
+having to be open and on. Maybe you're
+out at dinner and you remember your
+quarterly report is due. You can just
+fire it off from your phone, then review
+it when you get home. You can even have
+it send you a notification when it's
+finished or when it hits a decision that
+only you can make. It's the same with
+those scheduled tasks. You don't have to
+have a device online. Your computer can
+be closed, your phone can be off, and it
+keeps it going. But it won't work with
+your local files. And to clarify that, a
+mobile or web session can still reach
+your local files, but only when the
+desktop app is open on that computer.
+You have to think about that in advance,
+then get it connected, and leave your
+computer on before you go out. You can
+do that, but in general, most people can
+think of local file access as a desktop
+app thing. But I like to be able to let
+Cogram work with my files from anywhere,
+so here's my simple workaround. Any
+files I want Cogram working with, I put
+in a Google Drive folder. Then I use
+that as its home base. With the Google
+Drive connector set up, Cogram can read
+from that folder and save its finished
+work there. Then it doesn't matter if my
+computer's on. Cogram can still access
+all the files I want it to from any
+surface. And I'll just mention again,
+Cogram on the web and mobile is
+currently in beta and it only is rolled
+out to Mac subscribers right now. So if
+you're on the Pro plan, you might not
+see it in your phone yet. So, that's
+your assistant, use Cogram to delegate.
+Now let's move on to build.
+If Cogram is your assistant, Claude Code
+is your engineer. Apps, websites,
+automations, Chrome extensions,
+productivity tools, it writes all the
+actual code for whatever you describe.
+And you You have to be a developer to
+use it. You describe what you want in
+plain English and it writes all the code
+to make it exist. If you haven't tried
+it yet, you definitely should. With the
+recent models, it is insane what you can
+build just through prompting. Now, Code
+is also on all three surfaces now, but
+like Co-work, it works differently
+across them. On desktop, which is where
+I'd recommend you start, you assign Code
+a folder on your computer and it builds
+the entire project there. All the files,
+all the code, just everything it needs.
+That is just like Co-work, but instead
+of working with just your files, it also
+builds its own code base there. And as a
+side note, you'll also see people run it
+in the terminal or inside developer
+tools, but you don't need any of that.
+You can just use the desktop app. That's
+where I use it and it's what I recommend
+if you're not technical. Then on mobile
+and web, you've got two options. Option
+one is remote control. If Code is
+running on your computer at home, you
+can steer that exact session from your
+phone. You can check its progress,
+answer its questions, redirect it. The
+work is still happening on your
+computer. Your phone is just a window
+into it. That also means your computer
+has to be on and you have to enable the
+remote session from your computer first.
+Option two is cloud sessions. The cloud
+code sessions need a GitHub repo to work
+in. Repo is just a folder for the
+project that lives online instead of
+your computer. If you don't have one,
+you'll need to create a free GitHub
+account and make an empty repository. Or
+when you start something on your
+desktop, just ask Code to push it to
+GitHub, then connect the cloud session
+to that repository. Now, if some of that
+sounds similar to the Co-work section,
+that's because Co-work and Code are the
+same agentic architecture underneath.
+It's the same core that plans, works,
+and keeps going without you. The only
+thing that changes is what gets loaded
+into it. Just your files and connected
+apps and it's Co-work. Add a code
+repository and it's Code. So, if you
+want a tool that scrapes and formats
+data from a site you check regularly or
+an internal dashboard that pulls all
+your numbers into one view or a mobile
+app for the idea you've been sitting on.
+If the answer to your problem is I wish
+this existed, Coda is where you'll build
+it.
+Think, delegate, build. Chat to think,
+open it when the work is a conversation,
+brainstorming, writing, research,
+decisions. Co-work to delegate, open it
+when you'd hand this to an assistant, a
+goal with multiple steps and a finished
+deliverable at the end. Like a doc, a
+spreadsheet, research report, an
+organized folder. Describe the outcome,
+walk away, come back to it done. Coda to
+build, open it when the answer to your
+problem is I wish a tool existed for
+this. A tool, an app, a website, just
+describe it, your engineer builds it.
+Once you understand the difference
+between these three, you'll stop
+defaulting to chat for everything and
+doing assembly work yourself. Instead of
+copy-pasting work into a doc, you'll
+know that's a co-work job. Or if you're
+wishing a tool just existed, that's a
+Coda job. Chat to think, co-work to
+delegate, Coda to build. They do also
+have another product I didn't mention
+called design. I didn't cover it
+partially because it's still in beta,
+but also because it's different enough
+that it's a lot more clear when you
+should use it. But it is a really
+powerful new tool. I did a full deep
+dive into that one you can watch right
+here.

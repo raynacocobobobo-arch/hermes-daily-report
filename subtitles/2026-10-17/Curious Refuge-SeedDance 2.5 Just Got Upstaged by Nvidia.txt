@@ -1,0 +1,871 @@
+UP主：Curious Refuge
+标题：SeedDance 2.5 Just Got Upstaged by Nvidia
+链接：https://www.youtube.com/watch?v=2vSqzvonRts
+
+It's been a wild week for AI news.
+There's a brand new tool that allows you
+to upload a single video clip and then
+move around in 3D space. Removing
+objects and re-lighting your video clips
+has never been easier and cheaper. And
+if you thought Seed Dance was
+impressive, let me show you this new
+model coming from NVIDIA. We have all of
+that along with 20 pieces of AI news you
+probably missed. Let's get to it. So,
+we're going to kick things off by
+talking about some news that we kind of
+hinted at last week. There's a brand new
+tool that allows you to upload a single
+video clip and then navigate in 3D
+space. The new tool is called InSpatio
+4D Gaussian Splats, and you basically
+have the ability to take a single video
+clip and then upload it to create a 3D
+environment that you can actually move
+around. So, if you remember last week,
+we took a look at a tool that basically
+did the same thing, but you had to have
+an array of cameras to shoot all sorts
+of different angles. This one's a little
+different. It actually uses AI to guess
+what is on the other side of the subject
+so that you can move around in a hybrid
+3D world environment. It reconstructs
+the 3D geometry, the camera movement,
+and the objects' motion. And the cool
+part is you can play around with this
+today. So, for example, this scene is
+coming from a reference video of this
+woman pouring orange juice into a glass,
+but we can use our arrow keys here to
+move around in 3D space. So, it's almost
+like we were there on set and we're able
+to change the camera angle and change
+the overall direction. We also have this
+shot here of these kids reading a book,
+and we can move the camera around and
+tilt down and tilt up. And again, all of
+this is in real time. Obviously, the
+quality isn't quite production ready
+just yet, but the fact that you can do
+all of this from a single video clip is
+pretty wild. I think tools like this
+just reinforce that the future of
+creative video production is absolutely
+going to incorporate 4D Gaussian splats.
+Everything from virtual production and
+visual effects to post-production is
+going to be transformed with this
+technology. I think there's a really
+good chance that over the next few
+years, you're not going to need of
+multiple camera angles. You're just
+going to need one really good
+performance with a primary A camera and
+then AI can infer the rest of the
+details if you want to go in and change
+your camera angle. Now, not to be
+outdone, the team at Adobe also released
+some research with their own version of
+a 4D world environment. The new project
+is called Project Wonder and it's a
+real-time AI tool that turns a single
+image or video into an interactive 3D
+environment that you can navigate. So,
+very similar to In paint. Now, Adobe
+doesn't have an interactive demo that we
+can play around with, but they do have a
+research paper that you can see a few
+different examples. So, for example, we
+have this shot here of this fantasy
+environment and you can see that Wonder
+does a really good job at generating the
+3D assets in real-time. It also can
+convert images into a 3D video world and
+so we have this anime scene here that we
+can navigate and get super close to our
+character. Again, it's not necessarily
+in what I would call photorealistic
+live-action real-time here, but it is
+pretty darn interesting and it will only
+get better from here. We can also
+simulate real-life environments. So, we
+have this woman drinking coffee here and
+then we can just navigate around and
+take a look at the view here and it's
+pretty crazy. Like you just have the
+ability to look around in real-time and
+explore the world as if you're there.
+And the other cool thing is you can do
+really complex camera movements that
+would be pretty hard to pull off on a
+normal production. So, for example, we
+can do this drone shot here of this
+environment that we have literally never
+visited, and you can see you can move
+the camera in all sorts of different
+directions, and it will generate the
+parts of the scene that you couldn't see
+from the starting camera angle. And then
+finally, to illustrate what we were
+talking about earlier, we have this
+video footage of this guy who's
+basically doing a cooking segment, and
+we can just change the camera angle, and
+we can go in and out. You can really
+move around the scene in whichever
+direction you want. We also have this
+shot of this person doing yoga for I
+guess an influencer video, and again,
+you can move around the 3D scene. It's
+really, really cool. Or we have this
+shot of a band playing here, and again,
+we can move the camera around to get
+coverage of the band playing from
+different camera angles from a single
+reference video. It's pretty nuts. I
+think the fact that so many creative
+tools seem to be talking about 4D world
+models really implies that that is the
+future of where we're going over the
+next few years. The team at Midjourney
+has released their latest AI image
+model, Midjourney 8.2. In this brand new
+model, the team says that the images
+should be more creative, bold,
+sophisticated, edgy, and fresh, but
+we'll of course test that for ourselves.
+They also said that the random
+situations where you get really
+low-quality images should be
+dramatically reduced, and the
+personalization will understand your
+taste much better, which is really
+helpful because a lot of times it can be
+a little too out there whenever you're
+trying to get something that is in your
+specific style. And they also said that
+the personalization feature will
+understand your personalized style much
+better. To use Midjourney 8.2, all you
+have to do is go to the Midjourney
+website, and we'll go ahead and paste in
+a quick little prompt here. Basically, I
+want to have a shot of a woman holding a
+glass orb with the words North Star into
+the surface of that orb. And we'll go to
+our settings here and make sure that we
+are in 8.2. And when you're ready, go
+ahead and click render. And after a few
+seconds, we have a few different images
+here. Image number one, which looks
+okay. The text is a little strange. We
+have image number two, which looks
+really cool. I like that the actual text
+is out of focus. It feels like it is
+composited into the scene in a much more
+naturalistic way and it did a really
+good job. Much, much better improvement
+to the model all around. We also have
+this one, which I don't know if it did a
+very good job. It's kind of interesting,
+but not exactly what we're looking for.
+And then finally, we have this shot
+here, which again is okay, but not the
+best. Now, let's compare that against
+Midjourney 8.1, which gave us this
+image, which I do like, but it's not
+exactly what we're looking for. I would
+say that it feels like it was etched on
+the surface, but it's also living inside
+the orb. So, it's just a little odd
+here. And if we compare it against
+Midjourney 7, it's not really close.
+Midjourney 7 did a pretty bad job. The
+compositing on the text is not great,
+but also, look at that woman's fingers.
+Something horrible has happened here.
+Now, let's compare this against GPT-2,
+which is one of the more intelligent AI
+image models on the market. In GPT-2, we
+got this image here, which in some parts
+looks good, but it really does come
+across more as stock photography and the
+outlines on the text is just overly
+sharp and it has this distortion that is
+really hard to explain. It's almost like
+a fractaling that you'll see on the
+details on the woman's face that just
+come across as fake. It's not quite
+realistic, not exactly what we're
+looking for. Technically, it's what we
+prompted for, but not as realistic as
+those cinematic details that you're so
+used to getting inside of Mid Journey.
+And we wanted to take it one step
+further, so we prompted for an image of
+a man in a denim jacket with a sign that
+says no entry. And this is what we got
+from Mid Journey 8.2. It looks so nice.
+The color grading looks very filmic. You
+can even see just grain texturing in the
+image. I think it did an amazing job
+here. And if we compare it against Mid
+Journey version 7, again, version 7 is
+okay, but it just comes across as a
+little staged and awkward. It's not
+exactly realistic. In GPT-2, we got this
+image here, which again just comes
+across as very staged. It's not exactly
+cinematic. It doesn't have that depth
+that would help the image feel more
+realistic. It feels very much like stock
+photography. And we also wanted to
+compare that against Reeve, which is a
+very intelligent model that we've been
+really impressed by over the last few
+weeks. And in Reeve, we got this shot
+here, which again looks very good. In
+fact, I would say that the character
+himself probably comes across as more
+realistic than most of the other shots.
+There's definitely really fine details,
+especially in his skin textures and the
+hair that I really, really like. The
+problem is the overall staging and color
+grading again feels very stock
+photography-esque, even though we
+prompted for something cinematic. We
+also prompted for a cinematic scene of a
+couple dancing close together, and then
+I had more supporting details about what
+I wanted to see from the specific shot.
+And in Mid Journey 8.2, we got this shot
+here, which looks really nice. I think
+it did a very good job. My only feedback
+is it seems like the guy is wearing a
+suit on his right arm, and then the left
+arm does not have a suit. So, unless
+that's a really experimental and
+interesting clothing choice, I think
+it's kind of missing the mark here. In
+Midjourney 7, this was the best shot,
+which again looks very good, but the
+skin is slightly plasticky. So, it's not
+exactly 100% realistic. In GPT-2, we got
+this image, which looks like a still
+from an actual film. It did an amazing
+job. And then finally, inside of Reeve,
+we got this image here, which again did
+a really decent job. Although, I do
+think that the skin texturing is a
+little soft. It almost looks like
+somebody went into Photoshop and just
+smoothed out the skin a little too much.
+Now, let's take a look at a couple of
+non-cinematic examples to see if
+Midjourney 8.2 still stacks up. So, we
+prompted for an image of a disposable
+camera photo of a group of friends at a
+house party, again with more supporting
+information that I'm not going to read
+off in this video. And in Midjourney
+8.2, we got this image, which at a quick
+glance looks incredible. [music] There's
+all of the texturing and color grading
+and compositing that you would want to
+see from an image like this. I think the
+only thing that feels off is the guy's
+hand in the background. I'm just not
+entirely sure what's going on there.
+It's like it just kind of started
+morphing into just kind of some
+weirdness there. So, I think we would
+need to test this with a few different
+images before we could use it in an
+actual project. In Midjourney 7, we got
+this image here, and I'm not entirely
+sure what's going on with those solo
+cups in the background. They're kind of
+stacking weird. So, there's definitely
+some stuff that's off as well. Now, in
+GPT-2, we got this image, which does
+look kind of realistic at a quick
+glance, but again, it has that
+fractaling problem. Do you see that
+grain texture? It's really present in a
+lot of GPT-2 image generations. I'm not
+entirely sure why. And then finally,
+this is the same result that we got from
+Reeve, which I don't know if this comes
+across as a disposable camera. It almost
+looks like it was shot on like a DSLR.
+Now, the biggest problem is grain
+texturing. Again, in the background, you
+see we have the blank wall, and the
+grain is very inconsistent, which isn't
+necessarily a huge problem. You might
+see something like that in the scanning
+processes with a disposable camera. But,
+if we zoom in on the people's faces,
+it's actually super clean. It's almost
+like it's mixing in different styles
+into the overall image. And so, it's not
+exactly giving us the image that we're
+looking for. And the final test that I
+wanted to check out is the creation of a
+band poster. So, we prompted for a very
+long prompt, essentially of all the
+information that we would want to see
+from a poster that could be
+hypothetically printed out to promote an
+upcoming show. And inside of Midjourney
+8.2, we got this generation here, which
+looks really cool. Stylistically, I
+think it's awesome. Obviously, there's a
+lot of text in here, and it pulled it
+off pretty well. funny thing is, it did
+add in an additional in into the
+generation. So, you'd probably have to
+prompt it a few times to fix any sort of
+issues that you see inside of the
+generation. But, altogether, I really
+like it. It definitely has this organic
+feeling to it that you're not getting in
+a lot of other AI image tools. Now,
+again, let's compare that against
+Midjourney 7, which gave us this. And if
+you look at various text throughout the
+image, it's just a bunch of nonsense.
+So, not really what we're looking for.
+In GPT-2, we got this image here, which
+again looks really nice. But, I've
+noticed that a lot of times whenever you
+generate an image, like a graphic design
+concept, inside of GPT-2, but I have
+noticed that when you're generating body
+text on a graphic design poster inside
+of GPT-2, it almost always will add just
+a little bit of a serif in this specific
+font. I don't really know what I would
+call this font, but it's almost like the
+most basic version of a sans-serif font
+that has just little edges of serif
+attached to it. And you see it all over
+the place. I've seen so many posters
+that have that exact same font, and it's
+so obvious every single time you see it
+that the image was generated in GPT-2.
+So, I guess next time you see an image
+and you're wondering if it was generated
+using AI, just look for those little
+little serifs at the end of the tall
+block text. finally, we got this image
+from Reeve, which Reeve is specifically
+designed for graphic design and
+text-based image generation projects.
+And I think it did the best out of all
+of these. Now, I do think you could
+weigh the pros and the cons
+stylistically between Midjourney and
+Reeve, but from a strict text adherence
+perspective, Reeve did a much much
+better job. Now, what is true of this
+image was also true of the
+photorealistic images that we got from
+Reeve. If you notice, there's a lot of
+texturing in the background. So, there's
+something going on below the surface
+where Reeve is adding in a bit more
+noise, and it's creating a bit more
+texturing to the overall image, but the
+end result is an image that is very much
+in line with what you prompted. So, it's
+kind of a pro and con. And so, if you
+were to use this on an actual project,
+you may need to clean it up in a tool
+like Topaz to get exactly what you're
+looking for. So, all things considered,
+Midjourney 8.2 is a much faster and more
+accurate tool for image generation in a
+filmmaking and creative context. I don't
+think it's the very best tool every
+single time, and you're still going to
+have some consistency issues in
+Midjourney that you're not going to have
+inside of other omni-based image
+generation models like Nano Banana Pro
+or GPT-2. But I think if your goal is
+maximum cinematic realism or creative
+exploration, Midjourney is still the
+best tool on the market. The team at LTX
+has released an open-source version of
+2.3 that allows you to upload a video
+clip and remove people from the video.
+Essentially, you can get an automatic
+clean plate in just a few seconds. You
+can download this tool and run it
+locally on your computer, or you can use
+the online hugging face that I'm going
+to demo for you right now. So, I'm on
+the hugging face instance here, and
+first things first, we need some video
+footage. So, I have the shot from
+Artlist of these people having tea in
+this awesome awesome room. And let's say
+that for whatever reason, let's say
+we're working on a visual effects piece,
+and let's say that we want to remove the
+subjects very easily from this video
+clip. So, I'm going to drop the video
+clip into the LTX environment here, and
+you can see you can generate a video
+clip up to 10 seconds long. And you can
+output up to 960p.
+Again, that's not exactly HD, so it may
+be hard to use this in a professional
+visual effects workflow, but it's close.
+And when you're ready, go ahead and hit
+generate clean plate. Now, we did
+generate in a lower resolution, so we
+could walk through a few different
+examples with you today, but whenever we
+generated in LTX, it gave us this video
+clip here, and yeah, the people are
+removed from the scene. Now, we did the
+exact same thing in SeedDance. So, we
+took the original video clip of the two
+people drinking tea, and then we just
+asked SeedDance to remove the subjects,
+and it gave us this, which actually did
+a better job. So, in this case, I would
+absolutely use SeedDance over LTX. For
+this shot, we have this random guy
+doing, I don't know what, in front of
+the camera here, and we wanted to remove
+him using LTX, and we got this, which,
+okay, yeah, did a pretty good job. He's
+gone. But, inside of SeedDance, we got
+this shot here, which looks really good.
+Look at the way the lens flare feels
+like it's connected to the sun. It all
+comes across as just much, much more
+realistic. So, it did a really good job.
+We have the shot here of this guy doing
+yoga in the desert, and in LTX, it
+generated this clean plate, which has
+the camera motion in there as well. Not
+too shabby. And then we prompted for a
+clean plate from Seed Dance and got
+this. Do you get it? It's literally a
+clean plate. We prompted for a clean
+plate and it put a clean plate in the
+desert, which is hilarious. 10 out of 10
+Seed Dance. No notes.
+>> [laughter]
+>> And then finally, we have this shot of
+this woman running. There's motion blur,
+camera shake, the background is like
+moving around. This would be so hard to
+do in a traditional visual effects
+environment. Now, we ran it through LTX,
+and LTX gave us this, which is okay.
+Like we have the reflections even with
+the the background down there. Not too
+bad. Obviously, I'm looking for more
+resolution, but we ran the same thing
+through Seed Dance 2.0, and that gave us
+this. And this is much, much better. You
+would definitely need to onion skin
+this, where you take two video clips,
+put them on top of each other, and make
+the top one 50% opaque, just to
+double-check that all of the assets and
+the tracking is as accurate as possible.
+But again, Seed Dance did a much better
+job here. Now, that's not the only news
+from LTX. The team also came out with a
+re-lighting tool that allows you to
+upload a video clip and then change the
+time of day. So, let's take that last
+example of the woman running. You know,
+it's an overcast day. Let's make it
+sunny. So, we'll go ahead and drag and
+drop her into the source video section
+here. And what's kind of cool is you can
+change the overall angle of the light on
+your subject, which is kind of a cool
+little feature here. And you can go into
+much more detail about what you want the
+overall lighting style to be. They have
+this drop down here where you can select
+all sorts of different presets along
+with changing the angle. But for our
+example, I'm going to go ahead and turn
+this up to 5 seconds, which is the
+maximum duration, and go ahead and hit
+relight video. And after a few minutes,
+LTX gave us this, which yes, it's
+technically relit, but also that
+character looks super wonky. Now, let's
+compare it against SeaDance where we
+prompted for a lighting change, and
+SeaDance gave us this, which yeah, that
+is the subject that was from the
+original video. I should note that a lot
+of the more realistic camera shake and
+motion blur is not as present in this
+generation. So, I wouldn't necessarily
+call every generation you're getting
+from SeaDance production-ready, but it
+is much better than LTX again. Let's
+take our shot of our yoga guy here, and
+let's move the sun to the background.
+And inside of LTX, we got this, and I
+don't know why it added in balloons, but
+it did. So, yeah, that's not what we're
+looking for, and that is definitely not
+the same environment. Like, it literally
+put him on the beach, which the original
+shot, he was not on the beach. So, I'm
+not too sure what's going on there.
+Inside of SeaDance, we got this
+generation, which looks much much
+better. So, good job inside of SeaDance.
+Let's take a look at two final examples
+here. So, we have the shot of this
+woman, and you can see it's kind of
+sunset. And inside of LTX, we wanted to
+change it to midday, and we got this
+shot,
+which is pretty good, and actually, you
+may expect the opaqueness of that cloth
+to change based on the direction of the
+lighting in the background. So, maybe it
+actually did a decent job, but it is
+very, very low resolution. And if we
+compare that to the same shot inside of
+SeaDance, again, I think Seedance did a
+better job. I think with all of this
+being said, LTX is still an interesting
+tool because it's open-source. You have
+the ability to download it and run it
+locally on your machine. Even though
+it's not quite as good as the
+cutting-edge video models that you're
+probably going to see from updates from
+Kling and Seedance and other AI video
+tools, the fact that it's completely
+free if you put it on your machine makes
+it very interesting. And also the fact
+that it can be integrated into ComfyUI
+pipelines makes it also very interesting
+in a larger production environment. In
+the creative AI world, typically when
+there's a brand new video model, like
+let's say Seedance 2.5, everybody freaks
+out and gets super excited. Well, today
+I have a model that I want to show you
+that is infinitely more important than
+Seedance, and it's absolutely going to
+change the way that we approach our
+projects forever. The tool is called
+Cosmos 3 Super from Nvidia, and it's
+basically an update to the Cosmos
+project that's already been going. This
+model is an AI world model that is open,
+meaning it can be downloaded and used on
+a machine locally, and it's 25 times
+faster than other models on the market.
+That's not the interesting part, though.
+The value proposition of this model is
+it gives you the ability to upload any
+type of data. So, that could be an
+image, a document, a video, an audio
+clip, or even physical movement from a
+robot or a human, synthesize that data,
+and output in any format. This means you
+can put any data or database into this
+model, it will run it through the Cosmos
+3 Super model, and output the data in
+any type of output. So, that could be an
+image, a video, an audio clip, or even
+instructions into a robot to do
+something. And the crazy thing is this
+model is not just a play toy. It
+actually ranks number one for open
+weight models for image to video and
+[music] text to image. There's a lot of
+reasons as to why this is truly
+mind-blowing, but one of them is it
+gives robots the ability to communicate
+with you a human through a creative and
+visual means as opposed to just text
+alone. If the robot is going to perform
+an action, it can create a video or an
+image or a document explaining what it's
+about to do. And on their website, they
+have a few different examples of this in
+action. Maybe it's the robot generating
+an image showcasing what design
+schematics it's going to begin working
+on. There's also shots of robot arms
+working in factories and this really
+terrifying image here of this robot
+holding a knife. And the video model is
+really impressive as well and I don't
+know why more people aren't talking
+about it. So, we have this shot here of
+these humanoid robots on Mars and yeah,
+the physics look pretty nice and
+comparable against some of the other
+better video models on the market. We
+have the shot here of a little delivery
+robot in like a dystopian future here.
+And yeah, there he goes. And we have
+this shot here of this robot arm holding
+an apple and putting it down and yeah,
+it's pretty realistic. We have this shot
+of a car driving along a highway. We
+have this shot of a robot running and
+yeah, feels like there's weight behind
+the steps. It's doing a pretty decent
+job. There's a good reason why Nvidia is
+the most valuable company in the world
+and it's because they're working on
+stuff like this. If an AI system has the
+ability to generate synthetic data that
+is photorealistic, then it can begin to
+train itself on that data. Obviously,
+you need checkpoints in place and
+probably some level of human oversight
+to make sure that that data is as
+accurate as possible, but the fact of
+the matter is as more robotics are
+released into the world, having an
+efficient world model running beneath
+the surface is going to be key. Up to
+this point, a lot of AI has kind of felt
+like a chatbot experience, but once we
+evolve past the chatbot and we can
+interface with our AI system, whether
+it's through simple voice commands or
+more realistically some sort of command
+that you don't even have to articulate,
+it's going to be a wild time. And the
+other thing that, again, we have to
+reiterate is these world models are the
+future of AI filmmaking and creativity.
+We're going to look back on the last 3
+years and the next 2 years and remember
+the time when we had to use a specific
+tool for a specific task. In the very
+near future, there will be a single
+interface that you can use and get 99%
+of the outcomes that you're looking for.
+If you work with a lot of creative
+clients, especially in an advertising
+capacity, there's a good chance you kind
+of do the same thing again and again.
+And a lot of times the solution at the
+professional level is to create either a
+comfy UI workflow or a different
+node-based workflow system like comfy UI
+or Flora Fauna. Well, the team at Flora
+actually came out with a brand new
+feature that allows you to have all of
+the control that you would want from a
+node-based workflow in a very
+easy-to-use application window. They're
+called Flora Techniques and all you have
+to do is go over to their website and
+select Techniques over on the left. So,
+you'll see they have a lot of different
+techniques in their library. I highly
+recommend checking them out for
+yourself, but for our example, we're
+going to select marketing and ads. And
+from here, let's say that we want to do
+social story variations. So, the idea
+would be that you could upload a single
+reference image of somebody wearing,
+let's say, your product and then create
+multiple outputs in return. And so, for
+our client or studio environment, we can
+simply bring in a single image and go
+ahead and hit generate and it would
+output nine different images. Now, under
+the surface is a much more complex
+node-based workflow. So, you can see we
+can go in here and update this with a
+specific prompt that we're looking for.
+We can run it through a bunch of
+different text layers that have
+different examples of what we would want
+to see from ad variants and then we have
+our outputs. But, for the users who are
+using the template, all they would see
+is this incredibly easy to use workflow.
+It's a really cool way to think about
+these applications at scale because a
+lot of times it's a little scary for
+day-to-day creative professionals to hop
+into those node-based workflows. So, it
+removes a lot of those confusing nodes
+and replaces it with an app-based
+environment that most people are
+familiar with. Over the last few weeks,
+we've been talking about the idea that
+you can use depth maps to control your
+outputs and have more control over your
+video. Now, there are pros and cons to
+using this approach, but if you want to
+make a very quick depth map, the team at
+PixVerse has you covered. They have a
+brand new quick mini application that
+allows you to upload video footage and
+get a depth map in return. Now, the cool
+part about this specific depth map is
+you have the ability to select multiple
+iterations. So, you can do the classic
+grayscale, but they also have a turbo
+version that will give more information
+into what the depth should actually be
+like. All you have to do is upload a
+video clip. So, I have this shot of
+these people riding a horse here and
+we'll go ahead and bring them into
+PixVerse. And from here, we can select
+whichever depth map we're looking for
+and go ahead and hit generate. And after
+a few minutes, it gives us a few
+different alternates. So, we have our
+turbo version here and we also have the
+black and white version, which also
+looks pretty good. The team at
+Perception Bench came out and said that
+AI models actually really struggle to
+interpret what is going on in a scene.
+While the models are very impressive,
+the truth is that a lot of the times,
+they don't actually know what's going
+on. They can recognize macro parts that
+are happening inside of your image,
+whether it's the text or what the person
+is wearing, but smaller details can
+begin to fall apart. And in testing, no
+model scored above 60% in overall
+accuracy. The cool part is, with this
+new system, it gives a baseline for
+understanding how intelligent an AI
+model is at recognizing images. In our
+own test, we've asked Google Gemini to
+identify which images were created with
+Google, and it still couldn't get it
+right. This new test actually asked
+3,000 questions to the AI models to see
+how good it is at interpreting the
+image. We heard a rumor this last week
+that said SpaceX AI is going to be
+releasing Imagine Omni very soon. Very
+similar to previous Omni models, this
+new model will allow you to upload
+images, video clips, audio, and
+character references in a single place
+and get images and videos in return. We
+will, of course, test this out as soon
+as it goes live. We also saw a report
+this last week that said roughly 20% of
+self-published books use AI in the
+writing process, and it accounts for
+about 20% of overall sales on Amazon.
+And some researchers also said that
+about a third of the bestsellers
+contain substantial amounts of
+AI-generated text. In fact, one author
+who has published eight AI-assisted
+books has made 1.7 million dollars in
+revenue. And the same trend has been
+true across most genres, except for
+fantasy and horror, which actually has
+an uptick in human-written books. Our
+brand-new course, AI for YouTubers, is
+now live at Curious Refuge. If you've
+ever wondered how to create a thriving
+online community using YouTube, I highly
+recommend checking it out. The beta
+session officially starts on August 5th,
+and we're giving everybody who joins the
+beta session by August 5th the
+opportunity to get feedback from the
+team at Curious Refuge on your channel.
+We would love to see you inside the
+course. You'll find more information
+below this video. I'd also like to give
+a huge shout-out to the Curious Refuge
+community in San Francisco and Denver
+who recently hosted a meet-up. They
+looked super fun, and we want to do even
+more in the near future. Now, on that
+note, we have quite a few meet-ups
+happening over the next few weeks. In
+Los Angeles, we're getting back together
+on August 5th. We have a meet-up in
+London on August 12th, and we're back in
+Denver on August 29th. But, of course,
+we do our weekly live streams on
+Thursdays if you don't have a meet-up in
+your area. And that brings us to our AI
+films of the week. The first film that
+we're going to shout out is called
+Pomegranate by Gossip Goblin, who is
+just one of the best AI filmmakers out
+there. I like a lot of things about this
+film. Number one, the overall story, the
+sound design, the color grading, the
+character design is really on point. And
+it's one of the best examples of an AI
+film that I think we've seen up to this
+point. What I also really like about
+Zach's work here is he also is really
+mindful to finish the film in a way that
+feels authentic. You see a lot of the
+texturing, a lot of the color grading
+that really helps to bring everything
+together. And the overall piece is truly
+a masterpiece. I highly recommend
+checking it out. The next film that I
+want to shout out is called Little Mess
+by Lucas Levitan, and this was one of
+the finalist in the Runway AI film
+competition. I think he did an amazing
+job at creating this 2D stop motion
+style character, and the physics look
+really nice. It didn't really swing for
+the fences, like it's not trying to be
+this epic sci-fi world, but the
+execution is super solid and I think it
+really pulls you in. There's a lot of
+creative elements and editing in here. I
+highly recommend it checking it out. And
+the final film we're going to shout out
+is called Unheld by Herman Ponts. It's a
+very interesting concept film that has
+just a lot of emotional nuance to it and
+I like their choice of shots. Some of
+them were very unexpected and I think
+they did a really good job. Thank you so
+much for watching this episode. As
+always, if you want to get the latest
+information directly here on the
+platform, be sure to like and subscribe
+and you can get the latest information
+delivered directly to your inbox hand
+curated by the team here at Curious
+Refuge by visiting curiousrefuge.com.
+Click that blue button in the top right
+corner and join our community. Thank you
+so much. We're super excited for our AI
+for YouTubers course and I will see you
+in the next one.

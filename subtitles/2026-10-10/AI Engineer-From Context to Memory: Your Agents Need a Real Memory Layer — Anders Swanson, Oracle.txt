@@ -1,0 +1,531 @@
+UP主：AI Engineer
+标题：From Context to Memory: Your Agents Need a Real Memory Layer — Anders Swanson, Oracle
+链接：https://www.youtube.com/watch?v=BIhiYL4U9_M
+
+[music]
+>> Hey, so I'm Anders.
+I'm a developer advocate for Oracle AI
+database and I'm talking about how we
+can approach agent memory as a systems
+problem, how we can take context and
+turn it into a real memory layer that is
+going to help your agents work better.
+Um when we're talking about agent
+memory, we're talking about composing
+memory retrieval, memory formation, and
+the persistent storage that's backing
+these memories.
+Um and we've probably all used different
+agents at this point, agents like Claude
+code or Codex, and we've seen them work
+on a task and reread the same files over
+and over again. And this this is because
+they have no knowledge of what has
+happened in the past.
+Context windows are are not memory. Um
+they're the input for the current run
+and not a persistent experience. If I
+have some agent session, let's say he's
+working on customer support tickets, he
+reads a bunch of documents, he runs a
+bunch of queries, he reproduces a
+failure, finds root cause, and does all
+this like great valuable work that
+synthesizes a useful procedure.
+What happens at the end of the session?
+It's tossed away. And this is because
+there's no persistence.
+Uh
+you know, a long long later another
+another agent comes on and he works on a
+similar task and he has to repeat all of
+the same work. So he's he's searching
+more documents, he's running more
+queries, and this is more opportunity
+for failure, more opportunity for
+hallucinations, and and ultimately uh
+less fidelity.
+And memory really cannot begin until
+these useful experiences
+from our agents are transformed into
+managed state.
+Uh larger context windows are also not
+the solution. We end up throwing more
+and more tokens. The session grows
+longer, compaction occurs. The useful
+signal that occurs for our agents is
+lost in a slew of other irrelevant
+information.
+Likewise, scratch pads are workarounds.
+So, things like markdown files, we start
+building large hierarchies of files,
+uh wikis, prompts. These do help, but
+this is not governed recall.
+Uh files
+do not scale in large multi-tenant
+environments.
+Uh tools like grep are extremely useful
+for finding data, but they also don't
+scale well, and it is not complex hybrid
+retrieval.
+And I feel like if we continue to the
+logical conclusion of trying to build a
+memory layer on top of files,
+we're going to be building our own
+database.
+And I don't I you could just use a
+database.
+Uh in this presentation, this is
+unpacking the lessons that we've learned
+as a database vendor working with
+customers who are developing agent
+memory, customers who are solving real
+problems with agents
+and needing recall.
+And where we're seeing modern agent
+memory systems converge is there's
+there's a pattern that's implementing
+memory formation, memory recall,
+evolution, and evaluation.
+So, when we form memories, these are
+these are distilled experiences,
+structured facts. This is not a raw
+transcript dump.
+When we're recalling memories, hybrid
+retrieval is emerging as a dominant
+method. This is This is a form of
+retrieval that fuses different types of
+search. So, vector similarity search,
+lexical search, entity search over
+relational objects, graph traversals,
+and different signals over temporal
+data, recency, and feedback.
+We also need consolidation in these
+systems. So, duplicates can emerge. We
+need to resolve conflicts. The system
+needs to evolve over time. Otherwise,
+because it becomes stale, irrelevant,
+and useless.
+Memories need element of temporality.
+So, when was this created? When was it
+accessed? How long is it valid for? It
+may only be valid for a certain time
+window.
+And this all needs to come into regular
+feedback and evaluation.
+If I'm not measuring use, I'm not
+sending feedback into the memory layer,
+it's all going to fall over.
+Um another
+important piece is the governance
+controls.
+So, secrets, personal information, that
+needs to be redacted before it hits the
+memory layer. Rights need to be scoped,
+scoped to the agent, scoped to the
+workflow, the team, the user. This is
+especially important in multi-tenant
+environments.
+We need appropriate admin approvals,
+review, and ability to suppress stale or
+poisoned data.
+When we walk through the memory loop, we
+have an agent session. It does some
+work, reads documents, run queries,
+synthesizes useful data.
+After that session or during that
+session, a fact is created.
+We record that fact through redacting,
+enriching, storing it in the persistence
+layer.
+And then when another session comes
+along with related context, it can
+retrieve that fact and use it for
+context card reconstruction. So, it's
+using that fact that came from a prior
+art
+to make the next task easier. That's
+less work for the next agent to do.
+And if that agent uses the fact
+successfully,
+we can add feedback scores to that
+memory. So, we're adapting over time. We
+get related data and new temporality. We
+access it again. We We did something
+with it.
+Now, memory, it's invoked as a function
+by the agent runtime. So, it needs read,
+write, and storage layers.
+Your agent runtime can invoke the memory
+layer through things like hooks, MCP,
+skills, or other methods.
+And the memory layer API is exposing
+these the read write the feedback
+administrative APIs and then talking to
+the storage platform or databases.
+The choice of database here I I think
+multi-model databases are especially
+useful because
+they allow you to not work work with
+your rows, columns, vector embeddings,
+full text search, relational entities,
+graphs, episodes and facts all in one
+place.
+So your memory can live in a
+consolidated place
+with one database query connection. I
+can do all sorts of hybrid search and
+return that data back.
+Uh what does the memory look like?
+Uh it's going to be typed and this you
+may have seen this model at different
+presentations or some form of it. Um
+this loosely comes from human memory can
+be applied to agents.
+So we have episodic memory. This is
+specific past events or slices of
+transcripts that the agents worked on.
+We have semantic memory.
+Um these are specific facts about our
+workflows, user preferences, and other
+entities.
+We have procedural memory. This is like
+how we did a specific task or routine,
+maybe a build step. These are reusable
+rules the agents are going to want to
+pull up again and again if they're are
+repeating similar work.
+And we have working state. Working state
+is like short-term memory. It's what are
+we what are we current currently working
+on and that that temporal data may only
+be valid for a certain time window and
+we may promote it to a different type of
+memory. This helps us bucket into
+different areas and we can use different
+search techniques on these types of
+memory.
+Uh what does the storage schema look
+like for memory?
+Um so memory are typed objects plus
+lookup path. So our our memory object is
+going to have some ID like a primary
+key. It'll have its text content, JSON
+tags, document data.
+It'll have a vector embedding.
+Uh we have a vector created over the
+content with a vector index for
+similarity search.
+Ideally we'll also have a text index to
+facilitate full text keyword search.
+That combines with vector search.
+Uh we can have graph links to different
+edges. Memories can be related through
+an entity graph. So, this memory is
+connected to this memory, which is
+connected to that memory. It's
+additional context that we can pull back
+during the search stage.
+We can also have temporal facts.
+When is this memory valid to? What was
+the last time that we used it? And then
+also it's super importantly audit
+events. Who Who created this memory?
+What did they use it for?
+Uh the log of of of of how it's been
+used and associated metadata.
+Um this should all be part of your
+storage schema when we're working with
+memories.
+When we create memories, we want to
+intentionally form them.
+Good memories are very intentional. So,
+we need to decide the life cycle, the
+scope, the different relationships, and
+associated metadata.
+When an agent runtime decides to create
+a memory, we should first start with
+redaction.
+Uh redaction is very important as the
+first step because before I do
+embeddings, before I do enrichment, I
+want to strip out PII. I don't want
+secrets or
+irrelevant weird information slipping
+into the memory layer. That's a recipe
+for disaster. So, we do redaction first.
+Then we can enrich the memory. What is
+the mem- What is the memory related to?
+What is the metadata of the memory? We
+can apply the scope to it. Uh what is
+the agent that worked on this memory?
+What's the team? What's the
+organization? This helps bucket into
+specific areas so I'm not getting
+memories in other sessions that are
+associated with other agents or
+workflows, which adds confusion. We can
+do the embedding so we create the vector
+of the content.
+And then we can form what's called the
+episode. These are the slices of the
+transcript that created the memory. This
+is good for provenance and additional
+context.
+Um any organization-specific policies
+here can also be applied.
+Uh whatever you need for your specific
+use case. And then we can save down to
+the storage layer.
+Um when we create memory, the individual
+memories can be quite compact. So, we
+take the transcript and we distill it
+down
+to that content and metadata and
+embedding and and and related stuff, but
+we can also we create these episodes.
+So,
+we take the agent transcripts, we filter
+them,
+find candidates for these episodes, save
+the memory record, and link it back. You
+can do this with
+uh relations, just straight-up database
+relationships. You can do it with
+graphs. I particularly like graphs
+because they allow a broader search
+here.
+Uh when we're talking about memory
+recall, that is
+how do we remember something? This is a
+retrieval problem, so a query problem on
+the storage layer.
+Um and with with retrieval or recall,
+hybrid search is emerging as the
+dominant method of context
+reconstruction.
+And this this form of retra retrieval
+can fuse different search methods. So, I
+can take vector similarity search, I can
+take a full-text keyword search, I can
+take relational entities, I can do graph
+traversal, I can take other feedback
+signals like importance
+uh
+uh and usefulness of the memory to yield
+more comprehensive results than one
+specific query branch alone. Like, if I
+was only doing similarity search, I only
+get
+the most similar results according to
+the embedding model that I'm using.
+Um and in general, this has not been
+enough. So, we have all these different
+query branches,
+um different types of memory, you can
+decide which ones you want to do. Things
+like facts, you might not want
+similarity, you might just want to do
+like an exact ID match on a fact.
+Um we can take these results, we can
+fuse them, apply thresholds, do
+re-ranking,
+and then we get a context card with
+scored evidence. So, we can say this
+memory it rate it rated very well on
+vector search and a little bit lower on
+lexical search.
+Um that's the provenance of the memory,
+where it came from, how we got it.
+That's important, too.
+Um as we as we walk through hybrid
+search, uh
+vector distance useful for for
+semantically similar things like
+contains operator, very good for lexical
+search, uh, graph table, temporal data,
+all this stuff.
+We take these branches, we apply weights
+to them. We can await differently as
+needed. This is something that can be
+tuned in your your hybrid search
+algorithm.
+The The results are merged to an overall
+score from the different query branches,
+and then we can take the top K of the
+overall results to say hey, here are the
+top three best results from our hybrid
+search algorithm.
+And that's loosely how you can implement
+hybrid search in a multimodal database,
+a database that is capable of providing
+all of these different search methods
+from one pane of glass here.
+Now, memories, it's not just a
+repository where we push data in and we
+pull data out.
+Memories need to evolve over time to be
+truly useful. We also don't want to just
+shove all our data in every time,
+otherwise we get tons of memories.
+Um, and this is where we can kind of
+close the memory loop with consolidation
+and error handling.
+Uh, stale memory can occur when, say, my
+my project uses NPM at one time and then
+we decide to switch to another build
+system. Well, what happens to all the
+memories that were related to NPM?
+If an agent recalls those, it's it's
+going to be a little tricky and it may
+try to do the wrong thing.
+Uh, so the system it needs to expect
+stale facts over recall quiet drift. Bad
+scope can occur where we're not
+appropriately appropriately scoping
+memories in the right context. This is
+like if you log into your ChatGPT
+account and you get someone else's
+message history. Um, if you're not
+applying scope properly, you can have
+some really bad data leaks. So, this
+needs to happen on write and on read.
+Uh, poison memory is when a untrusted
+source plants a durable instruction in
+your memory layer. This is kind of the
+worst-case scenario, like a prompt
+injection happened, you didn't have the
+appropriate guardrails, You didn't have
+the appropriate review, redaction,
+controls on memory, and and some really
+nasty stuff got in there, and all your
+data got exfiltrated. So, uh
+be very sure to avoid these kind of
+things through the proper guard rails
+and administrative actions.
+Uh a memory conflict is when I have two
+different memories. One says, "Hey, we
+do the task this way." And the other
+says, "Well, actually, we do it this
+way." Because they're both about the
+same task, they're going to rank very
+highly on retrieval. So, you probably
+get these same conflicts in your context
+card. And when the agent consume that,
+it's like, "Well,
+you know, you told me the restaurant's
+to the right, and it's actually to left.
+I don't know what to do."
+Um so,
+detection review here is very important
+for conflict resolution. Uh scoping as
+well. Sometimes there are different ways
+to do the same task.
+Um over recall and irrelevance happen as
+your memory system grows. Um if we're
+just shoving all of our data in there
+and not really thinking about what we're
+writing, um we can get into the
+situation of over recall where we have
+so many different weak matches, they're
+crowding out the context card. This is
+the same problem with the very large
+context window where we try and smoosh
+in as much data as possible. It's just
+confusing.
+Irrelevance, uh semantically close
+memories that rank highly on hybrid
+search, but it's not actually about the
+task. It just it rated highly. So, these
+are these are problems of of management
+and your search algorithm tuning.
+Data leakage is when we get weird,
+unexpected data that enters memory
+system. This is a less serious version
+of poisoned memory.
+Um proper enrichment and distillation of
+the memory records on the right path is
+the way to solve leakage.
+Uh over time also, we get silent drift.
+This is where the memory system grows.
+Maybe it works freaking awesome at like
+a thousand records. But then when I have
+50,000 or a million or more, it's
+I'm getting all these weird results, and
+it's it's really working.
+So, it's very, very important to apply
+the proper countermeasures, the
+reduction before write, the scope checks
+review, life cycle, and most importantly
+feedback.
+Feedback is what closes the loop from
+memory. Memory quality needs to be
+measurable. We need to have correct
+retrieval. We need to account for stale
+or harmful memories, and ultimately the
+downstream usefulness of the system. It
+needs to feedback to these ranking life
+cycle decisions. So, if an agent
+retrieves a candidate memory, it'll use
+it, it'll reject it. Maybe if it uses
+it,
+everything goes haywire and it crashes.
+Like, that feedback needs to come back.
+And if if the memory was harmful, the
+feedback should go down. If it was
+useful, maybe we promote it.
+So, it's not just a repository. It needs
+to store Your memory layer needs to
+store whether memories were helpful,
+stale, irrelevant, harmful, etc.
+Um and we really we want to design for
+measurable recall with governed memory
+formation built on a multi-modal storage
+platform. So, without memory, these
+agents are more likely to restart the
+same tasks. They're going to recreate
+over and over again. They're going to
+read the same files. They're going to
+run the same queries. They're going to
+waste tons of time, tons of tokens, uh
+be much slower, and much more much more
+failure prone. They're going to repeat
+the same mistakes. If it doesn't know
+about prior art, it's going to do the
+same thing over again. And if that thing
+was wrong,
+it'll be wrong again and again. And with
+governed memory, the agents can resume
+where they left off. They can reuse what
+came before them,
+and ultimately reduce repeated failures.
+This is This is the true goal of
+recording, retrieving, governing,
+evolving.
+Um we want to improve the success rate.
+We want to do it faster. We want to do
+it cheaper. We want to do it better.
+Um if you are hands-on, um I recommend
+checking out our Python SDK for agent
+memory. This code will take you to a
+GitHub link with a Python notebook that
+walks through how to do this using our
+SDK. The SDK is built on database
+primitives. Um everything that we talk
+about here lives in the database.
+Um you We also have our developer hub.
+If you're an AI engineer, you're
+builder, you're curious like how does a
+modern multi-model database fit into AI
+development? This is the place to go to
+check out our samples,
+um see what's possible, and maybe even
+inspire you to build something cool uh
+with a very awesome database.
+Uh again, I'm Anders um Anders Swanson.
+If you want to chat or connect with me,
+I'll be over at the Oracle booth. Um and
+thank you so much. I hope this was
+useful to you guys and uh
+helpful as you're you're building
+awesome things. Thank you so much.

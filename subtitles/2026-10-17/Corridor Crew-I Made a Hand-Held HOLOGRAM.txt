@@ -1,0 +1,841 @@
+UP主：Corridor Crew
+标题：I Made a Hand-Held HOLOGRAM
+链接：https://www.youtube.com/watch?v=GZVfNMVYYRY
+
+Avoiding burnout is a real challenge.
+But my favorite way to avoid it
+is to burn something else. [music]
+This is fire spinning. When this staff
+is rolling over my arms, I can't think
+about work. I can't think about
+deadlines. I can't even think about what
+happens 10 [music] seconds from now
+because if I do, I get burned. There is
+only the next movement. You see, the
+danger gets me out of my head and
+completely into the present. That is a
+feeling I am in [music] love with. And
+fire does something beautiful when it
+moves. It paints a streak of light
+through the air. And so I started
+wondering, if I replace the fire with
+LEDs, [music]
+could I control those streaks? What if
+the staff could actually paint an image
+with light? So I did what I always do
+when I hyperfocus on a new hobby. I
+turned it into a complicated engineering
+project. I want to build an LED contact
+staff that displays images when I spin
+it. You know, like those cool propeller
+holographic displays that only work when
+you spin them. I want to do that, but
+become the display itself. The only
+problem is I have absolutely zero
+experience with programming LEDs. I
+don't know if I can actually pull this
+project off, but I'm going to try. I
+just have to apply the same lesson that
+helped me learn to spin. Don't solve
+everything at once. Break it [music]
+down and figure out the next move. Also,
+this camera from Insta3 is super sick.
+They're sponsoring this video, so more
+about them later. What does this staff
+have to actually accomplish? Well,
+number one, it needs to be an entire
+beam of light. I've seen other projects
+that do something similar where they put
+the electronics in the center, kind of
+like a Darth Maul lightsaber type thing.
+I don't want to do that. I want one
+unbroken beam of light. Two, this thing
+needs to be durable because I will drop
+this thing a lot and it needs to be able
+to survive any sort of abuse I give it.
+It's got to be able to handle it. And
+three, it needs to actually display an
+image, [music] which means I need to
+have high enough resolution LED strips
+and a very fast processor in order to
+actually [music] display the picture.
+You know, if I can accomplish all three
+of those criteria, I think I will
+succeed in making a super cool LED
+staff. cuz at the end of the day, I just
+want to make something cool in honor of
+something I love. And I think this will
+be that. So, let's get started. There's
+a lot of advanced stuff that's going to
+go into this thing that I don't
+currently know how to do. I'm just
+assuming I'm going to be able to figure
+it out. So, before I even get to the
+point of trying to actually build this
+staff, I need to make sure that I know
+how to actually program an LED strip cuz
+these are addressable. [music]
+Meaning that each one of these LEDs has
+its own little micro computer chip on
+them. and I don't know how to program
+any of that. So, that's what my goal for
+today is, is to figure out how to do
+that. To get started, I knew I needed
+two basic things. A fast microcontroller
+to tell every LED what to do and a
+motion sensor to tell that controller
+how the staff was moving. To control the
+lights, I chose a TNC 4.1 to act as the
+brain of the staff. It's basically just
+a really fast Arduino. LED on, LED off,
+LED on. To detect motion, I'm using a
+sensor called an IMU. It's essentially a
+rotation sensor and try to get the LEDs
+to change color depending on how I move
+this.
+[laughter]
+I am vibe coding to do all the
+programming cuz I don't know how to
+code. But in just a few hours, I went
+from turning on just a single LED to
+getting the whole strip working with
+some rainbow lights. And I was even able
+to get the lights to respond to motion.
+Come on, how cool is that? This is a
+[music] good starting point. I learned a
+lot today. I had a lot of fun. I feel
+like I could just make anything. Oh, is
+that so? Huh? Well, I guess I should
+prove it and make a prototype. So, I
+wired up some more LEDs and taped it all
+together onto a carbon fiber tube. It's
+super janky, but it is also now an
+interactive lightsaber.
+>> That's kind of cool. Like, kind of
+innovating in the lightsaber space.
+>> Innovating in the lightsaber space.
+Qui-Gon,
+Obi-Wan, Vader. All right, the goal here
+is just to see if I can make a simple
+pattern in the air. literally just a
+circle divided into three colors like
+this. To get the long exposure video,
+I'm using the Blackmagic Cinema app on
+my phone, which is able to go down to
+a/4 second exposure, so like four frames
+per second. That's why it looks fast
+forwarded cuz it is. But this is where I
+started running into issues. What I'm
+noticing here is that it seems to be
+working, but the colors are drifting.
+You see, the image is not supposed to be
+rotating like this. It's supposed to be
+measuring the rotation speed so that it
+can display the correct pixels at the
+right orientation. I spent a good amount
+of time trying different things, but
+ultimately none of my fixes really
+changed anything. I was still getting
+drift. I'm not exactly sure why or even
+how to fix that. I was becoming
+frustrated, so I decided to simplify
+things by removing the motion sensing
+element from the test. The idea is to
+take a bunch of vertical slices and play
+them back on the staff one at a time,
+left to right. At first, it played back
+so slowly that the pixels stretched into
+these really long streaks, which was
+kind of cool, but definitely not what I
+was going for. So, I just kept
+increasing the playback speed until a
+recognizable pattern actually started
+showing up. Look, you can actually see
+the hexagonal patterns. It's working.
+All right, this is a pretty solid test.
+But right now, it's only playing it back
+at a very specific speed. It's not
+actually taking into account the
+rotation of the display, and that is a
+critical point here. So, as I spin this
+staff, I want it to intelligently
+understand when it's moved far enough to
+display the next line of pixels, as
+opposed to just playing them back. And
+then I have to just spin it at a certain
+speed.
+That's a tough one. But one step at a
+time. I'm going to show the rest of the
+crew what I've made.
+>> Hey, I see a pattern. Okay, that's
+pretty sweet.
+>> Wo,
+>> he's done it.
+>> Worst case scenario, even if I don't get
+it working with the IMU, I can just have
+something playing. As long as I spin it,
+you'll see an image.
+>> Yeah,
+>> the smarter version can come later, but
+for now, at least I know the illusion
+works. The process of breaking problems
+down into smaller problems isn't just an
+engineering strategy. It's a lesson I
+learned as a kid back when I did
+Taekwond do. We would have to learn and
+memorize a sequence of moves [music]
+called forms, which was basically just
+choreography disguised as combat.
+Punches, kicks, blocks, more kicks. Take
+that, Korean ghost. It all had to be
+performed in exactly the right [music]
+sequence. And that makes it a movement
+puzzle. I didn't know its name back
+then, but I've been obsessed with
+movement puzzles my entire life. So,
+what exactly is a movement puzzle? Well,
+it's a physical skill that is secretly
+composed of a bunch of simple movements
+that all have to be performed in the
+right order [music] at the right time or
+it doesn't work. Learning this type of
+skill is like solving a puzzle with your
+body. The trick isn't learning the whole
+thing at once. It's figuring out the
+individual pieces and then discovering
+how they fit together like a puzzle. And
+I think my favorite example of this is a
+kick flip. At first, it seems impossible
+cuz you jump, somehow the board spins,
+and then somehow you land on it again.
+However, if you slow it down, you can
+actually see the individual puzzle
+pieces. Bend, jump, pop, slide, flick,
+[music]
+wait, catch, land. Each move
+individually is simple, but the puzzle
+is connecting them together. If any one
+of those movements happens incorrectly
+or out of order, or even a fraction of a
+second too early, you fail. [music] It
+requires a lot of practice to teach your
+nervous system how to perform the whole
+sequence as one fluid movement. A lot of
+practice and a lot of failure. But if
+you practice putting just a couple
+pieces together at a time, it does start
+coming together. I've always been drawn
+towards skills that take hundreds of
+tiny repetitions to master. So, it
+really shouldn't surprise me that I've
+become obsessed with flow arts. It can
+be surprisingly challenging to learn
+even some of the most basic moves. But
+when you get them, boy, is it
+satisfying. [laughter]
+In fact, it was actually just learning
+the most basic move that got me hooked.
+This is a move called the rotor. It
+looks pretty easy, but trust me, it's
+harder than it looks. So, I'm going to
+just briefly show you how to do it. No.
+[screaming]
+Lovely. I'm sure there's probably better
+tutorials on the internet, but feel free
+to grab a stick and follow along. We're
+going to be going clockwise. So, that
+means right hand on top. You want to
+align your hands together at the bottom
+so that they can hinge back and forth.
+And just practice kind of going from
+back of the hands to the palms cuz
+[music] that's more or less the hand
+motion that we're going through here.
+Most people when they start trying to
+spin, they they literally are just like
+grabbing it over and over again like
+this, which is not the way to do it. You
+want to make sure it's rolling over your
+hand. First progression is literally
+just kind of doing this. Can you get it
+to roll off your thumb? Once you've
+practiced just rolling it off your hand
+a lot, you can start incorporating your
+other hand to catch it and then try to
+feed it back to your first one while
+trying to maintain that hinge motion.
+You want to try [music] to keep the
+momentum going. Roll over the thumb,
+catch with the other hand, bring it back
+to your first hand, roll over the thumb
+again. [music] Eventually, it is going
+to start feeling more natural, even if
+you do mess up all the time like I still
+do. This is the motion that I'm going to
+be using to display these images.
+[music] But before I can do that, I
+actually have to build the staff. But
+before I can build it, I need a final
+design.
+Okay, so here's the plan. I'm going to
+use a polycarbonate tube as the frame
+cuz it's both strong and durable. For
+the LEDs, I'm going to use the APA 102
+strips because they're very fast refresh
+rate and they're tightly packed
+together, which will give me way more
+resolution than what I've been using so
+far. Are you ready for some RGB?
+[laughter]
+I understand mods now. You know what I
+mean? It's like I'm just staring at it.
+I'm like, I get it. The core of it will
+be a spine of this 12 mm carbon fiber
+tube. The idea is that running along the
+length of this will be two parallel
+strips going the whole length of the
+staff. Powering this whole project has
+been a challenge. More specifically,
+[music] figuring out how to actually do
+it. You see, I couldn't just put one big
+battery at the end. That would make the
+staff unbalanced. And any good staff has
+to be balanced. The solution was to
+break the staff in half. Well,
+electronically, at least. Power at the
+ends, lights through the staff, and then
+electronics at the center with two three
+cell batteries. Each of these has three
+18650 batteries in them. And the idea is
+that these are actually going to sit
+outside of the staff on the end. And
+each of these batteries will power half
+of the LEDs. So half of the staff will
+be powered by one side, the other half
+will be powered by the other side. But
+there's not going to be a gap in the
+light. I really want to make sure the
+light goes the entire way.
+Where was I? Okay. I spent
+No way. That did not just happen. Oh no.
+This was supposed to be a lot stronger
+than that.
+Dang. Well, looks like I'm buying a new
+polycarbonate tube. But in the meantime,
+let's get these LEDs on the carbon fiber
+pole. Carbon fiber can be conductive,
+and that could potentially mess up the
+LEDs if I just connect them directly to
+this. I might try to print some like
+rails for the LEDs. [music]
+Now, the plan is to actually print
+everything in TPU, which is a flexible
+rubber-like material, which is extremely
+durable. That's a pro tip I picked up
+from my buddy Jay, who's a roboticist.
+If you want something to not break,
+print it in TPU.
+Like an [music] idiot, I didn't realize
+that as this got taller, it would get
+more wobbly [music] and therefore at the
+top it would become pretty bad. I've
+just been heating up a knife and cutting
+those tips off cuz the rest of it should
+work fine. and the spacer which will
+keep this whole thing in the center of
+the bar. Power from the battery goes
+into the BMS which protects the battery
+and also balances the cells that gets
+distributed to these 5V butt converters
+which takes the 12 volts down to five.
+These will run in parallel each powering
+a single LED strip and everything in
+this staff runs on 5 volts. Take a look
+at all this. We have the IMU here with a
+bunch of wires going to the Tiny and I
+included an ESP32 which will act as a
+wireless interface with my phone so that
+I can change settings or even upload new
+firmware. [music] Otherwise, I'd have to
+take it apart every time and plug it
+into my computer to upload new code. It
+is a little ironic since LEDs are
+normally controlled by an ESP32, but I
+chose not to here because I wanted all
+the processing power and that SD card.
+Next thing to 3D [music] model is the
+space for the electronics that will also
+connect both of the carbon fiber tubes
+together. I couldn't print the whole
+assembly as one piece, so I split it
+into three parts and I'm going to glue
+it together. And for that, I'm going to
+use like E6000. Should be a pretty good
+glue that'll stay flexible and durable
+for the impacts this will inevitably
+take.
+No.
+Should be a pretty good
+uh glue that'll stay flexible.
+That's on me.
+This diagram I think is going to be
+particularly helpful because the idea is
+that this can just rotate up and over
+and fold against that kind of like a
+taco, you know. [music]
+[music]
+I've reached the end of the day and I
+feel as overwhelmed as ever. I have five
+days left to finish building this staff
+and then immediately going to open Sauce
+because that's a big thing. I want to be
+able to bring this to Open Sauce and
+show people. Open Sauce is like the
+coolest science fair in the world. It's
+my favorite event of the year. I've gone
+every single year and I am so excited to
+go this year. But it still feels like
+there's so much left to do. There's so
+many more problems to solve. But I'm
+like obsessed with this right now. In my
+free time, I can't stop thinking about
+this. When I'm home in bed trying to
+sleep, I can't stop thinking about this.
+That hasn't really happened on a project
+I've worked on in quite some time. This
+is fun. I guess that's what I'm trying
+to say. I am having fun with this
+project. It is 8:40. There's no one else
+here. And I'm just I'm I'm still working
+on this because I'm enjoying this. At
+the beginning of this video, I mentioned
+burnout cuz this project has me thinking
+about it lately. And I don't want to
+imply that I don't love my job. I I do.
+I freaking love my job. But life has
+been a lot lately and I think I've been
+carrying around more stress than I
+realized, which has been probably
+getting to me. And I don't know if this
+is a solution to any of that, but I do
+know that when I'm spinning fire, all of
+the noise goes away.
+[music]
+[music]
+[music]
+>> [music]
+[music]
+[music]
+>> We are here to celebrate the art of the
+flame. We're doing fire span.
+>> [music]
+>> Yeah, there we go. He brought three. We
+have more to practice with now. This is
+Alex. He's a very good friend of mine
+and he's also the one who got me into
+all this. Jan, too. But I hate Jan.
+Fire is very [music] dangerous. So, we
+try to exercise proper safety protocols.
+And one of those things is every person
+that's flaming also has a person that's
+safetying. And that's someone who is
+holding a blanket, one of these [music]
+fireproof blankets, ready to put the
+person out if necessary or more likely
+to put out [music] the actual thing
+that's on fire.
+[music]
+[music]
+What I have not yet figured out is the
+wiring for the battery. I have some
+things in mind. I think the idea is I'm
+going to take this 3S BMS. I'm literally
+going to strap it to the side. I'm going
+to wire this up directly to it. And I'm
+going to also wire up a switch directly
+to the battery [music]
+so I can turn off and on the whole half
+of the staff by just powering on the
+battery. Key thing when cutting battery
+wires, cut them individually.
+>> I don't need this balanced cable.
+>> Not at the same time.
+I think
+>> I'm going to walk away from this.
+Something's happening to disrupt the
+power.
+I killed two separate BMS's in my
+attempts to get this thing soldered
+together. Apparently, these little pads
+that you actually solder to lift off of
+the board really easily, and then that
+just kills the board. Regardless, I
+think I finally got it. And this thing
+works now. And now for the biggest
+design challenge of the whole project.
+[music] You see, these batteries have to
+live outside of the staff. But they also
+have to be removable, not too big, and
+still [music] protect the battery. And
+this is what I came up with. This might
+be the most clever thing I've ever
+designed. Let me [music] explain. By
+attaching threads to the outside of the
+staff, I could screw the endcap on and
+off. TPU is flexible. What if it lands
+on like a stick or a rock or something
+that's able to pierce through? A hard
+plastic shell would protect the battery
+from piercing damage, while the soft TPU
+exterior would provide cushion. The
+other problem that I had to overcome was
+how do I get this thing in here? I
+didn't want big nogs on the end of this
+thing, so I wanted a slim profile. But
+the problem is that the battery was too
+big to fit cuz the threads were in the
+way. So the surprising solution is just
+[music] to cut the threads. Most people
+don't realize this, but you don't really
+need all the threads. You can actually
+[music] cut them up quite a bit and they
+still work really well. But perhaps the
+craziest part of all of this is that I
+oneshotted [music] this design. This is
+my V1 and it's perfect. I I couldn't
+believe it. I straight up could not
+[music] believe it. Usually when you're
+like designing something, you have to
+kind of like just do one small thing at
+a time to make sure that works. I did
+like six different things [music] hoping
+they would all work. Does the sleeve fit
+in there? I hope it does. Does the
+button fit in there? I hope it [music]
+does. Are the channels big enough for
+the wires? I hope they are. And they all
+work. [music] Flawless flush fit. Dude,
+I'm stoked. But I'm also like running
+out of time. So now I'm stressed cuz I
+am not done. There's still a lot of work
+left. [music]
+Oh, come on. Technically, this is in
+there. These should be coming up to
+[music] here. This is way too long.
+It's not going to work. I'm going to go
+with the barrel plug instead of a Deans
+connector here. That way, as I twist
+this onto the staff, the actual power
+connector can also twist. [music] Trying
+to decase a normal barrel plug,
+literally trying to just cut away all
+this plastic [music]
+pretty hard. I had to do it like four
+times. But at least now the batteries
+are done. And after spending all week
+breathing in way too much solder smoke,
+I decided to do something radical. I
+went outside. I thought this would be a
+good opportunity to talk about the
+camera I shot almost this entire video
+with, the Luna Ultra from Insta 360.
+[music] They are sponsoring this video,
+but it is legitimately my favorite
+camera in years. This thing is amazing.
+Let me tell you about it. The easiest
+way to describe it is that it's a super
+portable 8K camera with two lenses
+mounted on a tiny little gimbal. So,
+it's super stable despite me doing this.
+So you get smooth, highquality footage,
+a huge range of focal lengths, and a
+complete filming setup that is small
+enough to carry [music] almost anywhere.
+And that is exactly what I did. I took
+it on a really cool road trip. I went up
+the California coast. I [music] went
+hiking through some forests in Oregon.
+Dude, I even went on a 26-mi onehe ride
+along the Dashuites River, which was
+very cool. And obviously not a
+controlled filming situation like at
+all. For me, the hardest part of filming
+projects like this is that I'm both the
+subject and the camera operator. With a
+normal mirrorless camera, I'll frame the
+shot, get into position, discover I
+framed myself terribly, and repeat. But
+the Luna Ultra screen physically
+detaches from the camera. It becomes a
+wireless touchscreen controller, so I
+can stand in the shot, see exactly what
+the camera sees. I can move the gimbal,
+adjust the zoom, and even start
+recording. And this becomes a mic.
+>> What? That is cool. That is cool.
+>> Or you can use the mic pro like I've
+been doing, which allows you to put any
+image you want on it. There's also a
+really cool POV rig that can track your
+head motion. For a solo creator, that
+completely changes the way you shoot.
+The camera itself is stabilized on a
+gimbal, and when you turn it off, the
+entire thing folds up away into a
+package that you can just like put in a
+pocket. It also has two separate cameras
+built into it, giving you a surprisingly
+large range of focal lengths without
+having to change lenses. And a really
+cool aspect of this is that the camera
+sensors are 8K, meaning you can actually
+crop in on the sensor and still record
+at 4K resolution. gives you a really
+long zoom range. So, in practical terms,
+that means I can set the camera down
+once and capture a wide establishing
+shot, a medium shot, or a close-up.
+Plus, the advanced tracking means you'll
+always be in the shot. [laughter]
+>> I'm I'm by myself. There's no one here
+filming me.
+>> Okay, but my favorite feature, and the
+one that probably surprised me the most,
+is [music] pure video. It's literally
+insane. The low light performance is
+honestly ridiculous. It feels like the
+low light is better on this camera than
+any other camera I've ever used. There
+were plenty of times where I could
+barely see what I was filming with my
+own eyes, but the camera was still
+[music] pulling detail and color out of
+the scene. I kept finding excuses to
+shoot more things at night just to see
+what it could capture, which is
+especially useful when half your hobbies
+apparently happen in the dark. [music]
+Basically, this camera is for anyone who
+wants high-quality footage in a portable
+enough package to bring everywhere while
+being convenient enough to operate
+alone. As a reminder, I did shoot this
+entire video using this camera. And in
+fact, I also used this tiny little
+tripod. These two things was my entire
+production kit for the whole thing. So,
+if you're interested, you can check out
+the Luna Ultra and its creator bundle
+using the link in the description. This
+is a good break and all, but I think
+it's time to get back to work. Monday
+morning, I've got 3 days and not going
+to lie, I'm feeling the pressure to get
+this thing done. This is the tube I've
+been using, but notice how [music] it's
+uh cracked and broken. Well, I bought a
+replacement and here it is. Great.
+Problem, however, is that the dimensions
+of this are a little bit different than
+what I've modeled everything around.
+This guy fits perfectly on the end caps
+there. Look at Oh my god, that fit is
+perfect.
+But this
+So, the modifications I need to make
+should be relatively minimal. [music]
+Oh boy. Oh boy. This is obviously way
+too tall for the staff. So, I'm going to
+have to be chopping these. All right,
+I've now taped up the carbon fiber tubes
+to [music] be cut, but I'm going to take
+this outside because you definitely do
+not want to get carbon fiber dust in
+your lungs. It [music] is dark. I could
+barely see where I'm walking right now.
+Oh my god. It looks like it's daylight
+out right now. Wow.
+Wow. That's one tube down, one more to
+go.
+That cut relatively easily. To keep the
+assembly centered and secure while still
+being removable, I made these little
+tubes that press between the carbon
+fiber end stop and a press fit plug that
+sticks into the end with a little hole
+for the power connector to the battery.
+Inside these [music] little tubes are
+the butt converters that distribute the
+power to the LEDs. Keeping track of all
+the wiring was a lot of work since
+[music] not only were there the left and
+right strips, but also the top and
+bottom ones, too. So, it was a lot of
+different wires. Also, I ended up
+welding these center pieces together
+using my soldering iron. So, it is way
+stronger [music] now. Seriously, doing
+this is so underrated. And slowly over
+the course of the last few days, the
+staff actually [music] came together,
+which means there's only one thing left
+to do. This is where I plug it in and
+hopefully some rainbow lights turn on.
+It's 1:20 a.m. right now. [music] I
+should be excited that I'm like done
+with this, but I think I'm mostly just
+afraid that I put in all this work and
+[music] it didn't work.
+I say we find out. Yeah.
+I mean, it's going in. Oh my god, they
+fit. Yes, it is a tight fit.
+Oh my god.
+Oh my god. It went together. It fits.
+This is it. This is actually it. I'm
+going to turn this on.
+[sighs] I'm nervous. I'm really nervous.
+I'm really nervous.
+[laughter]
+Oh my god. Yes. [music]
+Yes.
+It's working. [music] Yes.
+Yes.
+[music]
+This is so cool. [music]
+[music]
+Hey
+chicken.
+[music]
+[music]
+>> Oh, this man is so fast. The battery
+flew off with the Wow. with the threads.
+Just all [music] of it. My quick release
+system works. That's okay. It's late at
+night. I'm getting bit by bugs. I can
+fix this tomorrow.
+>> I'm back and I have not only a finished
+staff, but what I think is a very
+[music] good staff. I realized that is
+the world's largest Q-tip. A lot has
+happened since I finished the build. I
+haven't really made many modifications,
+[music] but I've used this thing a ton,
+it has broken a couple times, but every
+time it's broken, I've been able to fix
+it [music] pretty easily. The entire
+point behind the design of the batteries
+was to make them durable so that if they
+did, for whatever reason, fly off,
+they'd survive, and that ended up
+working out perfectly. When I finished
+the build, it was just the clear
+polycarbonate [music] tube, and you can
+clearly see the LEDs. And I got a
+recommendation from Cats Creates at Open
+[music] Sauce, and they recommended that
+I actually just put on white silicone to
+act as diffusion. Yes, it is opaque, but
+when the lights are on, [music] it
+actually works pretty well at diffusing
+it. And I think that really brought the
+whole thing together and also [music]
+made it way more like the world's
+largest Q-tip. Also, speaking of open
+sauce, I was a terrible YouTuber and got
+basically no footage of me using this
+staff while I was there. It was a lot of
+fun. I enjoyed seeing all my friends.
+Daniel was there and showed off his new
+Zoat trope. Video for that coming soon,
+so subscribe. But I couldn't believe I
+walked away with like nothing. I did get
+one shot of someone using the staff, but
+it was Stefan [music] from CNC Kitchen
+randomly. Now, I wanted to be able to
+use this without having to use my phone.
+It's got that IMU in there, so when I
+have this thing turned on, I can use it
+to detect taps.
+Now, it's in tap detection mode. Every
+tap will light up one little light, and
+each light indicates a [music] different
+mode. First one is an RGB rainbow that
+always falls in the direction of
+gravity. Also, a rainbow just creates
+white light. Can you even tell that I've
+got a rainbow light hitting me right
+now? One of my favorite modes is mode
+five, which is like [music] a physics
+sim.
+But I finally got the main thing I've
+been wanting to integrate [music] into
+this whole stack. The entire point of
+this was that I could paint images in
+the air. Is it working? Is it working? I
+think it's working. I think it's
+working.
+God dang it. [sighs]
+Did I break it?
+I figured out the problem. Battery is uh
+a little busted up here. You see where
+it was disconnected from? Crisis
+averted. I've managed to resolder that
+bullet [music] connector. I think I'm
+good to go. And for the patterns, I
+actually designed them in Procreate on
+my iPad while just chilling in the park.
+Turning on symmetry mode is a really fun
+way to create [music] art. And I thought
+this would look amazing on the staff. My
+favorite part is I got to show my friend
+Alex what he started. In fact, I showed
+all my fire friends. [music] It was
+really cool to be able to share the
+culmination of all my effort with all
+the people that inspired it. They like
+it. They thought it was cool. And even
+though he's my nemesis, Jan got [music]
+some really cool long exposure
+photography. I mean, just look how cool
+these all came out. Just don't tell him
+I said that. But [music] now I want to
+show you something else.
+Oops.
+[music]
+This is my favorite place in all of Los
+Angeles. [music]
+I come up here to think. I come up here
+to hang out with friends. I come up here
+to get away from it all. But tonight, I
+come up here to share art with everyone
+[music]
+and no one. Heat.
+Heat.
+[music]
+>> [music]
+>> 8 million people down below me here
+and almost no one ever comes up here at
+night.
+One of the best views of the city you
+can get and it's completely free.
+That light is literally the only thing
+lighting me right now. Like I'm on a
+mountain, but I brought a light. This
+[clears throat] is one of my favorite
+spots. But to be able to come here and
+like project my art to the world, I
+think that's kind of cool. I feel like I
+should just end this video now and make
+a part two where I make a better one. I
+don't I don't know. Maybe maybe I'll
+maybe I'll make a video about rising sea
+levels. Maybe I'll make a video about
+the true scale of meteor impacts. Those
+would be fun to do. [music] But maybe
+also at some point I can make a V2 of
+this staff. And if you guys would tune
+in, let me know in the comments below.
+And thank you so much for watching.
+Heat. Heat.
+[music]
+[music]

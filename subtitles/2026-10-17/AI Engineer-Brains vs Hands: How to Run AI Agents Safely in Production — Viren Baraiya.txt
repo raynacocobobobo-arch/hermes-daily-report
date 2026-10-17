@@ -1,0 +1,473 @@
+UP主：AI Engineer
+标题：Brains vs Hands: How to Run AI Agents Safely in Production — Viren Baraiya
+链接：https://www.youtube.com/watch?v=NaOkR3VSfR4
+
+[music]
+>> Cool.
+Thank you all for joining this morning.
+I know it's been an exciting week.
+A lot of talk about agents, building
+agents,
+coding agents and everything.
+And what I want to talk in the next
+15-20 minutes is
+is about running agents in production.
+Um
+And things that is kind of on the top of
+pretty much everybody's mind when it
+comes to building agents and running
+agents is you know, harnesses.
+Before I get started, like I would like
+to ask in the audience, right?
+How many of our many of you are running
+agents in production today?
+Awesome. So, a lot of hands up. Um
+I was in another conference couple of
+weeks ago and I asked the same question.
+I think I had like one hand, so
+this is pretty good. It seems like, you
+know, things are moving forward. Um
+All right. So,
+when we think about agents, right? Like
+if we go back to kind of the hello world
+equivalent examples of agents,
+uh
+it's always starts with, you know, an
+agent with a tool call and how well an
+LLM kind of decides to call the tool,
+maybe use some sort of context or a
+memory and and plans things ahead,
+right?
+Um
+What What we start to kind of realize is
+is
+you know, that's a very small narrow
+picture if you think about it. When you
+think about agents in production, it's
+not just always about chatbots. The
+early examples that we had seen were all
+about like, you know, hey, we are going
+to build a customer service chatbot or
+some sort of chatbot. Um
+But when we start thinking about agents
+in a broader terms and picture,
+think about background agents,
+background workers, agents that are
+running on schedule. Um
+I would like to have an agent that runs
+every hour to check uh what's happening
+with my schedule and if there is
+something new that has popped up that I
+should think about. Uh event-driven
+agents, right? Agents that are listening
+on various events. Um to give you an
+example, I have a production system
+running
+where my alerts are firing every now and
+then. I have a logs coming through
+hotel.
+I would like my agents to listen to
+those events and react on it and see
+what's going on there, right? Um
+I could have long-running coordinators
+and what I mean by that is I have an
+agent running for a longer period of
+time. I would like to have an agent
+monitoring that agent to see, "Hey,
+what's going on there? And should I
+nudge that agent to kind of move
+forward, take a different action?" And
+things like that, right? Um also
+one more thing is about multi-agent
+systems, right? Agents talking to other
+agents. Uh
+the last thing you want is to have an
+agent be responsible for multiple things
+and risk hallucinations. Uh
+So, more we think about agents, right?
+Uh the way I would like to think about
+is the agent starts to
+feel more like an application, not just
+a component, right? Um
+If you go back to the old
+school thought of microservices, when we
+and probably we are still building
+microservices, right? Um you are not
+going to ship a microservice in
+production that does everything, right?
+It kind of stops being a microservice at
+that point in time. Uh typically, we are
+shipping multiple microservices. They
+are talking to each other through
+choreography or orchestration. And you
+have an application that is relying on
+that the set of microservices,
+uh which essentially are single
+responsibility principles
+uh to kind of
+deliver the business goals.
+There is kind of a very clear uh
+parallel to that when it comes to agent
+harnesses, right? If you think about a
+harness
+that is responsible for achieving a
+specific goal. So, let's say I have an
+harness for
+doing my SRE work. Um, it's operating on
+multiple agents to see what's going on
+there, right? Maybe it's listening on
+events coming from my logging system,
+talking to my Kubernetes cluster as an
+agent uh, to find out, you know, what's
+going on there. Uh, my metric systems,
+my
+customer service uh, dashboards and and
+so on and so forth.
+Um,
+and what I want to drive there is that
+if you think about it, right? Your
+harness is the application and vice
+versa, right? An agent alone doesn't
+kind of deliver the whole premise, but
+rather when you start putting things
+together and you build an harness that
+controls the execution of the agent,
+delivers on the premise, that's where
+you start thinking about um, an
+application, right? And which is
+you have systems uh, which are your
+databases, your internal systems,
+enterprise systems. You have humans,
+human in the loop. Um, you have tools
+through either APIs or MCP that is all
+kind of playing together.
+Um,
+and as I mentioned, right? Harness runs
+more than just an agent loop. And this
+is an important thing that I kind of
+learned uh, while trying to build
+harnesses for real-world production use
+cases.
+It's a combination of both deterministic
+and non-deterministic part of the
+application, right? Non-determinism is
+delivered by an LLM in terms of the
+reasoning, in terms of thinking process.
+Um,
+and then there is non-deterministic and
+there is deterministic part, right?
+Which you do not want non-determinism
+seeping into it, right? Think about
+payments.
+Um, or let's say if I have an agent
+harness that is responsible for
+monitoring my production deployment, how
+I manage my Kubernetes clusters,
+I probably want to have a very
+well-defined workflow in terms of what
+are the sequence of steps that I execute
+when I want to restart my cluster. And
+that's a very deterministic set of
+processes which every time it runs, I
+know exactly what it does. So, I want a
+determinism to be delivered by my
+harness when it matters.
+Um and of course the harness is a long
+running process, right? It runs across
+the time. It can run
+um
+anywhere from few seconds if it's uh
+something very quick like hey, check
+what's going on here
+to all the way
+running for days, months, uh even longer
+than that, right? Think about long
+running processes, order management
+systems where you are waiting on third
+party services to deliver your shipment
+or waiting on humans to
+take actions and approve things and so
+on and so forth. Or Harness is just
+waiting, right? It's waiting for events
+to happen. So, when that event happens
+you take an action and do something
+around it. So,
+that brings in another important point,
+right? That when you think about long
+running systems, you need durability,
+right? You want to be able to recover
+when things fail because at the end of
+the day this harnesses are running
+somewhere in your entire infrastructure
+stack, right? Maybe in the cloud, maybe
+on a sandbox but those things can go up,
+go down. There could be network
+failures, partitioning, anything that
+could be happening. So, you need the
+harnesses to be durable. And one thing
+about durability here is it's a table
+stake thing, right? At the end of the
+day durability is a cost of admission.
+That's not the feature that you're
+looking for in a harness.
+Um
+And as I mentioned, right? The loop
+that the harness runs spans across agent
+um
+and everything else.
+So, now let's think about uh
+how the harnesses kind of operate,
+right? Um
+If you think about a harness, right? And
+and a loop, essentially what it is doing
+it it has a state of the world. It knows
+what work been completed. Um
+what has been recorded in terms of the
+side effects, right? So, like if I did a
+cluster restart, uh I know I have that
+recorded. Uh if I sent an email, I know
+that has happened. Um
+I know what worked or didn't work, and
+then based on the current state of the
+world and the goal, I know what needs to
+happen next, right? And that's where the
+reasoning and LLM comes into the
+picture.
+Um
+and
+what really happens here is that if you
+think about a clear distinction, and
+this is the most important thing. If If
+one thing that I would like everyone to
+take away from here is this slide, which
+is that
+the responsibility of a
+non-deterministic agent is to plan, is
+to plan what should happen next, not
+really to do things.
+Um and then Harness is the one who does
+actually execution. And And this is
+important for uh
+various reasons, right? One being that
+Harness is a deterministic piece of code
+that actually understands what is
+involved in, you know, actually
+executing a piece of work. So, as I
+mentioned, right? If I am trying to
+uh
+build a Harness that runs my uh DevOps
+or SRE uh agents,
+uh when the agent says that, "Hey,
+this cluster is unhealthy and you should
+restart." Harness should decide how to
+restart the cluster, what involves in
+restarting cluster, and that has to be,
+at least in my world, has to be very
+deterministic set of processes, right?
+So, that every cluster restart is
+exactly same. There is no other
+uh category there, right? Um
+Also, if it needs to have an approval,
+for example, if I am trying to restart a
+production cluster, I probably want to
+have a human gate, uh probably send a
+Slack message to somebody to say, "Hey,
+I'm going to restart this cluster. Do
+you think it's okay to do that or not,
+right?" And I do not want this to be
+left to a hallucination by an LLM that,
+you know, it doesn't need to do it. It
+needs to be guaranteed in terms of
+execution. So, it has to be very
+deterministic when it comes to those
+kind of things. Uh ideally, I want this
+to be idempotent and if not, I want it
+to be recording that, you know, it is
+not idempotent and this is what has
+happened. So, I can get take care of the
+side effects or I can handle the side
+effects separately, right? Uh
+So, this is the most important thing,
+right? The clear separation between as
+we would like to call, right? The brains
+and the hands. Harness is the hands, the
+brain is the LLM.
+Um
+So, yeah, if the agent writes the plan,
+uh Harness executes the plan, uh
+and I'll show you in a brief uh a short
+demo in terms of how all of these things
+kind of matches together.
+Um
+But,
+is this a new concept? Like, if you
+think about it, this is not necessarily
+a new concept. This has been around for
+a while, right? If you think about
+workflows as sagas, which we used to
+write ourselves and define exactly what
+happens. It was a very and it is a very
+deterministic set of processes.
+When you think about agentic harnesses,
+they are essentially late bound sagas.
+And what I mean by that is that they
+have a very finite and deterministic set
+of tools uh and the task that they can
+operate on. Instead of putting them
+together upfront,
+the agent is kind of proposing and
+building them at runtime. Um and
+therefore, they are essentially late
+bound sagas, right? Uh but you get all
+the benefits of a traditional saga in a
+workflow out of the box in terms of
+visibility, what's happening, being able
+to control things, and iterating upon
+like, you know, how far ahead in the
+future
+uh the agent is able to plan. You are
+able to kind of plan one step at a time
+or multiple steps at a time.
+Um
+And yeah, if you think about it, right?
+It's it's more like a branching
+workflow. If only you could build a
+workflow with every possible combination
+of a branch, um
+then, you know, it kind of builds that
+thing for you right versus with agents
+that kind of simplifies the work.
+If you have n number of tools it can do
+n different combinations of executions
+which otherwise is going to be
+almost impossible to you know think
+ahead of time and and do it.
+So let's take a look at it right. So
+what I'm going to do is
+I'll quickly show
+a completed run.
+Of what I talked about earlier right.
+Here is one of my
+example agent that essentially is
+acting like an SRE agent right. What its
+job is to do is
+understand what's going on in the
+current system
+and try to
+plan what should happen next and execute
+on those things. So
+it's essentially a remediation loop that
+runs twice. In the first iteration it
+tries to understand the root cause of
+the problem, tries to
+react to that,
+observes the output of it and then runs
+another loop and plans another set of
+steps to see what should happen next
+right. So as an input to my agent let's
+see what was the input given right here.
+So step number one is you know it
+makes a call to LLM. So as you can see
+right like it's an SRE agent.
+Of course it's a demo so you know
+everything is kind of pre-planned and
+a can demo.
+The output of LLM as you can see right
+are
+the steps
+what it should do. It's talking about so
+as you can see one more thing here right
+is that instead of just doing one step
+at a time
+essentially it is proposing a sequence
+of steps to do.
+You should gather evidences, you should
+analyze logs
+and if required
+based on the evidence that you gathered
+you should either roll back a deployment
+and then verify recovery.
+This is then given to
+a specialized tool called plan and
+compile.
+So, this is the plan that agent gave.
+This gets compiled into a very
+deterministic workflow.
+We are relying on a conductor as a
+workflow execution engine here. So, the
+output is a fully runnable workflow.
+This gets executed. So, like you know,
+what I'm going to show you here very
+quickly is how that looks like. Um
+So, this is the first step of execution,
+right? If we look at it here
+as I said, right? Like
+we did analyze the logs, look at the
+query of the metrics,
+decided to do a rollback and verify
+recovery and everything.
+So, step number one is completed. It
+runs another loop.
+Um
+same thing goes here. Um
+In the next iteration,
+it decides that, okay, looks like, you
+know, these things have been done. Let's
+check the downstream. And if required,
+verify the recovery and complete it,
+right? Um
+And then the next one runs and completes
+the task.
+But here is an example of a loop that is
+self uh
+kind of uh
+planning, right? So, and
+to show you very clearly what's going on
+here, here is a loop. Um
+At every step of the way, essentially,
+it is looking at the current state of
+the world. So, this is my agentic loop
+that is kind of understanding the world,
+planning and executing uh one step
+instead of one step at a time, it is
+actually planning multiple steps at a
+time, executing that,
+verifying, and completing the loop. Um
+Now, this can run in production
+as many times as you want. This can be
+running on the events. It can be running
+on a schedule. Um As I said, right? Like
+this the whole thing could be running
+for a much longer period of time um as
+opposed to just running in a short
+period of time.
+All right. So,
+that's towards the end of it.
+This is kind of
+overview of what we just did here.
+As you can see right in the second
+iteration, we decided not to do a
+rollback because it was already done in
+the first iteration.
+But yeah, that's about
+the harnesses and agents and how they
+bring determinism to your production
+application.
+The example that I showed you runs on
+conductor. Conductor is an open source
+workflow orchestration platform that
+supports building agentic loops as well
+as agentic systems. It's fully open
+source. Orkes, we provide enterprise
+edition. But feel free to
+try it out. Here's a QR code. Give it a
+try.
+Join our Slack and you know, if you have
+questions, happy to help. We have a
+booth here at Orkes.
+Drop by if you want to see a live demo.
+If you want to run your LangChain agents
+or OpenAI agents or any kind of agents,
+Conductor can handle all of those
+things.
+Thank you.

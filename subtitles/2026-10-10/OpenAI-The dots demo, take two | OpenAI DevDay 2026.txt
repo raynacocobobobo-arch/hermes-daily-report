@@ -1,0 +1,206 @@
+UP主：OpenAI
+标题：The dots demo, take two | OpenAI DevDay 2026
+链接：https://www.youtube.com/watch?v=fHEIw5CcN5U
+
+Yesterday's launch demo didn't go as
+planned. Um, a bit unfortunate because I
+was really, really looking forward to
+showing you all what DOTs are capable
+of. So, today we're going to play it
+back. And, uh, the whole point of the
+demo was to show you how do real work,
+real launches, real stuff. Dots actually
+did launch and I actually do have a lot
+of stuff to do. So, we're just going to
+show you it here. Unfettered,
+unfiltered, how I use my Dot. Starting
+with uh the phone call, the the the
+infamous phone call to Dot.
+Um I need to go to LA tomorrow. It's
+kind of a last minute thing. I'm going
+to see if my Dot can just like unblock a
+bunch of stuff for me cuz I'm a bit
+stressed out about it.
+>> Hey, good to hear from you. What's up?
+>> Hi. Okay, so tomorrow I have an
+important meeting in LA. I need to be in
+Hollywood around like 3:00 p.m. Can you
+figure out then I think the latest I can
+leave the office is probably 10:00 a.m.
+Can you get me a flight that's like on
+policy and everything for the company?
+And then um also some it's got to be
+refundable and also some hotel options
+in like East LA and I want to see
+screenshots of them so I can choose and
+also screenshots of like where they are
+on like Google Maps, you know, so I can
+see if I can hang out with anybody while
+I'm there.
+>> Okay. Yeah, let me align that up for
+you.
+>> Awesome. Thank you.
+>> Yeah. and I'll make sure the flight is
+both in policy and refundable.
+>> Okay, cool. Um, what are the top options
+looking like right now?
+>> Pulling that together now.
+So, the leaving flight I saw earlier was
+Southwest at 11:30, landing at 12:55,
+refundable around 3:26. I still need to
+verify the checkout total and policy for
+hotels. Silver Lake Pool and Innsowan
+FET and Cara is the other front runner
+closer to Hollywood.
+>> Okay. If I land at 1:00, do you think I
+can get to East Hollywood by 3? I don't
+know what LA traffic is like.
+>> Let me check that.
+>> Okay. And send me screenshots of those
+hotels. I want to look at pictures.
+probably if the flight's on time and you
+head straight over, I'd roughly budget
+30 to 45 minutes to get out of LAX and
+then maybe 45 to 75 for the drive. And
+regular ride shares mean getting to LA
+exit. I'd feel better about it if you
+landed closer to noon.
+>> Okay. Yeah.
+>> And I'm grabbing those screenshots.
+>> Yeah. Yeah. Yeah. Let's get me in closer
+to noon then.
+>> Okay. I'll recheck with that in mind.
+>> All right. One of my favorite things to
+do just while I'm muted here [snorts] is
+to take a look at uh my docs browser.
+>> Also, that earlier Southwest option I'd
+seen landed at 11:20, which would give
+you a nicer buffer. I'm checking if it's
+still available with an in policy
+refundable fair in I'll send the hotel
+photos and maps in chat so you can look
+at both.
+Whoa. Okay,
+cool.
+Um, Silver Lake pool and in looks fun.
+I like Cara, too. Am I muted? Sorry.
+Okay, let's just do Silver Lake pool and
+in.
+>> Okay, walking on to Silver Lake. I'll
+prepare a one night booking and verify
+the full price and cancellation terms.
+>> Okay, great. Thank you. Um, hey, while
+you're doing that, some other stuff. Um,
+our user feedback channel just has so
+much stuff going on in it and I know uh
+I think I would feel better if we just
+had a more kind of concrete workflow to
+capture all of that. Um, I think the
+biggest things I just need to know are
+like what are the biggest themes of
+feedback and do we have like solutions
+to the most pressing issues and if not
+what are the outstanding things that
+maybe none of us are paying enough
+attention to? Can you maybe like pull
+together that analysis?
+>> Yeah, I'm on it. The last dashboard we
+had was baseline only. So, I'll pull
+together the main themes, fixes, and
+gaps, and make the capture workflow
+concrete.
+>> Okay. What is our capture workflow right
+now?
+>> Right. Let's make that explicit.
+>> What is the capture workflow?
+>> Checking.
+Right now, it's a manual new channel
+batch. We read the channel reports and
+replies, put each item in the master
+list, classify and group it, and then
+link actual issues to verified linear
+tickets. We also match tickets to PRs
+and track fixes in flight, shipped, or
+retested. The dashboard summarizes that
+work. It doesn't auto capture new
+messages. Ticket reconciliation is still
+incomplete.
+>> Cool. Yeah, I I think it's fine for us
+to run the feedback manually. Um I guess
+the bigger thing I want to make sure of
+is that we understand what kind of large
+issues that we don't have uh solutions
+for right now. And then that B when a PR
+lands and we expect it to have addressed
+some big theme of user feedback that we
+actually go into Slack and have you
+respond uh and link out to the PR and
+like you know tell the user to try
+again.
+>> Got it. that gap and reply loop is
+clear. I'll sort for biggest issues
+without a credible fix and then close
+the loop with prl linked replies asking
+people to retry.
+>> Awesome. Okay. And then let's just um
+>> Yeah.
+>> What's the
+>> And the retest confirms the retest.
+Go ahead.
+>> No, you go.
+>> The retest is what confirms we actually
+closed the loop. That's the part that's
+been inconsistent. I'll make the no fix
+themes the priority and follow up in
+threads with the PR link asking folks to
+try again once it's rolled out to them.
+>> Okay. Yeah, that makes sense. Um, what's
+maybe the biggest theme right now just
+in the last 24 hours?
+>> The clearest issue looks like
+reliability when the dot looks active
+but doesn't reply or can't access tools.
+I'm checking the full ranking before I
+call that the largest by volume. My
+strongest read so far is people can't
+tell whether their dot is actually
+working. That includes missing replies,
+tool access failures, and unclear
+progress. Some real, some visibility.
+>> Okay. Actually, Drew, can you focus in
+on this for a second? I just want folks
+to see the really cute dot animation up
+here as it's searching for repositories.
+Very cute.
+Okay,
+awesome. Yeah, that makes sense. And
+then, hey, lastly, um I know there's
+just been a ton of uh go to market
+movement. Folks are wondering about the
+relationship between dots and some of
+the other things we launched like chatbt
+and slack and teams. Um, can you maybe
+pull together the top unanswered Slack
+messages I have and just uh maybe draft
+a response for me?
+>> Let me get that together for you.
+>> Okay, thank you.
+Um,
+that was actually really awesome. It's
+uh still booking my flight. It found the
+hotel. I like these pictures. I picked
+one of them. Um and it uh you know knows
+about the feedback flow that we are
+implementing and it's going to go you
+know prioritize my latest
+um things that I need to go work on.
+It's messaging me now um about what the
+top categories of feedback are. Looks
+like it is reliability which we're
+working on. Um and some like UX polish
+that we need to do around mobile and
+notifications.
+And then you know what? I'm actually
+just going to say like run the feedback
+flow again
+and we'll see.

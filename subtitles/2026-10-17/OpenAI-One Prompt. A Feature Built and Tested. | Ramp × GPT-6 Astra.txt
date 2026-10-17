@@ -1,0 +1,109 @@
+UP主：OpenAI
+标题：One Prompt. A Feature Built and Tested. | Ramp × GPT-6 Astra
+链接：https://www.youtube.com/watch?v=p7TjXroM4ak
+
+This is a co-worker that knows exactly
+what you mean and can can [music] kind
+of push the boundaries on computer use.
+>> [music]
+>> You lead all things AI at Ramp.
+>> Yep.
+>> You're always at the bleeding edge. What
+have you been working on lately?
+>> Yeah, so we have been experimenting with
+[music] Astra and pushing it to its
+limits to make our
+>> [music]
+>> coding faster and and and better and
+really just take advantage of its
+computer use [music] in a lot of our
+day-to-day workflows.
+>> In the first few days you've had it,
+what was your first impression?
+>> Like a co-worker that you trust where
+you're not going to
+be giving them like 100 lines of
+instructions. [music] You're going to
+give them like a high-level goal and
+what work you're trying to see and then
+you can kind of come back [music] and
+check in 10 or 15 minutes later. Astra's
+very good at taking like a really vague
+request like that and knowing exactly
+what I want it to output and giving me
+[music] back screenshots on the the
+changes as well. So it it really truly
+feels like I can hand off
+>> more and more vague tasks to [music]
+Astra.
+>> Just how quickly it was able to make
+progress without my input. Like that was
+definitely a a wow moment. I think it's
+very succinct [music] with its words and
+and and just output. Nothing super
+fluffy and [music] especially in like
+work context when you're trying to go
+back and forth and just get to a
+outcome. I don't need to explain like,
+"Hey, you need to click on this tab.
+[music] It's on this page or this route
+and this model." It just kind of knows.
+>> I'd love to like talk more about
+computer use [music] cuz I'm looking at
+inspect here. So
+it means that your coding harness can
+trigger computer use. You leverage it a
+lot. I'd love to learn more.
+>> I think this [music]
+this is a really good example where I
+had a feature request implement routing
+strategies controls [music] by API key
+granularity and I said nothing else and
+it was able to know that the way this
+pops up is by clicking on one of the
+existing [music] API keys and clicking
+routing strategies and you can see it
+kind of kind of worked for about 12
+minutes
+uh then validated its changes for
+another [music]
+uh kind of kind of 15 or so minutes.
+>> That's really cool cuz it went ahead and
+found the exact model and the exact
+[music] settings that you were trying to
+change.
+>> Exactly. Yep. Yeah, and verified it on
+like mobile mobile views as well. Yeah,
+I didn't even ask for that. More and
+more the computer use, I think, is going
+to be a big part of how people verify uh
+lowest changes.
+>> You personally, as you start [music]
+getting your hands on Astra and as you
+keep pushing the frontier of the
+yep, what would you like to do next with
+Astra?
+>> A lot of uh the magic with Ramp is when
+[music] Ramp kind of goes off and
+simplifies things about uh accounting
+for you. And being able to kind of get
+computer use in the hands of our
+customers is [music] probably like one
+of the things I'm most excited about.
+For Ramp, we we fetch uh receipts for
+customers in the background and we use
+[music] uh computer use for that. And
+right now, we have to do a lot of, I
+guess, manual [music] prompting to make
+sure that the uh model knows exactly
+where to go on these merchant websites.
+And so, [music]
+I'm excited to kind of test more uh with
+a long tail of merchants and see how
+[music] Astra handles them. I think
+it'll have a better understanding of how
+most websites kind of operate.
+>> Thank you again for stopping by, yep,
+and can't wait [music] to see what you
+ship next with Astra.
+>> Awesome. Yeah, thank you so much.

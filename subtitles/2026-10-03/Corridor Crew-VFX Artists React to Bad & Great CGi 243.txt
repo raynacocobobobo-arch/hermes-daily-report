@@ -1,0 +1,937 @@
+UP主：Corridor Crew
+标题：VFX Artists React to Bad & Great CGi 243
+链接：https://www.youtube.com/watch?v=66BBKlEVpkU
+
+We have looked at Fifth Element's
+multiple times, but we have not looked
+at this sequence.
+So, New York in the future with flying
+cars. Back in a time before flying cars
+could exist.
+>> We are still in that period of time.
+>> [laughter]
+>> Or like, you know, most modern VFX. This
+was in the mid-90s. And this is their
+idea of what the future would look like.
+I want you guys to pay attention to the
+filmmaking and all the possible
+techniques. That dude had freaking glow
+sticks dangling from his mirror. See
+that?
+>> Yeah, we got a CG person.
+>> dead. They're dead glow sticks.
+>> I just [laughter] love that you're like,
+I really want you guys to focus on all
+the different things that are going on.
+And there's glow sticks hanging in the
+mirror. And I was like, oh, there are.
+But yeah, we got an early CG person.
+>> CGI everything.
+>> Full CG.
+>> the buildings do look like miniatures,
+though.
+>> Oh, yeah.
+>> Good looking CG car, though, am I right?
+That's a good looking CG car.
+>> Oh.
+I think
+I probably gave that one away, did I?
+>> It's real. [laughter]
+So, that close-up of the taxi, that was
+a practical build?
+>> Most of the cars are practical.
+>> For the entire duration that we're
+seeing them? Like, all the stuff in the
+background?
+>> Well, okay. Asterisk. They used a
+tremendous amount of motion control to
+get all these cars that were actually
+like real practical little miniature
+cars. And they're all on these little
+motion controlled sticks. They take that
+motion controlled move, isolate the car,
+and then through the compositing, they
+actually give it extra. They do more
+with it. They have it like start from a
+little further away, so it's a little
+bit smaller. They give it motion blur as
+it like speeds towards the camera.
+>> Yeah, like a shot like that. I mean,
+miniature for the main model here and
+the cars that it's passing. Everything
+on this plane of existence is practical,
+I'm assuming. Everything in the
+background, though
+>> So, here's the thing. They actually
+built a real miniature set for New York,
+and they had all these incredibly
+detailed buildings.
+>> God damn.
+>> Yeah, look at that.
+>> I don't even know if you can touch the
+top of the bridge. Yeah, that is crazy.
+What what scale size difference is that?
+That's like 1/6 or something? Like what
+is that?
+>> No, no. It was I think 1/16.
+>> 1/16?
+>> That's incredible. I feel like you can
+just walk down there, right?
+>> totally They did. They would.
+>> All of those buildings were modular.
+They could rotate in place. They can
+move them around and they would recycle
+them shot to shot and they would repaint
+the buildings kind of be like grungier
+to kind of indicate that they're lower.
+>> Wow, yeah. It looks so good. If I was to
+summarize my thoughts looking at all
+this with one word, it'd be detail.
+>> Mhm. Oh, yeah.
+>> So much detail. And go back to that
+giant McDonald's sign there. I only ever
+thought it was just a big sign. There
+was a drive-thru window right in the
+middle of that.
+>> Oh my god.
+>> where those cops were hanging out. They
+were just floating there getting their
+food.
+>> I want to just take a camera and just
+get up close and see when the detail
+falls off. Like how close can we get on
+this?
+>> This movie is heralded as being like a
+really big miniature practical effects
+movie, but really this was at the crux
+of the transition from everything being
+practical and not only CGI, but digital
+compositing, which was a standard at
+this time. Foreground buildings we're
+seeing are practical, but then we get to
+that street level where there's some
+bridges and everything past that is
+digital.
+>> That's so good.
+>> But they also knew that they're going to
+need to have hundreds of cars flying
+around the city and they couldn't just
+like place all those cars. So they came
+up with the procedural system
+in Prism.
+>> In Prism?
+>> Yeah.
+>> The OG Houdini?
+>> Yeah. Prism, the ancestor of what we now
+know as Houdini.
+>> You you have like maybe a couple dozen
+different cars, right? And then
+procedurally just assign them to all
+these different lanes of traffic. And so
+if you look closely, you can kind of see
+some duplicates, but the idea is that
+your brain doesn't notice that.
+>> Like is that bronze car the same as the
+one that's slightly above it?
+>> Yeah, those are the same.
+>> Yeah, so you're getting some duplicates,
+but there are some slight shader
+differences. I mean, honestly, that's
+still a technique that's used in crowds.
+Making a procedural shader change to
+color alone throws off the repetition in
+the eye. It's used all the the
+>> The people working on this project was
+Digital Domain. There were three movies
+they were working on at the same time.
+One was Dante's Peak, the other one was
+Titanic, and this movie was done right
+in the middle of both of them.
+>> Dang, talk about peak filmmaking.
+>> Right?
+>> [laughter]
+>> This is super early days of Digital
+Domain. I think they called it Digital
+Domain 1.0.
+>> I wonder if this is when they had access
+to Nuke.
+>> They did. Oh, yeah, yeah, yeah. That was
+their in-house tool.
+>> their in-house, yeah.
+>> So, they had Nuke for this. Rhythm &
+Hues, ILM, everyone had their own
+proprietary compositing software, and so
+they were using what ended up becoming
+Nuke at the time.
+>> Yeah.
+>> We looked at I, Robot last week, and
+that was their superpower is they could
+handle multi-pass CG renders.
+>> Multi-pass.
+>> Multi-pass.
+>> Multi-pass.
+>> And no one else could do it. Like, Weta
+couldn't do it. They had to brute force
+their renders, and Digital Domain got
+away with a lot in comp. Yeah.
+>> Oh.
+>> So, that's really cool to hear they were
+using it on this, too.
+>> Obviously, doing some incredible
+miniature work, but it all had to be
+digitally composited, and I don't want
+to understate how incredible that
+digital compositing was on top of all
+the CGI, which I think holds up. We saw
+several CG car close-ups.
+That's a CG car, and it's kind of hard
+to tell the difference between the
+practical versions and the CG versions.
+>> So, hold on. The yellow taxi at the end
+was real, though.
+>> That was a motion-controlled shot.
+>> Frame back a few times. I'm looking at
+the parallax on the red lights on the
+bottom.
+>> Oh, smart, smart.
+>> See, you look at the bulb.
+>> Yeah. There there's parallax. You see
+that?
+>> Yeah, oh, yeah.
+>> That's actually a really good thing to
+point out. That would be just kind of
+like a surface decal on a CG model.
+>> Yeah, cuz if we look at the other police
+car, I'm sure we wouldn't quite get that
+level of detail.
+>> Yeah, it is pretty good, though. It's
+hard to really totally tell.
+>> Both shots are really, really good.
+>> Yeah.
+>> All those sparks.
+>> That's what I don't see in modern movies
+enough anymore is like real hot sparks.
+>> Gosh, it looks amazing. Cuz even the
+sparks that are hitting the car itself
+are enhanced with additional compositing
+elements. The matte line of the sparks
+drifts a little bit over the miniature
+in the foreground.
+>> I see what you're saying. There's a
+little bit of overlap.
+>> Because that car is not actually being
+filmed with the sparks against that
+background. Those are two separate
+shots.
+>> The sparks really go ham in that shot,
+TOO.
+>> DO, TOO.
+WHAT THIS MOVIE DOES REALLY WELL THOUGH
+IS THEY sprinkle in some CG cars every
+now and then taking the same approach
+that Jurassic Park did where it's like
+there's moments that are CG but then
+they cut to like real stuff and it
+matches so well that your brain doesn't
+really have time to figure out what's
+real or not. It just accepts all of it
+and you suspend your disbelief.
+>> Is there a line here where we go
+digital?
+>> The buildings are all practical.
+>> Yeah, yeah, yeah. Cuz they just reuse
+and maybe some matte painting.
+>> And exactly. No, that's a whole other
+thing is that like they use all the
+different techniques on this movie
+including matte paintings. That sky is
+having to be added in. So you're seeing
+like some of those bright buildings that
+are in direct sunlight. I think that's a
+matte painting.
+>> Yes, right at the top. Yeah, totally.
+>> That shot's so good. That just feels
+real to me.
+>> Those six cop cars in the front, I think
+they're all practical but they may be
+duplicates of one or two different cop
+cars that they're using over and over.
+Probably doing multi multi
+multi-pass.
+>> She knows it's multi-pass.
+>> Multi-pass, yeah.
+>> She knows it's a multi-pass.
+>> All right, let me clarify what I mean by
+multi-pass. I'm not talking [music]
+about multiple render passes. I'm
+talking about a motion control rig
+getting multiple passes of one singular
+object. For instance, let's [music] say
+I only have one bottle of Huel but I
+need a moving camera to show three
+bottles but I only got the one. What you
+do [music] is you actually run the same
+pass three separate times. One with the
+bottle in the first position, [music]
+a second pass with the bottle in the
+second position, and then a third pass
+with the bottle in the final position.
+Then you can combine those three passes
+[music] together.
+>> think that's what they did in The Fifth
+Element because they put all of this
+effort into making a really nice
+miniature model of the police car that
+they can use again and again and again
+in the same shot. Same way that Huel
+puts all this effort into putting all
+the nutrients and protein [music] into a
+single drink that you could just drink
+again and again and again. Yes, they're
+sponsoring this episode. I know you saw
+[music] it I'm Let's get into it. It's
+got 27 essential vitamins and minerals
+and absolutely zero artificial flavors,
+sweeteners, [music] or colors. If you're
+the type of person that cares about that
+sort of thing, you'll probably really
+like Huel. It's got 35 g of protein, so
+it does [music] have the protein, but
+it's also got 6 g of fiber. This is all
+a complete meal for under $5. [music]
+When was the last time you had a full-on
+meal for less than $5? And if you want
+your money to go even further, the Black
+Edition powder actually is cheaper than
+that. And it also has 40 g of protein.
+All you got to do is mix it up for like
+30 [music] seconds in any sort of water
+or milk that you prefer. What if you
+need something a little bit more
+portable? Check these guys out. This is
+a full meal in a bag. Take it camping.
+Take it hiking. Take it to your mom's
+[music] house.
+Ah, this Huel is delicious, but it is
+filling. And if you want to get your
+own, all you got to do is go to
+huel.com/quartercrew and you can get 15%
+off [music] and get your order even
+cheaper. huel.com/quartercrew
+or you can just use code quartercrew
+when you go to their website and, you
+know, put in the code in the code
+[music]
+space, the codeverse.
+Anyway, imagine you can just like pour
+this in your pocket, but it solidifies
+into beef. That's what Sam's got.
+Sam has a beef that I'd like to bring to
+the table.
+>> beef? I'm hungry.
+>> Sam has beef with CG animals.
+>> It's like the fastest way to ruin a
+scene.
+>> Yeah. So, what would you say if I told
+you there was a full nature documentary
+made using almost exclusively CG
+animals?
+>> There is a ape.
+>> In these clips we're about to watch, we
+got a challenge for you at home. Almost
+all the creatures we are about to watch
+are CG, but there is one real one in the
+bunch. Can you spot him?
+>> For one of the strangest Ice Age
+creatures.
+>> [music]
+>> And mind you, there's five episodes,
+about 45 minutes a piece.
+>> Oh my god, there's more of them.
+>> The ambition of this show had me shaking
+my head. Like, I don't think this show
+was made for me because I didn't really
+listen to any of the information. I was
+just going, "What the heck, dude?"
+>> Baby sloths hitch a ride on their
+mothers' backs until they're a year old.
+>> Well,
+I guess I'll have to watch this.
+>> Dude, look at that snow.
+>> Obviously, they start with really,
+really good footage. They actually go
+out and all the backgrounds, all the
+snow, all of that stuff that you're
+seeing is all
+>> based in reality cuz it's shot on
+camera. And then they're just replacing
+the little bits as necessary. They have
+the perfect roughness to match it.
+>> about to complain that I can see the
+difference between the CG snow and the
+real snow, but then it cut to the next
+shot where it was like his shadow was
+going over what I thought was the
+previously real snow. And now I'm like,
+not sure. Look at the snow, Sim.
+>> Oh, I want Yeah, so we could see a
+little bit of a a line there. First
+thing I noticed on that opening shot, I
+feel like I'm seeing real snow on the
+left, fake snow in the middle. And then
+like the animation of it all played out
+was like it all looks
+>> Yeah.
+>> They've nailed the clumping. You can see
+they have like a lower particle count.
+The particles are attracting each other
+in clumps of a certain amount. And then
+on top of that, once you have like your
+base breakup simulation, you can add
+additional particles into the sim, or
+you can increase the particle count and
+have them follow their closest neighbor.
+Lots of bridges to final sim, but it is
+always cool to see, hey, it's not
+actually that many particles that
+they're simulating. I feel like snow is
+such a solved problem now.
+>> Yeah. We've solved it. Snow.
+>> Yeah.
+>> Woolly rhinos.
+>> This is the thing about it is we're not
+we're not just talking about, hey,
+>> you need to recreate the CG animal for
+some wide shots. No, no, no. Every
+single animal that you are bringing back
+from extinction, you need to model,
+rebuild their skeletal structure, their
+muscular structure, their outward
+aesthetic based on all the research that
+we found. And it needs to hold up in
+every single
+>> focal length. We need to see it in the
+wide. We need to see it in some mediums.
+We need to see it in moving,
+interacting. We need long lens
+close-ups.
+>> SHUT UP.
+>> THAT'S WHAT I'M SAYING.
+>> LOOK AT THIS.
+>> EVERY LENS.
+>> Look
+>> so cool.
+>> That's what I'm saying, man. Every They
+need to hold up at every single focal
+length.
+Alan
+You don't know how long it took me to
+prep these clips today because I kept
+stopping and rewatching them.
+>> Look at the detail.
+>> The scattering of light through the the
+beak
+>> the skin
+>> the
+>> Like we've looked at Prehistoric Planet
+on the show like a couple times now and
+it continues to be just like a landmark
+in how good creature effects can be.
+>> Yeah.
+>> It's the true peak.
+>> It's the gold standard.
+>> Ice Age armadillo, already 3 ft long.
+>> Oh my god.
+>> Look at him.
+>> Oh my god, he wasn't even the main
+character.
+>> He bumped the nostril. The nostril
+flexed.
+>> Oh my god.
+>> [laughter]
+>> That Oh my god. You're telling me they
+get that big?
+>> They get that big and they walk all
+different when they're that big. You
+can't use the same animation cycle. You
+got to rebuild it for the new structure.
+>> Look at how well that shadow integrates.
+>> We see individual tiny little pieces of
+grass being illuminated and then
+occluded by the shadow there.
+>> right.
+>> Yeah, those little specular hits
+disappear when the shadow goes over
+them. When direct light is hitting
+something and you have a plate of it,
+you can add a shadow on top of it, but
+the direct light is still hitting all
+those things so they'll still have
+little specular highlights with a shadow
+on top that just dims it all. But here,
+as the shadow moves over it, that light
+is actually being obscured where it's
+creating all those little specular
+highlights.
+>> Which means that they had to actually
+replicate every contour of the ground in
+CG so that not only the shadow could
+roll across it, but also interact with
+the grass.
+>> And they did a ton of it with puppets so
+that the cinematographer had something
+to work off of for motion of the of the
+creatures. They would also do a clean
+pass of that in case that was easier to
+use. They would also do uh static shots
+and make a little pano of the
+background, a 2D pano so they could pan
+and scan after the fact once they had
+the animation in there. So a few
+different approaches to solve the
+problem, but to me, as As as it makes
+sense to get the entire environment in
+camera, totally the right choice, the
+fact that they can integrate it so
+seamlessly into that environment is a
+wicked achievement.
+>> Marsupial lions.
+>> Look at that foreground piece of grass
+that they had to rotoscope.
+>> Rotoscope or recreate in CG.
+>> Honestly, it might actually be easier to
+just put in a little CG plant.
+>> Yeah, but like all this grass.
+>> Excuse me,
+excuse me.
+Is that okay?
+Okay.
+Uh
+>> Take your time.
+>> The heck?
+>> First off, he's behind a bunch of grass.
+Then the grass moves out of its way,
+which tells me right off the bat that
+grass has to be CG. But you're also
+telling me that maybe they had like a
+puppet that's going But they wouldn't be
+able to extract the puppet and replace
+it with a CG one while still interacting
+with the grass like that, which tells me
+that grass has to be CG. It has to be.
+>> It is. But to me, this shot is a
+celebration on like doing the muscle and
+skin sim. Like you see the musculature
+come out as the body tenses.
+>> That's crazy.
+>> Yeah.
+>> A thorny devil.
+>> Look at that fella.
+>> That looks like a real shot. That That's
+probably just some real horny toad
+lizard.
+>> Thorny devil.
+>> That's Okay, this is real. That's That's
+real, right?
+That's got to be real. It's got to be
+real.
+Look at that attention of it going up
+its leg. That's got to be real.
+>> What the hell is this guy?
+>> convince me that that's CG.
+>> Pause it.
+Pause it.
+>> Look at the caustics reflecting up on
+the belly.
+>> Yeah, I noticed that too.
+>> And and the bubbles.
+>> The swirl into between the toes, the
+surface tension of the water.
+>> Do you see that like little stick in
+there?
+>> Yeah, the little stick. All these little
+details. What kind of thing
+>> twisted mastermind can do this shot
+where you're like, there we go. That's
+the detail that sets this shot apart.
+>> what this shot is?
+Because you cannot convince me this is
+CG.
+>> It's so therapeutic to hear you guys go
+through all the same emotions that I
+went through when I was looking at this
+for the first time cuz I lost my mind
+for 20 minutes.
+But this is real.
+>> [laughter]
+>> This is real in camera.
+>> This is real?
+>> This is real.
+>> It has to be.
+>> This is called, I think, this is a
+reptile that still exists. I think it's
+called the horny devil or something.
+>> Horny devil.
+>> I might be wrong. I might be close.
+>> god.
+>> But no, I I literally I watched the
+surface tension
+little paws go or whatever they are
+going into the water and I was like,
+"There's no way." I saw the little stick
+float up between the toes. I'm like,
+"There's no way anyone thought about or
+had the time to execute this." Thank
+god, but also I was devastated to find
+that it's real footage. But I mean, what
+what a triumph that you guys even
+questioned it. That shows you how good
+it is.
+>> I'm not disappointed that this is real
+whatsoever. In fact, it brings me some
+reassurance that [laughter]
+when I see something that's real, it's
+real.
+>> Yeah.
+>> Like in this day and age, it is such a
+treat to see something that's real.
+>> There's like an intangible amount of
+detail that you can just see that we're
+not seeing in the most beautiful of
+those other shots.
+>> That's sad.
+I don't know for a fact that it's real.
+>> I just want to double-check which
+animals in this season were filmed for
+real. Some butterflies, some squirrels,
+voles, arctic foxes, thorny devils were
+filmed for real.
+>> Thorny devil, NOT HORNY DEVIL.
+>> THORNY
+>> [laughter]
+>> I MIXED UP THE HORNY TOAD AND THE THORNY
+DEVIL.
+>> YEAH, YOU [laughter] GOT IT.
+>> HORNY DEVIL
+>> [laughter]
+>> WOW, ONE T changes everything, huh?
+>> gigantopithecus
+>> Hold up, dude.
+>> I need to take some freaking water
+break. I'm sweating.
+>> Kingdom of the Planet of the Apes has
+the most realistic renderings of
+primates I've ever seen in my life.
+>> Yeah.
+>> What is it about this that makes it look
+better than anything I saw in Apes?
+>> I think animation is the difference. We
+are seeing an animal that we're familiar
+with behaving as the animal that we're
+familiar with. And therefore, I think it
+it it sets us a little at ease as a
+viewer when watching it in terms of the
+bridge to realism. Because in Planet of
+the Apes, obviously, they're talking.
+They're like moving in clothes and
+stuff.
+>> Yeah. Which, you know, I don't think
+it's going on anywhere in the world.
+>> And he gets some protein from the forest
+floor.
+>> I know, it's like you can see into its
+mind.
+>> That focus pull.
+>> And you got Now you've got a crowd sim
+of ants interacting with a
+photorealistic ape.
+>> A crowd of ants?
+>> A crowd sim. I mean, you like how else
+are you animating all of those ants? But
+of course, this show doesn't just flex
+with the animal animations and the
+fidelity of the animals themselves. They
+also flex with the interaction in the
+environment.
+>> Hot, steaming mud.
+>> A hog covered in fur taking a mud bath.
+>> The chunkiness actually moving with the
+fluid.
+>> Look at the freaking hair and mud
+freaking sloshing off it.
+>> Oh, lord. Oh, lord.
+>> Okay, um Wow.
+>> What we're seeing is a very complex
+system where it's interacting with thick
+fur and a big moving beast. How do you
+do that?
+>> How do you get these systems to
+interact? So, like does the mud tug?
+Does the mud Does the mud tug? Does the
+mud tug on the hair and add weight to it
+as it sticks to it?
+>> Well, first off,
+who did these shots?
+>> Well, I'm glad you asked. Time and time
+again, one VFX post house has proven
+itself as the gold standard for animals.
+They're the same VFX post house who did
+Crypto. This comes from the masterminds
+over at Framestore.
+>> Oh, they crushed the animal game.
+>> They absolutely slay.
+>> Each simulation branch, you can think
+of, has its own brain that solves the
+math for that particular type of
+simulation. So, rigid body simulation,
+flip fluid simulation, vellum
+simulation, which is point relationship.
+So, that's hair. You know, if you have a
+a single strand of hair with tons of
+points in between them, it's the
+relationship of how much bend and
+stretch those points have in relation to
+each other that recreate the aesthetic
+and balance of a hair. The same is true
+of mud. That's a Vellum simulation. It's
+point relationships and then you mesh
+those points to look like mud. Vellum
+pertains to mud and hair, so you can get
+those two things to play really nicely
+with each other. But how you get
+specific clumping, the dripping off of
+these different strands, how you change
+the way the clumps interact, I have no
+idea, man. That's that's there that's
+beyond me.
+I just like it.
+>> These woolly mammoths are in trouble.
+>> It is like the proving ground for Frame
+Store. They go, "You know what? We don't
+just want woolly mammoths who have extra
+long hair, which is extra hard to
+simulate because of all the tangling and
+interaction with the surrounding hairs.
+That aside, we want to put these guys
+through the ringer as far as weather's
+concerned."
+>> Oh.
+>> Such a visual treat. I feel like you
+could super cut how many times I put my
+hands on my face.
+>> Bro.
+>> Stinkiest animal.
+>> [laughter]
+>> Legit after all this?
+>> Has to be.
+>> Look at that.
+>> My god.
+>> But then we got a freaking winter storm.
+We got clumps of snow in the fur.
+>> On the eyelashes.
+>> Just to be as fair as possible, Sam, the
+new threshold of a CG animal is a deer.
+>> These reindeer are managing Megaloceros,
+a giant ice age deer.
+>> Wow.
+>> Pretty good.
+>> [music]
+>> Wow.
+>> And what's crazy to me is they added him
+into real footage of a similar species
+of deer.
+>> So that's a real one?
+>> That's a real one.
+>> Oh.
+>> That's a real one.
+>> Oh, I okay.
+>> Hey, what are you doing, Numa? WHAT ARE
+YOU DOING?
+>> [laughter]
+>> I'M LOOKING AT THIS.
+I FOR SOME REASON I THOUGHT YOU'D TELL
+right away. I'm sorry. I don't KNOW WHY
+I THOUGHT
+>> NO, WE'VE ALREADY I SAID THAT.
+>> I'M TOO I'm too in it. I'm two
+>> Talk about suspension of disbelief. I'm
+just suspending all of it now. I'm like,
+oh wow, that's pretty good.
+The all the shots.
+>> Yeah, that one's real. And then they
+have the CG one walking amongst, yeah.
+>> I've lost you've set me up so that I've
+lost all trust in my own opinion
+[laughter] right now.
+>> It's a good place to be as a viewer.
+Suspension of disbelief is the goal. But
+I mean, this is as close as I've ever
+seen. It it is truly the final boss of
+animals. And I'm going to say also
+Framestore knocked it out of the park
+with their behind-the-scenes stuff.
+>> I love these tests they do with the
+chrome and gray spheres on THE WHITE
+SIDE.
+>> [laughter]
+>> THAT IS
+>> IT'S SO COOL.
+>> THAT is a flex.
+>> And they just hit you with the full
+weather effects.
+>> And like the little light panel is
+blocking the sandstorm wind.
+>> [laughter]
+>> Like you know they have so much fun
+making these. But yeah, from start to
+finish, this is the ultimate animal
+flex. It is incredible work. The scope
+of work and ambition, insane. And just
+flying colors.
+It's just
+>> This is what I live for, [music] man.
+I'm like so proud of people I don't even
+know. You guys crush so hard. Like thank
+you.
+>> When I heard you were bringing some
+prehistoric mammals, I thought this is
+perfect because now we get to see what a
+a mammal in modern times looks like when
+you use those same techniques.
+>> Who the hell has a pet chimp?
+>> There's a horror movie that came out
+last year called Primate. Have you heard
+of this thing?
+>> Let me just say they know where all your
+soft bits are and they go for those
+first.
+>> Take a look at this sequence.
+>> Puppet.
+>> Dang, dude. That's
+>> Has to be.
+Has to be.
+>> Has to be a puppet. As I was watching
+this, I was like trying to guess what I
+was seeing in each shot.
+>> The Robbie Williams biopic, Better Man,
+he's a CG ape the entire movie and it's
+incredibly well done. This is a movie
+that I feel like has a tiny fraction of
+the budget. So they're not going to be
+able to do a CG ape for the whole movie.
+So this is a guy in a suit, which is why
+it's all dark, right? They're trying to
+kind of like disguise it a little bit
+with ambience and mood.
+>> I think it's pretty apparent that we're
+watching a guy in a monkey suit. It's
+like a CGI face tracked onto the body.
+But the shots of its face are really
+deceptive. There's the regular mask
+that's static. There's the monkey's
+animatronic mask that can move. And then
+there is the third level, which is the
+full CG monkey face for ultra fine
+control over the facial detail. So
+that's how they are able to split it up
+and kind of combine all all three
+techniques.
+>> Cool.
+>> And you can see you can see them in this
+sequence. So like these shots of it just
+attacking are static and then we get to
+the animatronic face now in this shot.
+And then as we'll see we're going to go
+in even closer and that's when we go to
+the CGI one. Technically like the closer
+you get maybe you want it to be real,
+right? But in this one no, it's like the
+closer we get the more CGI is used.
+>> Cuz I'm guessing everything where he's
+pressing against the plastic film is
+going to be the animatronic.
+>> Yeah, exactly.
+>> a little breath on there? A little comf
+a little breath?
+>> It's pretty well done. It's And but
+you're right, it's like they're
+definitely working with a little bit
+less, so they have to get really
+creative. But but but but but
+the true reason why I actually brought
+this though is because of one specific
+shot that is really intense.
+>> All right.
+>> And I I specifically brought it for you,
+Jordan, because it is uh
+something that plays to one of your
+expertises.
+>> Oh, is it a butt?
+That's all right, baby.
+>> So this next clip might be a little bit
+too spicy for YouTube.
+>> Uh so it is a butt.
+>> we have to restrict it possibly to the
+website.
+>> front, is it?
+>> Horny devil.
+>> If you want to see it, head on over to
+Corridor Digital.com to watch it there
+in the extended version of this react.
+Free trials.
+>> Oh my gosh. Oh, um I'd be so scared. Oh
+no, he's going to like dig all of his
+face or like take his eyes.
+>> Jingle, jangle.
+Shiny, huh?
+>> Oh my gosh, dude. What's going to
+happen?
+OH, HE'S GOING TO TAKE HIS HANDS. They
+take your hands. They take your eyes.
+They take your balls, too. Just being
+honest with you.
+>> You got to take me out to dinner first
+before you
+>> Oh my gosh, I'm so excited.
+>> Well, come out OF YOUR
+>> [screaming]
+>> YEAH, WE CAN'T PUT THAT ON YOUTUBE.
+>> YEAH.
+>> But man, that's good.
+>> [laughter]
+>> That's worth That's worth going to
+corridor digital.com for.
+>> So, it's a really impressive way to
+approach the VFX and it's it's funny
+because there's a lot of shots in this
+that I've seen that I go, "Oh, that's
+just the animatronic." And they're like,
+"No, that was actually the CGI one." And
+it it's it's like such a good rendering
+of the face that it keeps you guessing
+whether it's the real one or not.
+>> Wow, shout out Corridor Digital. You
+guys killed it.
+>> Yeah, no. It's pretty cool.
+>> Well, thank you for watching. We're
+going to see you next week because next
+week is very special. It is our Harry
+Potter special. Guaranteed we're going
+to see you there.
+No takebacks.
+>> Yeah. Who are they going to cast as
+the one the bad guy? We'll find out.
+>> Oh yeah, we got to wait for the new
+show, huh?
+>> Oh yeah, okay. So, I guess that means it
+can't be next week. We'll pause the week
+after.
+>> Voldemort.
+>> All right.
+>> Voldemort.
+>> Walmart? Voldemort?
+>> Vault wall?
+>> Waldo Sorry, Voldemort.
+>> [laughter]
+>> Voldemort.
+>> in German.

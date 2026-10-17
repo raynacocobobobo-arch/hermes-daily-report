@@ -1,0 +1,1281 @@
+UP主：OpenAI
+标题：The Defender's Window: Cyber security keynote
+链接：https://www.youtube.com/watch?v=3jDhHA9JGUE
+
+Welcome everyone. Well, we are together
+for the afternoon. My name is Emanuel
+Mariel. I am the general manager for
+Europe in the East and Africa. And I'm
+just going to do the introduction for a
+few minutes and then hand over to the
+rest of uh the team.
+We have a really packed agenda. We have
+a one hour session right after. Then we
+have a few fire set chats. Very
+interesting. and then I will close that.
+But basically what we want the purpose
+of today is absolutely to understand the
+changes ahead right to learn from one
+another and to make sure that we make
+the most out of all the knowledge that
+we have in this room.
+We we are a moment in time which is very
+interesting. It's almost kind of a
+privilege. We see this AI capabilities
+growing. I mean we just saw the Navier
+stock mathematics problem being solved a
+few weeks ago. We have released GPT6
+Astra which is one of the most capable
+model we've ever shipped. The most
+capable model we've ever shipped sorry
+and when you look at those numbers you
+see that on top of scientific progress
+we are making businesses are making are
+using our technology AI technology more
+and more. 26% more weekly active users
+using Codex for marketing purposes.
+Legal 108% 108x
+more.
+We see that everywhere. I was in Berlin
+on Tuesday and I I spent some time with
+a
+company SMB company called Stadler. They
+have 650 employees and they were
+reporting that with their 145 agents
+working on top of their 650 employees
+they basically managed to get 30 to 40%
+efficiency gains. Businesses are
+leveraging are benefiting from these
+capabilities.
+Small medium businesses large
+enterprises
+across the board even more than 1
+billion people using weekly uh using GPT
+on a weekly active basis.
+But
+with this growing capabilities
+come also the big question that we all
+have. Question of trust. It's all about
+trust at the end of the day. Safety
+is and has always been front and center
+for open AAI. With the recent
+incidents,
+we put even more emphasis on safety
+topics.
+For instance, we have been growing
+significantly as a safety team. We are
+investing a lot in safety computing.
+We have posed for a couple of weeks
+beginning of August the most recent
+training runs that we had. And at the
+end of the day we have today Astra which
+is the most aligned model we have ever
+shipped. Safety is an essential
+essential sorry element of trust
+that's for us on open AAI safety of
+models and then on you here I include
+ourselves on on in that for the room
+here it's safety in the outside world
+external world cyber security and that's
+why we are here today and trust is not
+only on the models it's trust comes also
+with what we do as a team as an
+ecosystem on this security piece
+I've been traveling a lot over the past
+two weeks meeting many many customers.
+Six months ago the messages were not
+around cyber. Six days ago everybody
+started the conversation with cyber
+security concerns. Everybody.
+So alongside the incredible momentum we
+see in AI globally, we also sense
+emerging threats and what we call the
+defenders window
+is this gap that we see between the
+greater capabilities that the models we
+are shipping have and what comes from
+the open weights models that are fast
+accelerating behind. This window is this
+moment in time that we have to act so
+that defenders,
+you all can really leverage the best
+capabilities in the meantime and those
+open weights models are not that far
+behind and we know about that right
+that's why we are here and that's why
+it's very rare but when we invite 150
+people usually we don't have 150 people
+showing up which is the case today
+everybody is showing up because I think
+there is a concern and everybody sees
+that
+it's an ecosystem play.
+It will not be a open AI show. It will
+not be just a government show. It will
+be an ecosystem play. That's why we let
+this letter a few weeks ago weeks with
+Yes, there are screens on the side. If
+you can't see here, sorry, just to make
+sure there are screens on the side. It's
+an ecosystem play. We have 100 people,
+100 companies. Most of the companies by
+the way in the room today are on this
+chart too
+that have signed this letter. There is a
+letter that basically says we need to
+come together as one group, one
+ecosystem to fix this problem, right?
+And
+we all have a role to play. It starts by
+you the leaders in the company making
+sure that this cyber topic it becomes
+number one priority in the company. And
+I think we start seeing that. that I was
+in the US a couple of weeks ago and
+there it was already the number one
+priority and in Europe I feel that we
+are lagging a little behind but still
+catching up but that's clearly the first
+thing it has to come from the top be
+number one priority on the agenda of the
+companies
+then we need technology partners dark
+trace checkpoint thanks for being here
+by the way today
+we need you your capabilities your
+knowledge your teams to connect the
+models that we have with the
+organization and the company so that we
+can deploy them and act on time. It's a
+timing question. We need to act fast.
+Then is governments. Governments is very
+important because they are really the
+facilitator, the accelerator of
+this initiative. We just announced
+yesterday that we are going to work with
+Ukraine and help the cyber defense. had
+to face 6,000 attacks in the last year
+and our models are going to help them
+defend themselves. But not only in
+Ukraine, also in Europe. The EU cyber
+agency in Isa has reported three weeks
+ago, two weeks ago. Everything is like
+in the last weeks basically. I just keep
+saying weeks. It's last week, two weeks
+ago, three weeks ago. It's now basically
+Ana reported that they were using our
+model to find vulnerabilities. They
+found several vulnerabilities
+that they were not expecting through our
+model just on a small scale by the way.
+And then it's on us. Us mean OpenAI.
+We really want to make sure that every
+critical infrastructure
+can benefit from this technology. It is
+not a question of money. Should not be a
+question of money. Everybody, whether
+it's a hospital, utility provider should
+be able to defend themselves. Should be
+able to use our technology, our models,
+cyber models to defend themselves
+with our trusted access capabilities. Of
+course, that's why we released um again
+two weeks ago
+this $1 billion fund to encourage to
+make sure that money was not the
+problem, right? And that what we see
+today is that when we combine all of us,
+the leaders, the technology partners,
+the governments and our capabilities,
+our technology, we have really a good
+opportunity to leverage this defender
+window.
+Speaking of which,
+and talking about defender window, I'm
+probably the least well positioned
+person to talk about that when we have
+Matt in the room that is coming on stage
+to basically tell us more about that. I
+just wanted to thank you very much.
+You'll see me again at the end. Thank
+you very much for your attention and
+have a nice afternoon. Thank you.
+>> Hey everyone and thanks for being here
+today. I'm Matt. I'm the head of
+engineering for cyber at OpenAI and
+today I'm going to talk to you a little
+bit about how to pass cyber model
+capabilities to work.
+Does anyone know what this is?
+T's barrier. Thank you. So, this
+probably wasn't something on your mind
+coming into this conference today. Um,
+but for more than 40 years, it's helped
+protect central London from tidal
+flooding. It's enormous steel gates that
+can close across the river. And that
+protection has allowed us to go to work,
+uh, keep public services safe and gather
+in rooms like this.
+We don't think about it because someone
+else takes responsibility for it. But
+many of you know exactly what that feels
+like. You protect systems that societies
+depend on. Hospitals, transport network,
+energy supplies, and all of our
+businesses rely on this digital
+infrastructure.
+As that dependence grows, cyber security
+becomes more important. And now AI is
+changing what's possible.
+That same feeling, that weight became
+very, very clear to OpenAI very, very
+recently.
+It was very clear this summer what was
+coming. Our frontier models were finding
+weaknesses that have gone unnoticed.
+Broadly available models were um
+becoming more capable too. So right now,
+we believe defenders have a head start.
+We can use these models to close
+weaknesses before attackers exploit
+them. So we have to act
+internally at OpenAI. What we did was we
+grabbed our security team, our applied
+engineering team, and also our research
+team. We pulled them all together and
+the goal was just to strengthen our own
+defenses. We didn't know exactly how we
+were going to do it, but we knew we had
+to do it.
+That effort became the starting point of
+something that we call the defense
+factory. Models gave agents
+capabilities. Skills gave them
+repeatable workflows. And development
+environments let them run software so we
+can test and validate those changes.
+Agents need their own environment. They
+need to investigate weaknesses. They
+need to test fixes. And our ambition is
+to move towards continuous defense.
+Lou is going to tell you a little bit
+more about our own defense factory a
+little later on in this in this session.
+We're now seeing models uncovering
+vulnerabilities that have been hidden
+for decades. Our models helped identify
+a 23-y old uh floor in OpenBSD. In
+Poland, our cyber models found
+vulnerabilities in MicroTalk affecting
+releases going back all the way to 2013.
+Many people in this room run systems
+much older than 23 years old. And
+there's um tons of things that we still
+need to uncover and we predict we
+probably will uncover as we as we dig in
+here.
+But the most important things is
+findings things is not really that
+interesting. Like we've had plenty of
+tools providing findings for a long time
+and it triggers a whole other process
+where you need to validate is it
+actually correct? Uh is it a duplicate?
+Do we already have this tracked? Is it
+risk accepted already? We need to turn
+them to fixes. Fixes are what we want
+not findings
+in order to protect our institutions. Uh
+that's the gap we need to close and we
+need to verify that that fix works too.
+And we need to do this fast. The same
+capabilities that gave us these
+weaknesses also make it easier for
+attackers to exploit them. We can't
+assume we're going to stay ahead, but we
+do know we're ahead for now.
+One thing I'm very proud of is this has
+become a a national priority, too. Uh so
+this is something the government's
+looking at. We have the cyber shield
+initiative which aims to use agents to
+find vulnerabilities um progressing
+towards automated remediation across
+critical infrastructure.
+You can kind of think of this as a
+national defense factory, right? Other
+governments around the world are also
+looking at this. We're very proud that
+the UK government are.
+We believe that every single
+organization needs their own defense
+factory. But we also know that OpenAI
+has an advantage that most organizations
+don't. We have dedicated security teams.
+We have deep technical expertise and we
+have access to frontier uh AI.
+Governments, utility companies, open
+source software. It's very unusual for
+them to have the same access that we do.
+And the thing that you know we need to
+uh really sort of internalize is their
+security is our security.
+So this is why we published this open
+letter. We had 500 organizations sign it
+and called for collective response. We
+need to get capable AI into the hands of
+defenders who don't necessarily have the
+resources to do this alone.
+In addition, we announced the a billion
+dollar fund that we spoke about a moment
+ago, but this subsidizes Daybreak access
+and it helps defenders of of critical
+infrastructure, essential services,
+nonprofits, open source software to fix
+serious vulnerabilities.
+This gives defenders a head start.
+But we need to piece all these things
+together. Our frontier models provide
+the capability. Our Daybreak program
+gives eligible defenders access. And
+encodic security puts those capabilities
+to work across defensive and authorized
+offensive testing.
+Defense factory is a framework for
+bringing these pieces together into
+continuous defense. We'll walk them
+through today and then we'll return back
+to this map at the end.
+But ultimately, this is what today's
+about. We want to share what Frontier
+models can do. We want to show how to
+put them to work um and how you can
+include them in your own operations. And
+we want to look at our research approach
+to show how we'll create safer systems
+in the future, too.
+The defenders window is open. It's not
+going to stay open for long, but it's
+open right now, and we need to make it
+count.
+I'm going to hand it over to Lena, who's
+going to come up and show you a little
+bit more about what our frontier models
+are capable of.
+My name is Lee and I lead our cyber
+program across AMIA for go to market.
+I've spent the last six months
+partnering with Europe's largest and
+most critical organizations to improve
+their defensive capabilities.
+Today I'm going to walk you through how
+we built the best and the safest cyber
+security models and how we can make
+these available to you.
+At the beginning of the month, we
+launched GPT6 Astra, our most
+intelligent model yet. It's a huge step
+forward for those everyday tasks,
+including software engineering and
+professional work, and it's particularly
+good at computer use. That means you can
+hand off a lot of the admin that you
+normally do yourself, and let the model
+work through it on your computer.
+But it's also a huge leap forward with
+cyber. We've trained it to find more
+vulnerabilities, including zero days,
+and to dig deeper into security problems
+and be a more capable red teamer.
+But capability is only part of the
+story. We also need to keep making that
+intelligence more costefficient so that
+people can afford to put it to work at
+scale. To see how we're progressing on
+both of these fronts, we use a range of
+evaluations.
+One way that we measure that is with
+exploit gym. It tests whether a model
+can turn known software vulnerability
+into a working exploit across
+applications. Chrome's JavaScript engine
+and the limit the Linux kernel.
+The model has to get the exploit working
+to score. Just triggering a crash isn't
+enough. And along the bottom, you can
+see the number of output tokens that are
+used. And then up the side, the
+percentage of challenges successfully
+completed.
+On the graph here, you can see the
+output for GPT 5.6 six soul where it
+reached around 30% completion.
+Now if you take a look at Astra, it
+reached around 40% more successful
+completions, but it used far fewer
+tokens to do it. And that's the progress
+that we want to highlight, tackling more
+of these difficult tasks with much less
+output needed to get there.
+So for defenders, that opens up the
+possibility of doing more thorough
+security testing with the resources that
+they have.
+So, what does this look like in
+practice? Working with our researchers,
+our models help uncover two previously
+unknown vulnerabilities in Chrome's
+JavaScript engine and connect them into
+an exploit chain. One flaw allowed a
+memory corruption and a second let that
+corruption break through another layer
+of protection. The hard part was
+understanding how these weaknesses work
+together.
+And our researchers validated these
+findings and reported them to Google who
+then released a fix. So this is just one
+concrete example of these tools already
+helping to make software that we use
+every day much safer.
+And we're taking that work beyond
+individual examples. Patch the planet is
+our initiative with trail of bits to
+help secure widely used open source
+software including projects like Python,
+curl and go.
+We fund expert security researchers and
+give them access to our models and codec
+security and they work directly with the
+maintainers to investigate the findings,
+develop and test patches and coordinate
+disclosure.
+In the first week alone, 37 patches were
+merged and in one of those projects
+which was AIO HTTP maintainers fixed
+eight reported uh issues within hours.
+It's real progress with for these small
+teams maintaining this software that we
+all depend on.
+But the same capabilities that help
+defenders can also be misused. So models
+become more capable, our safeguards have
+to advance with them.
+And Astra is our first model to reach
+the cyber critical threshold that brings
+real opportunities for the defenders and
+a responsibility to manage risks
+carefully.
+As Sam has said previously, we shouldn't
+be taking risks on behalf of humanity.
+People need to remain in control. And to
+do that with our cyber models, we use
+several layers of protection, including
+training the models to refuse harmful
+requests, detecting and blocking abuse,
+and monitoring for dangerous behavior.
+Together, these help us put powerful
+tools in defenders hands while making
+them harder to misuse.
+And with Astra, we strengthened those
+layers with a better detection for cyber
+misuse and attempts to bypass the
+safeguards. It also included tighter
+restrictions for higher risk accounts
+and monitors that examine examine the
+model's reasoning and actions.
+These help us spot when a model goes
+outside his instructions and allows us
+to intervene.
+And that responsibility extends to what
+we'll build next. Safety needs to stay
+ahead of the capability. And that's why
+we've previously paused frontier
+training while we double down on
+monitoring and alignment research. We
+need to meet the required safety
+thresholds before we push the capability
+further.
+But alongside those safeguards, Astra is
+our most aligned model yet. Here's one
+way that we test that. We give the model
+a difficult task which includes an
+outofscope target that the model could
+exploit as a shortcut.
+Without these production safeguards,
+Soul successfully exploited that target
+in around 48% of cases. But with Astra,
+we saw zero of those successful exploits
+that target that test.
+That matters because we want the models
+to respect the boundaries that we set
+even when the task gets really hard and
+it's meaningful progress to make sure
+that we can delegate more complex work
+with greater confidence while keeping
+people in control.
+So next I wanted to talk about how we
+actually build these capabilities.
+We start with the coding and reasoning
+skills in our frontier models and then
+we go and add specialist cyber training
+on top of that including understanding
+vulnerabilities, developing working
+exploits and verifying the results.
+We make these capabilities available in
+two Daybreak tiers, red and blue.
+And Daybreak Red is our highest level of
+cyber access and it gives approved
+security teams access to these
+specialist models for advanced red
+teaming and weaponized exploit
+development.
+Think taking a crash and then turning it
+into a working exploit or chaining
+weaknesses together to see how far an
+attacker could get.
+But giving an agent this level of
+capability al means we also need to be
+clear about its boundaries. We need to
+include information about what it's
+allowed to test, what it can reach, and
+then also allow your team to see what
+it's doing. Today, teams often have to
+build all of this supporting
+infrastructure themselves. the execution
+environment, the network controls,
+monitoring and evidence collection, and
+it takes time away from their security
+work.
+So today, we're announcing codec
+security red, a managed way to run
+penetration tests against your
+applications with all of the scope,
+controls, and oversight built directly
+into the workflow.
+So here's how that's going to work.
+You'll start in codeex and you'll define
+the assessment scope and the rules of
+engagement and then the investigation
+agents run in an open AAI hosted
+environment each with its own isolated
+sandbox.
+Your team follows their activity through
+the dashboard where findings and
+supporting evidence can come together to
+be reviewed.
+Now when those agents interact with your
+own application, their outgoing requests
+pass through network controls with a
+guardian agent reviewing the traffic.
+And that allows us to connect the
+investigation to your environment with
+controls on what the agents can reach
+and what they're able to do.
+So this allows you to test what an
+attacker could actually achieve while
+keeping visibility and full control over
+the whole assessment.
+So for your team that starts with less
+infrastructure to build and maintain.
+We're bringing the execution
+environment, monitoring, and findings
+together all into one view so you can
+spend more time investigating these
+weaknesses and getting them fixed.
+It also brings safeguards into the
+workflow with isolated environments and
+checks on outgoing requests that help
+manage the risks that come with using
+models that are this capable.
+It also gives your team more capacity to
+test applications and investigate
+potential attack paths. The aim is to
+make thorough, repeatable assessments
+easier to run with the team that you
+already have.
+And finally, it gives you the controls
+to feel confident in how you run the
+model. You can set the scope of what the
+model can access and you can block and
+restrict activity at the network level.
+And then next, for most defenders, the
+starting point is Daybreak Blue. It
+gives your front our frontier general
+purpose models with safeguards that are
+tailored to to allow authorized security
+work. Think reviewing code,
+investigating alerts, finding
+vulnerabilities, and then creating the
+patches. It help your teams find new
+issues and work through the
+vulnerability backlog.
+That includes GPT6 Soul and it now
+includes Luna and soon it will include
+GPT6 Astra, bringing our latest
+capabilities to everyday defensive work
+and giving you the option to choose the
+right size model for the job.
+So now let's take a look at another
+practical workflow. Vanessa, one of our
+cyber deployment engineers, will show
+how Codeex Security investigates finding
+and then proposes a patch. Vanessa.
+>> Hello everyone. Um, it's amazing to see
+some of you in person today that I've
+encountered over Zoom uh in San
+Francisco where maybe you were taking a
+late night call and I was taking an
+early morning one. It's fantastic to be
+here today. Also nice to be like the
+only American uh speaking at today. So,
+that's a little unique. Um, today we're
+going to walk through a practical
+workflow of how to use codec security
+through the local plugin. I'm going to
+walk you through a little bit about uh
+how you can use this through Daybreak
+and the way that we can start to
+approach software security using the
+plugin as well as the CLI and what these
+workflows look like endto end for a
+typical security engineer who's starting
+to engage with codeex uh for security
+work. So, what you're looking at right
+now is Codeex, the desktop app. Uh, and
+what we've done is we've pulled on a
+local version of Ladybird. It's a
+pre-alpha open source browser that's
+been trending on GitHub for a while now.
+We also partnered with them through
+Patch the Planet as part of this. So,
+uh, when we got their permission to to
+demo this, uh, they are now working with
+Patch the Planet to also harden this
+project. Um, today what we're going to
+do is go into the security section of
+Codeex. You can see that it's empty.
+Now, we're going to imagine we're
+initializing our first set of scans for
+repos that we own. Uh, and we're going
+to go ahead and take a look at what this
+configuration looks like. So, there's
+two options here. One is to evaluate the
+entire codebase. The second is also to
+look at changes. So, this could be a PR
+or uncommitted changes or even a
+specific revision. But for today, what
+we're going to look at is a full scan.
+And the reason for that is because
+typically we want to run a full security
+scan against repo the first time that we
+initialize it so it can identify novel
+vulnerabilities in the codebase that
+might have been missed by existing
+security tools. And I'm going to point
+you to a couple things that are really
+important here. One is our
+recommendation is to use either high or
+extra high reasoning for this initial
+scan. And generally speaking, you want
+to use the most frontier model that's
+available. So in this case we can use
+soul or even Astra. Um and what we want
+to do here is initialize a scan again
+using high or extra high reasoning with
+a frontier model. The thing that I
+really want to focus on is the context.
+And this is the difference between
+existing security tooling in the space
+and what a reasoning model provides
+under the hood is the ability to
+actually provision context for the
+scanner and for the model to understand
+what it needs to look for in your
+environment. So in this example, we're
+going to look at the attack vectors.
+We're going to provide areas of focus
+for the model and we're also going to
+provide additional security context. I
+would think about this as well as like
+what is the enterprise context that you
+would want the model to know about. So
+this could be anything from compensating
+controls, you know, a Z business logic
+that you're thinking about, even things
+like how you define fraud. These can all
+be seated as part of the scan. So we're
+going to start by initializing this. And
+you can see that codeex is now running a
+full scan. What it does under the hood
+is it initializes a threat model of the
+repo. So in this case, it reviewed
+28,000 files, identified and generated a
+threat threat model. Then it surfaced
+candidate vulnerabilities and validated
+them to ultimately present this report.
+So let's go ahead and take a look. Right
+now there's a shared JavaScript by code
+cache vulnerability. We have a summary
+here and we can see the exact tag path
+based off of the files that Codex
+determined were vulnerable and then it
+validated the the actual vulnerability.
+Right? So we're going from this could
+potentially be a vulnerability to okay,
+we validated this in the source code and
+we think this is a true positive. And
+then here we can see that there's the
+impact. So a high impact and high
+likelihood. Again, these results are
+driven by the context you provided. So
+when we're thinking about um the
+additional context that we seated in the
+net scan or context you want to
+provision through other files, this can
+help inform the vulnerability impact. Um
+but really taking a step back, we're not
+interested in just surfacing
+vulnerabilities. Um I know many of us
+who have been security practitioners,
+I've been one for uh many many years
+now. We we're not interested in just
+having a raw dump of vulnerabilities.
+Our goal is to ultimately remediate and
+burn down risk. So what we want to do is
+actually generate a patch. I want to
+pause here for a second. So the reason
+why this is so powerful is that codecs
+and codec security are an extension of
+the software development uh agents that
+we have shipped in the software
+engineering capabilities. And so part of
+this is taking the software engineering
+capabilities of these models to help
+inform not only what the vulnerabilities
+are, but what effective patches are. In
+this case, we can go ahead and generate
+a patch. You can see that it's invoking
+this fix finding skill under the hood
+that's part of the the plug-in and also
+part of our CLI. So now we have a patch
+here. We can actually review this and
+see exactly uh what has been affected
+and what code needs to be fixed. we can
+apply this patch within the repo locally
+and then verify the fix to make sure uh
+that the the vulnerability is no longer
+there.
+Um so this is one component of it. But
+when we're looking at how do we inform
+these scans and how do we think about
+the broader vulnerabilities we're
+finding in the codebase, the way to do
+this is through a security.md file. So
+the way I would think about this is
+fundamentally like an agents.mmd
+but for security that provides context
+at the repo level for what you're most
+concerned about. In this example here,
+there's a skill you can invoke that's
+pretty easy. Um but you can also provide
+your own context here. And this helps
+inform the agent when it's running scans
+about what you consider to be most
+important, what the threat attacks could
+be, uh how you consider trust boundaries
+or business logic. So really this is a
+core component of how we want to
+redefine what security looks like by
+providing context to the agent. Um and
+so here we've reviewed this and we're
+good with it. What we want to do is
+actually commit this to the repo. Um and
+now we have a repo within Ladybird
+that's been scanned. It has a
+security.mmd file that's been committed
+to it for future runs. But that doesn't
+really solve this broader problem that
+we have around how do we fix
+vulnerabilities uh at a broader scale
+and how do we engage with existing tools
+and systems that we have. So this is
+where we want to leverage the
+extensibility of codecs. The way that we
+do this is by um a actually asking
+codeex to take the scan results to use
+sub agents to generate patches for those
+findings uh group them and then actually
+open juro tickets for us uh open PRs on
+our behalf for us to review and notify
+relevant engineers on Slack. It's really
+interesting here because part of part of
+what we're seeing is the ability to
+communicate and engage with other
+stakeholders within the org. So a lot of
+times maybe one person is responsible
+for running the scan but another person
+is responsible for mediating. Part of
+what we're seeing here is extended
+workflows to help you communicate with
+other engineers and get work done. So
+here what we're doing is following a
+similar flow to what we walked through
+before where we had an endto-end
+remediation workflow except in this
+example we've actually spawned sub
+agents. These sub agents are doing the
+exact same flow. So they're looking at
+the code they're seeing the
+vulnerability. they're generating a
+patch and then they're going to validate
+it. What we can do now is see that
+codeex is actually opening up Jira
+tickets and and actually opening up PRs
+within GitHub. So now what we have are
+tickets that have been opened PRs that
+have been opened and we can go ahead and
+see that someone has been notified that
+there's a ticket for them to review for
+a finding from a Codex security scan. If
+we go inside of this scan, we can see
+here there's a ticket for someone to
+review in a draft PR. This has been
+generated by codeex for an engineer to
+review. And what we can do is actually
+look again like we did before within
+codeex at the affected code in the
+recommended fix. Um, we can verify that
+this works and there are no downstream
+effects. We can also tweak this
+specifically for your ONCI pipeline to
+make sure there are no breaking changes.
+So fundamentally making sure that you
+know all all checks are green and
+there's no failing CI tests um as you're
+opening these PRs to make life simpler
+for the engineer to really focus on the
+code itself. Um and what we can do is
+just say hey it's ready for review looks
+good to me and let's go ahead and merge
+this PR. So this is one of the ways that
+we can extend and augment these
+workflows. It's not the only way. So in
+the last six months I've met with quite
+literally a thousand customers and a big
+part of this is thinking about scale. So
+it's very very easy to do this for one
+repo when you have seven vulnerabilities
+but how do you do this when you have
+10,000 repos? The solution to this is
+the CLI and the SDK. So what you were
+seeing in the codeex plug-in um are
+different skills. are composable skills
+that we have developed after meeting
+with many teams and observing their own
+workflows. We took the local experience
+of those skills in the codec security
+plug-in and we brought them into a CLI
+that allows more programmatic uh tests.
+And so here you can see there's a bulk
+scan that you can run and you can define
+how many workers are initiated for this
+bulk scan and you can pass
+repositories.csv CSV with a number of
+GitHub repos or or other SCM repos that
+you have and then initialize these
+scans. So again, we're going from a
+local interactive experience to one
+that's more focused on programmatic
+scaling. The CLI can also be used within
+your CI. So you can actually use these
+components for things such as um seeing
+if there are any um vulnerable
+components of the repo. you can look to
+see if there's a vulnerability in a
+version upgrade, for example, for a
+dependency or having a failing CI check
+for when there is um a PR that's been
+opened. So, we're thinking about how to
+help you programmatically across an
+enterprise. Um, and we're really really
+excited about, you know, continuing to
+partner with every company here to help
+improve this experience. It's all open
+source, which is amazing. Um, and we
+want to partner with just like the
+broader ecosystem to to accelerate
+security. Um, with that in mind, I'm
+going to pass things over to Lou and
+he's going to walk you through a little
+bit more about how we've been
+approaching the defense factory
+internally. Thank you guys so much.
+>> Wonderful. Thank you very much, Vanessa.
+Um, so my name is Lou and I'm the field
+CTO within cyber, specifically within
+OpenAI. I'll put my water down and grab
+my clicker. So what I have the privilege
+of talking about with you today is what
+we've been doing internally within
+OpenAI to build out what we mentioned as
+our defense factory. So I'm going to go
+into some of the details about what
+we've been doing and how we've been
+doing that. And hold tight because at
+the end as well, I will talk briefly
+about some product announcements. It's a
+little bit of an early teaser. We do
+have dev day next week and then some
+more cyber announcements will come out
+over the next coming weeks as well.
+So as has been mentioned, we now live in
+this world with agents where agents are
+moving rapidly and we now need to move
+our internal systems and services so
+that they are also based on those agents
+as well. As Matt mentioned in the
+introduction, we actually called an
+internal code red within OpenAI and we
+mobilized 250 different people across
+engineering, security, research, put
+them together into a cross functional
+team to build out effectively what is
+the first iteration of our defense
+factory and building toward this idea of
+what we call continuous defense.
+So I'm going to go start by running
+through a loop that obviously many of
+you might be familiar with but this is
+the loop that we took and then apply
+these agents to the first part of that
+obviously naturally is inventory
+understanding our attack estate our
+endpoints etc everything that could be
+possible surface area to be attacked.
+The second part is then we started
+running our different cyber models
+across our entire estate. Doing
+discovery on that and as we mentioned
+here finding things across our
+technology is part of the easy part. But
+what we started also doing is dynamic
+validation. So allowing those agents to
+actually validate those fixes before
+they are sent over to developers or for
+remediation.
+As part of this process we also did it
+ownership assignment. So going through
+our internal systems whether that be
+slack, page of duty etc. our source code
+trying to find out specifically who are
+we handing these issues to for
+remediation
+and also one part we did then as part of
+the remediation we don't just remediate
+but then we were also validating those
+fixes as well. Do they actually fix the
+issue that we thought they would
+in terms of the tech stack? So the
+traditional security tools that you have
+within your organization actually then
+all stay the same. We were integrating
+across all of these. The main ones were
+obviously source code to access for
+applications, the security tools that
+you're all very familiar with, but then
+critically as well also workflows
+because to get these vulnerabilities
+through that pipeline, we need to assign
+them. We need to move them between teams
+and check their status.
+So what is new? What is new is
+effectively agents naturally the skills
+which are accustomed to the different
+organizations that you all work in. We
+have some of these skills as well
+published as part of our codeex plug-in
+and CLI which you can all take
+inspiration from. But your skills are
+going to be obviously naturally specific
+a bit more to your organization as well.
+But the last part and a key part of this
+for us as well is having an isolated
+environment where we can actually run
+these agents as well especially for
+applications where we can run that
+application alongside the agent and have
+it iterate and validate certain aspects.
+So the anatomy from our internal defense
+factory is effectively that now needs to
+run inside of a network. In our case
+it's our network when it comes to
+productizing this which I'll talk a
+little bit about later that naturally
+then will need to run in your network
+have access to all of your internal
+systems but critically needs to keep
+your source code your IP everything also
+safe within your network. Those agents
+were then running inside of
+environments. We believe that also makes
+sense for this to be a virtual machine.
+There are many different abstractions
+for this including containers. But the
+virtual machine gives us a strong amount
+of isolation and also allows us access
+to the kernel to use the kernel also to
+monitor different agent interactions to
+monitor its tool use and calls and that
+agent can then rewrite files etc. But we
+can still monitor that.
+On top of that is a development you know
+container which is we've built on top of
+the open standard for Microsoft uh which
+allows you then to package all of your
+dependencies, your tools, etc.
+uh inside of that dev environment that
+gives you reproducibility. So those
+agents work in a an environment that is
+always the same every time, but it also
+gives you um the the ability basically
+to add in hooks. So from a security
+perspective, you want to run a Falcon
+sensor in there, you want to hook that
+up to whiz and and do your monitoring,
+you can do that as well. And then
+naturally on top of that comes your
+agent with all of its skills. And then
+through this this allows you then
+effectively to run those agents across
+your organization at scale because you
+can then scale this up and that's what
+we were also doing uh internally as part
+of our effort.
+So turning to a couple of different
+metrics of what we achieved. So across
+our dynamic validation we managed to get
+uh our false positive rate down below
+1%. Which for a lot of organizations
+this number is vastly higher 50 60 you
+know percentage itself. For ownership
+assignment we got this up to about 90%.
+So there's still work to do there, but
+that means from those vulnerabilities
+when we hand them over to the teams that
+that's a 90% accept rate or 10% for
+those where we misassigned to a certain
+team or that had to be handed over. And
+then from the fixes that we were then
+remediating with these agents, we then
+also had, you know, less than 1% fixed
+roll back rate. So of those
+remediations, you know, uh, a vast maj
+majority of those succeeded as well.
+So to get one layer down finally just
+also into the detail. Um what this
+effectively meant for us is a number of
+different inputs from our various
+systems and our context flowing into an
+environment that was running then with
+codecs and these agents and that was
+then resulting in a form of output for
+dynamic validation. This is where we
+take a vulnerability from a scanner or a
+tool or something that Daybreak has
+found and then we actually validate
+that. So is it a duplicate? Is it you
+know something that's already been
+raised? Is it reachable uh from our
+internal systems?
+The same across all of the different
+workflows as well. Even ownership
+assignment again internal systems, page
+duty, GitHub, etc. Who are the different
+owners for these different
+vulnerabilities so we can map them and
+have them successfully handed over to
+those individual teams. Hopefully,
+you're starting to see there is a
+pattern here. This is basically how this
+worked throughout the entire process
+from start to finish. And the final one
+that I will mention is obviously then
+verified remediation. So applying those
+remediations, but then again by running
+that inside of its own environment,
+giving it an application, that agent can
+have a high degree of confidence, has
+that fix actually been um actually
+resolved fully?
+So the way that we ran this internally,
+obviously we staffed this incredibly
+heavily where, you know, OpenAI takes
+this very seriously in terms of what we
+believe to be uh a period in time now
+where cyber models are becoming
+incredibly powerful. So we wanted to run
+all these models across our
+infrastructure and we did that by
+forming this cross functional team. This
+is a similar pattern that we're now
+running with some of our customers as
+well to pull together these cross
+functional teams. Run these cyber models
+and try to put a large push on the
+remediation flow end to end that then
+allows you to learn about your process
+where maybe there are handoffs, issues,
+bottlenecks for your specific
+organization and then work that backlog
+down and ultimately trying to build in
+this continuous defense where agents are
+doing as much of this process as you
+can.
+So ultimately that's how we want or how
+we're putting forward to use this
+defender's advantage. So having a
+focused push to find and fix these
+vulnerabilities giving agents their own
+environment and then ultimately building
+towards continuous defense. Now one
+thing that now within OpenAI that we're
+doing is productizing this. So we're
+testing on ourselves and dog fooding. Uh
+but there are several customers that
+have an early version of this
+architecture that are exploring this
+also with some of our customers. If
+you're interested on that we're happy to
+talk to you about it. Obviously, you
+know, the capacity is limited right now.
+We're working with, you know, a small
+handful of customers, but that will then
+be rolled out over the coming weeks and
+months as well. But the big big thing I
+want you to take from that is OpenAI has
+released models. We've additionally
+added tools, but we're now trying to
+find ways to operationalize this for our
+customers. That's consistent feedback
+that we get across the board is
+wonderful. You've given us this model.
+How do we put this to into action? How
+do we actually get results from this in
+our organization? And that's one of the
+big focuses for OpenAI over the coming
+weeks and months.
+So, thank you very much and I will now
+hand you back over to Matt who will just
+close us out
+talking about our new cyber models.
+We've shown you how to put that together
+into action into codeex and we brought
+you on the journey we've been on about
+how we built a continuous effort to
+build our defense factory.
+I'm going to talk to you um through how
+you can start putting everything
+together too. Like one lesson I want you
+to take away is you know L talked about
+how we are going to build this into a
+product but don't wait for us. All the
+pieces are here. We don't have time.
+We've gone deepest on prevention finding
+and fixing weaknesses. Um but we know
+that security teams have responsibility
+across a lot more than that.
+Customers can already use our models and
+tools to build workflows for
+investigation for response. Uh and they
+can work around security operations. Our
+direction is to learn alongside them.
+share what works and turn that into
+products as we're going to do with the
+defense factory.
+Wherever you today, wherever you are on
+this journey today, there is a practical
+next step. So firstly, if you haven't
+already, apply for our Daybreak program
+and put these tools available for you to
+work.
+Second is start with the CODC security
+plugin. Vanessa walked you through that
+and you can see already how you can
+potentially start small, start with one
+repository. You can easily get up to
+tens of thousands, hundreds of thousands
+by running that in CI.
+And then finally, use the CLI and SDK.
+You can start to build your own security
+tools, customize them for your context,
+build them out for customers.
+One thing that we believe is quite
+important is Lou touched on sort of the
+environment it runs in, right? And these
+having these environments that agents
+can run, they can validate, and they can
+test. So one one suggestion from me is
+start to look at dev container and how
+you can package all these things
+together in an environment that you can
+uh run reproducibly.
+Once you do this, you'll be able to
+reliably reliably run internal tests and
+it'll also give clear system context and
+ownership.
+So we've talked you through a little bit
+this diagram. I started with this and I
+want to end with it too. This is the
+defense factory. It brings together
+various aspects of open tooling. These
+are the pieces you can bring together.
+The models provide the capability.
+Codecs and development tools let you put
+that capability to work. And then the
+security workflows that can provide more
+specific starting points depending on
+where you are.
+We know one of the greatest challenges
+for customer is capacity which is why
+we're going to build full end to end
+products so you don't need to build
+yourself. But what's also really
+important to us is this needs to be a
+journey we go on together. So, we're
+going to do work across the Daybreak
+Defense Network and bring training and
+implementation partners to help build
+defense factory and also just help you
+navigate this journey together.
+I just want to finish with this. So, we
+really do believe the defenders window
+is real. It's why it's so important to
+me that we don't wait. We need to start
+moving now. It's really really important
+that we start taking um advantage of
+this moment we have where we do have
+access to the Daybreak models um and
+that they really can kind of set you up
+ahead.
+Defending our digital and physical world
+is going to take all of us security
+teams, researchers, partners,
+maintainers,
+we we all share software. Every fix we
+contribute and every lesson we share on
+stages such as this, we can help defend
+another uh company and help another
+defender move faster. This is what gives
+me optimism. I love that you all came
+today and we're not alone in this. We
+have a community and we're ready to put
+these capabilities to work. I believe
+we'll look back on this moment and we'll
+be proud because we came together, we
+rose to the occasion and we made the
+world more secure. So, I'm really
+looking forward to getting this done
+together with all of you. And I want to
+thank you all for joining us here today.

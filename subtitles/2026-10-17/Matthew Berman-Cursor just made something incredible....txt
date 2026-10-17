@@ -1,0 +1,467 @@
+UP主：Matthew Berman
+标题：Cursor just made something incredible...
+链接：https://www.youtube.com/watch?v=mZM-J7XK5Aw
+
+A new AI app is here and it feels very
+different from anything else that you've
+probably tried. It's called Grok Bot and
+it's an agentic system for everyone. And
+it feels like you're just having a
+conversation with your agent. The first
+thing you're going to notice is it looks
+and feels just like any native chat
+application, Telegram, WhatsApp, all of
+them. We have threads on the left, we
+have chat on the right and it's very
+simplistic. You do not see things like
+the actual code. You don't see a
+directory structure with files in it.
+You don't see even that shimmering
+thinking text. It's a actual big
+departure from what you usually see from
+Cursor or Codex or Claude code and it's
+actually welcome. I'm excited to see a
+new design and yes, it's not this
+massive departure, but I still think
+it's quite different. And so let me just
+show you what it looks like when it's
+thinking. So you hit go and there it is.
+My little guy is spinning. It looks like
+he's thinking. You don't see any tool
+calls. You don't see any code being
+written. It is all very, very simple.
+And again, this is for a mass audience.
+I really think that's what they're going
+for here. But it is still extremely
+powerful under the hood. You still get
+all of that power that you're used to
+with a Codex or a Cursor. Okay, so
+here's the thing. This took me a little
+while to get used to, but every single
+thread is an individual agent. They are
+not threaded by topic, which is kind of
+what I've been used to. So if you look
+at Cursor and you look at the left
+sidebar, kind of looks the same, but
+when you dive more into it, you can
+actually see every single one of these
+threads is basically the same agent, but
+they are separated by topic. So each
+thing I'm working on, whether it's a PR
+or a bug fix, it's all individual
+threads and it doesn't feel like these
+are all individually created agents. And
+that is very different in GrokBot. For
+each of these, they really do make you
+feel like they are agents. So, let's
+create a new one. Click this plus button
+right here, and right away, you select a
+new thread, you can choose one of your
+existing agents. So, this is my computer
+cleanup, my chief of staff agent, my
+email agent, calendar agent, or you can
+create a new bot. So, let's create a new
+bot, and immediately upon creating a new
+bot, I don't do anything except for
+start typing.
+It is thinking what I want to do. It's
+going to give me a few suggestions. So,
+hey Matthew, good to meet you. And for
+people who are not on the cutting edge
+of this stuff, it really tries to
+hand-hold you through figuring out what
+you want to work on. So, what do you
+want me to be focused on? Research and
+writing, inbox and email, projects and
+code, day-to-day ops, and something
+else. So, I can simply type Amazon
+shopping and hit enter.
+Okay? And it's going to make a bunch of
+assumptions about what I mean by that,
+and let's see what it does. So, what
+should I handle for you? Find and
+compare products. What are you shopping
+for? Drop a product, a use case, or even
+a rough vibe, budget, must-haves, and
+I'll dig in. So, I can say cameras.
+Cameras are a big category. Let's go for
+phone, mirrorless, DSLR, and let's do
+500 to 1,000. So, again, it's just
+asking me all these questions, but
+you're going to see something cool
+eventually happen with this. And so, my
+one critique so far is I actually like
+having it feel like it's just one agent
+that I'm talking to, rather than a bunch
+of different agents working on my
+behalf. And I'm going to show you how I
+solved for that in GrokBot, but that is
+the way I like to work. I want it
+threaded by topic, not by agent. And
+honestly, there's probably not that big
+of a difference between those two. It's
+just more how they present the
+information to me. Okay, so it's saying
+digging through Amazon now for kit. It
+is still working, and I can send another
+message, show me live on Amazon. Now,
+that's where this gets really cool. This
+is what sets Grok Bot apart. If you look
+up in this top right corner right here,
+there's this little computer icon. And
+if I click it, you can see it actually
+spun up its own environment, its own
+operating system, and it was looking on
+amazon.com for me. And so, this is fully
+usable. Like, I can move this around.
+This is Linux, I believe. Thunar file
+manager.
+And it is a full computer, and every
+single bot that you spin up has its own
+full computer. And the cool thing is,
+even though every single agent spins up
+its own fresh environment, they share
+authentication. So, you only have to log
+in once. So, if I log in to Amazon now,
+and then I spin up another agent and
+open up Amazon, it will also already
+have been logged in. So, I can continue,
+I can do work myself. I can use this
+just like I would use any computer, and
+it's really, really easy. And then
+there's this button up here, teach a
+task. And I'm going to come back to that
+at a moment, but this is really cool.
+All right, so here it actually sent me a
+screenshot. Here's the Canon EOS R50 kit
+at 849. Great. But again, if I want to
+actually see what it's doing and
+interact with the live website, I simply
+click this right here. This is the
+operating system for this agent. Now, I
+talked about really only wanting to
+interact with a single agent, and I like
+that because I figure it learns my
+personality, it learns what I like. I
+have this long context with it rather
+than spinning up new contexts every
+time. So, the way that I solved it is
+actually by a suggestion that the Cursor
+team had, which is have a chief of staff
+agent. This is the main agent that I'm
+working with day in and day out. And one
+thing that's super useful is allowing
+your agents to publish things to the
+internet. So, let's say you want to
+share a document, you want to share a
+presentation, and the easiest way to do
+that is with the sponsor of today's
+video, here.now. And let me actually
+just show you how to do it. So, I'm
+going to spin up a new bot, install the
+here.now skill, and then this agent and
+all the other agents will now have
+access to publish to the internet very
+easily. Literally, you just say publish
+this and it'll give you a here.now URL
+with your published document in seconds
+without having to log in, and it is
+completely free out of the box. All
+right, installed. here.now is ready. I
+can publish it to a live site. And then
+it's asking me if I want to sign in. So,
+when you publish something without
+signing in on here.now, you get it for
+24 hours, and then it disappears. If you
+want it permanently, all you have to do
+is sign in. All right, so let me show
+you how easy publishing is now. So, I
+have this picture of this 3D printed
+boat that my son printed, and I want to
+publish it to the web. I simply give it
+to Grok Bot. I say publish it, and there
+it is. Within a few seconds, it probably
+took about 8 seconds, I have a public
+link that I can share with anybody, and
+anybody can now access this photo.
+Thanks again to here.now. They've been
+such a great partner, and it is so easy
+to publish anything to the web with your
+agents. Just tell them to use here.now.
+Link down below. And the cool thing
+about Grok Bot is that it can interact
+with, it can message, spin up other
+agents. So, I can say what's the latest
+email I have in my inbox. Now, I hope
+what's going to happen is it will
+message the email agent to ask for that
+because the email agent is where I've
+done all my email triage work so far.
+So, let's see what happens. Okay, so it
+didn't actually message the email agent
+yet, and I asked it did it, and it said
+no, for that one I just pulled Gmail
+myself. Email agent is for the bigger
+inbox sweeps. A single what's the latest
+I just handled here. So, let me try
+another one. I'm going to say how many
+emails are easily, safely archivable.
+And this one hopefully will message the
+email agent. There we go. Having email
+agent do a dry run count of what's
+safely archivable. No archives yet. So,
+messaged email agent, we can see it
+right there. And if I click into it,
+this is actually the conversation
+between those two agents. So, it's
+really interesting. The conversations
+between agents persist indefinitely,
+also, and that's also building up
+context for you to use. It's super
+interesting how they do that. So, I can
+see right here, here's the email agent
+counting safely archivable mail on both
+accounts, dry run only, nothing gets
+archived. If I switch back to the chief
+of staff, I'll bring the number back as
+soon as the email agent finishes the
+scan. Okay, so you can see here now the
+email agent has messaged the chief of
+staff. I click back to the chief of
+staff, only three of 21 inbox threads
+clear the strict safe bar. And then of
+course, I can take action if I want to
+archive them or not now. So, that's a
+really cool and unique feature how the
+conversations between agents are
+persisted, and it really does feel like
+just another part of the conversation.
+I've not seen that in other apps. And
+so, Grokbot very much feels like a
+cloud-first agent, but it can very much
+control your local computer as well,
+which is really nice. So, I can say
+something like, "Tell me how many
+folders are on my desktop." Nine folders
+on your desktop, not counting hidden
+ones like dot cursor. So, I can control
+my local computer just as easily as I
+can control this cloud environment right
+here. And it's just really nice. It kind
+of is this hybrid local plus cloud, and
+it can do both and go in between them
+really easily, and I think that's kind
+of a quite unique feature. The cloud
+environment feels very native, feels
+almost default inside of Grokbot,
+whereas with Codex, it's much more work,
+everything defaults to being local, and
+I bet they're heading towards cloud
+agents, but generally when you're
+thinking about cloud code and Codex, it
+is very much local first. And the next
+thing I want to talk about is how much
+this feels like it is built for
+non-technical people. Now, it is still a
+technical-ish product, right? We're
+we're talking about artificial
+intelligence. It is not dead simple yet,
+but this is the direction I think a lot
+of AI apps are going, making it
+generally easy to understand. And the
+way that they did that was by stripping
+out a lot of what we are used to in
+these chat applications or in these
+coding applications. So, for example,
+there's no model picker. You cannot
+select between the Grok model, the GPT
+5.6 model, Fable. You can't select it.
+You don't even see it. You don't even
+know which model it's using. And you
+know what? I think most people don't
+care. It might be using Grok only
+through and through, right? That might
+be the only model it's using. And if so,
+it's really good. It's extremely capable
+and it's very fast. So, I've been really
+impressed with how capable and fast the
+Grok bot is. It is still thread-based,
+like I mentioned, but each thread is its
+own agent. So, that's kind of the still
+the look and feel that feels familiar
+from Codex, from Claude Code, from
+Cursor, but it's also what most people
+are used to. If they're using even just
+basic text messaging, this is the
+interface people have gotten used to and
+are familiar with. Here's another thing
+you're going to notice. There is
+absolutely no tool calling shown. It is
+not showing anything having to do with
+code. And that is intentional. That is
+what makes me believe this is for a
+broad audience. So, if you look at
+Cursor, you can see right here, explored
+two files, three searches. You can see
+grep'd right here. You can see the
+actual files being edited and read from.
+You can see all the tool calls, all the
+things that Cursor is doing on the way
+to getting its final answer. And of
+course, there's nothing like this
+showing the PR, showing the changes,
+uh the terminal, the files. None of it
+is there. This is really meant for the
+broad knowledge work community. Now,
+another piece of feedback that I have is
+that it does feel a little bit wonky
+having a completely separate application
+for this because I have all this work in
+context built up in cursor and now I
+have to have cursor for code and I have
+to have Grokbot for general knowledge
+work and I think the line between them
+the clear definition of what goes where
+is not going to be so clean it's going
+to be quite blurry actually deciding
+should I do something with Grokbot or
+should I do something with cursor and
+it's going to be interesting because you
+see what open AI did with Codex merged
+Codex and chat GPT into the same app one
+super app and I actually find having to
+switch between chat GPT and Codex I
+almost exclusively use Codex versus chat
+GPT I find that entire decision making
+process
+just unnecessary
+and so maybe splitting the apps is the
+right way but we'll see
+what I really want is I just put a task
+in and it knows what to show me do I
+want to see code do I want to see tool
+calls or do I want just the most simple
+version just show me point A to point B
+and so we'll see which design pattern
+sticks so to make Grokbot incredibly
+powerful you want to use plugins so
+plugins are right here it is one of the
+only features prominently shown you
+click it and you see all the different
+apps that you can plug in you can kind
+of think of this as like MCP servers or
+just giving your Grokbot away the
+knowledge for how to interact with all
+of these different services so I've
+added Gmail I can add Google Drive just
+like this you just click add and it's
+done it may ask you to authenticate once
+but it'll do that once you actually
+start using it I have Google Calendar
+added I have Slack so I can invoke
+Grokbot straight from Slack which is
+quite nice I have notion and they have
+so so many already default working with
+this. And you can see I've already added
+box so I can read from all of my
+documents, my contracts. Shout out to my
+friends at box. So one of the most
+popular use cases I think most people
+will get from Grok Bot is routines. And
+these are tasks that happen on a
+recurring basis, a schedule. All right,
+so you're going to right click on your
+agent. You can click it's kind of weird,
+it's kind of roundabout. You click edit
+profile which you can give it a name,
+title, and description. But to get to
+routines, you click this little back
+button and then you can click this
+create routine. So here's an existing
+routine that I've already created. This
+is called computer cleanup. It runs
+every Monday at 8:00 a.m. and this is
+for the computer cleanup agent. So if I
+click into it, I said, "Look around my
+computer for files you think are stale
+and I can clean out. Don't actually
+clean it out, just suggest." So
+basically what I want it to do is
+optimize my hard drive. Look for
+anything that I don't need anymore,
+suggest the things that I don't need and
+then I can just tell it, "Okay, go
+ahead, throw it in the trash for me."
+And so that'll run once a week, super
+useful. But you can do anything on a
+recurring basis. You can say, "Okay,
+every single morning I want a summary of
+all the important emails that you see
+that I need to answer right away." And
+so all of that you can create with
+simply a name, a natural language
+instruction that will go to the agent,
+and then of course you can set it to
+active or inactive, you can delete it,
+and you can test run it as well. All
+right, next are tasks. These are really
+cool ways to teach your bot to do
+something. I think Codex has something
+similar, but basically if we click into
+this window in the top right, which is
+this agent's own environment, we just
+click open. And now this is its own
+computer that it can use. So I can click
+around. There is this teach a task
+button right here. All right, so let's
+say I want to teach you a task. Every
+single week I want it to look up this
+camera and give me an update on the
+price. So, all I have to do is click
+teach task, okay? So, again, I'm in its
+own operating system, in its own
+environment. I'm going to grab this URL.
+I'm going to place it right here in this
+spreadsheet I made. Then I'm going to go
+back. I'm going to grab the price. I'm
+going to paste it right there. $5.99.
+Okay? And so then I click stop and it's
+now going to learn from the
+demonstration that I just gave it. And
+so let's see what happens. So it says
+new bot working, it's thinking. And what
+it's going to do is actually create a
+skill, a reusable skill based on what I
+just showed it manually, which is really
+cool. So there we go. Saved log Amazon
+product to camera prices sheet. That is
+the skill. Open an Amazon product page,
+copy the URL, switch to the camera
+prices Google sheet, paste the URL into
+column A. And so it's watching the video
+and it's saying, "Okay, you put $5.99 as
+the price. Let me update that skill."
+All right, and there we go. So it
+finished. Now it also copies the price.
+So that's it. You can give it anything.
+You can really allow it to learn from
+any knowledge work, any task that you're
+doing. And hopefully you can automate it
+pretty easily to reduce any of those
+tedious tasks that you're working on. So
+we created a skill from the thing it
+learned, but you can also add your own
+skills. And one of my favorite skills is
+the humanizer skill. Basically makes AI
+writing look less like AI slop and I
+said, "Install this skill." Hit enter.
+And let's see what happens. So look, it
+first checked the plugin marketplace and
+it couldn't find it. So I'm installing
+it as a private skill from the repo. So
+just like that, very easy. And there's a
+lot more you can do with Grokbot and
+just continue to make it more powerful.
+I actually covered a bunch of skills
+that you can apply to Grokbot right now
+in this video.

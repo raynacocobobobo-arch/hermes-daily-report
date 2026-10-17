@@ -1,0 +1,538 @@
+UP主：Futurepedia
+标题：ChatGPT Image 2.5 Is The New King (Fully Tested)
+链接：https://www.youtube.com/watch?v=bbmgWQKZ5ZU
+
+Chat GPT image 2.5 just launched and
+after testing it across a huge range of
+challenges, I think this is the best
+image model right now for a lot of
+real-world use cases. But, it still has
+some surprisingly frustrating
+weaknesses, too. And coming right after
+the launch of Astra, this has been a
+ridiculous week for OpenAI.
+I'm going to start with a complex
+generation to show how detailed this can
+get. GPT image 2 was already really good
+at text, but 2.5 can pack in even more
+information into a single image. You'll
+see the updated images section in the
+sidebar along with some new templates
+when you click that, but you don't have
+to generate from here. You can still do
+everything from a normal chat, too. So,
+I'm going to ask it to create a detailed
+poster in a history classroom about the
+American Revolution. I'll send that and
+it depends on what type of prompt you
+send for how long it will work. In a
+case like this, it will typically do
+some research first before it sends
+things off to actually generate the
+image. When it's just straight to
+generating, it's really fast. After a
+minute and a half, this came back and it
+looks amazing. There's a ton of detail
+in here. It's not as crisp when you
+preview it, so I'm going to download
+that. Then, we'll be able to see it
+better. This has a huge timeline with a
+unique image for every battle. I went
+through the text pretty carefully and I
+couldn't find any obvious mistakes. I
+will say these first few people look
+good, but I don't know what the rest of
+them are supposed to look like, but
+these might be accurate. It also has
+quotes, a map, and all sorts of other
+useful stuff throughout. I did also send
+this same prompt in Gemini and it did
+not come back well. The poster covers up
+the students and there's misspellings,
+duplicate texts, garbled text, and just
+errors all over. I also ran it through
+Nano Banana 2 and Nano Banana Pro
+through the API. The results were
+better, but still had less detail than
+ChatGPT's and also more errors. I ran it
+through GPT image 2 as well and that
+does look really good. Like I said, it
+was already a really strong model with
+text. It looks great. There's just not
+as much detail on this one as 2.5 came
+back with. That was just a quick more
+complex generation, and I have a lot
+more of those. But, first I want to
+switch gears and quickly run through
+some of the new features they added.
+They did say yesterday that this is
+rolling out to all users, so this should
+be there. But, when you look at images
+on the sidebar, mine says updated. And
+now the image page has these new
+templates here. And basically, these are
+just prompt presets, not image
+references or anything. When you click
+it, it auto-fills a prompt. And a lot of
+these say to ask clarifying questions to
+you before generating. And they also
+have the trending tab with more prompts
+you can use. I'll try this animal
+infographic one. It's a long prompt
+about researching an endangered animal
+then creating an infographic about it.
+And that came back looking really good.
+It's an Amur leopard. I've never heard
+of that, actually. But, these are pretty
+cool-looking.
+So, that's there. I don't know that I'll
+ever really use these templates.
+Although, I did see some people posting
+these '80s flashback ones on Instagram.
+So, it seems like some people are into
+those. This new update makes ChatGPT's
+image generation even more useful. And
+there are so many other ways you can use
+ChatGPT to get ahead in your career or
+business. So, down in the description, I
+have a free resource bundle called five
+essential resources for using ChatGPT at
+work. This is a value-packed guide. It
+covers all the capabilities, use cases,
+and best practices for implementing
+ChatGPT, including what's new in 2026.
+My favorite part is the document called
+100 ways to try ChatGPT today with 100
+prompts across a wide range of use cases
+you can just copy paste. It's one of the
+most helpful prompt databases on top of
+all the other stuff that's in here. So,
+it's all free. Just click the link in
+the description. Another feature they
+added is sketch to image. You can pull
+up this little sketch pad and draw
+something. Personally, I don't really
+like to work this way. I'd rather just
+describe everything. But, in some cases,
+maybe this would be easier. If it worked
+on an uploaded image, I could see that
+being more helpful, but it doesn't. But
+here's a quick little image I scribbled,
+so I'm going to send that. You can also
+add a prompt to it if you want, which is
+helpful to describe what kind of style
+you want it to generate in. Well, that
+did come back pretty cartoony, similar
+to how I drew it, but more stylized and
+pretty cool looking. Then when you open
+up any generation, there's some options
+for editing up top. One of these options
+is you can change the aspect ratio with
+just a click. So, I can widen this out.
+I can leave comments right on top of any
+changes that I want. Like this was
+supposed to be a little goldfish, not
+whatever this is. Plus, a few other
+changes. Then I can send all three
+comments at once.
+You can also sketch here as you ask for
+changes. This is where I find that
+feature to be more useful than sketching
+the whole thing out. And this did come
+back with some issues, and that's not
+the first time I've run into that.
+Sometimes it doesn't seem to understand
+what the comment was supposed to be
+attached to, even though you click right
+on it. So, for this one, I can actually
+go back and try again. This time I'll
+just describe it instead. And those
+edits came back much better than the
+comments. From there, since it was
+working from my original sketch, it gave
+me this cartoony style, but I will say
+to make it more photorealistic. And
+there it is. Although, not quite how I
+envisioned it with my sketch. I'm going
+to do one more quick sketch example just
+to show sending off a prompt with the
+sketch. So, I've got a skateboarder
+jumping between skyscrapers. I'll ask
+for that as a photo. I'll also say
+action sports photography to reinforce
+the style. And that came back perfect.
+Somewhat similar to my drawing, and the
+perspective isn't exactly the same,
+although my perspective was off in how I
+drew it. But the color of the deck and
+his shoes and shirt are the same. It
+also seems to get that I was trying to
+draw a zero skull on the shirt. So, that
+sketch to image, it's fun, but for me, I
+don't find it particularly practical.
+One of the options I didn't show up top
+yet is remove background. Like maybe I
+want to use parts of this for a
+thumbnail. I can just click that and it
+does a great job at removing the
+background. It even left the glow here
+pretty well, which the previous model
+was not good at. Now, to expand on that,
+where this is really impressive, is it
+can do these transparent PNGs with more
+complexity. Like with say a jellyfish,
+where it needs transparency in the body,
+or I think they call it a bell, and the
+tentacles. That works really well. So,
+I'll show that on a background and you
+can tell it's actually see-through.
+And I did the same thing for a picture
+of water and a dragonfly, so you can
+kind of see through the wings. It just
+does a great job with these.
+And this didn't work well for me when I
+clicked the remove background option. I
+had to prompt for it. Another big
+improvement is keeping things consistent
+across generations. They have some good
+examples of this on the website. In the
+past, when you'd ask for a change to one
+part, it would often affect other parts
+of the image as well. See, that's
+largely been fixed in 2.5. That one
+they're showing that on an infographic
+as well, just altering small parts of it
+without affecting the rest of the image.
+For certain use cases like this, these
+little movements were really annoying
+when you were like layering things
+together or using parts of one and parts
+of another. So, that's actually a really
+big quality of life improvement in
+practice. I also came across this one
+using that consistency to generate a
+stop motion animation. It does look
+really, really cool and it's crazy it's
+able to be that consistent. Although, I
+actually really love the art of stop
+motion. I have done a lot of it in the
+past, so I kind of hate seeing AI used
+to recreate it.
+But, here's one I did to test that. I
+had it generate an image of me with a
+basketball, then I wanted it to go frame
+by frame dribbling the ball. It actually
+didn't work as well in ChatGPT. I'll
+kind of play these all in a row and you
+can see it did add some like artifacting
+to the background that kept getting
+worse and just wasn't consistent. But,
+when I asked Codex to do the same thing,
+all with just one prompt, it originally
+tried using the Higgs field MCP, but I
+wanted it to just do it on its own. But
+it even stitched them all together so I
+could see them in a row, and this came
+back much better. It's certainly not
+perfect, but that is much more
+consistent than I got generating on the
+web. And one area this will help me out
+is with thumbnails. I didn't spend a
+whole lot of time making these look
+good. You can see it generates this one
+that and it did a really good job of
+generating me. And then I asked for it
+to change the shirt, and everything else
+stays just about perfect. I still
+usually don't have it generate the whole
+thumbnail. I generate different layers
+and pieces and kind of merge them
+together myself in Photoshop. But this
+looks great and will definitely be part
+of my workflow. But it seems to work
+really well keeping things consistent
+for an average image, but really complex
+images don't work as well. For example,
+I had another generation from that first
+prompt I showed, and this one had a
+couple minor issues in the text. So I
+actually left comments and listed those
+out, and it fixed those issues, but then
+changed all the other text and added new
+issues. So I told it that, and it came
+back and it did fix everything. So
+there's no more errors here, which is
+great. This is usable now. But it did
+change the font and spacing on things.
+So it just was not as consistent and
+didn't look exactly like that first
+generation. So that consistency can be
+hit and miss. On the topic of
+consistency, it's good at character
+consistency. Here's a couple of me, and
+here's me with someone else. It keeps
+all those little details very
+consistent. This has already worked
+pretty well in the past, but it's a
+little better at it. Especially when
+trying to change expressions and
+lighting and everything else. These
+character sheets show that consistency
+really well. It just has tons of details
+in them across angles, expressions,
+small details and textures, and color
+palette. Even with some of these just
+really unique highly detailed
+characters. I mean these character
+sheets feel basically solved. It's also
+really good at style transfers and
+keeping that style consistent in future
+generations. I had a few of these really
+unique Midjourney styles like this one.
+Prompted to use that style but with a
+completely different character and
+environment and it just nailed it. Like
+I love this image. Same with this one.
+Another really unique style from
+Midjourney with a completely different
+scene and it looks awesome. It's way
+better at this than image two was. It
+also does a much better job with realism
+than image two did. Concert with
+multiple faces. They all look really
+good other than the fact that they're
+facing the wrong way. Maybe something
+else is going on back there. Another
+Coldplay situation or something.
+But then I added myself into it and all
+the characters stayed super consistent
+but just added me in there. You can see
+how consistent they are when it's just
+back to back like this. Did a great job
+with that one.
+Similar type of test. I have this
+Chinese market. There's lots of faces
+all throughout. They're all very
+coherent and unique from each other.
+Some models end up generating almost the
+same person throughout the whole image.
+Some kids playing soccer in South
+America. This looks much more realistic
+than the previous generations I've had.
+Although there's some weirdness with
+this leg right here. Here's this octopus
+bartender with a bunch of fantasy
+creatures in the background. It's a
+pretty complex scene. I tested it across
+all the models. So here's two, 2.5 flare
+and 2.5 sunburst. Which I haven't
+mentioned this yet. They did actually
+release two new image models. 2.5 flare
+and 2.5 sunburst. Flare is the faster
+one. Sunburst is the more advanced one.
+In ChatGPT it doesn't tell you which one
+it's using and I couldn't find any
+documentation of this anywhere but as
+far as I can tell it seems to auto route
+to the best model for the prompt. When
+you use it through the API you can
+select which one to use. I tested them
+side by side against a few prompts. It's
+really hard to tell in most cases but in
+this case I did like the output from
+sunburst better. Like image two was not
+bad. Pretty weird always wearing the
+apron. 2.5 flare looks solid. A little
+warm. There's a couple kind of strange
+errors throughout it here. Then 2.5
+sunburst looks amazing. It does have
+part of the liquid coming off his
+tentacle in one of these, but it's kind
+of his same color. So, maybe that's just
+some octopus juice he's adding for
+flavor. I did also run this prompt
+through Nano Banana. Here's Nano Banana
+2. Just not high fidelity. Um it just
+really doesn't look great. Nano Banana
+Pro. Yeah, it's not bad. But definitely
+when parts of the prompt are asking for
+it to look realistic, those others just
+don't compare to sunburst. I thought
+this one was a pretty good challenge.
+Create a highly detailed image of a
+spider that is camouflaged in its
+environment. I would say it nailed that.
+I did try running that one in Gemini 2.
+Not nearly as good.
+Another area that it excels in is when
+it needs to research something first
+before generating. And that's something
+it doesn't do when you use it through
+the API. In this case, it needed to
+research the underlying technology of
+the different video models before
+creating an infographic. It worked for
+over 4 minutes to do that. Of course,
+that will look better to show the result
+in here. There is so much text on this
+one, and I looked through I don't see
+any errors. So, it used Astra first to
+find information. Then it compiled all
+of that into a prompt for itself and got
+a just crazy amount of detail packed in.
+I did also run this through the API for
+a comparison. You can see flare and
+sunburst both look really great. They
+just aren't able to go off and research
+for a few minutes like they can when you
+send it in ChatGPT. So, the information
+isn't as up-to-date and fact-checked. I
+did run that one through Nano Banana as
+well. You can see there is far less text
+on these, but also even though there's
+less text, there's more errors. And GPT
+image 2 again was already pretty good at
+this, but 2.5 does just beat it out by a
+little bit. I think the text just has
+higher fidelity in 2.5. And this was one
+where I had it look up the different
+Toyota Sienna trims and get all the
+differences between them and make a
+comparison chart. Like it just nailed
+it. That one I'd only had to work for a
+minute and 24 seconds, but you can see
+it searched four websites to get it. So,
+here's another one where it actually
+worked for 8 minutes and 31 seconds.
+That was to gather all the news for the
+day and then make a dashboard compiling
+it all together. That's one where you
+can see a huge difference from where I
+ran the same thing through the API. When
+AI releases GPT 5.1, here was scribbling
+its thoughts about AGI, making some
+marketing materials, stuff it's been
+able to do before, but is a little
+better at. Now, I want to show some of
+the issues I've come across. I already
+have shown some of them, like
+regenerating small bits of text without
+changing anything else is hard, at least
+when it's a really complex image.
+Although, in their blog post it shows
+them doing that really well, so maybe
+it's good at that sometimes. And kind of
+similar to that is this honestly
+ridiculously complex one. I asked for a
+map of the US with every national park
+located on the map plus an arrow
+pointing from its location to a retro
+poster of that park. Did surprisingly
+well, most of these posters are accurate
+and look good, but there's definitely
+issues. Some of these aren't the exact
+location of those national parks and a
+lot of the arrows are not pointing to
+their respective parks. Yeah, quite a
+bit of errors, but still pretty
+impressive it could even do this well.
+You'll also just see some of those
+typical AI errors here and there, like
+the text on this treadmill is all
+garbled. Things like that will still
+happen. I have still had some occasional
+issues with the noise artifacts that
+were a problem in GPT image 2. Like this
+alternate generation I had of the
+camouflage spider, I think is the most
+prominent example of that. There's that
+weird pattern that shows up in this type
+of image where it's highly detailed or
+has repeating textures. This doesn't
+happen as often as it used to, but I've
+come across it. You can see it in this
+barrel wave generation, too. That's
+annoying that that problem wasn't
+solved. Or it still can't get the time
+on clocks perfectly. This is supposed to
+show 8:22. Can tell that's more like, I
+don't know, 8:10. It did get the hand
+with seven fingers and the wine glass
+filled to the brim. And I feel like it's
+kind of random that it has The Daily
+Stoic, Atomic Habits, and Dune as the
+books it chose here. But, anyway, I did
+ask it to try to fix that. I just told
+her it's not in the correct spot, didn't
+move it at all, said it's still not
+there, said it's pointing at roughly
+8:12, not 8:22, and it should rotate it
+slightly. Didn't fix it. So, I tried
+drawing exactly where hand should be,
+and it didn't change anything, just came
+back exactly as it had it before.
+So, the kind of issues we're used to by
+now with these image generators.
+Also, you'll probably run into issues
+generating celebrities or copyrighted
+IP. That's always been hit and miss in
+here. Another strange one I've noticed
+is it seems to just add too much text to
+things, even when you don't ask for it.
+It might fit with the image and look
+good, but it just adds it in randomly
+more often than it should. Like in this
+one, I mean, the text is just kind of
+too perfect to fit of the rest of this,
+too. This one, I don't think we really
+need two quotes here, especially the
+placement on this one. Very strange spot
+to have a quote like that. This isn't
+bad, and all the text looks really good.
+I just
+feel like it doesn't need to put that
+much text in it that prominently. And
+this one, probably didn't need it to add
+text up here. Even this one did a really
+great job generating this image, but for
+some reason all four corners of this add
+different little bits of text. Those are
+just a few I've seen it pop up in, so
+it's not like a big deal, it's just kind
+of strange.
+So, that is my testing with GPT image
+2.5. It's an awesome model. I will
+definitely be using it a lot. It's, of
+course, not perfect, but it is really,
+really good and will be the primary
+image model I use for all my personal
+use cases. Also, if you're wondering
+what I was using to showcase all of
+these different images, this actually is
+a little tool I vibe coded in Codex
+while I was doing all of this testing.
+It was actually super helpful in making
+this video. It made it so much easier to
+display everything and be able to kind
+of
+click through and present and move back
+and forth. You can even like arrange
+stuff into different spots. There's
+actually just a bunch of really useful
+features. I was able to just build in
+just send off a prompt, test it when it
+comes back, send off another, ask for a
+change, and then by the time I was done
+testing the image generator, this entire
+thing was built and made this video way
+easier to film. And it's published as a
+site, which is an extremely useful
+feature in ChatGPT Work or Codex, where
+I can turn things into a live site
+that's hosted by ChatGPT and can have
+persistent data, file storage,
+authentication, analytics, and their own
+live URL. I did a deep dive into the
+sites feature in my last video. You can
+check that one out right here if you
+missed it.

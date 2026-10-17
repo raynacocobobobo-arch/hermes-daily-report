@@ -1,0 +1,803 @@
+UP主：Curious Refuge
+标题：The Best AI Workflow for a 2D + Live Action Film
+链接：https://www.youtube.com/watch?v=084IvH5k0E8
+
+[music]
+Hey, I'm Albert Bosan. I teach animation
+at Curious Refuge and today I'm visiting
+the YouTube channel to show you one of
+my favorite styles in film making.
+Cartoon characters standing in real
+liveaction footage. Mary Poppins did it.
+Roger Rabbit did it. Space Jam did it
+and then the whole style went a little
+quiet for decades, at least in the
+mainstream, until Coyote versus Acme
+finally brought it back. And the
+reaction to it says people are still
+hungry for hybrid 2D liveaction filmm.
+But one reason we didn't get more of it
+is that it's harder than animation and
+liveaction put together since every
+single shot has to be planned and
+created twice. But it's recently become
+way easier. And you don't have to be a
+Hollywood studio to do it anymore. You
+can achieve it with some sea dance and a
+little after effects. And I'll show you
+exactly how. And since we're going for
+professional results here, I brought in
+my friend DP Joshua Borcut to shoot it.
+The most important recommendation I can
+give you when starting a project like
+this is organization. have a detailed
+script and a storyboard of every shot
+you want before [snorts] you shoot it
+because you're basically doing it twice.
+You're doing the liveaction shoot with
+your actor, in this case, uh, me, and
+you're creating a bunch of 2D shots that
+you'll only see in post-prouction even
+after the edit is finished. The story
+I'm telling in this short is that a 2D
+neighbor is moving in next door and
+bringing over a pie to just say hi and
+chat. But things escalate when he pops
+out a bottle of, you know, cartoon
+strength whiskey. I have a shot. My head
+explodes. Then my cat comes in and
+really doesn't like the new guest and
+they start fighting, destroying my
+living room entirely. One of my
+personally preferred platforms for
+accessing a wide variety of AI tools in
+a unified interface is magnific.com, but
+you can use any tool of choice that has
+access to current models like the Google
+NanoBanana family or seed dance. So
+that's up to you. What we're going to
+need for this project is a full
+character turnaround of every 2D
+character you want to integrate into
+your liveaction footage. So frontal,
+side, and back views. And I also like
+throwing a close-up of the face in
+there. All of it in front of a neutral
+gray background. The image model you use
+is of course up to you. You can see me
+trying out some different ones, both
+Seed Dream and Google Nano Banana 2 and
+Nano Banana Pro. And I end up settling
+on this version of the beaver. The final
+prompt I ended up using was fullbody
+character turnaround of a 2D animated
+classic cartoon style slightly humanoid
+short fatbellied beaver with brown fur
+and a light brown belly. Big eyes, giant
+buck teeth, large wide and black beaver
+tail. A pose front side and back view.
+Additional close-up of just the face
+with a neutral expression. Neutral gray
+#8880
+background. No text. So the 80880 is a
+hex code that just uh narrows down the
+exact gray tone. The model Google Nano
+Nano2 doesn't hit tones perfectly
+accorded to hex code, but it gets you
+closer. And also the reason I write in a
+pose and not T pose is because I found
+that an Ashaped pose just saves a little
+bit of space. You know, with to pose
+characters uh have their arms spread out
+very widely and that's unnecessary. But
+I'm not quite done yet. You can see uh
+there are like duplicate side poses.
+This can move over here. There are
+better ways to arrange this. So, I'm
+going to bring it over into Photoshop
+and clean it up a little bit.
+And here's the final result.
+I'm also going to use the character
+turnaround cropped to the face as an
+expression sheet reference and create a
+whole grid of various expressions based
+on the frontal view of the character.
+Depending on your project, you may also
+want to do this with a side view, but in
+my case, I'm going to only do it with
+the front. The prompt I'll use in this
+case, and you will have to adjust it for
+yours, is use image one strictly as
+style and character reference. Create a
+3x6 grid expression sheet with a variety
+of completely different expressions of
+the beaver. Use the exact same style and
+frontal perspective. Then again with a
+neutral gray background, no text, no
+duplicate emotions. it's not going to
+stick 100% to it. So, you run this a
+couple times and then combine the
+expressions you like in Photoshop. And
+this will help keep expression
+consistency, emotional consistency
+throughout your project if you always
+use that expression sheet along with the
+character turnaround. Here's what it
+looks like in the end. Next up, the prop
+references. So, in this sketch, I don't
+just have a 2D character. He brings a 2D
+alcohol bottle. kind of the classic XX,
+you know, extreme liquor bottles from
+cartoons with him as well as the actual
+cake itself. For this, I keep the 2D
+reference image of the beaver in there
+that's already uploaded and just change
+the description of what I want to side
+and back view turnaround of a classic
+cartoon XX alcohol bottle. Because I
+have a real bottle on set as reference,
+I'm also going to screenshot that really
+basic from the footage and upload it as
+a reference. Remember to write that into
+your prompt as well. In my case, that's
+use image 2 strictly as a bottle shape
+reference. So, always prompt how you
+want the model to use your input as a
+reference. I don't want the background.
+I don't want the style. I only want the
+shape. And I repeat this process with
+any prop that I want to turn 2D that was
+available to me real life onset. So in
+my case, the apple cake or pie during
+this whole thing. Do remember though
+that simpler is better. So the pie
+doesn't need that many sides. It doesn't
+need a full turnaround. So I'm going to
+crop it down in Photoshop and uh keep it
+simple. Before we move on with the AI
+work in video though, I wanted to
+actually show you the editing timeline.
+So, the first thing I do in a project
+like this is edit together the
+liveaction footage I have. So, my entire
+short is almost cut exactly the way it's
+going to stay because that way we save
+um any AI generations that we might not
+end up using. So, there will probably be
+minimal timing edits when I see how the
+little beaver moves um the timing that
+the AI workflow gives me. But generally
+all the clips are in order and I've even
+um graded them already. The grading is
+very important. So what I did in Da
+Vinci Resolve Studio where I'm editing,
+you can edit anywhere you like is apply
+a timelinewide grade. So you see the
+clip itself doesn't have any edits in
+this case and I've grouped all of my
+live action footage
+so I can give it a grade. In this case,
+what I've done is separated my um skin
+colors from the rest and just edited
+those a little bit for some more
+saturation saturation. But this is of
+course completely up to you and uh not
+within the realm of of AI work, which is
+what this tutorial is about. So just
+make sure your footage is as final as
+you want it before we add AI on top.
+That will make your job much much
+easier. So, even the shots that I'm
+going to be putting my 2D beaver into
+are already edited into the final color.
+Some studios might do this differently
+and use some AI tools that let you grade
+in post, but I personally don't think
+the quality is quite there yet for this
+workflow. So, I prefer editing them um
+adding the AI on top of the final grade.
+Another thing that's absolutely of
+essence is keeping organized. So, you
+can see in my case, the videos, the live
+action videos are all on one layer. You
+don't have to do that, of course, but be
+sure you label it cleanly and know where
+the live action footage is versus where
+you're going to put the AI work. I'm
+going to put the AI work on the layers
+above it, so I can always tell the
+difference. Same thing goes for audio.
+You can see that all of my dialogue that
+I recorded on set is in audio one. The
+ambience, the sound effects, and the
+music are on separate layers. The reason
+I keep those so separate is because we
+are going to be exporting our clips with
+all of the sound effects and music off.
+That way the AI tools can um you know
+create some sound effects for us. Those
+are helpful for timing but aren't
+polluted with music that we might not
+want. Maybe we want to change the music
+later. Um it's of course already in the
+edit so we don't want it doubled reasons
+like that. So, always make sure your
+inputs are um only including dialogue
+and sound effects that you want the AI
+to work with and free of anything you
+don't want in the result cuz that's
+going to be baked into one track and um
+going to be really hard to edit. Let's
+take a look at the clips I'm going to be
+showing you in this tutorial step by
+step. The first one is full uh reference
+character replacement. This bear is
+going to be our beaver. this alcohol
+bottle. It's a real gin bottle. I'm
+going to be replacing with the 2D uh
+triple X kind of cartoon alcohol bottle
+that the beaver is going to bring up
+from so-called hammer space. That's what
+um the place is called the cartoon
+characters get their props from. You
+know, when they just pull something from
+behind their back. And the beaver is
+going to pour me a glass of 2D alcohol
+that in the next shot I'm going to be um
+drinking. And then my head's going to
+explode in a little 2D effect explosion.
+So, let's take those, take a look at
+those as they are in the edit.
+>> Whoa.
+So, those are the two in direct sequence
+that I'm going to be editing and I'm
+going to process them separately because
+they're quite advanced and two very
+different things are happening. Going to
+tackle this one. This is just a couple
+seconds. I think it's from 14501
+to 150. So, I'm going to create a
+6second
+uh shot just so we have a couple handles
+on the front uh and and the back to play
+with. And the second shot is a little
+longer. It's from 150 to 2. So that is
+I'm going to do 11 or 12 seconds even.
+So we have those handles at the end with
+my little head explosion. The final shot
+I'll be processing in this tutorial is
+the one where my liveaction style cat is
+fighting the 2D animated beaver in like
+a whirlwind. You know those classic
+cartoons? character like um Taz, the
+Tasmanian devil, flying around the room,
+knocking things off shelves, just
+causing mayhem while I uh the the Albert
+character in this case is standing by
+helplessly and just trying to protect
+his face. So, let's take a look at the
+original footage.
+Yeah, just panning back and forth. And I
+kind of want the whirlwind to go I want
+the whirlwind to go around me um and
+knock over some chairs.
+just cause wreak complete havoc to those
+plants, have stuff flying off the
+shelves. The painting um the graphic
+design here is going to be on the floor
+in the next shot. So, the challenge here
+is actually going to be limiting the
+chaos to what we can see later cuz later
+when the floor is also flooded in water,
+uh the table is still there. So, I don't
+want the table knocked over. The chairs
+are fine to knock over. The painting is
+fine to knock over and uh some of these
+things on the shelf here, but keeping
+that continuity and not having things
+fly around that uh are obviously
+somewhere else in the ending is going to
+be the challenge. Restraint is the key
+word here, basically. So, three
+completely different shots we'll be
+processing uh using some different
+techniques. It's not a one-sizefits-all
+solution with the AI. Let's tackle the
+first shot with the full AI 2D beaver
+interacting with real props. What could
+be the challenges here? Instantly, I see
+the depth of field. So, what I did on
+purpose was um ask Josh to have a low
+doof with nice blurry props in the
+foreground. This glass is blurry. The
+background is blurry. So, when the
+beaver leans forward to grab the glass,
+I want that extremity of the beaver, so
+the arm for example, to also become
+blurry. even though he's a 2D character.
+Nice details like that help sell the
+shot, make it look like the beaver is in
+3D space, even though he's not occupying
+three dimensions. It's kind of a fun
+little style um we can establish here.
+The reason we kept the bottle in shot
+here, even though this will be fully
+replaced and is actually not in shot in
+the beginning, is for size reference.
+It's going to otherwise be difficult to
+tell uh seedance [music] what um how big
+the bottle like this is, which could be
+a problem later when I hold the bottle
+like this and uh it could be a different
+size than from when the beaver had it.
+So, we want to keep that in shot. And
+another challenge, of course, is I'm
+reaching for my glass. I remember
+filming this and it's barely visible in
+the very foreground here. So, we can try
+prompting the beaver to reach all the
+way over here and grab my glass. But
+honestly, I think we might have the
+problem that it keeps on grabbing its
+own glass. The solution to that is
+prompting that it does grab its own
+glass, but offer it to me towards the
+foreground, like lean forward and
+stretch, at which point this motion here
+becomes believable. So, we'll see. Um,
+it's always uh an interplay between
+directorial human decisions and what the
+AI manages to give us. What do we
+actually do to get this shot? Well,
+easy. We set the in and out points. So,
+in your editing program of choice, could
+be Premiere, could be Cap Cut, or in my
+case, Resolve. You set the inpoint to
+the beginning of the shot and the
+outpoint to the final frame. Then, like
+I mentioned, we want to actually silence
+the audio. In this case, um there isn't
+actually any original audio that I need
+to process. We can listen to what my
+dialogue is. The little dialogue track
+at the end.
+Yeah. No, that's just um that's just
+nothing. So, I'm going to silence it and
+keep only an empty track because we
+don't need any sound in this. It's just
+reference. You might be wondering, why
+am I not just giving the AI a still?
+Barely anything happens in this shot.
+Well, it's because I do actually want
+that authentic camera shake. That's
+going to help us sell that the animated
+shot, the AI modified shot, is part of
+the same short film. You could prompt
+camera shake, but I guarantee you,
+especially a DP like Josh, would notice
+whether um it's real camera shake or
+synthetic and especially if it fits into
+the sequence into the short film as it
+was shot. So, I will be using that
+original camera shake or at least trying
+to get as close as possible to it. So,
+we export that. What settings? Well,
+honestly, I'm of the belief that AI does
+change our results so much um in
+compression and only very few have high
+enough bit rates and and color depth
+that it's worth exporting
+QuickTime Mavs, um ProRes, something
+like that. So, um, I might break some
+hearts out there, but I will be
+exporting this as an MP4 and as a 720p
+resolution because that's honestly all
+the AI can take at the moment. So,
+export that and then we'll start
+uploading and prompting. So, for the
+next step, I'm going to be uploading our
+reference video
+and the references I need to replace
+stuff. So, the beaver turnaround
+character reference,
+the beaver expressions,
+just so we have a nice creative um
+selection of fun facial expressions that
+the AI can choose from, and the bottle.
+Turn around the pie. Remember, I had the
+beaver eat it right away, so only crumbs
+are left and we don't have to worry
+about it.
+Here's where the prompting starts. Now,
+you can work directly in the prompt box
+here, but because I'm going to be
+working on a lot of shots, creating a
+lot of different shots. I built myself a
+tool called Crumpet. Um, this is
+available on my website and you're very
+welcome to use it completely for free. I
+built it for myself to keep track of
+reusable prompt parts, like presets
+basically, and um make it easier for
+myself to prompt timeline based. So when
+I have very specific
+movements at specific points in time in
+a shot, I use this tool to make that
+work easily. And all you have to do is
+go to crumpet.albertoson.com
+and you will have access to this. Let me
+introduce it really quickly. Um here you
+can see the timeline. You can adjust the
+length of the timeline with this button
+here. I'm going to set it to 6 seconds.
+The frame rate is already correct. And
+basically what this makes this makes it
+very easy to do is set when something
+happens in a prompt by giving you
+multiple little prompt boxes that get
+put together for you intelligently up
+here. So for example in this shot what I
+want to happen the beaver holds up his
+finger to go like oh I have an idea.
+reach behind his back, bring forth the
+alcohol bottle, and pour a shot into the
+glass. So, I'm thinking
+one, two, cork, pour shot, hand
+overshot. So, first, second
+brings up his finger. Let's reflect that
+in crumpet.
+And you can see you want to reference
+frame 24.
+Beaver
+holds up his finger like he has an idea,
+then reaches behind
+his back. And so you see at frame 24
+that automatically happens. Here you can
+also, if you want to have a cut in a
+shot, for example, you can also have it
+say cut to or use or any text of your
+choice. But in my case,
+that's not necessary.
+So, I'm going to finish the prompt and
+then show you some other features. So
+here you see the three different parts
+of the prompt that I can easily sort
+using Crumpet
+and keep those thoughts nice and
+separated while having the full prompt
+up here. But a lot is still missing of
+course and this is where presets come
+into play because the rest of the prompt
+are going to be things that need in
+almost every single shot. So I've
+prepared those here and you can save
+whatever you like, whatever preset you
+like um on your own. In this case, I
+have this suffix. Let's take a closer
+look at it. So, look 2D exactly like the
+reference images. You can see that's
+kind of part of some bigger piece. Let
+me copy and paste it over into the
+suffix of our video prompt and edit it
+further. So
+the beaver and the alcohol bottle
+and liquid look 2D exactly like the
+reference images. 2D characters and
+props are animated on twos with smear
+frames and comedic cartoon motion with
+quick changes and many precise and funny
+key frames. So, in order to make this
+authentically animated, we don't want it
+to take cues from the real world, the
+liveaction footage that could easily
+turn our characters into looking too
+real, becoming 3D, that sort of thing. I
+want this to be old Warner Bros., Hannah
+Barbara, Disney type um animation
+without prompting those brands because I
+personally think that's that's
+unethical. That's also doesn't hold up
+in court, you know. So we have to be
+careful about prompting neutrally using
+the fair codecs and uh sticking to um
+generic terms. The environment itself
+looks normal and live action just like
+video one. Preserve the camera shake and
+composition of video one perfectly. Then
+important no music. We don't want it
+adding any music, anything beyond normal
+sound effects. So this will hopefully
+keep the 2D and 3D live action styles
+separate. We still haven't referenced
+the images though yet. The reference
+images which comes here into the prefix.
+So I'm going to select click behavior
+copy to clipboard actually and have
+these presets ready. Replace the brown
+plush bear in vid one perfectly with the
+beaver in image one. So that goes to the
+beginning of our prompt. I'm just going
+to add a little comma. Same thing with
+the bottle.
+But for the bottle, remember we don't
+want it on the table.
+The bottle is not on table. Let's do
+visible, not visible on the table in the
+beginning of the shot.
+And now
+I am going to risk not giving it a
+reference of the background just yet
+because I think it's quite obvious what
+that looks like. There's just another
+knob back there. No part of the photo
+there is missing. And um we want all the
+focus of the AI on the animation. So I
+think we can get away with not having
+that extra reference of the empty room
+without the bottle. And you see this is
+a pretty long prompt already. It's very
+detailed and um I think we're going to
+get something good out of it. Let's see
+if it's actually
+Yeah. No, we're forgetting one thing.
+The expressions.
+So perfectly with the beaver in image
+one
+using image two
+for character
+expression
+reference. And now we need to make sure
+this is referencing image three just
+like in magnific.
+Then when we're done we copy that bring
+it over into the video generator.
+You can see it automatically gets all
+the reference images. The bottle is
+image three. Video one is video one.
+Perfect.
+And now we set this up. So I'm going to
+stick to 720p just cuz you know
+generations cost a lot for Cance 2.5. We
+can always upscale later if we want. Set
+the length to 6 seconds. 16x9 is the
+correct aspect ratio. Sound is on. And
+because doesn't cost us anything, m as a
+result is good. If we do need to grade a
+tiny bit later, um, you know, we don't
+want the compression to catch up with us
+quite so much as input, it's fine cuz
+otherwise anov would be like 400
+megabytes large. But let's let's get
+them off out of this. And then we hit
+generate and uh await it excitedly. Once
+we have the result we like, we download
+it and bring it into our edit.
+Amazing.
+You can hear that no music uh just
+didn't work as a prompt. It's still very
+much in there. And I've heard that is a
+quirk of Cance 2.5. So, we might have to
+handle that in careful sound design.
+Let's move on to the next shot of me
+reacting to the cartoon whiskey. We're
+going to try really hard to keep it that
+color. That's going to be a little
+difficult, but um you know, we'll see.
+Uh it's not quite 2D. You see it has
+like a little outline. So, we'll see how
+it does. And then the main challenge
+here is making my head explode with 2D.
+For this, at least in Da Vinci, I'm
+going to go to the color tab, go to
+group post clip. So, I want it um
+graded, right? Rightclick and grab
+still. Then I can go over here and
+export and save it as a PNG, some format
+that of course Magnific can read. And
+because I want it to be in the same
+style, I'm just going to copy the
+generation settings and prompt from a
+previous 2D animated style generation
+and adjust it to match what we want to
+change in my still. After a couple of
+generations, this is what I ended up
+with. Now to prompting. So, in Crumpet,
+I'm going to duplicate the shot I
+already have. Uh, let's always keep it
+clean. So, this is Albert Explosion,
+and this one was beaver whiskey.
+And of course, I'm going to change some
+things. So,
+let's do
+using image one for
+2D liquid style reference. So, we're
+still going to be importing the whiskey
+reference image, but only to show what
+the liquid looks like. We're not
+replacing anything. We're doing
+replace the liquid in the glass with 2D
+animated whiskey.
+We're not changing anything in the shot.
+So, the bottle, there's no bottle in
+there. And we're going to be deleting
+these couple things. I don't have
+specific timing until the explosion.
+Let's work on the suffix. Beaver and the
+alcohol bottle. The
+alcohol
+liquid in the glass
+looks 2D exactly like the reference
+image.
+2D
+liquid and explosion are animated on
+twos with smear frames and comedic
+cartoon motion with quick changes and
+many precise and funny key frames. The
+environment itself
+and
+most of the man looks normal and live
+action just like vid 1. Preserve the
+camera shake and composition of vid one
+perfectly. No music at all. Keep the
+original audio of vid one and add only
+explosion
+sounds. Maybe we do explosion and
+liquid. We can have a little little
+gloop sound. Okay. Now let's check when
+the explosion should actually happen.
+So I'm thinking I drink,
+I swallow. This is where I start
+processing. So after around 6 seconds,
+the total clip I want to be 11.
+So after 6 seconds,
+the man's
+hair starts to smoke
+and then the explosion happens at 7. So
+it's seven.
+The man's head explodes
+like a cartoon.
+Referencing
+image two is what what's going to be the
+reference image of the explosion that we
+made.
+His
+whole face is encased
+in 2D animated
+smoke and flame.
+His eyes bug out in 2D style.
+Goes nearly back to normal liveaction
+style.
+when he says, "Whoa." So, we want to go
+back to
+my normal face.
+Okay, let's see if that works. So, I
+click copy, go to the video generator,
+and we upload our references based on
+that prompt. And a few generations
+later, this is what I got.
+>> Whoa.
+With some minor editing in After
+Effects, I adjusted the blur on the
+whiskey in the glass a little bit to
+integrate.
+>> Wo!
+>> Despite various attempts in prompting, I
+also couldn't stop it from adding some
+dirt to my face after I say wo. So, I
+decided to just cut that in the edit and
+stay flexible.
+Now, let's move on to a shot that's much
+later in the project. the final fight
+between my liveaction style cat and the
+2D beaver. For this, we actually also
+need to create a character turnaround
+sheet of my real cat because we'll be
+making an AI stunt double of her. So,
+what I'm doing there is taking a
+screenshot of some of the real footage
+of her and prompting Nano Banana to make
+that same character turnaround that we
+have for the beaver already. Here we go.
+Here is a reference of my cat. I know
+what she looks like. Angry. That's not
+it. But viewers will not know that. So,
+I think we're good with our little stunt
+cat here. Standing sitting.
+I think that's what we need for sea
+dance to understand what she looks like.
+This shot was particularly tricky. I
+originally thought I'd create a
+reference frame with kind of this
+classic 2D tornado fight uh thing
+between the cat and the beaver, but this
+was taken a bit too literally by sea
+dance and gave me a very flatl looking
+2D tornado that just moved from left to
+right with flashing animals and some
+lightning, which is obviously not what I
+wanted. So, I decided to leave it up to
+Cadance to interpret a text prompt and
+get just some reference images of the
+characters themselves,
+which is what we're going to upload. So,
+we give it the wide fight video and the
+Susha reference, the beaver reference,
+[music] and the expressions of the
+beaver just so we have some fun heads
+with various uh emotions popping out of
+that tornado. Going into Crumpet again,
+I duplicate my previous sequence because
+I want to keep most of that suffix and
+adjust the prompt for this tornado. The
+new prefix is place a classic cartoon
+fight tornado into at video one of the
+2D beaver at image two fighting the
+liveaction cat at image one destroying
+the living room piece by piece. The fast
+animated tornado spins
+three-dimensionally. Right, that was the
+problem with the last test. and
+dramatically and has lighting and wind
+effects on the room with cartoonish bam
+and oof text animating out of it. Only
+one of each character is visible at any
+point with their heads popping out using
+various expressions from at image three,
+which is the 2D beaver's expression
+sheet. Afterwards, I make use of the
+timeline functionality again and
+describe where I want the tornado doing
+what to the living room. Making sure I
+keep the continuity as close as I can.
+So only specific paintings fall off the
+wall and I end with a hole in the wall
+with water coming from it. So I have a
+perfect cut to that final scene in my
+script. Then I hit generate and got
+this.
+And so step by step, you'll work your
+way through your timeline and create
+shot by shot. Sometimes you'll be able
+to combine some shots that work
+together, and sometimes you'll have
+individual ones like this. Always make
+sure to remember that you can edit some
+individually in After Effects as well.
+So some kind of traditional video
+editing skills can come in handy. For
+example, in this shot, you might notice
+that the whiskey looks a little
+different than in the original AI
+generation. It also goes blurry a little
+differently, and that's because I wanted
+this whiskey to look a little more
+similar to the one I drink myself. This
+one's still a little shinier, but the
+color is a closer tone that I managed to
+match in After Effects without changing
+the rest of the AI generation. So,
+always play um between tools and don't
+rely on one single AI tool too often.
+Mix and match. In addition to wanting to
+adjust the color of the whiskey in the
+beaver's shot to match the one where I
+drink it, I also noticed that the
+beaver's glass itself disappeared
+towards the end. But that's an easy fix
+in After Effects. All I did was take a
+freeze frame of the whiskey glass, mask
+it, and by tracking the camera shake,
+just animate [music] it in that
+position. No problem. I hope you had fun
+watching this today. Keep an eye out for
+the final sketch and uh enjoy making
+your own stuff. If you want more
+workflows like this one, the kind that
+go a little beyond just prompting and
+into combining AI with traditional film
+making, tell me in the comments. And I
+hope Curious Refuge has me back to show
+you how to do it. Until then, check out
+my AI animation course on
+curiousrefuge.com
+and see you next time.

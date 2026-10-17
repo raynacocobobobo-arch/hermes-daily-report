@@ -1,0 +1,370 @@
+UP主：Futurepedia
+标题：ChatGPT Work Completely Changes How You Use ChatGPT (full guide)
+链接：https://www.youtube.com/watch?v=tqKGaqaQkNk
+
+ChatGPT launched a new product called
+Work. This takes ChatGPT from an
+assistant that answers questions to an
+agent that completes tasks on its own.
+And it's specifically built for
+non-technical users. You use natural
+language to ask ChatGPT Work to tackle
+entire workflows with a single prompt.
+Give it a goal and it can connect to
+tools, create files and documents, and
+build polished sites and deliverables to
+achieve it. Then even automate that task
+in the future. For most people who use
+ChatGPT, this will be one of the biggest
+upgrades they've had. So, I'll go
+through a workflow across a few tasks
+that showcases all that it can do while
+utilizing every feature.
+Now, put simply, this is combining
+ChatGPT with the capabilities of Codex
+for non-technical users. Now, if that
+sounds a little bit like Claude Co-work,
+that's because it's the same idea.
+Co-work is a really popular and useful
+product, so they brought that concept to
+ChatGPT. Now, if you're on a paid plan,
+you should already see it in the web
+version, mobile app, and desktop app. On
+mobile and web, it runs in the cloud. It
+doesn't have access to your local file
+system. Through the desktop app, it
+does, which means it can organize and
+create files on your local machine and
+even navigate and use your computer and
+browser if you want it to. It has the
+most power there, so that's where I want
+to showcase this. You just download the
+app from the site, then log into your
+ChatGPT account. This is where you'll
+feel the biggest difference in using it.
+Now, in the desktop app, you'll see a
+drop-down to switch between Work and
+Codex. Then, on the sidebar, you'll see
+some of the features like schedule
+tasks, which is how you can automate
+entire workflows, plugins where you can
+connect Work to the tools you already
+use, sites where you can create a hosted
+website right in ChatGPT, then chat,
+which will pop up a window for one-off
+chats. And it also does have your chat
+history from the web ChatGPT. And I
+could use one of those or just send off
+a quick question and have a chat right
+here. Then it has this button that says
+attach to task. That will pull in the
+whole chat thread and use it as a
+context to build or automate something
+from. Now that we're oriented in here,
+I'll give it a task. And since this
+works locally on your machine, it needs
+somewhere to work. So I want to select a
+project for work to work in. You know, a
+project is just a folder on your
+computer. This can be an existing folder
+or a new one, one with files in it or
+empty. I'll select this folder. It's
+already full of all sorts of documents
+in different formats and file types.
+This is actually an example I used in my
+Codex video. I wanted to use the same
+thing again so I can get a good
+comparison between the two. I'll run my
+first prompt. Here's a messy folder from
+a Vibe Coding Cafe the context window.
+Clean it up by organizing the files into
+folders, then create one spreadsheet
+that pulls everything together so I can
+see what's going on with the business.
+I'll send that off and now it gets to
+work with that folder as its workspace.
+And here's what that folder looks like
+now that it's starting with. Just a
+bunch of random files in here, CSVs,
+PDFs of invoices, sales logs, text
+files. Work is going to analyze all the
+different files in here. It can
+understand all of these and extract the
+information from them. So I'll come back
+once this is organized and take a look.
+I'll pull this up now and you can see
+from all those unorganized files I now
+have 11 folders in here. ChatGPT created
+all of these on its own and it moved the
+files around and organized them into
+their proper folders. And they are all
+categorized correctly. Then the output
+folder down here should have the full
+spreadsheet where it combined all the
+data within those files. And it looks
+great. This is a way better spreadsheet
+than I'd ever be able to create. It's
+got all the data organized, totals
+calculated. And I'll go back to the app
+and I can also open this up right in
+here. There's an in-app browser where
+you can view everything it creates. You
+can even use that like a normal browser
+to, you know, pull up websites or gather
+information. And if I wanted any changes
+to this, I can and which area and leave
+comments. Then it will make those
+adjustments. Using the work tab on web
+or mobile, it can do this same type of
+task. I would have had to upload all
+those files for it to read them, and it
+wouldn't have been able to organize the
+folder locally. In the cloud, it can be
+assigned longer and more context-heavy
+tasks than normal. Where you'd normally
+need a long back and forth in chat, work
+can do it in one go. It creates a
+checklist and goes task by task until
+it's done, even for hours at a time if
+you wanted to. Like each step in this
+checklist would have been a prompt in
+chat. Work came up with the full plan
+itself and executed it all in one shot.
+And you can push it much further than
+that. Work makes ChatGPT even more
+capable to help you in your work or
+business. But the most important part is
+actually implementing it. So, I have a
+free resource bundle called five
+essential resources for using ChatGPT at
+work. It covers all the capabilities,
+use cases, and best practices for
+implementing ChatGPT and across all
+different business use cases. But my
+favorite part is the document called 100
+Ways to Try ChatGPT Today. It's a bunch
+of project-based workflows with
+copy-paste prompts included. It's one of
+the most helpful prompts databases, on
+top of all the other things that are
+already in there. I'll put a link in the
+description to access this whole
+resource for free.
+Now I want to show another newer feature
+they have called sites. Sites are a way
+to create and share a live website or a
+lightweight app that other people can
+open and use. I'll say, "Now build me a
+more aesthetic and visual owner
+dashboard using @sites.
+Make it easy to see how the cafe is
+doing and what I need to pay attention
+to." I'll hit @ again and tag the final
+document it created and say, "This is
+the source of truth." So, you can tag
+tools, documents, plugins, skills, and
+previous chats with the @ symbol. They
+make it nice and easy. Now it's off. And
+it actually decided to create three
+different style mockups for me to choose
+from. Um number two matches the logo the
+most and looks the most kind of simple
+and clean, but I want to use one of the
+dark mode options. Option three looks
+like it has some extra charts, so I'll
+go with that. Although that is probably
+the busiest out of the three.
+Okay, the dashboard is finished. This
+looks really nice. It is definitely busy
+though. I'd probably want to simplify
+this, but it has all the information I
+need. Sales, inventory, labor, the most
+pressing items that need my attention on
+the right, and a full list below with
+priority labels. Everything is in there.
+That is amazing. It pulled in all those
+different types of data and displays it
+all effectively. And then up top, you
+can see this URL is dot chat GPT dot
+site. So this is a live site I could go
+to on my phone or send to someone else.
+That did a great job, but I'll need this
+to stay updated, and I don't want to
+have to prompt it every time. I want to
+automate that process. All I have to do
+is ask. Every morning at 6:00 a.m. check
+this local folder for any new files that
+have been dropped in and organize them
+like you did previously into their
+proper folders. Then update the
+spreadsheet and dashboard with the new
+information. No complex prompt, you just
+give it the task and it will figure out
+what to do to achieve that. This uses
+the scheduled tasks feature, which lets
+you automate prompts, tasks, skills, and
+workflows. You set them to automatically
+run daily, weekly, or on a custom
+schedule. So it finished that.
+I can see all my automations on the side
+panel then under scheduled. One thing to
+know about these types of automations is
+your computer does need to be on for it
+to execute. Then this will run every
+morning at 6:00 a.m. I can just drop
+whatever files I want into that folder
+throughout the day with no thought to
+organization or formatting them. Then
+I'll wake up the next day with it all
+organized and an up-to-date dashboard to
+see it all.
+Next, I want to use plugins and skills.
+These are both under plugins on the side
+panel. And starting with plugins, this
+is how you connect work to external
+tools. There's tons of pre-built
+connectors, all the common ones like
+Gmail, Google Calendar, Drive, Canva,
+Slack, Asana, and much much more than
+that. Then there's some more unique ones
+like computer use and Chrome use where
+it can actually navigate autonomously
+with its own cursor and use the browser
+to complete tasks. Skills are preset
+instructions and files that let Work
+execute a task in a repeatable way every
+time like recipe cards for workflows. It
+has built-in skills. It has already used
+some in this demo like there was a
+spreadsheet skill to learn how to best
+read and create spreadsheets. And these
+plugins are actually a package that has
+those connectors to the tools and also
+skills to help Work understand how to
+use them. And in a minute I'll show you
+how to create a new skill. I will start
+a new task, review the latest sales and
+inventory data, then come up with one
+special to run over the weekend based on
+the data. Create a marketing idea to
+promote it on Instagram, generate the
+image in our style based on @logo,
+suggest a caption, then create an
+@derive folder and save the assets
+there. Then @gmail the link to me. So
+this will use two different plugins in
+one task. And this will use a pre-built
+skill for image creation which utilizes
+GPT image 2, the best image model for
+this type of thing right now. It's all
+finished and the image looks awesome.
+I'll read the markdown file first. It
+went with the latency lemonade and
+programming pretzel. It has the
+reasoning below like how many pretzels
+are on hand with 26 above par that need
+to be used by Monday. There's been
+positive customer feedback on this
+combo. So a bunch of solid reasons for
+this choice. And it lays out the
+Instagram campaign, then it suggested
+caption that looks solid. And the image
+looks amazing. And I can go to Google
+Drive and it created a brand new folder
+then saved the files there. So now I
+could share that with the person in
+charge of socials. And then for the
+email, it says my Gmail isn't connected.
+Um honestly I never really use that in
+here so that's probably true. I can go
+reconnect it and say send it.
+And actually, it's still not able to use
+the Gmail connector. I need to check the
+permissions there. I've had it draft
+emails before, so I'll see what's going
+on with that plugin later, but it's
+actually deciding on a workaround. It
+says it's going to open up the browser
+and see if I'm logged in there, which it
+looks like I am. I logged into this
+profile here for something else in the
+past. So, this is actually ChatGPT
+controlling this browser, not me. The
+glowing one is the ChatGPT cursor. So,
+it found me, typed out the full email
+with the drive link, and then it's
+clicking send.
+And I guess I can actually see right
+here that the email went through. I was
+just sending it from this email to
+itself for the test.
+So, that got it done, and I wanted to
+show off the browser use plugin anyway,
+so that is perfect. You can let it use
+the browser to go to any website,
+research, anything you can do in a
+browser, it can. And that was using the
+in-app browser. There's also the Chrome
+use plugin, which will let it use a
+separate Chrome browser where you can be
+already logged into whatever accounts
+you want it to use. For that, you do
+need to download the extension on that
+browser as well for it to work. Then
+there's also the computer use plugin
+where it can access not only the
+browser, but your entire computer. It
+can open up files, click around, open
+your notepad, just everything. And you
+can add any of those plugins on the
+plugins tab. And this has gotten much
+better than it was in the past. It's
+still early, it won't do everything
+perfectly, but if you give it a simple
+browser use or computer use task, most
+of the time it can figure it out.
+Now, for the specials, I'll need to do
+this every weekend. So, I'll say,
+"Package the weekend special workflow we
+just went through into a skill." Now, it
+will analyze all the steps we just went
+through, how to create the images using
+our logo and style, what information to
+draw from to decide on the special,
+which drive folder to add the assets to,
+and the email to send the result to.
+Then in the future, I won't have to
+prompt any of that. I just ask it for
+the specials, and it will do everything
+in that same way every time. Or if I
+don't even want to send any prompt at
+all, I can say, "Now, run that skill
+every Friday morning." Then it's going
+to create an automation and do every bit
+of that without me even touching it.
+So, that's the kind of task you can do
+with ChatGPT Work. A lot of that would
+never be possible in chat. And if you're
+on the web or mobile, it does those same
+types of things and can set up
+automations, use plugins and skills,
+create that checklist and work through
+long tasks, but it won't have access to
+your local files like this. That's why I
+recommend downloading the desktop app
+and using it there. If you're already
+used to using Interpreter, none of this
+was new. I covered a very similar
+example in my Code Interpreter video and
+went through all of these features. But
+this is just packaged up to make it
+really easy for non-technical users to
+be able to jump in and use those same
+powers. So, I hope that helps you get
+started. This is an awesome update.
+Again, there's that free ChatGPT at Work
+resource if you want to get a bunch of
+prompt ideas and complete guide for
+integrating ChatGPT at Work. And hit
+subscribe and I'll see you in the next
+one.

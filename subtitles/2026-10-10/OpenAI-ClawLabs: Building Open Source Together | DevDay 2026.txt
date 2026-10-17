@@ -1,0 +1,918 @@
+UP主：OpenAI
+标题：ClawLabs: Building Open Source Together | DevDay 2026
+链接：https://www.youtube.com/watch?v=wZYnJfL4c2Y
+
+Let's talk, we have a really
+exciting session today.
+I'm going to show you what I
+learned over the year maintaining
+my open source projects,
+how my workflows evolved, and what
+happened when we moved development
+of OpenClaw to OC itself.
+Now, let's talk a little
+bit about the harnesses we
+use to talk to our agent.
+This whole year, this whole
+revolution started in the CLI.
+Last year, I was fully
+living in the terminal.
+Split screen,
+lots of Codex sessions, my code
+was flying around left and right.
+And then over time, the models
+got better and smarter.
+And the time where I had to smash
+escape to steer the agent decreased.
+It's not really needed anymore.
+It was clear my workflow
+needed a change.
+Then I moved to Codex Desktop.
+Now the chat should be there.
+It made it far easier to start
+a large number of sessions concurrently.
+The text is easier to read.
+It has visualization.
+It has an inline browser.
+It has really code review.
+I don't even know. It's nice.
+Now that it's so easy to run
+all these sessions and experiments,
+my machine was dying.
+I ran out of disk space.
+My fans sounded like a jet engine.
+So I started using multiple
+computers to run more work.
+I connected
+Codex to DevBoxes.
+So I could spread the load.
+And I built Grabboxes so agents
+would run the tests in the cloud.
+I think I'd peek ahead,
+I don't know, six or ten machines
+that were crunching through
+all my code and my experiments.
+Sometimes in one Codex
+and sometimes they used VNC.
+And then I realized that was a problem
+all these machines
+wouldn't solve.
+When my teammates wanted
+to get involved, they still
+had to come through me.
+You know, we were all working
+with agents, but we weren't
+really working together.
+By the way, I love this slide.
+It's like, that's how tokens look?
+Frank Allenby, he coined
+this term this year, meat proxy.
+You know what I'm talking about.
+Let's not be a meat proxy.
+That's when you are the interface
+to AI and you pass
+messages back and forth.
+So how does the rest
+of the team get involved?
+How do you see what it's
+doing, understand the decisions,
+and help move the work forward?
+That's what we started
+exploring as we began
+using OC to build OC.
+And for those of you who haven't
+used it, OpenClaw is an open source
+platform for persistent agents.
+It works across your tools,
+your devices, your teams.
+You can sign in with your subscription.
+There's now a fancy sign
+in with ChatGPT button.
+It picks up your plugins, and you
+can even see your Codex sessions.
+Also let's talk about governance.
+OpenClaw is open source,
+and it's owned by the OpenClaw
+Foundation, an independent nonprofit.
+And OpenAI generously
+supports our mission.
+My team at OpenAI explores how
+to design agents that are useful,
+how to run them at scale,
+how they can help us improve both
+our work and our personal lives.
+And ultimately also how
+an automated software
+engineer could look like.
+My thesis is
+that the models are getting
+so good so fast.
+The way we work,
+the way our harnesses work,
+we just can't keep up.
+Workflows that made sense a year ago,
+or even six months ago,
+already feel constrained and outdated.
+Now,
+part of my work is to explore
+where things go.
+Should we take a look?
+You already saw that the demo
+gods love us today.
+So let's see if PartyClaw is online.
+Hey PartyClaw, are you alive?
+Well,
+the voice translation works,
+even though it's not perfect.
+Perfect.
+So,
+I'm going to build a game.
+You know what's this game called
+where the frog has
+to go over a street with cars?
+Can you build it for me?
+You know,
+I mean, so far it's nothing new, right?
+So far your agent would build this,
+and eventually it will, like,
+get you a pull request back.
+And then you probably would, like, take
+that pull request and, like, open it
+in your Codex and keep working on it.
+I think there's a better way.
+Oh, yeah, Frogger.
+Oh, I'm so silly.
+It already found a version we can use.
+Lily Lane.
+Okay.
+Who made Lily Lane?
+Let's click on that.
+Okay.
+Well, damn.
+I mean, I'm using ultrafast.
+It is amazing.
+But that was faster than ultrafast.
+Who did that?
+Okay, Kevin and my team already
+built the game.
+Oh, well, let's see if I can
+make a joke out of myself on stage.
+Will I manage?
+Oof.
+Whoop.
+Whoop.
+Oh, God.
+You know, in all the demos,
+I always, like, miss that.
+But... Ah.
+I don't really want
+this to be a frog.
+Can this be a lobster?
+I don't know.
+No!
+See, I was faster.
+You see all those people typing.
+But, like, I did the first prompt.
+Ha, ha, ha.
+Should not be an elephant.
+We'll do a lobster.
+Ah.
+Let's see how long that takes.
+Well, while we wait,
+there are so many cool things
+that, like,
+were in the keynote.
+Hey,
+I'm just at OpenAI DevDay here
+and doing a workshop, and I think I
+missed a little bit of the keynote.
+What are all the cool things that OpenAI
+released in DevDay 2026?
+Can you make me a dashboard?
+All right.
+While it works, should we check
+back on Frogger?
+All right.
+And I also see there's, like,
+three people online.
+That's not a lot of people.
+Should we make this a bit more
+of a party?
+Yeah!
+Okay.
+I think I have to click the button.
+So if you're very fast, you can,
+like, use this URL and then
+join me to make silly games.
+What is it doing here?
+So this is
+designed for teams that all
+have the same access.
+Think about you doing
+open source and you
+want to work with a team.
+And we used to have pull requests
+to collaborate, but that just
+feels not the future anymore.
+So here on the server, anyone
+can see each other session.
+You can prompt each other session.
+It's meant for people
+that work together.
+Don't invite anyone who you don't
+want to mess with your sessions.
+We're going to use this in the future
+as we build OpenClaw to invite
+some of our top contributors.
+You know, like, you get the tokens and
+we get a little bit of your ideas.
+I think it's an amazing deal.
+And this whole workshop,
+this, like, idea, this is really
+to, like, get you thinking.
+Which other workflows do we currently do
+in the old way that we could do
+so much better in this agentic age?
+Oh, I think my lobster game is ready.
+Oh, it's lobsters and sharks now?
+Okay.
+Oh, it died. Damn it.
+Well, while you all are having
+fun here, and oh, my God,
+how many people did we let in?
+We need to close the gates, guys.
+Yeah, you already see
+that stuff's happening.
+We're going to check back later on this.
+Let's switch back to the slides.
+So, you just saw us working
+a little bit together on a game.
+Now, we started experimenting
+with how would multiplayer work
+with agents a few months ago.
+And it has changed
+how we work as a team.
+Not only has it increased velocity,
+it also just made us happier.
+You know, there's so many conflicts
+that you can avoid if you
+see each other's prompts.
+And now it feels like we're
+actually more working like a team.
+And earlier today,
+you saw dots, which is a really
+cool first-party integration
+of the OpenAI experience
+for companies to work with agents.
+OpenClaw explores some
+of the same ideas.
+Agents working alongside
+a whole team of people.
+OpenClaw gives you the freedom
+to choose your model,
+change the code, and you can fully
+run it on your own infrastructure.
+And I think we should celebrate that.
+I love that OpenAI is supporting
+all these different approaches.
+And that the open source community
+can take these ideas in directions
+we haven't even imagined.
+And of course,
+we're really thinking about ways
+how your dots can talk
+to your claw and vice versa.
+Now, one thing I didn't
+talk about is your prompts.
+A single sentence can now
+produce thousands or tens
+of thousands of lines of code.
+But the conversation behind
+it often stays
+on someone's local machine.
+I reviewed so many PRs where I
+understood what changed, but not why.
+You know, show me the prompt.
+So I tried this.
+I added a skill that asked
+people to send a sanitized
+version of the transcript
+and attach it to the PR.
+And very few said yes.
+Sharing how you talk to your agent
+feels surprisingly personal.
+Heck, even I sometimes said no.
+I don't know. You know?
+So when we made sessions
+visible to the whole team,
+it did feel awkward for a day.
+We were reading each
+other's conversations.
+We laughed a little.
+And then it became the new normal.
+And now we learn from each other.
+And we catch mistakes earlier.
+Let me show you how it looks like.
+So, the demo gods
+are still on our side.
+And I imagine I wake up.
+I didn't have my coffee yet.
+And I see this pull
+request from Roboclaw.
+And I scroll through it.
+And there, somebody changed how
+tables look and made them smaller.
+But I did the same work.
+And I made them bigger just
+the day before.
+You know, like my cortisol
+level would go up.
+It's like, who did this?
+Like, why?
+What did Victor do?
+And maybe in the past,
+I would have dropped him a not
+very Californian message.
+But now, I can click
+on the work session.
+And I can just check
+out what he did, right?
+And it actually looks like
+he reused my session.
+Or he even pinged me.
+I should read my emails more often.
+I love this.
+See this?
+We were just talking about
+how we talked to our agents.
+And Victor clearly is not
+happy about our CI times.
+I could probably fill
+a whole talk about just CI.
+And that it's another point of like,
+the way we currently work did not
+catch up with all the things that we
+now need in this new day and age.
+And I think CI, as it currently
+doesn't make any sense anymore.
+I'm currently experimenting with Codex.
+Maybe if we add intelligence, it could
+be more easier to decide which subset
+of the tests are actually useful.
+But I feel that's a talk in itself
+and maybe something for another day.
+But if I keep scrolling up,
+you know, it actually looks like Victor
+put a lot of thought into it.
+I was wrong.
+This is actually really good.
+He basically took my work
+and then just fixed my stuff.
+This is awesome.
+You know? Lunchtime crisis averted.
+Now, I give
+you a little bit of a tour.
+We see our server less like
+an app but more like a place.
+You know, there's a lot more
+that goes on when you build a project.
+It's not just about the code.
+So naturally, we have a lot
+of apps in the sidebar.
+And some are dashboards
+and some are plugins.
+Of course, there's nothing new as well.
+Like we used to have them.
+They were just scattered around
+on different servers.
+Some used GitHub actions to update.
+There were databases.
+There were different repositories.
+Like I didn't even
+know which one we all had.
+And clearly, it was not very inviting
+for the team to work
+on an update on these.
+Like I give you a simple one.
+Because we were just talking about CI.
+So I made this dashboard that tracks
+how our CI times are.
+And clearly, clearly, we
+need to do more work.
+But the beauty is, any time I want
+to tweak the dashboard, I can just tell
+the agent, make this blue.
+And it will not like me about this.
+And then we'll just update
+the dashboard as we go along.
+Now,
+what are most dashboards really?
+It's like a session that generates
+some artifact.
+And then there's an automation
+that updates that session.
+And of course,
+the artifact contains code.
+So, it's software
+in a way.
+But there's a better word
+now if you think about it.
+We iterate so fast on things.
+Is it still software or is it jellyware?
+I like jellyware.
+So let me show you
+a few other things.
+Of course, we have
+the community.
+Here we go.
+We track all these numbers.
+How many PRs do we have?
+How many issues are reported?
+How many are merged?
+Some people are really into graphs.
+We also do silly things on the server.
+Like the daily Claw that tries
+to make sense of all the things
+that merge on the server.
+And then makes a newspaper out of it.
+And sometimes it's actually quite good.
+But many times it's very wrong.
+But it's just, you know, you
+have to have fun when you build.
+That's the whole point if you
+want to do good work.
+I also have a slop meter.
+Because if you all work with agents,
+you know, it's very easy to like
+agents generate more and more
+and more and more and more code
+until you're like in a bad place.
+So you should always like try
+to push the agent to clean up.
+And as you see, ever since
+I started the dashboard,
+I definitely raised awareness.
+And things are moving
+in the right direction.
+Now these were all just HTML plugins.
+We also have some that are actual code.
+Like if you go on reports.
+I'm a curious person.
+So I always want to see how
+busy is everyone.
+And as you can see,
+the activity, how many commits do they
+do, how active they are on Discord.
+Now we also built meetings.
+And it looks like there's a meeting
+in progress right now.
+We used to have our own software
+that we paid for until I was
+like, why do we pay for this?
+This is a prompt.
+So we just made it a prompt.
+It uses Luna to summarize
+our transcripts.
+And the agent just joins us
+in Discord whenever we have a meeting.
+And the coolest thing,
+but I'm not going to show you
+that today because we already angered
+the demo gods with voice,
+is our agent
+can now talk back.
+You know, like just taking notes.
+That's nothing new.
+But connect GPT Live.
+And then you can actually ask the agent
+about your work or spin off new work.
+And because it's the same identity
+that represents the server and the same
+main session that knows everything.
+This works really, really well.
+Now, let's see who is actually online.
+If I go down there a little bit.
+I love this view.
+And I'm always curious what
+Victor is up to.
+Because he usually takes
+my code and makes it pretty.
+So it looks like Victor is
+working on some emoji stuff.
+But I know he gave me
+a shot this morning.
+He told me that he
+made the sidebar nicer.
+Like I added this little view so you
+could see who is online, who is running.
+But it doesn't look very good.
+So he told me he does it better.
+And then let me scroll through.
+And the cool part is you can
+actually see how he works.
+And just seeing how he
+approaches his agents.
+And sometimes he uses very
+colourful language.
+But he manages to squeeze out
+so many different design iterations.
+Let me scroll a little
+bit more so you see.
+Look at this.
+He built whole editors
+to tweak this.
+And then he was still not happy.
+I think it's very hard to please Victor.
+Oh, and then somebody
+else was joining in.
+And then they were collaborating
+together on this.
+There's more versions.
+I don't even know which one we updated.
+But eventually, eventually
+they found something that looks
+very compelling.
+And by the way, all these
+visualizations, they work
+in the Codex app as well.
+So if you're still stuck
+in the CLI, it's time to upgrade.
+You're stuck in 2025.
+Even better, I know
+some companies that jump on
+a video call with a terminal.
+And then use that to talk
+to your agent.
+There's a better way.
+Now, I want to give you a little
+bit of the broader vision here.
+Ultimately, what we are building
+here is an agent
+that builds our software.
+This is kind of like the way
+to the software factory.
+And some of the work
+has to be very hands-on.
+You want to pair directly with an agent.
+But I also run a lot of loops.
+So I use them to monitor feedback
+and then automatically land fixes.
+And some of those loops
+run on different machines.
+And sometimes they stop
+or they need adjustment.
+And sometimes I wasn't even sure where
+on all my machines they were.
+Those loops need maintenance.
+And also,
+ultimately, where do
+we still bring value?
+It's about taste.
+Taste is uniquely hard to describe.
+It's often just a feeling.
+And that's not something I want
+to fully entrust on our agent.
+So this didn't really
+work well in the team.
+Like,
+I was running too many.
+And slowly, one by one, we're moving
+all these loops to our team server
+so other people can learn.
+Because ultimately, we maintain
+the agent that builds our software.
+Now, what types of loops do
+we run and how does that work?
+Like, I have a monitor
+that scans Discord,
+Twitter, and GitHub.
+I built little CLIs.
+So this is very easy for the agent
+to get a lot of data.
+And then we categorize them.
+And for certain categories,
+like update issues,
+the agent will read
+the report, will investigate.
+It will spin up a new test
+box to reproduce the error.
+If it can clearly reproduce it,
+it will come up with a fix.
+It will see if it's fixed.
+And if all of that works,
+there's going to be another agent
+that reviews that work.
+And then your work can
+automatically land.
+Now, what's the difference
+between a loop and a goal?
+So the loop basically keeps checking.
+This is something we do continuously.
+I have another one for performance.
+We do another release
+of the team server every day.
+And then my update loop will
+detect that.
+We'll take snapshots and we'll see
+if there's anything that regressed
+or it needs improvement.
+Now, if I do,
+you know, slash goal,
+that work
+is towards a defined end state.
+Like right now, I have a goal
+that slowly, bit by bit, migrates
+the code base from synchronous SQLite
+to async database access.
+We're still using SQLite here,
+but as the server grows and as
+we do more, we're thinking about maybe
+making the database itself swappable.
+So this has been running for 18 days.
+It's still running on my local
+Codex and it has landed
+over 100 PRs so far.
+Over time, I want
+an agent per project.
+It should have its own memory,
+automations, goals, loops, and I can
+give it those high-level commands and it
+maintains and improves my software.
+Now, should we check back what
+people are building so far?
+Who got lucky enough to actually
+use online?
+I see a few hands.
+Yeah, you were fast. So here we go.
+And okay, we have
+the release radar here.
+We have...
+Oh, this is a cool game.
+Okay.
+You don't mind me.
+I'm just going to...
+What do you mean?
+Should the agent play?
+I mean, yes.
+By now, agents are probably
+better, especially because
+this all supports CUA.
+Ooh, island builder.
+Okay. What is this?
+I have no idea how that works.
+What should we assure next?
+Okay.
+Play Pictionary with the Claw.
+Name the concept.
+Can anyone else help me?
+Who's online?
+Help me. Give me a hint.
+Well, anyhow, I'll keep letting
+you play in the Explorer.
+And if you didn't get a spot,
+you can just download it and set
+it up on your own server.
+Again, it fully works with Codex.
+We made sure it's a one-click
+to get your subscription included
+and you can play along.
+So, we've been showing you how a small
+team can work with agents together.
+And as more and more teams started using
+agents, we ran into another question.
+How do you run, configure, and secure
+them all across an organization?
+And we definitely felt that pain.
+That's why we built
+an enterprise control plane.
+And today, we are open sourcing it.
+And with that, I'm going
+to bring up Kevin Lin.
+He's going to show you what we built.
+Hey, Kevin.
+Hi, everyone.
+I'm Kevin Lin.
+And I lead OpenClaw
+Enterprise at OpenAI.
+Now, OpenClaw Enterprise,
+or OCE in short,
+introduces an open source
+control plane to OpenClaw.
+It makes OpenClaw multi-tenant
+and adds governance and hard security
+boundaries to agent deployments.
+Now, we believe that a secure
+runtime is a necessary foundation
+for bringing persistent agents
+like dots and OpenClaw to everyone.
+And so, today, I'll walk you through
+some of the security fundamentals
+that we've built into the platform.
+First, we enforce hard
+boundaries between trusted
+and untrusted workloads.
+This means that deterministic
+code runs in a separate container,
+and in our case, a separate cluster
+from where the agent is executing.
+This prevents agents from
+changing their runtime.
+Second,
+we constrain what agents
+can do with sandboxing.
+We control their network access, what
+files they can write to, and what
+repositories they push to.
+This lets us give agents
+useful tools without giving
+them access to everything.
+Next, we add model-based
+reviews on top of our existing controls.
+We use auto-review, which
+is a feature in both Codex
+and OpenClaw that uses another
+model to review the agent's actions
+and block potentially dangerous
+ones before they execute.
+And finally,
+agents run as their own identities
+with dedicated service accounts
+and configurable connectors.
+This means that agents
+aren't impersonating users.
+They are themselves persistent entities.
+They can be independently controlled,
+audited, and if needed, turned off.
+Now, it's these controls
+that have helped us scale
+our internal OpenClaw
+deployments to over 400 Claws.
+They work around the clock,
+fixing code, doing experiments,
+analyzing data, and escalating
+security concerns.
+So now, I'm going to show you
+guys what that looks like.
+This is a hard Pictionary game.
+I don't know what that is.
+Okay.
+Because we are unveiling
+OC to the world today,
+let's create a community agent.
+What you're seeing right
+now are presets.
+Presets are
+configurable agent bundles
+that an organization can configure
+so that agents are launched
+with your security best practices.
+Let's call our agent Fred.
+For Fred, we're setting up
+with the Codex harness.
+We're going to give him
+a service account.
+We're going to give Fred
+read-only access to the code base
+so that he can answer questions.
+We keep our roadmap on Linear.
+So let's give Fred
+access to Linear.
+But let's make sure that if
+we're writing to Linear,
+that those go through team approval.
+Next, let's make sure
+that Fred is in Slack.
+I already have a Slack
+app and bot token.
+And because this is a preset,
+Fred is already configured
+with the necessary channels.
+So let's bring Fred forth.
+Now, while Fred is coming online,
+I want to switch to another
+agent that we have, Cooper.
+So Cooper is
+a software agent.
+And think of him
+as a persistent teammate.
+He helps us triage issues,
+solve bugs, and merge
+features end to end.
+Now, the OCE console,
+it's functional, but it's a bit plain.
+So let's spice it up.
+Cooper, can you add
+a heat map
+of token usage
+per agent to
+the dashboard?
+Now, software agents are
+one of the most popular
+agents that we deploy.
+inside of OpenAI.
+In fact, if you've submitted a Codex
+issue any time within the last
+month, there's a good chance
+that an OpenClaw has triaged it,
+reproduced it, and in many
+cases, merged it end to end.
+All right.
+So Cooper is working.
+And a lot of what Peter talked
+about today is the future
+of work and multiplayer.
+Every agent that is deployed
+with OCE comes with that built-in.
+So here is Cooper's dashboard.
+And I can open up
+an authenticated session
+to Cooper's team server.
+Let's see.
+Okay.
+Perfect. Now, here you can see
+the conversation I just had, and you
+can further steer the conversation
+to precisely define how
+you want the feature to be created.
+Make sure dashboard
+has
+custom color palettes.
+And teammates can also sign
+into the same session to either
+follow along or steer it.
+I mean the web console.
+All right.
+Now, while Cooper is working,
+I think Fred should be ready now.
+So let's check out the community page.
+Hi, Fred.
+What are we launching
+today?
+It's not every day I get
+to message this Peter.
+So I'm wondering what
+other messages I can send.
+Right now, what Fred is doing is
+he's looking for Linear issues,
+looking through Slack, and then
+using that context
+to answer this question.
+Ideally, in the next 10 seconds,
+or we're going to work,
+or we're going to go onwards.
+We have a big Linear board.
+Okay. We got a reply.
+Oops.
+I think we have some plug-in issues.
+But it does look like
+we got
+the OpenClaw release notes.
+Well, we have a Linear issue for today.
+And the issue for today
+is launching OCE.
+So, Fred, please do better next time.
+I'm going to recap.
+So, today
+we are launching OpenClaw Enterprise.
+This is a vendor-neutral open
+source platform for managing
+and deploying agents.
+Similar to how Kubernetes was
+the standard for deploying containers
+in the cloud, we envision OCE
+to do the same for agent deployments.
+We first started OCE at OpenAI,
+and we donated it to the OpenClaw
+Foundation early in its development.
+There, we've continued building it
+with partners like Red Hat and NVIDIA.
+And today, we're opening
+it up to the world.
+Try it out.
+Tell us how we can make it better.
+And help us build a secure
+foundation for agents.
+Thank you.
+Back to you, Peter.
+Hey, thank you, Kevin.
+I want to come back
+to where we started.
+OpenClaw can use Codex under the hood
+because Codex is open source.
+We also expanded the Codex
+open source program so more
+people have access to AI.
+And through Patch the Planet, we're
+working with groups like Trail of Bits
+to make open source more secure.
+Open source is critical infrastructure,
+and part of the ambition here is
+to fix a whole class of vulnerabilities.
+That's how we're building
+OpenClaw with OpenClaw today.
+If you're trying shared agent
+workflows with your own team,
+especially larger ones, I'd love
+to hear what's working and what isn't.
+Come find me after the talk.
+Thank you.

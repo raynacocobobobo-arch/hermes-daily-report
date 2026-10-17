@@ -1,0 +1,78 @@
+UP主：OpenAI
+标题：GPT-6 Astra with Peter Gostev
+链接：https://www.youtube.com/watch?v=A4BUbpKdenc
+
+I value this so much that I don't
+need to babysit it because I only have
+so much space in my head and I
+cannot think of every single task.
+How did you think about what
+to evaluate Astra on?
+If I give it like a medium difficulty
+test, any model can do it or so
+many models can do it now.
+So I have to think of what's
+the hardest thing I can push it on
+and make it work for as long
+as possible and really explore the space.
+Yeah, so what I've been
+trying to do, and I really like this
+kind of 3D visual tasks, but I like
+them because I can visually track
+how capabilities of the models improve.
+And now what I've built here is
+a voxel 3D
+representation of historic London, which
+goes across the different eras,
+medieval London, Tudor London,
+and it transforms all within the same map.
+But here I pretty much gave
+it maybe a couple more prompts
+in terms of I wanted to go
+overhead so it looks like GTA 2.
+I would say with Sol,
+one thing that felt a little bit
+off is that anytime you give it some
+kind of criticism or feedback or something
+like that, it would instantly say,
+oh yes, that's great.
+I actually thought exactly the same thing.
+You're so right.
+In here, I would say with Astra,
+it really felt kind of a shift.
+I didn't feel anything
+annoying about the communication,
+but it felt much more natural, like
+a human would push
+back or accept
+that it made a mistake.
+So the one problem I keep trying
+to solve is I've got a little
+app that I've vibe-coded
+probably since the days of,
+I know, GPT 5.2 kind of time.
+So the code is kind of bad
+and it's accumulating over time.
+And I think I've got probably
+like 150,000 lines of code in it.
+And I keep trying to migrate
+it or improve it.
+With 5.6, it worked,
+but I had to do a lot
+of debugging later to align it.
+But with Astra, it pretty much just
+worked and I didn't need to do anything.
+So for me, that jump in reliability
+that I don't need to babysit
+it with every single step,
+that's a big deal.
+So what are you bound by now?
+So CPU
+is surprisingly the big one.
+I had to move things off of my laptop
+to a Linux box.
+So it works remotely,
+it's plugged in, battery doesn't die.
+So that's the big deal now.
+Yeah, it really feels
+like the model's grown up.

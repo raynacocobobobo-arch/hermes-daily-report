@@ -1,0 +1,88 @@
+UP主：OpenAI
+标题：Use ChatGPT Work to build custom creative tools
+链接：https://www.youtube.com/watch?v=D-QteDHdHes
+
+I am a creative guy. I'm not a software
+developer. I actually don't code, but I
+built all of this. I mean, from the tool
+to all this art to this website. Now,
+for this one, I wanted to come up with
+kind of a fictional scenario. So, I'm
+imagining I'm a marketing manager for a
+company called Nova Electronics, just a
+fictional company. And we're launching a
+new line of headphones called the Nova
+One. We have creative teams, they're
+stretched thin, budgets are tight,
+people are, you know, on other projects.
+So, what do we do? Now, this is a case
+where I think Chat GPT work can really
+shine because you can start to build
+custom tools for you get that are very
+bespoke to the needs at hand. So, So, in
+this case, I want to show you how I
+built a tool to create assets
+specifically for this Nova One launch.
+So, you can see how I started. I'm a
+marketing I'm on the marketing team of
+Nova Electronics, and we're building a
+new line of headphones. And you can see
+I asked for it. I want to be able to
+iterate things like out-of-home, social
+media, and print, and so forth.
+But importantly, I also wanted to match
+our style guide and our brand book. So,
+you can see here, I actually attached
+our brand book as a PDF. And then last,
+I included a wireframe of what I wanted
+the actual tool to look like, just to
+kind of guide it. Now, do you want to
+see what it created? In In a whole,
+let's see here, 7 minutes and 13
+seconds, I could take and move my copy
+around. I can adjust the scale with
+control points, but this is what I think
+is so cool. I can actually bring in my
+real-time my my essentially the actual
+headphone products. I can scale it. And
+so, now what I have is a full layout
+tool that can actually build all the
+design layouts. I can hit generate, but
+let me just show you some of the
+generations that I was able to create.
+And so, now I have literally a
+production tool that I could use to
+very, very quickly accelerate a lot of
+ideation and get a lot of visuals in
+front of my team and then also my team
+leadership. Now,
+they also want to see a website. So, go
+back here. I have a In the same Nova One
+project, I now have another
+conversation, if you will.
+And so, in this case, you can see I'm
+asking for a website. So, you can see
+here, I'm just asking for things like,
+you know, okay, I want to have a
+real-time 3D rotation view of the
+headphones. Uh here's a color selector.
+And then lastly here, um I gave it uh
+some of my basically an art pack, a
+media kit, if you will, of of some of
+the art that I really liked that I
+created. So, wow. So, it took my design,
+that wireframe, and turned it into that
+that kind of style. Here's our color
+selector.
+Um you know, basically here's that
+real-time 3D viewer. But, I built all of
+this. I mean, from the tool to all this
+art to this website um in basically a
+day.
+And I think that's what's so amazing is
+as your creative ideas, whatever they
+are, you can now envision them and bring
+them to life. And I think what's so fun
+for me as a creative is that that just
+means there's new ways to talk to
+customers, reach new customers.

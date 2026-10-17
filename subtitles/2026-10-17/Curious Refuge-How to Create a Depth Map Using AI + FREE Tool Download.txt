@@ -1,0 +1,95 @@
+UP主：Curious Refuge
+标题：How to Create a Depth Map Using AI + FREE Tool Download
+链接：https://www.youtube.com/watch?v=BFsVW1DrLng
+
+If you do a lot of AI film making, then
+you know how important it is to have a
+depth map whenever you're working with
+your footage. So, in this video, I'm
+going to show you a very quick way to
+create a depth map so you can use it in
+your next project. Now, if you're not
+familiar, a depth map is basically a
+black and white representation of the
+depth inside of your scene. Sometimes AI
+tools do a better job in staying true to
+your original reference footage if you
+use a depth map as opposed to just the
+original source video. So in order to
+create a depth map, you have two
+different options. The first option is
+to use a very easy online tool. So I'm
+using Fall here, which is one of my
+favorite AI aggregators, but you'll also
+find depth anything on other websites
+like replicate. you can just Google it
+and find it for yourself. So, first
+things first, we need to input our
+video. So, let's select add video and
+click upload. And for our video
+reference, I have this graybox footage
+from a recent production that we were
+working on. We'll go ahead and bring
+that inside of Fall. Now, for the model,
+we will select VDA large to get maximum
+quality. And when you're ready, you can
+go ahead and hit render. The whole
+process takes just about 60 seconds. And
+that will give you a video that looks
+like this. So yeah, that's great. We now
+have a depth map that we can bring into
+our AI tool. But the second option that
+I want to show you is actually a free
+option. So this is open- source code
+that you have the ability to run locally
+on your machine. Now, if you're like me
+and you like working on a Mac, it can be
+a bit more challenging to run some of
+these open-source code pieces. So, I do
+want to let you know that there is a
+free download below this video that will
+allow you to run this locally on your
+machine if you are operating on a Mac.
+All you have to do is download the file
+and doubleclick on that command file.
+Now, I should note that if the file does
+not open, you can go to the security tab
+on your Mac and go ahead and click open
+from there. That will give you this very
+boring looking application, but all you
+have to do is drag and drop your
+original reference footage and go ahead
+and click enter and it will render on
+your machine completely for free. So
+that's how you create a depth map. And
+now that you have that depth map, what
+you can do is go to any online
+aggregator. I'm using Magnific right
+now. I have Cance 2.5 selected. And I've
+imported our depth map video. I've
+imported a single frame that embodies
+the overall look and feel that we want
+from the final video. And then I
+uploaded our original reference footage
+just so we can understand what the
+person's face looks like. And for our
+prompt, I said, "Use image one as the
+starting frame and then use the depth
+map video as the motion reference." And
+then we described what the scene is
+going to be and also asked for no music
+or ambient sound effects. And when
+you're ready, you can go ahead and click
+render. And that gives us a video that
+looks like this. And frankly, it's
+pretty darn impressive. Now, if you want
+more tips and tricks like this, be sure
+to check out the Curious Refuge
+community. We're a group of artists from
+all around the world who come together
+to share the latest AI workflows, and we
+would love to have you inside the
+community. Thank you so much for
+watching. Be sure to like and subscribe
+if you want more videos like this in the
+future.

@@ -1,0 +1,324 @@
+UP主：Theoretically Media
+标题：OpenAI Declared AGI & World Models Get WILD!
+链接：https://www.youtube.com/watch?v=_uZTCOfaSUk
+
+So, things are getting pretty nuts on
+the LLM front with OpenAI basically
+declaring AGI because Astra or GPT-6 is
+here, kind of. But, the numbers are
+pretty impressive. The question, of
+course, is can you play with it? And the
+answer to that is soon. But, in the
+meantime, let's take a look at what has
+been announced because it certainly is
+eyebrow-raising. Plus, we've got some
+really interesting stuff coming out of
+the world model and real-time video
+space and some wild examples of what
+people are building with MiniMax H3.
+Kicking off the hype train was certainly
+in full swing for the release of
+OpenAI's Astra or GPT-6. What we What we
+ended up getting was a bunch of press
+releases. Although, those press releases
+were pretty fascinating with OpenAI's
+Greg Brockman calling Astra a
+generational leap during a press
+conference and ending with a mic drop by
+saying, "Welcome to the AGI era." Now,
+Brockman also did state that the
+definition of AGI should be left up to
+users, but it is worth noting that this
+is OpenAI's largest training run ever
+utilizing over 100,000 GPUs at the
+Stargate site in Texas. Now, what's I I
+kind of really interesting about this
+release is that it didn't really come
+with a lot of OpenAI fanfare. In fact, a
+lot of it just the initial wave of it at
+least just came from embargoed press
+releases. In fact, it was a good 2 hours
+after that initial wave of press that
+the official OpenAI blog post on GPT-6
+finally came out. So, the blog post
+itself is actually a pretty pretty well
+put together. I do kind of wonder if
+Astra actually built it itself. We do,
+of course, get our typical, you know,
+benchmark graphs. The eye-opening one is
+the Arc AGI-3 test here, which is a test
+that is specifically designed to be very
+difficult for AI. And here is where
+Astra ended up scoring a reported 99.9,
+uh, well above, uh, Opus 5's, uh, 30.2.
+And interestingly, GPT 5.6 Soul only
+scored a 7.8 on this test. Now, it is
+worth noting that GPT 6 did take this
+test, uh, with the assistance of, uh,
+their response API harness. So, you
+know, the numbers might have been juiced
+a little bit. That said, I mean, the
+average human apparently scores
+on the same test. So, uh, well, I mean,
+clearly, the machines have won, harness
+or not. Now, in addition, OpenAI is
+flexing GPT 6 as the world's best
+computer use model. Uh, and they
+provided some examples. Here it is
+rocking through some contact forms, uh,
+which all of which is yes, yes, yes to
+all of this. This is what I want my AI
+agents to be able to do. Now, that said,
+a little bit tricky here. This is all
+the stuff that you got to kind of keep
+an eye on, because what we saw there was
+actually 4x sped up. Uh, in real time,
+uh, with a apparently a different
+example here, kind of more of an Excel
+spreadsheet sort of thing, uh, you can
+see that the actual speed is a little
+more like this. And look, you know,
+again, I have no problems with this. Um,
+you know, it'd be great to set up a Mac
+Mini in the corner and, you know, have
+it cranking away on Excel files. Oh my
+god, I don't use Excel files. I don't I
+don't use Excel I don't even know how to
+use Excel. Another provided example of
+Astra going through and, uh, I guess
+reformatting a legal document, um, all
+of which is, uh, yeah. I mean, sure. I
+guess. Uh, I have no legal background. I
+can't like looks yeah, looks good to me.
+Um, but is this what Word looks like
+these days? I haven't been I haven't
+used Word in forever. It's all like
+Google Docs these days. They also
+showcased some design stuff. Uh, here is
+I obviously the before, um, and then,
+you know, after taken through, uh,
+Astra, you know, kind of gives it a
+little bit more, uh, spank. Um, yeah, I
+mean, all of which is good. Like this
+is, uh, no complaints, no notes here.
+Um, you know, after looks better than
+before. So, uh good job, Astra. And we
+did get a look at uh game development
+via a sizzle reel from uh Playco, uh
+which had developed out kind of just
+kind of like a Mario Kart type racing
+game, um
+you know, taking us through the
+iteration process utilizing Astra. And
+it certainly does look very good. I
+mean, my question, of course, is how
+quickly and efficiently it actually
+ended up building these games. You know,
+it's a sizzle reel, I get it. It's
+filled with, you know, sizzle reel
+buzzwords like uh "Iterate quickly" and
+"Less user interventions." But look, I
+also have no doubt that Astra probably
+does like eat the lunch of something
+like GPT-4 or 5 when it comes to a task
+like this. Um so, uh yeah, I it it looks
+it looks pretty good. They also
+showcased actually like a pretty cool uh
+Unreal Engine 5
+output uh in which uh I guess Astra had
+uh designed the house in Blender uh and
+then run it through Unreal. So, um I
+mean, all independently. So, that's uh
+pretty impressive. I say all of this as
+a complete Blender idiot, as you know, I
+as I've famously said. Uh I guess it's
+when we get access to GPT-6, I'll
+definitely have to take myself through
+the uh the Blender donut tutorial as we
+did with Claude not too long ago. All of
+which is to say, yes, in the circle of
+the world's most powerful models, uh it
+does look like a full revolution has
+come to OpenAI. So, why is it not in
+your model picker? Well, this is
+becoming an unfortunate trend is that
+GPT-6, Astra, will first be released to
+their network of trusted testers or
+Project Daybreak. Although they do
+indicate that in the coming days, Astra
+will be released to the Pro, Plus, and
+Enterprise and API customers. This is
+something that is very much becoming par
+for the course for these ultra-powerful
+models. So, while all of this is very
+exciting, uh you know, I'm truthfully a
+little annoying that we have to wait.
+But again, still very exciting. I do
+have to say, I mean, I do have my own
+personal doubts on the AGI-ness of it
+all. I mean, granted, that's neither
+here nor there, and for me it's for all
+of us it's going to be more dependent on
+vibes, and of course, you know, OpenAI
+does have an IPO to worry about.
+You know, there is no question though
+that GPT-6 is going to be or is a very
+good model. GPT- 5.6 Soul is a very good
+model. So, I mean, I have no reason to
+doubt that 6 is going to be better. 6 is
+more than 5.6. So, the real question for
+me is more based around cost and
+efficiency. I mean, obviously earlier
+this week Anthropic released Claude
+Fable 5.1,
+which I will call the most powerful
+model publicly available, you know,
+considering that GPT-6 is not. But as
+has been highly documented and in my own
+findings is true, Fable 5.1 A costs a
+lot, and B rips through tokens very
+quickly. I know that for a fact because
+on day one, I wasn't paying attention,
+had it on Ultra code, and burned through
+about 40% of my weekly quota on like one
+task. So, if GPT-6 can do more for less,
+well, that's a good thing, AGI or not.
+If it costs like three times as much as
+Fable 5, I mean, well, I mean, maybe not
+so much. So, I'll be keeping an eye on
+GPT-6 after it finally releases. I'll
+put it through its paces. I guess in the
+meantime it's back to yelling at Fable
+5.1 to stop burning all my tokens and
+yelling at Opus to talk like a human.
+Sliding over to the creative side of
+things,
+kind of the biggest news for me this
+week was the announcement of World Labs
+Atlas. Atlas is a multimodal
+autoregressive diffusion transformer,
+which I know is a lot to say, but I
+mean, basically it boils down to you can
+take an image, step inside of it, and
+explore it in as a 3D world. So, the big
+jump for Marble is clearly image
+fidelity. Marble was very cool, but it
+was prone to leaving a lot of like those
+Gaussian spikes all around, which
+usually meant like grabbing a frame and
+then you would have to clean it up in
+Nano Banana. What's really exciting
+about Atlas is the space-time
+simulation, which I know sounds very
+like Holodeck Star Treky, but basically
+it allows you to feed in video and then
+go exploring around in there. So, yeah,
+I mean it's early access now, but I am
+talking to the World Labs team in the
+next few days and I should be getting
+access to it. So, I'll have a full round
+up and walk through on it coming up next
+week. As another quick hit, Runway is
+releasing Solaris and if that's named
+after the Tarkovsky movie, props.
+This is a very interesting idea that
+essentially allows the model to I mean
+generate interactive apps. Runway
+themselves are calling this an interface
+world model. The obvious use case here
+is for like interactive website type
+experiences, but you know, honestly when
+I look at this I I can also kind of see
+the beginning of what could be an
+entirely new interface for video
+in-painting and compositing, you know,
+that kind of thing only everything
+happening live and like zero rendering.
+And breaking just as I'm recording this,
+Runway have introduced GWM worlds too,
+you know, their interactive world model.
+So, this one's running at 720 at 24
+frames a second and audio at 48K, which
+is kind of a big deal. That's something
+that most of the world models actually
+overlook. Take a quick look at it in
+action.
+>> Excuse me, do you know where the central
+clock tower is?
+>> Just head straight down this path for
+two blocks, then take a right at the
+main crossing.
+>> Thank you so much. Have a great day.
+>> [snorts]
+>> This one just came up while I was
+recording this, so I will definitely
+circle back to dig into it more. Now,
+sort of like bridging the gap between uh
+world models and our next section on
+Minimax H3, uh there is H3 world, a
+open-source project that essentially
+turns uh Minimax H3 into a world model.
+Now, I haven't had time to test this one
+yet, uh but given that it's a, you know,
+it's a video model that has been hacked
+into a world model, I would expect a lot
+of the typical world model problems, uh
+namely permanence, you know, the thing
+where you you look at an object, you
+turn around, and uh you turn back, and
+then, you know, there's no object
+anymore. What I'm really curious to see
+is whether using H3 solves the like the
+blobbiness problem that we run into a
+lot of times with these world models,
+where the you know, the longer or
+further you get from your initial uh
+spawn-in point, uh the more, you know,
+it'll blobby the world gets. It's
+definitely something that we saw a lot
+in Google's Genie 3. When I get a
+chance, I'll fire this up and see how it
+looks. In the meantime, if you want to
+check it out, the link to the code is
+down below. Finally, rounding out with
+another really cool open-source project,
+uh Blendy built uh Netflix-only
+Minimax H3 Max. Yeah, this is
+essentially an interactive wrapper for
+uh Minimax H3 Max real-time generations.
+Um
+I I admittedly, the shows are a bit on
+the basic side, but I think that what
+this is really showcasing is the level
+of like personalized interactive video
+that real-time is opening the door to.
+Now, admittedly, I don't think that
+Netflix CEO Ted Sarandos is like losing
+sleep over Blendy's project, but I mean,
+I do think that we're seeing the
+beginning of like what could eventually
+end up being a tile that that sits on
+your smart TV uh that is personalized to
+you with live-generated video. Not only
+that, but given the interactive layer
+that we've been seeing from this
+explosion of real-time over the last
+like week? Like it's it's been a week.
+Um you know, you can think about
+something like this where you choose a
+show, you start watching it, and then
+you're you're able to control it as
+well. Now, granted, that's not happening
+tomorrow, but given the speed that
+everything's been happening like a year,
+2 years, I mean, well within the realm
+of possibility. Rounding out, you know,
+it's funny that AI summer didn't kick
+off with the heatwave that a lot of us
+were predicting. Uh but you know, given
+everything that we're seeing now, it
+looks like it's going to be a very
+exciting AI fall. So, get your pumpkin
+spice ready to go. Spooky season is
+going to be pretty lit. As always, I
+thank you for watching. My name is Tim.

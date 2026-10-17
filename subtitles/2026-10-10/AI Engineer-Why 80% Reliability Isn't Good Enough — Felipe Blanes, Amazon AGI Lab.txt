@@ -1,0 +1,392 @@
+UP主：AI Engineer
+标题：Why 80% Reliability Isn't Good Enough — Felipe Blanes, Amazon AGI Lab
+链接：https://www.youtube.com/watch?v=Emo5FGGY-wM
+
+[music]
+Can everybody hear me? Okay, perfect.
+So, first thanks for joining everyone.
+Uh, my name is Filipe and I am a member
+of technical staff at the Amazon AGI
+lab. Um, as part of my role, I help us
+to build the next generation. I manage
+the programs to build the next
+generation of products our lab is
+building. And today I will talk to you
+about designing evolves that earn
+customer trust.
+Before talking about evolves, I just
+need to give you some context about what
+our lab was doing the past year. So
+everything started in March last year
+where we launched our Nova research
+preview. for context like Nova is a tool
+that we build as part of our lab and
+it's a tool that helps you to build
+browser agents. So basically everything
+that you do in a web browser you can use
+Nova to automate those tasks. Uh and as
+part of the research preview our main
+goal was we wanted to ship a product to
+get as much feedback as we could from
+our customers. Uh in March we launched
+that. Then in July we made one
+additional improvement in our product
+which was basically develop a whole new
+developer experience and this was
+because basically during the first
+couple months we noticed like some gaps
+in the developer experiment experience
+and we wanted to make sure customer had
+the best experience building agents.
+Then in December we finally launched our
+service on AWS. So today Novax is a top
+tier service on AWS that anyone can use
+to build production level agents and
+during this period I was basically
+responsible for the customer enablement
+piece of that. What's customer
+enablement just for context? It's
+basically I was working daytoday with
+all of our customers to understand what
+was their problem and how we were
+helping them to solve that. So that was
+my main uh role uh during last year.
+And then let's go to uh the problem that
+we will be discussing today. So I like
+to call this is the benchmark illusion.
+So you all working on AI. You are
+probably working on and building things
+based on benchmarks, right? It could be
+public benchmarks that everybody's using
+and everybody's trying to optimize the
+products on that and also benchmarks
+that you are creating your own synthetic
+data that you are creating and you are
+evaluating your product. Uh and the main
+goal here is you want to optimize right
+you want to be the best as you can there
+in those benchmarks
+but then when you ship that to
+production and your customers start
+using that what happen is it's this
+right they start seeing problems and
+it's basically everything that you were
+not expecting them to do they try to do
+that and they break your product
+and this is happening because you
+basically most of us we are doing we are
+working on evals that that are static.
+So what are static evals? Basically
+let's talk a little bit about what's the
+standard development process of a
+product right first thing that you do
+you receive uh the requirements from
+your product chain and you start
+building right everybody does that I
+hope then when you have a product in a
+good shape the next thing that you will
+do is running your evals again public
+benchmark synthetic data that you
+generated and you optimize for that when
+you start feeling comfortable
+you're like okay now I will ship that
+and you ship that to the customers but
+if you have a static evals what's the
+only thing that you can do after that
+it's basically this is hope right you
+just hope your evals were reflecting
+exactly what your customers would do
+with your product and if not it will
+start failing right and this is the gap
+this is exactly what we will be
+discussing today and what we were doing
+in our lab to solve this problem. And
+just a spoiler, so this is not about
+better benchmarks. It's about closing
+the customer loop. So what we want you
+to do here is get the feedback from your
+customer and close the loop.
+So with that in mind, what we did in our
+lab was basically propose an eval
+flywheel. So if you are not aware about
+the terminology but flywheel is
+basically a loop that you keep repeating
+like all the time and the first step of
+this evolve is define success and very
+important here. So define success here
+it's not what you think it's success
+it's what your customer think it's
+success. Okay.
+So next step as soon as you understand
+what your customer really needs and the
+problem you are trying to solve you go
+to capture signals and we as engineers
+what's the first thing that comes to
+your mind it's like instrumentation
+right let's get metrics let's get data
+as much as you can about what your
+customer is doing but one very important
+piece of that that we are missing is you
+should talk to your customer like talk
+to your customer go schedule meetings uh
+visit them and understand exactly what
+they are trying to do. Your data might
+be a little bit misleading. You might be
+missing exactly what's the problem that
+your customer is trying to solve.
+Third step, you go to diagnose gaps.
+That's easy. That's basically you get
+all these signals from customers. Could
+be instrumentation but also your inputs,
+your insights from the meetings that you
+had with them. And you just start
+categorizing those. And when I say
+categorizing there are basically very
+high level but there are three things
+that you could find from those
+discussions. First it's basically inputs
+about your model. So where your model is
+failing there and this feeds into evals
+right to your model. The the second
+point it's inputs to your engineering
+team. So basically what uh is the gap in
+your hardness that you should fix. This
+is more traditional bug fixing. And the
+third one is also on the product side.
+So what are you missing in terms of
+product like do your customer understand
+exactly what your product is trying to
+solve? Is your product like properly
+positioned? So that's very important. So
+as soon as you have the gaps di the gaps
+categorized you just feed that into
+decisions. So feed that into decisions
+is basically you prioritize that and you
+ask your science, your engineering, your
+product team to address those. That's
+basic, right? And then you just continue
+repeating this loop over and over.
+So with that in mind, like in our lab,
+we repeated this flywheel several
+several times since March last year. And
+what I also noticed is basically as part
+of my journey as a product, each of my c
+each customer will have their own
+journey using my product. What that
+means? So my customer evolves as they
+use my product, right? So there are
+basically four things that you can learn
+while your customer use your product.
+The first one is that's the first thing
+that you will do the first time that you
+meet a customer. It's basically use case
+discovery. So what you want to do here
+at this first step it's basically
+understand what's their problem. So
+what's the problem of your customer and
+make sure what you are building solves
+that. Right? Then after that you will
+have couple early adopters. Right? from
+these early adopters the main signal
+that you want to get. It's basically
+what's possible. So that's the time
+where customer will try crazy things.
+You will find things that you cannot
+help them at at all, right? But you will
+also find things that your customers are
+using your product to solve and many
+times you will be surprised because it's
+something that you would never imagine.
+Third point, this is when you start
+scaling, right? You get your early
+adopters but now you start scaling. you
+are getting more customers and you are
+able to identify some patterns, right?
+What are the patterns? The pattern is
+basically your hero use case, right?
+That's the case, that's the problem that
+everybody is using your product to
+solve.
+And last one, this is more future
+looking, but these are your product
+gaps. So when you were working with
+early adopters and also after you start
+scaling you will also be finding some
+gaps on your product. Your product team
+can help you to prioritize those and
+these are the bats for your future right
+what you should build next.
+Um as I said I work with several several
+customers during this journey and there
+are a couple learnings that I want to
+share that some might be obvious but
+others it's very very insightful. So the
+first one is the the trust cliff that I
+I like to call. So what's the trust
+cliff? So imagine you build a product,
+you are ready to ship and you and you
+measure the reliability of this product
+and you found 80% reliability.
+That seems fine, right? You're like,
+okay, I can give that to my customer and
+they they can start using it, right? But
+what your customer thinks when you say
+you are 80% of reliability is I cannot
+trust this product.
+I cannot trust. Uh and why? Because when
+you show 9 80% reliability, what they
+will think is oh okay so if it's 80% I
+still have to monitor this agent. If
+they fail I will need to do some manual
+work. So in fact it's actually more work
+for me not less work. I need to build
+this agent plus monitor that and also do
+some manual work after but when you get
+to a point around 90% reliability the
+message changes to your customer and
+what they think it's okay 90% I can
+actually trust this right to handle my
+tasks and I completely hand over like a
+workflow to my customer. So it's
+basically reliability is a zero to one,
+right? Or you trust or you don't. There
+is nothing like in the middle there.
+Second learning, it's the eval
+transparency. So every time that you
+start working with a customer, you
+basically need to be transparent about
+three things that your product does.
+First thing is that's easy. Everybody
+likes to do that. So what works? So you
+basically show to your customer I am
+really good doing this. That's the level
+of reliability. You can trust my
+product. Just use my agent and it will
+give you the reliability that you need.
+Second point is these are the things
+that I'm doing to improve my product.
+Okay. So there are some things that I
+know it's a gap but I am investing time
+right now to make this better. And the
+third thing that's the tough one. Nobody
+wants to do that that it's what is out
+of scope. So you really need to be
+transparent. Like if something doesn't
+work for your product, just go ahead and
+tell your customer. Don't let them try.
+Otherwise, like there are so many tools
+in the market right now that if you do
+some if you show something for them that
+doesn't work, they will just forget
+about our product and they will move to
+the next. So be transparent.
+And the main learning here is
+transparent on product limitation
+increase trust more than higher
+benchmarks. That's a very interesting
+finding, right? Be transparent about
+what your product is capable of doing
+and in more important what's not capable
+of. That's how you earn customer trust.
+Third learning is if you work work very
+close with customers, you might find a
+lot of use case that you would never
+expected. So some examples here is
+Amazon Leo. It's the satellite internet
+satellite company from Amazon. Working
+with them, we actually learn some inputs
+uh about creating features to do caching
+of trajectories. So instead of doing
+inference all the time that they use our
+product, we cache trajectories. If it
+fail, we just fall back to the model. So
+we optimize the cost for them. Second
+learning is with Herz, the car rental
+company. So they were also using our
+product for QA automation and we learned
+that as part of their company they had
+some QA engineers that were very
+technical and were capable of building
+like scripts with Python and other
+coding languages. However, some
+technical uh some people from QA they
+are not that technical. So that was the
+input that we needed to actually build a
+whole non-technical experience for our
+product that would enable more customers
+to use it. Last one, this is a startup
+called Sol. Solar is basically a RPA
+company. If you are not familiar with
+the term, RPA is repetitive process
+automation and they offer tools to
+automate process for other companies. So
+imagine the variety of use cases that
+they might have. It's a lot of different
+use cases. And what we learned from then
+is we could give some additional
+flexibility in our product for them to
+customize especially the actuation stack
+of our tool. The learnings here are less
+important than keeping in mind that you
+will learn a lot about what your
+customers is trying to do here, right?
+and what should be the next features you
+should build for your product
+and then like running this flywheel
+several times we came up with four
+principles for this flywheel.
+First one is derive eval uh eval
+scenarios from production not
+imagination. So again like creating
+synthetic data might be very important
+at the beginning of the process but as
+soon as you start getting customer
+signals make sure that feeds your eval
+second categorize into actionable areas.
+Again product issues, engineering
+issues, research issues, make sure you
+prioritize that well to your team. Third
+one shared capabilities honestly. Again,
+transparency builds trust. Make sure you
+share to your customer, especially what
+your product is not good at.
+Third one is run the flywheel as fast as
+you can. So here it's basically the
+faster you run that flywheel, faster
+your product will improve, right? That's
+almost obvious, right? But keep it that
+in mind like run your flywheel as fast
+as you can. And then like with those
+four principles what you will see is uh
+your evals will should get smarter every
+week. But very important if you are not
+seeing your evals getting smarter every
+week that means your evals are getting
+stale. Okay.
+And just to finalize the talk here there
+are two ideas that I want you guys to
+take home. Just two.
+So first idea is eval must reflect what
+customer cares about not what you think
+they care about. Okay. All about getting
+customer input here and make sure your
+evals reflects what's their problem.
+Second is evals are not built once. It's
+a flywheel that evolves as your customer
+evolves.
+One note here, remember that customer
+journey, as your customer moves through
+that customer journey, what they are
+trying to do with your product will also
+change. Like it will get more complex,
+right? So your evals needs to be up to
+date and reflecting exactly what your
+customer is trying to do right now.
+And with that what you have to do is
+simply like build the loop ship evolves
+that matter and then you earn your
+customer trust. And that's all that I
+have for today. Uh thanks very much for
+joining. Uh I will stay in our booth
+after for more discussions. But again
+enjoy the conference.

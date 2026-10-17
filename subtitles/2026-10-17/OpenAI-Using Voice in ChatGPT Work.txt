@@ -1,0 +1,113 @@
+UP主：OpenAI
+标题：Using Voice in ChatGPT Work
+链接：https://www.youtube.com/watch?v=_Gd9yzAc-WI
+
+Can you help me knock out some of
+my to-dos?
+Also, can you put on some music?
+Let me pull that up.
+All right, I see your list.
+Dev Day activation idea,
+developer homepage copy,
+weekly DX agenda, and
+the conference speaker shortlist.
+Which one do you want to tackle first?
+Let's start with the Dev Day activation
+ideas. I've had a couple ideas,
+and I'm hoping we can brainstorm them
+together. One idea is controlling Codex
+from a Game Boy.
+Another is a booth where people use
+ChatGPT and image generation to design a
+custom T-shirt and
+get it printed right there.
+I also like the idea of something
+collaborative, where everybody
+contributes to the same game.
+What do you think?
+Those are all strong.
+Can you start working on a visual pitch
+deck? On it,
+let me take a first pass.
+Here's the difference between dictation
+and ChatGPT Voice.
+Dictation turns what I say into a
+prompt. Voice is an ongoing conversation
+that stays with me while I work.
+It can see my screen when I ask,
+talk through what I'm working on with
+me, and keep working in the background
+while I switch between apps.
+You can start new tasks or
+check in on existing ones.
+You can start a conversation from the
+real-time voice button or the hotkey.
+And once it's running,
+ChatGPT stays with you as
+you move between apps. It sounds like
+the DX team is planning an off-site.
+Do you see what I'm looking at?
+One sec.
+Yes, I see that. So
+the off-site in Paris is
+August 26th through 28th,
+starting Wednesday morning and
+ending Friday afternoon.
+Voice can use its own on-screen context,
+connected apps, and
+can gather the other context it needs
+for tasks in the background.
+Here, it can combine the Slack requests
+with my calendar. It can also use the
+context from Gmail or
+other connected tools without making me
+navigate through every app myself.
+Do you want to come back Friday or
+Sunday? I think I'd prefer to stay for
+the weekend. Can you check what I have
+going on Monday and Tuesday?
+So Monday the 31st of August is clear,
+no events. Tuesday the 1st of September
+is open until 4 p.m. when
+you've got marketing and
+legal office hours and
+also AI tooling demos and happy hour.
+So if you're back Sunday,
+you've got plenty of buffer.
+Great. In Navan,
+can you prepare the flights and
+hotels so I arrive on Tuesday and
+get back on Sunday afternoon or
+early evening? Don't book anything,
+just take it to the final review step.
+Sounds good. I'll tee it up and
+stop before any purchase.
+The deck is ready too.
+We can look at it anytime. Yeah,
+can you open the deck in Chrome?
+I can move on while the tasks work.
+When something is ready,
+a voice brings it back, and
+I decide whether to redirect it,
+share it, or
+take it to the next step.
+This looks great. Can you send it to
+Romain on Slack?
+The Dev Day pitch ideas deck is sent.
+Awesome. And it looks like my travel to
+Paris is ready to be booked.
+Yeah, it's all staged and
+waiting in Navan. Nothing's booked or
+charged. Flights and
+hotel are ready for your final review
+clicks. You should see the two tabs.
+These look good to me. I'll take it
+from here. I can keep one conversation
+going, talk through what needs to
+happen, and send work to the right task
+while I stay in flow.
+That's ChatGPT Voice.
+The next time you need ChatGPT,
+you don't have to stop what you're doing.
+Just start the conversation and
+keep working.

@@ -1,0 +1,188 @@
+UP主：The AI Advantage
+标题：ChatGPT Plugins Finally Work!
+链接：https://www.youtube.com/watch?v=cqYLBYenBA0
+
+Chat GPT just looked at my schedule, my
+calendar, found the best opening, and
+added a 30-minute break so I can relax
+and recharge. All right, now we're
+talking. I can go out there. But
+seriously though, I didn't even open
+Google Calendar in this entire
+transaction, and these things were quite
+hard to achieve just a few weeks ago.
+You needed custom setups and da da da da
+da da. Now, Chat GPT is all you need, or
+Claude that is, okay? So, this is what
+plugins can essentially do inside of the
+new Chat GPT work, also in Claude
+connectors, but today we're looking at
+Chat GPT work as most people are using
+Chat GPT, and I want to open your third
+eye to what's possible with these AI
+tools because it's unbelievable. So,
+here's the deal at its core. A plugin
+can teach Chat GPT a specialized
+workflow and connect it to an outside
+service. So, you can basically be like,
+"Hey, you can see my Google Calendar now
+just like my assistant or or my phone or
+my own eyes when I open it, and you need
+to be inside of Chat GPT work to do
+this, okay?" So, once you have that
+plugin set up, you can well, schedule.
+It can help me make changes. It can hop
+between other applications. You just
+need to be inside of Chat GPT work for
+this, and I know many of you will notice
+already, but these capabilities, they've
+been getting better, and I wasn't a big
+fan of plugins, and now I kind of am.
+You tab over to Chat GPT work, then you
+go to plugins down here. You say connect
+plugins. You can see already Google
+Calendar here cuz I selected it, but if
+you go to connect plugins, if it's not
+up here, you should be able to find it.
+Yeah, worst case you go to browse all
+plugins, and then in here, well, very
+worst case I have to search for it. So,
+you know, calendar. There you go, Google
+Calendar. Click that.
+Click the three dots. Okay, mine is
+already installed, but you know what?
+For you, just cuz I love you so much, I
+will de-install this. Now, I will
+install again, and you should see
+something similar to this. Continue to
+Google Calendar. I select account with
+my main calendar, and then the beautiful
+thing is these permissions are only to
+access the calendar. It's not going to
+be looking at everything across Gmail,
+etc. That's a different plugin, but if
+you want to see it, you could click here
+and see what services you're giving to
+it. These are the six. All right, I'm
+good with that. I'm going to click
+continue. And there it is. Now we're
+connected. I could try it in chat, and
+the way you do that, well, now it's
+already preset, but the way you would
+get to this from a naked chat, is you
+need to use the add button. This is a
+bit different from Claude. So, just say
+add calendar.
+There it is. This is how you would
+access it, okay? And hey, if you're
+wondering what else you could do with
+ChatGPT your work, well, I put together
+a PDF with the top 10 prompts that you
+could try today within there. And you
+can have it completely for free right
+now. First link in the video
+description. All right, back to the
+video. So, now I could ask, "What does
+my schedule look like?" And for anybody
+who's been watching the channel for a
+while, you'll know I've been an avid
+hater of these connectors, these
+plugins, because they just weren't
+reliable. You ask this type of question,
+and it was like, "Well, you actually
+don't have anything going on today." Or
+well, there's two events today, when in
+reality there's three. And getting two
+out of three things is not good enough.
+They were not reliable, okay? Now,
+several things changed. The models
+changed. They reworked normal ChatGPT to
+ChatGPT work that thinks a bit more, is
+a bit more thoughtful. The MCP standards
+underneath also changed, although I'm
+not even sure if this one is updated to
+the new one. The point is there has been
+several improvements over time, where
+ChatGPT with uh Google Calendar login a
+year ago was bad, trash, unusable. I
+told you this straight up. I didn't used
+to recommend it. Now, it just gets it.
+It knows exactly where everything is. It
+can call multiple things. It used to be
+in a way that you could call one thing
+and get that reliably, but if you wanted
+multiple, mm, messy.
+Now, you could do something like using
+voice input. Okay, every time I'm in
+meetings for more than 2 hours, put in a
+30-minute recharge block. Now, you'll
+notice that today's day has passed, but
+this is smart. This is ChatGPT work, and
+it thinks through the problem through a
+wider lens than you might have
+specified. That's how it is. It kind of
+plans for the problem and looks to
+resolve the entire category of work, not
+just this one instance. That's the
+product, okay? So, as you see, it first
+didn't just look at my day that has
+passed, but it set up a schedule task
+where it's like, "Okay, I'll review your
+Google Calendar for the upcoming 7 days,
+and whenever there's more than two
+consecutive busy meeting hours, I'll
+schedule a 30-minute busy calendar event
+titled to recharge, okay?" And it set
+the frequency to check every hour, which
+I think is totally overkill, but, you
+know, good starting point. And then, it
+just prompted itself, essentially, and
+continued and said, "Okay, recording
+block mastery da da da da da weekly ah."
+So, now it didn't change anything
+because I'm already beyond all of these
+meetings, but it set up a schedule task
+that should do this for my calendar. And
+this is the power of plugins, but with
+together with schedule tasking work,
+it's just unbelievable. Like, you could
+set up a few rules like this that just
+run your calendar. And let me show you,
+if I go here into scheduled, and then I
+would take this post meeting recharge
+one that just got created, and I say run
+now here under the three dots, there it
+is. It's going to do that for the entire
+week, and then I could change the
+frequency, right? I could say, "Hey, I
+want this to run once a week or once a
+day, maybe." There it is. Added them.
+And right there in my Thursday, we have
+the recharge block. These plugins work
+so well now that you should be thinking
+about your life in a new way now.
+Together with this ChatGPT work product
+or Claude co-work or whatever you might
+be using, you can set up a few rules
+like this for reoccurring problems that
+just solve this category of problem for
+$20 a month. And considering the fact
+that paid plans are roughly used by 1%
+of the working population on planet
+Earth, it's ridiculous to me that the
+edge you can get in terms of
+productivity and ease by eliminating all
+these annoying admin tasks, if you use
+this correctly, it's just an amazing
+opportunity, and I wanted to show you in
+this video. Nice and easy. And finally,
+I'll say, if you have a task yourself
+that you set up some schedule task for a
+plugin that you use all all time, leave
+a comment below. I really want to use
+which ones you use. Let's learn from
+each other. Let's share the love and
+share the knowledge. That's pretty much
+it. My name is Igor Pogany. I hope this
+was helpful to you and I will see you
+very soon.

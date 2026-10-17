@@ -1,0 +1,270 @@
+UP主：Matthew Berman
+标题：8 Jev Use Cases That Feel Like Cheating
+链接：https://www.youtube.com/watch?v=jGD_UR4wMJc
+
+Jev is everywhere and it is the most
+exciting AI that I have seen in a long
+time. It really does feel like the early
+days of ChatGPT where we had this thing
+that was so powerful and so raw and
+people are trying to figure out how to
+get the most out of it. And so I'm going
+to try to explain today not only what is
+Jev, but also how to use it, how to
+think about it, what it's good at, what
+it's not good at, and then I have a
+bunch of demos of things that people
+have already built with Jev. All right,
+so first what is Jev? Jev came out just
+a few days ago and it is a new type of
+artificial intelligence that is
+basically just a really awesome decision
+maker. But it's more than that.
+What really sets it apart is that it can
+make thousands, tens of thousands,
+hundreds of thousands of decisions
+incredibly quickly and incredibly
+inexpensively. And if all of this still
+sounds very hand-wavy, stay around
+because I'm going to give you some
+actual concrete details about what this
+thing actually can do. All right, so
+here is a very basic example of how Jev
+works. You have questions and you're
+structuring this as JSON. So the
+instructions or basically the prompt is
+is hot dog a sandwich? Okay, you give it
+criteria, basically how to think about
+the question, how to know whether yes it
+is or no it's not a sandwich. And so
+true, a sandwich is a food dish where a
+filling such as meat, cheese,
+vegetables, or spread is placed between
+a structural starch. False, the food has
+no bread enclosing a filling or uses
+only a single slice of bread or uses a
+non-bread wrapper such as a tortilla,
+wafer, or cookie. Then up here we can
+actually go further. What is food? And
+then we have the definition. And so with
+all of this, if we run it, is hot dog a
+sandwich? 73% true. So it would resolve
+as true here. And so, Jev is really good
+when you can describe the type of
+decision you want to make when you can
+provide really clear context and
+structured questions. If you check all
+of those boxes, Jev can be incredible
+for your use case. But, there are things
+that it's not good at. For example, it's
+not a text generation model. You're not
+going to ask it an unstructured question
+expecting an answer. For example, you're
+not going to ask it for advice about how
+to talk to your boss about something.
+It's just not going to work that way.
+And you're not going to ask it to write
+code for you, either. It's not that good
+at writing code. But, something it could
+be really cool for is if you have a
+large library of front-end UI assets and
+you want to create a front-end
+dynamically. It can actually choose from
+that UI library and put together an
+entire webpage for you. But, it just
+requires that you have a bunch of
+buttons that it can select from, a bunch
+of input fields that it can select from,
+fonts, and everything else. And then, it
+can put together an incredible website
+for you in less than a second. So, if
+you put Jev up against Fable in a game
+of chess, Fable will win. However, if
+you put Jev up against Fable in a game
+of chess with a time limit, Jev will
+most likely win just because Fable takes
+so long to process each step and Jev can
+make a decision nearly instantly. And
+so, most likely, even though Jev
+wouldn't have won the game with no time
+limit, because the time limit will run
+out on Fable, Jev will win. So, here's
+the first example. It is quite a good
+slop detector. So, if you think that a
+website or some kind of creative writing
+has been written by AI, you can actually
+have Jev check it for you. And there's
+this website made withjeev.com that has
+a bunch of different examples and demos
+of really cool things that have been
+built with Jev. So, that's where I'm
+pulling this from. So, we checked
+entropic.com and it is 26% AI slop.
+Mostly handmade, mostly humans, but
+there is some slop there and that's to
+be expected. They are obviously using
+the Claude models to write some of their
+content to say the very least. And it
+actually breaks down specifically what
+it's looking for and why it determined
+that a part of the website was slop.
+This is another incredible use case for
+Jev. I really don't understand how this
+didn't go more viral than it did. It
+only got 36,000 views, but this is by
+Kitsy and it's Unclutter, a smart ad
+plus slop blocker with Jev. It is nearly
+instant and as you can see, it works
+incredibly well. So, it auto cleans
+websites as soon as it loads from all
+ads, cookie banners, upsells, and BS
+dialogues.
+You plug in your own key and it again is
+nearly free. And I should actually talk
+about the pricing for a second. Jev is
+4.2 cents per million input tokens and
+free for output tokens. Unlimited output
+tokens absolutely free. And so, what's
+actually happening when you load a
+website is it's sending all of the
+elements to Jev with a description of
+how to determine whether something is
+spammy or annoying and Jev will make
+that decision and then it will remove
+all of those elements. So, very simple,
+very cool. The next one is actually the
+sponsor of this video, it's Zapier. I've
+been working with them for a while. They
+actually added Jev into the Zap
+platform. So, if you're building any
+type of automations, you can use Jev
+right in the workflow to make decisions
+for you. So, for example, let's create a
+new workflow and when you come down here
+to actions, if you just search for Jev,
+there it is. Type safe Jev. Now, you can
+use that as an app in Zapier. So, you
+can take any of the over 9,000 different
+apps that they already integrate with
+and connect them in different ways and
+have Jev make decisions between those
+connections. And so, for example, I can
+say, "Okay, every time I get a new
+calendar invite, Jev decide whether I
+should accept it or not." And I'll give
+it a bunch of criteria as to how it
+decides that, but now it'll
+automatically either accept or decline
+it. And obviously, this is a very simple
+use case, but you can get as
+sophisticated with all of the over 9,000
+different apps that Zapier has to offer.
+This is one of the coolest use cases
+that I've seen for Jev. And Zap Connect
+2026, which is their annual conference,
+just happened. Check out my link down
+below to see what's possible with
+next-gen Zaps and Jev. All right, here's
+another example of what Jev can do
+really well. Typically, email clients
+are sorting in chronological order,
+meaning the last emails coming in are
+the ones that you see. And I've built
+things in Grok Bot to help me prioritize
+the emails I should respond to, but Jev
+can do that basically instantly.
+Thousands of emails can be sorted by
+what it believes is the priority in
+response. And so, that's what this guy
+built right here, and 100 emails getting
+sorted in under a half of a second.
+Here's another great use case, actually
+valuable. You know how you can do find
+in page on browsers? So, if I type like
+that and I type find, it'll highlight
+the words. I use this all the time,
+super useful. But it is keyword matching
+based. So, if the exact thing you type
+isn't on the page, it's not going to
+show up. Now, this product manager from
+Google put together a fuzzy search
+version of it. And typically, it would
+be quite slow, but now it's extremely
+fast. You just type in whatever you want
+to find on the page, it doesn't have to
+be exact, you just have to type in kind
+of what you're looking for, and it will
+highlight on the page exactly where to
+find it. And of course, it's open
+source, it's free, you can bring your
+own key, it's just awesome. Okay, and
+you remember at the beginning of the
+video how I said it's not good at
+writing code, but if you have a
+preconfigured library of UI elements, it
+can actually build a webpage very
+quickly for you dynamically. This is
+what I mean. And on the left, we have a
+page rendering, and on the right, we
+have Jev doing it in real time
+dynamically. And look how fast that is.
+It basically decides, "Okay, based on
+what this user is looking for, what
+should the website look like? Do they
+need a form? What information do they
+need? Do they need to sign in?" which is
+what we're seeing here. And it's all
+extremely fast. But again, it's not
+building it from scratch, it's just
+choosing from a bunch of different UI
+elements and putting them all together
+in the right way. Okay, and this next
+one, we might be using pretty soon. This
+is an example of Jev clipping a 90-plus
+minute video into multiple clips based
+on whatever you type in in under 2
+seconds. So, here's an example. This is
+called Clipfast. You type YRL Works. It
+is scanning the entire video, probably
+the transcript, and finding all of the
+right clips and instantly clipping them.
+Then, one click, you can just download
+it so easily. I mean, this is the type
+of use case that speed really unlocks.
+Okay, I have two more left, and not all
+of them have to be super high-value.
+Sometimes, they can just be awesome and
+cool to watch. Here's an example. So,
+here is Jev understanding color
+palettes. You literally can type
+anything, and it will put together what
+it believes the color palette is. So,
+here's 80s disco, 80s pop, retro. Here's
+browser, like what a browser looks like.
+And here's what Bowser looks like.
+Here's Mario. Here's Luigi. Wario. So,
+it knows what colors are associated with
+each of these world knowledge entities.
+Here's the blue screen of death,
+the Matrix, the beach. So, really cool,
+just an awesome demo. And then last, we
+have a pile of emojis at the bottom, and
+you can just start typing something,
+anything, and it will decide which
+emojis are most associated with what
+you're typing. So, here I need to lose
+weight. Of course, it has healthy food
+emojis. Starting a band?
+There it is, we have instruments. So,
+kind of fun, quirky, simple, but I think
+it's really cool. So, go check out Jev,
+start using it. It is nearly free. They
+give you $5 in credits to start out, and
+it is just so much fun to play around
+with to see what's possible. So,
+hopefully these examples gave you some
+inspiration about building something
+yourself. And I made another video going
+over in-depth what Jev really can do and
+what it is, and check that out right
+here.

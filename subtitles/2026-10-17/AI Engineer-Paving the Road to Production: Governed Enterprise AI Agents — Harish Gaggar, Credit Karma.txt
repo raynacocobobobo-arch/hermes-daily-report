@@ -1,0 +1,809 @@
+UP主：AI Engineer
+标题：Paving the Road to Production: Governed Enterprise AI Agents — Harish Gaggar, Credit Karma
+链接：https://www.youtube.com/watch?v=tZycGA_Fbfo
+
+Hello everyone. Um, I would like to walk
+you through that how we can transition
+in AI agents from an experiments to the
+real enterprise environment. So, before
+I begin, a quick introduction about me.
+My name is Sharish Gokar. I'm a senior
+staff software engineer at Intuit Credit
+Karma where I built and own the AI
+analytics infrastructure and services.
+Um, and beside that, um, I'm advisor,
+uh, author, researchers, um, and also a
+program committee members for various
+organizations where I mentor the young
+researchers as well.
+All right.
+So, let's, uh, walk through the, um,
+agenda here. So, first we would like to
+talk about what are the challenges we
+have when we build an AI agents and
+deploy into the production systems and
+how we, uh, can build a different
+framework to address that, uh, different
+challenges here.
+Um, then how the architecture looks like
+for it.
+Um, then, um, how you can build your own
+MCP servers,
+um, and MCP gateway.
+And then some monitoring on top of that
+gateway as well. Um, then further we're
+going to talk about what are the
+different type of agent framework you
+can have, um, and then,
+um, some additional framework around
+managing the memories, tracking and
+eval, um, how you can block the PII
+data,
+uh, going before the LLMs, and then
+context optimizer to save your token,
+right?
+So, without delay, let's, um, let me
+walk you through the challenge. Um, of
+course, like there are many agents, uh,
+uh, generally get failed in productions
+because their foundation controls are
+missing. Um, and the key reason behind
+is that,
+um, you know, like, oh, most of the
+people are missing the gateway to make
+sure that agent can, you know,
+communicate to the gateway to get
+authenticated first with the right auth
+providers so that they can redirect to
+the right MCP servers, right? Second,
+that, um, MCP servers are missing the
+right tool to execute your query.
+Third, do we have like enough tracking
+and evaluation system to make sure that
+every query when you are sending to the
+agents, whether they've been tracked or
+not, and are you evaluating the quality
+response or not, right? Do we have any
+in memory management system or not in
+terms of let's say you are doing the
+interaction with agent for long or for
+many days,
+is it able to recall that what you have
+been asked in the past, right? And then
+there are other framework, of course,
+like do you have a context of the
+measures to save the token, or do you
+have inner production in place to make
+sure that your any secrets should not go
+into LLM or tracking or tracing or any
+memory DB or so, right? So, a lot of lot
+of open questions. So, in order to
+resolve this,
+we are not going to, you know, like
+build a magical agent here in this demo.
+We're going to talk about like different
+framework that you can build to address
+this.
+So, first is the agent framework.
+This is where like we use the
+like we choose to use the LangGraph
+framework, which is provided by
+LangChain community.
+This is help us in building the
+task-specific node based on your
+questions, and which is easy to plug in
+any like
+marketplace plugins or skills and
+prompts to make sure that agents
+respond efficiently based on your query.
+Further,
+the second part is we are also building
+the MCP gateway to make sure that
+whenever agent make the call or any
+service account from that agent make the
+call, make sure that they are securely
+get authenticated to that MCP gateway,
+and then get redirected to the right MCP
+servers.
+Third is the customized MCP, which means
+that you are building your own MCP
+servers with the right tool in place to
+execute your query. And then finally
+some audit on top of what actually
+operation you're performing, right? And
+then we talk about some additional
+framework around
+you know like how you can block the PII
+secrets, how you going to store the
+tracking eval into the cloud,
+and how you going to
+process the memories, especially any
+threads and checkpoints on every
+context, and then also how you can
+optimize overall your context to make
+sure that you don't don't burn too many
+tokens
+when you run your query. All right?
+So, we talk about now the agent
+infrastructure. So, the Firstly, we'll
+go through the local development. The
+way the approach should be is that you
+know like whenever you build an agent,
+right? First you have to register your
+agent into some system. You usually tell
+that hey look, this is my the use case
+and these are the use case going to use
+for this particular vertical or system,
+and you feed all those information and
+generate a ID for your agent, right?
+Once you have that, then you can have a
+dev portal, internal portal where you
+can ingest all the details saying that
+hey look, this is my agent use case,
+this is my agent ID, this is the
+framework I'm going to use either
+LangGraph, LangChain or so. These are my
+language I'm going to use either Python
+or TypeScript,
+and then you can choose
+you know like your skills or prompts,
+and then you submit your information,
+right? To this. Once you submit this,
+the dev portal is going to create a
+repository, which is going to contains
+not just the agent framework like your
+LangGraph agent framework, but is also
+going to contains
+your memory framework, your tracking
+eval framework, right? and then your
+context optimizer framework, and your
+PII blocking
+framework as well.
+So,
+the reason for that is because not
+necessarily all your developers are
+taking care of all this framework,
+right? They just sometimes you know
+create the framework what generally like
+AI assistant tools are generally the
+right? Or they stick to one or two
+framework, right? So,
+we just want to make sure that
+when you roll out such framework, make
+sure they are consistent across the
+company
+um and they can take care of
+uh and they can be centralized in one
+place so you can visualize their results
+as well, right?
+So, once you have that repository, so
+developers basically, you know, clone
+that repository, they can build their
+agent as a Docker image and containers
+and test their agent input and output
+through the query. And they can also
+traces on their local memory, maybe
+cloud span evaluator here. And you can
+also store this tracking and eval in
+some of your DB, maybe SQLite or maybe
+BigQuery
+um to see to make sure that agents are
+fully working on your local, right? So,
+once your agents are running in local,
+um then you're ready to go ahead and
+generate a PR and then you can once you
+get your two PR approval, then it's go
+to the CICD pipeline, right? So, the PR
+is basically going to firstly is going
+to uh register your agent into some
+centralized agent registry system, which
+provide a length with URL to it to make
+sure that you see all the traces.
+And then the CICD pipeline is basically,
+you know, whatever the local Docker
+container you built here is going to
+build that container into production
+system. Uh it will scan that image, make
+sure that there's no vulnerability. Um
+if everything looks great, security
+approved, you can move that image back
+into the registry, right? Further, you
+have your own deployment platform or
+orchestrator platform which going to
+deploy that agent into the Kubernetes
+cluster in a given namespace, right?
+So, the good part here is that this dev
+portal is not just creating the
+repository,
+um right? It also do create um bunch of
+other production resources, for example,
+the workload identity, um right? And
+then memory DB or tracking and eval
+tables and then agent secret management,
+right? Um so, it based on whatever the
+name you provide, it
+not just again it like not just
+repository, it all these different
+resources as well.
+So, what happened is when this internal
+orchestrator when it deploy the agents,
+the agent already know that hey, what
+workload identity I supposed to work
+with, right? That binding should already
+happen. So, once this K to GSA binding
+happens, the agent will start
+communicating to all these resources.
+Once everything in place, um agent is
+further going to communicate to the rest
+of your endpoint services like for
+example, AI gateway or MCP servers
+or length fuse for tracing or some other
+API endpoints.
+Right?
+So, now firstly, we
+talk about the MCP server as well. So,
+we talk about architecture. Now, we're
+going to the different component. So,
+MCP server is something that you can
+definitely use something which is
+outside available, but if you're working
+on air gap environment, it's highly
+recommended that you build your own MCP
+servers. So, um yeah, uh and you can use
+the
+uh I will not go with the definition.
+Everyone knows about it. So,
+the way the framework has been built
+here is that uh you you can leverage the
+fast MCP server package um or wrapper to
+um you know, build that MCP servers and
+you can create a different set of tools
+inside that a fast MCP wrapper to
+construct your um you know, the overall
+servers.
+And then you make sure that, you know,
+like every tool when you define in MCP
+server, they had to be
+fully reviewed by your own internal
+security team to make sure that only
+authorized tool can be go in production.
+And that's how you can you know, enforce
+some filters, limits, and block the
+fields which is really not required to
+go to LLM and get you the information
+which is you're not supposed to get,
+right? Um and third part is like a of
+course, you need to make sure that you
+build your MCP server in a way that
+whenever the traffic is coming from your
+MCP client to MCP gateway to MCP
+servers, either it's coming from user
+service account, they has to be
+authenticated to the MCP gateway first
+and so that they can be access your MCP
+tool
+to get the right information.
+All right. Now, the gateway part. So,
+the how the gateway works. So, this is
+again, you can build it your own
+internal MCP gateway if you are again
+working on your air gap environment. So,
+the way it work is you are working on
+cloud assist like local, you know, code
+assistance tool or maybe your agent,
+right? So, the moment you submit your
+first query to your agent, it will send
+that one-time authentication request to
+the MCP gateway, right? MCP gateway
+recognized and take your request. First,
+it will save your session state into the
+Redis, right? And then it will, you
+know, return back the JWT access token
+back to the your client, right? Once
+client will receive that JWT token,
+it will know that what MCP server needs
+to call, right? So, it will submit that
+tool {slash} call request on a given
+name space {slash} MCP, meaning let's
+say Artifactory or GitHub {slash} MCP
+with the auth bearer JWT token
+into that. So, once MCP gateway receive
+that, it will understand that what name
+space, meaning MCP server needs to look
+up for, and then it will unwrap that JWT
+token, and then it will attach that user
+token in that request and send it to the
+respective MCP servers.
+Now, once MCP server receive it, it will
+make that respective API calls to that
+endpoint of that, you know, to the
+service and then it will exchange that
+ID token
+and return the response based on
+whatever scope that user is authorized
+to see, right? So, once the user receive
+the token,
+you know, MCP server basically, you
+know, unwrap that all the data, make the
+payload which is compatible for MCP
+gateway to receive, and then finally the
+final payload will send back to the
+client to see the data points.
+So, what it shows is that, you know,
+like we build this MCP gateway to make
+sure that we have a centralized
+authentication and routing hub that
+securely connect any coding assistant
+tool or agents to the endpoint via this
+MCP gateway and MCP server. This There
+should not be direct access provided um
+on any endpoints. They has to go through
+the MCP gateway through proper
+authentications
+uh before they're reaching to the MCP
+server and the endpoints.
+All right?
+So, now the part is the gateway
+monitoring, right? We talk about again,
+we talk about architecture, we talk
+about MCP server, MCP gateway. Now, it's
+a monitoring. Again, the AI agent cannot
+be trusted without continuous
+monitoring, evaluation, and feedback,
+right? This is why we are building the
+MCP gateway
+uh monitoring. So, the way the
+monitoring work is usually like the
+moment you submit any calls to your
+agent, uh it will send all the
+operational log into the log store. You
+can use ELK, Loki, or CloudWatch also,
+right?
+And generally, this contains the
+information like show me like all last
+401s in my last 10 minutes call, right?
+And what did OAuth do when the token
+refresh failed, right? So, those kind of
+requests can goes to the log store.
+Now, there are some, you know, traces
+and metrics data um like real-time data
+that goes to the OpenTelemetry as well.
+Um OpenTelemetry again is open source
+solutions, which going to collect all
+your traces um and metrics and it's
+going to process the data and redirect
+to the back-end system, right? And in
+this case, the traces will go to the
+Tempo. This is again an open source
+solutions, which going to store all your
+traces in terms of like traces in the
+sense like, you know, like information
+around like which tool was slow on this
+request, whether this call is coming
+from agent or IDE,
+uh what was the exact error um on this
+failed call or so, right? So, these kind
+of data are going to store into the
+Tempo.
+My bad. Okay. And then the metrics is
+about the Prometheus is all about the
+information about like what are P95
+latencies for a given tool, right?
+Whether my auth
+rejection is spiking on a particular
+time or not, right? So, those kind of
+metrics is going to store in Prometheus.
+So, once you get all these data point
+like traces and metrics, this entire
+aggregate data
+actually save into the graph now for
+your visualizations.
+All right. So, the MCP server gateway
+and monitoring is covered. Now, we're
+going to talk about the framework. So,
+the agent framework, right? So, we use
+LangGraph for most of the cases
+and is basically LangGraph again it's a
+provided by LangChain community. It's
+provide a graph based architecture that
+support
+loops, branching, state management for
+complex multi-agent AI workflows, right?
+And the way it work is like the moment
+you submit your first query,
+we do interpret
+you know, like your question first, like
+what type of questions it is and what
+response is looking for
+and based on that it's create a plan,
+right? Then it will send for classify
+classify area where it will determine
+that hey, whether it is just like a read
+operations or whether it is just like a
+you know, modification level changes
+coming up or whether you really want to
+delete something, right? Or some
+sensitive operations. Based on that
+it adjust the overall structure and then
+plan accordingly. The next step is plan
+is actually itself is a sub graph where
+you do the major of your operations.
+Meaning that in the plan like once you
+know what operation you're performing,
+it goes to the like let's say in a fetch
+evidence section where it actually call
+that whatever the question you ask here,
+after all interpret and classify,
+um it actually go ahead and make the
+call to the MCP gateway,
+uh make sure they get authenticated, um
+and then it make the call to the MCP
+server using the right tool,
+um and get the data, and then generate
+that evidence, right? Once you validate
+all your finding, then it will check the
+policies.
+Uh it will check whether it is a
+read-only, then go ahead and execute,
+and I will save all the record points
+into our audit logs.
+But if it is a right and sensitive
+operations, definitely it will go
+through the HITL process where you wait
+for an approval. If it is approved, you
+go ahead and execute. If it is get
+rejected, in either case it's going to
+save into the audit log.
+Right?
+So,
+if we combine all this together, like
+MCP gateway, MCP server,
+um and the agent, right? This is how
+things looks like. So, ultimately,
+whatever the agent you're building,
+whatever the call uh you're submitting,
+it will go through the MCP gateway for
+authentications, and then it will
+redirect to the right MCP servers to
+execute uh you know, your query on a
+given tool,
+uh so that it make the API call to that
+endpoint and get the response. Right?
+All right. If it If we think from the
+infrastructure perspective, this is how
+it looks like. So, agent is
+communicating to the MCP gateway, goes
+to the MCP server, and to the endpoint.
+All right?
+So, now the uh we talked a lot about MCP
+gateway, MCP servers, um the monitoring,
+um and the agent framework. Now we talk
+about uh three and four additional
+framework that we should have to take
+care of when building the end-to-end
+ecosystem, right? One is them is agent
+memory management. Again, it's a uh you
+know, it's a it's refer It's basically a
+process where you can save and restore
+the state of your workflow over the
+time, right? Ensuring that
+it's provide you a durability and
+seamless recovery across across your
+every query run.
+So, the way it work is like whenever you
+submit any query to your agent, it
+actually generate a thread, right? On
+that given thread, when you ask your
+first question, it will going to create
+a run ID for that. So, the moment you
+ask some deeper questions, it will go on
+a particular node in that langraph and
+execute that query. And on that node, it
+going to save that respective checkpoint
+here, right? Now, if you ask a follow-up
+questions on the same thread, it going
+to create another run ID. And again,
+depend on your follow-up question, it go
+to a specific node and save the
+checkpoint over there, right? And all
+this data for your local development,
+you can use the SQLite SQLite DB,
+but in production, unless in GCP, you
+can use Cloud Spanner. And
+in respective databases, you can use in
+Azure Azure and AWS as well, right? So,
+just walk you through the quick demo
+here on the memory. So, for example,
+I have, you know, like just build this
+agent locally and then,
+you know, trying to run this query on
+SQLite DB to see if there is any data or
+not. So, I'm just, you know, initially I
+don't have any data. Now, I submit my
+query, you will see that I received the
+one record, which is saying that, "Hey,
+this is my thread ID. This is the
+question I have been asked." And exact
+time, you know, when this query was
+executed. Now, if I run the next query
+to see that, "Hey, how many messages
+I've been produced on a given thread?"
+You can get this information by running
+the further queries, right?
+Now, if I would like to run to see that,
+you know, like all the metadata level
+information on my query, I can run my
+query again and And can see the detail
+description around, you know, like how
+many tool I get invoked, what is my
+thread ID, what is my run ID,
+um you know, like and all those
+informations. Now, if I want to also see
+that, hey, what tool have been executed
+when I run this query, um you can go
+ahead and see the exact tool name as
+well on that given MCP servers.
+Now, further I will also want to see
+that how the progression was happened on
+my lang graph framework, that also you
+can see by um running this type of query
+on your memory DB. You can see that here
+like different kind of, you know, nodes
+been called when actually, um you know,
+that query has been run.
+All right?
+Now, the tracking and eval. So, just to
+make sure that
+um there is no confusion here like the
+we talked about earlier the MCP gateway
+monitoring, this is the agent level
+tracking. So, we do this because we
+really want to track that what query you
+have been submitting to the agent
+um and what the response is coming, what
+alarm model you have been used, what's
+the cost of your token, um how many
+token you have been burned, and what's
+your, you know,
+evaluation criteria looks like. What is
+the quality of your response or not,
+right? So, you need to store that data
+from the day one. And imagine that if
+you have a thousand plus agent, every
+agents will have their own
+um you know, um agent tracking and eval
+um project and the tables, right? So, if
+you combine, let's say if you have 100
+agents, you will have 100 different
+projects and each project has their own
+respective tracking and eval tables.
+Now, tomorrow, 6 months down the line,
+if somebody ask you that how your agent
+has been performed, what was the
+response, what's was the quality, how
+much token you have been burned, you can
+aggregate all this data and you can
+create executive dashboards around it to
+see um with to see the what is the ROI
+in building so many agents, right?
+So, let me walk you through the the
+tracking and eval um demo here.
+So,
+um here like if I look at uh this one,
+so first like, you know, like if you see
+that there are six tables are listed
+here. One is a job tracking table, um
+and which is contains most of this like
+information around what query like what
+is your query, what's the response and
+everything. And there are a bunch of
+other tables as well like your quality
+related and your tool invocations and
+then node level executions and all that.
+So, in this case I'm going to submit my
+first query
+on my agent um and you will see that um
+there will not be
+uh any data in the first place uh
+because it takes some time. So, I will
+refresh this again.
+And this time I will see that when I
+refresh, I do see that for a given query
+I get my request ID, my session ID, my
+agent name, um you know, what question
+I've been asked,
+um and what was the output um of that uh
+question, uh whether it has completed or
+not, and then what is the time it took,
+what is the model I've been used, um and
+then some of the middle level uh middle
+level informations, right?
+Further, if I look for the quality,
+again there is a eight quality checks
+per run,
+right? And you can see that this one row
+each for, you know, like success, like
+latency, cost, tool accuracy, safety,
+etc. Like all this has been stored here,
+right?
+Now, the eval scores. This is again this
+going to be a one row. This is going to
+be a scoreboard for your given run,
+which is basically varies between zero
+to one, which is scores
+uh you know, like all the quality
+dimension in a single row,
+right? Now, the quality metrics. So,
+again it's a deep dive on that
+particular one run. Basically a nested
+field for the response
+quality, safety, latency, cost, uh and
+the tool stat in one white row, right?
+Now, the tool invocations, so every tool
+call, which MCP tool ran, how long it
+took, and whether it succeeded or not.
+Right? And now the tool agent
+trajectory, which is talk about
+step-by-step story of the run, each LLM
+call, and the graph state in order, like
+plan, summarize, etc.
+All right.
+So, now
+uh the next is the agent PIR treatment.
+This is very, very important because
+many times it happens that when you're
+working in agents or uh this thing, um
+sometimes there's a possibility that
+there are some secrets being ingested as
+a part of your query, right? Let's say
+you're uploading some doc which is has
+some sensitive informations um and
+sometimes while typing you may have some
+API keys or so. So, we have a framework
+which define that different sort of data
+types and their severity level. If your
+severity is above 90% or so, uh we will
+block and redact that uh
+secrets uh immediately. So, that uh make
+sure that that secret is never goes to
+LLM models, right? Neither it will goes
+to your memory DB, or nor it will go to
+tracking and eval tables, or tracing uh
+systems as well. So, the goal here is to
+just block this sensitive data as it is
+the moment it get ingested, right?
+Moment moment you type.
+All right. Um the last framework is all
+about now is the
+context optimizer. This is one of my
+favorite area where like um you know, uh
+whenever you submit, it's very
+important, right? Whenever you submit
+too many queries, sometimes you upload a
+lot of the
+um data points and you upload bunch of
+file systems or so, right? It's very
+important that time is
+um you know, like you make sure that you
+save your token in every query. So, we
+build in context optimizer framework
+where you actually shape your query and
+then you prune it before it go to LLM.
+In the pruning
+system, uh we do select the payload
+based on the token limit. Then we
+re-rank that, "Hey, which is the most
+relevant relevant information that we
+should target for when you submit this
+huge giant, you know, context?" And then
+we dedupe that, uh remove all the
+duplicates, and create a very unique set
+of
+uh very curated data like uh I mean the
+main data for the LLM. And then we
+finally compress this large payload
+before it goes to the LLM. So, let's see
+this uh demo here.
+Uh this will be quick. So, for example,
+let's say I will submit my first query,
+"Hey, find me all the artifacts in my
+JFrog Artifactory."
+Um you see that first when before even I
+not submitted any query yet, there is no
+data here. So, the moment I submit this
+first query,
+and if I refresh my query here,
+um and then you can see that the record
+has been added. So, you can see there is
+a 24,000 token has been used. I will go
+back a little bit um just to show the
+thing. So, you can see this 24,000 token
+has been used for given questions. Now,
+if I ask uh now I enable the context
+optimizer behind the scene and I'm rerun
+the exact same query again.
+So, this time you will see that uh you
+know, for the same query, if I refresh
+this run, and you will see that uh this
+time it used just 2,400 token.
+Right? For exact same query.
+So, which is almost like 90% saving. I
+can rerun the same demo on the Slack bot
+as well where I'm asking Slack bot,
+"Hey, tell me all my Docker images
+across all the repositories in
+Artifactory." When I run this query,
+there is no data. Now, I'm going to
+submit my query.
+So,
+once this query will run, um and if I
+run my query again here, and you will
+see the record get created. It's again
+used like 24,000 for this this
+particular query.
+Now, what I will do is I will
+turn on my optimizer behind the scene
+and I rerun the same query in the Slack
+bot. Um and then if I run this query
+again, um it will show like it exactly
+used 1,500 almost token, which is again
+like 90% saving. In most of the cases,
+we get like 70 to 78% token saves. So,
+imagine that you have thousands of
+um you know, like um
+um if you have thousands of like agents,
+which is running like
+you know, many queries per day, you
+imagine how much token you can save with
+this framework. All right. So, now the
+key takeaway here is uh you know, like
+um
+for us is like make sure that we
+build an enterprise framework, um not
+just an agent, right? Which make sure
+that you have all the framework
+underneath. Don't try to be in rush to
+building some agent quickly and deploy
+ship it. Make sure that
+it has to go through all the framework
+all together, so that you should not
+realize a letter state that, you know, I
+should have this framework in place.
+Right? In in the very first place.
+Second is like your Make sure that you
+have a proper gateway system. Make sure
+that every tool call request either you
+are doing this from your local or
+through agent, it has to go through some
+sort of centralized MCP gateway. Uh make
+sure it authenticated before it reaching
+to the MCP servers. And then make sure
+that your MCP servers take a control on
+what tool um you know, uh
+you should use uh to execute a
+particular query, right? And make sure
+that you have monitoring in place and
+complete auditing in place for that tool
+executions. And of course, you should um
+you know, keep the always human in the
+loop process for every um every action
+items, every high-risk items.
+Um make sure that there is a
+observability
+um and you know, um auditing has to be
+in place. And last but not least, make
+sure that context optimizer should
+always be there to justify your cost
+on your agents, right?
+So, just want to share is that I
+released my MCP book recently on Amazon.
+So, feel free to download. It's free in
+Kindle.
+And it's hard copy is also available.
+All right.
+Thank you so much for watching this
+video.
+And if you do have any questions, feel
+free to, you know, like reach out to me
+over LinkedIn or Twitter. I'm happy to
+answer. Thank you again.

@@ -1,0 +1,649 @@
+UP主：Corridor Crew
+标题：VFX Artists React to Bad & Great CGi 240 Ft. Richard Taylor
+链接：https://www.youtube.com/watch?v=DJ92uAZ-dVs
+
+Hello everybody. Welcome back to another
+episode of Visual Effects Artist React.
+This is a very special episode. We are
+joined by Sir Richard Taylor here on the
+couch.
+>> Thank you, Richard. Please. [laughter]
+>> I was actually curious like I'm not used
+to sitting next to nights.
+>> This is the first night we've had on the
+couch.
+>> I'm from New Zealand and my wife Tanya
+and I have run Wetter Workshop for the
+last 38 years. We were founders
+alongside Peter Jackson and Jamie
+Selkerk of Wetter Digital as well. and
+uh we make practical effects, props,
+costumes, vehicles, armor, weapons, lots
+of cool stuff. We're probably best known
+for our Lord of the Rings work, but also
+working on things like Nania. We've just
+finished 20 years in Avatar World with
+Jim and about 160 other films, immersive
+experiences, and other projects in
+between.
+>> [screaming]
+>> So, pretend I'm a producer and I ask
+you, "What would be the benefit of
+building a miniature for a scene versus
+going the CGI route?"
+>> In all honesty, I would struggle today
+to convince a producer because I lament
+the loss of miniatures. It was our
+largest department in our company and
+it's now a non-existent department.
+>> The last proper miniatures that we built
+were Bladeunner
+>> 2049. Yeah, buckle up.
+>> The miniatures here, trash messer we
+built at 36 and six. I think there is a
+gritty realism that we can capture not
+for free, but it comes almost for free
+in the building of a miniature. You can
+see in that very shot there, right? And
+just the textures are the textures cuz
+the textures really exist. You see right
+there the way that the patina of age is
+just part of the paint job. Once that
+was incredibly difficult to achieve in
+digital effects. The beauty of digital
+effects over miniatures is the freedom
+of the camera. I actually find that
+distracting and don't personally like
+it. I like it when you put the camera
+equivalent to the height of a camera on
+a tripod and actually contain your shot
+movement as opposed to just wildly using
+it, but that's maybe just me. Maybe
+there's other people listening that feel
+the same. I think it's worth noting and
+many of your viewers may disagree and
+please if the two of you disagree, I beg
+for you to challenge me on this, but I
+think about this a lot. When the
+audience sees something that is
+handmade, like the shots we're watching
+right now, this is the trash micer. They
+go, "Ah, that's been built by a human
+just like me. That is amazing. I know
+that I couldn't have done that. Wow,
+that's incredible." So, there's an
+incredible wow factor. Now there is no
+doubt that the digital effect is equal
+if not more significant in the
+craftsmanship of the people doing it.
+Many of them have many years more
+training. They've gone to university
+unlike most of us.
+>> Uh [laughter]
+they have toiled over their career just
+like we toil over ours. Right. But I
+think the audience in their mind
+sublimly just goes, "Oh, digital effect
+>> computer button.
+>> Someone pushed a button that did that."
+>> That's not going to get worse,
+>> which is highly disingenuous to the
+crafts people on the computers that have
+done the work. But I think
+subconsciously
+we we think like that and when you see
+something physical, you think about
+these amazing crafts people or
+subliminally think about the craft in
+the build. I mean, it's it's about the
+sort of like the tangible relatability
+of it all. I know how to take a
+paintbrush and do something like this,
+but to make it that detailed, I don't
+know how to do, so therefore that's
+amazing. But a computer is such like a
+universal tool that can do so many
+different things that most of us don't
+even know how to do. So, it's easy to
+kind of fall back on like, well, they
+used a computer to do it. I guess that
+was probably hard. The advancements in
+digital effects and the the dedication
+of the crafts people that do digital
+effects are worthy of the largest amount
+of celebration. It shouldn't be digital
+versus physical. I'm just sharing with
+you my personal thoughts on why people
+react the way they do. And I'm thinking
+why I respond because of my love of
+seeing things that have been crafted in
+the physical world.
+This shoot here, Alex Funky, he came
+down as the main unit miniatures
+shooter. He's an Oscar winner for his
+miniatures work and he actually won it
+for probably some of the most difficult
+miniature work ever done. You may have
+seen that we had a laser light.
+>> I saw that. Yeah,
+>> that that was a trick that we learned
+from the original Bladeunner movie. I
+think they were the first people to use
+it where you actually fire a laser light
+through the haze and then read the level
+of haze.
+>> Oh,
+>> the goal of course is perfect
+consistency. So each mocom pass or each
+shot matches the previous. So a big
+challenge there is the whole sound stage
+has to be sealed. So you can't have the
+slightest leak, right? Otherwise it puts
+eddies through the smoke.
+Interestingly, one of the things we went
+to a lot of trouble to do was put
+parallax inside the windows. So, as the
+camera tracks past windows, we've built
+in room interiors.
+>> So, that way you're able to actually
+like show the depth into the building.
+It's not just a facade.
+>> That's probably a very good example
+right there. Those little windows that
+we're pass from.
+>> Those three lights there on that
+building. You can clearly see some
+parallax as it continues going on. And
+that's what sells the illusion of it's a
+real building that has depth to it.
+>> Yeah. They would have done that a day
+before we're shooting. Okay. Because
+they would have watched the test pass
+and seen that there was an opportunity
+to pop something in. And there's many
+ways you can do room and tears. easiest
+one is just to take magazine pages of
+out of a um architectural magazine
+[laughter] and you actually slash the
+picture with a knife so that they're
+fluttering and then you just sort of
+offset them and then hang them inside
+your miniature really
+>> and it looks like a fairly convincing
+cheap but convincing room interior. uh
+or in the case that these guys they
+built rooms that had intentional
+parallax so that as the camera tracked
+past the items inside the room
+>> would shift to the nodal point of the
+camera which was very successful.
+>> You're you're speaking about miniatures
+versus digital effects. There's an
+aspect of decision-m that has to happen
+on a higher level with CGI that kills
+that grit in the sense that every single
+thing needs to be intentionally placed
+in CGI whereas not quite every single
+thing needs to be as intentional with
+miniatures and you bring some of that
+chaos of nature back into it.
+>> We call it uh the fuzzy logic of model
+making. My dear friend and colleague
+John Baster used to call it floppy model
+making. [laughter]
+uh just never stick anything down
+perfectly. This room is a perfect
+example. This would be a model maker's
+delight to make a copy of this room.
+Every time I'm looking at you, I can't
+help but glance at that beautiful blue
+beam there, right? That's got everything
+that we've been talking about.
+>> The spectral highlights, the patina of
+the paint, the different materialities
+that in that case they're bolts, not
+rivets. replicating that unit in a
+miniature would be a joy. So, you're
+trying to find that randomness in the
+miniature. So,
+>> you are the first person in the history
+of anyone to walk in here to compliment
+us on the beams. [laughter]
+>> Well, you get what I mean, huh?
+>> I do. Yeah,
+>> I do. And I I'm proud. I also like that
+bean.
+>> The mountain of Mount Doom was the
+perfect example of floppy model making
+because the real world has a randomness
+to it. What's up, guys? I want to share
+something that I've noticed. Something
+that's pretty clear after spending
+[music] time with Sir Richard Taylor is
+just how much he values the physical act
+of making something. You can start with
+an idea, [music] a sketch, an entire
+world in your head, but eventually you
+have to turn that idea into something
+other people can [music] actually see
+and experience. Miniatures, practical
+effects, concept art, props, and even
+all this airship artwork behind [music]
+me from Nick's project that he's been
+working on in the background. But once
+you've made something you're proud of,
+you also need a place to actually show
+people your work. Which brings us to
+today's sponsor, Squarespace. [music]
+Squarespace makes it easy to build a
+professional website for whatever it is
+you create. Whether you're an artist
+building portfolio, a filmmaker showing
+off your projects, a designer sharing
+your work, or even someone looking to
+sell what you make, Squarespace gives
+you the tools [music] to put everything
+together all in one place. And you don't
+need to become a professional web
+designer just [music] because you're
+good at making cool stuff. So, if you're
+ready to give your own work a home
+online, head to squarespace.com/quarter
+and save 10% [music] off your first
+purchase of a website or domain. Thanks
+to Squares for supporting quarter crew
+for all these years. But let's get back
+to the one and only Sir Richard Taylor.
+>> If you think about it, Lord of the Rings
+you utilized 72 miniatures and The
+Hobbit utilized zero miniatures. So as
+quick as that, 10 years.
+>> Zero on The Hobbit.
+>> Yeah. Yeah. There was no miniatures cuz
+it was shot in 3D.
+>> Oh, that's right.
+>> We did prove that miniatures could be
+shot for 3D. Alex did some incredible
+tests, but it is incredibly
+uh tied down and you can't get the sort
+of uh free roving qualities that one may
+wish.
+>> Alan and John were brought on Ellen Lee
+and John Hal who really defined the
+world of Middle Earth visually.
+>> Yeah.
+>> And what we manufactured was armor,
+weapons, creatures, miniatures, special
+makeup effects, and prosthetics. We got
+to build a few props. The the full-size
+mumachill is a good example.
+Peter phoned me and said, "Could you
+guys just take on the mammakill?" Cuz
+Grant Major is just up to his eyeballs
+trying to get the other bits made. So,
+we built the mummill. And over the next
+26 days, we the makill would struggle to
+fit in the studio. Actually,
+>> this is the largest single prop in the
+world to be built for a film. We had
+already sculpted the marquette of the
+mammakill three four years earlier which
+was about this big maybe that big to
+make the model in such a short length of
+time. I poured a hot plasterine copy of
+it and before the plaster scene fully
+solidified and went cold. I peeled uh
+the silicon off the mold, lifted above
+my head and I slammed it onto the floor
+as hard as I could. Cuz if you think
+about an animal, when they collapse,
+their rib cage
+>> shifts and all their limbs sort of flop
+and crush down on themselves because of
+the weight of the animal. And I only had
+to do a tiny bit of rearranging
+[laughter]
+of the trunk. And we built a bit more of
+a rib cage. And then we cast that. We
+banded it up into little slices. We put
+the slices on an overhead projector and
+projected them onto a wall about as big
+as this. And then we created
+crosssections that you put together like
+um an egg crate and uh then fill in all
+the gaps. And that's how we were able to
+build the machill so quickly.
+>> Incredible. That's such a smart way to
+like scale up a model
+>> very fast. So we were carving the
+mummill's skin within 10 days of having
+started the project.
+>> Wow. I want to know more about the
+flooding of Eisenard.
+>> The model of Eisenard, I have a term
+that I use called plausible ecology,
+right?
+>> Plausible ecology ecologies.
+>> What is the physiology of your world?
+What is gravity on your in your world?
+Right? Is it our gravity? If you if you
+draw a line, right, and it's zero is
+documentary. And then at this end, the
+best example is dark crystal. Dark
+Crystal is a completely fabricated
+world, right?
+>> Yeah.
+>> So, where between documentary and Dark
+Crystal does your movie sit? You look at
+Lord of the Rings and people go, "Oh,
+Lord of the Rings is high fantasy."
+>> And I would argue no, it's not at all.
+Cuz you look at the architecture of the
+world and the architecture has
+comparable
+construction like for like to a medieval
+world. Right.
+>> But then you have the tower of Orthank
+in Eisenard. You could argue a plausible
+ecology for Orthank is a ancient volcano
+that had a obsidian shaft of lava. Okay.
+>> That cooled and turned into black glass.
+>> Okay. And the mountain has washed away
+just like the Grand Canyon exists.
+Leaving a sole shaft of black obsidian
+of which then a group of master crafts
+people numbering in the tens of
+thousands have both hollowed and chipped
+away the outside.
+>> Love it.
+>> Orthank can sit below 50% on this
+assessment timeline. So
+>> that is the coolest description of
+Orthank I've heard in my entire
+[laughter] life. Yes.
+So, how tall was orthank?
+>> I think it was about 7 m. How we made it
+is we got the hardest wax that you can
+buy. We made molds of all the individual
+singular parts of all thank all the
+little spires about the size of your
+little finger to your big finger.
+>> Okay.
+>> We then cast those. We carved every
+single piece of wax with scalpels to
+give the sense of an ads chipping
+obsidian. All right? Cuz obsidian has a
+very specific look unless you cut it
+like a diamond. The reason it made such
+good arrow heads is it sort of shifts
+off if you had it with a rock. And we
+wanted that sense that the people that
+built it, the ancient culture that built
+it had hammered the stone. And and you
+can see it very clearly now that you
+point out
+>> the art department had to replicate it
+in polyyrene and hard coat at a large
+scale.
+>> We wanted to build all things as large
+as we possibly could build it because it
+was going to get flooded. The only way
+to do that was to shoot it outside. We
+built 23 pits in the ground. We
+pre-built the pits in the workshop. They
+stood about 3 m tall. Pre-detailed all
+of the walls of it and dropped them into
+the ground. Detailed the landscape, put
+the wall in, which was about 50 or 60
+segments that we took out of a single
+mold. And then we hardcoated the whole
+surface. And then we built hundreds and
+hundreds of ovens, little tree stumps,
+little buildings, little bits of stuff.
+that is to populate the land.
+>> Populated all across the land and we
+built it in a empty section about 1
+minute walk from our workshop. The
+public who live in the houses could just
+look down on it every day while we were
+filming. Um there's no photographs that
+anyone leaked from any house. They just
+didn't give a Right. [laughter]
+>> What are these nerds doing?
+>> I know. Exactly. But it's a combination
+of obviously liveaction full-size set
+pieces. our miniature. This is the
+miniature right here. This is all
+miniature at 36 scale, I think. Okay,
+>> that's all just balsa wood. Those those
+holes are actually in the landscape
+exactly as you see them there.
+Obviously, where the digital has put
+massive agents into
+>> Yeah, the people or the orcs. What a
+shot, too. If I if I can recall
+correctly, I believe there was only one
+digital environment in the first film of
+Lord of the Rings, which was Weathertop.
+>> So, this is a digital environment.
+>> Probably using the real set just in that
+little middle part there with a digital
+composite.
+>> The art department built a lot of the
+set. The hobbits have to appear very
+small compared to uh Aragorn. The scale
+at which you need to build something is
+all relative to how small a human is
+drawn into the piece of concept art. So
+if this is the A1 paper and the and the
+environment is this big and they draw a
+human this big,
+>> right? You know that you're building a
+massive miniature. [laughter]
+So and this is where we started to get
+the words bigotes, right? The tallest
+miniature we built was a barador at uh
+11 m. Wow.
+>> Um
+barador was a massive piece of
+construction. We've built it at 1666
+scale.
+>> So a 72nd scale gaming figure like you
+might get from Games Workshop is about
+this big. About as about as tall as a a
+large male's thumbnail.
+>> Okay. This is half the size again and
+some. Right. So, we're talking about
+humans that are this big. Yeah. So, look
+at this. This is 166 scale.
+>> See how tiny the windows are? They're
+telling us the scale of a person.
+>> And now we're going through a layer of
+clouds.
+>> Yeah. And that's all lead. So,
+>> lead
+>> uh lead comes commercially in sheets.
+And you use it for leading a roof.
+>> Okay. You see it specifically in
+medieval roofs where you want to cove
+out uh slate tiles, right?
+>> Wow. How do you I mean, isn't it a
+poisonous material to
+>> Oh, yes. [laughter]
+Everything that a model maker uses is
+poisonous. [laughter]
+Luckily, today we have very strict uh
+rules about how people work with these
+materials, but back then a little less
+so. unfortunately [laughter] as uh my
+lungs can contest to. So,
+>> okay. So, you have a real forge. You
+know, you're forging real swords.
+Forging real plate armor, I assume to
+some degree. As modern technology made
+swords and armor any easier.
+>> Yes. Armor specifically. We knew that we
+had to make a massive amount of swords
+and armor, and we knew we wanted them to
+be as authentic as possible. The only
+way that chain mail had ever been made
+was either using real chain mail or
+using knitting. We ourselves hired uh 12
+older ladies,
+>> which uh they were happy if they were
+getting cups of tea every hour and round
+wine biscuits, which is a New Zealand
+plain dunking biscuit for your tea.
+>> And they knitted for weeks and weeks
+knitting. Um, and then we would put it
+through this special press that's used
+for putting silver foiling onto fabrics.
+We just happen to have managed to buy
+one. They've done a beautiful job, but
+it didn't have the kinetic energy that
+real you can see it so perfectly when
+VGO is putting on this chain mail
+>> cuz that's real chain mail here.
+>> No, it's not. But it's not knitted chain
+mail.
+>> Okay. So we needed to pivot and pivot
+very very fast because obviously chain
+mail was going to be a major thing and
+it was coming up very quickly. We had a
+young guy on our staff, Cain Horscham.
+He set about trying to figure out how we
+could make chain mail and he started
+doing some little experiments. We
+eventually a guy called Dominic Taylor
+who was our animatronics engineer built
+a machine. It's about this big, about
+the size of your camera. We've still got
+it. that sits in the workshop. And that
+machine cut um 14 kilometers, 10 miles
+of alkine tube. And althine tube is the
+stuff that you run to the water troughs
+on a farm to take water to the cows. And
+the little machine
+automatically dragged it in, chopped it
+off, and every second ring it slit it
+right. And it'll go about this far.
+And it did that for three and a half
+years.
+[laughter]
+And then two guys sat in the corner of
+our costume department hand assembling
+12 and a half million lengths of chain.
+>> Just calluses on the ends of the
+fingers.
+>> That little story speaks to our desire
+to make sure our armor was phenomenally
+realistic to fit into the world. It's a
+little tight across the chest.
+>> There was a deep desire to create this
+sense of plausibility in the armor in
+the weapons. Luckily, we found three
+people, all New Zealanders. Peter Lion.
+So, he first joined us and he started
+making the swords to our designers
+designs. They had fullers in them, the
+trench down the middle of a sword to
+release the back pressure when you pull
+a sword out of a victim. They had
+elaborate crossuards, elaborate pommels.
+>> And what were the materials for these
+swords? Were they Were they steel?
+>> Spring springs spring steel and steel.
+>> Because we've got a couple of swords
+that are like uh aluminum for being able
+to wield really
+>> as do we. So today we will often mill
+the aluminium on a milling machine
+that's been built by one of our team uh
+Jordan Thompson or we build elasttomeric
+polymer weapons, rubber weapons. And
+today, interestingly, we've started
+making blades out of bamboo.
+>> Really?
+>> Yeah. If you go to a flooring company
+and buy compressed bamboo, very cheap,
+very easy to buy. There'll be a shop
+within a 10 mile radius a year, you can
+shape it exactly like aluminum, and it
+makes an immensely light weapon.
+>> And then we hired two amazing people to
+make our armor. Stuart and the other one
+was Warren, Warren Green. How we used to
+do all of our embossing plates and all
+of our acid etching would be all by
+hand. So, we'd pour slabs of wax about
+this big. And then a woman called
+Michelle Bryant would hand chisel all
+the details into the wax, giving it a
+really beautiful antiquated quality. We
+would then pour urethane into the back
+of the wax, making stamps that we would
+then put on a clicking press and press
+into the leather. All of King Theodan's
+armor has been done exactly in that
+process. And that gives it a beautiful
+antiquated quality. It's hard to know
+where to begin because this is three
+films, but it's covering years and years
+of work. It's also [music] like this
+perfect point that brings all these
+people and all these skills together
+with a great story for it. A Lord of the
+Rings movie could have happened in a
+million different ways and the way it
+did happen in our timeline is I think
+the best way it could have happened.
+>> Even I will say that I don't know that
+it could ever be captured again. This
+was a country coming together with a
+desire to tell the story of this film. I
+just feel [music] eternally thankful
+that we happen to be there and to be
+part of it. I'd love you all to come to
+New Zealand and visit our unleashed
+experience in Oakland, which is our
+effort to demystify what we do. Because
+just like these two gentlemen and the
+other two that are behind the camera,
+it's critical that we tell our stories
+of how we did it so that other people
+will do it as well. Keep it secret, keep
+it safe is a silly idea, right? So,
+Unleashed is a way that we can share it.
+We've invented three fictitious movies,
+a horror, a science fiction, a fantasy,
+and in this immersive experience, we
+unpack how those films are made. And
+while you're there, you might as well uh
+have a look around the country, go to
+Hobbiton, and enjoy some good Kiwiri
+beer.
+>> Heck yeah. That's a great that's a great
+pitch. I love it.
+>> Well, thank you so much for joining us.
+It's been an absolute honor, an absolute
+privilege. These stories are amazing.
+>> Thank you very much. This has been very
+enjoyable reminiscing at this level. My
+apologies to anyone watching that's
+worked with us in other companies on
+these if I've got some of the facts
+wrong. It's vague memories that you're
+trying to draw back from a very busy
+career. So, but this has been great.
+>> Ren, I got a better idea. We'll take the
+couch to New Zealand and we'll do more
+episodes there. Your triumph would be
+getting Peter to sit on the couch cuz he
+would be a fantastic person to
+interview, especially if you went back
+to his earlier films.
+>> Well, maybe between you and Joe, we can
+get you guys spread the good word.
+[laughter]
+>> All right, so long everybody. Thanks for
+joining us.

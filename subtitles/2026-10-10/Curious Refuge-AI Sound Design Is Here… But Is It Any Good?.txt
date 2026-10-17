@@ -1,0 +1,318 @@
+UP主：Curious Refuge
+标题：AI Sound Design Is Here… But Is It Any Good?
+链接：https://www.youtube.com/watch?v=0yv0r5UyzCY
+
+Can an AI tool do sound effects as good
+as a human? Well, that's what this video
+is all about. We recently came across a
+post on X talking about a brand new
+feature in an AI tool that has the
+ability to take a video that you upload
+and add in sound effects and music
+automatically. So, naturally, we wanted
+to test it out and compare it against a
+human to see who did a better job.
+Welcome to Curious Refuge. My name's
+Caleb. Be sure to like and subscribe if
+you want more tutorials like this in the
+future. So, let's get to the test. So,
+this brand new feature comes from
+Nvidia, and I know quite a few people
+really like the Nvidia platform. Kevin
+the Kid, who is our advanced AI
+filmmaking instructor, talks about
+Nvidia a lot and how much he loves using
+it in his professional productions. So,
+I'm here on Invido's website, and I
+should note they're not sponsors of this
+video. Nobody has ever sponsored a
+Curious Refuge video. We are what I
+believe to be the only channel online
+that does not take sponsors because we
+want to be honest with you. So, all you
+have to do is go to that login button
+here. And it's a little confusing, but
+all you have to do is click that plus
+icon at the top. And we will go to new
+project. We'll call this sound effects
+test project and go ahead and hit
+create. [music] So now we have this
+notebook LM like experience, but I'm
+actually going to go to the editor
+because it's an actual video editing
+timeline that you can hop in and use
+agents to perform various actions. So
+I'll click on plus editor here and that
+will pop up Adobe Premiere Pro. No,
+wait. This is Invid video. It looks
+basically identical to Adobe Premiere.
+So now we need to add in our media. So,
+for our test, I'm going to be using a
+video from Jeremy, who put together an
+incredible project for our membership
+build challenges that we have inside the
+Curious Refuge community, which is our
+online education network. He actually
+did a recent breakdown of this in our
+weekly office hours. But here is the
+example of the project that we want to
+add sound effects to. So, you're only
+going to hear dialogue. There's no music
+or sound effects. Sir, your nose is It
+is very big.
+>> Very.
+>> Huh?
+>> Is that all?
+>> Oh, no. Young Blade, that was a trifle
+short. You might have said a hundred
+things by varying the tone. Aggressive.
+Sir, if I had such a nose, I'd amputate
+it.
+Descriptive. It is a rock, a peak, a
+cape. Nay, not a cape. A peninsula.
+>> Gracious.
+>> You love the little birds. I think you
+found their tiny claws a roomy purge.
+>> Cushulent. When you smoke, do not the
+neighbors cry. Terror struck the chimney
+as a fire.
+>> Dramatic when it bleeds. What a red sea.
+Rustic. That thing a nose is a prize.
+Turn it.
+>> Such, my dear sir, is what you might
+have said had you of wit or let him the
+least jaw. But of letters you have three
+only. They spell as.
+I take them from myself, all in good
+part, but not from any other man that
+breathes. Come away, Vicon.
+[laughter]
+>> So, that's the dialogue. Now, we want to
+add in music and sound effects. So, I'm
+going to take that original video here,
+and I'm going to drop it in the add
+media section here in Invido. And now,
+we're going to go up to the agent at the
+very top, and we will click the drop-
+down menu, and select create agent. So,
+it says, "Hello, I'm here." And we
+basically now need to make an agent. I'm
+going to call this guy uh we'll call him
+Neo. I don't know, just have like the
+Matrix on the mind since we're talking
+about an agent here. Uh we'll go ahead
+and click enter. And then it says, "What
+should I know about you? I'm testing
+your tool." There we go. All right. And
+we got a little confirmation message
+here. Neo it is. I know kung fu and also
+key frames. That's actually kind of
+funny. All right. So, I'm going to paste
+in our prompt here. We're basically
+going to say, "I need you to add some
+sound design to the video I placed in
+the editor." Of course, you can go into
+as much detail as you want into the
+specifics of what you want the ultimate
+sound design to be. And we can change
+this to whichever version we want. We
+can go all the way up to ultra and go
+ahead and hit render. Now, I'm not going
+to show you the process of actually
+going into the editor because frankly,
+that'd be very boring. It took 2 hours
+to pull this off. So, that's a 60-second
+piece. two hours to do the ultimate
+sound design and it cost us about $4.56
+in credits. So, let's listen to what we
+got from Invido.
+Sir, your nose is it is very big.
+Very. Ah, is that all?
+Oh, no. Young Blade, that was a trifle
+short. You might have said a hundred
+things by varying the tone. Aggressive.
+Sir, if I had such a nose, I'd amputate
+it.
+[laughter]
+Descriptive. It is a rock, a peak, a
+cape. Nay, not a cape. A peninsula.
+>> Gracious. You love the little birds. I
+think you found their tiny claws a roomy
+purge.
+>> Okay, you get the idea. The sound
+effects, while some of them are placed
+correctly, some of them make no sense.
+The leveling is weird. It's really a
+strange sound effects selection for
+those specific shots. So, it's basically
+unusable. If I was giving this a score
+out of 10, it would be basically a one
+or a two. You're basically starting from
+scratch. Uh, if you had to hop into
+Nvidia here. Now, what I should note is
+they did add the sound effects in the
+actual timeline. So, you could adjust
+them. You could go in and add in your
+own sound effects and things like that,
+or you could hop into your own video
+editing application and do it yourself.
+Now, that's the robot version. Yeah.
+Now, let's listen to the version that
+Jeremy put together.
+>> Sir, your nose is It is very big.
+>> Very, huh?
+>> Is that all?
+>> Oh, no. Young Blade, that was a trifle
+short. You might have said a hundred
+things by varying the tone. Aggressive.
+Sir, if I had such a nose, I'd amputate
+it.
+[laughter]
+>> Descriptive. It is a rock, a peak, a
+cape. No, not a cape, a peninsula.
+>> Okay, so yeah, that was so much better.
+Of course, you may have your own
+opinions about how you would maybe want
+to adjust things, but it's on a
+different planet than the version that
+we got from Nvidia. So, I think that
+this test confirms what we've been
+saying literally this entire year, which
+is agentic application-based agents are
+ultimately not super helpful in
+day-to-day creative work. But I would be
+remiss if I did not go in and test
+ChatGpt Astra in a similar way. So what
+we're going to do is take a look at a
+different example. You may be familiar
+with this one. Here's the version that
+does not have sound effects.
+>> And he still hasn't noticed. [laughter]
+>> He never does.
+>> This came from me, by the way. It's your
+handwriting.
+>> I haven't written anything.
+Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> This isn't funny. How did you fake my
+hand?
+So, that's the scene. Then yeah, the
+acting performance is uh pretty terrible
+if I do say so myself. But we took that
+starting video without any sound effects
+at all, threw it through the Nvidia
+pipeline that I just showed you, and we
+got this.
+>> And [music] he still hasn't noticed.
+[laughter]
+>> He never does.
+>> This came for me, by the way. It's your
+handwriting.
+>> I haven't written anything.
+Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> This isn't funny. How did you fake my
+hand?
+Okay. Yeah. Again, not very good. I
+liked how the tension kind of ramped up
+to him opening the door, but it
+completely didn't add in the sound
+effect of the door opening and just a
+lot of stuff is just off and weird and
+it hard cuts. It's not usable. But we
+did the exact same test inside of Chat
+GPT Astra. I'm using the application
+version of Chat GPT and typed in a
+simple little prompt asking it to add in
+sound design to the video. And I should
+note that ChatGpt Astra can pull this
+off in a variety of different ways. The
+first would be going to the internet.
+The second would be using applications
+on your computer. And the third would be
+literally using JavaScript to run the
+application inside of chat GPT. And
+there's no software to be seen. So, it's
+pretty crazy. It can pull it off in a
+number of different ways. And if you
+want to be specific about how you want
+it to pull off, you can also do that as
+well. And I'll drag and drop our
+starting video here. We're in the work
+tab. And we can change the GPT Astra to
+whatever we want. I'll keep it at high.
+and go ahead and click submit. So, this
+entire process took about an hour and 45
+minutes to pull off and cost us $520.
+Now, if that sounds familiar to the
+Nvidia agent, it's because that's almost
+the exact same cost and time. So,
+Nvidia's agent may be actually powered
+by ChatGpt or Claude. I'm not entirely
+sure, but I have a nagging suspicion
+that's what's going on under the hood.
+And so, from Astra, this is the result.
+>> And he still hasn't noticed.
+>> [laughter]
+>> He never does.
+>> This came from me, by the way. It's your
+handwriting.
+>> I haven't written anything.
+>> Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> This isn't funny. How did you fake my
+hand?
+Okay. So, yeah, that's not good sound
+design, but it is better. And so, again,
+it seems like these more Frontier models
+are a bit more capable of pulling off
+editorial processes in a rough cut
+capacity. And I should note that Astra
+actually utilized Adobe Premiere Pro to
+pull this off. And all those sound
+effects are in our timeline here. So, we
+could pull in any other sound effects
+and be directly inside our video editing
+application. But the same could be true
+inside of tools like Da Vinci Resolve.
+So, with all of this being said, the big
+question is, can you use AI to give you
+sound effects and sound design on your
+next video project? And from our test,
+it seems like the answer is no. It's not
+really usable in a professional
+workflow. Maybe you can get some rough
+sound effects that you can adjust, but
+then you would almost immediately need
+to go to an online sound effects
+database to download the sound effects
+that you need or even generate them
+yourself. And so I really don't think
+that sound design is there just yet. Now
+that could change at any moment. So if
+you want to learn the latest AI
+filmmaking workflows, I highly recommend
+checking out our community over at
+curiousrefuge.com. Our members and
+students are in over 172 countries, and
+we're the world's leading voice when it
+comes to AI filmm. From one-on-one
+coaching with professional AI artists to
+weekly office hours and live streams, we
+have a ton of content and training
+available for you to help you land your
+next opportunity. You can learn more by
+visiting curiousrefuge.com.
+Now, I'm curious to you watching this
+video. How has your experience been with
+using agents for sound design? Have
+there been tips and tricks that have
+been helpful for you? Or ultimately, is
+this just a tool that's not quite there?
+I would be so curious to hear about it
+in the comments of this video. Thank you
+so much for watching, and I will see you
+in the next one.

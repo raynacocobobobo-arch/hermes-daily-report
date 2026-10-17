@@ -1,0 +1,112 @@
+UP主：OpenAI
+标题：Figma Gave GPT-6 Astra a Moonshot. Here's what happened.
+链接：https://www.youtube.com/watch?v=rRm3Vnb7UPY
+
+This is really sweet. And again, you
+[music] should think of how much work it
+did. My goodness. It built like the
+entire cockpit experience.
+>> [music]
+>> I'd love to
+hear more about what you're working on
+at Figma.
+>> Big part of what we're thinking about is
+how do you make Figma [music] agentic
+inside and out? How do you make sure
+that all of the best models are
+available to users
+>> [music]
+>> when they're inside the Figma product,
+but also that Figma is available no
+matter where your workflow might start
+outside of the app as well.
+>> What was your first impression of the
+model?
+>> There's a level of confidence that I
+could feel when using it that was a
+little bit different from anything that
+I had tried [music] in the past. It felt
+like it had its own opinion about how it
+was going to go about doing this in a
+way that didn't really require a lot of
+guidance.
+>> I think in particular its ability to
+>> [music]
+>> really give itself time to understand a
+new task before it actually dives in
+something that makes it feel like it
+leads to far better results down the
+line. [music] The ability to steer it to
+give it direction even when it was
+already in the middle of a task was
+something that felt really special about
+it.
+>> I'd love to see like some of the things
+you've done with Astro. [music]
+>> Yeah, that'd be awesome. Let's look at
+it. Imagine you were designing the
+flight control system for this like
+single-person helicopter that was
+optimized for taking people these short
+distances. Let's define some hero flows
+and some user journeys that we'd
+actually build into an app. So [music]
+kind of what I said is okay, instead of
+why don't we actually come up with some
+concepts for what would make a good
+prototype and then actually go and and
+build this out. [music] So you can see
+again it worked for like 2 hours.
+>> Wow.
+>> And then built a new prototype kind of
+for this [music] experience. Getting a
+common brand system in place using
+components the right way to actually
+create consistency, be able to actually
+[music] do so much work across multiple
+different screens and then actually
+stringing that together into a journey
+that would actually show how I would
+experience this [music] app across
+multiple surfaces was something that I
+just haven't really been able to see
+done before to actually even communicate
+this level of fidelity an idea that then
+started with like a couple hundred
+tokens.
+>> I mean it's pretty incredible cuz I
+don't think I've ever seen a model
+[music] use that many Figma features to
+like getting everything right from the
+design system, the components, like all
+of the [music] walk-through for the
+experience. It's amazing.
+>> In order to do this well, it would have
+had to actually think from like pretty
+deep principles [music] what is required
+to even set this up, right? Before I
+actually go and do the design.
+>> And what are you personally excited to
+work on next with Astra?
+>> Yeah, I think honestly continuing to
+figure out how this is going to deeply
+integrate into my own workflow of and
+really think [music] about all the ways
+that this will impact how we like build
+and ship features at Figma from that
+original specification going from the
+like messy exploration of ideas to
+refining something [music] into a
+clearer point of view that we can all
+align on and actually going through each
+of those steps of the the process to
+both prototype and communicate ideas
+visually but also start to de-risk
+whatever the most risky parts are from
+the technical standpoint. Be able to do
+that all at the same time and in
+parallel is something [music] that
+there's no doubt is going to massively
+speed up workflows and just ultimately
+let us ship a lot more product a lot
+faster.

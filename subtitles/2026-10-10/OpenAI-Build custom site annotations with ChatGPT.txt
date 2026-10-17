@@ -1,0 +1,84 @@
+UP主：OpenAI
+标题：Build custom site annotations with ChatGPT
+链接：https://www.youtube.com/watch?v=ZcDFZzsp3_Y
+
+We recently added support in
+the ChatGPT app for WebMCP tools.
+These are actions that you expose
+on your website to be available
+to agents, like searching a catalog
+or updating something on the page.
+You might also be familiar
+with annotations already.
+They're a way for you to point
+at something specific on a page
+and ask ChatGPT to change it.
+Well now, we've extended annotations
+to be more useful to your users.
+As a developer, you can create
+custom controls for these annotations,
+and you can also trigger them
+programmatically with suggested prompts
+to help users discover
+what they can do on your page.
+Combined with WebMCP tools,
+custom annotations make
+your app more agent-friendly.
+Your users can now use the ChatGPT app
+to perform these actions
+right from the in-app browser.
+Let me show you a couple examples.
+Okay, so here, let's say
+you want to edit this scene
+without having to go through the catalog
+and find items and drag things yourself.
+With WebMCP, you can already ask
+ChatGPT to edit things for you.
+But annotations give you
+a better idea of what's possible.
+For example, if I click
+on this in annotation mode,
+the custom controls give me
+an easy way to swap with similar items.
+Or if I click here,
+I have a picker for the color.
+This is all defined in the site's code
+as HTML attributes or JavaScript.
+And it pairs well with WebMCP tools
+because it gives ChatGPT
+additional context about what I'm clicking on
+and what I want to do.
+But the real power of WebMCP
+is that a user's agent
+knows its specific context.
+So you can use tools to interact
+with the site, leveraging that context.
+And with annotation extensibility,
+you can also suggest prompts for
+the user to try with their agent.
+For example, here, I'm on an app
+that lists my expenses
+and I can click here
+and get a suggested prompt for ChatGPT
+to search through my app
+and find context on this expense
+that the site doesn't have.
+And then you can add the right metadata
+through the provided WebMCP tool.
+The user's agent
+has context on their preferences,
+can access their data through plugins,
+and more generally, it knows the user
+much better than your site ever will.
+So as more people use agents on the web,
+build your app to work well with them.
+With annotation extensibility,
+you can steer the user and their agent
+and show them what's possible on your site
+through custom controls
+or suggested prompts.
+With this feature,
+we're opening up new ways
+for people to use the web with their agent,
+helping them go from what they want to do
+on a web app to getting it done.

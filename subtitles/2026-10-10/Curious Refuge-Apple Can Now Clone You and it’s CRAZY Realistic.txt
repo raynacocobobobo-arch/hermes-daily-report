@@ -1,0 +1,828 @@
+UP主：Curious Refuge
+标题：Apple Can Now Clone You and it’s CRAZY Realistic
+链接：https://www.youtube.com/watch?v=gnp86XUSzgg
+
+When Cedance 2.5 hit the market, the
+unfortunate reality was it was only in
+720p and so it was kind of hard to
+recommend it for professional use. Well,
+all of that completely changed this last
+week with the introduction of Seedance
+2.5 1080p. So, naturally, we are going
+to take a look at this tool and see how
+it stacks up and have a very honest
+conversation about the cost. In other
+news, there's a brand new AI audio tool
+that allows you to clone any voice from
+a simple audio clip. And the catch is
+you have the ability to have detailed
+control over the emotions. Plus, the
+team at Apple can now clone your face
+and manipulate your emotions, but you
+know, in an R&D kind of way. We have all
+of that and more in today's episode.
+Thank you so much for joining us. My
+name is Caleb. Welcome to Curious
+Refuge. So the first bit of news that of
+course we are going to talk about is the
+introduction of seedance 2.51080p.
+The main difference between this model
+and the 720 version is the fact that you
+now get more resolution. So to put it in
+full context using seed dance 2.5 you
+have the ability to bring in up to 50
+different references into your AI videos
+that you are generating. This means you
+can bring in a collection of images,
+audio clips, and videos to help create a
+more consistent output that is in line
+with what you are looking to generate.
+It also has the ability to generate
+clips up to 30 seconds long. And all of
+those video clips are in a 10- bit color
+space, which is great because up to this
+point, most of the online video
+generators only generate video clips
+that are in 8bit, which uh severely
+limits your ability to color grade it in
+a post-production workflow, which is a
+big problem if you're working on a
+professional project. So, to use Cdance
+2.5 in 1080p, there's quite a few
+websites that you can go to. You can go
+to Dina, Magnific, Runway, Art List.
+It's on most of the major aggregators
+that you probably use in a day-to-day
+capacity. Now, all you have to do is
+upload your starting images here. And
+for our example, I have a couple images.
+We have this first one of Shelby, my
+wife, and we have this second one of me.
+And we also have this image that was
+generated inside of MidJourney as a
+color grading and location reference
+image. So, we brought all three of those
+images into Drama here, and we broke it
+down into a specific prompt that's using
+time code to outline what we want to see
+as the scene unfolds. One of the
+incredible reasons to use Seed Dance is
+the fact that you have the ability to do
+multiple cuts at a time. It's really,
+really awesome. So again, we are in
+seedance 2.5 and we can go down here to
+the menu and we finally have the ability
+to select 1080p, which is very exciting.
+Now for the duration, we're going to go
+all the way up to 30 seconds and go
+ahead and click generate. And after
+about 20 minutes, we got this video
+clip.
+I've been trying to figure out how to
+say this since Thursday.
+>> I know.
+I've known since March.
+>> March?
+Why didn't you?
+>> Because I kept thinking you'd tell me.
+>> I was going to.
+>> I mean, come on. Like, that is
+undeniably incredible. Are there parts
+that maybe I would want to change? Yeah,
+I think so. Like, for example, the text
+on the walls and the window doesn't make
+any sense at all. And so you absolutely
+would need to clean that up if you
+needed to distribute in a professional
+way. There's also just some random weird
+wonkiness happening throughout the
+scene. For example, this bag seems like
+it's just like floating in midair, which
+doesn't make a lot of sense. Plus, we
+also have this object here, which I'm
+guessing is that like an ashtray or
+something. Not entirely sure what's
+going on there. And I should also point
+out that the edges do have a level of
+jitteriness that I wouldn't want to see
+in a final output. So, you probably
+would still need to run it through an AI
+video upreser because you're probably
+going to want to distribute in 4K
+anyways. But all things considered, this
+is hands down the very best AI video
+model that we have ever tested here at
+Curious Refuge. So, let's put this in
+perspective. Let's take a look at the
+720p version and look at those finer
+details to see if you can spot some of
+the differences between the 1080 version
+and the 720.
+I've been trying to figure out how to
+say this since Thursday.
+>> I know.
+I've known since March.
+>> March.
+Why didn't you?
+>> Because I kept thinking you'd tell me.
+>> I was going to.
+So again, 720 was not bad. It's just
+there was a lot of artifacting inside of
+the video and just kind of strange parts
+that absolutely would come through to
+your audience where they would notice
+that something's off about this final
+video. Whereas 1080p is not perfect, but
+it is much better than 720. Now to put
+the entire thing in perspective, let's
+take a look at the same example coming
+from Miniax H3. So, Miniax H3 is an
+openw weighted model that you do have
+the ability to run locally on your
+machine in their version of 720p.
+The cool part about Miniax is it's
+basically free as long as you have a
+computer that's good enough to run it.
+So, this is kind of the baseline
+standard for free video models.
+I've been trying to figure out how to
+say this since Thursday.
+I know.
+I've known since March.
+>> March?
+Why didn't you?
+>> Because I kept thinking you'd tell me.
+>> I was going to.
+>> Okay, so that's Miniax H3. And while it
+is very impressive and especially some
+of the performances there I actually
+thought were pretty cool and emotionally
+resonant. The problem is when you
+compare it against Seed Dance, it's
+really not on the same planet. So if
+you're working on a professional
+project, you definitely want to use Seed
+Dance 2.5 rather than Miniax H3 because
+the quality is just frankly so much
+better that it justifies the cost. But
+if you're an independent artist or
+working on a personal project, the value
+proposition of those free open weighted
+models is incredible. And you can learn
+more about that in our previous video.
+Now, let's talk about cost here for a
+second because this is by no stretch a
+free AI video model. Now, all of the AI
+video generators have different cost
+breakdowns based on their credits and
+frankly very confusing cost structures
+when it comes to actually generating
+video assets and understanding what that
+actually cost you as an artist. But I'm
+going to be using Dramina because
+they're basically coming directly from
+the source because they're connected to
+Bite Dance. So for that 30 secondond
+video clip that we just watched from
+Seedance 2.5, it cost $31 and 62 cents
+to generate inside of Dina. So that's
+basically a dollar a second for seed
+dance 2.5. But the problem is you're
+more than likely not going to get
+exactly what you need from that very
+first generation. And generally
+speaking, I would really recommend
+generating smaller video clips rather
+than just 30 second clips all at once
+because you probably are going to get
+better results that you can control
+versus if something gets wonky in the
+early part of the video generation
+process, the entire clip would be ruined
+and you'd basically burn $30. So that of
+course would be a problem. Now, in my
+recommendation, if you're working on a
+professional AI film, on average, it's
+probably going to take you about 10
+generations from Cance 2.5 1080p to get
+something that you are super happy with.
+Now, that's just the average. There is a
+very real possibility that it could take
+you 1, two, three generations and you're
+good to go. But for other shots, it
+could take you 20 or 30 generations. So,
+I think that 10 video generation
+baseline is probably about accurate. So,
+in light of all of that, if you're
+working on a budget for a professional
+project, there's some very simple math
+that you can apply to your project to
+see what it's going to cost. All you
+have to do is add a zero to the number
+of seconds. So, if you're working on a
+2-minute film that's going to be 120
+seconds long, it's probably going to
+cost you about $1,200 just in generation
+credits alone in order to pull it off.
+But let's double click on that idea of
+iteration because again, this model is
+not perfect. So, let's take a look at
+our very classic asteroid test. So, I
+have this starting frame here of this
+truck and asteroids are landing around
+him and he's driving away. And we
+prompted inside of Seed Dance 2.5 for a
+liveaction scene of the man driving his
+car. And again, I should note we did not
+prompt for slow motion. And we got this
+I mean, that's insane, right? Like, we
+did not prompt for slow motion. So, if
+there's any knock that I'm going to
+apply to that video generation, it's
+definitely that it's in slow motion and
+we would have to rerun it again and
+really reinforce the real time 24 frames
+per second look that we're going for.
+But the physical dynamics, the the
+particle generation, the continuity in
+the small particulate that's in the
+environment is incredible. And again,
+this is a huge turning point for the
+entire visual effects industry. Now,
+let's compare it against a couple other
+examples here. So, this is the same
+result inside of Miniax H3. Remember,
+presumably this could be free on your
+computer.
+Okay, again, very good, not perfect. The
+texturing does come across as a bit
+plasticky, but altogether not too
+shabby. And let's compare this against
+the old version of Seed Dance. So, the
+version of Seed Dance that was released
+6 months ago.
+Okay, from a dynamics perspective, the
+old version actually did better in this
+test, but there's definitely some
+strange stuff that was in the old
+version that is not as present. Notably,
+a lot of the rainbow artifacting is not
+present in the 1080p version. You also
+have a very weird like stuttery shutter
+problem in this 2.0 version that you
+don't see in 1080p. So, all things
+considered, I do think that 1080p is
+more impressive, but again, it would be
+an iteration game. We did not get
+exactly what we're looking for from that
+first shot. So, the next thing I want to
+take a look at is a diner scene.
+Basically, we have this starting image
+of this woman sitting down at a diner,
+and we wanted to prompt for a specific
+scene to unfold. This is what we got
+from Cance 2.51080.
+Thanks for the food. I'm starving.
+>> I'm sorry. Who are you?
+>> Okay, so there's a lot of things we like
+about that. I love the camera movement
+as it tracks with the guy as he's like
+going to the booth. I love this ending
+shot here where you can see the woman,
+you know, very confused. What's really
+funny about Cance 2.5 is the first shot,
+which is based on the initial starting
+reference image, actually came across as
+emotionally flat because it was trying
+to keep that same expression throughout
+the entire shot. Whereas, as it
+progressed, it actually got more
+realistic. This is the first AI video
+model that I've ever seen that becomes
+more realistic over time. So, it's
+really quite interesting. And again,
+let's compare that against Miniax H3.
+>> Thanks for the food. I'm starving.
+>> I'm sorry. Who are you?
+>> Okay. So again, struggling with some of
+the plastic skin texturing. The physics
+at the very beginning are very, very
+weird. And maybe it's a bit too
+polished. There's just not some of that
+kind of tenacity that you would want to
+see in a more realistic video. So not
+too shabby, but not super realistic. And
+our final example is a samurai fight
+scene. This is what we got from Seed
+Dance 2.5.
+[screaming]
+[groaning]
+Okay. So, kind of weird because it seems
+like the frame rate completely changed
+throughout that scene. Obviously, the
+first kind of lunge from the character
+was in slow motion and then towards the
+end it almost felt like it was like live
+action real time. So, not entirely sure
+what's going on there exactly. Again,
+you're probably going to have to
+reinforce and prompt to get that 24
+frames per second smoothed out. I don't
+know if that's just from our test here
+or if it's just a more pervasive 2.5
+problem, but we have seen it a bit more
+in this upgraded version. But what I
+really do like, if you take a look at
+this scene, the texturing on the humans
+is so much better than it used to be.
+You get a sense of the dirt, the
+wrinkles, the hair. There's even like
+dandruff in the guy's hair. So, it's
+really, really impressive. So with all
+of that being said, what's the big
+takeaway with Seed Dance 2.5 and the
+truth is this is a turning point for the
+industry. 2.0 was a big moment. 2.5 is
+an undeniable moment. I think that
+seedance 2.5 in 1080p is now the
+industry standard and there's not a
+single AI video model that is even
+close. And to really solidify Sea
+Dance's place in Hollywood, there was
+also some news this last week where the
+Motion Picture Association, the MPA, has
+arrived at a memorandum of understanding
+with Bite Dance that Bite Dance is going
+to integrate [music]
+protections into Seed Dance and Seedream
+5.0 Pro that will protect IP and
+copyright inside of Hollywood. Now, it's
+not entirely clear what that means
+exactly outside of a commitment from
+Bite Dance, but it is a very large
+departure from the initial version of
+Seance 2.0 that we saw back in January.
+The fact that Bite Dance is so
+specifically going after opportunities
+in Hollywood has really been felt in the
+industry. In the early days of AI video,
+a lot of studios were very weary of
+leaning in and could only get the rights
+to use some lesser AI video models. But
+now, Seed Dance and other AI video
+models are absolutely pervasive
+throughout the industry. Hollywood is no
+longer playing around with AI. It's
+actively figuring out how to integrate
+it into professional work. Now, we saw
+some news this last week that was pretty
+incredible. The research team at Apple
+has released a brand new white paper
+talking about a product called Heads Up.
+So, this is an internal tool at Apple.
+This is not something that is publicly
+facing [music] just yet, but the idea is
+that they took 10,000 subjects and took
+highresolution photos of their face.
+After they took photos of their face,
+they were able to create a 3D Gaussian
+splat. That's a highresolution 3D scan
+of the subject and move a camera around,
+which is cool, but it only starts there.
+So, from there, they're able to take
+those images of those 10,000 people and
+create amalgamations based on simple
+prompts. From there, they can take that
+3D representation of a person's face or
+a generated face and project an emotion
+onto that character. So, for example, we
+have this facial expression of this guy
+at the very top. You can see he has this
+just like really outlandish expression
+in that right side there. And they took
+a very neutral scan of that woman's face
+in the bottom left and projected the
+expression of the man onto the woman.
+And the same is true for other people.
+You can take a neutral expression and
+project that expression onto a
+completely new person. So, as you can
+see here, the video on the left is a
+real person acting. The video on the
+right is that performance projected onto
+five different people. And if it just
+stopped there, that would be amazing.
+But in the words of Apple, there's one
+more thing. So, they also created a UI
+that allows you to have fine-tuned
+controls over the expression on the
+character's face. So, hypothetically,
+you can go in here as a human and draw
+up sliders to change the emotions of the
+characters. Now, that's not necessarily
+a new tool. This has actually been
+around for a little while, but this
+amount of fidelity and control over the
+characters does seem to be like the very
+best tool on the market. But in a real
+world scenario, you probably wouldn't
+dial in expressions just like this. Of
+course, maybe if you were in Photoshop,
+you could dial in your subject's
+performance or their face in some sort
+of way. If you're working on a
+professional project where you need to
+have a very specific expression, like
+let's say you're working on an
+advertisement with a model and you want
+to tweak their expression just a little
+bit, or maybe you're working on a movie
+poster and you need them to feel
+something differently that wasn't
+captured on set. I could see this type
+of technology being integrated inside a
+professional tool like Photoshop. Now,
+of course, those subjects were scanned
+and brought into Apple headquarters, but
+I can imagine with all of the sensors
+that Apple has on your iPhone device
+that this type of technology could be
+integrated very soon in a more
+userfacing capacity. Now, speaking of
+emotional control, there was a brand new
+tool that dropped this last week that is
+open source, meaning you can download it
+to your machine, run it for free, and do
+whatever the heck you want with it that
+gives you the ability to clone a voice
+from a single audio clip and have
+fine-tuned control over the emotional
+performance whenever you hit generate.
+Basically, it's a free version of 11
+Labs with emotional control, but of
+course, let's see how it stacks up. So,
+it all starts with some reference audio.
+I have a quick clip of me talking. Let's
+take a quick listen. If you create
+YouTube content and you do not use AI,
+you are behind, my friend. Do I really
+sound like that? Okay, so that's the
+audio clip that we're going to use. It's
+only 10 seconds long. We'll drag and
+drop it into our voice reference
+section. Now, from here, you can type in
+this box here the exact words that you
+want your subject to say. You can select
+the language that you want to generate
+in and you can change the duration
+depending on if you want it to speak
+slower or faster. You get the idea. Now,
+at the bottom, you have a few different
+options here. You can say that you want
+the emotion control to be the same as
+the reference audio that was uploaded,
+basically in the same emotional style
+from the audio that you recorded
+separately outside of the context of
+this application, which is totally fine
+and makes sense. and you're more than
+likely probably going to use it in that
+context if you do a lot of voice
+cloning. But what makes it very
+interesting is you also have the ability
+to use an emotional reference audio
+piece. So the value proposition is you
+can take my performance of me talking to
+you on camera here, combine that with an
+emotional performance from somebody
+completely different and bring it all
+together to take that emotional tonality
+into my cloned voice for the final
+output. It's pretty crazy. And then
+finally, you also have the ability to
+use emotional vectors. So this is what
+we were talking about in the Apple news.
+You have the ability to dial in the
+happiness that's present inside of the
+voice or the disgust or the surprise.
+You have control over the overall
+output. Other AI tools allow you to do
+this. For example, inside of 11 Labs,
+they use a bracket system to give you
+the ability to control the emotions.
+This is the first one that I've seen the
+slider system. So, it's pretty
+interesting. And of course, when you're
+ready to generate, you can hit
+synthesize. So, I'm not going to play
+back all of the audio examples inside of
+this video because that would probably
+get boring after a while. But, I do want
+to show you how good it is. So, let's
+take a listen to a cloned version of my
+voice that used only 30 seconds of
+reference audio. 30 seconds of my voice
+to generate this clip. I've decided I'm
+done with Gims. $40 a month to walk on a
+machine that goes nowhere. I did the
+math. If I just carry my groceries up
+and down the stairs a few extra times a
+week, that is the same cardio for free.
+With the money I save, I'm going to buy
+a llama, not for a farm, just to walk
+around the neighborhood with. I think
+people will respect me more. Okay, you
+get the idea. That was a very robotic
+performance. So, you absolutely would
+need to put in some more emotional
+control inside of TTS if you wanted to
+actually get something that was usable
+in a professional capacity. I should
+also note that it's going to say the
+word Gims a lot because apparently it
+did not understand how to pronounce the
+word gym, which I think is hilarious.
+So, this is a similar generation from 11
+Labs that also used my voice to clone.
+I've decided I'm done with gyms. $40 a
+month to walk on a machine that goes
+nowhere. I did the math. If I just carry
+my groceries up and down the stairs a
+few extra times a week, that's the same
+cardio for free. With the money I save,
+I'm going to buy a llama, not for a
+farm. Okay, it's better, but not good.
+But I do think it's helpful to create a
+baseline for these tools. But just voice
+cloning was not the thing that makes
+this really exciting. What I really want
+to take a look at is the emotional
+reference audio. So again on the TTS
+website if you go down to use emotional
+reference you can bring in an emotional
+reference to the audio that you are
+trying to generate. So for our example I
+want to do a reference of somebody like
+super sad and crying and project that
+emotion into our output. So this is the
+reference audio we'll use. [laughter]
+[crying]
+So you can just drag and drop that
+reference audio inside of here. And
+after we hit generate, we got this. I've
+decided I'm done with Gim's $40 a month
+to walk on a machine that goes nowhere.
+[laughter] I did the math. If I just
+carry my groceries up and down the
+stairs a few extra times a week, that is
+the same cardio for free. With the money
+I save, I'm going to buy a llama, not
+for a farm, just to walk around the
+neighborhood with. I think people will
+respect me more. I think people have not
+respected me less in my entire life. Oh
+my god, that's amazing. Okay. Uh let's
+listen to a few different examples here.
+So, we also have this evil laugh. So,
+this is the reference audio we're
+working off of.
+[laughter]
+Vaudeville villain. All right. So, let's
+generate the audio using that as the
+reference. I've decided I'm done with
+Gim's $40 a month to walk on a machine
+that goes nowhere. I did the math. If I
+just carry my groceries up and down the
+stairs a few extra times a week, that is
+the same cardio for free. Okay, I don't
+know why it's perceiving an evil laugh
+as southern. I don't hate it, but that's
+definitely not what we're looking for
+here. So, the next thing I want to take
+a look at is the emotional vector
+section here. So, inside of emotional
+vectors, you have the ability to dial in
+these sliders here. So, let's say we
+want to create a generation that has a
+happy slider of 0.4. four and maybe
+surprised of 6. Let's go ahead and hit
+synthesize. I've decided I'm done with
+GIMs. $40 a month to walk on a machine
+that goes nowhere. I did the math. If I
+just carry my groceries up and down the
+stairs a few extra times a week. I guess
+he's surprised and happy. The
+performance kind of sucks, but you know,
+it is pretty interesting. Okay, so let's
+listen to the same generation where
+we're going to dial in angry to.5 and
+disgusted to.5. I've decided I'm done
+with Gims. $40 a month to walk on a
+machine that goes nowhere. I did the
+math. If I just carry my groceries up
+and down the stairs a few extra times a
+week, that is the same cardio for free.
+Okay, so yeah, sure. I I think it's
+maybe a bit more angry. The speed is
+crazy fast. I think we definitely would
+want to dial that down. Okay, with all
+of that being said, I think it's
+important to note that open weighted and
+open-source models are increasingly
+getting really good. And so if you're a
+frontier AI company developing the
+latest models, whether it's Google
+Gemini and Claude, or if it's video
+tools like Seed Dance or Juan 3.0, or
+even audio tools like 11 Labs, there are
+open- source tools right on your heels,
+and they're increasingly getting better
+and better. Registration for our
+September session here at Curious Refuge
+opens up on Wednesday, August 26th at
+11:00 a.m. Pacific time. We're super
+excited because this is our back-
+tochool kickoff where you can join
+fellow artists around the world. We
+train artists at every major studio and
+we love hearing success stories of
+people who have gone through our
+training and landed full-time job
+opportunities. If you want to learn
+more, you can click the link below this
+video, but absolutely no pressure. So,
+the next bit of news that I want to talk
+about, speaking of control, comes from
+the team at Move AI. We saw a really
+cool demo this last week where they
+essentially brought in some subjects
+into a Gaussian splat stage that was
+connected with some qualissis
+cameras. I think I'm saying that
+correctly. And as you can see inside of
+this video, it's doing real-time motion
+capture of the character's skeleton and
+doing a much better job at recreating
+the overall movement versus some of the
+open weighted skeleton tools that we've
+seen over the last couple of months.
+Move AI is just leaning really heavily
+into the motion tracking space and I
+think they're doing a really impressive
+job. The next bit of news that we want
+to shout out comes from the team at
+Lahi. So if you're not a motion
+designer, you may not be familiar with
+Lahi. It's basically a tool that allows
+you to take animation from tools like
+After Effects and export it in a format
+that can be used online. So, if you come
+across a really cool interactive website
+has like a lot of motion elements,
+there's a chance that the designer used
+Lahi to pull it off. The demo was pretty
+cool. Presumably, they used an online
+instance of Lahi to animate their 2D
+layers and then they used AI to add in
+more texturing. So, an artist had a lot
+more control over the output and then
+they used AI to add in a level of
+stylization. I think what's been really
+fascinating in the AI space is the fact
+that photo realism was actually achieved
+much quicker than really refined motion
+design. There's a lot of finesse and
+storytelling that comes from micro
+expressions and micro key frames in a
+motion design context. And I think tools
+like this just really reinforce that
+motion design is going to be
+dramatically changed over the next 6
+months. Last week, we talked about a
+brand new update to Meshi Meshy7 where
+we showed you some very realistic
+looking 3D models that were generated
+from a single image. Now, that's
+obviously very impressive, but what's
+even more impressive is taking a rough
+image and creating an actual working
+prototype that you can use in an
+engineering capacity. And that's exactly
+what the team at CAD X Studio was able
+to pull off. Essentially, their tool
+allows you to type in a prompt and then
+generate the schematics inside of CAD
+for that actual physical product. So, it
+breaks everything down into individual
+pieces that you could presumably work
+with a team of engineers or a
+manufacturing studio. And the cool part
+is they allow you to bring in other
+assets like images to help generate the
+final output. I think that tools like
+this are absolutely going to continue to
+transform the world of engineering and
+architecture and we will see more
+innovations like this in the coming
+months. There are a ton of AI meetups
+happening around the industry that I
+think you should know about. So, first
+off, I want to give a hat tip to the
+Curious Refuge community out in New York
+who recently hosted a meetup. It looked
+like a lot of fun. I hope you guys had
+an amazing time. There's also a big AI
+filmmaking event hosted by Machine
+Cinema happening out here in Los Angeles
+on Sunday. If you have time, if you want
+to experience some cool interactive AI
+pieces, I highly recommend checking it
+out. Fred Ginstein, who is one of the
+co-founders of Machine Cinema, is the
+instructor of our AI documentary course,
+and he just thinks about things at a
+high level and hosts amazing events. I
+highly recommend checking it out. At
+Curious Refuge, we have meetups
+happening all over the place. There's
+one in Denver, Bulgaria, Los Angeles,
+and Palm Beach on the calendar. You can
+find more information below this video.
+And I should note, if you are a member
+of Curious Refuge, meaning you have
+access to all of our courses and
+one-on-one calls, then our second
+membership build challenge is closing on
+August 21st. If you happen to be
+watching this video and you have not
+completed your build, be sure to go over
+to the portal and upload your project.
+The finalist will be shouted out on this
+YouTube channel along with our social
+media platforms. So, we can't wait to
+see what you create. And that brings us
+to our AI films of the week. So, the
+first project that I want to shout out
+is uh kind of awesome. So, Runway
+recently hosted their big ad contest and
+it was pretty crazy because the same
+person won first and second place. So, I
+want to give a huge shout out to Simon
+Meyer. And if you watch this channel a
+lot, that name is probably going to
+sound familiar. Simon actually won our
+advertising contest a year ago, and then
+he went off and decided to win the
+runway competition this year and get
+first and second place at the same time.
+So, both of the campaigns that Simon and
+his team were able to put together are
+truly amazing. I highly recommend
+checking them out. You can tell he's
+just thinking about things at a high
+level, and I think it's a great example
+of what is possible when you put these
+tools in the hands of somebody who is
+deeply talented. The next project that I
+want to shout out is called Kill the
+Bill by Adria Gonzalez and Delirio
+Production House. This project is just
+really funny about the tension that
+happens whenever a bill hits after a big
+dinner with your friends and it devolves
+into an entire like fight scene. And
+it's it's just really fun. Like very
+cool concept. Amazing job, Adria. And
+then finally, the last project I want to
+shout out is called Night Shift by Raza
+Shaw. It's this horror comedy concept
+that brings these fantasy characters to
+life. I think they did a fun job with
+the project and it was getting us all
+inspired because we're going to be
+hosting our next AI horror film
+competition in just a few weeks. So, be
+on the lookout for more details. All
+right. Thank you so much for watching
+this week's episode. Again, I want to
+encourage you to check out our courses
+over at Curious Refuge if you want to
+get serious about taking your AI skills
+to the next level and finding realworld
+opportunities. And as always, if you
+want to get this news delivered directly
+to your inbox along with a ton of
+workflows that we R&D here on the team,
+I recommend going over to the Curious
+Refuge website, hit that button in the
+top right corner. You'll get a free
+course for signing up and you'll be the
+first to know when new news drops
+directly in your email inbox. All right,
+if you enjoyed this episode, let me know
+in the comments if you have any
+questions or thoughts, and be sure to
+like and subscribe. Thank you so much
+for watching and being an incredible
+member of the community. I'll see you in
+the next one.

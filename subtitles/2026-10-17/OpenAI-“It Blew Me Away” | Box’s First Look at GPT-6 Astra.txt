@@ -1,0 +1,77 @@
+UP主：OpenAI
+标题：“It Blew Me Away” | Box’s First Look at GPT-6 Astra
+链接：https://www.youtube.com/watch?v=QFxDF30qf_4
+
+Absolutely at the frontier. Just a solid
+model for some of these use cases
+[music] that have been just unbreakable
+in our stack.
+>> So, Yash, you lead AI at Box. [music]
+What were your first impressions about
+Astra?
+>> It blew me away
+in terms of just
+>> [music]
+>> how far this model has come in just
+doing these really heavy workloads that
+we see for our customers, [music] right?
+Some of our customers have content that
+is very valuable, very intense, very
+complex. [music]
+>> I love that. I'd love to see an example
+of one.
+>> We gave it a couple files. We said,
+"Here's some profit analysis. Here's
+some cost analysis." Then I give them a
+file that says, "Here is our some
+incentive tax structures." [music] Now,
+the really interesting trick was there
+was two incentive tax structures. One of
+them was not applied to the profits. One
+of them was already applied.
+>> Mhm.
+>> Right? And it's a such a easy thing to
+like miss.
+>> [music]
+>> But here's where this is really frontier
+status, and I haven't seen this before,
+is that it actually said, "Hey, but in
+Argentina I'm retaining the 2025 costs
+because it's already applied. The 20%
+incentive is already applied. Whereas in
+Brazil, I'm
+>> [music]
+>> I'm going to apply the 30% incentive."
+And so, imagine if it did that wrong,
+right? It would have double-counted this
+20% [music]
+incentive and gotten your entire cost
+wrong.
+>> Right. And I know this is a pretty
+complex like [music] prompt because of
+those calculations, but is it the very
+first time you're seeing a model, in
+this case Astra, get this right?
+>> Yes.
+This is one of the first times. [music]
+And that's why I'm really, really
+excited about it.
+>> So, how are you thinking about deploying
+Astra to the Box customers now?
+>> I'm super excited because previously
+[music] I had customers, you know,
+grapple with these kinds of use cases
+where there was like a need for high
+judgment, nuanced thinking, and [music]
+extreme accuracy. And now I can go back
+to them and say, "Hey, you know, try
+this model and with our with [music]
+your content and you know, it should
+work." And I I'm super excited. So,
+yeah.
+>> Incredible. Well, we love the
+partnership with Box, and we can't wait
+to see what you build.
+>> We, too.
+>> Thank you, Yash.
+>> Thank you.

@@ -1,0 +1,311 @@
+UP主：Futurepedia
+标题：NotebookLM's Brand New Feature Generates Shorts With One Click
+链接：https://www.youtube.com/watch?v=_8DHTnjb2ho
+
+Notebook LM just launched a brand new
+feature called short video overviews, or
+as they put it, "Doom scrolling, but
+make it educational." This generates
+really good short-form explainer videos
+with just a click. It's amazing, so I've
+been testing out what it can do and
+trying to guide it into different styles
+and voices and lengths, just seeing what
+you can and can't control. I'll cover
+all of that. And the good news is they
+first announced this to the paid plans,
+but then a couple hours later they
+rolled it out to the free plan as well.
+So, it's already available for all
+plans, including free. That is awesome,
+since they rarely roll out new features
+to everyone at once like this. And this
+is powered by Nano Banana 2 Light, which
+is their new faster and more
+cost-efficient image model. It's able to
+generate images in 4 seconds, which is
+crazy. To access this in Notebook LM,
+just go to the studio panel, click on
+video overview, and if you're on the
+paid plan, there will be three options:
+cinematic, explainer, and now the new
+options for short. A bite-sized overview
+to help you quickly grasp core ideas
+from your sources. On the free plan,
+this cinematic option isn't there, it's
+just explainer and short. Then it will
+generate some options to guide what the
+video should focus on. You can either
+just click generate and it will decide
+on its own, or you can select one of the
+three options it generated, or you can
+type in a custom topic. When you're
+ready, hit generate, and that's all
+there is to it. And mine took about 10
+to 20 minutes on average to generate,
+but you can get multiple running at one
+time across multiple notebooks if you
+want. So, I'm going to jump into this
+one that I generated about earthquakes
+as a simple example to start.
+>> Earthquakes violently shake the ground
+beneath us, but the invisible mechanism
+that triggers them actually takes
+centuries to build. Take the San Andreas
+Fault, where two massive slabs of solid
+rock meet. These tectonic plates are
+constantly being pushed in opposite
+directions by forces deep underground,
+but the boundary between them isn't
+completely smooth. Jagged, rocky edges
+catch onto each other, completely
+locking the plates in place through
+sheer friction. Even though the edges
+are stuck, the rest of the plates keep
+moving. This forces the solid rock to
+warp, storing massive amounts of energy
+like a stretched rubber band.
+Eventually, that stored tension becomes
+too great. It overwhelms the friction,
+and the locked edges violently snap past
+each other into an unstressed position.
+This massive snap violently punches the
+surrounding rock, sending ripples of
+vibrating energy expanding outward in
+all directions. These are called seismic
+waves. So, the next time you feel the
+ground suddenly tremble, you're just
+feeling centuries of bent rock finally
+snapping free.
+>> That one was great. All the animations
+in the middle portrayed the topic really
+well. It's amazing to me that that's
+possible. It definitely feels a lot
+different than typical AI-generated
+videos. It feels like someone actually
+made those motion graphics. And it also
+had solid narration, better than a lot
+of the AI voices you typically hear in
+shorts. So, this is incredible, and
+they're around 1 to 1 and 1/2 minutes
+long each. I want to jump into a few
+others. I won't play the full things.
+I'll just show some key highlights I
+thought were really good. Then I'll get
+into some of the issues. I thought this
+one was really cool. It's about the
+tribe in the book Born to Run.
+>> Instead of fighting back, the tribe
+chose to vanish. They retreated into the
+Barrancas del Cobre, a labyrinth of
+dead-end canyons deeper than the Grand
+Canyon. To survive the vertical cliffs
+and connect hidden settlements, the
+brutal geography forced an evolutionary
+leap. Their bodies transformed into
+ultimate evasive machines, earning them
+the true name Rarámuri.
+>> Even good pronunciation with that last
+word there. Those are some really cool
+animations. This isn't a full Notebook
+LM tutorial, but it is one of my
+favorite tools, so I would highly
+recommend you dig deeper into it. Me and
+my team created a free complete guide to
+Notebook LM that I'll link in the
+description. It includes a five-step
+framework to build any notebook, five
+use cases with copy-paste prompts, every
+studio output broken down, and a
+comparison guide so you know when to use
+Notebook LM over another tool. It's a
+great way to level up with Notebook LM.
+It's free, just click the link in the
+description. Then I had this one. It
+involved having to display charts
+talking about the different economic
+bubbles.
+>> with the UK railway mania. Thanks to
+cheap credit, speculation exploded.
+Investors funded over 9,000 miles of
+track, but when interest rates finally
+rose, the bubble burst.
+>> Yeah, really good. And of course that
+one leads up into the AI bubble at the
+end. Then I had this one about Jevons
+paradox.
+>> Cuz computational power is suddenly so
+cheap, developers embed AI into every
+app, phone, and smart appliances. This
+causes the daily volume of queries to
+multiply exponentially. The sheer scale
+of this new induced demand
+>> Really nice style on that one. I'll show
+a quick section of this one about
+Fantasia.
+>> In a typical brain, your frontal control
+center issues a command, sending a
+luminous signal backward to light up
+your visual cortex and paint the image.
+>> I want to do one more of this type of
+animation that I thought was really
+impressive. So this was about the
+evolution of 3D animation.
+>> Animators solved this mathematically.
+When the lamp's vertical height
+compresses downward, they force the
+horizontal dimensions to push outward by
+the exact same proportion. By balancing
+this expansion and compression, the
+total 3D space the object occupies
+remains perfectly constant. This
+mathematical linkage is called volume
+preservation. When applied during a fast
+action, stretching tall to leap and
+squashing wide upon landing, it tricks
+the human eye into seeing flexible
+>> one was just so amazing to me that it
+was able to simulate that so well. And
+typically how these videos come back is
+they'll have a one-sentence hook at the
+beginning, then jump into the content,
+which is great, exactly what you need to
+do in short form.
+>> Your morning coffee isn't just a simple
+energy boost. It's a potent biological
+modulator, actively rewiring your body.
+>> Solid hook, and then after that, it will
+usually start showing animations in the
+style I was showing before. Or other
+times, the whole thing is just static
+images like this one, which is annoying
+when that happens. The images it
+generates are good, but it's just more
+engaging when it generates those
+animations, which you can try to guide
+in the prompt. The images sometimes will
+have a little bit of that parallax
+effect, or other times, the whole thing
+is just static images.
+Also, I did discover that the limit on
+the free plan is three per day, and 20
+per day on the pro plan, which is the
+one I'm on, so I hit my limit on both
+plans. Now, for the problems I ran into.
+The biggest issue is you can't control
+the style well, or the narrator much, or
+the length at all. It does have a pretty
+decent range of styles, but you don't
+have much control over which style it
+chooses. Like that earthquake one I
+showed, the prompt was actually for it
+to do that in a claymation style, which
+it obviously didn't get right.
+Or this one, I asked for anime. I
+wouldn't call that anime. And this one,
+I asked for a whiteboard explainer.
+Again, not at all. I wonder if they will
+be making updates to this so you can
+guide the style more, since you are able
+to pretty well with the cinematic
+overview option. Also, when I tried to
+adjust the time, I asked for it to
+generate one that was under 30 seconds.
+That had no influence on the length.
+Turned out a minute 13. So, for now,
+mostly what you're steering with your
+prompt is the topic and story approach.
+So, some of my notebooks have a wide
+range of sources, so it definitely
+needed some steering of the topic to
+narrow down the focus. Also, for
+storyline, there's one where I asked it
+to tell the fall of Rome like a true
+crime investigation, use a dramatic
+narrator, a mystery structure, and end
+with a twist. It did that pretty well.
+So, here's a bit of that one.
+>> The fall of the Roman Empire is
+history's ultimate unsolved murder. And
+the modern historical consensus of a
+peaceful transition, the dirt itself
+proves that's a massive cover-up. Let's
+test this peaceful alibi on the evidence
+board using physical
+>> Actually, I'll just keep playing cuz
+these animations turned out really good
+on this one.
+>> First, we establish the victim's
+baseline. In the 3rd century, even rural
+peasants ate off fine imported African
+pottery and lived under durable tiled
+roofs. Rome's everyday economy was a
+hyper-complex, deeply interconnected
+web. But, the 5th century autopsy report
+>> Stop it there, but as you can see, the
+animations turned out really good on
+that one, too. And definitely sounded
+like the narrator was trying to be more
+dramatic. And the story itself was
+definitely made more dramatic and was
+told with more of a mystery to it and a
+twist at the end, while also staying
+accurate. And that part's important. I
+do think some of the reason why they
+don't let you guide things too much is
+they want to keep things accurate, and
+it might lose some of that accuracy if
+you're able to customize it too much.
+There is probably a better balance to be
+had there than there is currently,
+though. And I also have had some issues
+with the images themselves or
+animations. Most of the videos have been
+really good with no noticeable issues,
+but I've had a couple that weren't. Like
+this one, one of the feet is backwards.
+This animation, it feels like there
+should be other icons as part of this.
+Especially if you could hear what it was
+saying right here. Just left a lot of
+the areas blank. And then there's also
+this spot where the text overlaps each
+other. That one was not good at all. And
+here's another one where this wire has
+kind of a weird split in it that doesn't
+make sense. And also, this plug wouldn't
+fit into that socket. So, just some
+minor issues. And really, I didn't have
+very many like that in the I guess it
+was 23 videos that I generated. But,
+when one image or animation is off, you
+can't go back and edit it in any way, so
+it kind of ruins the whole thing.
+Overall, I really like this feature as a
+quick way to recap something you're
+researching or studying or for sharing
+with a friend, that could be great. So,
+this can definitely be useful. Now, is
+this good for actually posting on social
+media? Yeah, some of it I could see
+doing well, actually. That's not the
+type of thing I'm into testing, but I've
+seen pretty big channels post content
+that's very similar to this. That also
+does make me wonder kind of where all
+this is headed. Since this is Google, I
+mean, are they testing things out on a
+journey towards a more generated shorts
+feed? One that could potentially even be
+like on-demand videos generated based on
+topics you're interested in? People have
+been talking about that as a possibility
+for a long time, and this feels like a
+step in that direction. So, I like it in
+Notebook LM, but not for that. Cuz I
+definitely do love the platform. I think
+this is a nice addition. Again, if you
+want to do a deeper dive and learn all
+about it, we've got that link in the
+description. Or I'll put my YouTube
+tutorial on the screen here.

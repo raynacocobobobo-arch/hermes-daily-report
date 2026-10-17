@@ -1,0 +1,348 @@
+UP主：Matthew Berman
+标题：ASTRA IS HERE (GPT-6 RELEASED)
+链接：https://www.youtube.com/watch?v=xdXLzFzxA9Q
+
+GPT-6
+is here. The new generation of OpenAI
+model, the absolute frontier of what's
+possible, and it's called Astra. I have
+had early access and have been testing
+it like crazy. And I'm just going to say
+up front, this is absolutely the best
+model I have ever used. And some of the
+demos that I was able to create with
+this model are truly mind-blowing. So,
+make sure you stick around for that
+towards the end of the video. So, let's
+get into some of the details. So, the
+first thing I want to show you are the
+benchmarks because it absolutely blows
+everything else out of the water. Look
+at this. This is Arc AGI 3. This is the
+benchmark that drops an AI into a game
+with no other instructions other than
+complete it. And it basically saturated
+this benchmark, which is kind of a
+recent benchmark at
+saturated
+math. This is frontier math tier 4
+97.6%.
+Claude Fable 5.1, which literally just
+came out about a day ago, only scored
+87.8. So, this model is much better at
+math than Fable. Agent Slash Exam 59.3.
+Here's Bench CAD, which tests the
+model's ability to create 3D objects in
+CAD. Absolute saturation 95.9%
+coming in over 10 points ahead of Fable
+5.1. And by the way, with my testing
+that is one major improvement that I've
+noticed about this model. It is so good
+at 3D object creation and just general
+spatial awareness while it's creating 3D
+worlds. Here's Deep Sweep, the probably
+most accurate coding benchmark there is.
+When you're thinking about how do actual
+engineers feel about a model, this is
+the benchmark that reflects that
+sentiment. Here we go. 73%
+coming in above Claude Fable 5.1 at 67%.
+This is one of the benchmarks in which
+GPT-6 didn't actually get number one.
+This is crazy to me. Gemini 3.8 Flash
+got 73.7%
+beating GPT-6 Astra, which actually
+makes me lose a little bit of confidence
+in this benchmark because GPT-6 Astra is
+by far the best coding model I've ever
+used. All right, let's keep going. We
+have Terminal Bench Science coming in at
+64, another win. Exploit Bench, the
+ability for the model to basically hack,
+exploit code. Saturated, 100%. I'm going
+to drop all of these benchmarks along
+with my full review and all of the demos
+on forwardfuture.com. I'm going to link
+that down below. All right, so here are
+a couple quotes from the blog from
+OpenAI about this model and I could not
+agree more. It sets a new frontier on
+computer and browser use, handling the
+most demanding professional work with
+unmatched speed, accuracy, and judgment.
+Through my testing, and I have some demo
+videos of this, the model is just
+flawless at computer control and browser
+control. It completes things in the
+browser that were previously not
+possible and it does so more quickly
+than I have ever seen. It really is a
+step up on these specific functions. And
+so compared to GPT-5.6
+Soul, which at the time was my favorite
+browser use model. Really, it was a
+major improvement over anything else
+I've ever used. Now, we actually have
+something that is significantly better
+and much faster. So on OSWorld 2.0, it's
+about 7%
+better and 50% faster. Fantastic.
+[snorts]
+And apparently, it is more aligned. They
+took more time than usual before
+releasing this model to make sure their
+environments were solid after the
+hugging face hack to make sure that the
+model was aligned and didn't go beyond
+authorized targets. So, specifically,
+look at this. On GPT 5.6 Soul, 48.2% of
+the time when you gave it a difficult or
+impossible task, but guardrails in the
+kind of instructions on how to complete
+that task, 48% of the time GPT 5.6 Soul
+went beyond those instructions. And with
+GPT-6 Astra, 0% of the time. And this is
+a special evaluation that they created
+after the hugging face incident. So,
+they basically set up that specific
+environment again and saw if it was
+willing to break out of that
+containment. So, very good alignment on
+Astra. It is also discovering new
+knowledge. And I really think this is
+one of the first times that I've seen
+something like this happen. You know how
+I mentioned the frontier math benchmark
+is saturated? Well, check this out. Two
+advances in prime number research. Astra
+helped lower the bound on infinitely
+recurring prime gaps from 240 to 186.
+And if you don't know what that means,
+this is an improvement in a math
+algorithm, basically. And number two, it
+improved a term in a large gap bound
+that had stood unchanged for over 80
+years. And so, this is math that did not
+exist just a few weeks ago.
+Kind of crazy to think about. And yes,
+it's not cheap. It is the frontier, so
+you're going to be paying frontier
+prices. It's $10 per million input
+tokens, $50 per million output tokens,
+and we have fast mode, 2.5 x the speed,
+2 x the price, which is actually pretty
+good. Usually, we get like 1.5 x the
+speed for 2 x the price, but now we get
+two and a half for 2x. It's available on
+the OpenAI API, AWS Bedrock, and
+Microsoft Azure. And it's going to be
+available for all paying users over the
+next few days. All right, I know why
+you're all here. Let me show you some of
+these demos. I really want to emphasize
+how good it is at game creation and
+specifically 3D assets. This is called
+Little Planet. I gave it like a
+two-sentence prompt to create this. And
+so, we have this gorgeous little world.
+You can zoom in. You can see all of the
+little people, the little moving
+objects. Here's a butterfly. Zoom out.
+Move around. But, we actually have a
+little dude here. Look at this.
+This was a two-sentence prompt, and it
+is absolutely gorgeous. It has a bunch
+of different locations that it tells you
+to go look at, and we can just walk
+around and see what's going on. We can
+jump. But, just the detail is so so
+impressive. Nothing is colliding here.
+Everything looks really good. Here's a
+little polar bear I can go visit. Now,
+these are static. With one additional
+prompt, I can make the entire world come
+alive.
+And look at that. I didn't even ask it
+to do that, but as soon as it went in
+the water, he's started kind of walking
+different, like wading through the
+water. Very very impressive. Now, he's
+back on land.
+There we go. So, here's one thing, ring
+the bell. I go over there, ring the
+bell, little animation. Super nice.
+Super easy.
+And you know what? I really do feel like
+we're very close to a world in which
+like prompt to playable enjoyable game
+feels like if we're not here, it is
+right around the corner. And again, I'm
+going to drop all of these down below so
+you can play them. Shout out to here.now
+for hosting all of this. I literally
+just told my agent, "Publish it." and it
+gave me a link within seconds. And if
+you want to use here.now, it's so
+simple. Literally tell Codex to publish
+to here.now and it will know exactly
+what to do. Your agent will grab the
+instruction, publish a website, and give
+you a link within seconds. You don't
+even need to be signed up. Then, if you
+sign up, whatever you publish will be
+permanent. here.now is the easiest way
+to let your agent publish and host
+anything on the web. PDFs, full games,
+websites, and everything in between, and
+it's free. You get a link instantly and
+it works with any agent. So, thanks to
+here.now for sponsoring this video. All
+right, next is Ratstronaut, and I used
+to play this game way back in the day
+called ChuChu Rocket with my friends,
+and I basically had it recreate ChuChu
+Rocket. So, basically these little mice
+roam around and you try to get them to
+land in the rocket. It's multiplayer.
+You want to get as many mice as you can.
+You can place these arrows to change the
+navigation of the mice to try to get it.
+You can also mess with the other players
+by basically making the mice go around
+their rockets. It's really cool. So, it
+worked. This is just a single prompt.
+There we go. So, I'm red. I'm going to
+try to get all of them into my little
+red rocket right there. All right, next,
+this is a test that I've been giving to
+all the models recently, and it's
+basically to create seven different mini
+kind of biomes. You know, we have one
+that's an ocean, we have a beach, we
+have a desert, a farm, and this one
+looks incredible. The detail is
+fantastic. I see no issues, no clipping,
+no weird assets. Everything looks
+beautiful. Um GPT-5.6-Soul
+actually did really well with this, so
+I'm not surprised that GPT-6 also did
+very, very well. All right, this is
+another fun one. This is a 3D city
+created entirely with ASCII characters.
+So, if I enter the city, you can look
+around, and if you look closely,
+everything are little characters. You
+can see all these windows right here are
+L's and yeah, everything. But, it is a
+full generative world. We have a bunch
+of people walking around. It feels very
+alive. It's raining right now. There's a
+little mini map in the bottom right
+corner, if you can see that. There's a
+little overpass right there. And yeah,
+it it runs really well, very fast. All
+of the buildings look realistic, but
+again, it's all created with different
+ASCII characters. Now, for the most
+impressive one, at least in my opinion,
+I put Astra on this and set a goal to
+recreate SimCity. And after 5 days, it
+was still going. And here's what it
+created, a 3D gorgeous SimCity replica.
+I mean, look at the details. If I start
+playing it, you can see the city looks
+very alive. We have a bunch of people
+walking around, cars with traffic. We
+have people crossing the street. All of
+these buildings, all of the assets, I
+literally watched it create each asset
+one by one using {slash} goal. And the
+amount of functionality it was able to
+build into this in just a few days was
+really impressive. Check this out. So,
+we have roads with multiple types of
+roads. We have highways. I can set up a
+highway right there. Railway. We have
+different zones, residential,
+commercial, industrial, office, and
+agriculture. We have different towers
+that you can put. Here are utilities,
+which you have to unlock. The city is
+actually working. The population is
+growing or declining. There's happiness,
+city funds. Here's different energy
+sources, so I can do a nuclear station.
+Boom, I'll plop that right there. Look
+at that. All of these assets were just
+created one by one. It's so impressive.
+Here's a police station I can throw down
+right there. So, you can see it. I can
+rotate around it. Here's a university
+right next to the nuclear energy
+facility. Perfect. Here's a convention
+center. We have transport, industry,
+landscape. We have all of these
+different settings, so I can see like
+fire and rescue, medical, police. I can
+see recycling. I can see water quality.
+I mean, the depth of functionality in
+this game is just absolutely stunning.
+All right, I want to show you a few
+examples of how good Astra is at browser
+control. Check this out. So, here I had
+it open Excalidraw and draw a research
+workflow. You can see the timestamp
+right here. It's going to skip ahead in
+a few parts, but you'll see the overall
+duration of time that it took to do
+this. So, check this out. Here we go.
+It's already adding text. It's adding
+bubbles. It's at 17 seconds right now.
+31 seconds to do this, and there we go.
+Completed in about 30 seconds. Now it's
+doing research on rare Pokémon cards. 30
+seconds in, 40 seconds in. And I mean,
+all of this gets done in under 1 or 2
+minutes. Now it's running comparisons.
+It's not just looking at the page. So,
+here we go. That finished in a minute 38
+seconds to look at all of these
+different cards, compare them, and now
+we're going to plan our walk through
+Kyoto. So, this is actually it using
+Google Maps. And by the way, it put
+together this entire video you're
+looking at. It recorded its own screen,
+put together the information on the left
+side, and there we go. A minute 23 to
+plan an entire walk through Kyoto. Now,
+there are a few critiques that I will
+give it. Uh number one, it has this
+tendency to work for 30 minutes. But
+with a little bit of prompt adjustments,
+you can get it to go for much longer.
+And of course, if you use {slash} goal,
+same thing. It also has some of these
+same design tendencies. So, as you can
+see here, a lot of these demos kind of
+look the same. This like faded green and
+other pastel colors, very flat design.
+So, still a lot of those same design
+tendencies as GPT-5.6,
+but that can be easily fixed. It is very
+steerable in the design department. You
+just tell it, but by default, it really
+wants to use this forest green
+everywhere. And then last, writing. This
+is something that is near and dear to
+me. We write a lot at Ford Future, and
+obviously, every other model just has
+this severe AI smell to its writing, and
+I will say GPT-6 is definitely the best,
+but still very much has that AI smell to
+it. So, we got Fable 5.1 this week. We
+now have the brand new training run, the
+brand new model out of Open AI, and what
+do you think? Which one do you think is
+better? I actually did a full review of
+Fable 5.1. Go check that out right here.

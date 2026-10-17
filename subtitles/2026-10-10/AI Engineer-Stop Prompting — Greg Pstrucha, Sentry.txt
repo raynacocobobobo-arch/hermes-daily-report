@@ -1,0 +1,390 @@
+UP主：AI Engineer
+标题：Stop Prompting — Greg Pstrucha, Sentry
+链接：https://www.youtube.com/watch?v=E3KbFLAGD6A
+
+All
+>> [music]
+>> right. Hello everyone.
+I'm going to try to speak as loud as I
+can so it's reasonably good with all the
+all the commotion. Uh my name is Greg.
+I'm an AI engineer at Sentry. I work on
+the infrastructure that powers seir
+centuries uh debugging agent and I have
+a little rage baity title of the
+presentation that calls to stop
+prompting but I do not mean loop
+engineering. I'm going to get uh a
+little bit deeper here. Uh who still
+reads code that AI generates?
+Anyone?
+It's not a trick question and I'm not
+trying to shame you. I I think it's
+contextual. I read code when it's sentry
+code and I need to make sure that we are
+not breaking the actual production for
+sentry but at the same time if I am
+working on a side project it doesn't
+really matter uh to read every line of
+code and I can I can be a little bit
+more lenient with it uh but then every
+now and then I go back to the actual
+code I want to make improvements and um
+it's bad it's it's overly defensive code
+it's tests are crap they are not testing
+anything. Um, I would not want to
+maintain or work in that codebase
+anymore. So then what you do is you you
+talk to the agent. You say, "Hey, you've
+done a mistake. This is overly
+complicated. The code's too defensive.
+Um, you don't have to create endpoints
+for everything you're doing, otherwise I
+have to maintain it forever." And I had
+to remove a lot of swearing from this
+slide because in my actual transcripts,
+there is going to be a lot of a lot of
+rage. Usually those are very elementary
+mistakes that the agents are making if
+you don't put any guard rails in place
+and um and that just outrages me. So
+then you do that,
+the agent says, "You're absolutely
+right. Let me fix this." And it's going
+to run and try to fix the the mistakes.
+And five minutes pass and compaction of
+context happens. And we're back to back
+to square one.
+And you would have to now repeat
+yourself, reprompt your fixes, reprompt
+the agent on the right track.
+And my entire thesis for this talk, my
+entire claim here is you should stop
+prompting. You should start codifying
+the actual rules that the agent should
+be following. um rules and policies that
+you want to establish inside your
+codebase that are going to capture both
+convention and the quality of code that
+you are expecting and would make you
+proud.
+And so when I say you would want to add
+deterministic checks or rules, what are
+you thinking of?
+>> Yes.
+>> What's that?
+>> Evals. Yes.
+>> Hooks.
+>> Hooks. Yes. Um the three that I'm
+thinking of before I even get to hooks
+and evils, hooks and evils are
+important. Tests are absolutely the
+class of that hooks are how you run
+those things at the right time. Um to me
+the three things that I want to optimize
+on the deterministic level are making
+sure that I have tests, making sure that
+there is strict typing, making sure that
+there are there are splinters. Those are
+not total statements and they are not
+enough to actually get your uh agent to
+write good code. as an example, if you
+just take from this that you have to put
+strict typing in place, you will still
+be in a bad place. Um, if you don't
+discourage or ban um a way of typing
+that removes edge cases you don't really
+want to see, then
+the behaviors that or the states that
+are representable in the app are going
+to lead the agent to introduce them. But
+the thing that I want to predominantly
+focus on in this talk is llinters.
+Lintters are our way to codify um the
+rules in a deterministic manner that we
+want to um remove from the from the
+codebase.
+Historically like before AI when you
+think about llinters
+um the way that this worked is the
+trade-off wasn't clear. Writing an
+actual llinter took a lot of work. um it
+was a maintenance cost that you had to
+sort of sign yourself up for and you had
+to consider how often the issue that you
+try to lint away comes up is it even
+worth it and if it's if it's pre pre-
+aents and those are humans that are
+working in my codebase and the only
+thing I'm doing is once every free week
+telling people to use the right
+component from the design system then I
+don't necessarily need a llinter for
+that right and people have memory so if
+I tell them once or twice they will
+usually remember that. But then this
+shifts entirely into this new world
+where the things that are writing code
+do not have any memory and are going to
+make the same repeated mistakes over and
+over again. And on the on the at the
+same time to write a new lter is very
+cheap and very easy. You can just have
+the agent do that and it's going to be
+much less frustrated with the actual
+lint rules that you're trying to to
+write. So my claim for this is simple
+and if you take one thing from this
+entire talk that I'm going to yap about
+a little bit more is you can after this
+talk take your laptop go to your agent
+and ask hey look at all my past
+transcripts look at my GitHub reviews
+the feedback from the bots the feedback
+from my peers and try to codify which
+ones of those are actual high quality
+lint rules that are deterministic and
+will be able to capture issues that we
+otherwise reprompt all the time. Um,
+that's something that I do now and I
+happen to do that even more often uh
+sort of on the schedule to try to see
+whether there are new things that I
+haven't captured.
+So, here are some examples of what I
+mean when I say custom lint rules. Those
+are uh lint rules that try to capture
+conventions that you want in your
+codebase. There is like a whole simple
+class of them. Those are the ones that
+you know and have written for a long
+time. And those are things like I want
+to lint out console log statements from
+a particular project or I want to make
+sure that if I have a design system or
+react practices that I want to follow or
+discourage those are codified and are
+limited away. Those are the simple
+things but I think with agents we are
+getting into more interesting
+complexity. We can push this a little
+bit further. So one example here, this
+is a little bit of a tricky example, but
+um I'll go through it. Sentry is a
+pretty old codebase. We are on Django,
+we are on DRF. We don't have strict
+typing everywhere. This is a very common
+case for any mature codebase where
+you're not going to be at the top
+leading edge of the technology. Um but
+we still want to improve the state of
+the world for for the agents. So
+concretely here um there is there was a
+lot of drift of what the open API schema
+for sentry said it's going to do and
+what it did and so we started
+introducing lint rules for that. First
+lint rule is if something is a end point
+endpoint a function for an endpoint it
+needs to return a response type and
+within that response type there cannot
+be any types so that we can infer the
+actual information of the type. Second,
+if it's a endpoint, you get that little
+extent schema decorator so we can ensure
+that it's documented. And then third,
+enforce that the actual type being
+produced here agrees with what the open
+API schema at the end of the day um
+declares. And that helps us because now
+APIs are a little bit more in sync. And
+that gets us to even more insane
+examples of um of llinters. So sir agent
+is a debugging agent and it has to talk
+to Sentry a lot. It uses Sentry
+telemetry to debug and RCA issues
+and provide root cause analysis
+solutions all of that because it has to
+talk to open to um Sentry API we oftent
+times have to guide it and the way we do
+it is through skills. oftentimes those
+are old endpoints that we are not able
+to um easily fix and they have some
+complexities that are hard to describe
+on the level of schema itself. So
+instead we guide that through skills
+which is a pretty common pattern in the
+agentic world. But here is an example of
+a skill that tells how a metric should
+be created at sentry.
+We generated a lot of those skills and
+examples with those code blocks as the
+as the examples of code that can then be
+run in the sandbox by agent. And in the
+original attempt to do that, we lost the
+accuracy of the agent significantly
+because lots of those examples were
+hallucinated. So the first lintter we
+created was a llinter that says if there
+is a code block inside the skill, you
+got to extract those code blocks, you
+have to make sure the type check, they
+can run in our sandbox and whatever they
+declare agrees with open API schema from
+Sentry and that helped. But what what
+the f the first thing that the agent did
+when we tried to rerun the skill
+generation with that rule is oh there
+are lint rule errors let me remove the
+code blocks
+and that wasn't very desired by us. So
+we said no no no examples have to be put
+in code blocks. So it put the examples
+back but it removed the bactics because
+only the bactics are linted. So let's
+let's fix the problem right. So we're
+like, "No, no, no. If it looks like a
+code, smells like a code, if it has
+underscores and parenthesis,
+push those into codelocks." So I was
+like, "Okay,
+so you want me to put code into
+codelocks. I'm going to describe the
+APIs." So now in pros, it started
+describing what the APIs should do, but
+it did one mistake, which is it referred
+to the URLs uh of the APIs. So then we
+linted away the URLs and we played this
+little whack-a-ole for a little while,
+but at the end of the day, we ended up
+with skills that are synced to our open
+API schema and that wasn't that
+expensive to do. And we have
+I'm not going to say unbreakable model,
+but we have a model where when API
+changes, we actually don't have to
+follow up on the agent skills all the
+time. it it's it's kept in sync through
+the through the llinters.
+And when it comes to the actual
+movements or the actual how do we do
+this you can use any sort of tool that
+you're using already es oxlin flake 8
+clippy as grabb as grabb is great uh
+because it's language agnostic so it
+kind of you know unified tooling warm
+fuzzy feelings about that um there is a
+bunch of new tools that are popping up
+that are trying to approach it from a
+different uh perspective one example is
+taskless where is instead of writing the
+actual lter you write what you want the
+llinter to do. You write your intent in
+English language and then the actual
+llinter is um derived from it. Um and
+then
+the last thing that I uh that I will
+repeat is try asking the agent for the
+actual lers. You will be surprised uh
+what it can what it can generate. But
+that's only half the picture. What if
+there are rules that are deterministic
+cannot express
+um cannot be expressed through llinters?
+There is plenty of those, right? Those
+are all types of qualitative measures
+like you have a state machine with just
+three states and I created a small PR to
+add small functionality and ballooned up
+the number of states into 10. I don't
+know how to lint against that. I don't
+think I reliably can link against that.
+I can like create small tactical things
+like no more than four states, but it's
+all It's all made up. This is
+a this is the situation where we're
+talking about qualitative measures and
+um this is where you are engaging your
+engineering experience or if tweet as as
+Twitter would say your taste um and you
+just have to decline it straight up or
+you can have an LLM agent that is going
+to do a pass and for simpler thing help
+you with that
+concretely here
+I've uh I've started to create policies
+for the repository and those policies
+are such as I don't want too many tests,
+I want stronger tests or I do not want a
+code that's too defensive. I'm sure
+you've seen those where every single
+possible case is try code by the agent
+and it's it's just sloppy long long
+functions. I would rather have code that
+in its type system does not allow to
+express states that are undesired.
+Um so I created those policies and then
+I created a skill that I called grumpy
+engineer. We call it Garfield internally
+and the way it works is it takes all the
+policies and run sub agents for each of
+the policies and the sub agent can
+either give feedback or stand down and
+we loop that and this is the closest you
+will hear me doing loops by the way. uh
+we will loop that until the agent stands
+stands down and says I I'm okay with
+that I validate that this is fine and
+only then I read the code and sort of my
+metric of success here is how much I'm
+casting up the agent how much when I'm
+reviewing the code I'm like oh yeah this
+is not ideal but I can I can steer it
+here and I don't have to do very
+elementary feedback all the time it is
+still qualitative but the goal here
+isn't to remove the code review quite
+yet you So this things will change as
+models get better but more so to raise
+the floor and make it easier to um to
+work with the agents uh as you as you're
+going forward.
+There is also one thing that I want to
+mention that is
+um beware of a snake oil. We are talking
+about the tricky part being qualitative
+measures and I've done experiments where
+I tried to capture a qualitative measure
+in a quantitative metric. So two
+concrete examples one of them is um
+cyclomatic complexity and the other one
+is test coverage. Cyclomatic complexity
+uh is a measure that says how
+maintainable and testable the code is
+and it tries to base that on how many
+branches happen in the code and how deep
+the call stack goes and um and test
+coverage you know test coverage tries to
+tell you how much of the code is covered
+by test. Um, and the problem with that
+is when you give a number to the agent,
+the agent will optimize the out of
+that number.
+And it did. And I I got code bases, I
+got projects where I got to like a 100%
+or close to 100% of test coverage. But
+the actual tests are bad. They are like
+asserting particular string in
+particular output of the agent. They are
+not measuring anything of value. Um, and
+more so they are giving you a false
+sense of security. So be aware of that.
+beware of um the complexities uh of of
+actual qualitative metrics.
+Um and that's it. That's that's my call.
+My call to action for you is after this
+try to ask your agent for llinters and
+policies and see whether that helps you.
+Um try things and make the repo
+remember. And that's that's my time.
+Thank you.

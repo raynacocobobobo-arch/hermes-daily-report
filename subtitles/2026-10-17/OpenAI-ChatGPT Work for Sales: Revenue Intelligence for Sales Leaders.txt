@@ -1,0 +1,77 @@
+UP主：OpenAI
+标题：ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders
+链接：https://www.youtube.com/watch?v=g-g6E-qtCjA
+
+At OpenAI, our revenue learning system
+is always on and always learning with
+ChatGPT work. One way we surface this
+intelligence is through a weekly revenue
+learning report built by ChatGPT work.
+Here's a demo example for Blossom
+Systems focused on the launch of their
+new product, Blossom Observability. The
+report ChatGPT work created for both web
+and mobile brings together signals from
+a wide array of sources, including
+seller activity, customer conversations,
+and signals from the market, then turns
+them into insight and action.
+First, it gives me trends over time so I
+can track our performance. Then, it
+provides an executive summary, making
+sure I understand the key points of the
+report before I dig in further.
+From there, it jumps into the objections
+we're hearing across our strategic
+deals, broken down by category. This is
+followed by our competitors' presence in
+deals based on what's coming up in
+customer calls.
+As I scroll down, the report starts to
+surface opportunities for our team.
+Things customers are calling out and
+areas where we may want to shift our
+operational resources.
+One area that we really focus on is how
+the field is performing.
+What are our best reps doing and how can
+we use those behaviors to up-level the
+rest of the team?
+Finally, these insights become
+recommendations and actions that we can
+use to refine our product strategy,
+strengthen seller enablement, and
+improve how we operate.
+But, this isn't just a static report. I
+can converse with the intelligence
+behind it and dig deeper.
+Using our team's revenue intelligence
+plugin, I can ask questions like, "What
+are the most common objections and
+competitive threats in our strategic
+deals? How are our best performing reps
+handling them compared with our bottom
+performers? Should any of these
+objections change our priorities? I want
+examples."
+It works through the underlying data and
+gives me a detailed, well-cited set of
+answers along with recommendations for
+what we should prioritize as a business.
+Now, let's turn those insights into
+action. I'll use ChatGPT work to draft a
+succinct set of proposed changes that I
+can share with my leadership team
+directly in Slack.
+It summarizes the key insights,
+recommends next steps, and suggests an
+owner for each area, turning the
+learning into coordinated action.
+Now those learnings are in the flow of
+work. The team can act, the results feed
+directly back into the system, and the
+next cycle begins with better evidence.
+That's what makes this a revenue
+learning system. It's always on, always
+learning, and constantly improving how
+we sell and operate.

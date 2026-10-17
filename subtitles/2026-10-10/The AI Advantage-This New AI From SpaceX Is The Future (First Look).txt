@@ -1,0 +1,643 @@
+UP主：The AI Advantage
+标题：This New AI From SpaceX Is The Future (First Look)
+链接：https://www.youtube.com/watch?v=ifToIqwU3Jg
+
+We just got something seriously new.
+Grokbot, if you haven't heard about this
+yet, it's a new project from SpaceX AI
+from all players. They acquired Cursor
+recently and now they built this new bot
+that is supposed to be the most consumer
+and user-friendly agentic application.
+That's at least my take on this.
+It's basically like a messages
+application, but you're talking to
+different agents and they can work
+together
+and they can connect to a bunch of
+things. In short, they're trying to do
+what Hermes, Hermes, whatever you want
+to call it, or Open Claw have been doing
+for the past 6 months with a lot of
+technicalities and headaches involved
+and now they're trying to bring this to
+the consumer, okay? So, I'm going to do
+something that I haven't done in a
+while, which is a first look video. This
+thing came out today. I heard a bunch
+about it. I read a bunch about it and
+now I'm going to go ahead and try it for
+the first time together with you and
+compare it to my existing Open Claw
+system, which is wild. Like like I have
+a hard time recommending Open Claw
+because
+I keep like
+working with it every single day, but it
+just keeps, you know, there's these all
+these problems, technical problems. Goes
+down, restart, model changes, sometimes
+it overspends. Anyway, this is
+user-friendly and it's amazing. So, look
+at that, Grokbot. It's macOS only now.
+You can try it out for a week, I think,
+on the free account. I just signed up,
+so you can see here it's already ready
+to go, but I just want to show you the
+product first. So, it's this interface
+where you can basically interact with
+these different agents right here. And I
+thought this was surprising
+that nobody else has done this before.
+That's the surprising part to me
+because, hey, if I briefly, and I guess
+I'm going to be comparing it to both
+Open Claw on one side and ChatGPT on the
+other side, but if I look at ChatGPT or
+Claude, like it looks a particular kind
+of way, right? Like you have the sidebar
+and you kind of work in here
+and that's that, right? It's not really
+that you kind of like mix different
+chats and stuff. Whereas if I look at my
+open claw setup, usually I use it
+through Telegram. I'm just going to pull
+it over here for you.
+And you can see
+that this is in a completely different
+form. It's my different agents and kind
+of groups live within here. And then I
+hand off work between Alfredo 1 to
+Alfredo 2. I have Son of Alfredo on a
+completely separate machine. I have a
+Fredo Alfredo. All of these I can work
+in like 10 threads at the same time,
+have them collaborate, move contacts
+back and forth. It shares a certain
+memory, all of it. ChatGPT has none of
+that. Like the work product is powerful,
+but if I talk in this chat, if it's not
+saved to memories, well, it forgets. And
+if I want to borrow something from a
+chat down here, well, there's no way of
+doing that. I need to go in there and
+copy paste it and find it.
+Whereas in my open claw, I can kind of
+just ask and get results. Okay. So,
+enough comparison. Let's have a look at
+what this can actually do. But I just
+wanted to explain to you that it has
+this basic interface like Telegram or
+Messages or WhatsApp, like any chat
+application. And then you have basically
+teammates. That's the whole frame that
+you're looking at from. So, you can
+start with one bot, but then you add
+multiple bots, and then you can have
+them do things on a schedule,
+you know, basic agentic functionality,
+but in a package and with a level of
+capability that looks so so promising.
+Pricing is this, and now, you know,
+let's get into it. Um, you know, $200 a
+month is basically
+the plan. You need Cursor Ultra to get
+it. But hey, you know, if you're on a
+Mac, you can download it today on an
+Apple Silicon machine like I have right
+now, or you just follow along with me.
+That's why I'm making this video cuz I
+figured many people won't be downloading
+and trying this.
+I really wanted to get my hands on this.
+So, let's full screen this and have a
+look at what we got. I basically just
+logged in. I had to give it my credit
+card, but there's a free plan that you
+can have for 7 days.
+That's what I'm on right now. I logged
+in with my Google Workspace account,
+which has my calendar and my Gmail, too.
+And now I'm setting up my first bot. It
+just asked me, "Hey, what kind of icon
+do you want and what kind of name do you
+want to give it?" And here we are.
+That's That's We're just getting
+started. So, hey, let's have a look.
+Hey, Igor, good to meet you. What um do
+you want mostly want me for?
+Day-to-day workspace stuff. Okay, so
+we're going to
+aim at kind of a day-to-day work
+assistant. Not coding, not creative
+tasks, just hey, take the admin work
+from me
+reliably. Like not kind of, but like
+really like I'm going to be looking at
+calendar and email-related tasks here,
+okay?
+So,
+it has a question-based onboarding. I
+love that. Which should I connect first?
+Uh let's do just um
+Gmail and calendar. That's fine. I
+logged in with my workspace account. I
+wonder if it can use that just like
+that, but I see one thing in here, which
+is plugins.
+Honestly, the minimalism of this thing
+is impressive. I really really like
+that. I have to say.
+So, it's pulling this up now.
+Add both. Sure. Like what else do we
+have in here? This is basically the chat
+on the left. You can add like new bots.
+There's plugins. There's my account.
+And there we go. Already we have these
+two connectors. I'll have to authorize
+this. Quick authorization.
+Sure.
+And then one more.
+Authorize this one.
+And that's basically the setup process.
+I mean, guys, I spent like
+2 minutes before recording this video
+with like downloading it and entering my
+credit card. Here we go. Authorization
+complete.
+Beautiful. So, now we can get to it,
+right? Want to try Gmail now or keep
+setting up? Uh what's
+I don't know.
+What's unread urgent? Let's have a look.
+So, this is my, you know, account
+that I do use.
+So, now I wonder what it's going to find
+here. I I hope it's not anything that we
+shouldn't be showing. I I don't think
+I'm working on anything that shouldn't
+even be on this YouTube channel.
+But, there we go. It's kind of working.
+And in parallel, I want to explore the
+interface. So, top right,
+we have a little Ooh.
+Ooh, it can wants to access my
+microphone.
+Going to give it permission. So, this is
+where we can record. I read about this.
+So, you can basically record certain
+workflows and teach the bot and then
+have it execute those.
+Call it routines.
+Pretty nice.
+Let's see what we got. We got some
+emails here. Yeah, beautiful. Some
+projects we're working on right now.
+Also, noise in the pile, Zoom meetings,
+da da da.
+All right.
+Um
+That's a good start. So, it has access
+to my Gmail. It has access to my
+calendar. Pretty basic stuff.
+Now, these routines
+picked my curiosity. So, let's try this.
+Let's open the bot. And basically, this
+is what you need to know. Every bot has
+a virtual machine of their own. And this
+is the bot's computer, okay? So, you can
+think of it as if the bot had a
+standalone Mac mini that has, you know,
+a Google Chrome browser. I could click,
+boom, and I could do things as the bot.
+Obviously, if I go somewhere like it
+doesn't have an account, right? So, if I
+open these apps, you see I'm not signed
+in. What what else we got? Uh
+file system and a terminal. Okay, so
+super bare-bones, but this is the
+machine of the bot. So, I could now
+minimize this here in the top right. And
+then I could say, uh let's try to teach
+it a task. So, how about create a
+routine?
+I'm going to name this a test routine
+one. Instructions.
+Uh what should it do? Well, how about
+create a folder
+uh within it uh new text file
+that contains information on today's um
+S&P
+500.
+And that's kind of it. When to run on a
+schedule. You could Ah, this is really
+nice. I love that you can trigger it
+with Slack messages, Teams messages.
+That's amazing. So, we're just going to
+do a schedule. We're going to do
+everyday at, let's say, I don't know,
+1:00 a.m. Perfect.
+Um, just overnight. And let's do a test
+run.
+Let's see how this behaves.
+So, we're assigning this to our bot,
+right? So, as I told you, like every bot
+has a computer associated with it, what
+we saw right there. And right now, we're
+using that computer to run this test
+routine
+that is going to be performing.
+Now, this is not super different from
+chat, right? Inside of chat, again, I
+told you I want to draw these
+comparisons. Inside of chat, you have
+these schedule tasks, right? Um, so, if
+you go in here, you see schedule tasks
+here on the right. And if I select
+those, you can set up different things.
+I'm just creating videos around that
+short 3-minute videos on the channel, by
+the way, that describe these. But
+basically, it's the same idea. But, you
+don't really have the access to like a
+vert- like it runs on a server by
+itself, but it doesn't give you the
+ability to,
+you know, really use a computer. For
+that, you would need to go into the
+ChatGPT desktop application, and you
+would need to start using Codex, where
+you can also record workflows. But all
+of a sudden, you have, you know, chat
+over here, work over here, and you have
+Codex over here. It starts getting a bit
+confusing.
+And context management and passing
+context and memory between all of those
+is just
+not a thing. I think that's a big thing
+for people to realize. Like,
+I realize a lot of you will be here,
+like, okay, what's the difference
+between this and Codex? And, you know,
+using Codex or Co-work or or Cloud Code.
+Why should I be using this? Well, I
+think it's the fact that the memory
+management here,
+this is meant
+to collaborate, right? So, I have my S&P
+500 document here. Let's have a quick
+look. Click that. There you go. It
+closed.
+Here, minus 0.3%.
+All right, we got the information for
+today. That was pretty simple. Um and
+now I could go back out. And I see my
+first routine that this bot number one
+will run. And I think here's kind of the
+interesting thing and what I'm really
+curious about it. Like how does it
+manage the context? How does it work in
+between different apps? I think the
+answer to that is we shall find out.
+Because we will be creating um my second
+bot. New bot. Hey, you're good to meet
+you. Yeah, nice to meet you, too. Bot
+number two. It looks like a little What
+do you call them? Onigiri like a little
+onigiri? Little onigiri? Yeah, any any
+Japanese fan any Japan fans out there
+going out into the 7-Elevens eating
+onigiris every day for breakfast just
+like I was when I spent 3 weeks there
+last year?
+Okay, that's off topic, but that was
+that was the best time. Gosh, I need to
+return this spring. What do you mainly
+want me around for? Okay, so this guy
+hmm is going to be
+uh life admin type of guy. Or how about
+a
+research and writing. I like that.
+Research and writing.
+So this guy, let's say
+let's give him a writing task like write
+me a morning report, right?
+Now we haven't connected to anything
+else yet. I think the one button that is
+remains unexplored is well, settings
+down here and the plugins. But let's
+just say
+work docs and briefs. Yes.
+And then what I'm curious about is like
+how easily can it pull the context from
+the other bot without me handing it
+over, right? So in other words, this bot
+works on this topic and then I set
+another five bots to work on other
+topics. I kind of cluster it by topics.
+And then I want one bot
+to look at all these other bots and then
+pull it together and get me a daily
+brief, right? Like that would be an
+amazing thing in terms of context
+management if it could just pull from
+all of these different chats.
+Where do they usually live? Um
+I don't know.
+In other
+Grok
+bots. Guys, I can't be vocal enough by
+how much I think that this is kind of
+an interface that just works because
+I've been using it for months. Like,
+Open Claw did change my life, but I have
+a hard time like teaching it because
+like I
+it's all I do all day every day. I
+interact with the stuff and
+there's just so much it's just messy.
+It's just messy. Anyway, um this seems
+cleaner and I like that. Very hopeful.
+How should I work with this other bots?
+Um
+I don't know. Draft from their notes, I
+guess.
+All right. So, let's have a look. So,
+this is going to be kind of a big moment
+for me. I want to see if this works.
+When you draft, how should it sound?
+Whatever, clear and direct. Now, enough
+enough questions now. What has it been
+like five?
+Mm.
+Ask bot one for context. Yes.
+But, I'll I'll just say we're good for
+now cuz I want to ask manually. Okay, so
+sounds good whenever you Okay, okay. So,
+um give me a daily brief from all other
+bots we have.
+From our like from
+Give me a daily brief
+based on what we did with other bots
+today.
+Simple.
+So, the big test that we've been, you
+know, gearing up to for the past 2
+minutes.
+Can it
+do that?
+It messaged bot number one. So, it's
+This is the first time we're interacting
+with him. It messaged bot number one and
+now bot number one
+See, it's saying here sent one text
+file. See See that? So, bot one
+responded and now it's fetching the
+context from there
+because we needed it.
+So, this is so powerful. Imagine like
+all of your chats talking to each other.
+Not that primitive primitive memories
+function where it's like, "Oh, I guess
+like this random fact about Igor should
+be useful in the future." No.
+Like literally looking at that. Look at
+that. It got It got it. It did it. It
+got the emails. It got the SMP. Oh.
+Me oh Dio.
+This is incredible. Okay. Okay. So So
+this is This is big. Look. Let me give
+you give it a thumbs up. I like it. It's
+just like Telegram. So cool. Um
+Okay. And then I guess you could do like
+threads within there.
+Nice. Where you could like answer to the
+thing Okay. Okay. Okay.
+So do you see the potential? Do you see
+the potential of setting up your
+different schedule tasks with the
+different bots and then them
+communicating together? Like you could
+set up research bot.
+Like
+Mhm. Okay. So let's explore a little
+more. I I love this. This is This is a
+big milestone for sure.
+But let's have a look. So new bot. What
+else can we do? We can pin it. Okay.
+Easy. We can edit the profile, copy
+conversation ID, edit the profile.
+That's an interesting one, right? So new
+bot, title, description, notifications.
+Okay. That's it. That's all we got for
+now. So this is in Remember, on their
+site they stated that this is um
+>> [clears throat]
+>> early beta. It's not even beta. It's
+early beta, okay? So they're just
+getting started here. But look at that.
+You have a expense manager with
+routines. You have a talent scout
+that works on all the talent. Okay. An
+inbox manager that manages your inbox.
+And then a chief that kind of I would
+guess does the morning briefing. Yeah.
+He He talks to all the other bots. He
+also has a scheduled morning briefing.
+Offsite crew.
+So it got info from this bot, info from
+that bot, and they just work together
+like a team.
+So this is cool. So this is Honestly,
+this doesn't mean you should stop using
+Chat GPT. I personally I love Chat GPT
+or Claude, both. I'm mostly in Claude,
+actually.
+But I just I use that day-to-day to
+answer questions, do things. But when it
+comes to like pushing big work projects
+forward, gosh, do I default to something
+like Cohere or Open Claw where I can
+like manage the context and get longer
+tasks done. I create plans, I execute on
+them. Oftentimes they have 10-15 phases.
+For stuff like that, for for bigger
+projects where communication is needed,
+it's not just like a one-off thing with
+like maybe two free phases.
+That you do in chat, that's fine. For
+longer-standing stuff, that's where you
+want to move to Cohere or Work. Or then
+if you're building things, Claude Code
+or Codex. And if you're setting up like
+a business OS, then I would recommend
+like Open Claw or Hermes.
+But this is really basically bringing
+the capabilities from Open Claw and
+Hermes of like this memory management
+and memory sharing
+to a consumer-friendly level where it's
+as simple as chat.
+That's what this is.
+Now sure, the depth of the features here
+is limited, early beta. But just this
+ability to set these
+I'm a fan. Let's have a look at plugins,
+okay? Ooh, we have Granola, that's
+amazing. You can put a little pull in
+your transcripts. Slack, it could be,
+you know, summarizing all the messages
+you're getting every day.
+I'm going to be playing here and I'm
+going to try to recreate some things
+that I have in Open Claw.
+And it's not just daily briefings like
+like in Open Claw I built a lot of
+things where it's tools for the team and
+workflows and cron jobs that power the
+team.
+But in here, like
+this is I wonder like
+you could imagine a future where Okay,
+we could we could we'll dream in a
+second here, okay? To round out the
+video. I just want to check out the
+settings here to finish.
+Okay, nothing crazy here. Usage and
+billing. Ooh, I used my trial 85 Okay.
+So I So you see, you can send a few
+messages, try it out on a free plan, and
+then you need to upgrade to the $200
+plan. That makes sense.
+Um Grok bought it. I mean, it's
+literally running cloud computers to do
+this, right? So I get it.
+Okay, so to round this out, let's dream
+for a second. Where Where could this go?
+Well, I think one thing that is so so
+clear to me is that this is going to
+become an application where you're not
+just going to be able to talk to your
+own Grok bots, but you're going to have
+a Teams account, right? And your
+teammates are going to have their bots.
+And then if you're working on a project,
+and let's say you're working with five
+teammates, well, all the Grok bots will
+be able to collab. And as you're in a
+meeting, the Grok bot will be listening
+and like we do this already. We have a
+granola meeting note taker in the
+meeting. And then I have Alfredo running
+over here, and then I can tell it to
+like, "Hey, take the transcript." And
+then I move it over because it literally
+has it open on its screen, and it can
+just boom boom bring it over. And I can
+work in the meeting with my goddamn foot
+pedal that I have down here that allows
+me to I talked about that in a recent
+video. I just love it so much. Check it
+out. If you're If you're If you're
+confused by what I'm talking about. I
+press the foot pedal, and now I can
+dictate, and now it appears.
+Um there there it is.
+So, you know, I'm in a meeting, and then
+with the foot pedal, I just dictate what
+I want Alfredo to do, and then it grabs
+the context from the live meeting
+transcript that's happening. It searches
+like I don't have to look for the
+context. It looks for my entire context
+vault, for my entire memory engine that
+I have.
+Project memory, but also the Obsidian
+file vault that is linked to each other.
+If that doesn't mean anything to you,
+just
+I had to build it pretty manually and
+set it up so that different groups have
+different pockets of context. And then I
+have details on our different products
+really specked out. I just like built
+this whole intricate context system. And
+basically, if I say something, it can go
+and access all of it. It's not like chat
+where it's like, "Oh, it has I don't
+know a dozen memories on you." Or a few
+dozen. No, it has like thousands of
+pages and all the transcripts from the
+past year
+in the entire company, and I can just
+like direct it, and it can intelligently
+find it. It's next-level stuff, but it
+takes a lot of maintenance, and it's all
+I do, and I have help. Okay?
+This
+brings that to a consumer. Okay, so
+let's let's land this plane and like
+kind of summarize what this is really.
+It's capabilities that remember beyond
+the chat, beyond a certain session
+in a consumer product.
+It's the ability to spawn, I don't know,
+10 bots with their own computers who go
+off and do things and do work for you
+and collaborate on work for you in an
+interface that it is that is as easy as
+chat. I would expect collaborating with
+other people's rock bots to be really
+simple very soon.
+I would expect this connecting to more
+and more tools and a whole app store of
+different preset things that like
+there's going to be app store of bots,
+right? Now they have plugins, but it's
+going to be like, "Hey, if you connect
+your Gmail and your calendar and your
+Slack, like you can get a daily brief
+from this bot that like comes in a
+certain form." That's going to be the
+most basic one, but then people are
+going to discover all the different
+things you can do, just like they did
+with skills, but instead of skills, it's
+going to evolve to a bot that uses
+skills and prompts and shares memory and
+can run by itself and has this entire
+scaffolding around it what you would
+call a harness
+which goes way beyond chat. Already
+ChatGPT work is kind of ChatGPT with
+this support, right? It plans, it it
+gets all of these other tools to do
+things.
+This takes it a level further
+because it has its own computer.
+It can do things on a schedule, which we
+already have. It can collaborate with
+other bots.
+And the usage on this will be huge. I
+mean, it's $200 plan is what you got
+beyond a few minutes of usage.
+So all of that in one package means AI
+is going to be working for you and
+you're going to be talking to it like
+you would to, you know, a bunch of
+friends.
+And then the next phase is it predicting
+what you need and getting a fancy
+Jarvis-like interface. All right, I hope
+this was helpful. This was the first
+look. This is my first impression of
+Grok Bot. I really think this interface
+works because, well, as I stated, I've
+been using this interface and it works.
+And I'm just excited about it. Go ahead
+and give it a shot if you want, you
+know, free plan on Mac OS only, and let
+me know what you think in the comments
+below. All right, my name is Igor and I
+will see you very soon.

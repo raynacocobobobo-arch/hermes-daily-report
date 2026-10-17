@@ -1,0 +1,269 @@
+UP主：Futurepedia
+标题：Gemini Skills Are Finally Here (Master in 9 Minutes)
+链接：https://www.youtube.com/watch?v=OiP0YBHLjqo
+
+Gemini has finally added skills, which
+are one of the most important features
+for AI. I have skills for every task I
+do regularly. They make using AI much
+more streamlined and powerful. So, I'm
+going to show you how they work, the
+three main ways to create them, and how
+to chain multiple skills together.
+Skills are a way to teach your AI how to
+execute a specific task or set of steps
+in a repeatable way. I think of them as
+recipe cards for workflows. Some are
+just a set of instructions. Others
+include reference material, tools, or
+things the AI needs to do the job.
+Skills are now available in Gemini chat
+and in Gemini Spark, which is their more
+agentic platform, similar to ChatgPT
+work or Claude Co-work, where it can go
+out and get things done for you. In
+Spark, they're right on the side panel
+here, but I'll go back to chat to show
+you how to get started. And here they
+will be under your settings. Then on
+this screen there's a few options.
+Create with Gemini will open up a chat
+and jump into like an interview to help
+you create the skill. The next option is
+to create manually. You'll enter the
+name, description, and the instructions
+yourself. Much more timeconuming if you
+do that from scratch. Then the upload
+option lets you upload a file or folder.
+This is what you'll use if you're
+transferring skills from another
+platform or if you find any online you
+want to use. Then below all of this,
+there's some suggested skills to help
+you get started. You don't have to
+create your skills in here. Most of the
+time, I actually don't. Usually, I just
+open up a new chat and send off a prompt
+of what I want to create. So, I'll start
+there. Then, I'll show two other ways
+depending on what type of skill you're
+creating. And since this has been a
+feature in ChatBT and Claude for a long
+time, I've already made lots of skills
+and so has everyone on our team. So, we
+put together a free guide for this video
+with 25 of our favorite skills. That way
+you can go through there and find ones
+you like, then just copy paste the
+prompt, or you can use the actual skill
+file, which we include in there as well.
+The guide is broken down into 10 core
+skills plus 15 more. And there's
+information about building skills in
+there, too. I'll put a link to that in
+the description so you can download it
+for free.
+Let's start with a simple one, meeting
+recap. Most people get some sort of
+transcript or meeting notes from their
+meetings. This will synthesize that down
+into the things you need. It's written
+to boil it down into these three things,
+which are what I typically need from a
+meeting. But if you need different
+things from your meetings, switch that
+out and customize it for yourself. Then
+you can get back something that's very
+consistent and to what you actually
+need. So I will copy this meeting recap
+prompt from the guide. Paste that into
+the new chat and send it off. That's the
+first way to create these. Just a prompt
+in a normal chat. And just like that, it
+has created the meeting recap skill for
+me. It's saved and ready to use. down
+below it shows the structure and what's
+included. Now, when I start a new chat,
+all I have to do is hit the forward
+slash and select the meeting recap skill
+from the list. Then drop in my meeting
+transcript and send it. I don't have to
+type in a prompt or give it any
+additional context. It knows what to do.
+It has the decisions made, the action
+items with the names and due dates, and
+then the open questions at the bottom,
+exactly like I asked. And something
+that's useful in Gemini, when I click
+the three dots, I can send that as a
+draft to Gmail. I could quickly add the
+other people and send it off. Later,
+I'll show you how to create fully custom
+skills when you don't have a prompt to
+copy. But first, I want to show skills
+two and three in the guide because they
+cover different aspects of these.
+This next one is called write like me.
+This one is extremely useful. Getting AI
+to sound like you do. I use Gemini to
+connect to a lot of my Google ecosystem
+tools, one of the main ones being Gmail.
+So, that's what this one is built for.
+And for this skill to work, you need
+good samples of your writing. So go find
+some good ones. Or an easier way is to
+ask Gemini. Search through my scent box
+for three solid emails that capture my
+voice. Put them in a format I can easily
+copy paste. Guess I should have
+specified so that I can copy them all at
+once. Now I will copy the prompt from
+the guide. Now paste it in. And since
+I'm in the same chat, I probably don't
+really need to paste these in, but I
+will just in case. And send it off. It
+saved the skill. has my openings, tone
+and structure, direct, polite, and
+pragmatic, sentence length, my closings.
+Then it shows what all is in that full
+skill a little lower. Jump into a new
+chat, call the skill, and paste in an
+email. Then I'll add a little note to
+say decline this. Lots of filming in
+December. All right. And this actually
+does sound a lot like how I would
+respond. Typically short but polite. I
+try to get through emails really quick.
+And I can actually just click send and
+it would do all of this without even
+leaving Gemini. If you get a ton of
+emails that are often repetitive or just
+unimportant, AI is the only way I'm
+going to get to all of them. I used to
+just ignore a lot of stuff. But you can
+also create different write like me
+skills for different types of emails.
+There may be a specific way you respond
+to clients, another for sponsors,
+another for your spouse.
+Skill three is the proposal writer. I'll
+show creating this one in a different
+way than through chat. This is how you
+can create them when a skill is shared
+with you or you find one online.
+Although, make sure it's coming from a
+reputable source you trust if you ever
+use a skill that was created by someone
+else. For this, I will go back to the
+skills page and then hit upload skill.
+This is what I'm going to upload. And
+I'll explain what's in here because that
+helps to understand what a skill is
+under the hood. This has a skill.md
+file. That's the base every skill is
+composed of. MD stands for markdown. All
+a markdown file is is a specific way of
+formatting text. So this is just a text
+file with a little bit of like
+formatting in the sections and things.
+This will typically include the name, an
+overview, a set of instructions,
+sometimes context it needs, anything
+that will help it achieve the task. And
+that MD file came from this guide. We
+have that at the bottom of each one of
+these. The other file is a CSV with some
+pricing. That way the rates in every
+proposal comes from that instead of
+Gemini guessing. And different skills
+may need to reference different files.
+This could be a PDF, a style guide,
+images, anything your skill needs to
+reference, and it could be multiple
+files. But to create this one, I just
+drag these right in. Then it fills out
+the title, the description, and all of
+the instructions. I click create, and
+I'm done. Every skill in the guide does
+also have that skill.md file included if
+you prefer to create it that way. It is
+a little faster, unless you want to
+customize it. Then it's often faster to
+modify the prompt. But if you find other
+skills online, this MD file is the
+format they'll usually be in. Now, I'm
+going to hit slashproposal writer. And
+since I'm going to want this to email
+the proposal to a client, I also want it
+to write like me. So, I'll want it to
+use the other skill I just created. I
+can call them both at the same time.
+Then, I'll add a short prompt with
+exactly what I want it to do.
+It's got the proposal that included all
+the actual prices from the sheet, adding
+up the total of 2,112.
+Then below it has that drafted email to
+Jordan. The email opens with, "Hey,
+Jordan." Closes with, "Thanks, Kevin."
+Just like all the examples I gave it,
+and has other aspects of my voice
+throughout. So, both skills ran
+together. Then I could also ask for that
+proposal as a PDF. And that looks great.
+Back on this skills page, you do have
+some additional options. It has your
+full list of skills, and when you click
+the three dots, you can use it from
+here, or there's two ways to edit it
+with Gemini or manually. Then you have
+the option to download the skill. That
+way you can share it directly with
+someone else or you can use that same
+skill in chatbt or claude. And the same
+goes in reverse. If you have skills in
+claude or chatbt, you can download them
+from there and then upload them into
+Gemini.
+That guide has 25 skills in it, but
+that's not going to cover everything
+everyone watching this video needs a
+skill for. So, there's another way I
+most often create skills when I don't
+have a guide like this to work from.
+I'll go back and forth with Gemini about
+something, refining an output or
+iterating to a result. In general, you
+don't get the perfect response back from
+AI on the first try. It's always an
+iterative process. Once I've done that,
+if it's a process or workflow I will
+ever be doing again in the future, I'll
+say, "Package up everything we just did
+into a skill." Then it bundles the whole
+process up, and the next time all I'll
+have to do is call the skill just like
+I've already showed. Then it will
+execute the whole process and get to
+that output on the first try. And you
+don't have to start from scratch now.
+You can even go back to previous chats
+you've already had with Gemini where
+you've had that iteration process. Just
+open that chat back up and ask it to
+package it into a skill. So that's the
+three ways I create skills. A prompt in
+a chat, uploading a skill file, and
+packaging up a chat you've already had.
+Again, that guide is in the description
+to make the process as smooth as
+possible. The two main things to do
+right now are copy a prompt from that
+guide and create a skill and find a chat
+where you went back and forth to get
+something right and ask Gemini to
+package it into a skill. You may already
+have a conversation like that that's
+just waiting for you to save some time
+with. I hope that helps and I'll see you
+in the next

@@ -1,0 +1,403 @@
+UP主：Matthew Berman
+标题：Did Elon catch up? (Grok 4.7 is here)
+链接：https://www.youtube.com/watch?v=MJllZbpvrAc
+
+Grock 4.7 is here, but let me start with
+something different today. We're going
+to look at Elon's tweet. This was from
+about a week ago in which he was
+predicting how good the different Grock
+versions would be. And he says right
+here, "Grock 4.7 should be roughly on
+par with Opus 50, not 5.1." So, what do
+you think? Is it? We're going to take a
+look. And yes, the model did drop. Grock
+4.7 is here. A notable improvement over
+Grock 4.6 at the same price and speed.
+Now, there are some cherrypicked results
+here. So, I'm going to show you
+everything and I'm going to let you make
+your own decision. I'm also going to
+tell you my opinion of the model,
+although I haven't tested it thoroughly
+yet. Here's the blog post. I'll drop it
+down below. Gro 4.7 is our most capable
+model for coding and knowledge work. It
+works longer on difficult tasks, checks
+its own work more carefully, and comes
+with our best calibrated safeguards to
+date. It is the same price as 4.6, six.
+And yes, it is a very good model,
+especially for the price. But what
+matters most of all, cost per task
+completed. So, I'm going to show you
+that in a minute. But first, here's
+Cursorbench 4.0. Now, obviously, XAI,
+which makes Grock, now owns Cursor. So,
+just keep that in mind while I'm showing
+you this. So, on the Y-axis, we have the
+percentage score on Cursorbench. And on
+the X-axis, we have the average cost per
+task. And so where you want to be is in
+the top right corner cuz that gives you
+the best performance and lowest cost. So
+there's Gro 47 in white. And yes, it is
+quite good. A few interesting things to
+point out. Look at the delta between the
+lowing effort at 33% on Cursor Bench and
+the extra high thinking effort at 46.3%.
+That is a major difference between
+those. probably if I'm looking maybe one
+of the biggest curves outside of GPT 5.6
+Soul. Now what we see is yes it is
+comparable to Opus 5. It is not beating
+it. It's just behind it on the max
+thinking setting for both models but it
+is much less expensive about half the
+cost to run that benchmark. Now next
+same benchmark but this is average
+output tokens per task on the Xaxis. And
+what we're looking for is lower is
+better. That is a higher intelligence
+density, one of the many ingredients
+when you are assessing a model for your
+workload. Now, the way to think about
+the average tokens per task is a
+combination of both how many tokens does
+it take to complete the task, but also
+the price per million tokens. So you can
+have a model that takes twice as many
+tokens but is half as expensive, but
+that would be comparable to another
+model that is more efficient but also
+more expensive. So less total tokens
+used but a higher cost per token. And
+what do we see? It is very comparable to
+Opus 5. All the way down here at the
+lowest thinking effort, the score is not
+great, but it doesn't use many tokens at
+all. So that's relatively inexpensive.
+Here is kind of where we get the true
+comparison. Opus 5 in blue, Grock 4.7 in
+white. Here we see GPT 5.6 Soul kind of
+getting in there. But really, Fable 5.1
+is the winner. The only problem is Fable
+5.1 is extremely expensive, multiple
+times more expensive than Grock 4.7. So
+although the score is much higher and it
+uses the same amount of tokens roughly
+on a per task basis, because the cost is
+so much higher, the cost per task
+completed is going to be much higher.
+And speaking of intelligence, I have a
+no-brainer for you with the sponsor of
+today's video, Zapier. You can use Gro
+4.7 with your Zapier workflows. So, if
+you're not familiar with what Zapier is,
+Zapier is an automation platform that
+lets you plug together over 9,000
+different applications in the most
+unique and more important stable ways.
+And then you layer AI on top of it and
+you have these crazy automations that
+you can build. So, for example, you can
+take Gmail, use Gro 4.7 to analyze your
+email, and then look for to-dos and pipe
+that into ASA. Then from Asauna, once
+you click done, you can then again use
+Zapier to call Grock 4.7 and tell the
+relevant people that you've completed
+that task. Zapier is phenomenal. If
+you're doing any type of knowledge work,
+you should be automating a lot of it.
+And Zapier is fantastic at that. It
+plugs in easily into any agent that
+you're using. Cloud code, Grockbot,
+Codeex, and they have an MCP server. It
+is just so easy to use and it is already
+trusted by the biggest companies in the
+world, including Cursor, Nvidia,
+Samsung, Dropbox, Shopify. So, you're in
+good company if you use it. And of
+course, my company uses it as well. So,
+go check out Zapier. I'm going to drop a
+link down below. Go use it with Gro 4.7.
+It is awesome. Okay, so back to the blog
+post and very similar to the number of
+tokens used per task, we also have the
+number of steps taken per task here.
+That is so again, they're all about the
+same actually with GPT 5.6 Soul looking
+like it is the most efficient, which
+just by my personal usage, that actually
+sounds about right. When I used to use
+GPT 5.6 six soul before Astra. It felt
+like the model that had the best idea of
+a direct shot to task completion or to
+the solution to whatever I gave it. But
+once again, Fable 5.1 at the top. All
+right, let's look at some other
+benchmarks. And now we talk about price
+as well cuz that is just as important.
+So here's Deep Suite. And this is an
+important benchmark. This historically
+has been the most accurate benchmark for
+how engineers who are using these models
+in production in actual coding
+environments are feeling about the
+different models. And what do we have?
+Gro 4.7 at 71%. Here's GPT 5.6 Soul at
+72.7%.
+So it definitely got a higher score. And
+then Fable 5.1 at 70%. Now here's the
+interesting thing. Where's Astra? Like I
+mentioned at the beginning of the video,
+there is definitely some cherry-picking
+going on with different benchmarks. And
+you know, to be fair, this is kind of
+what I've seen from Elon. He'll kind of
+repost any benchmark that shows Grock is
+really good, which, you know, that's his
+job. That's fine. But I would have liked
+to see Astra here. It feels slightly
+disingenuous that we see Astra in other
+places in the blog, but not on this
+benchmark table. So Grock didn't include
+Astra, but I had Astra recreate that
+table and include itself. So here it is.
+Here's all the scores. Grock 4.7. And
+now we have this rightmost column GPT6
+Astra Max. And so what do we see? Here's
+Deep Sui 71% 70% for Fable 5.6 Soul 72.7
+and for Astro Max 74.1. So this is
+definitely the number one the best model
+for coding according to Deep Suite. Now
+we have aa briefcase multi-hour office
+work and across the board very
+competitive with gro 4.7 and fable 5.1
+max doing very very well and pretty much
+equivalent. We have terminal bench 4.0.
+One of the most important benchmarks for
+determining if a model is going to be
+good at coding. Its ability to be really
+good in the terminal dictates how
+quickly and well you can move when doing
+agentic coding. So, this is a really
+important benchmark and it's coming in
+at 38%. However, Fable 5.1, 57.9, and
+Astra 58.2. So, well behind the Frontier
+on Terminal Bench. And how about Legal
+Work? It actually dominated all the
+other models at Legal Work, 19.6%. Now,
+of all the models shown here, Gro 4.7
+did by far the best. Obviously, the Gro
+family of models is quite good at legal
+work with 4.6 coming in at 15.8%. But
+look at this. 5.6 sold 2.5%, Fable 6.7,
+and Astra 5.4. All really bad. And
+there's actually kind of a sleeper model
+that crushed all of them. Muse Spark
+1.2.42%
+the absolute winner in the legal
+benchmark against all the other models.
+Very impressive. And now we have the
+Healthbench Professional doing all about
+the same across the board. And then
+Electrical Engineering Bench, which I've
+not really seen a lot of people show
+off, but there it is. And if you would
+have removed Astra, it would have won.
+But now with Astra, it's number two.
+Now, let's talk about price because that
+matters a lot. Gro 4.7 is very
+inexpensive. And this is a combination
+of a few things. One, it's not the
+absolute frontier. It's basically one
+step off of the absolute frontier. And
+number two, it's a function of demand
+and supply. The XAI team has a
+tremendous amount of compute available
+to them. They overinvested initially and
+then they just couldn't create a
+frontier model to drive up demand to
+make all of those GPUs go burr. And so
+they're actually able to offer a lower
+price because of that. So, here it is at
+$2 per million input tokens, $6 per
+million output tokens. And as a
+comparison, GPT 5.6 Soul is more than
+twice as expensive. Fable 5.1 is over
+five times more expensive. And same with
+GPT6 Astra, 5x the price for, you know,
+a few percentage point improvement. But
+that's the rub. A lot of people and a
+lot of industries are willing to pay
+multiple times more for the best
+possible answer. But there are many many
+industries that don't care as much. They
+just want automation. They want
+knowledge work done and they don't need
+the absolute best answer possible. So
+I'm reminded of this tweet by Gavin
+Baker that shows how the total tokens
+being used in enterprise is trending
+towards open weights. In fact, it's at
+62% versus close weights models at 38%.
+Because they are more efficient, you
+have more control, more privacy,
+cheaper, but the total value is still
+acrewing to one of two companies, Open
+AI and Enthropic. This is something I've
+made a full video about, but I think
+this is more of the same. You can't
+charge the absolute frontier prices if
+you don't have the absolute best answer.
+All right, continuing on here. They
+actually do show Astra, which is why
+it's like a little bit funny. But this
+is GDP val. This is actually OpenAI's
+own benchmark on realworld knowledge
+work tasks. And what do we see? Fable
+5.1 at 1735 ELO. Grock 4.7 at a very
+impressive 1695 ELO, 4.6605,
+and GPT Astra in fourth place at 1542.
+So that's why they decided to include
+it. Here's aa briefcase. Here's Astra.
+Here's Grock at 1657. And Fable still
+number one, 1678.
+So very impressive. Grock does perform
+very well near the frontier or at the
+frontier on some things, but not all
+things. And they do go on to say Grock
+4.7 was built with an entirely new
+safeguard stack. Strongest model we've
+tested on refusals and jailbreak
+resistance. Q Planyy the prompter and
+then in dual use domains like cyber
+security and biological work. It leads
+on both utility for benign tasks and
+safe refusal on dangerous ones. Very
+nice. It's available today. You can go
+get it on cursor and grock build. So
+Elon talks a little bit about why it was
+delayed. It was supposed to be out about
+a week and a half ago. And he says right
+here, Grock 4.7 needs a few more days to
+cook. We might have penalized response
+length too much or something in RL. I'm
+sorry. The or something is the funniest
+thing. Like it's such a throwaway
+statement. Just yeah, we might have done
+this or whatever or something. Something
+might have happened. Just maybe not
+really fully understanding what it was,
+but fine. As it still gives up on hard
+tasks that it can do too early and isn't
+yet sufficiently rigorous in checking
+its work. So, I'm glad they let it bake
+a little bit longer. Nothing wrong with
+that. Now, I have to point back to about
+a month ago Elon's tweet. Gro 4.7 will
+exceed all current models. Now, I'm
+thinking back August 12th. I don't think
+Astra was out by then, but Fable
+certainly was. So, I'm pretty sure Grock
+4.7 is nearly at Fable 5, but definitely
+not Fable 5.1. So, very interesting to
+see his predictions. And look, this is
+like very typical Elon. Very aggressive
+timelines, very aggressive predictions.
+and I for one would not bet against him
+in the long run at least. But that's not
+all. Let's look at one of my favorite
+websites, Artificial Analysis, which
+does their own breakdown and their own
+index of different benchmarks out there.
+So, what do we see currently? Grock 4.7
+in the artificial analysis intelligence
+index sits at fifth place. Fable 5.1
+number one, Astra number two, although
+the scores are the same. Claude Opus 5
+at number three. Surprisingly, Muse
+Spark 1.3 Max at 48 on this, right
+behind 51 and 53 for those other models
+I just mentioned at fourth place, which
+I haven't really used Muse Spark all
+that much. And so, I'm kind of tempted
+to get into it more because it seems
+like a very good model. And if it's
+powering the Muse Personal Assistant, it
+must be good because the Muse Assistant
+is really good. And then in fifth place,
+Grock 4.7 extra high at 46, right above
+GLM53 Max, which was a phenomenal model
+above Kimmy K3, another phenomenal
+model. Both of which are open- source
+open weights. Oh, and by the way, I
+should mention Muspark 1.3 open- source.
+So there you go. You can have a
+NearFrontier model that is open source.
+And I'm hoping Meta continues to push
+the bounds and continues to open source
+models. And eventually, I really do hope
+they hit the absolute frontier because I
+would love to see the frontier be open
+source open weights. Now, I don't know
+why Grock 4.7 isn't showing up on the
+cost per intelligence index task cuz it
+is selected. I have it selected right
+here, but for some reason, it's not
+showing up in this graph. But here's
+Grock 4.6 way down here. So, a very
+inexpensive model. And I suspect 4.7
+will be in a similar place. Here is the
+total cost to run the index. And we can
+see Groth 4.6 sitting right here at
+about $2,300. Here's Elon Musk's
+reaction. As of an hour ago, Grock 4.7
+places Space XAI as third after
+Anthropic and OpenAI for Aenta Coding. I
+love how competitive he is, by the way.
+I I mean, it's it's so good. And he had
+so much friction and history with both
+of these companies, Anthropic and
+obviously OpenAI. So, here's a demo by
+Bobby. This is
+Grock 4.7 versus Kimmy K3. And my
+goodness,
+my goodness. Yeah, that's really bad.
+Grock 4.7 is terrible as hell, he says,
+but you know, I I don't know what actual
+settings he's been using or or anything
+like that, but that that is quite bad.
+And Kimmy K3 looks really good. And in
+the artificial analysis blog post, they
+say that Grock 4.7's gains come with
+higher token usage. So because of that,
+it'll be a higher costs per task
+completed. And here's one last thing I
+forgot to mention. The context window
+for Gro 46 and now Gro 47 is only 500K,
+whereas basically every other Frontier
+model is a million tokens. So that is
+something to keep in mind. Now,
+typically you probably won't think about
+that unless you're doing very
+specialized high context work. And also,
+usually when you get up to a million
+token context window, you're paying
+extra for that above usually, I think
+it's like 250,000 token context window.
+So, just something to keep in mind. So,
+look, I am all for more competition. I
+think Gro 4.7 is a great model. It
+hopefully will reach the frontier by 48,
+maybe 49, but for now, it's close
+enough. It is incredibly cost effective
+and any competition is good for us end
+users. So I hope we get an update in
+Grockbot where it's using Gro 4.7
+because Grockbot I am so deep in. I'm in
+love with it and I made an entire video
+about Grockbot. Go check that out right
+here.

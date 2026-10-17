@@ -1,0 +1,24 @@
+UP主：OpenAI
+标题：Build faster with Ultrafast
+链接：https://www.youtube.com/watch?v=sKltfHvsDQM
+
+Ultrafast is now available for GPT-6
+Astra in the API, ChatGPT Work, and
+Codex. [music]
+How fast is ultrafast? For my racing
+game, I want to generate sprites on the
+fly.
+Generate a pelican on a bike.
+While the regular generation is still
+running, I'm off to the races with
+ultrafast.
+That was fast. In the API, ultrafast
+generates tokens over seven times faster
+than standard tier and over four times
+faster than fast tier. In the past, you
+often had to trade off between speed and
+intelligence. Now, with ultrafast, you
+can have both.
+>> [music]
+>> I hope to see you building faster than
+ever.

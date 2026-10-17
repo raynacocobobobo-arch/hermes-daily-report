@@ -1,0 +1,639 @@
+UP主：Matti Haapoja
+标题：HONOR & ARRI Made a Smartphone with Built-In Gimbal Camera
+链接：https://www.youtube.com/watch?v=c9aP4n78B9A
+
+This is the craziest phone you have ever
+seen. Check this out. It has a freaking
+gimbal built into the phone. This is a
+collaboration between Honor and ARRI.
+So, this is technically the smallest
+ARRI you can buy.
+Yeah, this is a real smartphone with a
+three-axis gimbal camera that comes out
+with the press of a button and has ARRI
+color science films [music] and 10-bit
+log C3 and has 200 megapixels. This is
+the Honor Robot Phone.
+When it was teased last fall that a
+smartphone would have an actual gimbal
+camera come out of it and somehow ARRI
+would be involved, it seemed too good to
+be true. I thought it was full
+vaporware, like a concept [music] phone
+that would never actually launch. That
+is until they emailed me asking me
+[music] if I wanted to test out the
+Honor Robot Phone. So, I flew 15 and 1/2
+hours all the way to China to find out
+for myself, is it actually [music] real
+and is it too good to be true?
+Welcome to China. It's my first time
+here. It's also my first time actually
+vlogging on the Sony FX5 and I am in an
+area that you might not have heard of.
+It's It's like the Hollywood of China.
+Um it's called Hengdian. I probably
+pronounced it wrong, but basically
+they've rebuilt these massive replicas
+of like historical Chinese buildings
+that they then use for film and
+television. Um I can actually see one. I
+think that right there is one of them
+actually. I'm here for 3 [music] days
+checking out one of the craziest phones
+I've ever seen. This should be very
+interesting. [music]
+>> [music]
+>> Robots first, I guess.
+They also brought Claudio Miranda there
+who actually filmed kind of like a short
+film test [music] footage using the
+Honor robot phone, which was the first
+sign for me that this is an actual real
+thing. I also couldn't help but ask him
+about the FX 5. Just actually this is
+the FX 3 that I'm filming on right now.
+I just happen to be here so I'm filming
+this A-roll on FX 3. But I was curious
+to see if he thought the FX 5 was really
+interesting. He's a pretty timid guy. He
+didn't want to say too much. Casual
+meeting up with Claudio again.
+>> [laughter]
+>> What do you think about the FX 5 so far?
+>> the FX 5.
+>> Yeah?
+>> that it's more like other cameras, you
+know?
+>> Yeah. You got to shoot something with
+it?
+>> Uh I don't know.
+>> Secrets, secrets.
+>> [laughter]
+>> It is warm in here. It's morning but
+it's already warm. Am I Am I blown out
+right now? I can't tell. I'm not used to
+this screen.
+Are you excited?
+>> Yes.
+>> [laughter]
+>> Did you have a good sleep last night?
+>> I did. Can you introduce yourself?
+>> Uh my name is Ning Yi. Uh I work for
+Honor.
+>> She's my way too over qualified
+chaperone for the
+for this [laughter] week.
+>> The tour guide for Honor.
+China's Hollywood.
+>> Yeah.
+>> [music]
+>> Xie xie.
+I got to the Honor event which was in
+this like film set essentially. This
+whole city Hengdian kind of revolves
+around the the Chinese film and TV
+industry. They have these massive
+replicas of old historic buildings and
+places in China. For example, the
+Forbidden City. And the event was
+awesome. There was hundreds of Chinese
+media and creators [music]
+and somehow I'm the only foreign creator
+they invited to this event.
+>> [music]
+>> Which sometimes you're you're just in a
+moment and you're like, "How did little
+old me end up in a place like this?" Uh
+one of the coolest things about this
+journey and YouTube and all of this is
+the the experiences and the people that
+you get to meet. They also brought
+people in from ARRI to talk about the
+collaboration, including the director of
+image science. Literally the guy in
+charge of one of our favorite things
+about ARRI Alexa cinema cameras, the
+color science, the look, the detail, the
+dynamic range.
+>> I'm Harald Boven, I'm the director of
+image science at
+the ARRI cine technique R&D department.
+>> So, the biggest reason we all love ARRI
+is you. Isn't that what you're saying?
+The color science.
+>> [laughter]
+>> And I think this partnership between
+Honor and ARRI was absolutely genius
+because you can do all the incredible
+things of building the hardware of a
+literal gimbal that comes out of a
+smartphone, but if the end image, the
+end product isn't beautiful, it's all
+kind of useless. And so, ARRI came in
+and dialed in the color science of the
+Honor robot phone. Honor actually
+developed an advanced proprietary
+[music] transformer-based native AI ISP,
+or image signal processor. Basically,
+they figured out a new way to process
+the image [music] where they actually
+denoise the image through the ISP, image
+sensor processor, before it actually
+hits the chip or the sensor. This is how
+they're able to get that really
+beautiful 14 stops of dynamic range, and
+even the fact that they can process
+[music] a 200 megapixel sensor. And
+finally, they used ARRI color science to
+kind of finish off the look, which was
+really impressive, especially when
+Harald showed the side-by-side images of
+an ARRI Alexa cinema camera and the
+Honor robot phone. That was like my
+first sign of like, "Oh, wow, this
+actually might be something really
+really interesting because they looked
+so similar in terms of the [music] color
+and some of the detail profiles. Of
+course, an Arri cinema camera is still
+going to be better. This isn't replacing
+cinema cameras by any means, but the
+fact that they match so well was really
+impressive. I think Honor knew nobody
+cares if they put a gimbal on a phone if
+the final image isn't beautiful, which
+happens to a lot of companies. They do
+really interesting things, but they're
+kind of missing one piece of the puzzle
+and that kind of just renders everything
+[music]
+sort of useless. We saw a couple short
+film pieces. Uh, there were some really
+interesting camera movements in the
+space one, just showing off what a
+smartphone gimbal camera can do because
+it is so small and lightweight and the
+stabilization. Claudio Miranda did a
+little kind of test piece and I wouldn't
+say it's a really short film, just kind
+of like a test piece. It was a little
+hard for me to track the whole event
+because it was in Chinese and the
+translation wasn't working perfectly,
+but everything I was seeing was getting
+me more and more excited and then it was
+finally time for me to see the Honor
+Robot Phone in person.
+This is the craziest phone you have ever
+seen. Check this out. It has a freaking
+gimbal. When I first saw this, I
+literally thought there's no way this is
+actually going to come out. I thought it
+was just like one of those like concept
+phones that would be cool in the future.
+And here we are. It's actually here. All
+right, here we are. Uh, we have the FX5
+versus This is the new Honor Robot
+Phone.
+This is wild.
+It actually exists. It's not vaporware.
+It's not some concept phone that in the
+future would be nice to have. It is a
+product, a smartphone, that is actually
+launching. And when you see it, it's
+really impressive. At first, it just
+kind of looks like a normal smartphone
+and then all of a sudden you press this
+button and out comes this gimbal camera,
+three-axis gimbal on your smartphone.
+The build quality feels great, and
+sometimes you just kind of take it for
+granted how hard it is to make physical
+devices like this. Hardware is so
+difficult. Even just little things like
+they told me about how it was a giant
+leap to get motors that were that small
+that would be strong enough also to work
+inside of the Honor robot phone.
+>> So, you can see it's very small, and
+actually we we we reduce like a
+around the 75% like volume
+like compared to this one.
+>> Just all the little details, the amount
+of time they've spent on this, and even
+things like they actually made a
+separate section in the camera app
+that's specifically for filming on this
+gimbal camera to give [music] you some
+of those filmmaking tools that we're
+used to, like for example, false color.
+And talking to Harald, it it's clear
+that ARRI understands that smartphones
+are becoming more and more one of the
+tools in our toolkit as filmmakers.
+>> It's not replacing cameras with
+smartphones, it's rather the other
+direction of, you know, bringing log C
+and and a log base workflow into the
+world of smartphones.
+There There's so much content now
+produced with smartphones, and we look
+not only at color, but also, as you
+said, at what we call texture, making it
+as close as possible. I mean, given they
+are very radically different devices,
+right?
+If you think of the lens, of the sensor,
+they are
+really different. And I'm really happy
+with the results.
+>> Instead of just slapping on the ARRI
+logo and be like, "Yeah, it's good
+enough." They did so much testing to
+make sure that even under the
+constraints of a smartphone and smaller
+sensor, the image and color science is
+up to their standards. And it's not just
+the colors, it's also the detail and the
+texture and the dynamic range that
+they're looking at. And I love that ARRI
+didn't just work on the color science.
+They also gave Honor different Airi
+looks that you can monitor the footage
+through so that you don't have to be
+looking at really terrible log looking
+footage. And it's not just like a basic
+Rex 709. These are actually Airi film
+looks that you can use. They're not
+baked in. You can add them in later, but
+you get the log file, but you're seeing
+these really nice Airi looks. After
+lunch, they gave me kind of the whole
+space to just test it out. It feels so
+futuristic pressing that button. And out
+of nowhere comes a gimbal camera. And
+then once you're done, you just press it
+again and it just tucks itself in. It's
+also not crazy thick. I thought it was
+going to be like really bulky, but once
+it's folded in and you close the little
+sliding door so it's protected, in your
+pocket, it doesn't feel like a big phone
+at all. Probably because we're used to
+kind of camera bumps being a lot bigger
+nowadays, it just kind of feels like any
+other phone. And as soon as I started
+filming, I could tell the collaboration
+between Honor and Airi was well worth
+it. The gimbal works great, really good
+stabilization, and the colors look
+beautiful. And then being able to view
+in those Airi film looks, it was so easy
+to film with. I felt like all of the
+right puzzle pieces were there. It films
+in 4K. It'll be up to 120 frames per
+second. Right now, they're still on
+pre-production firmware. I only filmed
+in 24 frames per second. 14 stops of
+dynamic range. It shoots 10-bit 4:2:2
+log C3. Then it was time to grab some
+dinner, which was delicious. And I love
+all the like the differences in culture.
+I find it fascinating.
+>> [music]
+>> This was a really fun experience for me.
+I didn't eat the turtle. Maybe next
+time.
+>> We didn't have the turtle.
+>> Then it was time to head to the first
+big film set in Hengdian, which kind of
+doubles up but all of them double up as
+a sort of tourist attractions when
+they're not filming in these film sets.
+It was a massive area, and I got to do a
+lot of tests. It got dark pretty
+quickly, so a lot of these were
+low-light tests. And you can see the
+airy color signs shine even in these
+like really tricky situations like these
+red lights. Usually [music]
+uh on a lot of smartphones, that would
+just like ruin the image completely, but
+the colors are really nice on the Honor
+robot phone. And I love the shot at the
+end of this little food vendor. Um the
+reds just pop, and the lighting was
+really nice. There was some streaking
+going on, but I think that might have
+been cuz it was so ridiculously hot.
+Like I have
+>> [music]
+>> never been in weather or heat like that.
+It was like 38° to 41° [music] C,
+super humid. The There wasn't a lot of
+wind, so it [music] was really really
+hot. I've never experienced something
+like that. So I have a feeling having it
+in my pocket and stuff, there might have
+been some streaking because of
+condensation or [music] whatever.
+>> Life moves fast. Video moves even
+faster. Don't let titles slow you down.
+Download, double-click, drag, done. 45
+[music]
+easy-to-customize motion titles for
+DaVinci Resolve designed to speed up
+your workflow. The Essential Titles are
+simple, but have enough of that
+cinematic filmic [music] flair so they
+can be used on any project. Customize
+them and make them your own. We've been
+using them on every single video, and
+now you can, [music] too. Essential
+Titles, designed for human filmmakers,
+only at humanvideo.com.
+>> All right, day two in China. Day one was
+super chill. Um maybe cuz I'm not in one
+of the big cities. Like I just seem
+really like casual. The Honor robot
+phone is
+crazier than I even expected. Like I
+still can't believe that actually
+exists. I full-on thought this would
+never actually be made and here it is.
+I'm playing around with it and yeah, so
+far from what I've seen, it's very
+impressive. Um the event was super cool.
+People are all really, really nice. Uh
+yeah, just had a great time. It was very
+hot and sweaty though.
+>> [laughter]
+>> Super hot. All right, day two, let's go.
+Oh, first let's get some breakfast.
+>> [music]
+>> Day two, I woke up and had some
+breakfast.
+Who likes heated toilet seats?
+They're not really my thing.
+>> [music]
+>> By the way, how do you guys like the FX5
+footage so far? Has it been looking
+different, the same?
+And then it was time to head to the
+Forbidden City [music] replica, which
+was absolutely giant. I'm going to take
+a cart.
+It's a long walk around.
+It's hot already. It's morning and it's
+hot. Everything here is just like scan
+and pay, everything through WeChat. It's
+just
+so seamless and quick and easy, no cash
+or anything. Very interesting.
+There's our whip. You going to drive?
+You don't trust me? Me and my driving
+skills?
+>> [laughter]
+>> I think it's a one-to-one replica. I
+haven't been to the actual Forbidden
+City, which is [music] essentially where
+the emperors used to live and rule and
+other people weren't allowed there
+unless the emperor gave you permission.
+That's why I think it's called the
+Forbidden City.
+>> [music]
+>> And my host Lin Yi from Honor, I was
+asking her cuz she had been to the
+actual Forbidden City [music] if this
+was actually one-to-one and she's like,
+"Yeah, I think it it feels like it." So,
+this is all like uh like a film set,
+basically. It's a replica of the
+Forbidden City. How am I looking?
+Pretty good quality, right?
+Absolutely crazy being in a film set
+like this. Like it's like a filmmaker's
+paradise if you had a story that took
+place in the Forbidden City, like to be
+able to actually film in it.
+Insane. We saw a little show where they
+showed kind of how [music] green screen
+works. It was so cool seeing the kids
+having so much fun, seeing people act
+from the audience and then be put on
+green screen. It was [music] really fun.
+All right, it's my turn to take this
+this Wi-Fi out for a spin here.
+>> You want to drive with
+>> Yeah, yeah, yeah, yeah, yeah.
+>> That's very ambitious.
+>> No, this is just
+>> Well, going to be safe, right?
+>> You trust me. I've done a lot crazier
+things than
+>> Okay. So, you are
+>> Is it Is it on right now or? I am so
+glad we got this cart. We would have
+already been walking for like an hour
+and I would just be sweating buckets
+right now.
+It's hot.
+The gimbal can also track you, which
+kind of unlocks a whole new way of
+shooting that at first you you're not
+used to and so you kind of have to
+retrain your brain. Like, oh, I can do
+these kinds of shots [music] now even
+without somebody helping me to film. So,
+the phone has this like little cover
+that you slide open and then all you got
+to do after that is this little button
+right here. You click that.
+There you go. Now you have a gimbal on
+your phone. This is
+legit the craziest camera on a phone
+I've ever used in my life.
+And this is also one of the most insane
+places I've ever been.
+The gimbal can also dance to music. Not
+that you need that, but it does somehow
+make it feel more real. It's like a
+little like Disney character or
+something. It's It's pretty cute. I
+actually think this will be a big part
+of robotics, having these little perks
+and features that are built in that make
+them feel more lifelike.
+Then we headed up a cable car to the
+mountains. There's was temple up there.
+Now, our timing was a little bit off. We
+thought we had more time to hike around,
+so I didn't actually get to hike to the
+temple, but I got some shots and I I
+definitely worked up a sweat running
+upstairs in [music] 40° heat. Yeah, it
+was hot. That was hot.
+>> [laughter]
+>> We didn't quite give ourselves enough
+time there. We were a little rushed, so
+I like ran up the stairs and I am just
+drenched in sweat now.
+Ooh.
+Then we went to my favorite film set.
+This place [music] was so cool. The
+detail, the I don't know, just the
+aesthetic of it. Even though I I know it
+wasn't like the real deal, it was a
+replica, it just [music] felt so real.
+It felt like I was transported into
+history. And you can see how good the
+stabilization is with the gimbal, which
+then also leads to other things like you
+don't have to do as much electronic
+stabilization, which means you can use
+more of the data, the image, the sensor
+without having to crop in on it because
+you're doing electronic stabilization.
+And the skin tones is really where you
+see the airy color [music] science.
+This set is
+wild. It's huge. We actually found our
+first actual They're filming over here
+some sort of
+I don't know what they're filming, movie
+show.
+Massive amounts of trucks up here.
+Huge lights up there. So, this is all
+just built for filming TV shows and
+movies. Like, I'm in this giant
+giant place.
+Super cool. Like,
+this is like a filmmaker's dream.
+>> [music]
+>> We went to one more film set in the
+evening and I was absolutely exhausted,
+but I kept testing and getting more
+footage because I wanted you guys to to
+have as much footage to look at and for
+myself too cuz I was just so curious.
+Again, I love this little food stall
+shot I got. I don't know. The colors
+just look really, really nice and it
+just [music] When you see this, you're
+like, wait, that's on a smartphone?
+And I think I might be the only creator
+that's gotten to spend multiple days
+using the Honor Robot Phone.
+So, after filming with it for a few days
+and looking at the footage now, is it as
+good as they say? Yeah, I think they
+really delivered. I was very, very
+skeptical. And then I didn't even
+mention, they have a lot of other
+cameras, normal cameras like we're used
+to on a smartphone. So, the gimbal
+camera is just like an addition. It's an
+additional camera that you get to use. I
+really love it when technology companies
+bring together the right puzzle pieces
+to kind of [music] create something new.
+Something new that we as filmmakers and
+storytellers can now use on our
+productions and to tell the stories
+[music] that we want to tell. And the
+Honor Robot Phone feels like something
+completely new.
+All right, Honor got me a little little
+gift.
+Let's see what's in the box.
+Little slate.
+Robot phone and airy in there.
+Hat. You can never have too many hats.
+Little pin.
+You like Mark Bone would wear this. This
+is like It'd be
+>> [laughter]
+>> a model that I would wear on film sets.
+Sorry, Mark Bone, if that was an insult.
+That was That wasn't an insult. I got to
+say the people at Honor have been very
+hospitable. Like, this has been a very
+chill, enjoyable trip because Honor has
+been so good at hosting. Thank you so
+much. So, what you guys think about the
+FX5 footage in the real-world vlogging?
+Funny enough, right away on the first
+trip, I'm like, I don't know if I'm
+going to use the raw much cuz a, bigger
+file sizes, but b, there's no dynamic
+stabilization in
+the raw. And the only reason I would do
+the raw is to do open gate. So, cuz open
+gate doesn't have stabilization, I'm not
+going to do raw. So, raw right away
+becomes kind of like a novelty thing.
+But, does that also then make open gate
+kind of a novelty thing that I'm never
+rarely going to use because the
+stabilization isn't there. So,
+uh it's always interesting when you
+actually start playing with the camera
+like what actually matters. Now, the
+monitor much nicer than the FX3, so
+that's a huge thing if you're doing
+vlogging and stuff like this. Um dynamic
+range definitely seems to be much
+better. Uh but, I do find like a lot of
+like the focus stuff and then I don't
+know. It's just I don't know if I'm just
+getting used to a new camera, but I'm
+not liking it a lot. And the menus, I'm
+more and more I first I thought I'm just
+not used to them. More and more I think
+the menus are really bad actually. The
+menus are really hard to find certain
+things. Something like something very
+basic like the focus, like where it's
+focusing or how it's doing focus, you
+have to go into like the deep menus to
+change that. There's no like quick way
+of just changing with the way it's doing
+focusing, whether it's like the wide or
+like you know, the flexi spot or
+whatever.
+Yeah, um I think the menus are actually
+really bad. It's probably one of my
+least favorite things about the FX5.
+But, yeah. What do you guys think? FX5.
+How many people bought it?
+>> [gasps]
+>> Don't get suckered just because other
+people said it's a great camera. Figure
+out if it's good for you or not. That's
+That's my rant. All right, that's it for
+me in China. It's time to head home. I
+have like 24 hours of travel or
+something. The flight is like actually
+it's shorter on the way back. On the way
+here it was like 15 and a half hours. On
+the way back it's like 13, so not that
+bad, right?
+All right, see you guys in Canada. At
+the end of my trip, Lingyi took me to
+Shanghai for lunch and it [music] was
+beautiful. Like the neighborhood was so
+nice. They had these really cool trees
+over all the roads. Yeah, I feel like I
+definitely need to visit again and spend
+more time in Shanghai. [music]
+Thank you so much Honor for hosting me
+and for making the trip so enjoyable and
+thank you for making such a cool
+product. It's so nice when a company
+innovates because then it forces
+everybody to start innovating. What a
+smartphone [music]
+you guys created. Let me know what you
+guys think of the Honor robot phone.

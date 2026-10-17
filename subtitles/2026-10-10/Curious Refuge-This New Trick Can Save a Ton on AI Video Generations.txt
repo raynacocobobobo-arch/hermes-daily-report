@@ -1,0 +1,407 @@
+UP主：Curious Refuge
+标题：This New Trick Can Save a Ton on AI Video Generations
+链接：https://www.youtube.com/watch?v=h4MKJAJvins
+
+In this video, we are going to take a
+look at how to save money on your AI
+film projects. By using the workflow I'm
+going to show you in this video, we've
+been able to drop our AI credit usage by
+66%. So, I highly recommend checking it
+out if you're interested in saving some
+money. So, let's get to it. My name's
+Caleb. Welcome to Curious Refuge. We are
+the world's home for AI storytellers.
+So, inside of this tutorial, we're going
+to be taking a look at a few different
+workflows. The first is what can you get
+by just prompting alone. The second is
+we're going to be taking a look at a
+viral workflow using Miniax H3 to create
+drafts and then throwing it into Cedance
+2.5. And the third is we're going to be
+taking a direct look at a brand new
+feature inside of Cedance 2.5 that looks
+to be a draft competitor to Miniax H3.
+So, let's hop in. So, in order to show
+you some of the workflows that I'm going
+to get to inside of this video, let's
+set the stage. Basically, I am working
+on an action scene where two people are
+sitting down at a bar having a
+conversation and then they realize that
+the bad guy is coming. So, for our
+assets, we have this image of me. It's
+basically a character sheet. And then we
+also have this image of Shelby, who is
+my wife and the co-founder of Curious
+Refuge. And we also have the location
+that we want this entire thing to take
+place in. We also have some sound
+effects and the exact words that our
+characters are going to say. So in this
+example, the idea would be that you're
+working with voice actors to get the
+exact tonality that you want from the
+performance, which can really help push
+the generation in a much more believable
+direction. Now, in order to show you
+these workflows, let's work backwards
+here. So this is the final result that
+we want to get to. So, hypothetically,
+you're working on an AI filmmaking
+project and you have an exact threeshot
+sequence with the exact timing you're
+going to see inside of this video. So,
+this is what we want to get to. Let's
+take a look.
+Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> This isn't funny. How did you fake my
+hand?
+>> Okay, you get the idea. The acting isn't
+amazing, but frankly, it's better than I
+could do on my own. So, that is the end
+result that we're trying to get to using
+some of the viral workflows. So, let's
+talk about workflow number one. So, if
+you've been following the AI video
+world, then you've probably heard of
+Miniax H3. There are a few different
+versions of this tool, but more or less
+it's being positioned as a cheaper
+alternative to Seedance 2.5. We saw
+quite a few posts talking about how you
+can use Miniaax H3 generations to go
+through your drafts and then send those
+drafts into Seed Dance to ultimately
+generate the physics and the performance
+to make it as realistic as possible. So
+naturally, we wanted to test it out. So
+for the first test, we want to generate
+that threeshot sequence, but instead of
+jumping through a bunch of hoops, maybe
+we can just upload our assets, type in
+our prompt, and get something decent in
+return. So to generate this video, I'm
+inside of Magnific, but of course you
+can use any aggregator that you want and
+we're going to first use Miniax H3 Max
+as our video model. Now for our
+supporting assets, all you have to do is
+drag and drop them into the media
+section. We're going to use both our
+character sheet of me, the character
+sheet of Shelby, and then also our
+location. Now, for the prompt, I'm not
+going to get into it. Basically, we have
+a very long and robust prompt talking
+about the three individual shots that we
+want to see. And I'm only going to
+generate one video for this. The
+resolution we're going to keep at 480,
+but you can go up to 720 with miniax.
+And then we will keep this generation to
+14 seconds, which is the entire duration
+of the scene. Now, I should note that
+this is going to cost you about 1,500
+credits, which is more or less about
+$1.50 inside Magnific. If you bumped it
+up to 720, it would cost you about
+$2.20. 20 cents.
+>> Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> This isn't funny. How did you fake my
+hand ra
+[laughter]
+Okay, you get the idea. Miniax H3 on its
+own kind of sucks. I've seen so many
+posts over the last few weeks talking
+about how great it is, and I don't get
+it. every generation we ever do
+completely sucks. And so I think there's
+a lot of people being paid to promote
+this tool. Now, let's do the same thing
+inside of Seedance 2.5. And so under the
+model, we can change it to Seed Dance
+2.5. And for this one, we'll keep it in
+draft mode. And down here, you can see
+that's going to cost us about $2.80 to
+pull off.
+>> Is this some kind of joke? He's coming
+in any second. We need to go now.
+>> This isn't funny. How did you fake my
+handwritten W?
+>> Okay, it's uh better. The timing is not
+exactly what we're looking for. And
+because we only used image references,
+you can see the audio is not the audio
+from our specific characters. And so you
+would want to have more control over all
+of those timing elements if you were
+working on a film project. So it's not
+quite as good, but it's closeish to what
+we're looking for. But hypothetically,
+we would want even more control. Now, to
+do a fair test, I also ran this through
+Miniax H3 Standard [music] in 2K. So,
+not the Max version, the older standard
+version, which is just a couple weeks
+older, frankly. And that gave us this
+result.
+>> Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> This isn't funny. How did you fake my
+hand? [laughter]
+>> Again, it looks terrible. And so, as you
+can see in all of these generations,
+even though Seance did the best, it
+didn't have that same composition that
+we're looking for. And so, you really
+would need to break this down shot by
+shot to get the exact vision that we
+talked about at the top of this video.
+So, let's talk about the two ways in
+which you could solve this. I've seen a
+lot of viral prompts talking about how
+you can use Miniax H3 Max to basically
+block out your scene and iterate and get
+it to where ultimately you want those
+individual shots to be and then you can
+feed that into Cance 2.5 to help you
+save time and money. So, the first viral
+workflow that I want to take a look at
+is using Miniax H3 Max in draft mode to
+help you refine and get your shots where
+you want them to be versus just straight
+up using Cance 2.5 in 1080p.
+Hypothetically, if you could use that
+draft mode in miniax and really direct
+it, you could get your scene exactly
+where you want it to be and then use
+either an external upreser or even
+seance itself to upres it to 1080p or
+even 4K to ultimately get all of the
+crispy resolution that you're looking
+for. So, let's hop into Magnific and
+take a look at the workflow. So, I'm
+going to break this scene up into two
+blocks. We have shot one and two, and
+then we'll have our third shot as its
+own standalone. So for the first block
+here, we have our character reference
+sheets, our location, and then we
+prompted for the exact action and
+composition that we wanted to see from
+the video. Now, for the model, we're
+using Miniax H3 Max in 480 for 10
+seconds, and that would cost about a
+dollar to generate. And you can go ahead
+and hit render. And the first generation
+gave us this.
+Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> And that's not exactly what we're
+looking for. Maybe the composition on
+the first video is kind of close, but
+that second shot, that's not what we
+want. So, we adjusted the prompt and ran
+it again.
+>> Is this some kind of joke?
+>> He's coming in any second. We need to go
+now. And the second shot now is closer,
+but the first shot is not what we're
+looking for. So again, we adjusted the
+prompt.
+>> Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> So, more or less, we've got the Miniax
+prompt to give us the blocking generally
+that we want to see, although the rest
+of it kind of sucks. But now comes the
+fun part. Let's take that same prompt
+from Miniax. And all we have to do now
+is go over here to the model and change
+it to seed dance 2.5. And then you can
+change this to the standard mode. So it
+used that prompt that we worked out
+inside of Miniax. And now we're hopping
+over to seed dance to do a much better
+quality render. So you can go to the
+bottom here, change the resolution to
+whatever you want, and that's going to
+cost us about $8 to get these two shots.
+Let's take a look.
+Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> Okay, so that's actually pretty close to
+what we're looking for. Let's move on to
+shot number three. Now, rather than me
+going through all of the iterations, I
+just want you to know that we went
+through about five iterations inside of
+Miniax H3 Max in order to get the
+specific composition that we were
+looking for. So, we did the exact same
+thing for that third and final shot.
+Essentially, we used Miniaax H3 Max to
+refine our prompt. And then when we got
+the prompt exactly where we wanted it to
+be, we did a quick little workflow that
+I want to show you. Long story short, we
+uploaded both our character sheets, our
+location, and then the starting video
+from the previous two shots. So, that
+10-second sequence we uploaded, and then
+we used our Miniax H3 Max prompt to help
+push the final shot generation here in
+the right direction. So shot one and two
+is already locked. We're working on shot
+number three using prompts that we
+refined inside of Miniax H3 Max.
+Hopefully that made sense. So now we're
+going to make sure we're in Cedance 2.5
+in the standard mode. And we will
+generate in 1080p and go ahead and click
+generate. And now when you get this shot
+along with the first shots that we
+created, you get this.
+>> Is this some kind of joke?
+He's coming in any second. We need to go
+now.
+>> This isn't funny. How did you fake my
+hand?
+>> And yeah, that's very close to the
+ground truth original that we were
+looking for. So, the idea of being able
+to work through your prompts inside of a
+draft mode seems to make sense. So, that
+entire drafting process took about 60
+minutes of total human time looking and
+curating and cost about $27. So 15
+seconds took about an hour and cost $27.
+Now if the video ended there with that
+workflow, you probably still would have
+saved some money because frankly when
+you're working inside of Cance 2.5, it
+usually takes you anywhere from two,
+sometimes four or five generations to
+get what you're looking for. And if
+you're working inside the 1080 mode,
+it's going to cost you more or less a
+dollar a second. So if you're doing five
+iterations for 15 seconds, that's going
+to cost you about $75 to pull off. So,
+it's already saving you over double what
+a traditional workflow would be. But if
+you were following the AI world over the
+last couple of weeks, you probably saw
+that Cance 2.5 Draft Mode came out,
+which is definitely a direct competitor
+to Miniax H3. So, let's take a look at
+this same workflow using Cance 2.5
+Draft. So, again, we're starting from
+scratch with both of our character
+sheets and the location. We have a
+detailed prompt of what we want to see.
+And for our video model, we're in Cance
+2.5 and in draft mode. So you can see
+here, this draft mode is going to cost
+about $2 compared to the standard mode,
+which would actually cost us about $8.
+So it's about four times cheaper to work
+inside of the draft mode. So we hit
+generate inside of draft mode. And our
+first video clip looks like this.
+>> Is this some kind of joke?
+>> He's coming in any second. We need to go
+now. And there were some things we
+wanted to refine. So version two looked
+like this.
+>> Is this some kind of joke?
+>> He's [snorts] coming in any second. We
+need to go now.
+>> And that's not quite right. So we
+refined it one more time and got this.
+>> Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> Okay. So that's our third iteration. And
+and I would say, yeah, this is kind of
+close to what we're looking for. So, the
+cool thing is we're inside of Magnific
+here. We have the video pulled up. If
+you go to that generate in HD button,
+it's now going to take that draft and
+generate it in the higher resolution
+version of Seed Dance 2.5. It's not just
+upresing it using an AI upreser like
+Topaz. It's literally rrendering the
+pixels with a locked seed. So,
+presumably, it should be pretty darn
+close to that original drafted video.
+And that gives us this.
+>> Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> And that looks amazing. And we did the
+exact same thing for the third shot. And
+using C dance draft mode, we drafted
+about five different versions of the
+video clip and ultimately arrived at the
+one we wanted. We used the Uprising
+feature, put it all together, and that
+gave us this
+Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> This isn't funny. How did you fake my
+handwriting?
+>> Awesome. So, now we have our three shot
+sequence, and it is very close to the
+original vision that we were wanting to
+pull off. Now, for the seed dance only
+workflow, we created a total of eight
+different drafts and two final videos,
+which is the exact same number of drafts
+that we created in the Miniax H3 test.
+And in using seed dance, it cost us
+about $26 and took about 70 minutes. So
+you did have to wait a little bit longer
+on render times in seed dance draft
+mode. It's about 2 minutes versus 40
+seconds in Miniax H3. But the quality is
+frankly so much better that I think this
+is now the standard when you're working
+on an AI film. You'll work through your
+shots, adjust your prompts in a draft
+mode, and then ultimately upres using a
+base video model to the 1080 or 4K
+version that you're looking for, and
+from there, you can take it even further
+using an AI video upreser like Topaz to
+give you maximum quality. Now, if you
+want to get into more AI film making
+workflows and tips, I highly recommend
+checking out the Curious Refuge
+community. We train artists at every
+major studio and with membership at
+Curious Refuge, you get access to our
+entire course catalog, including AI
+filmmaking, AI animation, screenwriting,
+and we even just dropped an AI micro
+dramas course that is really awesome.
+So, if you want to learn more, you can
+check out curiousreuge.com.
+And of course, you can always like and
+subscribe here on the platform if you
+want to get the latest workflows and
+tutorials right here on YouTube. Thank
+you so much for watching. I'll see you
+in the next one.

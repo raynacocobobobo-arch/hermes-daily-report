@@ -1,0 +1,986 @@
+UP主：Futurepedia
+标题：The Ultimate Image Generator Showdown
+链接：https://www.youtube.com/watch?v=QLv4WCKVqd0
+
+Nanobanana 2.1 was just released, so I
+thought this was the perfect time to do
+a full comparison of all the leading
+image generators. I ran the same prompt
+through NanoBanana 2.1, ChatgBT image
+2.5, Flux 3 image, and Seedance 5.0 Pro.
+I tested everything. Marketing
+materials, text, character consistency,
+thumbnails, complex prompts, photo
+realism, targeted image editing, and a
+lot more. I chose a winner for every
+generation. I'll show the totals at the
+end with which model wins overall and
+more importantly which model won in
+different use cases. I cover a lot. I
+made chapters for everything so it's
+easy to skip around to whatever
+interests you if you want. This is a
+little app I vibe coded for when I do
+these comparison videos. I've got all
+the different categories I'm going
+through on the side. I'll start off with
+some marketing prompts because these
+will include text, prompt adherence, and
+object consistency. Since I uploaded an
+image of the product, I ran nine of
+these just for this product. I won't go
+through every single one of these. I
+went with this future fuel can, a
+fictional energy drink company based on
+our logo. And with all of these, I have
+the prompts down below. This one was for
+a polished vertical social media ad
+using this future fuel can. And I listed
+out what text I wanted it to say and
+where. Nano Banana 2.1 looks awesome.
+And the reason I like using this product
+is there's a lot of really small text on
+it. And Banana did amazing. Even the
+473ml is super clear. And just in
+general, this is a really aesthetic and
+great looking ad. The text is perfect.
+It's got these nice little light flares
+and good composition and style. I really
+like that one. GPT image 2.5 feels a
+little busy to me and slightly generic
+on what it chose, but it's definitely
+still good. And when you zoom in all the
+way, text is also crystal clear.
+Overall, this is really good. I do lean
+towards the nano banana one, though.
+Then flux 3 image is it's not bad, but
+it definitely doesn't stand out like the
+other two did. Let's check the text out.
+There's a small error on the three. So,
+it's really, really close, but not quite
+perfect. And just in general, a kind of
+boring design. The text and font it
+chose just pretty boring. Then, Cream
+5.0 Pro also very simple. Not quite as
+boring as the other one, but the text is
+also slightly better here. I don't see
+any errors. Not quite as high fidelity
+as Nano Banana or ChatBT, but really
+good. Just not as strong of an aesthetic
+in my opinion. So, out of these four, I
+think that Nano Banana was the winner.
+Now, using that same can, I tried adding
+in a person. It's a little more of a
+unique setup with a creator working in
+the background and then just a stylish
+studio. Really like the aesthetic of the
+Nano Banana. And even just looking at
+this blurred out computer, you can tell
+that he's working in Premiere with like
+the timeline on the right and then some
+of the color grading options over on the
+left. I'll check out this text and it is
+not good. Mext generation and then the G
+is also bad. The flavor is not good
+under that. It's even worse. So every
+line here is wrong. So that does kind of
+ruin it. Although the overall image
+looks great. Having errors on the
+product itself definitely knocks some
+points off. Jacht did a great job. It's
+also a nice aesthetic. This F should
+probably be on its side, too. Let's
+check out this text. While the text on
+the can looks much better than Nano
+Banana, but it does have an issue I get
+a lot with image 2.5. While all the text
+is good across the entire image, there's
+just too much of it. It randomly puts
+text in way more places than it needs to
+be. On this notebook, there's a weird
+angle here actually. Then also on the
+plant, plus a little subheading and more
+text in the background over here. And
+this model from Chachuy does this a lot.
+You can prompt around it, but just by
+default, that's what it does. And Flux 3
+is not very good, at least compared to
+the others. Um, pretty just boring
+setup. Also, the can just feels really
+out of place. The lighting feels
+different compared to him. Um, I don't
+know what his setup is like here. He's
+facing this way and his computer's way
+over here. Just a boring way to
+incorporate the text. Overall, not
+great. But the text on the can is pretty
+close. Not crystal clear, but not bad.
+And Seedream looks really good at first
+glance. Text looks nearly perfect and
+pretty solid aesthetic. You know, it's
+kind of simple. Um, the text could pop a
+little more, but I think that one's
+solid. So, overall, I've got to give
+that to Cadream. It would be nano banana
+if the text on the can was right, but
+that's kind of an auto fail when the
+others do get it right. I'm covering a
+huge range of use cases in this video,
+so we put together a free guide with the
+easiest way to get started yourself. A
+bunch of copy-paste prompts. It's
+focused on Nanobanana 2.1 with sections
+on what it is and how to use it, but the
+prompts will work in any of these
+generators. And instead of some of the
+random challenges I included in this
+video, we focused on the most practical
+use cases in there. Prompts for social
+media graphics, product hero shots,
+editing images, and things like that. We
+made those super easy to use. Grab that
+for free down in the description. I'm
+going to go a little faster through some
+of these so we can get on to the other
+use cases. I'll actually go in reverse
+order here cuz all of these were pretty
+bad. Like none of them seem to be
+opening the can in a normal way. Chachi
+Pet is probably the worst and the hand
+is facing a weird direction. Nano Banana
+was the closest at looking at how
+someone might open up a can. So, that's
+who I gave it to. This one I wanted to
+incorporate a person a little more
+prominently. Nano Bananas looks awesome
+except for the text. Not good. Chachu BT
+has crystal clear text everywhere and a
+pretty solid aesthetic. This one Flux
+took a weird approach. See, nice and
+simple. Actually, pretty solid. Lots of
+issues with the text though. So, that
+one I'd say was a pretty clear winner
+with Chat GPT. All right, I'm just going
+to jump through these ones pretty quick.
+None of them got the text on the can
+right. So, we're going more off
+aesthetics here. Pretty simple from Nano
+Banana. I really like the look of
+chatbt, although it's a little more text
+than I would like randomly. And yeah,
+I'll zoom in on this can. They all kind
+of look like this. Pretty simple from
+Flux. Not bad. Better from Cadream. Out
+of those, I'd have to give it to Chat
+GPT. And this one, I went with a more
+dynamic type of ad. You already glanced
+at these. The text looks good on all of
+them except for Nano Banana. has a few
+issues on it, but overall a pretty solid
+aesthetic. Chachi BT looks really cool.
+Maybe a little oversaturated and
+contrasty, but but pretty solid. Um,
+great job from Flux and also from
+Seamream. They all did pretty good at
+this one, but I just thought Chad won
+out by a little bit. Um, honestly, this
+one was super similar, so I will show
+the winner of Nanobanana. So, just from
+marketing, the final tally was a tie
+between Nano Banana and GPT image 2.5.
+They both did really well on a lot of
+these, and I think Nano Banana would
+have won it out if I had a product with
+less complex text on it. Next, I took a
+couple images I got back from those
+marketing prompts and decided to make
+some finer edits to them. A lot of
+times, it's not going to be perfect on
+the first try, and you'll want to change
+little things. I'll go through these
+kind of quickly so we can get on to
+those other use cases. First, I wanted
+to change up the flavor from the
+electric blue to solar mango. Um,
+honestly, they all did really well with
+this one, so I'm just going to jump
+through these. like it's just minor
+differences in the aesthetic. The prompt
+was pretty specific, so the results
+turned out fairly similar. I gave it to
+Cadream 5.0, but it didn't win by much.
+Then on this one, I wanted it to change
+out the text from ready for what's next
+to your next level starts here. And they
+all did well. And when I just show them
+right next to each other like this, this
+was kind of hard to see unless you look
+at it right next to the original. When I
+go from the original to it, you can tell
+it kind of smooths his skin out here. So
+it wasn't quite true to the original.
+Then chat GPT, it kept about the same
+amount of texture in his skin, but just
+kind of changed its position slightly.
+So it was really really close. And then
+really Flux was super super close, too.
+Um, almost perfect. I guess they changed
+the shadow on the towel slightly. That's
+about it. And then Seamream to the
+original. Definitely brightened him up a
+bit too much. It's definitely changed it
+from the original. It looks a little
+less natural. So out of those, I gave it
+to Flux. As you're making changes like
+this, you really want the rest of the
+image to stay exactly how it was. And I
+think Flux came the closest. And these
+next ones were all that same idea,
+changing his shirt to red and the towel
+to white. And since the idea was so
+similar to the last one, I actually
+didn't rank it. But then this one has
+the guy in a different position. Again,
+this is a little easier to see if when I
+have them right next to each other, but
+when I looked at these really close,
+this one felt like he retained the most
+characteristics of the original. So, I
+felt like Chachi BT looked as similar as
+possible. Then had to change him to a
+woman. They all did a pretty good job
+except randomly Cadream changed a word
+in the text. So, definitely a fail
+there. Um, the others did a good enough
+job. I didn't want to actually rank one
+as the winner. Now, for making edits to
+these, the final results were split
+across GPT, image, flux 3, and Cream 5.
+So, that's all those marketing examples.
+I do feel like it covers a lot of
+different aspects going through those.
+Making those fine grain edits, but also
+how it approaches text. There was some
+photo realism in there, how it
+interprets prompts and compositions. So,
+I learned a lot going through those.
+Let's move on to infographics. This is
+something I and a lot of other people
+use these models for. So, on this
+recipe, they all did a pretty good job
+at this actually, except for Flux 3. It
+didn't have amounts for the ingredients.
+So, not really a great recipe. Then
+going through really quickly, all the
+others look really good. And so Nano
+Banana went with a very different
+aesthetic than the others. Although it
+didn't list out all the different spices
+and amounts, so it would be hard to work
+from. Try to te took the most realistic
+approach. Did a really, really good job.
+Although again, there's just extra text
+all over the place up here, down below,
+over on the right, the bottom, bottom
+right. But other than that, really,
+really good. Then Flux 3 is a fail
+because it doesn't have the amounts on
+the ingredients. And then Seamream looks
+great. Uh, it didn't take quite as
+realistic of an approach as Chad Gypt
+did, but I think it looks awesome.
+There's no issues with any of the text
+anywhere, and the steps all looked
+accurate. So, I actually preferred
+Seedream the most out of these, although
+it was pretty close. Now, this one's a
+harder challenge where it actually has
+to go out and search for information.
+Just looking up the different models of
+2026 Siennas, then compiling an
+infographic. So, I'm going to go
+backwards on these because Cadream, a
+lot of this is just not accurate. It
+doesn't even have all the different
+models. It was not able to do that at
+all. But it's interesting that some of
+it's accurate, but it was missing a lot.
+And Flux 3 actually did better than I
+was expecting. It does have each of the
+different trims. Woodland is the main
+one that was missing off of Seedream
+here. It is also the only one with
+all-wheel drive. Um, and I think most of
+what it listed is accurate, but it was
+kind of random things that it chose to
+list for each one. So, it's not a great
+comparison. ChachiBT, on the other hand,
+did a great job. I like that it has just
+a single line for each one to summarize
+it. Also, the quick take at the bottom,
+even includes the prices. Overall does
+really well, but so does Nano Banana. I
+do like the aesthetic of this one. It's
+simpler how it's all displayed. And when
+the miles per gallon is the same across,
+lists at the bottom instead of on every
+single one. It's made some good choices
+to simplify things. So, I gave it to
+Nano Banana. But then I moved on to a
+far more complex challenge, a large
+poster about the Revolutionary War.
+There's just tons of information that
+needs to get packed in. Nano Banana did
+really well and most of the text is
+really good except when you zoom in on a
+couple areas. Not sure what hi would
+mean here. There's like Vermont, New
+Hampshire, and Connecticut. And um there
+shouldn't be an hi right here. And then
+little jumbled. Then we see some issues
+in this quote. And the don't tread on me
+is off, but really close for how much
+text is on that. Trashy BT took the
+approach of putting a crazy amount of
+text all throughout. And if we look
+really close through here, I don't think
+there's any issues anywhere at all. And
+I didn't see a single error. And by that
+I mean a part where the text was not
+legible. I didn't fact check every bit
+of it. So I'm sure you can guess that
+that is going to be the winner. But we
+will move on to Flux 3. Tons and tons of
+issues in the text all throughout. Um,
+so not a good job at all. Cdream 5 has
+this same issue. it is just not there
+with complex text like this. So when you
+need really complex text, GPT image 2.5
+is going to be the winner. If it's just
+moderately complex, Nano Banana can
+definitely handle it. Then for the
+simpler ones like basic marketing
+materials or a poster, they could all do
+it. But now here's one that's a bit
+harder. A poster listing every letter in
+the alphabet with coinciding pictures of
+an animal that starts with each letter.
+So I'm going to go backwards on this
+one. So flux three. You can see there's
+two jellyfish. The P and Q are switched.
+Then it's also A C D B C. It's all out
+of order. And maybe that's supposed to
+be a D, but it's a tog. Um, yeah, I'm
+sure there'd be lots more errors if I
+kept looking. See close except down here
+there are two walruses. Uh, I don't
+think that really looks like a vulture
+either. Iguana is spelled wrong and
+doesn't really look like an iguana, but
+other than that, pretty close. GPT image
+2.5 got everything. Uh, you can look
+through, it's all the way A through Z.
+Got everything right. The only thing I
+spotted at all on this entire thing is
+the A looks a little funny right here.
+Like it's just slightly not filled out
+on the side. Other than that, it is
+perfect. And Nano Banana looks really
+good, too. It is basically perfect
+except for you, they went with Unicorn.
+I don't think I can count that. Just out
+of curiosity, I ran it a second time
+with Nana Banana, and it put Unicorn
+there again. So, the winner was Chach
+GPT. Here's another super complex
+prompt. It had to research the different
+AI video models and I asked it to create
+a highly detailed infographic about the
+differences between the underlying
+architectures. As you can guess, if we
+look at Cadream, it does have some
+issues in the text like over here has it
+in both of these spots and then also
+down below. You know, a lot of it is
+good, but there's just some issues here
+and there. Flux, of course, same deal.
+First off, it doesn't look great, but
+then when you zoom in, there's going to
+be issues in the text kind of all over
+the place. So, ChachiPT fit in tons and
+tons of information and is perfect all
+the way through. You can kind of zoom in
+on any part. I didn't find a single
+issue in the text other than the fact it
+has to add random text in the top left
+and top right. Nano Banana also crammed
+in tons of information, but if you look
+closely, there is lots of issues all
+throughout. Um, yeah, just all over the
+place. Better than Flux and Seamream,
+but worse than JBT for sure. So, clear
+winner there. Then out of curiosity, I
+also ran that through the previous
+versions of Nano Banana. So we had that
+2.1 and then Nano Banana Pro and
+definitely did just a lot less text, but
+it still does have issues. You'll see
+some over on the left and then right in
+the middle there's a bunch of issues.
+And then Nano Banana 2, which is the
+super fast one they released. It again
+put a little less information on it. And
+it does have fewer errors. There's a
+couple though, like it spelled vectors
+wrong right here. I'm not sure what it
+was quite trying to say here. Um, but
+other than that, it's pretty close. So,
+just in general, Nano Banana 2.1 is an
+improvement, but not by a lot, which
+makes sense it'd be called 2.1. This was
+another just super challenging one. A
+map of the US with every national park
+located on the map and an arrow pointing
+from its location to a retro poster of
+that park. This is probably my most
+challenging prompt that I have. Nothing
+really gets that close. Um, nano
+bananas. This is not even remotely close
+to every national park. Even with that
+has some issues like Alabaca instead of
+Alaska. Randomly has a geyser in South
+Dakota. Pretty sure there's not a single
+geyser in all of South Dakota. Um yeah,
+so not really a great job. Chip at least
+attempted to get every one of the
+national parks. Looks really good at
+first glance, but when you get close on
+these, it's actually I mean surprisingly
+close for how complex this is, but
+there's certainly issues throughout a
+lot of the text. And also when you look
+like say these ones in Utah. They're not
+really pointing to any of these, but it
+should be these right here like Arches
+and Canyon Lands and Capitol Reef and
+Zion. These are all from Utah, but
+they're not actually pointing to Utah.
+Um, so lots of issues. Definitely the
+best attempt. Flux 3, as you can
+imagine, there's just garbled text all
+over the place. See missing tons and
+tons of parks. They're not pointing to
+the right spots. Has issues in the text.
+So Chad had the best attempt. Certainly
+not even close to all the way there. on
+my list of prompts. This is the one I'll
+be most impressed by if a model ever
+gets it. This one is just kind of seeing
+if it could scribble around. It's an
+interesting prompt with Nano Banana.
+Like the text, you know, it looks a
+little too crisp. It doesn't look like
+actual scribbles. JPD is a little bit
+closer with that. Flux 3 and Cream is
+just it cannot do that much text. So,
+JPT wins. Across these eight examples,
+the winner was GPT image 2.5. It won six
+of these. The only ones that didn't win
+was Nana Banana. barely beat it on this
+one. They were super close. And then
+Seamream, I just kind of liked the
+aesthetic of its recipe a little more.
+So, the ones it didn't win, it didn't
+lose by much. Now, we're going to move
+on to some photo realism. I did quite a
+few of these. This one was a crowd at a
+high energy concert with many faces.
+Immersive concert photography. This has
+always been really challenging for
+models to put this many different faces
+in an image. Nano Banana 2.1 does a
+great job. You really don't see any
+warping in the faces up front. In the
+back, there's small issues, but they're
+not noticeable at first. Yeah, a few
+warped faces. Her hand is weird over
+here. Pretty good attempt, though.
+Chachi looks like a way more authentic
+photo. This is not even close. This is
+far more realistic. They are all facing
+away from the concert, but something
+could be going on over here. All the
+faces look great. There might be some
+warping here. It's kind of hard to tell
+what's going on, but it's a good job.
+Uh, Cadream is just not good. There's
+lots of warping when you zoom in. While
+Flux has less warping on the faces, it
+just looks super fake. So, I think
+Chachi BT is a very clear winner. Then I
+decided to take the winner, which was
+from Chachi BT, and add myself into the
+image. I just used both of those as a
+reference. Said add me into the concert
+photo naturally. Use clothes and an
+expression that fits with the image.
+Nana Banana 2 is not bad. Not facing the
+same way as everyone else, but looks a
+lot like me. Nice and sweaty. Definitely
+been getting into it. Trash BT I think
+blended me a lot better into the scene.
+Flux 3 is just super weird. Not sure
+what I'm doing there. And Seamream put
+me right in the middle and did a pretty
+good job. Uh definitely changed some of
+the colors and textures from the
+original image, but I think that looks
+like me and it's pretty decent. But even
+still, Chad GPT was the winner. Another
+challenge that has a bunch of faces in
+it. Nana Banana looks really good. You
+don't really see any warping in any of
+these people and it's a really solid
+image. Looks like a pretty authentic
+photo. And then Chachi BT, I just really
+like the look of this one. Feels a lot
+more immersive. Like the colors on it.
+And all the faces look really good when
+you zoom in. I think that Beast Nano
+Banana just by a little bit. And Flux
+has just super strange lighting that
+does not look real. Definitely feels too
+bright outside for everyone to have
+their lights on. But for this many
+faces, they did a pretty good job. Just
+little bits of warping on some of them.
+I guess this one right here in
+particular doesn't even have a face.
+Just looks like a finger wearing a hat.
+Then we've got Seadream. Uh, pretty good
+aesthetic on the image and then I zoom
+in and there's a little more warping on
+this one than the others. So, I gave it
+to GPT image. Then, pretty simple prompt
+here. Woman taking a casual selfie while
+running on a treadmill in the gym. Uh,
+we'll start with the fails first. She's
+got extra fingers. She's not actually on
+the treadmill. The camera doesn't look
+like it's showing the same thing that's
+actually behind her. She's got the
+taking a selfie with something other
+than the phone. Doesn't look
+particularly realistic, but it's not
+terrible. And I don't think this mirror
+is reflecting things properly. And
+ChachiT looks very realistic. Very close
+to looking like a real photo. Well, I'm
+guessing if we zoom in here, there's
+yeah, issues all over the text. Got
+heart rate and time, right? Everything
+else is just jumbled, but the image
+looks really good. And Nano Banana is
+pretty close. Little strange on the
+lighting. Doesn't look quite as
+authentic. So, that's going to go to
+ChachiBT. Had a couple other challenges
+like this that I'll go through a little
+more quickly. Nano Banana looks good. So
+does Chacht. That looks very realistic.
+Not quite as good from Flux. Jumbled in
+the face. See tried to put way too many
+people in here. There's issues all over
+basically every person in the
+background. That was a close call, but I
+gave it to Chachi BT. This one a more
+cinematic prompt. Nana Banana did a
+really good job. Chachi BT has this
+weird issue sometimes with has a strange
+kind of crunchy texture underneath
+everything. You'll see that problem pop
+up sometimes. It's definitely there in
+this image. So, that's a bad one. Flux 3
+does not look realistic or particularly
+cinematic. Seedream looks really good,
+though. That's actually the one that I
+gave it to. Now, this one's a pretty
+challenging prompt with an octopus
+bartender and fantasy creatures in the
+background. Nana Banana nailed it. Uh,
+it's a really good looking octopus. The
+way each tentacle is holding things
+looks correct. I don't see too many
+issues in the characters in the
+background. Maybe a couple here and
+there. All in all, great job. GPT image.
+I like the aesthetic a lot more. Looks
+super realistic. So it's really close
+call between those two. I just happen to
+like the way Chachi looks a little more.
+Flux looks way more kind of cartoony and
+kind of a weird approach from Cadream,
+but you know, I got the prompt right. So
+I gave that one to Chachi BT, although
+it was very close. So for the results in
+photo realism, ChachiT was the winner by
+a long shot. Now, yeah, did a great job
+with all of them. The only one that
+didn't win was that car prompt from
+Seamream. Now, I ran a few prompts that
+involved placing me into a scene. A
+simple one of me surfing, riding a
+barrel wave. Dano banana looks awesome.
+Definitely a nice action shot. Looks a
+lot like me. Hair's slightly different,
+I guess, but if I didn't cut it for a
+little bit, it'd look like that. So,
+Chach has that little crunchy pattern
+creeping in a bit on this one. Also,
+just does not feel like a real photo,
+even though it looks exactly like me.
+Flux 3 looks great. I think that looks
+just like me. I didn't tell it what
+aesthetic to go with, so it's kind of
+like it was shot on a camera without the
+perfect settings. I think it looks
+really good. Seedream, not so much. You
+know, not terrible, though. So, I give
+that one to Nano Banana. And for volcano
+boarding, again, Nano Banana looks just
+awesome. It's a great action shot. I do
+also like that Nano Banana changes the
+outfit to match the scene instead of
+always just trying to use the exact
+shirt I was wearing. Then, Chash BT goes
+with that kind of close-up shot that
+just doesn't look realistic, but
+definitely looks like me. Pretty good
+job from Flux as well. issues with the
+text in the background, but as far as me
+riding the board a little funny, but
+pretty solid and not bad for Sea Dream
+either. Although I ride regular, not
+goofy footed, so I'd be kind of bombing
+this hill switch. But maybe if I
+practice my volcano boarding a little
+bit, but out of those, I would call Nano
+Banana the winner. Now, I added another
+character into the scene. So, it's me
+and this girl I generated in midjourney.
+I like how we look a lot in Nano Banana.
+Very natural poses. I think that person
+resembles me quite a bit. Chash Petite
+has a thing where it just tends to make
+it look very posed unless you prompt
+otherwise. Nailed it with the likeness
+though. Great job from Flux 3 as well.
+Looks a ton like both of us. Pretty good
+from Cadream 2, although it tends to
+look the least like me out of the four.
+So, I give that one again to Nano
+Banana. Now, this one I actually did
+prompt for us to have different
+expressions. Nano Banana does not look
+as good. Just no texture in our faces.
+Super smooth. And I would say the
+resemblance is lost in this too. Chash
+bat looks amazing and nailed the
+nervousness on our faces overall. Just
+really good aesthetic, but definitely
+less posed than the other chach results.
+Not bad from flux and not bad from
+seedream either, but trap is the winner
+there. Now for character consistency
+that involved a real person. The winner
+was nano banana. I think it looked by
+far the most natural across each of the
+shots while retaining that consistency.
+GPT image did win one of them and it was
+strong across all of them but tends to
+feel a lot more polished and posed in
+its results. Next, I decided to have
+each of them give a shot at creating the
+thumbnail for this video. Now, in this
+one, I gave it the background to work
+from and an image of me and then had a
+long prompt explaining exactly what I
+wanted it to look like. Nano Banana I
+think looks really good. The only thing
+I don't like about it is the text
+doesn't stand out. It kind of blends
+into the banana. So, I don't think that
+would pop on a thumbnail very well.
+Also, these are not the correct logos.
+And I told it to just write image 2.5
+instead of chach image 2.5. But chachi
+bt I think looks just amazing. Nailed
+the gradient on the text. Good job on
+the madana except for the weird bulge
+right here to fit the text. But the
+black letters just really pop against
+that yellow. And then it got the chatbt
+image right. Got the Black Forest Labs
+logo pretty close. I don't think that's
+quite right. It should look like this.
+So that's actually closer than I thought
+it was. Um, you know, it shows this
+little triangle in some of these and
+then this line kind of cuts off right
+there, but it was actually pretty close.
+The Seedream logo, on the other hand, I
+don't think is a logo they have ever
+used anywhere, but that was relying on
+it to find those logos for itself. I
+could have easily just dropped them in.
+Flux 3 is a pretty boring thumbnail. I
+do not particularly like that. Like, it
+does look a lot like me, but it is not a
+style I would use. And Seamream is even
+worse. So, Nana Banana and Chachi BT
+both did well, but I think Chachu BT was
+the winner. The text on the banana sets
+it apart a lot. It'd be really hard to
+read this other one at a glance. Now,
+thumbnails. These are often not perfect
+on the first try. So, I took this one I
+got back from Chacht, the one I liked
+the most, and I asked it to remove that
+bump on the banana and to make me a
+little larger. Nano Banana zoomed in on
+me too much, cropping off the top of my
+head, although that could still work.
+Didn't do anything about the bump on the
+banana. Chacht zoomed in on me more
+accurately. It also didn't do anything
+about the bump on the banana, but it
+starts running into an issue that I get
+a lot of the times when I'm rerunning
+things through Chachi BT each time,
+especially with people, it seems to
+degrade the quality more and more every
+time you send it back through. Just gets
+weird textures and the more you ask for
+edits to that image, the worse it gets.
+Flux 3 didn't change either of the
+things I asked it to. And Cedream nailed
+that actually. got rid of the bump on
+the banana and also zoomed in on me
+really well and I look better in this
+one than I did in Chhatach BT. So, I'm
+going to give that one to Cadream. So, I
+ended up trying to fix this bump on the
+banana just on its own without changing
+anything else. Just asked it to fix that
+and adjust the text as needed to fit.
+Nana banana fixed the banana but did not
+adjust the text. Also, I feel like it
+made me look worse. JPT didn't fix it
+but made me look worse. Flux 3 got it.
+The banana is a little oddly shaped now,
+but I'd call that a win. And Seamream
+got it too. It made the text a little
+harder to read, but the banana looks
+very natural and it achieved the prompt.
+I'm going to give that one to Flux. And
+this one was much easier. I just asked
+to change my shirt to a yellow that
+matches the banana. They all did a
+pretty good job. It's really just minor
+things like how it approached the arm
+hair. You can see that's not as good in
+Flux. Just little things like that is
+all I was really looking for. It was
+barely won by Cadream. Now, for
+thumbnails, including generating and
+editing them, the winner was Cadream.
+So, it was able to make the edits, but
+also maintain my likeness without adding
+any weirdness to it. Flux was also not
+bad at that. And GPT image one as well,
+but they were all pretty good at the
+editing part. So, this one's a bit of a
+more unique prompt. Got a grid of eight
+things here and then a marble room. The
+prompt specifies exactly what it wants
+it to do with each thing. And so, Nano
+Banana got everything correct. Her hat
+sitting a little funny, but it got every
+part of the prompt right. Same with
+Chacht. Everything is correct. just
+looks very posed and pretty unnatural.
+Flux 3 got it correct, but her hat is
+pretty big. Not bad, though. Then
+Seadream, and it got what I specified in
+the prompt right, but it did change the
+room. You can tell there's supposed to
+be this little kind of doorway thing
+here. It lost that and changed the color
+of the room. So, Seadream was a fail.
+All in all, I gave that to Nana Banana.
+So, it got it right and looked the most
+natural. This one was for a highly
+detailed image of a spider that's
+camouflaged where you can't tell it's
+there at first, but then when you see
+it, you can fully see it. Nano Banana
+did really well, although you can kind
+of see the spider right off the bat.
+Pretty decent camouflage, though. Chat
+BT actually got the prompt right where
+it's hard to see the spider at first.
+Flux, you got a solid image of a spider,
+although I'm realizing it has 11 legs.
+So, yeah, I guess that's a fail. And
+Seamream, you know, decent spider image.
+So, that one goes to Chachi BT. Next, I
+tried out giving a really unique
+midjourney style to each of them and
+seeing if they can replicate that style.
+Starting with the easiest one, I gave it
+this image from midjourney. You super
+unique style. Then asked it to create an
+image of a jellyfish using this style.
+So, three of them did pretty well. Flux
+was a fail that's not really following
+that style at all. Um, the other three
+are all super close. Uh, it's pretty
+hard to choose a winner between these,
+but I ended up giving it to Chad GBT
+just by a little bit. Then for this one,
+more of a challenge. Really, really like
+the style of this. So, I said to create
+an image of a wizard casting a spell
+from a top a mountain using the same
+style as this image. Nano banana. Total
+fail there. It's a cool image, but
+definitely does not look like the
+original. Chachi got it absolutely
+perfect. It is super good at this style
+reference. Then, Flux kind of tried to
+use the same character and sort of got
+this style. Definitely not as bad as
+Nano Banana. I'd say Seamream was a
+little better than Flux, but all in all,
+it's not even close. Chacht won that by
+a long shot. And so, you can probably
+guess it wins this one as well. But this
+is the image I went with. Another super
+cool style. Another fail from Nano
+Banana. Chacht nailed it. Flux 3. See,
+not so great. Although, each image was
+actually pretty cool. Now, across these
+style reference images, Chacht won all
+of these by a long shot. Uh, it wasn't
+even close. Did a great job. Then to try
+to get a really good judge of their
+character consistency, I went with
+character sheets. So I took a unique
+character like this one, then said
+create a character reference sheet for
+this character with turnaround,
+expressions, details, and a color
+palette. So it has to have a ton of
+detail and keep the character consistent
+through the whole thing. So Nana Banana
+did do a good job of achieving the
+prompt, but it changed the style of the
+character completely. ChachiBT kept the
+style and nailed every part of the
+prompt. Only thing is it pops up with
+that issue of adding unnecessary text.
+Like it doesn't really need the
+subtitle, but especially doesn't need
+more text in the bottom left and it adds
+a bunch in the right. Maybe some of that
+would make sense, but not all of it.
+Flux 3 did a great job at this one, too.
+Maybe not on the expressions. Uh, first
+off, the text isn't good on them, but
+also one eye is slightly more open, but
+all the others is just repeating the
+same expression. Maybe he's that kind of
+guy, though. Main problem is the text
+everywhere. And the text is also bad on
+Cadream, but there's not as much of it.
+did a pretty good job with the rest, but
+I gave that to Chachi BT. The same idea,
+but with this character, it went about
+the same with all of them. Here's Nano
+Banana. [laughter] I like that it used
+just the full eyeball in the color
+palette. Chachi PD has way more details
+to go off of. Pretty good job from Flux.
+Pretty good job from Cadream. Although
+the giant eye in the middle is missing
+in a couple of these expressions. Sort
+of turns it into a nose. But again,
+winner is Chat GPT. Another one with
+this guy. I'm just going to go through
+these quickly. Not bad from Nano Banana.
+Amazing from Chat GBT. Pretty good from
+Flux. Not so good from Cadream. Winner,
+Chad GBT. And one more with this
+character. Lots and lots of detail all
+throughout. So, it's the most difficult
+of them all. Nano Banana completely
+changed the style. Chat GBT absolutely
+nailed it. Flux 3 did a really good job
+except for the text and okay from
+Cadream. Again, clear winner was Chat
+GBT. Now, for character sheets, Chat GBT
+won every single one. Um, really, this
+one wasn't even close. I feel like it
+has basically completely solved
+character sheets. So, here are the final
+results. I'll start with the overall
+results. We had four models and you can
+probably guess who the ultimate winner
+was. Chad GBT image 2.5 by a long shot.
+It won 26 out of the 42 challenges and
+it won across a lot of different use
+cases. Nano Banana was in second and
+then Seedream did win six and then Flux
+was in last place. it only one two and
+both of those in particular were edits.
+Now for the overall results but broken
+down by category which is probably the
+most important part of all of this. Zoom
+out so we can see this all at once. So
+as you can see nothing won every single
+category but ch Image 2.5 won the most
+categories by far. But there were a
+couple areas that it wasn't as good at,
+particularly character consistency,
+which is a pretty common use case where
+you want yourself or another actual
+person or it could be an AI generated
+person, but to maintain their
+consistency across multiple images while
+also having them look natural. Chatt was
+not as good at that. Nano Banana was
+definitely the winner for me. And the
+other issue with chatt was on
+thumbnails. It's really good at the
+initial generation, but making repeated
+edits degrades the quality on the
+person's face in particular. Seedream I
+did find to be better at that. Some of
+these other ones it was pretty close
+across all of them. Like marketing
+materials they were all pretty good but
+infographics chachi was by far the
+winner. Photo realism in general it was
+the winner. I had a couple of those just
+random unique challenges in there. It
+was neck andneck with Nana banana on
+those. The style reference no
+comparison. Character sheets as well not
+even close. So while chatbt was the
+winner across the greatest number of
+categories your use cases may be
+centered across one of these areas where
+it wasn't as good. So, it really depends
+on what you're using it for. Hopefully
+that helps you decide which is best for
+you.

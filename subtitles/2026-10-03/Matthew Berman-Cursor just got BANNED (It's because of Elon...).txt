@@ -1,0 +1,509 @@
+UP主：Matthew Berman
+标题：Cursor just got BANNED (It's because of Elon...)
+链接：https://www.youtube.com/watch?v=U6Ie2br8lxs
+
+OpenAI posted a blog that at first
+glance might not seem like a big deal.
+Our decision on Cursor following its
+acquisition by SpaceX, but the drama
+that preceded it, the skirmish between
+XAI employees and OpenAI employees and
+what this means for the future of AI
+makes this story far more interesting
+than what you might think at first
+glance. Okay, so the first thing you
+need to know about this blog post is
+OpenAI dropped it at 700 p.m. Friday
+night. That should clue you in as to
+exactly what they were trying to do.
+Whenever a company makes an announcement
+late on Friday night, you know, they
+don't want people talking about it. It's
+going into the weekend. People aren't
+watching news as much as they usually
+do. They're not browsing social media as
+much as they usually do. So, they really
+tried to get this out at a time where
+the fewest possible people would see it.
+But, of course, I saw it immediately and
+I literally gasped. This is a big deal.
+So, let's get into it. What does this
+mean? Today, we notified SpaceX that we
+intend to wind down our contract
+providing open AI models to Cursor. Yes,
+Open AAI is no longer going to be
+available in Cursor. Their partnership
+of which cursor pays OpenAI a ton of
+money to provide their models in the
+Cursor platform is now over and there is
+well over a decade of history that led
+into this decision. This is not an easy
+decision for any company to make. OpenAI
+is giving up a substantial amount of
+revenue. This potentially looks pretty
+negative to anybody looking on to it. It
+looks spiteful to say the least, but I'm
+going to break it all down for you. This
+decision was incredibly tough as we care
+deeply about our models being broadly
+available for developers. We are making
+this choice and just brace yourself for
+this because we cannot be confident that
+SpaceX will use our technology within
+our terms of service. Ready? based on
+our experience with Elon Musk's
+companies violating contracts. They
+literally called out Elon Musk breaking
+previous contracts and a history of
+breaking the terms of service as reason
+for pulling their models from the cursor
+platform. But why are they nervous about
+that? And what did Elon do to make them
+so nervous? So to understand how we got
+here, you need to understand a little
+bit about the Elon Musk and Sam Alman
+beef. So I'm going to give a very brief
+overview of the history here. So in
+2015, OpenAI was started. Sam Alman was
+the main guy there. Elon Musk gave them
+donated to them a ton of money. And it
+was a donation because OpenAI was a
+nonprofit. Then in 2017, OpenAI figures
+out, oh, we're going to need a ton of
+compute to compete with Google DeepMind.
+And that was their main competition at
+the time. And so how do we get a lot of
+compute? Well, we need a lot of capital,
+which means we need to be able to raise
+money. And so then around 2017 2018,
+there was a falling out. Elon Musk
+wanted to take over OpenAI as CEO. Sam
+Alman basically said, "No thank you."
+And Elon Musk left. In 2019, OpenAI
+starts operating under a cappit
+structure, basically allowing them to
+make money and to potentially pay early
+investors for their investment. Then of
+course we all know 2022 2023 Chat GPT
+explodes out of the gate. One of the
+fastest growing products of all time
+changes the world. Then later in 2023
+Elon Musk launches XAI, a direct
+competitor to Open AI. And then in 2024,
+Musk sues Open AAI saying, "Hey, you
+can't do that. You can't take a
+nonprofit, take my money, and then
+suddenly convert to a for-profit and
+become one of the most valuable
+companies in the world." They start
+going back and forth with all of these
+private emails that now become public.
+They go to court. It's ultimately
+dismissed, but there's a lot of spite.
+And this is a big deal because having
+access to multiple models and having
+multiple different models working
+together is incredibly strong,
+especially in an adversarial way,
+actually produces much better results.
+And the sponsor of today's video does
+exactly that with their code review
+project. Now, GPile is used by some of
+the biggest companies in the world,
+including Nvidia, including Meta to
+review the code before it gets on
+production. And so, this is GPile T-Rex.
+And so, you can see real world examples
+from these big companies, open source
+projects. I'll link it down below, but
+check this out. So, this is for the
+Axios project. It actually found a
+security loophole and called it out.
+This is a P1 loophole. It gives you a
+prompt which you can just copy and paste
+right into your agent to fix it. Look at
+that. One of the maintainers valid and
+fixed. So, Greile caught something that
+would have otherwise made it to
+production. I'm such a big Reptile fan.
+They've been fantastic partners. I use
+Greile on every single one of my
+projects because there's just no way to
+review all of this AI code without some
+additional help. And Graptile is the
+best way to do that. So, I'm going to
+drop a link down below. Go check them
+out. Thanks to Grappile for sponsoring
+this video. Let's get back to it. Okay,
+so that's the very brief history. Now,
+going back to this blog post. Now, they
+point out two times where Elon has
+broken contracts, specifically after
+Musk acquired Twitter, now part of
+SpaceX. The company broke the terms of
+our contract alongside many others.
+Under oath earlier this year, Musk
+admitted that XAI, now also part of
+SpaceX, had violated OpenAI's terms of
+service, specifically around
+distillation. And if you don't know what
+distillation is, it's actually quite
+simple. It's basically the process of
+asking a large AI model a bunch of
+questions, getting the answers, and then
+using those questionans answer pairs to
+train a smaller model. And what that
+allows a company to do is basically
+leapfrog ahead, skipping all of the
+tedious work of collecting training
+data, curating it, cleaning it up,
+making sure that it's really highquality
+data, and just going straight to this
+quote unquote teacher model to teach the
+student. And then there's this thing
+called distillation attacks. You've
+probably heard of it. Anthropic posts
+about it earlier this year. They
+basically claimed China and the Chinese
+AI labs were doing industrialcale
+distillation attacks on their models.
+The Chinese labs were basically spinning
+up hundreds of thousands of accounts,
+asking a bunch of questions to the
+clawed models, getting the answers and
+training really good almost as capable
+models for a fraction of the price that
+it would have cost to do it organically.
+And so what OpenAI is basically saying,
+"Hey, now that SpaceX aka Elon has
+acquired Cursor, if we let Cursor use
+our models, they're capturing all of our
+data." And they might go and train a
+future model using our data. Now, they
+don't want that. They've poured billions
+and billions of dollars into training
+GPT 5.6 and Astra when it eventually
+comes out. And by allowing cursor to
+have all of that data, they are saying
+against their terms of service, cursor,
+the SpaceX team, etc. could train a very
+capable, nearly as good, if not as good
+model for a fraction of the price that
+it costs OpenAI. And that's
+anti-competitive in their mind. and
+again more importantly against their
+terms of service. And they specifically
+said, "Well, we're not worried about
+that for other companies, but Elon, Elon
+specifically has this pattern of
+breaking contracts." All right, so let
+me show you now some of the skirmishes
+that happened on Twitter over the
+weekend after this announcement was made
+between XAI employees and of course
+OpenAI employees. So first, this is
+Michael Truel. He is the CEO and
+co-founder of Cursor. By the way, I
+should say right now, I am a big fan of
+Cursor. I'm also a very big fan of
+OpenAI. I do have relationships with
+both companies. I have existing business
+relationships. So, I'm going to try to
+present all of this news in the least
+biased way possible, but I like both of
+these companies. So, hopefully that
+cancels it all out. So, Michael Truel
+from now XAI cursor. We're sorry to see
+that OpenAI put out a note saying they
+plan to block cursor users from
+accessing OpenAI models in 3 months. And
+if you're not familiar with Cursor, it's
+an AI coding platform, but historically
+it is only the platform. They haven't
+built their own models. So they were
+very dependent on Anthropic and Google
+and OpenAI to actually power the
+platform. Now they have had their own
+second tier model for about a year now.
+And also now that they're acquired by
+XAI, they have Grock, but really when
+you come into Cursor, you're looking at
+cloud models, you're looking at OpenAI
+models, and that's what's powering it.
+All right, so here's now where a little
+spice comes in. Michael Truel, Open AAI
+models serve about 5% of cursor user
+traffic. Only 5%, which is crazy to
+think about. I would have thought it's a
+much bigger percentage. But you have to
+think what is he talking about? Is he
+talking about total token usage? Is he
+talking about total spend? Cuz those are
+very different things. The total token
+usage is probably much more skewed to
+the smaller, higher efficiency models,
+maybe open-source models, but the
+revenue is certainly going to one of two
+companies. It's either Anthropic or Open
+AAI. they charge a lot more for their
+tokens and their tokens are typically
+better. However, he does say we're
+speaking with the OpenAI team to resolve
+this. Although I don't think there's
+going to be a resolution here. The 5%
+number, like I said, is kind of a weird
+thing to say because it's probably token
+usage, token volume, not necessarily
+revenue. And in fact, Tibo said it right
+here. Tokens are not a proxy for
+revenue, nor value created. in the open
+AAI models are on the very frontier of
+token efficiency. Smaller or less strong
+models require many more tokens to
+achieve a task and therefore will
+inflate traffic share significantly. So
+he's saying, "Hey, our 5% is probably
+worth more or at least as much as all of
+your other smaller, less capable models,
+including open- source models, which
+it's kind of hard to disagree with. A
+lot of work can be done with those less
+capable models, but ultimately you do
+need to pay for the best of the best at
+a certain point and you will be paying.
+They are not cheap. And so, one more
+point on why they're doing this, why
+OpenAI is banning Cursor from using
+their models. A few months ago, it was
+announced that SpaceX SpaceX AI is
+acquiring Cursor. And this, I've said
+before, is probably one of the best
+acquisitions of all time, one of the
+most strategic, one of the most
+synergistic. And there's a reason.
+Cursor had insanely valuable data.
+Basically, any time that you have built
+anything using cursor, they have all of
+that data, incredible,
+hugely valuable coding data that they
+can use to train future models. And then
+you had XAI or Space XAI which basically
+came out of the gate with a really
+strong coding model but really fell
+short in the long run. Their coding
+models were not that good. It wasn't
+really being used. But what they did
+have was insane amounts of compute.
+Space XAI invested heavily into buying
+Nvidia GPUs. Initially 200,000 building
+out their Colossus data center, then a
+million building out Colossus 2, and
+they're going to keep going. And they've
+built more compute capacity more quickly
+than basically any other company on
+Earth, which is a crazy feat in itself.
+But what happens when you have all of
+that compute and a model that the market
+is not really that excited about? Well,
+you have a bunch of idle GPUs. they
+didn't have enough demand to match their
+GPU or compute supply. So, they had all
+of these idle GPUs. Then, they look over
+at cursor and they're thinking, "Wow,
+you have a ton of data. Plus, you've
+obviously proven yourself to be able to
+build models cuz, you know, they had a
+pretty good coding model. It wasn't the
+frontier, but it was a workhorse model."
+And uh, hey, maybe we should get
+together. Maybe we should do this thing
+together. you come on over here, bring
+all that data, much of which came from
+Anthropic and Open AAI and let's build
+some models together. You can use our
+GPUs. And so they completed the
+acquisition and now they are building
+incredible models. Grock 4.6 is a very,
+very good coding model. Now it's not the
+absolute frontier like a Fable or GPT
+5.6, but it's really good. And I bet
+Grock 4.7, which is not out yet, is
+going to be incredible. I bet it's going
+to be nearly at the frontier, if not
+matching the current frontier. I can't
+say anything about the next version of
+Fable or whenever GPT6 comes out, but
+it's going to be really good. So, that
+brings us back to this big announcement
+that OpenAI tried to sweep under the
+carpet late on Friday evening. Open AAI
+is banning Cursor from using their
+models directly. Now, you can still take
+your OpenAI API key, load it into
+Cursor, that's fine. But basically, this
+kind of native support that Cursor has
+offered for basically every model
+provider is no longer allowed. So, this
+is unprecedented, right? No, it's not.
+And that's what makes it even crazier.
+There are so many contradictions
+happening right in this moment. Last
+year, Google bought Windsurf. Windsurf
+was basically a lot like Cursor. It
+wasn't nearly as well-known. It wasn't
+nearly as big as Cursor, but in a lot of
+ways, it sat kind of in the same place
+in the market. They didn't really make
+their own models. They were dependent on
+other model providers to power it. And
+they were AI coding platforms, but just
+that. And then Google bought Windsurf.
+And then June 3rd, it's reported in
+TechCrunch that Anthropic is limiting
+its direct access to claim models. So
+basically, Anthropic was like, "Oh,
+Google just bought Windsurf. Okay, well
+we're not going to give you our data, so
+now you can't use it." Sounds very
+familiar, right? Also, last year,
+Anthropic revokes Open AAI's access to
+Claude because Anthropic was thinking,
+"Hey, we're really worried about
+distillation attacks, and if Open AI is
+using our models at OpenAI, why else
+would they be doing it other than trying
+to get our data?" Well, it's called
+benchmarking. And it's basically saying,
+hey, I have a really good model. I want
+to see how good your models are. Let me
+just test it against the same benchmark,
+the same test. But they thought, okay, I
+don't want to give up my data. And in
+fact, we have better coding models. I
+don't want you, my competitor, to use my
+coding models to catch up to me. Okay,
+but that's not it. In fact, in January
+2026, it was reported that XAI had been
+cut off from using anthropic models. So
+Anthropic back eight months ago said,
+"Hey, XAI employees, same thing. We
+don't want you using our models. We
+don't want you to have a better coding
+model to allow you to build
+infrastructure to catch up with us. We
+definitely don't want you distillation
+attacking us." So this was already a
+thing. So Anthropic back then banned XAI
+from using their models. Okay, now fast
+forward. Of course, they would probably
+do the same thing today, right? I mean,
+Anthropic banned XAI from using their
+models back in January, so why wouldn't
+they continue the Oh, whoops. Nope. It's
+all good. Tom Brown, co-founder of
+Anthropic. Cursor has been a trusted
+partner of Anthropic since Sonnet 3.5.
+What will continue to increase compute
+to support claude models and cursor and
+are excited for what comes next with
+them at Space X? What? This is like the
+most contradictory thing I've ever seen.
+And I'm going to show you what led to
+this. And to say that Elon and Anthropic
+have had a rocky relationship is an
+understatement. But a few months ago,
+they seem to have patched things up. And
+it's almost like the enemy of my enemy
+is my friend kind of situation. So Elon
+has said pretty horrible things about
+anthropic. The least of which is just
+calling them misanthropic which means
+really against humanity. But then they
+had to work together. Anthropic was in
+desperate need of additional compute.
+They had so much demand and they just
+did not have the compute to support that
+demand. And of course looking over here
+XAI SpaceX AAI had enormous supply of
+compute and not enough demand. And this
+was before the cursor acquisition was
+announced. So here, this is where the
+relationship gets patched up. Elon says,
+"I spent a lot of time last week with
+senior members of the anthropic team to
+understand what they do to ensure Claude
+is good for humanity. Basically, no one
+set off my evil detector." And so at
+that point, all previous friction had
+been patched up. So that brings us back
+to this. So forget the rocky
+relationship. forget the fact that
+Enthropic banned XAI from using its
+models back in January. Now, no, no,
+we're all good. You can go ahead and
+continue to use our models cursor. And
+in fact, this is kind of one of those
+situations in which Anthropic actually
+looks kind of good from a PR
+perspective. Usually, it's open AI
+coming through when Anthropic makes a
+mistake and kind of picking up the
+pieces and looking really good like the
+hero. In this example, it's Anthropic.
+All right, so now you know all of the
+history. You know how we got here. You
+see how all of this is so contradictory.
+Uh but not all is lost in cursor. You
+can still use your own API key. You can
+still use the codeex IDE extension and
+compatible gateways. But what does this
+mean for the future? Well, I'll tell you
+one thing. Cursor does not want to be
+dependent on another platform. This is
+likely why they were acquired. Part of
+the reason is because they wanted to
+build their own models and XAI had this
+insane amount of compute that they can
+use towards building their own models
+and so now they're building their own
+models and I think these companies are
+going to become increasingly fearful of
+being dissolation attacked not only by
+China but by other US labs and I think
+increasingly we're not going to see
+these platforms that support multiple
+model providers that are basically model
+provider agnostic the cursors the wind
+surfs of the world. First, the business
+model is very difficult because you're
+buying the main thing you need to power
+your platform from somebody else. That
+is massive platform risk. That's why
+Windinsurf was acquired. That's probably
+why again Cursor was acquired. Now
+Cursor is building their own model. So I
+think what we're going to see and this
+is really unfortunate is the Open AIs,
+the XAIs, the Googles, the Anthropics of
+the world basically going completely
+verticalized. They're going to build
+their own models. They're going to build
+their own harnesses. They're going to
+build their own coding platforms. And if
+you want to use multiple models in a
+single place, it's going to become
+increasingly difficult to use multiple
+models within the same platform. Oh, and
+if you thought this was going to go down
+without Elon saying something, here's
+what he said. I couldn't care less. Scam
+Alman and Greg Stockman, oh man, are
+utterly untrustworthy who stole an
+open-source nonprofit. The spite is just
+so so strong. And one more thing about
+Tibo from Open AI. I actually did an
+incredible long- form interview with him
+where he talks about everything from
+their nextgen models to where agents are
+going to the reset button. And let me
+link that right here. Go check it out.

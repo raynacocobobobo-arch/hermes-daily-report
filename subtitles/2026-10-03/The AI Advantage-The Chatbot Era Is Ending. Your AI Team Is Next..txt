@@ -1,0 +1,455 @@
+UP主：The AI Advantage
+标题：The Chatbot Era Is Ending. Your AI Team Is Next.
+链接：https://www.youtube.com/watch?v=yCT8G-iTtgA
+
+This chatbot era in AI that we've been
+living in for the past 3 years is
+ending. But here are the receipts. Grok
+is building AI co-workers instead of
+Grokbot. Meta launched an agent that
+keeps working on your goals after you
+close the app. Instinct is a
+personalized agent that talks to you
+like a friend would inside of a iMessage
+conversation. And Claude can now, or
+very soon, manage parallel workers like
+a chief of staff would. Give it a goal
+and it spawns all these sub-agents to
+get you there. You don't have to worry
+about the how. So, this is no longer
+about better answers. It's about
+building a team and very soon you will
+be the boss of that team. My worry is
+that most people know how to ask
+questions and communicate, but they
+don't really know how to manage a team
+or be a boss. And if currently a billion
+people are using chatbots and this is
+the next evolution of AI, I'm not
+exactly sure what this means for most
+people. So, I wanted to make this video
+today to discuss this change in product
+that we see everywhere. These
+announcements and slight shifts are
+happening everywhere. And usually on
+this channel I would go ahead and, you
+know, break it down and show you a
+workflow that is useful. But today I
+think it's really important to discuss
+the shift in product. Because ever since
+Open Clock came out in spring, the most
+sophisticated AI user experience looks
+more like managing a team rather than
+talking to a chatbot that also does
+things. I mean, I said it the second
+this came out and I'll say it again. My
+personal Open interface looks like this.
+It's a bunch of chats just like
+iMessage. And then Grokbot looks like
+this. It's a bunch of chats just like
+iMessage with one chief of staff running
+all the other agents. Here it would be
+my Igor OS
+fat cat. Great. Over here it's Alfredo.
+My guy. And then Alfredo 2 and 3 are all
+these other subgroups that contain
+smaller pockets of context, but they can
+and collaborate. And then as I
+mentioned, Claude just announced their
+version of this where projects will now
+run from one conversation.
+So there's a Claude code thing for now,
+but basically what they're saying is
+you're going to open one chat, type
+everything you need in there, and it by
+itself is going to spin up sub-chats and
+projects as they call them. And then the
+AI is going to do the work in those
+projects and bring the work back to the
+main chat where you started things. So
+how does that differ from the experience
+that you might be used to or most
+people, like the billion users that have
+AI accounts are used to? Well, in
+ChatGPT or Claude, you basically go in
+and you know, you start a chat and you
+do your task and then you start another
+chat and you maybe have complete the
+task and then you start another chat in
+parallel and then you finish that and
+then you finish your first task and you
+move on. Now let's say you start a
+fourth chat and all of a sudden you're
+like, "Yeah, I remember when I was
+working on the first thing 2 days ago,
+which would, you know, be this one."
+Then this chat is most likely going to
+be like, um well, um no. Or even if it
+says yes, it's just going to get a
+compacted version, basically a summary
+of that first chat into here, which is
+really like a little piece of this. And
+God forbid you want to do something
+like, "Remember all the things we worked
+on yesterday? Can you pick that back up
+and can we continue?" It's not going to
+be able to do that. Whereas this
+architecture that really started to
+become useful since Open Claude and then
+Hermes and now Grok Bot, Muse, Instinct,
+Claude Threads, and next week we'll
+probably get a version of this from
+OpenAI, something like Code X Bot during
+Dev Day that is coming next week. So
+we'll talk about that next week.
+Subscribe if you want a discussion on
+that. But all of these products, it's a
+different idea. It's basically you work
+on topic number one inside of this chat
+and then inside of the same chat you
+work on topic number two or three and
+you kind of can keep stacking things and
+can keep working in one chat because the
+architecture of it works in a way that,
+"Hey, if you say I need tasks one, two,
+three, four." It will just go ahead and
+spin up some of these other chats where
+maybe two happens here, three happens
+here. So, now we did one and four in
+here, but it brings two and free into
+this main chat. And I'm not talking
+about a small piece. I'm talking about
+this entire context, all of the work
+that happens in this separate project or
+thread coming back because these
+standalone projects or threads or
+whatever you want to call them, they
+remember. And there's different memory
+systems behind this and each one of
+these apps has kind of a different one.
+This is not going to be a deep dive on
+memory systems, but basically for a
+smart combination of multiple
+technologies like vector databases or
+just keeping log files or compacting the
+current context window, but keeping
+snapshots separately so you can return
+to the full context if you want to. All
+of this in combination basically means
+that as a user your experience changes
+from, you know, multiple chats to one
+chat with your boss AI, your chief of
+staff, your orchestrator, whatever you
+want to call it. It's all the same idea.
+It's just one chat where you talk to it,
+you tell it the goal of the thing that
+you want to do and it figures out what
+needs to happen on the side and it
+orchestrates it all and it comes back to
+your chief. So, why does that matter?
+Well, one, it's a more natural way of
+interacting with this and I find it more
+intuitive. But I speak from a place of
+being used to working with people and
+managing teams. And also, I personally
+have developed the skill of managing
+context. I realize what it means for a
+chat when it's compacting. I realize how
+each one of these threads is structured,
+that there's a rag based memory layer
+here that might lose some small details,
+but when I look for the big ideas it
+will always find them. And then I get
+the benefits of being able to work with
+a system like this right now where, you
+know, it's not super intuitive, which is
+I can start multiple projects from one
+chat, routed to multiple agents, and
+work on five things in parallel. I don't
+think I'm overestimating the fact that I
+think in the last month my output was
+somewhere from four to six times higher
+than it would have usually been on all
+of this knowledge work and basic
+development that I'm doing. Heck, just
+inside of this open claw system, I have
+60 scheduled tasks running on a daily
+basis that create value in some form,
+otherwise I would have killed them by
+now. And in our education business,
+we're teaching people how to set up
+scheduled tasks for themselves that take
+things like, you know, managing their
+email inbox, their calendar off their
+table first, and then they continue and
+they set up more. They automate more and
+they learn how to coexist with these
+systems as a thought partner and develop
+custom skills and flesh out their ideas.
+Unbelievable. But what is my larger
+point here? Well, it's that there's a
+shift happening right now. And you know,
+if you're on the forefront of this, then
+you've already been using Claude code
+and pushing it to its edges and maxing
+out your open AI subscription, and maybe
+you have multiple $200 subscriptions.
+Well, good. Great. You're understanding
+what's happening. My point is that most
+people are not in that boat. Now, if you
+look at the fact that the data from a
+few months ago suggest that only 1% of
+the working population has a paid AI
+plan. It's around 40 million users. Then
+how many of these people are really
+pushing the capabilities and tinkering
+and failing on a daily basis like the
+people who use Codex or Claude code with
+their own second brains and connectors,
+and they have a knowledge base that is
+synced in the cloud. Maybe they're
+playing with Cloudflare or Vercel
+hosting, and they're breaking things on
+a daily basis and failing their way
+through this on a daily basis without
+being technical. Well, I think that's
+just a fraction of those paid plans.
+Like I didn't find any official numbers
+on this. If you have any, I would be
+super curious. But my guess estimate
+would be what? Is that going to be like
+5% maybe? Which is what? Like 2 million
+people worldwide? I think that's
+actually being generous. If you look at
+the social media attention that posts on
+this type of topic get, well, on the
+high end, they get like, I don't know,
+200,000 views on YouTube. That's not
+even unique viewers all of that, right?
+Twitter, same thing. Sure, there's some
+overlap there, but honestly, I think the
+number of people like really pushing the
+capabilities of AI right now is probably
+in the low millions versus the billions
+of people that are on free accounts.
+Even though I teach this stuff for a
+living and I play with it every day,
+most of my family, they're on a free
+chat GPT account, maybe on a $20 plan,
+kind of using it four times a week, you
+solving some issues, replying to some
+emails, you know, maybe creating some
+PowerPoints, but not dealing with, you
+know, four agents running things at the
+same time, really building systems where
+it manages their calendar. And I think
+this shift is ultimately not going to
+benefit the people who have not been
+pushing it before. Because while this
+interface shift that I pointed out in
+the beginning might be intuitive to a
+person who just is using this and
+pushing this every day. And when
+somebody sits down and joins our
+educational program like the ones we run
+or just goes out there and consumes a
+lot of videos on the internet. Like this
+is all figure-outable, but most people
+don't have the mindset of, "Okay, I'll
+just figure this out." Most people are
+already stretched. And I see this every
+day. People have a lot on their plate.
+They're already stressed and stretched,
+and they don't have the will to fail
+their way through a new application. It
+also takes a toll on your psyche. And
+you need to be in a particular place in
+life where you can expend that extra
+energy to learn something new,
+especially if in the past you've had
+negative experiences with technology.
+And maybe you even consider yourself
+somebody who's not good with tech. Well,
+I've been blessed enough to partner with
+Dean Antonio over the last year to
+uplift so many people, tens of thousands
+of people, from a place of like being
+scared of this stuff into being fluent
+with it and using it day-to-day. But
+that's tens of thousands of people.
+That's not enough. I just keep thinking
+like, how do we help people in this
+transition on a scale of tens of
+millions of people? And as of right now,
+I'm not entirely sure, but it's going to
+be necessary because you watching this
+channel this deep into a video of me
+ranting about this technological change
+and how these interfaces are changing,
+how memory systems are changing. You
+most likely are going to be fine. You're
+staying out here. You're going to use
+all these capabilities. You're going to
+be all over Claude code with Fred's. Or
+maybe you'll be using Grok bot that
+comes out from OpenAI. Amazing, and I'll
+be on this channel be covering it. I'll
+be showing you the different use cases
+that I have, what's possible. Look, I
+mean, check this out. I built a Grokbot
+use case scanner to kind of prepare for
+all this madness. Let me just give you a
+peek into this. This is pretty cool. And
+it surfaces all the stuff that is
+happening. So, look, this is the
+development over the past week. These
+are the top use cases that people have
+been talking about online. This is based
+on 868 sources just over the last 7
+days. I've had this running for like 2
+months. And the top one is still this
+chief of staff agent teams where one
+manager bot routes the work across
+various sub agents. Some new examples
+include 10 to 25 agent teams. Also
+increasingly popular is this use case
+where you teach by demonstration. And
+I'm pretty sure that's referring to the
+fact that you can go into this bot's
+computer. And then by hitting this
+button out here, teach a task, you can
+literally perform a task by hand, click
+your way through it, I don't know,
+logging into the sub-a-base account or
+whatever. And as I kind of do these
+things and fill it out, it records
+everything, and then I can save it as a
+routine that it can then run on a
+schedule. Inbox calendar management is
+still a big one. There you go. I guess
+this is the practical part of the video
+where you get to take away some ideas.
+So, got a few more. End-to-end media
+operations like creating and publishing
+faceless videos. Oh, yeah, we see that
+slop everywhere. I hate it. But let me
+tell you, except for this one, what I
+see across many of these use cases, and
+this is my larger point, a lot of what
+this does is very different from what we
+hear in the news, which is, "Oh my god,
+you know, like all this uncertainty and
+all of these sci-fi scenarios that make
+a really good story, but there's not
+really a lot of hard evidence or data to
+base them on." Now, I'm not hand-waving
+and just dismissing it. I think there's
+value to having these discussions, but a
+lot of what I hear is just people
+worrying about things that, one, are out
+of their control, and two, aren't based
+on facts, and three, and I think this is
+the worst one of them all, if you
+compare the amount of worrying that
+people are doing versus the amount of
+responsibility and action they are
+taking, it's like this. My hand is not
+large enough. There's so many things you
+can do. You can become fluent with this
+technology. You can learn how to apply
+the judgment that your lived experience
+gives you to the outputs of these tools.
+You can get better at systems thinking
+and building systems. You can get better
+at directing systems like this to
+empower yourself, to give yourself more
+leverage in your life so you can do what
+you're very best at. I truly believe
+that every human has a unique,
+God-given, or whatever you want to call
+it ability to do something better than
+anybody else. And I would like to
+believe, or I guess I choose to believe
+that AI is here and is giving us the
+opportunity to lean more into that
+unique thing we're really good at. As I
+told you my last month's output was five
+times what it was meant to be. It is
+ridiculous how many things I created,
+how many plans I created, how many
+things I implemented, how many programs
+I designed, how many webinars, meetings,
+classes I attended and held. Over the
+last week, I think I did a total seven
+hours of teaching, which excludes the 20
+onboarding course videos that I designed
+that I'm going to record this weekend. I
+stood up another six cron jobs or
+scheduled tasks inside of Alfredo. I
+made somewhere between 10 and 12
+websites to support a lot of those
+activities and output like 12 Google
+documents. And none of that is AI slop.
+You'll know that if you ever worked with
+me. I don't just create things and move
+them on. A lot of it involves AI asking
+me 30 to 50 questions before I finish
+one of those documents. And that's my
+work. It's decision-making. It's
+judgment. I empower what I'm naturally
+good at with this technology. And I hope
+you do that, too. And I hope you see
+this product shift for in a light that
+you see this potential, this leverage
+that you can get. And then furthermore,
+I hope that you forward the message and
+the love towards other people because a
+lot of people are choosing to see the
+easy narratives that are available here.
+And by easy, I mean the ones where they
+don't have to take any responsibility
+whatsoever. Now, I'm not dismissing
+that. I don't think we should be blindly
+optimistic about AI. But my point though
+was has been and remains, let's become
+relentlessly practical about what AI can
+do for you next. Because it's changing.
+It's evolving. It's becoming so much
+more than has been possible for the
+common consumer just a few weeks ago.
+And what I'm seeing is the best people
+who are already high agency and high
+output becoming absolute superheroes
+with this technology. While a lot of
+other people who are still sitting on
+the fence cornering themselves into a
+position that I don't know how you're
+going to navigate out of a few years
+from now. Heck, maybe even a few months
+from now at this rate. And there it is.
+That's a little news roundup for this
+week. I mean, it is a special time, so I
+wanted to make this different style
+video. I'm patiently waiting for the
+Open AI release of something like a Grok
+bot from them. I don't know if it's
+going to be called Codex bot, but I
+believe we'll have that within 7 to 10
+days, and you can expect a lot of videos
+on how to actually put that to work for
+yourself, so you can do your best work.
+That's what this channel is about. And
+meanwhile, yeah, take the risk
+seriously, but also build human
+capability. Cuz that's what we're
+uniquely good at. And that's why you're
+here, too. Your ancestors managed to
+adapt, figured things out, and thrived.
+And look at this incredible world that
+we live in. And we got to the point
+where we are now. And I don't think
+paralysis is the answer there. It's
+building capability, as it always has
+been.
+All right. I hope you have a good day,
+and I'll see you soon.

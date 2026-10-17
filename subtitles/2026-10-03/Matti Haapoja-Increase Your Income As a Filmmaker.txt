@@ -1,0 +1,385 @@
+UP主：Matti Haapoja
+标题：Increase Your Income As a Filmmaker
+链接：https://www.youtube.com/watch?v=RxuqFKPvjKk
+
+I want to show you guys how you can get
+both more clients and how to make more
+money on each project you take on. If I
+was a director or a freelance filmmaker,
+I would 100% be using this workflow.
+Because all of us filmmakers have the
+same two problems. Oh, and Artlist is
+giving away $100,000
+to one of you. Thank you, Artlist, for
+sponsoring this video. The two problems.
+Number one, pitching is incredibly hard.
+I I I know you guys can relate You have
+an idea and then you have to tell
+someone else about your creative idea
+and as you're saying it, it just sounds
+so dumb and you can tell that they're
+not getting it. And the more creative
+the idea, the dumber it sounds as you're
+saying it. Because the other person
+can't see and imagine the things that
+you are seeing. They just don't get it.
+And if you do actually land the job, the
+number two problem is how do we actually
+pull this off? What do we actually need
+to get this done? What story beats, what
+angles, what are the must-haves to make
+it work? Here is the cheat code for all
+of this. I will now demonstrate this for
+you. So, I'm going to pitch you guys an
+idea. First, kind of the old-school way.
+So, I have an idea for a commercial.
+It's a knight that's going into battle.
+He's running through a forest just like
+super chaotic and he runs out of this
+forest into the battlefield only to
+notice that he's all by himself. And on
+the other side is this gigantic army
+that's just there waiting for him and
+the medieval knight is like,
+uh yeah, they're going to be here
+anytime now. And then we would cut to a
+text saying like, we're not like your
+competitors, we got your back. And the
+logo of the brand or whatever. And that
+idea you could take to a whole bunch of
+different brands. Now, I feel like an
+idiot cuz it just kind of sounds lame. I
+can't exactly explain to you what I'm
+thinking about the story beats, how I
+would edit it together, the look, and
+all of that. We we are not on the same
+page at all. I wish I could show you
+what's in my head.
+But, what if I could? Here's my new way
+of pitching a client.
+They're going to be here anytime now.
+I brought a version of my idea to life
+in literally about an hour of time
+through Artlist Studio. And yes, this is
+an actual good use of AI that's hard to
+be mad at because it doesn't have to be
+the final product. There could be some
+shots in here that are actually used in
+the final product, but we can go and
+recreate this in the way that we
+actually want that fits that brand. Some
+of the shots just aren't going to be
+feasible for the company that you're
+working with, the budgets that you have.
+You just can't make a massive army like
+this happen. So, that one shot might be
+AI, but the main purpose of this is now
+we are much more on the same page. You
+can see what I was thinking about, and
+now we can communicate and be on the
+same page and come up with ideas. Unlike
+when I just told you the idea, you
+probably didn't imagine what I showed
+you. And I guarantee you people are
+going to be using this, and they're
+going to gatekeep, and they're going to
+say, "No, I don't use AI for anything."
+And they're full-on using AI to pitch
+clients. But, this also solves the
+number two problem of what do you
+actually need to make it happen? Now
+that I've made this already, I can
+already tell what extra bits we need to
+kind of land the punchline a little bit
+better. And this is usually the process
+that you go through after you've done
+all the hard and expensive work of
+shooting the footage. Then you're like
+editing and you're like, "Oh man, I wish
+I would have had this one shot." Now you
+can do that beforehand and then when you
+go to your shoot day, you know exactly
+what you need and you've already tried
+the things that people are going to
+suggest. You're going to be like, "Nah,
+I tried that. We don't need it. It
+didn't make the cut." And in theory, if
+you can get through your shoot day
+faster because you know exactly what you
+need, then you can leave a little bit
+more room for improv and extra ideas.
+Okay, I'm I'm clearly excited about this
+idea because I think it actually works
+really well. So, I like using Artlist
+Studio to play around with AI tools for
+two big reasons. One being is that they
+have all of the models in one place, so
+I don't have to have like a hundred
+different subscriptions for different
+platforms, different plugins, different
+tools. They're all in one place and I
+can kind of go from one tool to the next
+really seamlessly. The second reason is
+the Artlist Studio, which makes using AI
+tools feel more like how we normally
+make films. They basically streamlined
+it so you can make characters and
+environments that stay consistent
+throughout all your generations. And
+consistent characters especially is so
+important because it's the worst when
+you generate something and it's really
+good except the character looks nothing
+like what you had before. So, first
+step, I created my hero warrior
+character. And you can just describe
+what you're looking for and then hit
+generate. Typically, I like to generate
+four images at a time to see what might
+work. And I chose this guy. I thought he
+worked great for what I needed. Then
+it's time to generate our first frame
+and studio is divided into framing,
+which is the image generation part, and
+then directing, which is making the
+actual video clip. So now, I can add my
+character or type in at and then choose
+my hero character. And then I'm just
+going to type in running through dark
+forest into battlefield by himself,
+moody cinematic lighting with an
+anamorphic lens. And we can actually
+choose what model we want to use and
+what camera and lens look we want and
+the quality and the aspect ratio. And
+then at the bottom, we can refine what
+angle we're looking for and what type of
+shot, whether it's a wide, medium type,
+the lighting and how many images we want
+to generate at once. And great, I like
+this one a lot. And now we can actually
+save this forest location. We can hit
+this little at sign here and we can use
+it just like our character and we can
+keep this consistent location and
+character going. Then we just click the
+set frame button here to use our image
+as the start frame and then we move on
+to directing, which is generating the
+actual video clip. Here we don't really
+need to use our character because it's
+already using this frame that we
+created. But we can choose the model
+again and the quality. Now remember, the
+higher the quality and the longer the
+clip, the more tokens it costs, aka the
+more money you are spending. But if
+we're just using this to pitch, it
+doesn't necessarily need to be the
+highest quality. So you don't always
+have to generate these at 1080p and burn
+through a lot of tokens. Then what do we
+want to happen in the clip? Uh the
+knight is running into battle, the
+camera is following the knight in a very
+chaotic way with lots of camera shake.
+Choose the length, the type of shot. In
+this case, I want it to be handheld. I
+want it to feel really chaotic. Do we
+want it to automatically generate the
+audio or do we want to choose the audio
+that we specifically chose for our
+character? In this case, I didn't choose
+a specific voice, but you can actually
+choose a voice for your character that
+stays consistent throughout your
+generations. I find a lot of times the
+auto is awesome and it does a really
+great job, but again, if you need
+consistency in the voice, you're
+probably going to want to choose the
+actual character of the voice that you
+created. And then typically, I try to
+create at least two clips at a time
+depending on the quality and all that
+and how much it's going to cost in
+tokens. Cuz I don't want to just burn
+through my tokens super fast, but I also
+don't want to be sitting away you know,
+generate one and then be sitting around
+and then generate another. AI, it's
+still slow at times to create these
+video clips, which is why I love the
+studio because we can get started on our
+second clip. I want a parallel kind of
+side profile shot of the knight running
+through the forest. So I can just use
+our first image as a reference, side
+profile close-up of knight in the same
+forest. That's great. And then we go
+into directing, the knight is running
+through the forest fast with a chaotic
+camera following parallel to the knight,
+the camera pushing closer towards him. I
+want it to be handheld and then we
+generate. And then we can go and take a
+look at our last video clip because it's
+probably done by this time. Great, pick
+our favorite or generate more if you
+didn't get what you want. And again, I'm
+moving on to the next shot. So the next
+shot I was imagining is the forest
+ending and then
+there's kind of a field and the knight
+runs out of the forest into this field
+area. So first I need to generate that
+image. It took a few tries, but then I
+got it. Now I set that as my start frame
+and then I use my knight character at
+hero warrior runs out of the forest and
+then comes to a stop out of breath
+wondering and looking around where the
+rest of his army is. He's in a bit of a
+panic all of a sudden. And I want it to
+dolly out as he's running out. This is
+why your filmmaking skills apply. The
+lensing, the lighting, the angles, the
+types of shots, what you need to tell
+the story. If you are a filmmaker that
+knows how to use a camera and lighting
+and all that stuff, this will be a
+hundred times easier for you and you
+will get better results than somebody
+who doesn't know anything about
+filmmaking. And actually, using this
+studio is one of the first times where
+AI has started to really feel like, "Oh,
+this is very similar to what I do in
+editing and with my camera creating
+images and telling the story that's in
+my brain." All right, so great. Uh then
+I needed the army. I used my forest
+meets field shot as a reference. Field
+with a massive medieval army, 100,000
+strong, all facing the forest. We can't
+see the forest. Uh it took me a few
+tries, but then I got this frame. But uh
+the army is looking away from camera,
+and I wanted the army to be looking into
+the camera, so I generated the reversed
+angle. And then I wanted the camera to
+kind of start low and then kind of boom
+up to reveal this giant army. And so I
+used that image to generate a lower
+angle, and then I used the lower angle
+as my start frame, and then the higher
+angle as the end frame. Boom up, done.
+Then the punchline, uh which I thought
+would be so hard. I thought I was going
+to I thought I was going to burn through
+so many credits trying to create this.
+You can actually click on the video that
+you already generated and choose new
+shot from frame. And so I did that, and
+then I just typed in hero warrior looks
+back trying to find his army, but nobody
+is there and looks forward saying,
+"They're going to be here anytime now."
+In an out-of-breath and panicked way.
+And these were my first generations.
+They're going to be here anytime now.
+They're going to be here anytime now.
+It gets across what I imagined, and it's
+unreal how fun it is to see your idea
+come to life and realize like, "Oh, this
+is actually a decent idea. There is
+something to this. This wasn't as dumb
+as it sounded when I was trying to say
+it to my friend." And then along with
+that, interestingly, now I can edit this
+and see what's missing. You can see that
+from a a storytelling point, it would be
+better if in the edit there was some
+more tension between like the single
+warrior and this massive giant army. And
+maybe it goes like to some like
+close-up, close-up. And maybe the the
+army starts laughing a little bit, or
+maybe there's like an opportunity to say
+something about the brand that you're
+trying to advertise. Like one of the the
+soldiers in the army yells something.
+And then you can just generate those and
+figure out the edit that actually really
+works. Then when it actually comes time
+to shoot this commercial, you can for
+example, in this case, you could get a
+really cool night outfit, you get an
+actor that's funny to deliver this line,
+and then you just need that forest
+location. You can film all of those
+shots, you already know exactly what you
+need because you've already generated
+the whole edit essentially. And then
+with that army again, maybe I don't have
+budget to have a million people, and I
+don't have the budget for VFX. Okay,
+let's generate those using more credits,
+and do really high-quality versions of
+those army shots, or use frames from the
+location that we actually filmed at, and
+then generate new ones because they'll
+fit better. This literally means that
+you will get through your shoot day way
+faster because you've already done the
+like, you know, "Oh, should we get this
+no, I've already tried that, it didn't
+work in the edit, I cut that. Let's not
+waste time on getting that shot or this
+shot. And this is a great time to try
+Artlist for the first time if you
+haven't tried it before, because they
+are literally giving away a hundred
+thousand dollars to make your project
+come to life. They're doing the Artlist
+Studio Challenge where if you have an
+idea for a movie or show, all you need
+to do is create a trailer for that idea
+using Artlist Studio. And one winner
+will get $100,000
+to make their dream project come to
+life. What more do you need to finally
+try these tools out and see how they can
+help you in your workflows. I'm telling
+you they are not as scary as you think.
+They are not replacing filmmakers. These
+are just tools and you need to figure
+out how do they fit my workflow. Thank
+you Artlist for sponsoring this video,
+and I wanted to give you one more quick
+example of pitching an idea just to kind
+of get your brain going. So, here's
+another quick idea. I had this idea for
+a car commercial, a kid getting his
+first car. He's super excited, and then
+he's driving the car, and he starts to
+age from young to an old man. And the
+tagline here would be there for you
+since the beginning. Bam, pitch done.
+And this drone shot in New York of
+Manhattan Bridge, it would cost a ton of
+money and permits and all that stuff.
+So, you can either generate it, or you
+can use this clip to pitch your client
+to show them that we need this shot. It
+will really, really take this commercial
+from like here to here. And once they
+see it, they'll be like, "Yeah, we think
+you're right." This is literally the
+best way to come up with ideas or
+pitches, pre-visit so you know exactly
+if it works or not, and then produce it
+much more efficiently, getting you more
+clients and saving you on production
+costs. Win-win. That's how you make more
+money in 2026.

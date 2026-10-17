@@ -1,0 +1,276 @@
+UP主：Futurepedia
+标题：This Simple Trick Fixes NotebookLM Infographics
+链接：https://www.youtube.com/watch?v=psAQ7GYLmKw
+
+I love Notebook LM and I use it all the
+time, but there's one issue that's
+always been pretty annoying. When you
+generate infographics, they look amazing
+and when they're simple, the text is
+perfect. But when you switch to
+detailed, they still look amazing, but
+often have misspellings or jumbled text.
+I found a surprisingly simple way to fix
+these. First, if you don't know what I'm
+talking about, Notebook LM is an awesome
+tool from Google. You create notebooks
+for different topics. You add your own
+sources across all sorts of different
+file types. Then it will give you
+answers using the information found in
+those sources and site exactly where it
+got that information from. Then you can
+click through to see it in context. As
+long as you use good sources, this
+dramatically reduces hallucinations.
+It's an awesome tool. And then on the
+right panel, this is the studio panel,
+there's all sorts of different ways to
+transform that information to help with
+visualization and retention. Quizzes,
+mind maps, podcasts, data tables, video
+overviews, or the focus of this video,
+infographics. If I just click, it will
+generate an infographic based on my
+sources. Or when I click here, it opens
+up a bunch of other options. There's a
+bunch of awesome styles to choose from.
+You could also guide it with a custom
+style in the prompt box. You can also
+further guide the focus there. Then
+there's the option for concise,
+standard, or detailed. Concise is
+basically always perfect. Standard is
+perfect almost every time. And detailed
+is where we run into issues on most of
+the generations. And I guess to be fair,
+it does say beta right here. I'll
+generate one at each level as an
+example. These were all generated using
+Nano Banana. They're great for videos or
+social media. The concise and standard
+versions both turned out perfect. The
+detailed version is almost perfect. It's
+not super complicated and it looks good
+at first glance, but when I zoom in,
+right here, that should be altitude.
+Looks like I wrote aftitude. Over here,
+the S in NASA is wrong. Those are the
+only two issues I noticed, but still,
+I'd want to fix those. But, each of
+those generations, I only highlighted
+one source for it to work from. But,
+then when I selected all of my sources
+and ran it again, it had a lot more
+information it wanted to put onto this
+infographic.
+And when I zoom in, you can start to see
+a lot of the errors. This should be
+Apollo, not sure what that word would
+be, and then anomalies is spelled wrong,
+not sure what number, maybe that's 106.
+This should probably be narrative
+reports. Oh, way worse down here. Almost
+none of this is legible. This area just
+nonsense all over the place. And some
+more issues up top. So, as you can see,
+this is just covered in errors and
+jumbled text. So, I would definitely
+want to fix these before sharing this
+anywhere. And with the slide decks
+feature, they already implemented a way
+to edit those right in the platform, and
+it works pretty well. But, they haven't
+added that to infographics. So, we have
+to fix this somewhere else. This isn't a
+Notebook LM tutorial, but it is one of
+my favorite tools, so I would highly
+recommend you dig deeper into it. We
+have a complete guide to Notebook LM in
+the description. It includes a five-step
+framework to build any notebook, five
+use cases with copy-paste prompts, every
+studio output broken down, and a
+comparison guide so you know when to use
+Notebook LM over another tool. The guide
+is designed for people who want to
+research faster and retain more. It's
+free, just click the link in the
+description. Now, there are a few ways
+I've used to fix these in the past.
+Canva actually has an awesome feature
+called magic layers. It separates
+flattened or AI-generated designs into
+fully editable layouts you control. I do
+have a paid Canva account, but I'm doing
+this on a separate free one just to show
+it works there.
+So, this is really, really cool. It
+separates each of these objects and then
+the text, you can actually just click in
+and change it if you want to. But, when
+I do this with a complex infographic, it
+doesn't come even close to getting it
+right. A lot of the text it just didn't
+know what to do, so it just got rid of
+it. And the ones it did keep, the font
+is changed, it deleted some elements.
+So, it just doesn't work at all with
+these complex ones. But, I did want to
+show it because it works so well for the
+simpler ones. Those usually don't have
+the errors in them, but you may want to
+change the wording or move things around
+sometimes. So, it's really nice for
+that. And just in general, it's an
+awesome feature. The new way I've been
+doing this is chat GPT. I was very
+surprised at how well this worked. I
+just dropped the infographic into chat
+GPT. I've been testing this using
+different prompts. I had a really long
+one I was using, but I don't think it's
+even necessary. It does a pretty good
+job with a simple one. Generate this
+exact infographic, but with every error
+in the text corrected. I'll start with
+that simple one where I only noticed two
+errors. Then, we'll do the more complex
+one. And as you can see, aptitude is now
+altitude, and the S up here in NASA is
+fixed. And it looks like everything else
+is perfect. Although, I will mention it
+does tend to add a little bit of
+contrast compared to the original image,
+but that doesn't bother me since it
+still looks really good. Of course, that
+was a fairly simple one. Let's try it on
+that super complex one that had a ton of
+issues on it.
+Now, the difference in these is just
+night and day. I'll kind of drag this up
+here so we can see them right next to
+each other. Where the original was just
+completely jumbled, so bad that it's
+hard to even know what it was trying to
+say, it figured it all out and this all
+makes sense with no errors. These bigger
+ones were a little more simple. It's now
+Apollo lunar anomalies. I wouldn't have
+guessed that should be lunar, but that
+makes sense. This is just about perfect.
+I do actually notice one error is still
+here. This word advanced is still kind
+of jumbled. So, this will be a good way
+to show. I can click select, and then
+highlight that area. I'll say the word
+advanced is still wrong. Hit enter and
+send that. That was the only error I
+noticed. I read through everything. It's
+possible I missed something, but it was
+pretty solid. So, that came back. I
+guess it actually thought that that
+should be accelerates instead of
+advanced. An enhanced federal investment
+accelerates the fusion of AI for
+cross-domain triage. I mean, that makes
+sense, too. So, that works. But, one
+thing I've noticed when I do it this way
+is when it fixes one section, it will
+often reintroduce artifacts to the other
+sections. That's really annoying. I
+don't know why it does that, um but it's
+pretty easy if you just download both,
+then you can merge them in whatever
+photo editing software you use.
+But, what I found that works even
+better, as you might be able to guess,
+is download that and run it in ChatGPT
+again. It seems to be much better at
+generating the whole thing than it is at
+editing it. This is what came back, and
+here's that paragraph. It is completely
+perfect now, as well as all the text
+throughout the rest of the infographic
+all stayed accurate. So, I've found that
+to be the best way to do this. Ask
+ChatGPT to fix it. If it's not perfect
+on the first try, download that and ask
+it to fix it again. I've been going back
+and doing this on a bunch of
+infographics I had with errors in them,
+just to test it and see how well it
+works. So, I'll show a few more examples
+across different styles, and in some of
+these I asked Notebook LM to be as
+complex and detailed as it could. This
+one was a little more simple, but with a
+super cool comic book style. Just a few
+issues in it, cooling spelled wrong,
+small issue in the S in massive. ChatGPT
+retained the style and all the elements
+really well, and fixed every bit of
+text. This one was way more complex.
+I'll just circle every issue I found.
+Ran that through ChatGPT, came back
+pretty good, fixed most of the issues,
+not all of them. So, downloaded it, ran
+it again, and it was perfect. Had this
+kawaii style with quite a few issues
+throughout it. Again, fixed it all.
+Tried it out with an anime style, and it
+worked with that.
+This was a simple one with only a couple
+issues. Fixed it on the first try.
+Here's another pretty complex one.
+Again, it did not get it right on the
+first try, so I downloaded it and ran it
+again, but in the end it was perfect. I
+really liked the style on this one, but
+there were issues all over. So, in two
+tries, it fixed all of those, but then I
+realized the boxes on the bottom, they
+didn't have misspellings, but the
+information didn't make any sense at
+all. So, I asked it to fix that and it
+relabeled them, then described each
+properly, so it was all accurate to what
+was being depicted throughout the rest
+of the infographic. I have found it to
+be pretty interesting reading through
+the thinking process on some of these.
+It goes into such detail and a lot of
+the time it's double-checking the
+accuracy of some of these. This one it
+said the primary sequence should mention
+20 side chains instead of 30. And for
+the folding paradox, it wanted to
+correct the figure of 10 to the 300.
+Also, the word structures makes more
+sense than million in this section. But
+ChatGPT analyzes it and figures out what
+it should have said. And when there's
+issues with the grammar or the math, it
+tends to fix that, too. And I will
+mention I've been doing this on a paid
+ChatGPT plan, but I also tested it on a
+free account I have, just using that
+exact same prompt. And it came back
+basically just as good. Overall, I am
+super happy with these. I've loved the
+infographic feature so much and talked
+about it a lot. It's awesome to finally
+have a way to fix these. And you might
+ask, couldn't you just generate these in
+ChatGPT in the first place? You can, but
+Notebook LM is such a good tool with all
+of the other features it has in there
+and all the sources I've saved and
+notebooks I've organized. So, I still
+like to generate those infographics in
+there instead of all the time it would
+take me to transfer that into ChatGPT.
+So, it was a quick video, just a simple
+trick that has helped solve a problem
+for me. Hopefully, that's helpful to
+someone else.

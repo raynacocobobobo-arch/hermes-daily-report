@@ -1,0 +1,3063 @@
+UP主：AI Engineer
+标题：Why One AI Agent Isn’t Enough (And How to Run 1,000) - CJ Avilla & Harrison Stall, Anthropic
+链接：https://www.youtube.com/watch?v=kiClTcJUnhc
+
+[music]
+>> In 1969, just about 30 miles from here,
+Ken Thompson uh was sitting at Bell Labs
+and his wife had just taken their
+1-year-old uh son out to California to
+visit his parents for a month. And so,
+he sat down and he said, "I have a month
+and I have this project that I want to
+do. I'm going to carve it up and in 1
+week, I'm going to build a kernel.
+In 1 week, I'm going to build an editor.
+In 1 week, I'm going to build an
+assembler. And then, uh you know, 1
+week, I'm going to build
+uh uh
+one other thing." And he had at the end
+of that month, he had uh Unix. Okay? So,
+what what's beautiful about this process
+that Ken Thompson went through is that
+he had what's called conceptual
+integrity. And that means that one
+person can hold the entire project in
+their head and execute the entire
+project end to end.
+There's another operating system uh that
+uh
+was uh you know, a huge effort and that
+happened also in the '60s and the early
+'70s at IBM when they were trying to
+build System/360 and OS/360.
+And this was an undertaking where
+previously, IBM computers, if you wanted
+to upgrade your computer, every time you
+upgraded the actual hardware, you had to
+rewrite all of the software that came
+along with it. And so, OS/360 was this
+massive effort where they really bet the
+company and they hired tons and tons of
+engineers and they they sat down just
+some back of the map back back of napkin
+math and said, "Okay, this is going to
+take about 5,000 sort of man-years. So,
+let's hire and throw as many as 1,000
+engineers at this project and see if we
+can get it done in uh in a a short
+window." And there was a lot of
+learnings that came out of that project.
+Fred Brooks was one of the the managers
+of the project and he came away and said
+like, "Okay, we learned a whole bunch of
+stuff. Let's write it down." So, he
+wrote it in in this book called The
+Mythical Man-Month. So, it's like a very
+popular book.
+And this is a bunch of organizational
+learnings and management learnings from
+how to build and ship this really
+massive project in OS/360.
+One of the big takeaways was that a
+really effective way to organize a team
+is kind of like a surgical team where
+you have one sort of leader or one
+chief, and they're surrounded by 10
+experts. And so, you might have you
+know, the surgeon, and then they have
+you know, a language lawyer, and they
+have a sidekick, and they have a
+co-pilot, and then all of those people
+have their specialties, but the surgeon
+ultimately has everything in their head,
+and they can maintain that conceptual
+integrity. And that's great, and you can
+perform miracles. Surgeons do it all the
+time with this small team. But we also
+want to take that same sort of structure
+and scale it up much further.
+We fast-forward to just a a month ago, a
+couple months ago, we saw Linux 7.2 was
+released. So, this is another operating
+system project. This took nine weeks,
+and we had contributions from 2,600
+something different developers across
+300 different companies. And it didn't
+start out that way. Like, the actual
+contribution to Linux didn't start out
+that way, but we sort of evolved the way
+that we can contribute to Linux into
+this structure. And so, if you look back
+at the kernel mailing list from 1998,
+you'll see that Linus was actually like
+kind of having a bit of a breakdown. He
+was receiving patches from people they
+were kind of like emailing him, and then
+you know, saying like, "I've emailed you
+three times with my patch. Why haven't
+you submitted this to the you know, to
+the kernel or whatever?" And he's like,
+"That's it. I'm going on vacation. I
+don't want to hear it. Get out of my
+inbox." And sort of you know, he he he
+hit his breaking point. And I think a
+lot of us who are orchestrating and
+managing lots of agents now might start
+to feel this feeling of the being the
+bottleneck and being the breaking point
+as we have lots of agents contributing
+tons and tons of PRs and we're sitting
+there, you know, in our in our GitHub
+trying to like approve PRs and make sure
+that everything works as expected. And
+so
+uh
+it wasn't until a couple years later
+that we actually changed. But actually
+the day after Linus posts this like kind
+of uh you know, I'm done, I'm going on
+vacation, uh another person posts and
+they Larry McVoy and he says, "The the
+problem is that Linus doesn't scale."
+And uh Larry also did a little bit of
+self-promotion and he's like, "I have an
+idea. How about we use version control?"
+And was kind of like pushing this
+commercial product. Uh and so it
+actually wasn't until maybe four years
+later around 2002
+that Linus was like, "Okay, you know
+what?
+It's true. I don't scale. And instead of
+uh operating as a star structure where
+everyone is sort of contributing
+directly to me, we need to work more as
+a network where we have these layers of
+trust and people can submit
+contributions to trusted maintainers who
+are going to review that code. And then
+only those exceptional cases will be
+surfaced up. Uh but Linus can still kind
+of like ultimately be the person that is
+uh committing to main."
+On the left you'll see this star
+structure has like 36 different actors
+that are all kind of contributing in. On
+the right we end up in this like nice
+beautiful structure that only has like
+maybe at most four people at each level
+sort of reporting those changes up.
+Uh in San Francisco, uh if you were at
+AI Engineer you heard from Tarek and
+Gary and the message was, "We have
+Fable. It's really exciting and it's
+time to be unreasonable. It's time to be
+more ambitious and build bigger things."
+And Gary told you it's time to boil the
+ocean. And so we have these very very
+capable models
+and we're excited to talk a little bit
+today about how we can orchestrate these
+models into uh systems that can
+collaborate with each other to build
+really, really massive uh projects and
+and solve even bigger problems.
+So, I'm CJ Avilla. I am a member of
+technical staff at Anthropic and this is
+>> Harrison, and I'm also a member of
+technical staff at Anthropic. And good
+morning, everybody. How we doing?
+Excited?
+Nice. Lot of energy. Lot of energy. WOO.
+UH
+ALL RIGHT. WELL, AS WE GET GOING HERE,
+um just want to give you guys a quick
+lay of the land of how this session's
+going to run. Um it's going to be some
+part like telling you what the heck even
+is Claude managed agents and what are we
+about to talk about and like this whole
+multi-agent uh orchestration engine that
+we're uh going to spend a little while
+explaining. Um it's also going to be
+part hands-on workshop, so um
+laptops out. We'll have uh developer
+credits uh on on slide later on, so you
+can have actually get your hands dirty.
+Uh try now some of these features that
+we're super excited to ship. Um but
+before that, we uh we uh we'll give you
+a a little bit of over of an overview on
+what the heck is going on here.
+So, on Friday, um we are so excited to
+announce within a product surface called
+Claude managed agents that Anthropic
+ships or shipped back in um April that
+we support a new feature called flows.
+Flows are essentially like the next
+version of multi-agent orchestration,
+where you can let Claude fully
+orchestrate the entirety of its own
+multi-agent topology. So, like CJ was
+just talking about these really
+complicated interconnected webs uh that
+map to organizations in the real world,
+we envision that there's a future where
+Claude is able to basically orchestrate
+itself, right? And uh flows are the way
+that we do that on our API surfaces.
+So, before we get too deep into uh the
+API surface and the experience
+specifically, um a lot of you are
+probably familiar with dynamic workflows
+in Claude code. Um, you know, you type
+in, "Hey Claude, like go and do X, Y,
+and Z. Use ultra code." It spins up this
+like pretty complicated web of agents.
+It's fully orchestrated itself. It uses
+a really interesting JavaScript engine
+under the hood to basically support like
+map reduced ask like activities in deep
+within Claude code.
+Um, and we know that this has become a
+really, really popular product uh for
+like typing into a terminal and like
+using it live. Um, so there's a bunch of
+examples on slide, but um, the idea is
+that instead of having to like literally
+draw out this classifying act or fan out
+and synthesize adversarial verification
+style um, like topology where you say
+like, "This is agent one and it does
+this and this is agent two and like wait
+until agent one takes some action and
+yada yada." Um, you can literally just
+tell Claude to use ultra code to
+uh achieve its goal, right? And Claude
+will just know based on uh model
+training that we've done internally and
+generally just uh its own capabilities,
+how to effectively orchestrate itself in
+order to accomplish harder and harder
+work. Um, so we we think this is like
+we're getting a taste of how we're going
+to solve some of what we think are
+humanity's hardest problems using like
+fully agentic automation. And so this is
+like, I don't know, I I definitely nerd
+out about this stuff, but I'm like so,
+so excited about the direction that this
+is even headed.
+Um, what's really cool about dynamic
+workflows and just generally like this
+you using multi uh multi-agent
+topologies rather than just a single
+agent is that it a single agent keels
+over much, much earlier with much less
+ambitious tasks. Um, so uh you know,
+hand waved numbers here, right? Uh a
+single agent runs for an hour. A
+coordinator and roster, which is like
+our first pass at multi-agent where we
+had like kind of this like single
+coordinator that like has just one level
+of agents underneath it that can go off
+and accomplish very specific tasks um,
+can run a little bit longer, but then
+dynamic workflows, we think this is like
+the key to solving actually hard
+problems, which enables arbitrarily
+complex nested sets of
+uh of agents operating all in parallel
+and interacting with each other.
+So, we spent a lot of time talking to
+our users. Um and I'm also like super
+excited to talk to all of you guys today
+because I imagine some of y'all have
+some hot takes on the latest in the
+industry as well. And
+we we've we've been hearing a lot of
+common
+common themes throughout. Um so, first
+of all, you guys are doing some crazy
+stuff
+building out your own multi-agent
+harnesses, right? You've got incredibly
+complicated systems that you're building
+in order to basically solve for some of
+those problems that we were talking
+about just a second ago with the single
+agent. Um so, you're you're hand rolling
+multi-agent orchestration. You're having
+to handle container restarts, right?
+Like what if one of your agents out of a
+hundred dies
+uh you know, like two hours into the
+task. How do you actually pick back up
+where that agent left off? Make sure you
+understand generally the state of the
+whole topology, etc. Um and it's often
+like very non-trivial to do so.
+Um
+additionally, we
+uh this this bottom left point in the
+slide is basically like you're having a
+single agent have to keep track of like
+60 as an as an example agents underneath
+it. And like CD was talking about Linus
+doesn't scale like that, you know, he's
+an incredible coordinator, but
+unfortunately, there's just like some
+cap to how much the single agent um is
+able to keep in their head. And then
+last but not least, you have to figure
+out how do you even inspect the graph of
+agents that you've you've built out.
+Do you have to go and like poke at each
+of the nodes in the graph and like ask
+where it's at in the in the process? Do
+you run everything through the
+coordinator? Generally speaking, like
+how how do you understand the state of
+the graph at any point in the process?
+Um so, we've already heard this just
+from people using Cloud Code, right?
+Um and
+our first renditions of our own APIs as
+well.
+Don't let me remember there there was
+this meme that when I think it was
+probably like post Opus 4 5 when when
+the models really took off and the the
+capability just made autonomous coding
+so so so powerful where people were like
+walking around with their laptops
+slightly open so that their cloud code
+wouldn't die and like making sure that
+their agents were still running. It's
+like people in the park like pressing
+two like approve approve approve approve
+approve just to keep the
+the thing running. And we think that
+that's like
+hugely limiting, right? Like that is if
+we want to solve truly hard like society
+level problems, that's just not going to
+scale for our ambitions.
+So fast forward to Claude managed agents
+and how we've embedded this kind of
+complex multi-agent topology within our
+own ecosystem. So I recognize that a lot
+of you in this room probably actually
+let me ask how many of you have heard of
+Claude managed agents?
+>> [snorts]
+>> Oh wow, that's actually
+pretty solid. It's about 50% of the
+room. For those of you who are not in
+fact did you should check it out.
+It's also like all I think about every
+day of my life basically for the past
+year or so.
+But it's essentially an API surface that
+lets you
+have Anthropic manage the the agent life
+cycle. So you define an agent it's
+basically like a list of skills, tools,
+MCP servers, etc.
+You instantiate that agent within a
+session which is like a request
+essentially to to get real work done.
+And then that agent just goes off and
+goes off and cooks based on whatever it
+is that it's trying to accomplish. So we
+have a whole API surface that makes it
+possible to store these like stateful
+API resources and then monitor
+everything in real time via durable
+event log. So yeah, check it out Claude
+managed agents and what we're here of
+course to to talk you talk to you all
+about it. Um
+but back in I think it was May we
+shipped what we called like multi-agent
+V1, right? And this is where you have to
+define each of the sub agents that your
+primary agent is able to spin up.
+And then you have to listen to basically
+all of what we call the threads that
+each of those agents are operating on,
+right? So, um, it's a lot like, you
+know, an operating system, right? Where
+you have the the overall process has
+different threads, each of those threads
+have their own context. Um, there is
+some uh state that's shared between
+them, but typically in order to share
+state, you have to like manage message
+message sends uh back and forth between
+all the threads. Um,
+my point in saying all this is that um
+it it wasn't the most uh trivial thing
+to set up even though our API surface
+supports it. Um, but fast forward to
+last Friday, um, where we shipped this
+new thing called dynamic workflows
+within cloud managed agents, and we
+think that this is like way easier and
+way more possible to get power out of
+the these increasingly capable models in
+a very trivial way. So, the way that it
+works is that you have a lead agent that
+is essentially responsible for creating
+a plan for how it wants to accomplish a
+task. So, you know, migrate my million
+line mono repo from Python to Rust as as
+an example. Um, that agent is able to
+then spin up
+Once that agent spins up it its plan,
+it's able to automatically fan out to
+its own set of agents that it spins up
+and down based on uh its own uh uh
+I I guess rationality or um capability,
+and
+across multiple different phases of the
+multi-agent orchestration, it's able to
+accomplish like discrete, verifiable
+units of work without you having to like
+manage any of the interconnections
+between these things. Um, so, very
+basically, it might be like phase one,
+like read the files, and it spins up a
+bunch of explorer agents to go off and
+do so. Phase two, maybe I I don't know,
+identify something about those files.
+Obviously, the the agents are way
+smarter than me uh these days and would
+would come up with a better plan than
+than I could on the spot. Um,
+but then at the end, um,
+you we think that this is essentially
+like
+the path to getting really, really,
+really hard work done on platform via an
+API surface. So, if you want to build
+like this into your products, this is a
+really trivial way for you to do so
+without you having to somehow like have
+Cloud Code open again and I don't know,
+like connect that to your to your own
+systems.
+So, while these dynamic workflows are
+running, it's very trivial to first of
+all watch what's happening in real time.
+There's a single event stream that
+basically gives you everything that the
+agents are doing in real time. You can
+check agent by agent what the events
+what events are happening in real time.
+On top of that, we know that token
+hunger is like a real problem
+and you can set budgets on your sessions
+before kicking them off so you don't
+actually only burn substantial amounts
+of tokens. And then if you let's say
+that you have like some system that's
+listening to generally what the agents
+are doing in real time. You feel not so
+excited about the direction that they
+might be going or you you want to steer
+them
+in real time, then you can do so by just
+like stopping them by interrupting via
+our API surface.
+So, in comparison to Cloud Code, I I
+recognize that like this can be a little
+bit confusing because the
+they're both workflows, right? But we're
+talking today about these workflows
+within Cloud Managed Agents. So, we're
+an API surface that you should be able
+to integrate into your own application
+surfaces or your own internal processes
+or your own, you know, whatever it is
+that you might want to
+wherever you want to like embed Cloud
+within your systems. You don't have to
+be like typing on a terminal or
+interacting with the thing in real time.
+Maybe you want to hook it up to CI,
+right? Like this is like the the trivial
+way to do so. Um
+So,
+in our comparison
+chart here, I think the thing that I
+would highlight is that we we see a lot
+of users using like running these things
+on schedules,
+listening to webhooks. GitHub example is
+a pretty pretty classic one of like
+maybe you want to build out a
+bug hunter workflow, right? We'll
+actually talk about and and show show
+off a little bit later. Um
+and yeah, I think that that's probably
+about what I want to share here. Um,
+so with that said, let's go ahead and
+start one of these things.
+Um,
+enough of me yapping. Let's uh, let's
+check it out.
+Is that
+Yeah.
+Yeah, seamless transition.
+>> Let's see.
+Can you see that? Yeah, there
+>> All right, sweet.
+All right, we all good? Okay, I'm going
+to make it a little bit bigger.
+Um,
+so I also recognize that some of y'all
+might not have ever seen the Cloud
+Console before, so just
+I'll spend a minute here talking a
+little bit about it.
+So so so so hang with me here.
+The Cloud Console is where you as an API
+integrator can manage essentially all of
+your resources within Anthropic's API
+service. So in the console, I'm in the
+default workspace and I'll see this nice
+drop-down. I'll zoom out a second just
+so you can see on the left side this not
+nice drop-down called manage agents.
+This is where all of the API resources
+live for the manage agents product. It's
+also where we're going to be spending
+our time today. Um, if you click into
+the quick start, you can see that
+there's a whole bunch of
+basically one click to get you going
+kinds of
+uh,
+workflows that you can run. But if you
+scroll to the bottom, you'll see this
+nice little tab here called dynamic
+workflow. And that's what I've spent the
+last few minutes talking about. So
+because I recognize there is a a bunch
+of finance oriented folks in the room,
+we're going to run the stock watch list
+scanner dynamic workflow.
+Um, so you [clears throat] can see what
+this config is doing is essentially
+creating a agent that's using Claude
+Opus 5.5 passing in this type called
+multi-agent 2026-10-01
+and then providing a system prompt that
+is basically like what what the agent
+itself is is
+uh, what the persona of the agent is.
+Um, I'm not going to belabor this too
+much, but um, basically the what for all
+of your edification, this is creating
+the agent resource under the hood when
+we click use this template.
+So, let's go ahead and get it rolling
+and see see how this goes. Um, so the
+first thing that your agent is going to
+need in order to accomplish anything in
+the real world is an environment, right?
+This is a
+a computer essentially for for Claude to
+operate on. Um, for the last, oh my
+gosh, like maybe something like 10 or 12
+months at this point, we we've really
+been about in that giving Claude access
+to a computer makes it way way way more
+capable just across the board and
+configuring your environment is like the
+the way uh, that you give uh, Claude
+access to this computer. I've already
+created an environment. Um, so I'm not
+going to recreate it, but if I was
+creating a new one from scratch, I would
+just hit this four button. But the
+um, stock watchlist scanner env is the
+environment that I used when testing
+things out this morning and you can see
+that I can just click this button that
+says start a session.
+Um,
+and so I am interested in Apple, Nvidia,
+Amazon, JPM, XOM, COST. I don't know.
+Anything else I should add in here? Um,
+Mhm.
+I don't know. I'll leave it because I'm
+not feeling very creative right now. Um,
+so let's go ahead and
+hit enter. And what this is doing is
+kicking off a session. That's where the
+actual multi-agent orchestration is
+going to happen. Um, I'll jump into that
+in just a second. We'll like actually
+take a look at what's going on, but
+broadly speaking, this is just using the
+existing primitives that our API
+supports today in managed agents and
+going off and getting real work done.
+So, let's jump into the sessions pane.
+This is where you can see my other stuff
+I've been doing on the platform.
+Um,
+and
+sorry, the zoom is a little funky here.
+Um, but I'm going to do a whirlwind tour
+of this because again, I'm not sure how
+many folks have seen this live in the
+real world. Um, but in this case, we've
+got our agent that's our stock watchlist
+scanner agent. This is like the uh, I
+guess in the analogy um, I forget the
+the the name of the final person who's
+like the overseeing the web of
+everything, but this is like the person
+at the top of the pyramid, the the CEO
+if you will who's
+managing everybody else underneath them.
+Um
+then we've got the environment that's
+the again the computer that I was
+talking about where Claude is operating
+and then we've got a bunch of
+information about what's happening in
+real time. Um so you can see the agent
+is off and doing something. Um so here's
+here's the actual run happening. Um and
+we'll explain more in detail about like
+what some of these abstractions are in
+just a second, but basically like Claude
+is going step-by-step based on its own
+self-orchestration using its own
+self-defined essentially set of agents
+to go off and step-by-step achieve each
+of these things. So you can see like the
+the session thread thing I was talking
+about earlier which is like the the
+single context window, the single
+instantiation of an agent um is is being
+spun up in parallel. Um so yeah, pretty
+cool. I I I don't I don't know. I think
+it's pretty pretty sweet that all this
+just happens basically by by prompting
+Claude and uh we we can jump into uh
+what what uh what's happening in our
+prior session because it's a little bit
+farther along than this one.
+Um
+so yeah, the this is basically just
+showing the the same thing I was just
+showing, but these are all done now and
+I don't know. Uh
+I
+our output file that's
+I'm not going to go into too much detail
+on, but basically the the the main point
+here is that and we've we've had I think
+in this case it was only like six
+concurrent agents or so at each step. Um
+but Claude can can spin up and down the
+the number of agents based on the
+complexity of the task. Um
+yeah, I'm trying to think if there's
+anything else I want to show there. Um I
+think that that mostly covers just like
+the the what this surface is. Um but we
+can of course uh take questions in a
+little bit to, uh, uh go a little bit
+deeper.
+Do you mind jumping back?
+>> Yeah, no, let's do it.
+Um.
+Yeah.
+>> Another seamless transition.
+>> Yeah.
+>> [laughter]
+>> Yeah, so in the in the previous demo,
+thank you, Harrison. Yeah, good
+walk-through. Woo. Yeah.
+Um.
+So, that was all like, uh, an example of
+how you might prototype in the console
+and going through and setting up your
+your your, uh, your flow, testing it out
+in the console. This is a really common
+way to go through and experiment and see
+if the flow is behaving as you expected.
+And then once you're happy with the way
+that your flow works, for whatever your
+use case is, typically you'll go and
+then integrate this into some part of
+your your own application or your own
+workflow. So, whether that's like, oh, I
+actually want to trigger this uh, watch
+list scanner on a schedule so that it
+runs every day or every weekday, you
+know, before market open so I can like
+schedule this to run 5 minutes before or
+something so that I get my report right
+before market open. Uh, or you might
+want to do something where you want to
+kick off these flows or trigger these
+tasks from Slack or some some other like
+interface. And so this is, uh, the code
+for how you would, uh, create the agent.
+So, it's just like passing in this
+multi-agent config to enable
+multi-agent. And then when you create
+your first event and send that, uh, that
+first event to the lead agent, you're
+going to just say, run a workflow. And
+that's all you need to do to get flows
+up and running and working. It's just to
+like tell tell Claude, yes, use
+multi-agent and yes, run a workflow.
+Now, by default, this is kind of like
+the easiest way to get started, but, um,
+in this example, Claude is going to like
+on the fly create whatever sub-agents
+are required to uh to perform that work.
+And so
+um
+it's it's also possible in the uh in the
+agent config to pass in preconfigured uh
+subagents. So, if you have like a set of
+subagents that know how to like look at
+uh whatever Yahoo Finance or certain
+news sources or, you know, the the SEC's
+Edgar website or whatever. Like if if
+you have subagents that specialize in
+certain activities that are important to
+your research process, you can also
+configure those uh as part of setting up
+your agent. So, you can set up uh
+individual agents that specialize in
+something. Another thing that's kind of
+like um
+really uh
+I think is is nice to know at this point
+is that you can also give these agents
+access to custom skills, MCP servers.
+You can give them access to uh run your
+your own um
+uh yeah, like custom tools that run
+inside of the environment. So, uh
+they're really really powerful and then
+all that works in concert with flows. Um
+and we talked a little bit about the
+environment and you can also run that
+environment on your own
+um like you can bring your own
+sandboxes. So, you can run this
+self-hosted environment in your own
+infra if you want to. So, um
+just running through again kind of like
+what that watchlist scanner is doing.
+So, uh
+typically, if you were to create a
+watchlist scanner with a single agent,
+you might go into Cloud Code and say,
+"Here's the tickers. Please go research
+them and come back and tell me." And um
+Cloud or any any like single agent would
+try to do its best to look at each of
+those tickers, but there's a couple
+different things that agents are going
+to struggle with when it's just a single
+agent. And we'll talk about those
+struggles later and how uh flows
+addresses those. Um
+but what uh what with flows, what we're
+going to do is like split up that list
+of tickers and for each ticker, we're
+going to pass it to a scan agent. So,
+we're going going about like the scan
+phase. So, we take one single ticker and
+pass it to a scan agent, and that is an
+isolated context where all it cares
+about is its one ticker, and it can
+operate without being like influenced by
+any of the other tickers or any of the
+other search results from the other
+contexts.
+Once that scan is done, it can pass it
+off to the next phase, and now like the
+review step is also its own isolated
+context, which may or may not need to
+like pass back to the scanner or surface
+those report details that need to be
+written out. Um and we went through and
+we ran kind of like this watch list
+scanner as a single agent and also as
+flows. And um in in most cases,
+when you think about using flows, you
+want to think about like, "Okay, I want
+to make sure that I have a really,
+really comprehensive
+look at this problem that I'm trying to
+solve, and I want to go really deep and
+make sure that I'm leaving no stone
+unturned, and I'm willing to spend the
+money to do so." And so, what you'll see
+on the bottom right here is that like it
+costs
+uh much more to run a flow, but it also
+in the middle pane, you'll see that it
+like is much more effective at finding
+all of the details. And uh if you've
+used uh you know, dynamic workflows,
+you've probably experienced something
+similar with Claude Code.
+Um so, yeah, it's this is uh also an
+opportunity to talk about like your um
+when you're prompting Claude to build a
+flow, you can ask it to throw different
+resources at different phases. So, you
+might want to say, "Okay, I actually
+want to allocate more test time compute
+to the scan phase." So, you can prompt
+Claude and say, "Please use uh
+um
+you know, or actually let's say for the
+scan phase, we can use Haiku, a really
+fast, efficient model that's all it's
+going to do is just go out and scan the
+internet, right?" And so, we can say,
+"You know, spin up uh maybe two Haiku
+agents per ticker to go and like do a
+really comprehensive scan." And that
+might be like a very affordable phase.
+And then you say, "Okay, actually once I
+get all the web pages back and I'm going
+through the details, sometimes I'm
+missing those details. So, actually I
+want to like invest more in the review
+phase. So, I want to have Fable review
+all the details that came back in depth.
+So, I'm going to say, 'Claude, please
+use a Fable agent at the review phase
+and maybe like do two or three agents
+per ticker at the review phase.'" And
+so, you can kind of like imagine each of
+these flows being something that you can
+kind of like expand and contract based
+on how much you want to invest in that
+point in the process.
+Um and what's Yeah, so this is like a a
+really effective way to kind of like go
+through, play around with your
+investment at each of these phases in
+order to get the exact result that you
+want. And so, um definitely recommend
+going through like a
+like a comprehensive eval set to try and
+make sure that the flows are doing what
+you want when it's like a very uh you
+know, big important task.
+The watch list scanner that we showed
+you from the console is uh one of these
+templates that you can start. You can
+kind of just go, click through. Um
+there's also some of the templates are
+built directly and bundled with Claude
+code and the Claude API skill. So, if
+you have Claude code um and you
+installed it starting on Sunday night,
+uh
+uh then you should be able to run Claude
+API managed agents on board with watch
+list scanner and that can spin up a
+template um and then allow you to kind
+of like manage your agents directly from
+Claude code. I think this is actually
+like a really effective way to drive
+Claude managed agents and generally to
+use the Claude API is from inside of
+Claude code. You can direct Claude code
+to say, you know, spin up this resource,
+spin up that resource and it will use
+another command line interface called
+Ant CLI to drive and and interact with
+the Claude API. And so, um often times
+instead of using the console, I'll use
+Claude code and say, you know, spin up a
+managed agent that does X. Um so, uh
+today when you're going through and
+experimenting, uh this is one of the
+ways that I would recommend kind of
+jumping in if you don't want to use the
+console.
+Um, and then there's we we experimented
+quite a bit with like what kind of
+initial system prompt or, you know,
+initial message is best suited for
+flows. And we found that like the the
+more ambiguous and kind of like free
+form you let, uh, you are about letting
+Claude do its own thing in the
+beginning, the more effective it can be.
+So, just tell Claude, "Hey, I want you
+to, um, use a workflow one ticker for
+agent and, uh, you know, go out and do
+this scan. This is what I'm kind of
+looking for." And let Claude take
+control over like building out the
+initial flows and then you can kind of
+like, uh, fine-tune that afterwards.
+Um, so let's, uh, let's play around. So,
+on screen you'll see a QR code. This is
+for, um,
+uh, some API credits so you can get up
+and running. If you don't already have a
+Claude platform account, another thing
+we just announced this week is that, uh,
+with Max and team subscriptions, you,
+uh, you get some like API credits that
+are part of your subscription. So, um,
+you can also like go link your your subs
+to make sure that you have those API
+credits. So, if you have Max, I think
+it's like, uh, Max 5X, you'll get like
+$100 a month. Um, and then Teams is up
+to 500. And then this is like another 50
+bucks to go and, uh, experiment with,
+uh,
+this Claude managed agents flows. And,
+uh, yeah, I think at this point we can
+pause. We have like a bit more content
+that we want to go through, but what
+let's pause. Please try it out and then,
+um, yeah, we can we can open up the
+floor for questions, uh, if anybody has
+any questions off the bat. Okay, so, uh,
+good question. So, the question was,
+when you're in Claude Code and you run
+the {slash} Claude API skill in Claude
+Code, is that running on my machine or
+is that running as part of Claude
+managed agents, right? So, um, the
+Claude API skill and Claude Code are
+going to run it on your machine or in
+the cloud depending on how you have
+Claude Code set up. And that is like a
+completely separate system from Claude
+managed agents. So, you have you'll have
+like your Claude Code is going to be
+running either locally or in the cloud
+depending on how you have Claude Code
+set up. And then, when you kick that
+off, that's going to make API calls from
+the Claude Code environment to create
+the agent, create the session, create
+all of these different resources in the
+API. Uh is there a roadmap for how
+it merges with plugins?
+>> So, plugins right now encompass a bunch
+of different like types of resources,
+right? One of those is is skills, right?
+Um and so,
+when you take a look at the API surface,
+you'll notice that there's there's a
+field called resources associated with
+it, and then there's also like some
+other API fields that are related to
+things like skills that show up in
+plugins. And so, the the short answer is
+that like the individual components of a
+plugin should just drop into the API
+surface already today. As far as like
+merging it into Sorry?
+Oh, no worries. So, the other direction
+being like your workflow generates a
+scalar something, and you can pull it
+back into
+your Claude Code? Or Do you mind just
+saying a little bit more about that? I
+see. Okay, so the question is basically
+given a dynamic workflow that you've
+created for, in this case, um research
+on potential acquisitions, can you
+distribute effectively the workflow
+uh
+uh as a plugin? Um The answer is not
+today, and I don't have a good answer
+for if that will be like fully supported
+out of the box at some point in the
+future, but you could take the prompt
+basically that's generated as part of
+your workflow runs, and just drop that
+into like Claude Code or wherever, um
+check it in, it's a text file, it'll uh
+probably be pretty pretty close.
+Yeah, yeah. So, the question is, what
+about running like some agents in like a
+Mac environment or other environments
+that aren't just like presumably the
+hosted surface where uh Claude managed
+agents are running? Um we have this
+abstraction called custom tools that's
+basically like a way for the model to
+kick out to you to ask you to take some
+action. So, the way that this would work
+is you would define a custom tool uh for
+your agent as part of the workflow run.
+And then anytime you want to run
+something like on, let's say, a local
+Mac OS machine or like some, you know,
+arbitrary other computer on the internet
+or something,
+you would basically just like take that
+custom tool call, do whatever you want
+to do on that machine, and then
+return the result back to the model. Did
+that answer your question?
+>> Okay, sweet.
+>> Yeah, totally. So, the question is we
+all care about token spend at some point
+and we need to be able to optimize
+our flows over time to not basically
+spend
+tons of tokens. So, there are a bunch of
+different ways to do this. This is kind
+of a generalizable problem that's like
+hill climbing on some prompt based on
+whatever criteria it is that you
+internally care about, whether it's
+token, whether it's capability, etc. And
+so, um
+there is I forget if we published the
+hill climb skill
+>> Yeah.
+>> in Cloud Code. So, so there's a hill
+climb skill within Cloud Code that can
+probably help you hill climb at least
+the prompt itself.
+As far as the tuning of like the the
+flow operations,
+um
+this is kind of a cop-out answer, but
+you
+effect you'll have the full transcripts
+of everything that Cloud has done as
+part of the the flow runs. And so, you
+can just pull those transcripts, give
+them to Cloud, ask Cloud to identify any
+like places where the flow is maybe
+doing too much or not doing enough,
+and it's able to essentially optimize
+itself. Um and that way you can ask
+Cloud to optimize based on whatever
+criteria you you you want. But, I will
+say like
+we shipped this on Friday and I suspect
+that this type of like native
+integration is something that is going
+to be top of mind for a lot of folks.
+>> Yeah, one thing I would add to that,
+too, is
+there's another product called Dreams
+and Dreaming where you can
+within Cloud managed agents give a set
+of sessions to
+go through this dreaming process where
+it can kind of like crystallize and
+like basically like improve the memory
+store that is related to those sessions.
+So you can attach a memory store, run
+your flows, and then after you've done
+it, you know, 10 times or whatever, you
+can have those sessions run through
+dreams and have those dreams kind of
+like crystallize and improve the memory
+from from like session to session. So I
+don't know if you have
+uh
+more dreams thoughts or
+>> ideas, but
+>> Yeah, I think
+I basically described hand rolling your
+own dreaming. But I forgot we have our
+own product that does this for you.
+>> Yeah.
+Right. So you can you you can either use
+the product dreaming or you can use
+flows to implement dreaming. So
+>> Yeah, totally. So you can you can
+visualize it directly in the console if
+you just want like sorry, stepping back.
+The question is can you
+can you visualize the the multi-agent
+topology as the flow is running?
+Within the console you you can
+and we'll we'll give you guys a chance
+to check it out in just a second. Um but
+if you're if you want to build like a
+custom UI around this thing as well, you
+totally can because each of these flows
+spins up sub-agents that have their own
+session threads. That's like the context
+in which it's operating and all of that
+information on a per thread basis is
+accessible via API surfaces. So you can
+spin up arbitrarily interesting UIs
+around it for for whatever it is that
+you want. Yeah, I see Jay's probably
+about to
+>> Yes, you can like
+>> Yeah.
+>> Look at all the threads. You can drill
+into individual sub-agents. You can see
+what they were doing. You can also look
+at
+if you're you're accessing this
+programmatically, there is a huge like
+really comprehensive set of events that
+are emitted like as the session is
+streaming and so you'll see every single
+like tool call and result and like when
+it's handing off between
+from from the sub-agent back to the main
+uh, know, the lead agent, etc. So, like,
+um, yeah, within the flow right now, the
+UI in the dashboard is definitely
+something that we'll continue to improve
+and iterate on. Um, but, yeah, you can
+you can absolutely dig in and see like
+lots and lots of detail here. Um, so,
+you can see like, okay, yeah, this is
+the thread message received event. And
+so, you can tell like, okay, what did
+the lead agent actually pass to the sub
+agent? And you can look at that payload
+here to deeply understand kind of like,
+what is actually happening for like
+every transition in this entire graph.
+>> And I'll also say this is built on the
+public API, like the dashboard itself.
+So, anything that you see here, you
+could totally hand roll yourself. The
+question is, is it self-aware of its own
+budget? So, right now, the model does
+not know its budget like as it's as it's
+running. The budget is primarily like
+guardrails to make sure that it doesn't
+go off and uh, run away token spend.
+Um, we found that at least in today's
+latest models, um, if you tell it the
+budget, um, Claude can get a little bit
+anxious and we don't uh,
+we we don't we don't want that to
+happen.
+Um, but I would highly suspect that over
+time that that will improve.
+>> So, the way that it works with flows is
+if you hit $5, you get an event
+basically being like, budget reached.
+And then if the if you want to like take
+a look at what happened and potentially
+up the budget, you can as the session is
+running. And if you want to add more
+money, then you can and the flow will
+pick off like where it left off. So,
+there's this really nice pausing
+component where any work that you've
+already accomplished is not thrown away
+if you up the budget. Um, but that's
+totally up to you based on
+your own
+Yeah. So, the question is, what is the
+plan for integrating with Claude Tag?
+Um, so, Claude Tag is essentially like a
+Slack bot that connects all of your
+information, uh, uh,
+together within the Slack surface. And
+so, it's a slightly orthogonal product
+surface, whereas this is an API surface
+where if you want to like build an
+integration with Claude directly, you
+would use something like this. Um, I
+doubt at least for now that there would
+be any direct connection other
+You know what?
+Yeah, yeah. If you wanted to like build
+something like tag yourself, you could
+use flows.
+Yes, if you're using [snorts]
+Exactly, exactly. So like, yeah. Yeah.
+>> Yeah. I I would say the other thing too
+is that like um
+this is this is something like we want
+to improve on a lot is like making all
+of these product surfaces work better
+together. And so I would say expect, you
+know, over the next you know, several
+months or whatever to continue to see
+these seams start to like disappear. You
+may have noticed that like, you know,
+co-work and chat kind of like we merged
+some of those. You can see now you can
+use Cloud Code from lots and lots of
+different surfaces. So over time we'll
+kind of like uh close the gap there. And
+yeah, um Cloud Tag is definitely like a
+really effective way to to use a lot of
+these tools. And in like we use that a
+surprising amount. Cloud Tag is like a
+huge daily driver for us for for a lot
+of implementations. So
+>> So the the question is is there a way
+for the agents to communicate with each
+other um like the sub-agents within the
+flow? Um
+there's not like a direct like uh
+uh way for you to like via the API say
+sub-agent A like message sub-agent B and
+like send payload X. Um but the the
+sub-agents all share a file system. And
+so if there is a need uh within your
+workflow for them to communicate with
+each other, they can effectively just
+use the file system as a way to like
+send messages back and forth. Um but
+there's not like a direct abstraction
+that uh other than these agent message
+sent and received where you can like see
+the message sends back and forth.
+There's not a direct way for you to like
+force one of the sub-agents to message
+another one. Yes, so the question is is
+there a way for the flows to essentially
+modify themselves and hill climb their
+own prompts based on issues that they
+might find. Um so the best way to do
+this is probably similar to like the
+hill climb scale that we were talking
+about just a second ago, as well as
+potentially the the dreaming product
+surface, so that the the agent can see
+like what it did in the past and learn
+from its mistakes. There's not like such
+a thing as
+um so actually here I'll I'll just show
+really quickly. We we have this um
+concept of deployment, and basically
+deployments are um
+a way to run
+these sessions on a schedule. And you
+there's not a way for you to like on a
+schedule like self-improve the thing,
+but I could totally imagine a world
+where you like you could build that
+using these components, and that'd be
+pretty cool.
+>> Also like for the the hill climb scale
+that we keep mentioning, this is another
+sub-command of the Claude API skill. Um
+so if you're in Claude code, you can do
+like {slash} Claude API hill climb, and
+then tell it what thing you want to like
+iteratively improve on. This is kind of
+like a uh taking um Andrej Karpathy's
+auto research and sort of baking it into
+a skill that everybody can use to kind
+of like iteratively improve on their own
+prompts. And so if you start with a
+prompt that you know, the one off the
+shelf to do the watch list scan, then
+you can uh take that prompting and go
+into Claude code and say, you know,
+Claude API hill climb this prompt, and
+then it will work with you to
+iteratively like figure out, okay, what
+are we optimizing for, and then it'll
+just kind of like grind until it gets
+like a really nice prompt for you to
+then like use that uh to to yeah, meet
+your needs. Some So depending on uh what
+happens during the hill climb, sometimes
+it will give you it really depends on
+exactly the project or like the problem
+you're trying to solve. So I uh I when
+Haiku was announced a couple weeks ago,
+or everything happened so fast, I think
+it might have been last week, I don't
+know. Uh [laughter]
+when Haiku was announced, I built this
+tool for playing charades with my kids.
+So it just has like a webcam, and it'll
+give us a card, we try to act it out,
+and then Haiku will guess like you know
+what we're doing. And so I use this the
+hill climb um
+command and Claude generated an artifact
+for me
+that let me record sessions of myself
+doing like these hilarious things rowing
+a boat and like playing tennis and all
+this so that it could like improve and
+iterate on the prompt and say oh we need
+this many frames per second and we need
+to like update the prompt to do this.
+And so depending on what the problem is
+like when you run hill climb Claude may
+or may not give you an a human interface
+to kind of like iterate on that and you
+can also like request Claude to do that
+for you. So it's actually like
+quite powerful.
+>> Yeah so the question is about
+Navier-Stokes and like these scientific
+discoveries that are all of a sudden
+happening kind of all at once and if
+something like this is like what we
+would use to
+to to to do to do that.
+I think maybe in our our demos our
+our stock stock ticker is not ambitious
+enough because you pretty you pretty
+much hit the nail on the head right that
+like the way that you pull forward
+substantial amounts of scientific
+progress is basically shorting the
+shortening the timeline that it takes to
+do this kind of work. Um and flows are
+basically a way excuse me
+to throw a test time compute at hard
+problems and get more capability faster
+out of the models. And so um
+I can't speak to like specifics of like
+how internally we like we what our
+harnessing looks looks like for running
+these types of research workloads but
+like we think especially as an API
+surface that unlocking the power of this
+is like the first step for us making
+these types of
+discoveries or
+um
+scientific progress like broadly doable
+by the general public. So um yeah I'm
+pretty jazzed about that.
+>> Yeah one other thing that I'll add to
+that too is that like in our previous
+multi-agent setup for Claude managed
+agents if you where you have like a
+coordinator and then a roster of agents
+we had some limits around like how many
+sub agents you can spin up. With the
+flow with flows right now, I think it's
+1,000 agents. And so like the other the
+other like interesting piece of this is
+that your lead agent could spin up
+multiple flows at a time or like after
+one flow finishes, start another flow.
+And so you might have like a really
+massive project that you want to like
+give to give to a set of agents. I
+actually like
+was really hoping it would be done by
+now. It is not.
+But I I on Friday kicked off a flow with
+1,000 agents to build an operating
+system to show to you. And it has
+already been working for like 85 hours.
+And so like it's not done yet and it's
+like three or four flows in and has been
+working with like tons and tons of
+agents on this like bigger project. And
+so these are things you can absolutely
+throw at it.
+And obviously because they take a little
+bit longer, this is something that you I
+kind of like just started on Friday and
+then walked away and was hoping that
+maybe by 9:00 a.m. on Monday it would be
+ready, but
+definitely like the type of project that
+you could um
+you could throw at yeah, cloud
+management agent flows. Yeah.
+Let's save that for an after, but yeah,
+it was like it was actually like very
+lightweight. I was like, "Hey, Ken
+Thompson made Unix in a week. Can you
+try and make an operating system that's
+Unix compatible with a Python
+interpreter?
+Use flows, you know, feel free to be
+brave and use up to 1,000 agents." And
+that was basically it. And then like let
+it run and
+I also gave it a GitHub repo so that it
+could work in that GitHub repo. The last
+time I checked there was like 1,000
+commits in the GitHub repo. So it's
+yeah, the agents are still grinding on
+it. Yeah.
+>> [laughter]
+>> Uh the question is if we've noticed
+diminishing returns from like spinning
+up more sub-agents in the same way that
+like an organization like on an
+incremental basis for every new employee
+you add at a certain size, there's like
+coordination costs and such that that
+increase over time. That's actually a
+really good question that I don't have a
+perfect number or answer for you on.
+Um I think that like this whole research
+area is pretty new and I would be very
+unsurprised if like this these types of
+exact like
+uh numerical assignments to like or
+basically like the it's almost like the
+capability curve per subagent or like
+the incremental you know, the slope of
+the line as you're adding a new an extra
+agent um is more calculable in the
+future. Um but I I don't have a good
+number right now. Um yeah, that's a good
+question.
+>> Yeah, one thing I will say is like with
+flows, you get the benefit of like
+throwing them at a problem in an
+organized way versus an unorganized way.
+So like if you take the same 100 agents
+and throw them at the problem like it's
+going to do better with flows because
+there's some organization and isolation
+between those contexts with gating and
+these different phases. So.
+>> So the question is is there a way to
+prevent infinite loops or cascading
+errors? And the answer is yes, sort of.
+>> [laughter]
+>> Um the there's mechanisms to make sure
+that like you don't end up with runaway
+sessions. So for that I would throw on a
+budget, right? Based on what whatever it
+is that you
+uh your budget might be. But then
+otherwise Claude is actually pretty good
+at detecting subagents that are
+misbehaving essentially and managing
+them accordingly. Um and so we found
+that at least in our own evaluations
+like Claude is Claude is pretty good at
+like detecting these types of errors and
+and cutting them out um
+uh automatically. The other thing is we
+were talking about like dreaming and
+hill climbing and stuff and like
+learning from past runs and we think
+that that's a really powerful way to if
+you like very specifically want to
+optimize parts of your flow or parts of
+what Claude is trying to accomplish, um
+that's like a really really nice way to
+do so.
+Let me state your question back to you
+and tell me if it's if it's correct. Um
+so basically you're you're trying to
+understand if there's a way to like
+based on some criteria like a smaller
+set may maybe be a signal like a shot
+change, you should only execute
+potentially like
+some parts of a flow or some some parts
+of a
+like like basically you don't want to
+burn tokens because like nothing
+happened. Right.
+There's not really anything like that on
+platform today
+other than just like telling Claude to
+conditionally do stuff with a single
+flow. Like if I had to be totally honest
+with you, I would probably like layer
+something else on top of flows yourself
+within your application layer to make
+that detection. Um so you could like
+size basically the uh the the the work
+that you're trying to do. I don't think
+that flows would be a good fit for
+something that's like, you know, single
+agent can accomplish in 30 seconds
+anyway.
+Um
+it's more for like
+these ambitious, complex tasks. So,
+yeah.
+Yeah, for sure. So, the question is uh
+if I can talk a little bit about the
+context guardrails between the agents
+and effectively like the world view that
+each of the agents have. Um so each of
+the agents is spawned into its own
+session thread that's like totally like
+physically in the database like separate
+context windows. And so there's there's
+no leakage of those context windows via
+like file systems or anything like that
+um
+by default. Um
+beyond that, each of the agents has
+their own system prompts. So, whether
+you want to bring your own system
+prompts or just have Claude spin up the
+system prompts,
+um you can do so and that is like a
+really good way to enforce the totally
+separate personas. Um on top of that, um
+the I mean the thread message sends and
+thread message receives are a good way
+to see the inter inter-agent
+communication if you want to make sure
+that like, you know,
+middle management agent isn't like doing
+something with
+uh its underlings that that you don't
+want it to do. Um but generally
+speaking, those are like that's how it
+works. Did that answer your question?
+I see. So, the question is about the
+shared file system that I alluded to as
+like a methodology for sub-agents
+interacting with each other and if
+there's a way for for to like physically
+separate those out. Um the way to do
+that today would basically just be
+prompting um, and telling like if you're
+if you want your agents to only focus on
+like a very specific set uh, like a
+subset of directory paths or something
+for where it does its work, um, you
+would just prompt that. There's no like
+permissioning layer for the directory
+paths, um, but honestly like that seems
+pretty useful. Um, maybe we'll uh, maybe
+we'll take that back and come back come
+back with something better. So, so the
+the the follow-up was what about using
+something like hooks to uh, control
+access to different parts of the file
+system? Um, that's
+the the way that this would work in
+managed agents is not quite like hooks,
+but you're actually kind of answering
+the question a bit for me because um,
+one way that you could do this is we
+have an abstraction called tool
+permissions that basically like anytime
+an agent wants to read a file, it
+depending on the configuration that you
+provide, might need to ask you for
+permission or you being like your system
+for for permission. And in this case, if
+you wanted to like lock down, you know,
+{slash}mount{slash}fubar,
+um, then you could just read the tool
+basically the request that Claude is
+making to read that file, check the
+agent that's actually like running that
+uh, read request and just deny it if if
+you don't want the agent to have access.
+Wow, thank you. Appreciate that.
+Oh man, you're you're teeing me up. Um,
+we're going to So, the question is about
+uh, credential management. Um, so like
+the
+the the punchline here, right, is like,
+"Oh my gosh, like a thousand agents,
+that's crazy. Like
+that doesn't seem like safe to just like
+let let run wild on the internet." Um,
+and we're going to spend like basically
+the entire second half of this
+presentation talking about agentic
+safety. The question is if there's a way
+to allow human feedback as part of a
+flow. The way that you would implement
+this today is using something called
+custom tools. Basically like give Claude
+a tool that's like request human
+feedback and then Claude would request
+that human feedback from you whenever it
+needs it and you could provide whatever
+response you wanted and from that tool
+call.
+So, the question is um, in the example
+of building an operating system, uh,
+what if like
+what if the thing dies or something and
+like like how do you see the
+intermediate states? How do you interact
+with it as it's going? Do you want to
+take that since
+>> Yeah, sure. I so um
+part of the prompt I asked it to have
+like a a team of docs writers and I was
+like use Sonnet 5.5. I love the like the
+documentation that comes out of that and
+uh at the end of every single flow a
+team of docs writers goes back to write
+documentation about what that phase
+implemented. And so I can just go to the
+GitHub repo and like look at the
+documentation as it's going. That's one
+one way to do it. Another way uh so you
+kind of asked about like is there a way
+to like pause it or stop it? Um and so
+there is uh
+another thing that we'll talk about
+later is um interrupting a session so
+you can interrupt the flow and say like
+actually like you're going the wrong
+direction. Please stop right here. Um
+you can also prompt Claude to give you
+reports or like to update a certain
+report as you go or update it you know
+like a typically it'll like um give you
+these marked out files that you can
+open.
+>> Yeah, and one thing that's pretty cool
+about the um the the product surface is
+that you like no matter what type
+whether you're using flows or not um if
+if you have Claude write to the out its
+outputs directory you have like a set of
+downloadable files that are like totally
+uh durable with that another API surface
+we have called V1 files. And so or or
+maybe you're like writing commits to
+GitHub like um CJ's has been and so
+there's just like a lot of like outputs
+um as part of these runs that uh you can
+inspect yourself.
+Yeah, so the question is like halfway
+through some crazy ambitious problem you
+find some information like externally or
+something that can potentially change
+the trajectory of the the overall run.
+Uh do you just want to burn two days of
+tokens and like start from scratch? Um
+so the way this would work today is you
+would interrupt the session and like
+provide that more information, you know,
+lemma X is actually probably probably
+useful for you Claude. Take a look at
+that. Um and Claude like the the primary
+agent that you're interacting with has
+this like full state of where the flow
+is in its process and it can inspect
+where where it basically left off in
+order to uh kick off essentially a new
+flow that takes into account that
+information as well as the past history.
+Um what's not supported today is like
+you can't like take the first flow, like
+the first plan, and like inject a single
+step like halfway through um and like
+rerun later steps or anything like that.
+Um but yeah, that's like how you would
+ingest more information.
+>> [laughter]
+>> Uh so the question is like as a game
+developer, let's say you want to put in
+like in-game telemetry um
+via something like flows. Um
+I I I want to make sure that I I'm Tell
+me if I I don't answer your question
+because I might I might be going in the
+wrong direction. Um so when I think of
+telemetry
+in this case, I think of like
+information about what's happening as
+the agent's operating, right? So you
+could you could drop an agent into
+whatever product experience you want,
+whether it's a game, whether it's you
+know, your website, whatever. Um but the
+the telemetry aspect is more like what's
+happening right now. Do I need to take
+actions based on like what the the the
+session is doing? Am I going in the
+right direction here? Okay, sweet. Um so
+we have as part of our API surface, we
+have this extremely rich, durable event
+stream where you can stream in all the
+events as they're happening in real time
+or you can like list them via a static
+API um endpoint and then we
+um
+Yeah, I'm trying to think. I don't know
+if we've
+>> Is it multi-modal?
+>> So like if you want to throw in like
+basically in Claude managed agents, if
+you want to take like a game screenshot
+and like throw it in and like take some
+action,
+um I think today that would be a pretty
+bad user experience because it would
+just take too long depending on what it
+is you're trying to build in your game.
+But I will say that Claude managed
+agents does support image inputs and
+Claude is like really good or getting
+really really good at inspecting images.
+And so you could there's totally a world
+where you like just drop in the
+screenshot and like Claude can
+uh take some action uh depending on
+whatever it is that you want to do.
+It's not going to feel like real time
+right now, but
+yeah.
+Oh, yeah.
+Yeah, yeah, totally. Yeah, that's
+actually a a great point, which is like
+maybe telemetry like debugging a crash
+or something. You like take a screenshot
+of what's happening in the game and like
+throw it into an managed agent. Totally
+totally feasible.
+So, the question is about sharing these
+things, right? Like you want to share
+these resources. Maybe you're like an
+organization that like you have like a
+set of templated agents, right? They're
+useful for you and you want to make sure
+it's not just you who has access to
+them. The way that this would work
+today,
+number one, we we have a Terraform
+provider that's like you can use
+Terraform to like create agents
+for you. But also
+we have a bunch of like
+export style functionality in in the
+console that lets you export agents and
+drop them into other places, but there's
+not like a one-click share share button
+where you like share an agent with other
+people. Basically, we've just tried to
+break down the barriers to make like
+taking the body of an agent or you know,
+whatever
+API resource.
+We've tried to make it as easy as
+possible to take that and just like
+upload it somewhere else. But there's
+not like a first-class like sharing
+mechanism within the API right now.
+>> I would say like
+the most common way that you might give
+this tool to a customer is to build a
+product interface for it. So, like you
+would build your own like website or
+something or app and they come to that
+and interact with it through something
+that you've built that is just like a
+layer on top of your managed agent. And
+so, like a lot of a lot of Claude
+managed agent interaction is just
+through the API directly. And many many
+customers are offering that to their end
+customers as like
+built like just built into the product.
+So, like if you're you're in
+very popular project management tool
+that has a Kanban board and you drag one
+card from like a column to to next
+column, that might trigger a Claude
+managed agent session to go like, you
+know, using the API, spin up a flow or
+spin up some session that does something
+um in the background. And so, instead of
+having it like be a like front-end
+component that is directly available
+that you can kind of like share out
+across Claude services, it's something
+that you would build into your own
+product um that's kind of more behind
+the scenes. Yeah.
+>> By the what which is being given to
+them. So, the question is like is there
+a way to tweak the behavior of agents
+rather than like in the system prompt of
+the agent instead to be keyed based on
+the type of work that you give the
+agent? Um
+a little bit of a cop-out answer, but I
+would probably just system prompt that
+based on the like like like if you want
+the agent to think about let's let's say
+that you know rough sizes of work, like
+the agent should like take different
+types of action based on that size of
+work. There's not like a knob
+Okay, well, actually I I take that back.
+One way that you might be able to do
+this um depending on what exactly you're
+trying to accomplish um is that we have
+effort knobs on the um
+uh on a per session basis. And we also
+have the ability to like override some
+subset of fields on a per session basis.
+And so, if you like given a task and an
+agent, you can like set those effort
+knobs or like change different parts of
+the agent based on what it is you're
+trying to accomplish. That's probably
+how I would do that.
+Yeah, so the question is how does Claude
+even know, right? Like how does Claude
+know what scale uh to to operate? Um
+my I know it's probably not the most
+like satisfying open answer, um but the
+answer really is like evals and lower
+defaults where you
+like if you're if you're asking like the
+stock ticker thing to run, like we
+shouldn't be spinning up a thousand
+agents that are all burning a ton of
+tokens, right? But if you're asking
+about Nav your Stokes, right? Like maybe
+you would have to be pushing a little
+bit harder on the flow and like asking
+it specifically to do that uh like like
+spin up that uh level of agent
+yeah that level of parallelization so
+yeah.
+All right, I think we probably should
+keep rolling.
+We got one more.
+One last question and then yeah we can
+also take more questions at the end too.
+Got you so the question is is using
+basically like markdown files to both
+like see what the agent is doing but
+also presumably like define the agent
+etc.
+The right way to do it.
+I
+I think there's a lot of
+It depends [laughter]
+for lack of a better answer.
+The the reality is that our API surfaces
+have like a ton ton ton of functionality
+depending on what it is that you're
+trying to do. Like we'll talk about
+credential vaults in an example like if
+you throw in your API key to a markdown
+file that you just like give to Claude
+that's probably bad
+and sorry I should say that's definitely
+bad. Do not do that.
+And so it really just depends on like
+the complexity of what what you're
+trying to express with the API surface.
+I will say that if you're just trying to
+like literally have like a basic
+markdown with like a basic set of like
+like Claude basically take that and like
+do something with it
+on kind of a one-off basis then Claude
+manager agent probably isn't isn't the
+right abstraction for that but like a
+lot of what how Claude works under the
+hood with you know all this stuff is
+basically like text right so it's it's
+not too far off.
+Okay let's okay.
+>> Yeah I'll just add one more thing and
+then we can keep going. So
+one
+like thing to consider is
+like how relevant certain context is to
+each sub agent and so one technique is
+to gradually reveal that context by
+having like a markdown file that links
+to other markdown files so like if you
+are part of the engineering team that's
+working on the kernel maybe you have
+like the main document will say okay
+here's the separate docs like an an
+index of like kernel is here and
+assembler is here and editor is here.
+And so like it can then read the details
+that are relevant to that sub agent and
+I can kind of like save some tokens. So.
+>> We good to roll?
+>> Let's do it. Yeah.
+>> All right. I'm sorry. We've got to keep
+moving. We'll we'll have questions at
+the end. So so save your questions and
+we'll uh we'll also probably hang out
+for a little bit after if I I had to
+guess. We didn't even come around and
+like look at people's consoles. I I I
+hope it worked. Uh if it didn't, we're
+happy to help you uh run your first flow
+uh later on.
+>> Um okay. So
+earlier we talked about or uh Harrison
+mentioned Bug Hunter and another common
+theme that fell out of the last AIE was
+around loops. How can we close these
+loops to make all of these systems kind
+of like work more on their own and run
+more autonomously?
+And Bug Hunter is a very very effective
+flow and a pattern that we have been
+using um and I I want to talk a little
+bit about it. It's also available as a
+template and also in cloud code.
+So the idea behind Bug Hunter is you can
+put up a PR and then you can have a Bug
+Hunter flow review that PR and uh
+surface problems that might be uh
+performance issues or uh you know, like
+actual like uh breakages um and uh allow
+you to more quickly review PRs as a
+human. And so uh instead of just having
+a single agent review a PR, Bug Hunter
+is a is is a much more effective way to
+go about reviewing PRs because it uses a
+flow where it takes your code, splits it
+up into these slices, each of those
+slices is handed to an individual
+context. You have this like uh an agent
+that has
+uh the responsibility of reviewing only
+that slice of code and starting to like
+write down this might be a problem, this
+might be a problem, this might be a
+problem. Then handing that to a second
+phase where that reviewer can say like,
+"Okay, given this slice of code, I agree
+or disagree with these different
+problems, and then having that all be
+surfaced to one phase that can like pick
+candidates that might actually be real
+problems that we need to go out and
+verify. So, like if you were a human
+reviewer of a PR and you are looking
+through some code, you often will have
+context about different parts of the
+code base that aren't even mentioned as
+part of this PR. And so, that's often
+why we trust humans to go and continue
+to review the code that's entering our
+code bases. Uh but
+this becomes much more effective because
+the agents can start to surface those
+problems to you.
+Um one of the things that you might do
+as a human is say like, "I think this is
+going to be a problem because of this
+this other like corner of the code base
+that I know about. Let me pull down this
+PR and verify that that's actually like
+going to be an issue and how big of an
+issue it might be." And so, you can run
+through this prover phase where you
+could download have an agent download
+the repo, try to reproduce the bug, or
+like verify that the bug is actually
+like a legit problem. And then have
+these surfaced in a report. In this
+case, we just say like, you know, it's
+it's a report, but in practice, these
+are added as comments to your your
+actual PR where Bug Hunter would raise
+an issue like inline and say, "Okay,
+you're making this change to this file
+and then way off on like this this
+distant corner of the code base, that's
+going to cause like this unexpected
+problem for you." Um and it can it can
+give you priorities, you know, this is
+like a very severe or like less severe
+thing.
+Um So, again, this is a one of the
+instances where you can like throw test
+time compute at different parts of the
+problem depending on your code base and
+the composition of like, you know, is it
+a mono repo or you have like lots of
+different repos, etc. Um Bug Hunter,
+really really effective tool for uh
+helping close the loop on um
+your PR process.
+This is how you would spin it up with
+Cloud Code.
+Cloud API scale manage agents on board
+Bug Hunter.
+Um and uh yeah, this is kind of like how
+how that works.
+Another really fun flow. Um how many
+people follow us on Twitter, Cloud Devs?
+Do you follow follow Cloud Devs on
+Twitter? Okay. All right. Oh, not enough
+of you. Not enough of you. Yeah, okay.
+So, uh if you follow Cloud Devs on
+Twitter, you'll see that a lot of times
+when we announce new products or new
+features, they come with like an
+animated video that explains how that
+product or feature works. So, we
+actually use a flow to generate many of
+those videos. And so, uh you can I can
+just say, you know, kick I can kick off
+a a flow and say, "Explain how dynamic
+workflows works." And then it can run
+through each of these phases or even uh
+as sub flows or like I'm sorry, not sub
+flows, just individual separate flows if
+we wanted. Uh so, it's going to have
+like a research phase. It's going to go
+out and find what are all the actual
+details about how this works. And plan
+and scout and fact-check. And then it
+will build a brief. And then it can take
+that design brief and hand it off to
+production that will go and make
+individual scenes and animate those
+scenes. And then uh in practice, we
+actually have like another set of phases
+that will do like sound effects and
+voiceovers and scripting and like all
+this other stuff. And at the end, you
+get a video. Um so, Explainer Studio,
+this is like actually like a quite quite
+a fun flow to use. Um and uh
+as someone who helps a little bit with
+our Twitter profile, I think it like
+saves me a ton of time. I think like,
+you know, 4 years ago, making the videos
+that we publish
+uh on Twitter would have taken like, I
+don't know, 20 hours or something to
+animate and like make beautiful. And now
+it's just, you know, one very small
+prompt off to uh off to a flow.
+Um you too can do this in Cloud Code uh
+with the Cloud API skill managed agent
+on board Explainer Video Maker.
+Um
+and yeah, just ask how What is DNS? How
+does DNS even work? I don't know. Let's
+see.
+Uh and it'll generate a flow.
+So, we've got Yeah, we've got a couple
+uh of videos that it made. So, let's
+let's see.
+All right. So, what if the task has too
+many pieces for one agent?
+All right. So, we have 300 contracts. We
+want it to go through all those
+contracts and find something out. So,
+with dynamic workflows, the agent is
+going to write the workflow.
+And then
+find these change of control clauses.
+So, the server in the background is
+going to run that workflow.
+This is well, this one is just my voice.
+Yeah, cuz we
+>> [laughter]
+>> were uh yeah.
+Sounds so good, right? No.
+The results come back. They're all
+combined. So, these are like the
+different events that we talked about.
+So, you can kind of like see it's
+actually like pretty well animated
+explaining, you know, how session
+threads work, how to enable it through
+the API by passing this multi-agent uh
+argument, and then telling you, "Oh,
+yeah, it's probably important to set up
+a budget. And if the budget changes, you
+can or like if if you if you if you uh
+end early without spending it, you can
+extend it, etc." Um yeah.
+>> How do I deploy to YouTube or
+>> It does not deploy to YouTube, no. Uh
+and
+>> [laughter]
+>> Um that's a good question. It's a
+um
+We should, though. We should. Yeah.
+Right. So, if you if you uh
+a good follow on YouTube is the Claude
+AI channel on YouTube where we have done
+some like really fun things where like
+it'll stream like music and uh Claude FM
+did like a very kind of like nice
+autumnal kind of like vibe music thing
+uh live streamed recently. Who wants to
+see how a bicycle is made?
+Okay. How many people want to see how a
+toilet is made or how a toilet works?
+Yeah, not not how they're made, how they
+work. So, okay. All right, let's see.
+Yeah, toilet I think was the winner just
+like not by a ton, but
+>> [laughter]
+>> Yeah, I think [clears throat] we know
+how bicycles work, so
+Yeah.
+Also love that it's like Claude branded
+the videos. [laughter] Like we ask them,
+it'll give us like a lockup that has,
+you know, sort of the the the same
+colors and everything Uh for the
+backgrounds and you can kind of like
+give it your own brand style. Another
+like plug would be to use Claude design
+to give it your brand style and go
+through and create your own like design
+system. So, you can go in like Claude AI
+{slash} design or use design directly
+from the the Claude
+uh desktop app and then given your
+Claude design style, you can uh give
+that to your flow and say like, you
+know, follow my brand
+uh my my brand settings and it even like
+the font at the bottom is even like the
+Anthropic fonts and everything, which is
+pretty cool.
+So, really really powerful tool,
+especially if you are responsible for
+animating videos to post on the internet
+uh
+and yeah. Uh another really fun example
+of flows, but there's lots and lots of
+different use cases, whether you're
+trying to solve some um you know, really
+important millennium problem or you're
+trying to generate video or you're
+trying to like improve your stock picks
+or uh you know, your dev flow.
+[clears throat] There's lots and lots of
+different things that you can build with
+flows.
+Um so, one thing that we talked about a
+little bit earlier was a a handful of
+things that single agents struggle with.
+And this is a big takeaway that we
+learned as part of dynamic workflows and
+I wanted to just talk a little bit about
+them and how they apply to uh sort of
+from from Claude Code and how they apply
+to Claude managed agents. So, one is
+agentic laziness, another is
+self-preferential bias, and the third is
+goal drift.
+So, um it turns out that like
+if our prompt is something like, "We're
+having an outage right now. Please go
+look at these 50 different services and
+tell me if uh you know,
+tell me the root cause of uh of the
+outage, but don't touch production. Like
+don't actually like change anything in
+production. Go research is there an
+outage? Don't touch production."
+A single agent might have this problem
+where after it sees 35 services are
+healthy, then it starts to like convince
+itself that oh, it's like everything
+looks good. It's probably fine. Like I
+don't really actually need to look at
+the rest of them the services. So,
+um we have seen that agentic laziness
+can be like one of the things that a
+single agent will run into and after
+it's seen so many that are good, it can
+kind of just be like, "Okay, I think
+we're good. Let me just not look at the
+rest and let's save some tokens and tell
+tell our human that like we're good to
+go."
+Coordinator runs into a sort of a
+similar problem where the you might have
+three sub-agents reporting back to the
+reporter or to to the coordinator and
+the coordinator still has to like keep
+track of like, "Okay, how many have we
+seen?" and are all of the services
+healthy? And those sub-agents might also
+themselves get lazy at a certain point.
+And so, um you don't really like improve
+too much over having the single agent.
+When we have flows, we have this sort of
+it's it's not necessarily deterministic,
+but we have the ability to split up and
+dedicate a an individual agent in
+context to each of those services. So,
+they're only responsible for their small
+scope of work and we can get a much
+better answer back because we can tell
+from the flow
+you know, fan out across all 50 services
+and dedicate an agent to each of those
+services to go and see if that service
+is healthy. And by the end, we know for
+sure that we went and checked every
+single service. So, this is like the fan
+out and loop intel done kind of like
+combined.
+Self-preferential bias.
+Um if you ask an agent to write a poem
+and then you ask the agent, "Is that
+good?" It's going to say, "Yeah."
+Um
+this is like a pretty common thing. If
+you ask an agent to write some code and
+then you say like, "Is the code good?"
+It's going to say, "Yeah." And it's
+because it like generally was the one
+who did the work and like is happy with
+the work that it did. And so, if you can
+uh split that up, you get better
+results. We know this from the advisor
+pattern where you might have like one
+agent that is the generator and one
+agent that is like judging the results
+of that. Like kind of uh taking
+advantage of that generator
+discriminator gap. But, when you have
+like a really massive problem, you're
+still going to like run into this pro-
+this you'll you'll run into a situation
+where like you your roster is not going
+to like necessarily scale up to a point
+that you need without having like these
+separate and distinct kind of like
+checkpoints. And so, with a flow, we can
+spread out across lots of these
+different agents and have like
+adversarial review that has its own
+isolated context that isn't being like
+influenced at all by previous things
+that it checked.
+The last one is goal drift. So, if you
+remember like the the initial prompt was
+something like, go out and scan across
+all these services and tell me if we're
+healthy, but the last thing that I said
+was like, don't touch prod. Right? And
+so, if we are filling the context window
+and compacting and we're filling the
+context window and we're compacting,
+we're going through all these services,
+not only might we be lazy and we're well
+like prefer our own answers, but also
+that piece of don't touch prod could
+potentially like get lost in that
+process. And so, one of those things of
+like
+it's important to just remember that
+like as the contexts grow and grow and
+grow, we kind of like might lose track
+of exactly what our goal was. Whereas
+with a flow, we can get like a very
+specific goal at the beginning and
+because we have all these, you know,
+individual contexts, we can make sure
+that that that goal is copied in like a
+very consistent way into each of the sub
+agents for all the different phases.
+>> [snorts]
+>> So, I kind of prefaced this a little bit
+earlier, but I think one of the most
+frankly the most important thing when
+you're running these pretty pretty hefty
+agentic workloads is making sure that
+you're not doing bad things or your
+agents are not doing bad things when
+they're running. And now, we're going
+from a single agent to potentially
+hundreds, right? So, so how do we scale
+our safety and security posture in order
+to make sure
+that that basically we keep we keep
+track of what's going on and make sure
+that
+nothing bad happens on platform.
+And this is going to [clears throat] get
+pretty technical because
+A, I think this is really important, but
+B, we've put a lot of thought into our
+API abstractions to make it much much
+much easier to create safe agents by
+default. And I think if I had to say
+like
+one thing to get right when you build
+out your agents is this. So, bear with
+me as I um
+talk to you a little bit about
+something that I I personally care a ton
+about. So, I'm going to walk through
+each of these safety risks. Excuse me.
+[clears throat]
+Um I know safety can be like a pretty
+overloaded term. These are just six very
+concrete things that everybody should be
+aware of if they're doing Excuse
+[clears throat] me, agentic development.
+Um
+I think the first is probably
+generally pretty well-known one. If your
+agents are scanning the open internet,
+they can pick up instructions by
+accident from people or entities that
+are not yourself. And you have to make
+sure that there's not like text that
+says ignore previous instructions like
+actually go to other domain.com and like
+exfiltrate all my information, right?
+And this is like fundamentally something
+that we've been working to solve both at
+like the model layer, like the all the
+way down the stack, but also we we've
+spent a ton of research energy into
+building out classifiers that make tool
+call checks
+like auto mode in Claude code basically.
+Like a default thing that can work on
+platform. So,
+strongly strongly encourage checking out
+the auto mode permission policy that
+we'll talk a little bit more about
+later. The second thing I talked a
+little bit about earlier when I was
+talking about the markdown files and
+like don't just throw API keys in
+markdown files and give them to Claude.
+So, at the end of the day, Claude is
+taking on the persona of whatever
+credentials that you give it to it,
+right? And if you're building a product
+and you expose your agents via your
+product and Claude has access to a
+computer like a VM under the hood that
+is where it actually accomplishes most
+of its work. If you have a file on the
+disk that is basically like my API
+keys.md or my API keys.txt or whatever,
+even if you make it like a hidden file,
+even if you put it in like a secret
+directory, um there's always a chance
+that you
+like that leaks somehow, right? Whether
+it's a user figuring out a way to prompt
+Claude or prompt your product in order
+to get it out. Um there there's just
+always a risk, right, that that
+plaintext somewhere um could could uh
+make it out. And so we we created an
+entire suite of abstractions to ensure,
+basically, that credentials never have
+to touch the sandbox. And this is an
+incredibly important decoupling, and I'm
+going to talk about it extensively
+later. The other or the third one is
+data exfiltration. If your agent has
+access to sensitive information, you
+want to make sure that it's not sharing
+that sensitive information with third
+parties who are not yourself.
+Additionally, you want to make sure your
+agent is not overreaching what you've
+asked it to do. I talked a little bit
+about budgets earlier. There's other
+limits that you can set on the platform.
+Um on top of that, you want to make sure
+your agents are not operating outside of
+like their uh their wheelhouse by
+establishing permission policies on the
+agent so that only tools that you give
+the agent access to can actually run.
+And then last but not least, like it's
+pretty table stakes to have some
+visibility into what the agent is doing.
+And so we have a durable event stream
+that has essentially the full trajectory
+of everything uh your agent is doing
+across the entirety of its life cycle.
+So, your job as a developer is three
+different things. We like this nice like
+very catchy declare, contain, detect. Um
+but that's that's the reality of it,
+right? You have to declare what your
+agent is, the permissions it has, what
+it can do, what you what persona it
+should take on, skills, tools, etc. Um
+and then like
+the contain piece is literally like the
+the physical limitations of the agent.
+So, how do you contain the agent so that
+even in the absolute worst of case, the
+amount of harm that it could do on the
+open internet is is minimal. And so this
+is where we have very explicit
+configurations in your environment
+policy where you can say you can only
+access these domains or you can only
+access
+a web search but not web fetch or vice
+versa depending on on on your needs.
+And last but not least, that durable
+event stream that I keep talking about
+is like a very crucial way for you to to
+detect things that are happening in real
+time and if if the agent is doing
+something that you aren't are not happy
+with depending on whatever like your
+definition of happy is, and you can
+always listen to these event stream in
+real time and immediately interrupt any
+sessions that are
+going in a different direction than
+you'd like.
+Um, let's see.
+Cool. So when we shipped
+Claude managed agents back in
+April, there was almost like this meme
+that Anthropic like settled the debate,
+right? The the brain and hands should
+should be separate when you're building
+out an agentic infrastructure.
+And like jokes aside, we think this is a
+very very critical component of our
+infrastructure that makes safety kind of
+just default possible.
+The idea here is that the brain, which
+is like the loop that's actually running
+inference in the just general agentic
+harness, as well as the session state,
+so like what's happened across all of
+the life cycle of every agent and a
+session is fully separate from what we
+call the hands of Claude, which is the
+place that the agent is actually able to
+take action in the real world. And you
+can think of hands as like running a
+grep on a computer that Claude has
+access to. You can think of it like a
+custom tool that
+or rather a custom tool that might run
+on a
+you know, your Mac OS machine that we we
+talked about earlier.
+Broadly speaking, there should be like
+no way for you to given a hand access
+and totally steer the brains in any way
+that could be considered harmful. And
+this is like the key thing of like how
+we separate all of the secret
+information that can that needs to be
+accessible in the brain and the harness
+from the hands themselves.
+And so,
+the way um there's this really
+interesting way that we have made sure
+that uh credential injection works. And
+I think I talk about it on a little bit
+more detail later if I remember
+correctly, but um the idea is that every
+container that has access to any secret,
+you just totally fake the secrets,
+right? Like those values don't actually
+work if you try to call like my API.com
+with that secret. And only on the way
+out um at this egress proxy layer here
+on the right side, do those credentials
+actually get substituted for what like
+the actual credential is. So, there's no
+way like physically to prompt Claude or
+to um
+like give an access to a sandbox, get
+that credential off of the sandbox or
+off of off of Claude Claude's brain. Um
+so, this is is like totally decouples
+the the agentic stuff from the um
+the actual like
+uh
+credentials themselves.
+So, I yeah, I kind of preface this
+already, but basically like you
+by default uh like, you know, you should
+not be able to foot gun yourself um in
+using Cloud Manager agents or building
+any agentic workloads uh yourselves um
+into leaking your credentials. So, like
+definitely definitely definitely take
+this seriously. I think this is very
+very crucial. Um
+So, I'm going to hand it over to CJ to
+talk about
+>> Yeah, so the uh we'll go through each of
+these different things and how you can
+control it from uh from uh the API. So,
+again, one of the important ways that
+you can make sure to contain uh Cloud
+Manager agents, and we've talked about
+this a few times, is setting a budget.
+And so, we can say, "Okay, run this
+flow. You have a $1.25."
+Uh and then if it hits $1.25 and the
+flow is not finished, then you can
+decide whether or not you want to up the
+budget and let it keep running. And it
+won't have have redo any of the work
+that it had already done,
+um or you can just say like, "Okay, that
+that's what we had budgeted for that
+specific session." Um so, every time
+that you kick off any session, whether
+it's flows or not, you can use this
+budget. And this pairs really nicely
+with um this other part of Claude
+managed agents called Outcomes. And so,
+the combination of these two things is
+really beautiful because now you can
+say, "I would like this result. Here is
+the outcome that I want and the rubric
+that I expect, and here is a budget."
+So, go accomplish this outcome given
+this budget. Um
+and the budget, again, is this way to
+just uh make sure that we're containing
+and not letting these agents just like
+uh continue to spend tokens um
+unexpectedly.
+The second uh code example there below
+is how you can interrupt a flow in the
+middle of the process from the API. So,
+you can just pass this event,
+user.interrupt, and this will stop the
+flow, uh and you can like then reprompt
+Claude or um do whatever you need to do
+to continue on. So, these are two
+different things. So, one is the budget,
+the other was you can interrupt in the
+middle of uh of a session that's
+running. And so, one thing to kind of
+like test this out is I would take, you
+know, take the flow that you ran today,
+and then set a budget that's lower than
+what you expect it to go over, maybe
+like, you know, uh a dollar or
+something, and then run the flow,
+increase the budget, watch it continue,
+so you can kind of like experiment with
+that a little bit.
+Um
+the second one we talked about the um
+this ability to have a reviewer agent go
+back through all of your sessions and
+understand what happened as part of that
+session and getting visibility into what
+were the tools that were called and did
+anything unexpected happen in any of
+these sessions? This is another use case
+where you could spin up a Claude managed
+agent with a prompt that says, "Here's
+the things that I want you to look for
+that happened." And because we have that
+durable log and we have every single
+event that happened, you can pull that
+transcript with the API and pass it to a
+managed agent and say like, "Review this
+entire transcript and all of these past
+transcripts over the last week or
+whatever and tell me if my agents did
+anything that was unexpected or accessed
+anything that was they weren't supposed
+to or called any tools that were kind of
+like odd or unexpected." And so, um this
+is another um
+kind of like a handy thing that you
+could do is build a Claude managed agent
+and hand it the sessions from today and
+just ask it like, "Was there anything
+odd that happened in these sessions?"
+The last and I think this is actually
+like the easiest lowest-hanging fruit uh
+if you have any Claude managed agents
+integrations today and that is
+uh to take your permission policy from
+either always ask or like uh and turn on
+auto mode.
+Turn on auto mode. This is like super
+super important and also very very low
+level or like low-hanging fruit. Um
+we did uh a bunch of research and
+there's some like public research about
+how uh you know, when your laptop was
+open and cracked a little bit and you're
+at the park and Claude keeps asking you
+like, "Do you approve?" And everyone's
+like, "Two two two two two. Yes, yes,
+yes, yes, yes. Approve, approve,
+approve." You know, like 97% of the time
+we're going to click approve as humans
+and so, um we are yeah, we easily get
+like lulled into just being like, "Yes,
+yes, yes." But Claude is like much more
+patient and using auto mode, it can like
+determine whether or not a single tool
+call is safe or it's going to take some
+destructive action and whether or not
+like it should actually like do that
+thing. So, auto mode all you have to do
+is switch from always ask to auto mode
+or whatever your permission policy is
+today to auto mode and it's like the
+easiest lowest-hanging uh fruit thing to
+do. So.
+>> Sweet. And so, I want to go into detail
+a little bit about the vaults thing that
+I alluded to earlier um and why we think
+credential management is such a crucial
+part of any platform that
+uh you run your agents on top of. So, in
+this example, we are using the Twilio
+API via an environment variable. So, in
+the naive situation here, we'd like take
+our container or our rather our uh
+session, maybe like upload a file that
+has this like .env in it that includes
+this Twilio API key so that our agents
+could read it, and then actually call
+the Twilio API from that container if it
+was trying to take some some action in
+let's say a Python script. Um but the
+problem with that again is like all the
+plain text stuff I've I've been talking
+about for for a minute now. Um and so
+instead of like that default just like
+getting thrown out of the container, um
+you can use credentials and credential
+vaults in order to manage these secrets.
+Um so in this case we're using a vault
+credential in order to create a
+uh in order to store our Twilio API key
+as an environment variable, and this
+injection location thing is basically
+for all network egress on the way out of
+the container, where do I expect the
+secret to show up? Do I expect it to be
+in like a a bearer off
+uh token on the way out? Or do I expect
+it to be like literally in the request
+body? Um
+uh you can configure um based on this
+field. Then additionally, the networking
+hash here with this allowed hosting is
+basically where given a call to domain
+X, uh like what what where or sorry,
+given our credential X, what domain
+should we substitute on the way out?
+Because if we just naively were able to
+like guess these secrets um and or or
+these like placeholder secrets that
+exist on the container, we don't we
+don't want like our Twilio API key to
+ever go out to I don't know, like
+mydomain.com. Um so really really
+important to um
+uh handle this stuff safely.
+And then once you've created your
+credentials uh inside of your vault,
+then you just pass in the vault and when
+you create your session and the the
+platform will be smart enough to know
+like based on what's in the vault and
+what secrets exist and at the egress
+layer what um like placeholder secrets
+exist, it can like figure out what uh
+how to inject in the correct values.
+We also talked about giving agents a the
+smallest tool set possible. Um so one of
+the like most um, I think interesting
+tools that we have in our agent toolset
+is web fetch and web search. And maybe
+you want to disable those by default
+because you don't want your agent to
+have any access to the internet um,
+without you very explicitly allowing it.
+In that case, you can set the enabled
+field to false for any of the the the
+types of tools that you want to disable.
+Um, so,
+here's just some basic examples for
+agent tools. MCP tools are are a really
+interesting one because um, you don't
+know the MCP tools that are going to
+come back from an MCP server up front.
+So, like let's say that you're calling
+out to the GitHub MCP. Like, yeah, we we
+trust GitHub. Um, but like what if
+something happened and they were
+compromised and an attacker added like,
+you know, my exfiltration tool or
+something to it. Um, you probably don't
+want that to be picked up by your agent.
+And so, you you on a tool-by-tool basis
+can can enable um,
+uh, per per MCP toolset. So,
+um, additionally, you're able to limit
+the network access that your agent has
+access to um, like physically using the
+environment configuration. Um, so, you
+can think of environments again as like
+the computer that Claude is operating
+on. And as such, if I only wanted
+api.twilio.com
+to be accessible, then I can like
+literally literally say that in the
+environment configuration. And so, um,
+now I have like my API key on the like
+like hidden away from um,
+any potential like theft. And I can call
+api.twilio.com physically. If I tried to
+call, you know, some other website.com,
+it would like physically fail at the uh,
+firewall layer um, on as uh,
+like like when egress tries to occur.
+>> All right. So,
+just kind of bringing it back to the
+beginning, uh, we think that we're
+in many cases trying to like reinvent
+the wheel of these organizational
+learnings that we had, you know, in the
+the and '70s about how to build really
+massive teams of humans to go out and
+achieve these like engineering feats.
+And so, we're really excited to give you
+access to flows, and we're excited to
+see what you'll build with flows.
+So, again, hopefully you can take these
+and go achieve some really really
+ambitious projects.
+So, again, start from a template, shape
+it shape it to be your own. Tell us what
+you find, and yeah, we would love to
+take some more questions. I think we're
+getting close to the end here,
+but we can also we'll also hang out
+outside in the hallway track. Absolutely
+happy to answer any questions. So, I see
+one over here, yeah. Yeah, so the
+question is like
+you try to you know, give an agent a
+task, and the thing that it gives you
+back is like not very verifiable. For
+example, with the video, that's like
+very much, you know, your human taste.
+So, then you give it some feedback, and
+how do you sort of like iterate on that
+within flows?
+I would say one place to start is to
+start with Claude code and iterating on
+some process first. So, you can either
+use dynamic workflows in Claude code or
+directly try to work through the process
+of generating your first video, and then
+have Claude encode like what you did
+into a skill that you can then use
+inside of Claude managed agents as part
+of a flow. So, I think like usually
+there is like quite a bit of iteration
+in the beginning to like figure out,
+okay, what are all the different phases,
+and how does this process actually work?
+And maybe you need to do fact finding
+across the organization to understand
+how an existing process is built today.
+And then trying to like do your best to
+encode that, and then use the hill climb
+skill to like iterate on the the actual
+prompt and improve it. And that hill
+climb thing can be sort of human driven.
+So, you can say, you know, let's hill
+climb on making these videos it like
+really great. And so, it'll generate
+one, you can say or it'll it might
+generate two, and you can say which one
+you prefer. And then it'll generate two
+more, and you can say which one you
+prefer, and it kind of like will uh
+iterate on its own prompt that way.
+Yeah.
+>> So, I think the question was going back,
+tell me if I'm wrong on this, but going
+back to the operating system example,
+when would you use Ultra Code versus
+when would you use Claude managed
+agents, like flows, right?
+Cool, cool. Yeah, so so Ultra Code is
+going to be the situation where you're
+like sitting at your laptop, like typing
+into the terminal, and using Claude Code
+directly and interactively.
+The Claude managed agents flows tool
+would be if you have like a repeatable
+thing that you want to happen on some
+regular basis, and want to integrate an
+API against an API that can hook into
+like whatever product surface uh you
+want, rather than like directly just
+using Claude Code.
+Yeah, I I think that that way that you
+described it at the end there is is is
+the correct way to think about it, that
+Ultra Code is like the the single
+instance of one of these things
+essentially. And we actually took the
+Ultra Code like
+uh abstraction or methodology, and
+generalized it into what flows is on the
+Claude managed agents API. Um and so,
+you can think of Ultra Code as like the
+my one-off, like me interacting with the
+thing, and then Claude managed agents is
+like the, "Okay, I want to like level
+this up uh
+a layer, and reuse them, and um run them
+on whatever trigger schedule I want."
+And that's a great question. So, the
+question is, how do you think about
+liability if like, well, something
+malicious happens on platform? Um
+unfortunately, I am not a lawyer. Um and
+I will not be able to like like
+explicitly weigh in too much, other than
+um I would think of it a lot like, you
+know, running any other like platform-y
+kind of business, where if you integrate
+against an API, and like build a product
+on top of that, um at the end of the
+day, like the the the platform itself is
+going to have the relationship with with
+the user directly. And so, it's going to
+be kind of like a defense-in-depth kind
+of thing of like making like each layer
+of the stack should be doing their best
+to make sure nothing bad happens on
+platform.
+Yeah, so the question is about the
+durable event stream and use cases um
+that the folks have have built out
+internally. Um so, it I'm trying to
+think of a a fun one. Um
+somebody internally built out like a uh
+a competitive Catan uh
+like I guess simulation where it uses
+like all the events generally just to
+explain like why each of the players is
+making the choices that they're making.
+It uses like custom tools, which is one
+of the it's like the way that you would
+expose your Mac OS machine to uh
+to cloud manage agents in order to
+uh like take action like
+outside of just the hosted environment.
+Um, I don't know, you you might have
+some fun fun ones here.
+>> I think like the easiest way to think
+about it is if you want to build your
+own UI that has like shows all of the
+different tool calls and everything. So,
+I I think a lot of people are
+reinventing this the wheel here and
+there are some like front endy tools to
+help you expose your agents event
+streams and stream back generally like
+the messages that are coming back from
+agents, but being able to like build a
+chat interface, you know, it's kind of
+like um pretty table stakes these days,
+but a chat interface where you're
+interacting with a you know, a
+conversation with an agent and you can
+see the tool calls and then you can open
+those tool calls and maybe you're you're
+having a a tool call that has like some
+generative UI and it'll show you like
+the chart and then for especially for
+like the finance use case, you might say
+like, "Okay, every time I talk my my
+stock ticker watch list thing encounters
+something interesting, also render like
+the charts so I can do like my or like
+add technical analysis things to my
+chart and make it so that it's like
+really interactive and you could do a
+lot of those with like the event stream
+that's coming back."
+Um,
+but yeah, hopefully that answers the
+question. I think there's a because
+there's like a lot of events, it's a
+very generic
+set of tools that you can go and use to
+build basically any UI on top of.
+>> So, the question is if there's any
+compatibility difference between like
+native Anthropic and self-hosted. Um,
+there are some features that aren't
+fully supported on self-hosted
+sandboxes, but flows are like totally
+supported. Like will will work out of
+the gate um with self-hosted sandboxes.
+Um,
+yeah, I'm trying to think what which
+ones aren't supported, but generally
+speaking we try and support like
+features like across all environments,
+whether it's self-hosted or not. Um just
+the environment that you pass in when
+you create your session will change um
+types.
+So, so the question is in the bug hunter
+example, where there's like a multi-repo
+dependency graph, how do you actually or
+how do we actually structure like
+what like how does Cloud actually know,
+right, what what uh what to do? Um and
+the the truth is that it's kind of up to
+Cloud. Um if you give Cloud access to
+the GitHub repositories, those will all
+end up mounted inside of the container
+where Cloud is operating. And so then
+Cloud can make the decision like if you
+have a really nice like Basil build and
+like have a really really crisp clean
+dependency tree, Cloud can use whatever
+tools it wants on the container in order
+to inspect uh those dependencies.
+Whereas if you have, you know, plain
+text language ABC that doesn't have like
+a very explicit uh dependency mapping or
+it's like non-trivial to
+uh
+build out that graph, then Cloud would
+probably have to like literally search
+files for symbols or something like
+that.
+For every PR review that you have, you
+would have to remount the container
+remount the uh repository on the
+container, yes.
+It's a lot like um if how you think
+about like uh just a CI job generally,
+where that you have to like run some
+checkout on the Git repository um and uh
+then you can take action on it.
+So, the question is if you are able to
+build out a dependency graph ahead of
+time, will that help you optimize the
+flow? And the answer is totally. If you
+if you have some representation of the
+dependency graph that you know ahead of
+time, you think would take a long time
+to generate, you can upload it as a file
+into the session.
+Um like we support just general file
+uploads as part of the platform. And
+then you can be like, "Hey Cloud, like
+by the way, your full dependency graph
+you care about is at like this file
+path."
+So, the question is about how many
+limits of nesting are there in these
+multi-agent topologies? Um the the real
+answer today is it's just one layer of
+nesting. We don't support like
+arbitrarily complex like mega fan outs
+of uh topologies. Um we we probably at
+some point will want to, but we need to
+make sure like everything is really
+uh
+like the safety and stuff is really
+locked in.
+Um so the first one I'm going to I'm
+going to try and restate it and and tell
+me if I'm
+understanding it correctly. Basically
+like there's some some form of like
+identity or data access or something
+that you don't have access to on your
+machine
+because it sits behind a VPN and is that
+data accessible via any like internal
+MCP servers or
+only on your machine. Okay, got you.
+Because the
+the way that you would abstract this
+would be using something we have called
+MCP tunnels, which is basically a way
+for you to give private access like
+private MCP access to the agents on
+platform using Cloudflare tunnels today.
+And basically it's like
+a way for you to give access such that
+you don't expose anything over the open
+internet. And I think that's like
+probably the closest to what you would
+be trying to do
+or that you would need to do in order to
+give these things access to there would
+be some
+Yeah, yeah, yeah. It's yeah. It's It's
+like the connection is directly from
+wherever your private MCP server is
+running to to the
+place that the MCP calls happened.
+So yeah, I would look into that. Number
+the second question was on
+just like how how stuff works at
+Anthropic. We're very like Claude tag
+pilled basically where Claude tag does a
+bunch of work for us autonomously and
+like the these workloads where like the
+thing is looking at Jira and all the
+activity in the past 24 hours or
+whatever and even like proposing
+proactive changes to tickets and such.
+We we do a lot of that work through
+something Claude tag shaped. So
+um
+Yeah, yeah.
+Claude tag supports
+>> Yeah, Claude tag Claude tag can do that.
+>> I think if you just say at Claude like
+every every day at 6:00 a.m. like do
+this. I I think it would work out of the
+box.
+>> Yeah.
+Thank you all so much for your
+attention. Appreciate it.
+>> Appreciate you guys. All right.
+>> [applause]

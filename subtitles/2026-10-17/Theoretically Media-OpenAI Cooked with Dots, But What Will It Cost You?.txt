@@ -1,0 +1,383 @@
+UP主：Theoretically Media
+标题：OpenAI Cooked with Dots, But What Will It Cost You?
+链接：https://www.youtube.com/watch?v=kVpXPHYXCG0
+
+Well, OpenAI's dev day just wrapped up
+and this was a pretty interesting one
+with persistent agents being the main
+theme here and clearly kind of their
+catch-up flex on the other always on
+always working systems out there like
+Meta's Muse. There were some other
+announcements including ones that may or
+may not make everyone happy. But the big
+question here is did Open AI cook and if
+so, how much is that meal going to cost?
+Okay, dot your eyes and let's go check
+it out.
+Kicking off the big news coming out of
+dev day was the much anticipated and
+highly teased Dots. This was initially
+leaked as OpenAI's AON and then later on
+as O before finally being revealed as
+DOTs. And considering that spooky season
+is coming up, I just want to remind
+everyone DOTs is they're not good. It's
+not good candy. It's not. It's just not.
+That said, Open AI's dots are basically
+agents that work on your behalf 24/7
+whether you're at the computer or not
+and whether your codeex is open or not.
+Each dot gets its own like little mini
+computer or virtual machine uh somewhere
+presumably on OpenAI servers uh and its
+own browser where it can write and test
+code. And of course you can message your
+dot or even hop on a voice call although
+we'll look at that in a minute uh with
+it either you know obviously on mobile
+or in chat GP desktop or web I guess.
+Um, and of course you can message it
+through Slack or Teams. And that of
+course goes the other direction as well
+with your dot being able to message you
+or contact you via any of those methods
+as well. And yeah, I mean obviously if
+all of this sounds familiar, it is a bit
+of a dressed up version of OpenClaw,
+considering that OpenClaw's creator
+Peter Steinberger did join OpenAI back
+in February of this year, which is kind
+of funny if you think about it,
+considering that OpenClaw is now one of
+the partner apps. So you can spend your
+chat GPT's paid usage on looking at the
+open source thing. We are going to talk
+about OpenAI pricing in a little bit as
+well. I mean obviously the pretty major
+release in this category recently has
+been Meta's Muse which you know look
+despite anyone's reservation about Meta
+and privacy. You can't deny this thing
+has been a quite a hit. It even ended up
+knocking chatbt off the number one spot
+in the app store at least in the US
+mostly because I don't think it's
+available everywhere else but that's
+beside the point. We are going to talk
+about Muse a little bit later in the
+video because I've been running it for a
+few days now and I have thoughts. But in
+the meantime, where OpenAI seems to be
+differing from Muse is that they're
+aiming for like more ambitious work. At
+least beyond book me a flight and order
+me those refrigerator filters that I
+know you haven't changed in 3 years. And
+not saying that with any kind of
+judgment. I haven't either. Kind of a
+brutal disc. Sam called that kind of
+usage trivial. Uh and uh with their
+pitch obviously being that you hand dot
+like a whole boatload of
+responsibilities. the way you would give
+it to like a production manager with the
+idea being of course that your dot is
+chewing away behind the scenes
+continuing to work while you know your
+team is getting some muchneeded sleep.
+All of which is great. I do want to
+point out it is still not doing your
+laundry or mowing your lawn. We got to
+wait for the robots for that one. They
+also introduce space which is a pretty
+interesting feature. Basically, this,
+you know, functions as OpenAI's Google
+Drive. Although, uh, with some agentic
+space, creating, you know, pages where
+you and your teammates and your dot can
+all collaborate together. You know, I I
+I get it. I get what they're trying to
+do here. It's essentially putting up a
+walled garden around, you know, your
+information. To be honest, I'm not 100%
+sold on this. And I'm going to be
+curious to see how adoption works on all
+of this. I mean, obviously, it's very
+clear what they're doing. They're not
+like throwing any shade at OpenAI here.
+They're all doing it. uh you know
+essentially trying to create walls
+around all of your data while
+simultaneously creating connections to
+everywhere that we actually are. So
+yeah, it's going to be a really
+interesting carrot dangle to see uh how
+they can try to herd everybody into uh
+you know their their little uh magic
+data prisons. I mean we'll see. Going
+back to the dotagentic and connectivity
+part of it, they did showcase a demo
+where a they were creating a fictional
+music platform launch through
+development, design, and release with
+their planned oh wow moment being a
+voice call to dot. Although uh the voice
+response Holly, nice to hear from you.
+>> Hey, so I'm just walking in. Um can you
+catch me up on just user testing from
+last night?
+>> Checking that now.
+Don't think that's surprising to anyone
+who's been using voice lately. Am I
+right? Overall, I mean, like, look, I
+mean, I'm being pragmatic about it, but
+I do think that dots are pretty awesome.
+And it actually does legitimately bring
+us closer to like, you know, like you
+guys have seen the ridiculous Instagram
+and Tik Tok trends of like AI Jarvis,
+the guys who have like rooms that are
+absolutely drenched in LED lights and
+have like these insane like dashboards
+that do absolutely nothing and say
+things like, "Jarvis, make me $2 million
+in the next 24 hours. Make no mistakes."
+I do want to shout out Eric Morrison's
+brutal takedown of these clowns uh in
+his video AI LAR cringe lords. If you
+haven't seen it, really awesome. Uh link
+down below. definitely go check it out
+because I mean these guys are going to
+be going ham uh with dots. So, going
+back to dots, uh each dot will get what
+OpenAI calls its own cloud computer. We
+don't know if like this is a Linux thing
+or if there's it's just a bunch of
+Chromebooks all like stacked together.
+Um but the important part being is that
+they are all going to be sandboxed from
+everyone else's. And look, not to take
+anything away from like how remarkable
+all of this stuff is and how it works,
+but I mean, basically what this comes
+down to is that you have your own little
+mini computer somewhere on OpenAI
+servers uh that essentially has hooks uh
+and cron jobs going on. And look, I I
+mean, I know that sounds reductive and
+I'm not trying to be at all. Um I'm
+just, you know, with the overall
+landscape the way it is. I just want to
+stress this is not like your conscious
+AI agent. Uh, these are bots with timers
+and jobs that can cross reference with
+one another. OpenAI's own messaging is
+that they think of the dot more as an
+extension of you. So, uh, essentially
+when you talk to your dot, you are
+talking to yourself. Speak of which,
+interestingly, um, just talking to your
+dot does not eat into your usage. That
+apparently is included in your plan.
+Although little tricky there because if
+the work kicks off in codeex or chat GPT
+work, it does count. And well, I mean,
+here comes the shoe drop is that DOTs
+are only available on the pro, business,
+premium, and enterprise plan. And they
+all supposedly uh, you know, get to
+start working with it in beta at as of
+today. Although, I will say that um I I
+am on the pro plan and my dot has not
+appeared. That said, that's fairly
+typical of any OpenAI rollout. I for
+whatever reason, I'm always the last one
+to get it. More on pricing in a minute
+and I you guys aren't going to like it.
+Uh but the other big announcement was uh
+despite the teases of Astro 6.1 which we
+did not get mostly because it was deemed
+too powerful and they this news just
+broke the night before dev day. Um we
+did though get uh GPT 6.1 sold which
+obviously is you know way cheaper than
+Astra actually a fifth of the token
+price uh and per open AAI near Astra
+intelligence and even smarter than Astra
+in some ways. That one should be
+available to everyone and I'm sure that
+we're going to see benchmark charts any
+minute now. Uh they also introduced an
+ultra fast mode across the API chatbt
+and codeex. Uh this one is a speed tier
+300 tokens a second which is which is
+kind of insane. Although ultraast I
+believe is only available via the API
+right now. So you know API pricing. Uh
+and and then now for the big news that
+no one liked. Uh there is now a $500
+plan uh pro 500 which is 25 times the
+amount of usage of uh the plus plan with
+ultraast included. So I'm sorry I I
+misspoke earlier. It is available via
+the API and the new $500 plan. Um they
+are bringing back the $200 uh pro tier
+and they've introduced a $100 pro tier.
+although the $200 plan is essentially
+usage-wise now the $100 plan. So
+essentially you're getting, you know,
+half the amount of usage out of it with
+OpenAI's reasoning that the the models
+are more efficient now and that you'll
+get more work done for less. We'll see
+about that. In their defense, I will say
+that Opus 5.5 seems to be extremely
+token efficient uh in that, you know,
+it's actually kind of hard to burn
+through your limit uh with Opus 5.5. So,
+I don't know, maybe something maybe
+they've all kind of figured out
+something on that front. The other one
+that kind of made me chuckle is that uh
+there's a there's a new decisions API
+that they previewed. Uh basically, it's
+a super fast model that picks from like
+a short list of options essentially like
+yes, no, uh do this, do that, or like
+send this here or send this there. I
+mean, basically, it's Jev. I mean, it is
+Jev, which I mean, I guess fair game. I
+never really got a chance to play with
+Jev. I never really found a reason to
+play with Jev. Now, conversely, in the
+same area, but on the meta side of
+things, uh yes, I have spent a few days
+playing around with Muse. Now, it is
+kind of an interesting contrast uh to
+OpenAI's dots. Now, I decided to go a
+bit yolo here despite like Claude's like
+finger wagging. Uh and I did end up
+giving uh Muse access to my inbox and my
+calendar. And I mean, I do have to give
+Meta credit here. This is a pretty good
+product. Um I had it book me an
+appointment at the DMV to renew my
+license. And I mean, yeah, I mean, it
+took care of it. It It worked. Uh I
+mean, I still ended up in line at the
+DMV for 30 minutes, but that was not
+Muse's fault. Additionally, I mean, I'd
+say after about a day of tuning it up,
+the news feed that it gives me, I mean,
+it's actually pretty good. And on the
+personality front, I of course ended up
+swapping out Jolly, the uh the fuzzy
+marshmallow for Flamethrower Girl. Uh
+and then I I had to go out and research
+Flamethrower Girl's personalities from
+my video. And yeah, so now I've got a
+fun assistant. And overall, I mean, I
+have to say it is pretty efficient. I've
+been pretty much hammering Muse uh over
+the last four days, and I've only used
+up about 50% of my free plan. Again,
+that's the free plan. Although, I'll
+admit that Muse is not without its
+issues. For one, from like a product
+standpoint. I mean, I'm I'm defin I
+don't think it's meant for power users.
+I think this is more of a product for
+soccer moms, whereas OpenAI's dots do
+seem to be like I don't know, again,
+really kind of hammering home like this
+is for serious work. And look, I don't
+want to necessarily discount Muse
+completely. it is running spark uh which
+means that in terms of like model
+intelligence it's somewhere around the
+opus level but I'll say that some of my
+frustration with using m views uh does
+come down to the fact that I mean meta I
+mean there's the privacy issues you
+cannot get around that I remember kranch
+analytica I'm sure you do as well and
+look I mean that might be somewhat
+hypocritical on my part considering that
+both like openai and anthropic pretty
+much have free reign on my computer any
+major tech company is like you know one
+bad day away from being meta in like the
+the mid210s.
+Um but also I mean on the other side
+meta has a rep and it's actually their
+responsibility to correct it. So it does
+feel a little bit sus when you know I
+want to give Muse sandbox access to one
+of the folders on my desktop only to
+discover that I have to give it access
+to my full computer. I mean that's not
+really earning trust back. And just
+circling back to Devday, that seemed to
+be an open shot that uh OpenAI I mean
+just had to take um with its new privacy
+feature. Now, they did not name Meta by
+name, but they're previewing something
+called OpenAI private intelligence,
+which is a business feature where your
+data isn't kept uh and the, you know,
+like OpenAI staff can't see it, which
+I'm not exactly sure where like the
+deferring line here is. uh considering
+that dot uh works on its own cloud
+computer and your computer is supposed
+to stay separate unless you choose to
+connect it but at the same time uh does
+that mean without the private
+intelligence like feature which I
+presume is paid um that does mean that
+open AAI you know can essentially train
+and or look at your uh your data I mean
+I'm not sure now the other frustration
+and major issue that I kept running into
+with Muse was its lack of connectivity
+although that was fixed earlier today
+when the Meta team announced like a
+whole boatload of connection
+that uh Muse can now well connect to. So
+this does bring us to a pretty
+interesting place where on the one hand
+uh you know you have open AAI with sort
+of it it's a serious dot uh which is
+capable of doing you know obviously like
+heavy lifting work and is powered by
+Astra but uh also costs uh $200. Whereas
+on the other side, you do have Muse,
+which is uh more built for trivial
+things, but clearly with integrations
+getting better, but is also Meta, who
+does have a bit of a like, you know, a
+privacy um rep, shall we call it? So, as
+I've said before, I think this is going
+to be a really interesting battleground
+to watch because this is essentially
+like all of these companies fighting it
+out to become your new AI executive
+assistant and best friend. It is kind of
+funny like playing around with Muse and
+sort of digesting everything that we saw
+at Meta Connect, especially with the VR
+goggles and the uh uh the glasses uh
+that it did very much remind me of the
+AI film that I made a while back called
+Paperclip. Uh for some reason uh the
+YouTube algo kind of buried it. So I
+know I I know not everyone saw it. Um
+but yeah, I mean it's linked down below
+if you want to check it out. Kind of
+kind of kind of relevant for everything
+that's going on. So, uh, yeah, if you do
+happen to check it out, uh, let me know
+in the comments there or just let me
+know in the comments here. As always, I
+thank you for watching.

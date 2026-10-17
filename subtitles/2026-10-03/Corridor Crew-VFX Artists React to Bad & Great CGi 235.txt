@@ -1,0 +1,506 @@
+UP主：Corridor Crew
+标题：VFX Artists React to Bad & Great CGi 235
+链接：https://www.youtube.com/watch?v=Wf0i1dmxrNg
+
+[laughter]
+[laughter]
+>> Look at the integration there. It's
+nuts.
+>> That's not even the gun.
+>> They're all looking inside.
+>> [laughter]
+>> I learned about a man named John Whitney
+and some crazy stuff he did.
+>> VFX ARTISTS REACT.
+>> [screaming]
+>> GUYS, I love Amazon, especially the
+movies. They come up with so much money.
+They got the big stars in them. And big
+stars means you got to have high
+production quality, high quality VFX. If
+you have a big star and a big name and a
+bad VFX shot in a movie, oof, it doesn't
+go over well.
+>> Oh, Chris
+>> Chris Evans worth chasing Barry [music]
+Keoghan.
+He's riding the motorcycle and he's very
+reckless.
+>> [screaming]
+>> All right, all right, after he crashes
+the motorcycle, my eyes went straight to
+one thing.
+>> Oh, the CG guy in the car.
+>> Wait, where?
+>> [laughter]
+>> It's not quite on the on the level of
+Disney Channel basketball game.
+>> It's not quite DISNEY CHANNEL GUYS.
+>> [laughter]
+>> SO, COULDN'T THEY JUST HAD A GUY IN
+THERE?
+>> THEY PROBABLY DID HAVE A guy in there.
+>> And he probably just immediately spiked
+the lens.
+>> Just the rest of the take, he's just
+>> You're probably right.
+>> It is odd to me that they bothered. This
+must have been some dumb producer note
+that some of the effects person saying
+they'll be like, "I'm wasting my
+Saturday night doing this dumb shot that
+no one's going to notice." Well, we
+noticed actually, so we appreciate you.
+>> The guy gets up and walks away.
+>> It's a really strange ending to a car
+chase. You like really wanted to chase
+this guy.
+>> [laughter]
+>> I'm very confused.
+>> I I am, too. And Uh, but no further
+context isn't
+>> [laughter]
+>> Because I don't know if that CGI guy
+makes a reappearance.
+>> It's not possible.
+>> [music]
+>> All this crunch and no lunch? I'm done
+with it. I need my fuel. More like Huel.
+I do need to actually eat lunch, so hey,
+I'mma be real with you. I forget to eat
+lunch a lot of the time because I'm so
+busy here. We're constantly filming, but
+Huel, today's sponsor, legitimately
+saves me every time that happens. Real
+talk, I actually do love this stuff.
+It's got 27 vitamins and minerals. It's
+got 35 g of protein, 7 g of fiber. Fiber
+is very important. Most of us don't get
+enough of it. I'm dead serious. This is
+the perfect mishmash of being able to
+get everything you could possibly want
+in a meal while having it be the most
+convenient thing [music] ever. I'm a big
+fan of the RTD, ready to drink bottles.
+This is a full meal replacement for less
+than $5 a bottle. And it gets even
+better. The black edition powder here
+stretches your money even further.
+Something like this is perfect for
+camping. Rip the bag open, pour into a
+bottle, fill it up with some water or
+some milk, and you have a perfect meal
+replacement. I also only just learned
+they're making energy drinks. It's
+actually got real fruit juice in it as
+well. If you're conscious about what
+your body is consuming, these also don't
+have any sort of artificial sweeteners
+[music] or flavors or colors. This is a
+limited time offer. You can get 15% off
+by clicking that link in the description
+if you're a new customer, or just go to
+huel.com/corridorcrew.
+I'm a personal advocate for this. I
+think it's pretty great. 50% off coupon
+down below. Back to my 1 and 1/2 minute
+lunch break while I eat my lunch.
+House of the Dragon season 3 came out.
+Let's watch it.
+>> [music]
+>> Warning, there will be some spoilers
+from episode 1.
+>> My daddy!
+>> [screaming]
+>> Uh, the dragons are so well done.
+>> Yeah.
+>> They're so well done. Their weight,
+their motion.
+>> The whole thing is animated flawlessly.
+And like it just goes to reinforce that
+animation is the most important thing.
+It moves really well.
+>> And the integration is so so clean of
+the actors with the dragons themselves.
+There's still a little bit of a feeling
+of we're shooting plate photography and
+putting it on digital when we're seeing
+the riders on the dragons. But they're
+doing a lot more dynamic wider framing
+this season from what I've seen. They're
+still using the buck. They had a
+six-axis buck that is tethered to a
+motion control system. And basically
+they have the dragon animation prepared
+beforehand. They know what the dragon's
+going to do in relation to the camera.
+And so they are aware of the parallax
+shift that we will see on the rider
+themselves. And what they get in the
+plate photography is an accounting for
+that parallax. So the buck the buck will
+move on whatever axis it needs to and
+rotate and the camera will move around
+it so that it feels like the rider is
+actually on the dragon moving through
+space. But beyond that, once they have
+that integration complete, they then add
+additional translation to that final
+plate moving it in 3D space a little bit
+more dynamically. So not only do you
+match parallax in the plate, you then
+add additional translation motion
+through 3D space making it smaller in
+frame or having it fly a little faster
+off and just to to make it feel that
+much more dynamic. Where it can fall
+down is if you go too far. For example,
+in this rig, it can rotate on any of the
+axes, but there's no up and down
+acceleration. Right? So when the dragon
+drops, like you're not getting the
+weighted delay of the person on that
+rig. They're just kind of moving down
+with it and that kind of breaks the
+illusion a tiny bit. Even so, I think
+it's a big step up from the last season
+from what I've seen so far. And some of
+those wider shots of them on the actual
+bucks feel really really good. The
+close-ups are I'm still not huge on, but
+once you get into like the medium shots.
+Well, you know what? The one thing they
+also really know how to get right in
+every shot is sense of motion and
+parallax. It's like really difficult
+when you're just against like a foggy
+sky. It's like how do you show speed and
+motion? And they're always doing a
+really good job of having enough like
+foreground and background and midground
+volumetrics, so to speak, so that you
+always get a really accurate sense of
+like the 3D movement.
+>> Look at the integration there. It's
+nuts.
+>> Wow. And the person on the dragon?
+That's really impressive.
+>> Look at the integration of the rider on
+the mount of the dragon.
+>> the water?
+>> In the water. They had a little tank
+that they had set aside for this scene
+where they had little pistons churning
+the water. They had a practical mount
+that the rider was on, and basically
+they did away with all of it outside of
+his performance and the mount itself.
+Maybe some elements of the water around
+him, but everything else is simulation.
+Everything else is digital set
+extension. All of the environment, all
+of the water, obviously the dragon.
+>> Whoever they have on those dragon teams
+are just absolutely crushing it.
+>> This, I mean, like I can't get enough of
+CGI creature in shallow water kind of
+vibes, [laughter] you know? Like CGI
+creature splashing vibes. There's
+nothing more satisfying in the CGI space
+than shots like this.
+>> I would agree. I mean, we we the shot
+that you deemed the best shot you'd ever
+seen at that point in time was the
+orangutan
+>> in the water. The best visual effects
+shot I've ever seen in my entire life.
+>> Let's go!
+>> Getting creatures wet, man. It's just
+it's a thrill.
+>> Hey, yo.
+>> This is a cool shot, too, because this
+is I mean, we literally see the rider
+climb up onto the buck rig that they
+have, and then it starts its animatronic
+motion.
+>> All in one shot. This looks really good.
+>> Isn't that sick? And the top of the buck
+is styled to match the actual dragon
+that they're on. So, hers actually has
+like practical prosthetic spikes that
+she can interact with and grab onto.
+Those are very likely replaced after the
+fact, but it's real geometry that she's
+interacting with and shadowing and
+coming into contact with.
+>> A little Texas switch where the dragon
+moves and then the CG character when it
+comes back.
+>> also seamlessly blending into full CG
+versions of all of these characters,
+right? Once the dragon gets far enough
+away, you know, you can completely take
+it over and then you can do whatever you
+want from that on as long as that seam
+isn't noticed and they do a really good
+job blending through all of these shots.
+So yeah, they're doing as much as they
+can do practically and that includes a
+lot of the stuff on the ship itself.
+They have full replications of both of
+these ships and they have two different
+tanks prepared, a wet tank and a dry
+tank for the battle. The dry tank is
+where they have the full replica on a
+gimbal system so that they can
+basically, you know, have it moving as
+it would in the ocean and they can film
+all other performance plates on there
+and then they have the wet tank for any
+interaction where there's people in the
+water falling overboard and the ramming
+of the ships themselves.
+>> Ooh, yeah, that's really nice.
+>> Man, that feels good. What's cool is
+like when they're doing the ram, they
+have the Queen that Never Was ship split
+in half, they practically cut it in
+half. They have that on two separate
+rigs so that it can bob in the water
+mechanically and then they have the
+Fist too on a separate rig that's
+also on a track. So it has linear motion
+to ram and it can also emulate the bob
+and flow of the water separate to the
+actual ship that they're hitting. And
+since it can go and ram and get hit and
+they have water cannons blasting the
+deck, they have that moment where they
+hit the actual ship and all the actors
+like lunge forward cuz they they're
+doing it practically. For the wet tank,
+I mean, how much water do you need to
+recreate something like this? You need
+3,000 tons of water.
+>> Wow.
+>> That's the equivalent of 3 million
+liters and so they needed a way to pump
+this in and suck it out to recycle it,
+to keep keep filtering it, keep it clean
+and it took two and a half hours twice a
+day to suck all that water out into
+giant silos that they had on set with a
+meter thick concrete slab underneath it
+for support. Like it is a huge
+undertaking.
+>> That's such an expensive set.
+>> A huge endeavor. I thought I was cooked
+for the rest of the season here though
+cuz I'm like they definitely used up all
+their money on this.
+This is just the first episode.
+>> Everybody, your comments matter more
+than ever because I've created a comment
+bot that goes through and finds the best
+comments and directly sends them to our
+inboxes, okay? So, if you have a great
+comment for a good or a bad clip, let us
+know and it will directly reach us.
+>> If it's good enough or bad enough.
+>> All right, you want something you can
+really sink your teeth into though?
+>> Yes, please.
+>> All right, Blade: Trinity made by none
+other than the famous David Goyer who
+actually was on our show. David, uh
+if you're watching, I'm sorry.
+>> [laughter]
+>> Blade: Trinity ends with Blade dying or
+so we think.
+>> [laughter]
+>> He's not dead as you can see from the
+shot where he opens his eyes.
+>> So, do you know you know about the story
+around this?
+>> I have I have a vague idea.
+>> The the folk tale is that Mr. Snipes and
+Mr. Goyer were not getting along on set.
+It was said that Wesley Snipes refused
+to open his eyes and to come awake.
+But, I don't think that's the case cuz
+he obviously in the other angle from the
+side he opens his eyes and starts
+fighting people. I think it's just a
+situation where like they did the
+top-down shot but they didn't do the
+opening the eye beat there. They're
+like, "Oh, we actually want that beat."
+They're like, "Oh, but we the top-down
+beat, we need that."
+>> Oftentimes the reality is not the fun
+narrative that the Cowboys make it out
+to be.
+>> He looks more dead with his eyes open.
+>> [laughter]
+>> It's like they're filming him front on
+when in reality his head's like tilted
+back.
+>> Yeah.
+>> And I think that's the uncanny part of
+it. You get you get a little bit of the
+like Annoying Orange effect.
+>> You do get a little bit of the Annoying
+Orange effect.
+>> [laughter]
+>> That not to mention like the eyebrows
+need to raise and the muscles need to
+pull around the eye socket just a little
+bit more.
+>> Can I Maybe I can do that actually.
+Let's try it.
+The very final shot of the film is a VFX
+shot, too. Now, Blade likes to drive
+motorcycles real fast.
+>> Whoa!
+That fast? Or is that slow? Would that
+[laughter] be really slow?
+>> Well, that'd be really slow, wouldn't
+it?
+>> Yeah, I mean, he's moving
+>> driving so slow.
+>> Very slow.
+>> Implies he's going like an inch a minute
+or something like that.
+They would do on the show once in a
+while
+>> is going to be a little history journey,
+but one that I discovered this morning
+by accident. I learned about a man named
+John Whitney and some crazy stuff he
+did. This is effectively the inventor of
+motion graphics. His first claim to fame
+is the opening title sequence of
+Vertigo. This came out in 1958.
+>> Whoa.
+>> On film, zero digital work here. How do
+you do these shots without a computer?
+>> With a pen.
+>> Yeah, with a pen and a string. That's
+just oversimplified, but you know, like
+like a Spirograph kind of situation
+where you have a some sort of ink, you
+have a string there to create a line
+there, and then the the the pivot point
+which you're orbiting around is
+changing.
+>> Perfect. You're right. But what about
+this one?
+>> Wait a minute. Does that appear to be
+animating?
+>> And there's zero digital.
+>> Zero digital. Motion graphics of a
+progressing function like this simply
+didn't exist. So, a man named John
+Whitney took it upon himself as an
+artist to bring this world to life. And
+here's how you make the opening credits
+of Vertigo. You buy an anti-aircraft
+predicting computer.
+>> So, guys, let's say you're trying to
+shoot down an enemy airplane with your
+old-fashioned Napoleon cannon. Well, you
+got problems like how high is the
+airplane? How fast is it moving? How
+long does it take your shell to reach
+it? There's gravity. What's the angle?
+Is the airplane off angle? You got to
+get all these things right if you're
+going to shoot a plane down with your
+[clears throat] with your shell that
+you're launching.
+>> So, anyways, you get six men
+>> I trust these guys.
+>> Oh my god, look at look at many viewing
+PORTS [laughter] THERE ARE.
+>> THAT'S THAT'S NOT EVEN THE GUN.
+>> THEY'RE ALL LOOKING INSIDE.
+>> [laughter]
+>> They're watching math boards on the job,
+dude.
+>> When he built this entire thing, I guess
+it tells you where to shoot the gun and
+you'll hit the plane.
+>> If you did this math and you land the
+shot,
+you'll feel LIKE A GOD.
+>> JOHN WHITNEY BOUGHT ONE OF THESE AT a
+surplus store, took it apart, and used
+these mechanisms, which are all
+ratio-based, which by the way, they're
+visualizing a mathematical formula, and
+he used that to do an animated
+spirograph for the beginning of Vertigo.
+So, this is the machine that's being
+used to do those animations.
+>> And the fact that you can think of even
+think to do that it proves he's a genius
+already.
+>> This looks like CGI.
+>> So, you could call this
+computer-generated imagery in the sense
+that it's an old mechanical computer.
+You know, he's torn it apart and there's
+all the mechanisms moving and stuff, and
+then part of that exposes the film or
+does different things based on where
+it's moving.
+>> And there's like a little aperture
+that's moving around on the machine.
+>> That's not the shape. The aperture moves
+around and reveals that shape at certain
+times to imprint on the film and stuff.
+>> It's a slit-scan
+>> It's like a slit-scan effect, yeah.
+>> Slit-scan is basically if you have a
+piece of film, you can just expose parts
+of it and you can basically just, you
+know, move things around to choose what
+gets exposed where on the film.
+>> A few years after he got that
+anti-aircraft computer, he made this art
+film called Catalog. And then in 1966,
+he's like, "Yo, IBM,
+I have a crazy idea.
+I could do this with a computer. I think
+that's the way to go." IBM's like,
+"Sure." And he became IBM's first-ever
+artist hire, their first
+artist-in-residence, where he then came
+up with a concept, the music visualizer.
+And he has an interview where he talks
+about this. I think he's like, "I was in
+Paris in like 1935 to 1938 and I had the
+idea for motion graphics that reacted to
+music." He says that there's been
+hundreds of instruments invented, but no
+one's invented visuals to go with those
+instruments. This is in the late 1930s.
+And then finally in the '60s, he gets to
+bring it to life. World's first digital
+music visualizer. So, John Whitney, huge
+badass, doing all this without a
+computer.
+>> This is incredible.
+>> This is insane.
+>> This is obviously This is This is an
+amazing.
+>> Well, the son of a dungeon is coming to
+cordadigital.com soon here, as well as
+of course all the extended react
+episodes like this one on
+cordadigital.com. Subscription's [music]
+$3.99 currently. Consider signing up and
+help support us being a little
+independent channel here [music] in the
+wide world of media. So long, everybody.
+Goodbye.

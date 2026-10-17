@@ -1,0 +1,409 @@
+UP主：AI Engineer
+标题：Turning Agent Memory Into Skills That Work — Will Lyon, Neo4j
+链接：https://www.youtube.com/watch?v=XPj3mIKEtI4
+
+Let's go ahead and get started. I see
+some folks wanting to to come on in. So,
+feel free to to come in. Uh, this
+session is going to be all about
+actionable knowledge and context graphs.
+So, my name is Will. I'm a product
+manager at Neo Forj.
+Um
+there's been a lot of discussion in this
+conference so far about loops, right?
+The uh React loop, the Ralph loops.
+Sometimes I feel like we're in maybe
+like a an amnesic loop, right? where our
+our agents go through this uh reasoning
+phase acting. They successfully complete
+some task but then kind of forget uh
+what they've learned. And memory systems
+today are largely focused around uh
+embedding text then at retrieval time
+sort of finding the most relevant data
+to to stuff into the context, right? Um
+so so something like this we find you
+know similar chunks of data in in our
+our corpus we inject that into the
+context window and trust that the agent
+is able to do something useful with that
+right now the the challenge that we have
+is you know recall isn't really like
+actionable knowledge so one challenge we
+run into is like for example we don't
+have a canonical representation of a
+thing right so if we have you know three
+different ways that we refer to Dr.
+Nwin, Robert N, the cardiologist, right?
+Like depending on the the context of
+this discussion, we need to have some
+canonical representation of the thing,
+right? So really agents need knowledge
+that is both connected, typed and
+traceable, right? Not just retrievable.
+So retrieval is is uh just a part of the
+problem when we're talking about uh
+agent memory. So at NearJ this is how we
+think of agent memory. We think of it as
+a connected graph composed of
+short-term, long-term and reasoning
+memory. Uh we'll take a look at uh this
+in a bit more detail. Uh but bear with
+me on on this idea of context graphs for
+agent memory. Right? So what are a few
+of the the key components here? Well,
+one is going from unstructured data to a
+knowledge graph, right? Going from the
+this process of
+agent messages, right? Both user and
+assistant messages going through some
+entity extraction process where we're
+identifying what are the entities uh and
+how are they connected.
+um doing this in a graph where we have
+strong types, right? We have a a
+relationship that describes how these
+entities are related.
+The entity resol resolution phase is one
+of the most important parts of building
+up this this knowledge graph, right?
+Understanding and making sure that you
+have a canonical representation of the
+thing. Uh so when we're talking about
+Dr. win we know this is a provider his
+name the role that he has uh and so on
+and a shared ontology is an important
+piece of this right so having some
+description of your data model of the
+domain that you're working with this is
+one of the key pieces uh making sure
+that you are successful in going from
+that unstructured text data to uh to a
+knowledge graph
+so for folks that have that have worked
+with memory
+uh in agents in the past like this this
+should look a little familiar. Uh one
+thing though that I think is really
+important when we're talking about agent
+memory and actual knowledge is this idea
+of the reasoning graph right so um if we
+saw in our our uh sort of three
+components of agent memory here
+reasoning memory is a first class
+citizen right we've talked about
+short-term and long-term these are the
+messages the entities extracted but what
+about the actual actions that the agent
+takes what about the the reasoning um we
+want to make sure that we're capturing
+that because that is an important piece
+as well. We want to make sure that we're
+storing thinking the facts not just uh
+not just the data right so how an agent
+decided and this is typically
+represented as decision traces right so
+every decision uh that our agent makes
+is linked to uh the reasoning grounded
+in evidence right we have policies
+um that that we're modeling explicitly
+and we understand for that execution
+plan the tools the agent called the
+results of those tool calls. Uh we also
+want to capture things like how many
+tokens did this burn, the the timing
+that this took and so on. This is all
+part of uh capturing the reasoning
+memory. And this is important like not
+just so that a single agent can get
+better the next time you do it to do the
+exact same thing, but rather think about
+systems where you have hundreds or or
+thousands of agents that have some
+shared grouping of of tools that they
+have access to, right? So we're able to
+persist these agent runs, these these
+decision traces in the graph and then
+share that with other agents in our
+organization, right? so that we have one
+shared context graph uh that enables our
+agents to essentially learn from uh each
+other in this shared memory piece. Okay.
+So that that that's the memory piece.
+Like this this is um uh a system that
+we've built at at Near Forj, a pattern
+that that lots of folks are are
+following for working uh with agent
+memory. But what about this idea of of
+actionable knowledge, right? How do we
+enable our agents to to take action? Uh
+memory. One way to think of memory is is
+this is a good representation of what
+happened, right? We know um the
+people we were talking about, how
+they're connected. we have the these
+decision traces. Um the next step is
+typically creating skills, right? How
+many people are are using skills with
+their agents today? Mo most folks. Cool.
+How many people have have written skills
+yourself? Cool. Mo most folks. How many
+folks have had an agent write the skill
+for you? Right. Cool. Yeah. So that
+that's what we're we're talking about
+here is going from this memory graph,
+this context graph to how can we use
+that to create like grounded uh
+executable skills. So if you're not
+familiar with uh with a skill, this is
+um an open standard anthropic um put
+this out
+uh agentskills.io IO I think is where
+the um open standard is hosted. And the
+basic idea here is that we have some uh
+some some metadata, right? Some
+description of like what this skill is
+about. Uh and then this progressive
+disclosure, right? So I I have lots of
+more detailed information. These are
+often in like markdown files, references
+that we can um progressively choose. If
+if we're going down this path of one
+piece of the skill, we can uh retrieve
+and load that data uh into context.
+Right? So this is this then gives us
+some like sharable unit uh that we can
+then uh take the skill, package it up uh
+and reuse that across different agents.
+But skills have a a similar challenge to
+some of the issues that we saw uh
+previously when when we were talking
+about uh memory, right? is that we're
+we're typically working with pros. Um,
+and so we're still often limited in in
+this uh challenge of understanding is
+this the canonical thing that we're
+talking about, making sure that we have
+like debugable steps and and output. Um
+and so to address some of these
+challenges that uh we're seeing with
+skills uh some folks on the NeoRaj
+research team um have done some
+interesting research and published some
+work on APE uh graph representation for
+learning and governing agent skills. Um
+this is a screenshot from the the paper.
+Zach is uh is here somewhere. If he's
+not here, he's he's at um the NearJ
+booth today. So definitely uh chat with
+Zach if you're interested in this. But
+you can think of this uh APE is
+essentially an extension of the agent
+skills um protocol with some additional
+metadata that now treats your skills as
+typed execution graphs. Right? So we
+have uh steps modeled as nodes. We have
+uh very um very strict schema that
+governs how we describe that how these
+uh steps are actionable. Right? So think
+of think of this as a way of of
+representing
+um a skill as a graph broken up into
+steps that are executable with a schema
+governed description. Um that's the the
+ape protocol and this is from the uh the
+benchmark that was used in the the paper
+found that yeah like this actually
+matters when when they applied this to
+um skills bench saw like a significant
+increase in uh task successfully
+completed when looking at applying uh
+the a protocol to human uh curated uh
+skills.
+So that looks interesting. How can we
+leverage some of those uh some of those
+ideas, some of that research for skill
+distillation? Uh so essentially what
+what we want to do is take this this
+memory graph, right? This context graph
+that's maybe scoped to a a workspace or
+scoped to a a project in an organization
+and we want to distill that into a
+skill, but not just like a markdown
+file. We want this to be grounded in
+actual data that we've observed. We want
+this to be like deterministic, right? We
+want uh well understood procedural steps
+in our graph. And we want to be able to
+govern this over time, right? If if the
+underlying data that makes up our skill
+changes in memory, we want to be able to
+understand that and and know about that.
+Um grounding is is an important piece
+here, right? making sure that the the
+data that makes up our skill is grounded
+in our memory system. But that that's
+that's not enough for it to be useful,
+right? There are other heruristics that
+we need to look at here. So, uh things
+like coverage, are we making sure that
+the uh steps and descriptions of our um
+throughout our skill are grounded across
+the skill? Coherence. Coherence is
+interesting. This is a way that we can
+detect uh maybe if the um information
+the piece the subgraph going into the
+skill distillation is split across
+multiple topics and we can suggest well
+you may want to create multiple skills
+here um and so on. So those are are some
+of the pieces that lead up to generating
+the skill. Uh skill governance is an
+important piece that I mentioned. Making
+sure that we can understand uh as that
+skill changes uh as the data changes are
+are we able to update the skill? And
+with dynamic loading, you can think of
+uh having sort of like a governed skills
+registry that allows us to retrieve uh
+for any agent the the most recent
+up-to-date skill, understand uh if that
+skill may have been uh stale or or or
+drifted, right?
+Cool. So, we've implemented this in uh
+the NEFJ agent memory service or we call
+NAMS. This is um an agent memory as a
+service as part of our NearJ labs
+effort. Um we also have open source
+tooling around that that implements
+these patterns. And essentially the way
+this works is we we have a a workspace
+scoped context graph, right? That has
+our three types of agent memory,
+short-term, long-term reasoning memory.
+Um we have uh background workers that
+are capable of going through this
+distillation process. We'll take a look
+at at what this looks like in a minute.
+Um, and then having some background
+curation process that is still making
+sure to take care of that governance to
+surface when uh our skills become stale
+based on the data that we have in the
+memory system. Um, this is the the
+pipeline that that we go through to
+generate these. Um, the I won't go
+through this in in detail. The the one
+thing that we're trying to point out
+here is that most of these steps are
+deterministic. Um we're really only
+leveraging an LLM here uh for
+synthesizing some of the claims uh
+generating some of the the text that we
+use for some of the skill description.
+Uh and then the other thing I want to
+call out here is that the first piece is
+really identifying the scope like where
+what is your starting scope for
+distilling one of these skills. Is it
+around a certain entity? the subgraph
+around that is it a specific
+conversation
+uh and that sort of thing. And so we can
+decompose uh the the way we represent
+the skill and make sure that each of
+these components is grounded again in
+underlying data. And that's the piece
+that we're looking at for if that skill
+uh essentially becomes stale. If any of
+that underlying data changes, is removed
+or uh becomes uh contradictory.
+Um, cool. And then we can also, as I
+mentioned before, we can also compose
+skills, right? So, this is where that
+coherence piece comes in. We use um
+graph algorithms like community
+detection, right? So, if we're mixing uh
+topics from multiple communities, that
+can be an indication that we need to
+decompose our skill and we'll catch that
+in um the skill governance piece. Cool.
+So, I've got a few minutes left here.
+Let's see what this looks like. Um so
+this is NAMS the near agent memory
+service. Um this is this is uh free
+currently. Anyone can can sign in and
+and try this out. Um this is what the
+the dashboard looks like. The the basic
+idea here is that we have um REST API
+and MCP tools that we can expose to our
+agents that map to um ingesting,
+retrieving, working with long-term,
+short-term reasoning memory. Um we're
+going through this entity extraction and
+resolution process. So I can uh look at
+some graph representation of my uh agent
+memory here. I I I can traverse that and
+and so on. Um we can look at entities
+that have been flagged. Um one important
+piece here is this idea of an ontology.
+So here we're using a healthcare
+ontology. So we we're going to be
+working with data about you know
+encounters, providers, uh that sort of
+thing. Uh and then I have ingested a
+bunch of conversations here. So we can
+see the conversations that have been um
+ingested related to a healthcare agent,
+right? And so now we're ready to distill
+a skill. Um and we said the the first
+piece is to decide like what is the the
+scope of that of that skill. We can do
+this for you know an entire workspace.
+That's often not what the case we want.
+We can do this around um you know a
+certain entity specific conversations a
+a class in the ontology. Let's do this
+around um our most recent conversation.
+And we're going to see this is going to
+kick off um in the the distillation
+queue and go through and fetch the data,
+go through that sevenstage pipeline and
+um construct the skill as a graph and
+then package that up for us. Um here's
+one. While this is running,
+let's just take a look
+at this guy. So, here's one uh that we
+ran previously. This is uh was run on a
+patient intake uh conversation. And you
+can see here that we've essentially
+extracted out the steps that make up the
+skill to run from a patient intake um
+all the way through uh charting for the
+patient. But we can see each one of
+these steps is grounded in the actual
+tool calls and the entities that
+constructed the underlying components of
+the skill. And we packaged this up with
+skill um MD file. Uh if we downloaded
+this, we would this would be packaged up
+with uh other references and and and so
+on. uh following that progressive
+disclosure uh standard that we use with
+agent skills.
+Cool. So that was a a quick look at kind
+of how we think about agent memory as
+part of this context graph uh with nearj
+and I'll leave up some uh resources. You
+can c grab the slides here. There's a
+link uh to the slides and a QR code. Um,
+the nearf agent memory service that I
+mentioned um is listed here as well as
+lots of documentation
+uh and resources for some of our open
+source tooling. So that's it. I'm out of
+time, but we have a NearJ booth uh so I
+will be there as well as lots of other
+folks from the NearJ team. So we'll see
+you there. Thanks folks.

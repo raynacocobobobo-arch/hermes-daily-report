@@ -1,0 +1,88 @@
+UP主：OpenAI
+标题：Create Slides, Docs, and Templates
+链接：https://www.youtube.com/watch?v=syML5KT-HzI
+
+Every week my team has a meeting about
+internal AI adoption.
+The conversation is useful.
+The transcript is a lot.
+I want a way for the meeting transcript
+to become organized for my team to use
+and a format to share out with leadership.
+With ChatGPT Work, I can use Google Drive
+to turn it into a Google Doc for my team
+and a slide deck for leadership.
+I can then save both formats as templates.
+I'm not starting over next week.
+Let me show you how.
+I’m using the desktop app,
+but you can also do this in ChatGPT Work
+on the web or mobile at chatgpt.com.
+Plugins connect ChatGPT
+to the apps I already use.
+I've got Gmail and
+Calendar already connected.
+I'll open Plugins, search for Google Drive,
+select install, and connect my account
+so ChatGPT can create actual Google Docs and slides.
+I'll start a new chat in Work mode and
+and give it the transcript from
+our weekly AI adoption meeting.
+it has everything we discussed, like
+updates, decisions, and at least
+three side conversations
+I don't need in the recap.
+I'll tell ChatGPT exactly how I want
+the Google Doc organized.
+I want an executive summary, this week's
+this week's updates, decisions, risks and blockers,
+action items, open questions, and next steps.
+I want clear section headings,
+short bullets, bolded decisions,
+and an action items table.
+If an owner or deadline isn't
+in the transcript, ChatGPT can
+flag it instead of guessing.
+All right.
+Here's the finished Google Doc.
+The decisions are easy to find.
+The action items are all in a table.
+And I can see what still needs an answer.
+Everything is already in the format I need.
+So I can use this document as a starting point
+for the leadership slides.
+I want five slides that show
+the biggest updates, what's working, what's not,
+what we're doing next,
+and the decisions we need.
+I'm passing in a deck that I made last week
+so it can format it the same way.
+Here's the Google Doc.
+And here's the leadership deck
+it created from that doc.
+The summary gives the
+team all the detail.
+The slides give leadership a version
+they can absorb in a couple of minutes.
+This doc and deck look great.
+And I'm going to need
+the same structure again next week.
+So I'll type in template creator
+and ask it to use this Google Docs formatting.
+Template creator learns the heading,
+formatting, and action items table.
+Now I'll save
+the leadership deck the same way.
+This time template creator learns the
+slide order, layout, and visual style.
+So the next leadership update
+starts with the same look.
+Next week I'll add the new meeting transcript
+and use my meeting summary
+template to create the Google Doc.
+Then I'll use my "leadership" update template
+to turn that document into
+the leadership slide deck.
+A clear doc, a polished deck,
+and nothing to rebuild next week.
+That’s ChatGPT Work

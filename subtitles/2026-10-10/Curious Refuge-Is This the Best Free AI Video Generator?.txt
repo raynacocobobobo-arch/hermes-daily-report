@@ -1,0 +1,475 @@
+UP主：Curious Refuge
+标题：Is This the Best Free AI Video Generator?
+链接：https://www.youtube.com/watch?v=rUGbh6hjijc
+
+Just last week, two different Chinese
+labs dropped a brand new video model.
+Now, everybody has been talking about
+and overhyping SeeDance 2.5, but there's
+a completely different video model
+that's actually much more interesting
+that we're going to be taking a look at
+today. MiniMax H3 is here and it has the
+ability to generate video clips up to
+2K. It also has the ability to take
+reference images, video, and audio
+together to generate the outputs. Plus,
+there's a completely free to download
+and use open weight version that you can
+download today. And if you live in the
+United States, the EU, the UK, or South
+Korea, we also have some really
+important information about using this
+video model. And I'd like to give a hat
+tip to the community member VFX Fan who
+left a comment in our recent video
+tipping us off on this brand new tool.
+If there are any tools or topics you
+want us to cover, be sure to let us know
+in the comments. So, let's take a look
+at MiniMax H3. This brand new model
+comes from the team at Hailo and
+throughout the last few years, they've
+actually had the best AI video model
+from time to time, but usually a
+different model comes by in just a few
+weeks or months and takes the top spot,
+but they've always been pretty darn
+solid. This represents one of the
+biggest updates that we've seen to their
+tool. Now, there's two different
+versions of MiniMax H3, which is their
+video model, that you should know about.
+There's the online version that uses an
+API which can generate the outputs up to
+2K, and then there's an open weight
+version that you can actually download
+to your machine and generate outputs up
+to 768p.
+So, if you want the higher resolution,
+you have to use the online version that
+does cost money, but there is a free
+version that you can use locally on your
+machine. The model has the ability to
+generate video clips up to 15 seconds
+long. It only generates them in 24
+frames per second, but you do have the
+ability to generate sound effects,
+dialogue, and also music if you wanted
+to in up to 11 different languages using
+the model. You can also generate across
+different aspect ratios, so you don't
+only have to do 16 by 9. They also have
+21 by 9, and you can even do 9 by 16 if
+you're doing user-generated content or
+micro-drama related content that needs
+to be in the taller video format. Now,
+this brand new model is an omni model,
+so you have the ability to upload
+references. You can upload up to nine
+images, three videos, and three audio
+clips. However, there's a big caveat to
+that because you can upload up to five
+images, but as soon as you begin adding
+more images beyond five, then they're
+going to start charging you more to run
+the model, which is kind of unique. I've
+never seen that before. And if you
+upload videos, it's also going to charge
+you more money to generate that output.
+Now, in terms of overall cost, if you
+are not downloading the model and
+running it locally on your machine, I'm
+going to assume you're going to be using
+the 2K output to give you about an HD
+version of your video. If you're running
+it through the online version of
+MiniMax, it's going to cost you about 13
+cents per second to run the model. That
+would cost about $1.95
+for a 15-second generation, which is the
+maximum amount of time that you can
+generate a video clip using MiniMax H3.
+Now, what's interesting about this
+specific omni model is the fact that it
+charges you less or more based on the
+images or the assets that you upload
+into the model. So, you can upload up to
+five different images or any combination
+of audio file that you want, and it's
+basically going to only cost you the 13
+cents per second to generate. But, as
+soon as you upload beyond five images or
+you upload video, it's going to charge
+you more, almost like a market price.
+This basically means that a 15-second
+long video can be up to $4.06
+using H3. Now, that is definitely
+expensive, but if you compare it against
+C Dance 2.0 on the fall website, it
+would actually cost you $10.20 to do the
+exact same generation. So, Mini Max H3,
+even when it's expensive, is still about
+60% cheaper than C Dance 2.0. Now, to
+use Mini Max on your machine, you have
+two different options. The first option
+is you can go over to Hugging Face and
+download the weights to your computer
+yourself and run it locally. We'll talk
+more about this in just a second. The
+second option is you can run through
+online aggregators. So, you can go
+directly to the Mini Max website. You
+can also run it on fall, which is an
+incredible aggregator because they
+actually tell you how much money you're
+spending each time you click the
+generate button rather than doing a
+super confusing credits system. So, I'm
+here on the fall website and we're going
+to change the duration to 15 seconds.
+The resolution we'll keep at 2K and the
+aspect ratio can be 16 by 9, that's
+totally fine. And we'll go to add image
+here and go ahead and hit upload and
+we'll bring in this image here, which
+may look familiar because we recently
+ran some C Dance 2.5
+videos with that image. And I'm not
+going to read out the entire prompt
+here, but basically the ship is going to
+be a flying through the crowds and break
+up and then go crashing to the ground.
+And when you're ready, go ahead and hit
+run. And after a few minutes, that gives
+us this.
+Okay, so there's definitely some
+impressive parts there. Obviously, it's
+not perfect and a lot of kind of strange
+artifacting is happening in the details.
+That's not just a problem you see here
+on YouTube. It's actually present inside
+of the video itself. Now, that's great,
+but let's create a larger context here.
+Let's compare it against the same
+generation from SeaDance 2.5.
+Okay, so as you can see SeaDance 2.5, I
+think did a much better job with the
+overall physical dynamics, but because
+you can only generate up to 720p with
+SeaDance 2.5, it's definitely going to
+be harder to use without using an AI
+up-reser. I probably would go with
+SeaDance 2.0 for this specific shot, but
+I think it's just helpful for creating a
+full context here. We also have this
+shot of a guy holding a sword and we
+wanted him to run into battle and
+Minimax 2K gave us this.
+>> FOR THE KING!
+>> OKAY, so there are some parts that I
+like. I really like the one-on-one
+action there, but the people in the
+background are completely static at the
+very beginning. I don't really know what
+was happening. Now, let's compare it
+against SeaDance 2.5.
+>> [screaming]
+[screaming and groaning]
+>> Okay, so again from a physics
+perspective, 2.5 is much much better. We
+also have this shot here of this guy on
+a horse and we want him to run into
+battle and so we generated this inside
+of Minimax H3 and it gave us this.
+>> Charge!
+>> [screaming]
+[laughter]
+>> Yeah, uh the sword upside down and then
+in the final shot it goes the right
+direction. And the way the people are
+running in the battlefield here, it's
+just it's really funny, honestly. So, we
+did the exact same generation in SeaArt
+2.5 and that gave us this.
+>> [screaming]
+>> And again, SeaArt 2.5 is just kind of in
+a different league. And we also have
+this example of a magician here who's
+basically casting a spell on this portal
+and we ran it through H3 and H3 gave us
+this.
+I kept waiting for something else to
+happen there, but it just it it didn't
+happen. So, obviously compositing there
+feels a bit more like a video game
+cinematic as opposed to something crazy
+realistic, but it did a decent job. Now,
+let's compare that against SeaArt 2.5.
+So again, SeaArt 2.5 did a better job in
+terms of overall physics and
+compositing, but it is very grainy.
+There's a lot of artifacting and color
+noise inside of the video here. Okay, so
+those are individual shots using Minimax
+H3. Now, let's get into some more
+advanced tests here. So, you do have the
+ability with Minimax H3 to generate
+multiple shots in a single generation.
+So, you can upload your reference assets
+and then do different cuts based on time
+code and just describing what you want
+to happen throughout the scene. So,
+let's do a different example here. So, I
+have the shot of a woman sitting in a
+diner. You may recognize the shot from
+previous videos that we've put together.
+And basically, I want a guy to sit down
+at the table, and you'll see what
+happens next. So, this is the generation
+inside of MiniMax H3.
+>> Thanks for the food. I'm starving.
+>> I'm sorry. Who are you?
+>> Okay, dialogue doesn't feel super
+emotive. It's kind of weird. The physics
+are strange with the guy's jacket, and
+definitely don't look at the text on the
+wall because it gets really strange
+there. Now, let's compare that against
+SeaDance.
+>> Thanks [snorts] for the food. I'm
+starving.
+>> I'm sorry. Who are you?
+>> [laughter]
+>> The editing on that dramatic pause, she
+was really impacted by the burger eating
+there.
+>> [laughter]
+>> That was great. [gasps]
+So, again, SeaDance seems to be better
+at multi-shot compositions. Like, very
+small details like the guy bumping into
+the table and it shaking in the next
+shot, I think just helps to sell the
+overall realism. Obviously, you're going
+to have to cut around some of the
+limitations, but again, SeaDance is
+doing a better job than MiniMax here.
+Now, I also really want to press into
+emotional resonance here. So, we have a
+couple character sheets that we uploaded
+here. Image number one is this character
+sheet of Shelby, who is the co-founder
+of Curious Refuge along with my wife,
+and we have a shot of me, and I love how
+GPT just called me untitled character,
+which I think is just a great title for
+myself. And then finally, we have this
+location that we want the really
+emotional scene to unfold. Now, I wanted
+a 30-second long generation here, but
+Mini Max only allows you to generate up
+to 15 seconds. And so, we generated a
+15-second clip, used it as an uploaded
+reference, and then generated a second
+clip. So, these are two clips
+back-to-back generated with Mini Max H3,
+and that gave us this.
+>> I've been trying to figure out how to
+say this since Thursday.
+>> I know.
+I've known since March.
+>> March?
+Why didn't you
+>> Because I kept thinking you'd tell me.
+>> I was going to.
+>> Okay, so some of the shots look good. I
+really like the OTS shot there at the
+end because that's actually kind of hard
+to pull off with some of the AI video
+models. But, the hero shot at the very
+beginning, the fact that the character
+is completely swap orientation there at
+the end, it's just not very viable. If
+you're working on a large-scale video
+project, you want something that's a
+little more reliable. Now, again, let's
+compare that against the same generation
+inside of SeaArt.
+>> I've been trying to figure out how to
+say this since Thursday.
+>> I know.
+I've known since March.
+>> March?
+Why didn't you
+>> Because I kept thinking you'd tell me.
+>> I was going to.
+>> [laughter]
+>> The dramatic music there the end. So
+again, see dance did a much much better
+job, but the multi-shot test is not over
+because no AI video test would be
+complete without a fight scene. So we
+have this starting image here of this
+guy fighting a robot character. We
+brought it into Minimax H3, prompted for
+a multi-shot sequence, and that gave us
+this.
+Okay, so that was cool. That
+legitimately was cool. There's some
+artifacting, some weird noise, kind of
+distortion happening around some of the
+smaller particulate parts of the scene,
+but overall the larger physical dynamics
+look pretty cool. I think the robot kind
+of missed his punch there, but I think
+even if a robot backhanded you, that
+probably would hurt pretty bad. Now
+again, let's compare that against C
+dance 2.5.
+Okay, both were great, but that one was
+definitely cooler. There's also one of
+our favorite test, which is the asteroid
+test. So we have this image here of this
+truck driving away from these meteors,
+and we generated inside of Minimax H3,
+that gave us this.
+Okay, I don't like how the particles
+kind of just fade away whenever they're
+falling to the ground, but at a macro
+scale it's pretty awesome, and I think
+you could generate a few times and get
+exactly what you're looking for. Now,
+let's compare this against Seed Dance
+2.0. So, again, 2.0 is the version
+that's been around for about 5 months
+now.
+And again, 2.0 is a better video model.
+Okay, so after testing the 2K online
+version of Mini Max H3, it seems like
+Seed Dance is better almost across the
+board. Even if you use the old version
+of Seed Dance, which does give you the
+ability to generate up to 4K native
+outputs,
+it's [music] simply just not as good as
+Seed Dance. So, it's kind of a tricky
+tool in an online context because it
+performed worse in almost every single
+one of our tests. And so, I think I
+would rather generate less videos that
+are more expensive inside of Seed Dance
+than more videos inside of Mini Max that
+just don't quite live up to Seed Dance.
+And so, across the board, I don't think
+the online version is the most
+compelling version of this model. Now,
+what's much more interesting with Mini
+Max version 3 is the fact that you have
+the ability to download an open weight
+version on your own computer. That means
+that you can run this model on your
+computer and generate video clips up to
+768p.
+While I can't confirm if the 2K and the
+768p version are physically different,
+from our test, it does seem like the
+physics are somewhat worse inside the
+768 version. But, having the ability to
+generate video clips completely for free
+is a huge value proposition. Up to this
+point, the best open-weighted tool on
+the market was LTX 2.3. And so, I was
+really curious to run these same tests
+against the open-weighted version of the
+tool to find out which is the best free
+option in generating AI video. So, let's
+take a look at the examples here. So,
+this is the same shot as earlier
+generated in the lower resolution
+version of Min Max that is the open
+weighted version.
+I mean, it's pretty awesome. I wouldn't
+say it's as good as a really, you know,
+high-resolution 8K cinematic IMAX film
+version of what you would expect to see,
+but as a high-budget like Unreal Engine
+type movie, it did a really good job.
+Now, let's compare that against LTX 2.3,
+which is the best version of an open
+weight a downloadable version of a video
+model that we've had up to this point.
+Okay.
+That was kind of weird. So, one thing
+you will notice is the video is much
+more crisp. So, you do have the ability
+to generate up to 4K outputs locally on
+your machine using 2.3, which is
+awesome, but from a physics standpoint,
+the ship really falls apart there, and
+there's a lot of just kind of strange
+artifacting lines, and ultimately, it
+didn't do a great job. So, I'm not
+really impressed with LTX in this
+example. So, let's go back to that
+example of the guy riding on the horse.
+In the open weight version of Min Max
+H3, we got this.
+>> CHARGE FORWARD!
+>> [screaming]
+>> OKAY, his face turns to jambalaya there
+in that final shot, but the first two
+shots were actually pretty good, not
+perfect, but pretty good. And inside of
+LTX 2.3, we got this.
+>> [screaming]
+[laughter]
+>> He just gets possessed there at the end.
+So, it did not do a great job at all.
+So, as you can see from these two quick
+tests, and we'll do more tests in the
+very near future, it does seem like
+MiniMax H3 is a much more compelling
+tool in an open-weighted environment. I
+don't think it's the online version of
+MiniMax that's actually really
+impressive. It's this open-weighted
+version, but you are limited to 768, so
+you'll always need to up-res it using an
+AI tool to get maximum resolution.
+However, all of that comes with a huge
+caveat, that is if you live in the
+United States, the UK, the EU, or South
+Korea, the current licensing agreement
+for the open weight model version of
+MiniMax H3 basically says that you can't
+download or export or distribute the
+videos that you create. So, it's not
+going to be helpful if you actually want
+to find somebody to distribute this film
+or even upload it to social media.
+Technically, you don't have the right to
+do that. So, with all of that being
+said, what is currently our recommended
+AI video models? Well, the best overall
+video model is SeaDance 2.0. It's not
+SeaDance 2.5. And the best open weight
+version that you can actually distribute
+to a western audience is LTX 2.3. But,
+as soon as MiniMax is able to figure out
+the licensing for H3, it's going to be
+very compelling. I would also be really
+curious to hear about what you think of
+this brand new video model. And, of
+course, as always, if you want to learn
+the latest AI filmmaking techniques and
+workflows, I highly recommend checking
+out our membership over at Curious
+Refuge. We train artists at every major
+studio in the latest AI workflows
+ranging from visual effects to
+screenwriting and we would love to have
+you inside our community. Thank you so
+much for watching. Be sure to like and
+subscribe if you want to see more videos
+like this in the future.

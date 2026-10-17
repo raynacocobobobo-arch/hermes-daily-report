@@ -1,0 +1,205 @@
+UP主：OpenAI
+标题：Production Monitoring with Codex: Grafana, Kubernetes, & Security
+链接：https://www.youtube.com/watch?v=RQfg-zo4R-g
+
+So, it's 3:00 a.m. Your phone goes off.
+Check out errors are climbing. You open
+Grafana. Where do you even start with
+fixing the problem?
+>> Yeah, this is the engineer's worst
+nightmare, isn't it? So, first we would
+have to work out what's affected and
+what has changed. The dashboard is one
+part of that. You also do need the
+deployment context and the relevant
+code. So, gathering these pieces, if you
+think about it, can take a lot of
+repetitive work.
+>> That is what we are exploring with Codex
+today.
+Let's walk through a scenario, shall we?
+So, in this example, we are pushing a
+new version of our repository out. We
+can see that we are now on the current
+release V2, but unfortunately, our
+checkout error rate has climbed to right
+around 20%.
+So, this is unfortunate. We don't really
+know exactly what's going on as of yet.
+And we're going to use Codex along with
+a custom skill
+to investigate the checkout evidence and
+see exactly what is causing this outage.
+So, Codex is working through. It is
+gathering the evidence that needs to
+gather in order to ensure that
+everything is working as expected. It's
+taking a look at the successful
+checkouts, the response time, the
+service health, and pretty much
+everything else that we need in order to
+check the response.
+As we return with the result, which we
+should have in a mere matter of seconds.
+There it is. We can just type approve,
+and this will push the newest version of
+our application out, fixed, patched, and
+ready to go. So, let's see what happens
+when we push that up. Our checkout error
+rate has returned to zero.
+And note that we did not reverse do it
+back to an older release. We are still
+on V2. We are running the latest
+version, and Codex has successfully used
+the repositories bounded evidence
+workflow and the release stiff to
+investigate and repair the issue.
+>> Yeah, so here if we take a look at what
+has happened, we were looking at the
+dashboard here from Grafana where the
+main things that we're looking at are
+checkout health, the current release
+version, the error rate, and the actual
+P95
+metrics. So here we would see in a
+manual sense an engineer might come in
+and take a look at this dashboard, start
+trying to figure out like where are the
+logs, where are the other dashboards
+that might show more information, what's
+the code change, tracking down that
+specific commit. Um and in this case
+what we actually have done is more of
+Codex getting more of that information.
+The engineer's offloading a lot of that
+manual gathering to um an agentic
+process which then goes on to propose a
+fix and then when we, the human in the
+loop, approves that, then we can
+basically just have this out within a
+matter of minutes rather than a very
+hurried um
+amount like an hour or so.
+>> Hey Ankur, did you know that this will
+work for containers and Kubernetes
+clusters as well?
+>> I did not. Let's take a look.
+>> Let's take a look indeed. So within this
+version we have a um well we have an
+application that essentially compo- is
+composed of an inventory API cluster, an
+orders API cluster, and an edge gateway
+of course. Within this new version we
+are going to roll out a new version of
+our inventory API. Just some developer
+work that we pushed out. And we're going
+to verify that this new version of the
+service deploys healthily. So within
+this version it looks like it has passed
+our CI/CD workflow. That being said, it
+looks like the container is OOM killed
+regardless. What's going on here? Very
+confusing. Oh, and unfortunately, it's
+caused cascading failures that have
+taken down our entire cluster.
+That's never good. So, let's use this
+Kubernetes rollout investigator skill to
+investigate our current rollout and see
+what is going on here.
+Uh so, we are investigating. We are
+seeing exactly what the problems are.
+Uh we are also identifying the causal
+chain. That's probably the most valuable
+aspect of Cortex both for security and
+production monitoring purposes. Ah,
+there we are. We have our patch ready
+now. I'm just going to click approve
+similarly to how it was before.
+And this is going to roll out a new
+version of our inventory API container.
+With that, it looks like our service has
+been restored to a healthy baseline. Our
+orders API is functioning and the edge
+gateway is back online.
+Isn't that wonderful?
+>> Yeah, so here we saw a very similar
+process where the engineer doesn't just
+gather the information themselves. They
+go and offload that over to Cortex.
+Um and then we are still in the loop as
+Cortex proposes the fix and then we are
+able to fast-track this fix much quicker
+than uh than we would have ourselves.
+And I would say like in both cases, you
+can see that we are the ones who get
+paged first and then we are the ones who
+go into Cortex and have it propose a
+fix. There is also an alternative where
+you actually host your own runners
+within either Kubernetes or Grafana. Um
+or any other observability platform and
+then you can have it monitor these
+alerts that um are above the baseline
+and then once that is something that
+triggers Cortex, it will able be able to
+go in and completely automate that
+process from the alerting to the
+proposed fix. And you can also set up a
+multi-agent system if you want to uh
+remove yourself from the loop entirely,
+you can have those um
+other agents go in and validate the
+fixes themselves and push out that all
+without you needing to become hands-on
+for it.
+>> Love it. So, the interesting thing thing
+about production monitoring as well is
+that it can have some touch points with
+security.
+As a matter of fact, let's dive into one
+last example where we are essentially
+using uh production monitoring and Codex
+Security together in tandem to ensure
+that we have one continuously up and
+available service. So, we just kicked
+off this particular application.
+Um we are going to be comparing the
+checkout demand and the just to give a
+little bit of backstory on the scenario
+here is that we're going to be
+encountering some uh traffic issues.
+Specifically, we're going to notice that
+despite there not being a recent
+deployment,
+uh there is a problem where
+>> [clears throat]
+>> essentially one report request is
+starving the checkout in the shared
+worker pool. What that means in plain
+English is that this request is trying
+to pull too many resources at once. It's
+taking down our service. So, what do we
+do about it? Well, nothing because Codex
+is going to do that for us. We are
+essentially going to approve the uh
+patch that should fix this
+functionality, which is generated for us
+through the Codex Security plugin.
+Uh we're going to replay the request and
+we now see that we have successfully
+blocked this incredibly expensive
+request. So, interestingly enough, this
+security requirement actually helped us
+fix a production monitoring issue.
+Uh if you haven't tried out the Codex
+Security plugin, it's an incredibly
+powerful tool. Highly recommend it and
+there are a lot of lateral plays that we
+haven't even put together on this front.
+So, highly encourage exploration on
+that.
+>> Yeah, and if you had any um questions or
+anything that you wanted to discuss, we
+are also fully available to discuss with
+you guys. So, feel free to reach out and
+we can take it from there.

@@ -1,0 +1,1056 @@
+UP主：Matti Haapoja
+标题：Sony FX5 Review | 5k Open Gate 16-Bit RAW... We Waited 6 years For This
+链接：https://www.youtube.com/watch?v=uHLi6o9T7Wk
+
+Boys and girls, here it is. The Sony
+FX5, the camera that we have all been
+waiting for for years. It's here.
+The FX5 has a completely new 16.6
+megapixel full-frame sensor and new
+BIONZ
+processing engine that lets you shoot in
+5K open gate 3:2 in 16-bit linear raw.
+It produces an image better than any
+other prosumer camera I've ever seen in
+my life. With [music] 15 stops of
+dynamic range, beautiful colors, rich
+detail, no over-sharpened 50 megapixels,
+the image is the best thing about this
+camera. We get a 3.5-in 4-axis [music]
+vari-angle monitor, 96 kHz 32-bit float
+audio, which I think is a first in a
+camera. Forget dual base ISO, we get a
+triple base ISO for even crazier
+low-light performance, 4K 120 frames per
+second, and in the future 4K 240 frames
+per second in raw in pretty much the
+same size body as the FX3. I've only had
+a couple days with it so far and I've
+been testing it every single day in so
+many different situations to give you
+guys all the information I can and show
+you all of the footage. And for me, I
+already know after 6 years of testing
+camera after camera, I'm fully replacing
+my Sony FX3 with the brand new Sony
+[music] FX5.
+>> Here it is.
+>> Wow. This is what we've been waiting
+for.
+>> moment.
+>> No way, it's real.
+>> What am I supposed to do with my Nikon Z
+R now?
+>> [laughter]
+>> Woah.
+>> That's a win.
+>> Yeah.
+>> That's the dorkiest thing to be excited
+about.
+>> You like it?
+>> To me, it's the camera that you need.
+It's not really the camera that you
+wanted.
+Okay, so let's get into it all of the
+nitty-gritty details because I know you
+want to know everything you can just
+like I would if I was hearing about this
+camera for the first time and I have so
+much to say already and yes, I am
+filming in 3 by 2 open gate 5K 16-bit
+linear raw right now. I've never done
+that for a roll, but I had to go all out
+for you guys. Let's first talk about the
+image quality because I think that is
+the biggest story here. The FX5 has a
+16.6 megapixel full-frame stacked XAVC-I
+most image sensor and a new BIONZ XR II
+processing engine with integrated AI
+processing. [music] This sensor has an
+even higher readout speed than the FX3,
+so even though it's not global shutter,
+we should have better rolling shutter
+than the FX3, which was already really
+good. There was basically no complaints
+there. The craziest part here is that we
+get 16-bit linear raw, which they call
+XOCN and we get three different flavors
+of it. We get the LT, the C1 and C2.
+When it comes to the big cinema cameras
+in the Sony lineup, the LT is the
+smallest file size codec, so we actually
+now get two smaller ones than they've
+had before. The XOCN raw comes from the
+highest end cinema cameras that Sony
+produces and if you were impressed with
+the Nikon ZR 12-bit raw, well, this is
+16-bit raw, which is crazy cuz it wasn't
+too long ago that we only had 8-bit and
+now we're getting 16-bit raw in a tiny
+camera [music] like this. So the C1,
+they're saying is about 25% smaller file
+sizes and the C2, they haven't quite
+decided how small they're going to make
+it yet, but here's a comparison of all
+the different codecs of the FX5 and
+there's an FX3 clip in here. I'm
+curious, can you guys see the difference
+once it's on YouTube? It's been
+compressed and all that stuff cuz I did
+this test with both Tyler and Spencer
+and they could definitely see the
+difference between all them, and Tyler
+isn't like the most filmmaker person,
+and he could still see the differences.
+>> All right. Time for test. Spencer, can
+you tell the difference between these?
+Let's play it for a second here.
+Can you see the difference?
+>> Is this all FX5?
+>> You tell me. You should be able to see
+some difference, though.
+>> Some sharpening. [laughter]
+I mean, this one looks like the FX3
+for sure.
+>> Bingo.
+>> Um did you like manipulate it in any
+way?
+>> Same color grade, same everything on top
+of it.
+>> Okay, this is the best bit rate, for
+sure.
+>> Correct, [laughter] yeah.
+>> And then all of these kind of look the
+same, except for this one. This one's
+like kind of soft, and then these ones
+are probably raw. This is probably
+H.265. That's my guess.
+>> Yeah, good guess. Good guess. I'm
+actually surprised that you're able to
+Tyler said the same thing. Well, he's a
+little bit
+>> Our faces are right next to the screen.
+>> [laughter]
+>> That's what I mean. And they're not
+compressed through YouTube, so
+>> Right, yeah. We're looking at the the
+raw footage.
+>> Yes. I'm curious what the people will
+see, but so far, I can see the
+difference, for sure. Tyler has seen the
+difference, and Spencer has
+called it exactly, so
+there is a difference. There's a massive
+difference between the FX3, and then the
+rest of them, like massive. The FX5 just
+has such rich, beautiful detail. Now,
+when it comes to the different codecs of
+the FX5, they're a lot closer, which to
+me is a good thing. It would kind of
+suck if you always had to film at the
+highest raw codec to get like a good
+image. I love that the H.265 still looks
+really [music] good to me, but when you
+blow it up on a big monitor, you can
+definitely see the difference between
+the raw clips and the H.265 clips. But
+when it comes to the raw clips, I feel
+like the LT is is definitely the best.
+You can see the difference, but there's
+not as drastic of a difference between
+the C1 and the C2, and very little
+difference between the C1 and C2. So,
+file sizes, you've seen the quality now.
+Um this is my like very unscientific I
+did a 10-second clip with each of the
+codecs. The LT
+in 5K comes in at 600 megabits per
+second.
+So, six times what you're used to on
+your A7S III or FX3 or whatever. The C1
+comes in at 450 megabits. So, four and a
+half times ish.
+The C2 360 megabits. And then the H.265
+is 160. It's like kind of double-ish to
+go raw from H.265.
+>> That's not that bad though considering
+the quality jump.
+>> That's what I mean. Like it's not like
+on like the I got that on stuff where
+it's like 30 times
+>> [laughter]
+>> Like it two times is not that bad. Do
+you think with these data rates you
+would actually use raw?
+>> Yeah, I'm thinking is this the new
+standard right now?
+>> I think most people are just going to
+start shooting everything on C2.
+>> Also, considering that the like files
+have been really smooth for playback.
+>> I was just going to say
+five clips five full full res with color
+grade
+plays perfect. Not a single frame drop.
+That is like the big from this test that
+was the biggest takeaway. I'm like, holy
+crap. You can use the raw H.265. Uh you
+can see not a single frame drop. 23 0.97
+s full full quality everything is
+playing perfectly even if I stop again
+stop it plays like almost immediately.
+>> That's a big deal. The biggest takeaway
+for me was having five clips that are 5K
+or 4K all stacked together raw and H.265
+and all of it playing perfectly. That
+makes such a big difference. Like it
+doesn't matter if you have an amazing
+color science and codec that looks so
+beautiful and it's 16-bit raw but in
+your editing program is just like
+uh and you're trying to edit and it's
+just a nightmare. You're never going to
+use that codec and you're going to do
+proxies if you do it. It's a nightmare.
+This, all of these codecs, you can play
+perfectly fine in DaVinci and I was
+using like a beta version of it. That
+being said, I am on the latest and
+greatest Apple Silicon, so
+yeah, I'm not sure exactly at what point
+it might start to slow down.
+>> No way, it's real.
+>> [laughter]
+>> Wow.
+Oh my god. I I I swear I saw I thought
+it was like an AI image when I first saw
+[laughter] it.
+FX 5
+>> Yeah, I just taped IT ON THERE.
+>> THIS IS AMAZING. What am I supposed to
+do with my Nikon Z R now?
+>> [laughter]
+>> Well, this thing films 16-bit raw.
+>> Holy.
+>> With three different flavors, so like
+way more compressed, so it's actually
+like usable on projects.
+>> Yeah. Sony's just figured it out now.
+>> I think they want to keep the FX 3 as
+like a staple and then you can have even
+more, even better if you want.
+>> I mean, I just put this in my hands and
+I'm sold.
+>> [laughter]
+>> Come on.
+>> You want to You want to try it out?
+>> The rig.
+>> Give it a go.
+>> Is it crazy file size?
+>> So, they have
+>> market for a Venice. Now you can see
+that.
+>> Yeah, obviously.
+>> It's XOCN LT, which is like fairly big,
+but then there's two smaller versions.
+>> You like it?
+>> Bitter sweet for me. It is the camera
+that we've all been waiting for and I
+feel like there's no like big wow
+factor. It's just like, oh yeah, this is
+what we wanted.
+>> Yeah.
+>> Yeah.
+>> Yeah, check check check.
+>> Yeah, exactly.
+The 16-bit colors just look so good that
+you can really see them in this clip of
+Tyler with the kind of decorations
+behind his head. The colors all stand
+out so much. I've never seen detail in
+colors like this from a prosumer camera.
+And we get open gate 3 by 2. Some people
+might be like, what's the big deal? Look
+how beautiful this looks. It looks like
+it's like medium format or something.
+And then you can shoot in anamorphic and
+all this stuff. Um, the resolution is
+4992 by 3328.
+The only catch here is that you cannot
+shoot in open gate unless it's in raw.
+You have to use the raw codex. Now, they
+will have a firmware update later on
+where you can shoot in XAVC-I.
+I think it might just be 4K. I'm not
+sure if 4K is 5K, but as of right now,
+you can only shoot in open gate 3 by 2
+in the raw codex. And great news, we get
+D squeeze built into the camera. Bad
+news is it disables the auto focus. So,
+there's some really nice lenses out
+there like these Blaze Anamorphic auto
+focus anamorphic lenses, which would be
+so good for this camera except you lose
+auto focus. So, if you want to monitor D
+squeeze footage in camera on the
+monitor, you're going to lose auto
+focus. And so, I was literally filming
+all of these clips with D squeeze turned
+off because I didn't mount an external
+monitor. And so, that's a pretty big
+bummer. I'm not sure if they can update
+that in firmware and fix that. I know
+it's a little bit of a niche thing, but
+I think this is going to be more and
+more of like a common use thing where
+people are shooting in auto focus
+anamorphic lenses, especially as we get
+more and more cameras that have open
+gate. I'm not going to go into all the
+details about anamorphic lenses, but
+basically you're using the whole sensor
+and then squishing it down. So, you're
+using all of the data of the sensor to
+get a better image. And at the same
+time, the aspect ratio doesn't become
+just like a sliver. This was all 1.5x
+squeeze anamorphic. So, it's still kind
+of like wide screen format, but it's not
+crazy crazy wide screen. We also get 17
+by 9, but again, you have to shoot in
+raw except we do get XAVC in 4K. So, you
+can do that in 17 by 9, but basically
+you have to shoot in raw. There's also a
+dual gain ISO mode where you're supposed
+to get even more dynamic range. Um
+without this, it's 15 plus stops of
+dynamic range. Now, I tested it just a
+little bit and I didn't really see any
+difference. Um and I feel like I would
+really have to test something like this
+to like see where does it break and
+where is it good and where is it not. I
+probably won't end up using this much
+because the dynamic range of the camera
+is already really, really good and it
+doesn't work in raw anyway, so I think
+the 16-bit raw is like that is the That
+is the big thing here. This is the best
+image I've ever seen from a camera
+that's not like a full-on cinema camera.
+I I guess this is a cinema camera, but I
+think the 16-bit raw actually compressed
+in a reasonable way that you can
+actually use and edit with totally fine
+is the biggest reason to get this
+camera. And the final image and how easy
+it is to work with is the number one
+reason to buy a camera. All of the other
+stuff, the slow motion, all those other
+things, they're kind of just bells and
+whistles, but on every project you want
+[music] a great image that's not a
+nightmare to work with in post and it
+while you're shooting. There it is.
+>> Wow.
+>> The moment you've been waiting for, that
+we've all been waiting for.
+>> They don't look kind of the same.
+>> [laughter]
+>> I was I had the exact same reaction.
+Like, wait, is this Oh no, wait, yeah,
+it is. It's got some like new texture,
+new button dials. What about THE SCREEN?
+>> WHOA!
+THIS IS A BIGGER SCREEN. This is a way
+bigger screen.
+>> It is definitely a bigger screen.
+>> They listened.
+>> Does it feel much different? Does it
+look much different?
+>> No, not really. But you But also yes.
+There's subtle differences.
+>> What's the one thing that you've been
+like hoping is true about the FX3?
+>> I mean, the one thing that I was hoping
+was true was going to have internal ND,
+but I didn't know that. [laughter]
+You know what I mean?
+>> I made the whole video. I told you. I
+was like,
+>> [laughter]
+>> there's way they're going to put it.
+But, uh yeah, it's it's kind of
+interesting. I'm
+I'm a little mixed feelings about it
+right now.
+>> I see a false color button.
+>> Yep, I like that. I like that a lot. 5
+years of waiting, 6 years of waiting, or
+whatever it is. Are you being wowed
+right now?
+>> It just feels like I'm holding an FX3.
+>> [laughter]
+>> Like I'm not wowed because I've used
+this camera for so long.
+>> And it is a great camera, and I know
+I'll switch to
+>> I I will I'm saying it now, 100% switch
+to this, but it's not that exciting. New
+batteries, yeah. This is a new battery.
+They made a new battery?
+>> Yeah, new battery.
+So, it's not global shutter. That's
+going to be a big disappointment for a
+lot of people, but it is an even faster
+readout speed. And I did this little
+test where I flashed both the FX3 and
+FX5 sensors um with a flash, and I kind
+of wanted to see how do they process the
+flash because usually you only get like
+a little bit of the flash, and they're
+not
+that different, but I would say the FX5
+a little bit more consistently got more
+of the flash every single time.
+Sometimes they both just missed it, and
+whatever, but more consistently you
+could see more of the flash every single
+time. And then I also did like a poor
+man's rolling shutter test, and I
+couldn't see any difference. I think the
+FX3 already had great rolling shutter.
+It's not global shutter, but it's really
+great, and I think the FX5 is just
+better, but not global shutter. Let's
+talk about low light. So, we now get a
+triple base ISO. It is 800, 4,000, and
+12,800,
+and I went out filming in anamorphic
+during the night, very little light, and
+it looks beautiful. The 16-bit raw
+especially, it just looks so good even
+at night time in the dark. For me, I'm
+still like wrapping my head around when
+I would use the 4,000. I feel like a lot
+of times it's kind of one or the other,
+but maybe there'll be situations where
+I'm like, "Oh, the 4,000 is actually
+perfect." And funny enough, actually, on
+the FX3, I've already for the longest
+time, the way I use it like for my
+videos is I will always have an ND
+filter on. And then when I'm inside, I
+use the base ISO 800 if I can, and if
+not, I just switch to the 12,800 and
+then add a little bit of ND. And then
+when I go outside, I just put it to the
+base 800 and then use the ND. So, I
+never really have to take off the ND
+filter. And I think [music]
+that's kind of a missed opportunity for
+the FX5. I feel like we didn't get
+internal NDs, so a lot of people will be
+disappointed by that. I knew we weren't
+going to get it, not in a little camera
+like this. It just cannibalizes too many
+cameras, and it's not really meant for a
+camera like this, I guess. [music] I
+would still like it, but yeah, we don't
+have it. But, they could have just put
+in like one flat ND that comes in, just
+press a button, the ND comes in, and
+then we have those triple base ISOs that
+we could go through. And so, in theory,
+you might not really need variable NDs
+anymore. And even better, I don't know
+if this is like just physics-wise not
+possible, but I would have loved like a
+really low base ISO. So, we would still
+have the 12,800 and 800, and then we get
+like a 50 ISO or whatever, 100 ISO. And
+so, in theory, you could when you're
+outside and it's bright, you could just
+go to that lowest base ISO, and then
+that would mean that you don't really
+need ND filters anymore. But, then with
+the raw, none of this really matters.
+You can basically use any ISO, ramp
+through them all, and they it just looks
+great. It's raw, so yeah, at the same
+time, the triple base ISO is like,
+"Yeah, nice, but also not the biggest
+deal." It's incredible in low light,
+even better, I think, than the FX3,
+especially with all that rich detail and
+all that stuff. And even the noise just
+feels like a little bit smaller, I
+think, because it's 5K. It just it feels
+more like film grain, that maybe that's
+a cliche to say, but it it looks really
+good, much better than the FX3. As soon
+as you go like off base ISO, it just
+like the noise gets crazy and it's all
+big and wonky.
+Um the FX5 is very good in low light.
+Stabilization, so we're supposed to get
+better in-body stabilization and
+approximately two times improved roll
+correction. Now, I wasn't noticing right
+off the bat like, "Oh, this is way
+better." It's definitely not worse. And
+then on top of that, we have the
+standard stabilization, the active
+stabilization, and we get a new one, the
+dynamic active stabilization, which
+crops in even more and stabilizes even
+more using software inside the camera. I
+only did a little bit of a test. To me,
+it seems decent, but also at the same
+time goes a little wonky. So, I think
+it's really nice to have. How much will
+I use this, especially with how much it
+crops in? Like the active stabilization
+already crops in a little bit and
+dynamic active crops in even more. I
+just can't see myself using it that
+often, but the active stabilization was
+already really good. So, yeah, it's just
+nice to have options, but to me it's not
+like a I'm going to get this camera for
+this feature. Also, if you're shooting
+in raw, you do not get any of the extra
+stabilization. You only get the standard
+one. You don't get any of the software
+processing stabilization, no active or
+dynamic active.
+>> All right, this is it.
+>> This is it.
+>> This is like
+>> This is what we've been waiting for.
+>> moment. There's all so much speculation.
+>> [laughter]
+>> Yeah, it's great. I mean
+I don't know. Slightly thicker, almost
+the same. The screen is way better.
+>> Are you surprised at how similar it is
+to the FX3?
+>> I'm only surprised they didn't call it
+the FX3 Mark II.
+>> Yeah.
+>> That's what this is, right? Like
+>> That's what it seems like to me, too.
+>> 100%.
+>> The FX3 is still great, so they can keep
+that around.
+>> Slightly thicker.
+>> False color button.
+>> Yep, false color.
+>> leaning
+>> [laughter]
+>> They are leaning into the pro.
+>> I like that. That's like one of my
+favorite features right there.
+>> As soon as the rumors leaked, I mean,
+I'm like the target market. I'm going to
+buy this, for sure.
+>> In terms of the body, the FX5 is very,
+very similar to the FX3, and I feel like
+at first glance most people won't even
+be able to tell the difference. The FX5
+is slightly wider, not by a lot, but
+just a little bit wider. It looks
+exactly the same height, just a little
+bit wider. The biggest difference would
+be the LCD screen. Um it is a lot
+bigger, and the FX5 has this very angle
+tilt flip LCD screen. So, you can
+basically go any way you want with this
+screen. I think it's safe to say this is
+what most people would like, so you can
+film with it just like this. You just
+flip it up like this, but you can also
+flip it out. You can film yourself. You
+can do all this stuff. You can have it
+normally like this. And again, if you
+want to be more discreet, you can just
+kind of tilt it up a little bit and just
+have it like that. You don't have to
+have it sticking out the side, which is
+nice. The button layouts are quite
+different, and this will definitely take
+time getting used to all the different
+buttons along with the completely
+different firmware. We got a clips
+button, which is your playback. That's
+how you see the footage that you've
+shot. We have a false color button
+there, but you can also map that to
+whatever you want. We have a menu
+button, back, another customizable
+button, home, which brings up the big
+six, and then a user button, which has
+some different like settings, kind of
+like the big six. I feel like that
+part's a little weird. They're a little
+too similar to me. We have a new looking
+dial right there, but basically it does
+the same thing as this dial right here.
+On top, the cameras are exactly the
+same. We have the same little zoom
+rocker here. We got iris up here, our
+customizable button. We have white
+balance and ISO customizable record
+button, and the little like thumb stick
+right here. The ports on this side have
+changed a little bit, so now we get an
+ethernet. We have the full size HDMI, we
+got two USBs, we lost that like old
+school USB that the FX3 had. And now the
+headphone and microphone jacks are just
+out on the side, not under any cover,
+and I think I'm fine with that. Some
+people might be freaking out about that.
+And the quarter 20 mounting moved over,
+it used to be on the other side on the
+FX3. It's just moved over a little bit,
+but basically the same. What do you guys
+use ethernet for? Is that for like live
+streaming or something? I don't really
+know what I would use an ethernet for.
+>> It's really the end of the of the camera
+problem. You just put this in all
+different shapes and sizes of bodies.
+>> Yeah.
+>> And it's kind of like why do we why do
+we need to look at new gear?
+>> To me, this is it's kind of bittersweet.
+I'm super happy it's here, but I'm also
+a little sad that like
+oh, I think we're we're we're hitting
+the end of digital cameras.
+>> Uh-huh.
+>> Like there's not Yeah, there's not much
+more that we realistically need. I think
+for me, like they have good opportunity
+to like make something that's a little
+bit more flashy. Like you still grip
+onto this and you're like where's my
+where's my pinky here?
+>> It does feel better.
+>> It it feels it's pretty much the same.
+Yeah, exactly. If they made it a little
+bit taller, then the screen could be
+bigger.
+>> Yeah.
+>> Like and this would fit better in your
+hand, and people would be like oh, this
+is a new camera.
+>> a 1DX again. That's what you
+>> [laughter]
+>> want. You just want
+>> To me, it's the camera that you need.
+It's not really the camera that you
+want.
+>> Here's the question. I remember when the
+FX3 came out, the first 6 months were
+very like no one was excited about it.
+>> Yeah. Where's the viewfinder? I can
+never shoot like this. Why would anybody
+buy this?
+>> And then obviously now it's become the
+factor. What are
+>> Like
+>> 100% I think they'll be the same. People
+will be like what? It's the same and
+you're charging more and just calling it
+a different thing. And then
+>> Everyone
+>> Everyone buys it and loves it and it's
+it's the camera that everybody ends up
+using. For sure. It's I can already see
+it.
+>> That's a win.
+>> Yeah.
+>> That's huge. [laughter]
+That's the dorkiest thing to be excited
+about of all time.
+>> out of all the things so far, you're
+like
+>> Dude.
+>> What? Two quarters?
+>> Every [laughter] single small camera in
+the world with the one slot and you put
+it on a tripod and it's just perfect.
+>> [laughter]
+>> Same dual card slots on this side and
+then we get an extra quarter 20 on the
+bottom, which is really nice and you can
+actually mount it sturdy or even be able
+to mount some sort of like half cage or
+something just based off of those two,
+which is really nice. The FX3's handle
+is just a tiny bit longer, so now it
+actually like fits your hand, whereas on
+this one your hand is like falling off
+already on the FX3. So this is a nice
+little improvement. They're still both
+kind of plasticky and sort of cheap
+feeling, which feel like could have been
+a nice upgrade. This right here is a big
+update, so you can mount your monitor
+and it won't be spinning around, which I
+really like. And we get one more
+mounting point, so now there's three,
+whereas on the FX3 we only got these
+two. The audio controls have slightly
+changed also. Here's the FX3. Seems kind
+of the same to me, except for slightly
+different layouts and then we get a few
+different um options on the inputs here
+that we didn't have on the FX3, which I
+at this point have not actually dove
+into what all those do, but here you go.
+That's what you got right there. One big
+difference is now we have this new port
+here and so you can actually put on an
+EVF pops on there and uses the same
+mounting points as the handle does. And
+now we have an EVF, but me personally, I
+do not like EVFs at all. It is really
+nice that they gave you the option
+though. If you like EVFs, you can put it
+on there and I personally love the fact
+that it's not built in and that it is an
+optional thing because for me it would
+just be completely useless. I would
+never use it. So I think this is kind of
+a a
+way to implement having an EVF for those
+people that do want one and it for an
+EVF it seems great. I just personally
+hate EVFs. Let's see what you think. So
+there's definitely going to be I don't
+know if this is the only accessory that
+they're going to make for it like
+>> That could yeah, yeah.
+>> Or other companies could come in maybe.
+>> How long was this out and not not a
+single extra accessory [laughter]
+ever came
+>> Okay, fair fair fair fair.
+>> I do like the fact that it's not built
+in that you can remove it cuz
+I hate EVFs. I think they're so stupid.
+>> I love an EVF.
+>> No no I hate it.
+>> This is backwards for me.
+>> It looks so like digital like meh and I
+hate just like one eye closing I hate
+everything about EVFs.
+>> Come on doesn't bring you back to your
+rollerblader days?
+>> No no we never did that. We had a little
+flip LCD screen on our little like handy
+cam thing.
+>> And then I'm I'm left eye dominant so
+you have to like most time you have to
+hold it awkwardly over here.
+>> right now.
+>> Yeah which which is fine on this but
+like on cinema cameras you're always on
+the left side of it and then you'd have
+to bring it all the way over so it's so
+stupid. I would never ever ever say that
+an EVF is it just looks digital and bad.
+The screen looks way better and it's
+just easier to look at.
+>> It doesn't look great but I like it
+because it removes everything else. So
+you're only focusing on like composing a
+shot if it's like super bright or
+something like
+>> you got to close one eye and you're now
+your eyes are getting all messed up and
+then you open now take your eye off
+there you're like
+>> [laughter]
+>> No I would rather be able to look at my
+monitor like
+>> You can do both. Okay you can do both.
+>> Yeah.
+>> That's nice.
+>> But I would never I would literally
+never put that on.
+>> Hot take I don't think I like the hinge.
+I don't think I like this.
+>> Really? Really? Well it's nice because
+you can shoot like this.
+>> Okay.
+>> So like when when you don't need it to
+be flipped out and looking at it you can
+shoot like that and it's like nice and
+compact and
+>> it's cool but I will say my FX3 hinge on
+of like this screen is absolutely
+holding on by a thread.
+>> yeah, this one this one too.
+>> this gives me a lot of fear
+from having this like absolutely just
+dangling on my camera.
+>> For some reason I feel like that seems a
+little stronger, but yeah, you're
+probably right. It is it's
+>> feel very sturdy.
+>> It does feel stronger, I think.
+>> But I just don't know how much like this
+I do really like, but I just don't know
+how much use
+>> Yeah.
+>> folks would get out of the whole thing,
+but that's just me.
+>> think it's the whole Only thing is like
+getting it close to you and you just
+flip it up, which is nice sometimes. I I
+do like that cuz then it's not off to
+the side. It's more
+>> Yeah, exactly. Yeah.
+>> The FX3 and FX5 are very similar in look
+and feel. I think most people when they
+pick up the FX5, they'll just think that
+they picked up an FX3. It's slightly
+bigger, very small differences. The
+biggest difference is that monitor and
+for me this is also the biggest
+disappointment. I feel like if they
+would have given us like a 5-in monitor,
+just made the camera slightly taller and
+given us a big honking 5-in monitor, an
+OLED monitor would be incredible. It
+would really mean that we never need to
+add an external monitor to this camera
+and that would have been a really big
+deal. But now we're kind of in this like
+halfway no man's land of like it's 3.5
+in and then if you're filming an open
+gear, you're using even less of the
+screen because it's a 16x9 screen, not a
+3x2 like the Canon Infinity Vista, which
+this 3x2 OLED monitor is the best
+monitor ever. Um, we also have the Nikon
+Z R monitor, which is bigger and better
+in my opinion than this monitor. Maybe
+quality-wise, maybe the FX5 monitor is a
+little bit different. I just feel like
+they could have gone a little bit
+crazier here. If they had a 5-in
+monitor, as soon as people saw this
+camera, they would be like, "Holy crap,
+what is this?" They would have been so
+excited. And now, when you hold this
+camera in your hands for the first time,
+it is very lackluster because it is so
+similar to the FX3. Like, if I held this
+camera up, you would not know is this an
+FX5 or an FX3? There's no way really to
+tell.
+We have a new battery system, new
+batteries. You're going to have to buy
+new batteries.
+Um and they say it lasts for 130 minutes
+in 4K 60 frames per second. I haven't
+done a test yet. I haven't had time.
+But, yeah, it seems pretty good. I only
+have one battery and I've just been
+plugging in a little battery bank like
+this when I need more battery when I ran
+out of battery. So, that is what I've
+been doing for the last week.
+Audio-wise, now we get 96 kHz 32-bit
+float. I don't know of another camera
+that has 96 kHz 32-bit float. So, I'm
+kind of interested in seeing some audio
+nerds test it out and see like it is
+there a big difference there. UI-wise,
+everything has changed. You are going to
+have a very hard time at first with this
+like I have. It is similar but different
+to the FX6. This is what your main
+screen looks like. We now get waveform,
+histogram, or vectorscope. One weird
+quirk right now is that the waveform
+works based off of the viewing LUT, not
+the log footage, which is dumb as you
+can see here once I turn uh false color
+on, which we also get false color, and
+we get it even a button for it. Um you
+can see the waveform changes. So, it's
+like showing it
+with the LUT on, now it's showing the
+log. That is dumb. I'm sure that's just
+a mistake. I haven't figured out a way
+to change that yet. So, maybe I've
+missed something. I really love that all
+of the information on the is on the
+outside of the screen and you can
+actually customize all of that. You can
+turn on and off anything you want on the
+outside. I've already turned off a lot
+of stuff that I just don't need. This is
+the part where I I'm I don't know if I'm
+just getting used to it, but I I I don't
+know if I'm a fan of it yet. Uh We have
+the clips button. That's just get to
+your clips. Then we have false color.
+That's really nice. And then we have the
+menu, which takes you to like this kind
+of slightly simplified menu, kind of
+like a big six almost, which is nice.
+And then you have to hold on to this one
+to get to like the full full menu. And
+there's a bunch of stuff in here. And
+then there's on top of that there's
+these two buttons. There's the user
+button, which brings up another kind of
+big six, but a different big six.
+[laughter]
+I think you can customize these maybe.
+And then there's the home button, which
+brings up the big six that we're used
+to. And I just find this to be a little
+bit cumbersome right now. A lot of
+settings you need to do like a lot of
+clicking around and like pressing to get
+to. I feel like they could definitely
+dial this in a little bit. But overall,
+I I'm pretty happy with it. I do like
+this main screen a lot. We should also
+get better autofocus now.
+I don't know if that's true or not, but
+in theory we have better autofocus now,
+better white balance, and better
+stabilization with that new processing
+unit. I I feel like I haven't really
+seen any big differences yet. It feels a
+little different, but I think I need to
+really test that stuff out more to see
+if there actually is like drastic
+differences. Oh, and the app works
+better now. You guys can't see because
+of the ND filter. It works better now
+because we have a better Wi-Fi system on
+the FX3, so it's more stable. It's still
+not the best, but I'm really curious to
+see can somebody really leverage how
+fast the Wi-Fi is in this camera to get
+a better hopefully near no latency
+wireless monitoring system on your
+phone. I love doing this, so that's a
+really nice thing. Then let's talk about
+the price. That's a big deal. So, price
+at launch in the USA, it will cost
+$4,899.
+That is without the handle. With the
+handle, it'll cost $5,499.
+In Canada, it'll be $6,300 [music] and
+$7,000. So, that is more expensive than
+the FX3, and I think that's going to
+hurt for a lot of people. I think this
+camera isn't as flashy cuz the 16-bit
+RAW is really hard to understand. The
+body looks kind of the same, and people
+are like "What was the big update here?
+It's been 6 years. What have you guys
+been working on?" And then you have to
+pay more for it also. I think that is
+going to be like a a point of pain for a
+lot of people. So, let's talk about my
+final thoughts after using this camera
+for a week. I'm for sure switching. No
+questions asked. I'm for sure switching
+to this. It is just way better than the
+FX3. They're not calling it an FX3 Mark
+II, but to me it really does feel like
+just an FX3 Mark II. I probably wouldn't
+have called it an FX5, but I think to
+keep around the FX3 because it is still
+a really great camera, but then if you
+need even more, you can get the FX5. So,
+I understand that, and that's that's
+nice. [music] I thought I was going to
+use the Nikon ZR more, but the H.265
+codec is just so brutal on this camera
+that I never really ended up switching
+to it. I used it a little bit, and I
+used it less and less, and just went
+back to the FX3. This camera is so easy
+to switch to as an FX3 user. It's
+basically the same except just better in
+every way. And I think the FX5 is the
+perfect combination of incredible
+quality, but still really, really easy
+to use. Does that mean it's perfect? No,
+definitely not. I think there's still
+like room for improvement. The screen,
+especially the monitor, it's not bad.
+It's definitely way better than the FX3,
+but it just I feel like it could have
+been so much more. Just make the body a
+little bit bigger, and then that make
+that monitor just a massive 5-in monitor
+on the back of the camera. People would
+have flipped. I knew we weren't going to
+get internal ND filters. Would it
+[music] be nice to have them? Of course.
+But, I I feel like there is maybe a way
+to solve this now with that triple base
+ISO. Like, can we even just make an ND
+filter that goes between the sensor and
+the lens? And you just like have that ND
+filter in there at all times, and then
+just use the triple base ISO, kind of
+like I've been using my ND filters and
+just using
+the dual base ISO. I also think it's a
+bummer that when you first pick up the
+FX5, it just kind of feels the same.
+There's no like, "Whoa, this is crazy."
+In some ways that is good though also
+because a lot of us are so used to that
+FX3, so it's just picking up the same
+camera basically, and maybe even some of
+your other accessories and rigs and
+stuff like that will work just as well
+with the FX5. But, the most important
+thing, the the brain of the camera, the
+sensor, all of that stuff is incredible.
+Like, it is so good. It is so much more
+than anybody basically needs. This is
+the best video camera anybody has ever
+made in this size. And it definitely
+beats the Nikon Z R easily, although a
+lot more expensive. It beats cameras
+like the Canon C70 Vista easily. It is
+way better than the FX3. It is better
+than all of the Canons, I can tell you
+right now. It probably even beats most
+of the high-end cinema cameras out
+there. I wouldn't be surprised. And if I
+had to pick one camera to use for the
+rest of my life right now, it would
+easily be the FX5. This is the new king
+of cameras.
+It's just maybe not as exciting as I
+thought it was going to be. But, it's
+still the king. All right, let me know
+what you guys think, and let me know
+what are you still interested in. I want
+to do a lot of side-by-sides with a lot
+of the different cameras, and show you
+guys what that looks like. But, yeah,
+let me know if there's anything I
+missed. I'm sure there's a bunch of
+things. I've been going crazy trying to
+test everything in just a few days. So,
+hope you guys enjoyed it. I will see you
+guys later. Bye.

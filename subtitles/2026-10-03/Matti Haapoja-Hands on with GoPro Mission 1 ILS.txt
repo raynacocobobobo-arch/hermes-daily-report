@@ -1,0 +1,892 @@
+UP主：Matti Haapoja
+标题：Hands on with GoPro Mission 1 ILS
+链接：https://www.youtube.com/watch?v=JJu2QN05l4U
+
+This is the biggest camera nerd
+convention of the year, NAB in Las
+Vegas, where basically every camera
+company on Earth shows off their newest,
+latest, and greatest tech for
+filmmakers, photographers, and creatives
+like you and me. I was there for 3 days.
+I saw a ton, and I'm going to show you
+guys what you missed out on and some of
+the most important pieces of tech to
+come [music] out.
+Want to take a picture? Let's take a
+picture. Let's do it.
+Good morning from Las Vegas. I always
+like traveling west because all of a
+sudden you're a morning person because
+of the time difference.
+So, I already went on a run.
+If you're wondering where your Adobe
+subscription money is going, it's uh
+right there.
+Went to the pool down there, and now
+it's time to go to NAB.
+>> [music]
+>> Thanks so much.
+>> [music]
+>> All right, Luke, first NAB, how you
+feeling?
+>> First NAB, slightly overwhelmed, but
+mostly enjoying it. I'm glad you talked
+me into it.
+>> [laughter]
+>> You guys are missing out. You guys
+should come next year.
+I was genuinely surprised they had the
+GoPro Mission One ILS at NAB. 8K video,
+4K at 240 frames per second, and there's
+a micro 4/3 mount version, the ILS. I
+mean
+Yeah, that's It looks absurd, but I kind
+of love it.
+>> Yeah.
+>> This might be the most interesting thing
+I've seen today.
+>> Yeah, I think so, too, actually.
+>> I'm so skeptical of this camera, but
+after talking to the guys there, I'm
+actually way more curious now. It might
+actually be an interesting camera for
+[music] action sports, for FPV, and
+crash cams. But, let's see when it comes
+out.
+>> [laughter]
+>> I got to go to you to get it. You want
+to come visit and get your pocket four?
+What are you What are you doing here?
+Is this the only thing you care about
+here?
+>> [laughter]
+>> This is literally the the thing I'm
+like, "Can you guys show me this?"
+All right, if you're not using Cine
+Meter, you're missing out. And this guy
+right here is the guy who made Cine
+Meter.
+Explain what it does. It's like a color
+meter, right?
+>> Yeah, it's it's like a it's like a color
+estimator, color meter. So, in this room
+we're getting about 45, give or take.
+>> So, you just pull it out and it gives
+you a uh reading right away.
+>> That's right. Yeah, you can switch
+lenses. Like if you said, "Hey, I want
+to know what whatever light is." You can
+go to your two or three X zoom. You can
+also go to a point five if you had like
+a 10 on. It's got some other tools in
+there. But, we're getting around 43, 44
+on there. Let's see what we're getting
+here. We're getting 44 there, so.
+>> That's pretty good.
+>> [laughter]
+>> And what's the price difference? Like
+this is
+>> 20 bucks. Cine Meter is like 20 bucks
+and this is maybe like a thousand.
+>> And I think for me what makes it so good
+is that it's just in your phone.
+>> Yeah.
+>> So convenient. Like I don't I don't want
+to carry around a freaking color meter
+or spectrometer or whatever. Like I just
+want to pull out my phone and get a
+reading.
+>> No, that's right. I built it because I
+was on documentary shoots and I was
+needing something fast and I didn't want
+to carry another tool. And so, I had a
+need, so I built the app and here we
+are.
+>> And so, it's literally on my like front
+page of apps
+>> [laughter]
+>> cuz it's so good.
+>> It's great. I appreciate that.
+>> This is the most expensive, the most
+rare, and the most special lens of the
+show. Atlas made a custom lens for Dune
+3 that covers IMAX large format film
+cameras.
+>> These are Dune themed beverages for NAB
+2026 in Las Vegas. So, we have water of
+life
+and we have
+spice.
+>> [laughter]
+>> So,
+>> In honor of
+this guy or
+>> Yeah, in honor of this guy, Ha June, and
+also
+>> [laughter]
+>> we made some custom lenses that were
+used on Dune 3. So, we custom made these
+for Lena Sandgren, ASC, FSF for Dune 3,
+uh which was shot in 70 perf
+70 mm 15 perf IMAX film and 5 perf 65 mm
+film. I think there's some digital in
+there, too, but mostly on film.
+>> This is a big freaking deal, isn't it?
+>> It's really exciting and I it's an honor
+to be able to be a part of something so
+cool and influential. I've been a Dune
+fan
+>> Aw.
+>> my whole life.
+>> So good. Yeah.
+>> Um I like Lynch Dune. I also like the
+Dune
+>> I like both. Yeah.
+Yeah.
+phenomenal.
+>> So good.
+>> To have any kind of connection to this
+universe is blast.
+>> This is the biggest project you guys
+have been part of, right?
+>> I mean,
+I don't want to single one out, but I
+think as far as like eight custom lens
+construction, this was the biggest
+personalization because it was a ground
+up construction for Lena Sandgren for
+Dune.
+Uh and there were two sets of lens made.
+One is the 15 perf 70 mm IMAX lenses and
+there's a matching set
+5 perf
+65 mm film lenses and they they they may
+have special flares that you'll see
+throughout the film.
+>> Um you can see a piece of Arrakis like
+in that middle in the middle of element
+like the golden coating was a specific
+coating we did all in-house.
+>> Yeah, we actually had to build a special
+a special coating machine to sputter the
+coatings onto the elements to build it
+fast enough
+for this movie. So, um
+you know, we had to build the our team
+had to build the tools to build the
+tools to build the tools.
+>> Dan, I feel like you could be just
+making up anything and I would believe
+you cuz it's just insane. Like, I don't
+I don't even understand. How do you How
+do you go Is this going to be like
+available to everybody?
+>> Not this particular lens. [laughter] So,
+these are sort of like
+>> $10.
+Can I hold it?
+>> Absolutely.
+>> Can you hold this camera while I hold
+this? We switch. I don't want to drop
+this. Got it.
+>> Yeah, you got it.
+>> Well, you're forced to.
+>> So, this take you forever to figure out?
+>> Well, we had to figure it out very fast.
+Our team, you know, from the initial
+conversation to finished lenses that
+went on the movie,
+it was less than 9 months.
+Uh so, it was a collapsed schedule, as
+they say.
+>> What is an 80 mil in 70 What's that
+equivalent to like a full frame?
+>> Well, you could kind of compare it to a
+40, so it's kind of wide.
+>> Uh
+>> crazy
+>> is basically twice as wide and twice as
+tall,
+you know, rough approximation as
+uh full frame 35 mm film.
+>> It's funny, whenever the front element
+is huge, you're just like, "Yeah, this
+is a good lens."
+>> [laughter]
+>> Lucas, you selling here or what?
+>> He is absolutely selling me. I want to
+>> He This is the ultimate contraption.
+>> make you a better filmmaker. If you buy
+this, you will
+>> You'll be 100%
+>> Christopher Nolan.
+>> If I If I point the camera on you too
+long, you're just going to sell a whole
+bunch of these, so I I got to I have to
+turn it away. You You're just too good.
+>> My My lower back is selling it.
+>> It's a little bit bigger than just the
+lower back. This is actually a
+mind-expensing, mind-expansive,
+mind-altering contraption.
+>> You as a filmmaker Are you buzzed from
+that that spice stuff over there?
+>> [laughter]
+>> I saw the Dune lens.
+>> He's the best salesman.
+He also invented this.
+These things are going to get so popular
+now that everybody's making the pocket
+whatever.
+>> Get full cameras. Everybody's going to
+want this thing.
+Car rigs right here.
+>> Tilta was showing off their new E to PL
+mount autofocus adapter. This uses
+Sony's autofocus along with physical
+motors to get autofocus on any PL lens,
+which completely changes the game for
+all the people with PL lenses. It also
+works in tandem with their follow focus
+systems. If you haven't realized,
+Aputure and Amaran have become very
+distinct lines of lights. Aputure is for
+the big projects that need heavy-duty
+lights.
+>> You're getting in the shot, too?
+Getting it, man.
+>> They had some updates for the Sidus app.
+Now, you can visualize your lights and
+you can have them in a grid that
+corresponds to your set. So, if your DP
+wants the light in the back right
+changed, it's easy to find the light in
+the back right.
+>> What's new at Amaran?
+>> We got Curv just come out, which are
+desktop panels. Oh, we got Brady right
+there.
+>> Brady Brady's trying to cameo on my
+channel all the time. Come on, Brady.
+>> The Curv Max
+>> You guys haven't sent me one of these
+yet.
+>> Okay, we will.
+>> [laughter]
+>> How many do you want? 20 of
+Uh we got the little Curv over there.
+>> It's pretty sick how thin this thing is.
+Like
+>> And it comes with the bracket or like
+the mounts already, so you're good to
+go. Do Ray series. This features Omni
+color IP rating. With Omni color, you
+get that higher SSI, higher quality
+lights in a more affordable package. Uh
+we have Fresnels, we have other optics.
+We also have the little
+>> everything built in on this one, too?
+>> This is a true monolight design.
+>> I love that.
+>> about that is one cable.
+>> Yeah.
+>> And uh the other fun thing that we're
+kind of playing around with this year
+is we have a spin and win game later,
+but I just want to show it.
+This has the flow turn knob that just
+keeps going. It's actually spinning and
+if you hit 207, which is Amaran blue,
+which I won't [laughter] be able to hit.
+We'll try. We'll try. It's standing
+there.
+We'll see.
+>> Close. That's
+>> You get 207 you win a prize. But anyway,
+the flow turn knob is on all these and
+that just makes it easy to kind of run
+around. It's a really good haptic engine
+on that.
+>> Yeah. These things are tiny.
+>> Tiny.
+>> Like so small.
+>> I mean, that 600X that we have hiding
+right over there
+that's about the same size as our 200X
+was previous generation.
+It's a little bit heavier. The power
+brick is built in there. So these once
+again are a monolight design. Just one
+plug in the back.
+>> Yeah.
+>> But really tiny. This is like the newer
+200X.
+Very basic. Great for studios.
+Able to just modify it everything like
+that.
+>> Yep.
+>> When you're carrying around that's
+actually the handle when it's under
+slung.
+So very fun. We have all of our new
+modifiers.
+>> Are these guys popular? I feel like this
+is going to be These guys are so small
+that like
+>> The the 60 and 100X from have been very
+popular overall. Still full size bones
+mount on those.
+>> Yeah.
+>> They're probably
+I think for like $129
+>> Yeah.
+>> There's not much else you can really
+beat.
+>> It's crazy.
+>> $69 for now with barn doors and it works
+really well. Nice and spotted. And then
+nice and wide.
+>> Incredible. This NFC thing is this new
+on these cuz I I just saw it the other
+day and I'm like
+man that's so nice. And like just all
+you got to do is take your phone and you
+just tap it on there and then it
+connects to the app like
+>> What's fun about that is it's on the Ray
+and Halo series and it works well it's
+on or off to pair. So even if you're
+just getting to a gig somebody else
+bought your lights and I want to make
+sure it's all paired you can run through
+them really quickly.
+>> That's like a that's a big deal.
+>> Yeah.
+>> That's like it's so annoying sometimes
+like something happens and they're
+disconnected or you go to new and then
+like takes a while whatever.
+>> You tap just
+>> tap it you're and you know it's this one
+it's this like so easy. Very smart. I
+like it. When was NAB
+and you guys were doing stuff back in
+the day, oh man, it was like Christmas
+every time. All the articles of
+>> Christmas anymore?
+>> No, it is. But now there's also
+Yeah, now I'm
+>> [laughter]
+>> But you guys are the only ones. And it
+was like the secret knowledge of like,
+oh that came out, that came out. It was
+sick.
+>> And then those YouTubers came along.
+>> Yeah,
+what you guys do YouTube, too, now? See,
+yeah, check out their YouTube channel.
+How do you like this system?
+>> It's funky. It's big.
+But if you need an anamorphic lens on
+your iPhone, that's the way to go.
+>> And everybody needs an anamorphic lens
+on their iPhone, right?
+>> the I mean it has the field of view of
+an Alexa Mini LF.
+>> There you go, exactly. Open gate on
+iPhone is the new Yeah, it's new Mini
+LF.
+>> [laughter]
+>> What's been your favorite thing so far,
+Mr. Mr.
+>> Really, honestly
+>> Matt Johnson? Who is Matt even?
+>> Uh
+Teppo Haapoya's brother.
+>> [laughter]
+>> And that's the peak for me, cuz
+>> The new and improved Is there any
+upgrades or
+>> It's nice to see like, you know, someone
+who's lived in the shadow of his brother
+for so long and he's finally out and
+like around and it's really good that
+Teppo's brother has been here. I don't
+remember his name right now. He's good.
+He's He's getting his foot in the door.
+It's good It's important to get started.
+>> Yeah.
+>> That's good. Yeah.
+>> Just got to start, right? That's the
+best advice, just start.
+>> start, baby.
+>> Just start.
+>> Sorry, Teppo.
+>> One of the biggest cameras on the show
+floor was the new Fujifilm Eterna large
+format sensor that's even accepted for
+IMAX films. Open gate 4 by 3 has become
+a really
+nice thing to have because so many great
+anamorphic lenses are coming out. Like
+the DZ Arcanas.
+I was just DMing with a very, very
+prominent, very, very talented DP name
+you would definitely know and they're
+thinking about using this with the GFX
+Eterna. So yeah, the D Z Canons are
+they're hot commodity right now. So
+these are 1.5 squeeze anamorphic but you
+get more of like a 1.8 to 2 a squeeze
+look. So that's why the the look is
+incredible for 1.5 and 1.5 is much more
+usable because a lot of people only have
+16 by 9 sensors. So if you don't have 4
+by 3, you can still get a very usable
+aspect ratio.
+The flares, they're really nice.
+Yeah, these look really nice. Very
+impressive. DZO is just pumping lens
+after lens that are sick. How's How's
+the YouTube world been?
+>> YouTube world?
+>> Yeah.
+>> Uh I've I've been a bit quiet actually
+recently.
+>> [laughter]
+>> I should probably start getting me get
+me act together.
+>> No, you've been killing it. I love your
+videos. Uh have you seen anything cool
+that you're interested in?
+>> well, I finally picked myself off the
+Blackmagic stand.
+>> [laughter]
+>> Um so I've been looking at actually the
+new uh I've got to get the company
+right. GoPro, the little
+>> Yep.
+>> the little
+>> I just checked that out yesterday.
+>> amazing.
+>> Very interesting. I was so skeptical but
+actually might be better than I even
+thought.
+>> Yeah, I've been using the DJI action
+ones and
+>> Yeah.
+>> they look great on paper but you stick
+them in as soon as you stick them into
+resolve and start grading them.
+>> Yeah, yeah, yeah.
+>> it up really quick.
+>> Yeah.
+>> So I'm I'd like to hope I've got a
+little side project that I'm working on
+at the minute and I need a little action
+cam. So I'm
+I wonder if I wonder if that's going to
+do it.
+>> Plus I love it when a company does
+something totally different and then it
+forces everybody else to be like, oh
+shoot, should we be doing something
+different? And then they're like
+>> Have you Have you actually held it?
+>> I held it, yeah.
+>> I thought Tokina had their first
+autofocus lens, the 24-50 f/2.8. This
+thing is really nice. Super close focus.
+I really want to try it out more.
+Viltrox had some new autofocus lenses,
+the 35 1.8 and 55 1.8 which are super
+affordable at under $400. But the 35
+1.2, now that is a lens.
+>> I love the wider
+super fast lenses cuz it makes a massive
+difference when you're doing a wider
+shot and then you got 1.2.
+>> They also had some absurdly large
+lenses.
+>> It's my new YouTube camera.
+>> They're definitely showing off here at
+Viltrox.
+>> What the heck? Now, 42 to 420?
+>> Can you Can you film me for a second?
+>> Uh, yeah. I got you, dude.
+>> I'm going to do a quick workout. Oh my
+gosh, this thing.
+This is like in How much does this
+weigh?
+>> 30.
+>> 30 lb?
+This is crazy. I got to put this down
+before I break it.
+Thanks for filming. Appreciate it.
+>> No worries, bro.
+>> That was a workout. I'm sweating now.
+>> What do you think?
+>> next handheld doc camera. We just met
+the guys at Ready Rig, so I think we
+might need
+>> Yeah, now you're ready to go. You
+thought your back was done, but you're
+like, "No way."
+>> No way. We can
+>> I got 65 and a four 42 to 420 in me,
+right?
+>> My standard handheld Variate range.
+>> [laughter]
+>> It's so like, you know, inconspicuous.
+>> Nobody will even notice you.
+>> What did you guys see so far?
+>> Uh, everything and nothing.
+>> What's the coolest thing?
+>> The coolest thing I've seen so far?
+>> Don't say the GoPro. Don't say the
+GoPro. Don't say the GoPro.
+>> GoPro was interesting and people love
+it. We made a reel that's like cranking.
+Um, but everyone
+loves it and hates it.
+GoPro's probably the most interesting
+thing. Cuz they're changing the
+>> biggest reason is people are like,
+"Oh, like why don't you just get a real
+camera? Why are you going to rig up
+that? It's supposed to be an action
+camera." Now, it's not waterproof. I'm
+like, "Well, they still made an actual
+GoPro."
+>> Yeah, well, they are. Exactly.
+>> Nanlux and Nanlite also have some great
+lights they're showing off similar to
+aperture. They've split up their
+lighting. Nanlux being the big boy
+lights and Nanlite being the more
+affordable stuff. One of my favorites is
+this super easy to set up softbox.
+>> That's way too easy. That That's really
+good.
+>> But this little guy was new and very
+interesting.
+>> All right, what do we got? What do we
+got?
+>> Hansel, this is the
+the Evoke 5C.
+>> Tiny.
+Is this Is this for real?
+This is crazy.
+Underwater?
+>> Yeah, just
+>> [laughter]
+>> So, literally just walked in the water.
+And then you guys got a bunch of
+modifiers for it, too?
+>> Yeah, so in terms of modifiers, you got
+If you want a flashlight, you get a
+flashlight.
+Pretty shitty.
+Oh, yeah.
+Projection attachment
+>> That's crazy.
+>> Very fine cut.
+And let's say if you want to have a
+bulb,
+you have a bulb.
+>> Dang. All right.
+That's impressive.
+>> If you want If you're doing tabletops
+and you want something tiny, let's say
+you want to You want to focus a little
+bit on my
+You can have with just a little
+>> dot.
+>> Yeah, just a little dot on my
+>> Oh, that's cool, actually. Yeah.
+>> And then we also got
+diffusion, panel, bundles. And then
+everything charges in the case.
+>> That's smart. I like that Those are
+Those are the little details that make
+it from like a something that's like
+nice to have that to something that you
+actually use.
+>> Just in case you haven't checked out the
+size of the gobo that we have. But this
+is like
+the tiny gobos that we have.
+So, you can just
+>> That's awesome.
+>> And then if you put the CM X receiver is
+35,
+but if you add this one, the battery
+grip, it's 4.5 hours.
+And you can hot swap the battery grip.
+>> And it comes in a kit like this or
+>> Yeah, so we have
+several configurations. Stand-alone as a
+one-light, and then we have a one-light
+kit that combine with
+like some accessories, and then a light
+kit that combines everything. What you
+see is what you get here.
+>> Sick.
+6 seconds. Oh my god.
+They just engraved my name into this
+little camera.
+>> [laughter]
+>> That is sick. That's cool.
+>> The Kinefinity Vista was getting a lot
+of heat. They aren't saying too much
+about it, but it's basically a 3 by 2
+open gate sensor camera in this really
+small and compact form factor. When I
+saw that the whole back was basically
+one monitor, I was right away very
+interested. And this monitor is the most
+beautiful monitor I've ever seen on a
+camera. I don't know why more camera
+companies aren't putting OLED screens on
+their cameras.
+>> 3 by 2, it's not 16 by 9 cuz it's open
+gate. It's very very interesting. This
+is
+This might be one of the most
+interesting things at the show right
+now. Okay, I just found out that the
+monitor is an OLED and it looks so good.
+Like
+this is what camera companies should be
+doing. Putting on monitors like this
+that just like you you don't even need
+to put on a monitor if you don't want
+cuz this just looks incredible.
+>> Hollyland had some interesting stuff.
+The Pyro Ultra. Their monitors are
+getting so good and super compact with
+wireless video built-in. The Melo P1 is
+a wireless real-time vocal mixing
+system. [music]
+Very interesting little microphone. And
+they made comms even smaller with the
+Solidcom Air.
+>> What do you got? Are you going to show
+me something cool?
+>> So, I actually So, you guys know what a
+SnorriCam is? This is the inventor of
+the SnorriCam. You seen the SnorriCam?
+>> This is the inventor?
+>> This the inventor of the SnorriCam right
+here.
+>> Yes, sir.
+>> And nice to meet you, man.
+>> Check this out. So,
+>> Legend.
+>> It's a 360 cameras, right?
+You have a pole.
+But this actually disappears. So, look
+at this design. It's all in line.
+And it you can actually put this
+underneath your shirt.
+>> And how stable is it? Cuz a lot of times
+>> Yeah, so
+>> they're just flopping around, you know?
+>> This allows you to adjust all degrees of
+freedom really quickly.
+And this, to answer your question,
+if you want it to be very stable, you
+have an additional strap that comes
+around.
+And you can you can attach it.
+>> You can either go on the best
+>> Yeah. to prevent, you know, kind of
+these kind of things.
+>> Yeah. Do you think I could snowboard
+with this?
+>> Yeah. Yeah, yeah, yeah. Absolutely.
+Totally.
+>> That's crazy. I need to take this on my
+next snowboarding adventures.
+Put it on my channel.
+Coolest thing so far. I mean, not Canon
+related.
+>> I saw? I went to the Atlas booth and
+they let me in the back room and they
+said, "We got special secret cinema
+lenses that were used on Dune." And I
+said, "I would love to see that."
+>> The most expensive lens here.
+>> And I held it like this and I was like,
+"Oh my gosh, this is an IMAX lens. I've
+never held anything like this."
+>> When they hand you a lens like that,
+you're like, "I shouldn't be holding
+this." Like you just take it. Yeah.
+>> [laughter]
+>> So far for a travel camera, I don't need
+a monitor. I just like
+>> Yeah.
+Yeah, who cares about the micro HDMI cuz
+you don't need a
+>> [laughter]
+>> Yeah.
+>> The only thing is like, yeah, if I'm If
+I'm shooting a vlog on this in red,
+>> Yeah.
+>> can I afford the storage?
+Uh, not.
+>> That That is why I always end up picking
+up my Sony still cuz it's like, "Ah."
+>> I'm used to having pro-grade cards that
+are like 500 gigs or something and it
+has an like ungodly amount of coverage
+hours.
+>> Yeah.
+>> 4 hours of footage. Right now, I'm
+actually shooting 4K for a res and I
+have like 35 minutes left.
+>> Yeah.
+>> So I'm like, "Oh shit."
+>> Yeah.
+>> So I'm using this sparingly.
+>> If they put a screen like that on a Sony
+cam, then you don't need a monitor.
+>> They have to. If they don't,
+>> Have you been to the Sony booth yet? See
+anything cool over there?
+>> I haven't been yet. No.
+>> Nothing. If Sony doesn't do some big
+things, then
+So what are you up to? Still recovering
+from Beast or
+>> A little bit. A little bit.
+>> [laughter]
+>> We're We're on the upswing now.
+Everything is good. Life is good.
+>> You seem much happier than
+>> [laughter]
+>> It's peaceful.
+I can do what I want now. It's just
+great.
+>> Heck yeah. Heck yeah. Have you done your
+your own channel yet?
+>> No, I've I've been writing in the
+background slowly.
+I just have to get the confidence to do
+it.
+>> Do it.
+>> [laughter]
+>> I don't know that it'll ever happen, but
+>> I think it should.
+>> Maybe one
+>> I think it should.
+>> Zel Moose makes some beautiful
+anamorphic lenses, and they had the
+widest ever 2x anamorphic, the 16 mil.
+It was beefy. Tamron had a 35 to 150
+f/2.8, and their new little lens control
+system, which I'm still I'm not sure
+what I feel about that.
+>> So, Tamron came out with this little
+like stick that goes in the side of
+their lenses, and then you can control a
+whole bunch of stuff with your phone.
+Interesting. I always like it when
+companies do something that's different.
+I still don't know if I'd use it or not,
+but
+this guy likes it.
+>> Nick, what's your favorite lenses right
+now?
+>> Uh it has to be Zel Moose Aqualis.
+>> I knew you were going to say that. They
+look so good.
+>> But, you know what? You know what I
+really want to see uh is the Zhong E1s
+that you teased on Instagram.
+>> [laughter]
+>> I'm a sucker for T1 lenses. I don't care
+how big they are.
+>> They're they're beefy. Iron Glass is
+making their Air series, smaller
+versions of their vintage lenses that
+are re-housed to be more modern. NiSi
+was showing off a 50 mil T1 with large
+format coverage. I feel like that's
+going to be a new thing as cameras start
+getting bigger and bigger sensors, the
+lenses are also going to have to change.
+Sirui expanded their Iron Star 1.5x
+anamorphic lineup, but actually, I was
+more interested in this. It's a 15 T1.6.
+It's so interesting seeing this much
+shallow depth of field on a wide lens
+like this, and very good distortion.
+This is a very interesting lens to me.
+Ooh, this is nice.
+Let's go all the way close, so I can
+see. Yeah.
+>> Yeah?
+>> I love wide lenses. I'm just a sucker
+for them.
+>> It's crazy to have depth of field on a
+15.
+>> That's what I mean. Like, because we're
+never used to seeing a lens this wide
+have this shallow depth of field.
+>> Down here, that's quite a bit.
+>> I want them to
+You want me to take it out?
+All right. All right. It's going to cost
+you, but there we go.
+Thanks, dude.
+How's it feel Billy being a celebrity
+over here?
+Mr. Celebrity. What was the most
+interesting thing you saw?
+>> The most interesting thing was probably
+the GoPro
+>> Funny enough. Yeah, hilarious.
+>> Secondly, was probably that ready rig
+cuz I think it's going to save my career
+and extend it by 10 years.
+>> You're welcome. You're welcome.
+>> Thank you for [laughter] that and for
+introducing me that crazy Italian man.
+>> He's awesome.
+All right, that is it for NAB 2026
+back like this mother trucker.
+Yeah, if you haven't been to NAB, I
+highly recommend it. It's really cool
+just seeing all the gear.
+>> [laughter]
+>> You get to nerd out as a filmmaker. I
+love it. But also all the cool people,
+the brand people, people you meet
+[music] just hanging out, the creators,
+everything. Yeah, highly recommend it.
+Come and check out NAB next year. All
+right, that's it. Bite.
+Absolutely exhausted, but I found gold.
+You know, you know.
+>> Let's say your boy is shooting a feature
+film and you can only shoot with one
+light.
+>> Probably not good for your thing, but I
+would choose no light.
+>> [laughter]
+>> No light? Why is that?
+>> spend the money on
+something else.
+I think a lot of people are trying to go
+way too big. I would go way more simple.
+>> Okay. You hear you hear you I like that
+answer.
+>> that's probably not the right answer.
+>> the ZR. I love it.
+>> The goat right here. Everything I
+learned his channel is one. Godfather
+channel, bro.
+>> I appreciate it. Appreciate it.

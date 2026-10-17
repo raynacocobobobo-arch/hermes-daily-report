@@ -1,0 +1,584 @@
+UP主：AI Engineer
+标题：Modality Misalignment and Originality Attribution in Short-Form Video — Aditya Gautam, Meta
+链接：https://www.youtube.com/watch?v=jNE8No-wvok
+
+[music]
+Hello everyone. Uh I am Adita and we
+will be talking about uh two main
+problems that happen on the short form
+surfaces. We are going to talk about how
+do we deal with these things at a scale.
+Uh
+so to get started first thing is we will
+understand what are the characteristics
+of the data that we are trying to deal
+with what are the two main problems that
+we are actually working on uh and what
+are the multi- aent systems to solve
+those problems at a scale what are the
+different specialized small scale WM
+that we can uh build uh to solve those
+individual agentic problem and how do we
+build those agents what are the
+different ways to actually optimize it
+like to make it like scalable at a very
+big scale and then we will be looking
+into the evaluation in a very holistic
+360 manner not just like a precision
+recall what is out there how do we
+understand the entire multi-agenting
+pipeline both from LLM level tools MCP
+and whatn not everything out there and
+then we will be getting into the
+optimization techniques which this which
+are very vision specific and metadata
+specific which will allow us and give us
+some intelligence to tell that we really
+don't need to do intell like this
+intelligent like workflow So for all the
+videos we can figure out what are the
+small set of videos which should be the
+candidate for doing these things and we
+will conclude with the takeaways.
+So the real life data is very messy. It
+is we are talking about at a scale of
+100 million plus and a lot more viral
+content. There's a lot of adversal
+content people are trying to gain the
+system. There are a lot of uh
+multilingual text on the screens and in
+their videos and images. And the uh data
+is very dynamic. it keeps on changing
+from like month to month different AI
+tools are coming everything out there so
+it's it's really really dynamic that
+means there is a lot of drift issues and
+other thing that comes with a video data
+and then we know that there is no clear
+ground truth for the problem that we're
+trying to solve so these are like
+existing problem which happens in a real
+world video data set we will be the
+first problem that we will be talking
+about is the modality misalignment where
+the first is intramodality which is a
+very solved problem you can have a clip
+model you can have a modality on uh uh
+images, videos, uh audio, text and
+figure out what exactly is the cosign
+similarity on those embedding and figure
+it out. So this is a much simpler
+problem. What we will be talking about
+how we are doing intraodality u issues.
+So this is consider that like a video we
+have a big video and then uh suddenly
+you are seeing something some ad agenda
+some political things or something out
+there which shouldn't be there in the
+video as when you clicked on it. So how
+do we actually look into the small
+segments of the uh video understand this
+problem and figure out where there is an
+anomaly or kind of like adversarial
+behavior out there which shouldn't be
+there in the first place. So this is the
+first problem which requires a lot of
+granular understanding vision
+understanding and a video understanding
+to see what is happening at a very clip
+and a very frame level. The second
+problem is uh to understand the
+unoriginal content. In today's economy
+with the AI tools available, it's really
+easy to actually duplicate the content.
+When someone uh upload a video or
+something, we see that okay, it is being
+copied, it is being transformed and with
+tools, it is getting much easier to
+transform these videos. U so how do we
+actually detect this kind of unoriginal
+content? How do we figure out the source
+of the video? And um this has actually
+caused a problem in attribution credit u
+ecosystem imbalance and lot of like user
+fatigue where we are seeing a lot of
+repetitive videos which shouldn't be
+there in the first place. So uh coming
+to the multi- aent system uh the first
+thing is that uh why we are going to
+multi-agent not a single agent or single
+lenm because the problem is really
+complex. It requires a really
+specialized uh nodes and uh kind of like
+an understanding at each part of
+retrieval content understanding and then
+reasoning and if you can solve a problem
+with one agent one LLM you we don't need
+to actually do it on multi- aent
+systems. So this is where the
+centralized brain how we are actually
+thinking kind of like how the uh
+decomposition happens of this problem.
+The first is basically you have a video
+and kind of like a clip video ID and
+everything given to a reviewer agent.
+This is a centralized agent. This is
+basically the orchestrator. Consider
+that as an API gateway of uh doing a
+sing signal decomposition and finding
+what is happening around in the image.
+So what this guy do is basically this
+guy takes ask the perceiver agent and
+perceiver agent is the one which is
+basically considered that a very
+sophisticated VLM expert with lot of
+image and the video tools at uh
+disposal. Uh perceiver agent will take
+the ID from the retriever reviewer agent
+and it fetches the video from the
+database. It decomposes into smaller
+parts using different tools, different
+like semantic embeddings and different
+kind of like temporal change that
+happens which is a little bit beyond our
+scope but of this talk but it's uh a
+technique which is making sure that we
+are not doing at a fixed frame rate but
+we are finding where the temporal change
+happen and compressing those similar
+frames into one or two frames and then
+the perceiver agent get all the data
+from a clip level. The video embedding
+level get all the information about a
+clip embedding tags OCR whatever is
+present out there what is the natural
+language description and what are the
+time stamp from which frame to which
+frame what are those this metadata looks
+like it gives that data to the reviewer
+reviewer will look into all the temporal
+this JSON object provided by the uh
+perceiver agent in a raw form along with
+embeddings along with semantic ids tags
+OCR and everything and it does a
+temporal analysis it looks into okay you
+know for from first frame to frame or
+frame number 360 or like till 6 second
+it was a video talking about a sports
+and suddenly we are seeing from 6 second
+to 6.5 second or frame number this to
+this we are seeing that like this is
+changing into some political thing. So
+just by looking into the metadata the
+reviewer agent is able to understand
+comprehend and figure out what exactly
+is the anomaly coming in the this
+temporal space and once it do that it
+figures out whether this is actually a
+modality misalignment or there is some
+bigger issue out there on there. So
+review agent will look and talk to the
+retriever agent and it tells that hey
+this is the video I'm looking into.
+These are the some of the metadata that
+I have already uh kind of like ddup and
+kind of like post-processed. Now give me
+some understanding of this similar clips
+which are available in the corpus. So
+retriever agent will look into all the
+signals provided by perceiver agent. All
+the metadata of a clip level and a whole
+video level and index it into different
+databases adaptively. For example the
+topics has to be maybe like a inverted
+index where we have topics and a lot of
+videos. For the embedding it will be a
+vector databases which is available out
+there. And for different kind of
+entities which I've extracted we have a
+graph databases kind of like where you
+review your agent will figure out okay
+these are the multiple databases these
+are the entities and these are the
+metadata let me index it so that in the
+online inference time I can figure out
+for a particular clip what are the
+similar clips what are the similar
+entities and topics which are available
+to fetch and improve the recall.
+So going into individual agent we talked
+about perceiver it looked into the
+entire video do a temporal decomposition
+into small clips based on the semantic
+embedding and couple of algorithms and
+it fine-tuned the VLM to actually emit
+all the real uh concrete and a very um
+granular information about like each
+clips and the entire video. Uh because
+we are dealing at a very big scale that
+means we cannot just go with the
+standard VLM which are out there. There
+has to be a compression. There has to be
+a cost effective way to actually serve
+this these models to do it at like
+billions of frames. That's where we are
+getting into the pre-training
+fine-tuning and knowledge distillation
+quantization to actually deploy and
+solve the very very specialized VLM
+based on this particular problem and we
+will be talking a little bit brief about
+that. U the retriever agent is the one
+which we talked at a very high level and
+then what it does in an offline
+processing is that all the signal which
+is decomposed by the perceiver agent in
+an offline fashion consider that rather
+an agent you are actually taking that
+library and doing an offline analysis on
+a big scale let's say ray cluster or
+something like that and then once you
+have all those metadata it is basically
+indexing it into different databases
+doing an uh periodic offline clustering
+and finding what are the similar content
+what should be the embedding ID what
+should be cluster ID for each clips and
+entire video. So that is a data which is
+basically used by online inference to
+find similar videos and in online manner
+it given a query a clip ID and every all
+the metadata details it's figured out
+what is out there in the corpus which
+this guy has is similar to what like
+what are the different things which has
+a high similarity. So what it does it
+looks into databases is it find similar
+clips and like similar authors and
+different other metadata information
+rerank those candidates find uh and use
+some of the tools about like for example
+the traditional model span score like a
+classifier score to see what are the
+different candidates which might be spam
+which might not be high quality and
+those things out there and once it has
+those top end candidates is give back it
+to the reviewer and reviewer is where it
+actually process this is my main content
+signals and clip embeddings These are a
+similar video which is given by
+retriever. Let me think over it and
+whether I need to retraate and get more
+data from retriever. So uh that's where
+reviewer have all the temporal signals
+from a single clip. It has all the
+information of similar clips
+understanding and what is similar
+authors and other thing. It also has a
+realtime information about how the users
+are actually interacting with this
+video. What are the different kind of
+like a reports or like likes, dislike,
+the comments? what is the u sentiment of
+those comments out there right so a lot
+of these signals which are actually
+missed by the offline uh signals and the
+VLMs and other kind of agents are
+actually also incorporated to see if
+there is a change happen in the
+sentiment what is the response I'm
+getting in the real time so there are
+different tools available for this to
+actually understand the video not just
+from the content and from the semantic
+perspective but understanding from the
+user interaction perspective those
+signals are really really important
+So once we have this judge and
+everything we build this uh agentic
+framework and each of these agentic
+frameworks uh all all these three agents
+are actually powered by specialized uh
+VLMs and small scale VLMs in a way. So
+we will be talking about uh pre-training
+first. Now uh in most of the cases you
+see that okay you have a pre-training
+you fine-tune your vision transform a
+little bit here and there and basically
+tune it for your specific purpose.
+Uh the thing is that these VLMs what we
+have outside and available the
+foundational model the front end models
+they are trained on a very clean very
+nice data set very web data which is
+very well tuned cleaned and everything
+but uh data inhouse for a specific
+purpose is not having the same data
+characteristics. It's it is messy. It is
+generated by users. It is for your
+specific workflow. That means you need
+to pre-train on those image tokens and
+language to fine-tune your vision
+transformer from scratch and see whether
+there is a delta in fine-tuning it and
+tuning it from the scratch. That's where
+the pre-training is helpful. It's little
+expensive but um it if if it can get a
+delta that that actually works really
+well. The second is instruction
+fine-tuning where we have the two
+problems. We have a certain policies and
+certain guidelines. We know the content
+out there, signal out there and it
+understand and tune it on that
+particular data set with it with a
+particular output which is schema like a
+JSON schema to understand what is the
+modality uh misalignment or duplication
+of scores and other chain of thought
+reasoning provided by reviewer agent. So
+here we have a video clip we have a
+vision encoder which we are already
+pre-trained a little bit like now we are
+doing a little bit more training on
+that. There's a projector which is
+sitting between the vision transformer
+and the L language models and it is
+actually basically a bridge between them
+and then we have our output depending on
+what is the instruction finetuning data
+we have on this side. So this is the
+critical part of actually making your uh
+model performance like go up for your
+domain specific. So uh the context is
+basically you have a role, you have a
+policy, what are the tools available to
+ground that into some of the metadata or
+and what are the other things available
+out there give it entire things into uh
+in in a very brief manner into the
+context and let it figure out like what
+the structured label you have for these
+labels are actually in-house label.
+These are the one where we have created
+like what exactly modality things are,
+what are the different uh issues we are
+seeing, what are the different chain of
+thought reasoning there should be there
+in the model and how does the output
+looks like for a human reviewer. So this
+is like a very high quality data data
+set that we are fine-tuning it on for
+different agents. Right? So once we have
+done with the pre-training just to
+understand the vision aspect of or the
+other modality aspects of the videos
+then we go into the finetuning to make
+it understand and provide the context
+and the output in the manner that we
+would want to actually process the data
+set on. So u the next phase is the DPO
+phase where uh which is basically this
+technique is used a lot in the uh post-
+training to actually fine-tune our
+models into a specific uh like realm
+domain policy understanding or
+something. But this can also be used a
+lot in the prediction for actually
+understanding what are the samples which
+are actually getting uh not so good by
+the by your multi-ent systems and by
+your u llms. So what uh can be done is
+that like uh you have this uh production
+data set which is coming out you have a
+lot of inference happening you take a
+subsample of these uh data which is from
+the production you pass it through LLM
+as a judge which is trained inhouse on
+the human label data set and then you
+have the human review Q to see what is
+the performance coming up on on the
+actual system. Once you have this thing
+if your performance is coming amazing
+and it is above like your whatever is
+the prediction threshold you have 95%
+for each of the problem it's great but
+if it is not that means there is a way
+there has to be a way to loan on these
+samples where the model did not do well
+that's where you have a human in the
+queue it understand those all the traces
+which is there from all the agents the
+LLM call MCP and it figured out where
+the problem happened is it like a chain
+of thought reasoning or is it like some
+of the wrong tool tools are called the
+retrieval did not work. So that entire
+validations and basically understanding
+of each and every hook and node both at
+a model intelligence level plus at a
+harness level is what you figure out and
+say that okay these are the improvement
+that we I need to do on these samples
+which was incorrectly um sampled by our
+um system. So once you have this thing
+you have a positive sample negative
+sample what needs to be updated and
+that's where you retrain your model to
+see what uh how can we improve it better
+and this is the continuous improvement
+where we are looking into these samples
+reiterating re um improving the models
+and having a new data set out there from
+the production u like samples and trying
+to understand whether the drift happen
+or what exactly the model is doing. So
+this human in the loop is like always a
+continuous thing where you have a daily
+sampling from the production and trying
+to understand like how the model and the
+L&M as a judge are doing.
+So uh because of the cost and ability to
+solve at this scale we cannot go with
+the standard like a like a VLM models
+from frontier sizes because it's not
+scalable. It requires a lot of
+inference. It's a lot of complexity and
+we are solving a very specific problem
+like I really don't care if the model
+can solve a coding problem. I only care
+about my domain specific problem. That
+is all I care. This is not exposed to
+the customer. This is an internal thing.
+So I would actually do a off policy and
+on policy knowledge distillation and do
+a little bit of quantizations depending
+on like some experimentation
+quantization to understand whether a
+forbit work braining float what actually
+work really well. Then I would have a
+table of different sizes of
+distillations and quantization and
+understand and see where exactly is my
+performance like up to the mark and
+where I'm gaining a lot of compute and
+the cost resources um savings from on
+inference production by doing these
+optimization. So this is really critical
+because as a problem what we have solved
+it's all good but in production it has
+to be scalable. It has to be cost
+effective. It cannot just be like
+something which is um out of the um
+which is just out in the market because
+we are solving a very specific problem
+out here. Coming back to the evaluation
+basically first is the task of success.
+Of course these are the binary things
+the modality happen it does not happen
+like there is alignment or disalignment.
+So precision, recall, F1 are obvious
+metrics to understand what the task is
+success is. But we want to look at a
+system in a very holistic manner. Not
+just like the end goal but what is
+happening at each nodes. How well like
+the retrieval system is working. What is
+the latency and recall of the system and
+how well we are able to reason it? What
+is the chain of thought reasoning coming
+from these models at each agentic level
+or wherever the its reasonings are
+applicable which is basically a reviewer
+agent in our case. And what is the
+quality of that? Is it like
+overthinking? Can we reduce a budget
+somewhere like to make sure that like
+the models is actually doing a good job
+with less uh budget or can we increase
+it the budget of the planning or the
+reasoning things to have it a higher
+budget and make sure that the complex
+problem that we are solving is maybe
+having a much higher performance and
+accuracy. So having an adaptive adaptive
+reasoning budgeting is also uh quite
+important. And then we have the
+robustness. what are the edge cases we
+are seeing? Uh what are the error rates
+we are having? What are the different
+nodes and hooks where they are
+happening? Is it like a tool call is not
+working really well? It's a retrieval
+part or LLM is not doing a good job
+where or those kind of thing. And then
+we have a system efficiency where we are
+not looking uh just at the performance
+of the output and everything but we are
+looking at each and every aspects of the
+token cost which LLM are calling can you
+optimize LLM little bit more to actually
+save the cost. What is the efficiency
+which is we are saying and the latency
+of each agents and the entire system
+combined together. Then we have a LLM as
+a judge where we see that like in any of
+the prediction system there is always a
+data drift happening especially when you
+have the user generated content. So how
+our LLM as a judge which is used for
+evaluation and everything is doing with
+respect to the human queue. Is there a
+drift happening? Do we need to retrain
+our LLM as a judge on new data set which
+is coming from labeling team or how do
+we actually do on those parts in
+optimization? We have the spatial
+temporal reduction optimization which
+actually look into the frame which are
+similar and just compress them into the
+one aspect. This reduces the total
+processing of the videos by a huge
+extent. The second one is basically you
+have a caching you have a viral content
+which is basically coming up and you do
+not want to have the same content out
+there which is doing going through the
+entire pipeline and that's where you
+have a high similarity score and just
+skip the multi- aent system and just
+make a call on that. The third one which
+is really important is the metadata
+pruning. This is where we actually
+shrink the space from lot of candidates
+based on some of the metadata. For
+example, some topics and some creator
+which already have a really good record.
+That means we really don't need to
+process these all these images all all
+the videos from the creator which has a
+really good high authenticity score
+which are really doing really well on
+this where the video quality is really
+high engagement is good those kind of
+things. A metadata is something which
+can be used to filter out the video
+which shouldn't even go to the systems.
+So some of these flags u would be
+helpful. Um so the last takeaway that u
+u we basically we can take out of this
+room is that like decomposition t is a
+key. Uh decompose uh a problem as and
+when necessary. Adaptive optimization is
+really important for uh ROI and cost
+feasibility. Good evaluation is
+paramount. Everything in and out depends
+on this. This is the foundation of your
+entire system and entire VLMs and
+production monitoring and qualitative
+improvement are really essential to make
+sure this is sustainable in long term.
+With that, I'll end it and thank you
+very much for listening. Thank
+[applause]

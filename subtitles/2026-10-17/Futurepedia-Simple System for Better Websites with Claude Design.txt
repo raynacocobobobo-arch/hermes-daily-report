@@ -1,0 +1,500 @@
+UP主：Futurepedia
+标题：Simple System for Better Websites with Claude Design
+链接：https://www.youtube.com/watch?v=TErjuicvK_c
+
+I have a simple system that gets much
+better websites from Cloud Design.
+Instead of accepting the same generic AI
+designs everyone gets from a basic
+prompt, this lets you explore multiple
+directions, combine the best ideas,
+refine every detail, and then deploy the
+finished site.
+The first step that can help massively
+with avoiding AI design slop is by using
+reference images. Basically, just
+creating a small taste board before you
+jump into design. Grab maybe two to five
+references and say what you like from
+each. The typography from A, hero
+composition from B, navbar from C. You
+can also add more specific references
+like fonts, color palettes, or
+individual components. All of this will
+give Cloud a strong visual foundation.
+Then the next steps let us explode that
+into different directions. And you don't
+need to know a bunch of well-designed
+sites off the top of your head. But here
+are a few places I like to look. The
+Lapa Ninja has a huge database of
+landing pages. You can filter by
+business type or style. So, I will use
+SAS here. Find one I like and download
+the full screenshot. Land Book is
+similar, another big library of
+well-designed sites. Here's another good
+one I'll screenshot. For really unique
+3D sites and immersive scrolling,
+Awwwards with three Ws is great. That's
+probably a separate video, but Cloud
+Design can make this type of site, too.
+Pinterest is great when you want broader
+inspiration. Search web design or get
+specific with the type of site, product,
+or object you're designing around. Then
+when you click one, you can use the
+related results to keep exploring. Then
+if you want to get more granular, React
+Bits and 21st.dev are good for
+individual components like cards,
+carousels, buttons, and interactions.
+Also, don't overlook typography. A good
+font can completely change the feel of a
+site. Those are just some options.
+There's a lot more. You really only need
+two to five strong references. Then
+you'll also add your real assets on top
+of these, your product photos,
+portfolio, head shots, logo, things like
+that. In that way, Claude will be
+designing around the actual product and
+won't make anything conflicting.
+Now that we have our inspiration, we can
+jump into Claude design and drop all of
+that in. Now, if you've never used it,
+this is at claude.ai/design.
+And this is included with a paid Claude
+subscription. So, I have the references
+I found. Uh I thought this one could be
+cool as a background. Then, the product
+I'm going to make a site for will be an
+AI video editing platform. I'm calling
+it Flow Room. I had ChatGPT make the
+logo. Then, also it generated a hero
+image of the UI for the platform, plus
+another image demonstrating one of the
+key features. And these images are not
+perfect. They'll work for this example,
+but it does add a little challenge to
+kind of fight the AI feel the images
+already give off. Next, I will copy a
+prompt that's in the free resource that
+I'll have in the description. I'll go
+through the prompt, as well.
+I need to fill in the fields specific to
+this product, the business,
+the product explanation,
+the core features, which ChatGPT made up
+most of those as part of generating
+those images. Then, there's a section to
+explain what the product images I
+dropped in were. And it's supposed to
+use those as is. Then, below that, it
+says to use the attached references as
+inspiration, but do not reproduce any
+one site. For each reference, use the
+notes below to understand what should
+and should not carry into the design.
+Then, I will paste in the notes I have
+about those references and what it
+should draw from them. Synthesize the
+strongest ideas from the references into
+a coherent visual direction rather than
+averaging them together. Avoid generic
+AI stuff. Then, this part is really
+important. I'm not asking it to make one
+website. Create six meaningfully
+different home page directions, not six
+color variations of the same layout.
+Explore different Then, I have a list of
+things it can test, like hero
+compositions, typography, use of
+negative space, navbar treatments, and a
+bunch more ideas. There's some more
+direction below to summarize that whole
+prompt. Just take inspiration from the
+references, then explore six
+meaningfully different homepage designs.
+So, I will send that off and let it get
+to work. And I'm deliberately not
+designing the whole website yet. Just
+figuring out what it should look like
+and trying to explore directions that
+aren't its defaults. By asking for
+things like asymmetry, unusual negative
+space, grid breaks, and all of those
+examples I listed out. If I sent just my
+product images and the explanation of
+the business without the rest of that
+prompt, I could run that 10 times and
+I'd get back basically the same site
+every time.
+Now, it came back with six different
+options, and most likely I won't be
+picking one option from here. I'll look
+through them and find bits and pieces I
+like from each. Like I really like the
+different fonts here.
+Then looking through, there's some
+standard stuff. This one is really
+unique with these out of focus ones
+behind. I don't like that want to use
+that, but that's definitely an idea you
+would never get if you just sent off a
+basic prompt saying, "Make me a website
+for this brand." There's some good stuff
+in here. I didn't see any one design
+that I loved, but there's some
+interesting bits throughout them. So,
+I'll come up top and hit comment. Then I
+can click on something I liked and leave
+a note. I like the two typographies
+here, but I don't like the words. I want
+to switch that out for the tagline I
+gave it, less editing, more creating.
+Then these buttons are all right. I like
+the background here and want it to
+extend all the way across the site. I
+really like this little card. I'm not
+sure where I'd want it to go though. So,
+I've left some comments. Now, I'm going
+to tell it, "Make a new option that
+incorporates the elements each of my
+comments are attached to." And now it
+will build out a whole new version
+utilizing my favorite parts from each.
+This is what came back. It definitely
+has pieces I like. The typography is
+pretty cool. The background is looking
+good. There's some bits of the layout I
+like. So, this is a good base to work
+from. Then, the next step will expand
+our options massively.
+Now, next I have a prompt that will
+explode this out in a bunch of different
+directions. This utilizes a really cool
+feature they have called tweaks. I won't
+build them all out as different layouts
+like the last prompt. They'll all be
+incorporated into one. So, we'll be
+exploring all the decisions we can make
+inside the direction I just chose. So,
+first I'm going to say
+let's commit to 2A as the base direction
+and refine from there. Build that and
+incorporate many tweaks for me to
+explore. Then, I'll copy this prompt and
+paste that in. So, it says explore
+multiple options for, then lists out a
+ton of different things it should
+include variations of. And one thing I
+want to add into the bottom actually is
+the little card it has over here. I like
+the idea, but I don't think the hero
+section is going to be a good spot for
+it. So, I want it to figure out some
+options or somewhere else for that. And
+all these prompts are easy to copy in
+our free Cloud Design guide. I'm focused
+on just websites right now, but there's
+way more to the platform. So, we have
+similar types of copy-paste prompts for
+other templates and use cases inside
+Cloud Design. Tailored pitch decks,
+landing page from competitor
+screenshots, social media templates, or
+one I did another whole video on, the
+exact prompts I use in Cloud Design to
+make all the motion graphics that I
+actually use in my videos, including
+this one. These will save you a lot of
+iteration time. That's a free guide at
+the link in the description.
+So, that has come back and you'll see a
+series of drop-downs up top. Then,
+there's also a more button that has a
+bunch more, but I'll start with these.
+First was that little status card. It
+has the option to move it over the
+product image. Not a fan of that.
+Below the hero at full width. Not that
+either. Then, in feature section. That's
+not bad. I will leave it there for now.
+Next is the nav style. Yeah, glass
+pills, minimal inline, bordered rail,
+centered logo. I'll leave it on glass
+pills. I do like the bordered rail, too,
+though. Then hero layout, this should be
+a big one. I'll go centered, and I like
+that a lot. That'll probably be it.
+Editorial split, that looks good, too.
+For product presentation, framed panel,
+drop shadow, chrome,
+tilted float,
+full bleed. So, there are tons of
+options to choose from. I'm going to go
+through each of them, but I'll try to
+edit this down later, so it's fast to
+watch through this part. The featured
+layout has some very diverse options.
+That's a hard call. I think Bento would
+be good to work with. I have options for
+the CTA bar style at the bottom. Now,
+when I hit more, there's a lot more
+options to explore. The button fill, the
+button shape, the secondary button
+style. There's a bunch of different
+options to control how the feature cards
+look. I can test out different spacings,
+different sizes of the text, subtle
+adjustments to the background, the
+accent color. Then, in addition to all
+those tweaks options, I can hit edit,
+and there's all the typical manual
+editing options you'd expect. So, I can
+move things around, change the text, all
+the options to change colors, fonts,
+sizing, alignment, and all of that.
+So, that option plus tweaks is what
+makes this way better for designing than
+Claude code. This type of iteration
+would take forever in there. So, I have
+exploded this out into all these
+different options. Now, I select all my
+favorites, and I can come up to present,
+and hit new tab, and see what this would
+look like if I was visiting it. This is
+looking pretty good. I could also
+explode out again based around the
+options I've selected. You can keep
+doing this as much as you want, kind of
+going from the macro decisions to more
+micro decisions. But, I'm going to move
+forward with what I have so far, and
+explode out in a completely different
+area. I'll say the visual direction is
+great now, and again, I'm pasting in
+this prompt. Next, I'd like a new set of
+tweaks to explore ways to make the site
+feel more polished and alive through
+subtle, purposeful interactions. Create
+several interaction ideas for Then
+there's a list of things like hover
+states and button presses, UI
+interactions, scroll triggered reveals,
+subtle parallax, and a bunch more. I'll
+send that off, and then this is a really
+fun one to test out. Now, just like
+before, I have some tweaks listed up
+top, or I can hit more to see them all.
+We've got button motion, lift and glow,
+that's a classic.
+Shine sweep is pretty cool. Press in is
+very subtle.
+I'll do lift and glow. These next ones
+are for the nav bar, so I can actually
+move this tweaks panel somewhere else
+and test those out. Some of the options
+you'll get back will be over the top.
+You typically want to keep most of these
+interactions subtle. If you do, that can
+add a lot to the experience. But having
+one really unique type of kind of
+signature interaction on top of all the
+subtle ones can be great. Basically, one
+big one, everything else subtle. Doing
+too much of these gets distracting. So,
+explore all the options, and hopefully
+you'll find that perfect one. I like how
+it incorporated some ideas based on the
+fact that this is an editing platform,
+like the playhead,
+or these timecode ticks, or what I
+really like is the waveform. I think
+that could be cool if it's in the right
+spot. I like the tweaks I set as the
+defaults. Then I'm going to tell it I
+like the waveform and want to see it
+under the CTA button. All right, there
+it is, and I definitely like that
+waveform there.
+I think that is great, but I want to see
+it slow down. I also want an option
+where the cursor interacts with it. That
+could be pretty cool. All right, there
+it is. I don't really like it slow, but
+I'll try the interactive version.
+And that is really cool.
+Uh I like that a lot, actually.
+I am definitely keeping that.
+So, that's why these explorations are
+awesome. I never would have thought of
+that. But having one unique interactive
+element that's satisfying like this, and
+also something I've never seen before is
+a huge win. So, I've got my one
+signature interaction. I'll keep the
+rest subtle. Normally, I'd keep tweaking
+and exploring the rest of the page, but
+I'll move on to the next step. I'm going
+to lock this in and build out the other
+pages.
+This homepage now works as our visual
+source of truth for the other pages. If
+you're building a larger product,
+working with a team, or want this same
+visual language available across future
+Cloud Design projects, that's when you'd
+turn this into a formal design system.
+I'm going to show back on the homepage.
+You can create one and it will figure
+out every detail and create a design
+system with all those guidelines. Then,
+you can select that anytime you build
+something new, so the visual language
+will stay consistent across sites or
+apps, presentations, animations,
+anything you want to design. For this
+site, we don't need a design system.
+This homepage will inform all the other
+pages. So, I'll ask it to lock in
+everything we have and build out the
+other pages. Just one for each of the
+options on the nav, and it can make up
+whatever information it wants for now.
+And now it's done, and if I click to any
+of these other pages, it uses the same
+typography, same formats, and card
+styles. It keeps the elements,
+components, and aesthetics the same.
+Visual language is consistent across all
+of them.
+Design is awesome for figuring out
+exactly what the site should look and
+feel like. Once we want to start adding
+in a back end, we can hand this exact
+design directly into Cloud Code. And
+they make the handoff really easy. And
+you do not have to be a developer to use
+Cloud Code. There definitely is back and
+forth and iteration, especially your
+first time using it. But, whenever you
+get stuck, you can just ask what to do
+next. Now, I don't want to undersell the
+fact that it does take some time and
+practice to learn, but you can learn as
+you go without having any technical
+knowledge. Now, I'm just going to show
+getting this site fully built, deployed,
+and live on the web. After that, I'll go
+through the finished site so you can see
+how it all turned out. Come up to share,
+then more formats, then Cloud Code. And
+it has this prompt you can copy, but I
+run into issues a lot if I just paste
+that in as is, so I usually click here
+to download the zip file, too. Then I'll
+go into code. If you don't have it
+already, download the Cloud Desktop app.
+That's my favorite place to use Cloud
+Code. Then I will paste the prompt in,
+and then I can unzip that file I
+downloaded. And I'm going to rename the
+folder. Then in code, I can assign it
+that folder to work in. So, this folder
+with all the files and information
+already in it will be Code's workspace.
+And this part of the prompt asking it to
+use the MCP to download from design, we
+don't need that anymore since it's all
+in the folder I just downloaded myself.
+So, I will say it's a build it and send
+it off. It did come back with a question
+about how I want it deployed. The
+recommended option, it's good. And now,
+I'll come back when this is done. It has
+the site all built. I can view it in the
+in-app browser. It looks good, so I will
+make it a live site. And there's two
+steps to that. Push the code to GitHub,
+then deploy it with Vercel. And I can do
+all of that without ever leaving Cloud
+Code. You do need an account on both
+platforms. They are both free. Then make
+sure the GitHub and Vercel connectors
+are connected. Then all I have to do is
+say, "Push it to GitHub." And GitHub is
+just a site that can host your code in
+the cloud. It comes back with a
+repository all created and all the code
+pushed there. Then I can ask it to
+deploy with Vercel. And this step, it
+did actually find some bugs in the code,
+so it corrected those all then
+redeployed. I didn't need to do
+anything. It discovered them on its own,
+then fixed them on its own. And now the
+site is live. I can open it up right
+from Cloud Code. I'm going to look
+through this whole thing so you can see
+it. Here is our signature interaction. I
+really like the feel of this. It's got
+awesome colors and just feels really
+cool. We got the hover and glow on these
+buttons. I love the typography, the two
+different fonts here. Got some subtle
+movement on the product image. Like the
+way the scroll reveal works and it
+repeats that typography throughout.
+Another CTA here. Anytime there's a CTA,
+it has this kind of golden spotlight on
+it. Same with down here. Then this area
+is just kind of copy to help with
+conversion type stuff.
+When you click the CTA, that takes you
+over to the pricing page, which looks
+great. It's a different plans. They'll
+have even just with the little questions
+how it implements that typography. It
+looks great. Then the nav bar is up top,
+nice little highlight. Then all these
+other pages from that, it just kind of
+created in one go. I did zero iteration
+on it. But since I spent time on the
+homepage, it implemented all of that
+throughout the entire site. So all of
+them look great since it's drawing from
+that. So I think the site looks awesome.
+It's dramatically better than you would
+get if you just sent a simple prompt and
+did no iteration or that exploding step.
+That's one of the biggest ways to find
+some of this cool stuff to implement and
+break out of the defaults.
+We used Claude design to explore ideas
+and iterate, then handed it off to code
+to deploy the working site from Vercel.
+From here, Claude code can help add your
+database, off, payments, APIs, whatever
+the site actually needs. So the full
+system was reference. You curate a style
+board that gives Claude taste. Explore,
+generate multiple directions instead of
+accepting Claude's default
+interpretation. Synthesize, combine the
+strongest ideas into one direction.
+Explode, explore components, styles,
+details, and interactions inside that
+direction. Expand, build the remaining
+pages from the visual language you
+established. Then build, hand off to
+Claude code and turn the design into
+production software. So you don't avoid
+AI design slop with a magic prompt. You
+use a system that lets you take control
+over the creative decisions Claude would
+otherwise make for for And from here, if
+you want a full tutorial on Cloud Code
+and what to do next, check out this
+video right here.

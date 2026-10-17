@@ -1,0 +1,1004 @@
+UP主：Matt Wolfe
+标题：AI News: The AI Stories Everyone's Freaking Out About
+链接：https://www.youtube.com/watch?v=ACYAYsVMmT8
+
+There's been some drama and some
+shake-ups in the AI world this week and
+I want to break that down as well as all
+the new models and various things that
+we can do now that we couldn't do
+before. So, let's get right into it.
+Starting with the fact that we got a few
+new video models this week. One out of
+ByteDance and also one out of Black
+Forest Lab. So, let's start with the
+ByteDance video model called SeaDance
+2.5. This new model can generate up to
+30 seconds of video. You can also input
+up to 30 images, 10 video clips, and 10
+audio clips as reference materials all
+in a single pass. It also offers
+timestamp level control for targeted
+editing of audio and video content. So,
+you can really, really dial in exactly
+what you want the video to do and what
+you want it to be in your prompts. And
+for me, I'm just really blown away by
+how quickly we got this good with video
+generation. Now, there is audio on these
+videos. I'm just muting it so I can talk
+over it. But, video generation has come
+a long way. A few years ago, I was
+trying to make monkey on roller skates
+and it just looked like a little blur
+flying across the screen. Now, we get
+videos that look like this and yeah,
+it's just absolutely wild. Now, the
+obvious downside to all these new video
+models getting better and better is it's
+getting harder and harder to determine
+what's actually real and what's not
+anymore. And it's become a big sort of
+like AI slop problem that we're running
+into. Now, this one to me still feels
+pretty AI looking and most of what they
+show in their demos you can really tell
+are AI. But, uh yeah, this stuff is
+getting better and better by the day.
+This is like the longest subway car
+ever. Now, if you do want to play with
+this new SeaDance 2.5 model yourself,
+you can do that over at
+dreamina.capcut.com.
+Now, I'm pretty sure it's going to start
+working in Runway and Leonardo and all
+the other platforms where you can
+generate video soon as well. But, as of
+the recording of this video, this is the
+the place I know to use it. Keep in
+mind, it is not inexpensive to use. So,
+I paid for a $18 a month plan, and that
+essentially got me like three video
+generations. So, you're not going to get
+a whole bunch of demos out of me because
+I'm not just going to go spend hundreds
+of dollars to demo tons and tons of
+stuff. You could go look at the, you
+know, various previews they put up on
+their website. But, the first prompt I
+gave it was a colorful underwater scene
+with alien unnatural sea life. A man in
+a scuba suit swims around to observe and
+take photos of these bizarre creatures.
+And here's what that looks like.
+You can see that it actually put an AI
+watermark up at the top here. It's
+pretty impressive looking. There is some
+weird coherence issues. Like, when we
+get towards the end here, he's clearly
+looking at a jellyfish from this angle,
+but then when it goes to this angle,
+it's no longer a jellyfish. It's like
+some sort of crystals or something.
+Yeah, I don't I don't know why it
+changed like that, but, you know, again,
+I'm just impressed by how far we've
+come. For my next prompt, I wanted to
+give it an image and see what it does
+with that. So, I gave it just an image
+of myself and then said the room changes
+into a nightclub and 048 starts dancing.
+That's basically me just tagging this
+image. The image was called 048.jpeg.
+And here's what that generated.
+Perfect. So, again, you can play with it
+over at dreamina.capcut.com.
+I mentioned we got two new video
+generators this week. The other one was
+a flux three video. They teased this one
+a couple weeks ago, and I talked about
+it on another video, but now it's
+actually accessible for anybody to use.
+And you can pretty much use this one
+everywhere. It's in Leonardo, it's in
+Runway, it's in all the platforms where
+you can generate videos. This one to me
+looks a little more AI, a little less
+realistic. You can see an example that
+they give here on their website.
+Clearly not fooling anybody into
+thinking that's a real video. Now, this
+one can generate clips up to 20 seconds
+long, and they claim this one is a model
+designed to model reality as accurately
+as possible. So, I think it might have a
+better understanding of physics or
+something like that. Although to me, it
+still looks like very generative art.
+So, I logged into my Runway account and
+tested the exact same prompts that I
+tested with the Sea Dance 2.5 model, the
+colorful underwater scene, etc., etc.
+And again, not very realistic-looking.
+But, here's what it generated.
+>> [music]
+[music]
+[music]
+>> So, interesting that it actually
+generated multiple scenes. It wasn't all
+just one single static shot. You've got
+the scene of the diver swimming towards
+the jellyfish here, switches angles to
+like a lower angle, then it switches to
+it looking at this like alien-looking
+underwater monster, and then finally
+towards the end, it changes angles to
+the diver swimming in this direction.
+So, it's constantly switching angles
+throughout the video off of just one
+prompt. I also gave it the same image
+and the same nightclub dance prompt
+here. And well, here's what that
+generated.
+>> [music]
+>> Probably closer to how I'd actually
+dance in real life, honestly. Now, one
+thing that's interesting about this one
+to keep an eye out for, if I scroll all
+the way down to the bottom of their blog
+post where it says what comes next, they
+are planning on making an open weight
+variant. Now, whether or not this will
+be something you'll be able to run on
+like a local consumer GPU, not sure yet,
+but it looks like we will get one that
+you can run locally and fine-tune and do
+whatever you want with. So, that'll be
+interesting as well. Now, I'm super
+impressed with how far they've come, but
+I'm also not a huge fan of sort of how
+prolific AI slop has become on the
+internet. I think there are some people
+out there that are using these AI video
+models like in really, really cool ways,
+generating like really cool trailers
+where they're putting together a whole
+bunch of scenes and, you know, prompting
+it hundreds of times until they get the
+exact shots that they want and telling
+these stories and bigger narratives and
+color grading and really putting
+together something that looks
+impressive, but I also feel like most
+people are using these things to like
+make quick, sloppy TikTok videos as
+well. So, that part of it I'm not a huge
+fan of. It's something that as video
+models have gotten better and better,
+I've been fairly vocal about. Like, I
+think it's really, really impressive
+that we can generate this stuff, but I
+was also always concerned with how
+people were going to use these. You
+know, the deepfakes, using them to
+generate things that never really
+happened and trying to convince people
+they are real, the reverse where people
+are doing things in real life that
+aren't bad, but then potentially saying,
+"No, that wasn't me. It's AI." Like,
+somebody could commit a crime now and
+it's an actually decent defense to be
+able to say, "That wasn't real. It was
+AI generated." That kind of stuff is
+very worrisome to me and I don't think
+simply watermarking is always going to
+be a great solution cuz people are
+always going to figure ways around that.
+But, anyway, again, I'm really impressed
+with the technology. I love that these
+things exist. It's my goal to make
+people very informed and aware that this
+stuff exists. So, if you're out there on
+the internet and you're seeing things
+that you're like, "Wow, that's really,
+really impressive, but I can't tell if
+it's real or not." I almost feel like
+you need to start with the assumption
+these days that it's probably not real
+until proven otherwise. Like it's kind
+of this weird shifting of the way we
+need to look at videos online now. But,
+anyway, yeah, we got two new video
+models this week and both are scarily
+impressive. Next up, this new release is
+a device that's meant to help you never
+forget anything. It's called Second
+Brain Note from GenSpark and it's
+basically a super thin AI recording card
+that's about the size of a credit card
+and snaps onto the back of your phone
+like a MagSafe wallet. It's under 3 mm
+thick, has card slots built-in, a
+35-hour battery, and with one button,
+you can start capturing a meeting, a
+call, or even just a random idea you
+don't want to lose. Once the recording
+syncs to Second Brain, it turns that
+conversation into organized notes, pulls
+out the important details, and connects
+it with the rest of your work context
+across email, calendar, Slack, Notion,
+Google Workspace, HubSpot, and more. So,
+instead of digging through meeting notes
+later, I can ask, "What did we decide
+about short-form strategy?" and then
+have GenSpark super agent turn my recent
+project conversations into a full slide
+deck from the strategies we discussed.
+And the longer you use it, the smarter
+it gets. Second Brain Note is launching
+as a limited first release, and you can
+get 10% off through my link in the
+description. Free users get 300 minutes
+a month, while GenSpark Plus and Pro
+members get up to 24 hours of AI
+transcription and summaries per day. You
+can check it out at the link in the
+description, and thanks to GenSpark for
+supporting my channel and sponsoring
+this portion of today's video. We did
+get some new large language models this
+week as well. Probably the one that's
+been the most talked about is Quinn 3.8,
+and I actually talked about this one a
+couple weeks ago back when they first
+announced it on July 19th saying that
+essentially it's coming soon. Well, it
+finally came this week and just as a
+reminder it's a 2.4 trillion parameter
+model. And in their post from a couple
+weeks ago, they said it's an open weight
+model that's second to only to Fable 5.
+Well, now that it's released, we can see
+how close to Fable 5 it actually is.
+They posted their benchmarks here and
+yeah, it's a really really solid model
+for open weights. On their page they
+show it building like a corporate
+compliance knowledge graph. We can see
+what that looks like here. I'm a UI
+designer build a UI prototype for me.
+You can see it built some decent looking
+UIs. And I mean, yeah, it's developing
+stuff at the level that you might expect
+out of one of the newer Opus models or
+maybe the GPT 5.6 models. And again, it
+is open weight. Now, when they said
+second to only Fable, they were clearly
+kind of cherry-picking which benchmarks
+they were referring to. When it comes to
+software engineering, the benchmark that
+most people are paying attention to now
+is this Deep Swe. Models that are
+reaching high numbers on this one are
+usually the models that people are most
+impressed with when they actually have
+it start coding for them. And we can see
+on this Deep Swe, Queen 3.8 Max scored a
+respectable 56.6.
+However, it still came in under Fable at
+70, GPT 5.6 Soul at 73, even Opus 4.8 at
+59. Now, it's a big improvement over
+their previous generation Queen 3.7 Max
+from 21.6 to 56.6. But I mean, it's
+still not really at the same level as
+the Fables and the 5.6 Souls of the
+world. So, if you're looking for a
+state-of-the-art model that's going to
+be great at coding, you're probably not
+going to see similar results to Fable
+and 5.6 Soul from this model. However,
+if you're looking for a model that's
+just really good at answering questions
+and thinking through problems, it seems
+to be pretty good at that. On GPQA,
+Google Proof Question and Answers, it
+got a 92.6, which is on par with Fable
+and just slightly below GPT 5.6 Soul.
+Now, as always, I will link to the
+documentation in the description below
+this video if you want to check out the
+full benchmarks here. As far as open
+weight models go, it does appear to be a
+pretty good model. Saying that, if you
+think you're going to install this
+locally on your computer and run it
+outside of the cloud, well, it is a 2.4
+trillion parameter model. Like, it's not
+going to run on any consumer grade GPU
+anytime soon. You can play around with
+this model right now if you'd like over
+on Quinn's website. Head over to
+chat.quinn.ai
+and log in and you can play with 3.8 max
+right here on their site. Now, again,
+for me personally, if I'm doing like a
+complex coding project, I'm probably
+going to go use one of the GPT 5.6
+models or maybe Fable 5. If I'm using an
+open weight model, it's because I want
+to run something locally in most cases,
+in which case I'm going to need to use a
+much smaller model like a Google Gemma 4
+or one of the GPT-OSS models, which can
+be run locally for simpler tasks. So,
+this model kind of falls in this area
+for me where it's something I can't run
+locally cuz it's just too big and too
+powerful for that. And if I have to run
+it in a cloud anyway, I'm just going to
+go use the best of the best models,
+which is going to be out of Anthropic or
+OpenAI right now. But, I know you're
+probably curious how Quinn 3.8 looks on
+Bussy Bench and well, you know, I got
+you covered. Here's Gary Bussy as far as
+Quinn 3.8 max is concerned. A couple of
+things that are interesting to keep in
+mind, it cost me 21 cents to generate
+this. It used 35,990
+tokens and took over 10 minutes to
+generate this SVG. But, it's not
+horrible. It doesn't have some of the
+same problems that some of the other
+newer models have. And while we're
+talking about newer models, we also got
+a new model out of Meta this week, as
+well as a new coding harness from them.
+So, this week Mark Zuckerberg took to X
+to announce that they're releasing Muse
+Code in beta today. It's their terminal
+coding agent, their CLI, similar to like
+the old Claude Code CLI, the Code X CLI,
+Grok CLI. Basically, you run it in the
+terminal and it will write code for you.
+And along with this harness, apparently,
+they released a new model called Muse
+Spark 1.2, but it's a code-focused
+model. So, it's not just like a complete
+general-purpose model from my
+understanding. Now, when we look at the
+benchmarks here on this one, Deep Seek,
+again, is the one that I feel like if
+you're doing any sort of software
+development or having it, you know, vibe
+code stuff for you, this is the one
+where you're probably going to notice
+the difference the most. It falls in at
+59.3%
+just below 5.6 Tera and Opus 5, but
+notice 5.6 Soul and Fable models aren't
+even mentioned on here. So, not quite at
+the same level as those models. Here's a
+game example that he posted along with
+his tweet of a game that was developed
+using this model. And I mean, it looks
+pretty decent. And here's a website
+design that it made as well, which
+looks, you know, decently designed as
+well. It looks very similar to what I've
+gotten out of the Grok and the GPT
+models as well. They all seem to have
+like a similar aesthetic when you ask it
+to go make like a interestingly designed
+interactive website. Now, because Muse
+Spark 1.2 is a model for coding, well,
+it should be able to do SVGs. So, of
+course, I ran it through Busey bench.
+You probably already saw the teaser of
+this earlier, but here's what Muse Spark
+1.2 thinks that Gary Busey looks like
+when generated with code. Taking a
+closer look here, this one took only 35
+seconds to generate, cost only 4.5
+cents, and used 10,597
+tokens to generate. So, while Meta may
+not have the most state-of-the-art
+coding model, I do feel like it's a
+pretty solid, inexpensive alternative to
+the actual state-of-the-art models out
+of companies like OpenAI and Anthropic.
+And since we're talking about Meta, I
+have to bring this up really quick cuz
+this has been [laughter] absolutely
+fascinating to watch. It seems like
+every company is racing to see which
+company is the best at committing
+cybercrimes.
+So, this is according to the information
+here, a Meta AI model hacked another
+company during cybersecurity testing.
+And if you're wondering why I think this
+is so funny, maybe you haven't been
+paying attention recently to all of the
+other claims that have been coming out
+of some of these companies. I talked
+about this a couple weeks ago where
+OpenAI hacked Hugging Face. Supposedly,
+their model was inside of a sandbox
+environment, but it figured out how to
+break out of the sandbox environment,
+get access to the open internet, hack
+Hugging Face, steal the answer key to
+like a benchmark it was being tested on,
+and cheat on the test. And it was this
+like major cybersecurity incident. You
+give this OpenAI model a goal, and it
+will do whatever it has to, including
+committing cybersecurity crimes, to
+reach its outcome. OpenAI released this
+article breaking down everything that
+happened, and I talked about how it's
+interesting because it's very scary that
+these models will go to any length to
+achieve their goal. But also, it did
+feel a little bit like OpenAI was using
+this as an opportunity to market how
+good and how smart and how impressive
+their models were. Well, not to be
+outdone, a few days later, Anthropic was
+like, "Our models commit crimes, too,
+you know." Right? So, on July 30th,
+Anthropic released an article
+investigating three real-world incidents
+in our cybersecurity evaluations. In a
+review of our cybersecurity evaluation
+transcripts, we found three incidents in
+which Claude model reached the internet
+from within or while interacting with
+third-party evaluation environment, and
+then gained unauthorized access to real
+systems of three different
+organizations. So, it accidentally got
+access to the internet and they hacked
+into other websites and essentially
+committed cybersecurity crimes as well.
+And now, of course, as Meta's trying to
+get back into the large language model
+story here and release new models,
+they're like, "Yeah, yeah, yeah, us too,
+us too. Our model also broke
+containment." This was a previous
+generation, Meta's Muse Spark 1.1, not
+this newer coding model, but it appears
+to be a very, very similar story here.
+It was in a sandbox environment, but the
+AI was able to access the public
+internet because of an error. The model
+subsequently exploited a security
+vulnerability in another third-party
+service in a manner similar to
+previously reported instances with other
+companies. This has led to one of my
+favorite memes I've seen in a while,
+[laughter]
+with Sundar from Google, you know,
+saying, "Come on, commit crimes." But
+you have to admit, it's kind of
+interesting to watch all of these
+companies sort of race to put out press
+releases about the cybercrimes that
+their AI models are committing as a way
+to show how powerful they are, and I
+guess how valuable they are, and then
+also possibly for like the whole
+regulatory capture reasons. They
+obviously want the government to get
+involved, but they want themselves to be
+in the mix when the government gets
+involved, presumably. Anyhow, I
+mentioned earlier that there was some
+shake-ups in the AI world as well, a
+little bit of drama and a little bit of
+company restructuring, let's call it.
+So, let's talk about those real quick.
+First, starting with the drama coming
+from someone I never expected to see the
+drama from, which was Hank Green. Now,
+Hank Green's one of my favorite
+YouTubers. I love his videos. I pretty
+much watch every Hank Green video that
+comes out. I'm a fan. Well, he's in some
+hot water right now because he got
+caught using AI, I guess. So, here's the
+quick TLDR. Hank does a show called Ask
+Hank Anything, where people literally
+ask Hank a bunch of random questions.
+They submit the questions beforehand,
+and then he researches them, and then on
+the show he answers the questions. And
+then, if any questions pop up during the
+show that he doesn't know the answer to,
+he'll research it and then come back and
+do like a future Hank thing where he
+then splices those questions in. Well,
+in one of those segments where future
+Hank was talking, he said the words, "I
+appreciate the pushback." That's it.
+That was what started this whole thing.
+He literally said, "Oh, I appreciate the
+pushback." and then went on to give his
+response. And people said, "I appreciate
+the pushback is something AI says. Are
+you using AI to write your scripts?"
+That's essentially how it started. Hank
+went to X and basically said, "I produce
+under a ton of pressure. I did use
+ChatGPT for research on the script, but
+I do want to note that the script didn't
+say I appreciate the pushback. That was
+an ad-libbed line." He then deleted this
+X post and then went to Reddit and wrote
+a much longer essay about his thoughts
+on his whole process with AI here. Now,
+I'm not going to read the whole thing.
+Of course, I'll link it up below if you
+want to, but basically what he said was,
+"I don't use AI to write my scripts, but
+I do use AI to find research papers. I
+still read the research papers myself,
+but AI helps me find and uncover
+research papers that I might have
+otherwise missed. So, it saves me some
+time in doing the digging." However, in
+this same post, he does go on to say, "I
+need to come to terms with the fact that
+the level of dopamine I've been getting
+from interacting with LLMs with doing
+more and more and more and more is not
+healthy for me or good for the world. It
+is careless and has disconnected me from
+where people are on this." And I mean,
+this whole thing has just created a ton
+of controversy around the internet about
+Hank Green actually uses AI and and how
+horrible it is that he uses AI and that
+he's probably lying and does use AI to
+help with his scripts and people
+essentially just trying to cancel Hank
+Green for this. Okay, but here's my take
+on the whole thing. I actually do
+understand where people are coming from
+on this, believe it or not. So, Hank
+Green is a science educator. He is a
+seemingly very, very intelligent person,
+and people come to his channel because
+they're expecting Hank's take, Hank's
+opinions, Hank's commentary. And if all
+of a sudden one day you have to question
+whether what you're hearing actually
+came from Hank's mind or came as a
+result of like an AI response, now
+you're not sure if these are Hank's real
+thoughts or the thoughts of an LLM that
+the LLM fed into Hank's brain and then
+he recited. Even if it wasn't AI writing
+the script for him, if he's reading LLMs
+a lot, the responses of the LLMs are
+still getting into his head. So, even if
+it's not the script, it still could be
+him feeding back to you what an LLM gave
+him even if unknowingly and not, you
+know, from a script. So, I totally get
+why people are sort of upset about this.
+The person they thought they were
+getting commentary and original thoughts
+from, if that is such a thing, may have
+been thoughts fed to him by an LLM.
+Saying all that, Hank's response was,
+"Look, I use this for research. It saves
+me a lot of time on research." The
+people that are getting mad that he's
+using this for research, it makes no
+sense to me because he's, like, in his
+words using these AI models almost as
+like a glorified better search engine.
+So, I don't think Hank did anything
+wrong. In fact, I don't think there's
+anything wrong with using AI models. But
+even if I found out that like Hank was
+using AI to help with some of his
+scripts, I actually don't think it would
+bother me that much because I can
+actually see the use case of me like
+brain dumping a whole bunch of thoughts
+that are my thoughts from my brain into
+a LLM and then say, "Help me organize
+these thoughts and then say them in a
+better way than this ramble that I just
+gave you." And it's still the things
+that are coming out of my brain, just AI
+helping me sort of organize and arrange
+them. And if I learned that Hank was
+doing that, I would think nothing less
+of Hank for that. Assuming these were
+his thoughts and not him just
+regurgitating what an LLM gave him. But,
+I think the bigger story here is that
+this is bringing into the public
+consciousness creators are using AI to
+assist them in what they're doing
+online. And the watchers of those
+creators are having to come to grips
+with the fact that some creators are
+using this stuff to assist them. And
+some people are finding, I I don't
+really like that. I don't appreciate
+what other creators use LLMs. I think
+the thing that bugs me the most is
+probably the amount of judgement that
+other people put on creators. And this
+is also the reason this story has
+probably impacted me personally so much
+is cuz I am a creator who also deals in
+AI. So, like I'm seeing this overlap.
+But, the amount of judgement people have
+on creators is tough because creators
+are like real people too. They have
+lives. They have families. They often
+have careers and other commitments
+outside of what you're just seeing on
+video. And they're also looking for ways
+to sort of optimize and improve their
+workflows. And every creator has a sort
+of line that they're willing to cross as
+far as how much they're willing to
+automate without sort of giving up the
+amount of them that still goes into the
+process. And it's something that I
+personally struggle with all the time of
+like how much should I let AI do and
+where is that point where it's no longer
+my creative process, my voice, my brain,
+my input on the product anymore. So, for
+me I found that line as I let AI help me
+with my research. I let AI help me with
+outlines and essentially what I talked
+about, brain dumping stuff, and then
+letting it reorganize the brain dump so
+that I say it in a logical order instead
+of just random, you know, word vomiting.
+But, I don't let AI edit my videos for
+me because it's not good enough yet. I
+don't let AI write scripts for me. I
+don't let AI decide what I'm going to
+talk about. I come up with what I'm
+going to talk about and let it sort of
+help me outline it. I don't let AI I my
+thumbnails for me. I don't let AI write
+my titles for me. I don't let AI decide
+which news stories to talk about in
+these videos. There's a lot that I'm
+still not willing to give up to AI, but
+there are things I am willing to give to
+AI because it just makes my life a
+little bit easier and takes a little bit
+of pressure off. And I don't think a lot
+of people give other creators enough
+grace [snorts] for trying to figure out
+new ways to optimize and sort of
+streamline their processes because
+everybody's looking to do that. That
+doesn't mean you're lazy or you're
+trying to take shortcuts. It means
+you're just trying to optimize. You're
+trying to work smarter not harder. And I
+just again, I just don't think a lot of
+people give creators like Hank enough
+grace on stuff like that. And like I
+mentioned, everybody has a line and I
+feel like Hank saw where the line was
+and then realized his own line that he
+created, he probably crossed it a little
+bit. But I also think a lot of the
+internet's blowing it way out of
+proportion. Anyway, I'll stop rambling
+about that. It was just a topic that
+sort of hit me because I do fall in that
+intersection of creator and AI. There's
+also another shakeup this week over at
+Google and it's a pretty big one. So
+Demis Hassabis, who was the CEO of
+Google DeepMind, decided to step down as
+CEO of DeepMind and become chief
+scientist for Alphabet. Now, the
+previous chief scientist was a guy named
+Jeff Dean, who also this week decided to
+leave Google and start his own company.
+Now, if you're not familiar with Jeff
+Dean, he was actually employee number 30
+at Google. He's worked at Google for 27
+years. He was there long before Demis
+was even there. So, just like a quick
+history lesson on like Google and like
+their AI division, right? So, Google had
+a division that was working on AI called
+Google Brain and Jeff Dean was sort of
+like the man who was running Google
+Brain. And then somewhere around I think
+2014,
+Google acquired DeepMind and brought
+DeepMind in-house as an Alphabet
+company. So, now Google had two AI
+divisions. They had Google Brain and
+they had Google DeepMind. Jeff Dean was
+one of the guys running Google Brain.
+Demis, Mustafa, and Shane Legg were the
+guys running DeepMind. In 2023, Sundar
+and the Google team decided to just
+merge the two together and just have it
+all be Google DeepMind. So, Google Brain
+got absorbed into Google DeepMind, and
+now it was just Google DeepMind. And at
+the time, Demis was made CEO of that
+combined DeepMind thing. Jeff Dean was
+chief AI scientist. Now, fast forward
+again to this week. Demis is saying, "I
+no longer am CEO. Corrado, the ex-CTO of
+DeepMind, is going to step up and
+basically be running DeepMind. Demis is
+going to be an advisor for DeepMind, but
+now he's going to be more of the science
+role." And Jeff Dean, he's just out.
+Jeff Dean moved on to start a company
+called Discovery Loop, which is going to
+focus a lot more on creating automated
+machine learning research for scientific
+discoveries. Now, there's sort of two
+camps going on here about what's
+actually going on. Some people are
+saying this is a sign that Google is
+struggling and not going in the right
+direction, cuz as boy input here, "Would
+you leave a company where you're one of
+the head honchos, a company where you
+have been instrumental in building it
+into what it became after spending all
+of your professional career there, if
+you were confident they are on the
+precipice of unlocking the intelligence
+explosion?" And I think that's a pretty
+good point. Would you leave if you felt
+like they were this close to like
+cracking AGI? But I actually think
+personally, and this is just pure
+speculation, that the story is a little
+bit different. I think both Jeff Dean
+and Demis are science people. They like
+science. They like research. They like
+to be in the weeds solving big problems,
+figuring out how to make the world a
+better place through their research.
+That's where those guys' brains live.
+There's also been a lot of talk about
+how Jeff Dean wasn't a fan of Google's
+contracts with the military. And I don't
+think Jeff or Demis are big fans of like
+the productization race of AI. I don't
+think either of these people are people
+that want to be what ChatGPT or
+Anthropic is trying to make the best
+models as fast as possible and get them
+in consumers' hands. Like I don't think
+that's where their brains live. Their
+brains live in solving bigger problems,
+curing diseases, solving climate change,
+solving energy issues, things like that.
+They want to be working on the bigger
+problems. But Google has found
+themselves in this race with Anthropic
+and OpenAI who are both racing to get
+their products into more and more hands,
+get more and more active users using
+their tools. And now Google is in that
+mix going, "We need to be there as well
+getting more and more people using the
+Google AI products instead of OpenAI and
+Anthropic's products." And I don't think
+that's the game Demis or Dean want to be
+playing. So I think Demis is stepping
+into that science role so he can focus
+on science. I think Jeff Dean is
+stepping away so he can focus on
+building a company that's solving bigger
+problems. And I think Sundar and Corrado
+at DeepMind, they're shifting their
+brains into how do we go and compete
+with OpenAI and Anthropic and make
+products that people really, really want
+and that can compete in this model race
+that's going on. That's what I think the
+real story is, but again, this is all
+just speculation. I have no insider
+information other than the fact that
+I've had conversations with Demis and
+Corrado and, you know, I've also been
+following along to the whole AI
+storyline for the past five and a half,
+six years. So, you know, just based on
+that, I [laughter] think that's where
+these guys are sort of headed with all
+of this and I think it's less drama than
+people want to put on it and more just
+like the science guys want to go focus
+on the science. Let's let product people
+go and focus on productizing it all.
+Again, I could be wrong. All right, I've
+covered a lot, [clears throat] gone down
+a handful of rabbit holes. There's still
+a few more things I want to talk about
+that happened this week, but they're all
+quicker things. So, let's jump into a
+rapid fire.
+Let's start with the Google Earth
+feature that I talked about in last
+Friday's news video. Well, that was
+rolled back like, I don't know, 24 hours
+later. So, basically it was a feature
+where you can open Google Earth, it had
+Nano Banana built straight into Google
+Earth, and you can have it sort of
+reimagine what was going on in that shot
+in Google Earth. Like Pompeii reimagined
+with Nano Banana. So, try to bring it
+back to what it may have looked like
+back, you know, whenever that was. Well,
+people started using that to create a
+lot of deep fakes. Like making images of
+what would it look like if there was a
+terrorist attack here, and what would it
+look like if a plane was crashing into a
+building in this image, and starting to
+just spread misinformation like
+immediately when this launched. And
+Google saw that and went, "Okay, maybe
+this was not a good idea." And they
+pulled it. So, that feature did not last
+very long. I did get a chance to demo it
+in last week's video, but probably by
+the time you saw the video, it was
+already gone. While we're talking about
+Google, Google Maps got some new
+features with their Ask Maps. You can
+now order food, find the perfect hotel,
+and discover events. So, Ask Maps can
+now handle complex multi-step tasks for
+you using new agentic capabilities. You
+can literally ask Maps to order spicy
+pad see maw with seafood for me to pick
+up on my way home, and it'll find the
+restaurants along your route that serve
+what you're craving, and then can even
+consider things like your saved places
+or specific dietary needs. And then it
+can automatically add the dish you're
+looking for directly to your cart, so
+you can easily review and complete your
+order. It can find the latest
+information about hotels for next week's
+conference in downtown Miami. Find me a
+decently priced top-rated hotel with an
+artsy vibe, blah blah blah. And it'll
+give you personalized answers. You know,
+it can connect to Gmail and Google
+Calendar and things like that, and it
+can even resume past conversations for
+you. It's also got real-time transit
+information, and you can talk to it
+conversationally. So, now your Google
+Maps is going to be pretty much
+completely filled with AI options, and
+you can just chat with Maps now. We got
+a handful of small announcements out of
+OpenAI as well. GPT-5.6
+Soul is now more reliable with facts,
+and it can provide more focused answers.
+But probably even more interestingly, if
+you're a free user of ChatGPT, the
+default model is now GPT-5.6
+Luna, and you now get unlimited text
+chats. So, free ChatGPT users can now
+use it unlimitedly. OpenAI also released
+this post called 10 Advances in
+Mathematics and Theoretical Computer
+Science, essentially showing that it's
+solving harder and harder problems now,
+and they're much closer to like
+literally cracking the code on like some
+of the world's biggest problems. Now,
+these are the 10 problems that it solved
+here. You can feel free to pause and
+read them if you'd like. Now, these
+problems were solved by their Astra,
+which I think is the code name of like
+their next generation of model that we
+haven't seen yet, but the implication
+here is that if it can solve these
+problems, what's to stop it from making
+new drug discoveries and figuring out
+solutions to much bigger pressing world
+problems. OpenAI also released new
+plugins specifically designed to guide
+K-12 teachers, college educators, and
+college students. Things like assignment
+translators, which will translate the
+assignments into other languages, exit
+ticket briefs, updates for families,
+practice tests, interactive teaching
+sites, course calendars, course
+materials, course posters, interactive
+learning sites, flash card study plans.
+So, all sorts of cool stuff for students
+and teachers to take advantage of inside
+of these new educational-based plugins.
+And then finally, let's end with
+gadgets. Now, this is a little bit
+speculation, but apparently Jony Ive's
+first OpenAI gadget is a hockey
+puck-sized smart speaker. So, what we're
+hearing right now is that it's going to
+be a donut-shaped device. It's going to
+cost more than $300, and you're going to
+talk to it like you talk to like voice
+mode inside of the ChatGPT app. So,
+they're trying to make a Jarvis donut, I
+think, right? Like that's what you would
+call it. It's a a Jarvis donut. Anyway,
+that's what I got for you today. It's
+been a busy week. I mean, I say that
+every week. It's always a busy week.
+There's so much happening every week in
+the world of AI. As always, it's my goal
+to sort of drink from the fire hose and
+read it all, consume it all, keep up
+with it, and then turn around and keep
+you up to date. So, you don't have to
+try to keep up with it every single day.
+If you want to stay tapped in on
+everything that's happening in the world
+of AI that's worth knowing about, and
+you want to do it with just one video a
+week, that's what these Friday videos
+are for. So, if you like that kind of
+thing, maybe consider liking this video
+and subscribing to this channel. That'll
+make sure more videos like this one show
+up in your YouTube feed. Now, as a quick
+reminder, I do record these on Thursdays
+to publish on Friday mornings. So, if
+any news came out like late Thursday
+night or on Friday, it usually makes
+next week's video, but I promise to
+always keep you looped in on the most
+important things going on in the world
+of AI that I think are actually worth
+your attention. So, again, if that's
+something that might interest you,
+consider liking and subscribing. I also
+do like tutorials and breakdowns and
+commentary and stuff like that on what's
+going on in the AI world in between
+these news videos. So, you might find
+those cool as well. I'm getting really
+close to a million subscribers, so if
+you haven't pressed that subscribe
+button, it would really help a lot.
+Just, you know, 2 2 seconds, less than 2
+seconds. Just Okay, I'll stop begging
+now. Thank you so much for tuning in and
+hanging out and nerding out with me. I
+have a blast keeping up with all of
+this, and uh hopefully I'll see you
+tuning in for the next one. All right,
+peace out. Love you. Bye-bye.

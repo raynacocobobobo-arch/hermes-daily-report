@@ -1,0 +1,259 @@
+UP主：Matthew Berman
+标题：OpenAI COOKED
+链接：https://www.youtube.com/watch?v=Xc6ERvZM1NY
+
+Here's everything that happened at
+OpenAI Dev Day, which I was fortunate
+enough to attend. There were a lot of
+announcements, many of which are very
+cool, including everybody getting one of
+these, a mod retro that you can
+literally customize and build your own
+games, of course, with codecs. All
+right. So, probably the biggest
+announcement of the day was DOTS,
+OpenAI's new feature to compete with
+Grockbot, Muse, Instinct, all of these
+new generation of highly personal AI
+assistants, all inspired by OpenClaw.
+So, shout out to Peter Steinberger and
+OpenClaw for basically setting the tone
+for the entire next generation of
+personal assistants. You can think of
+Dots as always on. It is always working
+for you 24 hours a day. It is much more
+proactive. It is not something where
+you're going into chat GPT typing a
+prompt and then getting a task done. It
+is much more of it trying to think of
+what you need done before you actually
+need it. And you can connect to it
+through chat GPT obviously, but also
+Slack and Teams. It is where you need
+it. Again, I've been using Grockbot a
+ton. That is my primary personal AI
+assistant right now, but of course I'm
+going to give DOT a try. Now, I think
+the one interesting thing is it seems
+like all of these personal AI assistants
+are converging around the same design
+language. Some kind of soft geometric
+shape with eyeballs and that's it. And
+you can see both Grockbot and Dots have
+very similar design language. It feels
+very familiar and it feels just like
+what happened when Chad GPT was
+released. Every single product started
+looking like the Chad GPT interface. So
+just like Grockbot, it is its own agent
+or set of agents working as dots. They
+get their own environment working
+completely in the cloud. You connect it
+to your personal accounts like Gmail or
+Google Docs or Calendar or whatever
+you're using. You connect it and then it
+has access to all of it. I really am
+excited about this because it seems like
+this is a good way to get the general
+perception of AI to skew more positive
+than it has been. When people get this
+simplified product which is not like
+codeex or chaibt it is really it just
+feels like you're talking to an AI
+assistant and that AI assistant is
+actually getting real work done for you.
+I feel like it's going to convert a lot
+of people into actually enjoying using
+AI or at least being okay with it
+because it's just getting so much done
+for you. Now the way that DOT works is
+kind of interesting. It lives within the
+chat GPT app and it actually controls
+your chat GPT and codeex threads which
+is really a very different approach than
+what Muse took certainly but also how
+Grockbot works. And to be honest, I
+don't love this approach. I kind of wish
+DOT was just its own app, its own thing,
+but I guess for it to have computer
+control and be able to code and have its
+own environment, they just built it
+right on top of codecs and chat gpt. I
+get it. Now conversations with dot don't
+count towards your chat GPT usage which
+is quite nice but as soon as you have
+dot control your chat GPT threads or
+your codeex threads then that counts
+towards your usage. So just keep that in
+mind. Okay. The next one and one that I
+am personally most excited about is
+ultraast. This is GPT6 Astra powered by
+Cerebrus chips and it goes eight times
+faster than what Astra would do normally
+on their Nvidia GPUs, but it comes at a
+severe cost. You are paying six times
+more. And let me tell you, those tokens
+burn quickly. I had early access and I
+burned through $1,000 in literally like
+an hour and a half. So, you can really
+burn tokens very, very quickly. So, be
+careful with that. And with that, they
+did introduce a new plan, Pro500. That
+is a $500 a month plan. Now, I know a
+lot of people hear that and they're
+going to think, "Oh, everybody's saying
+AI is getting cheaper and cheaper, but
+people are paying more for it." Well,
+the same intelligence that is available
+today for pennies per million output
+tokens were, you know, 10, 20, $30 just
+a year ago for the same exact million
+tokens. So, intelligence is decreasing
+in price, but the absolute frontier,
+you're definitely paying more, whether
+that's for speed or just how high
+quality those tokens are. All right, so
+here's an example of how fast ultraast
+is, and it it's crazy fast. So, here's
+standard on the left, ultraast on the
+right, and they're both going to be
+building rockets and launching them.
+Okay, so you can see standard going
+pretty good. Ultraast building already
+getting started on the rocket. And while
+standard is still thinking, ultra fast
+rocket is already launching. So with
+that pro-500 plan that I mentioned, you
+have higher usage limits. You get 25
+times more than plus. So the $200 a
+month plan, which was 20x, is now only
+10x. The $500 a month plan is now 25x.
+And what that means is you're barely
+getting more than what you used to get
+at the $200 mark, but now you're going
+to be paying a lot more. Okay. And
+possibly the most impressive
+announcement of today is GPT6.1
+Soul. This is another incredible model
+that is affordable, fast, efficient, and
+basically as good as the Absolute
+Frontier. We saw Enthropic release Opus
+5.5, which was the best model in the
+world, or actually still currently is
+the best model in the world, but
+significantly less expensive than Fable.
+Then they announced Sonnet 5.5, again,
+basically as good as Opus, half the
+price, and now we're getting the same
+kind of releases from OpenAI. GPT 6.1
+Soul is a phenomenal model. It is
+basically as good as Astra and much
+cheaper and faster. So GPT6 Astra is
+coming in at $10 per million input, $50
+per million output, 6.1 soul, $2 per
+million input, $10 per million output,
+10 cents for a cash million input
+tokens. That is so cheap. It is so so
+cheap. And the model's really good. Let
+me show you the benchmarks quickly.
+First of all, the probably best
+benchmark that I know of right now, best
+reflecting how actual developers feel
+about these models. Here's 6.1 Soul
+right there at the same level, if not
+higher than Astra,
+and it's a fraction of the price. Look
+at how good that is. It seems like
+Anthropic and OpenAI both figured
+something out at the same time where
+their post-training is basically just
+solved, right? They build these massive
+models, Fable and Astra, and then they
+are able to post-train them, whether
+they're using distillation or whatever
+techniques they're using, into a model
+that is smaller and basically as good,
+much easier to run inference on, which
+means cheaper prices, faster inference,
+and it's good for all of us because we
+get these phenomenal models. Here it is
+on GDP PDF, which I assume is a PDF
+benchmark or PDF creation. And you can
+see the same thing. It basically
+performs like Astra at a fraction of the
+price. Here it is with OS World, which
+is computer use. Once again, performing
+very well, especially at the highest
+thinking tiers, but Astra does at the
+very top end perform better overall. But
+look at that. You're paying just a
+fraction of the price. All right.
+Quickly, they also released Codeex
+Security Cloud, which is exactly what it
+sounds like. It is AI that constantly
+scans your code for any issues,
+vulnerabilities, and just continuously
+tells you if there are any issues with
+your code. Next, Codeex is going to the
+cloud natively. Now, Codeex belongs in
+the cloud. This is the way things should
+be. You should be coding in the cloud.
+You should not have to have your laptop
+open at all times. That never made
+sense. I am very excited about this.
+Plus, it seems like the biggest
+bottleneck now is my local computer,
+especially when I have ultra fast mode
+going. Let me tell you, the actual
+inference is lightning fast. And then
+when it's doing tool calling or if it's
+running terminal commands, that's the
+slow part now. It's kind of insane to
+see. Ultraast really exposes the
+bottleneck is now your computer. They
+also have a refresh CLI which allows you
+to control it via voice. They have a new
+code review experience in codecs and
+watch out Jev. They now have a preview
+of the decisions API which is a model
+built to make quick decisions just like
+Jev. Now it is interesting. They say
+it's based on Luna's intelligence. So it
+is their lightest, smallest model
+running super fast making decisions. But
+I still think Jev is going to be faster.
+that is a model built from the ground up
+to be a decision model rather than
+repurposing an existing model of Luna to
+do this new thing. They also relaunched
+plugins where if you remember about two
+dev days ago, everybody said apps are
+dead or here's how many startups that
+OpenAI just killed. That entire
+experience did not work very well and
+they are relaunching it. Now you can
+have apps natively in the chatbt
+experience and you can also log in with
+an open AI account sign in with chatbt
+to third parties as well and you can
+bring your tokens with you which I think
+is very generous of them. Doesn't seem
+like something anthropic would do but
+this is really cool. So imagine you
+already have a Chad GPT subscription.
+you go and log in to some third party,
+some other app that you use and rather
+than that third party having to charge
+you an additional subscription or
+provide you with tokens, you simply
+bring your tokens to them which I think
+is going to be awesome. And then watch
+out notion chat GPT space is here. Think
+of it like notion but it is fully native
+for you and your teammates to work with
+and with agents to be in there.
+Everything from PowerPoint to
+spreadsheets to websites. Everything can
+be in this new chat space. So, even with
+all of those exciting releases, this is
+what I'm most excited

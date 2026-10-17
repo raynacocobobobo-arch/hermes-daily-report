@@ -1,0 +1,56 @@
+UP主：OpenAI
+标题：Introducing dots, always-on agents built to handle everything.
+链接：https://www.youtube.com/watch?v=uXspbC2srEQ
+
+Hey. I'm your Dot.
+I'm new in ChatGPT.
+I'll be here to handle everything that comes your way.
+Ready to jump in when you need me.
+I'm going to call you...
+I'm going to call you Alfred.
+You got it!
+I'm Alfred.
+I'll keep things moving and check in when something important needs your approval.
+Love it. Let's get to work.
+I've been getting your website ready for the fall launch
+using your approved designs.
+Okay, perfect.
+The latest consumer experience numbers came in on Teams.
+I've been updating your board meeting deck.
+Sounds good.
+So I caught the app migration in your Google Meet notes.
+I've already mapped out the changes.
+Get it started, but make sure you first check
+every flow against the current product before I review.
+Also, update on wedding planning.
+Bad news: the cake vendor canceled.
+Good news: I already found a backup.
+Lifesaver.
+When can we do a tasting?
+Saturday at 11 a.m.
+works for both of you.
+Hey there.
+Your website is updated with the new designs for the fall drop.
+Check it out.
+Nice.
+I like that.
+Just swap the first and third photo, and then you can publish the site.
+Done, you’re live.
+Your board meeting deck is ready.
+Product use is climbing and revenue’s up 51% year over year.
+Okay, this looks good except for - change it
+so that the consumer experience is first and then get into the growth numbers.
+How's it looking?
+The rebuild is faster in testing, with no regressions found so far.
+The preview and results are in the PR.
+Amazing.
+Share the results with the team on slack and get the staged rollout
+ready for my approval.
+I'll flag anything that changes.
+Also, I booked the kids’ after-school lessons as soon as registration opened.
+They’ll love that. Thank you.
+Tomorrow's finance review just got moved to the same time
+as your daughter's recital, so I'm going to see if we can reschedule.
+Okay, Yes, please.
+I can't miss that recital.
+All set. I'll start prepping your notes now.

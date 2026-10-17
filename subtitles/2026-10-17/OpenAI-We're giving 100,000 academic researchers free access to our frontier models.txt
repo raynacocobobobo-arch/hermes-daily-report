@@ -1,0 +1,114 @@
+UP主：OpenAI
+标题：We're giving 100,000 academic researchers free access to our frontier models
+链接：https://www.youtube.com/watch?v=MLehRytu9Zo
+
+What I tell my kids is what I do at work
+is I contemplate the mysteries of life,
+the universe, and everything. Try to
+figure out, you know, where we came from
+and where we're going.
+>> [music]
+>> I'm trying to figure [music] out how to
+do physics in the new year. I feel like
+AI is erasing the boundaries between
+subfields of physics. So, basically I'm
+trying to figure out what I can do with
+the model, not just [music] trying to do
+better of what I've been doing before.
+>> I'm a physicist, a cosmologist, and also
+an AI researcher. I'm here working on
+all of all of the above. We were trying
+to predict signatures of the microwave
+background light that we see in the
+universe. And the model made a great
+analogy to research in photonics. And
+[music] that actually helped us get
+unstuck on a particular piece of the
+problem.
+>> I've been using um
+>> [music]
+>> AI a lot, mostly as a way to quickly
+generate code that can analyze data and
+test various hypotheses very quickly.
+So, you can get a rough feeling for
+where the signal might be in the data.
+>> And so, I just gave it my paper and like
+[music] 10 minutes later it had
+histograms basically for every tissue.
+And it was really striking. The metric
+that we had developed was really high
+and strong in the brain and lower in
+other tissues, which was really
+compelling. It's just [music] really fun
+to basically make a discovery by using
+plain language and just talking to the
+computer. [music]
+>> The breakthroughs are, you know, very
+often not by solving a very hard problem
+by making the right assumption. [music]
+I'm starting to have the AI model bring
+me like new conjectures that I haven't
+thought about before and can write
+numerical tests and, you know, there
+there are many ways you can you can you
+can test whether the ideas are are
+correct, but [music] just to have the
+idea to begin with uh is uh you know,
+it's such a big deal.
+>> In many of these problems where what it
+really is going to take is not vast
+scale of the experiment, it's going to
+take sort of extreme [music] cleverness
+or a great leap of insight. Our ability
+to make these sorts of, you know, leaps
+of experimental imagination is just
+limited by the number of people who are
+able to make that leap. With AI it can
+be just a huge force multiplier. If any
+one of those experimentalists now has
+all of their AI agents, then the space
+of ideas, [music]
+the number of leaps of insights they can
+have, that goes way up. Suddenly we'll
+be able to make progress on things in
+the scale of a year or two years that we
+thought was at the scale of decades.
+>> [music]
+>> Things that were a lifetime away, maybe
+now will become a decade away.
+>> I honestly have had so much fun with AI
+at examples like that. It has freed me
+up to spend more time on the stuff I
+love about my job, which is the
+scientific discovery, reading other
+people's papers, meeting with my
+students. [music] So, I think just
+removing the energy barrier to getting
+started with it is going to be really
+huge for the scientific community.
+>> These tools absolutely need to be widely
+distributed. [music] It's essential for
+the progress of of science.
+>> Scientists anywhere in the world, any
+individual [music] could be the one who
+leads the next breakthrough in whatever
+field they work in.
+>> The impact could be absolutely enormous,
+and I'm really excited to see what comes
+of it. People will use it in all sorts
+of creative ways, [music] and we it's
+not that we can sit here and predict
+what that will look like, but it's
+surely going to be an accelerant.
+[music]
+>> That curiosity, the thing that got us
+into science I think in the first place,
+to have that much more present in our
+day-to-day [music] professional lives
+has just been awesome.
+>> I mean, scientists are very creative.
+It'll be really interesting to see what
+scientists come up with once these tools
+are in more hands and more broadly used.
+[music] I think it's a great community
+to look for new uses of AI.

@@ -1,0 +1,106 @@
+UP主：OpenAI
+标题：Meet the all new Codex Cloud
+链接：https://www.youtube.com/watch?v=7Bv68f5szSU
+
+Oh, are you filming already?
+Let me wrap this up.
+One second. And because this feels like
+science fiction already, you know,
+make the lasers like animate, like,
+I don't know, like the meaning of life.
+Okay, there we go.
+Boop! All right.
+What's this video about again?
+Oh, right. Cloud environments.
+Sorry, this is awkward.
+Oh, wait. Actually,
+I don't need to leave this open anymore
+because I kicked this task off
+in the cloud.
+Which means I can close this mad boy
+and the task still runs.
+Wow, that feels so good.
+It's so freeing.
+And I can pick that task
+back up whenever I want
+because it's running in the cloud.
+I can even use my phone.
+I can just add to the running task
+without interrupting.
+And what I love,
+it even allows for voice.
+I can pop in my headphones
+and go for a walk
+and I can kick off a voice session.
+And everything.
+And that will just run
+and let me know when it's done.
+I have a hunch
+this might take a while.
+I'm pretty excited about
+this new environment that I just built.
+So I found this device
+and I'll probably buy it.
+It lets you play animations
+with actual lasers.
+I had Astra figure out the format
+and generate a simulator.
+Turns out you can just laserify things.
+And again, because I never know when
+the spark of an idea might show up,
+I want to be ready
+and let it build while I do other tasks.
+Whatever that might be.
+So I use the cloud environment
+setting right here to make a new one.
+When these get started, there's a great
+chat-based onboarding flow where
+you give it the repos that you're wanting.
+And the flow does research about
+what your repo might need for setup.
+And I'm talking about
+all sorts of advanced configuration,
+like what networking it needs.
+It can do environment variables
+and secrets.
+Now, if you're sharing this,
+you can even allow a user
+to override it with their own secrets,
+either inline or from their personal vault.
+And then once you publish it,
+you now have a named environment
+in which you can kick off new tasks.
+Now, what's nice about this
+is it's a snapshot.
+So you don't ever need to do
+that setup like over and over
+again like we do, right?
+You can run multiple separate tasks
+and use this environment
+as the starting point.
+This just lets you dive
+into what you're building
+and your whole team gets to use it, too.
+This is such a huge improvement
+from how we used to do things.
+Oh, it returned.
+Classic.
+And as you can see, I can still
+use this task on this cloud computer.
+Now, I can have it create a PR
+and run it through that normal flow.
+Or I can use that
+brand new code review flow,
+which I love, BTWs.
+And there's more.
+I can also just have Dot
+take care of that
+while I go run and buy that laser machine.
+Dot, can you go ahead
+and make a PR for our records?
+Make sure that things look good
+and test and flag anything
+that you need me to approve.
+Don't panic.
+Well played.
+Well played.

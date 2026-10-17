@@ -1,0 +1,561 @@
+UP主：OpenAI
+标题：How OpenAI Puts ChatGPT to Work | DevDay 2026
+链接：https://www.youtube.com/watch?v=SXCfs7mitPo
+
+Hello.
+Thank you for joining us today.
+My name is Nick. I'm Danielle.
+And we work on the developer
+experience team here at OpenAI.
+Let me start with a poll
+from the crowd.
+Go ahead and raise your hand if when
+you start your day, your inbox is
+empty, you're full of clarity, and you
+know exactly what you need to do.
+You've got one, two.
+All right. Let's put your hands down.
+All right. Now, go ahead and raise your hand
+if when you open your laptop,
+it feels like a clown has
+jumped out of your laptop.
+It's full of chaos.
+It's like a jack in the box.
+All right.
+A lot more hands.
+All right.
+So here's what that looks like.
+You open your laptop, you check
+your email, you catch up on Slack,
+and a couple dashboards.
+And then you finally
+decide we need to get done.
+But the problem is, it's everything.
+And by now, half the morning is gone,
+and you're just starting your real job.
+So we know that ChatGPT can change this.
+But how?
+So these are our most prolific
+ChatGPT work users here at OpenAI.
+They're all outliers within
+their respective orgs.
+And me and Danielle interviewed them
+because we wanted to know exactly
+what they were doing differently.
+What was their secret?
+So we're going to show you exactly
+how they're leveraging ChatGPT and what
+else that empowers them to do.
+So let me introduce our champions.
+This is Dani.
+She leads social for OpenAI developers.
+We then have Adrian,
+who leads competitive research.
+And finally, Casey, who's our chief
+people officer here at OpenAI.
+These are three very,
+very different jobs.
+But our conversations with Dani,
+Adrian, and Casey revealed
+a pattern in how they had
+taken on work that seemed
+impossible just a few months ago.
+Each of them is a ChatGPT
+work power user.
+You already know ChatGPT
+as a thought partner.
+And you know Codex as a coding agent.
+ChatGPT work is your agentic
+teammate for getting things done.
+You tell it what you want done,
+and you give it the context
+that it needs to do it.
+Let's say I'm running
+an event like DevDay.
+I can hand over the agenda
+for DevDay and have it build
+a site that asks what you're
+working on and helps you pick
+which sessions you should attend.
+Totally unbiased, of course.
+ChatGPT work, or as we usually call it,
+chat, can also take on ongoing tasks.
+And when you can hand off
+more of your day-to-day work,
+you can spend more time working on
+what you're truly excited about.
+You probably have
+something in mind already.
+Maybe it's an idea that you
+really want to explore.
+Maybe it's a project that you'd
+love to get started on.
+And you will, you know,
+when things slow down.
+What's in the way?
+Where are you the bottleneck?
+And if Chat could take on
+a responsibility for you, what
+would that free you up to do?
+So let's see what that handoff
+enabled for Danny, Adrian, and Casey.
+Let's start with Danny.
+Danny leads developer
+social here at OpenAI.
+So her job is to shepherd products
+through launch and then listen
+to the developer community for feedback.
+She also keeps key stakeholders in loop
+with how those launches are going.
+And Danny told us that she
+could spend an entire day
+just monitoring these launches
+and then keeping people in the loop.
+And for Danny,
+stakeholders mean executives.
+So imagine you just helped
+launch GPT-6 Astra.
+And now the CEO, Sam Altman, is
+asking you how the launch is going.
+And so Danny's job is to distill
+the feedback from the noise.
+And here's how she does it.
+So she uses ChatGPT to pull together
+how the launch posts are performing
+and what developers are saying.
+And she pulls that into a ChatGPT
+site for her and her team.
+So when Sam is asking, you know,
+how's the launch going, she
+can share a live report.
+But a live report is only
+useful if somebody is keeping
+up to date and keeping those
+metric numbers up to date.
+And so that's the job that she's
+handed off to her dot.
+It reads the social feed just like
+Danny would and adds posts to her site.
+After the launch, she can share
+a more detailed view with her
+and her team because that same
+dot has been adding posts to her
+content sheet with engagement
+metrics for every single post.
+This makes it easier for her
+and her team to understand what content
+is working and what's not working.
+So Danny used to do most
+of that monitoring and collection
+herself, which meant hours of scrolling.
+But now she can focus
+on the bigger picture,
+like figuring out how we should respond
+to those developers.
+And also, this is just better than
+only collecting the sentiment.
+Also, she can bring back what
+she's learning to people in product
+engineering, as well as, you know, very
+important stakeholders like Danielle
+and myself in developer experience.
+She also has to keep up
+with everything happening in Slack.
+The sheer number of channels
+that Danny has to be in because
+she's helping launch so many products
+means that it's really easy to not
+keep up with all those updates.
+So what she's done is she has
+her dot monitor those channels for her.
+It pings her when something's
+urgent and lets her know
+when she needs to chime in.
+All of this means that Danielle
+can spend more time with the developer
+community and spotlight their work.
+And this is the work that Danny
+loves to do.
+So, Danny can hand off all
+of that work because she knows what
+questions she's going to get asked.
+So, think about what question
+you're going to get asked
+and how could chat have the answer
+ready before somebody asks.
+And that leads us to Adrian.
+So, Adrian leads competitive research.
+His team is just two people.
+Colleagues from sales,
+from product, GTM, strategy,
+all across the org come to Adrian
+with questions about the competition.
+What's changed
+in a competitor's product?
+What are customers saying?
+And what does that mean for us?
+Each question can turn into days
+of research and with a small
+team of just two.
+Deciding what to investigate also
+means deciding what goes unanswered.
+So, to answer more of those questions,
+Adrian gave chat a way to take
+on more of that research.
+He put his full research
+method into a plugin.
+And that plugin does what he does.
+It investigates, it finds patterns,
+and it challenges the findings.
+He needs an answer that can
+hold up well under scrutiny.
+So, how does that actually work?
+Adrian wanted to understand
+why a competitor's revenue
+was growing so quickly.
+Was it winning a new group
+of really large customers?
+He had his DOT look across
+calls, across newsletters,
+and podcasts.
+The evidence didn't
+support that explanation.
+So, in another investigation,
+he had his DOT go back through
+90 days of sales call transcripts
+and found reasons for lost deals
+that were not captured in the CRM
+summaries that the salespeople left.
+And that gave him a much
+fuller picture of why customers
+were choosing a competitor.
+He also built Compete Corner.
+It's a site that organizes research
+around the questions that he
+knows he's going to get asked.
+Colleagues can go to Compete Corner
+and explore findings and check
+the sources without asking
+Adrian to walk them through it.
+Adrian passed off the job of keeping
+Compete Corner up to date.
+His DOT picks up the competitive
+questions straight from Slack.
+It then researches
+them using his plugin.
+And then it brings those findings
+into his space for review.
+Adrian or his teammate
+can then check the conclusions
+and add additional context.
+Once they approve, his DOT can then
+update Compete Corner on his behalf.
+Adrian can also just
+send his DOT a text.
+On his commute in the morning,
+he sees a competitor announcement.
+He can forward it straight to his
+DOT, where it does exactly the same
+workflow without Adrian needing to be
+in ChatGPT or at his laptop at all.
+And the page is marked ready for review
+when he arrives at his desk.
+So what does that change
+for a team of two like Adrian's?
+Well, it enables Adrian to do
+all sorts of new things like
+delivering competitive intel
+in an entirely new way.
+He built this tool.
+It's called Model Galaxy.
+And it's an interactive
+visualization of performance,
+cost, and latency across any
+benchmark for frontier models.
+Of course, made with GPT-6 Astra.
+So think about an investigation
+that you do regularly.
+Maybe it's a customer problem.
+Maybe it's a bug that just
+refuses to be squashed.
+You already know what makes for a good
+answer and when to challenge it.
+You know what sources you should trust.
+So show Chat how you would approach
+that exact same investigation.
+It can do more of the gathering
+and the checking so that you can
+actually focus on the findings
+and what you should do about them.
+What if people could draw on
+your expertise without having to come
+to you every time they have a question?
+This brings us to Casey.
+He's our chief people
+officer here at OpenAI.
+And he's thinking about how AI is
+changing the way teams work together.
+So Casey and his team
+study organizations inside
+and outside the industry.
+And they're trying to learn how these
+teams are adapting to AI.
+And through all this research,
+they are accumulating a treasure trove
+of meeting notes, papers, and articles.
+And they bring all this research
+together into one shared knowledge base.
+He's used that research to build
+a coaching site for leaders.
+It's powered by GPT Live.
+So you can talk to it about how
+your team works and where
+things are getting stuck.
+It helps you figure out what to hand
+over to AI and how your team
+could work differently.
+But how does Casey's team
+keep this knowledge base that's
+powering the coach up to date?
+So Casey and his team bring
+their meeting notes and research
+together on a shared page.
+And this is how they leverage
+their individual explorations
+together into one resource.
+They also give the page instructions
+for organizing new research.
+So when an agent works in that page,
+it can ascribe to a consistent style.
+And this same knowledge
+feeds the coaching site.
+As the team adds what they're learning,
+the coach can use it in his suggestions.
+So go ahead and ask yourself,
+what are you an expert on?
+And how could you make
+that accessible to more people?
+So you've now seen what our champions
+are taking on with chat.
+And now we're going to show
+you how to put it to work.
+As you've probably already
+seen in the keynote today,
+we've launched ChatGPT space.
+Yeah, that's awesome.
+So you've already seen
+Adrian's Compete Corner site.
+Now I'm going to show you
+the space that hydrates it.
+Chat brings its research
+into Adrian's space.
+He and his teammate work through
+the findings, all in the same
+page at the same time.
+Adrian can question a conclusion.
+His teammate can comment and add
+a source that helps answer it.
+They each work with their own
+chat in the space
+to investigate further right there.
+Their chats each stay private to them,
+but the edits on the page are shared.
+The research that they develop
+here then feeds Compete Corner.
+We also mentioned that Casey
+is using page instructions
+to keep things consistent.
+Like an agents .md file
+for a code base, they describe
+the working practices that agents
+should follow on a particular page.
+And pages are just the beginning.
+You can also store files
+in your space and soon you're
+going to be able to create slides,
+sheets and so much more.
+So you and your teammates
+and your agents work together
+all in the same place
+without leaving ChatGPT.
+So to try this yourself,
+bring the work that you want
+to do with Chat into your space.
+Add the context that it needs
+and then you can invite your teammates.
+My favorite way to do this is
+to start with a long Chat thread
+and ask it to turn what you're
+working on into a page.
+From there, you can pair directly
+with your agent and continue refining.
+As you talk to your agent,
+it's going to keep the page updated.
+Then, you can invite your teammates.
+They can edit the same
+page at the same time.
+And again, those edits
+become shared in the page.
+Now, working together in one
+space is a great way to start.
+But work continues to change
+and somebody does have
+to keep track of it all.
+You probably know what's coming next
+because today we have
+also launched Dots.
+Oh, so cute.
+So remember how Dani handed
+off monitoring the launch?
+So here's how she did it.
+Her Dot has its own
+computer in the cloud as
+well as its own browser.
+So it goes to the social feed
+just like Dani would and it
+collects the posts while keeping
+her content sheet up to date.
+Then, she can add it to the Slack
+channel she wants it to follow.
+And she can also tell what to do.
+This could be just be a fly
+on the wall or also be
+an active participant.
+So when something needs her attention,
+it can send her a ping on Slack.
+So what she's done here is she's
+given her Dot an ongoing responsibility.
+Keep track of what's happening and then
+bring her in when she's needed.
+And you can hand off something
+from wherever you are.
+We mentioned that Adrian can
+text his Dot in his commute.
+He can also just give his Dot
+a call or ping on Slack.
+His Dot is reachable wherever he is
+and it's always the same
+Dot with the same context.
+So when he's messaging on Slack
+or he's getting a call,
+it's always the same entity.
+And your Dot is always on
+because it lives in the cloud.
+It can text you an update or a
+question when it needs you to weigh in.
+And it can also access your local
+files when you're on your laptop.
+So how do you turn your Dot
+into your own sidekick?
+Well, the first thing you're going to do
+is you're going to give it a name.
+I've named mine Wyatt.
+It's the name of my childhood dog.
+The next thing you're going to do
+is give accessories.
+I like having mine kind of look
+like the frog guy with the fun
+eyes and the monocle.
+And after that, you're going
+to give it a responsibility.
+You're going to tell it what you want,
+what you really, really want.
+And then you're going to tell
+it where to reach you.
+You can add it to Slack.
+You can have it text you when
+messaging is coming out soon.
+But the point is you don't have
+to figure this all out up front.
+Your Dot will kind of learn
+your working style as you work with it.
+It'll learn your preferences and it'll
+get better over time.
+By the way, if you would like
+to build your own custom Dot,
+we do have a Dot shop downstairs.
+So do check that out after this talk.
+I named my Dot Ginger after
+the Spice Girl, not a dog.
+All right. And now it's time for you
+to hand off the part
+of your job that you won't miss.
+So I want you to feel free
+to take a picture of this QR code.
+You can do it right now.
+Pull your phone out.
+This is going to open up ChatGPT
+on your phone.
+And it will ask you
+just a little bit about your work.
+It'll also try to infer your work.
+And once it does that, it's
+going to suggest something
+that you can hand off first.
+And it will also tell you where
+space and dots might fit into that.
+So feel free to take a picture.
+Hold on to that for later.
+We still have a little more.
+So, you know, come back
+to that in a second.
+A few more.
+A few more photos.
+All right.
+All right. Moving on.
+So we started this by asking what
+are champions we're doing differently?
+And now you're in on their secret.
+Danny can spend more time
+with the developer community.
+Adrian can deliver competitive insights
+to more people and in new ways.
+And Casey can share his
+expertise without having
+to be in every conversation.
+I have a personal version of this.
+I started at OpenAI
+working on technical onboarding.
+My job was to help new engineering
+colleagues onboard and get up
+to date on our infrastructure
+and our architecture.
+I automated a lot of that work
+away with ChatGPT.
+It's a true story.
+And that freed me up to move
+to developer experience.
+And now I'm here giving this talk.
+Yeah.
+Thanks.
+Now that felt exciting, but it
+also felt a little bit strange.
+I was changing work that I
+knew how to do and making
+room for work that I wanted
+to and was excited to try.
+But that's what I
+want to leave you with.
+A choice.
+About where more of your day goes.
+You know the work that you love doing.
+Maybe there's an idea
+you keep putting off.
+A question that you
+finally get to explore.
+Or maybe you just want to spend
+more time with the people
+that you want to help.
+Attention is currency and you
+get to decide where to spend it.
+So, let me ask you.
+What will you hand off?
+And what could you finally take on?
+Thank you.
+All right.
+Thank you all for joining us.
+If you guys have any questions, come
+find me and Dani after the talk.
+Thanks, guys.
+Thanks,
+guys.

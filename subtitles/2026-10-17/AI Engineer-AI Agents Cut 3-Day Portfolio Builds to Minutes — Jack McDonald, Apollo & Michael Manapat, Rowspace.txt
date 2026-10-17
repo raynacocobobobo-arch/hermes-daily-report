@@ -1,0 +1,526 @@
+UP主：AI Engineer
+标题：AI Agents Cut 3-Day Portfolio Builds to Minutes — Jack McDonald, Apollo & Michael Manapat, Rowspace
+链接：https://www.youtube.com/watch?v=BOWYujhIQuo
+
+[music]
+>> It's great to be here. Uh I'm Michael
+Manapat. I'm a co-founder of Rose Rocket
+Space. And Rose Rocket Space is an H
+cloud form that uses uh AI to help
+financial services partners like Apollo
+deal with messy, fragmented in data. We
+essentially use agents to do the work of
+data engineering, direct information,
+reconcile data from a cross variety of
+systems so that portfolio managers,
+traders, and so forth can make decisions
+faster and more accurately. I'm joined
+here with Jack McDonald who is chief
+operating officer of Reddington Ridge,
+one of Apollo's credit units. And maybe
+to kick it off, Jack, I'd love to hear a
+little bit about you and what your
+business does.
+>> Yeah, thank you, Michael. Uh I'm Jack
+McDonald. I am a principal at Apollo and
+COO of Reddington Ridge Capital, which
+is our structured credit and CLO manager
+that is captive to Apollo.
+Uh we're a separate fully separate
+entity operating company that manages
+about 50 billion in assets. And uh all
+across kind of the structured credit
+ecosystem, uh primarily CLOs.
+Uh I was been at Apollo since 2020. Wear
+various different hats throughout the uh
+my time there across our financial
+institutions group, our asset-backed
+group, and now uh currently at
+Reddington. Uh so, yeah, happy to be
+here.
+>> Awesome.
+So, something that we've noticed in
+talking to a huge number of financial
+firms is that there's a pretty wide gap
+between when AI is nice to have and when
+AI can actually become mission critical
+to a business. And I think in Apollo's
+case, we're seeing that AI can really be
+transformative in how the firm operates.
+I'd love to hear some examples from you
+on the kinds of work your part of the
+business was doing, what made it
+complex, and what you're seeing now with
+AI.
+>> Yeah.
+Um so, at Apollo and specifically
+Reading Ridge, you know, we manage many
+different fund entities, investments.
+We're getting uh
+thousands and thousands of data points
+on a like daily basis coming in across
+all of our investments. We manage
+probably, you know, thousand name loan
+pools and have credits across multiple
+different businesses that we're
+assessing on a daily basis and investing
+in. Um
+CLO management is very active and it's
+traded in the broadly syndicated loan
+market. So, having all that information
+at your fingertips is very, very
+important. So, at Apollo, what we're
+doing is and at Reading specifically is
+trying to enhance and ensure that all of
+our data and our data quality is
+accurate, consistent, and in a format
+that we can utilize
+um and make us much more practical and
+thoughtful when we're making decisions
+in a much fast-paced environment. So,
+all of this information is privatized
+and is not very, what I'll say, widely
+in the marketplace like how public
+equities or public fixed income trades.
+It's very
+uh fragmented in various documents. So,
+we've
+looked to companies like Row Squared to
+partner with to come in and actually sit
+with our teams, work with us, and
+understand the actual calculations and
+information that we're looking to and
+what's actually the golden source of
+truth, and then continuing to enhance
+the AI engines to understand that and
+repeat that and just make us that much
+more efficient.
+>> I think we have a bunch of engineers in
+the audience, and we've spoken a lot
+just you and I on fire drills that the
+firm does. Like it used to take a team
+working a week uh if not if not more.
+Uh can you make it concrete for us and
+maybe walk us through an example of
+something that was painful, or
+time-consuming, hard to do before that
+now you can do more easily with Rose
+special and AI?
+>> Yeah, happy to. And I'll give kind of
+two examples that we that I like to look
+to.
+The first being is just on the portfolio
+construction side. So CLOs are very test
+specific. They have a bunch of they're
+very rules based. They have like a very
+specific waterfall of where money flows.
+So those all live in deep indenture
+documents and multiple different legal
+agreements that
+So sitting from like a portfolio
+manager's perspective in portfolio
+construction, they are reviewing those
+documents, building Excel based models,
+and building mock portfolios with call
+it anywhere from 200 to 400 single
+credit names to create a portfolio which
+would typically take a PM before kind of
+adopting Rose special anywhere from two
+to three days in a manual Excel. Today,
+we're able to kind of get the latest and
+greatest information that's real time,
+create a portfolio that would take
+somebody days to now do it in the matter
+of minutes. And then that allows these
+PMs to kind of build something to call
+it 80 90% completion and then kind of
+use their judgment and their thought to
+further refine that portfolio that last
+10% to make it theirs.
+That's one of the most tangible
+examples. It's kind of pulling in
+various forms of data and you know,
+information from across multiple
+different things, whether it's in
+doc libraries, you know, our trade
+and compliance systems, and real time
+pricing and stuff like that.
+The other one that I think I would look
+to is our
+kind of like warehouse purchase
+activity. So how we run our our business
+operates with having a bunch of bank
+financing and we can go out and buy
+loans in in the fixed income market at
+any given point.
+Historically, we would kind of do a
+trade wreck and trade activity on a
+weekly basis that would go around of
+here's your sale purchase activity from
+the week. Here's what we bought, here's
+what we sold, and it was very manual. We
+were going into various like literally
+going into bank accounts to understand
+uh statements, where things actually
+settled, and it was an individual team
+that was going and wrecking that out and
+then sending a reported email to
+uh the management team to say here's the
+recap. Um, today, what we're doing now
+is we've been able to take that exact
+same report, drop it into Rosebud from a
+visualization perspective. That report
+was then created and now repeatable in
+the span of a minute. And now all of
+that is automated and then from our
+team's perspective, we are just QAing
+that and checking it each day to make
+sure that that looks right. And now it's
+a much more rinse and routine
+uh type process which historically has
+taken many hours of the week for two to
+three individuals on our team to
+actually wreck that out.
+>> Yeah, I love
+those examples.
+So, you know, you aren't just reading
+the output of a chatbot to be informed.
+I think your team are making trading
+decisions, portfolio management
+decisions. So, accuracy and quality are
+high. This is a two-part question. I
+think a lot of people will ask us or ask
+generally, "Why can't you just plug this
+stuff into Claude and or ChatGPT and see
+what happens?" And for someone like you,
+how does your team get the confidence in
+a product like Rosebud or other AI tools
+to say, "We are going to make business
+decisions on this, make trades, build
+portfolios, all of that." How do you get
+to that level of of trust?
+>> Yeah, I would say Claude and the open
+AIs of the world and like the ChatGPTs,
+all the LLMs are
+uh
+very beneficial, but it's all general
+information that that's being worked off
+of and none of your own actual data. So,
+it's great for
+research or kind of building new ideas
+or getting up to speed on some type of
+uh
+product or investment quite quickly.
+Where Rose Rocket is different and what
+we've kind of taken our approach to this
+the the AI build-out at Reading has been
+around owning our own data and having
+some type of platform and technology
+that sits on top of that that we know is
+to be true. So, the Rose Rocket team
+which has been much different from what
+we've seen from other
+uh technology companies that we've
+worked with is they're boots on the
+ground. So, like Michael sits with our
+team on a daily basis
+learning and understanding our
+information flow cuz for one piece of
+data that might come from
+20 different sources and there's only
+one that's actually right. So, the Rose
+Rocket team is spending the time with
+our portfolio management team, with our
+finance teams to understand the
+calculations, understand what data is
+actually correct and override other
+sources of information, and kind of
+aggregate that. So, to that end, we're
+able to kind of have trust in the system
+and you know, appreciate that okay,
+we've had our team go in and validate
+that this information is correct and we
+can rely on it and it's coming from all
+of our whether it's our trade order
+management system, whether it's from our
+performance system, whether it's from
+Bloomberg or any pricing index that
+we're pulling in and know that it's
+accurate. Whereas in a lot of other
+you know, call it systems throughout
+even our own company, it's very
+fragmented and we have to kind of lift
+one piece of information from over here
+and bring it back over here and kind of
+pull that together manually. Whereas
+Rose Rocket is now just automating that
+all for us.
+>> Glad glad glad to hear [laughter] that.
+You know, talk about the firm at a
+higher level. Uh it seemed to me for a
+long time even early last year before
+Claude Code became a thing when Cursor
+was still in the tap completion era that
+Apollo was among the most AI piled of
+the firms we spoke to. And that was
+everything from the firms view on how to
+invest in an AI world, but operationally
+we've been talking to you a long time
+ago and you were in the we must rebuild
+the firm in an AI native way, must have
+a platform not point solutions. So, I'm
+just curious where did that come from
+and what is it about
+about Apollo's culture that made you so
+AI piled even before things
+took off?
+>> Yeah. So, Apollo has always prided
+itself in being kind of the leader of
+the
+alternative asset management space and
+the financial services industry broadly.
+We pride ourselves in being very
+innovative and being at the forefront of
+all things change and what that looks
+like. So, I think from the onset and the
+way our management team approaches how
+we operate is always being up to skill
+and enhancing our team's capabilities
+and being able to be nimble and adapt to
+where the market's going. I think we
+appreciated that the AI world is here
+and we need to adapt and adopt it not,
+you know, discredit it or not utilize
+it. So, we've been very forward and, you
+know, open-minded about adopting new
+technologies and bring those into our
+workflows and how we can be more
+efficient and free up capacity for
+people to be more thoughtful and think
+and, you know, replace manual processes.
+So, I think at the core of its level
+we've always been a very innovative firm
+that's very flat and open culture to be
+open to those types of change. And then,
+I'm blanking on the second part of your
+question. Sorry.
+>> Uh
+I guess so am I.
+Uh
+>> [laughter]
+>> Well, maybe we can keep on going.
+So, I think one thing that we've been
+thinking about is software engineering
+that has completely changed as a
+discipline. Like, the world is
+completely different if you are a
+technology company like like aerospace.
+Uh
+and maybe arguably law and customer
+service are almost there. Uh where do
+you think finance is on the spectrum of
+AI is here, it's made a difference, or
+we haven't even, you know, gotten to the
+bottom of the of the first inning. And
+what do you think is Two-part question
+again, so remember the second part. Uh
+if we're early on, what what's necessary
+to really change the shape of finance
+with AI?
+>> Yeah, I think that's a great question.
+So, I think finance broadly, these banks
+and large organizations are massive.
+They have a lot of, you know, back end,
+what I'll call middle back office
+support. And I think there's a lot of
+room to grow and enhance there. I think
+probably as you appreciate now if
+working with us that we are extremely
+complicated and have a lot of complexity
+in everything that we do. So, it's not
+really straightforward. I think
+in finance broadly, especially in call
+it the asset management investment
+banking, the bank institution
+institutional world, I still think it's
+very early. I think there's some value
+for some of the like, you know,
+uh model creation or getting up to speed
+on some company quite quickly and
+pulling and aggregating that type of
+research, but I think that's
+lower value add at least of where we
+stand today. And that's going to evolve.
+I think like, you know, there's probably
+a need where there's less junior support
+over time for certain functions like
+that, but I think from where we are
+today and what we see from from at least
+my perspective at Reading, I think we're
+just trying to adopt this technology and
+make it, you know, as efficient as
+possible for, you know, routine tasks
+that frees up capacity for, you know,
+other projects cuz we kind of have like
+endless things to do and enhance at our
+company. And that's just giving us a lot
+more flexibility to adopt that.
+>> Yeah, yeah. Uh so, maybe to continue on
+that note, I'm curious
+uh,
+there's a world in which AI just becomes
+something that helps speed up tasks, uh,
+saves you on opex, things like that. And
+maybe in the same way, no given firm now
+has an advantage because they use Excel.
+Cuz everyone uses Excel and it's just a
+productivity tool. And
+there's also a world in which AI
+actually materially makes a competitive
+advantage or helps reify Apollo's lead
+in structuring and creative deals and so
+forth. Do you have a take on whether AI
+is going to be just a useful but a
+general commodity or if it's going to be
+something that can actually structurally
+make a business more competitive in a
+durable way?
+>> I think if it's
+adapted and utilized properly, it will
+make you more competitive. I think at at
+its core, and especially around asset
+management and investing type companies
+that are in the actively traded markets,
+like it comes down to your process and
+the information at your fingertips. So,
+knowing that you have a strong process
+in place to go out and execute and
+knowing your available liquidity or, you
+know, where things are pricing and what
+the value is at any given point and
+crucial. So, that just gives you, you
+know, more competitive edge. And I think
+like that exists today in the you know,
+actively traded markets, but in the
+private markets, it's evolving, um,
+which we've kind of been at the
+forefront of trying to to move on the
+broad Apollo machine. And I think
+having that will just turn into a
+competitive advantage over time where
+firms will be able to get further ahead
+as they're, you know, having access to
+better information. They They know their
+teams know that it's accurate and like
+stuff is not misaligned cuz the last
+thing we want to do is, you know, do
+something or make a decision that was
+misinformed or had misinformation and
+then that streamlines down the chain to
+both the enterprise and to the, you
+know, our investor base at the end of
+the day.
+>> Yeah.
+>> Yeah, that that that makes sense.
+So, I wanted to ask you what your
+prediction was for what Apollo would be
+like in when we're talking 5 years
+observing all the change. I think that's
+unfair. I can't even predict if my
+team's going to use code actually cloud
+code next week. So, I want to ask I want
+to ask you about 5 years in in the
+future. But, I'm curious for you
+personally, what are you hoping to see
+in terms of your job, team, how AI use
+in Apollo evolves, what conditions have
+to hold for the technology to actually
+be truly valuable. You know, what do you
+how are you thinking about things over
+the next, you know, next few months?
+>> Yeah, I think it comes back to some of
+the stuff I touched on before of just
+one having just you know, full
+confidence in any type of information
+that's flowing out at the end of the day
+to our investor base that's
+accurate, correct, and we don't have to
+spend hours manually checking that to
+make sure that that's validated and
+having the confidence that we're
+sharing, you know, no issues and or
+mistakes um cuz we do have just a wide
+investor base, you know, over 400 global
+investors.
+Um
+I would also say being much more
+tech-enabled in mindset. I think our
+team has not lacked that to date, but
+it's kind of been an afterthought around
+the use of technology and I think the
+more that we can develop and enhance
+these tools that make, you know, routine
+tasks, you know, more efficient, it
+frees up capacity to add more thought or
+think more creatively around why does
+this process exist and how does it work
+today and how can we actually enhance
+that or should we change that or should
+we bring in a new type of technology and
+adopt that going forward. And our team
+is not lacked that today, but it's kind
+of been a secondary thought where I
+think ideally our workforce is
+positioned to think about that more on a
+go-forward basis and that's kind of
+their primary thought as they're
+tackling different problems specifically
+this is specifically at Reading Ridge
+day to day and kind of scaling our
+organization.
+>> I think we have time for one more. I
+think one of my learnings from working
+with you has just been how unimaginably
+complex and creative the work is and how
+it takes a lot of effort both human and
+AI to get things to work. A lot of
+people in this room who either want to
+work on the technology side of AI and
+finance or perhaps finance side. Is
+there anything that you would mention to
+them from a here's something that you
+should know or keep in mind when trying
+to apply AI to domains like yours?
+>> Yeah, I would say it it comes down to we
+are extremely complex organizations and
+it's not as straightforward and
+typically things might look a little bit
+novel or strange and out of place, but
+it's probably actually there for a
+reason or structured in a specific way.
+I'm sure as you guys have come in you
+appreciate that we're super nuanced and
+complicated. So
+spending the time and really putting
+boots on the ground to sit with whatever
+team or front office professional that
+you're working to build a tool for or
+enhance is time well spent and I think
+the success and you know, where we are
+today with the row space products and
+kind of being ahead of our road map and
+expectations has been you know, due to
+the fact that Michael and the team has
+spent ample time sitting on the ground
+with our team like pretty much every
+single day and you know, understanding
+our workflows which I think is crucial.
+>> Awesome. Well, I guess the last thing
+I'll say is that shameless plug both row
+space and Apollo technology are hiring
+people who want to apply AI to finance.
+So please reach out to either of us if
+you are interested. And then Jack thanks
+so much and great chatting. Thank you.
+>> This is great. Thank you guys.
+>> [applause]

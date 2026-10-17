@@ -1,0 +1,545 @@
+UP主：Theoretically Media
+标题：GPT-IMAGE 2.5: The New King of AI Images!
+链接：https://www.youtube.com/watch?v=VsmL_KROmyI
+
+Well, OpenAI continues its onslaught of
+releases and updates, dropping GPT image
+2.5. Is this the AI image gamecher we've
+been waiting for, or is it more of like
+a.5 update? We'll see. Plus, I've got
+some thoughts on Astra. We I mean, we've
+all got some thoughts on Astra. Uh, but
+namely how that's playing a pretty big
+deal for image 2.5.
+Kicking off, you know, things on the
+image generation and image editing side
+of things. I don't know about you guys,
+but I mean to me lately have felt a
+little stagnant. This is not to say that
+I'm not constantly amazed by what we're
+capable of doing these days, but also it
+has kind of felt like we've been waiting
+for the next big leap in image
+generation. Now, OpenAI has certainly
+made a big leap on the LLM side with the
+release of GPT6 Astra. We'll we'll talk
+more about that as we sort of thread
+through this video. But riding the heels
+of that release and well I mean a few
+days late we finally got an update to
+GBT image 2. Now how big an update is
+this? Well I mean to be honest I mean
+it's the.5 update so again it might not
+be the massive leap forward that a lot
+of us were hoping for but there are
+improvements here especially to a couple
+of nagging issues in uh image 2. And
+more important I think what OpenAI has
+really nailed here is uh well I mean
+intelligence and conversational editing.
+Briefly running through the specs, uh
+there are actually two different
+versions of GPT image 2.5. There is
+flare and sunburst. You can think of
+flare as the fast version and uh
+sunburst as the I guess like heavy
+version. So according to OpenAI docs uh
+images 2.5 is available to all chat GBT,
+GBT and codeex users. But also in
+typical OpenAI communication
+frustration, they don't actually specify
+which version of image 2.5 is the
+default in chat GPT or codeex. I do
+suspect that it's the it's the lighter
+version although they have of course
+released an API and that will be the
+thing that goes out to all of the
+various platforms uh in which you can
+choose to use the you know fast or heavy
+version flare or uh sunburst. And
+additionally, uh there are settings for
+the quality that go from, you know, like
+I don't know, like low to max. I will
+say after playing around with it quite a
+bit today, uh that the chat codeex
+version is probably Flare, the faster,
+smaller model. Um although we're going
+to take a look at a comparison a little
+later on. I'm not sure exactly how much
+of a difference there is, and there's
+kind of trade-offs between both of them.
+But for now, uh let's go check out the
+model in action. Kicking off, of course,
+with our standard chest channel chestnut
+of our man in a blue business suit
+walking down a busy city street.
+Overall, you know, I mean, it's it's our
+man in a blue business suit walking down
+a busy city street. It's it's it's okay.
+It's fine. I will say that uh our guy
+here does have a bit of that kind of
+like pasted in look like, you know,
+essentially he's comped into this image.
+This is something that uh is has
+definitely been noted with 2.5 and you
+have to kind of beat it out of it and
+we'll take a look at that a little bit
+later on. But uh you know as far as like
+that uh GBT image 2 noise pattern uh
+that seems to have been reduced. Not
+completely eliminated. We'll we'll see
+that in a little bit. But um you know
+overall I'd say I'm not a huge fan of
+our our guy. But what I do like about
+this image is actually all of the
+background details. Uh the city does
+look very alive and our background
+characters uh well I mean they're not
+sprouting a bunch of extra limbs and
+we're not getting um like the blobby
+face uh on any of them. I mean they're
+out of focus obviously but um you know
+that's by intent. Um yeah but overall
+yeah okay. I mean it's our man of blue
+business suit. Pretty well done. As a
+quick note uh image resolution coming in
+at 1672
+by 941. And so if you are working in
+chat GPT or codeex like any images
+generated there will require some sort
+of upscale. Onto another one of my new
+favorite standard tests. Uh this one is
+a wine glass filled to the top uh with
+an analog clock in the background that
+reads 515. Overall I mean everything is
+pretty much what I asked for and done
+correctly. Uh the clock does indeed read
+515. That glass is filled to the top
+with a fairly generous pore as well. uh
+you know it might feel a little on the
+uninspired side but uh it did it did
+give me what I asked for. Now in case
+you weren't aware as to why we run this
+test uh well the reason is because this
+newer class of image generation models
+uh are thinking models whereas the older
+like diffusion method of image
+generation uh with something like that
+like midjourney uses uh well that I mean
+that tends to ignore the directions uh
+like it won't fill glasses up to the top
+nor uh will it give you like the time
+that you asked for namely because again
+this is all trained off of image data.
+uh that uh you know like most wine
+imagery does not fill it uh as
+generously to the top and clocks are o
+usually always set to 1010 uh because it
+creates a smiley face. So obviously the
+upside with using something like
+midjourney is that you tend to end up
+with something that is much more
+aesthetically pleasing at least to my
+eye. Uh that said with incorrect details
+whereas with a very bare bones prompt a
+model like GPT image 2.5 or like even
+nano banana will give you a like
+slightly blander output but correct in
+the details. Now in my opinion where
+things get really fun is when you add in
+intelligence like Astra to the image
+model. For example, taking our 2.5 image
+and you know just asking it uh now empty
+the wine glass and an hour has passed.
+Leave evidence in the photo that someone
+has made bad decisions after drinking
+this one glass and decided to kill off
+the rest of the bottle. And the
+resulting output, I got to say, not only
+pretty accurate, but pretty funny. Uh it
+did indeed move the clock 1 hour
+forward. We now have the evidence of our
+empty wine bottle. Uh, also unprompted,
+it gave us a uh a drunken text to an ex
+and left a receipt for a life-size
+bronze goose at $2,800.
+Look, I mean, like, we've all made uh,
+you know, drunken online purchases in
+the past. Uh, all I can say is it made
+sense at the time. Moving on to another
+one of our standardized tests, a pelican
+riding a bicycle. This one is obviously
+a nod to the old SVG test. Um, you know,
+overall I think that this looks pretty
+good for essentially what is, you know,
+in all honesty, a pretty stupid prompt.
+Uh, it it does a really good job here.
+It didn't go cartoony with it as we
+often see with these models. So, it went
+the extra mile to maintain photo
+realism. Uh, the Pelican looks good. I
+mean, I think I'm not I'm not a water
+foul expert. Is are pelicans water foul?
+That's that's how that's how little of
+an expert that I am. The one thing that
+I'll note is as well is that uh the
+pedals down here. It actually I mean
+okay job. Um we get I presume the pedal
+would be here over its foot. Um we don't
+have the other foot down here on the
+other pedal but I mean I can kind of
+forgive that because that would extend
+the leg further than realistic I guess.
+Um yeah I mean overall really good. And
+finally closing out, of course, taking
+everything and culminating it together.
+We have a pelican riding a bike at 5:15
+holding a glass of wine. Yeah, I mean,
+this this is kind of where it starts to
+break down a bit. It does an admirable
+job of trying to keep up. We do have our
+analog clock here. Uh and then oddly
+like a digital version underneath it.
+Uh, and then as far as our Pelican is
+concerned, uh, it did go with like feet
+on pedals, but it did have to extend the
+legs out to become almost like flamingo
+like. Uh, and then, uh, I did notice on
+the pedals here that they're on the same
+side of the bike. I mean, that's again,
+I'm not going to judge this too harshly
+because it's a it's a pelican riding a
+bike at 5:15 holding a glass of wine.
+It's a stupid prompt. Moving on and
+testing some more well like practical
+images and editing. Uh, I ended up
+giving it this midjourney generated
+image, kind of very like commercial
+photography, music video type image. Uh,
+and I gave 2.5 the challenge of, you
+know, the prompt here is just show me
+what happens 12 years later. Now, I got
+to admit, this one did tug at my
+heartstrings a little bit. There were a
+lot of nice details that 2.5 decided to
+add in, including, I mean, obviously,
+some home improvement that our guy has
+done over the last 12 years, but it's a
+lot of like subtle stuff like, you know,
+the little girl's bike uh, sitting out
+in front. That's a really nice detail. I
+also appreciate that it did not shy away
+from the march of time that ends up
+happening once you have kids. Uh, as
+every parent knows, the reason that kids
+have so much energy is because they
+drain it from their parents. Moving on
+and testing out some of the models
+realworld knowledge. Uh, I had it create
+a time square image only I have taken
+over all of the billboards. So, while
+I'll admit I'm not overly thrilled with
+the, you know, the composition and
+realism of this image, um, what I I will
+say that I was really impressed with
+having generated this uh actually
+utilizing, uh, Astra on I was just
+burning token, so it was Astra on Ultra,
+is the fact that it went out and and did
+research. So, um, not only did we get a
+billboard for Death Walks into a bar,
+the last short film that I did, uh, but
+Paperclip is in here as well. Uh, a
+couple of like things like branded from
+the from the website as well. So, yeah.
+I mean, overall it it did a really good
+job of like figuring out essentially who
+I was. Uh, and then bonus points for the
+pun up here of welcome to Tim Square.
+Yeah. Yeah. Yeah. Dad jokes. That's one
+thing that LLMs are really good at.
+Moving on to some more difficult and
+cinematic tests. Uh, kicking off with a
+the mirror reflection test. Uh, starring
+Flamethrower Girl. We haven't seen her
+in a hot minute and I've been noticing
+some scorch marks appearing on my
+guitars. I'm taking that as a warning.
+So, the funhouse mirror test here is of
+course uh can you read this which uh in
+a mirror it did accurately portray
+backwards. Now that said uh I will say
+that while you know this looks pretty
+good um our foreground character I don't
+know if she's like quite posed the same
+way as the reflection and then
+additionally where I noticed it
+struggling was a lot of inconsistencies
+with the various reflections. Like it
+was definitely struggling with the braid
+uh and not knowing where to place that.
+So, um, and then on top of it, a lot of
+the, uh, the reflections aren't in the
+same pose as, uh, either our reflection
+or our non-reflection or our original.
+Um, so I mean, in terms of like the text
+itself, yeah, it did pass that test. Uh,
+as far as kind of the logic around it,
+maybe not so much. And to note, this was
+run uh on like Astra on Ultra as well.
+So, it did think about it as much as it
+could. We'll come back to Flamethrower
+Girl in a bit. But the next thing I
+wanted to test was our four angle grid
+method. Essentially taking an image like
+this generated up in MidJourney, kind of
+our uh our pseudo fantasy hybrid uh
+heist film. Uh and then taking this and
+and creating four alternate angles on
+it. I got to say, I mean, they did a
+very stellar job here. Actually better
+than uh Nano Banana 2 and Nano Banana
+Pro in my opinion. Um so this is one
+21x9 image uh split into four quadrants.
+So, you're kind of getting like four for
+the price of one. Uh, different angles
+essentially on the same image. And
+character consistency holds very well
+here. Uh, again, much better than Nano
+Banana 2. What's funny about this one is
+that um, uh, GPT or Astra went back and
+looked at this image and it was like,
+"Oh, you know what? The feet are kind of
+cut off here." So, it gave me a bonus
+generation. But, yeah, let me fix that
+and pull the camera out a little bit
+more so we can see everybody's feet. I
+didn't even ask for that. The other
+thing I was curious to test is uh like
+originality and storytelling and then
+combining that with our four grid
+method. Um so I ended up providing it
+with this image which was again
+midjourney generated. Uh something I was
+just kind of playing around with very
+like tales from the loop inspired kind
+of like mundane ordinary life juxtaposed
+with like giant machines and robots. Uh,
+and then so I asked 2.5, uh, you know,
+just give me a 4x4 of like, uh, or 2x2
+rather of what day-to-day life looks
+like in this world. And yeah, I mean,
+overall, I think it it it definitely
+nailed the idea of like mundane middle
+America life with like a giant robot
+looming in the background. Um, you know,
+I didn't give it any direction, so I
+can't really complain about anything too
+much. There are some things that, you
+know, we can complain about. like the
+school bus door here feels like it's not
+quite in the right place. Um, you know,
+obviously the giant robot back here
+feels a little like it should be a
+little bit higher. And I'm sure that I
+could dig into these two images and find
+uh, you know, something uh, that is
+slightly a miss. But that said, I mean,
+like again, no direction provided, I
+think it did a pretty admirable job.
+Now, one interesting idea, and again,
+the benefit of using it via Astra is
+like circling back to the man in the
+blue business suit and kind of the
+blandness of that image. Uh, and just
+because the other night I zoned out on
+Spielberg's War of the Worlds, uh, man,
+I I don't know if you've seen that in a
+while, but the color grading in that
+movie, that's a choice. So, uh, I just
+decided to take, uh, again our Tales
+from the Loop day-to-day inspired image
+and just said, you know, hey man, um, go
+out and look at the color grading in War
+of the Worlds, uh, and then, uh, do an
+image edit to this and give me that look
+on this image. And yeah, everything from
+the sky being completely blown out to
+those like super crushed blacks and a
+lot of the haliation that ended up uh,
+that they put on the lights. I mean,
+yeah, I mean, this Yeah, I mean, it
+definitely knows what I was asking for
+and delivered. So yeah, I mean, yeah, a
+big benefit to utilizing uh 2.5 on
+codecs or uh chat is that, you know, you
+have the additional ability to use it as
+a bit of a reference and research agent
+for you. Um, for example, uh obviously
+getting on the GTA 6 hype train. I did
+notice that Rockstar put up a gallery of
+screenshots from the game. So, uh, I
+pointed Aster at that and was like, uh,
+hey, why don't we take like some of
+these game stills and turn them into,
+you know, like cinematic images. So, I
+do have to say my initial foray into
+this kind of came out well, I mean,
+frankly, terrible. I mean, this looks
+awful. So, I was like, what what what is
+going on here? You know, I got the
+typical like, you're absolutely right.
+What's what's really interesting is that
+from there it came up with the idea of
+going out and researching who the actual
+actors were that portrayed uh Jason and
+Lucia in the game uh and use them as
+photo references and the results came
+out I mean pretty good in all honesty.
+Uh so yeah that is the actor who
+portrayed the character in the game uh
+as the character in the game in a
+photograph that was never taken. Same
+thing with the actress who portrays
+Lucia in the game. And while the outputs
+aren't necessarily a complete onetoone
+recreation of the game frames, it it
+obviously does get it, you know, very
+good at capturing the pose and vibe of
+the source images. And again to me is
+just a really fascinating idea
+considering that you know we're seeing
+these actors uh in their as their
+characters um you know existing in an
+image whereas like the actual probable
+capture I mean we don't have any
+internal video of Rockstar u but I'm
+sure that this was all done with like
+mocap suits and uh and you know like a
+like a green screen warehouse. Now
+again, the one place I do have to say
+that is both to Image 2.5's credit and
+detriment is that you will probably have
+to spend some time arguing with it. For
+example, I ended up giving it some
+reference images from Fury Road. Uh and
+then of course, you know, the
+flamethrower girl character image and
+just said, you know, like give me some
+uh film stills if she were a character
+in this uh this world. And the results,
+I mean, like it it gets it, but it's
+also like pretty bland and uninspiring.
+more so in in a few of these images, we
+ended up with a lot more of that like
+grain patterning uh that uh is so
+telltale of GBT image uh the GPT image
+family. Now, as I mentioned in a
+previous video, a lot of that noise
+patterning can be beaten out uh by
+running this through a dinoiser. Uh it
+is an extra step. I'll give you that.
+But I mean, again, the larger problem
+that I have with it is just sort of like
+the overall blandness of these images.
+So again, a lot of this just comes down
+to talking to it. I was, you know, just
+saying like these don't feel cinematic.
+They feel like, you know, Photoshop
+comps for a promotional campaign. Um, so
+try it again. And once again, I didn't
+get very specific in terms of what I was
+looking for, just kind of film stills.
+Uh, but you can see obviously there is
+like a dramatic improvement. While
+again, we are still running into some
+issues here. Again, a little bit of that
+grain spackling uh that ends up
+happening in this image. Um, you know,
+overall it is greatly improved from uh
+that first set. in general just kind of
+pushing things and telling it to I mean
+essentially do a better job. Uh you end
+up with you know again more cinematic uh
+you know better lit uh outputs. Um I
+don't know what's happening in this
+image but I can almost guarantee you
+that whoever's holding that cup is going
+to end up dead in about 3 seconds. So
+again, my recommendation if you're not
+getting what you're looking for out of
+it is uh you know, essentially to to not
+just argue with it, but use codecs uh
+and Astra in particular and you know
+point it at various references uh you
+know tell it to go out and look for
+things uh and use those for inspiration.
+Circling back to the model itself, I do
+think that in codeex and in chat that
+it's probably running uh the the smaller
+version. Um so not um Sunburst but but
+rather is it flare? Flare I think it
+was. Um so that's the outputs that
+you're getting. Now the the bigger
+version of it is available via API and
+has been rolling out to uh the various
+platforms. So for comparison sake I did
+end up going over to fall and running
+the API version. uh again run uh this
+image, well this output rather uh the
+exact same prompt that we got in uh the
+codeex version and then ran that um on
+over on fall on starburst or sunburst
+the uh at maximum quality. Uh, and well,
+I I mean there is a difference, but I
+got to say, I mean, to my eye at least,
+it is pretty subtle. And again, in my
+opinion, it's not something that
+couldn't be handled with a creative
+upscaler set to low. So, I would say
+experiment around with that. And
+actually even just like if you want to
+use the uh the well quote unquote free
+uh versions of uh GPT image 2.5 on
+codeex or code, you could always ask it
+like just give me the prompt uh that you
+use and then take it over to one of the
+API versions to compare and contrast as
+well. So overall I I mean I have to say
+that 2.5 might not have solved every
+issue with GPT images, but I will say
+the added extra benefit of having Astra
+on board as a brain. Well, I mean, that
+to me is the real winner here. Finally
+rolling out on the Astro side of things.
+I know. And like my last video on it, I
+did not have access to it yet. Uh, and
+then everything changed over the course
+of a weekend. Everything just changed.
+And yeah, overall, I do have to say it
+is pretty good. I was It very quickly
+replaced Fable 5.1 as my daily driver.
+Uh, in fact, I'll have a full breakdown
+on it next week. Um, but I ju I mean I
+just wrapped a project where I took my
+oldest short AI film of the bridge. This
+was actually made way back in the VO 2.0
+days and I basically pulled a George
+Lucas on it and redid the entire thing
+utilizing Astra and computer use. And
+you know, I finished this in a day. So
+again, not drinking the AGI Kool-Aid
+here or anything, but just as a
+follow-up to my last video, I will say
+that uh GBT6 Astra is the first model in
+recent times that's really kind of like
+dropped my jaw and kind of had me
+thinking like, well, wait, what what do
+I do with this? This is kind of insane.
+I'm sure we're going to be talking about
+it a lot more and I don't know, whatever
+anthropic releases next week and then
+whatever meta releases the week after
+that and on and on the cycle goes. As
+always, I thank you for watching. My
+name is T.

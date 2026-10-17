@@ -1,0 +1,381 @@
+UP主：Theoretically Media
+标题：AI Video Just Broke Real-Time — What Happens Next Is Wild!
+链接：https://www.youtube.com/watch?v=SWNrfjs0Vfc
+
+Well, real time video just got really
+real and is opening up the door to all
+kinds of interesting use cases. So,
+today we're going to take a look at the
+big breakthrough. What people are doing
+with it, what you can do with it, and
+most importantly, will it be open
+sourced? And how much does it cost? But
+also, free video generation if you don't
+have the hardware. Buckle up because
+this one is pretty wild.
+kicking off. If you've been following
+the channel for a while, you know I've
+been keeping an eye on the real time AI
+video space. Uh, and my interest there
+has always stemmed from, well, two
+quotes. One from LTX's CEO, Zeb Farbin,
+like I want to say like 2 years ago at
+the launch event for LTX video where he
+said that video generation faster than
+you can prompt will be possible very
+soon. And of course, the famous quote
+from our guy with the greatest leather
+jacket collection of all time, Jansen
+Hang, uh when he said, "In the future,
+every pixel will be generated." Well,
+the future got here pretty quick, namely
+because of open source. Now, everything
+that we're seeing here today is possible
+because of Miniax's decision to open
+source Miniax H3, which is I mean, this
+is the video model that has pretty much
+won the hearts and minds of the open
+source video community. If you need to
+get up to speed on how to run H3
+locally, I did sneak that into the last
+video on uh deterrifying Comfy UI, uh
+you can check that video out. It is
+linked down below. And just recently, we
+got perhaps the biggest leap forward
+with Miniax via H3 Max from Fall uh
+which can pretty much do realtime video
+generation. I mean, and it's pretty
+crazy. Let's take a quick look.
+>> Hey buddy, I missed you.
+I missed the soup.
+No more soup.
+What happened, buddy?
+My recipe book was stolen.
+No more soup.
+Whatever it takes. I'LL FIND THAT BOOK
+EVEN IF IT COSTS ME MY LIFE.
+>> SO, WE'RE GOING TO RETURN to that lost
+Seinfeld episode in just a bit because I
+mean, it's much crazier than you think.
+But first, let's break all of this down
+because H3 Max, well, it's actually kind
+of two things. But before we do that,
+just a quick brief on who exactly Fall
+is. Now, I have covered Fall in the
+past. So, I mean, I'm sure that you've
+all heard the name. Uh, and actually
+just a few weeks ago, I was on the Fall
+podcast with my pal Matt Workman. Uh, if
+you missed that, link down below. But
+what's funny is that chances are you've
+actually used fall without ever knowing
+it because fall is basically the
+inference that a like most of the gen AI
+platforms actually run on. So I mean you
+could really think of them as the
+racetrack for generative media but
+lately well to continue on with that
+analogy they they seem to be building
+their own cars and this first one is a
+very fast car. Uh Fall has unveiled
+Miniax H3 Max, which is obviously built
+on the open source code of H3, but it
+can render out a 5-second 768 clip with
+audio in under 3 seconds, which actually
+makes it faster than real time. Now, as
+an important note here, is fast better?
+Well, I mean, in that case, we always
+have to kind of go back to the fast,
+cheap, good triangle. Uh, you can only
+pick two. Now, this is not to say that
+it's a bad model, but rather to say that
+if you were to AB it, uh, against H3
+with a Turbo Lura, you know, generating
+locally, uh, as a friend of the channel,
+Matt Vid Pro, did here, um, that, you
+know, I think that the local, uh, Turbo
+Lura does come out a little bit ahead,
+but at the end of the day, I mean, I
+think that both clips do a fine job of
+conveying the idea of a crab with a
+jetpack, and isn't that the most
+important thing? So H3 Max is both fast
+and cheap. In fact, it's actually so
+cheap, you can use it for free right now
+over on Fall. Uh you just sign in. Uh
+link it will be down below. And uh yeah,
+you get a number of free video
+generations per day. Uh you can generate
+at 5 seconds or 10 seconds. Uh and uh
+text to video or image to video. In this
+case, I just ran our man in a blue
+business suit walking down a busy city
+street. Our guy looks pretty solid here.
+Um, I will say that although it does
+generate in as little as 3 seconds, when
+you're on here, you're basically in a
+queue. So, uh, it may take you a little
+bit longer. That said, I I'm pretty sure
+this came in at less than 30 seconds.
+And hey, who doesn't love free? It's our
+favorite four-letter f word. But where
+things get really crazy is in the second
+half of H3 Max uh in which interactivity
+is bolted on to faster than realtime
+generation because Fall have also
+released Fall Live which is essentially
+a streaming channel of H3 Max
+generations that is continuously
+prompted via a live chat from users. So
+there are basically six channels that
+you can flip through. Chaos stream,
+Tounel Lab, uh Choice, Tiny World, and
+Hot Mic. Um, and again, these are it's
+just continuously generating based off
+of user suggestions in the chat window.
+Now, admittedly, at the time of this
+recording, uh, Fall Live is actually on
+standby as they are tinkering with
+stuff. That said, here's a quick capture
+of it in action from Eigor Sack. As just
+an additional FYI, it sounds like Eigor
+is actually recording this possibly from
+an external mic, so the sound is a
+little bit uh on the tiny side.
+Hello, I'm Dr. Bruce, I'm here for the
+uh the thing.
+>> No, it's a living room with a lot of raw
+fish.
+[music]
+[screaming]
+>> WHO'S READY FOR SOME MAIN EVENT ACTION?
+>> ADMITTEDLY, not quite The Rock. Well,
+maybe it is The Rock, but it's like the
+young version of The Rock. Um, but
+overall, I mean, I'm actually more
+interested in seeing what happens here
+than I am the new Jumanji movie. James
+Russo utilized H3 Max to build out an
+infinite uh Tik Tok social stream.
+[music]
+random. I mean, yeah, absolutely. But it
+also doesn't feel any less random than
+like, you know, like swiping through any
+other vertical social feed. There's
+another kind of brilliant use case here
+utilizing the recurring Rick and Morty
+gag of like interdimensional cable TV.
+Uh, I mean, this is something where the
+randomness actually works. And then
+ultimately kind of the grand culmination
+of everything. Levels io built out uh
+infinite slop AI uh which is actually up
+and running right now. Uh link is down
+below. Let's take a quick look at that.
+So yeah, as we can see here uh there's
+uh 1,59 other people watching this right
+now. Um I mean it's it's living up to
+its name I suppose. Uh you know prompts
+are coming in via the chat over here. Um
+this is what's playing next. Then
+obviously folks are like leaving in the
+prompts here. Now I I should note that
+what levels built here is basically you
+know it it just generates a new video uh
+per prompt very quickly. Of course uh
+the difference uh between what's
+happening here and what's happening on
+the fall side is that on the fall side
+they're actually utilizing the H3 Max
+Director which is uh an auto reggressive
+uh continuous variant that allows for up
+to two minutes of contextual knowledge.
+So, uh, essentially, you know, uh,
+consistent characters and location, and
+even as random as the prompts are, the
+model is going to try to figure out a
+way to kind of stitch them together.
+That said, uh, circling back to infinite
+slop here, uh, what is, uh, kind of what
+is what is happening here. Um, what's
+really kind of interesting is that
+despite the fact that there is like kind
+of no director mode here, the fact that,
+you know, a thousand people are in here
+all prompting at the same time and kind
+of reacting to what they're seeing,
+there actually is kind of like this
+weird level of like a narrative of sorts
+uh that ends up happening. A very like
+hive mind surreal one, but uh yeah,
+pretty fast. I mean, I'm I'm just watch
+it for like 3 minutes. It's it's oddly
+mesmerizing. And what's extra crazy
+about infinite slop is that levels
+actually built the whole thing on his
+phone while in a sauna. I mean, if that
+if that doesn't say exactly where we are
+in terms of technology, I don't know
+what does. Another pretty interesting
+use case here. Uh this one from once
+again from Igor Sack, who I guess was
+pretty busy uh this weekend. Uh what he
+essentially did was created a 24/7 news
+channel uh that would take information
+that was pulled from RSS feeds, uh
+Reddit, and even an an an antenna that
+was mounted to his roof. Uh that
+information is all then turned into
+prompts which is then, you know, turned
+into video. Uh yeah, it's it's pretty
+cool. He put about 2 hours and 45
+minutes uh of Channel Zero, as he calls
+it, here on YouTube. The link is down
+below. admittedly is pretty weird, but
+once again, I mean, also kind of
+hypnotic, but by far to me, the most
+interesting stuff comes out of this
+interactivity layer. Uh, you remember
+that Seinfeld episode we saw earlier?
+Well, it turns out that is interactive.
+>> Hm. Kramer is barging in. We'll soon see
+if Jerry's hit.
+>> WHERE WERE YOU LAST NIGHT?
+JERRY, did you see anything suspicious
+at the soup shop?
+>> I saw Elaine rushing out, but she always
+rushes everywhere, but she did have a
+weird soup recipeized book under her arm
+now that I think about it.
+>> So, does Jerry's latest tip change
+things? Do we keep questioning Jerry or
+go press George at monks?
+>> So while in this particular project
+experiment, we can kind of see the bones
+of it. Um I'll sort of describe it as in
+that you know we have these sort of like
+tiles that move across and clearly it's
+within the you know 5-second generation
+limit. In fact actually I don't know if
+that's like a first frame last frame
+thing happening here but we do see uh
+essentially this frame you know move
+over into the next generation. That
+said, doesn't make this any less
+impressive by any means. And look, just
+to address the elephant in the room,
+namely the IP Seinfeldness of it all, I
+I mean, I totally get it. Uh, it is
+something that we are going to have to
+work out at some point or another. Uh,
+that said, I mean, this one did make me
+laugh. I've had enough. Every single
+demo video, I'm the main character. It's
+exhausting. Exactly. I'm not even a
+comedian anymore. I'm just a benchmark
+for temporal consistency.
+>> Man, I just want one day where I'm not
+trying to eat a surreal spaghetti noodle
+in 4K. Well, at least the lighting in
+this prompt is decent.
+>> So, at least AI Will Smith has a sense
+of humor about it all. I mean, I will
+say I I get it. I mean, I know the
+Seinfeld type stuff gets the most amount
+of eyeballs. That said, I mean, there
+are so many other interesting things
+that we can do with this. Uh, for
+example, EA Basher ended up creating
+this uh kind of like real-time video
+Pictionary game. I mean, that's that's
+pretty fascinating. That's something
+that I mean could not exist like real
+time Pictionary video. That's something
+that could not exist without this
+technology. And Blendy actually ended up
+making a interactive animated game uh
+utilizing uh H3 Max. Uh it, you know,
+you kind of have like branch points here
+where you can choose uh you know, choose
+your own adventure. I guess what this
+kind of reminds me of is uh Space Ace or
+Dragons Layer. I guess um if you're old
+enough to remember that. And if you're
+old enough to remember that, you are
+complaining about your back a lot
+lately. I'm not judging. I am too. So,
+if you want to build out something like
+this, you know, interactive animated
+game, uh, Blendy did actually open
+source all of the code for that. So, uh,
+you can go ahead and grab that and give
+it a shot. I do have to note that, um,
+this does make a call to the fall API.
+Uh, and then in addition, uh, two small
+LLM calls per beat. So, you know, just
+just keep an eye on that one. So, in
+terms of pricing via the API, uh it
+looks like currently it's uh 8 cents a
+second at uh 768, you know, 720ish. So,
+about $4.80 per minute, although
+currently half off. Um there's a bit of
+a sale running right now at 4 cents a
+second for the first 14 days. Um that
+said, if you were to try to set up
+something like a 24/7 channel like
+infinite slop, uh you know, that's going
+to end up running you, I guess, close to
+$4,000 a day. So, you know, probably not
+worth it, you know, to do that right
+now. Now, in terms of open sourcing, we
+haven't gotten any official word yet,
+but uh there has been some chatter that
+uh H3 Max might be open sourced. That
+said, I don't think that the director
+part uh will necessarily be open
+sourced. I presume that will remain
+proprietary to fall. So, where are we
+now? Well, look, I mean, real time
+streaming AI video is really here. Is it
+the video quality of like like sea dance
+levels? No, it is not. Is it, as Levels
+IO appropriately named it, a bit of an
+AI slop cannon? Yes, it currently is.
+But that won't last long. I mean, just 9
+months ago, this is what realtime AI
+video looked like. So, things got pretty
+good pretty quickly. So, yes, while on
+the one hand, this does open up the door
+to like infinite episodes of The Office.
+>> I think this is actually made of
+cardboard. [music] It's not even
+cardboard. Cardboard has flavor.
+>> Fair point.
+>> It's funny that Pam never picked up that
+he was undercover Jack Ryan that whole
+time. Look, I I mean I think the thing
+that I'm most excited about all of this
+uh is actually in the interactive layer.
+Um as Kramer over at Fall points out,
+like I mean how about a D&D campaign
+where chat votes on decisions at each
+point? I mean to me that's pretty
+interesting. Ultimately, you know, I
+think that this is, you know, just kind
+of leading to a new medium of
+entertainment, like, you know, serious
+narrative work will always require
+intentional creating, whether, you know,
+generating or traditional editing and
+the entire post-p production process.
+But this new form of instant generation
+with interactivity, I mean, that does
+open up the doors to some brand new
+narrative experiences. In the meantime,
+I mean, I'll be keeping an eye on this
+and everything else happening in
+real-time video, but I'm excited to hear
+your ideas and thoughts on what you
+would want to build with this. As
+always, I thank you for watching. My
+name is Tim.

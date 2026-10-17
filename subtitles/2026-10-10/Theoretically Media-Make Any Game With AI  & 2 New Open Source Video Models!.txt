@@ -1,0 +1,434 @@
+UP主：Theoretically Media
+标题：Make Any Game With AI  & 2 New Open Source Video Models!
+链接：https://www.youtube.com/watch?v=V1AGM0IKFpg
+
+Well, things are not slowing down in AI.
+Today, we've got a new open-source video
+model. This one's uh from a pretty
+surprising source, and it does 2K. Plus,
+AI and video games are coming together
+like peanut butter and chocolate. I'll
+show you the latest examples there, plus
+kind of a little mini tutorial on how I
+built Doom Rem, a like literal bash
+together of Doom in Skyrim. Uh plus,
+show you how you can mash any game
+together as well. All that and an early
+look and detangling of the latest narrow
+banana update, and quick hit on the
+latest AI personality agent from a
+pretty interesting place.
+Kicking off in well, in kind of
+surprising news, we got a new
+open-source video model. Uh and this is
+an actual new one. It's not a Min Max H3
+fine-tune like we've been seeing all
+over the place. This one comes to us
+from Tencent of all places. And I do
+want to note, this one is early, but
+does look promising. Prism is capable of
+generating 2K with audio, natively,
+instead of generating it like 720 and
+upscaling. Generations are about 10
+seconds, 24 frames a second at 48K
+audio, which is actually really nice.
+Oddly, uh only image to video here, no
+text to video. Uh take a quick look.
+>> Al
+369
+>> in my bones too, my toes, yeah.
+I can see [music] the party is jump.
+>> Surprise.
+>> [laughter]
+>> Like this really softens the room a lot.
+And there was just a lot of blank wall
+here. We had one piece over the sofa,
+but then
+>> I mean, so far we've caught marlin,
+cooper. I mean, a wahoo, we got slam.
+Why stop now?
+>> So, yeah. I mean, the demos do look
+pretty good. Although, I will note it's
+probably still not at like C-ATS 2.5
+level. Uh and as even they put it in the
+paper, the goal here isn't to be C-ATS
+2.5. The goal here is to narrow the gap.
+Under the hood, it's actually a
+fine-tune of Mova, a 32B model from
+January. With a bit of a new attention
+trick here, the trick here is that with
+Prism at least is that it only generates
+and attends to the parts of the video
+where things are moving, which is how
+they're able to obtain that 2K raster
+size. I don't know if that's necessarily
+a new trick. I'm pretty sure that we've
+heard about that one before. But I guess
+you know, the point still stands.
+Attention is all you need as the old
+saying goes. Now, I do want to note
+while this is out and available, it's
+it's like actually one of the big boy
+models.
+So at 720, you'd need an 80 gig card for
+this. So I mean that's saying nothing
+about 2K. There is no quantized version
+yet or basically like community fork
+that has been taken down to a reasonable
+level. So you know, when I'm sure
+somebody's working on it right now. So
+we'll definitely see. I do want to note
+there was some controversy early on in
+people saying that the example videos
+were actually like real videos. Prism
+did defend themselves saying like no no,
+those are actually generated outputs. So
+I mean this is one that I think that
+once we get our hands on it, we can
+definitely test it out and see. So for
+sure, Prism is one to watch. And
+breaking just as I'm recording this, it
+looks like we have a new open source
+video model. This one Kandinsky 6.0. So
+this just came out. I have not had time
+to mess around with it yet, but unlike
+Prism, this one is ready to roll on
+consumer level hardware.
+They note here that the light SD version
+will work on an RTX 4090 and all the way
+up to the pro full HD version as well.
+So I mean obviously, you know, the the
+better card you have, the slower these
+times get. But you know, you can run it.
+And if you just want to try it out, skip
+the whole local install. The gang at
+Fall already has it up. They're so quick
+with these things.
+Looks like it runs at least on the image
+to video side, a dollar 40 per 5
+seconds. So, uh um yeah, I mean, I'll
+I'll probably run the local version.
+But, overall, you know, hey, two new
+open-source video models, I mean, that
+is reason to celebrate. Quick little
+in-betweener before moving into the next
+section, uh something kind of cool is
+coming down the pipe. Can't talk about
+it right now, but I did get the okay to
+tease it a bit. Uh so, let's uh move
+over to this side of the desk and hear
+from desktop flamethrower girl.
+>> [sighs and snorts]
+>> I'm so glad I finally got out of that
+monitor.
+Though, I definitely think I should be
+taller than this.
+>> So, I'll have more details on that after
+it releases. Uh should be sometime this
+week. I don't think it's exactly what
+you're thinking it is. It's just But, it
+is pretty cool. Moving on. Lately, it
+does feel that AI and video games have
+begun to hit their stride as we found
+ourselves in a place where we're moving
+out of that initial wave of AI slop
+games and into real playable
+experiences. Well, I mean, almost at
+least. We'll circle back to that in a
+second. But, in the meantime, another
+branch of all of this that's really
+starting to emerge is using the latest
+models to create some like really wild
+mods, like really wild. For example,
+putting Spider-Man into Arkham Knight
+and letting our boy Peter swing all
+around Gotham, which actually is just
+delightful. Anybody that has played the
+uh Spider-Man games knows that it's
+probably one of the few open-world games
+where you you don't fast travel. You
+just You just swing everywhere. It's so
+much fun. Another cool example was
+putting uh the game Skate 3 into Call of
+Duty. Um and what's important to note
+here is like that is Call of Duty and
+that is Skate 3. So, all of like the
+physics and controls of Skate 3 uh are
+implemented in Call of Duty. All of this
+just makes me want to scream like,
+"Ramirez, do a kickflip." All of which
+inspired me to put my own spin on it,
+creating Doomrim or Sky Doom. I'm not
+I'm actually not sure what to call it.
+But, yeah, basically, I mean, this is
+Skyrim. Only, instead of being the
+typical sneaky archer that I always find
+myself being classed as I am Doom guy.
+And again, what's like super stupid fun
+about this is that this legitimately is
+Skyrim. All of the NPCs are present.
+It's just that Doom monsters spawn
+everywhere and well, I mean, I have
+access to a chain gun. What's kind of
+even crazier about this whole thing and
+I actually did not expect this, but the
+Skyrim NPCs will actually react and
+attack to the Doom monsters as well. I
+mean, granted, everybody is at like
+aggro level 100% all of the time, so you
+can't actually talk to the Skyrim NPCs.
+But yeah, I mean, they do they do fight
+off the the Doom horde, which is pretty
+interesting. And they can also all
+defeat or be defeated by the Doom
+monsters. Yeah, you used to be an
+adventurer like me until you took a rail
+gun to the knee. Now, an important
+distinction to make here is that like
+these aren't AI generated versions of
+Skyrim meets Doom or Skate 3 meets Call
+of Duty or even Spider-Man meets Arkham
+City. Rather, this is an AI generated
+mod, which essentially takes the the
+code of both games and mashes them
+together. And on a practical note, you
+do need to own copies of both games or
+of the games that you're trying to mash
+together. So, yes, for this particular
+experiment, I did have to buy Skyrim yet
+again. It's like my 13th copy of the
+game. You're welcome, Todd. Now, if you
+want to try any of this out, there is a
+pretty useful GitHub repo for this
+called Universal Modder.
+This does some interesting things,
+although you may not have to use it. So,
+Universal Modder is skill, so I mean,
+you could use Cloud Code, CodeX, Gemini,
+you know, essentially whatever you want
+and point it at it. It does have a
+pretty interesting little like side
+quest, let's call it, in that if it
+needs assets for the game it's trying to
+mash together, you can put in a fall API
+key and it'll essentially, you know, go
+to fall and generate those assets either
+in like GPT image 2, Nano Banana, Flux,
+or, you know, whatever. So, that's
+interesting. Although, for the model
+that I was using, I just I, you know, I
+pointed it over to Universal Auto and
+was like, "Hey, I want to you know, I
+want to mash up Doom and Skyrim. Do we
+need any of this?" And it was basically
+like, "Yeah, I got the general shape of
+it. We don't need it. Let's just go."
+From there, you know, basically let it
+grind for about an hour and you've
+pretty much got a playable game. You
+should be able to handle doing any of
+this on like Opus 5.5 or like GPT 6.1
+Soul. Now, is this a stupid game? Yes,
+it is. Did it keep me entertained for
+about an hour? Yes, it also did. Now, on
+the other side of all of this is games
+being ported or like entire spin-offs
+that are being created using AI models.
+But, I do have to say, I mean, maybe
+maybe watch yourself when it comes to
+this. For example, someone who as of yet
+has gone uncredited ported Grand Theft
+Auto V to a web browser. Which when you
+think about it is kind of insane.
+Essentially, they ended up compressing
+all of the game's assets down to about
+700 megabytes and then the whole thing
+runs in a web GPU. I mean, that's kind
+of crazy. Naturally, this did not last
+very long and like the whole thing was
+quickly taken down by Rockstar. And in a
+fairly similar story, a friend of the
+channel, Chris First, spent about a week
+building Fallout New York with Claude. I
+was actually talking to Chris while he
+was building it. I mean, this thing this
+thing is pretty crazy. Yeah, there were
+849 unique textures. He did all kinds of
+collider work in it so that like
+literally you could walk across the
+Brooklyn Bridge and there were real
+quests built into it. And again, all of
+it was playable in a browser. I do say
+all of it was playable in a browser,
+past tense, because well, I mean, of
+course Bethesda did issue him a cease
+and desist. Which look, I mean, they are
+fully in their rights to do. You know,
+while modding is generally tolerated, I
+mean, that is a whole can of worms that
+I'm not opening in this video, but you
+know, overall, what I would say is if
+you're thinking about creating a fan
+game,
+just keep in mind, be careful when you
+play with other people's toys. That
+said, I mean, well, Chris did just post
+this image up, so I mean, well, I don't
+know. I guess he enjoys talking to
+lawyers. Moving on. Well, apparently,
+Nano Banana 2.1 has released. Now, this
+one has been a bit of a chaotic rollout
+even by Google standards.
+Um previously, it was being spotted in
+Google Flow, and uh I ran a couple of
+tests there, and then it got taken away
+from us. Uh but now it is out in, you
+know, wide release. Google knows that
+there are noticeable leaps in visual
+design, masked-based editing, and
+subject consistency um for more
+natural-looking images. That said, yes,
+I mean, in terms of the model
+dependencies, uh Nano Banana 2.1 is
+based on Gemini 3.6 Flash. So, yeah, it
+is not a uh a pro model yet. Friend of
+the channel, Brent Lynch, took it out
+for a test peel uh with this, I guess,
+like, you know, thriller movie poster.
+Uh text looks pretty good. Um I always
+do appreciate the uh the the title
+blocks, particularly that uh it's a film
+by Alan Smithee, and the music is by
+Tangerine Dream. That's that's that's
+pretty nice for an '80s movie. Mark K
+tested it out with a prompt stress test
+here, uh essentially seeing how well 2.0
+would handle, as I you know, a lot of
+called-out details in his prompt. He
+actually didn't provide the prompt,
+though. But uh you can tell that uh you
+know, mixed lighting is in here, um a
+pretty good amount of um text written,
+um and uh reflections as well. He did
+call that out. Um I presume as well we
+have the umbrellas here in the backpacks
+on the table. So, and then on top of it,
+the image is crammed uh with a lot of
+people. I will say that there is, in
+general, I think it actually does a
+pretty good job not knowing what the
+original prompt here is. But uh the
+mixed lighting conditions are a little
+possibly a little bit off. For another
+prompt stress test that we do have the
+prompt for, uh Synopsis took it out with
+this following prompt, which you know, I
+do think it it does pretty well here. I
+think it's actually a very nice image.
+It does call out for things like 24
+people. I don't know if there are 24
+people here. If somebody wants to pause
+and count, they are more than welcome
+to.
+But I mean overall, while I think that
+it's a nice stylized image, it does seem
+to have taken that like symmetrical
+aspect in the prompt really pretty
+seriously considering that all of the
+subjects do kind of it all just has a
+very like kind of like Wes Anderson
+symmetrical feel to it. Speaking of kind
+of that Wes Anderson look, Maximus gives
+us this image which
+I mean I don't know, I just like it. I
+like it. So no notes on this one.
+Running my own quick test here, I
+started it off with actually an old
+prompt that we used to run here.
+Create a photo realistic book cover for
+a supernatural thriller set in the
+Pacific Northwest. The book is called
+Alan Wake. And then as a tribute to our
+former generations, the author is Don
+Mindy.
+That was actually an in joke from like I
+think like Ideogram 2.0 which put Don
+Mindy's name in as garbled text. I loved
+it. Don Mindy is now the official author
+of Alan Wake the novelization. Moving a
+little deeper into that test, I wanted
+to test for text which is really hard to
+say.
+So I had it generate the like chapter
+one of the Alan Wake book itself. I do
+note that chapter one seems to be like
+in the middle of the book, but that's
+beside the point. What was interesting
+to me is that in the text, it actually
+calls out Bright Falls which is the town
+from the game. So yeah, it clearly
+actually I'm not even sure it's been a
+long time since I've played it, but it
+does feel like this is the opening
+narration to the game. So yeah, kind of
+interesting. So overall look, I know
+that a 0.1 flash update is not the thing
+that everyone has been clamoring for. I
+will say that you know,
+Gemini 4 Argon is coming soon. So
+hypothetically that should mean a big
+brain update to Gemini image. So,
+hopefully we are going to have a big
+banana bread update very soon. Um I
+presume it's in the oven right now, so I
+will be keeping an eye out for it. Or in
+the case of banana bread, I will be
+keeping my nose out for it. Rounding
+out, we have another new interesting AI
+assistant that is on the loose. Uh
+another one that's asking for all of
+your information so it can be helpful to
+you. Uh yes, this is another one of
+those like kind of like dot or Muse type
+deals. So, Hark is actually being built
+by Figure. Um so, the robot people. So,
+um you know, your your AI butler is
+actually being built by the people who
+are building the AI butlers. I always
+joke that these AI agents are pretty
+handy, but you know, they can't do your
+laundry. I guess you know, Hark via
+Figure will be able to. So, Hark looks
+like it's launching with a $100 plan.
+Although, if you sneak in early enough,
+um you might be able to get a free $100
+month um to check it out. So, I did sign
+up for it and uh and when I logged in, I
+you know, I got a I got a free account
+to check it out.
+Um I haven't really put it through its
+paces just quite yet, but I will say
+that if you haven't played around with
+any of these AI agents as of yet, I mean
+you should you should definitely give it
+a shot. Um if you're uncomfortable with
+the privacy aspects of it, set up like a
+burner Gmail account and point it at
+that. So, you know, I mean I do keep
+saying it like, you know, this is going
+to be the next big push is that every
+company is going to be vying to be your
+new AI best friend. Uh there is a reason
+that Figure is making this play right
+now. I will say that I don't know if
+going with the $100 pro plan right off
+the bat is the way to go, but um you
+know, they are they seem to be offering
+a free month. So, um if you want to try
+it out, the link is down below. In the
+meantime, I'm going to have my robot
+butler check in on that banana bread in
+the oven. Oh, you know what? It can't
+smell, can't it? Well, look at that.
+Humans one, AI zero. As always, I thank
+you for watching. My name is Tim.

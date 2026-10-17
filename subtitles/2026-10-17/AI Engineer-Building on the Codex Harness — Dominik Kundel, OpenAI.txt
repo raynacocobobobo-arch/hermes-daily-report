@@ -1,0 +1,496 @@
+UP主：AI Engineer
+标题：Building on the Codex Harness — Dominik Kundel, OpenAI
+链接：https://www.youtube.com/watch?v=9WiBJRO84yY
+
+All right, everyone. Hi, everyone.
+Um, I want to start with a quick raise
+of hands. How many of you have built
+your own agent harness?
+All right. How many of you um, feel like
+it's way too intimidating to build an
+agent harness?
+Okay, cool. So, uh, over the next 18
+minutes or so, I want to talk to you all
+about how you can actually build on top
+of the Codex harness and hopefully make
+it a bit easier and less daunting for
+you to
+um, actually build your own interfaces
+on an on an agent harness. And hopefully
+also a little bit fun. Uh, my name is
+Dom. I work uh, at OpenAI on developer
+experience specifically for Codex.
+Um, and I have one more raise of hands.
+I promise I'm going to give you all a
+break. Um, but how many of you have
+heard of the Codex app server?
+All right, and this was a bit of a trick
+question because if you attended the
+keynote yesterday, all of you should
+have raised your hand. Um, otherwise you
+probably didn't listen to Roman. Um, but
+uh, we talked briefly about it
+yesterday, but we didn't really explain
+what the app server is.
+Um, so the app server is actually the
+protocol that wraps the Codex harness.
+Um, if you've ever looked into something
+like agent client protocol, this is a
+very similar concept where basically we
+have a protocol that allows you to
+directly build on top of the uh, harness
+and deeply integrate into it. And we'll
+talk a bit in the talk about what the
+differences are between uh, app server
+and ACP.
+Uh, the big thing here to keep in mind
+is both the Codex harness as well as the
+app server itself are open source. So,
+we're going to cover a couple of
+different things on how you can engage
+with it. Um, but more importantly, we're
+going to both dive tomorrow in the
+afternoon into how a couple of these
+things work behind the scenes, but you
+can also always just ask Codex to read
+the repo and dive really deep into it.
+It's Apache 2 license, so feel free to
+fork it, do it make it your own and have
+have fun with it. You can even connect
+it to any other model provider as long
+as they have a responses API capable
+compatible API.
+We even have convenience settings to
+connect it easily to LM Studio or
+Ollama.
+Um, in terms of how it works, the app
+server protocol is a JSON RPC style
+protocol that we actually use to power
+the Codex app, the IDE extension,
+our VS Code extension, so all of our
+first-party interfaces, but also
+third-party ones. So, if you've ever
+used Codex through Xcode, JetBrains
+IDEs,
+or even some open-source projects like
+Theos T3 Code or Remote X, you can
+actually all of these are powered by the
+same harness, the same app server.
+We even used it earlier this year to put
+Codex into Cloud Code using that same
+app server. So, if you're still on Cloud
+Code and you want to use Codex from
+there either to have it review your code
+or
+you know, pass off tasks to Codex to
+handle it, you can actually use that
+plugin and it uses that same app server,
+that same harness behind the scenes.
+If you've looked into things like ACP,
+this should seem pretty familiar. At a
+high level, basically the app server,
+the way it works is we're going to send
+messages between the client, which is
+the application you're building, and the
+server, which is the Codex app server,
+to perform different actions and receive
+events.
+But, rather than showing you a bunch of
+hypothetical messages,
+I went a bit overboard and actually
+built a little inspector that intercepts
+all of the events between the real Codex
+app and the Codex app server, so we can
+look at some real events.
+Let me actually switch over here to
+the Codex app. So, I loaded up that same
+inspector in the um,
+that browser here of the Codex app. And
+so, if we send a message,
+we're going to see here a bunch of
+different events coming in.
+This might seem daunting at first, but
+as you're sort of going through some of
+these messages, a lot of this should
+feel relatively familiar. So, we can
+look through here
+um
+Some of these might be a
+Let me do this once more.
+Um
+I think I had some old ones buffered, so
+I'm just going to start a new one.
+Um
+There we go.
+Also, don't mind my Codex pad up here.
+Uh but you're going to see like
+different messages from like threads
+being started
+with sort of your different
+configurations of what is actually
+happening, what project are we working
+on,
+over to configuration reads.
+Um Where is
+new threads being started, and then
+here's like some of your delta messages
+of like data actually being streamed in.
+And so, there's a lot of additional
+information that you can find here. And
+one of the big things that makes this
+protocol so flexible is that we're
+really exposing anything that is really
+in the app,
+a key functionality. Meaning, if we're
+streaming in things, we're doing file
+search, all of that information is
+actually handed back and forth between
+the app server and the and the app. And
+so, if you're building your own harness
+harness integration, your own client,
+you can actually leverage
+the same capabilities.
+In fact, we have right now over 120
+so different client client messages that
+we continuously add more to.
+Um and this goes from everything from
+initialization where you're able to
+configure some of the more like specific
+things to your client,
+over thread modifications and turns,
+which are sort of the things that you
+would assume are like the most classic
+things. But also stuff like setting a
+goal if you want to implement your own
+version of goal mode,
+and listing plugins, doing all of the
+different other aspects that you might
+see in the app, all the way to things
+like file search and modification
+modifying the file system.
+So you can really have that full access.
+We also try to make it easy so that you
+can configure the underlying agent. And
+that's a bit different to ACP where it's
+a more more generic protocol. We can
+actually give you more control over the
+individual parts of the harness as well
+through the protocol. And we'll look
+into that in a second. The other thing
+that is exciting for a lot of people is
+you can actually
+if you're using this protocol, you can
+have sign in with chat GPT as part of
+that, meaning that if someone is using
+your app, they can still bring their own
+chat GPT subscription and it goes off
+their Codex use usage limits. So if you
+use something like T3 code or similar,
+you're actually using that.
+In terms of customizing the agent, the
+most the biggest two things that you
+might want to look at if you're building
+on top of this app server is developer
+instructions as a way for you to augment
+the instructions the system instructions
+of the actual app, as well as bringing
+tools. So with developer instructions,
+we're actually appending on top of the
+system prompt of Codex. You can look at
+the actual system prompt of Codex as
+well as in the repo. Um but we generally
+recommend that you actually append to
+that using the developer instructions.
+That way you're still leveraging all of
+the work that we put into tweaking the
+prompts for the individual models, while
+still customizing it for your specific
+use case of the harness. This is for
+example what we do when you load up the
+Codex app, since there's some
+functionality that is more specific for
+the app over like the IDE extension or
+CLI example.
+And then the other part of this is
+dynamic tools, where you can expose
+additional functions that you want to
+that you want the agent to be able to
+use. You could use MCP or other things
+similar to what you would do in like the
+agent client protocol,
+but you can also just straight up define
+tools, and you can actually mark them as
+deferred loading, which means that
+rather than injecting them into the
+system prompt, it allows Codex to use a
+tool search tool, which we'll cover more
+tomorrow in the other session,
+but it allows it to
+find these tools through tool search
+rather than polluting the
+overall context window.
+And then on top of that, you can even on
+a per thread basis modify any other
+configuration that you might have for
+your agent. So, think about
+setting a different model provider,
+choosing a different model, or even
+doing fine-grained control on the
+sandbox, like what network connections
+it should have access to, or what files
+it can modify.
+In terms of how you can actually use the
+app server,
+the first thing to
+know is that the app server actually
+comes as part of the Codex CLI. It's the
+same binary. So, if you have the Codex
+CLI already on your system, you can just
+use that to spin up the app server right
+now.
+But you can also look at how we're, for
+example, shipping it with the Codex app.
+So, the Codex app has the binary as part
+of the actual bundle. So, if you're
+looking into your installed Codex app,
+you should find it in the contents of
+that bundle, and it changes with every
+version of the app that you're updating.
+We're shipping a new version of the CLI
+behind the scenes. On Windows, we
+actually ship with two versions of the
+binary, both the Linux compiled one and
+the Windows one, so that if you're
+loading the app in WSL mode, it uses the
+Linux one, and otherwise it starts up
+the app server in Windows native.
+Um from here, you actually have a lot of
+different um, additional convenience
+functionality. One, you can have Codex
+generate you for that particular version
+of the app server, the TypeScript
+bindings or the um, JSON schema, which
+is incredibly helpful since this uh,
+protocol regularly changes between
+versions, which is also why you actually
+want to bundle it with your application,
+which is what we're doing with the Codex
+app, so that you have full control over
+what are the actual capabilities of the
+version that you're expecting to build
+against.
+Um, in terms of protocols, you can spin
+up the app server both using standard
+input output, so STDIO, or you can use
+web sockets. It's going to depend on
+your use case and honestly the easiest
+way to figure out what works better for
+you is probably to just ask Codex.
+Um,
+from here there's two ways that you can
+integrate it um,
+most easily. The first one is the Python
+SDK that we recently re- uh, released.
+It handles a lot of the life cycle
+management for you, so you don't have to
+deal with any of that. And then on top
+of that, it makes it a bit easier for
+you to like integrate things like sign
+in with ChatGPT and gives you like a
+familiar interface. That being said, we
+are at an AI engineer conference, so um,
+probably most of you are going to choose
+option two, which is you just ask Codex.
+So unsurprisingly, Codex is incredibly
+good at implementing this protocol and
+you largely just have to point it at um,
+the documentation. In most cases, you
+don't even have to do that, but
+sometimes helps it to nudge it. Um, and
+from here you can combine it with any of
+our plugins like build macOS apps um, if
+you want to quickly spin up something or
+completely go wild. I used it for
+example to build a client using um,
+Visual Basic uh, to have a like truly
+Windows native app um, and it did it
+largely in one shot. So uh, you can
+build really impressive applications
+with this in a fairly short amount of
+time without you having to learn all the
+nitty-gritty parts of of building an
+agent.
+The most interesting thing for me with
+this with this app server though is that
+you're not limited to sort of the
+classic agent chat interface. You can
+really be creative whether it's um you
+how you actually like trigger it inside
+of your UI and your existing app,
+whether you're running in the
+background, whether you put it on weird
+hardware like Maddie does all the time,
+um or if you're like me, you think about
+how can I shove this into video games,
+um and recently
+um I think like a month ago or so I
+thought about how can I actually run
+Codex inside of Doom rather than running
+Doom inside of Codex. Um and I figured
+let's actually do that live and I'm
+going to dismiss a couple of messages
+here.
+Uh so I have this Codex app
+Doom version and I booted up in the
+wrong window, so let me pull that over.
+There we go.
+So this is uh it messed up the controls,
+my bad. One sec.
+Something with this like dual monitor
+setup sometimes messes with the
+control capture, so
+let's hope
+that this works better now.
+Yep. Okay, so this is um an Electron app
+that has uh uses Cloudflare's Doom Wasm
+render
+um and it's uh so the most of the game
+engine itself is implemented in uh C and
+then it loads the FreeDoom game except
+that I actually manipulate had Codex
+change the game file, so you can see
+here this is rendered natively in the
+video game using all of their that game
+engine. Um and if we actually interact
+with it here, we're booting up Codex and
+again this is rendered natively inside
+the
+um actual video game and then passes the
+passes it to the app server using
+Electron's um IPC protocol. So, if we
+say hello here,
+um we can see Codex actually responding.
+So, this is using 5.5. The fun part
+though is you can actually use dynamic
+tools to expose additional
+functionality. So, naturally, um we can
+get um
+we can get all of the um armor and
+health, and it's calling the tools gives
+me all of that, or even say like
+all the
+weapons with all
+ammo.
+Um and it's calling all of the different
+tools.
+And so, it's interacting with that, but
+again, remember this is still an app
+server actually running on my machine.
+So, if I say like
+um
+what's the directory? It's actually
+calling Z shell, getting the current
+working directory, and you can see here
+it's
+rendering is ha it has its own
+workspace. So, if you want, you can
+write code directly into code in inside
+Doom. Uh not sure if I would recommend
+it. Uh I think the app the Codex app is
+slightly better for this. But, you can
+really have fun here and and implement
+your own interface.
+Awesome.
+Uh I talked with a couple of you already
+during the show about uh the app server,
+and one question that came up a lot of
+times is what's the difference with
+Codex Exec. So, if you've used the Codex
+CLI before, you're might be familiar
+with this. There's another command
+called Codex Exec, which spins up a
+non-interactive interface for you to uh
+pass uh to kick off tasks to Codex. This
+is great for scripting. If you're
+building a CI/CD implementation, and you
+want to script certain acts like auto
+fixing a PR, um this is a great
+opportunity.
+But, if you're trying to build like a
+more comprehensive client uh where
+you're interfacing where you're showing
+the agent or more importantly if you're
+trying to do something where you're
+spinning up a bunch of different Codex
+threads at the same time. For example,
+you're running
+you're running your own like eval
+harness or you want to use like slash
+goal. That's where the app server really
+shines because you have that full
+control over the harness and you don't
+have to figure out your own way of
+parallelizing all of the Codex exact
+calls rather than just sending off a
+bunch of like new thread events and
+spinning off tasks that way.
+Before I let you all go to the keynote,
+I have a three more tips just to recap
+what we talked about, things that you
+should keep in mind if you're using the
+app server.
+The first one is you should actually
+ship your own version of the harness.
+This will eliminate so many headaches
+for you if you're if you're relying on
+the user's installed CLI, you're going
+to constantly run into things from
+like breaking changes even though we are
+trying to minimize them, but if you're
+relying on experimental features that
+might happen.
+But you also don't have to worry about
+whether a user has actually updated
+their version and has the latest feature
+that you want to use or have them nudge
+them updating it.
+So ship your own version of the harness.
+The other part is you should absolutely
+expose new
+functions as part of your interface. We
+do this with a Codex app, for example,
+for it to be able to
+control itself as part of the Codex
+thread, like spinning up automations,
+etc. But mark them as deferred. That way
+you're not polluting the context window
+unnecessarily with all of the different
+additional functions that you're adding
+and instead still have them available
+for the agent without necessarily
+confusing it.
+And if you are changing the
+instructions, try to start with over
+like adding developer instructions
+rather than changing the base
+instructions. It might feel like you
+want to immediately rush to I'm going to
+write my own system prompt, but there is
+a lot of different things that we
+constantly have to think about when
+we're building a harness to make sure
+that the actual prompt is in
+distribution and make sure that the
+agent performs well. And you're losing
+out on all of that if you're actually
+jumping in and like writing your own
+system prompt. So be careful there uh if
+you're doing that. With that, thank you
+so much. Uh thanks for taking your time.
+Feel free to scan that QR code if you
+want to have the slides and I'll be
+around for uh like the next 15 minutes
+at the Open AI booth if you want to ask
+me any questions there. Thank you so
+much.
+>> [music]

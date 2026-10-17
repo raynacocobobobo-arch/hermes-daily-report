@@ -1,0 +1,49 @@
+UP主：OpenAI
+标题：How to Prepare for Customer Meetings With ChatGPT Work | Tutorial
+链接：https://www.youtube.com/watch?v=yQZgOSHHxjk
+
+[music]
+>> Before I join a customer call, ChatGPT
+work has proactively prepared a brief.
+Afterward, it turns the conversation
+into notes, follow-up emails, and
+proposed CRM updates for me to review.
+Previously, this would take half the
+day. Now, I can spend that time with my
+customers. Hi, I'm Alex. I work in sales
+at OpenAI. Before ChatGPT work, every
+customer call created hours of prep and
+post-call tasks. I'll show you how you
+can delegate a lot of that work to
+ChatGPT in five steps. First, [music] I
+go to ChatGPT and select work. You can
+also do this on the desktop app. Then, I
+connect the tools that hold my customer
+information, including calendar, Gmail,
+Slack, Gong, Google Drive, and
+Salesforce. Next, I tell ChatGPT what I
+need before each meeting, like account
+history, open questions, and key people
+involved.
+If I'm on the go, I can even dictate
+updates to briefs, slide decks, and CRM
+from my phone, all with consistent
+formatting. [music]
+For example, I'd ask, "Hey ChatGPT, can
+you pull the account brief for our
+upcoming meeting [music] since I'm on
+the way and I can read it?" I describe
+what should happen after the call,
+create the notes, draft the follow-up,
+propose [music] system updates, and
+identify next steps for the rest of my
+team.
+Finally, I review and approve
+customer-facing messages and important
+changes before anything sent. Before the
+meeting, ChatGPT gathers the account
+context and builds a prep brief for
+everyone on the internal invite. Now,
+you can spend less time managing the
+process and more time focused on your
+customer.

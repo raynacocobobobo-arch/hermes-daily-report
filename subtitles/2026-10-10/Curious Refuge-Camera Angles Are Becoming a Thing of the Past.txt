@@ -1,0 +1,418 @@
+UP主：Curious Refuge
+标题：Camera Angles Are Becoming a Thing of the Past
+链接：https://www.youtube.com/watch?v=6QC6nOotxrU
+
+If you've ever worked on a film project,
+then you probably know a lot of time is
+spent getting different camera angles of
+your scene. But, what if it was possible
+to shoot a simple wide shot and then get
+all of your close-ups in
+post-production? Well, that's what this
+video is all about. Using some brand new
+AI workflows, you can virtually change
+your camera to any angle using
+post-production tools. So, in this
+video, I'm going to show you a glimpse
+into the future of production by
+utilizing real live-action footage along
+with AI scenes. I'll share a few tips
+and tricks that we learned along the way
+and give you some advice on how to save
+maximum money on your projects. I hope
+you enjoy. Now, let's hop in. My name's
+Caleb. Welcome to Curious Refuge. Be
+sure to like and subscribe if you want
+more videos like this in the future. So,
+to kick things off, I want to show you a
+quick little scene here.
+Okay, so we have a cooking segment here
+and honestly, it's a little strange.
+Like the action's kind of weird how the
+fire's so big and they're pouring the
+onions and then she like picks up an
+orange and then just puts down the
+orange and then grabs the greens and
+decides she's going to do some chopping
+while there's an active flame happening
+right in front of her. Regardless, I
+want to show you both of these video
+clips side by side because as you can
+imagine given the topic of this video,
+the actual video where we cut to all of
+those different camera angles was
+actually created using artificial
+intelligence. The actual source video
+for this entire scene comes from a
+single wide shot. So, let's say that you
+are working on a live-action on-location
+video shoot and you have a wide shot,
+but you need different angles of your
+overall scene. Now, obviously, the best
+way to go about that is to literally
+move the camera and move your lights
+around and get the exact angles that
+you're looking for. But, because of
+logistical reasons, and schedules, and
+timing, sometimes you only are able to
+get certain shots. But, utilizing this
+workflow in artificial intelligence, you
+can actually change your camera angle
+very easily. Now, the first test that I
+want to show you is actually using AI to
+pull this off automatically. So, I've
+seen a lot of influencers talking about
+how AI can literally pull this off
+without any human intervention
+whatsoever. So, let's test it to see how
+good that actually is. So, I'm inside of
+Magnific here, and I'm utilizing Seed
+Dance 2.5. Now, you don't have to use
+Magnific, you can use any AI tool that
+has Seed Dance 2.5 built in. So, under
+the video model, we have Seed Dance 2.5,
+and under our media assets, we want to
+bring in our starting video clip. So,
+again, we're going to utilize this clip
+that we have from Artlist, and I should
+note that the clip needs to be under 30
+seconds, because 2.5 can only ingest up
+to 30 seconds of video. So, we'll go
+ahead and drag and drop that into the
+add media section. And for our prompt,
+I'm not going to read out the entire
+thing. You can find the link below this
+video, but we said that we want the
+actual action in the overall scene to
+remain unchanged, except for the camera
+angle. The only caveat is, for this
+prompt, we said, "Cut to close-ups and
+interesting angles to best showcase the
+action that is happening." And down
+here, we're in 1080p, which will give
+you really good resolution that, of
+course, you can up-res to 4K if you need
+to. The overall scene is 24 seconds long
+in 16 by 9 aspect ratio. And for this
+generation, we'll have sound on, but, of
+course, you can turn it off. It really
+just depends. We'll talk more about that
+in just a second. And before I hit
+generate, I should note that that's
+going to cost you about 25,000 credits,
+which is $25. So, this generation cost
+us $25, and quite a few of the other
+generations that I'm going to show you
+inside of this video cost a lot of
+money. So we spent way too much money on
+these tests. Hopefully you will save
+money because we spent it on your
+behalf. So we'll go ahead and hit
+generate. And after about 10 minutes we
+get this video clip here. Again, all of
+the camera angles were generated with
+artificial intelligence. But let me
+know, is this exactly like the reference
+video that we uploaded? Let's take a
+look.
+>> [snorts]
+>> Okay, let's see.
+Perfect.
+>> [laughter]
+>> Perfect. I don't know what she did to
+those onions to make it turn into an
+egg, but she's uh pulling off some magic
+there. So as you can see, if you use AI
+to give you the different camera angles
+and you don't specifically prompt, it
+gets kind of wonky. And so that's not
+exactly what we're looking for. So the
+next obvious test is to use time code to
+define where we want the angle to be at
+certain points in time. So we're back
+inside of Magnific now and we've made
+some changes to our prompt. So we have a
+very basic prompt at the very beginning
+trying to reinforce that we want the
+action to be the exact same. But you'll
+notice that at the bottom we've now
+defined certain time codes and where we
+want the camera angle to be. So for
+certain angles we want it to be the
+original wide shot and then for other
+angles we want it to cut to a close-up.
+So again, we went ahead and hit render
+inside of SeaDance 2.5 and after about
+10 minutes we got this.
+>> Okay, so again, it's kind of weird,
+right? Because some shots almost feel
+very close to the original source
+footage, and some of the close-ups feel
+okay, and other shots are just really
+strange. For example, when it cuts to
+the overhead shot, she grabs the bell
+pepper instead of the orange. And so, it
+really took some creative liberties. And
+so, altogether, again, I don't think
+that would be usable on a professional
+project. So, as you can imagine, the way
+that you want to pull this off with
+live-action footage inside of C-Dance is
+to actually give it the exact video clip
+that you want the angle to change. So,
+rather than uploading the entire
+30-second video clip, you're only going
+to upload the 3 to 5 seconds that you
+need for that individual shot. Now, I
+want to show you really quickly how I
+would go about the process of pulling
+that off. So, I have the original video
+clip here inside Adobe Premiere Pro, but
+of course, you could use DaVinci
+Resolve, or Final Cut Pro, whatever tool
+you like using for video editing. And
+I'll go ahead and drag and drop that
+video clip into my timeline. So, I'm
+going to go ahead and do playback here.
+Again, that's the space bar inside of
+Adobe Premiere Pro. Now, the keyboard
+shortcut command K on a Mac will set a
+splice point, but will allow the video
+clip to continue to play. So, I'm
+essentially going to define what angles
+I want to see in real time. It's almost
+like I'm a technical director doing live
+television here. So, we'll go ahead and
+playback and set a cut.
+So, let's say I want to cut there
+as she pours the onions.
+And then, we'll cut back to the wide
+shot here, and then cut to above as
+she's messing with the orange, cut back
+to the wide shot, cut to a close-up as
+she grabs the greens, and then cut back
+to the wide shot. So, now inside of our
+timeline, we have a bunch of individual
+clips here. And of course, you can drag
+them around and define exactly what you
+want from the individual clips. Now, if
+there's any specific shot that I want to
+export now to get a different camera
+angle, I can essentially go in and set
+an in point, go to the end of that video
+clip, set an out point, and then I can
+export the video clip of course by going
+file, export, and then I can go to media
+or send it to media encoder. That's not
+the purpose of this tutorial, so I'll
+leave it at that. And that will leave
+you with a video clip that looks
+something like this.
+Okay, so you get the idea. Essentially,
+we have a short video clip that is the
+exact part in which we want that
+close-up tracking shot of the vegetable
+as she grabs it and then puts it on her
+right side. So, to pull this off, we're
+back inside of Magnific, and again, we
+have Seedance 2.5 selected. So, I
+uploaded that very small individual
+video clip here, and for our prompt,
+we'll say "Edit video one," and then
+we'll get into the reinforcing language
+again that you'll find below this video.
+The long and the short of it is the
+prompt is trying to reinforce that we
+don't want any of the action to change,
+but we want the camera angle to
+specifically change. And I'm also
+reinforcing that I want it to be normal
+speed, no slow motion, and no cuts. Now,
+that's easier said than done. I do find
+that these AI tools sometimes want to
+push a certain generation to be slow
+motion, thinking back to the onion shot,
+but for the most part, it does a decent
+job at keeping things live action
+whenever you're actually reinforcing
+that it should be live action. And so,
+let's go ahead and hit generate. And
+that gives us this video clip here where
+she grabs the greens, she pulls them,
+and then she puts them down. And so, now
+the movement and action is virtually
+indistinguishable from the footage that
+we uploaded. There can be small
+differences, but the truth is, if you're
+on location doing a shoot where there's
+repeated action, there's going to be
+small differences. And so that's more of
+a post-production problem to edit around
+than something that is set in stone and
+that you're absolutely not able to
+overcome whenever you're working in an
+AI workflow. So that's how to pull this
+off with live-action footage and the
+results are frankly very impressive. I
+do find that it works better with things
+that are staged. So people talking to
+the camera or actions that are happening
+around an environment where you can
+really tell what's going on as opposed
+to very very dynamic movements. But all
+things considered, it's very impressive
+and absolutely worth considering if
+you're working with live-action footage,
+really no matter what project you're
+working on. However, I wanted to take a
+look at this same result utilizing AI
+video footage. And so we prompted for a
+30-second scene of me and Shelby in
+basically some sort of like murder
+mystery type film, but the entire scene
+is just a wide shot. So let's take a
+look at the original footage. Again,
+this comes directly from Seed Dance and
+that's why the acting is a little
+strange, frankly.
+>> [laughter]
+>> And he still hasn't noticed.
+>> He never does.
+>> This came from me. It's your
+handwriting.
+>> I haven't written anything.
+>> [laughter]
+>> I love that like the music hits and then
+their moods completely changed. It's
+like they uh they heard the like sleeper
+agent signal and their brains like
+snapped.
+>> [laughter]
+>> It's so good. But it's a great candidate
+for testing out this workflow. So again,
+the first thing that I wanted to do is
+see if AI could actually interpret and
+cut two different camera angles. So we
+used that same prompt from before where
+we asked AI to pull off the different
+camera angles without us being specific
+about what we wanted to see. And that
+gave us this result.
+>> And he still hasn't noticed.
+>> [laughter]
+>> He never does.
+>> This came for me. It's your handwriting.
+>> I haven't written anything.
+I haven't written anything.
+>> [laughter]
+>> Okay. So, the scene falls apart. The eye
+lines make it look like you're watching
+a Saturday Night Live segment. And he
+doesn't even take a sip of the drink.
+So, yeah, there's a lot of weird stuff
+happening there. Now, we went in and did
+the same approach using time code
+editing where we described where we
+wanted the camera to be for different
+parts of the scene, and that gave us
+this.
+>> And he still hasn't noticed.
+>> [laughter]
+>> He never does.
+>> This came for me. It's your handwriting.
+>> I haven't written anything.
+Okay. So, yeah, it's actually not bad.
+There are small details that are
+different in the time code version here.
+So, again, if the action is specific
+that you need it to pull off, and if
+you're working on a film project, that
+probably is the case, then you probably
+again need to do the single shot method
+where you define the individual shot
+that you're looking for. So, let's take
+a look at one very quick example. So, we
+have this quick little shot here of
+Shelby taking a sip of the beer, and
+then you can tell by the time the beer
+goes down, her eyes have changed, and
+they're like angry and focused all of a
+sudden, right? So, we asked AI to give
+us a different angle, and that gave us
+this.
+And yeah, that's basically exactly what
+we were looking for. We also asked for
+an over-the-shoulder shot of me looking
+at the letter, and that gave us this.
+Again, not too shabby. I do think
+there's some continuity issues in the
+way in which she's holding the object,
+but again, this can be fixed with
+iteration. We found that in our test, it
+takes about two to three iterations to
+get exactly what you're looking for.
+But, frankly, that's only $1 per second
+as opposed to entirely having to go
+about the process of doing an entire
+reshoot, or even not having to be on
+location and shoot as much, you're
+frankly going to save a ton of money
+utilizing this workflow. And so, we did
+this for quite a few different angles in
+this scene and got this.
+>> And he still hasn't noticed.
+>> [laughter]
+>> He never does.
+>> This came for me. It's your handwriting.
+>> I haven't written anything.
+>> Okay. I mean, it's pretty cool. Of
+course, we can begin to dissect this and
+point out things that are potential
+issues, but the truth is, again, you can
+use iteration to solve a lot of those
+problems. You're more than likely not
+going to get it right in the very first
+take, but frankly, that's always been
+true in filmmaking. If you want to learn
+more about this workflow along with a
+ton of updates that have been happening
+in the world of narrative storytelling,
+I highly recommend checking out our
+training over at Curious Refuge. Our
+members have access to weekly workshops
+with experts, office hours where you can
+get your pressing AI questions answered,
+live events all over the world, and the
+world's most up-to-date AI courses, and
+we would love to have you inside the
+community. You can learn more over at
+curiousrefuge.com.
+Inside our membership, we also challenge
+our community to come together and do
+creative experiments that can help them
+build up their portfolio and demo reel
+so that they can practice the skills
+that they need to land real-world
+opportunities. And I want to give a
+shout-out to the latest winner of our
+build competition. Jeremy Hammond put
+together a short film called The Nose
+Tyrade, and it's his take on a famous
+speech from Cyrano and it is an
+incredible project. We basically asked
+him to create a photorealistic 60-second
+scene that includes two to three primary
+characters with clear motivation in a
+setting with very clear conflict and
+Jeremy knocked it out of the park. He's
+actually a director based in France with
+20 years of traditional filmmaking
+experience and it's completely apparent
+from the incredible piece. If you want
+to check out the full project, you can
+see it over inside the Curious Refuge
+portal where you can also create your
+very own profile for free. Again, thank
+you so much for watching this video. Be
+sure to like and subscribe if you want
+more tutorials like this in the future.

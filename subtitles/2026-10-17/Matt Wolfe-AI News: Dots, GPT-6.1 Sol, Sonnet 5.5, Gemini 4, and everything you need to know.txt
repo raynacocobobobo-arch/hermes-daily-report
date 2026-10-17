@@ -1,0 +1,833 @@
+UP主：Matt Wolfe
+标题：AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know
+链接：https://www.youtube.com/watch?v=dDgncbBAA0c
+
+It's been another busy week between
+OpenAI's dev day, which I was actually
+in attendance at, a new model launch out
+of Enthropic, a new model launchish out
+of Google, and a handful of other
+announcements. Yeah, there's a lot to
+talk about. I'm done wasting your time.
+Let's go ahead and jump right into it.
+Let's start with recapping all the
+announcements they made at Devday
+because there was quite a bit. Now, the
+biggest announcement they made was
+probably about their new AI assistant
+agent thing called DOT. They describe it
+as remarkably capable, always on agents
+built to handle everything. They also
+put out a dedicated blog post on this
+one and essentially what it is is a tool
+where you tell it what you need and
+there's no model selector. You don't
+decide whether to use codecs or work or
+chat GPT, just chat mode. it goes and
+decides what to use on your behalf. Kind
+of runs behind the scenes and then gives
+you a response. You can type to it just
+like you would chat GPT or you can
+actually call it like you're making a
+phone call with it. Now, the other thing
+I will say about Dots that I found
+pretty cool was that it's very
+proactive. And what I mean by that is
+that when an email comes in that it
+thinks is important, it will actually
+alert you and say, "Hey, I just saw this
+email come across. I think you should
+respond quickly. Do you want me to write
+a draft for you?" or if it's connected
+to your Slack. It will say, "Hey, I just
+saw this Slack message come across. I
+think it looks pretty urgent. Would you
+like me to craft up a reply for you?"
+Full disclosure, I did get early access
+to DOTS. Played with it for about a week
+before the dev day. And that was the
+thing that I noticed the most about it
+was how often it was messaging me to
+tell me to check in on things that might
+have popped in in my email or Slack or
+things like that. So, when you open the
+chat GPT app, up under new chat, you
+should see your dot. I literally just
+named mine dot because I'm not creative
+enough to think of a new name. And I
+picked my little wolf character that I
+made back when they introduced the pets
+thing as the little like avatar for it.
+And you can see as soon as I got access
+to it, it basically went to work for me
+automatically telling me before I asked
+anything, here's some things I can take
+off your plate for you. RSVP something
+for you, help respond to an email, reply
+to another email. So I told it what to
+do. It actually wrote and sent an email.
+I then asked it to look through my inbox
+and said, "Are there emails we can
+ignore or archive? Are there emails you
+can help me respond to right now?" And
+although I probably need to blur most of
+this out, it went and found a handful of
+emails that it could just archive that I
+don't need to reply to. And then it
+found a bunch of emails that it could
+write the reply for me and it drafted up
+a reply. I specifically told it, "Don't
+send any emails on my behalf. Only write
+the drafts and I'll review them before
+sending." And it went and wrote up a
+bunch of drafts for me. But here we can
+see where it starts to get proactive. On
+Monday, before I ever sent it any sort
+of messages, it says two heads up for
+Monday. It pointed out an email and a
+meeting that I was invited to for
+Monday. Then on Tuesday, it actually
+found something in my Slack that it
+wanted to remind me about. Later on, I
+had a flight that was getting delayed.
+It alerted me about the delay before I
+even saw an email myself that it was
+delayed. Then on the actual day of dev
+day, it actually sent me this thing that
+it called my personal scratchpad. And
+when I opened this up, it actually gave
+me a whole breakdown of my agenda for
+the day for while I was at dev day. It
+collected all the various emails and
+communications and Slack messages and
+everything I've kind of gone back and
+forth with throughout the week about
+what I would need to know for dev day
+and it put it all into a document for
+me. So I just had one place to look to
+make sure I knew everything that was
+going on. So all of that was really
+cool. I really like how proactive it
+was. Now, the other thing that I really
+appreciate about it was all of the
+things that I've already connected with
+ChatGpt. So, things like Notion,
+To-Doist, Slack, GitHub, Granola, Google
+Calendar, Google Drive, Gmail, my iMes,
+all of this stuff is already connected
+to my chat GPT app. And so, that was all
+the stuff that Dot immediately had
+access to. So, I was able to see all of
+my communications across every platform
+I communicate on basically, and help
+pull all that information together. So
+the proactiveness and just like the ease
+of onboarding because I was already
+connected to all of these tools made
+just starting to use it super super
+simple. Now having said all of that,
+there is some downsides to do. The
+biggest one being that DOTS is available
+to pro and business premium users in
+eligible markets. So it's not available
+in every market and you need to be on a
+pro or business plan if you need a
+memory refresh on those plans. Pro plans
+start at $100. So, the cheapest plan
+that you can use this new DOTS feature
+on cost you $100. They also reactivated
+their $200 a month plan, which they had
+recently deactivated. And they added a
+new $500 a month plan. The $200 a month
+plan. They actually cut the amount of
+usage you get with it. So, you don't get
+as much usage as you used to get for
+$200. And now if you want to get kind of
+what you used to have on the $200 plan,
+they want you on the $500 plan. Now,
+they still do have their $8 a month and
+$20 a month plans, but again, to be able
+to use DOT, this always on assistant
+agent thing, you need to be on the $100
+a month plan. And I got to be honest,
+it's kind of a tough cell when Muse just
+rolled out, which is sort of Meta's
+version of an always on assistant. And
+this one's totally free to use. like you
+just need to have a meta account and you
+could go and use Muse. Now Muse, to be
+fair, doesn't have as many connectors.
+There's still a lot of things that the
+OpenAI version will connect to that Muse
+doesn't connect to yet. It doesn't have
+a granola connector yet, which is one
+that I do use. It also doesn't connect
+directly to your iMessage, but quite
+honestly, like almost everything else
+you can think of, it has a connector for
+now with more coming. So you have dots
+and you have Meta's Muse and you have
+Grockbot and all of them kind of do that
+similar like always on assistant thing.
+All of them can sort of be proactive for
+you. All of them could sort of connect
+to a lot of tools for you but it seems
+like the new chat GPT version is like
+the most expensive option. I will tell
+you it is good. Is it good enough for
+most people to use that over a free
+version of Muse? I don't know. That's a
+tough sell to me. But it definitely has
+much better models under the hood than
+what you're going to get with Muse.
+Like, you're getting the best models out
+of OpenAI under the hood. If you tell it
+to go build you an app, it will go and
+use codecs and the best model it thinks
+it needs to use to build that app for
+you. If you need it to connect the dots
+on a whole bunch of different items for
+you, it'll do that. I had it sift
+through archives of old emails and try
+to put together a narrative of some
+conversations I've had over the years
+with a specific company and it went and
+found all the emails and helped me
+arrange all of these conversations that
+I've had. So I have like a paper trail
+of conversations I had with a specific
+company. So it is really really good and
+probably smarter and way more capable
+than Muse but again at that higher price
+point. Also, as a quick interesting side
+note, the website.com
+is actually owned by Elon Musk and if
+you go to dot.com, it actually redirects
+you to Grockbot. I don't know if that
+was Elon trolling and he knew that that
+was what they were going to call it and
+he got ahead of it or if that's just
+purely coincidental, but I'm leaning
+towards probably the first one knowing
+Elon. Now, probably the second most
+notable item to come out of Devday was
+the launch of GPT 6.1 Soul. It's a much
+less expensive model that the way they
+described it is almost as good as Astra.
+Looking at the dedicated blog post for
+this one here, we can see the pricing
+via the API is $2 per million token
+input, $10 per million token output
+versus Astra, which is $10 input, $50
+output. And when it comes to coding,
+yeah, as we can see, it is pretty much
+as good, if not slightly better on Deep
+Suite than GPT6 Astra. Nowhere near what
+we're seeing with the anthropic Opus
+5.5, but you know, nearly as good as
+Astra. We can see here on Automation
+Bench that GPT6 Astra is a bit smarter,
+but also a bit more expensive on a cost
+per task basis than GPT 6.1 Soul here.
+And pretty much all of the benchmarks
+show similar information. Astra is
+smarter but more expensive. 6.1 Soul is
+almost as good but less expensive. To
+use 6.1 Soul, you do need to be on a
+paid plan plus pro, business,
+enterprise, and edu users. And it's not
+available in chat yet. You could use it
+in work mode and codeex, but not
+specifically just chat. If we take a
+peek at artificial analysis here, the
+benchmark that sort of combines a bunch
+of other benchmarks and tries to give
+you the sort of objectively smartest
+model, we can see that 6.1 soul falls
+down here with a score of 52, which is
+only one point below GPT6 Astra, but a
+whole six points below Opus 5.5 here.
+And on a cost per task basis, it's a
+pretty economical model falling at about
+72 cents per task where Opus 5.5 and
+Sonet 5.5 are, you know, way up here at
+$6 almost $8 and Astra right here at
+$326.
+Moving on, another really cool thing
+they announced was this ultraast mode,
+which I believe uses the Cerebrus chips.
+Now, this one's coming soon, but it
+generates 300 tokens per second, which
+is about eight times faster than just
+not the ultra fast mode. However, Sam
+Alman did say it's going to come at 6x
+the price. So, if you want super super
+fast, we're going to be able to get
+super super fast AI use. Uh, but yeah,
+it comes at quite a bit of an extra cost
+as well. Also, you do have to be on the
+$500 a month plan to access the ultra
+fast mode. They also announced private
+intelligence. With this, you could
+basically use their models without
+giving OpenAI personal access to the
+underlying content. So, you get
+confidential computing without them, you
+know, training on your data or anything
+like that. They also announced codecs in
+the cloud. So, you can give it a prompt
+to go code something for you and it will
+actually code it in the cloud. So, you
+can, you know, close your laptop and
+walk away and it'll keep on going. You
+can pick up where you left off from like
+a different computer, things like that.
+Everything just kind of keeps going in
+the cloud even if you like turn off your
+computer. Let's see a refresh codec cli
+code review codec security cloud. I'm
+not going to go into too much depth on
+this stuff. But then they also announced
+the decisions API which is interesting
+because last week I talked about Jev
+which Jev doesn't output text. It sort
+of makes decisions. It looks at
+something and basically selects from a
+set amount of possible outcomes or true
+or false or a rating. Well, the
+decisions API seems to be OpenAI's
+answer to that. decisions API enables
+real-time decision-making by focusing
+Luna's intelligence on a specific set of
+userdefined questions with finite
+predefined answers. So basically exactly
+what Jev does. If you don't remember
+what Jev does, check out last Friday's
+news video cuz I break down Jev in that
+one. But the decisions API basically
+does that. You give it information. It
+looks at that information and makes a
+decision instead of outputting a ton of
+text. it just outputs from the
+predefined options that it has available
+to it. The agents API now supports
+computer use. They talked about plug-in
+extensions so that developers can build
+on top of chat GPT. Apparently, they've
+made it easier to create the plugins and
+submit them. Now, this is one that I'm
+actually still a little confused by.
+They announced ChatGpt spaces as well as
+pages, and they feel very similar. So,
+ChatGpt spaces, a new home for your team
+to collaborate with AI to get work done.
+Create a dedicated space where
+teammates, chat GPT, and your DOT can
+build on shared knowledge. ChatGpt can
+keep your space organized based on
+instructions you provide, so you can
+quickly find what you need and pick up
+where you left off. Available to Pro,
+business, and enterprise plan. And then
+we have pages. Pages are a new type of
+document built for human and agent
+collaboration. Anything you can do in
+chat GPT, you can do on a page. write,
+research, generate charts, create
+images, or visualize information. So to
+me, pages almost feels like notion but
+built straight inside of chat GPT where
+chatg spaces almost feel similar to what
+projects already are, but more
+collaborative. That's sort of how I'm
+interpreting it, but I could be a little
+off on that. They have collaborative
+slides, create teams and share tasks,
+chat GBT and Slack and Teams, a meetings
+plugin, which seems like basically a new
+competitor to Granola. So like it just
+seems like it does exactly what Granola
+already does. Takes notes for you and
+saves personalized summaries with action
+items in chat GPT space. Audio is
+deleted once your notes are ready and
+can't be accessed or replayed. This one
+was interesting as well. Sign in with
+chat GPT. So if you are developing
+something, you can let people log in
+with their chat GPT account now. And if
+the thing that you built uses AI, it'll
+use that person's API key that they
+logged in with. So it won't charge you
+and your API key, it'll charge theirs
+instead, which seems kind of cool if
+you're building some sort of like AI
+tool. Again, they announced the new Pro
+500 tier, the $500 a month tier, which
+also gets you access to the Ultra Fast
+and OpenAI marketplace, which this to me
+feels like the third or fourth time
+they've attempted to promote a
+marketplace like this, and I'm still a
+little confused about what the
+difference between this marketplace is
+and the last couple iterations. But if
+you build tools, it seems like you could
+build stuff and put it inside the OpenAI
+marketplace. So, again, a lot a lot of
+announcements. Also, fun fact, if you
+watch the replay of the keynote and you
+fast forward to like 51 minutes or so,
+you can actually spot me in the crowd.
+Proof that I was there. Another cool
+update comes from Optimizely. I talked
+about their new virtual teammates in a
+previous video, but I've been able to
+play around with their preconfigured SEO
+and AI search analyst teammate, and it's
+pretty cool. I just connected it to my
+futuretools.io io site, set up the
+virtual teammate, and then I asked it,
+"Audit future tools for SEO and AI
+search visibility and tell me what to
+fix first." It can research keywords,
+find content gaps, and check how ready
+my site is to show up in AI answers.
+That's the AEO part of it that everyone
+is focusing on these days. It stands for
+answer engine optimization because so
+many people are getting their
+recommendations from AI instead of
+traditional search. Now, this virtual
+teammate helps me with all of that, and
+it can continue to monitor the site and
+proactively collaborate with me on
+prioritized action items, so I've got a
+running list of what needs attention
+without manually digging through
+dashboards and figuring it out all on my
+own. If you want to check it out or any
+of their other virtual teammates, head
+to the link in the description box. And
+thanks so much to Optimizely for
+supporting my channel and sponsoring
+this portion of today's video. But the
+sort of flurry of announcements that we
+got out of dev day was not the only news
+we got this week. Enthropic had a big
+launch this week. They announced Claude
+Sonnet 5.5, which is their new model
+that's cheaper than Opus 5.5, but you
+know, almost as good, kind of like 6.1
+to Astra. If we look at their benchmarks
+down here, you can see on Terminal
+Bench, it's now their top scorer. But on
+pretty much all the other benchmarks,
+Opus 5.5 beats it out. But pricing is
+the big difference. It's about half the
+cost of Opus 5.5. $4 per million input
+tokens down to $2. And then on output
+tokens, you've got $20 down to 10. So,
+it's quite a bit less expensive to use.
+Looking at their chart here, you can see
+the further to the right we get, the
+higher the cost to use it. Orange is
+Opus 5.5, blue is set 5.5.
+Interestingly, Sonnet is actually more
+expensive to use at max than Opus is to
+use at max, but it's also a little bit
+smarter at max. Now, when we go back up
+to these benchmarks and we look at the
+system card on how they got these
+benchmarks, I actually get a little bit
+confused because it does say, unless
+otherwise noted, all results use the
+following standard configuration,
+adaptive thinking at max effort. So when
+we jump back to these benchmarks, these
+are all at max effort unless otherwise
+stated. And when we look at their charts
+down here, max effort is actually more
+expensive to use. Right? So if I click
+through all of these, we can see max is
+the most expensive setting. And in most
+cases, max is more expensive than using
+opus. So these benchmarks are showing
+Sonnet at max effort getting these
+benchmarks which underperform Opus 5.5
+but theoretically in most cases is
+actually costing us more than Opus 5.5.
+I don't know if I'm making sense here
+but like why are they benchmarking this
+at max if max is actually more expensive
+than using Opus 5.5 and showing us the
+benchmarks based on max effort. And
+where this is even further confirmed, if
+I jump over to artificial analysis here,
+we can see that Sonnet 5.5 is 56. It's
+it comes in second place behind Opus
+5.5. But if we jump down to our cost per
+task here, Sonnet 5.5 on a cost per task
+basis averages $7.62
+where Opus 5.5 averages $5.98.
+So on average, Opus is cheaper to use
+than Sonnet. This is also max effort,
+which is the same effort level that they
+used to get these benchmarks. So, I'm
+just very confused. Like, Sonnet 5.5
+seems like a step down, but to get these
+benchmarks was more expensive than Opus
+5.5. When we look at output tokens per
+task, Sonnet 5.5 is the most token
+hungry model out of all of them, using
+on average 194,000 tokens at max effort
+level. Now, I pointed this out on
+Twitter and Edwin here who works for
+Enthropic said, "Do not use Sonnet with
+max effort. At that point, you should
+probably be using Opus." Okay, I get it.
+Max effort is token hungry and we should
+probably not be using max effort. If
+we're at that level, go use Opus
+instead. But then their benchmarks
+again, what they're showing when they're
+showing this is how capable our model
+is, they're showing it using max effort.
+If you don't think we should be using
+max effort, maybe like benchmark it
+based on the effort level you think we
+should be using. Okay, I'm I'm done
+ranting about this. We got a new sonnet
+model. It's almost as good as opus. It's
+more expensive if you use max effort.
+Less expensive if you use a lower effort
+level, but if you're using a lower
+effort level, then these benchmarks
+aren't really relevant to you because
+they only were able to get these
+benchmarks using a max effort. So yeah,
+that's Sonet 5.5. I of course did beauty
+bench both of these. Here's Claude
+Sonnet 5.5's result. Used 29,000 tokens
+and cost 28 cents. GPT 6.1 Soul
+generated this version 35,000 tokens and
+cost 34. And our LLM as a judge actually
+put 6.1 Soul as the new leader and
+ranked Sonnet 5.5 all the way down here
+at number 13. Some other quick
+announcements out of Claude. You can now
+customize Claude code with mods. So if
+you want to like actually modify the
+claude code platform, you can actually
+prompt it to essentially mod itself. We
+can see on Twitter here they posted
+about it. You can now mod cloud code,
+change how it behaves, customize the UI,
+swap in your own features. So now you
+can basically prompt inside of Claude
+Code to essentially have it tweak Claude
+codes functionality, which is kind of
+cool. We also got a model out of Google
+DeepMind this week kind of. They made an
+announcement post for their new Gemini 4
+Argon model, which if you look at the
+benchmarks on this one, pretty much
+makes it the new state-of-the-art model
+above Opus 5.5, above GPT6 Astra. Before
+this model was announced, Opus 5.5
+pretty much owned every single
+benchmark. According to their new
+article, this new Gemini 4 Argon is
+pretty much state-of-the-art across the
+board. However, this blog post is
+announcing their new Frontier model,
+Gemini 4 Argon, but it's only rolling
+out to a set of trusted cyber defenders
+through their Fair Wind program. So,
+they announced this new model and they
+said it's here, but most people can't
+have it yet. The pricing of it is pretty
+dang reasonable. It'll launch it at an
+introductory price of $2 per million
+input tokens and $10 per million output
+tokens, which is great pricing for how
+good this model is. And something that's
+really interesting as well is that they
+say they're significantly expanding the
+model's output token limit to an
+industry-leading 1 million tokens up
+from a previous of 64,000 tokens. This
+is 1 million tokens of output which is
+huge. Before it's typically like 1
+million combined tokens where most of
+that is input tokens and like 64,000 of
+it being output tokens. Now it can
+output over a million tokens. That is
+just crazy. It can output over 750,000
+words essentially. That is just wild.
+But again, it's a model we don't have
+access to. But when it comes to
+knowledge work, new state-of-the-art,
+when it comes to coding on Deep Suite,
+this would make it the state-of-the-art.
+And yeah, pretty much across the board,
+it would be the best model out there.
+But again, rolling out soon. So, we
+don't have it yet. And when we do get
+it, it's going to go to API customers
+and Google AI ultra subscribers first.
+So, their highest tier plan.
+Interestingly, Artificial Analysis
+apparently got access to this and was
+able to test it and it actually scores
+tied with GPT6 Astra on Artificial
+Analysis here despite the fact that all
+of those other benchmarks on their own
+website put it as pretty much the top
+dog, best of the best model. But
+according to Artificial Analysis, which
+you know combines a bunch of benchmarks,
+it's about as good as Astra. I'm sure
+once it's more widely available, it'll
+actually get benchmarked even more on
+more tests and maybe this number will
+update. I don't know. We also got a new
+image model out of Ideogram with
+ideoggram 4.5. And apparently this is
+the most precise editing model. It
+appears to be really, really accurate at
+taking other images and making any edit
+you want, no matter how big or small, to
+the image. You can actually try this one
+out over at idiogram.ai. So, I'll start
+with an image that's already in here
+that somebody else generated. And I'll
+drag this image into the reference image
+here. And then I'll say put him at Petco
+Park in San Diego. We're on ideoggram
+4.5. Let's go ahead and generate that
+edit. And it gave me four variations
+where he's definitely at a ballpark, but
+the original person looks exactly the
+same. So, it did a good job with that.
+When it comes to new image models, I
+find it harder and harder to be
+impressed by them because I feel like
+they're all pretty good now. But IOG 4.5
+is apparently the leader in editing. So,
+if you need to make edits to an image,
+there's a new one out there for you to
+try. All right, we've covered a lot
+already between Dev Day and Anthropics
+announcement. It was a lot of news this
+week, but there's a few more things I
+want to share, but we don't need to go
+into too much depth. So, let's just
+break them down in a quick rapid fire.
+Pew. Starting with yet another decision
+model. Last week we talked about Jev.
+Earlier on we talked about the OpenAI
+decision model. Well, there's also a
+model from this company Strand which is
+called Strand Decider 2B which is a
+small opensource decision model. Now if
+you don't know who Strands is, don't
+worry. I didn't either. But they're
+actually just Amazon. It's like Amazon's
+agentic experimental AI division. I
+don't know if there's great benchmarks
+really yet for these decision models. I
+don't quite know how to read this. This
+just says right and down is better. So
+yeah, I guess that's good. I I don't
+know how to read these benchmarks yet,
+but apparently it's decent. But yeah, we
+have another decision model out of
+Amazon's division called Strand. SpaceX
+AI announced team bots, which appears to
+be like Grockbot, but you know,
+available for teams. You build a team
+bot around a role or workflow your team
+shares. Everyone gets access to the same
+bot and its expertise while still being
+able to work with it individually. So
+all the team bots get the same context,
+plugins, credentials, and memories. And
+then team members could then access that
+bot. So if you're a big fan of Grockbot
+and you want to work with your Grock
+bots collaboratively, now it seems like
+these team bots are designed for that.
+We got two new voice models this week.
+11 V4 from 11 Labs, which is apparently
+their most emotive model. This new 11
+Labs model seems to be pretty good. You
+can tell it how you want it to sound. So
+like excited and happy sounds like this.
+>> Big news, everyone. Our summer menu
+drops this Friday. And yes, the mango
+sticky rice is finally back.
+>> If you wanted to sound sleepy and
+drowsy,
+five more minutes.
+I promise I'll get up right after this
+dream finishes.
+>> And it's got, you know, other languages.
+And apparently it's better at actually
+cloning your voice as well. So like
+here's the real voice.
+>> Hey, thanks so much for holding. Um, so
+I've got your account pulled up now.
+>> And then here is their version.
+>> Hey, thanks so much for holding. Um, so
+I've got your account pulled up now.
+>> And I mean, yeah, it's pretty dang
+close. But Microsoft also released their
+own new voice model called MAI Voice 2.1
+this week, which also has realistic
+expression and multiple languages.
+Here's an example.
+>> Here's the clever part. Plants capture
+sunlight and turn it into food.
+>> Here's another example.
+>> Here's the clever part. Plants capture
+sunlight and turn it into food.
+>> I mean, comparing them side by side, I
+would say maybe 11 Labs has the edge,
+but you know, you have another option.
+Now, also from Microsoft AI, they have a
+new streaming transcription model, which
+basically means it'll transcribe really,
+really fast. So, you can be doing like a
+live stream or something like that and
+it could transcribe straight to the
+screen like in practically real time.
+And finally, a bunch of AI leaders met
+with the White House this week and they
+all agreed to rebrand AI as super
+intelligence. Now whether that actually
+happens in practice, we're still yet to
+see. But we can see it was signed by
+Sundar, Daario Zuckerberg, Greg
+Brockman, Elon Musk, and Jensen Hong.
+This actually happened the same day as
+DevDay. So Greg Brockman was at the
+White House while Sam Alman was at
+DevDay, and it was also signed by Donald
+Trump, who of course is president of the
+United States. Other than agreeing to
+call it super intelligence, though, they
+also agreed that we're all going to
+build the technology safely. and they
+agreed on four layers. Implement robust
+internal controls to monitor the
+capabilities and alignment of its models
+during training and deployment. Empower
+an internal team to ensure all of the
+controls, monitoring, and detection are
+operating as intended. Partner with an
+independent external auditor or
+evaluator and designate an independent
+committee of the board of directors to
+oversee and receive reports from the
+teams operating the controls, etc. And
+again, they all signed it, but it's not
+anything that's like super binding or
+enforcable either. Anyway, that's what I
+got for you today. I had a blast at
+OpenAI dev day and then previously Meta
+Connect last week. It is always an
+interesting thing where you go to these
+events and you meet all these other
+creators and you meet the people
+building the tools and then you come
+home and you know want to report on
+everything that you learned, but you're
+in this like afterlow of sort of
+excitement from hanging out with all
+these people. But then you need to come
+to reality that when you're in the
+event, everybody's sort of got this buzz
+going and excitement and everything
+seems really cool in the moment. And
+then you get home and reality sets in
+and you start testing it and you're
+like, is this as good as you know what
+it was made out to be at the event? And
+then you got to go and make content and
+tell people what you really think. And
+it's just always like this really weird
+thing after events because my
+responsibility is to make videos that
+are the best possible video for the
+audience to understand what's going on.
+But while I'm at those events, you know,
+they're giving me free GameBoys and, you
+know, they're providing us with meals
+and hotels and we're hanging out with
+all these other creators and we've got
+this like fun buzz going on where we're
+all excited and it does make it a little
+bit more difficult to come home and be
+like, "That wasn't that cool of an
+announcement actually." But again, I'm
+always going to do my best to try to,
+you know, do right by the people who
+watch my videos and call it how I see
+it. And sometimes that might mean that
+in the future I don't get invited to as
+many events, but you know, it is what it
+is. My goal is to make sure that people
+watch these videos and understand what's
+going on and get my actual real take and
+not the take that some of the companies
+probably wish that I gave. But again,
+that's what I got for you. It is my goal
+with this channel to drink from the fire
+hose and be overwhelmed all week and
+learn everything that's going on in the
+world of AI and then turn around and try
+to condense it and distill it and try to
+make it as understandable as possible
+for you so you don't have to feel
+overwhelmed and like you're drinking
+from the fire hose. I do record these on
+Thursdays and publish them on Fridays.
+So, if any new news came out late
+Thursday evening or on Friday, it'll
+probably end up in next week's video.
+But if that's something that sounds
+interesting to you and whether you love
+AI or you hate AI or you're indifferent
+to AI, I'm going to do my best to try to
+help you keep up with it and give my
+just real raw thoughts. I don't script
+any of these videos. I just sort of
+blurt out whatever is on my mind as I'm
+talking about it. And what comes out is
+honestly my raw unfiltered thoughts on
+everything I saw. And I often also
+change my mind later on too. I might say
+something's really cool and then two
+weeks later after using it even more go,
+you know what? That actually isn't as
+great as I thought it was when I first
+played with it. So, you know, stick
+around to see how my opinions change.
+Again, really, really appreciate you
+hanging out with me, nerding out with
+me. Lots going on. Luckily, I'm done
+with traveling for a while. I'm not
+going to any more events for a while.
+I'm kind of saying no. I want to just
+like heads down, learn as much as I can,
+play with the stuff that's all been
+launched recently, and make even more
+videos to help you understand what's
+going on and show you cool use cases.
+So, again, that's something of interest.
+Like this video, subscribe to this
+channel. I'll make sure more stuff like
+that shows up in your YouTube feed.
+Thanks again and hopefully I'll see you
+in the next one.

@@ -1,0 +1,930 @@
+UP主：Corridor Crew
+标题：I Did Something New With The OLDEST form of Animation
+链接：https://www.youtube.com/watch?v=yLt-CyqzYtM
+
+5 4 3 2 1.
+>> This is a zoat trope. And when it hits
+151 RPM, something amazing happens.
+These little figures come to life. It's
+stop motion animation you can see in
+real time. There's just one problem.
+This thing is a plastic [music] hand
+grenade, and I'm about to set it off in
+front of every person whose opinion
+matters to [music] me.
+>> That's Reckless Ben.
+>> And I have no idea what I'm doing. Why
+would I attempt this? To answer that, we
+have to rewind 30,000 years.
+We all want to leave a mark to tell
+stories that outlive us. And this
+ancient graffiti artist found a novel
+way to do just that. By flickering fire
+light to create what might just be the
+world's first moving picture, or at
+least the first step towards one. The
+next step wouldn't happen for another
+20,000 [music]
+years.
+This medallion was carved from bone.
+[music] Maybe it's a coin. Like maybe
+this is heads and this is tails. But
+look what happens when I thread a string
+[music] through it.
+This thma trope demonstrates an early
+understanding of flicker [music] fusion,
+the driving principle behind every
+moving picture. And this ancient Persian
+vase demonstrates sequential images, the
+driving principle behind every
+animation. If you rotate the vase
+[music] at 360 RPM, we can finally see
+nothing. It's just a blur. We're missing
+the final piece [music] of the puzzle,
+the shutter. a way to reveal the images
+we want to see and hide all the ones in
+between. [music] If we can do that fast
+enough, Flickr Fusion kicks in and the
+images start to move. [music]
+Now, somebody just needs to put it all
+together. Enter the Fenistoscope, the
+first device to master every [music]
+principle of the moving image. But to
+see the animation, you have to put your
+eye here [music] and then look into a
+mirror. This movie is for an audience of
+one. And that's why the Zoatrope is my
+favorite early animation device. It
+[music] added a drum shutter so the
+experience could be shared. Before we
+even knew what movies were, we knew we
+wanted to watch them together. And so
+the race began. The race to get our
+movies in front of the widest possible
+audience. Use mirrors instead of slots
+and now a whole group can see your
+movie. Project it onto a screen and now
+the whole room can see it. Now millions,
+now billions. The zoatrope [music] spun
+so YouTube could run. It combines so
+many things [music] I love. Its film
+history, its practical effects, its stop
+motion animation, all rolled into one.
+So now you know why I have to build one.
+To build a zoatrope, you need to know
+three numbers: frame rate, total frames,
+and rotation speed. But if you know any
+two of these numbers, you can calculate
+the third. For example, [music] this
+zoatrope spins on a turntable at 33 and
+a3 RPM, and most phone cameras default
+to 30 fps. Therefore, the total frames
+on this trope must be 54. Here's what
+you see with your eyes, but here's what
+you see through the phone. Your [music]
+phone is the shutter. I like this
+solution over, say, a strobe light
+because it works anywhere, even places
+where you can't control the lighting.
+Places [music] like open sauce. Imagine
+it. People gather around, the zoatrope
+spins up, they tweak a few settings on
+their phone, and boom, animation. But
+that means this project has a built-in
+deadline.
+If you saw my 3D printed stopmotion
+video, the one where I explain why I
+don't like to be on camera, this will be
+like that but harder because I'm not an
+engineer. So, instead of building my own
+turntable, I'm just going to buy one.
+>> But it doesn't go fast enough. I need
+this to hit roughly 200 RPM.
+>> What if you just overvolt the motor and
+no screw hole? I think it's glued on.
+You can kind of see some glue. Point
+being, I think we should return this.
+>> Damn it. I was really counting on that.
+>> That being said, it was a good idea.
+Yeah, if you just use a regular electric
+skateboard motor, it should be able to
+get up to speed. I would be super down
+to try to build something like that for
+you, but I'm busy trying to build
+something else right now. [music]
+>> I just
+>> And I don't even have an editor or
+shooter to work with me on that video.
+That's how stretched thin we are right
+now. It's just a thing that spins. How
+hard can it be?
+>> Oh, wait. I'm done. There we go. Okay,
+testing.
+Have I mentioned I don't know what I'm
+doing? Uh,
+>> what was that?
+>> I think this motor might be overkill. I
+might need to return it. It's just
+frustrating cuz every minute I spend
+researching motors is a minute I'm not
+spending on animation or character
+design. And I haven't even looked into
+open source tickets.
+>> Oh, don't worry about the open source
+tickets. I got you covered on that.
+>> Regardless, I think this is too much
+work for one person.
+>> I see what you did there. Basically,
+this is Daniel's ask for help button. He
+presses this when he wants to light up
+the Jan beacon.
+>> [music]
+>> I think I saw it missing.
+>> The tan peek it is missing. What the
+>> Who took it down? You didn't take it
+out?
+>> Oh, I would. No, I know. I would not
+take it down because I It's It's art and
+I loved it. It was great. It was like
+the mascot of the building.
+>> Yeah, that was the idea.
+>> I'd love to put it back together if the
+piece was still here.
+>> Oh, here it is.
+>> Now, this really annoys me. They with
+the roof itself. Yeah, this is ripped
+off. Well, I think I got to go show Jan.
+Oh my goodness. What happened? It fell
+off.
+>> Steve is convinced [music] someone
+kicked it off and he's pissed someone
+messed with his building and messed with
+your art.
+>> Make a new one. We'll stick it up.
+>> Okay.
+>> Yeah.
+>> Make a new one.
+>> You liking that?
+>> Yeah.
+>> Would you like [music] to do the honors?
+>> Look at how easy it is to make a friend.
+Crime is how you make friends. Hopefully
+this one doesn't just get
+kicked.
+>> Maybe I'm getting ahead of myself.
+Before I ask for help, I need to figure
+out the story I want the zoat trope to
+tell. Uh, do you mind if I hand this up?
+>> Who are the characters and what's the
+conflict?
+>> Have you guys ever run a foul of the
+law?
+>> We have run many times before.
+>> Oh, so many. We've had choppers chasing
+us. It is one of the purest forms of art
+to me cuz it is not being done for
+profit. It's the last form of truly
+dangerous art. People are risking life,
+limb, uh, liberty all to decorate the
+city. Look at how beautiful. I got to
+get back to Son of a Dungeon. Yeah,
+dude.
+Thank you. Thank you.
+>> Yeah, of course. Anytime, [music] man.
+>> Okay, we have our story and we have our
+characters. Step one is to scan Jan's
+head with Spencer's cool 3D scanner.
+That gives us a high detail model, but
+with garbage topology. So, to clean it
+up, I called the best 3D artist I know.
+A man with topology so clean you could
+eat off it. And we all know what he's
+eating. I'm trying to say that my little
+brother Andrew made Jan and this
+whitewasher goon and even Jan's cat,
+Bermuda. Jan has taken Bermuda to the
+top of mountains before, but tripling
+the characters also triples the
+animation. [music]
+>> My name is Shane and I've been in charge
+of all the animation for this project.
+>> Basically, I gave Shane this and he gave
+me this.
+>> The animation itself is [music] pretty
+easy. The biggest challenge has been
+actually physically setting up this
+trope.
+>> We need a way to take this animation and
+arrange the frames in a circle. And
+that's where Lucas comes in. He created
+a Blender plugin that I call corridor
+trope. And it basically takes each frame
+of the animation, converts each frame to
+an individual 3D model, and they're
+positioned and rotated in the perfect
+place so that you can't see the seam
+when it moves. I can control how fast it
+rotates, and I can control how many
+frames there are. And if you'd like to
+use Corridor Trope to make your own
+spinning animation, check the
+description because it's available to
+download for free. Thank you, Lucas.
+Thank you, Shane. And thank you, Andrew.
+Now, wish me luck cuz I got to get this
+whole project spinning.
+WANT SOME BROTHER?
+>> I did a bunch of research, asked a bunch
+of people for advice, and bought a bunch
+of stuff, including this metal disc. Not
+sure what it's for, but once I measure
+it in every dimension, I can basically
+drop it into Blender and start designing
+around it. This is the stage that will
+hold our animations. But I need a way to
+keep them from sliding around. Maybe I
+could use something like the grid from
+this storage system to lock the frames
+in place while keeping everything
+modular. Animation one comes off,
+animation two goes on. All I'd need are
+the files. And that brings me to my
+favorite thing about 3D printing. And my
+favorite thing about our sponsor, Bamboo
+Lab. And it's not the hardware, it's not
+the software, and it's not the
+ecosystem. My favorite thing about
+Bamboo Lab [music] is Maker World. All
+the files I need are free. Thousands of
+designers post their work here for the
+sole purpose [music] of inspiring other
+designers. This design inspires these
+[music] designs, inspires all of these.
+So, if you have a project you're excited
+about, [music] something that pushes the
+boundaries of making to make the world a
+better place, consider submitting a
+project [music] proposal to the Let's
+Make It Fund. It's open now. There's no
+deadlines, and you could win up to
+$300,000 [music]
+towards your project. Let's not ever
+forget that 3D printing would be nothing
+[music] without its community. So, I
+took a gridinity and made a radialinity.
+We all know from watching Evan and
+Caitlyn that you always start with a
+small scale test. [music]
+Me too. These little holes are for
+magnets. Oh, that's satisfying. And that
+feels really secure. Might not even need
+magnets. Now I have to print it at full
+size, which means splitting it into
+multiple pieces across multiple
+printers. A little trick I learned from
+Morly Kurt. That and you should thank
+your mother at the end of every video.
+Love you, Mom.
+>> Love you, Mom. Love you, Mom.
+>> And this is a ring bearing. Learned
+about these from Adam [clears throat]
+Savage. It's in the neck of my R2-D2.
+>> And now I just have to make it spin.
+>> Let me see if I can identify what you've
+got going on here. Well, I see a stepper
+motor. I assume that's just an Arduino.
+Ooh, look at that potentiometer.
+Row, row, row your boat gently down the
+stream. What am I doing? I'm trying to
+make music out of a motor right now.
+>> Are you familiar with an artist called
+Vengeant?
+>> Yes.
+Where's the camera? Give me Give me the
+camera. Everything is real.
+[music]
+>> Everything is music. [laughter]
+>> His videos are so good. Like the ones
+when he just finds like [music] random
+stuff making noise out there and then he
+makes a whole beat out of it. Great.
+Anyway, okay. So, I know you're
+concerned about getting the absolute
+correct speed. The goal of this test
+[music] is to get it to 33 and a3 RPM.
+>> What' you do? I didn't do anything.
+Well, it's spinning at 33.3 now. Oh,
+yeah. There we go. Now it's working kind
+of. Still still a little fast. Oh, I'm
+stupid. I'm at 30.3.
+Ah, there we go. It's working, dude. So,
+what that [music] means is that the
+stepper motor is hitting 33 and a3
+perfectly, which means it should be able
+to hit any speed I tell it to hit
+perfectly. But there's a couple other
+things that I want to get working.
+>> Daniel had the idea to do a dueling zoat
+trope, which means one character jumps
+over the other to the other zorotrope.
+If they're not timed correctly, they'll
+hit each other and basically explode
+into a bunch of pieces. We are playing
+with fire here in more ways than one.
+>> Fire [music] is complicated because of
+three things. Number one, it has to
+loop. So getting to simulate that wasn't
+too hard cuz Embergen just has a loop
+button. Two, there's these flyaway
+particles in the fire. How would you
+print something that's just floating in
+the air? So, I had to make this system
+that finds little [music] flyaway
+particles and just deletes them. But you
+can't 3D print volumes. Somehow, we have
+to turn it into a mesh with geometry
+nodes. I'm really proud of this.
+Honestly, I think it [music] turned out
+really cool and hopefully it looks good
+in the short film cuz I don't know, we
+haven't even printed it.
+>> Oh, but that's incredible. [laughter]
+>> Here we have two different types of
+flame. [music] These ones are printed in
+PLA glow. So, look what happens to them
+under UV light. And these are printed in
+PLA translucent. I want to put LEDs in
+there. And believe it or not, I can get
+all the items I need from Maker [music]
+Supply. This is an LED strip. This is a
+distribution board, so I can hook up
+four of [music] them. And this is a
+magnetic connector that transmits power
+as soon as it snaps together. [music] If
+you want to add electronics to your 3D
+print, Maker Supply is your one-stop
+shop. But here's the cool part. Every
+item on Maker Supply comes with a
+dimensionally accurate 3D model, so you
+can drop it into your CAD software and
+build it into your design. [music]
+Ooh,
+what a delight.
+>> But how do you get wall power to a
+spinning disc without the wires
+twisting? What you need is something
+called a slip ring.
+>> A slip ring. That's the name of it.
+>> So now we got the top spinning and
+[music] the bottom staying still.
+So yeah, that's what I've been doing
+while the interns are upstairs working
+on the animation, which is frustrating
+for me cuz I really wanted to work on
+the animation. I'm a little jealous that
+you get to do all this cool animation
+cuz it does genuinely look like a lot of
+fun. Yeah, it is hot.
+>> But I also know that I wouldn't do it as
+well as you. So, I really appreciate
+your help on this. Meanwhile, I'm down
+here trying to get power to this slip
+ring. Come on. Oh, it's like it's
+allergic to solder. Nope. Does the
+soldering iron suck or do I suck? At
+this rate, I'd be lucky to [music] get
+one zoatrope to open saws, let alone all
+the other elaborate ones that I had
+planned. Bro, oh, come on.
+I think my beginner's luck has run out.
+I'm so bad at soldering that Ren had to
+step in and fix it for me. Thank you,
+Ren. You're a good friend.
+>> Do you have any engineering experience?
+>> I don't. Everything that I know I
+learned from you, basically.
+>> What?
+>> Yeah.
+>> What do you mean?
+>> Well, you Adam Savage, Scott Eugan,
+Enginey, like engineering YouTube is my
+favorite YouTube. That's why it's so
+important that I get this right cuz all
+those guys are going to be at the
+convention. The biggest thing about
+engineering though is just the ability
+to learn. That's all an engineering
+degree is is a degree in learning. I
+went to school for that stuff and then
+immediately didn't do any of that stuff.
+>> Something I've always admired about Ren
+is that he's a one-man band. So many of
+my favorite artists are. If they wanted
+to, [clears throat] they could write,
+shoot, host, and edit a video all by
+themselves. If YouTube was music, these
+guys would be Mike Shenoda. And yet Mike
+Shenoda chooses to be [music] in a band
+with five other people.
+>> I didn't choose to work alone on this
+project. It's just kind of a necessity.
+You know, everyone's busy. The truth is
+is that Corridor is my family here. And
+I think I do better both emotionally and
+with the art I [music] produce with the
+team here at Corridor. The crew we've
+built here at the studio is [music]
+probably the best thing we've made. So
+maybe what I admire isn't the skill it
+takes to work alone. It's the strength
+it takes to ask for help.
+>> Spencer, I know you're busy, but I
+really need some soldering help.
+>> I'll do it.
+>> In exchange, here's what I can do for
+you.
+>> I said I'll do it.
+>> The open sauce afterparty is at Crunch
+Lab this year, and I think I can get us
+in.
+>> What about Adam Savage's case?
+>> I think we can make that happen.
+>> Okay, that's all you have to say. I
+freaking love soldering. This is my
+soldering station, [music] my project
+hands, my microscope, my air filter. I
+got the Louis Rossman special. Freaking
+knew I called the right guy.
+>> [music]
+>> Pop it on and we can spin it. There it
+goes. Oh,
+while Spencer works on the wiring, check
+out this graffiti I made in Photoshop. I
+turned that into a vector, turned the
+vector into a mesh, assigned colors to
+the vertices, set up an H2C with nine
+different filaments, and then 3D printed
+it.
+>> Ooh. [music] Is this all one print?
+>> Yeah. Everything prints flat like this
+and then gets assembled into a building.
+Oh no. Oh no.
+>> It's a little bit
+>> Hey, look at that. You excited for open
+sauce, Nick?
+>> I'm excited for Open Sauce. Yeah, it was
+really fun last year.
+>> I'm a little nervous about the panel.
+>> There is a chance they'll ask you to do
+a panel, but there's a chance they
+won't.
+>> There it is. There's the panel that I'm
+on.
+>> There's some pretty awesome creators
+there. Captain D. Captain D,
+>> your hero, Captain D. Evan and Caitlyn
+are awesome. I I met them last year,
+>> and I cannot believe that they let me
+use this profile picture.
+>> Oh my [laughter] god.
+>> I'm nervous for a couple reasons. The
+panel is called the Beginner Creators
+Toolkit, and I've never started a
+YouTube channel, so I'm not even sure
+what advice I would even have for
+[music] people. Another reason, I'm
+actually much more afraid of being on
+camera than I am of public speaking.
+>> Do you know if they film the panels that
+are on the outdoor stage?
+>> I mean, last year they filmed ours on
+the main stage. Are you just going to
+tell him you can't do it?
+>> No, I don't want to do that for a couple
+reasons. My mom's going to be at the
+convention and I think it would be
+really cool to surprise her at the
+panel.
+>> Oh, your mom's going to come not even
+knowing you're on a panel.
+>> She doesn't know.
+>> Wait, so does that make you more or less
+nervous?
+>> It makes me more nervous, but also more
+resolved to do it.
+>> Okay. Oh, you'll be fine, man. It the
+panel goes by in the blink of an eye.
+[music]
+>> Yeah. You know Jan's Cap Bermuda, right?
+>> I do. Yeah. She's a sweet, sweet little
+baby.
+>> We're adding the hands right now.
+>> That's meticulous, man. What's your
+deadline on this? How much longer do you
+have to do?
+>> This is a open sauce project. So, I have
+2 days left basically.
+>> What? What are you talking about? 2 days
+left.
+>> I got to get this ready to show at the
+convention.
+>> What convention?
+>> Open sauce.
+>> So, this is going to be spinning at the
+convention.
+>> Mhm.
+>> I'll leave you guys to it. Have fun.
+Can I see a spin?
+>> I want to see a spin. I want to see a
+spin.
+Heat.
+Heat.
+[music]
+[music]
+Oh, and it just gave out. It
+>> just gave out.
+>> Yeah.
+>> Oh, come on. [sighs]
+[sighs]
+>> I swear it was working the other day.
+>> But with all this weight on it,
+>> well, it's not that much heavier. Like,
+it's got more plastic on it, but it's
+not significantly heavier.
+>> [screaming]
+>> What are we going to do? What are we
+going to do? What are we going to do?
+Before you joined the project, I was
+goofing around with this scooter motor.
+It didn't have enough fine-tuned control
+at lower speeds, but it has a ton of
+torque. It's super overkill for this
+project, and right now, overkill is
+exactly what we need. If we can get this
+motor working in an hour, that's the
+plan.
+>> Sure. All right, let's do this.
+Sometimes you will hear me go sh
+to myself. That's me telling the voice
+inside my head. Voice that says I'll
+never make it in time. The voice that
+tells me that I'm about to let everybody
+down. That's me telling that voice to
+you can do this. Oh, it still works. Can
+you believe I almost returned this?
+>> I'm glad you didn't.
+>> Do you think that we could improve this
+using components cannibalized from that?
+take the Arduino and that way we can
+still have the LCD screen and stuff.
+[music]
+>> Let's do it. Out comes the weak motor
+and in comes the strong motor.
+>> Something's whack. Like it should be
+doing something to like maintain the
+speed at least.
+>> The brushless motor still doesn't have
+enough torque, but I think that is a
+settings problem. We're going to tweak
+some settings and try and unlock the
+full potential of this motor. It only
+even matters under load, right? So, I
+loaded it all back up. I'm going to try
+to spin it up right now.
+>> Okay, this better work, man. It's been 2
+months on this project. All right.
+Nothing yet. Nothing yet. Nothing yet.
+[music]
+Oh, looks like we're hitting it. Daniel,
+how far do I go?
+>> Go all the way.
+>> All the way.
+>> All the way.
+>> All right. We're going all the way. 70%
+POWER,
+[laughter] DUDE. What the
+>> stop it. Stop.
+>> Yeah, I'm stopping it.
+>> Holy. Okay. Was not expecting that.
+>> I was not expecting that either. Uh I'm
+just sad the dog broke off.
+>> Oh, I I forgot to glue in the magnets.
+Oh, the magnets aren't on.
+>> The magnets aren't on.
+>> But you need those magnets in there,
+man. Especially if you're going to have
+a bunch of kids with their heads like
+looking. Wow, that looks so cool.
+>> Quarter gets
+>> But hey, it spins. There's a lot to do
+before open s only a few hours to
+[music] do it. Spencer, solder this up
+real good cuz it's got to survive the
+trip to San Mateo.
+>> Lucas and Shane, you'll be in charge of
+finishing the dueling zoatrope while I'm
+gone. Think you guys can handle that?
+>> Yep.
+>> Yeah.
+>> Okay. Zoatrope on three. 1 2 3.
+[music]
+[music]
+It's 3:00 a.m. My flight's in a few
+hours, but I did it. I packed everything
+up. Open sauce, here we come.
+>> We have made it. We got to load all this
+stuff and set up the zoatrope all over
+again at the booth. You guys ready? I'm
+supposed to do work.
+No, I'll help. I'll help. Let's load him
+in.
+What up, Dustin?
+>> The big wheel goes right here. Looks
+like we survived. Oh my goodness. I've
+got a staff and a onehe. This is my
+first time seeing all this.
+>> Yeah. Like, really?
+>> Yeah. Cuz I've been gone for the last 2
+weeks. That is not a stepper motor. This
+is the escape motor you're using before.
+>> Yeah. When do we need to be done by in
+order to make the cut off to go to the
+cave?
+>> I'm leaving in an hour.
+>> Okay. We have 1 hour, Spencer.
+>> Okay. We'll take it from here.
+>> Your camera is crooked, by the way.
+>> Better. I'm going to try and add some
+sticky tack. Careful.
+>> Engine. Easy.
+>> What the? You were there the whole time.
+>> Sick. Good luck.
+>> Thanks.
+>> We'll be back.
+>> Come on. Work. [music]
+Work.
+>> Nope. Something must not be plugged in.
+>> Oh no. Come on. Come on. Come on. Come
+on.
+>> Nothing.
+>> Still nothing.
+>> Oh, I'm dumb.
+>> There we go. There we go. Well,
+hopefully. Let's find out. 3 2 1
+Hey, [screaming]
+that was not for us, but it still works.
+It still works. Yes.
+With just a little bit of sticky tack.
+That is stanked down. Awesome.
+>> Hi there,
+>> Yep.
+>> I got some simple gifts.
+>> You got us gifts?
+>> I don't know if Daniel or Ran made it
+today.
+>> I'm Daniel.
+>> Oh, Daniel.
+>> I've been inspired by your videos. I'm a
+little bit camera shy. So seeing someone
+making 3D printed animated video while
+also talking about being camera shy
+inspired me to start pursuing learning
+3D modeling. So I made you this maker
+chair.
+>> What? Oh my god. Spencer, look at this.
+Okay. What's [music] your name?
+>> I go by me.
+>> I have something for you. Meme. I know
+you're already printing your own, but
+here's an official one.
+>> You know what? No, I can print my own.
+>> You can print your own, but this one I
+made specifically [music] for you.
+>> I can't. Thank you so much. Thank you.
+Thank you for watching. It was great to
+meet you.
+>> Cheer up.
+>> Well, yeah. Come back when it's
+spinning. Well, that was nice. Yep.
+>> All right. Would you like to do the
+finishing touch? I think we're going to
+make it, Spencer. Should we spin it up
+once?
+>> Daniel, is it going to hurt me again?
+>> I hope not.
+>> Okay.
+Oh, I just jinxed it.
+>> What?
+>> Oh, dang.
+>> Oh, that came off.
+>> That's new.
+>> That's new.
+>> Let's take a break. Let's go to Adam
+Savage's cave, and then we can come back
+afterwards. I got to find all the little
+broken pieces, glue them back together,
+and then we can go to the cave.
+>> Oh, come on. Which is which? Oh no. I
+promised Spencer he'd get to go to Adam
+Savage's cave.
+>> My hands are shaking, dude.
+>> All right, I'm basically there. There's
+still more that I need to do, but I can
+do it later.
+>> Great.
+[music]
+So, we all spent some time at the cave
+and I spent most of it stressing about
+the zoatrope and the rest of it
+stressing about the panel. Thanks for
+taking these pictures, Spencer.
+>> You're welcome. Adam's cave. It was like
+everything I thought it would be.
+>> I know. It's so freaking cool in there.
+And [music] hey, look who I found.
+Anyway, by the time we got back, the
+rest of the crew had arrived.
+>> Oh, hey. Turned out great.
+>> This is my sister Carrie. She and her
+roommate Nathan have [music] a company
+called Burntout Bakery. They made this
+cool split flap display.
+So once I get it working, the hope is
+that this will be a countdown. When the
+countdown hits zero, Zotrope starts to
+spin.
+>> See the wonders of stop motion
+technology [music] cutters for the
+modern era.
+>> And these are my D and D buddies. Every
+camera app is different and so I need
+people to work the crowd and explain how
+to get your phone to see the animation.
+My whole community showed up to help me
+with this project. Now I just have to
+get it working.
+>> The problem is we need to stick
+everything to the to the
+>> so it doesn't fly off. Scotch mount
+clear. Please work.
+[music]
+There he is. The legend.
+>> This looks awesome.
+>> I hope so.
+>> Same. Same. I'm almost there. I'm almost
+there.
+>> Okay, Spencer. Everything is stuck down
+as much as I possibly can stick it down.
+This theoretically will not be going
+anywhere. Famous last [music] words. I
+know. All right, you ready? Please work.
+Please work. Please work. Please,
+please, please, please, please.
+>> All right, slowly, slowly ramp it up.
+>> I don't know what causes this to
+>> Okay, hang on. Our Arduino is crashing.
+Please don't let me fail in front of
+Scott Eugen. Attempt two.
+>> Arduino crashed again. Come on. Come on.
+Come on. Come on. Come on. Come on. Come
+on.
+>> Oh my god.
+>> Again.
+>> Why? Why? What is going on?
+>> Am I crazy or is it slowing down and
+speeding up periodically? Are you
+[music] seeing this, too? Seems to be
+holding a constant speed,
+>> but then it changes. Oh, we got to go.
+We're getting kicked out. Yeah, let's
+shut it down. So, I guess we try and fix
+this in the morning.
+>> Yeah.
+>> And I somehow got to do all that and
+still have time for the panel.
+>> What time is your panel?
+>> 1:15.
+>> Okay, I think you can do it, man. We can
+do it.
+>> Excuse me. Sorry. Sorry. Excuse me.
+Excuse me. Sorry. Sorry. Sorry. Okay,
+that's [music] the stage.
+>> And yes, they are filming it.
+>> Uh-oh.
+[music]
+What's up, everyone? Hey. All right, so
+this is a zoat trope that Daniel has
+designed. And the way it works is it
+spins really fast. And if you have your
+camera out at the right frame rate and a
+high shutter speed, it'll create this
+illusion of an actual animation. You're
+going to see this for the first time
+along with everybody else.
+>> I'm going to see it for the first time
+with everyone.
+>> Do I need a shield?
+>> When it finally gets up to speed and you
+can see the illusion, it's going to be
+sick.
+>> Nathan, start the countdown. Spencer,
+spin her up.
+>> When you come to YouTube looking for a
+singular voice, but a singular voice is
+not the same as a solitary effort.
+>> All of these people right here work so
+hard to bring this list. You think I
+could get a round of applause for them?
+Sometimes your family can be your crew.
+>> My husband is my crew.
+>> My wife is my crew. [laughter] My dad,
+my fiance, my mom. Got my mom and dad.
+We got my brother. This guy's job
+everything to help me. Sometimes your
+crew can be your family.
+>> My mom, my top supporter who I thank at
+the end of every video. [music] Love
+you, Mom.
+>> My advice to all of you is this.
+>> Three,
+>> make every video and love it like it
+could be your first.
+>> Two,
+>> make every video and love it like it
+could be your last. Why?
+>> But you don't have to make any video
+alone.
+[music]
+[music]
+[music]
+confusing
+what is real.
+>> I made it.
+>> Oh my god.
+>> Good job. Good job.
+>> Thank you so much.
+>> You know, I'm going to be coming down
+from that for the rest of the year.
+>> It was stressful at the top of the day.
+Then we got it spinning
+>> and we basically let it spin all day.
+Nothing flew off. And you know what?
+People loved it. They love the diarama
+and they love the split flat.
+>> So, good job.
+>> Thank you.
+>> You're welcome.
+>> You can SEE LITTLE PEOPLE RUNNING.
+>> You can see the funny little man as he
+runs. You can see the funny little man
+who chases him. You can see the funny
+little helicopters as they spin in the
+sky above.
+>> It's so cool seeing stop motion next to
+a liveaction guy.
+>> That should be impossible.
+>> He's like watching little dudes run
+around on
+>> hopefully it tells a little story as
+well. Yeah.
+[music]
+Heat. [music]
+[music]
+>> [music]
+[music]
+>> Heat up
+here. [music]
+>> [music]
+[music]
+>> Heat. Heat.
+[music]
+Heat.
+[music]
+[music]
+HEAT.
+[music]
+>> [music]
+[music]
+[music]
+>> Thank you so much for watching. Huge
+shout out to everyone who made this
+video possible. Big ups to Vengeant for
+letting me use Till Death We Do art. If
+you dig his vibe, go like and subscribe.
+He's trying to get to a millie.
+>> Let's go. That incredible cover of
+crawling was made by Epic Trailer Music
+UK featuring Corvix. So go check them
+out and tell them Corridor Crew sent
+you. If you want your very own split
+flap, it's [music] free to print, but
+they're also available to buy at the
+link in the description. Thanks again to
+my sister Carrie. Don't forget to submit
+your project ideas to the Let's Make It
+Fund. The world needs your inventions.
+And thank you to everyone who bought a
+diarama because the New Zealand arc is
+happening soon. And finally, thanks to
+my mom who came to see my panel. Love
+you, Mom.

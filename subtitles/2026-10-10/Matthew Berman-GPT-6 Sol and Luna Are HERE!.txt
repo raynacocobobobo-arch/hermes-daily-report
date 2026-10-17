@@ -1,0 +1,175 @@
+UP主：Matthew Berman
+标题：GPT-6 Sol and Luna Are HERE!
+链接：https://www.youtube.com/watch?v=Ima_AVPyQ9E
+
+We have two brand-new models from
+OpenAI, GPT-6 Soul and Luna. And this
+comes on the same day that Anthropic
+dropped Opus 5.5. And just yesterday,
+Grok dropped Grok 4.7. So, this is a
+model-filled week. And we're going to
+check out this model together. When GPT
+5.6 Luna had that 80% price drop, it
+became one of the most compelling models
+on the planet to use. Extremely fast,
+extremely cheap, and still very high
+intelligence. And so, now we get an
+updated version of what I consider to be
+my favorite model. Let's start with the
+pricing. So, this is GPT 5.6 Soul versus
+GPT-6 Soul, a 50% price reduction. And
+Luna, with an already 80% decrease
+previously, gets another 50% decrease.
+So, we are at $2 per million input
+tokens and $10 per million output tokens
+for basically one step under the
+absolute frontier, which is Astra. We
+also have GPT-6 Luna coming in at 10
+cents per million input tokens, 50 cents
+per million output tokens. This pricing
+is incredible. They These are true
+workhorse models. And Luna can probably
+take on 90 to 95% of all the tasks that
+you have to give it. It is a great
+model. And as always, as you're building
+stuff with GPT-6 Soul or Luna, you can
+publish it to the web so easily using
+here.now, the sponsor of today's video.
+We use them like crazy at Ford Future,
+and it is the easiest way for your agent
+to publish pretty much anything to the
+internet. Share it with other people,
+share it with other agents, keep it
+private for yourself. It's all easy, and
+it's free. All you have to do is tell
+your agent to go to here.now and install
+it and it'll know how to do the rest.
+Codex, Claude Code, Cursor, they all
+work. It's dead simple and then after
+that, your agent will always know how to
+publish things on the web. It takes
+seconds to publish and get that link
+back and it is seamless. It's so easy to
+use. Tell your agent to use here.now and
+thanks to them for sponsoring this
+video. This is Automation Bench. On the
+Y axis, this is the score. Higher is
+better. On the X axis, this is the cost.
+Left to the left is better. That is
+lower cost. This is the money quadrant.
+This is where you are the best and the
+cheapest. I was actually expecting like
+a bigger jump, but let's see. At max
+effort for 5.6, we scored a 28.8 on
+Automation Bench.
+And then for GPT-6 Soul, interestingly,
+extra high took the number one at 33%.
+But what we see here is Astra is still
+Open AI's best model. And
+we now have a much cheaper version. It's
+not quite as good. Look at the Soul
+right here.
+Right? And then the the top model. So,
+if you need the absolute best answer,
+you are going to be paying for Astra.
+But if you want more of a workhorse
+model, it's right here. Now, here's the
+interesting bit. Here is where Luna came
+in. Luna is the worst of the three
+models, but you are paying a fraction of
+the price. Even at Look at this. At the
+low effort setting,
+it you know, has a quite a low score,
+but it's extremely inexpensive. I mean,
+if you use it on max, you're getting
+above a 20% score on here
+and you're paying less than 5 cents
+cost per task.
+Unreal. GPT-6 Soul also exceeds Claude
+Fable 5.1 at far lower cost and even
+beats low effort GPT-6 Astra. We still
+see GPT-6 Astra as the best,
+But look at Soul right behind it.
+And pretty significantly less expensive.
+But here is Frontier Code once again
+we're seeing Luna coming in very strong,
+especially Luna Max 11 cent cost per
+task comparable with Soul medium 80
+cents per task comparable with Astra low
+a dollar 70 per task and now we have
+what I believe is the best most accurate
+benchmark for determining how good a
+model is at agentic coding. And look at
+that.
+Unreal GPT6 Luna Max
+66.6%
+22 cents cost per task phenomenal.
+Here's OS World speaking of computer
+use. Um here's Luna
+doing pretty well. Definitely like
+significantly far behind actually. So
+this gets a 53%
+versus a 73% for Astra. Luna versus
+Astra. All right. So uh I had Astra put
+together this graph so we can actually
+see GPT6 Soul Luna and Opus 5.5 all
+released on the same day on the same
+charts. Let's look. Here's what's
+interesting. Look at the delta in
+performance on Frontier Code between
+these three models. They're all off by
+about 6 to 7 percentage points. But if
+you look at the pricing for them
+it's multiple times difference. We have
+10 cents versus $2 versus $4. And this
+goes towards the narrative that paying
+for the absolute best answer is
+expensive. So availability GPT6 Soul and
+6 Luna are available in ChatGPT work and
+code X starting today for all plus pro
+business enterprise and EDU EDU users.
+Free and go users can access GPT6 Luna
+in the desktop app. GPT-6 Sol and Luna
+are out. Not only are they a very
+significant improvement across the
+board, but also in writing in general.
+You know it when you try it quality. We
+are also permanently reducing the API
+price by 50% making both of them viable
+for a ton of new use cases and making
+your usage go even further, too. Even on
+the subscriptions. Interesting that both
+Anthropic and OpenAI have reduced
+pricing on their new models today. Yes.
+It is interesting and I have some
+thoughts as to why. Um, when both of
+these companies are talking about pacing
+the frontier,
+this is what you get. You get
+efficiency,
+you get speed, you get price,
+but you don't get absolute raw power and
+intelligence. That is what we're seeing
+here. This is maybe the result of pacing
+the frontier. Now, that doesn't mean
+they're not building it internally,
+but that's what we're getting here.
+Fable and Astra were released recently.
+Typically how these model releases go is
+they release kind of the big
+foundational frontier model that is very
+expensive and then over time in the
+coming weeks and months after that
+release, you start to get the more
+efficient models, you start to get the
+cheaper models, the more workhorse
+models, and probably either
+architecturally similar
+to those frontier models, the Astras and
+the Fables of the world, or possibly
+even distilled versions of them. So,
+that this is all expected and I'm very
+happy to see it. I just reviewed Opus
+5.5 and you can go find that video right
+here
+and enjoy.

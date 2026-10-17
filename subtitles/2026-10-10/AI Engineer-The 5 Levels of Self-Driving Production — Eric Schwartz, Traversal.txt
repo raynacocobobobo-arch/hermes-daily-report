@@ -1,0 +1,467 @@
+UP主：AI Engineer
+标题：The 5 Levels of Self-Driving Production — Eric Schwartz, Traversal
+链接：https://www.youtube.com/watch?v=y-OVWZD4j6U
+
+[music]
+Hey everybody. Um, my name is Eric. I'm
+a product manager at Traversal and today
+we're going to talk about self-driving
+production. So, just a quick primer on
+what I'll cover. Uh I'm going to talk a
+little bit about how AI agents are
+changing the software development life
+cycle. Uh the problems that that
+introduces for engineers and how AI for
+site reliability engineering fits in uh
+which is where traversal comes into
+play. And then I'll talk about a few
+examples of um what this looks like in
+practice for enterprises that we work
+with at Traversal uh and a bit about how
+we've built our AIS surre uh to deliver
+the results that we're seeing with
+Fortune 500 companies.
+So uh I guess to start some quick
+context on uh kind of the different
+phases of software engineering. Uh so
+sure you're all familiar but at a high
+level you could think about software
+engineering as kind of three buckets.
+There's system design like what is it
+that I want to build? What's the
+architecture that I want to build?
+There's development which is actually
+writing the code building the thing. And
+then there's troubleshooting. So once
+you build something and it's interacting
+with the real world, it starts to break
+uh and you need to fix it. And so with
+the advent of coding agents, the
+development portion has shrunk.
+development is a lot faster. Folks like
+me without any formal computer science
+training can now contribute u production
+code. And so this is great.
+Development's a lot faster. Teams can do
+10x more. But then what happens to
+either end of the spectrum? What happens
+to system design and what happens to
+troubleshooting? The hope is that you
+spend more time on the design part
+thinking creatively about what it is
+that you want to build. But what we
+actually see with the enterprises that
+we work with is that um more and more
+time is being spent on troubleshooting.
+Uh much more code is being written.
+People have less understanding of the
+code that's being pushed into
+production. And so what you end up with
+is more issues, more comp uh more
+complex environments. Uh, and instead of
+spending all your time on the creative
+architecture and design, your teams are
+bogged down on troubleshooting.
+And the the data kind of bears this out.
+This is a big problem. Um, by some
+accounts, enterprises are spending
+upwards of $400 billion a year. Uh, 40%
+of executives say that this is a problem
+that their teams face. And on average,
+engineers are losing seven plus hours
+each week uh just troubleshooting when
+they're on call.
+And this is going to become an
+increasing issue that we'll all hear
+more about, that we'll all experience
+more over time as tools like cloud code
+and codeex and cursor, which are
+fantastic, um uh they are fantastic, but
+they result in more code and more
+complexity.
+And so what are we supposed to do about
+it? Um there are all kinds of great
+observability tools. Tools like data
+dog, elastic, splunk, service now where
+I worked for several years before
+joining traversal. Um these are great
+but uh there's only so much that they
+can do like these tools will tell you
+that something is broken. They'll point
+out all the things that have broken. Um
+they'll point out things that are maybe
+correlated but they won't tell you the
+root cause of the issue. And when I
+worked on observability products at
+Service Now, this was something I heard
+time and again from the customers that I
+served, which was like, you're telling
+me what's broken, you're not telling me
+why, and you're not telling me what to
+do about it. And so, no matter how many
+dashboards you create in these tools,
+it's not really helping teams keep up
+with the pace of innovation uh and
+complexity that's being added to their
+environments.
+And this is not just something we
+believe at Traversal. This is kind of a
+widely held view. um Google who kind of
+wrote the S sur handbook like the bible
+of site reliability engineering
+uh has commented on this directly and we
+also heard recently from anthropic u
+quotes where they described in their own
+words that LLM are not great at this
+problem. They're not great at pointing
+out what is the root cause of an issue.
+Now like why is this so hard? What makes
+this so challenging? Um in this
+particular example that we have on the
+screen like which was based on something
+we saw with one of our customers. Um if
+a checkout API is failing uh you might
+need to make five to 10 hops across like
+dozens of services and pabytes of data
+to actually get to the root cause. And
+so in a very small contained
+environment, perhaps there's a single
+seasoned SR at your company that knows
+the full stack and can debug everything
+and has all the tribal knowledge to sift
+through all your data. But if you're a
+Fortune50 enterprise or a Fortune 100
+enterprise, there's no single engineer
+that has all of that context. And so
+what you end up with is a war room with
+50 engineers like pulled in uh and many
+many hours trying to debug this issue
+because everyone has their own
+particular slice of context. No one has
+kind of the full scope and breadth of
+this. And so no, it's really challenging
+for a human or a human paired with cloud
+code to get kind of the full spectrum of
+context needed to jump from a checkout
+API is failing over here five hops away
+to the expired TLS certificate that
+maybe caused the issue.
+And so that's kind of what motivated u
+our founders to to launch traversal.
+Fundamentally the belief that we have at
+traversal is that uh root cause analysis
+is not an observability problem. It's a
+it's a causal problem. And so that's why
+our four founders, three of them come
+from academia. One comes from quant
+finance. Uh and they've dedicated like
+decades of their lives towards causal
+machine learning which is how do you
+find cause and effect? uh and have
+applied it to this problem because it's
+a massive one that enterprises are
+really struggling with.
+And so that kind of brings us to the
+topic of this talk which is self-driving
+production. Um what we're building at
+Traversal is the ability for an
+enterprise to basically have a
+self-driving production environment.
+What that means is a closed loop system
+where uh as issues break the AI system
+finds the issue the finds the issue or
+the incident or the alert finds the root
+cause of what caused that issue in the
+first place puts up a fix verifies that
+it's been fixed and the loop is closed
+with hopefully without ever having to
+page or disrupt any of your team members
+so that they can keep focusing on
+building. And this is a spectrum. U a
+lot of companies are not fully there
+yet. We like to think of it in terms of
+levels almost like self-driving cars uh
+or autonomous driving. We think about it
+in the same frame. So level zero is
+where most companies are today where
+everything is fully manual. You're
+pulling a bunch of people into a Slack
+war room or onto a Zoom call. You're
+spending hours debugging things. Level
+one might be where you have some rules
+and automations. And we're hearing a lot
+about like loops that teams are building
+now with tools like cloud code or cursor
+or codeex. Uh and so these might be like
+rulebased automations where you can
+build out a very structured specific
+workflow in response to an alert. Those
+rule-based automations kind of break
+down when it's a novel situation. And
+usually a sub one is something you
+haven't seen before. There's not really
+a runbook for it. And so the rule-based
+automation breaks down there. And level
+two and level three is kind of where you
+start to get a little more automation
+built in. In level three, perhaps you
+have like a a homegrown agent that is
+really good at debugging a issues for a
+specific service or a specific set of
+alerts. But really where we see the leap
+is going from level three to level four,
+which is cutting across an entire
+environment. So hundreds of services
+like hundreds of repos, thousands of lo
+log indexes. It's quite challenging to
+homegrow a solution that can handle
+that. And level five is kind of the holy
+grail, which is not only can we diagnose
+issues across a full production
+environment for a large enterprise, but
+also put up the fixes and verify the
+fixes as well.
+And so, uh, we're really proud that at
+Traversal, we get to work with and serve
+some of the biggest companies in the
+world. Companies like American Express,
+who I spend a lot of time with
+personally, uh, Pepsi, Digital Ocean,
+Capital One. Um, and it's really cool to
+see the volume and scale of data that
+Traversal is able to handle. So, you
+know, trillions of logs that are
+generated, trillions of spans, tens of
+billions of metrics and events, um, and
+hitting 80% plus root cause uh, for
+these high severity incidents at this
+scale is a technical feat that we're
+pretty proud of.
+And so, beyond just these kind of
+results at a high level, um, as a
+product manager, I like to think about
+the use cases that we build for our
+customers. And so there's there's a few
+different types of scenarios and use
+cases that we found that can deliver a
+lot of value. I'll dig into a few in
+more detail, but at a high level,
+there's alert intelligence, a product
+that I spend a lot of time on, which is
+helping on call teams triage and
+prioritize hundreds or thousands of
+alerts that they may be receiving in a
+single day, helping you deal with alert
+fatigue. There is incident root cause
+analysis, which is where we got started.
+How do we help you find the root cause,
+pinpoint the root cause of an incident
+in minutes when it otherwise would have
+taken hours and dozens of engineers?
+There is self-healing, which is not only
+telling you what the root cause was, but
+putting up a fix to address and mitigate
+that issue.
+There's production support, which is the
+the variety of questions and issues that
+your team might be dealing with in any
+given day, wanting to chat with their
+production environment, get specific
+data points that maybe aren't part of a
+a broader incident, but are still taking
+up a lot of time and toil for your
+teams. And then pre-production, there is
+code resilience. Like when you're
+putting up changes, how do you make sure
+that this code is making your system
+more resilient and reliable over time?
+And so at Traversal, we cover kind of
+the whole gamut of use cases. Um, but
+I'll dig into alert intelligence and
+incident root cause just to give you a
+bit of a more detailed sense of what
+that might look like, what that looks
+like, and I'm happy to answer any
+questions after about the others.
+So for alert intelligence, the example
+that I have here is uh based on our
+engagement with Pepsi. And so Pepsi uses
+traversal across a bunch of their
+different applications, but a very core
+one is for their supply chain. They have
+a lot of internal tooling and software
+to make sure that
+um the raw materials and the finished
+product can move through their supply
+chain. And a very critical piece of that
+is making sure that finished product
+gets from their warehouse to their
+trucks to their retailers at the end.
+And um before traversal their team would
+get thousands or tens of thousands of
+alerts every single week. Uh and at any
+given time a single engineer might have
+a backlog of 700 alerts. This is kind of
+a crippling state to be in. Like you
+have so much noise that you don't know
+where to look. You don't know what's
+broken and things slip through the
+cracks. Uh or you just try to keep up
+and burn out. And so this was a big
+problem that Pepsi was facing and they
+used traversal uh to help parse the
+signal from the noise of these tens of
+thousands of alerts. And so now instead
+of each engineer having a backlog of 700
+alerts, they get a very pri a
+prioritized and filtered set of alerts
+that have already been pre-investigated.
+We flag to them the alerts that are
+actually worth digging into. We flagged
+to them opportunities to reduce alert
+noise, whether that's updating the
+underlying alert rules in their code, uh
+dismissing alerts that don't need to be
+addressed right now, uh or creating
+tickets for alerts that are maybe
+technical debt that can be handled later
+on but aren't super important to deal
+with at this moment. And so we've seen a
+lot of great results with Pepsi uh on
+this alert use case and many of our
+other customers as well.
+Um the next example is around incident
+root cause analysis and and this is a
+case study from our engagement with
+annex um where I've personally spent a
+lot of time myself. Um, so before
+working with traversal, what an incident
+looked like at American Express is
+anywhere from five to 10 teams get
+paged, anywhere from 20 to 50 engineers,
+and it could take, in this particular
+example, 60 minutes, but it could take
+hours or days to get resolution to to an
+incident. You can imagine if customers
+aren't able to pay their credit card
+bill, like that's a big problem. Or if
+they're not able to log into their
+mobile app, that's a big problem.
+And so now uh traversal is the first
+responder to every single incident
+that's created at American Express. And
+so what that looks like is the second
+the bridge is declared. That's the term
+they use internally. The second the
+incident is declared traversal is
+dispatched within 3 minutes we'll post a
+very detailed root cause analysis in the
+Slack channel where that incident is
+being managed. We can post updates to
+Service Now tickets if they want to as
+well. And rather than paging five teams
+and 58 engineers because you have that
+initial analysis, it's a lot less
+chaotic, you have a sense of what
+actually broke. And either no teams get
+paged or maybe you page the one or two
+teams just to verify the findings that
+traversal posted. Uh and so we save in
+this case like 50 plus engineers uh from
+the time and headache of being paged uh
+into this incident. Um, and that's
+especially appreciated when these
+incidents are happening in the middle of
+the night. Like this is a a good night
+of sleep that 53 engineers can have now.
+And so those are those are two of the
+use cases that we're especially proud of
+at Traversal, but like I mentioned,
+there's a bunch of others. Maybe in the
+last couple minutes I'll just highlight
+like AI site reliability engineering is
+a very hot space. You've probably, if
+you're familiar, you've probably heard
+of a lot of companies in the space or
+claiming that they're solving these
+problems. Um, we think that there's a
+few really key questions you should be
+asking uh that are critical to getting
+this right. So, the first is can your AI
+surre see all of your production data?
+If you're only giving it a slice or if
+it has gaps in its understanding, it's
+going to be very hard to get to a very
+detailed root cause. The second is can
+it search through this data can be it's
+often pabytes of data hundreds of
+billions of logs um without blowing up
+costs or taking down your observability
+infrastructure. Um this is really not
+trivial to do at scale for a Fortune 100
+enterprise.
+The third is can it map out the
+relationship relationships between all
+of these entities in your data. even if
+you're able to ingest and read through
+all this data, if you don't know what to
+do with it and if you're lost, it's kind
+of worthless.
+And then four, does it get better and
+smarter over time autonomously without
+having to dedicate engineering resources
+to maintaining a bunch of markdown files
+or having a bunch of forward deployed
+engineers taking up your your team's
+time to maintain the system knowledge?
+And finally, u can it make multiple
+hops? Can it find the non-trivial,
+non-obvious root cause that's far away
+from the initial symptom in a matter of
+minutes? What we've seen is like
+anything more than 5 minutes and you've
+kind of lost the plot. You've lost the
+patience of the on call team and people
+will fall back onto their own habits.
+So, it needs to be really good. It needs
+to be really fast.
+And I won't go into this in too much
+detail, but this is kind of how we think
+about these five questions at traversal.
+So at the bottom of the stack is how we
+think about kind of a analyzing all your
+data uh without increasing cost. So
+basically how do we ingest and map all
+of the data uh that we're connected to
+and integrate with all of that data. In
+the middle of the stack is how we make
+sense of that data. And so we call that
+our production world model. How do we
+map out all the relationships between
+all the dent the data that we're
+ingesting? And then finally, how do we
+surface that and package that up in
+either use cases or user experiences
+that are valuable to your team? And so
+there's a lot of components to getting
+this right u especially at Fortune 500
+scale.
+And so um that's a bit about what we've
+been building at Traversal, what we're
+delivering at Traversal. The core pieces
+like I mentioned are the production
+world model. So how we map and make
+sense of all the data that we integrate
+with and then what we call uh what we
+call refer to as our causal search
+engine. Basically the the harness and
+mechanism that we give our agents to
+search through all of that data uh that
+we've mapped out.
+And so the production world model and
+the causal search engine are how we
+believe we are going to help Fortune 500
+enterprises get to the level five of
+autonomy fully self-driving production.
+>> Cool. Thank you for your time.
+>> [music]

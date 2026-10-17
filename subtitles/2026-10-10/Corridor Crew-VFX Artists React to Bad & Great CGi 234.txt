@@ -1,0 +1,626 @@
+UP主：Corridor Crew
+标题：VFX Artists React to Bad & Great CGi 234
+链接：https://www.youtube.com/watch?v=71yf9Uw-UMY
+
+Welcome back to another episode of
+visual effects artist react.
+>> Check this out.
+>> Woah, that Holy cow.
+>> Actually
+Do you guys want to see some of the most
+incredible visual effects I've ever
+seen?
+>> Kind of nice.
+>> [screaming]
+>> Except for the tiny elephant in the
+room.
+>> Albert Einstein once said, "The smaller
+the wife, the harder the life." And that
+has never been more true than in
+Peacock's new series, The Miniature
+Wife.
+>> Look at all that that really shallow
+depth of field.
+>> Well, that means she is small.
+>> Yeah.
+>> What is this nonsense?
+>> Oh, she's going to open the door and
+she's tiny. Oh, no, it's a big poster.
+No.
+>> Is she IN A DOLLHOUSE?
+>> YEAH, THAT THAT WOULD BE SCARY.
+>> Like real talk, that would be scary,
+absolutely.
+>> [laughter]
+>> There was one element in this that I
+thought was a really nice touch. Look at
+how when he steps in front of the
+window, the light in the scene, the
+miniature scene, actually dims around
+the window. You see it?
+>> Yeah.
+>> happens at every single window. That
+light that's coming in gets shadowed.
+>> Interesting, yeah.
+>> Go away.
+>> This is fun.
+He's got to feed her. If that were truly
+to scale, you'd get like a water droplet
+of wine that would kind of like land on
+the glass and probably sit on top of it.
+>> Yeah, at what point do you have to
+forego glasses just to hold the bubble
+of wine?
+>> Yeah, legit.
+>> You're like
+>> Yeah, it's Bug's Life, yeah.
+>> He shrinks the molecules and the atoms.
+>> There you go. Look at that.
+>> Maybe that's Yeah.
+>> So, these are the crazy shrink the
+molecules.
+>> Oh, here we go. Moving shot. Look at
+this.
+>> This one's so interesting.
+>> Wait, what? Hold up. This is
+>> Fun, right?
+>> Holy cow.
+>> Actually
+>> That's insane.
+>> Wait.
+>> Wait.
+>> This is I think this is the shot that
+they're proudest of from a visual
+effects standpoint.
+>> I I can see that. What we're seeing, I
+think, is real footage of a train going
+around the little miniature train track,
+and then the dudes in the background
+there, but she is like flawlessly on top
+of that train.
+>> those little bumps when it goes over the
+the new tracks, you see the train shift
+in those like small subtle ways that how
+would you do that practically? Sit on a
+mechanical bull that motorized motion
+control that's like perfectly bumping
+like
+>> No, you
+just take it.
+>> Such a good shot, dude. I love that
+shot.
+>> That's so good, but then transitioning
+to the live plate there of him.
+>> That was what did it for me, dude.
+>> A lot of the stuff feels quote unquote
+straightforward. Let's just say that.
+The actress is in a set with, you know,
+green behind the windows, green here and
+there. Uh possibly some like real floors
+we're dealing with, but it's basically
+This is just compositing. It's clever
+compositing where you're taking the
+actress and then placing her into the
+scene, adding some fake shadows and
+stuff like that.
+>> But how do you track her motion?
+>> But on this train, that's that's totally
+different cuz you can't just film this
+on a sound stage, you know, you don't
+get your camera on a crane now. You
+can't just put a, you know, her on a
+green cushion or something like that.
+You actually have to track the motion of
+the train and apply that to her body.
+>> Do you guys want to know how they did
+it? The first step in this process was
+to capture the plate photography of the
+train.
+>> Train derail.
+>> Using motion control.
+>> Okay.
+>> They have an arm that they're operating
+in tandem with the train, capturing all
+that in camera, including the rotation
+all the way to the reveal of Matthew
+McConaughey.
+>> So there's a robot arm that they've
+programmed in the camera move for. It
+does the whole thing, pulling back,
+going sideways, and then landing on him.
+>> Yep. And then a few weeks later after
+they've kind of prepared for the next
+step in this process, they bring in
+Elizabeth Banks, and they sit her on top
+of a buck, basically like a thing of
+like a mechanical bull kind of.
+>> That's what I said.
+>> Yeah, it is what you said. This is built
+on a five-axis gimbal.
+>> It's a motion-controlled
+horse.
+>> Yeah, so they can a seat. It's a
+motion-controlled chair.
+>> Literally, yeah. So, she's mounted on
+this this green
+buck body that is mirroring the
+dimensions of the train except scaled
+up, right? All of this is 1/12 scale.
+So, you're multiplying the scale of the
+train dimensions 12 times, sitting her
+on top of that, mounting that on a
+five-axis gimbal. The buck was capable
+of vibrations, shifting, rotating, and
+it was built on a turntable, too, that
+could rotate in camera. So, the
+turntable could kind of handle the
+rotation, and then the camera could
+compensate so that at the end of the day
+both plates matched as perfectly as
+possible including those little
+vibrations and shifts.
+>> So, basically what you're saying, half
+of the motion is being done by the buck,
+the other half is being done by the
+robot arm. So, the buck kind of comes
+forward a little bit, rotates around,
+and then kind of goes away like this.
+Meanwhile, the camera is moving here,
+which should work as long as you get
+that angle correct.
+>> That's the parallax correct. Because
+when you are scaling for miniature
+photography, again, this was 1/12 scale,
+and you were trying to match that in
+true scale, you need to multiply the
+height by 12, the distance by 12, and
+the distance that everything is
+traveling by 12. All of it needs to be
+way bigger in scale, and of course, that
+would be a tremendous undertaking. So,
+to to limit the amount of distance that
+needed to be traveled, they did a bunch
+of math.
+>> This is really good VFX.
+>> Yeah. And there's a lot of them. There's
+10 episodes of this show, and there's
+over 3,000 visual effect shots.
+>> As a producer myself, I love and respect
+all the techniques and production tricks
+that the miniature wise had to
+accomplish in that show. But, I can only
+imagine the level of complication of
+those shots. You have to stay organized
+somehow. And that's why this video is
+sponsored by Odoo. If you're running any
+kind of creative business, production
+company, freelance operation, or even if
+you're just trying to grow a side
+hustle, you know how fast the admin
+[music] side starts to get a little
+messy. You've got projects in one place.
+You got invoices somewhere else, client
+notes in another app, maybe a website,
+maybe a CRM, [music] maybe inventory,
+maybe contracts, and suddenly half the
+job is just keeping the business
+organized. And that's where Odoo comes
+in. Odoo is a business management
+platform that brings your apps together
+in one place. So, instead of juggling
+disconnected tools, your work can
+actually talk to [music] itself. For
+example, you have a website, you're
+making sales, you got to send invoices,
+you have accounting, you have inventory,
+project management, and e-signatures
+that can all live inside the same
+system. So, if a client moves through
+your sales pipeline, that information
+can connect directly to [music] the rest
+of your operations instead of being
+manually copied and pasted from app to
+app. That's huge for small teams because
+the more things you can [music]
+centralize and automate, the less time
+you spend on repetitive admin work, and
+the more time you can spend actually
+building the thing and being creative,
+the thing that's fun, right? It's also
+scalable, so you can start with what you
+need now and add more [music] apps as
+your business grows. The first app is
+free for life, including unlimited
+hosting and support, and if you want
+access to all the available apps, the
+plans only start at $24.90 per month.
+So, if you're running a business,
+managing projects, selling products, or
+just trying to get your operations out
+of a dozen different tabs, check out
+Odoo at the link in the description or
+scan the QR code on screen to check it
+out. Maybe this can help you kick off
+that business that you've always dreamed
+about starting or help you streamline
+one that you've already started
+building. Thanks again to Odoo for
+sponsoring. Now, I think you're really
+going to like this next react clip.
+>> Hidden stairs?
+>> Yeah, another motion control played
+there.
+>> That light wrap. People love that light
+wrap.
+>> Yeah.
+>> You know what would make this look
+better? A little bit of just random like
+glowing inner glow.
+>> Yeah, yeah. Really eat away those edges.
+>> like I would look better with some inner
+glow.
+>> Can we hit Sam with some inner glow real
+quick?
+>> Can you wrap us?
+>> Edge wrap.
+>> Edge [laughter] wrap.
+>> Run!
+>> And then how do you deal with bugs when
+you're small?
+>> Dude.
+>> But I like this shot. I love the contact
+with the window.
+>> Yeah.
+>> That's so fun.
+>> Yeah, I like that. I like that.
+>> Tippett Studios worked on this. Phil
+Tippett, but they did the fly here.
+>> That was a big fly, dude.
+>> dude's a buff boy.
+>> Like even on the on their miniature
+scale, that's a big fly.
+>> Good eye, dude. Yeah, cuz they did a
+1/12 scale version of basically the fly
+model, but in relation to how tall she
+is. She's a just shy of 6 in I believe
+at 1/12 scale to her original size.
+>> THAT'S THE BIGGEST FLY, DUDE. That's a
+1-in fly.
+>> So, they they actually balloon the scale
+of the fly to make it feel more
+dangerous cuz at true scale at 1/12
+scale, it still felt like it wasn't that
+intimidating. So, they balloon that
+thing. And then the actual the actual
+flying model like the CG in this looks
+really good to me. Overall really well
+done though considering scope,
+considering timeline like again 3,000
+shots across 10 episodes, really fun, a
+huge undertaking.
+>> This is a Coca-Cola commercial from 2006
+directed by Nagi Noda who's a Japanese
+pop artist who passed away a couple
+years after this. This is a big one-er
+and a bunch of clone effects.
+>> So, when you say clone effects, I mean
+this could just be similarish looking
+people.
+>> Oh, but like the door. I mean, it's a
+cool concept of doing like the
+the onion peel the onion skin
+effect.
+>> Wouldn't it be crazy if this is all in
+camera?
+Woah, they did this? Oh, a blink. Did I
+see a blink?
+>> Yeah, this is like the most 2006 thing
+I've ever seen and I love it.
+>> Oh, ooh they all turned.
+>> And scene. Ready?
+>> for a second one. That's what it means.
+IT WAS ALL IN CAMERA.
+YES.
+>> THAT'S THE SAME GIRL from the beginning
+at the very end. So, once they film her
+and they go around, she goes out and
+around and then meets up there at the
+end. But this is a commercial that aired
+only once in Australia.
+>> Why?
+>> There's so much mystery around this.
+>> It's a really long commercial, that's
+why.
+>> It's a 90-second commercial, you're
+right, and it kind of only works in its
+entirety.
+>> That's valid.
+>> At first kind of seems like some
+advanced visual effects trickery going
+on, whereas in reality, they just rented
+out a mega church and got hundreds of
+people. So, you got that house in the
+background, but the walls are just like
+painted on. They filled out the set.
+They took out all the chairs. They
+filled it with grass and dirt and kind
+of made it looking like a set.
+>> It's just neat seeing each frame has its
+own dynamic beat to it as well.
+>> Yeah. This is the sort of thing you
+wouldn't be able to get away with with
+modern like 4K cameras because the
+detail would be way too easily seen that
+oh, these are all just different people.
+>> That's a super fun commercial. I don't
+get it, but I like it a lot.
+>> But also, this video was uploaded April
+2006 on YouTube. This is a 20-year-old
+video.
+>> Oh, dude, the weight of time is hitting
+me so hard right now. Oh my god, a
+20-year-old YouTube video.
+There's this movie called They Will Kill
+You. Check out this very satisfying
+flaming axe murder scene.
+CHECK THIS OUT.
+>> WOAH.
+>> [screaming]
+>> WOAH, WAIT. WHAT THE HECK?
+>> THAT'S CRAZY.
+>> First thing, make sure that all your bad
+guys are flammable.
+>> Doesn't this look so cool?
+>> super cool. So, that that's all real
+fire, isn't it?
+>> [screaming]
+>> Her hair is so flammable.
+>> I know. That's the thing I think too.
+The whole time I'm like, okay, first
+off, if they're using real fire, it's
+like how did she not light her hair on
+fire? Cuz that looks like very flammable
+hair.
+>> Ready to go, yeah.
+>> And she's always lifting that axe right
+past her. She's swinging there. I'm
+like, oh my god.
+>> Would it be crazy to throw her in a
+hairnet and give her like a wig that
+isn't flammable? Is that a thing?
+>> Yeah.
+>> That would be an option.
+>> You can make stuff that's not flammable.
+>> The first time I watched this, I was
+like, wow, obviously they're using some
+real fire, but there's no way it's all
+real.
+>> I mean, maybe like some of those embers
+coming up and stuff could be composited
+and added.
+>> Yeah, the embers don't look real to me.
+>> I feel like sometimes it's like being
+augmented with like extra sparks and
+stuff.
+>> There's still tons of fire video
+effects, you're right. The embers, the
+impacts, all that we're seeing, if you
+watch it closely, you can definitely see
+that is being augmented to make the
+impacts feel really powerful. You throw
+some embers on there, you throw an
+additional fire burst to really sell
+like the hit.
+>> Yeah.
+>> Then for your stunt performers, they are
+wearing perfect clothes for fire stunts.
+They're fully covered and then wrapped
+up. They've got flame retardant like
+jelly all over them except for the patch
+where they know they're going to get
+hit. So, when that torch makes contact,
+boom, it lights them up. You augment it
+with some sparks. You see that natural
+transfer of the flame.
+>> And the most important thing is you get
+the illumination in the scene from the
+real fire all across their back. It's
+casting shadows.
+>> Yeah, the the first thing I noticed that
+was like making me think this was real
+fire was just seeing all of the lighting
+on the ground matching the flickering.
+>> Like the fire would flicker at the same
+rate that the reflections were
+flickering.
+>> And the amount of light being cast cuz
+if you're if you're not doing anything
+for lighting there, you can't fix that
+in post. That's too much. Like full
+illumination in a dark room to the level
+of fire, how much fire would illuminate
+an area.
+>> Yeah, you can't fake that with LED
+lights, either.
+>> No.
+>> If any of this fire is fake, this is how
+you do fake fire. It looks like this.
+>> They're taking you back 65 million years
+to hunt the greatest predator the world
+has ever seen.
+>> So, this is a movie called The Sound of
+Thunder. It came out in 2005. It's a
+time travel movie where they go back in
+time to hunt dinosaurs for fun.
+>> Okay, yeah.
+>> But it's also a little bit of the
+butterfly effect as well.
+>> You hunt the wrong dinosaur.
+>> Yep.
+>> They only are hunting dinosaurs that
+they know are about to die. So, it
+doesn't change the timeline at all.
+>> Woah!
+Shaky.
+>> Damn, this is HOW THEY GO?
+>> [laughter]
+>> I'M GETTING SICK, DUDE.
+>> WHY NOT MORE LIKE AERODYNAMIC?
+>> [laughter]
+>> THE whole story behind this is kind of
+nuts. It started out as an 80 million
+dollar movie in 2005. The sets are all
+very extravagant. They've got big
+actors. Ben Kingsley is in this movie.
+>> elaborate, expensive, authentic, and a
+fantasy.
+>> The company went out of business and so
+they didn't have any money for the
+movie. And so that's why all of the
+effects look like pre-vis because it
+actually is.
+>> Oh my god.
+>> the pre-vis.
+>> Or post-vis rather.
+>> Woah.
+So these were intended to just be the
+round one animation and timing
+approvals.
+>> Hit him with the flashlight.
+>> Come over here.
+>> Come over here.
+>> Over here. Come on over here.
+>> It's straight out of Jurassic Park.
+That's where they learned this. They had
+all of these visual effects planned for
+it, but then they're filming in Europe
+and they had historic flooding and it
+ruined half their sets. And so they
+ended up having to shoot a lot more on
+green screen than they initially
+intended to. And then the budget dropped
+from 80 million to 30 million.
+>> Like by surprise?
+>> Yeah. So you ended up with a much
+smaller list of effects artists with
+significantly less time to do all of the
+effects and they have to just crank it
+out.
+Also get this. Their bullets are made
+out of frozen nitrogen so that they
+leave no trace. But little do they know
+someone stepped on a butterfly.
+>> No.
+>> A single butterfly. Isn't that amazing?
+>> This is based on Ray Bradbury's short
+story.
+>> Dude, if he never wrote that book, this
+movie would have never got made.
+>> Oh my god.
+>> [laughter]
+>> If you think about it.
+>> Woah.
+Hold on. I'm going [laughter] to need a
+minute.
+>> They've now messed up the timeline and
+what that means is that monkeys have
+evolved.
+>> So monkeys are smart now.
+>> So they become monkasours? I don't
+understand. [laughter]
+>> Monkasours?
+>> What did he step on that made happen?
+>> Are they bulletproof?
+They're bulletproof?
+>> Oh, it's a baboonasaur, dude. It's a
+>> Well, they're in the presence, so they
+can use real guns now, can't they?
+>> Baboonasaur?
+>> Baboonasaur.
+>> Hey, this animation isn't half bad.
+>> kind of what I was thinking. It's like
+cuz I heard so much crap about this
+movie, and then when I actually started
+watching through it, seeing the sheer
+volume of effects in here, I'm impressed
+they were able to get the quality that
+they did have. It's just It's really
+just the city stuff that everyone's
+like, "Ooh."
+>> Well, you're hunters, so shoot me.
+You're so close to the way Timmy's being
+used. What's going on?
+>> Ooh.
+>> I want to hear that bass. Oh, they're
+just sliding. Dude, they're
+They're on like a moving walkway.
+>> Yeah, look at that. Real headlights.
+>> It's like the PAW Patrol, dude. That's
+the reminds me of those PAW [laughter]
+Patrol cars, where they're all like
+They're all like
+just like It's like It's the size of a
+Hummer, but there's only one seat in it
+and a steering [laughter] wheel.
+>> They're legit the the toys for
+3-year-olds.
+>> Yeah, yeah, yeah, yeah, yeah.
+>> cars, man.
+>> cars.
+>> Chase is on the case.
+>> How was the other night with the lovely
+Miss Wallenbeck?
+>> That car is huge, dude. [laughter]
+Meatier than ever.
+>> Wait, there's no shadows of the cars on
+the ground or anything.
+>> So, what hurts me about this scene isn't
+the CG, it's that they're lighting this
+with clearly studio lighting, and
+they're trying to make a scene like it's
+outside. They're just kind of walking in
+place. And then a bit of an advanced
+shot here, camera track.
+>> God, they're really good.
+>> Dude, do you see how much their feet are
+sliding? Do you see those people
+sliding?
+Look at those people on the right
+sliding.
+>> OH, YES.
+>> [laughter]
+>> GOD.
+>> THE CARS GO SKRT, AND SO DO the people.
+>> car go drift?
+>> And then it cuts to this.
+Look at this. That looks great.
+>> They might have [laughter] shot this
+first.
+>> Yeah, this movie has like a weird
+dichotomy of very like high-level sets
+and props, and then the visual effects
+that just didn't get finished. They got
+rushed so hard.
+>> So, it's easy to laugh at these visual
+effects, but like in 2002, when I saw
+people making this online,
+I was floored. I I was so floored by the
+amount of talent that goes into making
+this kind of stuff.
+Maybe not quite at the theatrical level
+like this, but even still even still I
+was like I hope my CGI
+is hopefully somewhere near this one
+day.
+>> Ren, thank you for bringing this. You
+brightened our day, hopefully everyone's
+day. Also, this is available for free on
+YouTube right now.
+>> Music to my ears, man. More free
+content.
+>> Yep. Thanks for watching everyone. See
+you next week. Or will we?
+>> Or yeah, if you step on that butterfly,
+you won't be seeing us.
+>> If you don't hit subscribe, we might not
+be around next week.

@@ -1,0 +1,185 @@
+UP主：OpenAI
+标题：Introducing the Decisions API
+链接：https://www.youtube.com/watch?v=FB6oCmrIj-Y
+
+Sometimes your app needs to make
+a smart decision really, really fast.
+Routing a request, classifying
+an image, or deciding what
+an agent should do next.
+Today, we're introducing
+the Decisions API.
+It lets the model respond
+in a fraction of a second,
+so interacting with it feels
+pretty much instant.
+The Decisions API runs on GPT-6 Luna.
+It's very simple.
+You give it a text or an image,
+you define the question
+and the possible answers, and you
+use the result in your app.
+By focusing the model on just
+a few choices, we can make it
+nearly 10 times faster while keeping
+capabilities like image understanding,
+broad language support,
+and safety protection.
+But let's see that in action
+with Charlie, starting with text input.
+Thanks, Romain.
+We're already finding a wide
+variety of applications that can
+benefit from the Decisions API.
+Let's say you want to work
+with some unstructured text.
+A simple thing you could do would
+be to automatically extract
+form fields from a long paragraph,
+but we can expand on that.
+We can take those inputs and use
+them to route support tickets or inbound
+sales requests to the right teams.
+Here, we can see multiple examples
+of loose user input being quickly
+classified into sales leads.
+That's awesome.
+And this is not sped
+up, by the way.
+On the server side,
+the Decisions API here responded
+in less than 100 milliseconds.
+Very impressive. Now, what I find even more exciting
+about the Decisions API is how
+you can also use image inputs
+to take a fast action based
+on visual understanding.
+So check out this simple example here.
+I have a quick game
+and the Decisions API is taking
+frames of the road and obstacles,
+quickly choosing if the car should stay
+in its lane or go left or right.
+Now, if we turn up
+the speed right there,
+the Decisions API is still able
+to steer the car to the correct lane
+at the fraction of the time
+a reasoning model would take.
+That's so cool. So you can really imagine pairing
+this API with some basic computer use
+tasks, taking screenshots
+and quickly sending actions back.
+Of course, you'll still want
+Astra capabilities if you have
+a very sophisticated computer
+use or browser use scenario.
+But Charlie, you've also been using
+Decisions API together
+with voice as a modality.
+How does that pair together?
+Yeah, I found that using
+the Decisions API can make live
+interactions feel even more responsive.
+Here I've paired GPT-Live-1
+with an animated character.
+GPT-Live-1 handles the voice while
+the Decisions API is choosing
+which expression the character
+should use as I talk.
+Let's try it out.
+Hey, how's it going?
+Pretty good.
+I'm hanging in there, keeping
+it calm and cozy.
+How are you doing?
+It has been a crazy week.
+Oh, wow.
+That sounds exhausting.
+Want to talk about what's been going on?
+Oh, no. It's been crazy in a good way.
+We're launching the Decisions API
+today and a ton of people are
+so excited to have it.
+That's so exciting.
+I know a lot of developers have been
+looking forward to building with it.
+Absolutely.
+The app is choosing from
+a set of expressions we've given it
+and those little reactions can become
+part of the conversation alongside
+what the assistant is actually saying.
+But, Romain, you've been building
+an interactive experience that touches
+on robotics, right?
+I have indeed.
+As you can see, our friends at
+Hugging Face kindly lended us
+a preview unit of the upcoming
+programmable robot Microduck.
+And this one's name is Lavender.
+So, I also integrated GPT-Live
+to give it voice intelligence
+as well as the Decisions API
+to help the robot choose where
+to look based on its camera.
+So, for this demo,
+the choices are simple.
+It's about moving the robot's head
+in either direction to look
+at the right object by sending
+the command to the robot.
+Lavender, follow the apple.
+Now, what you're noticing
+here is that every few
+frames from the camera is being
+analyzed by the Decisions API,
+which in turn can take the decision
+as to where the robot should look.
+And it's the Decisions API
+that's deciding what's the apple.
+Absolutely.
+In fact, if you want to try
+with a different request that's a bit
+more ambiguous, feel free.
+Sure.
+Lavender, can you follow the fruit?
+Exactly.
+Amazing.
+You will now follow what
+is behind the concept.
+It's pretty cool, right?
+Now, what if we bring a second
+object into the picture with a question
+that's even more ambiguous.
+Lavender, what's more fun to play with?
+There you go.
+Now, Lavender will follow the gamepad.
+Because naturally, your gamepad
+is more fun to play with.
+What if I flip them?
+Good job, Lavender.
+And really, Lavender is definitely
+more interested about my gamepad
+than about my apple, for sure.
+Right?
+If I go to the left a little
+bit, it will follow.
+And we'll just keep on
+tracking the gamepad instead.
+Incredible.
+Pretty cool, right?
+These were just a few quick
+demos of the Decisions API
+across text and vision inputs,
+driven either by keyboard
+or voice interactions like this one.
+We think the Decisions API will unlock
+a brand new way to interact with AI,
+and we can't wait to see what
+you all will build with it.
+Happy building.
+Lavender,
+are you excited about the Decisions API?
+[Lavender chirps]

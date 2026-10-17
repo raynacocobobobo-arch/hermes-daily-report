@@ -1,0 +1,393 @@
+UP主：Futurepedia
+标题：ChatGPT Work's Most Overlooked (And Useful) Feature
+链接：https://www.youtube.com/watch?v=WCFoA38rlEg
+
+Sites is a feature in chatpt work that
+lets you build and deploy actual
+websites and apps directly from chat
+GPT. They can have persistent data, file
+storage, authentication, analytics, and
+their own live URL. I'm going to start
+with a really simple example, then build
+up to some more interesting ones.
+turning existing work into an
+interactive site, adding an interface to
+a skill, storing data longterm, and
+automatically updating a living site
+every day with an automation.
+Now, this site's feature is only
+available in work or codeex. I'll be
+focusing on work here. So, if you're on
+the web app, go up top, switch from chat
+to work, and you're good to go. And if
+you don't know, work is basically
+chatbt's more agentic mode for larger
+tasks. It can work for longer, use
+tools, and take a series of actions to
+deliver a finished result. Taking the
+capabilities of codecs and making them
+easy for anyone to use. And once you're
+in work, anytime you want to create a
+site, all you have to do is type out
+what you want, then tag it, hit at
+sites, then it will call that tool and
+build from there. And just from that
+silly prompt I had, in 9 minutes it
+built Capiara protocol. It's still
+private. So I log in with my chatbt
+account. And this is now a live URL I
+can go to and play. And it seems to be
+working well. Then if I want to make any
+changes to the site, I can just ask for
+them. Then I reload the site and it's
+updated. And just like that, I have an
+actual live website. It's hosted by
+ChatGBT. That's all built in and taken
+care of already. From here, I can click
+share. Then I'm able to make it public
+if I want or keep it private so I have
+to keep logging in with chat GPT to
+access it. Then I can click settings for
+some more options. The beginning of the
+URL is customizable so I can rename it.
+I could add a custom domain if I own one
+already. I can also add environment
+variables if the site needs it. And
+there's also an analytics tab to track
+how many visitors you get. That's the
+basics. Just tag sites and it will build
+and deploy a website for you just like
+that. It's fun that you can make a game
+this way and you could make it much more
+complex than this one. But really, if
+you want to make a good game, you'd want
+to do that in codeex or cloud code. So,
+let's do some practical examples and
+show what I think sites is actually the
+best solution for.
+One of my favorite uses for sites is
+taking work you've already done in
+chatbt and turning the result into
+something you can actually interact
+with. It might already have your
+conversations, uploaded files, research,
+links, data, and decisions. Instead of
+ending with a giant summary, or a static
+document, you can turn all of that
+context into a site. I'm going to reuse
+an example from a recent video I made
+all about Chad Gupt work because this
+one demonstrates that really well. We
+are planning a trip to Disneyland. In
+this project, I've had conversations
+going back and forth to pick a hotel,
+figure out which rides to prioritize,
+find unique things we don't know about,
+and just a bunch of other things.
+Instead of asking for a summary of
+everything, and just getting back a wall
+of text, I'm going to start a new chat
+in this project, and I can say compile
+everything we've talked about in this
+project into an interactive and useful,
+then I'll tag site that we can use for
+our trip. Now, this got started and it
+was smart enough to realize that I had
+already made a site this same way. So,
+it decided it's going to just update the
+site it already made rather than make a
+duplicate, but it's updating it with
+some newer conversations we've had. So,
+here is the site. It's really helpful.
+I'd had a lot of back and forths and
+gathered really good information across
+multiple conversations. And it's hard to
+utilize that when it's just a long chat
+thread or multiple threads. This is much
+more organized and useful. From there, I
+can share that with my wife and someone
+else. for meeting there. So, that is
+super simple to make a site like this,
+but it's very useful. And that could be
+for something you're working on with
+your team, some data analysis you've
+done, helping you to make a decision.
+You can turn research you've been doing
+into a decision-making tool. For an
+example, I made this quick RV buyer
+guide where you adjust things like
+budget, family size, towing, comfort,
+and storage. Then, it dynamically
+changes which type of RV makes the most
+sense for you. So, that's another just
+quick example. Let's move on to
+something more substantial. I'm just
+diving into the sites feature in this
+video, but there's a lot more to chatbt
+work. I have a full guide we put
+together in the description that covers
+everything else. All the other features
+and techniques work is really powerful.
+We also included nine example use cases
+with full prompts you can copy paste so
+you can get started right away. Grab
+that for free using the link in the
+description.
+For this next demo, I'm going to take a
+skill that was built by someone else,
+but I'm going to add steps to the skill
+and turn the results into a more useful
+site that includes persistent storage of
+data. The skill I'm going to use is
+called last 30 days. It's a free skill
+you can find on GitHub. I'll link it
+below as well. It's an agent skill that
+goes out and finds what people are
+actually saying about a topic right now.
+Instead of relying mostly on normal web
+search, it searches across YouTube
+transcripts, Reddit, Poly Market. It
+will use a tool called Scrape Creator to
+pull from Instagram and Tik Tok and a
+bunch of other places. Then it scores
+and filters what it finds based partly
+on how much people are engaging with it.
+Then it synthesizes everything into a
+short report. The skill is awesome and
+I've been using it for a while, but it
+collects way more useful information
+than what fits into that final summary.
+There are individual posts, use cases,
+weird opinions, and sources that I might
+want to dig into more. So instead of
+just throwing that all away after the
+summary, I'm going to build a site
+around it. The first step is to download
+the skill to chatbt. That's really easy.
+To install it, I'll just tell chatbt to
+use the skill creator to add the skill
+and I'll give it the GitHub URL. The
+built-in skill creator it has already
+knows how to package the repository into
+a chat GPT skill. So that's all I need
+to do. And I already had this as a
+skill, but it did actually create a
+brand new one for me. So I'm going to
+open up a new chat and use that. So to
+call one of your skills, hit at then
+select it. Then all I need to do is type
+in a topic I want it to research. How
+about Grockbot? It did its thing for
+about five minutes and came back with a
+very helpful report summarizing what
+people are saying about it and how
+they're using it right now. That is
+awesome, but I want a way to make this
+information even more useful for my
+purposes and easier to read. I'm going
+to ask for what I want and get a rough
+version of the site using this
+information that came back. I want the
+summary, but also use cases listed out
+and unusual takes. Since I often use
+this to find aspects of a topic I might
+have missed. I usually test something
+and use it for myself for a while. Then
+when it comes time to make a video, I
+also want to make sure I cover uses that
+would apply more broadly rather than
+only if you happen to do similar things
+to me. You know, I just try to include
+all of that. The other part is I want it
+to be able to link out to all the
+original posts easily and also be able
+to see them embedded without having to
+leave the site whenever that's possible.
+So, I listed out all of that. You could,
+of course, customize that to whatever
+you want to be able to see, but built
+out the whole site using the information
+it got from that first run. And the site
+is looking great. The main summary page
+is nice. Then the use cases tab is very
+helpful with these filters by RO. Then
+unconventional takes is great to have. I
+can also see the original posts. And for
+the sources, it's possible to embed. I
+can click show post and see it right
+here. This was to make sure I like it
+before adding the full functionality. I
+probably will come back and change some
+things later, but the core is good for
+now to finish the demo. So, next I need
+it to be able to add new topics and also
+save the history. So, I sent a very
+simple prompt explaining that and it
+came back with the history functionality
+there. And it has the option to add a
+research run. But a site can't actually
+run a skill. It wants me to run the
+skill separately, then copy the JSON
+from that and input it into the ad
+section. I don't want to have to do
+that. So, I'm going to tell it that.
+I'll ask it to figure out the best way
+to update the skill. I want to just run
+the skill, then have the skill
+automatically add the information to the
+site itself at the end of the process.
+So, I'll send that and let it figure it
+out. And it actually left the name of
+the site as Grockbot research still. So,
+I'm going to change that and also change
+the URL to research lab. It made the
+update. So, I'm going to see if this
+works. Now, I'll do chat GPT work sites
+use cases, then tag the skill.
+So, it actually says it was blocked from
+publishing it unless I explicitly
+authorize it. That's strange, but I'll
+do that really quick. And I can actually
+see the issue right here while it's
+thinking. It's because I changed the URL
+to the site, but it had already
+hardcoded the previous URL. That makes
+sense. It was able to update the
+research library. Now, since it already
+discovered the issue, I'll just say
+update the skill so it will work on the
+first try next time and it should be
+good. Now, that came back. So, I will
+open up a new chat and try one more time
+with Fable 5.1. Send that. The skill is
+finished running. So, I'm going to open
+up the site and click refresh. And there
+it is. The new research run plus the
+previous two are all in here now. So,
+now anytime I call that skill to
+research a topic, when it's finished
+running, I open up the site and it's all
+there. The site has persistent storage
+so these research runs don't disappear
+when the conversation ends. I can keep
+adding topics and build up a research
+library over time. I wanted to use that
+example because it was a little more
+involved and also needed some
+troubleshooting. I usually think it's
+helpful to leave that in, especially in
+this case to show I didn't need to go
+digging through the skill myself to
+figure out what went wrong. Work figured
+out what broke, fixed it, and I could
+tell it to just update the skill so the
+same problem wouldn't happen again. And
+hopefully that example shows you ways to
+get a little creative and expand what
+sites can do.
+For the last example, I want to really
+use that persistent storage and combine
+it with an automation. I've subscribed
+to a bunch of AI newsletters, but I
+don't want to read 10 versions of the
+same news story. What I actually want is
+one searchable database that removes
+duplicates, tracks the important
+stories, and pulls out useful workflows
+or use cases buried inside each
+newsletter. And because new newsletters
+get sent every day, I want the site to
+keep updating itself automatically. And
+for this one, I'm just going to show
+some of the first steps I did rather
+than build out the whole thing again.
+Then I'll set up the automation for it.
+I explained what I wanted, all the
+things I just described, but I also
+wanted it to backfill it with some of
+the history. I have a separate email
+that's subscribed to all these
+newsletters, so I asked it to pull in
+some of that. And this actually shows
+another nice feature they added very
+recently, that you can connect multiple
+Gmails to your ChatBT account. These
+don't go to my main email I use in here.
+So, it's nice to be able to add
+multiple. Now, I didn't specify how far
+back I wanted it to go, so it just went
+for all of them. It pulled in the whole
+catalog of over 2,000 newsletters and
+extracted each of the use cases it found
+and populated the database of the site
+with all that information. So, at least
+for text heavy use cases like this, you
+can store a pretty substantial amount. I
+looked and couldn't find a specific
+storage limit that OpenAI has published
+for these. But I assume it's not
+unlimited, especially if you're storing
+like large files like videos, but a
+database with thousands of text records
+worked no problem here. Also, Chaff GPT
+really seems to be liking this green
+color. I'm just showing setting up the
+functionality of these, you can
+definitely fine-tune the aesthetics
+really easily once the functionality is
+there. You can see when I search for
+something like ChatGpt sites, it shows
+me each of the workflows and use cases
+that have been covered about them. Then
+if I switch over to the first tab, it's
+the news stories, usually around when
+something was first released. And it
+also does track mentions of tools over
+time and has a saved section. But these
+first two tabs are the main ones I'll be
+using. So that is really useful for me
+for the same reason I mentioned in the
+last demo just to be able to see other
+perspectives on the tools rather than my
+own little bubble of how I've been using
+them. But from here, I need to be able
+to populate this with the new
+newsletters that come in. So I'll set up
+an automation. Before I do that, I do
+always want to make sure it can do it
+right first. So, I will say intake and
+process the new newsletters I've
+received into the site. Says it did it.
+So, I will go to the site. There's 2081.
+I'll refresh. And now there's 2094. So,
+that worked. Now, I want to set up an
+automation that adds the new newsletters
+automatically every day. And the
+automation feature in work is called
+scheduled tasks. And to set one up, just
+like most of these steps, all you have
+to do is ask. Now, set up a task to
+process the new newsletters at noon
+every day. Just about every newsletter
+will have come in for the day by noon.
+And just like that, it's all set. You
+can open up all your scheduled tasks on
+the sidebar, and this will run every
+day. So, this site will be consistently
+updated with all the newsletters, and
+they'll be separated out into the
+different categories I have that make it
+searchable and more useful for me, and
+that history will be stored and stay
+there over time. One way I've started
+thinking about sites is that they're
+kind of the last step of a bigger task
+in chatbt. You do the research, analyze
+files, connect your data, and build a
+workflow. Then instead of leaving the
+result just buried in a chat, you can
+turn it into an interface you can
+actually keep using. And once you
+combine that with persistent data and
+scheduled tasks, these start becoming
+actual tools.

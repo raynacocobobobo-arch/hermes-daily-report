@@ -1,0 +1,564 @@
+UP主：AI Engineer
+标题：Why AI Agents Need Million-Token Context — Thomas Wolf & Olive Song, MiniMax
+链接：https://www.youtube.com/watch?v=5Cxe5dv2Xlw
+
+[music]
+>> Joining us on stage is the co-founder
+and chief science officer at Hugging
+Face, Thomas Wolf.
+>> [music]
+[music]
+>> Hello everyone.
+Hello Olive, nice to have you on stage.
+>> Hi, nice to meet you. Thanks for having
+me, yeah.
+>> So I think you're on for a treat today
+because you just saw a GLM
+uh which is current number
+two on the artificial intelligence
+leaderboard. I take Fable out because
+nobody can use it. And now we have
+number four. So you basically you will
+have all the top models, at least the
+top open source model in a row. And
+we're very lucky to have
+Olive who has a
+pretty amazing path in life.
+Uh so she came to the US, Pennsylvania.
+She was studying, doing PhD at uh
+NYU uh in the lab of Jan LeCun
+working on J Pa, but we decided we won't
+talk about J Pa today, right?
+Something for another day. Um and then
+instead of joining Hugging Face, which
+was in New York also at that time she
+decided to go join MiniMax.
+So for those who who maybe don't know
+all the all the neo labs around the
+world and you're you're forgiven because
+I think there's like 64 neo labs right
+now. MiniMax is one of the top of what
+we call the AI dragons in China.
+So these are the new there's there's
+Deep Seek which is very well known now,
+Moonshot who does Kimi Z and GLM that
+you just saw and now we have a MiniMax.
+They're all extremely good, extremely a
+team
+uh fighting for the first spot.
+Uh so the the the latest uh release of
+MiniMax was M3 uh just earlier earlier
+in June, which was the the top model at
+the time, top open-source model.
+Uh very impressive. There's a lot of
+very interesting things about this
+model, so we'll quickly dive in them.
+And then talk a little bit about uh
+what's what's what's specific about
+MiniMax, what's what's great there.
+So uh maybe Olive to to start a little
+bit. Can you Can you give us, you know,
+a
+a little bit of your your view of of M3,
+what you like about this model, how was
+the release?
+>> Mhm.
+Yeah, M3 we released M3 earlier this
+month, and it is a smaller model with
+400 around 400 billion total parameters
+and 20 billion activated. Um
+but it is very capable in terms of both
+coding performances, and also it
+understands vision. So um
+that's uh what
+open-source models don't usually have.
+It's that they can
+the model can only deal with coding, but
+it can also understand videos, um
+images, and it has a super uh long
+context of 1 million.
+Um with our new architecture called MSA,
+MiniMax Sparse Attention. So we
+we really put these three things
+together uh because we know that they
+are they will be very important in
+future AI applications. Coding
+capabilities, agentic capabilities,
+longer context, and multimodal
+understanding. Um yeah, I think that
+would be very interesting about the
+model.
+>> Yeah, so so there's a lot to unpack
+unpack in this model, and it's um
+it's it's still, I think, the only top
+five model open-source model that is
+actually multimodal, so we need to talk
+about that. But maybe first about the
+long context, because that was also the
+first one that really had this real 1
+million token long context is actually
+functional and you guys had also the the
+Minimax pass attention
+which is this one technique to to make
+that efficient that you also published
+and and share extensively. So can you
+can you talk a little bit about this?
+Maybe how the project went from
+from the attention how to make this long
+context.
+>> Yeah, I would say the story about long
+context went back to even Minimax M1 and
+Minimax 01 where the model was actually
+was able to perform tasks of 10 million
+token context.
+>> 10 million?
+>> 10 million, yes.
+But then it was not an agentic model,
+right? It was just 10 for example, you
+dump in a book, it would be able to give
+reviews on it and stuff like that. So
+what we realized was that, you know,
+longer context actually unlocks a lot of
+capabilities especially when interacting
+with users and now when, you know, the
+agent is interacting with the whole
+environment and getting all the tool
+responses,
+getting multi rounds
+the like shorter context wouldn't be
+enough to perform the complex task. So
+for this version we said, "Oh, we have
+to have our longer context backs."
+So what we pursued was with our Minimax
+sparse attention.
+Um which you know, was the architecture
+that was scalable
+and had a simple design. So I would say
+from a higher level, right? It has an
+index branch
+that, you know, selects
+on a higher level what is what matters
+more in the context and then we have a
+sparse attention branch that calculates
+performs the calculation on the selected
+blocks to actually performs the task.
+Um and so
+yeah, like that we really designed um an
+elegant architecture so that we can
+scale the length and then scale the
+model size in the future with that.
+>> That's beautiful. I like how for those
+who've been in the field for quite some
+time, we we had a lot of work on
+attention, right? This N square and
+there was a lot of linear attention.
+>> Yeah.
+>> And then some that somehow all of these
+disappeared at some point when flash
+attention came around. We discovered we
+just needed more efficient camera. Now,
+I like how we come back to thinking, you
+know,
+first principle, what is attention? How
+can we make that more efficient? So, 1
+million token is crazy, right? GPT-2 was
+1,024 and and everyone was like, "Oh,
+that's really big. We we we never need
+more."
+Where do you see this coming? Like,
+going in the future? Like, Jeff Dean was
+pitching me the other day a trillion
+token attention. You think we should go
+to
+a trillion token attention?
+>> So, that's definitely something we can
+explore towards, right? Ultra lengths of
+the context. Definitely, it's something
+that's very exciting to explore with.
+And something that architecture design
+along with hardware um
+would require a lot of research onto
+that. Yeah.
+>> You think there's still a lot of
+low-hanging fruits? So, typically today
+we saw Open AI really reducing I mean,
+we don't know how as of firm, but like
+reducing their their inference bill by
+half, by probably having some more
+efficient processing around tensions of
+any type. You think there's still a lot
+of low-hanging fruit that can be getting
+um
+how we can process that. So, so one one
+thing we're still very interesting about
+M3 is how cheap it is in particular
+because of this part attention and part
+because of its small one, but it's also
+very efficient.
+>> Right.
+>> You think we can go even way further?
+And maybe how did you guys invented uh
+Min Max Fast Attention? Was it an agent
+coming up with the idea? Was it a human
+still coming up with the idea? Tell us a
+little bit about
+>> Yeah. Um, so we do think there's still a
+lot of work that can get into
+architecture and inference optimization
+so that the model can be more efficient,
+especially if there are tasks that are
+very task sensitive but require very
+strong capabilities, right? And for that
+those kind of tasks we really want model
+to be efficient.
+Um and who came up with this part of
+actually I think an intern from our team
+worked on that. That yeah, an intern.
+Uh that
+doesn't usually happen in a lot of labs
+because I think in some labs interns
+don't have access to
+the data, the work, and stuff. Uh but
+yeah, we are open to anyone who would
+like to contribute to our models. So, um
+the architecture was actually designed
+by an intern.
+>> It's very good. Still some work for
+interns here. Good good news. Um that's
+also a good segue to also how Min Max is
+working internally. So, so we were
+discussing before coming on stage I was
+saying everyone can propose a project.
+Can you tell us a little bit about how
+you are organized, how you do your
+research?
+>> Mhm. Mhm. I think that is very different
+from uh
+even in school or even in earlier
+you know, the earlier tech companies is
+pretty pretty different. It's that um
+what we
+what we make sure is that we have good
+foundation and good um infrastructure so
+that anyone can play with the model and
+can think of what they can improve with
+the model.
+And then after model releases when they
+are free, right? They can play with the
+model. They can think of their own
+evaluations. They can find their own
+weaknesses and propose a thing that they
+want to improve on the model. And then
+other people who are interested in that
+would, you know, propose to join the
+project and they will work on for a
+couple of weeks or even a couple of
+months. And when they work out, the
+final thing is shipped to our model. It
+it is, you you we use that in our final
+training and it's shipped out to the
+audience.
+>> Interesting. So, you can have people
+working for a really long time on
+project. When you say a couple of
+months, it can be like really deep
+exploration of
+>> Yes.
+Yes.
+I would say, for example, architecture
+might require longer time of
+investigation, research, experiments,
+even redoing the evaluations for
+pre-training.
+Yes, so it might require longer time.
+>> Very nice, yeah. And I know you're also
+very big on evaluation. I agree. We
+could talk about that. I think what One
+thing probably related to that is this
+unique specificity that M3 and your team
+has um around multimodality. So, not
+just text, but the similar can also
+understand image and video. And as I
+understand, but but please explain
+explain better,
+when you read the model card on Hugging
+Face, it say the model was trained from
+the first step as a multimodal, not just
+have a like user one as after solved,
+right? Can you tell us a little bit more
+about that and why you think it's
+important and
+and and why starting from the first step
+on multimodal training and not just just
+training this.
+>> Um so, we call it native multimodality.
+Um and so, it is somehow typical for
+model labs to train the multimodal,
+let's say, vision understanding
+capabilities after the text pre-training
+is done. Um they put adapters and then
+train that part.
+But what we found out was that that
+would actually harm the text
+performance.
+And the vision vision understanding
+performance wouldn't converge that well
+because the model is kind of converges
+towards the model the text
+understanding. Um and it's just not the
+most optimal. And also not the most
+scalable, if you think about it. We want
+to scale the data, right?
+And also, we can also some labs um train
+this capability from halfway through the
+pre-training. For example, continued
+pre-training. But what we found that
+this would be very, you know, uh recipe
+sensitive.
+It is different for the recipe would be
+different for different architectures,
+different, you know, data mixtures,
+different learning rates.
+It's hard to control, hard to, you know,
+scale to
+you can't really scale your experiment
+results and conclusions to a larger
+model.
+And so
+you know, what we thought was why not
+just training from the very first step?
+That comes to the most natural. We know
+that a lot of labs run into problems
+doing that.
+The model would collapse after a couple
+of steps of training, you know, both
+text and vision understanding, but we
+managed to solve that problem.
+We did a lot of work on
+VIT and we did a lot of work on the data
+that we actually training. For example,
+we do interleave the data, what we call
+interleave the data.
+It's actually natural data, but we keep
+the
+images and videos in instead of masking
+it out and we do some pretty
+good cleaning and masking on the data
+and we do very good reward modeling so
+that we train it from the first step and
+scales up
+a lot. Yeah, it does does not collapse.
+>> That's really impressive. Impressive.
+Should we Should we expect much larger
+model in the future? So this one is
+still fairly small, right?
+>> It's It's 428 billion parameters, 23
+active billion.
+Well, do you think you will go past the
+trillion?
+>> Definitely. Yeah, definitely in the
+future.
+There are many tasks that wouldn't be
+able to the more model
+wouldn't be able to perform very good at
+with smaller parameters. We are
+definitely going more ambitious than
+this.
+>> It's great. Looking forward. Um another
+interesting thing I
+I always been find fascinating about Min
+Max is how how you also have this whole
+range of of apps and product, right? So,
+I remember already So, so Min Max
+started to open source things on the on
+the hugging face platform in in January
+last year. So, that 18 month ago and and
+we were chatting a little bit about the
+team to understand what you were doing
+and I remember you So, you were already
+having a huge usage on some of these of
+some of these apps. Um can you tell us a
+little bit how how this started, right?
+So, was it basically you had a lot of
+apps and then you thought we have we
+have all this data, why not training a
+model and then they build up research
+team. How is how is the story there?
+>> Um our our story is modeled from the
+first day. So, um I believe that
+multi-modality model a model that can
+understand all visions and outputs all
+modalities was the first thing that our
+um CEO planned on the first day even
+before the company even started. So,
+that was the dream of AGI. I think that
+was very very early even before ChatGPT
+came out.
+>> Wow.
+>> Um yeah.
+And then apps were something that comes
+along because you have some model
+capabilities you want people to
+experience it well.
+Not many people can use it with API,
+right? We can't expect everyone to
+experience with API. So, we need good um
+user interaction,
+you know, interfaces, good apps, good
+scenarios that people can
+can you know, experience experience
+model with. I think actually those apps
+covered more than 300 million people
+around 200 countries globally.
+And I think over a million companies as
+well.
+>> Yeah, this was a mind-blowing when I
+heard about the the size and we we don't
+often realize the size of of of this
+type of usage already. And and that I
+kind of brings me to the question around
+um
+open source business model, and and all
+of that, which is the
+always existing question, which is right
+now it's nice to open source model, but
+you you also need to have some revenue
+stream, right?
+So, I guess M3 is something you you
+decided, for instance, to be for free,
+and I'm I think it's it's it's great for
+the world. Um how do you see this? Do
+you also have some specific models you
+use for the app? Do you think about Do
+you think in the future you'll keep It's
+probably hard to say for sure, but do
+you think you'll keep open sourcing
+models? How is the culture around open
+sourcing right now?
+>> Personally, and also for the model
+research team, we always hope to open
+source the models. Um that is our plan.
+Because we
+really see how the open source community
+together can help the model build
+better. For example, we receive a lot of
+um feedbacks on the model performance
+from the great community, and we receive
+PRs on uh wh- whatever we open source.
+And those are very very valuable and
+come comes to our later versions. So,
+definitely open sourcing is great.
+>> That's great. And actually, do you have
+some ask for the audience, people who
+are using uh M3 or MiniMax? Is there
+something you would love them to send
+back to you as feedback? Do you Do you,
+for instance, do you read when people
+try to modify the models or play around,
+you know, tweaks? Or what is the best
+thing you you think you can take from
+the community uh for future models, for
+instance?
+>> Mhm.
+I would say whatever um issues that
+people are running into, especially with
+multimodality, right? This is the first
+time that we're combining it together.
+We are definitely going more ambitious
+on that in the future. It might have
+some flaws right now, but we are
+improving on that. So, whatever that's
+uh feedback that model is not good doing
+that great, we will definitely improve
+that in future versions. And also,
+whatever features that uh people want.
+Say,
+you know, for example,
+thinking effort. Right? Some people ask
+for that. Um
+like everyone can ask, and we will try
+to accomplish that in the future models.
+>> Yeah. Do you see a lot of usage right
+now already in multimodality in terms of
+coding agents? I feel like it's it's a
+little bit un- underexplored.
+>> It is It is, but um it can actually
+unlocks a lot of capabilities and a lot
+of
+uh agent applications.
+Say that for example, you want a model
+to read a PP- PowerPoint, uh or to read
+some report that is not very structured.
+Um and you want it to understand a very
+long video, say that you dump in a
+long-playing video, and then you want
+the model to act uh using some tools uh
+after understanding it. And it unlocks a
+wide variety of um agent use cases.
+>> So, like the agent could finally watch
+my YouTube tutorial and understand how
+to use my coding tools, how I described
+it? Is it something like that?
+>> Uh
+>> Could the agent finally watch YouTube
+tutorials and understand things from
+them?
+>> Yeah, yeah, yeah.
+I think so.
+>> Do you use a lot of uh agent coding
+tools internally? Is it like I mean,
+coding for sure, but like is it also
+already in terms of research? Is it
+automated part or not? How How does this
+uh
+>> Yes.
+>> work?
+>> Um we have our own research harnesses.
+Um we build our own research harnesses
+that automate our workflows. I would say
+a lot of our workflows are automated.
+You can see how um the latest frontier
+models all pursues capability less
+kernel optimization, right? Like let the
+model post string other models.
+Um let the model build data.
+Auto data, stuff like that. Um you can
+see how more and more models are capable
+of doing those, including M3. Actually,
+we were very good at those cases, longer
+horizons and coronal organizations.
+Um and so we can use that model
+capability, harness it together, and
+help with our um daily routine, and make
+our iterations even faster.
+>> Is M3 building M4 already?
+>> Um building M3.1.
+>> M3.1, okay.
+>> [laughter]
+>> Let's hit the gym.
+>> Already.
+>> Um I I would love to finish on what what
+you find exciting in the coming month,
+what what do you think it it can be Asia
+in terms of feature or or things you
+want to see happening in in AI or more
+generally in terms of whatever whatever
+really is top of your mind I would say
+and it's going to
+happen.
+>> A lot of things are very exciting. Um
+but what I recently find the most
+exciting would be a multi-agents that I
+think a lot of AI applications are
+using, model routing, multi-agents um
+that allows even more capabilities, even
+more complex tasks, and also it tells us
+what the models are capable and not
+capable of, and you can, you know,
+do a lot of things with that. It's
+pretty exciting.
+>> Thanks a lot, Alif. Pleasure to have
+you.
+>> Thanks for having me.
+>> Thanks, everyone.
+>> [applause]

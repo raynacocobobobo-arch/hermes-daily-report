@@ -1,0 +1,457 @@
+UP主：AI Engineer
+标题：Agents in Orbit: Workflows, Not Autopilot — Eduardo Simon & Javier Casal, Flywire
+链接：https://www.youtube.com/watch?v=rAUyRDOFyHU
+
+Hello everyone and welcome. My name is
+Edu and alongside Javi, we represent the
+AI platform experience team at Flywire.
+Our core mission is to build practical
+agentic infrastructure that empowers our
+software engineers while following our
+established engineering standards and
+practices. Today we'll share how
+structure workflow automation delivers
+real enterprise value, ensuring control,
+safety, and reliability across our
+development process.
+Before we dive into the deep technical
+details of our AI platform, let us give
+you some essential context about
+Flywire. Flywware is built to process
+the world most complex payments across
+global industries like education,
+healthcare, travel, and business
+services. Today, we serve over 5,000
+clients across more than 240 countries
+around the world. Because we process
+highv value international transactions,
+regulatory compliance, privacy and
+security are not optional add-ons. They
+are core requirements of our business.
+We operate under strict compliance
+frameworks like PCI, DSS and so 2. This
+means that customer data, personal
+identification and payment details must
+remain completely safe. We cannot simply
+take sensitive context and pass it to
+third party services without strict
+governance and architectural boundaries.
+To give you an idea of our engineering
+organization, we have around 400
+software engineers distributed globally
+across our teams. We maintain diverse
+technology stacks including Java, Ruby,
+Go, Python, .NET, and PHP. Almost
+everything we build and run is deployed
+on Victoria, our internal platform as a
+service that operates on top of GitLab
+and AWS infrastructure. Victoria
+provides standardized build pipelines
+and consistent deployment practices. So
+how did our AI journey begin? About 6
+months ago, back in April, we formally
+established the dedicated AI platform
+experience team. Even before that,
+passionate engineers across Flywire were
+already experimenting with AI tools,
+creating skills, building MCP servers,
+and assembling an early code review bot.
+That organic activity proved that our
+engineers wanted AI automation. It also
+showed that we needed a dedicated team
+to provide infrastructure for safe and
+reliable agendic solutions. Since then,
+we have moved fast with close to a
+thousand commits to our internal tool.
+But the industry does not stop. In the
+same six months, Cloud Code alone
+published more than 160 releases, almost
+one per day, and the major AI labs
+release more than 20 new models. Every
+week brings a new model and a new tool
+or a new way of working. Our challenge
+is not only to build fast but to keep
+up.
+>> This bring us to Orbit, our own toil
+killer. Orbit is an internal platform
+that eliminates daily engineering
+repetitive tasks by including LMS
+directly into structural workflows.
+Instead of letting AI agents run freely
+in open-ended loops, Orbit pairs
+deterministic code with a small LLM
+steps. We crystallize repetitive
+procedural logic into code and we call a
+model only when reasoning is actually
+needed.
+When we evaluated whether to build or
+buy, building inhouse made complete
+sense for our environment. Frontier
+models made feature development really
+fast which drastically lowers the cost
+of a custom platform. More importantly,
+as a financial enterprise handling PCI,
+PII and PHI data, keeping execution
+inside our existing Victoria
+infrastructure ensures that sensitive
+data never leaves our control
+environment. We also skip long vendor
+security reviews and extra compliance
+work.
+So what does a workflow actually look
+like? Every agent in orbit is defined in
+a single JML file that lives in a
+repository and goes through the same
+merge request review as any other code.
+Take our code review agent as an
+example. It starts with a trigger, a
+Gilda web hook that fires when an
+engineer mentions the review bot on a
+merge request. From there, a sequence of
+deterministic activities, fetches the
+merge request metadata, classifies its
+risk tier, loads prior findings and
+clones the repository only. Then we call
+the model in an LLM step that can read
+the code but has no permission to modify
+it and that must answer in a strict
+output schema. Finally, another
+deterministic step post the findings
+back to the mer request. This is what we
+mean by workflows, not autopilot. Code
+handles the predictable parts and the
+model is called only where reasoning is
+actually needed.
+We choose to start with JAML files and a
+request review process on purpose. YAML
+is a format our engineers already know
+and the review works the way they
+already work every day. It also keeps
+the codebase AI friendly. Coding agents
+can read, write, and review workflow
+definitions as easily as people can.
+However, not every use case comes from
+an engineering team. For corporate use
+cases, we are considering an authoring
+tool in the orbit UI where people can
+build a workflow by dragging and
+dropping from a set of predefined
+activities without writing a jam. A
+workflow can start in three ways.
+Engineers and other system can call
+Orbit's internal API directly or using
+our internal CLI. Web hooks from GitLab,
+Jira, Sentry and AWS start a workflow
+from the moment something happens such
+as a new merge request or a new
+production error. Schedule jobs run
+workflows on a fixed cadence like our
+daily translation syncs, feature flag
+cleanups, and knowledgebased refreshes.
+Beyond these entry points, we are
+currently building an MCP server for
+Orbit so that the other AI services and
+tools we use across FlyWire can start
+workflows directly. For example, an
+engineer will be able to ask cloth in
+Slack through CL tag to run an orbit
+workflow without ever leaving the
+conversation.
+We started small with clear high impact
+use cases. First the daily engineering
+work automated code reviews on mer
+request and our Victoria upgrades agent
+which fixes Victoria interf findings
+automatically. Second translations one
+workflow now handles the full cycle. It
+fetches the new strings, translates
+them, updates the files and notifies the
+teams with the updated docs. Third
+production errors. A sentry web hook
+starts the sentry investigator. It
+assesses the issue, post the assessment
+in Slack and shares the mer request with
+a fix in the same place. On the support
+side, ticket triage classifies new
+tickets and routes them to the right
+engineering area. AI reading is a
+scorecards measures how ready a
+repository is for AI assisted
+development and a fixer acts on the
+findings. Finally, the J implement takes
+a ticket and turns it into a mer. It
+works like a small toward factory.
+One of the biggest benefits that we
+found is that we can make changes in
+bulk across many repositories
+that lets us do software engineering at
+scale. It is very convenient for
+migrations, library updates and
+deprecations. And we also use it to run
+cloud doctor and to launch our own AR
+readiness scorecard.
+Even with all this automation, the mer
+request is still our unit of work and it
+is where a human stays in the loop. We
+operate in a regulated environment, so
+people still review and approve those
+merge requests.
+Let's take a deeper look at the
+technical architecture of Orbit.
+Originally we began with a simple
+container setup on AWS ECS Fargate where
+the orchestration layer harness and the
+runtime environment lived inside the
+same container. As our needs grew, we
+evolved towards separating the
+orchestration layer, the agent runtime
+environment and the session state into
+distinct components. This improves
+isolation, maintainability and resource
+allocation. It also makes the system
+more resilient because an error in the
+effort does not kill the sandbox and it
+lets us scale each piece independently
+and adapt to changing requirements.
+Fargate lets us scale task elastically
+so we can run a very large number of
+agents in parallel. It was also really
+easy to deploy orbit because we already
+had Victoria our past that scales
+applications without any effort. But
+that scale needs guard rails. so the
+platform is not misused. First,
+timeouts. Every agent stops after a
+configurable amount of time. Second, red
+limits, which are aggressive by default.
+A broken API integration could start
+spawning thousands of agents and make
+our build much bigger. The limits keep
+that under control. Third, concurrency
+control. Our control plane uses locks to
+prevent duplicate executions of the same
+task. For example, if a code review is
+already running, we drop the duplicated
+request.
+Running agents in a Victoria comes with
+container limits. Victoria uses standard
+Fargate task definitions. So the
+containers are lightweight and tightly
+restricted. Our baseline agent container
+includes the common language runtimes.
+But it intentionally leaves out package
+managers like Bundler, Maven, and
+Composer. So heavy agents like our Jer
+implement cannot easily run native
+builds or unit tests inside the
+container.
+When we started orbit in April, AWS
+Lambda microVMs did not exist yet. AWS
+released them in June. So our first
+version run only on Fargate.
+These are managed microVMs that work
+like Lambda functions resumable
+processes. So they can pause and
+continue where they stop. that fits the
+nature of agentic execution really well.
+So we now use them with a runtime chosen
+by project type. Each tech stack gets
+its own tool chain quickly in an
+isolated environment. This is not full
+sandboxing yet and we are actively
+moving there. The goal is to support
+setups like dockering docker or multiple
+microvms so agents can run test or more
+complex verifications on any repository.
+Inside each LLM step, we did not build
+our own harness. Instead, we reuse the
+clot agents SDK, the same harness that
+powers cloud code. This gives us a
+mature, well- tested harness with tool
+usage, sub aents, and skills out of the
+box. So, we can focus on the workflow
+rather than on the plumbing. What we add
+on top is control. We restrict four
+different things for every step. the
+network the agent can reach, the tools
+it can call, the skills it can load, and
+the MCP servers it can use down to the
+specific tools allowed from each server.
+All of this is declared in the YAML file
+itself. A code review step, for example,
+can read and search the code, but cannot
+edit files or push changes. And our
+central investigator can query traces
+through our MCP server, but only with a
+short list of readonly tools. In
+practice, each LM step runs with only
+the axis it needs and the axis is
+visible and reviewable like any other
+code.
+Skills themselves come from a single
+place. At Flywire, we maintain a central
+repository of skills that is published
+internally as a cloud code plug-in
+marketplace and orbit connects to that
+marketplace at build time. This means
+the same skills works in two places. An
+engineer can run it in cloud code on
+their laptop and orbit can run it inside
+an automated workflow. That share
+foundation also shapes our
+recommendation to teams. Start with the
+skill. Skill is cheap to write, easy to
+iterate on, and useful from day one.
+Once a team is sure that a task is worth
+automating, we move it into orbit and
+turn it into a workflow. The predictable
+parts become deterministic code. The
+model is called only where it adds
+value, and each run becomes more
+reliable and less expensive than an
+open-ended session. Workflows also run
+in the background, so engineers do not
+have to sit with an open session and
+guided step by step. That means less
+context switching and more time for the
+work that needs them.
+Beyond runtime isolation, we also rely
+heavily on structure output to guarantee
+systemic reliability.
+every LM step in an orbit workflow
+enforces strict JSON schemas for model
+responses. By constraining output
+formats, we ensure that subsequent
+execution branches, error handling, and
+state transitions are driven by
+terministic control flow rather than
+unpredictable string parsing. If an NLM
+response fails validation against the
+expected JSON schema, Orbit
+automatically triggers a targeted retry
+or fallback pass before proceeding.
+Another crucial pattern we rely on is
+isolated component evaluation.
+Evaluating complex end to end agentic
+workflows in synthetic benchmark
+environments is often noisy, expensive,
+and difficult to reproduce consistently.
+Instead of trying to evaluate entire
+workflows from start to finish, our
+evaluation harness isolates individual
+LLM steps. By injecting exact historical
+state and context directly into specific
+workflow nodes, we can evaluate model
+output quality, measure PROM
+adjustments, and catch performance
+regressions quickly and cost
+effectively. So, how do we know that an
+agent is good enough? Today, a new agent
+usually reaches production after a b
+check. The team tries it on a few real
+cases and confirms that it behaves as
+expected. Once it runs in production, we
+trace every execution end to end with
+open telemetry, including each activity,
+model call, and tool call. We then
+extract traces from real executions and
+add them to a golden data set. For now,
+each golden data set is version in the
+repository next to the code and we run
+it on demand. Based on those results, we
+improve the prompt or change the model
+and we run the data set again to
+compare. We do not have online
+evaluations yet, but we are working on
+them internally. Our goal is to run the
+whole evaluation loop inside orbit from
+the UI or through the MCP server. First,
+you deploy your agent. Then, you monitor
+and evaluate its execution in
+production. Finally, you improve the
+agent based on those evaluations without
+the need to deploy it again.
+That is our Roma for evaluations. One
+place to ship, measure and improve every
+workflow.
+The operational impact of this approach
+has been significant across our
+engineering organization. In the past 30
+days alone, our automated code review
+agent completed over 9,700 runs,
+averaging under three minutes per merge
+request. Beyond co- review, our audit
+fixer open 159 merge requests to fix
+vulnerable dependencies and the AI
+readiness fixer improve around 80
+repositories. The Victoria llinter fixer
+fixed 413 projects and the merch
+conflict resolver run 921 times. Across
+these workflows, we run over 11,000
+executions with a 99% success rate.
+Reflecting on our journey, adopting a
+self-service model was one of the best
+decisions we've made. A standardized
+guard rays allow engineers across SR,
+security, IT, and support to build
+custom workflow steps easily and safely.
+We also learned that cost control starts
+with model selection. Not every step
+needs the most capable model. So each
+LLM step in a workflow declares its own
+model. For example, a planning step and
+an implementation step can use different
+models. Matching the model to the task
+keeps cost under control and it is why a
+cost aware model router is in our road
+map. On the other hand, managing data
+separation remains an ongoing
+responsibility. We maintain a strict
+distillation between engineering SDLC
+data, corporate operational data and
+sensitive payment production data.
+Additionally, because demand for
+automation is high, maintaining focus
+and prioritizing high impact work is
+essential.
+Looking ahead, our road map focuses on
+expanding our platform features and
+increasing overall architecture
+flexibility. We are actively moving
+towards a complete sandboxing so agents
+can handle complex builds, local
+environments, and test suits seamlessly
+across all project types. Moving
+forward, we are also introducing
+resumable sessions to handle complex
+multi-step task. We are also building
+more evaluation tools directly into
+orbit so teams can measure the quality
+of their workflows on the platform
+itself. In parallel, we are refactoring
+orchestration layer to be model
+agnostic, enabling flexible routting
+across different model vendors,
+including an automated model routter
+that selects the most cost-ffective
+model for its task. that will help us
+control cost as we keep scaling the
+platform. We also uh want to make the
+platform harness agnostic so that we are
+not tied to a single harness.
+To wrap up, here are three things we
+learn. First, start small. Pick a
+repetitive well-defined task and prove
+it works before you scale it. Second,
+use the model only where it adds value.
+Everything predictable stays as code and
+that is what keeps the workflows
+reliable. And third, keep guard rails
+and humans in the loop. Owners limits
+and may request abuse. That is how we
+move from AI experiments to workflows
+our engineerings use every day.
+>> Thank you all so much for your time and
+attention today. Feel free to reach out
+to us in case you have further questions
+or comments.

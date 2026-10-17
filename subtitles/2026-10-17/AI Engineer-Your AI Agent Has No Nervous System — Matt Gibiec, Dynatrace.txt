@@ -1,0 +1,461 @@
+UP主：AI Engineer
+标题：Your AI Agent Has No Nervous System — Matt Gibiec, Dynatrace
+链接：https://www.youtube.com/watch?v=YNT7Plf9KIg
+
+[music]
+>> All right, it is 11:10 so officially
+time for our session. Thank you so much
+everybody for joining. I know this is
+the last day of the conference so I
+really appreciate for for all of you
+that that actually wanted to come on
+Thursday and and listen to our topic. My
+name is Matt Gibiits and I'm the
+regional director of solutions
+engineering for AI native at Dynatrace.
+With a show of hands, anybody knows what
+Dynatrace is?
+All right, we got a we got a couple
+hands, okay.
+We are an observability platform, AI
+powered observability platform, but
+we're not going to be talking much about
+Dynatrace today.
+Because what we want to address today is
+a little bit different topic and the
+topic that I want to address is, as you
+see the title of the session, that your
+AI agent has no nervous system.
+Probably an intriguing title and you're
+thinking, well, of course it doesn't
+have a nervous system, it's it's not a
+person. Well, but if you really think
+how AI agents are being used today, we
+are using these agents to replace things
+that people used to do.
+And a lot of times, in order to do that,
+we need the reasoning.
+And
+when we really think about it, if we
+need reasoning, we need these agents to
+be able to actually not necessarily
+behave like humans, but have enough
+input to understand what they need to do
+to actually help us in our organization
+and not just automate things that aren't
+necessarily working very well today.
+So, with that said, let's let's break
+this down.
+With a show of hands again,
+how many developers do I have in the
+room in here?
+Okay, perfect. Any team leads?
+Okay. And okay, the last one might be a
+little bit tougher. Do I have a head of
+engineering in here? Would would you
+call yourself a head of engineering? All
+right, perfect. I got one. So, if you
+take a look at these questions, we're
+not going to go through all of them. We
+only have 18 minutes left in here.
+But, if you take a look at these
+questions,
+has any of you ever ask yourself a
+question or been asked a question, why
+am I stuck in a loop with my agent?
+How many of you have used, for example,
+Claude, and it just keeps repetitively
+doing the same thing over and over,
+consuming tokens, not giving you the
+result that you want?
+Anybody experience that? Everybody has,
+right? Now, if you think about it from a
+human perspective now,
+if you as a human do research, and you
+get results that that are not what you
+want, you will change your approach. You
+approach it from a different angle.
+But, our AI agents today,
+they're not smart enough to do that.
+All right, let's let's shift to to
+another question in here.
+I like the one under team lead in the
+middle.
+How can I handle operational issues?
+Are you thinking about that yet today,
+or right now are you still in the boom
+of let's just get things deployed, let's
+just get get things going, and we'll
+figure out everything else later?
+Anybody in here having operational
+issues with your agents?
+Here and there, maybe.
+Okay, uh let me throw a twist in here.
+How about security concerns?
+That That was a layup, right? I think
+everybody Everybody raised their hand in
+here.
+And so, again, a a very important
+questions that we have to ask ourselves.
+And the last one that I want to try with
+you guys, let's look at the the head of
+engineering in here.
+I love the middle one again. Does our
+app or does the agent bring value to our
+users?
+I think we we jumped in so quickly to
+the AI world and at the AI era that a
+lot of the times I see customers and and
+spending 3 days in here talking to
+folks, everybody has that AI buzz, this
+AI agent buzz, but how do you measure
+value?
+Do you have instructions already today
+to how to measure value of your AI
+agents?
+No, right? And and I almost think that
+as much as you want to run fast and get
+there, we have to take a little pause
+and understand
+what are we really trying to accomplish
+and how can we measure the success of
+our agents? Because if we're spending
+our engineering resources, time, effort,
+money on creating these agents and and
+and utilizing them in a way that we
+believe helps our organization, we need
+to come up with measures
+that'll help us do it.
+Now, with all these questions, hopefully
+I I I I set up a picture a little bit in
+here to
+to to really jump into the next topic
+that I want to discuss, which is led in
+here by a quote from my CTO, Bernd.
+And I'm not going to read the whole
+thing, but just highlight what we see in
+blue in here.
+The agents operate at speed. Would
+everybody agree with that? That they're
+pretty fast?
+But without sight.
+And what what we mean by that is these
+agents today are only as good as the
+data that is available to them to make
+the reason to make the reasoning to make
+a decision.
+If the data that is provided to our
+agent is missing context, is missing
+details, is missing the right
+permissions to pull the data from some
+of the tools in your environment,
+you start entering the the very buzzy
+word out there like hallucinations. You
+start
+doing processes and automating things in
+your environment that now probably don't
+bring in value because there's not
+enough context in your environment.
+So, what if I told you
+that
+essentially what we want to do in here
+is
+we actually don't need your agent to
+necessarily have
+nervous system or sight to be efficient
+and be productive.
+There's obviously a little twist on the
+title of the session in here.
+But
+what they need is actual context
+of your environment.
+You can pick any agent that that that's
+out there. You can just pick the the
+easy scenario of Claude and trying to
+automate things with um
+Claude inside of your um SDLC life
+cycle. And as you do that,
+if Claude doesn't have access to the
+context of your environment, if it is
+not able to understand the dependencies
+of your services, if it is not able to
+understand how your applications are
+being used by your users,
+it will start coming up with decisions
+and advices that
+might seem right at that point,
+but they won't be right in the long term
+because there's not enough context for
+that agent to understand how your
+environment really looks like.
+So, what I want to sum up this slide
+with is this one sentence in here,
+context is king.
+And what context is, it is that nervous
+system that we
+that you can provide to your agents. So,
+as they're communicating, as you're
+automating things, as you're creating
+new processes,
+that connective tissue of a context is
+driving all of the processes that you're
+automating with your agents.
+So, let's take a let's take a look at a
+couple examples.
+So, keeping that in mind,
+what what what I want to present to you
+is Blue Box by Dynatrace. And what a
+Blue Box is is essentially an agent that
+will now be able to be integrated in the
+middle of any of your life development
+life cycle to provide context to any of
+your AI coding agents or other
+proprietary agents that you're
+developing in your environment.
+I have a couple slides that we're going
+to go through in here. I'm not going to
+go through every single scenario in
+here, but I'm going to point out the
+most important things that that I
+believe are helpful in here.
+Let me Let me run this scenario by you.
+How many times you as a developer
+develop a feature, maybe even develop a
+feature or skill for an agent, and you
+test it locally, and it works great.
+Locally, everything works great, right?
+We're happy, it's awesome. And then what
+we do is we merge to to a main branch,
+we push it out there, and all of a
+sudden three other services are broken.
+Has that happened to any of you?
+Where your impact, even though locally
+it worked fine, once it was merged with
+other agents, with other applications,
+now it broke a process in your
+environment. That is one of the most
+important things that Blue Box by
+Dynatrace can provide in here. We will
+be able to bring that
+essentially services and dependency
+mapping for every single one of your
+agents, every single one of your AI
+workloads. So, as you're developing and
+as you're making changes,
+you're not just talking about testing
+things locally. We'll actually be able
+to now use Blue Box to bring the
+production context into your local
+testing.
+So, now you know whether the feature
+that you develop not only works locally
+for you and what you're trying to
+automate, what you're trying to achieve,
+but also that it won't break and impact
+negatively anything else that that your
+agent that your workload is connecting
+to.
+Let's take a look Let's take a look at
+another
+um example in here.
+I This is honestly one of my favorites
+just in the entire world of
+observability. I've been doing
+observability now for 8 years, and I
+think if there's one goal that I ask any
+of my customers, like, what would you
+like to achieve with your observability
+strategy with now AI? And when it comes
+to issues, I think this is everybody
+will say that. Find issues before
+they're real issues, before they impact
+my organization, before they impact my
+users.
+This is now exactly what the context
+that Blue Box brings into your agents
+will be able to do for you.
+And how do we really get that done? We
+are able to now again understand
+end-to-end the interactions of your
+agents within your application, within
+your ecosystem, within your
+organization.
+And what we are able to do is we are
+able to use the historical data from
+your environment, the historical the
+historical loads to understand what
+regular what normal looks like.
+So, when things start to deviate from
+what normal looks like, we are able to
+now get ahead of it
+and inform your agents, let's say in
+your IDE for your developers, that one
+of the services that belongs to them
+now it's acting slower
+or all of a sudden it's throwing errors
+that it didn't throw.
+Now, what Blue Box will also do will be
+also integrated in the middle of your
+code repository.
+So, as you do that, we will now also
+have the context of what was changed
+in your ecosystem. What was changed in
+your application? What was changed in
+your workload?
+So, now be able to overlay that data and
+understand that the issue that might be
+happening in your environment was
+actually caused
+by a change that somebody pushed out
+there.
+Maybe by a merge that wasn't successful.
+Okay?
+So, as we dive into the next um scenario
+in here,
+we discovered an issue. We We started
+with creating context, right? So, we
+have the context of your environment.
+We're able to bring literally production
+context data to your local testing, to
+your developers in their IDE. You bake
+in Blue Box into your AI coding agents.
+Now, we're able to detect the issues
+early. We're able to start to be product
+proactive. But, what's next? We have to
+talk about fixing things.
+And here's yet another example where
+Blue Box will be able to be directly
+baked in into your SDLC.
+So, when we detect that there is an
+issue, when we know and we have the
+knowledge of your repo, we know who
+pushed it, we know what changed, we are
+now able to again once again provide the
+context to your developers
+and let them know that the service that
+is now having an issue, that the agent
+that is now having an issue, that the
+workload that is now having an issue
+can be remediated in the following
+steps. So, again, why is the context so
+important in that process?
+Because when we need to fix a bug that's
+causing an issue in our environment, it
+is it might be changing one line of code
+to fix that particular issue.
+But after you change that one line of
+code, what happens to the rest of your
+environment? What happens to the rest of
+your application?
+So, again, that context and the
+dependency of all the other services in
+your environment is super, super
+important.
+So, as we do that, as we think about
+fixing things, it's not only about
+fixing the the issue that we have at
+hand, but also making sure that we don't
+cause any other issues in our
+environment.
+Um and the last um um or or two more
+suggestions that I want to run through
+is
+actually briefing your agents before
+building starts.
+That's actually, I think, one of one of
+my favorites when it comes to directly
+talking to the developers.
+I think the way too often we see
+developers going out there, and somebody
+came up with a feature,
+and now the developers just go and
+develop it.
+But have we done any research up front
+to understand
+what actually that feature needs to
+deliver to our users? What are we
+actually trying to accomplish with with
+that specific feature?
+That's exactly what we'll be able to to
+do in here. We'll be able to actually
+plan before you prompt.
+So, when you're building your agents,
+when you're building your applications,
+when you're using your AI coding agents,
+again, Blue Bags will bring in all that
+context from your application today,
+from all the from all the agents that
+you already have in your environment
+today, to understand that as you're
+planning for a new release, as you're
+planning for a new feature, you'll have
+enough data
+to understand what that feature that
+you're now focusing on needs to
+encompass.
+And the last scenario that I that I want
+to share with you guys
+is that at the end of the day,
+providing context to these agents can
+further drive automation.
+But when we talk about further driving
+automation, I'm sure some of you start
+thinking about the concept of human in
+the loop. Like at the end of the day,
+if we just let our agents do everything,
+I think it'll be a pretty messy world,
+right? At some point, we want to be able
+to have control over what we are doing
+in our environments.
+So, obviously, with Bluebox, you'll be
+able to do that as well. And I I I'd
+like this picture that we have in here
+on the right, right? We'll We'll first
+start with observe. Observing your
+environment, building that context,
+building that dependency mapping,
+providing that locally to your
+developers as they're testing, given all
+the production data, given all the
+production um details that they need to
+properly test their code. Once you have
+that, and then we detect issues, we'll
+be able to actually suggest fix, but not
+just fix for the particular issue that's
+breaking the agent, but using the
+context of your environment, using the
+context of the application that's
+monitored, using the context of the
+agents that are being monitored,
+making sure that the fix actually
+addresses what's happening in your
+environment. Lastly, we'll be able to
+drive the the entire SDLC in here by
+providing the fix, and giving you the
+control at the end of it,
+to make the decision whether you want to
+push the feature out there, whether you
+want to push the fix fix out there, or
+not.
+So, with that said, um that really
+brings me to the to the end of our um
+our a little pitch about uh Bluebox. And
+And what I like to finish with is we
+want to help agents ship code you trust
+to production.
+So, if this is interesting to you, um
+you can go ahead and go to bluebox.ai,
+and you can actually sign up for a
+preview of it. Um uh as as soon as you
+do that, we'll be reaching out to you to
+give you access to the platform. I also
+have my back pocket little um things
+that you can scan, so I'll just walk
+around the room now and give them to
+you. But, with that said, we have 5
+minutes. So, if you there's any
+questions that that anybody wants to
+ask, uh we can absolutely use that time
+for those as well.
+No questions?
+>> Mhm.

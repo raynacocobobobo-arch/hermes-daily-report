@@ -1,0 +1,406 @@
+UP主：Matti Haapoja
+标题：Most powerful Tool in Davinci Resolve
+链接：https://www.youtube.com/watch?v=ufykKIppQSg
+
+There is one super-powerful tool inside
+of DaVinci Resolve that a lot of people
+aren't using right now. So, I'm going to
+show you five different ways to use it
+and why it's so [music] powerful. All
+right, that tool is let's search depth
+map. If you haven't used this, this is
+incredible. And essentially, what this
+does is it analyzes your scene and
+figures out what's in the foreground and
+what's in the background. Think of it
+kind of like a lidar sensor. And then,
+we can use that information to create a
+mask on the foreground or the background
+super fast and easy. And if you hate
+masking and all that kind of stuff,
+I am there with you. I hate doing masks.
+This is so much easier and faster, and
+it works differently than a mask because
+it's looking at your entire scene in Z
+space. And before we get into the five
+use cases, I'm going to show you exactly
+how this tool [music] works. Drag it
+onto a node. There we go, and it kind of
+looks weird right away. Now, depending
+on whether you want to affect the
+background or the foreground, there's
+this little invert button. And usually,
+if I want to affect the background only,
+I'll hit that right away. Now, that
+right away selects the background more,
+and then we can go into this adjust map
+levels, and then we're just going to
+play around so that we get the exact
+selection that we want. So, if we want
+to affect the background in this clip,
+we don't really want to be affecting me.
+So, I'm just going to change that near
+limit, so it's basically just the
+background. And then, the gamma is just
+going to make the contrast a little bit
+stronger so we can get a little bit
+better
+um result here. And you're just going to
+play around until you're happy with
+that. And a lot of times, you do this,
+and then you're going to put the effect
+on, and you're like, "Oh, actually, my
+depth map isn't very good." And then,
+you have to go back and change it. You
+can also isolate a specific depth. I
+don't usually use this one as much. I
+usually am either affecting the
+foreground or the background because
+that's how,
+you know, the real world and lenses and
+things work most of the time. So, I
+don't usually use that one as much. Um,
+then we can go into map finesse and
+we're going to enable post-processing.
+This just kind of tweaks things a little
+bit more, makes that depth map a little
+bit more precise. Now, it is also going
+to be heavy on your computer. This whole
+plugin is actually quite heavy. [music]
+It is built into DaVinci Resolve. It's
+their tool. Um, it is only part of the
+paid version, I'm pretty sure. This will
+be heavy on the computer, but it's
+because it's so powerful. And you can
+kind of mess around with the post filter
+and then you can expand or contract the
+selection and then you can blur [music]
+it a little bit. Typically, I'm blurring
+it just a little bit so we're not
+getting any crazy like halo or harsh
+weird edges. Um, again, this is trial
+and error. Every scene is a little
+different. So, you're going to have to
+tweak these and go back and forth and
+you'll learn a lot as you're doing this.
+All right. So, once we have a pretty
+nice selection here, then we can just
+hit this depth map preview and that's
+going to turn that off and now nothing
+happened. But, we have that selection.
+So, now we just make a new node after
+that and all we have to do is connect
+these little blue the square and this
+triangle. Bam! Now, it's taking that
+selection into that next node. So, now
+whatever we do in this node is only
+going to affect that background, which
+is pretty sick. Like, this is powerful.
+You might know where I'm already going
+with this, but let's go through the five
+different ways that I've been using this
+tool cuz it's one of those tools that
+I've wished that I've had for so long.
+The first thing that I thought about
+right away was to emulate lenses.
+Because we're able to essentially do
+what a lens does, we can kind of fake
+different lenses. For example, we could
+just grab a radio blur. We're going to
+add that on there, and now we right away
+get this kind of like petsville look,
+which is really interesting. That was so
+easy. We're going to take that off on,
+and it's only affecting the background,
+not me, other than like a little bit of
+like the edges of me, which is how
+lenses work most of the time. You could
+also just blur the background more,
+essentially getting more of a shallow
+depth of field look, but you can also
+take this to the next level if you have
+something called lens node. This is a
+tool that costs money. We actually have
+it on Human Video Co right now. It's
+where I have all my digital products,
+and we're starting to curate some of our
+favorite tools on there, so that's why
+lens node is on there. We didn't make
+it, just to be clear, but we are working
+with them to promote cuz it is the tool
+that I've been waiting for for so long.
+And what lens node does is it emulates
+different lenses. They have gone through
+all of the hard work of analyzing
+different lenses, and then figuring out
+what are the different characteristics,
+and then we can change each of those
+individual characteristics in post. Now,
+in theory, you could do all of this
+yourself inside of DaVinci, but it would
+be so much work. And they've just done
+such a good job of emulating these
+lenses, so that's why I love it. All
+right, so we're going to add lens node,
+drag and drop it there, and right now
+it's just affecting the whole thing,
+which is one way to use lens node. So,
+we could, for example, uh let's go a
+little wild just for example. Uh
+We're going to grab a petsville look,
+and then we can change the individual
+characteristics like color cast. I'll
+usually drag down because I'm already
+color grading it. We can dial in the
+vignette, how much we want the vignette,
+more or less. Uh you can tell that this
+is uh slow on my computer having the
+depth map and then lens node both are
+fairly heavy. Again, that's a warning.
+If you have not the best computer, this
+is going to be a lot. So, we have all
+these different lenses, all these
+characteristics, but a lens doesn't just
+affect the whole image evenly. It works
+in Z space and that's where that depth
+map comes in. So, we can now just drag
+in the alpha and now it's only affecting
+the background. If you don't want as
+much of that effect to be on the
+foreground, now we are we're controlling
+that Z space just like a real physical
+lens would work. Like we would be able
+to focus on the background or the
+foreground. It's not going to just
+evenly put that that filter on the whole
+thing. So, let's go a little crazy here.
+We're going to extend range and we're
+going to we're going to add the bokeh
+blur even crazier and then we're going
+to go into creative settings here and
+here we can make the bokeh even more
+swirly. Um and we're going to increase
+the brightness of the bokeh cuz that's a
+little bit more realistic. And now we
+have this crazy
+Petzval look on an anamorphic lens. I
+shot this on an anamorphic lens and we
+have this Petzval background look. And
+so, that is before, that's what I shot.
+And that's after. It completely changes
+the look of your image and okay, I'm
+already shooting on anamorphic, so
+that's a that's a cool look, but let's
+say you just have like, I don't know, a
+boring old 35 mil. Well, that's just,
+you know, it's perfect. It's clean. It's
+it's sharp from edge to edge, but you
+want a little bit character. Um this
+combination of depth map and lens node
+is incredible. I made a whole video
+about lens node. If you want to know
+more, go and watch that. Let's move on.
+The number two way that I like to use
+this depth map is just plain old color
+separation. So, we have that depth map
+and then we can add in, let's say, some
+blue to the background. So, now we have
+that really nice color separation of
+that tungsten kind of warm light in the
+foreground, and then we have that really
+nice rich
+teal and orange look, that blue in the
+background. And see how it only affects
+the background. It's really good at
+doing this. And so, you can create, if
+you didn't light it the way that you
+wanted to, or if you messed it up a
+little bit, you can go in and kind of
+fix the lighting and the colors a little
+bit using
+this depth map. So, for example, here if
+I thought that the background was a
+little bit too blue, it just doesn't,
+you know, it didn't match the vibe I was
+going, I could just make the background
+a little bit warmer, and that way I'm
+not increasing the warmth of the
+foreground, cuz that's already nice, I'm
+just increasing the warmth of the
+background. This is really, really
+handy, especially for color separation,
+getting that color ca- contrast, making
+it blue, it just [music] helps a lot.
+And I think subtle is good. Don't go too
+wild, just a small tweak can go a
+really, really long way. Number three,
+you can add different effects to just
+the background or foreground. For
+example, let's say I wanted this neon
+sign to be a little bit more glowy, we
+can do that. Let's add a glow. It's
+glowy, yeah, glow.
+Um okay, let's see, how does this glow
+work? I haven't used this for a little
+bit. Uh
+All right, let's tweak this. And there
+we go. We have that sign glowing in the
+background, but that foreground light is
+not glowing. That is really, really nice
+having that ability to kind of control
+the situation more. I'm not having to do
+any like masking or anything like that.
+I just have the depth map. I want to
+affect the background more, great, I got
+that glow. Or let's say we wanted to do
+some lens aberration, so we can you
+know, we could
+add some aberrations to the background.
+Very subtle again, we don't want it on
+our foreground. We want our our subject
+to be nice and crisp, but we just want a
+little bit of you know, a little bit of
+flavor on the background. You see the
+the neon lights. We're getting that nice
+little aberration there and it's not
+affecting our subject. If we didn't have
+this, now it's affecting this camera
+over here, the light and all that stuff
+and maybe we want that look, but maybe
+we don't. That's what this is all about
+is having that control over your whole
+scene and what elements are being
+changed or manipulated by these effects.
+Another one we could do is halation. So
+let's let's actually disconnect this for
+a second. We're going to disconnect.
+We're going to add halation and we're
+going to go a little wild on this. Okay,
+we have a very strong halation going on
+here, but it's just it looks horrible.
+It's affecting everything at the same
+strength. I I look horrible in the
+foreground. So let's do the little
+connection there. Now the halation works
+really great on the background, but not
+nice on the foreground. And how do you
+solve for that? Now you got a mask and
+do all this stuff. Easy depth map,
+you're done. Number four would be to
+just change the contrast. So I had this
+little scene with me and Peter when I
+made that my little YouTubers are bad
+friends and I don't know, the lighting's
+kind of it's fine, but it's it's kind of
+meh. So let's say we want the background
+to be a little bit more
+a little bit more dark. Let's go dark.
+We can actually change the contrast of
+this scene just so we pop out a little
+bit more and there you go. Now we've
+changed the contrast of the scene
+completely or let's say it was it's a
+little too dark. I want it to be a
+little bit brighter. All right, let's go
+full bright here. We're going to keep
+the shadows a little bit lower, but
+we'll go highlights a little bit higher.
+There you go. Now, it's way brighter
+than it was. So, we can actually change
+the contrast of our scene. And remember,
+we can do the reverse, too, where we can
+affect just the foreground. So, if we
+I'll just reset this one. If we go back
+into the AI depth map, we're going to
+turn on depth map preview, and then
+we're going to actually we're just going
+to invert, and now we're going to choose
+for me and Peter instead of the
+background. So, let's make a nice
+selection here. Uh that looks pretty
+good there. Let's finesse that a little
+bit. Okay. Now, we click depth map
+preview off, and now we can actually
+change
+our contrast. We can make us a little
+bit brighter or darker, or just add more
+contrast to me and Peter, but not the
+background. We just did all of that
+[laughter] in such a quick easy step.
+And that's really why I like depth map
+because it's so versatile. You can do so
+many different things, and it works how
+the real world works. And remember, we
+can mix and match these. For example, we
+have this scene. Let's say we also want
+a little more color contrast. We're
+going to add another depth map. We're
+going to select for the background here.
+There we go. Just quick. All right, we
+got a background selection. Turn off the
+depth map, and then we are going to add
+a little bit more blue to the background
+just for a little color separation. Now,
+we have that contrast
+and color separation. So, that's That's
+what I shot. That's what I had. And
+that's what I just did in post. I
+completely changed the lighting and the
+color separation. I added essentially
+blue light to the background, which
+yeah, now that I look at it, I'm like
+that would have actually been better if
+I had that. Of course, doing it in
+person would be better still, but
+sometimes even doing it in person it's
+really hard and you might not have the
+right tools or the right lights or
+whatever. And so this can really save
+you. All right, the number five way,
+we'll go back to this day example. This
+way is actually um it's a whole
+different tool, but it is using the same
+technology and that is the cinematic
+haze. So, we all know haze is just it's
+that like last little piece, except the
+problem is, for example, in my space, I
+can't haze this place because I can't
+turn off the fire alarms and if those go
+off, I'm like the whole building
+>> [laughter]
+>> is in trouble. So, I cannot haze in my
+office, but I can haze in post. And this
+works essentially the same way as a
+depth map, so we can do the depth map
+preview here and we are just going to
+select more so for the background. We
+don't really want to be affecting me
+much. There we go. And then we got depth
+map there. Okay, now we have added haze
+to the background. That's a little too
+much, so we're just going to decrease
+that a little bit, maybe add a little
+density to it. And then the halos, we
+can choose how much um those different
+areas are glowing. That looks uh it's
+still pretty heavy hand. Let's go down
+even a little bit. Again, subtlety is
+good here.
+So now, we just added haze to our scene
+in post and I literally cannot have haze
+in here. I cannot get this look in this
+office. So, this is incredible. This is
+the only way that I can do this right
+now. And yeah, it's again thanks to this
+depth map, thanks to thanks to AI and
+machine learning uh for being able to
+figure out the Z space in your scene.
+So, those are the five different ways
+that I think you should probably be
+using this tool because it is incredibly
+incredibly powerful. Okay, that's it for
+me. I'll see you guys later. Bye.
+I had to wrap that up cuz my computer is
+about to run out of battery. Come on.
+Okay. All right. All right. Stop the
+screen caps. Stop. Stop. Stop.

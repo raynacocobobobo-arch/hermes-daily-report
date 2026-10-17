@@ -1,0 +1,444 @@
+UP主：AI Engineer
+标题：The Design-Code Roundtrip That Isn't — Jonathan Gordon, ReWeaver AI
+链接：https://www.youtube.com/watch?v=NW-jwOVr32w
+
+[music]
+Hello everyone. I'm Jonathan Gordon. I'm
+a founder of Reweaver AAI, a new
+company, you know, on the scene, let's
+say. I want to share one thing with all
+of you that was really fascinating. So,
+I I plugged in my laptop and I realized
+I had to mirror. So, I no longer have my
+speaker notes. So, I went into Claude
+and I said, "Can you extract my speaker
+notes from my slide deck, please?" And I
+had my speaker notes now.
+I love AI.
+The suspense was killing me. I was
+talking to Claude
+now. Who knows if it got it right. I
+don't know. Whatever. Um, so I also
+realized that my title slide buried the
+lead. I shouldn't have put it up. Um,
+but nonetheless, let's play with this.
+So, uh, yeah, my name is Jonathan. Um,
+I'm here to talk to you about the design
+code roundtrip that isn't.
+And I guess probably the best thing to
+do first is to explain what I think a
+design code roundtrip should be. Um the
+design code roundtrip is a full loop
+between design and engineering in both
+directions without any loss of fidelity
+and with a persistent provenence. So it
+knows exactly where everything came
+from. You know that perfect dream world
+that we live in where there is no drift
+in between the gaps of design and code.
+Um, today's tools, design is amazing.
+It's incredible. It's magic. It's I ask
+for something, I get it. It's clickable.
+It's interactive. It's amazing to me.
+But nobody really looks at the code
+anymore, it seems. And so, I kind of
+want to go there. I want to go into that
+space.
+Whoops. Of course, I have to get my
+mouse to the right location. There we
+go. Um, a little bit about me.
+past 30 plus years um I've been building
+and designing coding tools developer
+tools idees at these companies um so
+I've spent a lot of time with as a
+designer I've spent a lot of time with
+design and engineering teams trying to
+understand
+how do we do that handoff well how do we
+hand off from design to code how do we
+get what we wanted to be delivered to
+the customer um it was never a perfect
+science We never got it. We never found
+that magic sauce that just made
+everything come together where intent
+matched the outcome.
+Um, but I developed techniques. I
+negotiated with engineers. I brought
+them out for drinks. I made them my
+friends. Um, I got things delivered to
+customers.
+But the the loop was never closed. Um,
+and it's because our outcomes diverged.
+engineering had one set of requirements,
+technical constraints, design had a
+vision for the future, a new rebranding,
+whatever. So, this has existed, you
+know, dare I say, for decades.
+Um, then along comes AI
+and LLM and prompting ourself into a
+fully running application. In a sense,
+now we have one intelligence that
+understands design intent and the same
+intel in intelligence can write code. So
+I thought to myself, oh my god, I think
+we might be able to close this loop. At
+the speed of inference, we could close
+this loop. And so I was curious. Um, I'm
+curious by nature. So I went all in.
+That's my GitHub before vibe coding
+happened on the left on on my left on
+your whatever. Um then after so I think
+everybody probably gets a sense of what
+my life was like from April 2025. And if
+you want to scroll till today it's it's
+even more so. Um, I got this email from
+cursor one day that said I was in the
+top 0.1%
+of usage of cursor
+and I thought to myself, I need to spend
+more time outside.
+Then there was a bill. Um,
+but at the time it was the $20 deal and
+I kind of, you know, monitored, but
+every now and again I'd pay for a little
+bit more, get another hit. Um,
+and this was my life vibe coding from
+that point in April
+until today. Um, I'm trying to figure
+out can I go from design to code? Can I
+go from code to design? Can I build a
+tool to go from design to code and code
+to design a full round trip without any
+loss of fidelity? That pixel perfect
+dream that we have. Um, I remember
+vividly uh one day I was, you know, just
+hammering away at the keyboard, just
+vibing my way. I was really feeling the
+vibe. And, uh, this wall of text was
+coming by and I was completely ignoring
+it and code was being written, just
+watching that come by. And I remember
+seeing a statement that was an inner
+HTML statement.
+And I remember from way back when that
+inter HTML was a security vulnerability
+that people can actually inject into in
+HTML and I stopped it. I said, "Wait a
+minute, wait a minute." to my LM, "Wait
+a minute, what did you just do?" And it
+explained to me what it did and it was
+very proud of itself. And and I said,
+"Revert that. Do this instead." Blah
+blah. And I got into this mode of like,
+"Oh, maybe I need to steer this thing a
+little bit better. Maybe I can't just go
+blindly in. Maybe I need to look at the
+code now.
+And I've looked at a lot of code in my
+life. So I went ahead and went in and
+looked at the code and I Whoops. I'm
+sorry. I clicked too ahead and I found I
+found issues. And so I went a little bit
+deeper
+when the industry started to tell me
+that they had solved the round trip
+that you could go a true roundtrip
+workflow. You could roundtrip between
+code and canvas. I think folks in the
+room might remember back in February,
+no slam on anthropic or Figma, there was
+this demo that showed going from cloud
+code into Figma. And it was magic. It
+was incredible. I couldn't believe you
+could build a Figma artboard from a
+prompt in Cloud Code. And then I had to
+go deeper and I had to look deeper in
+the same way that I looked at vibe
+coding. Like, is this real? Is the hype
+real? So I went deeper and then more
+announcements were made all the way up
+until last week when Figma config
+announced that code is now material.
+Does that mean there is no even handoff
+that exists anymore? Um so I'm
+monitoring trying to keep up. Things are
+happening at warp speed.
+But they said the roundtrip was solved
+and I started messing around and
+realized it wasn't. And so I want to
+share with all of you
+a harness that I built. Whoops. Oh, wait
+a minute. Local host, where are you?
+Local host,
+come back to me, local host. Okay.
+I don't know what I don't know what just
+happened there. And now I'm afraid to
+restart this. Um, okay. I think we're I
+think we're okay. Um, I created this
+harness. And what this harness is is on.
+I'm going to say left. I hope everybody
+is that your left. It is your left.
+Okay, good. [laughter]
+On your left is code that was generated
+by AI. This is this is all real what
+you're seeing here. Generated by AI and
+on your right is a design. Be it a
+canvas that that I created in Figma, be
+it something I created in Sketch. It's
+not really relevant what the sources are
+here, but the reality is I'm trying to
+illustrate a round trip. And so a round
+trip you know starts with code or starts
+with design and it has a prompt
+associated with it. So some some LLM I
+call off and I say in this instance I
+want to take this form and I want to
+build a design system from it. So there
+there are tools that do this that can
+extract code and build design systems
+from graphical canvases. And so I can do
+that. And it updated the code and
+created some styles. And it also
+actually created um a design system that
+works in runtime here. So this is like a
+a real app that got built that is also
+living in Figma. So there's a link up
+here. I won't go there, but trust me, so
+we can say stable. If I click that link,
+it would go to Figma and show me the
+full-blown design system that was built.
+And a design system for those that don't
+know is composed of components and
+tokens and variables and styles that all
+are used as a basis for building
+software from. So code and design
+together, you know, really work well
+when there's a design system and there's
+a code base that understands it. Now
+move back and forth. You throw something
+over here and you say, "Okay, I want to
+build an orange button." And I've added
+a company field and an orange button.
+The code is updated. The design is
+updated. This is awesome. Could I go
+back? Maybe. Um, but I have a button up
+here called show drift.
+So, show drift is rewaver AI working
+right now. And this is real rewaver code
+for the first time introduced to the
+public ever. And if I click show drift,
+I'll see a list of issues that got
+generated from both the code and the
+design at the same time. There are
+across several different dimensions that
+you can see here. Design quality, code
+quality, performance, design tokens,
+etc. One of the ones of note that I find
+really important from my perspective is
+at Microsoft I worked on accessibility
+and I learned a lot about what it means
+to build an accessible software system.
+And I I want to be honest with all of
+you. I was very frustrated when I first
+saw LMS come out and they generated code
+that was inaccessible period out of the
+box. I thought what models weren't
+trained on accessibility.
+Um, and I was reminded 20 years ago when
+you know engineers needed to be trained
+on accessibility. So here we are again
+now training LLMs instead of engineers
+on accessibility.
+So found issues. Um, here's an issue
+where
+has no Arya live region. So it won't be
+announced by screen reader. A blind user
+using this won't get an announcement
+about this element. So Rewaver found
+that and Rewaver says it can fix it and
+Rewaver fixed it. Now the red went away,
+but there's also a blue issue here as
+well. Um so Rewaver stacks up issues and
+you know basically scans scans the code
+and scans the design and produces u
+guard rails to a sense but also a way to
+fix the code and make it better.
+So I did that across multiple dimensions
+um you know with the intention of seeing
+if anybody had solved the drown the the
+roundtrip problem
+and it didn't go well. Uh I never got
+really the full round trip. So I really
+tried hopefully this slide tells you I
+tried five different tool setups trying
+to do code design code roundtrip both
+directions birectional
+lots of lossy issues uh you know
+bindings were lost um design change
+survived but code didn't
+I'm not going to say we're not going to
+get there um but even if we do get there
+and we're able to do this I wonder if
+we'll get fully there And maybe we need
+tools like Reweaver. I shouldn't say
+maybe, we do need tools like Reweaver to
+help us understand the drift.
+So that whole experience for me really
+highlighted something from my past. Um I
+had I had built a lot of software
+development tools, designed and built
+software development tools and developer
+tools in their nature are deterministic.
+You write code, you compile it, you get
+an SA a it it'll every time you run that
+code, you'll get the same result. When
+you put AI in the middle of that or in
+the front of that or the end of that,
+you're not going to necessarily get the
+same outcomes. Now, there are tools that
+will help you understand, rewaver being
+one of them, that there's a mismatch.
+There's drift there and we need to be
+aware of drift. Drift lurks in the dark.
+You need to look at the code. You need
+to find the drift. You need to fix the
+drift. And you do that with
+deterministic guardrails around the AI.
+The AI is still there. So I ran another
+experiment, 12 iterations on a codebase
+with complex enough UI to it. And I did
+one where it was just pure AIE, just LLM
+all the way. And it degraded a little.
+It degraded a little bit, but it started
+at 30% quality, 30% fidelity, 30%, you
+know, true pixel perfection.
+And then I put it on top of
+deterministic guardrails where we found
+the issues, we fixed the issues. You
+can't get to a hundred because that 10%
+is human judgment, human
+decision-making. So the human is still
+there in this equation.
+Um,
+so what is it today? Uh, today I I would
+call it we're locked into AI. And that's
+okay. We'll go there. We'll embrace
+that. But we're locked into AI for
+design to code. We're locked into AI for
+code to design, looping, chat bots, what
+we call span the chain workflows where
+you jumping across tools. And there's
+always token costs to be aware of, of
+course. So in this world, the agents are
+in control and the humans in the loop.
+I'd like to propose something else.
+Before I do, there are three blind spots
+we need to be aware of. One is the model
+itself. It's going to you can ask it
+questions. It'll give you answers, but
+it's nondeterministic. It's
+probabilistic.
+There will be drift in the moment when
+you're writing code. Drift will surface,
+but drift over time is the pain that
+you'll be experiencing for the next six
+months because drift over time is the
+new tech debt and it's going to pile
+itself
+gloriously over your codebase. Um, we
+want to do something about it. So here's
+where we think it isn't meaning what it
+could be what it should be fully
+birectional
+edit both ways lossless all surfaces
+preserved so if you go from code to
+design and design to code nothing's
+breaking weirdly for you provenence is
+carried where did this start from what
+line of code wrote this button
+I see this button in Figma I want to
+change it I need to change that code or
+Somebody needs to change that code. We
+have to control the drift. It's
+deterministic reconciliation at its
+core. So with deterministic guardrails,
+and I'm happy to talk after if folks are
+interested in what I mean by that,
+accept or refuse. So if they know
+there's a fix, they will fix it. If they
+don't know there's a fix, they will tell
+you there's an issue, but you need to
+fix it.
+And with Ruby Weaver, there's zero extra
+token costs. So, we're fully local LLM,
+but if you want to open up Claude or
+whatever and connect to us, you can. But
+at its core, and our core principle is
+the human is in control always. In
+control of cost, in control of code, in
+control of design, because that's what
+we've been doing for decades.
+We've been in control. We don't need to
+lose control. And I'm not saying loop
+isn't good, but human in control is I
+think a little more aspirational
+because at the end of the day, what you
+need is actually what you get. I call it
+winnywig. Can I use that winny wig?
+So what are we building at its core?
+What we're building are nine dimensions
+of deterministic guardrails.
+Inside of this is a lot of stuff, but
+these are our top level um software
+quality, software production readiness
+dimensions. Design consistency being
+core. Of course, when you have a design
+system and the code isn't consistent
+with it and vice versa, we need to fix
+that. So, there's a lot of design
+consistency
+um work that's going into the the
+foundation. Accessibility is its own
+dimension. um maybe selfish of me but I
+think it's core
+uh AI code generation too or AI code
+sorry governance AI code generation
+governance is another really critical
+piece because the code is just flying
+through the system and we need to govern
+that code now we're not going to change
+the code rewaver actually doesn't write
+code you write code reweaver will do
+what you want it to do so if you say
+apply the fix it'll write the code for
+you can see the code being written You
+can say never mind undo. You can ignore
+it. So at the end of the day, catch what
+drifts in a closed loop before anything
+merges. That's the goal.
+You can try it out with your own code
+today. Right now, you can go to reweaver
+AIPplayground
+and we built kind of a similar harness
+to what I built there where you can put
+your AI generated code on the left on
+the left. You can scan it and get your
+results for that code. There's also a
+fun little challenge on that page. If
+you can get AI to generate code that
+gives you a score lower than30
+PDR,
+which is production drift ratio, will
+get you a frontline seat on the beta,
+but you'll also get yourself showcased
+at the bottom on the crawl. So, give it
+a shot. Take a look. Um, meanwhile, I'm
+looking for people to join our beta.
+We're going to basically blast out mid
+July hopefully.
+Um so would love for you to join if
+you're interested um to make the product
+better to sanity check us. Um basically
+that's it and you can also reach me
+online or outside happy to talk more.
+Thank you.

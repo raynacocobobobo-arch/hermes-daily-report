@@ -1,0 +1,544 @@
+UP主：Matt Wolfe
+标题：I Built A Tool To Detect AI Video (You Can Have It)
+链接：https://www.youtube.com/watch?v=-KcHn0QcSb0
+
+We've got a problem. And I know you've
+got the problem, I've got the problem,
+[music]
+we've all got this problem. AI video
+slop is everywhere. Not a day goes by
+where I don't have like my parents or
+like one of my friends or they my
+producer sending me a video saying,
+"Hey, look at this cool thing that
+somebody just invented." [music] And I
+watch the video, I go, "Dude, that is
+not real. Like seriously, you thought
+that was real?" And I'll be honest, I've
+been fooled. Like I get videos and I'll
+watch it like two or three times before
+my brain [music] clicks like, "Wait a
+second, I think that might be an AI
+video." And you know what? I don't want
+to deal with that anymore. I want to
+make something that if somebody's going
+to send me a video, I'll say, "Hey, go
+to this place first, plug in the link
+you're about to send me, and if it says
+it's AI, you know, you don't have to
+send it to me." So, to [music] solve
+this problem, I'm going to try to make
+an AI slop detector. A simple website
+where when you see a link on Instagram
+or TikToker, YouTuber, one of these
+places, you take that link, you put the
+URL in the site, and it'll tell you if
+you're seeing an AI video or not. I'm
+sure other people have done this. It
+seems like a pretty good idea to have,
+but I haven't come across one yet that's
+actually decent. So, I'm going to try to
+make it. And to do that, my first step
+is to go over to ChatGPT and try to
+figure out if it's even possible. So, I
+spoke out this long prompt here,
+basically giving it my idea. I have an
+app idea that I want to create, but I
+want to figure out the viability. Please
+help me think through how to actually
+make this happen. Now, I am personally
+familiar with existing things that are
+designed to help detect AI video. Like
+Google has a thing called SynthID. So,
+if I run it through SynthID, it'll tell
+us if it's a video that one of Google's
+platforms made. It won't tell us
+definitively if it's AI or not, but if
+it was made with Google's AI, it should
+theoretically tell us that. The Gemini
+models from Google are also one of the
+only models that are really good at
+looking at video and actually having an
+understanding of that video. So, I said
+we can use the Gemini models. So again,
+I talked out the idea and then I sort of
+let it know what I know exists to see if
+we can create this. In fact, Google just
+rolled out a brand new version of their
+video understanding in September. So, I
+mean, apparently the new capability
+improves accuracy. So, we can use that
+as part of the workflow as well. So, it
+took ChatGPT 17 minutes to figure out if
+this was actually viable or not. And for
+the most part, it said like, "Yeah, you
+could do this, but it's not going to be
+100% accurate. So, don't let people
+think that it's perfect every single
+time." Which, you know, that's good
+enough for me. Let's go ahead and try to
+build the thing. So, I'm going to use
+ChatGPT and their models to build it.
+And so, I want to switch to coding. I'm
+in the ChatGPT app here. We'll switch
+over to Codex, cuz that's where we're
+going to do coding. I'm going to come
+down to projects. We'll create a new
+project. I'll create a new folder on my
+computer. We'll call it AI Slop Detector
+and we'll give it access to that folder.
+Now, I'm kind of lazy, so I'll jump back
+to the chat here, click on share, and
+we'll copy the link to this actual chat,
+jump back into our Codex project, and
+I'll tell it I want to build this AI
+Slop Detector app, and I want to be able
+to publish it online for others to use.
+And then I just link to that chat that I
+just copied. Read our previous chat to
+get all the details and the map out the
+plan. I also mentioned I want to use the
+new Gemini agentic understanding model
+as part of the process to detect the AI
+slop. And well, I linked it right over
+to that article we were just looking at.
+And an hour and 16 minutes later, we
+supposedly have something usable. Okay,
+so here's what it gave back. Man, AI is
+really bad at writing [laughter] copy.
+Check it before you share it. We We
+evidence. We do not certify reality.
+Paste the weird video your uncle sent.
+>> How do you do, fellow kids?
+>> What?
+>> Gemini inspects the footage, we check
+the evidence, and you get a verdict with
+receipts. And then, doubt here, what did
+they send? This where we plug in the
+URL. Says it works with YouTube, TikTok,
+Instagram, X, or you can upload a clip.
+See a sample report. Okay, so probably
+AI with a confidence rating. Okay, so
+that's what a report will look like. All
+right. I've actually been saving clips
+that I come across that are AI that some
+people seem to think are real. And so,
+yeah, they're in my dashboard here. Let
+me grab one that's fairly obvious. Like
+this Fart Zooka. So, here's the clip, a
+lady wearing like a sort of inflated
+suit with a jetpack on it that they call
+Fart Zooka. She flattens down in the
+water and then, you know, starts jetting
+across the water in her, you know,
+inflatable fat suit thing. Clearly AI.
+Let's see if our detector can figure it
+out. We'll plug in our URL here. Scan
+this video. All right. So, it determined
+that the Fart Zooka was probably not AI.
+Uh not off to a great start here. Oh
+man. Let's see uh what looks suspicious.
+4 seconds, "Assimilated particle emitter
+effect produces rigid white spray from
+the rear nozzle of the suit,
+characteristics of traditional CGI VFX
+rather than generative AI." It didn't
+find any content credentials and it gave
+it a high confidence rating.
+>> [laughter]
+>> Oh boy. We got some work to do. So, I'll
+jump back into ChatGPT here and this
+last one I was actually using GPT 5.6
+Soul Ultra. And since that version, we
+actually got a new model. So, I'm
+actually going to create a new chat here
+and we're going to use the new GPT-6
+Astra model.
+All right. All right. So, it uh worked
+for 5 minutes and 40 seconds here. I
+would not trust the current high
+confidence labels. You think? I
+[laughter] found reproducible problems
+in the verdict logic plus gaps in how
+the detection quality is evaluated. The
+main findings, high confidence is
+assigned automatically from Gemini's
+number. Anything at or below 15 gets a
+high confidence. App can override an
+inconclusive assessment. WHO GIVES A
+>> OH.
+>> OH. [screaming]
+>> LET'S JUST SEE HOW good Astra is at
+this. Go ahead and build out your
+recommended changes to make our AI slop
+detector actually work. Make no
+mistakes.
+I'll go ahead and add the {slash} goal
+to it cuz then that that'll just make it
+like keep on running and like testing
+itself until it figures it out. And I'm
+just going to do the thing and see if
+this gets us [laughter] where we want to
+go.
+>> Lay down.
+>> Okay, so that took a couple more
+minutes. And by a couple more minutes, I
+mean over eight hours later. It created
+four different documents for me, ran a
+whole bunch of tests to see if it could
+get it working. And at the end of all of
+those eight plus hours, it actually says
+goal stalled. So [laughter] it didn't
+even finish yet. I'm not even recording
+this on the same day. Essentially, what
+it came to was I need to go and use this
+API Site
+Engine's $29 a month actually is, you
+can tell what's going on in the videos,
+but also down here we can see that it
+could detect if something is AI
+generated. So yeah, an API that
+literally does what I made this whole
+video to do. But screw it. I've come
+this far, so I'm going to go ahead and
+sign up for this API and see if we can
+get this thing working. Okay, so free
+tier gets me 2,000 operations a month,
+basic content moderation and AI
+detection. But it doesn't get me video
+processing. So I don't think this free
+trial is going to work here. Okay, so I
+went ahead and signed up for a pay plan.
+Let's go ahead and grab an API key here.
+Now, our API key needs to go into
+something called the environment
+variables file. So, I want it to sort of
+prep the environment variables file for
+me. I don't need it on Astra Ultra for
+this, so I'm just going to bring this
+all the way down to like light. So, I'll
+let that set up for me real quick, then
+I can copy and paste my keys into that
+file. Cool. That took about 20 seconds.
+All right, so it created this little
+section down here with Site Engine API
+user, Site Engine API secret. So, I just
+need to copy and paste the stuff right
+here. So, I'll copy my API user here.
+We'll paste that in, and then we'll copy
+our API secret here, paste that in, and
+then save our environment variables, and
+cool. So, that file has now been
+updated. I'm going to jump back up to
+our Astra Ultra and tell it Site Engine
+API is now set up. Please continue to
+pursue the goal. Hopefully, this isn't
+another 8 hours. What's really
+interesting about this is that it's
+actually running its own tests. So,
+looking through some of the chat logs
+here, the detector put in 39 AI clips,
+and it detected 23 out of the 39
+properly, and it falsely flagged two out
+of 36 real clips. And as we scroll
+through some of the chat logs here,
+still isn't reliable enough to trust.
+So, it tested a few more things, still
+not reliable enough to call it fixed,
+tested a few more things, and we could
+just like scroll through and see that it
+just kept on testing itself over and
+over again going, nope, not good enough.
+Nope, not good enough until it finally
+came to the conclusion, let's [laughter]
+use a different tool that already does
+this. So, I'm going to let this run for
+a few minutes and see if we get
+something that's actually working, even
+though we're now using somebody else's
+tool that they built to do this same
+thing, and just using an API. But at the
+end of the day, the result should be the
+same. So, it's been 1 hour and 50
+minutes since that last prompt they gave
+here. It did ask me to share an
+Instagram reel so it can test it. And
+SiteEngine is integrated and I tested
+your exact reel, it flagged 19 of 23
+sampled positions and Gemini found no
+clear AI indicators. So, the app now
+shows inconclusive with the disagreement
+visible without unsupported HIGH
+CONFIDENCE.
+>> NO, GOD, PLEASE, NO.
+>> SO, AFTER all of that, you know, 10
+hours of prompting, I can still give it
+an AI video that I, as a human, can
+clearly tell is AI and it still tells me
+it's inconclusive. So, let's refresh our
+AI slop detector here, grab the link to
+our AI farts bazooka video that
+anybody with a brain knows is AI, paste
+it into our slop detectormarator here,
+and scan this video. And after like a
+minute, we get inconclusive. I don't
+feel like I'm any closer than I was when
+I started this like multiple days ago.
+SiteEngine detected repeated AI
+indicators in 19 sampled frames across
+three stretches of this video. Gemini
+found no clear indicators in the same
+media. It seems to me like this API that
+I plugged in for SiteEngine accurately
+determined that it was AI, but because
+it also ran it through Gemini and Gemini
+found that it's not AI, they disagreed
+and it found it inconclusive. Let's see
+what happens when I give it like a video
+that we know is not AI. So, I'll go to
+my friend Kat GPT's channel here and
+let's just grab a random video where
+she's just like talking to the camera.
+>> I've always said that deep fakes are the
+absolute worst case scenario of how we
+apply generative AI on
+>> I mean, a pretty relevant video to what
+we're talking about, too. So, let's go
+ahead and take this URL, pop it into our
+detector, and see what it finds cuz this
+one's clearly not AI. It's just somebody
+talking to camera. And it's
+inconclusive. Okay, [laughter] this is
+annoying here. Let's see. The
+observations do not support a consistent
+conclusion about AI generation or
+manipulation. And it says the specialist
+scan currently supports clips shorter
+than 1 minute and up to 50 megabytes,
+which is not true. I think that's just a
+limitation that the code put on itself.
+I didn't give it that limitation. All
+right, so I need to go and uh let's give
+it one more prompt here. Hopefully we
+kind of land on something that's
+workable. I'm going to take it off ultra
+mode cuz that just seems to be running
+for far too long and I don't think it
+needs to process as long as it has been.
+All right, hopefully this gets us there.
+I'm like this close to giving up on this
+damn thing. Okay, so after another 31
+minutes, it should be able to process
+longer videos and our site engine takes
+priority because that one seems to be
+better at actually detecting AI. Cool,
+let's try this again. I'll try with our
+Cat GPT video one more time. Paste this
+in, scan this one. Okay, I think we're
+onto something. No clear AI indicators.
+That is good. No reliable evidence of AI
+found on a video that was definitely not
+AI. So, no flags in sampled frames. What
+argues against AI? Consistent object
+permanence, natural eye contact,
+acoustically realistic speech and
+timing. Awesome. Okay, now we have to
+give it an AI video and hopefully it
+does determine that it's AI. So, might
+as well test our Fart Zooka video again.
+AI indicators. Nice. Coming along. Okay,
+repeated AI indicators found. So, it
+didn't find content credentials. We
+could see Gemini didn't find any visual
+indicators or audio indicators. So, it
+doesn't necessarily tell us why it
+thinks it's AI, but all these orange
+markers are things that it decided were
+AI. So, let's pull in another video.
+We've got this video of a crane dropping
+an airplane into a hole. And I mean this
+dude is taller than the airplane at this
+point and then now he's all of a sudden
+miniature and like can walk around
+inside the airplane, but earlier he was
+taller than the airplane. So, I mean,
+clearly AI. And this one's on X, so this
+will help us determine if it can watch X
+videos as well. So, let's go ahead and
+copy this URL, plug it into our box
+here, scan the video. Ooh, okay. AI
+indicators detected. So, yeah, once
+again, it determined that it was likely
+AI. Again, it's this site engine that
+seems to be pretty decent at determining
+if it's AI, but it also doesn't seem to
+like tell us why it thinks it's AI. It's
+just like, all right, at all these
+markers we think we spotted something
+that was AI. And well, Gemini's visual
+review just kind of sucks. But, the that
+site engine tool that we connected to it
+here does seem to figure it out. Let's
+look at our usage, actually. All right,
+apparently we've used 11,040 operations.
+And I've already used a fourth. That's
+That's horrible. That's That just sucks.
+All right, but our AI detector
+[laughter] is kind of working. I really
+hate the design, though. I'm actually
+going to say, go make this a minimalist
+design. All right.
+>> [laughter]
+>> Now, it's just a clean, simple paste
+link, upload video. Uh yeah. So, let's
+go ahead and grab one last link here.
+This is another video that is pretty
+clearly AI generated. Uh so, let's go
+ahead and copy this link, toss it into
+our new improved minimalist detector,
+and let's scan our video. All right, AI
+indicators detected. But, again, it
+doesn't really tell you what it sees. It
+just tells you like at these moments
+it's probably AI. Let's see. Gemini,
+once again, no clear visual indicators.
+So, Gemini not good at detecting AI
+sources and credentials. So, there's no
+content credentials identified. So, they
+didn't like tag it as AI. But, overall,
+it pretty much says, yeah, it's probably
+an AI video. So, that's perfect. Let's
+try it one more time with a non-AI
+video. I'll grab a video from another
+one of my friends, Tiffany Jenkins,
+here. I'll go ahead and grab this URL.
+Let's toss this one into you the Slop
+Detector here. No clear AI indicators.
+Yes. Okay. So, Site Engine didn't find
+anything throughout the video that it
+thought was AI. Of course, Gemini didn't
+find anything, but Gemini never finds
+anything. So, it appears to be working
+pretty well now. So, here's the thing.
+My goal with this video was to build
+this AI Slop Detector and then put it
+online so that anybody can copy any URL
+in, paste it in, and double-check if it
+was slop or not. Unfortunately, that's
+not like financially feasible
+cuz it needs to use that Site Engine API
+to test if something is actually AI or
+not. And at the $100 a month plan, I
+only get 40 operations, and I have no
+clue what counts as an operation. But
+just in my testing, I've already used
+12,150
+operations, and I've only run like six
+videos through this. The last few videos
+I ran through it, like this is the most
+recent one, it used 440 operations. So,
+I just have like no way of tracking this
+and knowing how many operations are
+going to be potentially used. So, I
+really can't like put this online and
+let just like anybody run wild with it.
+But what I can do is I can put all the
+code of everything that I have built
+here up on GitHub. You can download it
+and run it locally and connect your own
+Site Engine API if you want and run it
+if that's valuable to you. Now,
+something I've been thinking about a lot
+lately is we've had multiple people
+claim that we've officially hit AGI.
+Like Jensen Huang said that AGI has
+arrived. OpenAI claims that AGI era is
+here. AGI sort of means that you have an
+AI that is as smart as any human at
+pretty much anything a human could do.
+One of the reasons I'm not buying the
+we're in AGI narrative is this. AI still
+really sucks at determining when
+something is AI, right? If AGI is
+supposed to be as good as a human at
+like pretty much everything a human
+could do, why is it so bad at telling me
+something is AI when me as a human can
+pretty easily tell when something's AI.
+Why can't an AI do that if we're in AGI?
+Gemini's like the only model we've got
+right now that can actually watch videos
+and tell us what's going on in it and it
+can't tell when something is AI. If you
+feed a link to Astra or Anthropic's
+Fable 5.1, you feed a video link or an
+image link that's clearly AI to your
+eyes to one of those models and say tell
+me is this AI or not, it'll tell you
+it's inconclusive and it can't tell.
+These are supposed to be the best
+models. These are supposed to be AGI.
+That's why I'm not buying the AGI is
+here narrative, at least not like what
+we have publicly available. We as
+consumers don't get the most powerful
+models ever. Now, I do understand the
+the narrative that there's also this
+like cat and mouse game where if an AI
+gets really good at determining if
+something is AI, then the models will
+get better at making things harder to
+detect that they're actually AI and this
+cycle will continue. But right now,
+they're just kind of bad across the
+board at this. My AI detector is getting
+me closer to being able to do this, but
+it's using a third-party API called Site
+Engine. And while Site Engine is using
+an AI, it's using like some sort of
+computer vision model, it's not using
+the new like LLM sort of generative AI
+models that these companies are claiming
+are AGI. Anyway, at the end of the day,
+I did manage to get an AI slop detector
+working. Unfortunately, I don't know how
+to give everybody access without just
+like sharing it on GitHub and saying you
+can use it, but you need to bring your
+own API keys. But hey, I got something
+that's kind of working. So now, whenever
+Dave sends me that random video and
+tells me to check it out, I can You like
+Dave, are you serious? Come on. That's
+what AI slop detector's for. Anyway, I
+had a lot of fun building this even
+though it's not quite the end result I
+was hoping for. But if you like cool
+tech and you like nerding out about AI
+stuff, maybe consider liking and
+subscribing to this channel. I drink
+from the firehose all week. I keep up
+with all the latest AI news, all the
+latest AI tools. I test the stuff. I
+have conversations with the people
+inside the labs. I am constantly
+consuming it all and overwhelming myself
+with all the latest and greatest AI tech
+so that you don't have to. And then I
+make videos like this and my Friday AI
+news breakdowns where I break down
+everything you need to know that
+happened in the world of AI for this
+week in just one video per week. Again,
+if that's something that interests you,
+make sure you like this video and
+subscribe to this channel. It'll make
+sure you're always looped in on all of
+the latest happening in AI. Thank you so
+much for hanging out with me and nerding
+out with me in this one. It's been a lot
+of fun. Again, not the result I wanted,
+but uh I got a result. I I I kind of got
+where I wanted to go. But that's what I
+got for you. All right. I Yeah, I don't
+know how to end this video. So

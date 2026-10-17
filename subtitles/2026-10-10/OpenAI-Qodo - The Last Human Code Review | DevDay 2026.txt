@@ -1,0 +1,535 @@
+UP主：OpenAI
+标题：Qodo - The Last Human Code Review | DevDay 2026
+链接：https://www.youtube.com/watch?v=bQ3-pXCpCTg
+
+Hello, hi everyone, welcome, welcome.
+My name is Danielle, I work on
+the developer experience team here.
+And today we are going
+to start our interview.
+So for those of you, anyone passing by,
+feel free to come on in, hang out.
+So I'd love to introduce the CEO
+of Qodo, Itamar Friedman.
+Come join me.
+All right, have a seat.
+All right,
+welcome, Itamar.
+Such a beautiful day.
+It is, thank goodness.
+So before we get into
+the technology, can you tell us
+a little bit about what Qodo is
+and who you're building for?
+Sure. So our customers are describing
+Qodo as Codex's best friend.
+Basically, Qodo is collecting
+context from tribal knowledge,
+engineering tribal knowledge, and give
+it into Codex, as well as using
+that to review Codex while it's coding.
+We want to help building a clear,
+clean PR to begin with.
+And eventually, it's a governance
+layer showing the software map
+and how it drifts over time,
+because we need to control it.
+And let's talk for a moment,
+we're here at OpenAI DevDay,
+about how OpenAI models and Codex fit
+into Qodo's review workflow today.
+And what has Qodo built around them?
+Yeah, sure. So as I mentioned, we have three
+workloads, and each one
+of them is quite unique.
+We actually moved from
+flow engineering to, sorry,
+from prompt engineering to flow
+engineering to swarm engineering.
+And I think we heard here
+in the talks that it's quite hard.
+But when you focus to swarm on
+specific, you know, use cases,
+you can get actually get a lot.
+And one of those use cases, as
+I mentioned, is creating that software
+map, the context for proper
+code generation and review.
+We actually call that wisdom-based.
+Okay, so you talk about wisdom-based.
+And can you tell us the difference
+between intelligence
+and wisdom?
+What does a reviewer need
+to know about an engineering
+organization that it really can't
+learn from just the code alone?
+Yeah, sure.
+So I think like, in general,
+we have like,
+raw data, and then there's
+information, and there's
+knowledge, and then intelligence.
+And I think the jump to wisdom
+is about experience.
+I think like, intelligence
+could be like the brain itself,
+if I may, if you allow me.
+And experience could be only with like
+a full system, a full body.
+And I think like as a very
+professional developers in front
+of us, like, what makes us
+unique is that we experience,
+like we have understanding of how
+the software works through experience.
+And that's what you need
+to codify if you want to provide
+that directly to the coding
+agent and code review agent.
+Basically, if you want to build
+a software factory end-to-end
+and let human deal more
+with the policies and managing
+the swarm, you have to codify
+that wisdom, that experience.
+Yeah. So the wisdom actually ends up
+being maybe more valuable in some
+cases than the code itself.
+Yeah.
+Okay. I want to talk about an example
+where code really shines.
+So can you walk us through
+a time when a change maybe
+looked complete until
+the reviewer found a problem?
+Yeah, sure.
+It happens a lot.
+I think also to us as humans, right?
+So you look on the
+code and it looks locally really good.
+There's no semantic issues or so.
+But then when you're thinking
+about the software as a whole,
+you might create a downstream problem.
+That's really, really hard for a lot
+of the coding agent to find.
+So giving an example of one
+of her customers, they're serving
+millions of small and medium businesses
+and letting them build whatever,
+but whatever they're enabling
+their small businesses is very flexible.
+And something that those
+customers can do can almost
+direct access to the databases.
+So a lot of their code changes is
+actually touching databases.
+And again, locally, it might look good.
+But then when
+you consider a downstream
+surface that actually can
+go get a huge outage
+because of change you look locally is
+something that Qodo helps to find.
+And it's really hard
+also for human reviewers.
+It's like almost equivalent of if I
+go and compete with Google understanding
+of a search engine, understanding on
+a page something, I will do better.
+But if I'm competing on a library,
+like scanning the library, I won't.
+And that's exactly where
+it's hard for humans.
+And like the coding agents are just
+running just in time while
+having a workflow that is running
+on the background sleep time
+compute and always calculating
+that software map, software graph.
+And a little earlier, you kind
+of mentioned prompt engineering,
+flow engineering, swarm engineering.
+So can you tell, well, firstly, can
+you maybe like describe what that is
+a little bit and talk about what
+has changed as you've moved from
+those different types of engineering?
+Do you remember those days
+that there was like a profession
+prompt engineering?
+And that's, that's how we
+helped building like
+a simple like question and answering
+that's what what the model were capable.
+And that was
+also what was used in order
+to compete in coding competition.
+We're talking about 2023.
+In 2024, we came out
+with a paper called Alpha Codium
+that what we described there is
+that we shouldn't think about like
+back and forth question answering
+and prompting that rather thinking about
+it as a whole whole flow that you
+should engineer like basically download
+how you work, for example,
+as a developer and engineer,
+engineer that that's flow engineering.
+But then today, the models
+are actually quite capable
+in building their own workflows.
+So what's still
+there and that's very valuable is
+designing the swarm as a whole,
+like having different agents
+and defining exactly what are
+their goals, what are their tools,
+how, what are their guardrails,
+what are their policies and all that.
+That's if you try to let the agent
+like sub, send their own sub agent
+and they're find their own tools.
+I even was in a talk
+that one of the people from OpenAI
+warned about that, that it's
+still very early and could be
+like very wasteful.
+Specifically when you're thinking
+about a product that's
+supposed to bring trust,
+that you need like the output to be
+backed by data and you need
+to design like swarms that are
+like have evidence to their work.
+So that's where I recommend everyone
+going like thinking about like you
+know where where the models are being
+able to complete tasks and you want
+to help them to focus on what
+are what are the tasks, the big
+tasks that they need to do.
+Yeah okay and then
+so moving
+on to the reviewer,
+how how do you actually
+know that the reviewer is
+improving the outcome?
+What are the signs?
+Yeah it's a really good question.
+I'll focus on a software
+factory notion because I think
+like we're all on our journey
+to build our software factory
+but depends where you are.
+If you're really in the early stage
+then probably like your code
+review tool is giving you
+findings on the pull request page.
+I think that by 2027 that will
+look ridiculous to us.
+It's so much mental load so basically
+we need the code review for example
+to give that feedback to the agents
+in the developer while they're coding
+and the first thing is that the coding
+agent and the code review they need
+to agree among themselves and then
+only when they don't agree then they
+bring it to the to the developer
+and and I think the the least
+the the if the developer
+the minimum you can you can measure
+how many times that developer
+was needed to be prompted.
+So instead of the developer
+prompting the agents how like
+the agents are prompting the the human
+and and you ask yourself how many
+times developers would needed to be
+prompt to complete a high quality PR.
+Yeah, no, I actually think
+this is a really interesting point.
+I've heard
+an API developer at OpenAI he said
+to me something along the lines of
+I am no I'm no longer asking
+Codex or prompting Codex
+Codex is prompting me.
+Yeah
+And so coming to this point
+about the coding agent
+and the reviewer agreeing
+when they do disagree with each
+other which inevitably
+will happen What should
+reach a human and what
+is that person going to need
+in order to make a decision?
+Yeah, totally.
+So
+First of all, I think like there's
+a theory saying that two agents
+humans or artificial that have
+the same amount the same information
+and they both are reasonable people uh,
+then they should reach to the same
+conclusion and the idea here is
+I think the reason is that coding
+agent is basically reached
+different conclusion than a
+Adversarial agent is the context
+they have and also the human agent
+the context they have and then
+The real reviewer at the end
+of the pull request that hopefully
+he or she got a clean PR
+the context they have So I think
+what will help to work this out
+Is if everything is grounded
+like everything like there's
+actually papers about it If you're
+if you want to go and read
+about the reviewer critic generative
+like networks that Everything is
+grounded then eventually they they
+should get to agreement should
+Okay
+So
+Maybe they agree with each other
+That's great
+What if they agree?
+But they're both wrong
+What is going to catch
+those specific cases?
+When is a human still
+going to need to step in?
+So Uh should happen uh,
+sorry for my french Uh,
+and it will happen And I think
+what We want to achieve is
+that we don't do a mistake twice
+So we could reach to a point
+where the coding agent agrees
+with the With the review agent
+and then eventually developers agree
+and the reviewer agree And then
+like uh, it goes to production
+But then something happens, right?
+Like there is some incident some
+bug that was opened or or so
+And then that has to be recorded
+in a really smart way Into
+the knowledge base and what
+we call the wisdom base Uh,
+so I think that's the potential It's
+so hard to do pre-ai But actually
+that's a potential post-ai It's
+really hard to uh, those the tribal
+knowledge sometimes it's like Uh
+People accumulate them uh, and then
+maybe they even leave the company
+Right, and and I think like what's
+really interesting like one of the most
+promising thing is that continuous
+learning that You do mistakes,
+but they're codified from now on
+forever until you need to prune it
+And it's not relevant anymore
+and into the wisdom base
+of the developer uh memory
+Um,
+we have a little time i'm gonna go
+a tiny bit off script because
+we've been chatting Um
+script what are you talking about?
+No script no
+Um
+So one of the things that you've
+sort of mentioned here as well is
+you know wisdom tribal knowledge We talk
+about these words all the time um
+I actually used to work on technical
+onboarding at OpenAI before moving
+to developer experience And this was
+something I heard a lot people
+were always talking about tribal
+knowledge and how much of an issue
+it was So can you tell me
+about how the knowledge base
+and how the or how this wisdom?
+Is sort of replacing
+that tribal knowledge and how
+people can leverage that?
+Yeah, of course So one of our clients
+financial institution the big one um
+south east uh, they have like a
+Hundreds of repositories and multiple
+micro services and and there's
+so much uh knowledge about
+What works and what does not
+work at scale and they cannot
+fuck up again sorry for my french
+And and it's it's it's a financial
+institution you can't go wrong
+like they they want to They want
+to progress towards a software factory,
+but they can just can't let
+things go go wrong And uh,
+all of this micro services each one
+is is in charge of something else
+And only those senior developers
+that they had some of them left
+Actually knows what what works
+and what what not So part
+of the giving you an example part
+of the wisdom base is scanning backwards
+years of discussions
+Bit of developers on github get love
+bit bucket whatever on slack teams,
+uh, whatever and and Uh codifying
+that tribal knowledge and bringing it
+back and understanding What is
+the meaning of making a change of one
+service on another another service?
+Sometimes that connection is
+really hard to do because it goes
+through through some streaming
+or Like it's not like literal
+and in the code that the data
+that streams through it Is actually
+defining the actual usage right?
+And that's part of what we're
+trying to do in coda we look
+on that data and try to codify
+that in the software map
+Amazing so
+Let's talk about what coda's plan
+for the future is considering
+the fact that the models today
+Are the dumbest that they will ever be
+Probably yeah, totally
+So I think like we
+talked about the the size
+of the task what is a task?
+I encourage everyone if something
+to take from here that the models
+are just going to be better
+the The model that we sound out
+is just the dumbest and then it's
+we're hearing for a couple of months
+not just now that Agents are being
+able to do a long run Sometimes
+it works sometimes not but let's
+assume they will that means that they
+will be able to complete a full
+task for us And I think we
+need to reimagine what is a task
+for example in software development
+Just by by the tools we're using
+in our capabilities to manage
+with code We define a task like
+as a pull request or or that's
+like the units that that we process
+through through our factory Right,
+and I think that will be reimagined
+who cares about that pr what you
+care about is completing a new
+capability Or a new feature end
+to end now that is not something
+you can or can or want to discuss
+In github pull request page, right?
+It's just one pr there's five
+or 15 other pr's in that repo
+or or another And that as a whole
+is a task So we need to reimagine
+how we do that and shameless
+plug stay tuned in the next few
+days We are going to release what
+we called work package triage
+Basically being able to help you
+understand how all the pr's are
+connected to each other in order
+to complete a task and being
+able to review that as a whole.
+So that's for us the inspirational
+part of reimagining a task
+in order to build a factory
+And I think of all builders here.
+That's what I would point out
+to think about Okay, and then
+I also would love to leave them
+with something that they can try today
+So what should a developer building
+with OpenAI try when they are
+designing this type of reviewer?
+Yeah, sure so I I do
+first of all I am very excited
+about the decision API
+I used to work in a company that
+Build embedding models and so
+on before Qodo and I knew
+that this potential is coming
+actually I think one of the known
+decision models out there are
+based on a model that we developed
+in that company Anyway, I think like
+the the potential of the decision API
+that is out there is in order
+to create like fast a decision
+and in general I do recommend what
+I said is thinking about your task
+breaking the task to workloads
+Thinking what is the swarm that you
+need for each workload that could
+be two three five different uh
+of your own dots that's uh
+that that you need to develop
+and thinking how each one of those
+players uh in in in the game
+board you just uh we just
+developed the designed what kind
+of models they should be using
+and that's that's I think
+like going to be our Our game
+a game board for a while what
+I just described designing the swarm
+according to specific workloads to
+Help our customers and users to finish
+tasks end to end and optimizing
+with the right models to make
+that cost efficient because That's
+why not if it's such a promising
+and helping you complete tasks You
+would want to use it a lot
+and it needs to be cost efficient Yeah,
+okay amazing.
+Um, thank you so much.
+I also like personal note,
+you know I used to work it
+into it before this and um,
+I worked on technical training and Qodo
+was one of the very first products
+that I Did technical training
+for so being here getting to do
+this is like a very full circle
+moment to see you where you've
+come where the company has gone
+Since then since a few years ago
+is um really special so loops
+Human in the loop
+Um amazing.
+Thank you so much for giving
+us a look at the work behind
+the future of the code review.
+We appreciate your time
+Thank you so much.
+So good luck on killing your last
+human code review And don't
+forget that when you do that you
+still need to have like training
+for your developers, right?
+Good luck
+Good luck

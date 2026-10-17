@@ -1,0 +1,363 @@
+UP主：OpenAI
+标题：The Defender's Window at enterprise scale with Standard Chartered
+链接：https://www.youtube.com/watch?v=a75xDflRooI
+
+Ruben, we've heard a lot today about the
+defenders window, so I'd love to start
+the conversation there. What does it
+mean for standard charted and how you're
+protecting your applications?
+>> Right. I mean um for for standard
+charted I guess when we you know with
+with um frontier models uh what we've
+seen is that it obviously makes the the
+time to understand software and the time
+to figure out and identify exploits as
+well a lot shorter and and as such as a
+as a bank in a global scale uh you need
+to be able to understand what are these
+exploits a lot faster than than the
+attackers. Um, so it isn't really about
+finding vulnerabilities in code, but
+it's about understanding what is
+actually exploitable because attackers
+at the end of the day, they aren't
+looking at repos and assets, which is
+what a lot of security programs look at.
+They look at attack parts across
+systems, across APIs, across IDs, and
+across trust boundaries. So that's
+really key.
+>> Got it. Couldn't couldn't agree more
+that it's not just about adding to a
+longer list of CVES. Um, Standard
+Charted have been one of the first banks
+in the world to evaluate Daybreak, which
+we believe is going to be a critical
+part of the Defender ecosystem. So, I'd
+love to hear a little bit about how
+you've been using Daybreak so far. What
+kind of results are you seeing? Uh, how
+has it really been incorporated into the
+way that your teams are working?
+>> Sure. Um we we started looking down this
+track because we wanted to see whether
+Frontier AI was able to give us uh more
+insights into risks that the traditional
+approaches would not be able to provide
+us with. Uh would it be able to
+understand what uh what's happening
+across different repositories, what's
+happening across architectures and and
+trust boundaries. So that's why we
+started looking into this. Um and what
+we found initially our our earlier
+observations are that when the system is
+able to understand across architecture
+uh across you know we have a lot of
+microservices across microservices
+repositories what exactly is going on
+you get a lot more findings. So it's a
+lot it's it's a lot better to have that
+context around. So so context really
+matters. It it's more important to have
+that context than which model you pick.
+uh because with that context then you're
+able to uh find a lot of things that are
+truly exploitable.
+>> That's really interesting. So we we we
+hear a lot about kind of taking these
+frontier models and using them for
+static code analysis and trying to
+identify exploits that way. But uh can
+you just expand and maybe double click
+into that for me when you say like
+giving it more context and I agree
+context is king. What in practice does
+that look like? What what else are you
+feeding into the model at the time that
+you give it the codebase to help it do?
+So things like um the architecture the
+architecture diagram what is the what is
+the architecture deployment model of
+what we're looking at uh what are the
+dependencies um what are you know other
+services that are connected or or being
+used uh by by this asset across u and
+what what was the solution intent of of
+this uh item right so these are all the
+things that we're giving it the more
+context that you're able to provide it
+with then you get better results
+>> got it that makes sense and you know
+we've been talking a bit about the role
+that your team is playing by applying
+Daybreak. Uh, and there's a lot more
+things to consider beyond just the tech,
+right? How the team actually operates
+um, and you, I guess, have a
+responsibility to earn the trust of the
+team in using these new tools. So, what
+are you learning about how to make these
+AI generated findings trustworthy and
+how is that changing the way that you
+organize the teams that are working on
+these challenges? Um yeah, I mean
+just just doing a demo and showing it to
+the development team is isn't good
+enough, right? You need hard evidence.
+So working collaboratively with with the
+development team is where where I think
+we're going and that's what we've been
+able to do. uh is working in um in a
+cross functional group with uh
+application security as well as the
+development team together on on trying
+to you know run this because anything
+that we find needs to be validated
+against the code needs to be validated
+against the architecture deployment and
+against the environment right so in
+order to do that we need to do it
+together in a collaborative manner so
+that's what we're trying to do
+>> got it and I'm sure that many others in
+the room today are facing similar
+challenges is that uh security is not
+just the security team's problem but
+requires buyin from the entire software
+engineering community inside the
+organization. So are there any lessons
+that you learned of like what worked
+well or how did you uh win them over or
+get them to start to adopt this way of
+thinking into the way that they're
+building products and services inside
+the bank?
+>> Um
+it's it's not just focusing on hey we
+found something right. Um it it's about
+how do we kind of get better efficiency
+on remediation
+um and getting those uh those the right
+security outcomes. So one them
+understanding the root cause of why
+something happened and then they may not
+you know they they'll do different do it
+differently next time around and won't
+build their applications that way. Uh
+and and the other is also just work you
+know not trying to call it out trying to
+work with them to remediate. So also
+using the frontier AI to do the
+remediation so it's not just about
+another dashboard, right?
+>> Yeah. And not just adding another task
+to the backlog.
+>> Yeah.
+>> Um I think the coming back to the
+defenders window for a second, you know,
+there's a sense of urgency which which
+we certainly feel. I'm sure that many in
+this room also feel a sense of urgency
+to to address the challenge in front of
+us. But uh an organization like Standard
+Charted uh you know is large, has
+processes, has governance uh which maybe
+isn't designed to move at the speed that
+we're now trying to. So I'd love to know
+like how are you uh building confidence
+inside the organization to move at the
+speed that's required uh and get those
+other teams and and maybe update the
+processes that need to be involved.
+>> Yeah. I mean um I I think historically
+like security and I think anywhere
+defenders security has always been
+looked as as a gatekeeper or as a
+blocker. So it's just trying to change
+that mindset to be more enablers.
+um whatever we build and we do it's it's
+integrated into the pipeline. Um and one
+of the key things is to have it have the
+developers have access to that earlier.
+So it's like shifting left and allowing
+them to have access to that earlier. So
+some of the things that you spoke about
+uh this morning as as early this
+afternoon as it resonated is like about
+having a sort of you know a virtual area
+space in their development uh cycle
+where they can test this out as it's as
+it's running and and know for a fact
+that you know this is something that's
+exploitable. they see the evidence that
+it's exploitable and then they um
+prioritize based on exploits, right? So
+then when they know that you are trying
+to help them and enable them to go
+faster safely, you you you build you
+build that trust.
+>> Yeah, I think it goes hand inhand with
+kind of providing uh enabling them with
+agentic coding and tools to accelerate
+the work and and make sure it's not a
+huge traditional burden. Um the other
+thing I think you I mean having worked
+in the security space for a very long
+time. We were just discussing before we
+came on stage um there's always been
+this uh I guess race between defenders
+uh and and threat actors uh and always
+trying to stay ahead. Um this moment
+though feels like it requires like
+thinking differently. So I'm curious,
+how are you thinking differently maybe
+than you were five five years ago about
+the security space and what do you think
+other security leaders in this room
+should be thinking differently uh to to
+rise to the moment?
+>> Actually to be quite honest a few things
+that we still need to do and it's quite
+evident when you um when you go through
+and do this testing that we have been
+doing is that you have to make sure that
+you've got your found your foundations
+down right. So you need to focus on your
+foundations. Try to make sure that any
+technical debt is reduced. Reduce any
+technology complexities. Uh so not
+having too many languages like reduce
+that. um making sure that your
+architecture is up to date because that
+will make sure that'll enable you to
+have the right context to provide and
+have a solid identity and access control
+because ultimately AI when it's released
+into an environment it'll it'll it'll
+amplify whatever it it sees right and
+the the organizations that have the
+right foundation and if it's solid
+they'll be able to make the most out of
+it.
+>> Yeah, that that makes total sense. And
+is there anything that's been surprising
+as you've been on this journey over the
+last kind of uh six months or so uh
+adopting Genai into the security
+processes? Is there anything any
+learnings or lessons that kind of you
+weren't expecting that you think others
+might benefit from through that uh
+experience? I mean uh well the the the
+most part it has been about that context
+and how important that is which kind of
+leads you to some of the things that you
+take for granted in the SDLC that you
+think that development teams are doing
+like keeping the architecture up to date
+and stuff like that and then you find
+there are gaps in that and so that that
+has to get uh addressed. Um so you know
+that's been a a little bit of surprise
+but um not otherwise actually one of the
+things that's been comforting is to know
+that um you know because there's there's
+this push that hey have you found
+something that is uh out of the ordinary
+right and there hasn't been a lot of
+that you know so we it you know what we
+found resonates we expect some of those
+things to to be there or some of those
+things to be fixed but it's um yeah it's
+uh it's just that there are certain in
+areas that traditional tooling did not
+pick up on and that's been the the key
+thing that we've been able to pick that
+up with this method.
+>> That makes sense. And you know, one of
+the fascinating things for me about
+working with Standard Chartered is that
+you operate in so many markets uh around
+the world, so many regulatory regimes
+that apply, therefore many uh different
+systems uh across the different parts of
+your business. Uh that's a huge
+footprint to secure. So it's not
+necessarily just about scanning code
+repos. Um, I'd love to get your
+perspective as you kind of reflect on
+the the the size and complexity of the
+organization. Uh, how might you
+structure your team? How are you
+thinking about uh kind of building into
+the future as you uh continue to build a
+team that is able to respond to these
+new threats?
+>> Um, we yeah, we are a global
+organization and um do have a lot of
+different markets. uh our development
+teams are pretty much concentrated in in
+a few hubs. Uh that makes it a little
+bit easier to to kind of uh coordinate
+and collaborate with them. Um but the
+way that we see ourselves in security is
+is is enabling the developers with the
+right tooling to be able to do it to
+self-s serve and I think ultimately
+that's what we need to be able to do to
+self to get themselves served and um and
+be able to go securely but we'll have
+right checks along the way.
+>> Got it. That makes total sense. And then
+maybe just a final question from me
+before we wrap up. Um, as as we uh
+embark on uh kind of building out more
+products as we uh continue to advance
+the capability of Frontier models in
+this space, uh I'd love to know uh what
+what what would you like to see from
+OpenAI uh that would make uh your work
+as a defender easier? Would you take the
+feedback from Matt and the team uh to to
+incorporate into the product? Um I I I
+think you've um you gave us a good uh
+sneak peek earlier uh on where you're
+going with it and that's exactly what we
+were thinking as well in some of the
+conversations that we've had. Uh we do
+want to be able to like as you're moving
+the product is to be able to run it at
+scale. So just doing uh a scan on a
+handful of repos or repo by repo is not
+scalable. So being able to run something
+in uh in a sandboxed environment and do
+it at at bulk uh to to see if there are
+any exploits because you the the fact of
+the matter is that you have a lot of
+applications that are connected to each
+other. So you want to understand what is
+that blast radius and you know if you if
+one gets breached where else does it go.
+So I think what you're thinking about
+with the defense factory would would be
+really good. Well, I'm looking forward
+to get to getting you access uh set up
+soon uh to the defense factory. Um so we
+could I'm sure continue the conversation
+all day, but uh I'm watching the clock
+and our our time is up. So thank you so
+much uh for joining us today, Reuben. Uh
+and I'm sure that Reuben will be
+delighted to to answer any questions if
+you if you want to find him uh after the
+sessions today. Uh we'll be having some
+drinks afterwards. So please do come
+find him and ask questions. But with
+that, right now we're moving straight on
+to our next session. Uh so please
+welcome my colleague Claire Lawler who's
+our fantastic account director for the
+digital natives uh team in AMIA to the
+stage. Thank you.

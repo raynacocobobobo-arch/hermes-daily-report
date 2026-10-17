@@ -1,0 +1,445 @@
+UP主：The AI Advantage
+标题：Astra vs Fable 5.1: Which AI Builds Better Websites?
+链接：https://www.youtube.com/watch?v=twFYccH1A_A
+
+AI is really, really good at building
+websites. Whether it's tools for
+yourself or others, learning
+experiences, something that you're using
+instead of a PowerPoint presentation, or
+just a prettier way to look at AI
+output. Websites are one of the big
+capabilities, and I think you already
+know that. And if you don't, by the end
+of this video, you surely know this. But
+with all these new AI models coming out,
+which one builds the best websites? Is
+it Claude's Fable 5.1? Is it the new
+GPT6 Astra? We by now know that Astra
+can do some crazy stuff and I covered
+that on this channel. But concretely, I
+just wanted to know when it comes to
+creating sites, which is the best one.
+So, I created my own benchmark where I
+created 50 sites from different
+categories and I generated them with
+these different models and then I
+blindly rated them myself. It took some
+time. It cost quite a bit of money. And
+in this video, I'll present to you the
+result of all of this AI website front
+end building, whatever you want to call
+it, to ultimately answer the question of
+which AI should you be using to build
+your websites and which model is good at
+what. In the end, we'll have a winner.
+But let me tell you that the nuances
+matter cuz in some categories, the one
+is better, in the other categories, the
+other. So, let's break it down. So, my
+curiosity started with asking, okay,
+with these new Enthropic models, which
+one is best? Historically, Enthropic
+used to be the front end building king.
+Everybody agreed that the websites from
+Claude were just the prettiest and the
+best, especially when you oneshotted
+them. And that's what all of this is, by
+the way. So, let's talk about the
+methodology here briefly, because all of
+these are oneshot prompts, meaning
+prompts for various websites that you
+just put in and we rate the first
+output. We don't go in and refine and
+make things better. It's just what you
+get once you request something. And I
+started out with a test set of 50 sites
+that I created in Fable 5 and 5.1, but
+then I quickly realized there's not
+enough variety amongst them. Yes, they
+were different websites, but a lot of
+them were like personal websites or
+e-commerce storefronts. And I wanted
+some of the funkier stuff in there, too,
+like this murmmoration field lab where
+it animates bird flock movements or this
+ink current studio where we can paint
+and it makes these visuals. creative web
+stores like this coffee configurator and
+in the game lab launch sites. There's a
+lot of variety in this second test set
+here and that's what we'll be focusing
+on in that second test set. These 50
+sites, 50 different prompts that I gave
+to the model straight to the API. No
+other context involved. Well, they exist
+across 10 categories and each one will
+be rated for free values. First and most
+importantly, my own blind judgment. Just
+how much do I like it visually,
+functionally? What is my preference
+between the two sites? I really took my
+time in rating these and I did that
+blindly for all of these in different
+matchup combinations like Fable 5.1
+versus Astra etc. Secondly, what does
+the AI think of the visuals? AI blinds
+judge looking at the visual quality of
+these sites. And thirdly, AI blinds
+judge on the functionality. In other
+words, AI looked at, hey, everything
+that we prompted for, is it present in
+the result and is it all fully
+functional? Across these three rubrics,
+we'll be making a judgment on what is
+the best website generator from all
+these models. And hey, if you're out
+there ready to type your comment,
+>> Eager, this is not a scientifically
+valid experiment. Your qualitative
+judgment is not rooted in the scientific
+methodology.
+>> Yes, you're right. I was just curious
+which one I want to use for websites
+moving forward. And I created a
+benchmark that satisfies my
+requirements. Hey, if that's not good
+enough for you, feel free to come up
+with your own and share it with me. I
+just want to know what fits my taste and
+if it's functional and I figured that'd
+be useful to you, too. So, let's begin.
+Starting with Fable 5 versus 5.1. And
+I'll keep this segment brief because I
+think a lot of people really want to
+hear the Astra stuff. But last week, as
+you might know, Anthropic released Fable
+5.1 to get ahead of the GP6 Astra
+launch, and it's an amazing model. The
+benchmarks were really good, and the
+sites that it creates are different from
+Fable 5. Let me just tell you the result
+of this. Fable 5.1 across the board was
+just better at these websites. Now, let
+me tell you some nuances of this, but I
+think the biggest one is the spacing on
+these sites is just better. I'm not
+going to show you all 50. I will share
+this link with you if you want. You can
+go in. All these 50 sites are posted on
+the web. You could click around, try
+things yourself. If anything catches
+your eye or, you know, feel free to use
+them for inspiration. But this is the
+first thing that I noticed. Look, the
+way things are spaced out with Fable 5.1
+here on the right is just better. It has
+a bit more breathing space. it makes
+more sense and there's like a visual
+hierarchy present in the site whereas
+here I don't know this text is the same
+size as this as the color pickers as are
+the buttons whereas here this headline
+dominates this is cut off at a
+reasonable point at the bottom it just
+makes more sense design-wise and I found
+this to be true across the board
+additionally I found that the SVGs were
+way higher quality with Fable 5.1 and it
+just expressed a bit more creative taste
+I felt like I mean look at this line.
+These are the same prompts all across
+the board, right? And again, here the
+spacing, look, it's not overwhelming
+this interface, where this one on the
+left is like too much. So, let's get to
+our free rubrics and then move on to
+Astra. But basically, Fable 5 versus 5.1
+on my human preference blind test. Fable
+5.1 won 30 out of 50 blind tests, and 17
+of those actually went to Fable 5, you
+know, so it's better, but it's not like
+every time I would prefer Fable 5.1. And
+there were free ties if you're wondering
+what happened to the last three. Okay,
+so I clearly have a preference for Fable
+5.1. I gave you some of the reasoning.
+What did the AI think of the visuals?
+Well, it said that Fable 5.1 won 40 out
+of 50 times. Fable 5 only won seven
+times and it gave it free ties. So, it
+also agrees that Fable 5.1 is better,
+but it was even more extreme in its
+opinion. And when it comes to
+functionality, they were actually dead
+even. Everything functioned exactly as
+expected. So, in terms of functionality,
+it didn't really make a difference. So
+clearly if I have a choice between these
+two, I'd be choosing Fable 5.1. All
+right, so that makes that the winner.
+And now let's look at what many people
+have been waiting for, like Fable 5.1
+versus GPT6 Astra. Which one of these is
+better at making sites? And here we'll
+go into more detail because the nuances
+matter here. So first, some of my
+unstructured thoughts for you. So
+clearly the SVGs, the visuals that this
+generated with geometry were always
+superior with Astra as you can see on
+this example or you can really see it if
+it tried to recreate the world map with
+vectors here. Clearly Astra is just
+better at drawing. A second big theme
+that I noticed is that Astra is just
+more professional and Fable 5.1 is more
+h cute for the lack of a better word. I
+mean it really is. Look at some of these
+examples. Every Astra generation looks a
+bit like a SAS. I mean, look at this
+trip packing planner. This looks like a
+SAS product with the header, the
+navigation at the top almost every
+single time. And then the trip packing
+planner. Well, it looks like something a
+teenager made, which, you know, is not
+bad. It's a bit more casual. I kind of
+like it. It's a trip packing planner. Or
+about the site that promotes a sketching
+cities course. Well, here's the Astro
+Generation. There's some funkiness here
+with the window. That's undeniable. But
+again, you have this professional site.
+You have this highlighter that has been
+used well. Everything is spaced really
+well. And this one that was made by
+Fable. It's just a bit more cute. Or
+maybe you could say that it has more
+personality. I don't know. But it's
+definitely different out of the box.
+Now, sure, you could steer all of this
+with your specific styles and guidelines
+or examples that you give it. But hey,
+this is the default behavior of the
+models. And often times, you just make a
+site for a single purpose, and this is
+what you'll be getting. Another thing
+that I noticed is that every game that I
+created from my oneshot prompt was not
+even close. Astra crushes games pretty
+much every single time. We'll review the
+detailed stats here in a second, but
+man, look at this depth crawler made by
+Fable, which you know, it's an icon and
+you somehow have this map and you move
+around and fair enough. This has always
+been kind of one of those classic games
+that you make with AI. Look, I think
+that's a coin. This is an enemy. That be
+all right. Now look at what Astra made.
+Same prompt, by the way. The enemies
+look like actual creatures. It's chasing
+me. I got it. I look like an actual
+character. It's a whole thing. Visually,
+it's not even close. This goes for all
+the games. And I'm brushing over some of
+these because, hey, if you're curious,
+you can just try these yourself. The
+link to this site with all the sides
+will be below. No strings attached. If
+you're enjoying hands-on tests and real
+examples like this video has, well,
+that's what I do on this channel. Every
+week I upload new videos, so subscribe
+to get those. And now let's have a look
+at what we have here next. So those are
+some first thoughts. So what did the
+final rating look like between Fable and
+Astra? Well, when it comes to my
+personal rating, the human preference
+blind choice where I opened every site
+and I looked at the different views,
+mobile, web, I tried the application.
+Well, GBD6 Astra won 35 times out of 50
+and Fable 5.1 took it 15 times. So a
+strong preference. 70% of the choices
+went to Astra if you ask me. Now, here's
+an interesting thing. If you ask AI, it
+was so opinionated on this. 47 out of 50
+went to Astra when you ask AI and three
+of them were ties. Not a single time did
+it say that Fable did a better job when
+it comes to the visuals and the look and
+feel of the whole thing. And I was
+really surprised by this. I was like,
+"Wow." Not not a single time. Like
+really? I had 15 cases where I preferred
+Astra. You had zero AI. So I'm like, hm,
+this must be because with my agent, I'm
+using GPT O and I'm using the OpenAI
+models to rate this. So like, ah, okay,
+it really likes its own style. That
+makes sense. So I reran the whole test
+here, and let me tell you, I'm just
+reading off these examples here, but
+when I used Fable 5.1 as the blind judge
+on these, 48 out of 50 went to Astra.
+And Fable 5.1 won two of these. And then
+there was zero ties. So it had the same
+results. But yeah, AI really really
+prefers the Astra generations in terms
+of visual appeal to human beings for
+whatever that's worth. And then finally,
+the functionality cuz this matters if
+one of them works better than the other.
+And there's certain buttons or
+functionalities within the sites. Like
+there's a lot of interactive apps here
+like music synthesizers and situation
+and physics simulators, educational
+apps. In terms of functionality, GPT
+Astra passed 48 out of 50 tests and
+Fable 5.1 47 out of 50. So, pretty much
+the same, which as a reminder, Fable 5
+also got 47. Curious which ones Astra
+actually failed on. It was these two.
+The AI request topic bubble explorer and
+this terminus app which basically
+simulates a personal terminal in the
+web. And yeah, this thing has a lot of
+functionality and it's quite complex and
+Fable one on one-shotted it successfully
+whereas Astra had issues whereas Fable
+failed on this ink current studio. See
+this doesn't even draw if I go through.
+Whereas the Astra version, yeah, it just
+works. Change these values to different
+color. Export the still all functional.
+And also this rag learning app. And this
+ocean restoration annual report site
+also had malfunctions with it. Although
+it's really simple. And hey, by the way,
+if you have any questions about anything
+that I talk about here, you want more
+definitions or details on something,
+just leave a comment below. I'll go into
+some of the top comments and answer them
+and give you all the details you might
+want. Try and keep this video pretty
+high level so everybody gets value from
+it. Also, overall, as you might have
+expected, you know, it's a pretty
+significant win for Astra, both of my
+preference and the AI preference and
+functionality is essentially the same
+across them if you're oneshotting
+frontends. But this leaves us with two
+questions that are unanswered. One of
+them is, okay, so which categories of
+apps performed better in one than the
+other? And I have some answers for you.
+And two, how much did all of this cost?
+Well, let's have a look. So, with the
+category preferences, I'll focus on
+Fable 5.1 as that was the winner on the
+anthropic side versus Astra. In terms of
+my human rating, I preferred Astra on
+all of them except of audio and music
+interfaces and experimental interfaces.
+Some of the creative and out there stuff
+that requires more of a different type
+of personality did well with Fable. Just
+like I said in the beginning, I mean,
+that's the strength of the Fable model.
+It's just a bit more, I don't know,
+opinionated, a bit more unique, if you
+will. So, for example, look at the site
+where it creates a kinetic poem. It just
+looks very corporate on the Astro site.
+Whereas with Fable, well, or look at
+this animation and this entire site that
+was made by Fable. It's just, you know,
+it understood the assignment. It's not
+bad either. I just think the other one
+fits more. On the other hand, where it
+was a clean sweep for Astra, where I
+just clearly preferred it every single
+time, five out of five times, I guess,
+was this category, narrative, editorial,
+and spatial. just these funky sides that
+kind of tell a story or are supposed to
+express something in a creative visual
+way like this roasted tomato recipe with
+a built-in tomato timer and portion
+sizing. And then when it comes to this
+museum exhibition guide, you can just
+see it really did a great job at
+creating these images. I mean, this
+chair is not perfect, but otherwise just
+very visual appealing just with SVGs
+because this is what Fable created,
+which is just I don't know, simple. I
+prefer Astra. And then I think you'll
+like this one as a recommendation. When
+it comes to dashboards, it's not even
+close. Astra every single time. Data
+visualizations, dashboards, just looks
+better, feels better. Look, this is the
+Astra generation of dashboard for the
+economic index right here. You can, you
+know, expand them, contract them, and
+it's just a good layout. Whereas this, I
+don't know, feels a bit misspaced. Or
+this global AI usage map generated by
+Astra. Just a beautiful dashboard with
+everything working as expected. And
+again, the SVG generation is better, but
+let's not judge it just on that. Whereas
+here with Fable, you get this little
+scroll bar that to me doesn't really fit
+into the whole thing. And then this is
+very textheavy up top where this is a
+nice structure to it. I mean, these more
+professional things, yeah, Astra seems
+to be the way to go there. And then
+lastly, let's talk about cost. What did
+all of this cost? Well, let me tell you,
+in putting together this benchmark, I
+spent well over $200 just testing
+different prompts and seeing what I
+like. And again, it it took several
+iterations and I threw out versions of
+this before this one. But when
+generating these 50 sites directly
+through the API, no caching, no batch
+API, just straight up give me these
+sites from the model provider, no extra
+context with it. Fable 5 cost $21.24.
+Fable 5.1 was more expensive at $29.15.
+So that's almost60 per site. And GPT6
+Astra came in at $20.64 64 cents for all
+sites costing around 41 cents per site.
+Meaning that it didn't just pass the
+visual vibe check of mine in 70% of the
+cases versus all the other models, but
+also AI agrees with that opinion. And in
+terms of functionality, you're not going
+to see much of a difference when
+oneshotting sites. And in terms of cost,
+it's the cheapest, too. So, there you
+go. Browse some of the sites. Let me
+know if any example in here inspired
+some idea for you. Or if you have
+further questions. If you want some
+examples of what Astra can do in
+practice, check out my channel. I have
+some amazing videos on that. People seem
+to love those right now. And with that
+being said, if we have not met yet, my
+name is Eigor. I look at this stuff and
+figure some things out for you so you
+don't have to do the work. And with that
+being said, that's pretty much
+everything I have for today. My name is
+Igor and I hope you have a wonderful

@@ -1,0 +1,515 @@
+UP主：Curious Refuge
+标题：This AI Filmmaking Workflow Changes Cinematography Forever!
+链接：https://www.youtube.com/watch?v=4wva-82hHJ0
+
+Over the last few months, the world of
+filmmaking has completely changed. And
+in this video, we're going to take a
+look at a really crazy example of how AI
+is changing the entire way that we tell
+stories. Up to this point in cinematic
+history, when you sit down to edit your
+project, you basically were limited to
+the footage that you captured on
+location. The alternative would be to go
+through a very expensive reshoot
+process, and of course, that can really
+add up. But in this video, I'm going to
+show you how you can change the angle of
+your footage, and it's basically
+indistinguishable from your original
+clips. And I'll also show you a glimpse
+into the future of on-location
+cinematography by converting a very
+simple live-action video clip into a
+high-budget cinematic landscape. We have
+a lot to cover, so let's hop in. I want
+to give a shout-out to Christopher Gwynn
+for inspiring this video tutorial with
+some tests that he ran inside of Minimax
+H3. Okay, so let's set the stage here.
+So, I have some footage here of this
+woman basically just modeling outside of
+this building here. You can see she's
+going through some very specific actions
+where she's looking at the camera,
+touching the skateboard, and just kind
+of orienting around the scene. But let's
+say that for whatever reason, either the
+footage was corrupted or we want a wide
+shot of this exact shot. How are we
+actually going to do that without
+literally going back to the location and
+shooting the footage? Well, to pull this
+off, there's a few tools that are
+available to you. One of them is Sea
+Dance 2.0 and 2.5. The other is Minimax
+H3. All of those tools are some of the
+very best AI video tools on the market
+right now. Now, in order to generate our
+actual clip, I'm going to be using an
+online aggregator called Magnific, but
+you can really use any AI tool that
+allows you to use any of those models.
+So, I'm here on the video generation
+section and we will select C Dance 2.5.
+You'll also notice there are quite a few
+other AI video models available to you
+inside of Magnific. Now, for our media,
+we're going to bring in our original
+footage. So, this clip here of this
+woman looking at the camera and we'll go
+ahead and bring that into the asset
+section. And I'm not going to read out
+the entire prompt. Basically, we're
+saying recreate the source clip from the
+video as a wide shot from a different
+camera position. Now, you can get more
+specific about where you want the camera
+to be. For example, if you want to
+upload an image of a chart laying out
+where the camera is in relation to the
+subject, you can totally do that or you
+can open it up to more creative
+interpretation from C Dance. It really
+just depends on how much flexibility
+your project has. So, for our settings,
+we'll be in 1080p because we really want
+maximum resolution, especially because
+we're trying to match two shots here.
+We'll set the duration to 10 seconds, 16
+by 9, and then I'm going to turn off the
+outputted audio, mainly because I don't
+want any sort of audio that's inside of
+the original source video to impact the
+overall generation. So, we'll keep the
+audio off, although you can get good
+results with the audio on. It really
+just depends on the specific clip that
+you're working with. I'm assuming we
+have some sort of base audio track that
+we're working off of. And we'll go ahead
+and click generate. So, one note,
+whenever you are working inside of C
+Dance 2.5, if you go directly to the
+source, that is, if you are utilizing
+Dramina to pull off your video
+generations, it's going to cost you
+about a dollar per second in the 1080p
+version. So, it's definitely going to
+add up. This is absolutely a budgetary
+expense that you have to account for.
+You can't just keep clicking that button
+and not expect it to add up because it
+absolutely will. Okay, so let's take a
+look at our results here and I should
+note I also used the exact same prompt
+system inside of Minimax H3 to compare
+and contrast. So again, this was our
+original source footage. Take a look at
+the way she's moving around, how she
+touches the skateboard. Cool. And this
+is what we got from SeaDance 2.5. And
+yeah, it's pretty good. What's
+interesting is there's some parts to the
+overall scene that maybe aren't quite
+realistic. For example, the way her hair
+is blowing in the breeze, I don't know,
+it seems a bit off and the skateboard
+kind of nudges for a second in a way
+that doesn't seem super realistic. But
+all things considered, especially if you
+are only utilizing a few seconds of this
+video clip, I don't think you ever would
+be able to tell that this was AI
+generated, especially if it's in like a
+montage and it's not just locked into
+this wide shot for 10 seconds. Now,
+let's compare it against Minimax H3
+because Minimax inspired this entire
+video and this is what we got. And yeah,
+it's not bad, but I will say that the
+face of the main character is definitely
+falling apart throughout the overall
+scene and her action is not exactly the
+same as the original footage that we
+uploaded. For example, in this scene,
+she is looking directly at the wide shot
+camera, whereas the original reference
+footage, her head was kind of tracking
+with the camera as it moved from left to
+right. So it's not exactly going to
+match up 100%, but inside an advertising
+context, it's not necessarily the end of
+the world. It just depends on the
+project that you're working on. So both
+tools did pretty good, but again, I do
+think that SeaDance 2.5 did a better
+job. So let's take a look at a few other
+examples utilizing real live action
+footage. So we have this video clip here
+of this woman eating a snack walking
+around Tokyo and we used the same prompt
+inside of SeaDance 2.5 and SeaDance gave
+us this. And you'll notice that this is
+not a wide shot, right? Like this is not
+a wide shot of the original footage. So
+you would have to generate it again,
+adjust your prompt, and really hope that
+it gives you what you're looking for.
+But, inside of Mini Max, we got this,
+which is a wide shot, and it's doing an
+okay job. But, I should note that her
+skin texture is just a little bit
+plasticky, and a little too synthetic to
+use inside a real live-action project.
+So, whereas SeaDance 2.5 did not really
+give us what we were looking for in the
+very first generation, I do think that
+through enough iteration, you would get
+to the shot that you were looking for.
+Whereas, Mini Max, I don't think you
+could actually use it on a project. Now,
+we also have this shot here of two
+people, you know, hanging out, flirting
+with each other. You can see there's
+just subtle micro-movements and
+expressions. And let's say that we
+wanted to get the wide shot. So, inside
+of SeaDance, we got this. And yeah,
+overall, it looks pretty good. Now, I
+should note that the overall movement of
+the subjects isn't 100% the exact same.
+I would say it's about 90 to 95% the
+same. And that could be problematic, but
+I would argue that if you're on a set,
+and you're shooting an action with
+different camera angles where you're
+literally having to move the entire
+camera and re-light certain aspects of
+the scene,
+then your action isn't going to be 100%
+the same between both shots. So, it's
+pretty normal, and this is a problem
+that you really would just solve through
+the editing process. It's really not
+that big of a deal. And inside of Mini
+Max H3, we got this, which again,
+I don't really love. Like, it did an
+okay job, but I don't really know what
+her shirt is saying there, and it cut
+back to the original footage, but it
+somehow looks worse, and the skin looks
+more plasticky. And finally, we have
+this shot here of this woman dressed as
+like, I guess an elf with a
+a truck that has the entire cabin full
+of corn. So, I definitely need to know
+what more is going on inside of this
+film here.
+>> [laughter]
+>> And inside of SeaDance, we got this shot
+here.
+And
+yeah, that definitely is the same action
+from the subject. We got that truck full
+of corn there and the overall color
+grading and lens dynamics look really
+good. Like I think it did a really,
+really good job. And here's the same
+result from Minimax H3. It's not bad,
+but overall a little too soft to
+actually use. So, those are real live
+action clips and again, those were the
+very first generations that we generated
+with Seedance 2.5. And so, you can
+imagine if you went in and even tweaked
+your prompt a little bit if you weren't
+getting exactly what you're looking for,
+I would say within about three to five
+generations you would have a shot that
+you could integrate inside of your
+production and just through a little bit
+of up-resing and color matching, it
+would be absolutely usable on a
+professional project. Now, if that was
+the only thing I was showing you today,
+that would be absolutely
+transformational to the way in which we
+approach our film projects, but that is
+only scratching the surface. So, let's
+also take a look at how this works with
+AI footage. So, I have this first frame
+here of this woman singing inside, you
+know, a concert hall and we want to have
+her on this stage and we also have a
+character sheet here. So, inside of
+Seedance we brought everything together
+and got this video clip.
+>> [singing]
+>> Okay, so let's just acknowledge that is
+pretty crazy, amazing job. So, we took
+that video clip, put it inside of
+Seedance and used the same prompt that
+we used before and we got this.
+>> [singing]
+>> Okay, uh pretty amazing. And we also
+wanted to do one additional test. So, we
+took that original reference footage and
+also the image of the location reference
+to see if we could really just bring
+everything together and reinforce the
+overall location that we want to see,
+and that gave us this.
+>> [singing]
+>> Okay, yeah, I really think it did a
+great job. Both clips were pretty
+astounding, but I do think the one with
+a location reference did just a little
+bit better. And so, when you're able to
+just reinforce the context inside of C
+Dance 2.5, it really helps to give you
+better results typically. So, we also
+did the same test inside of Mini Max H3.
+So, just with the original source video
+clip, we got this.
+>> [singing]
+>> And that's basically unusable. The
+character spaces are far too soft, and
+the people in the background look even
+worse. Now, we also imported the
+original location reference image, and
+we got this.
+>> [singing]
+>> And ultimately, that did not give us a
+very good result. But, if we go back to
+that original wide shot that we got from
+C Dance 2.5, it is 100% usable inside of
+your project. Now, again, if both of
+those awesome updates were all that I
+was going to show you inside of this
+video, that would be dope. But, I
+actually have one more thing that I am
+really excited to show you. So, whenever
+you are working on a filmmaking project
+that's utilizing artificial
+intelligence, if you only go to AI
+alone, it can be hard for the outputs
+that you're working with to feel like
+there's human connection behind them.
+That isn't always the case, and of
+course, with iteration and a lot of
+prompting, you can typically get there.
+But, my favorite way to interface with
+AI tools is actually to use a hybrid
+workflow, where you actually shoot
+live-action footage of an actor
+performing and then you take their
+performance and you put it inside a new
+environment or project it inside a new
+character utilizing it as basically
+motion capture. So, I want to show you a
+few different tests that we ran recently
+and talk about what I think it means for
+the future of on-location
+cinematography. So, this video clip I'm
+showing you now is of an actress named
+Joelle. Joelle was actually a member of
+the Curious Refuge community and
+volunteered to help us with our shoot
+here. So, you can see that basically for
+our shoot we have very flat lighting and
+we have a gray box stage. So, we have a
+gray background with tracking points so
+the camera can latch onto something.
+That's very important for parallax. If
+it was just a white background or just a
+green background, it would be harder for
+the AI system to have tracking points to
+understand how the camera shake should
+be in relation to the environment. And
+so, you can see we have a very specific
+performance from Joelle. Whenever we
+were on set, the idea was maybe Joelle
+is in like
+post-apocalyptic world and she's hiding
+behind a car and she looks over and then
+she looks down. I have no idea. She's
+having just a horrible day here. And so,
+inside of Magnific here, I brought in
+our original footage. We'll call it gray
+box footage. And there has been some
+debate about whether or not you should
+use a gray box or just go on location
+and shoot some sort of rendition of your
+scene. And I think the short answer is
+it more than likely doesn't matter, but
+you do have more control over lighting
+and your environment if you're actually
+on a sound stage or a semi sound stage.
+If you're going on location, you're
+going to have to deal with of course all
+of the limitations and logistical
+problems, but also all of the benefits
+of being able to actually visualize the
+scene as it unfolds. So, it really just
+depends I think more on the genre that
+you are working with, but of course
+we're doing more tests and we'll share
+them with you in a few videos. So, for
+our example here, I uploaded the footage
+and said replace the background in the
+video with a cinematic post-apocalyptic
+environment. Of course, I could get more
+specific about what I wanted to see,
+whether it's the car or the environment
+or like aliens walking around. It really
+just depends, but I wanted to keep it
+fairly generic for this test. And also
+said that we want to replace the blue
+boxes with a damaged car, and we'll go
+ahead and hit generate. And after a few
+minutes, we got this video clip.
+>> [panting]
+>> And that's crazy. Can we just
+acknowledge that that is crazy that it
+took the original footage that we
+brought in with our actress giving a
+very, very specific performance, and it
+projected it onto the outputted video.
+Now, is it perfect? No, there are slight
+variations. For example, her sleeve here
+in the original footage had a watch,
+whereas in the generated output here,
+it's covered up. And so, you're going to
+have to be mindful of certain things
+like that whenever you are working with
+this workflow. to have iterations,
+you're going to have things that
+slightly change from shot to shot, but
+again, it's all within the realm of the
+slight changes that you more than likely
+would experience if you were doing
+live-action multi-shoot productions. And
+so, as long as you're being mindful of
+that in the editing process and really
+doing a sweep over all of the continuity
+issues that may arise, I think that you
+should be in a [music] good place. Now,
+I wanted to test this out further to see
+if we could really go crazy with it and
+to see what would impact the overall
+outputs that we get. So, I also went in
+and reinforced that I wanted to see
+lasers and aliens and people running
+around, and that gave us this shot.
+>> Oh!
+>> Okay, so that's fascinating, right?
+Because there are some aspects of her
+performance that were exactly the same
+as the original footage, and there's
+others that were slightly modified. For
+example, at the very beginning, she
+doesn't walk into the frame in the exact
+same way. There's some slight variation
+there. All of that being said, it really
+is quite incredible. Now, let's take it
+one step further. Let's say that for our
+video example, yes, we have the gray box
+footage with the camera motion and the
+overall action that we want to see. But
+let's also say that we want to use a
+completely different character.
+Basically, we want to use the actor's
+performance more as motion capture. And
+so, we have this character sheet of this
+random woman here, and let's say that we
+want to do the same prompt, but now this
+time we want to replace the actor with
+the character sheet. And inside of
+SeenDance 2.5, that gave us this.
+And yeah, that did a pretty damn good
+job. It even understood when the focus
+kind of racked to the background and she
+was just slightly out of focus,
+SeenDance understood that. So, an
+incredible job here. Now, we also wanted
+to test out the exact same thing where
+we utilized a depth map. So, instead of
+the original source video, we used the
+black and white depth map style footage
+to pull off the result, and that gave us
+this.
+>> [gasps]
+>> And uh yeah, that did a great job as
+well. In fact, it's a little closer to
+the original performance, but I will say
+that her face kind of began to morph
+into Joel's face there at the end. So,
+it's absolutely something that you'll
+have to be mindful of. I would
+anticipate that even if you are doing
+some sort of variation of a character
+swap, you probably still want to do
+casting to get the person to be pretty
+close to what you're looking for. It
+will just make the entire process a bit
+easier. Now, again, I do want to compare
+that to MiniMax H3. So, we basically
+took that footage that we just created,
+and we wanted to do the wide shot
+method, where we said, "Okay, let's step
+back and see the scene from a distance."
+Inside of MiniMax H3, we got this.
+>> [laughter]
+>> Okay, that's not the same performance.
+It It might be close, but overall, it
+just looks terrible. There's so much
+artifacting in the background, you
+wouldn't be able to use that on a
+project. But, inside of SeeDance, we got
+this.
+>> [panting]
+[gasps]
+[panting]
+[gasps]
+>> And SeeDance decided with that one to
+just go off script and give me something
+completely different than what I was
+looking for. It is cool and compelling,
+but that's not the same performance, so
+I wouldn't be able to use that on my
+project. So, with all of this being
+said, what does this mean for the future
+of filmmaking? Well, number one, I
+firmly believe that if you need a
+different camera angle than what you
+were able to capture on set, you now
+have the tools in place to create a shot
+that an audience will absolutely
+believe. And number two is whether
+you're using a simple gray box
+environment or a simple on location
+shoot, you now have the ability to
+dramatically change the environment that
+your film takes place in and swap your
+characters and get results that look
+photo realistic. That has huge
+implications for the future of visual
+effects, on location cinematography, and
+also the entire virtual production
+industry. But of course, we're going to
+see how that evolves over the next few
+months. If you enjoyed this video, I
+highly recommend checking out our
+courses over at Curious Refuge. We train
+artists at every major studio and we
+would love to have you inside our
+program. And as always, be sure to like
+and subscribe here on YouTube to get the
+latest training and content right here
+on the platform. Thank you so much for
+being an awesome member of this
+community. If you have any tips and
+tricks that you'd like to share, be sure
+to let us know in the comments.

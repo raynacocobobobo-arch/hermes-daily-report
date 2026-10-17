@@ -1,0 +1,661 @@
+UP主：Matthew Berman
+标题：12 Grok Bot Use Cases That Feel Illegal
+链接：https://www.youtube.com/watch?v=BsNHg6cNjZE
+
+Personal AI assistants like Grockbot,
+Muse, and Dot have taken AI mainstream.
+They are helping millions of people get
+more done, be more productive, and also
+do less of the tedious, boring stuff
+that life just requires. I have bots
+saving me money, planning my calendar,
+booking me appointments, and even
+controlling my Tesla. All right, so
+everything I'm going to show you is in
+Grockbot. That is the personal AI
+assistant that I am using right now. I
+also use Muse. I also use Dot. But my
+primary is Grockbot. But all of these
+use cases can apply to whichever
+personal assistant you're using. And so
+the first use case is the money saver.
+Here it is. Look through all of my
+emails for all of my subscriptions and
+then go negotiate with any and all of
+them that you can to try to get the
+price down. Now, you can also tell it to
+look for any subscriptions that look
+like you're not using them and just go
+ahead and cancel them for you. It found
+over $1,000 a month in fixed seats
+across my three Gmail accounts.
+Everything from my insurance to type
+form, Chad GPT, Anthropic. Obviously, a
+lot of these I need, but you'd be
+surprised if you just tell one of these
+subscriptions that you're going to
+leave. They generally offer you a
+discount to stay. And so now the bot can
+do it for you. So here's one. It coded
+up an email to Beehive, which is what we
+use for our newsletter. And I'm saying,
+"We're on Beehive Max at $459 a month
+for Forward Future and has become one of
+our biggest software costs. We're happy,
+but we need to bring down the bill." And
+it drafts up the email. All I have to do
+is click send. All right. And as part of
+the moneysaver bot, I also had it go to
+the California unclaimed property
+website and find anything that is under
+my name that is unclaimed property. And
+it actually found hundreds of dollars in
+money that was just sitting there. I
+mean, look at this. We have returned
+more than $8 billion. And this is
+obviously just for California, but many
+states have websites just like this. And
+you just tell your bot to go do it. Look
+for the unclaimed property and then
+submit the forms. And for each of these
+use cases, I'm going to provide you with
+a Grockbot template that you can
+actually just click into and you can use
+my exact template for yourself. And then
+I'm also going to give you a prompt that
+you can use to set it up in case you're
+using something else than Grockbot. And
+by the way, I'm going to put all of
+these prompts into a document hosted on
+Box. I'll drop the Box link down below.
+Shout out to Box for helping out with
+that. Okay. Next, I actually control my
+car through my Grockbot. So, I just got
+a Tesla Model Y. I told my Grockbot to
+connect to my Tesla. It downloaded all
+of the API documentation. I got an API
+key. I gave it to it. And I can tell it
+things like, "Hey, get the car ready for
+me." And it'll make sure that the
+climate is on, my seats are heated, for
+example, and it even sets my destination
+of where I want to go. It can even open
+my garage door for me. And soon
+hopefully it'll even be able to pull the
+car out of the garage just having it
+waiting and ready for me. For the Tesla
+bot, here's the prompt. You are my Tesla
+assistant. First, figure out what you
+need from my Tesla account through
+Tesla's official fleet API and my
+connected calendar. So, which Tesla's on
+the account, usual climate and seat heat
+settings, frequent destinations like
+work or school drop off, etc. Only ask
+me if something truly cannot be
+inferred. setup that only I can do like
+signing into my Tesla account, two
+factor codes, and pairing the virtual
+key on my phone. I will handle myself.
+Job: Control my Tesla through the
+official fleet API, climate and defrost,
+seat and steering wheel heat, lock and
+unlock frunk and trunk, charge port and
+charging limits, and sending navigation
+destinations. When I say get the car
+ready, precondition the cabin and seats,
+open the garage if that's set up, and
+send navigation to where I'm going next
+on my calendar. And again, I'll drop the
+Grockbot template down below. All right,
+next is my computer cleanup bot. And I
+am frequently running out of room on my
+hard drive because I just store a lot of
+videos and I do a lot of screen
+recordings. And this is a bot that runs
+every Monday and looks for cached files,
+stale files, anything to save me room on
+my hard drive and will automatically put
+it in the trash for me. Now, it doesn't
+delete it, but it will find everything
+and list it all. So, here are some
+examples. So, here, this actually just
+ran today. About 50 GB on the Mac Studio
+looks safe to clear. You've got 371 GB
+free, so no rush. Nothing was deleted.
+All right. So, 13.7 GB of camera clips.
+These are old. We have codecs, 44 GB of
+dated output. We have OBS, 11 GB of
+recordings that it says I can drop the
+MKV versions of. Great. And yeah, it
+just found a bunch. Sometimes it's just
+cache, but it will automatically find
+everything and just clean it up for me.
+And here's the prompt for the computer
+cleanup bot. You are my computer cleanup
+assistant. First, figure out what you
+need from this machine. For example,
+free disk space, large folders and
+downloads and desktop, cache locations
+for my OS and installers or disk images
+that look stale. Only ask me if
+something truly cannot be inferred. Job:
+Scan weekly for stale, duplicate, and
+oversized files such as old downloads,
+caches, and installers. Suggest what to
+delete with estimated space freed by
+risk level. That's really important. So,
+if it's a high-risk deletion, it will
+tell you. Prefer obvious caches and
+leftovers before anything that might be
+personal documents. Rules: Never delete
+empty trash or move files without my
+Okay. Show me the full path and why you
+flagged each item. Skip system
+directories you are not sure about.
+This is what recording videos used to be
+like for me. I have struggled with
+insomnia and poor [music] sleep for
+years and that's until I became a
+customer of eight and I purchased the
+eightle pod about 2 years ago. I first
+heard about it from Brian Johnson and
+Andrew Huberman. So the pod's smart
+mattress cover cools my bed before I get
+in it. And then I recently got the
+pillow cover which also keeps my pillow
+nice and cool before bed. And then
+rather than being jolted awake by an
+alarm in the morning, my bed gently
+warms up to the point where my body
+naturally just wakes up. And then when I
+snore, the base adjusts its height just
+slightly and I stop snoring. Autopilot
+uses the bed's AI to adjust the
+temperature of the bed throughout the
+night, optimizing for deep sleep. And
+now they've released their newest
+generation Pod 6, which is smaller, more
+powerful, more accurate, all while
+dropping their starting price to the
+lowest ever yet. Go to
+eightsleep.com/matthew
+Berman. Get $200 off with code Matthew
+Berman on the brand new Pod6.
+All right, next is my daily briefbot,
+and I have separate ones for work and
+for family. This is a daily brief that
+gets created for me every morning. And
+it will look at my calendar, my emails,
+my to-do list, everything, and then put
+together a daily brief. And that
+includes things like the things I need
+to get done, the events for the day, any
+context that I need, any items that it
+can get done for me. It's all included.
+And because there's a bunch of personal
+information in both my family brief and
+my work brief, I'm actually just going
+to show you the prompt I use instead.
+You're my daily brief assistant. First,
+figure out what you need from my
+connected email and calendar. Only ask
+me questions if it cannot be inferred.
+Your job. Every weekday morning, send me
+a short brief. Lead with anything that
+needs action. Include my urgent emails,
+then today's meetings with context on
+each one. Who's attending recent emails
+with them and notes from past meetings
+when available? Keep it scannable under
+a minute. Rules: Never send, archive, or
+delete email on my behalf without my
+okay. read only unless I explicitly ask
+you to act. Stay quiet on days with
+nothing urgent and no meetings unless I
+ask for an empty check-in. Okay, this
+next one is probably one of the biggest
+times savers of all the use cases I
+have. I have what's called a family bot
+and it manages everything to do with my
+family. And so if you have kids, you're
+probably very familiar with this. You
+get emails all the time from their
+school, from their sports, and they're
+not short emails, and they're not
+infrequent. They come all the time, and
+they're usually paragraphs and
+paragraphs long, much of which can be
+ignored. So, I have my family bot
+looking at every single email that comes
+in, looking for specific ones that are
+either from my kids' schools or from
+their sports. I have it summarize all of
+those emails, and give me the most
+concise summary possible. I also have a
+Telegram group chat with my family and I
+have it send those summaries to that
+group chat. Then it autoarchchives the
+email for me. It's also directly
+connected to my family calendar. So if
+it sees any events in those emails, it
+will automatically put it on my calendar
+and invite my wife to that event. And
+Grockbot Muse dot, they are all
+extremely proactive. So, now that it
+understands all of the different sports
+and the school activities and my
+calendar, it has been an incredible
+timesaver. Here's an example. My son had
+a soccer game this weekend and the day
+before the soccer game, my family bought
+messaged me saying, "He has a soccer
+game at this time at this location. He's
+the home team, so make sure to wear the
+red jersey and remember you are on snack
+duty for this weekend. Do you want me to
+order it from Door Dash for you?" And so
+it takes all of these different parts of
+my Grockbot experience or whatever your
+personal AI experience is and really
+puts it together in such a holistic way.
+And again, that probably saved me like
+30 minutes of time right there. So if
+you have kids, I highly recommend
+setting this up. And here's the prompt
+for the family bot. You are my family
+logistics assistant. Your job is to keep
+our household on top of everything
+coming from school activities and other
+family commitments. First, ask me one
+question at a time who is in my family
+and their ages. Of course, you can just
+tell it rather than having it ask you
+questions. But if you just want to copy
+paste, this is the way. Which schools,
+teams, clubs, or activities each person
+is involved in. It can usually infer
+that by your emails. Which email
+accounts those messages arrive in, which
+calendars we share, and who else should
+be involved. Read new emails from
+schools, teachers, coaches, and activity
+organizers. Summarize only what matters:
+dates, deadlines, forms, payments,
+things to bring, and schedule changes.
+Skip the fluff. Add every event deadline
+and early dismissal to our shared
+calendar with the location and details.
+And invite the other adults who should
+know. Never create duplicates. Send one
+short daily digest to our chosen channel
+grouped by family member. The day before
+any event, send a heads up with
+everything needed to show up prepared.
+Where and when, what to wear and bring,
+any assigned duties, carpool, snacks,
+volunteering, and anything to sign or
+pay, flag anything urgent right away.
+And next is my leadbot. So, I get a lot
+of DMs, whether it's from Facebook or
+LinkedIn or X or Tik Tok, Instagram, and
+I was not checking them or at least not
+often enough. And I would get a lot of
+companies reaching out to want to work
+with me or even just like cool people
+who wanted to show me awesome projects
+that they were building. And I just
+couldn't keep up with all of it. And so
+I made the leadbot and it goes out and
+it checks each one of these sources. It
+reads the DMs, will categorize them by
+whether it's a company wanting to
+sponsor one of the videos or somebody
+cool showing me a project. It will
+automatically tell me about the
+important ones. It'll archive the spam
+and then allow me to reply directly from
+the chat with my bot. So, I'm not having
+to go into each individual platform to
+write my replies manually. And the cool
+thing is it'll actually draft emails for
+me to sponsors who look potentially
+awesome to work with. And again, all I
+have to do from within Grockbot is just
+click send. Here's the prompt for the
+leadbot. You are my lead finding
+assistant. First, figure out what you
+need for my connected Instagram,
+LinkedIn, and X accounts. for example,
+which inboxes to watch, what a serious
+sponsor asks looks like from past
+conversations, and how often to check
+during my active hours. Your job,
+monitor those DMs for sponsorships,
+brand deal, and partnership leads. Vet
+each one for a real company, a clear
+ask, and a budget or timing signal.
+Report only the legit ones with a short
+summary and suggested next step. Ignore
+spam, vague pitches, and engagement
+bait. Never reply, accept, or negotiate
+as me without my okay. draft replies for
+my approval. Stay quiet when there are
+no real leads. Today we are launching
+the Frontier Pass. It is a membersonly
+community that gives you access to
+exclusive videos and interviews, a
+private Slack community where you can
+come chat with me and my team, monthly
+AMAs, and each month we're giving away
+to one person $200 to help pay for your
+Max AI subscription. And if you're
+already a YouTube member, you don't need
+to pay again. you can go claim access to
+the Frontier Pass immediately. So, go
+check it out. I hope to see you in
+Slack. All right. And next, again, maybe
+one of the more valuable bots that I
+have. This is the meeting summary bot.
+Every single meeting that I join has my
+Fathom Notetaker. The Fathom Notetaker
+is recording the meeting, writing a
+transcript of everything we talk about,
+and then saving that transcript. After
+every meeting, my meeting summary bot
+will actually first of all to know I
+just had a meeting will look at my
+calendar and look for those meetings.
+Then it will ping the Fathom API, grab
+the transcript, and then write up a
+summary of the meeting that I just had.
+But it takes it a step further than
+that. It'll look for action items from
+the meeting transcript. So, for example,
+if I say, "Hey, okay, I'll get you that
+proposal by Monday." It will actually
+know that. it will flag that for me and
+will even add it to my to-do list. And
+it even takes it a step further. If it
+can do something for me, it will
+automatically do it and just say, "Hey,
+you said you were going to send this
+person a proposal. Do you want me to
+draft that proposal and get the email
+ready to send to them?" And it's all so
+easy and automated. It is awesome. And
+the cool thing is I know my Fathom is
+recording my meetings. So during the
+meeting, I might say something like, "Oh
+yeah, and remember to send the
+proposal." Just by saying it in the
+meeting, my meeting summary bot will
+know to look for that. Here is the
+meeting summary prompt. You are my
+meeting summary assistant. Figure out
+what you need for my connected meeting
+recorder and calendar. So I'm using
+Fathom, but you can input anything, and
+it might just ask you what you use to
+record your meetings. Your job after
+each recorded meeting, pull the
+transcript and send me a short summary
+with key decisions, open questions, and
+action items. Who owns what and any
+dates mentioned. Keep it tight enough to
+skim before my next meeting. Rules:
+Never send the summary to other
+attendees. Post it publicly or create
+tasks in other tools without my okay
+unless I already told you to do so. Stay
+quiet when there are no new recordings.
+And so, here's how it works. I have a
+meeting. My Fathom agent, which is
+separate from Grockbot, is in each
+meeting recording it. It will actually
+write up a transcript right here. My bot
+will look for that transcript, will
+ingest it, understand what that meeting
+was about, will spit out a summary right
+here, and it'll send the summary to
+Slack. And within the meeting summary
+bot, it will also, since it has access
+to my to-do list, which by the way, I
+use to-do list, it'll look for items in
+my to-do list that either got completed
+based on the meeting or that it needs to
+add new to-do items to. And so, it is
+really neat. It is basically always
+staying on top of what I need to get
+done. And so, one thing that I told my
+Grockbot to do generally is to always
+reference my to-do list. And every time
+it does anything, whether that's look at
+a meeting transcript, read my emails,
+look at my calendar, it is always
+looking and referencing against my to-do
+list to see if it should mark something
+off the list or add something to the
+list. So, it's a very dynamic to-do list
+that I'm working with in collaboration
+with my AI assistant. So, I use this
+very simple to-do list app called
+To-Doist. I'm not paid by them. I just
+have been using them for a long time and
+I really like it. And it also has an API
+and a direct integration with Grockbot.
+So I basically just point my Grockbot at
+to-d doist and now it knows everything I
+need to get done. Now Muse has its own
+built-in to-do list, which is quite
+nice. But my primary is Grockbot, so
+this is no problem. I just point it at
+my to-do list. And here's the prompt for
+the to-do manager. You are my to-do
+manager. Figure out what you need from
+my connected to-do app. Email and
+calendar. So, look for title tasks, look
+for default due date patterns, where
+they live, and only ask me if something
+truly cannot be inferred. Job: Manage my
+list directly in my to-do app. Add tasks
+from my emails, meetings, and messages
+when something actionable appears. Keep
+tasks organized with clear titles,
+projects, and due dates. Mark items done
+when I say I finish them, and
+periodically scan for completed or stale
+tasks. Tell me what you changed in a
+short receipt. Rules: Never delete a
+task permanently without my okay. Prefer
+completing or rescheduling over
+deleting. Do not create duplicate tasks
+for the same ask. Stay quiet when
+there's nothing to update. And again, a
+huge time-saving bot for me is my email
+triage bot. I have three separate email
+addresses. One for personal, one old
+work email, and then my new forward
+future email. And I have my bot scanning
+all three of them. It first looks for
+emails that it can easily archive.
+Things like Amazon delivery
+notifications,
+receipts, and other invoice type items
+and anything where it doesn't require a
+reply from me. And it will automatically
+archive those. It'll tell me about it.
+It'll give me a very short like single
+sentence summary or receipt of the
+emails that it archived. And then it
+starts going through the kind of higher
+risk ones. So anything it thinks that I
+need to just give a short reply to,
+it'll go through it one by one with me
+and say, "Hey, do you want to reply?"
+And it will actually draft a reply.
+Usually I have to change one or two
+things and then I just let it send. And
+then there are the kind of high-risk
+ones where it requires me actually
+thinking through a question or problem.
+I have to put some kind of document
+together or something where I have to
+send something. And for those, my
+Grockbot tries to put together whatever
+document or email draft or anything that
+I need automatically for me. And I'm
+usually changing a few things and then
+sending. Here is the prompt for my email
+triage bot. You are my email assistant.
+First, figure out what you need for my
+email and calendar. So things like which
+accounts I use, who is always high
+priority from recent threads, what looks
+safe to autoarchchive, such as shipping
+notifications and receipts and my usual
+work hours. Your job summarize only my
+important emails, pulling key dates and
+ass out of long newsletters.
+Autoarchchive low-risk mail like
+shipping notices, receipts, and obvious
+promo noise. And tell me what you
+archived in a short grouped receipt.
+Then walk me through the rest, one email
+at a time, with a short summary and a
+suggested reply or action, including by
+voice while I drive, which I use
+Grockbot in my car. Of course, you can
+use Muse or Dot in your car if you have
+Android Auto or Apple CarPlay. Flag
+contracts and e signature requests
+immediately and keep them visible until
+they are signed. Never send, permanently
+delete, or buy anything without my okay.
+Draft first and let me approve. Never
+autoarchive contracts, legal mail, or
+anything that needs my signature. Stay
+quiet when there's nothing new. Okay,
+this next one saved me a thousand
+dollars a year. You should do this
+today. This is my PG&E bot. And PG& is
+specific, I believe, to California, but
+it basically applies to whatever your
+electricity or utility providers are.
+So, what it did was it actually logged
+into my PG& account, looked at the last
+12 months of electricity usage at my
+house, looked at all of the patterns,
+and then compared electricity plans, and
+it actually found one that saved me
+$1,000 per year, and it not only
+suggested the plan, but when I analyzed
+the comparison and made the decision
+that I did want to change, it changed
+for me. It was so simple. So, here's the
+prompt for that. You are my utility bill
+assistant. Figure out what you need from
+my email and any utility account I can
+sign into from the browser. So, this
+would work for gas, electric, solar,
+whatever. Review about a year of
+electricity usage. Compare every
+available rate plan I am eligible for
+and tell me which one saves the most and
+how much per year. Walk me through the
+switch steps only after I choose a plan.
+Use my utilities official site or app.
+PG&E style plan comparison is a fine
+example pattern for other utilities too.
+Never switch plans, change account
+settings, or share account credentials
+beyond the login I completed myself.
+Recommend first switch only with my
+explicit. Okay. All right. The next use
+case is setting up a calendar assistant.
+Again, just like I have multiple email
+addresses, I have multiple calendars.
+whether that's my work calendar, my
+personal calendar, my family calendar,
+and I synced all of them to a single
+bot, so it knows exactly what I'm doing
+at any time of the day or date, which is
+really nice because then if I have my
+email bot responding to somebody who's
+asking for a meeting with me, I can say,
+"Okay, go ahead and schedule them for
+next week at whatever time I have
+available." and it will automatically
+know the specific times I have available
+and propose it and negotiate the actual
+schedule with that person. It will also
+notify me of any conflicts. If I
+accidentally have my son's soccer game
+as well as a movie I'm supposed to go
+see, it will automatically notify me
+about the conflict and ask me if I
+wanted to reschedule it for me. Super
+super useful. So, here's the prompt for
+my calendar agent. You're my calendar
+assistant. Figure out what you need from
+my connected calendars, which calendar
+is primary, my time zone, typical
+working hours, buffers I already leave
+between meetings, and any recurring
+personal blocks. Your job is always lead
+with today's agenda when I ask about my
+schedule. Watch for conflicts and tell
+me before they bite. Preferring to
+propose a reschedule over declining when
+that is possible. Schedule events when I
+ask, checking for duplicates first. Book
+appointments for me, for example, a
+dentist, doctor, or haircut by finding
+open times that fit my hours. Then
+confirming the time, place, and details
+with me before anything is submitted.
+Never create, move, decline, or book
+anything without my okay. Label times in
+my time zone. Tell me what changed after
+every edit. All right, so for these next
+two, I'm just going to go through them
+very quickly because they're essentially
+kind of the same thing. I have an Uber
+bot and a Door Dashbot, and it is
+exactly what it sounds like. I can
+literally tell my bot to order me a car.
+I need to get to San Francisco by 2 p.m.
+Or I can say, "Hey, can you reorder the
+last order I got from Mendescino Farms
+and have it delivered by 100 p.m. And it
+will go through and do those things for
+me. It is dead simple. And because I
+created bots for them, every other agent
+that I have working also can talk to the
+Door Dashbot or the Uberbot and schedule
+things for me. So you can start to see
+how all of these different use cases
+start to play together. So for example,
+on the daily briefbot, it can say, "Hey,
+you have a bunch of meetings, but I see
+you have an hour gap, and usually on
+Mondays, you like to order food. Do you
+want me to put in that order so it
+arrives between your meetings?" And it's
+just really cool because with all of the
+context, it can be extremely personal
+and also get real world things done for
+you. Now, that's most of the use cases
+that I'm using my personal AI assistant
+for today. Now, again, I'm going to drop
+a document down below with all of the
+prompts for each of these that'll be
+hosted on Box. Shout out to Box. And if
+you use Grockbot like me, I'll drop all
+of the Grockbot templates down below so
+you can one-click copy the exact use
+cases that I'm using. I love talking
+about practical AI, things that you can
+actually get done with AI, and that's
+exactly what I did in my Jev use cases
+video. So, go check that out right here.

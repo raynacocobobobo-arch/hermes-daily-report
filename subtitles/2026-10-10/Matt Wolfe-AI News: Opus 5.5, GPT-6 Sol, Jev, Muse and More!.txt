@@ -1,0 +1,951 @@
+UP主：Matt Wolfe
+标题：AI News: Opus 5.5, GPT-6 Sol, Jev, Muse and More!
+链接：https://www.youtube.com/watch?v=aDpIra7NFuE
+
+This is another one of those weeks
+that's been absolutely insane. I just
+got back from Meta Connect where there
+was a ton of announcements, but we also
+got not one, not two, but three new
+models. The Made on YouTube event was
+also this week where they announced a
+whole bunch of new AI features for
+YouTube and for a couple days the whole
+AI world went crazy about something
+called Jev. So yeah, we got a lot to
+talk about. I don't want to waste any
+more of your time. Let's get straight to
+it. Let's start with Meta Connect
+because well, I literally just got back
+from this event and it's the hottest
+thing on my mind right now. They made a
+bunch of announcements related to AI,
+their Meta glasses, as well as a new
+like mixed reality headset. The entire
+keynote was about 55 minutes and you can
+find the whole thing online, but here's
+like the TL didn't watch. First off,
+they made a bunch of announcements
+around Muse, which is like their AI
+agent that's very similar to Open Claw,
+but without all of the setup and
+headaches to get it running. And if I'm
+going to be totally honest, it's pretty
+impressive. I've been actually using it
+quite a bit to check my emails and add
+things that it finds in my email to my
+calendar, as well as to like look at my
+Instagram and Threads accounts and tell
+me ideas of things I could post about
+that are likely to go viral based on
+other things I've recently posted that
+have done well. So it is actually really
+cool and impressive and I highly
+recommend everybody check it out because
+unlike most of the other agents that are
+out there, there is no complicated setup
+and if you're in one of the regions that
+currently supports it, it's free to use
+right now. But here's the announcements
+they made around Muse. First off, you're
+going to be able to use Muse with your
+AI glasses. So if you have like Meta
+Ray-Bans, you're going to be able to
+direct your agent to go do things for
+you on your behalf by just talking to
+your glasses. That same voice mode is
+available inside of Muse as well, not
+just on the glasses, but you can use it
+inside of the app and inside of the
+browser as well. They also announced a
+bunch more connectors. I think one of my
+biggest complaints when I first tested
+Muse was that there wasn't enough
+integrations with it yet. But, based on
+their keynote, there's a lot more
+integrations rolling out soon, including
+the one that I'm probably most excited
+about, which is Granola, which is what I
+use to record most of the meetings I'm
+on. They also announced that if you use
+the Muse app on your Mac, it now has
+computer use. So, it can actually take
+control of apps on your computer, and
+you could walk away and it'll just keep
+on doing things for you. This isn't a
+feature I've had the opportunity to test
+yet. But again, as far as agents go,
+this is probably the easiest one to
+onboard yourself onto, and now it has
+computer use. They also announced that
+your Muse will be getting its own email
+address. So, you could add conversations
+to a thread, and your Muse will be able
+to see those conversations and pick up
+the information in them inside of your
+agent. So, you can like forward things
+to it and ask it to do tasks for you. If
+somebody says, "Hey, can we schedule a
+call?" you could forward that email to
+your Muse and say, "This person wants to
+schedule a call, find a time on my
+calendar that we can schedule the call,
+add it to my calendar, reply to this
+person, and tell them the time, or give
+this person three times to pick from my
+calendar. Once they select one, add it
+to my calendar." So, you can have it go
+and just do that stuff on your behalf
+now. They also teased something coming
+called the Muse charm, which is, you
+know, sort of being compared to like a
+Tamagotchi. It's a little handheld
+device that you can put on a keychain,
+and you can instruct their agent with
+that. They didn't give a ton of details
+on this one. They basically said it's
+something that's still in production,
+but more details are coming soon, and
+they expect it to be ready for the
+holidays. They also announced a ton of
+new AI glasses, so a whole bunch of
+different form factors. Like, they had
+these massive displays of just all of
+the different form factors you're going
+to be able to get these glasses in. But,
+they also announced something that I
+think a lot of people are pretty excited
+about, which is the Ray-Ban Meta audio.
+So, it's everything you get in the
+Ray-Ban Meta glasses, they just took the
+cameras away. These Meta Ray-Bans with
+the cameras people have been calling
+them like creeper glasses or pervert
+glasses or things like that because
+they're afraid that people are like
+recording everyone around them without
+the consent. And people are starting to
+get mad when they see other people
+wearing the glasses with the cameras on
+them. So, Meta said, "Fine, we'll offer
+some glasses that don't have the
+camera." So, if you want all of the
+functionality of the Meta glasses, but
+you don't want to be walking around with
+cameras on your head, well, that's what
+these Ray-Ban Meta audios are for. I did
+get to test these as well and they sound
+really, really good. They did also touch
+a little bit on the Meta Ray-Ban
+displays, which are the glasses they
+announced last year that has the little
+like wristband where you can control the
+glasses with like hand gestures and then
+you also have like a little display on
+one frame of the glasses. There's things
+coming like cycling and public transit
+directions, navigation that actually
+sounds more like a person, a more
+powerful calendar, mirrored
+notifications from your phone, threads
+for community feeds, as well of course
+the ability to control your Muse agent
+with these glasses as well. But by far
+the most sort of show-stopping moment
+that seemed to impress the most amount
+of people, myself included, was the new
+Meta VR glasses. Because these are like
+your Meta Quest but without the big
+bulky VR headset. They actually just go
+over your ears like regular glasses. And
+the quality when you're looking through
+them are like just as good if not better
+than the Apple Vision Pro. And the
+feeling when you're using them is very
+similar to an Apple Vision Pro. You get
+really clear pass-through where you can
+see everything crystal clear. You use
+eye tracking to select stuff. You use
+finger gestures to like click on things.
+And I think when people get their hands
+on these, they're going to be really,
+really impressed by them. They're also
+super light. They're only 100 g, which
+is the weight of about like a deck of
+cards. And they do have like this little
+puck thing. So, you put the glasses on,
+there is a cord coming off the glasses
+that goes to this little battery, but
+pretty much all the compute is happening
+on this battery as well. So, that's your
+power, but that's also where all of the
+compute is happening, which is how they
+get the glasses to be so light is that
+all the technical stuff is happening in
+this device, not within the glasses
+themselves. Again, think of this is
+almost like an Apple Vision Pro, but
+without the giant headset, just more
+like glasses that you put on your face
+with a little like puck coming off of
+them. But if you've ever tested an Apple
+Vision Pro, like it's like that kind of
+quality when you're looking through it.
+And you're going to be able to do
+everything that you can do on a Meta
+Quest right now. Pretty much everything
+that's available for Meta Quest is going
+to be available for this as well. So,
+any games you play on Meta Quest, you'll
+be able to play on this device as well.
+And they also showed off that calling is
+now going to have a full hologram, you
+know, with legs and all, not a cartoon
+character like the old Horizon Worlds,
+not like what you get out of an Apple
+Vision Pro where it's just sort of like
+a boxed person. Like you're actually
+going to see the person standing in
+front of you with legs and all. That
+feature, by the way, is also coming to
+the Meta displays. You're going to be
+able to see that full hologram with the
+Meta displays pretty soon as well.
+They're coming spring of 2027 for
+$12.99, so 1,300 bucks. And spring can't
+come fast enough cuz like these are
+really cool. Now, on the second day of
+Meta Connect, I actually wasn't there
+for the second day, but they did make
+even more announcements for developers,
+including this new Horizon Create and
+Horizon Studio. This is basically
+AI-powered platforms to create things
+for the Meta devices. Two new tools
+built on agentic creation capabilities
+of the Meta Horizon engine. Both enable
+creators to turn any idea into a
+complete 2D or 3D mobile game complete
+with progression systems, balanced
+difficulty, art direction, multiplayer,
+and more. So, with Horizon Create,
+you're going to be able to open an app
+on your phone, describe the game you
+want to build in your own words, and
+then watch it come to life. With Horizon
+Studio, you can do the same in your
+browser. And I imagine it's only a
+matter of time before we're going to be
+prompting like VR worlds into existence
+inside of the VR headsets as well. But,
+that's pretty much the quick recap of
+everything they announced at Meta
+Connect. I think it was one of the
+better keynotes they put out in a while.
+I know there's a lot of people that
+anytime I mention anything Meta-related,
+they're going to give some pushback
+because there's a lot of non-fans of
+Meta. But, personally, I think they're
+putting out some pretty cool stuff right
+now. So, [laughter]
+and yes, I am slightly biased cuz I
+still have like an afterglow from being
+at this really impressive event. So,
+keep that in mind as well. We also got
+some big announcements out of OpenAI
+this week. Not only did we get GPT-6
+Soul and GPT-6 Luna, which I talked
+about in a recent video on my channel,
+we also got another feature that I did
+get a chance to play around with while I
+was at my hotel room. So, check this
+out. Next up is an update out of OpenAI.
+They just made the API for GPT Live One
+generally available. And it lets a voice
+assistant keep talking to you while an
+agent does the work behind the scenes.
+I'm going to use it along with GPT Astra
+and Codex to build a live interactive AI
+news researcher. So, here's my prompt.
+Build a voice-powered AI news app using
+GPT Live One and the Agents API. Include
+clickable sources. So, now I can ask
+Find today's biggest AI stories.
+>> I'll look it up.
+>> Actually, only include updates about new
+tools people can actually try.
+>> Okay, focusing on just those.
+>> Show me all the original announcements
+from the primary source, not just the
+news articles covering them. What's cool
+is that the conversation and the
+research can happen at the same time. I
+can keep talking and change direction as
+the agent works, instead of waiting for
+the research to finish before giving it
+another instruction. So, if you want to
+build something for yourself, try
+OpenAI's APIs in CodeX today. And thanks
+so much to OpenAI for supporting my
+channel and sponsoring this portion of
+today's video. And like I mentioned, we
+did also get GPT-6 Soul and Luna. And if
+you did miss my last video where I
+talked about it, here's the quick recap.
+These models are essentially like price
+cut models. They're models that are
+still really, really good models, but
+are designed to be a lot less expensive
+than using GPT-6 Astra. So, if we scroll
+down and we look at the pricing here,
+GPT-5.6 Soul was $4 input and $20
+output. With GPT-6 Soul, they cut that
+cost in half down to $2 input and $10
+per million token output. GPT-5.6 Luna
+to GPT-6 Luna also got cut in half from
+20 cents to 10 cents and from a buck 20
+down to 50 cents per million tokens. So,
+this is designed as an inexpensive, but
+good model. It is not a model that is
+just burning up all the benchmarks
+though. We can see GPT-6 Astra on
+Automation Bench here is still their
+best model, where the new GPT-6 Soul is
+still pretty good, right? Using it on
+extra high is about as good as using
+Astra on medium in terms of the score,
+but if we look at the cost along the
+bottom, it's quite a bit less expensive
+to use. On Agent's Last Exam here, you
+can see here's Astra, still their best
+model, but GPT-6 Soul and GPT-6 Luna are
+still decent models in terms of how they
+score. They're just doing it for a lot
+cheaper. Now, I did give it my normal
+mega bunk test by giving it this prompt
+here, and you can see on GPT-6 Soul
+Ultra, so pretty much the most powerful
+mode you could put it on, it only worked
+for 24 minutes and 10 seconds. And
+here's what it created, and it looks
+pretty good. I mean, it's not horrible.
+I can't actually change the camera angle
+with my mouse, but but it's it's not
+bad. Definitely better than we were
+getting with Fable, but not quite as
+good as what I think we got out of
+Astra. So, pretty much what you'd expect
+from a model that's almost as good, but
+it's cheaper, and again, not quite as
+good on the benchmarks. I did run it
+through my Abusy bench here, and
+surprisingly, it ranked GPT-6 Soul as
+number one. But like I always say, use
+your eyes and decide the leaderboard
+here doesn't really mean a whole lot.
+This is using an LLM as a judge to
+decide the ranking, so it's very
+subjective. I still think GPT-6 Astra
+looks a little bit better than GPT-6
+Soul, but also interestingly, it put
+GPT-6 Soul Pro down here at number
+three. So, it actually ranked the
+non-pro version above the pro version.
+And when we compare them side by side, I
+think I agree. This whole version is
+actually better than the Soul Pro
+version. Soul used 30,301 tokens versus
+148,000
+tokens. Soul Pro took 8 minutes, while
+Soul took 4 minutes. Soul took 30 cents,
+and Soul Pro 92 cents. So, the one on
+the right cost 92 cents to make, the one
+on the left cost 30 cents to make. But
+when you're using ChatGPT, if you're
+just using chat, it appears to be using
+5.6 Soul, but if you switch it over to
+work, you can set it specifically to
+GPT-6 Soul or Luna now. But again, I
+said we got three new models, so we've
+got GPT-6 Soul, and we also got Claude
+Opus 5.5. And Claude Opus 5.5, I did go
+into quite a bit of detail about it in
+this video here. So, check that out if
+you haven't already, but here's the TLDR
+on that one. This is officially the new
+state-of-the-art model. This is pretty
+much the best model there is, kind of
+hands down, at the moment. We do have
+OpenAI Dev Day next week, so who knows,
+the leaderboards could be shifting again
+in a few days. But as of today, Opus
+5.5, we can see agentic coding here,
+blows everything else out of the water.
+It doesn't list GPT-6 Soul, but trust
+me, it's beating that as well. When it
+comes to knowledge work, new state of
+the art, humanities last exam, new state
+of the art, computer use, visual chart
+recognition, new state of the art. It
+also got a little bit cheaper than the
+previous version of Opus. So, Opus 5 was
+$5 per million input, $25 per million
+output. It went down to four and 20,
+respectively. When it comes to coding,
+it's beating out GPT-6 Astra on both
+cost and score right now. So, yeah, if
+you're looking for the absolute best
+state of the art coding model at a
+decent price, this is it. This model's
+performing better than Claude Fable 5.1
+on almost all the benchmarks, but it's
+over half the cost. From $10 down to $4,
+from $50 down to $20 to get even better
+performance. Once again, I ran my Mega
+Bonk test on it, and well, it worked for
+almost 20 hours. Building, testing,
+building, testing, building, testing,
+and the result is pretty mind-blowing.
+This is the version it made, and it is
+pretty close to the actual Mega Bonk
+game. Like, look at all these characters
+you can get. I'm going to go ahead and
+mute the game, but these are all actual
+characters from the original game. So,
+let's go ahead and select our fox here.
+We have to get to certain levels to
+unlock other games. There's multiple
+tiers. Again, very similar to the real
+version of this game. Now, when I get
+into it, my mouse controls my angle. So,
+as I move my mouse around, it's changing
+my angle. The characters, look at these
+level up animations. Like, let's go
+ahead and add another weapon. If
+anything, I think I level up a little
+too quick, but, you know, the game's not
+perfectly balanced. The level ups that
+we are seeing are pretty much the same
+level ups that you get in the real game.
+And yeah, this is just absolutely
+mind-blowing to me how good this all
+looks. I'm going to go ahead and unmute
+it for a second so you can actually hear
+it as well.
+Because the sound is pretty similar to
+the original game as well.
+Even the first boss in this game is
+similar to the actual real first boss in
+the other game.
+This is what 20 hours of Opus 5 running
+gets you. All right, I need to stop
+playing now because
+it's about as addicting as the original
+if I'm being honest. Look at this, even
+the pause menu looks excellent. Like
+there is so much detail in what Opus 5.5
+did. I am insanely impressed with what
+this does in terms of like games. Now
+the other thing that seems to be blowing
+a lot of minds around Opus 5.5 is how
+good it is at animation. Like here's
+some examples that I've come across. I'm
+going to mute them, but most of these
+even have audio that Opus 5.5 helped
+generate. So here's an animation from
+Addy Osmani here which explains how
+browsers work. And I mean, it's a really
+solid animation, like really, really
+impressive. Here's another one by Chubby
+here that actually explains how
+Transformers models work. And all of
+this is actually being created with
+JavaScript. So this isn't it going and
+like actually generating an animation
+like something like VO would do. It's
+not generating images like ChatGPT image
+or Midjourney. It's using JavaScript to
+draw all of this out and then animate
+it. Here's one from Tech Artist. This
+like an architecture schematic animation
+that looks really cool. This one's from
+Alexei Fative. And this one he had it
+take control of Blender and create a
+large Hadron Collider animation. So,
+this was Opus 5.5 taking control of
+Blender and generating this animation
+using Blender. So, not JavaScript this
+time. And here's one more example from
+Chris Riley where another animation
+where it looks like tiles or I'm not
+quite sure what it's supposed to be. I
+guess here's the prompt if you want to
+read the entire prompt. Looks like a
+two-parter here. So, there's the
+beginning of the prompt. Here's the rest
+of the prompt. You might need to pause
+twice if you want to see all that. But
+again, really, really impressive doing
+animations. So, I thought it would
+probably crush it on BusyBench, but
+BusyBench actually puts it all the way
+down here at number eight. Taking a peek
+at it, it cost $0.49, used 4 minutes,
+and about 25,000 tokens to generate this
+version of Busy. Dang, these animations
+are so good. Check it out. That's
+another one from Drew. But as mentioned
+before, we got three new models this
+week. And the third one that I haven't
+mentioned yet is from Space X AI. They
+released their Grok 4.7. Now, compared
+to the models we just looked at, and not
+quite as impressive. If we look at the
+average cost per task, Grok 4.7 falls
+over here. So, kind of think of this
+side as the intelligence and this side
+as the price. So, it is less expensive,
+but not quite getting the same results
+as these newer models. It's also not
+comparing it to GPT 6 Soul. It's not
+comparing it to Astra. It's not
+comparing it to Opus 5.5. So, in all of
+these benchmark comparisons, it's kind
+of comparing to like last generation
+models. But it is cheaper. Of course,
+you know I'm going to bonk bench it. And
+well, this is the version of MegaBonk
+that it came up with. Our character is a
+cube. Our fox character is like a
+pill-shaped thing. And our Clanker
+character is not openable yet. But let's
+go ahead and use Sir Oofie here and
+let's bonk. I mean, we can control the
+camera angles with our mouse, but we
+got, you know, squares shooting at
+little pill-shaped things. So, you know,
+again, not quite as impressive at game
+development and game design. So, those
+were the three models we got this week.
+Let's compare them over on Artificial
+Analysis cuz that's where we could kind
+of see like an aggregated ranking. It
+sort of takes a bunch of different
+benchmarks, mashes them all together,
+and then tries to pick the objectively
+smartest models based on all of that
+information. And if we come to
+Artificial Analysis here, we can see
+that Opus 5.5 Max is the smartest model
+pretty much hands down at the moment,
+beating out Fable 5.1 and GPT-6 Astra by
+pretty big margin, honestly. GPT-6 Soul
+falls down here at about 10 points below
+Opus 5.5, and then Grok 4.7 on extra
+high falls down here at 46. So, that's
+where those three models we just look at
+rank on Artificial Analysis. I also like
+to look at cost per task, and over here
+Claude Fable 5.1 Max is still the most
+expensive, but Claude Opus 5.5 is, well,
+the second most expensive to run right
+now. So, not a cheap model. Yes, it got
+a lot cheaper when it comes to cost per
+token or cost per million tokens.
+However, if we look at output tokens per
+cost, Opus 5.5 uses more output tokens
+than any other model. So, they lowered
+that price on output tokens, but the
+model is so much more token inefficient,
+I guess, that you're using way more
+tokens, so it doesn't actually drop your
+cost per task by that much. On the other
+hand, when you're talking about GPT-6
+Soul, which is still a pretty good
+model, our cost per task is way down
+here at a dollar six per task, compared
+to almost $6 per task for Opus 5.5 and
+Grok 4.7, which you saw with our mega
+bunk test, was definitely not up to par
+with GPT-6 Soul or Opus 5.5 from like a
+game coding standpoint, is all the way
+up here at $3.74
+per task. Again, because yes, the cost
+per million tokens is less expensive,
+but it uses a lot of tokens. Also, I
+just realized I didn't show off the busy
+bench on Grok 4.7. Yeah, that's what we
+got. It did only take 1 minute, used
+7,000 tokens, and cost like less than 3
+cents. But uh yeah, I mean, it's not
+even in like the top 20 on the
+leaderboard right now. So, those were
+the three big models that launched this
+week. Opus 5.5, new state-of-the-art,
+still not super cheap. GPT-6 Soul,
+almost state-of-the-art, pretty damn
+good model, super cheap to use. And then
+Grok 4.7's also there. But there was
+something else causing a lot of buzz
+this week. It was actually a model that
+came out last week, but it seemed like
+it really kind of had a lot of people
+talking this week. And that's a model
+out of a company called Type Safe AI
+called Jev. Now, I'm not going to go
+super deep into Jev in this video,
+because I feel like it's a pretty deep
+topic, and I do want to cover it well,
+and I don't think I can cover it well in
+just a little teeny segment of this
+video. But essentially, when you think
+of large language models like the GPT
+models and the Claude models, those
+create new text. Even when you ask it to
+make decisions for you, it's still
+creating text and writing code that then
+goes and makes those decisions. Jev, on
+the other hand, just skips straight to
+the decision-making. So, we can see
+right here, existing LLMs are optimized
+for human preference, write-ups and chat
+responses that human readers prefer.
+Now, Jev, this new model, is calibrated
+for decisions. The output from existing
+LLMs are, you know, strings and
+generated text. The outputs from Jev are
+structured values. So, structured values
+basically means you're defining what it
+could potentially output. And there's
+really three types of structured
+outputs. You can give it a choice, so
+you give it some options to choose from,
+a score, or a null, which is basically,
+you know, true or false. And instead of
+outputting a ton of text, it just
+outputs within these possibilities,
+along with a confidence score of that
+output. And because it's not outputting
+just a ton of text, it's just making
+these decisions, it is insanely cheap to
+use. Input tokens at 4 cents per million
+tokens, or $42 per billion tokens.
+Output tokens are free, because they're
+just too cheap to meter. It's also
+insanely fast. So, here's an example
+they show on their website with 27
+different questions, one request each.
+On the left is Type Safe AI, on the
+right GPT-5.6 Tera. And you can see
+after they finish typing this, the
+response is almost instant, while on the
+right we can see GPT-5.6 Tera still
+thinking about it. Now, it's sort of
+streaming out its response. And that's
+really the big difference here. You can
+see this cost, I mean, fractions of a
+fraction of a penny, and completed in
+.11 seconds, while this one cost a
+little more than a penny, and completed
+in just shy of 9 seconds. You can also
+see the difference in output here. This
+outputted the text, this one outputted,
+you know, nulls, choices, and scores,
+along with the confidence score. Again,
+I'd like to do a deeper dive into this
+exact tool, but here are some cool use
+cases others have shared with it. Here's
+a post from Malay here, where he created
+a smart drag and drop, and you can see
+he's got a few different folders, work,
+travel, and receipts. And instead of
+dragging them by one, he's able to
+select them all, drag them over, and he
+created an app that automatically
+filters them into the right folders.
+Jonathan Yunakovsky here created
+something where it looks at his email
+inbox, and then instead of prioritizing
+by date, looks at how critical it
+believes it is, and sorts it by how
+critical the email appears to be. Dev Ed
+here uses it to moderate comments for
+him. So, running Jeff to see how fast it
+can remove negative comments from a
+chat, and it's just automatically
+moderating if it believes it's a
+negative comment. Steven Tae here made
+an app where you can plug in a
+destination URL, and it detects whether
+or not it believes it's a malicious URL
+before you go to the link. It can also
+apparently play video games. Now, this
+isn't a model that's going to go and
+develop a video game for you, but
+because it can make decisions so fast,
+it can decide whether it should jump,
+walk forward, walk backwards, attack, do
+things like that. So, it looks at the
+screen, decides what it needs to do, and
+then takes the action automatically.
+Again, not something that's going to
+build the game, but something that's
+actually capable of playing games based
+on each frame that it's looking at. And
+this is just scratching the surface of
+what this Jeff can do. Again, we're
+going to play with it a little bit
+later. Now, unfortunately, if you do
+want to play with Jeff yourself, well,
+right now they have paused new sign-ups
+because of the overwhelming demand, so
+you can't quite get into it. But, if you
+do have access, you can literally go to
+Codex or Claude code, tell it what you
+want Jeff to do, and let it write the
+code to run Jeff for you. Jeff also has
+a playground that you can use, but
+again, you need to be able to get
+access, and right now access is
+currently closed off. Hopefully, it
+opens up again soon. And also, I will be
+doing a deeper dive into Jeff, so if I
+didn't explain it very well, I'll try to
+do better next time. All right, those
+are the biggest stories of the week, so
+let's jump into a rapid fire.
+So, let's start with Made on YouTube.
+This is YouTube's annual event where
+they announce all of the new features
+and things they're going to be rolling
+out. I put this one in the rapid-fire
+section because a lot of this is
+probably only going to be relevant to
+other YouTubers. There are some other
+things that do apply to people just
+watching YouTube, but again, it is a lot
+of updates for YouTubers as well. One of
+the things they're rolling out is custom
+feeds where you can essentially use AI
+and say, "Create me a custom feed of
+just AI news videos. Create me a custom
+feed of just stuff about the Padres."
+You know, whatever you want, and it'll
+create a custom feed that goes across
+the top of YouTube. And then you can
+click on that custom feed anytime you
+want, and it's going to show just those
+videos. I think that's a very, very
+welcome change to YouTube. I'm excited
+for that one. There's going to be Ask
+YouTube in search where, instead of just
+typing keywords, you can ask questions
+and it's going to try to find videos
+that help answer those questions.
+They're adding auto dubbing to live
+stream, so while you're live, it can
+automatically dub your voice into other
+languages, so anybody from any other
+country can watch your live stream and
+understand what you're saying without
+needing to turn on closed captioning. If
+you use YouTube Music, there's some new
+features coming to that as well,
+including Ask Music, which is a
+conversational experience across
+podcasts and the catalog of 300 million
+songs. So you can customize your queue
+or dive deeper into artist lore. Now, if
+you're actually a YouTuber and you put
+videos on YouTube, you're getting some
+new features as well. They're adding
+features where you can use AI to help
+you create your thumbnails. They're
+adding new editing tools that also
+leverage AI and Gemini Omni. They're
+adding better likeness detection, so
+other people can't like pretend to be
+you and make ads that seem like you made
+them. They're adding some new AB testing
+features where you're going to be able
+to AB test different versions of your
+video. So if you need like different
+intros in a video, you'll be able to
+split test those. And they're also
+adding a feature where you can show
+different thumbnails to different
+audiences. So you have an audience of
+people that watch you like every week,
+you can show one thumbnail to them, and
+then you can have a completely different
+thumbnail that shows to people that have
+never seen your videos before. Those are
+some of the cool features that are
+coming. There's a lot more announced,
+but I will link it up in the
+description. I think those are probably
+the biggest ones that most people care
+about, but there's also a lot of, you
+know, smaller announcements as well.
+Microsoft is rolling out a new Copilot
+with home code and autopilot. Those are
+like sort of three different modes you
+can switch it between. I have not had a
+chance to try this out cuz this was
+announced literally while I was
+recording this video. So, this is fresh
+in the moment I'm recording this, but
+you can see they're sort of simplifying
+options like a quick response or think
+deeper. You can choose between GPT and
+Claude models. You've got chat and
+co-work, very similar to what OpenAI and
+Anthropic are doing, chat mode, co-work
+mode. You can see they've got a code
+mode up here, which would be the
+equivalent of Claude code or OpenAI's
+Codex. And then you've got an autopilot
+mode here, which would be sort of the
+equivalent of scheduled tasks and
+automations. But it can also take
+control of like all of the different
+Microsoft apps you use, Excel, Word,
+PowerPoint, things like that. And then
+the automation mode does things that you
+want it to keep on doing over and over
+again. Their example in this video is
+stay ahead of supplier delays. And it
+looks at Excel spreadsheets and things
+like that to stay ahead of it for you.
+Again, this is super fresh. I have not
+actually tested any of this out yet, but
+it seems to be something where they're
+trying to unify what ChatGPT and like
+Claude co-work do, where you have a
+chat, a code, and an automation sort of
+section, but then tie it in with the
+other Microsoft suite of tools like
+Excel, PowerPoint, Word, etc. Google
+rolled out Gemini 3.8 live with a live
+avatar. It basically pairs real-time
+video generation with your speech.
+>> Meet Gemini live avatar.
+>> Bringing real-time visual presence
+>> to Gemini's conversational AI.
+>> Watch the interactive demos below to see
+how native voice dialogue and instant
+video generation power expressive
+face-to-face experiences across various
+use cases.
+>> We also got a Gemini 3.8 text-to-speech.
+More like this.
+>> Introducing da da da, text-to-speech.
+Transforms simple prompts into
+consistent, expressive voice output on
+demand.
+>> Okay, now let's add in another voice for
+this dialogue scene in the script.
+>> Or choose from over a thousand
+ready-to-go voices.
+>> Okay, but what if we had that voice a
+little bit deeper?
+>> And change it however you want.
+>> Okay, perfect.
+>> I think we get the idea, but this is
+something that is available right now
+inside of Google AI Studio. Google also
+integrated Omni inside of their Google
+Vids platform. Google Vids was more for
+making like PowerPoint presentation
+style videos as opposed to like actual
+animated videos or realistic-looking
+videos. But now that you can use Omni
+inside of it, you can get more like
+dynamic animations, and it also provides
+a free way to use Omni if you use it
+through Vids here. Spotify also rolled
+out a new feature this week with their
+taste profile. So basically, you can
+click on this button called taste
+profile. It'll tell you what it thinks
+your tastes are already, but then you
+can sort of explain what you want it to
+change, and it will use AI to help you
+dial in your taste profile a little bit.
+And finally, there's been a lot of talk
+about moving compute up into space.
+Well, this week Google is taking steps
+to do that. This is called Project Sun
+Catcher, and Google is actually trying
+to put their tensor processing units,
+TPUs, up into space. So they're going to
+use SpaceX to test and figure out if
+their hardware can operate in space.
+Right now, there's still a lot of
+questions about like how to dissipate
+the heat and things like that. And well,
+the best way to figure it out, according
+to them, is let's just start putting
+stuff up into space and see what
+happens. They need to figure out if the
+hardware can survive the actual launch
+process. They need to figure out if it
+could stay cool in space. They need to
+figure out how to connect the various
+satellites to each other. That's what
+this project Sun Catcher is and pretty
+soon we're going to get some answers to
+some of these questions, it sounds like,
+which is pretty exciting. Ooh. All
+right, that's what I got for you this
+week. I know, once again, really, really
+busy week. I normally record these on
+Thursdays and then publish them on
+Fridays. This week I'm recording on
+Friday and publishing on Friday, but I
+might have missed some news while in the
+process of recording and if I did, it'll
+be in next week's video. But every week
+I spend all week drinking from the
+firehose, reading all the news, watching
+all the keynotes, going to the events,
+talking to the people building this
+stuff, and just trying to make sure I
+stay fully looped in and tapped in on
+what's going on in the world of AI and
+sort of future technology so that I can
+make these videos for you on Friday and
+you don't have to feel overwhelmed. You
+can just watch one video, feel totally
+looped in for the week, and I'm going to
+keep on doing that. So, if you like this
+kind of video, well, press that like
+button and consider subscribing to this
+channel and I'll make sure more videos
+like it show up in your YouTube feed.
+Again, next week is OpenAI Dev Day, so I
+will be doing even more travel next week
+going up to San Francisco for that. We
+can expect some big announcements. I
+have some ideas, but not a lot to talk
+about them yet, but there should be a
+lot of cool stuff coming next week as
+well. So, again, make sure you're
+subscribed so you get those videos when
+they come out talking about everything
+that was announced during next week's
+festivities. But again, that's what I
+got for you today. Thank you so much for
+hanging out with me and nerding out with
+me. Sorry this video is a little bit
+later in the day than I normally publish
+them. That's what happens when I'm doing
+a lot of travel, unfortunately, some of
+these videos get pushed out. But I
+appreciate you for watching this and
+hanging out with me and letting me nerd
+out about all the cool stuff I came
+across this week. Again, I really,
+really appreciate you and hopefully I'll
+see you in the next one. Bye-bye.

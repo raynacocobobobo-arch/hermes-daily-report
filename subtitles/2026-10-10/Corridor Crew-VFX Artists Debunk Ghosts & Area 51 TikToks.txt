@@ -1,0 +1,642 @@
+UP主：Corridor Crew
+标题：VFX Artists Debunk Ghosts & Area 51 TikToks
+链接：https://www.youtube.com/watch?v=sigA04sdSMQ
+
+Guys, red alert. We had a famous
+streamer on YouTube visit Area 51 and he
+captured real footage of aliens. He
+uploaded the video to his YouTube
+channel and people think it's real and
+we have to take a look at it and find
+out.
+>> We've been here for 3 years trying to
+believe about these aliens. In fact, we
+even made some of our own alien clips to
+trick people just to get in the mindset
+of these of these UFO enthusiasts.
+>> We wanted to see real aliens more than
+anyone else in the planet, but we want
+to [music] see real aliens, which is why
+we're looking at these clips because we
+have trained eyeballs and we can know
+which pixels are real and which pixels
+are fake and how cameras work and
+[music] how to reproduce all these weird
+cool real life phenomenon.
+>> I mean, maybe this is the episode where
+we finally see real aliens.
+People send us their alien clips every
+day at debunk@corridoradigital.com.
+Almost 15 people have sent us this clip
+recently. It's about a streamer
+that has gone to Area 51
+and he caught aliens on camera.
+>> Oh my god. Look right here and it look
+[music] all the way to the
+>> Wait, wait, wait.
+>> Did it go right there?
+>> Right there.
+>> That's the moon and that's also the
+moon.
+So, there's a cut.
+>> Look, there's aliens in the sky. Look.
+You can't see them. Listen to my
+dialogue.
+>> On god, I'm zoomed in right now. And
+that's not no plane, that's not no car,
+that's not no nothing. [music]
+>> Buddy, get that.
+>> It's not a car, true.
+>> [laughter]
+>> We're seeing these little like stretched
+red dots. They kind of just blink
+[music] in and out of existence and
+they're also kind of like rotating
+around each other. Seems to be like
+there's four of them.
+>> It's it's kind of an eerie effect seeing
+it suddenly like duplicate like that.
+>> Look at that
+>> Bro.
+>> Bro, WHAT THE
+>> NO, NO, NO.
+>> WHILE THIS WHOLE EVENT WASN'T
+NECESSARILY A live streamed, you're
+seeing long uninterrupted clips of them
+going around Area 51 and interacting and
+talking with people and investigating
+and all this stuff.
+However, there's the moment where they
+actually see the UFO. Even though we see
+they turn the camera towards the night
+sky, it's still [music]
+cuts.
+>> Yeah.
+>> [laughter]
+>> I It's That's just a little suspicious.
+>> Here's some things that stand out to me
+when I watch this. VFX artists just love
+their bloom. They love it. They put on
+everything, even if it's not that
+bright. And those little red guys are
+really blooming out. They're [music]
+blooming out really brightly.
+>> Look at the the size difference between
+[clears throat] that hot flash and the
+moon. The brightness is the same on
+both, pure white.
+>> Mhm.
+>> But the falloff on the moon is
+illuminating a whole lot of stuff, and
+this thing is illuminating just a little
+bit of glow around it.
+>> Yeah, that's actually kind of a good
+point. The moon is so bright. If this is
+our exposure, that moon is bright enough
+to illuminate multiple clouds. And if
+this UFO is literally that bright as
+well, basically as bright as the moon,
+how is it not illuminating clouds?
+>> Yeah. Go back one frame. This is the
+frame before it. [music]
+>> Mhm. It that feels like a fade in on a
+program of a layer.
+>> You guys are I think really on point
+with these observations. However,
+>> There is just a little bit of room of
+subjectivity.
+>> found the smoking gun.
+>> And I can show you what the smoking gun
+is. Let's take a look at this. This is
+After Effects that I have open here.
+>> Oh, did you make a motion blur example?
+>> So, look, there's everything's moving
+together, but let's add motion blur to
+just the red circle. You can see it
+moving with the background, and let's
+watch how that works.
+Motion blur starts
+before the background is moving.
+>> You're right.
+>> And then even as it returns, we'll see
+there's single frame there where there's
+still actually a little bit of motion
+blur.
+>> You're right. The background hasn't
+moved, but the motion blur suddenly
+appeared.
+>> Exactly. I How do you want to explain
+this quirk? Well, I mean, this is kind
+of like
+After Effects, I guess, for you a little
+bit. [laughter]
+You know, I was looking at it and I
+said, "Ah, I can just sense from the
+motion what I'm seeing is that we have a
+misaligned motion blur on the footage."
+Here, hold on. Let me Let me show you
+the one in particular that really jumps
+out. Our little UFO buddy,
+>> Uh-huh.
+>> he's there.
+>> Oh.
+>> Oh. And once again, it is moving, but
+the motion blur is exceeding. You can
+just compare it to the background.
+You know, it's either not as long or the
+direction is slightly different. So, at
+the end, something crazy happens, and I
+guess
+>> Suddenly the whole
+>> Oh, it flies away, doesn't it? It's Oh,
+my god, is that Trooper? It zips away
+super fast at the very end.
+>> There's just like 12 aliens on the the
+spaceship, and they're all just like
+>> [laughter]
+>> They're clearly trying to do like the
+aliens zip away moment. And because the
+movement is so extreme, all those those
+three little dots with their motion blur
+>> [music]
+>> uh completely break. And that motion
+blur, which is a bunch of samples, the
+samples have been so stretched out that
+now you can see each individual
+impression.
+>> Let's say you animate your thing from
+here, and you're just trying to get it
+off screen. So, you're like, "Oh,
+whatever. I'll put it way over there."
+And let's say your motion blur samples
+are 16. That means it's going to create
+16 slices between [music] there and over
+here. That's what we're seeing. If you
+have that much speed, you have to crank
+your samples up to like 120, if not like
+200. But here's what I don't get. We're
+still seeing the original three things.
+They're not off screen yet.
+>> They actually So, what you're seeing,
+Ren,
+>> [music]
+>> Sam illuminated this for us. That's not
+the motion blur of that moment. That's
+the motion blur of the next frame that
+we're seeing.
+Remember? And in the next frame, they're
+not EVEN ON CAMERA.
+>> [laughter]
+>> OH.
+THAT'S RIGHT.
+THAT'S EXACTLY WHAT IT IS. OKAY.
+>> YEAH. SO, as we know, clips like this go
+viral because they are sniffed out of
+the main video and shown to people out
+of context. But, if you want to talk
+about a gun that
+smokes out the whole room, all we need
+to do is go to the very first frame of
+the original YouTube video,
+>> [music]
+>> and actually spend the time and and read
+it.
+>> Anything you also see in this video is
+fictional and absolutely never happened.
+>> [laughter]
+>> It's all right
+>> Shout out to KJ Smooth and his team and
+the artists that worked on this uh
+because they made something so
+compelling and took people's
+imagination.
+>> Even as of yesterday, the top post in
+some of the UFO subreddits was this
+clip.
+>> What's up, guys? Christian here. So far,
+after spending this episode separating
+[music] possible UFO footage from VFX,
+camera artifacts, and the internet just
+being the internet, one thing is
+obvious: presentation matters. And
+that's why this video is sponsored
+[music] by Squarespace. Squarespace is
+an all-in-one website platform where you
+can claim a domain, build a professional
+website, showcase your work, and grow
+your brand. Whether you're building a
+VFX portfolio, publishing a research
+paper, starting a business, or
+assembling the internet's most organized
+archive of Area 51 evidence, Squarespace
+gives you one professional place to put
+everything together. [music] You can
+start with one of their professionally
+designed templates and customize it with
+intuitive drag-and-drop editing, so you
+do not need to be a web designer to make
+something that [music] actually looks
+polished and cool. Squarespace also
+includes integrated SEO tools that help
+people find your site through [music]
+search, which is useful when your work
+deserves a better home than a random
+folder, a social media post, or a cork
+board covered in red string. So, go to
+squarespace.com/corridorcrew
+to start a free trial, and when you're
+ready to launch, use the offer code
+corridorcrew to save 10% off your first
+purchase of a website or domain. Thanks
+to Squarespace for sponsoring this video
+and supporting the Corridor Crew for so
+long. Now, let's get back to the Debunk
+Couch to see if these guys can find any
+real UFOs in any of this footage.
+>> Let me show you guys a real UFO.
+>> I got a real UFO clip.
+>> Wait.
+>> Wait, it's finally time?
+>> Wait, are you belief baiting me?
+>> [laughter]
+>> No, it's a free-standing camera.
+>> no context needed, guys. A good UFO
+clip, you look at it and you're like,
+"What is that?"
+>> Well, it's clearly their teleporter's
+broken.
+>> Maybe it is.
+>> Oh.
+>> [laughter]
+>> I know exactly what this is. I know
+exactly what this is.
+>> What is it?
+>> So, the first thing I notice is that
+that balloon looks pretty real and it's
+blinking at a very rhythmic consistent
+pattern. That last flash is so bright
+the entire thing blooms out. I do think
+we're looking at real footage. I don't
+think it is a UFO because UFO implies
+flying.
+>> But it's soaring through the sky or
+teleporting at least.
+>> It's in the sky. What do you think, Sam?
+>> I'm I'm beginning to catch your drift.
+If this was a building's light or
+something tall, it would have a red
+light. Usually you would put the red
+light on something very tall to warn
+people to not crash into it at night.
+>> the clouds are so dense we can't see the
+red light because I think [music] this
+is the top of a very tall radio tower
+and it's just a super cloudy morning and
+the light is able to pierce through the
+clouds and create this UFO looking shot.
+Nico, how close am I?
+>> You nailed it, Wren. Yeah, that's
+exactly what it is. There's an actual
+term for this. So, [music] what you guys
+are looking at is a catenary lighting
+system, which is a specific system that
+just flashes a bright white light when
+it's [music] in fog. Not just, you know,
+you you have the regular red lights on
+towers, but this is for when there's fog
+[music]
+so planes can still see it and not
+crash.
+>> Wait, what do you mean fog and red light
+don't get along?
+>> The red light is not strong enough to
+pierce thick clouds.
+>> So, this is an example of the lights
+that you're talking about not of the
+actual original shot.
+>> Exactly. But it's really cool and
+surreal because like [music]
+it's floating up there in the sky
+probably on a mountain or something like
+that. Looks very otherworldly because of
+that. It doesn't [music] fly like a
+drone or a balloon. So, I really like
+this one.
+>> I did too. This one's a cool one. But
+>> It would have been way easier.
+>> Debunked.
+>> Debunked. It's debunked.
+This is from Bratislava.
+>> A Hikvision camera captured this object
+not only in the thermal vision mode.
+>> So, I don't know what a Hik micro camera
+is.
+>> Hikmicro is a thermal camera.
+>> What is going on in this shot, guys?
+Black's hot and I think in that thermal
+mode.
+>> Why is there a hot dot flying around?
+>> And then it just it's up there and then
+it just flies away. So, first off, is
+this real captured footage or is this
+manipulated?
+>> I think this is real footage is just
+one, the texture and the compression is
+very specific kind of texture, the
+sharpening is very specific kind of
+sharpening. And at the very end, the
+motion blur on the stars is such a very
+particular kind of motion blur.
+>> Yeah.
+>> That, you know, it's probably real
+footage.
+>> In which case, what is this phenomenon
+we're observing? It kind of looks like
+it's perhaps a balloon that's really far
+away.
+>> But why would it be a hot balloon?
+>> Exactly.
+>> The thermal camera does a lot of the
+work here though, cuz like there's so
+many things that disqualify it if it's
+just a cold, you know, lifeless object.
+>> I can't help but think we're just
+[clears throat] looking at footage of
+embers from a fire.
+Looking up and embers floating up in the
+air.
+And that's, you know, fire smoke and
+embers and dust going right past the
+camera.
+>> it. God dang it. I spent a minute
+looking at this and I was like, I can't
+figure out what this is. I hope you get
+And as soon as you said fire embers, I'm
+like,
+that's it.
+That's it.
+>> Well, that would explain the rushing
+dust in the foreground as well.
+>> Yeah. Some dude in Bratislava at a
+campground just with a fire and was
+like, "Huh, check out my new toy." Like,
+"Oh, look, I can see the the ember up
+there. Oh, it flew away. Where'd it go?"
+>> And because it's literally an ember,
+it's going to be very hot.
+>> All right, boys. Some men were hiking in
+the mountains recording
+and they saw this.
+>> During the day.
+>> THERE IT IS.
+>> WOAH!
+>> HOLY
+>> WAIT, WHAT?
+WHAT?
+>> THAT THING, WHAT THE HELL IS THAT? Is
+that like a pizza?
+>> I was about to say, it looks like a
+pizza to-go box from a
+pizza chain.
+>> You've seen it three times. Is it real
+or is it VFX?
+>> You know, low-key it does look real.
+It's very uncanny looking and that's why
+it's like weird.
+>> I'm pretty sure this is VFX because it's
+a giant floating triangle.
+>> All right, we're looking at the slow-mo.
+>> Yeah, that's VFX.
+>> Yeah, do you see why?
+>> There's frame interpolation.
+>> Yeah.
+>> [laughter]
+>> You see that smoking gun, which is
+different frame rates on the UFO versus
+the background versus
+>> Yeah.
+>> [laughter]
+>> You know, to the to the people that put
+this together, great great job. Great
+job. Uh look, some things you got to do
+first here. So, whatever like
+pre-rendered animation you're using in
+that spinning triangle,
+>> [music]
+>> you got to make sure it's at the same
+frame rate as your background.
+Otherwise, as it moves, it's just going
+to like pop and then hold a frame for a
+while, then pop and hold a frame. But,
+the UFO itself is still translating
+across the screen for every frame. It's
+just the actual rotation. Pops [music]
+and pops and pops. Great job lining up
+the reflection, but I will also say bad
+job emulating the bloom that's on and
+how it should be overlapping the UFO at
+the
+>> It goes over the lens flare at the very
+end there.
+>> Yeah. There's like a little lens flare
+that flickers, but it's behind it.
+[laughter]
+>> Yeah. But, once again, captured the
+imagination of at least thousands.
+>> The color works. The color matches.
+>> Color matches great.
+So, we've been looking at UFOs,
+unidentified flying objects. But, what
+about unidentified floating objects?
+[music] Do you guys want to see some
+supposed real mermaid video?
+>> [laughter]
+>> Technically a UFO, let's do it.
+>> Animal Planet is like a Science Channel,
+just like Discovery with Pawn Stars and
+Ice Road Truckers was. Why does he look
+like he's on a green screen, man?
+>> Oh.
+>> Well, with former NOAA biologist Dr.
+PAUL ROBERTSON AND JOIN
+>> [laughter]
+>> WHAT IS THIS, DUDE?
+>> Zack Galifianakis is a really good like
+doctor actor kind of I do take him very
+seriously.
+>> Dr. Robertson
+>> I'm sorry. Can
+I can we play [music] that back, please?
+>> Dude, the camera movement perfectly
+capturing that.
+>> I was like, hold on. I thought we were
+watching some real footage, but he he's
+he's like on a green screen.
+>> [laughter]
+>> Yeah.
+>> They are not underwater.
+>> Looking at the color tones of his skin
+there, you can really clearly tell he
+was filmed with a different light and a
+different exposure, and they're trying
+to make it match the interior of this
+sub this visual effects sub background.
+>> Who thinks this is Did they just put a
+disclaimer at the front? I'm pretty
+confused cuz it keeps cutting back to
+the guys and they're like, "Yeah."
+>> So, like
+>> Yeah, that happened.
+>> Also, they made a prime camera move
+mistake. The cameraman is perfect.
+>> Oh.
+>> He whips over just in time to see the
+whoosh. It's something that like
+filmmakers and visual effects artists
+actually specifically try to avoid. I
+remember Todd Vaziri talking about this.
+Camera operators are never going to be
+able to get the moment perfectly.
+They're always trailing behind a little
+bit trying to catch up to the action.
+This mermaid that we're seeing
+definitely looks to be like some sort of
+CG animated creature.
+>> CGI
+>> [laughter]
+>> This is strange. No No one actually
+thinks this is real.
+>> This was on network TV. It's not real
+because of that. It's a show.
+>> The mainstream media can't trust any of
+that stuff.
+>> Corridor FX debunked.
+>> I do have a ghost clip.
+>> Oh, UNIDENTIFIED
+>> FRIGHTENING OBJECT.
+>> [laughter]
+>> THIS CAME DIRECTLY to Corridor here. It
+has an email written with it.
+>> I love reading the emails.
+>> Hello Corridor Crew. I was sent this
+video from a friend, Kelly, who recorded
+this video one night pre-gaming before
+going out. It was just the two of them
+alone and they didn't see or think
+anything while filming the video. Upon
+rewatching their videos from that night
+the next day, they saw what appeared to
+be a ghostly woman / little girl
+watching them from behind a wall in the
+hallway and then walking down the
+hallway.
+>> I just got chills.
+>> Forever subscribed, Nicholas.
+>> Thank you, Nick. Um I think we could
+probably take a look at this for you.
+>> This is a raw video, guys. You can't
+watch this online.
+>> Oh, you almost got it. You almost got
+it. I saw something like a smoker.
+>> Did you guys see it?
+>> Yeah, I saw it.
+>> Look how it moves so smoothly.
+>> It's not somebody taking a step. There's
+no step happening.
+>> Can you frame by frame it? It looks like
+some sort of girl wearing like a white
+gown and black hair, kind of like The
+Ring or something like that.
+>> Okay, first off, is this even the actual
+original video clip? Take a look at the
+metadata and see if this is
+>> encoded by LAVF55.16.103.
+So, this is encoded using FFmpeg
+somehow.
+>> I spent some time looking at this clip.
+>> Okay.
+>> this clip. It's a good ghost clip. I
+personally think this is a visual
+effects actually.
+>> I'm starting to look at it and I think
+you might be right, Nico.
+>> I'm getting a hunch that this Nick
+character that sent us an email knows
+his way around Blender a little bit.
+First and foremost,
+>> [music]
+>> the cloth doesn't move on this ghost.
+Granted, ghosts I guess don't have to
+obey the laws of physics, but if this
+was a person turning around stepping
+away, you'd probably get some cloth
+wiggle and you'd get that momentum shift
+of you having to move your weight off of
+a foot that's keeping you steady to a
+foot that's now letting you walk. So,
+you don't get that motion change. You
+just get the smooth key framed [music]
+glide away, but because it glides away
+slowly and there's no cloth movement,
+that's also why I think it's a 3D model,
+not just somebody doing it in the shot.
+But, there is one tell in the actual
+image itself, which is the door [music]
+frame.
+>> Are you looking at the feather
+of the mask on the door frame?
+>> Mhm. Mhm. If you're compositing a 3D
+model on the other side, you're going to
+have to cut out that wall and basically
+add your own blur and feather to match
+that motion blur.
+And it gets to be just a little bit of a
+different quality. And in many shots, it
+feels too crisp compared to the other
+border.
+>> Yep.
+>> That's so funny cuz I was just like,
+it's just someone pretending to be a
+ghost in the shot rather than a visual
+effects.
+>> That would be the easiest thing cuz, you
+know, otherwise it requires someone with
+visual effects knowledge, but at the
+same time, someone did email us. Our
+audience includes people who know how to
+do visual effects.
+>> It does include a few of them.
+>> What's the [music] duration of this
+clip, Christian? Is this exactly 10
+seconds?
+>> Wait, is it 10 seconds on the dot?
+>> [music]
+>> Exactly 10 seconds. That proves
+that this is not real ghost footage. And
+I can tell you why. Because this is a
+clip that is under the pretense that
+this is right from the source. So, we
+even have the file name, MOV 8379. Like
+the person recording, by chance,
+perfectly recording it at the exact
+10-second mark as well, kind of like
+breaks reality, I feel like.
+>> It shows intention in how the video was
+cut and edited, and you have to [music]
+look into that intention. But, my gut
+tells me
+that someone's testing us. And to which
+I reply, "Excellent compositing work."
+>> Uh
+close. Uh nice try, though.
+Everything today has been debunked,
+whether it's just natural phenomenon or
+visual effects, but we continue to
+search for that real alien clip. If you
+experience any of these phenomenon on
+your own, hit us up at
+debunk@corridordigital.com.
+Don't try and trick us. We know your
+tricks.
+>> Or, try to trick us and see if you can
+pull it off.

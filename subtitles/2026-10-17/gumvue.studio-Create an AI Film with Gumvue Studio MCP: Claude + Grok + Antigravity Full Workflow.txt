@@ -1,0 +1,421 @@
+UP主：gumvue.studio
+标题：Create an AI Film with Gumvue Studio MCP: Claude + Grok + Antigravity Full Workflow
+链接：https://www.youtube.com/watch?v=HrRaUQGdlx8
+
+Morning.
+Good morning.
+Interesting, isn't it?
+>> Very.
+>> This chap I know showed up the other day
+and brought the creature in a fish cast.
+He said he'd find it near some big lake
+up north.
+>> Has anyone inspected it?
+>> Nope.
+>> Unbelievable.
+>> What's the price?
+>> Well, let's just say this isn't your
+average pet.
+>> How much?
+You grew. We'll need to find you a new
+fish tank, buddy.
+>> [sighs]
+>> Interesting, isn't it?
+>> Very.
+Hello everyone. Today I'm going to show
+you how to create a film storyboard with
+prompts using our MCP server. First, you
+need to sign up or log into your
+account. I'll log into my account now.
+The first thing you need to do is go to
+the MCP API keys section. Once you're
+here, you'll need this link and you'll
+need to generate your API key. I'll name
+this one demo video. You can set it for
+30 days, 7 days, or whatever duration
+you prefer and then generate the key.
+Now, I'll copy this. Next, I'll show you
+how to connect it from Claude. And after
+that, we'll go through the same process
+using anti-gravity. Inside Claude, we
+only need this link. Copy the remote
+server endpoint. Then open a new chat in
+Claude. Click add connector. Then browse
+connectors. From here, go to add a
+custom connector. Enter the connector
+name. Paste the link here and click add.
+It will now redirect us to our website.
+Here you simply need to authorize access
+so that you can use the MCP server from
+Claude. Once authorization is complete,
+go back to claude. If we open the
+connectors section, we can see that it
+is connected. We can also select manage
+connectors to confirm that everything
+has been connected correctly. As you can
+see, all of these endpoints have been
+created. These represent the different
+types of operations you can perform
+using this MCP server. Next, I'll return
+to this page. Here you can see one of
+the first prompts you can use to create
+the complete storyboard HTML for your
+story. I'll click preview, copy this
+prompt, and bring it into Claude. You
+can update or modify this prompt however
+you like. Everything looks fine, so I'll
+return to Claude and paste the prompt.
+Again, you can customize it however you
+want. I'm using it as it is simply to
+demonstrate the process. Next, I'll find
+a downloaded movie script. For example,
+I can use this PDF. I'll upload it here.
+You can also change the model here and
+select a better one if you prefer. I'm
+currently using a free account, so it
+doesn't matter for this demonstration.
+Now, I'll start the process. You can see
+that Claude begins generating content
+for this approximately 3inut short film.
+Let's see what it creates. The
+storyboard has now finished generating.
+As you can see, it has generated the
+different shots. Let's open it in full
+screen mode. This is what the completed
+storyboard looks like. Here we have the
+dialogue which you can work with
+individually and later use inside the
+videos. We also have the characters. In
+this example, there are three characters
+and one creature. We also have the
+locations and all of these assets can be
+generated as well. The script is also
+included within the storyboard. We have
+an option called copy prompt. I'll test
+it here to see what it does. It appears
+that the prompt is not copying
+correctly. Let me check. It still isn't
+copying the prompt. This may be because
+I need to download the file first. I'll
+download it and test it again. You can
+also request updates directly here. For
+example, if you cannot copy individual
+shots or all of the prompts, you can ask
+Claude to correct the problem. You'll
+also see that I can generate images
+directly from this workflow and I'll
+show you how to do that. There are many
+additional things we can accomplish
+without having to return to our website.
+At the moment, Claude is reading the
+file and making the requested changes.
+It has identified the problem and is
+attempting to fix it. I'll close this
+and download the updated version. Now,
+let's test copy again. It works now. The
+problem has been fixed. Here are another
+three shots. We can continue working
+through the project in this way. Next,
+I'll ask it to create an image for one
+of the characters. We need to go to the
+asset bible and request something such
+as create a Joseph green screen
+background character sheet image. Use
+flux from fall.ai.
+It will now generate the image. You can
+see that the image generation process
+has started. Perfect. We now have the
+image. Let's take a look. This image was
+generated using Flux, but remember that
+you can use any of the other models
+available in the system. It is the same
+tool that is available on our website.
+If I go to the website, open my account
+and then go to my gallery, you can see
+the images that have been generated.
+Anything you generate from Claude,
+Anogravity or any other connected
+platform will also appear here in your
+account. We've completed this example. I
+can now ask it to generate another
+character in exactly the same way. We
+can also generate video. Let's look at
+an example of how we can use this for
+video generation. First, let's create a
+project in Movie Studio or in this case,
+Omni Studio. I'll ask it to create a
+JSON file, populate the shot scenes from
+the source file, and allow me to
+download a JSON file containing all of
+the shot prompts. The system will create
+a project inside Omni Studio and attempt
+to organize all of these prompts in a
+format that allows us to generate images
+and videos directly from the website.
+Let's see what it does. The project has
+been created and it is now creating the
+scenes. There are several scenes in this
+project. Let's see how many it can
+create. I'll click here and open the
+project. This is our Omni Studio
+project. We'll skip this section and go
+directly to studio. Let's see what it
+created. It created the project, but it
+did not create the scenes directly. In
+this situation, it appears to be
+generating a JSON file. Instead, it is
+giving me the JSON file so that I can
+import it and bring all of this
+information into my project. We can
+click import, select the JSON file, and
+import it. Let's wait until the process
+finishes. There it is. We now have the
+JSON file. As you can see, this is quite
+a large file. So, I'll download it. Now,
+I'll return to the project and as I
+mentioned earlier, click import. Click
+here and select the file we just
+created. Let's test it. It works. You
+can now see that it has generated all of
+these shots. If I click through them
+individually, I can access every shot
+and its associated information.
+Everything looks correct. I'll save the
+project. If I want to generate an image,
+I can select one of these shots. For
+example, let's choose latest night.
+There are two shots here. I'll scroll
+down and select generate. Now, let's say
+I want to generate one of these images.
+When I click here, the AI generator
+opens. We have several different models
+available, including fall.ai, KAI, and
+Pollinations AI. Let's try this one.
+I'll click generate and see whether it
+works. Here's the generated result. It
+looks like a fish tank or something
+similar. You can generate a video from
+this in the same way if you want. Once
+you have generated all of your assets,
+you can send them to the video timeline
+and edit your video directly here. If I
+click video, you can see the reference
+image and imagetovideo options. This
+particular AI provider does not have a
+video model available here. So, it only
+supports text to video. We can use K AI
+for imagetovideo generation. Let me
+check the other options. We also have
+access to many of the latest models. As
+you can see, Cedence models are
+available as well. Here we have many
+with both text to video and image to
+video options. You can generate your
+video from here and then send it
+directly to your timeline. Now, let's
+return to Claude because I want to show
+you what else you can do. As you've
+seen, you can generate images directly
+from here and continue generating
+additional assets. You can also retrieve
+all of these project files or generate
+the HTML file I showed you earlier.
+Next, I'll show you how to perform the
+same process using anti-gravity. For
+this, we'll return to the API keys page.
+Remember that we previously copied our
+key. Now, we need to copy the section
+labeled client configuration JSON. Copy
+the complete configuration and add your
+API key where required. Next, open
+anti-gravity. We are now inside
+anti-gravity. As you can see, this is an
+empty workspace. I'm going to add the
+MCP server. To do that, click the three
+dot menu and go to MCP servers, then
+manage. You can see that I've already
+configured mine. What you need to do is
+click here and select view. You simply
+need to copy the configuration into this
+file, which is the MCP configuration
+JSON file. Add your API key and save it.
+Once you've done that, the connection
+should work. This is the easiest way to
+configure it. Now, I'll return to the
+chat. I'll close this window and go
+back. I'm going to follow the same
+process again. First, I'll find the
+storyboard, or rather the script. I'll
+use this one as an example and upload it
+here. This time I'll use the shorter
+version. I'll return to Anigravity and
+copy this screenplay prompt. Again, you
+can select whichever model you want.
+I'll use this one and submit the
+request. Antiggravity will now call the
+MCP server and begin generating the HTML
+file containing all of the relevant
+information. We need to wait for a
+moment while it finishes. The process is
+complete. Let's look at the file. I'll
+open file explorer. This is a short
+story, but you can see that it has
+generated all of the relevant
+information under assets. For example,
+we have the man, the child, and the
+police officer. There isn't much
+dialogue in this particular story. Next,
+I'll show you how to generate the video.
+I'm going to use Cedence, and this time
+I'll use Cap Cut so that you can see how
+the generation process works. I'll come
+here and click copy all prompts. Let me
+check it. I'll create a new project and
+paste the prompt here. I'll select my
+model and choose the fast option
+probably with a duration of 10 seconds
+and then click generate. The generation
+process has started. Once this one
+finishes, I can move on to the next
+prompt. Another approach is to avoid
+generating the characters separately.
+For example, I can copy this character
+information, go to chat GPT, and ask it
+to generate the image. I'll do the same
+thing for the other characters. Remember
+that we have additional information in
+the storyboard inside anti-gravity. I
+can also request additional actions or
+ask it to generate an image directly.
+For example, I can ask using flux with
+fall.ai create the first character
+image. Let's see what it does. It has
+created a project. I'll select always
+allow. This result is better. We now
+have our character and it looks good.
+You can see the prompt that will be sent
+to the image generator and now it is
+generating the image. Let's see the
+result. This character was generated
+using Flux Pro. Here is the image and
+here is the prompt. If I Let's see the
+result. We now have our video. So, I'll
+download it. What I usually do in this
+situation is capture an image from the
+generated video. I'll capture this image
+and bring it over here. I'll do the same
+with this one. Next, I'll go to chat
+GPT. First, I'll return here and find
+the character information. These are the
+character details. I'll bring them into
+chat GPT. I'll add the images I just
+captured and ask Chat GPT to create a
+character sheet image with a green
+background. Let's see what it generates.
+The reason I'm creating the character
+sheet from the generated film footage is
+that it can give me a more realistic
+character image. You'll see that the
+newly generated image should look more
+realistic than this version. This
+original version was generated directly
+from the prompt and it is also good, but
+the new version should have a more
+realistic appearance. Next, we'll move
+on to the next video prompt. I'll return
+here. This is the first scene. Now,
+let's see what it generates. Here is the
+result. There appears to be a small
+issue with the character's head, but you
+can see that the overall image quality
+is very good. I'm going to use this
+image in the video. I'll place it here.
+Now, I'll copy my prompt and set the
+video duration to 10 seconds. Let's
+generate it. I updated this image
+because there was a problem involving
+the McDonald's logo. Let's return here
+and try again. I'll copy this prompt. It
+specifies 14 seconds, but that isn't a
+problem. I'll use 10 seconds again. Now
+I'll generate it there.
+Remember that while you are inside
+anti-gravity, you can continue prompting
+the system and provide more detailed
+instructions whenever the generated
+result does not match what you want. For
+example, when I compare these results,
+this version is quite simple. I can ask
+can you use the skills from gum view
+studio mcp and create this using the
+shots layout and other available
+information. Let's try creating another
+version. I'll create one more storyboard
+template so that you can see the
+difference. You can see that it has
+generated another version. It is quite
+similar to what we received from
+anti-gravity but this version is better.
+It is very important to specifically ask
+it to generate the result using the
+skills from Gumu Studio MCP rather than
+allowing it to generate everything
+independently. The previous version was
+not closely related to the engine and
+its available capabilities. Now we have
+all of the characters and dialogue.
+Let's test copy prompt. I'll download
+this version. Now if I come here and
+copy it, you can see that it generates a
+better result. That completes the main
+workflow. To use the system yourself,
+simply sign up and register. Remember
+that you should have a paid account
+where required. You also need to connect
+the AI generators you want to use. For
+example, you can connect your Gemini API
+key, fall.AI API key, K AI API key, and
+Pollinations account. Your Patreon
+account should also be connected where
+required and you can connect your Google
+Drive account as well. Once those
+services are connected, the system will
+be ready to use. Remember that there are
+many additional tools available for
+content generation. These tools are
+designed to help you throughout the film
+making workflow. For example, the
+storyboard designer allows you to create
+additional storyboard content and work
+with 3D generation. You can click any of
+these tools and use them directly in
+your workflow. There is also a 360
+panorama viewer. I usually create a
+large panoramic image. Rotate the view
+and find the best angle for individual
+shots or background images. Let me show
+you an example. I'll select a random
+image. You need to upload the correct
+type of image to generate this
+particular view properly. There is also
+a 3D modeling tool that allows you to
+model and manipulate different elements.
+Another available tool is the depth map
+pose generator. You can upload a video
+and the tool will generate a grayscale
+depth map video. You can then use that
+depth information as part of another
+video generation workflow. There are
+many more tools available as well. We
+also have the discovery section where
+you can browse work created by other
+users. You can view their prompts and
+explore how different content was
+created. You can also follow creators,
+like their work and interact with the
+content. There is also a feed where
+users can upload and view content as
+well as share their work with others.
+That's it for this tutorial. You're
+welcome to visit the website, create an
+account, and try the workflow yourself.

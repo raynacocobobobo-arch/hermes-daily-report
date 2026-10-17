@@ -1,0 +1,557 @@
+UP主：Curious Refuge
+标题：OpenAI’s New Image Model Is Brilliant… Until You Look Closer
+链接：https://www.youtube.com/watch?v=pEYqorQrc4U
+
+In a surprise announcement, the team at
+OpenAI released a brand new version of
+Chat GPT images 2.5. This is an updated
+version of their image generation tool,
+and the team is claiming that this tool
+is more accurate, intelligent, and has
+better details than previous versions of
+GPT 2.0. So, in this video, we're going
+to be taking [music] a look at this
+brand new AI image tool, and I'll show
+you a few workflows that you can use to
+get more realistic results. We'll also
+compare it against other AI image tools
+on the market to see if it's overrated
+or worth the hype. Now, let's hop in.
+Welcome to Curious Refuge. My name's
+Caleb. Be sure to like and subscribe if
+you want more videos like this in the
+future. Now, if you're not already
+familiar with Chat GBT images, it's
+essentially a tool that allows you to
+create and edit photos directly inside
+of Chat GBT. And while you can totally
+do that in the chat experience, we often
+find that it's better to use image
+aggregation tools on professional
+projects because you have more control
+over which model you're using, what the
+resolution is, and ultimately you can
+compare it against other image tools on
+the market. So, for the sake of this
+video, we're going to be using Magnific,
+but you can totally use ChatGBT
+directly. So, to create our first image
+inside of GPT 2.5. I'm here on the
+Magnific website, and you can see we're
+at the image generator section here. And
+for our model, we have GPT2.5
+selected. And you'll also see that
+there's a secondary model. So what's
+really important is whenever you are
+working inside an API that is you're
+working inside a thirdparty aggregator
+like this you can actually select which
+version of 2.5 that you're using whereas
+if you're working directly inside of
+chat GBT you don't have control over
+which version it's using and when you
+ask chatgbt to actually tell you it will
+say it doesn't actually know. So it's
+kind of a weird workflow whenever you're
+working directly inside of chat. I much
+prefer this workflow. So in here we have
+two different options. We have flare and
+then we have sunburst. Sunburst is the
+better quality. It gives you better
+detail and resolution. And so we're
+going to stick with sunburst for the
+generations inside of this video. Now
+for this first prompt, we'll keep it
+super basic and say a realistic candid
+photo of a woman sitting at her house
+shot on an iPhone. Candid shot. But I
+should note you do have the ability to
+bring in reference images. We'll talk
+about that in just a little bit. Now,
+the cool thing is because we're using an
+aggregator and not going directly inside
+of chat GBT, you do have the ability to
+generate multiple images at a time, up
+to 12 images at a time, which is pretty
+awesome, but that can really add up.
+Now, for the aspect ratio, you can
+select whatever makes sense for the
+project you're working on. And for
+resolution, you can generate up to 4K in
+max resolution here. Now, when you go
+ahead and go to that generate button,
+you'll see that for 12 images in the 4K
+Max version, it's going to cost us about
+12,000 credits. Now, in terms of
+financials, that's about $12. So, it
+cost about a dollar to generate each 4K
+image inside of Magnific. So, that
+really adds up, especially if you're in
+the creative exploration phase. So, I
+will say that GPT2.5
+seems a bit more like a tool that you
+use to refine your project rather than
+explore your project because it could
+really add up, especially if you're
+inside an aggregator. So, we'll bump
+this down to one generation and go ahead
+and hit generate. And after about a
+minute, probably because the servers are
+a bit bogged down right now because uh
+you know, everyone's trying to use this
+tool, we get this image here and it
+looks incredibly realistic. I think on
+the surface whenever I am looking at
+this image, there's nothing about it
+that I'm like, "Oh, yeah, that's
+definitely fake and AI, it really is
+coming across as fairly realistic." Now,
+one of the problems that you're going to
+see inside of GPT 2.5 that was also
+present in the previous version of GPT
+images is this kind of strange fractling
+on people's faces. It's almost like
+there's that artificial JPEG artifacting
+present throughout the entire photo. And
+it just comes across as almost
+overextured or synthetic. And so, while
+I do think the image does look
+incredible, whenever you look at kind of
+supporting details like the eyebrows
+here, there's just a level of almost
+like fake outlining that you can see
+that's present in almost every
+generation from GPT 2.5. Now, I would
+not be doing this video justice without
+testing it against other AI image tools
+on the market. So, inside of Nano Banana
+Pro with the exact same prompt, we got
+this image here. And I think I actually
+like this image much better. While I
+wouldn't say that it looks like it was
+shot on an iPhone, it does seem a bit
+more like it's a better quality camera.
+All things considered, I think it does
+come across as more realistic and it
+doesn't have that weird texturing that
+was present inside the previous
+generation. Let's take a look at another
+example here. We generated a shot of a
+man sitting at his desk in an editorial
+style photo and we got this inside of
+GPT 2.5. And right off the bat, it's
+kind of weird, right? Because the
+overall image feels very GPT. And what I
+mean by that is it feels a little hyper
+contrasted, a little overly sharp, and
+text feels very much staged inside the
+environment. Like it's it's kind of
+funny actually if you look at some of
+the text here. Small room, big ideas. I
+don't know why he would have that on his
+wall. Good work, better days, quiet,
+bolder, kinder, brighter you. Like it's
+just adding in strange placeholder text
+that almost feels like uh it has the
+same intellectual heights as Zara
+t-shirts. Like I'm not entirely sure
+what's going on here. And especially
+visually, it's just not that realistic.
+But let's go ahead again and compare
+this against some of the other image
+generation tools on the market. So,
+inside of Google Nano Banana 2, we got
+this generation here. And what's really
+funny is when you're working inside of
+Magnific, it almost always encourages
+you to use Nano Banana 2 because it says
+that it's better than Nano Banana Pro.
+But that's just simply not the case. And
+the reason why I know that is this next
+image was created inside of Nano Pro and
+it looks so much better, right? Like
+this looks like a very realistic photo
+of a man inside this environment. Now,
+there are some things that aren't
+exactly right about this photo. Like, if
+we zoom in here, it says that's a Leica
+M5, and that is not a Leica M5. That's a
+Leica M9, but it also has an extra
+button that's not present [music] in a
+normal Leica M9. So, it's not perfect,
+right? Like, you're still going to have
+to go in and clean things up. You're
+probably going to have to go into
+Photoshop and clean up certain areas
+with the generative fill. But, when
+you're generating a base image, it does
+seem like Google Nano Banana Pro is
+still doing a better job. Now, we should
+also compare this against Cadream 5.0,
+which gave us this. And it does look
+okay, but the skin is definitely
+plasticky compared to Nano. So, still
+not quite as good as Nano Banana Pro.
+And so, it still seems like Nano Banana
+Pro is the best tool when it comes to
+generating those base images. Let's take
+a look at a few more generation
+examples, and then we'll talk about some
+of the actual use cases for GPT 2.5 that
+actually make it really stand out from
+other tools. So, I have this reference
+image that was created inside of
+Midjourney. MidJourney is the best for
+reference images because stylistically
+it's still the best image tool on the
+market, albeit not the most realistic.
+So, you always want to use Midjourney in
+conjunction with a different tool like
+Nano Banana Pro to get something really
+nice. So, we took the starting reference
+image and brought it inside of the image
+reference section here in Magnific. And
+then we prompted for a wide shot of a
+group of people playing soccer, but we
+wanted to keep the same color grading
+and style reference as the midjourney
+image and went ahead and hit generate.
+And inside of GPT 2.5, we got this image
+here, which you know, stylistically it
+looks the same, but the problem is when
+you zoom in here, you're getting a lot
+of the repeating shapes of the leaves
+inside of the overall image. and it just
+has that fractling problem that's deeply
+present inside of GBT generations. It
+really seems like GBD 2.5 was not
+intended to be the most realistic image
+tool. It was more meant to create base
+graphic design assets and then edit
+existing photos. Now, let's compare that
+against Nano Banana Pro, which gave us
+this image, which I think did a much
+better job. It seems more dynamic, but
+it still has that same color grading
+style. So a much better job from Nano
+Banana Pro. We also wanted to use GPT
+2.5 to create a character sheet because
+this is very important especially in an
+AI filmmaking workflow so that you have
+an actual character that you can use
+whenever you're working with reference
+imagery inside of Cance 2.5 and things
+like that. So I have this base image of
+me here and I prompted for a character
+sheet at a few different angles and we
+got this inside of 2.5. And it's
+interesting because there's a lot of
+details that are crazy, right? So, we
+have a front view, side view, back view.
+It has like personality traits and all
+the details that you would want to see
+from a very detailed character sheet.
+The problem is the face again still has
+this almost plasticky synthetic vibe to
+it. So, it's not the best result inside
+of 2.5 even though we're generating 4K
+outputs. Now, if we compare that against
+Nano Banana Pro, Nano gave us this,
+which from a layout perspective is less
+advanced, but I do think the individual
+expressions and the realism of the face
+is actually better. So, it's kind of a
+give and take. In some cases, you may
+want to use Nano Pro. In other cases,
+you may want to use GPT. That's why it's
+important to use an aggregator rather
+than just committing to a single tool.
+Okay, so that's how GPT 2.5 stacks up
+when it comes to actually generating the
+base images. Long story short, it's not
+quite as good as other tools on the
+market, although it can shine from like
+time to time. But the place where GPT
+really excels is anything that requires
+a deeper intelligence. It is by far the
+most intelligent AI image model. And I
+have a few examples that I want to show
+you that will hopefully illustrate that
+point. So for this first example, I want
+to start with this base image that's in
+the overall style of a kitchen that we
+want to generate. The problem is we want
+the composition to be completely
+different. So we have this starting
+image that's a very basic 3D model of
+what we want our final image to be like.
+You could create this hypothetically
+inside of Blender. You could use
+high-end tools like Astra to create your
+3D scene. or you can even upload a
+reference image and then deconstruct it
+using tools like GPT 2.5 to create a
+very basic 3D environment. It really
+just depends on whatever your specific
+use case and workflow is. And then
+finally, we have our character sheet of
+Scott here. So, we want to put Scott
+inside that 3D composition with the
+original image as the style reference.
+And inside of GPT 2.5, we got this
+image. And yeah, it did an amazing job.
+That's the exact composition that we're
+looking for. The overall color grading
+is fantastic. And uh yeah, Scott's just
+doing his uh dishes there. Although,
+what kind of tool is he using? Is that a
+knife? Is that a sponge? I'm not
+entirely sure what's going on there. But
+overall, GBT 2.5 did a really good job.
+And if you compare it against Google
+Nano Banana Pro, Nano gave us this,
+which isn't exactly what we're looking
+for. Like, it just didn't do as good of
+a job. And so you can already see the
+intelligence is much better from GPT
+2.5. So we have this starting image of
+this guy getting on a flight. And we
+actually used the chat version of chat
+GPT to pull this off because I want to
+illustrate something that I think is
+really interesting. So we asked for chat
+to change his shirt to a Hawaiian shirt.
+And there you go. It changed his shirt
+and it basically looks perfect. It did a
+really good job. And then we decided to
+change his outfit to an explorer outfit
+with a hat. And you can see that again
+this looks realistic. But then we asked
+it to switch him to a suit and we got
+this image here which again looks
+basically realistic and it did a really
+good job. But one thing I want to point
+out is because we were in a chat
+environment, his hair actually reverted
+back to what it was even though the
+previous image had a hat. So the cool
+thing is inside of chat image 2.5, it's
+remembering the earlier context and
+bringing that into the future
+generation. So, it's really really cool
+to see. We also decided to put him in a
+pirate outfit and it did an amazing job.
+And then we also dressed him up as Santa
+and uh yeah, 10 out of 10. Very good
+job. Now, I wanted to compare that
+against my 2.6 which has been emerging
+as a leader on the image leaderboards.
+So, again, here is our starting image of
+our guy getting on a plane here and we
+asked it to put on a Hawaiian shirt and
+I would say that it's kind of
+oversaturated. It seems like the colors
+don't exactly match the environment. We
+asked to put him in an explorer outfit
+and yeah, it actually did an okay job.
+We asked to put him inside a suit and it
+gave us this. But you can see his
+haircut changed, right? And so you can
+see that my 2.6 doesn't have that
+context window that makes GBT 2.5 more
+intelligent. We also asked him to be a
+pirate and got this image here. And then
+finally, we asked it to make him into
+Santa Claus. I love the white beard
+here, but I should note that inside of
+my 2.6, you can see that his face really
+is becoming plasticky and strange by the
+end. And even the walls have this like
+fractalization texturing that's going
+on. It almost looks like an Instagram
+filter that's been applied one too many
+times. And so things are really falling
+apart. Whereas in GPT 2.5, it stays a
+bit more intact. And we'll talk about
+that in just a second. One area where
+GPT 2.5 really shines is in compositing.
+So, we have this starting image here of
+the city with a billboard. And let's say
+that we want to create billboard
+concepts uh just to see, you know, what
+it would look like with something else.
+And so, we prompted for a billboard that
+said travel the unknown with a
+completely different photo in the
+background. And it gave us this and it's
+really, really good. Is it pixel perfect
+to the original image? No. but it's
+close enough that you could use it in a
+professional capacity and I don't think
+anyone would ever know. So, it did a
+really really good job. And we also
+wanted to test it with this image, which
+is a real image from Pixels, but we
+wanted to change the text from O Canada
+to maple syrup. And you can see that it
+swapped the text and it also understood
+the text wrapping and the proportions
+there, which is really, really cool.
+Now, we also wanted to test out style
+reference beyond just cinematic styles.
+So, we took this reference image that we
+came across inside of MidJourney. I love
+this kind of like just stamp style
+design and we wanted to create the same
+generation of the Lincoln Memorial. And
+inside of GPT 2.5, it gave us this,
+which looks really custom and awesome.
+And I love the way everything's laid
+out. It almost looks like it's
+handdrawn. I think it did a really,
+really good job. And again, to compare
+that to the same generation in my 2.6,
+six. Mai gave us this, which is cool,
+but it's not the same style that we
+uploaded. And so, it definitely is
+taking more creative liberties instead
+of my 2.6. And so, by far, I think GPT
+is a much better tool. Now, the team was
+curious to test out GPT 2.5 with color
+matching as well. And so, we have this
+image of Adam on our team sitting in his
+basement here. And uh we also have this
+reference image from The Secret Life of
+Walter Midi. And we really like the
+color grading here. So, we wanted to
+create a cinematic shot that utilizes
+this color grading. And this is the
+output that we got from GPT 2.5, which I
+think uh it did a really good job. It
+might need some slight tweaking here,
+but overall, I really like the result
+here. And if we compare that against
+Nano Banana Pro with the exact same
+prompt, this is what we got. And you can
+see that Nano, while Atom does look
+pretty good altogether, the color
+grading is completely different than the
+reference image. So again, GPT 2.5 did a
+really good job. Now, I don't want you
+to think that GPT 2.5 is perfect in its
+editing. It definitely is not. And the
+images very quickly degrade over time.
+So, for example, we have this starting
+image, and we used GPT 2.5 to create a
+16x9 version of that image. And it gave
+us this, but it oversharpened the image,
+and it also oversaturated it. It
+definitely feels a bit different. And
+then we prompted to remove some of the
+objects on the table. And you can see
+that again it kind of oversharpened the
+image again and then it overcontrasted
+and oversaturated it. And then we asked
+to remove the cables and then we asked
+to color grade it in a teal and orange
+style. And now if we zoom in here things
+are just like super weird. The texturing
+looks really synthetic. The edges don't
+look very good at all. And altogether it
+just is very strange. And so GPT 2.5 I
+think is okay if you need to make one or
+two edits. if you need to make four,
+five, six edits, it's going to destroy
+your photograph. And so, uh, it's not
+really the best tool for iterative
+adjustments. Now, from a product
+photography perspective, I think that
+GPT 2.5 is the most intelligent product
+tool on the market, and it would be
+unwise to use any other tool inside an
+advertising workflow. So, I have this
+starting image here. This is just from
+Unsplash, and I really liked the way
+that this product photography image
+looked. The main reason is it doesn't
+look like a 3D render. It does look like
+somebody just put that product on the
+blanket here and it just has this more
+organic feel to it. Now, I wanted to use
+a completely different product to swap
+out this lotion bottle here. And so, I
+decided to use this image of sour cream
+Doritos, which I just got back from
+France and tried these for the first
+time. And I got to tell you, they are
+amazing. I wish they had these inside of
+the States. And so we asked GPT 2.5 to
+swap it and that gave us this. If I was
+giving this image any major feedback,
+it's almost that it looks too real and
+the bag looks like it was put inside of
+like a backpack and scrunched for a
+little bit because there's just a little
+bit of overexturing there. But
+altogether, it looks very realistic and
+really nice. It did an amazing job. Now,
+I was also curious how this did in a
+text and poster environment. So, I have
+this poster here. This was generated
+inside of MidJourney 8.2 too. And you
+can see the text is a little strange,
+right? It says like the monsters are
+already here, but it kind of reads as
+the are monsters already here. But I
+really liked the layout. And so I
+prompted for a new scene for a potential
+band poster. And I wanted the Wilturn
+Theater here in Los Angeles to be on the
+left and then for a bunch of details
+about this band called the Chesters,
+which is my dog's name, along with a
+bunch of supporting information
+regarding the time. and it created this
+poster from the prompt that I uploaded.
+And yeah, I think it did a really good
+job. There are some of the classic chat
+GBT problems with this output. Namely,
+this specific font. I don't know what
+this font is called, but whatever this
+marker style font is, you see it in all
+sorts of images that are generated with
+ChatGBT. And so, you probably would want
+to go in and re-edit that font because
+it just screams synthetic whenever I see
+it. This last week, I walked by about a
+dozen different restaurants that had
+this specific font on a poster, and I
+knew that they generated that inside of
+chat GPT 2.0. So, the big question is,
+what is the actual purpose of GPT image
+2.5 in a professional workflow? Well,
+the short answer is it's not the best
+tool for generating your base image. I
+think that there are better tools on the
+market, namely Google Nano Banana Pro
+seems to give better results, especially
+if you use reference photography to help
+push your generation in the right
+direction. But GPT 2.5 is the most
+intelligent model on the market. So, if
+you're trying to replace text, replace a
+product, or replace a character, I think
+that GPT 2.5 is your best bet. But,
+you're going to spend about a dollar for
+all of your 4K generations, so that can
+of course add up. I hope you enjoyed
+this video. If you want to learn more
+about the latest AI advertising
+concepts, I highly recommend checking
+out our AI advertising course over at
+Curious Refuge. And as always, if you
+have any questions at all or ideas for
+future videos, be sure to let us know in
+the comments. Thank you so much for
+watching and I'll see you in the next
+one.

@@ -1,0 +1,946 @@
+UP主：Corridor Crew
+标题：Could Modern VFX Artists Cut It in the '90s?
+链接：https://www.youtube.com/watch?v=WblcgjjbuE4
+
+OH MY GOD.
+GET OUT OF
+MEL. I FEEL LIKE I'M [music] melting
+right now. I am having a panic attack in
+this program.
+1999 was an incredible year for movies,
+many of which used digital compositing
+to stitch together footage in ways never
+before imagined. But if you think about
+it, all of us here and maybe even you
+have more digital compositing experience
+[music]
+than even the best artists did in 1999.
+But does that experience even mean
+anything? To find out we are putting
+ourselves to the test to see if we can
+even compete with artists of the day
+using [music] software of that era.
+Specifically, After Effects 4.0 released
+in 1999, which we are about to open for
+the first time right [music] now.
+>> [screaming]
+>> ALL RIGHT, WE ONLY HAVE LIKE 5 HOURS. SO
+HEY, WHAT'S UP? We got we got Matt, we
+got Emmett. We got to do this thing.
+Come on, guys.
+>> 5 hours starting now.
+>> gosh.
+>> Okay, cool boy.
+>> What is that What am I I'm immediately
+looking at the [music] dinosaur ages of
+Macintosh computers.
+>> Ooh, that sound. Mhm, little Mac sound.
+It's like going home, dude.
+It's like going back [music] to my
+hometown of Stillwater.
+>> Here we go. I'm dragging my files into
+the past. My files are going back in
+time right now. [music] Look at it,
+guys.
+>> Whoa! There I am on a Macintosh.
+>> We're going to redo some [music]
+compositing from some very famous scenes
+in the year 1999.
+>> I chose the uh droid [music] echo scene
+from The Phantom Menace where they're
+deflecting all the laser beams with
+their lightsabers because that is like
+the quintessential digital composite.
+>> Yeah, so I filmed myself swinging around
+a [music] lightsaber. Uh we lit it with
+some lights and at this point I'm
+basically going to be comping in [music]
+more lasers, more lightsaber effects,
+and some sparks which I've gotten from
+Action VFX. This is my third time making
+a Star Wars fan film in After Effects
+4.0.
+I've done this a lot. You were born in
+these mines, Nico.
+>> Here we go. I'm opening the old After
+Effects.
+>> How do I freaking import a file, first
+of all?
+>> You open it up, you look at the freaking
+interface, dude.
+>> I can't just click and drag this in
+here?
+>> The shot that I picked is from one of my
+favorite movies of that time, The Mummy.
+I love it, the original with Brendan
+Fraser. Imhotep, the mummy character in
+this movie, sucks the life force out of
+people, turns them to bones, [music] and
+then discards them. I got a bunch of
+plates of Nick, him flailing around so I
+can have that asset over green screen,
+[music] so I'm really hoping that
+there's uh even keying tools to be able
+to do that. I'm hoping there's a lot of
+tools that I need.
+>> I already feel like I made a huge
+mistake. I chose the end of Fight Club,
+[music] when all the buildings collapse.
+OUTSIDE [laughter] THIS
+WHOOPS. BUT BASICALLY, I HAVE A
+compilation of building demolitions, and
+I'm going to attempt to roto out the
+buildings that are falling.
+Just layer them in, add a city, and I
+have like some plate of green screen
+photography for the actors in the
+foreground, and I have like 4 hours and
+30 minutes. Stupid, dude.
+>> Well, like my my mouse is already
+lagging, so it's not a good [music]
+first sign. I'm doing The Matrix, one of
+the best action movies of all time. Came
+out before my time. We shot on the roof.
+>> [screaming and crying]
+>> Got some
+>> [music]
+>> cool costumes on, and then we basically
+I'm just using Action VFX for some
+muzzle flashes [music] and stuff like
+that, and then I'm just going to do like
+the phasing effect. Like I feel like
+I've chose a pretty safe bet. Let's see
+if it stacks up against [music]
+>> I have to convert
+>> It is taking 5 to 10 seconds to do
+almost anything in this program.
+>> Uh-oh.
+>> No, the whole thing collapsed. The whole
+emulator crashed. I got to reload Mac
+09.
+>> I just need to close all these other
+random windows. They're just [laughter]
+all over the place.
+>> Yeah, when you open After Effects today,
+everything is basically one collective
+UI where all the windows are connected
+to each other. Uh but in After Effects
+4.0, everything comes [music] in as
+floating windows that are untethered to
+their neighbors. So, if you resize one
+thing, it scales over the other things.
+Uh and when it freezes every 5 seconds,
+not ideal.
+>> Okay. I remember how to make a mask back
+in the olden days. I'm just trying to
+figure out a bugle that'll fit on my
+finger.
+>> Lock in, man.
+>> I don't like the sound of that at all. I
+don't know what that means, but I don't
+like that.
+>> I just want to scale this down. I'm
+working with a screen in a screen right
+now. I can't even put these bugles on my
+fingers anymore.
+>> grow too much?
+>> What's happening? Everything's tiny.
+Everything's tiny.
+>> Oh, sick. Now my actual laptop crashed.
+>> Oh, you're having a lot more problems.
+Struggling to make this mask.
+>> It's okay. You're doing better than some
+of us. In fact, you haven't even opened
+the program yet.
+>> I'm in. I'm in.
+>> 1 hour down, guys.
+>> Uh-oh. God.
+>> That's not good.
+>> I figured out how to mask, guys. [music]
+I can't wait for you guys to have to
+figure it out.
+>> Oh, no. It took you this long to figure
+out a mask? I don't like that at all.
+>> Let's just say it's very hard to find
+tutorials specifically for After Effects
+4.0, but Gemini helped me out.
+>> What do I do?
+>> It's under layer.
+>> I think I got nothing going on for me
+right now.
+>> I am
+having a panic attack
+>> Why?
+>> in this program.
+>> Bro, what happened to this?
+>> Okay, I need Nico's chill cat energy.
+He's not saying anything over there.
+>> No, cuz you know why? Cuz he's finding
+success in silence. It's
+>> Today, we're making our boys do modern
+visual effects using one of the oldest
+versions of After Effects we could even
+get running. And if there's one thing
+we've learned with these challenges is
+that old software can turn something
+that should take one step into like 12.
+You're bouncing between tools, manually
+moving files around, reentering
+information, finding these weird
+workarounds, and generally you're
+spending way more time managing the
+process than actually making the thing.
+Which, unfortunately, is also how
+running a business can start to feel
+when your website's over here, your
+invoices are somewhere else, your sales
+pipeline's in another app, your project
+management somewhere else, and none of
+it even talks to each other. Well,
+that's where Odoo comes in, today's
+sponsor. Odoo is a business management
+platform that brings all of those
+different parts of a company together in
+one place. Your CRM, sales, invoicing,
+accounting, inventory, project
+management, website, e-signatures, and a
+ton more can all work inside the same
+system. So, instead of constantly
+copying information between disconnected
+apps, your workflow stay connected as
+things move through your business. And
+you don't even need to use everything
+that they offer at once. You could
+choose the apps your business actually
+needs and add more as you grow. You can
+even try Odoo for free for 14 days with
+no credit card required, and any single
+app is completely free. So, if your
+business workflow currently feels a
+little too much like doing VFX on
+software from three decades ago, you
+should check out Odoo at the link below
+or scan the QR code that's on screen
+right now. That's Odoo, o d o o,
+pronounced Odoo. And now, let's get back
+to watching our boys discover all the
+features that Adobe hadn't yet invented.
+>> Here's something special here. I'm
+trying to match the effects of Star Wars
+Episode 1. Well, I need a lens flare for
+when these laser beams hit my
+lightsaber. In fact, Mr. visual effects
+supervisor of Episode 1 Phantom Menace
+[music] has his own plugin for lens
+flares in After Effects here. It's from
+the old Knoll Light Factory.
+>> How does he have a plugin? I have the
+flashes, the [music] flares from Star
+Wars, in After Effects right here.
+>> After Effects is opening. All right,
+we're opening After Effects. WOO!
+>> SORRY. MOST of it's actually pretty
+similar to this to the modern After
+Effects, except like some color and some
+UI changes. Honestly, it doesn't seem
+too hard to navigate, but I just need no
+more crashes and I'm and I should be
+fine.
+>> Can you take a little stroll?
+>> Dude, I could have done effects in Star
+Wars.
+>> Yo, wait. Did you already do a
+>> You got an effect [laughter] done.
+>> Oh, crap.
+>> YOU GOT A FREAKING EFFECT DONE ALREADY.
+>> What do you have to say?
+>> Herein fake 4.0
+has unexpectedly quit.
+>> Dude,
+I'm melting. I feel like I'm melting
+right now.
+>> What? [laughter] Is that the preview?
+>> This is me trying to preview the shot.
+That's the smoke asset. Oh my freaking
+look at my mouse. Look at what's
+happening. It's chugging like crazy.
+It's just crashed. It just locked. It
+crashed again.
+This is this is working great, honestly.
+Look, when you're using this old
+software, you can't feel it out in the
+program like you really can these days.
+[music]
+Like you have to have an exact plan,
+every technique figured out. Then you
+just execute, execute, execute. Yeah,
+when they made Tron, like they had a
+spreadsheet that they used [music] for
+animation. Now at least we have a
+timeline and key frames, but you have to
+kind of
+stick yourself in the same mind space.
+>> Wait, I'm sorry. There's an effect
+called tsunami. It's like a wave
+simulator.
+>> Don't click it, dude.
+>> What does moon smoke mean?
+>> [laughter]
+>> I want to find out. Wait, hold on. It
+generates like a whole like ocean vista.
+>> Wait a second. I'm going [music] to
+change my shot to an ocean shot.
+>> It's going to be mummy in the ocean.
+>> [laughter]
+>> Mummy in the ocean. Wait, are you still
+trying to do the entire shot from The
+Mummy?
+>> Yeah.
+>> I remember when I was like you, Matt. I
+remember when I used to think I could do
+things.
+>> Jordan's forgetting about how little
+memory there was on computers back in
+the era.
+>> But I have an image. I have one picture
+on the timeline.
+>> And what's the what's the resolution of
+the image?
+>> 1,920 pixels by 1,000.
+>> If I'm not mistaken, there's also a way
+to like set how much memory After
+Effects was using on your computer.
+>> Yeah.
+>> Did you do that?
+>> No, cuz I my program's not crashing cuz
+I correctly [music] optimized all my
+media.
+>> I'm just putting the whole cut together
+and then I'm going to do separate
+[music] comps with all my shots, and
+then I think it's going to what's going
+to work out. I'm excited.
+>> All right. I'm not even bother with
+perspective on this laser.
+I'm just going to do a big old [music]
+streak.
+>> One of the reasons I got really angry at
+Adobe and stopped subscribing their
+software, for all intents and purposes,
+After Effects still kind of feels like
+the [music] same program, but like $50 a
+month for the past like 25 years.
+For the same program. [music]
+>> Oh, no. My file that I saved to this
+POINT IS CORRUPT.
+>> ALL RIGHT, THAT'S A good lesson that I
+will learn from.
+>> Save a copy. Pre-compose.
+>> All right.
+>> Lose all attributes. Wow, this literally
+Nico, you're right. This program did not
+change as much as I was expecting it to.
+[laughter]
+I'm trashing. Call me Johnny Cash. Oh
+yeah, look at that.
+I just finished my first VFX shot.
+>> Did you?
+>> Yes.
+>> Wow, you beat me to it, dude.
+>> I did. Well, it was kind of easy, but
+it's the shot leading up to when the man
+gets blasted with sand and then starts
+floating and
+sucking
+bones.
+>> Huh?
+>> Bones, bones, bones.
+>> I don't know that helps.
+>> So, there it is.
+>> It will just cut immediately out from
+that to a wide. The wide that is much
+more complicated than this.
+>> Oh, guess who got a bummer?
+>> Yeah, you might have the Matt's mummy's
+curse.
+>> I picked the mummy because it's ancient
+like this program. Sorry, I have a bugle
+deep in my throat.
+>> [laughter]
+>> I think I'm ready to render my first
+shot.
+>> Oh, I'm so cool. Girls are going to
+think I'm so neat.
+>> Yeah, heck yeah. This is why we do it.
+For ladies.
+>> Ivy did actually marry me because of my
+Star Wars effects, so it did work out.
+>> Oh, no, not again, buddy.
+>> What's going on, dude? Why is your
+computer so
+hot, man?
+>> The mummy is now sucking his life force.
+>> First you have to break yourself to
+remake yourself. [music] And the despair
+in Jordan's voice tells me that he's
+close. He's about to reach
+enlightenment.
+>> I'm about to enlighten myself on fire,
+dude.
+>> [laughter]
+>> I am desperately [music] trying to do a
+key shot that works.
+Maybe if I just add a secondary color
+key.
+>> I'm going to render my shot.
+>> I'm freaking Louis rendering right now.
+My butt cracks out of
+>> I swear did I feel the air?
+>> Why are you down here?
+>> I don't know where else to call, man.
+I'm at rock bottom. I feel like my body
+belongs down here right now.
+>> [music]
+>> I have the mummy's curse.
+>> No way!
+>> Yeah, Matt.
+>> I just had to use ancient keying [music]
+technology.
+>> Wait, actually it looks really good.
+>> pretty good considering everything about
+it. A lot of these imperfections are
+going to be sort of masked by all the
+the swirly dusty goodness on top.
+>> Hell yeah. I'm unstuffing the Atomic
+Tsunami demo.
+>> You need to try the Atomic Tsunami. It's
+very important.
+>> Dude, if I get this software open, the
+last thing I'm going to open is the
+Atomic Tsunami demo.
+>> You got to try it, dude. Trust me.
+>> Dude, why are you always having like
+crises whenever you do these challenges?
+[music] You also really struggled with
+Bryce.
+>> Did I?
+>> I I had this vision in my head of my
+thing and it's just melting.
+>> You guys have 3 hours left on the dot.
+>> What I'm seeing though from Nico right
+now is very impressive.
+>> Thanks.
+>> You got laser beams, you got sparks
+flying off, [music] and way to take care
+of your plate. I see you got those
+practical flashes and the lightsaber is
+on.
+>> Yeah.
+>> You saved yourself two
+immensely time-consuming effects.
+>> Yes, I did.
+>> It's It's floating man time. So, we shot
+[music] this plate with Nick. A classic
+falling guy on green screen effect. So,
+he goes limp and then I'm going to try
+to figure out how to transition that to
+the skeleton.
+>> You want to know how I make the perfect
+laser in [music] After Effects? It goes
+all the way back to 1999.
+>> I'm already giving tutorials.
+>> You simply make your shape layer, make
+it almost white, just [music] a touch of
+the color that you want, then duplicate
+that layer three times and you add more
+and more blur for each layer.
+>> [music]
+>> So, you have a tight blur and a wide
+blur. And of course, those blurs, you
+have to put more color into them cuz the
+more blur you have, the more the
+exposure comes down. Oh, that's a
+good-looking laser. It looks just like
+my lightsaber.
+>> Hey Nico. [music]
+>> What's up?
+>> Can I borrow some of your
+ancient wisdom?
+>> Oh, are you trying to figure out
+masking?
+>> I am desperately trying to figure
+>> luck. All right, you want to know how to
+do masking?
+>> Is this it?
+>> Yeah, you have to do masking in the
+layer window and only the layer window.
+>> Oh, what about this? Oh, oh, oh.
+>> [laughter]
+>> I did it. I masked.
+>> I got I got some gunshots [music]
+in mine.
+>> Yeah, that's crazy.
+>> What is this?
+>> It's piece of a skeleton, I think.
+>> But I don't know what this bone bit is,
+by the way.
+>> Is there a skeleton in the shot?
+>> Oh, the bo- That bone fell off. The
+mummy's bone.
+>> Any artifacts of [music] blessing, I'll
+take and I'll put on the computer. I'm
+going to put it right here, dude. St.
+Peter's bone. Come on, dude.
+>> Oh, look at you with your muzzle flashes
+over here.
+>> Yeah. Bang, bang, bang. So, the funny
+thing is like I can't even tell like
+where it's coming out of the barrel cuz
+like it's too low-res. So, like
+[laughter]
+I just pray I'm lining them up right.
+>> Do you think they have the pick whip in
+After Effects 4.0?
+>> The parent one we died to another.
+>> I I I I tried. Yeah, I
+>> [laughter]
+>> parenting didn't exist until 2001 when
+they invented parents.
+>> I got TWO LAYERS IN.
+>> HEY!
+>> COME ON!
+>> HE DID IT.
+WOW.
+>> GET YOURSELF A ST. PETER'S bone at
+corridoridigital.com.
+We're giving them away for 20% off to
+celebrate this big event. This is very
+exciting.
+That's a shot, dude. Oh my gosh. This is
+why I got into VFX, dude. These wins
+like this is awakening something in me
+that's bringing me back to the
+beginning. OH, HE GOT THE mummy's curse.
+>> MUMMY'S CURSE.
+>> IT PASSED.
+I JUST MADE A FLOATING SHADOW. YOU'RE
+FLOATING, NICK. We're cooking with
+comps.
+>> How do I make you look like a shadow on
+the wall? Well, I literally just key you
+out from the green screen, turn you
+black
+in the with curves, blur you a little
+bit, 50% transparent, and mummy's your
+uncle, as they say.
+>> Uh there's no undo, is there?
+>> Nope. It doesn't work. It should work,
+but it doesn't.
+>> Yeah.
+>> Linear color key.
+You get your key color.
+>> I'm so excited to see this.
+>> It's just hard to tell cuz it's so tiny.
+>> I know. I'm like trying to look at this.
+What is this?
+>> Like I can't even I'm not joking. This
+has like kind of unlocked some joy in me
+that I haven't felt in a long time cuz I
+don't know what's going to happen. I
+can't [music] see it.
+>> There is something like very calming
+about a slow program. Like it takes the
+pressure off of your shoulders. Cuz like
+these days, there's no excuses to not
+just having your shot done instantly.
+It's like you're competing not only
+[music] with AI, but with like kids who
+grew up on Blender from day one.
+>> What's up, Emmet?
+>> Hello.
+>> [laughter]
+>> How are you adjusting?
+>> Honestly, it's [music] not too bad. The
+only annoying thing is the playback is
+really bad, but I'm basically almost
+done with this shot and then I just have
+the Austin phasing shot, which is
+theoretically very simple, layering him
+and just playing with the opacity and
+offsetting it to get that kind of like
+phasing [music] move.
+>> Come on. I'm extracting the image based
+on its luminance and I'm masking. That's
+power. All thanks to St. Peter's bone, I
+have yet to have another crash.
+>> Never say that out loud.
+>> Oh, never say that out loud.
+>> Um never going to I'm not even going to
+save my file for the rest of this
+challenge.
+>> You are playing with mummy juices right
+now.
+>> I'm going to save it real quick here.
+>> [laughter]
+>> Let's hear this Let's hear this cool
+sound if it renders. Come on now.
+>> Oh, you can hear that.
+>> This is the next challenge.
+>> I rendered something.
+>> your thunder.
+>> You stole your thunder.
+>> HEY DUDE, THAT [laughter] WAS MESSED UP,
+MAN.
+>> OH, YEAH.
+You can hear the crunch.
+>> In The Phantom Menace, in the very
+beginning scene when they're fighting
+the Droidekas, both Obi-Wan and Qui-Gon
+Jinn do a force run off to the side and
+it's the goofiest thing in the world.
+But it's truly a cut them out, motion
+blur them sideways, and slide them off
+screen. So I will do that too.
+>> [laughter]
+>> This is like the exact same effect they
+have in Episode 1.
+>> I figured it out.
+>> Matt figured something [music] out.
+>> I just morphed a man into bones in After
+Effects 4.0. I am God. I am the mummy.
+Give me that bone.
+>> I'm going to need that bone real quick.
+>> Well, we don't have morph tools yet, you
+know, but what we do have
+>> [music]
+>> is a choker. And so if I take your
+silhouette and choke the mat and animate
+that choke and then fade in this the
+bones till it GETS
+OH MY GOD.
+Jesus Christ.
+Rand, you can't do that.
+>> As I was saying, I'm going TO CHOKE YOU.
+>> OH, NO. [laughter]
+>> THERE WE GO. I FEEL ALIVE.
+>> Why is this a tradition? It's a bad
+tradition.
+>> Why is there a take of Austin cowering?
+>> It's what he does best.
+>> so scary. He looks like an anime [music]
+schoolboy.
+>> Yeah, I'm stressing.
+>> Go bang on the go bang on the thing.
+Just a little smack.
+>> SWING!
+>> OH MY GOD, IT'S
+>> THAT'S SO LOUD. I wasn't ready for it.
+>> I feel so much better, actually.
+>> Wait, you guys rendering?
+>> Uh I'm rendering, but I still need to do
+one more shot.
+>> Holy crap.
+>> I think I'm [music] golden.
+>> I can't wait to see your shot, Matt.
+>> I can't wait to see my shot, too, cuz I
+can like barely tell what I'm making.
+>> I'm rendering my first shot of two
+shots.
+>> Ooh, I can hit A TRASH CAN.
+>> [laughter]
+>> WHAT'S COOL ABOUT MY SHOT IS THAT from a
+single frame, it actually looks really
+good.
+>> No, it looks great, buddy.
+>> Looks good.
+>> You'll see.
+>> You'll all see.
+>> looks even better in motion.
+>> I'm just waiting for that sweet, sweet
+sound.
+Ooh!
+>> [laughter]
+>> That's That feels good. Finally, look at
+my render. Nobody look at it.
+>> I'm not looking.
+>> Wow!
+>> Look at his innocent [music] eyes.
+>> I mean, that actually looks really good.
+[laughter]
+>> I still got to add all the dust. Mummies
+are notoriously dusty, so if I don't
+have dust in the shot, then I'm I'm
+screwed.
+>> Layers, bro. I got a freaking Chicago
+style lasagna going on over here.
+>> The problem is it's chugging so much now
+cuz there are so many layers.
+>> YOU GUYS GOT 10 MINUTES TO FINISH YOUR
+RENDER, OR ELSE!
+>> WE HAVE
+>> I'M HAPPY WITH IT. I'M ACTUALLY GOING to
+quit AFTER EFFECTS.
+>> WOAH!
+>> YOU GUYS THAT STRESSED AT ALL? He's
+already done with his shot.
+>> I see Wren's reflection off my screen.
+He's bad at it, dude.
+>> I can't live like this.
+>> Six and a half more minutes.
+>> Oh, he's going to do it in six and a
+half minutes?
+>> I'm just desperately trying to dust.
+>> I'm fixing the last the last muzzle
+flashes, and I'm 5 minutes, so let's do
+it.
+>> We have 5 minutes, Wren. Don't you do
+that yet.
+>> I have more time to add my mummy dust.
+>> [music]
+>> I wish you could see the version of this
+I had in my head.
+>> He's done. He's a god.
+>> He's done.
+>> He's an After Effects god.
+>> Oh my gosh, I don't even know what's in
+here.
+>> Dude, I'm doing CPR on a body that's
+been dead for 45 minutes.
+>> [laughter]
+>> Come on.
+>> 1 minute left.
+>> 1 minute left.
+>> I'm I'm rendering mine.
+>> I'm rendering.
+>> ALL RIGHT, GUYS, TIME IS UP. Hit export.
+Let's go take a look at people's
+results.
+Because we're using 1999 After Effects,
+it took a night to render all these
+shots.
+>> Legit. Yeah, [laughter] it took hours
+and hours. Yeah.
+>> Yeah. Here's the big question we're
+trying [music] to answer. We have more
+digital compositing experience than any
+artist in 1999. Can we stand up to their
+work? We used the same software.
+>> What are you laughing about?
+>> No, I'm Yeah, cuz I'm thinking about
+wow, you're so right. Like we did really
+good.
+>> I have a new found appreciation for the
+patience that those artists had because
+oh boy, was every little step along the
+way while doing this comp shot so much
+more difficult because I was just
+waiting on stuff to load and cache. And
+like there's a lot of guestimation,
+right?
+>> right. I think I think we've gotten soft
+these days with the the amount of
+padding that we have to just play things
+back willy-nilly. I still haven't seen
+my shot.
+>> Like I grew up with these modern
+versions of these programs. Going back
+in time and like using these programs
+that like [music] Nico used is just like
+oh my god, like
+>> Old man Nico uses ancient visual effects
+programs.
+>> To be fair, I was 14 years old, so it
+wasn't like I was that old.
+I'll kick things off here with my scene
+from The Phantom Menace. Now remember,
+we weren't doing any 3D animation here.
+This is purely compositing.
+>> Royal because
+>> Oh, you collaborated?
+Oh, the grade?
+>> Yeah, man.
+>> Oh,
+Nico.
+>> Get his settings dialed in.
+>> Oh, man.
+>> Let's go. What's the resolution of that
+Xbox?
+>> Yeah, what the heck?
+>> That was 960 by 540.
+>> Dang, that's unheard of.
+>> I thought that was going to blow MY
+COMPUTER UP.
+>> WOW, NICO, this is great.
+>> Thank you.
+>> You definitely played into the strengths
+of what the era is capable of.
+>> There are a couple of flaws for sure.
+Like the lasers don't even have red
+glow. In fact, I forgot to turn the red
+glow on for like two shots.
+>> I still get the sense of love because of
+that practical light though. [music]
+>> A practical light flashing is huge. And
+of course like having real like good
+elements. Like that was another thing
+that made ILM really special. They had
+these great elements they would film.
+>> And thank you for resurrecting that end
+effect. [music] Like I
+>> I would argue that you did a better job
+than they did in the movie. Cuz this
+looks more grounded in my opinion
+[music] than
+>> Dang.
+>> than the actual movie.
+>> agree, too. Setting the bar high there.
+>> Yeah, heck yeah. Setting the bar super
+high.
+>> Probably all the way up.
+>> [laughter]
+>> Yeah, dope. Emmett, you're up.
+>> What that was low quality in the movie.
+This is a taste of the past.
+>> Dude, I downloaded this over my 56k
+modem.
+>> Hey, that's good. That's really good.
+>> You know, this is like exactly what you
+would see on ilmdb.com
+in 2001.
+>> I got to pull up a video real quick.
+This is reminding me of old YouTube.
+>> So Emmett, I just want to compare your
+Matrix effects to my Matrix effects done
+with 1999 After Effects in the year
+2000.
+>> Dude, that is Emmett. What the heck?
+>> It's always like mom's house.
+>> My yeah, literally still in the frame. I
+freaking love
+>> So good.
+>> Oh, hell yeah. They're shooting at the
+the the family photos. [laughter]
+>> They're very similar. They're honestly
+the same texture.
+>> Yeah.
+>> If you applied to their VFX company back
+in 1999,
+then I would say you would have been
+approved freaking in.
+>> Emmett, I think you did a great job.
+>> Yeah, great job.
+>> Yeah, nice work.
+>> Thank you. I can't wait to use After
+Effects 2000.
+>> We're waiting for the pick whips.
+Parent something.
+>> [music]
+>> Speaking of parents.
+>> Hey. me show you my mommy.
+>> [laughter]
+>> I'm going to show it the just the scene
+uh from the original movie then we'll
+see our version. The bones. All right,
+so the body turns to bones gets chucked
+to the side.
+It's a complicated shot. There's a lot
+going on in one shot. There's there's a
+lot happening, right?
+>> all of that?
+>> And I did ALL OF THAT. WOW!
+I DID every single beat.
+>> WOW!
+>> [screaming]
+>> OH YEAH, LET'S GO, DUDE.
+>> BODY TO BONES.
+THE BONES GET chucked and then
+a little late on that, but that's okay.
+I couldn't tell.
+And then
+>> Wow, dude.
+>> That was really good, honestly.
+>> great, Matt.
+>> Did you see the interlacing on the
+smoke? It's like crazy.
+>> immediately sets me back to the mindset
+of 1999. I think I can safely say that
+>> [music]
+>> with your experience doing digital
+compositing, if you were back in 1999,
+you would be at professional level.
+[music] You'd be knocking out
+professional shots.
+You were doing something holy, something
+next level, and I got a piece of that
+and that's what allowed me to even
+finish my shot at all. So thank you for
+letting me be a part of your process.
+Speaking of my shot, yeah, I had a
+really good game plan going in. I've got
+some ground swelling smoke for each of
+the collapses. Each one is a unique
+>> [music]
+>> asset. I also have a green screen plate
+of Jordan and Matt and blend seamlessly
+into the horizon. That was the vision.
+>> Sounds like a lot of real tasty
+ingredients, but how does it all taste
+together?
+>> Really okay.
+>> [music]
+>> Trust me.
+Everything's going to be fine.
+>> Hey, [laughter] that's actually pretty
+good.
+I like the vibe, honestly.
+>> The vibe's not bad.
+>> rad as hell.
+>> Yeah, um
+you know, it's uh
+>> [laughter]
+>> big takeaway, I'm glad it actually makes
+sense.
+>> It it really does.
+>> If you had like
+>> [laughter]
+>> two more days, this would actually look
+really good.
+>> I think so. You have All the pieces are
+there.
+>> You guys are really kind. [music]
+>> The keying's pretty good. Their ground
+shadow contact is almost flicker-free.
+Blind clicks. Like, I never got to
+preview the matte or anything.
+>> This This looks like the previz for
+[music] the actual shot.
+>> The more I watch it, the more I like it.
+>> Yeah.
+>> [laughter]
+>> It's It's got something to it. [music]
+If you submitted this reel to Neil
+Breen, stamp of approval immediately.
+>> Aw, he's my icon.
+>> be the top artist.
+>> I think I learned, [music] you know, we
+preach uh intention on set. And making
+sure you have a clear idea of what the
+effect is going to be when you're on set
+so you can maximize it on the back end.
+And that is even more true for 1999.
+[music]
+You got to plan everything to a T,
+including all of your clicks in the
+software.
+>> I was expecting so much less, actually.
+>> They had a lot of the tools we have
+today. Plus, it was more stable than
+today's version of After Effects.
+>> Leave a comment down below if there's
+any other old software we should take a
+look [music] at in this competitive
+format, cuz we're always ready to learn
+and always ready to be humble.
+>> You got to humble me. I'm already
+[laughter] so humble. I'm humble still
+skin after this one. I'll tell you that.

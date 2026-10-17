@@ -1,0 +1,523 @@
+UP主：Corridor Crew
+标题：AI Experts DEBUNK Fake YouTube Channels
+链接：https://www.youtube.com/watch?v=EgfzPsHIKQw
+
+Every single pixel you see on the
+internet has become a potential site for
+scams.
+>> And AI video has basically become
+perfect.
+>> Is it now impossible to detect AI
+videos?
+>> Maybe. There are ways to figure out if
+what you're looking at is fake. We're
+going to take a look at some of the
+hottest AI videos to hit the internet,
+then we're going to debunk them for you.
+>> Have you guys heard about AI music?
+>> [laughter]
+>> Huh, they're doing that now?
+>> Let's take a look.
+>> Go to the supercool band called Pink
+Paradox.
+>> You can see you can just tell
+immediately from like looking at the
+photos that it's AI.
+>> What about it? What are you seeing?
+>> This weird like cartoony perfection.
+Everything's too posed. Everything's too
+in focus. And you get this concept bleed
+going on or like both their mouth poses
+are exactly the same. Their eyes are
+exactly the same. They basically have
+the same face actually. There's like
+this conceptual depth that real life has
+that just AI photos struggle to capture.
+>> I mean, look, plenty of people use like
+AI art for their album covers cuz you
+know, they're focusing on the music.
+>> Let's Let's hear that.
+>> [music]
+>> Wow, from frame zero we're at the hook.
+>> AI music has been around for a while.
+It's more prevalent now than ever,
+especially when you're on something like
+Spotify where it's literally being
+served to you.
+>> What is it that triggers your ear to
+hearing that it's not a real artist?
+Like what are you listening for?
+>> It's the same exact thing as the photos.
+If you think about the music like an AI
+image generator, there's a lot of
+similarities. You're going to start with
+something very tiny that then gets
+enhanced into this high-resolution
+image. Same thing with the audio. The
+audio starts as a tiny little super
+low-quality
+blurb.
+>> [music]
+>> It starts as a little ear booger that
+gets enhanced more and more and more
+until it starts to sound like a song.
+But because of that up-resing process,
+there is a kind of a cap that you hear
+on the high end of the song. The cap of
+the resolution that you're able to
+enhance it to, like a high hat.
+>> [music]
+>> Or symbols.
+It's those incredibly high frequency
+sounds, those ones take the biggest hit
+because they require so much detail to
+sound natural.
+>> Yeah, like high frequency is the audible
+equivalent of high detail.
+>> I would say so, yes. If you look at like
+what is a like a bass
+>> [music]
+>> It's like a really simple big wave form.
+Whereas those higher frequency sounds, I
+keep saying a high hat because it's
+literally the sound of a sizzle. It's
+like
+you know.
+That is a really really high density,
+high detail wave form. I generated a
+song on Suno, downloaded the wave, and
+if you look at the spectrograph,
+basically everything over 16,000 hertz
+is already cut off. There is no high
+quality version of that file. It's like
+stuck in at this like capped audio
+resolution. Your result is basically the
+sound of like a highly compressed MP3.
+If you are listening to a song on
+Spotify and start to hear a little bit
+of that muddy high detail sound, it has
+to be AI because when you're uploading
+music to a actual music streaming
+service, they require you to send
+lossless uncompressed audio files. From
+a standards standpoint, they generally
+don't allow those kind of low quality
+uploads on the platform.
+>> Interesting. Like literally in their
+description, they say we're a virtual
+all-female metal band from Barcelona. Is
+the I I I keep
+>> They're not from Barcelona.
+>> I know, I know, yeah.
+Generated, yeah, the keyboard that typed
+the prompt was in Barcelona. I'll be
+honest, there's another aspect of this
+which is like
+dudes playing with dolls.
+>> [laughter]
+>> Which is like that's 100% what this is
+is dudes playing with dolls.
+>> Yes.
+>> I'll just say you know what, interpret
+that however you want. But that's we can
+all agree that is what it is. I want my
+doll to have pink hair and she's wearing
+a leather. This one plays the violin,
+and she's got black lipstick.
+>> Yeah.
+>> I love that they give them names, too.
+>> This one's Her name is Lisa Renard, and
+she's a French guitarist, and she has a
+skeleton tattoo.
+>> I haven't seen this much work going into
+an AI band, and it's so cringey.
+>> All aspects can be generated. The music
+itself, all of the imagery, full web
+pages of information. I mean, I feel
+like we're rapidly approaching an
+automation level where it's like almost
+one click.
+>> No, this is good because this is the
+monster that's eating itself. It's like
+when you fall into the content game, and
+you're just chasing the algorithm, the
+algorithm itself will eat you.
+>> It's the pink paradox.
+>> [laughter]
+>> What's up, guys? Christian here. I'm
+down here in the content mines, going
+through the debunking email to look at
+all the user-submitted content that you
+guys send us [music] for the show. And
+you know what? It can actually be a
+dangerous job. Whenever you're asking
+for user-submitted data, you never know
+[music] what email or what link, where
+it's going to take you, or what's going
+to happen, or what kind of data is going
+to be collected. Well, luckily, we don't
+have to worry about that here because
+today's sponsor is Incogni, and I'm
+going to tell you a little bit more
+about them. So, we've been looking at a
+lot of AI videos and a lot of scams
+today, and the scary part is not just
+the videos are getting more convincing.
+The scary part is that the scammers
+don't even need that much information to
+start targeting you. That could be a
+name, a phone number, your family
+members' info, who knows? A lot of that
+stuff is already floating around there
+online, and if it gets in the hands of
+the wrong person, that can make [music]
+scams way more personal and way more
+believable. And that's where Incogni
+comes in. Incogni helps you remove your
+personal information from [music] the
+internet. They contact hundreds of data
+brokers and people search sites on your
+behalf. They send repeated removal
+requests and track the progress so you
+do not have to spend hundreds and
+hundreds of hours trying to do it
+manually [music] yourself. This is
+different than a VPN. A VPN protects
+your data while you're browsing,
+especially on public Wi-Fi. While
+Incogni is focused on the personal
+information about you that may already
+be exposed online. One of the biggest
+things to highlight is their custom
+removals feature. If you find a specific
+site where your personal information is
+showing up, you can send Incogni the
+link, and their privacy experts will
+review it, and if it is eligible, work
+to get that information removed. You
+know it's trustworthy because Incogni's
+data removal processes have also been
+verified by Deloitte. That's a big deal
+in a space where you want to know the
+service is actually doing what it says
+[music] it's going to do. So, if you
+want to start taking your personal
+information off the internet, I think
+you should check out Incogni. They can't
+harm you if they can't find [music] you.
+So, use the promo code Corridor at the
+link below, and they'll give you 60% off
+an annual plan.
+If data privacy and your personal
+information being out there is important
+to you, then we highly recommend this
+service. So, go check out Incogni and
+tell us what you think.
+>> It often [snorts] feels like we are
+straying further and further from the
+light, or at least from our origins. So,
+thankfully there are still YouTube
+channels out there fighting for that.
+Like Amish YouTuber Elias Yoder.
+>> My name is Elias Yoder. I am Amish, and
+I farm in Lancaster County.
+>> This is a hardworking Amish man who
+gives you all the life hacks you need to
+live off the grid and cut that budget.
+>> There is a 5-gallon bucket sitting
+behind my woodshed.
+>> What?
+Whose hand is that?
+>> [laughter]
+>> And I will say I'm very impressed by the
+Amish work ethic because he's only been
+on YouTube for a month and he's already
+done 74 videos.
+>> Dude, record scratch. Wait, hold on. I
+thought Amish people weren't allowed to
+use computers.
+>> Yeah, I will say he's he's pretty good
+with a camera.
+>> I have shown you the off-grid solar
+setup before.
+>> They're not selling stuff, are they?
+>> I'm glad you asked, Nico. Why don't we
+go to his website? We're turning to the
+old ways. So, what is better than an
+ebook?
+>> An ebook?
+>> Just ChatGPT [laughter]
+slop. It's like you're paying 47 bucks
+for a ChatGPT prompt.
+>> You're paying You're paying for a
+prompt. But here's the good news.
+There's a full website detailing why
+it's a good idea.
+>> Wait, let's see what's Can we see what's
+inside?
+>> Yeah, yeah, yeah. Let's see what's
+inside. Keeping your house warm without
+paying for heat. Catching and moving
+what falls from the sky to eat and
+stuff.
+>> What? Catching and moving what falls
+from the sky?
+>> Yeah.
+>> Grow 100 lb of potato in 4 square feet.
+>> Dwight.
+>> Every single thing that you need.
+Obviously this entire YouTube channel AI
+generated, right? It's not a real
+person. We all know that. But I'm
+wondering are these tips and tricks
+useful still?
+>> The information's probably not that
+wrong, but it's truly no different than
+somebody just doing a Google search for
+this topic and saying Google read it to
+me and then like listening to it for an
+hour. That is what this is. It is kind
+of brain melting. It This is This is
+brain rot for old people.
+>> Well, Elias was actually sent in by a
+viewer Carol whose grandparents were
+tricked by this YouTube channel. They
+were watching this content thinking it
+was completely legit and she had to
+educate them on the fact that well, it's
+not as legit as you think unfortunately.
+>> Anytime someone says they can save you
+money if you give them money first.
+Universal red flag, okay? Universal
+across the board. Doesn't matter how
+nice their suit is and how big the
+building is. Across the board.
+>> If you actually learn to make a lot of
+money with a secret, you don't tell that
+to people.
+>> you just make money.
+>> Very coveted information because the
+more people that know how to do it, the
+less money you can actually make.
+>> Yep. So, yeah, that's stupid.
+>> 10 ways to beat the
+>> Oh, freaking AI.
+>> at that. We're getting AI ads on the
+>> All right. All right. Government,
+listen. You need to pass a law. If you
+show your product in a commercial, it
+cannot be generated or rendered. It has
+to be real.
+>> Real. Yeah, guys have to make it a rule.
+>> Hurry up.
+>> This is the equivalent of getting in
+line to get in a line. Like we're
+watching an AI ad to watch an AI video,
+which is just an AI ad.
+>> [laughter]
+>> Which is just an AI ad.
+>> And the air has gone thick and still.
+>> Rewind 10 seconds cuz he does his mouth
+suck. He sucks his mouth in all the
+time.
+>> [laughter]
+>> And I'm done.
+>> What's happening here is somebody in
+another country is renting like a GPU
+service for like an hour or two. They
+get to rent a nice computer. They are
+creating a script, text-to-speech,
+selecting chunks of that, lip sync
+video. But before that happens, they get
+images for everything. And these these
+are all running on open source image
+models and video models. They then take
+those images and turn them into images
+to video. The AI will look at that image
+and then invent motion from it. You'll
+notice none of them are longer than like
+5 seconds because whatever computer
+they're renting probably only has like
+24 to 32 GB of VRAM. And that's why at
+the end of each clip he closes his mouth
+because that's the end of the render
+space of the video he's getting and so
+it's just ending. But the audio track
+itself is a separate media file. So it
+just lip-syncs for those 5 seconds and
+then it stops. And then all these images
+are so weird because they're it's like
+Stable Diffusion 1.5 style imagery. And
+then it's being animated and you get
+Yes.
+Look at this, dude. The freaking yard.
+Yeah, the fireplace and THE DOOR. THAT'S
+WHY IT'S HOT, DUDE. TURN IT OFF.
+IT'S A DOUBLE CAR. I DON'T KNOW which
+way I want to drive today. Turn off your
+door fire. Come on, that's step one.
+Have they not read the ebook? This is
+somebody trying to make a living. This
+is somebody somewhere that's not
+California going, "If I can make five
+bucks a day, I make more money than all
+of my neighbors." So they go to
+runpod.com, rent their server, and start
+turning out AI videos that target the
+algorithm to get just a little bit
+skimmed out of that YouTube trough, you
+know, and right onto their plate. You
+wake up the next day, got 10 bucks in
+your bank account. Spend five of those
+bucks renting more computers. Now you
+got 15 bucks in your bank account the
+next day. It's kind of like playing an
+RPG. I estimate to make this video cost
+this person two to three dollars. If
+this person gets 5,000 views on a video,
+it becomes worthwhile. They actually
+make a profit on it. It's a
+self-sustaining Amish video GENERATION
+MACHINE.
+SORRY.
+>> [laughter]
+>> OH NO, THEY'RE ALL GETTING CAMERAS.
+THEY'RE ALL GETTING CAMERAS. I WAS
+READING the comments and I saw that one.
+Thank you for the precious memories. Oh
+my gosh, they're all getting cameras and
+they're all filming in the same house.
+Oh, Amish cooking. He's got a cooking
+channel. They multiply. That's how it
+works. Jacob solved Gosh, there's a full
+Amish community.
+Oh. Oh my gosh. AI Amish gangs. Amish.
+Amish gangs. It's so offensive to Amish
+>> It is really.
+>> It is the ultimate perversion of the
+Amish.
+>> It is actually.
+>> They have sworn off all things digital
+and have been converted to only being
+digital.
+>> It's pretty rough honestly.
+>> We got a 1.8 mil in there. We got a
+couple hundred thousand.
+>> 27,000. Here's what I'm noticing. He's
+making a lot of money and then the
+spigot gets turned off real fast.
+>> It's technically self-sustaining. Just
+barely though.
+>> That's why he's selling the website and
+the book. That book is what's going to
+make it so they can keep doing it.
+>> Well, here's the thing. Elias is trying
+to build celebrity from scratch. Why not
+just steal it?
+>> You're right.
+>> Like some of these other examples we're
+about to look at.
+>> Someone is feeding my videos to some
+sort of AI and having it spit out this
+[clears throat] content. And it's not
+just the background. I mean, the jacket,
+my old iMac is there, my speakers, my
+orange. I wish I was as
+handsome though as this guy is. The
+guitar industry has a dirty little
+secret.
+>> There are a lot of AI channels on
+YouTube these days that are just
+outright stealing the identity of
+another person or at least the vibe of
+another person.
+>> Guitar Gems with Chase. This is an AI
+YouTube channel.
+>> New book available on my
+>> Sick, dude. I want to read that.
+>> Dude, this is the new scam. Yeah, this
+new scam. Sell PDF. That's all you're
+trying to do. Dude, unlock the secret
+prayer for like 50 bucks. Make money.
+And it's all to make money, right?
+>> Selling a prompt is so funny. So, when I
+went to Guitar Gems with Chase on
+YouTube, the entire channel had been
+taken down. But this is an interesting
+problem because just as fast as they get
+taken down, another one pops up.
+>> Hello friends and welcome back to
+Everything Fender.
+>> But
+>> YouTube is definitely fighting. They got
+to be fighting this cuz this will kill
+them.
+>> Yeah.
+>> That algorithm monster, like I said,
+it's on everybody's tails. Not just
+ours. Everybody's tails.
+>> Facebook and Meta seem to just be
+embracing it. They're like just like
+lying back in that scene going, "Ah."
+>> Yeah, swimming in the slop.
+>> Loving it. And that's going to be the
+end of them.
+>> And YouTube is just allowing it to
+happen.
+>> All right, hit me with some more AI
+videos to debunk here.
+>> It's just floating there.
+>> Can't figure it out.
+>> Even my dog knows something ain't right,
+man.
+I've done throwing stuff at it and I
+can't hit it. It look It just seems like
+it goes right through it.
+>> It's a really long clip.
+>> It is.
+>> This is definitely not AI video. It's
+the length of the shots. They're walking
+around, they're zooming in on things.
+It's too consistent.
+>> Here's the update.
+>> What the
+>> All right, this is definitely like a
+string. There's tall trees next to this
+area.
+Dude has a cherry picker. Like look,
+rent this for your next viral video.
+Even a smiley face. Yeah, he knows
+what's up. He knows what's up. He knows
+what's up.
+>> Oh my gosh, there was a floating branch
+and he's literally a professional branch
+manager.
+>> It might be time to put y'alls phones
+down and quit believing everything you
+see on the internet.
+>> The best magicians do the simplest
+tricks, but they tell a really good
+story and you believe that it can only
+be magic.
+>> Can you see the cherry picker anywhere?
+>> The trailer for the cherry picker.
+>> Oh, yeah. It's a flatbed. You're right.
+That's the flatbed for the cherry
+picker.
+>> Still attached to his pickup, next to
+the tree that he tied it to.
+>> Hey everybody, there's still magic in
+the world, so don't get too discouraged.
+>> You're just going to keep your filters
+up. You've got to stay [music] smart,
+stay educated. If they're wanting money
+from you, the red flag should come up.
+Good luck out there. We'll see you in
+the next one.
+>> And if you have any AI videos you want
+us to take a look at, just go ahead and
+send them over to
+debunk@corridordigital.com
+and [music] we'll feast our little eyes
+on it. Thanks for watching. We'll see
+you next time.

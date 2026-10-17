@@ -1,0 +1,436 @@
+UP主：The AI Advantage
+标题：Claude Opus 5.5 - 5 Real Uses and One BIG Website Showdown!
+链接：https://www.youtube.com/watch?v=L0-ezCnX0gs
+
+Big week in AI, as you might have
+noticed. We have Opus 5.5 releasing. We
+have OpenAI releasing GPT-6
+Saul. And then they're making a bunch of
+product changes. I want to talk about
+all that together, but mainly through
+this lens of, "Hey, is it worth
+switching from one to the other because
+of the new models?" Namely, Opus 5.5.
+Everybody has been talking about these
+things. So, what I did is I took bunch
+of different use cases that are novel,
+things that were just not possible
+before with some of these other models
+or were really at the frontier of what
+they could do. Bunch of really examples,
+yes. And then I also ran my big 50
+website generation benchmark and
+compared Opus 5.5 with Astra to answer
+the question which one should you be
+using for which task. But, let me just
+say up front in case you wonder. If you
+want the overall best user experience, I
+think ChatGPT is just the one for that
+now. It's all the little things, like
+you scheduling a task and it just
+working in the first shot. Astra works
+really well with creating websites.
+We'll look at examples and it can go
+both ways. But, if you want one overall
+recommendation, I think it is ChatGPT
+right now for most consumers. Now, if
+you want the very best model for
+specific tasks, I think Opus is a real
+contender. I'm super impressed with what
+it can do. I've had some wow moments
+while exploring this. And the writing is
+just darn good. They kind of fixed it. I
+want to open the meme that has been, you
+know, making its rounds on Twitter.
+This is This is too good. It's accurate,
+though. 4.6 was incredible. I'm not sure
+what started going on after that. Like,
+we saw a higher number, but it wasn't
+necessarily better. Opus 5, a lot of
+people jumped ship from Claude because
+of Opus 5. We talked about this before.
+It was just unreliable. And now 5.5, I
+mean,
+>> [laughter]
+>> they didn't even say 5.1. I think they
+really wanted to make a point that,
+"Hey, this is like a brand new category
+of product." And it is. It's an amazing
+model. It writes so well. It's just more
+concise. It's to the point. It speaks a
+human language. I would say about the
+writing. But, now let's get to some of
+these examples because yeah, that's what
+you're here for. Okay, so here's the
+first example. This is just something
+that I don't know a few months ago was
+unfathomable. You just go to Claude dot
+AI in the web and with this one prompt
+in our testing, we generated an entire
+world. And you see many examples of this
+out there. I wanted to see for myself if
+this actually works as well as people
+describe. Conclusion, it works really
+well, but not as well as some of these
+demos where they like rebuild
+Spider-Man. Those are larger projects.
+You're not going to get that from a
+one-shot prompt. But what we managed to
+get out of our one-shot prompt was well,
+actually a fun little idea that we had.
+So basically all this is is giving it
+the website of any business. In this
+case, we took our company AI Advantage
+AI Education, right? Then we said build
+a 3D playable world and then we
+specified a goal. And the goal was
+understand what the company does and
+what products it has. Okay? You can
+replicate that for any business with any
+website and literally put that into
+Claude web and you're going to get
+something like this. Takes about an hour
+to generate, but there you go, the 3D AI
+Advantage world. Let's just enter this
+and there you go. We're looking at
+something like a computer game, right?
+So I can move around. Welcome to the AI
+Advantage. We teach everyday people how
+to use AI in plain language one step at
+a time. Beautiful. You can navigate this
+like you would any game and there's a
+bunch of stuff in here.
+I'm just going to knock over this
+domino.
+This talks about strategic automation. I
+like it. You can see there's all of
+these little simulations in here are low
+going 3D. It's kind of cool. You can see
+it created the room for the various
+products. But just think about the
+potential here. I think that this one is
+actually super cool. Look.
+Hey, if you're learning with guidance,
+then you have guardrails. If you're
+learning on your own, it's more like
+this.
+Then let's take all this busywork. Let's
+say a social post.
+Uh
+oops. Pick it up.
+>> 2 hours later.
+>> Throw it in here.
+Boom, and I saved 2 hours a week.
+>> [laughter]
+>> So, you can see this is really fun and
+it's so simple. You can make this with
+anything, any website, any idea you
+have. And on the top right, you have a
+checklist of the tour. You can just make
+things like this because it has a
+version of Blender inside of the cloud
+computer that it can run for you. But,
+there is a gap between, you know, this
+and a version of Spider-Man with wonky
+animations like this one.
+By the way, on the animation note, I
+found this interesting tweet I'm not a
+game designer, but I always find that
+it's super interesting what people do.
+And Varuna here is saying, as I said
+before, the last bottleneck will almost
+remain animation like as it pertains to
+these games, right? Animation is deep
+and modern AI still struggles to do a
+good job. So, you can see AI can do a
+lot of the elements of this type of
+stuff if you let it run for a day or two
+and not just an hour like in our case.
+Crazy if you compare it to Will Smith's
+spaghetti from just What is it? 3 years
+ago. So, another thing that a lot of
+people show off is this ability to turn
+a quick sketch into something proper,
+whether it's a 3D environment or an
+interactive app or a website or
+something. So, let me just try that.
+Antonio, who just joined our team, had
+this cool little idea of doing a little
+bow simulator. So, check it out. I'm
+going to do my best at drawing a bow.
+Not bad. There's the arrow.
+And then we'll have like little balloons
+there. This looks more like a flame.
+And then what I'm going to do is Well,
+I'm just going to screenshot this.
+Get it into Claude. And then I'm going
+to use my foot pedal to speak. Hey, I
+want you to create a mini game where I
+have a bow and I shoot these different
+balloons that rise up from the bottom
+part of the screen and go above the
+screen. Give it a medieval look and also
+make it gloomy and dark. And make sure
+to add balloons that are red that I need
+to avoid that would lose me points. All
+right. So, this little balloon game was
+rendering for about 7 minutes. Let's
+have a look. The cloth balloon is plus
+10. Ooh, the cursed red balloon is minus
+25. All right. Ooh, look at this guy.
+Okay, this might be the best game I ever
+make.
+Boom. Oh, wait, this is a tricky one.
+Can we
+No. So, for comparison's sake, quickly,
+same prompt ran in Astra would produce a
+result like this. Ooh, oh my look at
+this Astra. Like this visual is crazy.
+This is where the visual image
+generation of ChatGPT comes in, right?
+Cloth doesn't have an image generator,
+whereas this does. So, that's where the
+background comes from. I think
+everything else is similarish. I
+actually prefer the game experience
+inside of Opus, but this background
+visual is sick. So, maybe you could use
+ChatGPT for visuals and Opus 5.5 for the
+build. It ain't easy out here in AI
+land. All right. Next up, people keep
+posting these shiny ads. They're like,
+"Oh my god, I made this with AI, no
+problem." Well, turns out that when I
+looked into this, these workflows are a
+bit more intricate than you would
+expect. Like they give a lot of
+templates, examples. It's not just a
+fancy prompt. It's people doing real
+work to prepare some of these
+impressive, and they are impressive,
+visuals like this one.
+>> [music]
+>> It's really impressive, right? And then
+also, I just wanted to show this example
+that I'm prompt shared if you haven't
+seen this yet. This is crazy. Look at
+this little like brick building
+simulator. Amazing. All of this are
+components. Like a few months ago, we
+used to show off these demos always,
+right? in all the YouTube videos. And we
+were like, "Hey, you can create this
+cute little application." Now, this can
+create a proper app that I don't know
+what kind of business would actually use
+this one, to be honest, but I don't
+know, maybe you're doing custom Lego
+builds. I'm not sure. It's a full suite.
+It's like something that you would
+usually pay a subscription for, right?
+Whereas these previous apps, they were
+like nice little mini games or online
+apps that are freely available. This is
+proper. Like I wouldn't be surprised if
+this was a tool on the Lego website. And
+I think one thing that I find across
+trying these out and we'll really see
+that in the next test here is that it's
+just visually more appealing. It has
+taste. Claude always was the taste
+company. It was just a little better. It
+felt right. But before we get to the 50
+different websites compared and some of
+the highlights of that comparison, I
+want to show you this build that I
+thought was really impressive for a
+fellow YouTuber, Matthew Berman. And he
+let it run for what was it? I think like
+one and a half days straight. He just
+opened it in Claude code, set a slash
+goal where you just tell it what you
+want, which in this case was that
+replication of San Francisco with
+traffic and buildings and everything.
+And yeah, it just kept coding for almost
+two days straight. And look at this.
+Now, I've been saying this across the
+past few months, a lot of this is
+amazing technology waiting for use case.
+I understand that most people watching
+this will not be recreating cities and
+getting use out of that. But I hope that
+some of the examples that we look at
+here, including the websites that are up
+next, can show you how you could create
+something for yourself. Maybe a 3D
+onboarding demonstration. I don't know.
+Honestly, I'm on the same page in terms
+of like, how do I really use this for my
+life? It's not obvious yet if you're not
+a builder that is creating things for a
+living. But what is clear, and I'm going
+to touch on this briefly before the last
+set of examples, is that this thing is
+just more efficient. So, I was looking
+into these usage numbers and I have a
+little comparison chart here for you.
+These are the prices of the frontier
+models from both OpenAI and Claude next
+to each other. As you can see, Opus is
+cheaper than Fable, but often times it's
+not the price that matters the most,
+right? Often times it's how much usage
+do you get out of your account before
+the limit fills up. And in this case,
+Claude Dev's account claims that you get
+25%
+more usage. You can go 25% further with
+Opus 5.5 than you would with Fable 5.1.
+So, while the price might be cheaper
+overall and depending on the thinking
+level, it varies as you see, expect to
+get 25% more mileage out of using Opus
+5.5. But then at the end of the day, I
+think one of the things that people do
+the most is create websites, whether
+it's single-purpose sites or, you know,
+their main homepage, whatever it might
+be. Like, creating sites and slide decks
+and documents is just up there in terms
+of use cases that I see people doing.
+So, you might have noticed if you've
+been following the channel, but I
+created a benchmark recently where I
+generate 50 different websites across
+various categories. And by looking at
+all of these, I want to show you and
+highlight a few examples of sites that
+would perform very differently in Opus
+5.5 versus Astra versus Fable 5.1.
+Answering the question of, "Okay, if I
+want to create an app or a site, which
+one of these should I use?" So, instead
+of showing you all 50 examples, let me
+show you the more significant ones.
+Starting with this global AI usage map.
+I think the interesting thing here is
+the details of the map because it
+creates it with SVGs, which are
+basically computer-generated geometric
+forms. As you can see, Opus 5.5 creates
+something that is like a world map, but
+not very precise. The precision on Astra
+is way higher when it comes to the
+continents. Still not perfect. The feel
+of these websites is different.
+Honestly, with these fonts, I could
+immediately tell that it's probably a
+cloud-generated, AI-generated site,
+whereas Astra feels a bit more distinct,
+a bit more professional. That was also
+the conclusion of my last comparison
+between Fable 5.1 and GPT-6 Astra. All
+these names, right? But when you take
+that and put it up against Fable 5.1, I
+actually think that the Opus one is a
+step up. I mean, look, Fable, this is
+overlapping. The SVGs are even more off.
+Okay, more examples. This would be a
+launch site for a in-the-game, okay?
+Let's start with Fable 5.1. This is what
+it made. It's good. Now to Opus 5.5.
+It's better. It's just more concise.
+There's less nonsense. I like this title
+image. I realize a lot of this is going
+to be personal preference, but my
+personal preference here is with Opus
+5.5. And then if you look at Astra,
+again, it's it's It's It's a bit more
+polished. I think this is good, but
+honestly, if I needed this site, I
+prefer this one every time. Maybe you
+have a different opinion and that's
+fine. That's the point of this, but you
+can see the functionality is there. But
+in terms of style, I like Opus. All
+right, then we have this little pinball
+game. Opus 5.5 versus Astra. Again, the
+theme of Astra just being a bit more
+professional, a bit more polished holds.
+For pinball game, I personally prefer
+Opus 5.5 here. By the way, for
+reference, this is the Fable version,
+which is also good, but I do have a
+preference for this Opus one. And also,
+functionalities right there. So, you can
+see a theme here. Let's look at a more
+professional site to give Astra a fair
+shot here. Like this educational website
+where it's supposed to explain rag to
+people that are learning about it. Look
+at this Opus generation. It's more
+playful and I think this one looks more
+AI-esque, which I personally actually
+don't prefer in this case. I mean, you
+know, it's good. It's a good website. I
+can't say anything bad about it. Just
+think when it comes to education, I
+would prefer a more clean look like
+Astra provides by default here. And then
+I want to show you this one, which
+simulates a flock of birds, I suppose.
+Fable did a good job with this, you
+know, it works. It looks good. Astra,
+again, created just this more polished
+look. But then Opus created this
+full-screen experience that is a bit
+more immersive. I love the font on the
+side. Everything works. You have all of
+these sliders. It's clean. It's
+full-screen. It's a full experience. I
+think it's better when it comes to
+something like this. And that's the
+theme of this. I'll say this to round it
+out. When it comes to something like a
+tool or a dashboard, apples to apples,
+sure Astra is more professional as I can
+see here. And these dashboards all look
+good. I think Opus has a bit more soul
+when it comes to websites and I would
+prefer it over Fable 5.1 in most cases,
+actually virtually all cases. And when
+it comes to writing, you'll just see
+when you interact with Opus, it just
+feels human. It feels better. It's
+concise. It speaks a language you can
+understand. In conclusion, this image
+of, you know, Dario drawn in different
+ways, I think is accurate. I think Opus
+5.5 is Anthropic's best model yet. It
+will be my default, but I switch to
+ChatGPT as my daily driver including my
+agent usage and everyday tasks. But 5.5
+does have a strong pull. I like the
+creativity, I like the writing. So, if
+you're into those things, try them out.
+I hope this video was helpful to make up
+your mind in terms of what you should be
+using. And finally, this hasn't rolled
+out yet, but if you haven't seen it,
+check out the new ChatGPT voice features
+where it connects us all the connectors.
+You can be on the go and checking your
+calendar, writing emails, doing things
+like that. It looks really cool. Hasn't
+fully rolled out yet. I'll cover it once
+it does, so make sure to subscribe. And
+that's pretty much everything I have for
+today. I hope this was helpful. My name
+is Igor, and I hope you have a wonderful
+day.
+>> AI news you can use.
+Breaking down the stories you actually
+care about. AI news you can [music] use.
+Igor's here to help you
+figure it out.

@@ -1,0 +1,25 @@
+UP主：OpenAI
+标题：Block on Finding and Fixing Security Risks with OpenAI
+链接：https://www.youtube.com/watch?v=N6K_pxaAh0w
+
+Every attacker potentially has an
+advanced capability in their pocket.
+There's been a lot of tools that could
+hunt through software and say, "Here's a
+error in your code overall." But, this
+is able to chain together with
+hypothesizing about attack patterns,
+crossing trust boundaries, and chaining
+together a series of attacks to give you
+an end-to-end compromise. You find your
+where it is in software, you find who
+owns that software, you propose a patch
+for that, you confirm exploitability,
+and then you verify that you have fixed
+it overall with a human in the loop
+guiding it and deploying the code.
+What's scary? Of course, like, you know,
+that this maybe has existed for years
+and you didn't know about it, but now
+you know, and now you can take action
+before someone else knows.

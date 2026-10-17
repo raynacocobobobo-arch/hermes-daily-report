@@ -1,0 +1,557 @@
+UP主：Matti Haapoja
+标题：iPhone 18 Pro Review: Why Aperture Control now?
+链接：https://www.youtube.com/watch?v=uuoqkmvE_nc
+
+This is the new iPhone 18 Pro and this
+is the Pro Max. And at first glance, you
+might be thinking like me, what even
+changed? What's the difference? Cuz on
+the outside, these look pretty similar,
+but on the inside, there's actually some
+interesting things happening, especially
+for us filmmaker photographers.
+>> [music]
+>> Let's get into it. [cheering]
+>> So, let's go through the biggest
+changes. Well, first off, the big news
+is we now have aperture control on the
+wide camera in an iPhone. Now, when I
+was thinking about this, I heard there
+were some rumors about this and I was
+like, I don't really get it. I don't
+understand why that's that big of a deal
+until I realized this has the fastest
+lens ever in an iPhone. It is f1.4a.
+Now, why is this important? So, I think
+we're reaching a point where you can't
+make the lens any faster without adding
+aperture control. Because when you go
+and take a selfie with a friend and the
+friend is just kind of behind you a
+little bit, I am going to be in focus
+and the friend is going to be terribly
+out of focus. That's the difference
+between f1.8, which we had before, and
+now f1.48.
+We need to have that aperture control so
+when you're taking a group photo, your
+friend's not going to be out of focus.
+And so for me, the aperture control
+isn't that big of a deal. But what is a
+big deal is getting that faster lens.
+And I right away noticed that even the
+keynote which is shot on iPhones. It
+just looks a little bit sharper, a
+little bit cleaner than iPhone footage
+looked before, even on the 17 Pro. All
+right, I was just editing the video and
+I feel like I did not take enough
+example footage between the 17 Pro and
+the 18 Pro because there is a massive
+difference. The 17 Pro was already the
+best smartphone video in my opinion, but
+the 18 Pro is just so much better. Like,
+there's way more detail. You can see it
+a little bit, I think, in the ultra wide
+also maybe. Um, not as much, but the
+wide there is a significant difference
+between the two. Um, so I just felt like
+I needed to quickly take a clip and I'm
+trying to edit this and put this video
+together. But yeah, big difference. Now,
+I don't know if that's just because of
+the faster aperture or did they change
+the image pipeline a little bit. So, it
+just to me I would describe it as the
+image looks a little bit more detailed,
+maybe less like noise reduction and then
+therefore having to kind of sharpen it
+artificially. It just looks less
+sharpened and a little bit more
+detailed, a little bit cleaner, which I
+love. But even more, having that shallow
+depth of field is really nice on a
+smartphone. And like it's kind of crazy
+how much we're getting now. And because
+it's incremental, we don't realize it as
+much. It's kind of like my kids growing
+up. Because I'm with them every day, I
+don't really see them kind of growing
+up. But then if I'm gone for even a
+week, I'm like, "Holy crap, you look
+totally different." I think for me, the
+aperture control is not actually the
+biggest feature. It is the fact that we
+now have a faster lens. That being said,
+I think there will be some controversy
+over the starburst effect. So on the 18
+Pro, we have four different apertures we
+can choose from. F 1.48, 1.8, 2.8, and
+four. And you can also have this on
+auto. So it intelligently kind of
+analyzes how many faces are in your shot
+and therefore what f-stop we should be
+using. The thing is when you go to f2.8
+or f.4,
+you start to get this starburst effect.
+And it's actually quite prominent. I
+remember Tyler Stallman was like, "It's
+probably pretty hard to get that after
+the keynote we were talking." And turns
+out, no, it's it's very prominent. And
+where this comes from is that when an
+aperture is closing, there can be
+different amounts of aperture blades
+closing down the aperture, making it
+smaller and smaller, which means a
+bigger f-stop number. It's the reverse.
+And because iPhone cameras are tiny, I
+assume it is very, very hard to put a
+lot of aperture blades in the aperture
+mechanism. And therefore, you get this
+kind of starburst effect, which for some
+people, I feel like they're probably
+going to like it. And for other people,
+they're going to absolutely hate it
+because it's a bakedin look. You can't
+get rid of that afterwards. Let me know
+in the comments. Do you love it or hate
+it? Now, on top of that, we get pro
+controls inside of the native camera
+app, which is really nice because the
+native camera app always works a little
+bit better than any other third-p partyy
+camera app I've ever [music] tried.
+There's things like dynamic range and
+just a lot of little things that just
+don't [music] work as well in the third
+party apps. I've done a lot of
+sidebyside tests and the native camera
+app just works so well. And having pro
+controls in there is really nice. But
+for me, what's more important is the
+fact that you can customize the UI to
+now have the controls that you actually
+want. There's a lot of controls that you
+might not care about or I might not care
+about. Now, we can customize it to our
+liking. All you have to do is hit the
+settings button and then you can go to
+this little edit button at the top left
+and then you can choose which ones you
+want in there. We have everything from
+flash, depth, action, stabilization, the
+format, dual capture, focus, shutter
+speed, and of course [music] lens
+aperture, even a histogram. Now,
+interestingly, there's no ISO control.
+And uh I actually asked about this and I
+basically asked like did you not put ISO
+control in here because people don't
+understand how these work and then they
+just ramp up the ISO and take horrible
+photos and then they're going to blame
+the the cameras on the phone and really
+it's just user error. Actually they kind
+of ignored that which I think is still
+maybe a little bit true. But their
+answer was interesting. They basically
+said that what ISO means now in today's
+world of computational photography is
+very different. If you didn't realize,
+like when you take a photo with an
+iPhone, it's not just one photo. They're
+taking a whole bunch of photos at
+different ISOs and different probably
+noise reductions, all this stuff, and
+putting them together with computational
+photography to make the best photo that
+they can with the sensors that they
+have. And therefore, with that process,
+like what does ISO actually mean when
+you're using all these different ISOs
+and and putting them together? ISO
+doesn't actually do the thing that it
+used to even on mirrorless cameras and
+definitely not when it comes to film
+world and all that stuff. Um, and so I
+thought it was kind of an interesting
+answer and I think I kind of agree. I it
+might be nice to have still as like
+professional filmmakers and
+photographers. [music] Um, and maybe it
+makes a difference a little bit more in
+the video world, but actually I think
+that kind of makes sense at the same
+time. And the Pro Controls can be
+different for photo and video, which is
+really nice. I love that. One of the
+things we also now get in photo is with
+the styles, the photo styles that they
+already had, we now get more things that
+we can customize. So now you can
+actually manipulate the colors, but also
+add a texture. You can add soft skin,
+glow, or film. And then with any of
+those, you can add grain. Um, and then
+you can dial in how much of that effect
+is happening. And the cool thing is you
+can save that preset. So every time you
+pull open the camera app and you take a
+photo, you can have your specific style
+on which includes the colors and [music]
+that texture. And this isn't just like
+uh a filter that you're adding on top
+after you've taken the photo. This is
+part of the computational photography
+process. And you can actually reverse it
+also. So you could just always have your
+look on and if you want the standard
+look or a different look, you can change
+it afterwards. It's kind of like RAW
+even though it's not a RAW photo which
+is incredible. We're getting really
+close to like the Fujifilm X100V
+space. It's not quite the same. You
+can't, you know, change contrast and all
+this stuff in the specific ways that you
+would like. There's a little bit of
+adjustment that you can do. Um, I would
+love more, especially kind of dumbing
+down the highlights. I feel like they
+come in a little bit too hot. That's
+just my preference. Um, but at the same
+time, this is a really big update for
+photographers and especially if you want
+to use your smartphone, your iPhone like
+an X100V where you're taking photos, it
+already has the look built in and then
+you [music] can just share it with your
+friends or post it or whatever. The one
+big thing that we do not get that would
+be pro and really nice is Apple Log 2 in
+H.265. I love Apple Log 2. The image
+looks incredible, but if you're using
+the native camera app, then you have to
+shoot in ProRes. And other people are
+going like, well, just use one of the
+third party. Like I said, the third
+party apps do [music] not work as well
+that the the results are not as good as
+the [music] native camera app. And you
+could do your own tests. I have found it
+time and time again to be true with all
+of the third party apps. It's not I'm
+not singling anybody out here. Um, and
+[music] so just to have H.265 265 inside
+of the native camera app and now all
+these pro tools and everything. I don't
+think I would need any other camera app.
+Uh sorry everybody else to film on my
+iPhone. That's the one thing that we're
+missing. And I don't think I was the
+only one. I think pretty much everybody
+that I was with was like, "Yes, we would
+like [music] H.265 Apple log 2."
+>> New car. Not Not really. But Isaac
+hooked it up.
+>> I hooked it. I hooked it up. [laughter]
+I know the guy who built the motor. uh
+at a had a bit of a tragic event a a few
+weeks back. No, I think a week ago
+maybe. There was a huge storm here in
+Toronto and I just happened to drive to
+the worst place worst possible place
+where we had golf ball and like almost
+fistsiz hail. So my Tesla right now is
+sunroof smashed in like a million
+pieces. Not in a million pieces, but a
+bunch of different cracks. And um every
+single panel of my car right now has
+dents. I I kid you not, every single p
+even the trunk back panel has dents in
+it. Um, so Mercedes decided to give me a
+little bit of a loner here. Give a a
+little bit of relief. Uh, I don't know
+as much about cars, but Isaac, you know
+about cars, right?
+>> Somewhat.
+>> Shall I?
+>> Yes, you shall.
+>> Shall I?
+>> One more.
+>> Shall I?
+>> ONE MORE.
+>> YEAH.
+>> RACE MODE.
+through New Market. Let's go. Put on a
+seat belt, buddy.
+>> Hey Siri, tell me about the AMG GLC 43.
+The Mercedes AMG GLC 43 is a performance
+SUV and coupe that features a
+handcrafted 2.0 L inline 4 engine with
+hybrid assist. I was just double
+checking your facts over here.
+Turbocharger.
+>> One of the things now is there's a Siri
+app. Siri app and it has now all the uh
+sorry Siri I'm not talking. It has all
+the conversations that you've gone
+through before. So you can go back into
+them kind of like chatbt or whatever
+like we're used to. So that's kind of
+nice. kind of like that actually. And I
+guess your facts were correct about the
+car.
+All right. So, one of the AI features is
+Okay, Isaac, you get in the shot. Now,
+let's say Okay, stop there. There's a
+random tourist and I'm trying to take a
+picture of my car here. Bam. We should
+be able to use AI to get rid of Isaac.
+Let's see uh how well this works. Okay,
+so we have this photo. First of all, I
+have my styles on here. Let's we can do
+tools and we can do clean up. So now we
+can select Isaac here
+and clean that up. Let's see if it'll
+get rid of Isaac. It's ruined my car
+shot. So it is it is taking a little
+while. Thought it would be a little
+quicker than this. At this point I could
+have retaken the picture, asked the
+tourist to leave Paris [laughter]
+or pulled open my laptop. I could I
+could have already used
+>> Photoshop
+now. And so so far I wouldn't say this
+feature is like I don't know. This is
+bugged out right now, but it is not. Are
+we supposed to just wait? Come on. Just
+turning into a ghost.
+>> Where am I? Where did I go?
+>> Tourist is God.
+>> That was crazy fast.
+>> All right. And it did a pretty good job.
+Like there's nothing there's nothing.
+Actually, that was a little I guess your
+legs. [laughter]
+>> Oh, you can see the
+>> like a little bit of a line.
+>> But it did a pretty good job if you're
+not like paying attention that close.
+[laughter]
+>> Okay, let's try the other one, which
+might be cooler. And I haven't tried
+this one before. This is an effect that
+kind of interesting. Okay, let's uh come
+over here. Do a cool leaning pose here.
+And I'm going to I'm going to purposely
+frame it kind of crappy. Okay, so I'm
+going to frame it like that. Let's say I
+like this photo, but I don't like the
+framing. You now have this [music]
+reframe tool. I haven't done this. Have
+you done this before?
+>> Nope. I haven't done this before. You
+can now
+change the angle and it'll generate.
+Let's see. So, I changed it a decent
+amount there.
+Got we got another loading bar.
+[laughter]
+>> Would you do this ever?
+>> Uh, I don't know how I feel about this.
+Like like I don't I'm not against it. I
+just don't know if I would do this cuz
+you know what would be easier?
+>> Just taking another photo.
+>> Just take the good Yeah. the good photo.
+>> Yeah.
+>> Unless you I maybe you can you can't get
+to the certain angle.
+>> Yeah.
+>> And you need
+>> And maybe like if you like take the
+photo you're in a rush, you take the
+photo and you're like, "Dang it, I wish
+I wish I would have just angled it a
+little bit differently."
+>> Well, this really isn't going fast.
+That's my That's
+>> It literally is faster to upload it to
+Lightroom on your phone.
+>> Well, Lightroom can't do this effect.
+>> No, you're right.
+>> I've never seen anything do it like
+this. So, like I could understand this
+one taking a little bit longer, but it's
+been what, like 30 seconds already, man.
+And five mosquito bites.
+>> Oh, it's been like It's got actually
+been like 3 [music] minutes. That's not
+an exaggeration. Might be five now.
+>> Well, we had to restart it a bunch. So,
+>> yeah, I've tried it a bunch of times and
+[music] it's for this last one, it's
+been at least 3 minutes now
+>> and it's still just generating. And
+[music] so, like
+>> AI or not, I would rate this not very
+good. Steve Jobs is all about the
+experience cuz he said no more stylus
+[laughter]
+and now we have this.
+>> Oh, and then perfect.
+There was an error reframing this photo.
+Try try again. Like that's just such a
+bad experience. [laughter]
+>> If you have another if you have another
+week to spare, let's try it again.
+>> Like in most cases,
+I can just take another photo.
+>> It's pretty rare that I I one shot like
+and then I needed to reframe like so
+like if that's the experience I'm not
+going to go through and like ever
+reframe stuff. So
+That was actually really good.
+>> Yeah.
+>> One of the other things that you will
+not see, but on the inside they did two
+really big things. And one is making the
+heat dissipation even better. So you
+have that vapor chamber thing going on
+in there. There's literally like liquid
+that's taking the heat, evaporating, and
+spreading it out all over the iPhone.
+and they made the surface area of that a
+lot bigger on the 18 Pro. So now the
+heat will kind of spread out better. You
+won't have like a crazy hot spot and
+therefore the heat dissipation will be
+better. I think they said 40% better
+from the last one which was already I
+think 40% better than the previous. And
+then with that we also get better
+battery life. So the battery life is
+insane. Now, the other thing they did is
+that dynamic island is now smaller on
+the 18 Pro, and that is because they
+took that FaceTime um LAR scanner thingy
+mabob and they actually moved it to the
+corner over here, and it's actually
+really really hard to see. Like I I I've
+seen it a few times, I think, in like
+bright sunlight, [music]
+but it is really really I I literally
+cannot I cannot see it. And that is
+because they did something really
+interesting. They actually showed us how
+the the normal LED pattern is and the
+brightness and stuff. And then as you
+get closer to where that under the
+screen um camera is, the LEDs actually
+start to be a little bit less less of
+them, but they also get brighter. And so
+that kind of tricks our eyes to just
+seeing it as the same as [music]
+anywhere else on the screen. So, you
+really cannot I I thought I could maybe
+see it with this light, but I really
+there's like a kind of like a circle
+that I could maybe uh you really can't
+see it. And that also means then that
+that dynamic island is a little bit
+smaller, which is nice, especially if
+you're [music] watching like full screen
+videos or whatever. But yeah, not a huge
+update, but it is definitely cool. And
+after trying the iPhone Duo, which has a
+nanoexture
+glass on the inside on the big when you
+unfold it, that is nanoexture [music]
+and it is so nice. It has this really
+nice matte almost like paper feel to it.
+It looks really good. It feels really
+nice. I would love that on my iPhone.
+Now, I think the reason why they cannot
+do it on an iPhone, at least right now,
+is that when you have it in your pocket
+or purse or whatever, that nanoexture
+coating is going to get scratched and
+destroyed. Whereas on the Duo, you fold
+it closed and so it's not being exposed
+in your pocket or in your purse or
+whatever. And so, they can do it. But,
+man, that is my favorite feature of the
+Duo. And if you have a chance to to try
+it out, you'll know instantly what I'm
+talking about. It'll be like the sleeper
+like eh it can't be and then you're like
+oh wait this is way better. It makes
+glossy screens. It kind of feel a little
+bit more cheap to me. That matte finish
+just looks really high quality and the
+way it just reflects all of the bright
+light and everything. It looks really
+nice and feels nicer when you're
+scrolling whatever. So that's it. Those
+are my like big changes from the 17 to
+the 18 Pro. And I wouldn't say they're
+like drastic changes, but if you're like
+me and you use your iPhone for photos
+and videos every single day, if whether
+it's work stuff or just, you know, in my
+day-to-day taking pictures or videos of
+of my kids or whatever, I use these
+cameras all the time. And so to get a
+little bit of like an update or a new
+lens or whatever actually goes a long
+way. It's almost like you're upgrading
+your lens to a faster lens in this case.
+And so for me, that's a big deal. But I
+know not everybody is going to hop on,
+especially [music] if you already had
+the 17. You're not going to get the 18
+necessarily. The colors, I kind of like
+the 17 colors better. This orange is a
+little bit obnoxious, but I kind of
+liked it. And the blue was cool. Um, I'm
+not as big of a fan of this blue color.
+It's It's cool, but it's not my personal
+preference. Uh the black looked pretty
+sick though. Um and then we have kind of
+like magenta. It's not red. It's not
+purple. It's somewhere in between. I
+think burgundy magenta is is the color
+here. And for me personally, I also
+don't like this color as much. I think
+this blue color is cooler. But for me, I
+would probably go with the black one if
+I was choosing. But I'm sure a lot of
+people are like, "Oh, I love these
+colors. We're all different." So, yeah,
+pretty cool updates, especially once you
+start to understand what they really did
+because at first glance you're like,
+"Oh, nothing changed." But, there's some
+cool updates. I think the Duo is the
+thing that we're most interested in,
+though. I can't wait to start testing
+that thing out. But, uh, yeah, cool
+updates. Let me know what you guys think
+in the comments.
+>> As you can see, this is the handbuilt
+Mercedes AMG 2.0 L 4 cylinder. It's got
+416 horsepower. It's got 369
+pound- feet of torque. And as you can
+see right here, it's handcrafted,
+handbuilt by
+Bajouch Isafi.
+[laughter]
+>> Is that for real?
+>> Hey, Bajouch. For real?
+>> No, that's for real. I don't know if any
+of this is going to make the video. I'm
+just making him feel bad. [laughter]

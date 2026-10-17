@@ -1,0 +1,160 @@
+UP主：gumvue.studio
+标题：How to Make an AI Movie with Just ONE Prompt Setup
+链接：https://www.youtube.com/watch?v=byjEONmEpzk
+
+Hello everyone. Today, I'm going to show
+you how to create your first movie using
+AI with Gum View Studio, ChatGPT, Dream
+AI, and SeaDance 2.5.
+First, I'm going to log in to my Gum
+View Studio account. If you don't
+already have an account, click create
+account, complete the registration
+process, and sign in.
+Once you're logged in, you'll see
+several different tools. The one we're
+going to use is the MCP server
+connector. First, create your API key
+and choose how long you want it to
+remain active.
+Once it has been generated, copy the MCP
+server link. Next, go to your Claude
+account.
+I have already connected Gum View
+Studio, but I'll show you how to add a
+new connection. Go to manage connections
+and select add custom connector.
+Paste the MCP server link you copied
+from Gum View Studio. Enter Gum View
+Studio as the name.
+Click continue, and then select add.
+Once the connector has been added, click
+authorize.
+After authorization is complete, return
+to the connectors section. You should
+now see that the Gum View Studio
+connector is ready to use.
+The next step is to find the master
+prompt. Copy the entire master prompt
+and select the script you want to use
+for your movie. Paste the master prompt
+along with your script into Claude and
+instruct it to use the Gum View Studio
+MCP server. Claude will begin processing
+the script and generating the required
+content. Once the process is complete,
+open the result and copy the generated
+prompts.
+The system creates scene by scene
+prompts that you can use for video
+generation.
+You'll find detailed information for
+each scene, including character
+descriptions, props, locations, and
+other visual elements.
+For example, you can copy a character
+description and paste it into Chat GPT.
+Ask Chat GPT to generate an image based
+on that character description. This
+gives you a visual reference for the
+character that you can use throughout
+the filmmaking process.
+The screenplay section contains the
+story,
+while the prompt section contains the
+individual prompts for generating each
+shot. For example, one sequence may
+contain three shots with a total
+duration of approximately 28 seconds.
+Next, I'll go to Dreamina and start a
+new video generation project.
+Here, I can upload the character images
+that I generated earlier.
+This allows me to maintain visual
+consistency when generating the video. I
+can also generate additional characters
+if the story requires them.
+The same process can be used for
+locations.
+Copy the location descriptions and use
+them to generate reference images.
+As you can see, the quality of the
+generated images is very good. Once the
+location images are ready, download them
+and add them to your Dreamina project.
+Another useful approach is to create a
+storyboard.
+Copy the relevant scene information and
+ask Chat GPT to create a storyboard
+image with individual panels for each
+shot. You can instruct Chat GPT to use
+the characters and locations that were
+already created. This gives you a visual
+representation of the sequence before
+you begin generating the final video.
+Claude has generated this section very
+well. The sequence is divided into three
+parts, giving us a clear structure for
+the film.
+Now, we can return to Dreamina. We
+already have our character references,
+and I'll also add the location images.
+Once all the reference images are
+uploaded, we can begin generating the
+video.
+Video generation can take some time, so
+I'll let it process and return once it
+is finished. While the video's
+generating, I'll show you another
+method.
+This method uses the universal content
+creation generator.
+The process is similar. Upload your
+story and select the storyboard option.
+The system will analyze the story,
+divide it into scenes, and create the
+necessary shots. Once the scenes and
+shots have been generated, you can
+review the results and begin creating
+the video.
+Now, the video has been generated, so
+let's take a look.
+In this example, there's a significant
+amount of dialogue in a single shot. As
+a result, the character speaks too
+quickly.
+A better approach would be to divide the
+dialogue into two or more shots. This
+gives the voiceover more time and
+creates a more natural pace.
+This is one of the advantages of using
+Chat GPT to structure your scenes. It
+can divide longer dialogue sequences
+into multiple shots, rather than trying
+to fit everything into a single scene.
+For example, instead of placing an
+entire minute of dialogue into one shot,
+we can divide it across several scenes.
+This improves the pacing, gives the
+visuals more room to develop, and makes
+the final film feel more cinematic.
+You can also adjust the timing and audio
+during the editing process to improve
+the final result. Once you're satisfied
+with the scene structure, simply copy
+the generated prompts and use them to
+generate each section of your film.
+Continue this process for all the scenes
+until the complete movie has been
+generated. That's it for this tutorial.
+Using Gum View Studio, Chat GPT,
+Dreamina AI, and SeeDance 2.5, you can
+move from a written story to structured
+scenes, character and location
+references, storyboards,
+and finally a complete AI-generated
+film.
+GUM View Studio also provides request
+information and instructions for
+connecting the MCP server with other
+supported clients.

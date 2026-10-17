@@ -1,0 +1,440 @@
+UP主：Matti Haapoja
+标题：Why action cameras aren't getting better... but GoPro Mission 1 ILS?
+链接：https://www.youtube.com/watch?v=gBPE5rGc8hU
+
+This is the camera that's supposed to
+save GoPro. It is the Mission One ILS.
+And yes, it has an interchangeable micro
+four third mount.
+The sensor is 1 in. But for me, the most
+interesting thing about this camera is
+not the 8K open gate, which is nice, or
+the 240 frames per second in 4K. Again,
+very nice. It's not even the fact that
+now we can have different focal lengths.
+It is the fact that we can now focus.
+Traditional action cameras are fixed
+focus, meaning there is no manual focus
+and there is no autofocus. It's one and
+done. And this worked because of
+something called hyper focal distance,
+which is the minimum focus distance you
+can have where the background infinity
+still looks acceptably sharp. This means
+when you hold up the GoPro and you're
+filming yourself, you are acceptably
+sharp and everything between you and
+infinity, the background is also
+acceptably sharp. And when sensors were
+small, like on this Hero4, it's probably
+like a/2 in sensor. Everything worked
+fine. You didn't really notice much and
+everything looked pretty acceptably
+sharp. But then as we start to develop
+and get bigger sensors, this one I
+smashed on an FPV drone, all the way to
+now the Mission One, it becomes
+exponentially harder to take advantage
+of hyper focal distance. And this is why
+the whole action camera category, not
+just GoPro, has completely stalled. And
+it feels like there's been very little
+innovation because they just cannot put
+bigger sensors in these cameras because
+then you can't do this whole hyper focal
+distance thing. So on a/2 in sensor,
+everything from 25 cm to infinity is
+acceptably sharp. But with a 1 in sensor
+on the Mission One now, everything from
+40 to 50 cm to infinity is acceptably
+sharp. And to do the same thing on a
+full-frame camera, you would need to be
+about 1.4 meters away. Not to mention
+hyper focal distance isn't necessarily
+the best sharpness. Like you're not
+really really in focus. You're just kind
+of acceptably in focus. It is not
+critical focus. So critical focus is
+somewhere between that minimum focus
+distance and infinity. All right. So
+this is a good example of one is
+critical focus and one is hyper focal
+distance. Can you see which one is
+which? This is a 6 mill on the ILS and
+it's still much more cropped in than the
+Mission 1 Pro wide lens thing is. But
+yeah, the ILS should be looking quite a
+bit better.
+Is it?
+A bee just [laughter] landed on my
+Please don't sting me. Please don't
+stake me. The bee is on my finger. Can
+you just go somewhere, be
+[music]
+I guess I am missing one other point
+too. It is actually [music] the aperture
+cuz if you want to do this hyper focal
+distance now you can actually change the
+aperture and that changes the whole
+equation. The equation's kind of
+complicated but it changes the whole
+equation when you change the f-stop. And
+so now you can do a better version of
+hypo hyper focal distance where you have
+a little more control over where the
+critical focus is and you can change the
+f-top bigger. So let's go all the way to
+we're at f16 right now. So this is
+critical focus hyper focal distance
+technically whatever I don't know
+whatever mix of the two but I am in
+critical focus and the background I
+assume is pretty much sharp but not the
+only thing that's sharp which is usually
+what happens when it's hyper focal
+distance. Now focus is set to infinity
+f-16 um what does this look like? Am I
+acceptably sharp or am I completely
+blurry at f16 and I put it straight to
+infinity the focus? Um, that's what this
+looks like right now. So, this is T2.1
+and I'm focused on this right here.
+And now we're at T16. Still focus there,
+but now the background should be pretty
+much in focus. Also, T2.1 right now. And
+then we're going to ramp all the way up
+to 16. Now we're at T16 or F16.
+Um, yeah, there you go. Now you can see
+the difference. Even the new Insta3 X6,
+because it has almost a 1 in sensor, you
+are now starting to see more and more
+that you, the subject, if you're holding
+the camera out, are not in focus, just
+the background is. Unless you put the
+camera on a really long stick and have
+it pretty far away from you. Because the
+bigger the sensor size, the more shallow
+depth of field and the harder it gets to
+use hyper focal distance as kind of like
+an advantage. Which leads me to why is
+there no autofocus in action cameras? I
+do not understand it. For a little
+while, I just thought it was like a
+physics limitation, you know? Oh, it's
+doing a lot of action stuff. And the
+more I dig into it, it it might have
+been in the past, but it really seems to
+be just a decision that these companies
+are making. If I'm honest, I didn't
+really understand why the DJI Osmo
+Action whatever has a variable aperture.
+I'm like that like to just get a little
+bit better low light. Like I didn't
+really understand it. But actually, I I
+think it has to do more with this whole
+hyper focal distance because your f-stop
+is one of the variables in how you
+calculate how close you can film in
+comparison to the background still being
+acceptably sharp. I love this term,
+acceptably sharp. When I film on a GoPro
+or any action camera, I'm not picking on
+GoPro specifically here, just all action
+cameras. I'm not in focus. I'm kind of
+blurry. If you look at the background,
+it's way sharper than I am and I clearly
+want to film myself, but because there's
+no autofocus, there's no critical focus.
+It's just kind of like everything is
+sort of in focus. All right, future
+Matty here. What I was about to say is
+that you don't notice this as much when
+you go outside because the f-stop
+changes and you're letting Except it
+doesn't because it's also not only is it
+fixed focus, but it's also fixed
+aperture. So the aperture doesn't
+change. And the only reason a GoPro
+looks worse inside is because things are
+closer to you. Infinity is not as far
+away. The background is probably in
+critical focus all of a sudden and you
+are still the same unsharp, acceptably
+sharp. It's the focus, but also the
+aperture because now you can do a better
+version of hyper focal distance where
+you can go to f16. So more things are in
+focus and you can change where the
+critical focus is. So, for example, the
+shot of me on the dock here, this looks
+way better because I am the most sharp
+thing and the background is acceptably
+sharp instead of the reverse on the
+Mission 1 Pro, um, not the ILS where I
+am basically out of focus, acceptably
+sharp, and the background is the most
+sharp thing. So, if you want a better
+version of the GoPro hyper focal
+distance thing that you can use for
+action cameras and just move the camera
+around, whatever, this is what I would
+do. F-16 and then just slightly adjust
+the critical focus if that makes sense.
+Also, I feel like an idiot cuz how many
+times have I and so many other people
+said that you don't notice as as much
+when you go outside except in our brains
+the aperture is changing but it's not
+because it's fixed aperture also. So, I
+apologize. I'm an idiot. And it's a
+little funny to me that some people are
+like, "Well, your airy LF doesn't have
+autofocus." Well, yeah, because when you
+use an airy mini LF, you have a crew and
+an AC that's pulling focus. That is your
+autofocus. And I could be wrong, but um
+I I don't see too many people using
+GoPros with an AC pulling focus for
+them. Very different tools and different
+use cases here. But the bigger point
+here is that if there was autofocus,
+then you could make the sensor size much
+bigger. You could make it potentially
+micro four/ third, super 35, maybe even
+full-frame. I'm sure there would be
+limitations with heat and all that stuff
+because you don't have to rely on hyper
+focal distance anymore. You can just
+have critical focus. Also, just having
+autofocus or critical focus makes your
+image look sharper. So, because the
+background is now slightly blurred, we
+can even increase a little bit. Look,
+now it all a sudden looks sharper than
+if I go like this. Now the image looks
+less sharp or less detailed. If I go
+like that, now it looks more detailed
+and more sharper cuz you're looking at
+me and in contrast the background is
+blurry. So now it looks like this is a
+more detailed, a more sharp image. So
+even if you stuck with a 1 in sensor, if
+it was actually hitting critical focus,
+it would just look better. Quick example
+here with the Mission One. Um here's
+just a normal look. And then I can just
+throw on some lens node which emulates
+different lens looks. And now all of a
+sudden the image looks a little bit
+sharper, a little bit more detailed
+because the background is blurriier
+compared to me. I'm still acceptably
+sharp. And that gives the illusion that
+now it is more detailed. So the bigger
+the sensor, the more shallow depth of
+field, the more detailed it actually is.
+But also just our eyes perceive it as
+more detailed. If you're interested in
+[music] this plugin, it's called Lens
+Node. It's on human video code. It is my
+favorite plugin. I use it all the time.
+It is so so good. There's also this
+interesting news of the biggest
+shareholder is now Markiplier, the the
+YouTuber who made that Iron Lung movie
+that got some success. And I'm very
+confused by this whole thing, but the
+stock price went up by like 200%, but
+it's gone down a little bit, I think.
+Now, I don't really know what to make of
+this. Maybe this is the the comeback of
+of GoPro, but I don't know. I think
+there's still some like things to be
+worried about. I'm a little confused at
+what GoPro is doing. I'm I'm rooting for
+them. I I want more cameras, more
+competition. That just leads to better
+products for all of us. But yeah, I'm
+very curious about [laughter] what is
+going on here. There's so much
+happening.
+>> [music]
+[music]
+>> Heat. Heat.
+>> [music]
+>> And then let's let me show you our our
+lovely perch. Look at that.
+>> You got a lovely perch.
+>> Let's get my sunfish out. Let's get this
+sunfish out. It's nice bluegill. The
+most beautiful.
+[music]
+>> [music]
+>> Good times.
+This isn't waterproof, just so you guys
+know. And I'm probably My guess is I'm
+out of focus cuz I cannot see off that
+front screen if I'm in focus or not.
+This is what I'm talking about. If I had
+autofocus, this would be a really fun
+little tool because I wouldn't have to
+worry about focus. So, I could just ride
+around on my jet ski, film my brother
+going along and I wouldn't have to worry
+about focus. Right now, I have to manual
+focus and I'm trying to drive and manual
+focus and all that. And yeah, I could
+put it to a high f-stop, but it just
+looks better if I shoot it a little bit
+shallower depth of field and get a
+little bit of background blur. So, yeah.
+But this is fun to use. It's a very
+small camera. I think people don't
+realize how much size matters.
+>> [music]
+>> So yeah, it's a little funny that the
+biggest deal in my opinion is the fact
+that you can now focus with the Mission
+[music] 1 ILS and therefore the quality
+should actually look quite a bit better
+than the Mission 1 Pro, which is just
+relying on hyper focal distance as
+usual. Here is my little rig. This is an
+actual LA 6 mil T 2.1 or F2.1 I guess
+T2.1 lens. Um, and then GoPro makes this
+little like little mini cage case thing.
+And you get headphone jack, HDMI, micro,
+the really small one, and then a USBC,
+which plug it in, and then you can use
+the Mission uh monitor app to monitor
+things because, let's face it, you're
+not really going to be able to pull
+focus on this tiny little screen. It's
+possible, but you're definitely going to
+miss a lot. And they do have like
+peaking and everything in there, which
+which is nice. But to do the focus from
+this phone monitor is much better. And I
+just love with all cameras nowadays. I
+love just plugging it in my phone or
+I'll have like a dedicated phone.
+Actually, the iPhone Air is definitely
+one of the best camera monitors you can
+have because it's so small and
+lightweight. I love this thing. It also
+has a little built-in microphone.
+Actually, we could just do a little test
+here. Okay, so this is the Mission OneS
+and this is my FX5. This is the latest
+and greatest. What does the audio sound
+like? I have the Sony EC whatever.
+Whatever. I always forget what it's
+called. ECBM1 something something like
+that. Um, it's not the best microphone,
+but it doesn't require any cabling, so
+it's really nice. Um, here's the the
+audio from the GoPro. Now, you can tell
+the differences. Um, yeah, even just
+holding this does not feel that much
+different than just holding my
+full-frame Sony camera. So, I don't
+know. But yeah, I think most people will
+do some version of this rig instead of
+just having the mission one with the
+lens. I think people will rig it out,
+especially if you are going to use any
+sort of telephoto lens. And actually
+pretty much everything becomes kind of a
+telephoto lens. Um, so we didn't talk
+about it yet, the crop factor because
+this is a micro four/ third mount, but
+the actual sensor is only 1 in, which
+means that the crop is like 2.7. And
+then if you enable hypers smooth, it's
+more like 3. So this 6 mil actually
+becomes an 18 mil. If you put on like a
+25 mil, that becomes a 75 mil, which in
+certain circumstances that's really
+great because you can put on like a 100
+mil and now you get a 300 mil and if
+you're like in the mountains filming
+snowboarding or something like that,
+that can be really useful. But then we
+really run into the issue of like can
+you focus from this little monitor here?
+And [music] I think not. So now we have
+this quite compact tiny size of camera.
+But this is the Viltrox 24 to 50 zoom
+lens. The size difference between my A7S
+uh which has already a built-in monitor
+and batteries and everything. Okay, I
+don't have a microphone on here yet. Um
+it's not that much difference, but this
+is a full-frame camera and this has
+autofocus and all these other really
+wonderful things and crazy low light and
+all that. This is a 1 in sensor. So,
+does this make sense? I don't know. I
+I'm very conflicted. Well, let's check
+out the footage that I shot on the
+weekend and see how that looks first.
+Yeah.
+Heat. [music]
+[music]
+[music]
+>> [music]
+[music]
+>> love it or hate it, I think this was a
+good step and an interesting step for
+GoPro. They are doing something
+different than anybody else really. And
+to me, if this is a stepping stone into
+autofocus [music]
+and then bigger sensors and better
+quality, better features, better dynamic
+range, all of that stuff, then I'm
+really excited for GoPro. I think this
+is a really good direction. But right
+now, it's definitely not perfect. I
+[music] think the lack of autofocus is
+really hard for people. It's going to be
+really hard to figure out what lenses to
+put on this because of that crop factor.
+Again, bigger sensor, less crop factor,
+more lenses to choose from. I think if
+GoPro wants to be successful, they
+either have to go one of two directions.
+One is to go full software. We need tons
+of computational photography, go full
+smartphone, and do all of the things to
+make the image look better. I think
+that's kind of the direction that um the
+Osmo 4 and the Luna Ultra, I think
+that's kind of what they're doing with
+those. I mean, I would love to see
+bigger sensors on those cameras also.
+And they do have autofocus. And the
+other direction, which I think is the
+better direction, would be to put
+autofocus into these and start putting
+bigger sensors, which just makes
+everything better. And then we will
+start [music] seeing some big updates to
+action cameras. Again, I don't know how
+things like the X6 will solve for this
+because I don't know how you do
+autofocus in 360. I'm sure they'll
+figure it out, but I think they also
+have to do something. I think the it was
+great getting 10 bit and all that stuff
+in the X6, but it's kind of the same as
+the X5. So, they are also hitting that
+same wall trying to rely on hyper focal
+distance. To me, with the information
+context that I have, I think it's the
+better direction to go with autofocus
+and bigger sensors. [music] I think that
+would really turn around things for
+GoPro. Is it enough? I have no idea. A
+business is a hard hard world. So, yeah.
+Well done, GoPro.

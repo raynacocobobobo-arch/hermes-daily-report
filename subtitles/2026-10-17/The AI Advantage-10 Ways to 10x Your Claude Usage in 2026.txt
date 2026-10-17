@@ -1,0 +1,497 @@
+UP主：The AI Advantage
+标题：10 Ways to 10x Your Claude Usage in 2026
+链接：https://www.youtube.com/watch?v=bruDxPBMN7I
+
+Everyone who's used AI has ran into this
+problem of the usage being limited. And
+many people think that it's limited by
+the amount of messages per day. Like you
+get 45 messages and then boom, you're
+cut off. But that's wrong. It's not how
+it works at all. And once you understand
+what's going on under the hood, you can
+get way more out of the exact same plan
+that you're paying for. And that also
+goes for the free plans and applies to
+all AI models, not just Claude, without
+spending an extra dollar. And here's the
+best part. Almost everything I'm about
+to show you comes straight from
+Anthropic's own documentation on how to
+get more out of their services. People
+just don't talk about this stuff. So
+we're not guessing here. This is from
+people who actually built the thing. So
+here's the most important thing up
+front. If you take one thing from this
+video, make it this. Claude does not
+count messages. It counts tokens. What
+are tokens? Think of tokens like this.
+They're units of effort. Every word
+Claude reads and every word Claude
+writes costs you some tokens. So, very
+high-level, a tiny little "Hey, fix this
+typo" message costs you very little. But
+a giant 20-page document with web search
+turned on running the heaviest model,
+that one message can cost you as much as
+30, 50, maybe even 100 small messages.
+So to explain this further, we made a
+little custom site that shows this,
+visualized this so well. We'll put a
+link in the description below, but here
+you can really see what a token is.
+Because it's not a word. In this
+sentence, "The cat sat on the mat."
+dots. You can see over here, this might
+be six words, but it's only seven
+tokens. "The" is a token, "cat" is a
+second token, and so on. Now, let's go
+to the other extreme, which is a really
+complicated and long word. How about
+supercalifragilisticexpialidocious?
+That's one word, but it's 10 tokens,
+more than the sentence with the cat. So
+just using this word is more expensive
+and will drain your token budget, your
+usage limitation, with any AI more than
+this sentence. And that's what matters.
+As I told you, every AI service runs on
+token. It's really the gas cost for you
+driving this amazing vehicle that AI is.
+Okay, trust me, this knowledge is going
+to be essential when we get to these
+tips because you do have to understand
+tokens. And there's one more thing to
+understand, which is the context window.
+You might already have an idea of this,
+but it's really good to re-explore that
+idea. And we have a separate tab in this
+little app here to show you. Because the
+context window is basically the budget
+of token usage you get within one
+conversation. Now, let's say you're
+starting a brand new chat. There's no
+context in your account, no memories, no
+extra stuff, no system prompt, nothing.
+Let's just set this to zero. And as you
+send more and more messages, well, this
+context window fills up over time. And
+once you send too many tokens, the
+context window will fill up. And then
+look here on the left part, you will see
+that it starts cutting out the first
+messages that you sent in order to stay
+within the context window cuz it's
+limited. This is what happens when
+people say, "Oh my god, my AI forgot."
+Yeah, you sent too many tokens and every
+AI has a limited window. And for this
+video, that matters because it doesn't
+just limit the long-term memory, as I
+showed you of this, where it starts
+forgetting the first few messages you
+sent at a certain point, but it also
+matters to how quickly your account
+fills up. So, let's look at how to be
+more efficient with the currency of
+tokens with the following tips. And with
+that, every upcoming tip will become
+really simple to understand because it
+always comes back to how do I stop
+wasting tokens. First up, here's the
+easiest one. You might notice already,
+but use the right model for the job. So
+again, we're doing this video on Claude,
+but this really applies to all AIs. In
+Claude, you can select various models
+here. You can use Opus, which is, you
+know, the smartest model. But as you can
+see, right next to it, it consumes usage
+limits faster than other models. Opus is
+more token-hungry, and the tokens are
+more expensive, but we don't have to
+focus on that right now. The mistake
+that many people make is basically for
+anything that they do within Claude,
+they leave Claude cranked up on the most
+powerful model all the time. And using a
+big model like Opus to rewrite this
+email so it sounds friendlier is like
+taking a Ferrari to go pick up
+groceries. Sure, it works, but you're
+burning way more fuel than you need to
+and my recommendation is that for
+simpler, lighter tasks, use Sonnet.
+Quick intermediate side note, this
+effort selection here also affects how
+much usage and therefore tokens it's
+going to use up. The higher the usage,
+the more tokens you're going to spend,
+but the smarter of a model you get. And
+for many day-to-day tasks, you don't
+need a lot of intelligence at all. This
+one change alone can stretch your limit
+dramatically. One quick note on these
+models, they keep updating this, but
+what you're learning in this video is
+timeless. So in the future, the model
+names will change, but this idea of
+having one frontier model that is
+state-of-the-art and super smart and
+also takes up a lot of tokens and then
+other models that are more efficient
+will always stay the same. So this
+knowledge will apply to wherever AI goes
+in the future. And then in this video, I
+want you to pay attention to the
+techniques, not the names of the models.
+That's what's important and
+transferable. On to the next tip. And we
+kind of touched on this already and
+that's turn off thinking when you don't
+need it. And that really has two parts.
+The first one we covered already, you
+can pick the effort from low, medium,
+high, or maximum. And then there's also
+this thinking option. Now, I understand
+that this can be a little confusing.
+There's different models, I get that,
+but why is there options within the
+models? You can essentially think of it
+like this. If me and you do some work
+together and I give you a task, "Hey, go
+ahead and draft me this email." There's
+a way of doing that task where you kind
+of just sit down, you do a quick draft,
+and you hand it back to me. And then
+there's a second way of doing that task
+where you go ahead, you draft the email,
+but then you sit down and you're like,
+"Hmm, I wonder if it could be any
+better." And you scrap the first draft
+and you make some improvements, you do a
+second version, and you're like, I
+wonder if I really understood Igor's
+assignment well. And then you scrap the
+second version and you redo it again,
+and then you're like, could I make it
+any better? And you do that again. That
+right there would be you thinking and
+putting in more effort. Obviously, that
+took more energy and time on your part,
+and with AI, with thinking on, it kind
+of does this loop of prompting itself to
+give you the best possible result. The
+cost of it is more tokens. And that's
+amazing for tricky problems that need
+it. But if you're just asking, what's a
+good subject line for this email, you do
+not need Claude sitting there and
+pondering the meaning of life first.
+Flip the toggle off for easy stuff, and
+you'll increase your mileage with Claude
+usage. So, here's the next one, and this
+is huge. It's actually so big that I've
+made it the central piece of my AI
+teachings everywhere. If you follow this
+channel for a long time, you've heard
+this. If you've joined the AI Advantage
+Club and took the courses I have in
+there, where I teach how to use Claude
+and how to manage context, it's the
+central piece. Live inside of projects.
+This is available both in chat and
+Claude, and if you go inside of a Claude
+project, you will see that here on this
+side of the screen, it shows you
+everything that it attaches to its
+context, and therefore also everything
+that you pay for in tokens with every
+message you send. But here's the magical
+thing about projects. And Froptic does
+some technical magic that we don't need
+to talk about right here that makes the
+context you put over here way, way more
+efficient than anything you put into a
+chat. Especially the attached documents.
+So, here's what this behaves like in
+practice. Let's say you start a new chat
+and you've got a document that you keep
+coming back to. Most people paste that
+same document into brand new chats every
+single time. Instead, go into projects,
+make a new one, and attach it into the
+files here. And what it does in practice
+is every time you work inside of a new
+chat here, the documents that you
+attached here are not entirely free, but
+at a massive discount when it comes to
+your usage. So, if you work with the
+same file a lot, this is the single best
+habit you can build. Upload once into a
+project and use it forever. Seriously,
+if you watch your usage, which we'll
+talk about shortly, night and day. And
+hey, real quick, if you're getting value
+out of this video, do me a favor and hit
+the subscribe button. We make videos
+like this every single week, and it
+actually really helps. All right, back
+to the next tip, which especially for
+people who just get started with AI, is
+often a little counterintuitive. Start a
+new chat more often. Now, I know there's
+something beautiful and simple about
+just starting one giant conversation
+that goes on forever. It's almost like
+one neat folder for your entire life, or
+having one assistant that just helps
+with everything, but remember, tokens.
+Every time you send a message in any
+chat ever, actually, Claude rereads the
+entire conversation up to that point.
+Yes, you heard me right. If you send 50
+messages in a chat, on the 51st message,
+it reads all of your 50 messages and
+everything it responded to before it
+gives you an answer. You know how many
+tokens that costs? A lot, that's how
+much. And if you're starting a totally
+new topic, just open a fresh chat, and
+you're not going to be paying for the 10
+other tasks that you did above that are
+completely unrelated to what you're
+doing now. Doing everything in one chat
+is the easiest way to burn through your
+usage, so don't do that. And it's not
+just usage, even the responses are going
+to come in faster because Claude doesn't
+have to reread the 3-hour conversation
+about something completely unrelated.
+Next tip, switch off tools you're not
+using. This one can be quite impactful,
+especially for people experimenting a
+lot with Claude, because you start
+looking into various features. You see
+you can connect all of these apps, like
+Canva, Gmail, Slack, all the good stuff,
+and those can be super useful, but
+here's what most people don't realize.
+Every tool you connect comes with its
+own little instruction manual, and
+sometimes it's not even that little,
+that tells Claude how to use the tool.
+And if those manuals are all loaded up
+at the start of every chat, they're
+taking up room in the background,
+whether you actually use them in that
+conversation or not. Now, the good news
+is there's two easy ways [music] to
+handle this. First, the obvious one. If
+there's a connector you genuinely never
+use, just switch it off right here. I go
+to plus and here on the connectors, I
+can just turn them off. Boom, the
+invisible instruction manual that I
+would now be paying for in tokens on
+every message is gone. Clean and simple.
+But now you might want to keep these on
+and there's a smart way of going about
+that and almost nobody knows about this
+feature. So, instead of completely
+discon necting your tools, you can keep
+things lean. Look down here under tool
+access, you've got two options. There's
+tools already loaded at the bottom which
+keeps all the instruction manuals open
+all the time and that fills up your chat
+faster, costs a lot of tokens. And then
+there's load tools when needed which
+only pulls a tool in the moment you
+actually need it. So, make sure this is
+set to load tools when needed and now
+your tools are still right there ready
+to go if you ask for them, but they're
+not sitting in the background taking up
+space the whole time. Your
+conversations, they lean, they run
+longer before Claude has to start
+trimming things down again and you get
+more out of every chat. Set it once and
+you're good. Okay, next up and this is
+something that you will naturally do as
+you use AI more and more, but batching
+your questions helps. It's an easy win.
+Instead of saying summarize this and
+then giving it a text and then saying
+now list the main points and now write
+me a title for a blog, if you put it
+into one message and say summarize this
+with the text, list the main points,
+write me a headline in a casual style,
+it's going to take up like 1/5 of the
+usage because remember, every back and
+forth with Claude or any other AI
+re-reads the whole conversation. And
+here's a little bonus and this comes
+from experience, the answers you get
+from sending things at once are usually
+better this way, too, because Claude can
+see the whole picture at once and
+understands the destination that it's
+working towards and it's just more
+efficient and it just works better than
+redirecting it multiple times in
+different directions. But feel free to
+make your own experiences. Okay, here's
+the next tip and it pairs perfectly with
+the last one. Be specific with your
+messages the first time around. When you
+give an AI vague requests, might have
+heard this, what happens? It gives you
+vague responses. Worst case, it might
+come back with something like, "Sure,
+happy to help, but can you tell me a
+little bit more about XYZ?" And every
+round of this is costing you. So,
+front-load it by telling Claude exactly
+what you want, who it's for, and any
+details it might need all in the first
+message. Clear in, clear out, and you
+skip all those clarifying questions
+entirely and get right to the output you
+need, which obviously is more token
+efficient. All right, here's the next
+tip. Let Claude do the remembering. If
+you're on a paid plan, Claude can
+actually look back through your past
+conversations and pull whatever is
+relevant to you. They call this
+memories, and it means that you can stop
+copy-pasting your entire life story into
+every new chat when it's needed. You
+don't have to re-explain your business,
+your project, your preferences, your
+goals every single time. Claude can just
+remember them. That's tokens you're
+getting at a massive discount instead of
+retyping it and paying for it all over
+again. Now, here's the thing. Memories
+work well. I do recommend using them.
+But what works actually way better is
+actually taking control of your context
+and therefore the tokens by manually
+curating this. Now, there's probably a
+thousand ways to do it, and not all of
+them are created equal. Over the years,
+I created a step-by-step methodology and
+an exact form, and there's a few tips
+around that that go way beyond the scope
+of this video, but that's why we created
+something we call the AI Advantage Club.
+It's a community and on this context
+management piece that is so essential
+particularly, I created a course that in
+the club we call the level two navigator
+course. We literally tied it to the most
+essential level of our three-level
+system, explorer, navigator, architect,
+because it is so important. So, if you
+want to learn how to set up a project
+with the right context and a bunch of
+tips around it from me, well, check out
+the level two navigator course. You can
+join the club and gain access to
+everything for just $1 on our trial. You
+can find a link in the description below
+if you're interested in that. But now,
+let's look at the next tip, how to
+increase your mileage with AI. And this
+one is just about being aware of your
+token usage, and what better way is
+there to be aware than to measure it.
+Most people don't even know this exists,
+but if you're on a paid plan, you can go
+to settings, then usage, and these three
+progress bars show you exactly how much
+of your sessions you have used. This is
+basically your token budget across
+Claude AI in the web, Claude the
+application, Claude code that you might
+be using with this account. All of it is
+tied to your plan, and you can track the
+usage in here. And this really matters
+because if you know this exists, you're
+not flying blind. You can see when
+you're getting close to the edge, and
+you can see exactly when your limit
+comes back. And I found that knowing my
+reset timings completely changes the way
+I work with my plans, because often
+times you don't need a bigger plan, you
+just need to be aware of these reset
+windows, and do a little bit of planning
+on how you're going to use AI, and save
+a lot of money, frustration, and also
+time in the process. Now, and that gets
+to my last tip, which is a sneaky little
+pro move that most people don't talk
+about, but it's timing your heavy work.
+And there's a sneaky nuance that
+Anthropic won't even admit to this, but
+at the base level, it's just, "Hey, if
+you have a lot of work, time it with
+your reset windows here through this
+usage tab." But beyond that, there's
+something that is referred to as peak
+times. Now, roughly that's somewhere
+around 8:00 a.m. to 2:00 p.m. Eastern
+Time. In Europe, that would be 2:00 p.m.
+Central European to 8:00 p.m. Central
+European. Those are the peak time.
+That's when most people use their
+models. And again, they never officially
+admitted this, but many users noticed
+that during these peak hours, you burn
+through your 5 hour window faster than
+usual. Your weekly total doesn't change,
+but inside of that window, a session
+gets eaten up quicker. So, if you've got
+a big token hungry task, like a giant
+document or a long research session, try
+to do it outside those peak hours. If
+you're in the US, afternoons and
+evenings or weekends are good rule of
+thumb to get the most bang for your
+buck. If you're in Europe, it's the
+first half of the day or the weekends.
+You'll get noticeably more done in a
+single sitting. And then a final bonus
+tip before we wrap up here is, if If
+doing something important, and you're in
+a situation where you literally cannot
+stop right now, well, if you ever hit
+those limits, all the paid plans have an
+escape hatch called usage credits. You
+can basically pay as you go for extra
+usage on top of your subscription
+instead of getting blocked out entirely.
+And you can turn that off anytime you
+want. So, if you did everything in this
+video and you still ran out of tokens
+and you just need to get things done,
+that's your safety net, but it'll cost
+you. So, there you go. Those are the
+main ways to get more out of Claude
+without spending a single extra cent.
+And again, we used Claude as an example,
+but this really does apply to all
+services. They all use tokens and
+independent of what model is out, these
+principles will make your money go
+further. If you enjoyed this, make sure
+you subscribe to the channel. We upload
+new videos every single week. And with
+that being said, my name is Igor and I
+hope you have a wonderful week.

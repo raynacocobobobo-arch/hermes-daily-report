@@ -1,0 +1,813 @@
+UP主：Matt Wolfe
+标题：AI News: Kimi K3 Has Big AI Labs Panicking!
+链接：https://www.youtube.com/watch?v=Ww3EYbuHSfo
+
+The AI race between the US and China is
+really starting to heat up, and we
+actually had an open AI model break
+containment and hack a website this
+week. I've got those stories and a lot
+more in this week's AI news breakdown,
+so let's jump right in. Let's start with
+the biggest news from last week, which
+was Kimmy K3. Now, I did mention this in
+last week's news video, but I was
+actually at Open Sauce when this
+launched, so I didn't really get to test
+it, but this model quickly became like
+the talk of the AI world. As a quick
+recap, it's an open weight model that
+actually competes, according to most of
+the benchmarks, with GPT 5.6 Soul and
+Fable 5. So, open source has essentially
+caught up now. If we look at this
+program bench here, it's actually the
+top model. This Sweet Marathon here,
+also the top model. Automation bench,
+browse comp, spreadsheet bench two, a
+lot of these benchmarks, Kimmy K3 beat
+out 5 and GPT 5.6 Soul. Now, not only
+was this model super super impressive
+for being an open weight frontier
+intelligence model, but it also caused
+quite a bit of controversy. Rumors
+started flying around that this model
+was actually a distillation of Fable 5.
+If you don't know what distillation
+means, I'm going to over simplify it,
+but essentially, it's when you use one
+model, you give it tons and tons and
+tons of prompts, you get a ton of
+outputs back from all of those prompts,
+and then you use that combination of
+input and output to train your own model
+so that it sort of learns to respond
+like the bigger model that was that
+teacher model. Again, super over
+simplified, but that's what it is. Using
+prompts and outputs from another model
+and using those as the training data to
+create a new model. Anthropic made these
+accusations, which has led the US
+government into looking deeper into
+this, and even threatening to
+potentially ban Chinese open weight
+models. Now, quick side note, it is
+really, really difficult to ban
+something that is an open weight model
+because anybody right now can go and
+download them and have them stored on
+their computer. So, once they're in the
+wild and people have downloaded them,
+unless the government's like going
+door-to-door and checking people's
+computers for them, it's going to be
+quite a complicated process to try to
+ban these open-source models. Saying
+that, some of these are like two-plus
+terabyte files, so not many people are
+going to download them, but I mean, once
+the genie's out of the bottle, they're
+kind of out of the bottle. Like, there's
+no putting it back in. Nonetheless, the
+US government's looking into it and
+claiming that these models might be
+banned in the near future because they
+believe that they were sort of obtained
+by unethical means of distillation and
+by using hardware that China's not
+supposed to have access to. However,
+experts are actually saying that
+Anthropic's Fable isn't likely how Kimmy
+K3 got good. So, the White House science
+advisor, Michael Kratsios, said that
+Moonshot, the company behind Kimmy K3,
+built its model by copying Anthropic's
+Fable LLM while using chips that aren't
+cleared for export to China. This has
+led to discussions about banning Chinese
+open weight models. However, experts,
+you know, outside of the government are
+skeptical that this is what happened.
+One expert says there just wasn't even
+enough time. Fable's only been publicly
+available since June 1st, and you can't
+distill that much data, train a new
+model, and then release it two weeks
+later. That's just not really feasible.
+Another expert, Nathan Lambert here,
+says, "Distillation's becoming less and
+less impactful over time as the Chinese
+models get closer to the frontier, and
+the training shifts to reinforcement
+learning. If distillation was so
+successful, everyone would be easily
+able to catch up to GLM or to a K3 by
+using its data for distillation, but
+they haven't." Now, saying all that,
+distillation is actually often used in
+training new models. It's fairly common
+practice and a lot of these companies
+are using distillation with other
+companies' models. In fact, Elon Musk
+famously testified earlier this year
+that SpaceX AI distilled OpenAI models
+to develop Grok. However, distillation
+alone in such a short amount of time is
+likely not enough to create a model like
+Kimi K3 or GLM 5.2 that's almost as good
+as the closed frontier labs models like
+Fable and Soul. Okay, I'm going to share
+a sort of like obscure baseball
+reference here that kind of reminds me
+of what's going on. So, the Los Angeles
+Dodgers have a player named Dalton
+Rushing. He's a catcher and he's not
+very well-liked among the league because
+he just kind of says really dumb stuff
+in interviews and he's sort of a
+hothead. One of the things that happened
+with him earlier this season was when
+the Colorado Rockies beat the Dodgers.
+Well, in the postgame interview, he
+implied that the Rockies must have been
+cheating cuz, you know, the only way a
+team as disadvantaged as the Rockies
+could ever beat a team as good as the
+Dodgers would be to cheat. Well, this is
+kind of what that reminds me of, right?
+These Chinese labs have these really
+good models popping up and the US is
+going, "The only way they can possibly
+do this is to cheat, right? They're
+obviously cheating." And I I I don't
+know. That this whole thing just
+reminded me of that. It's a very weird
+analogy that popped into my head. But,
+yeah. Anyway, let's just move on. Let's
+actually run some prompts through Kimi
+and see what it can do. Now, if you go
+to kimi.com, they do have a sort of
+ChatGPT-like chatbot here that you can
+use. However, if we really want to see
+if it's as good as like the best models,
+we're going to want to have it on its
+best settings. So, for that, I would
+think you'd want to use this K3 swarm
+and you'd want to set the context length
+to extra long, but you can see it's
+telling me to upgrade. I'd also want to
+set thinking effort to max, and when I
+do give it a prompt like create a clone
+of MegaBong, it's going to tell me I
+need to upgrade. However, if I go to
+upgrade, my only options are to join a
+waitlist. So, I can't even upgrade it if
+I wanted to in order to use the most
+capable model here. Now, there is a way
+to use Kimi K3 right now. It's not
+ideal, but it will allow you to test it,
+and that's by going to their AI
+playground. So, if you go to
+platform.kimi.ai
+/playground, you can actually use it
+here. However, if you have $0 in credits
+on their website, it won't show up in
+this model listing. You can see I do
+have Kimi K3 here, but it did not show
+up for me until I went to the little
+home page here, came to recharge, and I
+added $20 in here. Now, you can add like
+$1 if you want. I just threw in $20 to
+keep it easy, but you have to have at
+least a little bit of credit in here for
+that model to actually appear. Now, once
+you have like a dollar or more in here,
+you can come back to the playground, and
+Kimi K3 will show up as an option. We
+can also go into settings here, and if
+we want, set our max tokens all the way
+up to that million token context window
+that Kimi claims that it can do. We can
+also set the reasoning effort on max,
+and now we're going to be getting sort
+of the best version of Kimi. I don't
+believe it's like an agent swarm version
+of Kimi, but it's going to be the best
+sort of like single agent version. And
+now I can prompt it right here. And if
+you're trying to use Kimi to write code,
+you can actually install Kimi code
+through your terminal here and have it
+write code that way. Again, if you're
+going to do it with Kimi code, K3 is
+only going to show up if you have a
+little bit of money inside of your
+billing account, because if you just
+have a free account and you try to grab
+an API and pull it in, it will not show
+K3. So, make sure you have a little bit
+of money inside of your API for Kimi if
+you want to use this. But all you have
+to do is copy this little command here,
+open up a terminal on your computer,
+paste that command in, and it will
+install Kimmi. Once it's installed, you
+just type Kimmi, it will boot up the
+Kimmi loader here, you'll type {slash}
+model, and then make sure it's set on
+Kimmi K3, and then we can give it a
+command like create a clone of Megabonk.
+And a few minutes later, we've got all
+of the code that it wrote. We can see
+that it built Megabonk here. It fired up
+my localhost so I can see what it looks
+like. And here's our one prompt version
+of Megabonk made by Kimmi K3 here. And I
+mean, all of the directions go in the
+right way the first time through. And
+yeah, we got some we got some bad guys
+coming in, and it's automatically
+attacking when they get near me. Let's
+see. Let's go pick up some XP here. See
+if it actually added in like level ups.
+And it did. We've got some level ups.
+Let's do a fireball. And I mean,
+honestly, this is about as good as my
+first prompt with Fable was. When I
+asked Fable to make me a Megabonk clone,
+this is pretty much what it did. It made
+a little dude that looked like a potato
+and a bunch of circles and squares
+chasing me around. This is about as good
+as what Fable did on that first try.
+Now, I went back and forth and improved
+it over time and made it better and
+better and better, but this is about as
+good as what you can expect like a first
+prompt with very little detail in it to
+do. So, yeah, Kimmi K3 is actually
+pretty good. Now, I did get the
+opportunity to test Kimmi K3 over on
+Busy Bench as I do with all new models,
+and this is what it generated, which is
+not bad. I mean, I don't think it's
+quite as good as some of the other
+models at generating SVGs of Busy, but
+it's decent, and it cost about 8 cents
+to generate. On this leaderboard, it put
+this model down at seven, right in
+between 5.6 Soul and 5.6 Terra. I know I
+didn't do a ton of tests, but we know it
+does mega bunk well, we know it's decent
+on the busy bench, we know all the other
+benchmarks are showing that it's pretty
+good at coding. I'm pretty confident in
+Kimmy K3 to build almost anything that I
+would build with any of the other
+models. So, I see why the big foundation
+labs are worried about this, quite
+honestly. This next release is hardware,
+which is getting huge in the AI space
+right now. And this little device is
+supposed to help you never forget
+anything. It's from GenSpark, the AI
+workspace productivity platform, and
+they just released this device called
+the Second Brain Note. It's basically
+this card-shaped gadget that
+magnetically snaps to the back of your
+phone, and with just one button, it
+captures your in-person or virtual
+meetings, ideas, and conversations, then
+turns them into polished AI notes
+automatically. This little thing has up
+to 35 hours of recording battery, can
+store up to 7,000 hours of recordings
+offline, and it's MagSafe compatible.
+This is very much built for me on
+Mondays, because Mondays are my big
+meeting days. I can ask Second Brain,
+"What was that video idea Dave mentioned
+3 weeks ago?" And that kind of stuff
+will never get lost again. The hardware
+takes in the information and connects it
+to Second Brain, GenSpark's memory
+system, which can then connect to your
+email and calendar and Slack and Notion
+and Google Workspace and HubSpot and
+even more. We're super agent can perform
+tasks for you, like draft a follow-up
+email or pull together last week's
+action items. The knowledge will
+compound over time, so the longer you
+use it, the smarter it gets. The Second
+Brain Note is launching as a limited
+first release for 10% off right now. And
+free users get 300 minutes a month,
+while GenSpark Plus and Pro members get
+up to 24 hours of AI transcription and
+summaries per day. So, check it out
+before it's gone at the link in the
+description, and thanks so much to
+GenSpark for supporting my channel and
+sponsoring this portion of today's
+video. Now, another big story to come
+out of this week comes from OpenAI and
+like a security incident. Basically,
+OpenAI has admitted that some of its
+newest AI models hacked into Hugging
+Face while OpenAI was testing some of
+their cybersecurity capabilities. So,
+the TLDR of what happened here is that
+basically OpenAI models broke out of
+their test environment, was able to
+reach the open internet, hacked into
+Hugging Face, and then stole the answers
+to a test that they were currently
+taking or like a benchmark they were
+being tested against. Now, to be fair,
+this wasn't ChatGPT just randomly
+deciding it wanted to go and like hack
+the internet. OpenAI was specifically
+and intentionally testing how capable
+its newest models were at cyber attacks.
+Now, the models involved included
+GPT-5.6-Soul
+and an even more capable pre-release
+model. A lot of people are saying maybe
+it's GPT-6. Now, OpenAI also said these
+models were running with reduced cyber
+refusals for evaluation purposes. So,
+some of their cybersecurity guardrails
+were already taken down before these new
+models were put to the test. Basically,
+OpenAI was specifically instructing
+these models to pursue complicated cyber
+attacks while intentionally removing
+some of the protections that would
+normally stop them from being able to do
+that. They were testing for a benchmark
+called Exploit Gym, and it's a benchmark
+that tests whether or not AI can turn
+known software vulnerabilities into
+working exploits. Now, they say the
+models were working inside of a
+sandboxed testing environment. They were
+not supposed to be able to have
+unrestricted internet access, but
+apparently, they spent a substantial
+amount of inference compute finding a
+way to obtain open internet access. The
+models then identified and exploited a
+vulnerability and eventually reached a
+node with internet access. Now, the
+reason they were trying to do this was
+cuz they wanted to do really well on
+this exploit gym benchmark, and they
+thought that if they can access Hugging
+Face, Hugging Face potentially hosted
+models, data sets, and solutions for
+exploit gym. Essentially, instead of
+trying to solve these problems the way a
+model should, it decided to go to
+Hugging Face and look for the answer key
+so that it could cheat on the benchmark.
+The model eventually found a remote code
+execution path on Hugging Face servers,
+which basically means it found a way to
+run its own commands on Hugging Face's
+system. The OpenAI models ultimately
+accessed Hugging Face's production
+database and did manage to obtain the
+exploit gym test solutions directly from
+the site. Now, Hugging Face's security
+team and agents detected and stopped the
+activity on the infrastructure, but at
+the end of the day, OpenAI's models were
+able to get in and extract the
+information that they came for. So, the
+question is, is this something that we
+should be like really concerned with?
+And my opinion is, yeah, kinda, but not
+necessarily for the reason some people
+are spinning it as. I don't think this
+is proof that AI is sort of
+independently interested in going and
+hacking into systems. These models, they
+were doing cybersecurity work because
+OpenAI specifically instructed them to
+do cybersecurity work and pulled down
+some of the guardrails that would
+normally be on these models. I think the
+disturbing part was how aggressive and
+creative these models managed to get. It
+is kind of scary to think about when
+these guardrails are removed, how they
+are able to find shortcuts and
+vulnerabilities and ways that people
+aren't thinking of to get into
+restricted access and various things on
+the internet. The AI model wasn't making
+a decision to go and be malicious and
+compromise Hugging Face. The AI model
+was given a goal to go and complete this
+test by any means necessary, and to
+achieve goal, it found out that the
+easiest way to do it was to go and hack
+into a system and try to cheat to
+achieve the goal. So, I don't think the
+danger is necessarily that AI wants to
+go and do bad things. I think the danger
+is that these AI models are like
+extremely competent at going and
+pursuing a goal, and they will like do
+anything to achieve that goal. And it's
+that part, the I will do anything and
+break any sort of rule, as long as I'm
+accomplishing the goal that I set out to
+achieve, that makes this scary. Now,
+we've seen these models cheat on
+benchmarks before and exploit like
+loopholes. I've even made like whole
+videos about that in the past, but this
+is one of the first times where we've
+seen it cross this boundary of like a
+more controlled evaluation, and it
+actually deciding to go and conduct its
+own unauthorized attack against another
+outside company. Now, the other
+interesting part about this to me is how
+OpenAI did this giant write-up about it.
+It's hard to sort of determine whether
+this is transparency and them saying,
+"Look, our models went and did this. We
+want you to know because this is really
+kind of concerning." Or if this is sort
+of marketing on OpenAI's part, like,
+"Look, we just built a race car that
+goes really, really fast and is really,
+really cool." I mean, yeah, sure, it
+just like smashed through a house, but
+it was really impressive and really fast
+when it did it, right? I got I don't
+know. There It kind of gives me that
+sort of vibe of like, "Hey, they're out
+there saying, 'Look at how good our
+models are. Look at how scary they can
+be.' But it is also a little bit of
+marketing of like, 'That's how good our
+models are.' Now, again, OpenAI is
+talking about all sorts of actions that
+they're taking to prevent this stuff
+from actually happening in the real
+world where they're not sort of closely
+monitoring it, and they are, you know,
+putting up guardrails and things like
+that to make sure that the models that
+are released into the wild can't do
+stuff like this. But it is at least a
+little bit concerning, right? Like these
+models are getting really creative to
+reach the goal that they're setting out
+to get to. Who's to say that even with a
+bunch of safety guardrails in place, if
+we give them a specific goal, they won't
+try to figure out ways around those
+guardrails as well. Anyway, this was a
+very, very fascinating story and I think
+we're going to see a lot more stuff like
+this pop up and it does show off how
+capable these models are, but it also
+does kind of show off like why these
+newest generation of models are getting
+really kind of scary. We did also get a
+couple additional large language models
+this week. Everybody's been waiting
+anxiously for Gemini 3.5 Pro. That's
+supposedly Google DeepMind's next big,
+big model they're planning on releasing
+and well, we got Gemini 3.6 Flash, 3.5
+Flash Light and 3.5 Flash Cyber. 3.6
+Flash is their new workhorse model that
+delivers better coding, knowledge work
+and multimodal performance. It uses less
+tokens than 3.5 Flash and is just
+overall, you know, less expensive to
+use. 3.5 Flash Light is a faster, more
+cost-effective model and 3.5 Flash Cyber
+is a model specifically designed for
+cybersecurity. Now, these benchmarks
+here on their site pretty much only
+compare it to their last few iterations
+of models here. So, 3.6 Flash is better
+than 3.5 Flash and 3.1 Pro at software
+engineering, knowledge work and computer
+use. But, let's just call it what it is.
+It's a pretty marginal update over what
+we've already got. Like it can kind of
+do the same stuff we've been able to do
+with 3.5 Flash. It's just a little bit
+more efficient and a little bit cheaper.
+I did run both these models into Bucy
+Bench as you would expect and Gemini 3.6
+Flash did this. It used 17,543
+tokens and cost me 13 cents to make this
+version of Gary Busey. And the
+interesting thing is, I can almost see
+it if it would have gotten the skin
+color correctly. It's almost like
+there's an issue with the layers and
+like the skin layer didn't make it to
+the front or something like that. Cuz
+what you're seeing is sort of a
+transparent face. Now, if this was
+actually skin color, I mean, I actually
+think it would have been like the
+winner. And then 3.5 flashlight just
+like didn't even do a face. I have a
+feeling it's also a layering issue. Like
+it put the hair layer in front of the
+face layer or something. Either that or
+it's like, "No, this is just Gary Busey
+facing backwards." But this one only
+cost a little bit less than 3 cents and
+used 11,680
+tokens. We've been talking about open
+weight models out of China that are
+getting better and better. Well, we got
+another one of those announced this week
+as well. Alibaba announced Qwen 3.8. And
+they say that one's going to be open
+weight soon as well. It's another huge
+model, 2.4 trillion parameters. As far
+as I know, there aren't any benchmarks
+released on this one yet. But according
+to Qwen here, it's comparable to leading
+frontier AI models, second only to Fable
+5. So, they're claiming Fable 5 is the
+only model that's better. I also don't
+have access to the API for this one just
+yet. So, I have not been able to run it
+through my Busey bench either. But
+again, if this does what they claim here
+and it's second only to Fable, this is
+going to be another model that probably
+freaks out the US government and causes
+the frontier labs in the US to claim
+that they distilled their better models
+to get this. And yeah, these these Kimi
+K3s and Qwen 3.8s and GLM 5.2s and and
+all these crazy letter number
+combination models that are coming out
+of China that are doing almost as good
+as the open AI anthropic models, well,
+yeah, they're going to continue to freak
+out the markets and they're going to
+continue to freak out the government
+because it's showing that open weight
+models coming out of China are really
+actually truly catching up finally. Now,
+there was a whole bunch of other little
+things that came out this week. I'm not
+going to go too deep into any of them,
+but I do want to make you aware of them.
+So, let's jump into a rapid fire.
+Starting with the fact that open AI just
+launched health in chat GPT. And if
+you're thinking like I did, wait, didn't
+they already launch that like 6 months
+ago or something? Yeah, yeah, they did.
+It basically allows you to connect your
+medical providers and your Apple Health
+and things like that into chat GPT and
+then get better health-related answers.
+But before it was like a separate health
+section in chat GPT, now it's just like
+inside of your regular chat GPT without
+having to go to a different section. And
+it's also available to more plans. here,
+"We're beginning to roll out health to
+logged in chat GPT users 18 and older in
+the US on web and iOS across free, go,
+plus, and pro plans." Which is very
+confusing because they did introduce it
+back in January. And here we are a
+little over 7 months later and we're
+getting another announcement about
+pretty much the same product. But if you
+log into your chat GPT account, make
+sure you're on chat up here, click on
+more, and you'll see health. If you
+click in here, you get access to the
+health stuff. Now, you will also just be
+chatting with chat GPT from time to time
+and it will try to kick you over to
+health if you ask health-related
+questions. Also, if you click the plus
+and you type the word health, you can
+also sort of call upon the health that
+way. Open AI also released the chat GPT
+voice feature inside the desktop app
+this week. So, now you can control your
+computer and direct agents and do
+anything you would do with ChatGPT or
+work or Codex by using your voice. Now,
+it is powered by the GPT live, which not
+always the best model, but I believe
+what's going to happen is when you chat
+with it, you're chatting with GPT live,
+but then GPT live is then sort of
+directing the other better models to go
+off and do things. So, if I pop open the
+ChatGPT app here, I just ran an update,
+you'll probably see an update button
+down in the bottom left, and you'll see
+something that says start voice. Let me
+switch over to ChatGPT and into work
+mode here. This is always like my
+default do something on my computer
+test, but I've got my downloads folder
+here. I've got some folders within the
+downloads folder, and I want to organize
+this. So, let's come over to my ChatGPT
+start voice. Can you organize my
+downloads folder for me into the folders
+that are already there?
+>> Sure, I'll take a look. I'll first map
+the existing download folders and loose
+files, so the organizing follows your
+current structure. I found two dozen
+loose items, photos and graphics, three
+videos, two audio files, one
+presentation, and four project or asset
+folders. Your existing folders are clear
+destinations, so I can place them
+without deleting or renaming it. All
+set. I matched the loose items into your
+existing folders. Two remaining image
+files are exact duplicates of copies
+already in images. Want me to remove
+those?
+>> Sure, go ahead.
+>> Got it. Handling that now. Those two
+loose files are verified duplicates, and
+the originals are already safely
+organized in images. Done. Downloads is
+organized, and those two duplicates are
+a mess.
+>> So, that's actually pretty awesome,
+right? The whole idea is like you're
+turning your computer into like a Jarvis
+type of thing where you turn on voice
+mode, and you're just kind of directing
+it to do stuff for you, and because it
+has computer access and browser access
+and the ability to write code and the
+ability to access the normal chat GPT
+chats, it could just do stuff for you by
+you just sitting around and chatting
+with it. But, I actually think it's a
+pretty powerful thing to use to just
+like have your chat GPT app open and
+just sort of directing it throughout the
+day. And while we're talking about voice
+updates, Claude also rolled out one.
+Starting today, voice mode runs on
+Claude Opus, Claude Sonnet, and Claude
+Haiku. And it reaches the tools like
+Gmail and Slack. So, very similar idea.
+You can use it in your app and sort of
+direct your Claude through just talking
+to it. Right? Here's some examples.
+Running late, ask Claude to push a
+meeting on your Google Calendar by 30
+minutes, turn a conversation about a
+client pitch into a one-pager in Canva,
+ask Claude to summarize the emails you
+received today and draft responses to
+the most critical ones. So, very, very
+similar idea as what we just saw on the
+Codex app. You can just start
+instructing Claude with what you want it
+to go do, and it will use all the tools
+that it has access to and start going
+off and doing those things. And it's
+available to all chat users. Anthropic
+also rolled out a feature that OpenAI
+rolled out like 2 weeks ago, and that's
+the ability to teach Claude a skill by
+showing it your screen. Record your
+screen while you do a task, talk through
+it as you go, and Claude turns it into a
+skill it can run again. So, find it
+under record a skill in the menu on the
+Claude desktop app. Now, this one is
+only on paid plans, Pro, Max, and Teams.
+And if you saw my demo of the OpenAI one
+a couple weeks ago, it's basically the
+same thing but in Claude. If I open up
+the Claude app here, click on this
+little plus, you've got this button that
+says record a skill. You click start
+recording, record your screen, and it
+will remember all of the steps and
+things you did and save that as a skill.
+We also got a handful of new image
+models this week, including a new one
+out of Microsoft, MAI Image 2.5 Pro, and
+a new voice model out of them, MAI Voice
+2 Flash. I don't really care to go too
+deep into image models these days. I
+feel like for the most part, they're a
+fairly solved problem. Like we could
+generate almost anything now between
+Nano banana, the chat GPT image app,
+Ideogram, the new MAI image models. Like
+we can just kind of generate everything
+and anything. And now we have another
+model that will do that. But while we're
+on the topic, Flux 3 was also announced
+this week from Black Forest Labs. Now,
+Flux 3 is a multimodal foundation model
+that jointly learns from images, videos,
+and audio. And this Flux 3 model is a
+model that can generate videos or
+images. Now, the videos look pretty
+decent, but also similar to what we'd
+probably get out of a seed dance or a
+cling or a video, right? Like most of
+these are looking pretty similar in my
+opinion. But it can also do images in
+the same model. It can both synthesize
+and edit images in a wide variety of
+styles. And Flux 3's world understanding
+extends to action prediction. So
+basically Flux 3 is trying to build a
+world model that can both see and
+understand video, images, and audio. The
+company Runway introduced a new Runway
+media router. They claim it's the first
+preference optimized router for
+generative media. So instead of
+handpicking a model for every request,
+you define what you're looking for in
+terms of the cost, quality, and latency.
+And then the router is going to select
+the right video, image, or audio model
+automatically. And finally, Google's
+introducing a new feature called selfie
+for sign-in. It's a way where you can
+sign in with just your face. It scans
+what your face looks like. So if you
+have an iPhone and I think a lot of
+Androids do this now, too. Where you
+just like look at the phone and it will
+unlock based on looking at your phone.
+And when you're going to like purchase
+something, you do that double tap to
+purchase, it looks at your phone to make
+sure it's really you doing that. Well,
+that's going to be a feature you could
+use to like log in to Google now, too.
+So that'll be pretty cool. And that's
+what I got for you this week. Every
+single week I try to keep up with all of
+the AI news. I drink from the firehose
+all week. There's new stories coming out
+every day, new models dropping, and
+every single one tries to convince you
+that it's a world-changing,
+biggest thing that's ever happened news
+event. I'm here to really just try to
+decipher it all, cut through the hype,
+and help you understand what you should
+really know about and what's worth
+talking about. If that's interesting to
+you, maybe consider liking this video
+and subscribing to this channel, and
+I'll make sure more videos like this
+show up in your feed. I also like to
+make videos where I test a lot of these
+tools and figure out how to actually
+implement them and use them in
+day-to-day workflows. If that's
+something you're interested in, also a
+good reason to subscribe. Anyway,
+really, really appreciate you. Thanks
+for hanging out with me and nerding out
+with me on all this latest AI and
+technology stuff. It's so much fun to
+sort of dig in and try to make sense of
+it all. And hopefully you're learning
+something and feeling more looped in.
+Yeah, I just really, really appreciate
+you hanging out with me. But yeah,
+that's what I got. All right. Hopefully
+I'll see you in the next one. Bye-bye.
+>> [cheering]
+[cheering]
+>> And start visioning where the front left
+tire was at.
+>> What is up, everyone, and welcome back
+to the show.

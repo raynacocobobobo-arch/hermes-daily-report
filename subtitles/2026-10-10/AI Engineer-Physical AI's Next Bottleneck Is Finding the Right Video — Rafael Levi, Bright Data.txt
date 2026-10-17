@@ -1,0 +1,377 @@
+UP主：AI Engineer
+标题：Physical AI's Next Bottleneck Is Finding the Right Video — Rafael Levi, Bright Data
+链接：https://www.youtube.com/watch?v=I_VEh7XSwyc
+
+[music]
+Hi everybody.
+Welcome.
+For those that came to actually see me,
+thank you. For those that are just
+hanging out here, also thank you. I'm
+going to try to entertain you guys,
+teach you something new.
+Um again my name is Rafael. I work at
+Bright Data. I've been with Brighta for
+over eight years. And in Bright Data we
+are collecting data and uh we're trying
+to innovate. So today I want to talk
+about video discovery for agentic world
+models training. And uh we're going to
+explain what that is in a little bit.
+So
+what does it take to take to build a
+system that can see understand and act
+right? I mean, we figured out what an AI
+is. We're constantly improving it. Like,
+you know, that's kind of handled. But
+now, the hard part is what data do you
+provide to it? Because everybody knows
+AI without data is just a box, right?
+So, let me take you a little bit back in
+history, right? In 2022,
+Google taught a robot by images, real
+world actions, right? Then going
+forward, there was a leap uh in 2023. Uh
+we had uh an AI actually control
+multiple robots.
+In 2024, the open source came out. Now,
+this where the game changed. Once we had
+an open source, all the labs had access
+to AI and they started already putting
+AI into robots, right? And so now these
+models are already driving humanoid
+robots. I'm you seeing some of course
+most here are remote controlled, but I
+mean in San Francisco you got weo
+driving without any drivers. How cool is
+that? First time I got in the car, I
+thought I was going to die, but it was
+actually very nice. Right now, how do
+you think it learned how to drive? By
+actually teaching itself. By by learning
+on dashboard cameras, right? Every car
+has a dashboard. So, if you provide that
+to an AI, it can figure out how to
+actually operate a machine.
+So, as I said, the AI is no longer the
+hard part. The data is. And this is what
+I want to talk about. Right? So for chat
+LLMs, there's trillions of words and
+texts, right? So we have so much text
+data to train the LLMs. For image
+generation, we got billions of images,
+labeled images. So that's also a huge
+database.
+But for robotics, there's only about a
+million videos. It's a very small
+limited data sets of robots doing
+things, right?
+And so the idea here is that of course
+you a lot of companies out there what
+they do is they pay people to record
+actions, right? So for example, hey
+record me how you open a door or record
+to me how you're sitting on the chair.
+But then the problem becomes is that
+when somebody is told to do something,
+they do not do it naturally. So I call
+it instructed, right? If you're told to
+record how you open the door and you're
+doing it for somebody, it's not going to
+be the same as if you just walk into the
+house. The movement is totally
+different. So is that data good for
+robotic training? In my assumption, no.
+It's biased data and it doesn't deliver
+the same results. So obviously the robot
+is not going to be as effective as if
+it's intuitive. Right? So I just threw
+in some examples on the slide, right? So
+uh
+the built by hand data is not the same
+as the data that is kind of on the site,
+right? So and also the fact is that
+people behave very differently when they
+on the camera. Some of you know some
+people are camera shy. So you know as
+soon as you put a camera on them you
+they change but in the natural world
+it's a totally different thing. So this
+is what we are trying to solve in bright
+data right
+um
+again so why is the usual data sources
+are not enough right simulations
+uh virtual it's it's cheap but it's um
+you know everybody's playing video games
+the physics in video games are almost
+there but they're not good enough where
+to train a robot on it right a hand
+control the person controlling a robot
+it's doable but how many hours a day can
+you record the robot, how many people
+you need to actually get huge scale
+data, right? I mean, you can record
+maybe eight hours a day every day. How
+many hours are you going to get in a
+year? It's not really scalable.
+And of course, there's already pre-built
+data sets, but as I said before, they're
+small. There's only about a million
+videos at this point. So, what is the
+alternative? The alternative is the web.
+Let's just think about YouTube. How many
+videos are there on YouTube? I don't
+know, five billion videos. How many
+actions are in those videos that a robot
+can replicate?
+I mean, let's think about it. How many
+do you think videos are there of a
+person opening the door firsterson view?
+Millions of hours. You'll be surprised.
+So,
+every day the web video shows gravity
+motions, right? So um cause and effect
+obviously accidents big the biggest
+cause and effect right how handle how
+people handle objects and billions of
+hours great training material for robots
+but what is the problem the problem is
+that there's a lot of noise right oh and
+for example right so one of the AI
+models that meta trained they gave it
+about a million hours of real world
+videos
+and then all it took is 62 hours of real
+robotics data to actually control to
+control a real robot. So if you think
+about it,
+the data was collected publicly, right?
+So it trained the the the robot on just
+random things and then in 62 robotic
+hours, it was already moving. So there
+no simulations needed, autonomous
+robotics delivered fast.
+But the videos don't show how the robots
+move, right? So you might think, well,
+listen, how useful is it a person
+pouring water into a cup for a robot. So
+there is methods actually out there how
+an AI can distinguish and actually learn
+from the actions that are in a video. If
+you take two frames frame by frame and
+the AI measures the movement this
+difference, right? So you have an image
+A and image two and there's a small
+movement that is changing between the
+two images and AI can actually measure
+that change. So if you keep doing that
+through the whole video and AI can
+actually figure out angles, distance and
+everything that it needs to train and
+robot right. So we don't necessarily
+need the sensor's data but of course the
+video itself that you download from
+video from YouTube or the video that uh
+you extract the data from doesn't
+necessarily get you 100% there. You do
+need to have some processing on top of
+that but
+it's available. It's out there and all
+you need to do is process it.
+So a few more examples right? So for
+example, Nvidia when they train in the
+Cosmos robot, they're throwing out about
+96% of the video. So what does that
+mean? They download a million hours of
+video and the only part is 4% is
+actually useful. Everything else gets
+thrown out. That's wasted compute.
+That's wasted bandwidth. That's wasted
+storage. That's just a lot of wasted
+money. Okay. Stable video diffusion is
+throwing out 74% of the videos that
+they're downloading.
+So in bright data we are trying to solve
+that problem and we're trying to take it
+a step forward. So what we propose is
+search first collect second. What we do
+is we are actually indexing videos and
+we are allowing you to search for
+specific actions. Since we're talking
+about a person opening a door, let's
+keep using that uh example. What you can
+do on our platform is actually input
+detailed information, right? A query,
+person washing dishes, person folding a
+t-shirt and so on. And we will provide
+the snippets from the videos of these
+actions.
+So what does that mean?
+That means that
+there's less waste of data collection.
+there's less waste of storage and
+bandwidth, right? So, a little more on
+how it works. Obviously, you define what
+you're looking for.
+We search through billions and billions
+of pre-indexed videos, not by keywords,
+but by actions, and we provide you with
+ready to use clips.
+And obviously, they're already trimmed,
+prepared for your training. So all you
+got to do is process them a little bit
+for maybe motion distance sensors and so
+on and it's ready to be ingested into a
+robot.
+I have a small example of a video of how
+it actually works on our platform. So
+let me just hit play here if I can find
+it.
+So here we see person washing dishes by
+hand in sink removing grease from the
+plate using sponge and soap including
+rinse and placing dishes into drying
+rack. close-up hand interactions.
+So, right now what is happening is it's
+searching through
+billions of videos. Now, on this video,
+it's a bit old. We only got about 100
+million index there, but now we're up to
+1.1 billion videos. And it will
+literally like this is a little sped up,
+so I didn't want to waste your guys
+time, but it will provide to you clips
+from videos of people washing dishes.
+And you can see right here all the
+videos in
+That would be fine. Now, some of these
+videos might not have to do anything
+with washing dishes. They might have
+cleaning kitchen. They might have to do
+something else. And here's another
+example. For example, human folding
+different types of clothes,
+right? So, a little more description.
+The more description you give, the more
+you actually get back.
+So, again, a little speed up. Let's see.
+I want you to understand it could be
+anything. A person putting on makeup.
+Let's say you have a brand and you want
+to find videos where your brand is being
+found. All that can be also provided. So
+you see people folding clothes. So now
+you can train a robot on how to fold
+clothes.
+Of course everything is available via
+API. We don't expect people to actually
+do anything manually, right? So you can
+trigger it by API. you get a returned
+snippet of the video, the URL. We give
+you the link to the original video if
+you want to watch it. But the main thing
+here is that
+we can give you the snippets of the
+video to train your robotics. Now, I'm
+not sure if any of you training any
+robots, so I'm going to give you another
+example of how useful it could be. Let's
+say you have a brand and you want to
+know where your brand is being demoed on
+videos.
+The video titles doesn't matter because
+it doesn't actually consume. It's not
+about your product. It's just a person
+doing some podcast recording something.
+But you see a woman putting on makeup
+and she you see on the table that this
+is your brand of a makeup. So now all of
+a sudden you can find all videos for
+your brand where it's being used
+whatever it is right by searching name
+of the video you won't find it by by
+video indexing you can actually find
+specific things that you are interested
+in apple falling from the tree and so
+on. So what comes back? We provide to
+you this time stamp. We provide to you
+the score matching, how close it is to
+your query, and of course the frame
+count. How many frames are about what
+you're looking for?
+So what does this change?
+This changes a lot. Okay, less waste.
+You don't need to download million of
+hours of videos. you can actually get
+exactly the the specific actions that
+you are interested in.
+Again, it's very crucial for robotic
+training because noise creates problems,
+hallucinations, right? This removes the
+noise.
+What is it useful for? Not only robots,
+but obviously self-driving for example,
+Wimo, right? trained on dash cam video
+cameras and there's millions, hundreds
+of millions of hours on YouTube of dash
+cams. How many of you like to watch
+accidents? Dash cam c accidents. I'm
+sure everybody watched them. Crazy
+driving in Russia, right? So, this is
+what we're talking about, right? The
+videos that are out there, okay? A
+person running a red light, person
+stopping on red light, making a left
+turn, making a right turn, and so on.
+All of that can be a very useful data
+for training and any other world models.
+Physics, right? Robots needs to
+understand physics. What is the gravity?
+How to sit? How to walk? How to move?
+Again, of course, you can pre-record it.
+Um, a lot of times right now I speak to
+some of the people and they have
+millions of people recording videos for
+them. Hey, can you guys record me how
+you open doors? That's crazy. Why do you
+need a million people doing it when
+everything is available online? Online
+is one of the hugest databases out
+there. It's just people don't really
+like it's it's not that easy to use it,
+right? I mean, right now the only search
+available to us is by the keyword of the
+name of the video.
+And of course, one source, the whole
+public video web in one place. I mean,
+we got YouTube, we got Vimeo, we got so
+many different uh video providers out
+there, billions and billions of hours
+of training data just there waiting for
+you to grab it, collect it and process
+it. So basically this is a new product
+that we're doing a bright data right
+indexing videos so that you guys can
+find specific actions anything you can
+think about you know again it could be
+useful for brands uh as well it's not
+only for training data anything you can
+think of could be useful
+maybe you are a gamer and you want to
+know how do you beat this level but
+there's no exactly video like that so
+you can search okay people beating the
+level on the video game, right?
+Anything.
+The world is yours.
+So,
+I'm going to wrap it up. I don't know if
+you have any questions, but uh if you
+want to connect with me, talk about it
+more, feel free to to add me on
+LinkedIn. And um yeah, I'm going to
+thank you guys for your attention. And
+uh I'm at a bright data booth if you
+want to talk more about it. And thanks
+for coming.

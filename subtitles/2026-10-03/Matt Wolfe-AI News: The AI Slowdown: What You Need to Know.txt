@@ -1,0 +1,745 @@
+UP主：Matt Wolfe
+标题：AI News: The AI Slowdown: What You Need to Know
+链接：https://www.youtube.com/watch?v=Kof2VcHTjrk
+
+There's a lot to talk about in the world
+of AI this week.
+>> Hey, what are you doing?
+>> Oh, shoot. Sorry.
+It has been a hectic week and I'm going
+to do my best to break it all down for
+you. So, last week the narrative in the
+AI world was all about these people
+coming out of anthropic and open AI
+saying they're worried about the
+potential of what AI can do. And there
+was this huge risk of it destroying
+humanity. Well, if that was the main
+story of last week, the main story of
+this week has to be all of the AI labs
+responding to that story. Over the
+weekend, Daario, the CEO of Enthropic,
+put out this article called We Must
+Paste the Frontier. Now, it's a pretty
+long in-depth article, but I'm going to
+give you the TLDDR and then I'm going to
+sort of give you the story beats of the
+week that followed from this article.
+Now, Daario starts by acknowledging what
+everybody is saying about him and the
+company. They've been trying to inform
+the public about all of these risks,
+even if that gets them accused of hype,
+dumerism, or regulatory capture. They
+claim they've tried to prioritize
+caution over speed and prudence over
+profit. He then goes on to map out three
+ways he thinks that we can, you know,
+pace the frontier. The first way being
+embedded evaluators. Enthropic is saying
+they're committing to this no matter
+what. He's saying that these embedded
+evaluators should be from third parties,
+not people that work for the company,
+but have ongoing access to permissions
+and tools similar to those of internal
+employees who do comparable risk
+assessments. So, these would be people
+that don't work for Anthropic, but
+literally have desks in their offices,
+access badges, company laptops,
+basically operate like they work at the
+company, but are actually working for a
+third party. His second suggestion in
+his three-part plan is regulation that
+targets all US frontier AI companies and
+that covers even those who are unwilling
+to cooperate voluntarily. He goes on to
+say that essentially these regulations
+have to still keep us in front of well
+specifically China. If we slow down by
+more than this amount then CCP
+associated projects will pull ahead
+creating significant national security
+risk. though regulations, but only to a
+degree that doesn't put us behind China.
+What do those regulations look like?
+Don't sell powerful AI chips or
+semiconductor manufacturing equipment to
+China and crack down on smuggling
+operations. Crackdown on unauthorized
+distillation by companies in
+authoritarian countries. Distillation is
+essentially when you use another sort of
+bigger teacher model. You use all of the
+inputs, the chain of thought, and then
+the outputs, and you use that
+information to train a new model that
+could respond similarly to the model
+that taught it. That's an
+oversimplification, but that's basically
+what it is. And strengthen security at
+the AI companies and prevent model
+weight theft. And then the third piece
+of his plan is global pacing. This is
+the point where he says we actually will
+require cooperation with China. But he
+does go on to say that this is going to
+be difficult and we shouldn't be naive
+here. And he goes on to give some
+examples of things that we should agree
+globally should not be done with AI.
+things like creating biological weapons,
+agreements to test each other's models
+before release, some sort of speed limit
+on the rate of recursive
+self-improvement, which is the rate that
+new models teach the next evolution of
+new models. So, Daario put that out over
+the weekend and almost immediately like
+every head of every big lab jumped on
+board to say they agreed with him. Elon
+retweeted him and said Daario is right.
+Sam Alman, who sort of famously rarely
+agrees with Daario, actually said, "I
+agree with Daario that we need to pace
+the frontier. This has been a primary
+topic of discussions we've had at OpenAI
+in recent weeks. Committing to having
+independent evaluators with
+employee-like access is a great idea and
+we'll do the same." Demis from DeepMind.
+Daario's essay points towards the right
+path forward. The details need working
+through, but the direction is correct
+for meeting this critical moment. Satia
+from Microsoft jumped on board and
+responded. He said, "If the AI we build
+is not helping humanity and under human
+control, it's not worth pursuing." He
+goes on to say, "We welcome the research
+focus and deliberate pacing needed to
+get alignment right as the design goal."
+Microsoft also welcomes the idea of
+embedded evaluators. But I think my
+absolute favorite response to all of
+this was the response from Mark
+Zuckerberg, who pretty decidedly did not
+agree with Daario. His take was
+essentially stop asking for regulation
+and just do the right thing. He says
+every lab has the responsibility and
+incentive to move at the pace required
+to train its model safely and the
+ability to take its own actions to
+ensure that happens. People won't want
+to use agents that are misaligned with
+them and that don't do what they ask. So
+labs have a strong natural incentive to
+make their models more aligned. Any lab
+that doesn't focus on alignment will
+fall behind. This is my favorite part
+here. Meta delayed shipping Muse for
+several months to focus on safety and
+security. We didn't call for everyone
+[clears throat] else to do this before
+we would. We just did it as part of our
+day-to-day work because it was clearly
+the right thing for people and for us.
+So, he's basically saying, stop going
+and saying we need to regulate. We all
+need to get on board and we all need to
+have these governing bodies and all of
+this stuff. Just do the right thing and
+don't release the models until you feel
+that they are safe to be released. He
+then goes on to say, "Engaging
+independent evaluators and advisers is
+industry best practice already. MSL Meta
+Super Intelligence Labs already does
+this today in several areas because it
+helps produce better work. Other labs
+can just do this too." So on second read
+through, I guess he's not really
+disagreeing with Daario. It's more like
+he's just saying, "Yeah, we all agree
+with you and like we're already just
+doing that. Why why do you need to go
+write up about it and try to get
+everybody on board? Like do the right
+thing." Then of course the US president
+had to get involved and give his two
+cents. The only controller guardrails
+that AI needs is a strong and smart high
+IQ president and the USA has that in
+spades. The Trump administration has
+stopped AI people from doing bad or
+potentially bad things like Daario from
+Anthropic who is now pretending to be a
+perfect little angel and will continue
+to do so. We already have tremendous
+criminal and regulatory power over these
+companies. There's a sick conspiracy
+going on against AI and data centers and
+the only one that is happy about it is
+China. Whoever wins AI wins. We are
+leading China and all others and we will
+continue to do so. Conspiracy theorists,
+treasonists, traders and leakers beware.
+So yeah, the president is basically
+coming out and saying this is all just a
+big hoax, a big conspiracy. This stuff
+isn't that dangerous. Keep pushing
+forward. And then during the all-in
+summit that happened over this past week
+when Jensen Hong was on stage, Trump
+actually called in to chat with Jensen
+and Jensen took the call live from
+stage. I won't play the full 4 minutes.
+It will be linked up in the description,
+but here's the highlights.
+>> AI, it's almost as conspiracy and the
+happiest group is China. The data
+centers are great and they make people
+wealthy and they make states wealthy.
+And it's the oil of the next 20, 25
+years. It's bigger than the internet.
+>> The robots will not be taking over. The
+AI will not be taking over the rest of
+the world. The whole thing is a hoax.
+Now, with that, we have to be a little
+bit careful. You know, we have to do
+things and we have to do them prudently,
+but that doesn't mean we're going to
+stop industry because, you know, as we
+work on the next 10 years about how to
+destroy it. So, I'm with you all the
+way. And I have an expression. It's
+whoever wins AI wins. That's how big it
+is. It's bigger than the internet. And
+whoever wins AI wins. and we can't let
+this kind of stuff happen. And that
+includes very much includes data
+centers. There are communities that were
+dying that have data centers right now
+and now they're wealthy communities.
+>> Really wealthy communities.
+>> We're going to make sure that everybody
+wins in the AI race in America. Every
+industry, every company, every state,
+every people.
+>> Good. Well, I feel strongly about it and
+I have the position that can do
+something about it. We're not going to
+let that stuff happen.
+>> So, I already shared my thoughts in
+quite a bit of depth in last week's news
+video about this whole thing. So, I
+don't want to go too deep into it in
+today's video. I just wanted to give you
+the landscape of what happened and the
+sort of timeline of events over the last
+week because last week we had that Jacob
+Coxin tweet that went viral and then he
+was on like every news platform and then
+other people started jumping in and
+saying they agreed with him and the
+whole like doom scenario was the talk of
+last week and this week Daario responded
+and then every other company sort of
+jumped on board and responded with we
+agree with Daario. video except for the
+president who's calling the whole thing
+a hoax. I'm not going to get political.
+If I was to give you a quick TLDDR of my
+thoughts, it's essentially that I agree
+these companies should be spending more
+time and more money on alignment focuses
+over profit. That's kind of how I'll sum
+that up. I don't think I'm as concerned
+over the doom scenarios as a lot of
+people are, but I don't think anybody
+should dismiss it either. I think we
+should be putting significant resources
+into making sure that future AI models
+are aligned with the goals of humanity.
+With that being said, let's move on to
+the rest of the news and talk about like
+cool stuff that you could do with AI.
+Now, we did get a few other updates out
+of Enthropic. They announced that Claude
+Co-work and their chat are now just one
+thing, so you don't need to switch
+between them. I was hoping I could show
+this off to you, but when I open the
+Claude app, I still see a chat and
+co-work option here. And apparently, I'm
+running the latest version. But when I
+scroll down on the article, this is
+rolling out to pro and max plans first
+in the Cloud app on web, desktop, and
+mobile over the coming weeks to existing
+and new users on these plans. I am on a
+$200 a month max plan, and I still don't
+have it yet. if I'm being honest, like a
+little personal pet peeve of buying it.
+And I don't think I'm alone in this. I
+wish companies would announce it when
+it's ready, as opposed to saying,
+"Here's something we're doing, but not
+yet. It's coming in the future."
+Couldn't this blog post just have been
+written the day they made the feature
+available? And instead of saying,
+"Here's something that we're going to do
+in the future." The title of this blog
+post is Claude, Co-work, and Chat are
+now oneclad. No, they're not now
+oneclad. they're going to be in the
+future after it finishes its roll out to
+pro and max plans. Make the blog post
+about it being changed once it's like
+actually ready for people. Sorry, I'm
+done ranting. Or am I? Cuz this is the
+other thing Claude rolled out. They're
+changing the way projects work. They put
+out a blog post called projects
+redesigned from folder to conversation.
+A new experience for cloud projects now
+available in beta in cloud code. Now
+available. But let's scroll down a
+little bit here. Starting today, updated
+projects are available in beta to select
+Cloud Pro and Mac subscribers who use
+Cloud Sessions in Cloud Code and don't
+have any existing projects on the web or
+desktop. So, if you have any existing
+projects on the web or desktop, well,
+sorry, you're out of luck. Over the
+coming weeks, we'll expand access to
+more Cloud Code users on these plans.
+Updated projects across all of Cloud and
+Team and Enterprise plans come after
+that. If you're a Pro or Max user and
+don't have access yet, you can join a
+wait list. Now, this does seem like an
+improved version of projects. I like
+where they're going here. I just really
+don't like these AI companies rolling
+things out like this where they make a
+blog post announcement saying, "This is
+now available." And then you read the
+blog post and they're like, "Haha, but
+not for you." So, here's how projects
+will work. When you start a project, you
+select a goal as well as the repo or
+context. Claude starts suggesting work
+it can pick up right away. You can
+configure the project's cloud
+environment, connectors, plugins,
+instructions, and model. You can monitor
+and guide progress in the main project
+chat or dive into each individual thread
+to examine and steer the details. You
+brief Claude in the project the way
+you'd brief a chief of staff and it
+routes work to new or pre-existing
+threads. Under the hood, each thread is
+a Claude code cloud session working on
+its own branch and copy of the repo. The
+coordinator keeps the work organized,
+but if any threads work on the same
+code, the overlap is resolved as a merge
+conflict just like any other PR. the
+context builds out over time and I just
+think it's a better way to do projects.
+It makes a lot of sense to me. So,
+here's an example video where you can
+show that it goes and spins off a bunch
+of other threads and it works through
+each thread and you can steer each
+thread individually if you want or you
+have the main chat that you originally
+started and you can use that as the
+chief of staff and tell that to go and
+you know steer the individual threads.
+Again, I demo it for you, but you know,
+see previous rants. All right, let's
+move on to a new feature that was rolled
+out into Gemini Notebook, previously
+known as Notebook LM. Now, inside of
+Gemini Notebooks, you can talk through
+concepts inside your notebook.
+>> Can you explain the theory that objects
+in motion stay in motion?
+>> That theory is actually part of Newton's
+first law of motion, which is also
+called the law of inertia. So instead of
+just having like a podcast that you
+could interject if you want, you could
+just have like audio chats with your
+notes. You can now capture anything
+including thoughts on the go. Starting
+next week, you can use this new audio
+recorder in the mobile app to capture
+lectures and record your thoughts on the
+go, which I think is a pretty cool idea.
+I mean, this is a great tool for
+students in my opinion. I wish I had
+this when I was in school where I could
+put my phone on the table and record a
+lecture and then go and sort of chat
+with that lecture later. That would be
+awesome. Again, not a feature that's
+fully rolled out yet. Seems to be a
+theme with AI companies, but a cool
+feature when it is ready. They're also
+adding something called interactive
+learning overviews to weave together
+summaries and studio outputs like
+infographics, quizzes, and flashcards.
+So, some pretty cool new features. It
+does say you can soon have a real-time
+conversation with your notebook. And we
+got an update out of Apple this week in
+that a profoundly more capable and
+personal version of Siri is now
+available. This new version of Siri uses
+Apple intelligence. Supposedly, it can
+see what's on your screen, has context
+between apps, and can do things on your
+behalf, unlike the previous version of
+Siri. Now, this is another one where it
+says available starting today. And when
+I scroll down to the bottom of this
+article, it says Apple Intelligence and
+iOS 27. Siri AI is rolling out in beta
+in English and iOS 27. I am running iOS
+27.2 beta. But when I go to look at Siri
+AI in my phone, it says I'm on a wait
+list. So, I don't even have Siri AI yet,
+despite this article saying available
+starting today. But some of the features
+we can expect once they actually give us
+the thing they announced that we have.
+You'll be able to, you know, draft
+emails with it, ask about what a family
+member suggested, get summaries of
+articles you're looking at on the web.
+It'll have visual intelligence so it can
+actually see your screen and use that as
+context. We've already gone over what it
+was going to feature back when they had
+a keynote about it, but now they're
+making an announcement that it's here,
+even though most people, I guess, still
+don't have it and it's still rolling
+out. So, I guess I'll play with it once
+it's fully rolled out or I'm off the
+wait list or whatever. I can't be alone
+in this, right? like being super annoyed
+by like every single company saying,
+"Hey, this is now available and hey,
+starting today you can do this and this
+is how this now works." And then when
+you go to use it, it's like no, I you
+announced that it's now like this, but
+when I go to use it, it says not yet.
+You're on a wait list or rolling out to
+people on your tier, but not you yet.
+Like, why can't companies make the
+announcement that says this is now
+available once it's actually available
+for everybody? Like, Apple already made
+the announcement about what this new
+Siri AI will do. Like, they did a whole
+keynote about it and said coming soon.
+Why do they need to make another
+announcement saying starting soon again?
+I don't know. I'm I'm getting worked up
+over this. It's just something I find
+very annoying because I go into these
+videos to be like, "Cool, it's starting
+now. It's available now. They're saying
+it's now here." and then I go to demo it
+and it's like, well, no, not yet. It's
+just it's it's frustrating. Anyway,
+there's a couple new LLMs that I think
+are worth mentioning this week. I won't
+go too deep into them, but Alibaba
+released a new Quinn model in Quinn 3.8
+Omni Flash. Here's some of the
+benchmarks. They're not really comparing
+it to the state-of-the-art models. We
+can see they're comparing it to Gemini
+3.8 Flash and Muse Spark 1.2. So, not
+like the best of the best models. Now,
+this isn't a model I've had a chance to
+play with yet. I haven't even been able
+to run it through Buybench because as of
+this recording, it wasn't inside of Open
+Router, which is what I use to run
+Buccybench. But it's a model that is
+designed for workflows such as video
+editing, music video creation, film
+production, and commentary, audio visual
+summarization, and real-time
+conversations. So, it seems like it
+could work with any type of media. It's
+also got a 1 million token context
+window. and something I'll probably play
+around with a little bit more once it's
+popped into Open Router and I'm able to
+test it some more. What was even more
+interesting for me this week was a new
+stealth model and they're calling it
+Union Alpha and right now you can use it
+inside of Open Router and Open Code for
+free for a week. Now, Union Alpha
+themselves does have an X account and as
+I'm recording this video, 8 minutes ago,
+they posted, "You found us." Union
+Alpha, the stealth model on Open Router,
+Open Code, and Cloudflare is Paro 26.9
+from the Unbiased company. Apparently,
+Paro is not a single set of weights.
+It's not just one model. It is a system.
+So, it's several models, open and
+frontier, working on the same task with
+a harness that checks the work and calls
+in a stronger model when the task needs
+one. So, it is some sort of model router
+that is using a bunch of different
+models, but it's not necessarily its own
+model. There was no new training run on
+this one. Here's their benchmarks on it.
+Scores a 74 on deep suite, which pretty
+much puts it at the top there. And we
+don't have a lot of info, but this was
+one I was able to test as it was
+available in open router for me to use.
+And when we look at Buucybench here, we
+can see this is what it generated. It
+did it in 4 minutes and 44 seconds and
+only used 9,588
+tokens to do that. Now, why that's
+significant is if I come back here and I
+compare Union Alpha to GPT6 Astra, when
+I look at the side by side of these
+here, we can see that it's 9,588 tokens
+is less than a third of the tokens that
+Astra used to make a very similar
+looking image. It also only took 4
+minutes and 44 seconds where Astra took
+over 10 minutes. Looking at these side
+by side, though, they're so similar. I
+wouldn't be surprised if Union Alpha
+routed it to Astra because they look
+really really close in my opinion. I
+just don't know how Alpha was so much
+more token efficient and faster if it
+indeed did route it off to Astra. I
+don't totally know how that works. I
+just found it interesting. I have a few
+more smaller things I want to share this
+week. So, let's go ahead and break them
+down in a rapid fire.
+Let's start with some news out of Meta.
+They introduced a new subscription
+service that gives you more features and
+AI. Again, it's something that's rolling
+out gradually, but basically Meta 1
+gives more self-expression features and
+AI usage. So basically for a monthly fee
+you get access to you know Instagram
+plus, Facebook plus, WhatsApp plus and
+more AI usage across image, video and
+you know their various AI platforms.
+They do say Meta AI is still free for
+everyday use, but Core and Premium are
+for people who want even more creative
+freedom from the AI tools. They have
+plans ranging from as little as $2.99 a
+month for WhatsApp plus all the way up
+to $4.99 a month for their Max plan. And
+since we're talking about Meta, last
+week we talked about Meta's Muse, their
+new agent, which feels kind of similar
+to like an open claw type thing. Well,
+this week they just gave it the ability
+to make outbound calls to US businesses.
+Again, it's rolling out and they're
+prioritizing it to people who asked
+their muse to let them know when they
+wanted it first. I haven't had an
+opportunity to try this and I don't know
+what the voice sounds like. I'm kind of
+curious to hear like what does a call
+sound like when it calls a company on
+your behalf, but it will be interesting
+to just like ask your muse to book
+appointments for you and it'll make a
+call and book appointments or you know
+wait on hold for you or things like
+that. That would be pretty handy. Google
+did roll out a new model this week as
+well called Gemini 3.8 Live and Gemini
+3.8 Live Extended Thinking. Now, these
+are live dialogue models. So, according
+to their benchmarks, they're now
+basically the state-of-the-art dialogue
+models, beating out GPT Live 1 Astra in
+pretty much every benchmark that they
+share here.
+>> Hi, can you hear me?
+>> Yes, I can hear you loud and clear,
+David. I'm your onboarding agent. I can
+visually see the dashboard like you can,
+so feel free to ask me anything.
+>> So, that's what it sounds like. And the
+extended thinking version delivers
+increased intelligence for more complex
+workflows. So this is really kind of a
+feature for developers who are trying to
+build, you know, customer service agents
+and things like that. Since we're
+talking about Google, they also rolled
+out something called CC, which is an
+agent built for families. Some examples
+of what they say it can do. Each morning
+CC delivers a shared your day ahead
+brief to everybody in your family. So
+instead of family logistical information
+staying trapped in one person's inbox,
+everyone gets a clear view of where they
+need to be and what needs to get done.
+You can offload event and task
+management. It could help fill out
+permission slips or activity
+registrations. Basically an agent with
+like shared information in context for
+like a family to use and everybody can
+see what needs to be seen. And it looks
+like you can kind of give access control
+to different people in the family. I was
+going to go and test that. So went to
+try to log in and got to a page that
+says the new CC is coming to you soon
+and we're gradually opening up access to
+this upgraded CC experience. If you're a
+coder that uses Grock, more specifically
+the Grock build, it now has memory built
+in as of this week. Basically, as you
+work inside of Grock build, notes are
+written in the background as you work
+and then are read back when you return
+to the project. We've gotten a lot of
+new music models lately. Well, at the
+end of last week, 11 Labs introduced
+music version 2.5. Here's a quick
+sample.
+[music]
+>> That's the started as a heartbeat. Yeah.
+Play it in the car.
+[music] You can
+[music] mine it out of nothing.
+>> So, seems like another decent music
+model to try. And while we're on the
+topic of 11 Labs, if you're a developer,
+they just introduced their voice, music,
+image, and video generation models all
+inside of the MCP. So you can have your
+various agents, Claude, CHBT, Cursor,
+Grockbot, Hermes, OpenClaw, whatever you
+use, you give it access to this MCP, and
+now it can go and generate any of these
+things on your behalf. So, I guess it's
+not really just for coders, but it's for
+coders and people who just want their
+agent to go generate this stuff for them
+on their behalf. Open AAI is rolling out
+a new version of their advertising in
+AI. In this video, you can kind of see
+how advertising has worked so far where
+it puts a little ad below everything.
+But now, if you click on it, it actually
+opens up a separate chat with the
+company that the ad was for. So now
+people can go and click on an ad and
+then interact in a new chat mode with
+the company that sent the ad. So that's
+kind of an interesting development of
+where the advertising is going. And
+finally, let's end on some robots. This
+company, UB, is developing a factory
+that can generate 10,000 robot units per
+year, and it can build one humanoid
+robot every 10 minutes. One interesting
+note about this is that humanoids are
+helping build the other humanoids. So,
+humanoid robots perform tasks such as
+depalitizing, palletizing, and material
+loading, while collaborative robotic
+arms work with 360° rotating stations to
+tighten screws during assembly. So, now
+we're getting a factory that's cranking
+out robots, and the robots are helping
+operate the factory. But anyway, that's
+what I got for you today. Again, the big
+story of the week was sort of the
+response to the doom of last week, but
+we did get a few updates about things
+that we'll eventually get that were made
+as announcements as if we get them now,
+but most of them we actually didn't. I
+won't go down that rabbit hole again.
+Anyway, I record these on Thursdays and
+publish them on Fridays. So, if there's
+anything I missed that came out like
+later Thursday evening or on Friday,
+it'll likely make it into next week's
+Friday news video. Every week, I drink
+from the fire hose all week. I keep up
+with all of the news. I overwhelm myself
+and make sure that I am completely
+tapped in so that on Fridays, I can make
+a video like this for you and loop you
+in with everything I think you need to
+know that happened in the AI world. If
+that's something that interests you,
+make sure you like this video and
+subscribe to this channel. It'll make
+sure more videos like this show up in
+your feed. I've also got a new series
+that I just started where I'm bringing
+in other really cool people building
+awesome stuff with AI. My most recent
+one was with Bolav Sadu where he showed
+off his God's eye view project. If you
+haven't watched that video, I'll link it
+in the end card that'll show up in a
+minute here. But it's basically people
+showing their application of a lot of
+these AI tools and showing really cool
+unique ways and things they've built
+with it. if that's something you're
+interested in, another good reason to
+click that little subscribe button. But
+again, that's what I got for you.
+Hopefully, you feel more tapped in this
+week. And now you know what's going on.
+Next week, I'm going to be at Meta
+Connect. The following week, I'm going
+to be at OpenAI's dev day. So, my
+release schedule of videos might slow
+down a little bit while I'm doing some
+traveling, but I'll be just as tapped in
+as ever because I'll be at the events
+where all the announcements are coming
+out of. So, I will share all of that
+with you as I learn it and break it all
+down in the next handful of Friday
+videos. So, thank you so much for
+hanging out with me, nerding out with me
+today. I really, really appreciate you.
+Hopefully, I'll see you in the next one.

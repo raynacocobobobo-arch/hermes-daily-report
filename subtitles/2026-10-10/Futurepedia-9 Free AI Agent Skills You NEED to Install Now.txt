@@ -1,0 +1,452 @@
+UP主：Futurepedia
+标题：9 Free AI Agent Skills You NEED to Install Now
+链接：https://www.youtube.com/watch?v=3fdb_giOrLo
+
+Skills are one of the best ways to make
+your AI more powerful, and there are
+already some amazing ones you can
+install for free. I'm going to show you
+my favorites, how to install them, and
+what I actually use them for. Everything
+from researching what people are saying,
+and cleaning up AI writing to analyzing
+videos and creating animations. After
+that, I'll get into the skills I use to
+build better websites, tools, and apps.
+First, really quick, for anyone who
+doesn't know, skills are a way to teach
+your AI how to execute a specific task
+or set of steps in a repeatable way. I
+think of them as recipe cards for
+workflows. Some skills are just a set of
+instructions. Others include scripts,
+reference material, or tools the AI
+needs to do the job. All the skills I'm
+covering are compatible across most
+agentic tools like chat GPT work or
+codeex cla co-work or code and things
+like grockbot Hermes openclaw and
+others.
+I'll start with one I've talked about on
+the channel before because it's awesome.
+It's called last 30 days. This skill
+goes out and finds what people are
+actually saying about a topic right now.
+Instead of relying mostly on normal web
+search, it searches across YouTube
+transcripts, Reddit, Poly Market, and
+other places. Then it scores and filters
+everything and synthesizes it all into a
+short report. And I'll install this one
+in chat GPT work, the next one in cloud
+code, then cloud co-work, then codeex
+just so you can see it all, but it's
+basically the same process in each and
+it's really easy. This is the GitHub
+repo. GitHub is just a platform people
+use to store code in the cloud. That's
+where all of these will be. You can read
+all about the skill and exactly what it
+does here. I'm going to copy the link
+which will be down in the description
+with all the others. Then I'll come into
+chat GPT and make sure I switch it over
+to the work tab. Then I'll say install
+this skill from GitHub using its setup
+instructions. Then I'll paste in the
+link and send it off. That's it. It
+works for a minute, then comes back and
+says the skill is installed. Easy as
+that. Now I will start a new chat to
+test it. To call a skill in work, you
+can hit at then find it. This one's
+right here. And how about I try Jev from
+type safe. That's a new AI tool that's
+been all over the place for a few days.
+That's all I need to type in. The skill
+will do the rest. Researched for 5
+minutes and came back with this report,
+which is a nice digestible size. That's
+something I like about it. It's not some
+gigantic report. It extracts all the
+most useful findings into something I'll
+actually read. Then at the bottom, you
+can see it used 14 Reddit threads, 13
+stories on Hacker News, and GitHub. I
+can open that to see all the posts with
+links. And you can enable additional
+sources during setup, like X and
+YouTube, too. Now, this summary is
+useful, but sometimes I use this for
+video ideas, and often the best ones are
+in the posts that don't make it into
+that summary. So, I actually built a
+site around it where I can browse
+through some of that additional
+information that the skill burries. When
+I run this skill, you can see it says
+last 30 days upstream. I'll run it on
+the same topic. Then, at the end of its
+run, it will automatically fill out
+everything on the site. So, now it still
+has a nice summary. Then, it lists out
+the use cases to give me ideas or just
+to cover in addition to the ones I
+already use. Then, there's
+unconventional takes. Sometimes these
+are really helpful. In this case, right
+up top, it points out how Jev talks
+about having zero hallucinations, but
+that doesn't mean it has no errors. It
+can still get things wrong. A lot of the
+posts around Jeb I saw weren't very
+clear about that. Then it has all the
+original posts embedded when possible.
+So, it's a lot easier to see them
+without having to click through to a
+bunch of different posts. So, to
+summarize how I got here, once I had
+built the site, I asked Codeex to run
+the skill. Then, I asked it to take all
+that extra information and input it into
+the format I wanted on that site. made
+sure the connection worked and that it
+was formatting things how I wanted. At
+the end of that iteration, I asked it to
+package everything up as a new expanded
+skill. I did walk through this entire
+process in my video about chatdy sites
+if you want to see every little detail
+of this specific skill and site. But the
+core idea I wanted to get across is you
+don't have to just download a skill and
+use it as is. That skill can be your
+starting point. You can build on it.
+Skills work even better when you
+customize them to your specific setup
+and preferences. I'm covering mostly
+agent skills in this video, but there's
+also skills that can make your regular
+chats in Claude and Chatbt more
+powerful. I have a free resource that
+includes 12 of those down in the
+description. And it says Claude, but
+they work in chatbt, too. There's a
+brand voice skill, a personalized
+content engine, a YouTube launch kit, an
+interactive dashboard builder, and more.
+Each one includes a prompt you can paste
+in to create it, plus step-by-step
+instructions. Those are all really easy
+to install and use. Get them for free at
+the link in the description.
+Next, I have two awesome skills that I'm
+going to group together because they're
+for a similar goal. They're remotion and
+hyperframes. Both are tools for creating
+videos with code. And then they have
+skills that teach your agent how to use
+them for creating motion graphics, data
+visualizations, map animations,
+captions, and a lot more. So, I'm going
+to install this one in Cloud Code. This
+is the same way as before. Type out the
+prompt, just the short prompt and paste
+in the link. That's all it needed. Now
+it's installed. I'm going to open up a
+new chat and create a motion graphic I
+could use in this video. Use Remotion to
+make me a motion graphic that talks
+about agent skills. Use a chat GBT icon
+in the center. Then have a bunch of
+things or icons expand from it that make
+it look like it has skills that are
+expanding its capabilities. I'll send
+that. Just a simple prompt. And you'll
+notice I didn't use a forward slash or
+at sign to call reotion. You don't have
+to. it will still use it if you just
+mention it. Or some tools it will just
+use based on the context of your prompt
+without mentioning them by name at all.
+That's all done. And Remotion opens up
+into basically a whole editing studio.
+There's a ton of stuff you can do in
+here. Now, actually, since it didn't
+have the Chad BT logo, I'm going to just
+upload that really quick and have it fix
+that. So, now it's done. Let's check it
+out.
+That is a super smooth animation. It
+looks awesome. I would use that exactly
+as is.
+Now I'll run that same prompt through
+Hyperframe so you can see the
+difference. Just install that really
+quick. I sent the same prompt. This was
+the result.
+And that also looks awesome.
+Both Remotion and Hyperframes let your
+AI create videos by writing code.
+Remotion builds them with React.
+Hyperframes uses HTML and web
+animations. It's a different approach,
+so they have different strengths. I
+recommend uploading the skills and then
+experimenting with both for whatever you
+need them for. Now, you may have seen
+that type with like animated icons
+before from these. So, I'm going to show
+another quick example of a map animation
+that's a lot different. And Remotion
+actually has a built-in skill called
+Remotion maps. So, I'm going to call
+that and I'll send a prompt that's a
+little longer, but basically it's to
+make a 15-second animation of a Utah
+National Parks road trip with some
+detail about the type of map and how the
+camera should move and things like that.
+And then I will send the same prompt
+with hyperframes. Now, here's how that
+came back from reotion. That's looking
+really good. It's following the prompt.
+Looks like it's following all the
+highways and is pretty smooth camera
+movement. Although I don't like the spin
+it did at the beginning and at the end
+here. That's a little disorienting. I
+think that was just so it could be
+following it from behind. I'm sure I
+could ask it not to do that. Let's look
+at the hyperframes version. And it
+already looks like the aesthetics is way
+better. That was a super smooth zoom in.
+Looks like it's following the same route
+along the correct highways. And I like
+the angle of this camera a lot more. And
+the zoom out to the whole thing. I like
+that way better than the Remotion
+version. even though Remotion has that
+specific map skill. So that's what I
+mean when I say they're good at
+different things. And the Remotion one
+wasn't bad, but I'd like hyperframes a
+lot more for this use case then I
+preferred Remotion for that previous
+type of motion graphics.
+I showed the core process of downloading
+a skill, but there's one more step I
+also run a lot of the time for
+inspecting the skill. Nvidia has a
+security scanner called Skill Inspector.
+It scans skills for potential security
+risks. Like skills can include
+instructions, scripts, and other tools
+your agent runs. So, a malicious or
+poorly built skill could expose API keys
+or sensitive data or get your agent to
+take actions you didn't intend. So, I
+asked it to install this as a skill I
+can run. And I'm in cloud co-work this
+time. So, I will go ahead and call it.
+And then drop in the link to the next
+skill I'm going to show. And this one is
+going to be a more basic skill. And it
+does say it's safe to install. And this
+is what the report looks like. It goes
+really deep. I will say sometimes it
+flags things that I think are fairly
+minor and felt comfortable still
+installing the skill after. But yeah,
+it's a great report. Use your own
+judgment based on whatever risks it
+finds. On the other end, just because
+this says it's clean isn't an absolute
+guarantee everything safe, but it's
+definitely a useful extra step when
+you're downloading skills from other
+people.
+That skill I just had it inspect is
+called humanizer. So I will say it can
+install it. This skill helps to solve
+the problem of AI slop in writing. Slop
+is everywhere now. And the more you use
+AI, the more you see the signs of its
+writing all over the place. This helps
+to humanize that writing. Now that
+that's installed, I will send a prompt
+without using the skill. just to get
+Claude's default output. I'll say,
+"Write me three engaging tweets about
+Jev from Typesafe." Here's what came
+back. Most AI calls in your code don't
+need an essay. They need a decision and
+a confident score. Like, that sounds
+super AI right off the bat. The it's not
+this, it's that pattern. And the ending,
+welcome to system one models. Definitely
+a slot post. Same with the first line of
+the next post. The ending of this third
+one. Really almost every part of these
+feels like it was written with AI. So I
+will say fix those up using humanizer.
+It reworked those. At the bottom you can
+see what it changed in each like the
+don't need X need Y setup. There's a
+closing line and all of this. These
+definitely sound less like AI now. And I
+used tweets because they're short and
+easy to show, but this is especially
+useful for longer writing than this. And
+again, you can use this as a starting
+point to then tailor to your own writing
+style or examples you have and keep
+optimizing it.
+Next is a skill that helps chatbt and
+claude to watch videos. And despite
+being named Claude video, it works in
+codecs as well. That's why I'm showing
+it here. And it works from a link or a
+local file. And then while installing
+it, it will ask if you want to add an
+API to be able to generate a transcript
+from the audio when the video doesn't
+already have one or captions. If you
+need that, you can drop in an API key.
+I'll use my open AI API key for it. It's
+completely free if you don't use that,
+but if you want the fallback when
+there's no captions, you can add that.
+And then I am going to call the skill.
+I'll drop in an Instagram link. And this
+is to a video of a camping meal where
+they have the ingredients in the
+description, but not the instructions. I
+will ask for a recipe and it will have
+to actually see what's on screen in the
+video to be able to have the full
+instructions. That looks like it got it
+perfect. It has the full recipe with all
+the specific timing instructions that
+were only listed on screen, like 5
+minutes on both sides. Now I'll show
+what happens if I just drop it into
+chatt without the skill. It says it
+can't view the video on Instagram, so
+it's already stuck. If I drop the full
+video file in, though, it will be able
+to do this. So, it extracts the frames
+and figures out the full recipe, but it
+doesn't generate a transcript. And with
+some prompting, you can get it to do
+that, but it takes back and forth. The
+skill has just all of this stuff built
+in already. So, it just works much more
+consistently and smooth. Like, sometimes
+if it can't see the video on a site, it
+will download it and process it without
+you even needing to reprompt. It just
+knows what to do. If you build websites
+or apps with AI, these next ones will
+help with the whole process. I'll finish
+by showing one that can make really
+impactful changes to a website with
+simple design commands.
+Superpowers is a collection of skills
+that help enhance the whole development
+process. You can call specific aspects
+yourself or once it's installed, they'll
+often just get called automatically to
+enhance things. Just kind of guiding the
+agent as it works. for things like
+brainstorming, writing plans,
+implementing features, testing,
+debugging. It's a lot like installing a
+development playbook that the agent
+consults throughout a project. I'll just
+be sending prompts like normal. Then
+sometimes I'll notice it called in
+something from superpowers. All just as
+part of the process without me thinking
+about it.
+Gstack is another collection of skills
+and tools for different jobs involving
+building and shipping software. This one
+is built and maintained by Gary Tan, the
+CEO of Y Combinator. Again, this is a
+big list. Some help challenge a product
+idea or review a technical plan. Others
+handle design, code review, browser
+testing, bug fixes, and releases. And
+some of the capabilities do overlap with
+superpowers, but there's a lot that
+don't. So, I use both of them.
+Next is Impeccable. This was created to
+help solve the problem of AI design
+slop. It's amazing what designs AI can
+create now, but when you've used it a
+lot, you start to notice that AI tells
+across designs, similar to how everyone
+can spot them in text. Now, this helps
+to solve that. There's a list of
+currently 24 commands for things like
+critiquing a design, amplifying boring
+designs, adding purposeful motion,
+adjusting typography and layout, making
+an interface clearer or more
+distinctive, and a lot more. This one
+has a website as well that helps give
+clear instructions on how to use it. I
+usually look at it through GitHub,
+though. But I had Chacht spin up this
+site really quick that's a Utah National
+Parks Passport site. Just a really
+simple site. Shows each of the parks.
+You can click to say you've been to one.
+Then it adds it to your passport. That
+was from just one basic prompt and it's
+clean but pretty restrained. So I will
+call impeccable and say boulder. That's
+one of its commands that says it will
+amplify boring designs. I don't have to
+add anything else. I took a few minutes
+and added stronger typography. Deep
+forest green sections and made the
+pictures larger and a few other things
+throughout. This is much better than
+before. And now I will call impeccable
+again and use the delight command. This
+is where it will add moments of joy. It
+says it added an animation where it will
+press a stamp into your passport. So
+I'll try that. Say I've been here.
+That's a nice animation. Looks much
+better than before. Definitely makes it
+more satisfying to have a moment like
+that when you complete one. Then I'm
+going to use one more impeccable
+command. Critique. This is an extremely
+useful one. It will do a big review of
+the site. You can see it has all of this
+feedback. It covers the design. Then a
+lot of this is around testing out the
+different functionality and how a user
+would experience visiting the site. Then
+the responsiveness between desktop and
+mobile. And it has a lot of solid fixes
+I could implement. If this was a site I
+was actually working on. If you're
+building any sort of websites or apps or
+landing pages with AI, I highly
+recommend installing this one and
+familiarizing yourself with how it
+works. It's the easiest way I've found
+to level up your designs. Those are some
+really helpful skills I've been using.
+Pick some that fit what you already do,
+try them on real tasks, and then
+customize from there. All the links are
+below to each of these GitHub repos,
+plus the free resource with 12 skills
+you can use in your regular chats.

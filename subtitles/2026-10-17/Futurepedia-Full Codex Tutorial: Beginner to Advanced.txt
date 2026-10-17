@@ -1,0 +1,633 @@
+UP主：Futurepedia
+标题：Full Codex Tutorial: Beginner to Advanced
+链接：https://www.youtube.com/watch?v=Cuw0pBjZUOM
+
+Most people using chatbt don't realize
+they have access to something even more
+powerful. A tool that doesn't just
+respond to you. It actually does things
+for you. This is codeex. It looks and
+feels like chatbt. You type into a
+prompt box using natural language, but
+it operates on your computer. Give it a
+folder, then tell it what you want, and
+it organizes files, builds tools,
+creates spreadsheets, or even controls
+your browser, builds complex
+applications, and sets up automations
+that run while you sleep. Whatever you
+can imagine. And if you're on any Chat
+GBT plan, it's already available to you.
+No technical knowledge required.
+To get started, you do need to download
+the desktop app. Codex works directly on
+your computer and it is available under
+any chat GPT plan, including the free
+plan, but you will run out of usage
+fairly quickly on the free plan or the
+$8 Go plan. The $20 a month plan will
+get you pretty far for casual use. If
+you end up using it a lot to the point
+you keep hitting your limits, you can
+upgrade to a higher plan, but I wouldn't
+upgrade until you need to. Then when you
+open it up, it looks and feels very
+similar to Chat GPT. We have the prompt
+box in the middle, then the side panel,
+but then there's some interesting things
+here that aren't in chatbt, like plugins
+and automations. We'll get to those
+later. Then overall, the process is
+similar, just more powerful. But one
+quick setting I want to show first is
+the work mode where you can choose how
+much technical detail Codeex shows. I'll
+switch it to for everyday work. And it
+will have the same power but without all
+the technical details. And really, you
+don't need to know much to get started
+and create awesome stuff. You can start
+messing around and get there. But there
+are some concepts and features that make
+it simpler and more powerful.
+Now, since Codeex works directly on your
+computer, it needs a folder to work in,
+which on the sidebar, these are called
+projects. I start every new chat within
+a project to stay organized. I'll select
+which project to work in underneath the
+prompt bar. For this, I have a folder
+called the context window operations.
+This is the actual folder on my computer
+where I dumped in a bunch of sales logs,
+invoices, inventory counts, and other
+files all related to this one business.
+And they're across multiple file types
+like spreadsheets, PDFs, and PGs. And
+now that Codeex knows where to work, I
+can send a prompt.
+Here's a messy folder from my vibe
+coding cafe, the context window. Clean
+it up by organizing the files into
+folders. then create one spreadsheet
+that pulls everything together so I can
+see what's going on with the business.
+This is a simple one to start, but it
+will show that Codeex can analyze files,
+move them around, edit them, and create
+new files. And I'll show later there
+were actually missing fields, errors,
+and inconsistencies across some of
+these. Just want to see if it can catch
+those on its own. All right, just a few
+minutes, and this is all done. So, let's
+see how it did. This is what the folder
+looks like now. It's created these
+clearly labeled subfolders and each one
+looks like it has the proper files in
+it. So those messy random files are all
+organized. Then it also created a brand
+new file that's a master sheet of all
+the information with different tabs.
+This way it's much easier to go through.
+And it did even find some of the errors
+and it extracted the invoice information
+from all the PDFs. Made the labeling on
+the inventory easy to read. then broke
+down all the errors and issues that need
+attention with priority labels. So, that
+did an amazing job. And I'm viewing this
+in the preview window right in Codeex,
+but it also is an actual file that was
+created within the folder I gave it
+without me needing to download anything
+myself. So, this is already really
+helpful. You have an assistant to clean
+up your files and create new ones.
+There's a ton of use cases just from
+this. Now, let's try another prompt to
+build something more substantial.
+use the data in. Then when I hit at, I
+can actually call out a specific file
+for it to use to make sure it's clear.
+So use the data in this sheet to build
+me a visual owner dashboard for the
+context window. Make it easy to see how
+my cafe is doing and to understand
+sales, expenses, labor, inventory
+problems, etc., and what I need to pay
+attention to. Then another feature I'll
+show is under the slash commands. When I
+hit forward slash, it pulls up a bunch
+of options. I'll show some more of these
+later, but the one I want now is plan
+mode. This will have codeex think
+through everything and lay out the plan
+first before building anything. This is
+really helpful to switch on before
+sending something more involved. Now,
+you can see plan mode is on. So, I'll
+send it. And I'll show a couple other
+things really quick while it's planning.
+Up here, I can click to open a side
+chat, which will have the same context
+as this chat, but I can go back and
+forth without interrupting the main
+task. Then I'll show another slash
+command pet. So that pops up. There's a
+little guy on the bottom right. And you
+can move it wherever you want, too. But
+this isn't there just to be cute. It
+lets you know what's currently being
+worked on and when it's finished. I'll
+actually close out this side chat. And
+while it's still working, I can also
+start a separate chat in this project.
+Then I'll do one more slash command
+personality. This lets you switch
+between friendly and pragmatic. I prefer
+pragmatic. Then I'll send a prompt in
+this new chat. What errors did you find
+in the files? Just something simple. And
+then you can see the pet shows that I
+need to input something in the other
+chat. So I can click that. Then it will
+take me right there. It has a few
+questions for me to answer before
+completing the plan. This is a big
+benefit of plan mode. It will come up
+with some more preference or context
+gathering questions. And you can hover
+for a little more information on each.
+I'll select HTML dashboard, then the
+recommended owner command center. Now
+it's off again. And you can see I have
+two tasks going simultaneously. And you
+can have these be more complex builds
+than this and more of them. I wouldn't
+go crazy right off the bat, but once you
+gain enough experience, you don't have
+to just sit around and wait for a
+response each time. You can have a lot
+running in parallel. And it looks like
+there is one more question to answer.
+And now it's off. And the last very
+important thing before the plan is done.
+Under settings, you can also change the
+look of your pet. They've got a bunch in
+here. The fire option is pretty cool. I
+like most of them, but I usually just
+use the original codeex one. Now the
+plan is finished. It goes in-depth into
+every step of the structure and the
+build. Now you can ask for any
+adjustments you need before it's
+actually built anything or if it looks
+good, approve it. And something that's
+nice is if you forgot to add something
+in your prompt, it might take a while
+for this to come back. And it's usually
+not good to stop it midbu. Instead, you
+can actually send a follow-up while it's
+working. Then you can see here it says
+steer, which will submit without
+interrupting the model. That's a really
+nice option to have. then I'll just get
+rid of the notification about the other
+chat I sent. So, it yeah, identified all
+the errors I had in the data. That was
+just an additional challenge for it and
+it succeeded. My team and I put together
+a free guide specifically for this video
+to help you get the most out of codeex.
+It includes five copy and paste prompts
+for everyday business tasks. Things like
+creating entire briefs, data cleanup,
+workflow audits. We made all the prompts
+really practical and easy to use
+specifically for codecs. I'll put a link
+down in the description to access that
+guide completely free. Now, I'll point
+out one more setting you can see here
+that is very helpful down where it says
+approve for me. These are permissions.
+The safest of all is ask for approval.
+Codeex will have just a lot of pop-ups
+asking for permission to take most of
+its actions. That can be good for your
+first few prompts just to get a feel for
+what all it's doing, but it can
+definitely get annoying when it keeps
+stopping. So, I like to switch it to
+approve for me where it will only ask
+for actions detected as potentially
+unsafe. Then, it's pretty rare when you
+need to approve anything. You can also
+give it full access where it's
+completely unrestricted access to the
+internet and any file on your computer.
+I wouldn't recommend that for most
+people. It really doesn't pop up with
+approvals very often on the middle
+setting. And since the PET is turned on,
+that's not there just while you're using
+Codeex. You can browse or do anything
+else while Codex is working behind the
+scenes and the PET will still be there
+and it'll let you know if anything needs
+your input or review. All right, I
+covered a bunch of those smaller
+settings and features that are nice to
+have. There's a few really big ones I'll
+give their own dedicated sections coming
+up, but first I'll let Codeex finish
+building this and see what it comes back
+with. So, that took around 12 minutes.
+Let's take a look at what it built. This
+is looking nice. I'm actually going to
+just turn off the pet since I'll be here
+the whole time right now. it might get
+distracting for the video. This
+calculated all the totals from that data
+and made really nice options up top.
+Colorcoded with review items and high
+priority actions has all these charts.
+There's inventory issues, top sellers,
+action items, and just a bunch of nice
+stuff in here. And this does look nice
+and reactive, so it should look good on
+mobile. It did perfectly on the first
+try, but for any changes, you can
+iterate with simple follow-up prompts.
+I'll say make it interactive with hover
+states in places like the sales chart so
+I can see the exact numbers when I
+hover. Then in just a few minutes it
+updated that and now I can hover and see
+the exact numbers. Oh that's perfect.
+This is a very useful dashboard and you
+can build things far more complex than
+this all just interacting in the same
+way. You can build 3D simulations, a
+complex game or a mobile app with a full
+working front and back end just
+following the same process. You switch
+to plan mode, tell it what you want, let
+it build, then ask for changes using
+natural language. That simple back and
+forth will let you build amazing things.
+This is a good spot to talk about
+memory. There's two main types of
+memory. There's an ongoing memory Codeex
+has about you. That all just happens on
+its own behind the scenes, just like in
+chatbt. You don't need to do anything
+with that. Then there's also project
+memory, which is a file that will live
+in your project folder. It's simple to
+create. Just type forward slashinit.
+Then you can see this will create an
+agent.md file with instructions for
+codeex. MD stands for markdown, which is
+just a simple text file format that
+Codex reads easily. So send that and
+Codex knows exactly what to do. Then
+when it's done, there's a new file in
+the folder with all the information
+Codex needs to understand and remember
+what's going on in this project. the
+purpose, a folder map, how to update the
+dashboard, verification notes, and
+working guidelines. Now, any new chat I
+start in this project will have all this
+information. Easy as that.
+Now, onto a feature that makes codeex
+dramatically more powerful. Skills. The
+skills are expertise packages that let
+Codeex repeat a task in a consistent way
+without having to remind it of the
+process or context, like recipe cards
+for workflows. And Codex has a bunch of
+skills built in by default. It's already
+used a few in this project. It had a
+spreadsheet skill and a PDF skill. It
+read those to have the understanding of
+how to best create and edit those files.
+Another awesome skill it has by default
+is image generation. GPT image 2 is the
+best image model right now for prompt
+adherence and complex text. And you can
+use that natively right in codecs. So
+I'll demo that one really quick. Create
+three different menu designs for the
+context window. Use at logo. I just
+tagged a cafe's logo which I had in the
+folder. Use that as a reference for
+branding and aesthetics. Our tagline is
+sip and ship. The menu is at then I'll
+tag a spreadsheet I put in with the menu
+items that came back and interestingly
+it actually used the image model to
+generate the three menus using the image
+gen skill. Then it also created each as
+PDFs using another skill. And right off
+the bat, I can see I like this first one
+the most, but there are some small
+issues with it. So, I'll ask it to fix
+those.
+Made those edits and this is finished.
+It looks great. It fit the aesthetics of
+the logo really well. That is the
+built-in skill. But here's where it gets
+really interesting. You can build your
+own skills. So, in this case, I liked
+that. So, I want it to be able to create
+the menu looking exactly like this every
+time. If I were to ask in a separate
+chat, it would create it differently.
+And I don't want to have to upload a
+reference image every time. So, I'll
+create a skill for it. And I usually
+will do it in this way where I go back
+and forth first dialing in a process and
+getting to a result I really like. Then
+you can ask it to package that up as a
+skill. Then it will be able to repeat
+that process exactly how you want in the
+future without all that back and forth.
+And you can just ask it in natural
+language to do that. Then it will call
+the skill creator skill to go through
+the process of turning that into a
+reusable workflow. You can also tag the
+skill creator if you want to be sure it
+calls it. You can tag skills, files,
+plugins, or previous chats, all with the
+at symbol. Now it's all done. It
+packaged it up. Then it says it
+validated that it works already. But I
+want to double check it myself. So I'll
+actually pull up the sheet with the menu
+items and change some. Change this one
+to build mode brew. Then a ragu panini.
+I think that's funny. Then I'll change a
+few prices. So now there's some new
+items. I'll start a new chat. And I
+could either ask it to create a menu and
+it should intuitively know to use that
+skill or again I can tag the skill
+myself which is usually faster and I'll
+send just that.
+Then it came back with the menu in that
+exact style and all the menu items
+updated perfectly. So skills massively
+level up what you can get done in
+codeex. This next feature does as well
+and can even layer on top of those
+skills. You can trigger a skill
+automatically on a schedule while you
+sleep.
+Automations let you trigger processes,
+skills, builds, or anything you want on
+a schedule. Just ask it to do anything
+at a specific interval, and it will set
+up an automation for you. And there's a
+tab for automations on the side panel.
+Or how I'll typically create one is in
+an existing chat. Like back to this
+original one where I organized the
+folder and created the dashboard. I want
+that done regularly. So, I'll say every
+morning at 6:00 a.m. check this folder
+for any new files that have been dropped
+in and organize them like you did
+previously into their proper folders.
+Then update the spreadsheet and
+dashboard with the new information. I'll
+send that and Codeex will create that
+automation for me to achieve that. It
+says it's done. I can review it here. I
+can also see that in the automations
+tab. And to verify this works well, I'll
+drop in a couple new sales logs into the
+folder. Then I can click run now to test
+it. It started. So I'll watch the
+folder. And sure enough, the sales logs
+moved. So I'll open up that folder. And
+looks like they're in there. It may take
+a minute to update the dashboard,
+though. So that's done. I'll check out
+the dashboard. And I do see the totals
+changed. And there are two new days in
+this chart here. It worked smoothly. So
+easy as that. All I need to do is dump
+in whatever random files I have, fill
+the folder up. Then each morning, Codeex
+will analyze everything added and
+organize it for me, and then update the
+master sheet as well as the dashboard
+with all the current numbers and new
+items for me. I can wake up to an
+updated dashboard with everything I need
+to know about my business, all organized
+and calculated automatically. These can
+be really powerful, so I want to set up
+one more. Every Friday morning, review
+the latest sales and inventory data.
+Then come up with one special to run
+over the weekend based on the data. Then
+create a marketing idea to promote it on
+Instagram. Create an image in our style
+and also suggest a caption. Hey, there
+we have the automation. I'll give it a
+test.
+Now it's done. It reviewed all the sales
+data and took into account the inventory
+and it made a decision on what would be
+a good special and it explained the
+reasoning behind that. Looks like it
+covered a lot of good angles and really
+thought it through. Then it created a
+nice promo image using our branding.
+That looks awesome. Honestly, and it has
+the caption all ready to post. So, that
+is amazing. It handled a whole marketing
+workflow on its own. I didn't touch it.
+That was in one shot, too. I mean, I
+could push this a lot further. I'm sure
+you can see how powerful automations
+could be. You can start building out an
+operations layer for a business just
+with this. Now, there's one more really
+important feature I want to show.
+Plugins.
+These are also on the side panel. And
+this is how codecs can connect to tools
+you already use. They're connectors
+bundled with skills on how to use them.
+There's all the big obvious ones like
+Gmail, Google Calendar, Canva, and all
+sorts of other connections already built
+in. All you do is just click add, then
+sign into your account. Then you approve
+the permissions it needs, and it's all
+set to use. For a simple example, I'll
+use Google Drive. Maybe I want my team
+to have access to the images like the
+menu and promo materials. I'll tag the
+Google Drive plugin and say create a new
+Google Drive folder for all the menu and
+marketing images you create and add the
+ones you've already created to it. Then
+just like that, it created a brand new
+folder inside my Google Drive with all
+the images added inside of it. Now I can
+easily share this folder with my team or
+my marketing department so they have
+access to it all too. And I could
+integrate that into the automation I
+created. And that's codeex talking to
+cloud tools. And there's a lot more
+plugins like that. You can find the ones
+for the tools you already use. That will
+of course be different for every person.
+This is where Codeex can actually open
+up your browser and go to different
+websites, fill out forms, click around,
+search for things, just anything you can
+do in a browser. This is particularly
+helpful for things you need to be logged
+into your account for. And there's not a
+built-in plugin. There's actually a
+couple different plugins that do this.
+The browser plugin will use the built-in
+browser Codeex has that opens up on the
+side, the one I've been using to view
+things throughout this video. But then
+the Chrome plugin will open up the
+Chrome browser where I'm already logged
+into all my accounts. So that's what
+I'll use here. Then I'll say create a
+short Google form for people to RSVP to
+a Friday build night. Now Codeex is
+going to actually open up my Google
+Chrome browser, the one where I have the
+Codex Chrome extension installed, and
+it's already got it started.
+Then this little cursor is Codeex moving
+around on its own. I'm not moving that
+one at all. And I'll put these windows
+next to each other so we can see them
+both. And Codeex is going to do
+everything here. It's creating the
+questions, interacting with the site
+just like a person would. Typing into
+fields, opening drop downs, clicking
+things, and it does go pretty quickly.
+Although I might be able to create this
+form faster myself. But I can go off and
+do something else while Codeex does this
+for me. I don't have to sit around here
+and wait for it. But now it does look
+like it's done and it created that form
+perfectly. Browser use is the one I
+actually use. There is also a plugin
+called computer use where it can use
+your entire computer beyond just the
+browser. I personally haven't leaned on
+computer use much, but if you need
+codecs working beyond the browser across
+your whole desktop, it's there. And one
+more thing before I leave this section.
+For more unique browser or computer
+tasks, it might not be able to figure it
+out on its own. But if it's something
+you do regularly and you want Codex to
+do it, a good option is a new feature
+they have where you can record a skill.
+It will take a screen recording. You
+just do the task yourself. Then Codeex
+will watch you. Then in the future, it
+should be able to do that same task
+itself in the same way you did it. Now,
+I will say this stuff is new. Computer
+use is at the cutting edge of AI right
+now. So, it definitely won't be able to
+do everything. It still needs to be
+pretty simple, but this is advancing a
+lot. And it's just incredible to me to
+watch it do any sort of browser use at
+all really. And if you don't see a
+plugin for a tool you want, there is a
+plug-in creator skill. You can use that
+to create one for yourself. It walks
+through defining what you want to
+connect and packages it up the same way
+we built the custom menu skill.
+I also want to show Codeex mobile. You
+can prompt and steer codeex from your
+phone. So, you need to connect it in the
+app. You'll scan a QR code, then go
+through the authorizations. Then, once
+you have it connected, it will be in the
+sidebar of your chat GPT app. Then, you
+can prompt Codeex from your phone while
+you're out and it will build on your
+computer, which does have to be turned
+on for this. That's an important note.
+Your computer needs to be left on for
+your phone to trigger it and to complete
+its task. Use everything you know about
+the context window to create us a
+website. Then it will get to work on my
+computer. But I can see everything
+that's happening from my phone and see
+when it's done or actually it needs an
+approval. I can click that right on my
+phone. Then it will keep working. So now
+the website is done. And open that up.
+And that looks awesome. Actually, I'd
+say that is perfect on the first try.
+Then I want to deploy this. And this
+might be a little beyond the scope of
+this video, but I will say create a new
+GitHub repo for this project and push
+all the current code. GitHub is a free
+cloud platform for hosting code. Once
+your project is there, you can access it
+from any device, share it with others,
+or deploy it to the web. And my GitHub
+is already connected. If yours isn't,
+there will be some extra steps. You just
+ask Codex what to do if it can't set any
+part up on its own. But that pushed all
+my code there. Then to deploy that, I'll
+use Versell. This is a hosting platform.
+You connect it to GitHub. Then it takes
+your code and puts it live on the web.
+And I am just on the free plan. You can
+do a lot on that. And it's connected to
+my GitHub. So it has all of my GitHub
+repos in here already. And I just click
+import. Then hit deploy on the next
+page. Then in like under a minute, the
+site is live at this URL and it's
+looking great. That's just a quick look
+at deploying. If you want to take it
+further, just ask codeex and it'll walk
+you through it. Or let me know in the
+comments if you want a dedicated video
+on that. I've covered it pretty in-depth
+in my Cloud Code videos. Now, that is
+all the important Codeex features. You
+can get started building amazing things
+and automating workflows right away.
+It's a much easier platform to get into
+than most people expect. The context
+window started this video as a messy
+folder of invoices and sales logs, and
+it ended with a dashboard, a branded
+marketing automation, and a live
+website, all in under an hour. I hope
+this video helps you build something
+awesome with it.

@@ -1,0 +1,513 @@
+UP主：AI Engineer
+标题：We Mapped 115 Microservices for Our Coding Agents — Kamalakannan Nandagopal, Postman
+链接：https://www.youtube.com/watch?v=k2ClBT4aqAg
+
+Today I'm going to talk about how you
+can take your coding agents beyond code
+generation and how API context might be
+the answer for that. I'm Kamal. I'm a
+staff engineer at Postman.
+And Postman, as you might know, is the
+end-to-end API platform. But beyond the
+desktop app that allows you to test your
+REST APIs and build your APIs, uh
+Postman also has uh a lot of cloud
+features. Empowering all of those cloud
+features is an extensive microservices
+architecture. We have more than 150
+microservices and thousands of uh REST
+API endpoints. Uh so, I'm going to be
+using our real uh engineering use cases
+and workflows and on top of our coding
+agent experiences and what we learned
+from it and how we've been improving the
+experience and the effectiveness of our
+coding agents with API context graph.
+So, our journey with the coding agents
+started similar to how many of you might
+have gone through the same journey as
+well. Starting with line and function
+level auto completion, this is the
+Copilot uh days eras. Uh moving on to
+full code base uh refactors and one-shot
+implementations and one-shot fixes, uh
+this is your composer eras and cloud
+code eras. Now, moving on to fully
+autonomous coding agent workflows. Uh we
+have agents that end-to-end start the
+workflow and then make the changes,
+verify the changes, send pull requests,
+and even verify pull requests as well.
+What we see as the coding agents
+excelling really well at are greenfield
+projects or fixes and improvements
+within the context of a single project.
+But production systems tend to be
+slightly more complex. They tend to be
+distributed systems split across
+multiple microservices. They're often
+deployed across multiple environments,
+even multiple different versions in each
+of these environments. We have several
+applications, front end, CLI, API, all
+of them talking to our back end
+infrastructure, and all of this is
+spread across hundreds of repos where
+the code is distributed across all of
+them.
+When we think about improving coding
+agent performance, the first area that
+we start looking into is documentation.
+Documentation is a great place to start,
+uh but as we all know, developers, we
+hate writing and maintaining
+documentation. It's an added overhead.
+It costs time, and it becomes tricky to
+go and maintain over time. But if you
+offload documentation purely to LLMs to
+author and maintain, research points out
+that purely LLM maintained and written
+documentation tends to degrade
+exponentially over time. Some sort of
+human curation is definitely needed to
+make it more effective. Skills and MCPs
+are a really good alternative to look
+at, but we all know skills and MCPs are
+only as good as the context that they're
+provided to. Agent memory is actually a
+really good solution for uh this
+scenario. Um in terms of real-world uh
+experiences, most of this knowledge is
+probably already tribal knowledge in
+people's heads, and now it's getting
+translated into agent memory within the
+coding agent are the harness. The
+biggest limitation factor that we see
+with this is agent memory is still very
+limited to an individual user, and no
+standard patterns have now emerged yet
+in terms of sharing agent memories
+across your broader teams or across your
+entire engineering organization.
+While we were trying to solve this
+problem for the coding agents on the
+engineering side, our go-to-market teams
+were also building business agents for
+go-to-market agents for their end-to-end
+executive use cases. So, they've been
+building uh custom agents that are
+purpose-built with customer data that is
+brought in from multiple data sources,
+and they've done several iterations to
+streamline all of this unstructured data
+coming in from all of these data sources
+into a structured data on top of which
+these agents operate. What they have
+ended up with is a really optimized like
+rack plus graph rack pipeline that
+serves as a centralized context layer
+that makes all of these individual uh
+business agents work really well and
+solve the problem for all of them. So,
+we started looking at how can we learn
+from this and what can we do to make the
+coding agent performance really better?
+And when we looked at this, what we
+realized is in a distributed systems and
+microservices architecture, APIs are the
+context layer for you. Complex
+engineering architecture is often broken
+down into domains and models, and each
+microservice is responsible for owning
+one single responsibility as per a model
+or a domain, and APIs are what defines
+what that responsibility is. And API
+calls between systems is usually how you
+identify workflows and user journeys
+that span across multiple systems.
+So, agents are only as good as the
+context that they're given. So, we set
+out on a journey to build the best
+context layer for the agents. So, we
+went out to start building an API
+context graph for what Postman's
+engineering architecture looks like. The
+journey started by identifying and
+cataloging every single microservice
+that was on production. And then we
+identified every endpoint that is
+exposed by each of these REST API
+services, and then we captured how each
+and every one of them is implemented
+right down to the exact line of code
+where it was implemented. And we also
+mapped how each and every service talks
+to each other, and how each endpoint
+connects to each each and every other
+endpoint.
+We also tracked how the data goes all
+the way down across the stack, including
+databases and caches, and all the way
+down in the entire stack. We also
+identified how applications like front
+ends, CLIs, APIs, how they interact with
+the whole back end architecture and back
+end
+infrastructure.
+We get give all of this data and we
+index all of this data using LLM to
+produce a centralized and effective
+context graph layer. But one key
+principle that we had in mind always was
+every single data point that landed on
+the context graph always had to be
+grounded down in a hard truth, and that
+hard truth is either a line of code that
+is implemented in your code base, or it
+could be a
+an exact trace that is coming from a
+production telemetry.
+With this in place, we set out on a
+journey to populate our context graph,
+and this is a snapshot of what our
+engineering architecture kind of looks
+like. So, it is some of the very common
+patterns that you would expect start to
+emerge. You start to see a central
+cluster of core services, of very
+tightly intertwined
+intertwined APIs and services that are
+tightly dependent on each other. You
+find one or two heavily bloated services
+that are on the outer edges of these
+systems. The ones at the center is
+typically what you would classify as
+tier zero or tier one services.
+So, now that we have the context graph,
+when we start looking at how does how do
+we measure what does it add in terms of
+improvements to the coding agents? So,
+we took real examples from the Postman
+Git organized from our organization's
+Git repos. We took real PRs that were
+raised to the GitHub repos, and for each
+and every one of them, we identified
+what the developer was trying to do, and
+what the actual outcome was
+at the end of the PR. We also took like
+important projects, and what were the
+key design decisions and takeaways that
+were being discussed in those design
+discussions. We mapped each and every
+one of them into an eval, and we mapped
+what the actual decision that was taken
+in retrospect as the ground truth that
+we wanted the evals to confirm into.
+To to run the validations, we were able
+to get the Postman's AI agent connects
+to the API context graph, and we were
+able to validate all of these against
+the Postman AI agent as well. But to
+keep the comparison fair, we also
+validated this against a generic coding
+agent, in this case Claude code, and we
+tried to verify these use cases simply
+by like a straightforward GitHub code
+search. We also took the same context
+graph, and we made it available as a
+skill, and also compared that against
+the generic coding agent, in this case
+Claude code.
+So, you're going to see the results of
+of in a graph plotted like this. So, we
+scored every eval on zero to five scale
+and we also measured the exact amount of
+tokens it took for each of these runs.
+So, what you will see if something shows
+up on the top right, it means that the
+agent did a good job. It was able to
+score high on the evaluation, but it
+spent a lot of tokens doing so. If it's
+on the top left, it did a great job not
+only scoring high, but it also did it
+much more efficiently. If something goes
+beyond the dash line, it just did not
+meet the bar of what a good score should
+be on that evaluation.
+So, then we bucketed like come up some
+of the common use cases and scenarios
+that we see in day-to-day development
+and where do they fall under? One key
+scenario that we always notice is API
+discovery. Any developer who is making a
+change either to the front end or back
+end integrating with other systems, what
+is the right API to call? And in
+real-world systems, you probably have
+hundreds of different of the hundreds of
+different APIs and most likely you have
+multiple APIs that probably do the same
+thing. So, in this case, uh a simplified
+example that I've taken is what is the
+right API to to call to get the profile
+name for a particular user.
+So, in this evaluation, this is a pure
+search use case and the results are what
+you would expect. Like with the context
+graph, the agent scored really well as
+compared to like pure code search where
+the agents don't do really well. And
+there's a slight deviation between like
+Postman and Claude, but the deviation is
+not that big enough uh for us to be uh
+diving deeper into. The second second
+use case is where it gets really uh
+interesting. So, this is what we call
+API design and redesign scenarios.
+So, in this scenario, let's take a
+developer who's building a new feature
+and to build that feature out, they've
+designed a new API and they've designed
+the schema for the request input. They
+have defined the uh implementation of
+it. They have tested it out from their
+side and then they go integrate it with
+the product and they're happy with the
+product and they're ready to ship. At
+the last minute, one of the dependencies
+comes to them and then say, "Hey, would
+it be nice if I just had this one
+additional property that I would like to
+pass to to API that I would like to use
+at a later point in time. So, the
+developer is like, "Maybe we don't have
+enough time to evaluate all the
+different ways in which it can be done.
+What is the right schema to do this?"
+So, they just add this one additional
+context, which is a free-form JSON
+object, and they add a to-do in the code
+saying, "Revisit this and add a schema 2
+weeks later."
+The feature ships to production.
+Everybody's happy. 2 weeks later, the
+developer comes back and finds out that
+that one particular property which is
+supposed to send one attribute now has
+15 attributes, and it's being passed by
+one service or it might be five
+services. It might be 10 services. Now,
+the developer has no idea what exactly
+is the shape in which the request is
+being passed down uh to the API, and
+what are all the different ways in which
+every single consumer has been passing
+data down to. So, it can be
+uh So, this is what I call like analysis
+of a shape of input for each and every
+API, and why they are used like that.
+So, this can be hard for a bunch of
+reasons. First, tracking down every
+single consumer of your API can be
+impractical in real-world scenarios.
+Even if you had service dependencies and
+service maps, finding out the exact
+shape of input used by each and every
+consumer can get really tricky.
+Engineers often lack the detail or depth
+of information in production logs, and
+for privacy reasons, it may not even be
+available at a lot of times. Even if the
+shapes are identified, finding out
+exactly why the consumer decided to pass
+it down like this is a very, very tricky
+problem.
+But, in this scenario, when we took this
+evaluation and then ran it with the
+Postman agent, what was surprising was
+the Postman agent almost got it really
+well. And the thing that helped in this
+case is, first of all, the context graph
+having an awareness of every single
+consumer of an API, but not just that,
+but having the drill down or the ground
+truth of where exactly each of these
+APIs were implemented in code, and the
+context surrounding that code helped the
+agent understand why the change was
+done. And very quickly, it was able to
+figure out exact unique shapes for every
+consumer that was calling this API, and
+you could be able to make the changes uh
+quite reliably and confidently.
+And you can see that the pure code
+search does not do really well, but with
+Claude and the skill, it does slightly
+better, but it tends to give up like
+after it's done like enough number of
+turns and waiting for the user to kind
+of confirm what to do next.
+So the other very common use cases that
+we start to see is impact assessment.
+How do you figure out what is the impact
+of one particular change? So if I change
+this API, what are the potential use
+cases? Or maybe there's an existing API,
+there's a V2 API, and I'm interested in
+introducing a V3 API. How do I
+understand how the V2 is API V2 API is
+used first so that I can design a better
+V3 API.
+So this is one scenario where we see the
+context graph really shine well, and you
+can see that like Postman Agent not only
+does really well in terms of the quality
+of the output, but also it's able to do
+it with almost like half or even 1/3
+when compared to pure code search.
+But this is not smooth sailing all the
+time. Sometimes we see failures, and in
+this case, one of the use cases that we
+threw at it was find out the impact of a
+change in one particular PR where it
+introduce a change to an endpoint and
+figure out all the all the downstream
+services that are affected by that
+endpoint, and we started seeing a
+failure, and you can see the graph like
+almost inverted. We see Postman not only
+scoring down, but also like consuming a
+lot of tokens while it did that.
+And when we investigated in and into it
+and then tried to understand why it was
+failing, what we realized was that
+uh there were new consumers between the
+time where the eval was written and the
+time it the evaluation was run. So the
+context graph is not only important to
+populate, but it's equally important
+that you keep it up to date, and any
+delays in syncing your context graph
+with the ground truth
+uh creates gap in the result. And if
+there's a gap in the result, it
+immediately leads to a loss of trust by
+the developer, and that translates into
+lack of usage.
+Not only detecting new APIs and new
+dependencies, detecting removals of APIs
+and removal of dependencies is equally
+important and that can also lead to
+confusions and problems. So, you might
+think that these use cases may or may
+not be common to you, but when we went
+back and retrospected on all the PRs
+that were raised in the top 10 repos, we
+noticed that almost 75% of the PRs had
+some effect on the APIs. So, either
+these changes are introducing a change
+to the external surface area of an API
+or they're
+introducing an integration of a new API
+and both of them have can have like
+really cascading impact downstream.
+So, these use cases were
+clear for us to do like a before and
+after comparison with the context graph
+and without the context graph, but as
+soon as we had this information, we were
+able to ask questions that we were
+previously not able to ask. And these
+questions asked allowed us to be able to
+take the Postman agent and say, "Hey, do
+a complete engineering analysis and an
+end-to-end architecture review of our
+entire ecosystem." So, this is where the
+light bulb moment happened for us. When
+we asked the Postman agent to do this,
+it produced a 21-page engineering report
+going through every single weakness and
+points of vulnerability.
+It found out interesting insights for us
+including cycles of dependencies, which
+can be really problematic in terms of an
+incident, risky long-running migrations,
+which are signals of technical debt, and
+then single points of failure, which can
+be really problematic or issues that are
+waiting to happen, blind spots and
+telemetry, where stuff that is in the
+implementation does not reflect in
+telemetry, and then it came out with
+clear action items for hey, this is what
+your CEO, this is what your CTO, and
+this is what your staff engineers
+might need to do.
+On top of all of these things, when we
+look at what we can do for further
+improvements, one of the areas that
+stands out is bringing in the semantic
+layer of what does your business do and
+connecting it into the context layer of
+what your coding agents take as input
+for their workflows. Another layer of
+improvement that we're looking into is
+how can we improve and add additional
+reasoning of why does a data model
+exist? Why does the domain map like
+this? Why does this API exist versus
+other APIs? Why Why should you use one
+API over the other API? And all of these
+helps in subsequent coding decisions and
+all of that translates into really
+effective output when you're using them
+in your day-to-day development
+workflows.
+So, takeaways and learnings.
+We've realized that API context graph
+serves as the context layer for coding
+agents in a real-world distributed
+systems.
+Gives a high-level view that helps you
+answer questions about your engineering
+architecture that you were not able to
+answer in the context of a single repo
+or a single microservice. It shortens
+the time to find the right way to do a
+particular problem.
+And all of this means that do the doing
+this either with the right amount of
+quality or being much more efficient in
+being able to do this.
+So, efficiency translates either into
+your cost savings, but the way that we
+see it is if we can do one particular
+task a lot more efficiently, it means
+that we can do it more often and this
+allows us to do the same evaluations at
+a lot more frequency including bringing
+it down at the PR level or even bringing
+it down right down to the development
+machine or in the development
+environment where the where the engineer
+is working on. So, the sooner we can
+move the decisions and catch problems
+earlier in the life cycle, we believe
+that the agents who are generating code
+can translate into peace of mind for the
+developer and help them ship changes to
+production with a lot more confidence
+going forward.
+So, that's everything from my side.
+All of these capabilities are available
+within the Postman as a platform. These
+are also available
+to use as early access.
+I will be around outside right after the
+talk if you have any questions or
+follow-ups. We also have a booth S32
+right across the hall from here. That's
+everything from my side. Thank you so
+much.
+>> Woo!
+>> [music]

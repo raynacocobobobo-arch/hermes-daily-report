@@ -1,0 +1,363 @@
+UP主：AI Engineer
+标题：The Cost of Accessibility in AI — Jemima Abu, CAIS
+链接：https://www.youtube.com/watch?v=ZccJsdOE54M
+
+Hi all, my name is Rima, and I'm going
+to be talking to you about the cost of
+accessibility in AI, or as I like to
+call it, stop wasting tokens on building
+products that people can't use. Because
+at the end of the day, what is
+accessibility? Accessibility is the
+quality of being able to be used by
+anyone regardless of disability. So,
+what this means is that when you build a
+product that is inaccessible, that
+product is inherently useless because
+people cannot use it. I think this is a
+very prevalent talk, especially in these
+days of vibe coding and prompt
+engineering and AI basically writing all
+the code for us. We need to ensure that
+even with all the code being written by
+AI, we're still building for humans, and
+we're ensuring that humans are able to
+use the products that we are building.
+It's all very well and good to vibe good
+five different apps in one day, but if
+people can't use those apps, then is
+there really any point? A study by
+WebAIM shows that 96% of the homepages
+of the top 1 million websites in the
+world have some form of accessibility
+issue or another. Now, I'm someone that
+goes around a lot and speaks about
+accessibility, and whenever I ask why
+don't people build websites to be
+accessible, I usually hear it takes too
+long. While I will agree that
+accessibility is a labor and
+time-intensive process, I do think that
+now that we're at the stage of AI
+writing most of our code, it's actually
+easier to make things accessible. If
+anything, I would say it costs more time
+and more money to build inaccessible
+websites. So, I decided to carry out a
+little experiment using the code base at
+work. So, I gave this prompt to the
+agents. It's just a simple prompt with
+no guidelines, implement this design
+from Figma. And they ran it twice. The
+first time without any accessibility
+skill, and the second time by using the
+skill that I had written. And what I
+noticed was that not only was it faster
+for the agent to build the accessible
+skill, but there was also a 58%
+reduction in cost when using that skill.
+And we can take a look at the data here.
+We see that not only was it cheaper, but
+it also took a third of the time to
+finish the prompt while using the
+accessibility skill. So, in conclusion,
+we can't say that it is actually cheaper
+for AI agents to build accessible
+websites. We can't say that, but we
+won't say that because this was a
+one-off experiment, and it was not
+carried out in a constrained
+environment, so it cannot serve as
+empirical data that proves the of But,
+when we look into the reasons why it
+took the AI agent much longer to carry
+out the prompts without any
+accessibility skills, then we can have a
+better idea of why exactly it is faster
+to build accessible websites. But,
+before we get into that, hi, my name is
+Joreima Abu. I am a product engineer at
+Case and an alternative investment
+platform. I'm also a Google Dev Expert,
+a Microsoft MVP, and a certified
+professional in accessibility core
+competencies. Basically, I like to go
+around talking about how to make the web
+a more accessible place. Also, I will
+give a slight disclaimer. While a lot of
+my examples relating to accessibility
+will be web-based because that is my
+area of expertise, this can also apply
+regardless of whatever platform you're
+working on, whether that's mobile or
+hardware or anything at all. So, let's
+get back to it.
+This is your AI agent. Now, it's a super
+intelligent tool that can do almost
+anything in the world, but at the same
+time, it's just 3 years old. And much
+like a baby, AI is very impressionable.
+If you tell it enough times that the sky
+is red, eventually it will start to
+accept that the sky is red. What this
+means is as the responsible developers
+in charge, we have to make sure that
+we're providing the right skills and
+guidance for AI agents to build the
+product that we want them to build.
+There's a Japanese show on Netflix that
+I love called Old Enough. It's basically
+about toddlers being sent on their first
+errand. It can be like a 3-year-old
+being sent to a supermarket to purchase
+groceries. And one thing I like about
+the show is that you can always see the
+steps that the parents have put in place
+before they send them on that first
+errand. So, it could be that the child
+has gone with their parents to the
+supermarket multiple times, or they
+provide a list that's very clearly
+detailed that shows them where the
+supermarket is, what they need to get
+there, what paths to avoid, and it
+basically makes it a lot easier for the
+child to carry out that errand. It's the
+same thing with an agent. When you're
+given an instruction to an agent, if I'm
+saying build this webpage or implement
+this design, if I provide the right
+skills and prompts, it makes it a lot
+easier for that agent to avoid going
+down the wrong path and for the finished
+product to look like what I intended it
+to look like. So, let's take a look at
+what happens when we don't provide any
+form of guidance for our agents in
+developing products. Firstly, human bias
+becomes AI bias. For years, humans have
+been developing websites or products
+that are inaccessible because frankly we
+just don't think that way. Especially as
+developers, we tend to have a it works
+for me mindset. So I'm like this thing
+works on my laptop and it works the way
+I intended it to work and I'm not going
+to check anything else. I don't concern
+myself with if it works for screen
+readers or if it works in low light
+environments. I'm just like it works,
+it's built, I'm done. Whenever you build
+like that or if you have a code base
+that reflects that kind of mentality,
+once you put an AI agent in that code
+base, it's going to absorb all your
+biases. It's going to say, "Oh, we don't
+need to make these things accessible
+because that has not that been mentioned
+in the past. So I'm just going to build
+things anyhow." And then the more you
+use that AI agent to generate codes, the
+more you build a code base that is
+inherently inaccessible because
+accessibility was never constraint in
+the first place. Secondly, and this is
+something that I really noticed in the
+experiment, AI tends to default to a lot
+of verbose code. If you don't provide
+any particular prompt or guidelines for
+your agent, it will reinvent the wheel
+as many times as it wants to. So even if
+you tell it just build a simple
+accordion component or build a modal
+component, it's not going to bother
+checking is there already an existing
+semantic elements that can give me the
+same functionality? It's just going to
+build one from scratch. AI loves to
+write code. So it'll go off and write as
+many things as it wants. And as you can
+see here, if you are trying to recreate
+a semantic element, it takes a lot more
+time and effort because number one, you
+have to carry out a lot more testing,
+you have to implement a lot more
+features to replicate the native
+functionality, and it's just a very
+cumbersome process. So these are some of
+the things that you want to ensure
+you're focusing on when you're providing
+prompts to your agent. I saw an analogy
+once that said an accessible website is
+like a blueberry muffin. If someone
+hands you a plain muffin that they've
+shoved a bunch of blueberries on,
+similar to the picture on the right,
+that's not a blueberry muffin. For it to
+be a proper blueberry muffin like the
+one on the left, then the blueberries
+need to have been baked in from the
+start. It's the same thing with an
+accessible website. If you have a fully
+built website and then once it's done,
+you start shoving in area labels in
+different places, that is not an
+accessible website. For it to be an
+accessible website, you need to put
+accessibility at the forefront at every
+build process. And this does not just
+apply to developers, accessibility is
+the responsibility of everyone. So, you
+want to make sure that even from the
+business idea to design to QA, that
+we're ensuring that we're looking for
+accessibility and testing that can this
+product be used by everyone in the exact
+same way. And that issue with waiting
+till the end to consider accessibility
+is that you waste a lot of time on
+regressive testing. So, if you've waited
+until your website is fully built and
+then you start testing and going back to
+fix issues, you end up refactoring and
+rewriting a lot more code than you'd
+have had to do if you don't build it to
+be accessible from the start. And then
+of course, there are business
+consequences to building inaccessible
+products. The thing I hear sometimes is
+that a business might say, "Oh, but we
+don't have to consider accessibility
+because none of our users rely on
+assistive technologies." And I think
+that's very funny because it's sort of a
+self-fulfilling prophecy. It's not that
+your users don't rely on assistive
+technologies, it's that people with
+assistive technologies cannot use your
+website in the first place, so they just
+never go to it. Imagine a business that
+didn't have a door. You would never get
+any customers. How would they get in the
+building? It's the same thing with
+building an inaccessible product. If you
+build a product that people cannot use,
+then people will not use it. And then
+finally, there are legal repercussions
+to not making your website accessible.
+In the United States, the Americans with
+Disabilities Act states that any
+public-facing products must be
+accessible and can be used by people
+with disabilities, or you could face
+fines and even lawsuits. But on the plus
+side, you could get to use this really
+cute sticker on Microsoft Teams, so
+you know, weigh your options. Based on
+all this, we can see that it actually is
+a lot more expensive to be building
+products that aren't accessible. You're
+exposing yourself to losing money from
+customers, possible lawsuits where you
+have to pay fines, you're spending more
+time building code and refactoring
+things. So, if you do build your product
+to be accessible from the start, it's
+going to be a lot faster and a lot
+cheaper.
+So, now that we know all that, how can
+we actually ensure that our AI agents
+are building things to be accessible?
+Because everyone's code base is
+different and we can be working with
+different technologies, I'm just going
+to give an overarching general view of
+how to get your AI agents to produce
+accessible code. So firstly, you need to
+define your accessibility requirements.
+Accessibility requirements differ based
+on what platform you're working on. So,
+you do need to carry out research and
+ensure that you know what accessibility
+requirements you're supposed to be
+meeting for the platform you are
+building for.
+Once that's done, you need to audit your
+existing code base. So, if you're going
+to introduce an AI agent into your code
+base, you need to ensure that you don't
+have any pre-existing issues that the AI
+agent might copy as what it thinks is
+best behavior. So, you can use automated
+tools to carry out accessibility
+testing, or you can even tell your AI
+agent to do it. But, you want to
+identify any existing issues and then
+fix them before you start writing new
+features. Then, you want to implement
+some sort of reusable system. This is a
+very nice to have, but basically, if
+you're going to work with accessibility,
+it's a lot easier to fix things in one
+component that is used in multiple
+places as opposed to making fixes to the
+same components across different files.
+So, just having an implemented design
+system or any form of reusable component
+library is going to save you a lot more
+time in the long run when making things
+accessible.
+And then finally, you want to enforce a
+mandatory accessibility skill. This is a
+skill that your AI agents will basically
+use anytime you're running anything
+related to maybe generating UI or
+writing code that requires
+accessibility. One skill that I really
+like to use is the Modern Web Guidance
+skill from Chrome. It's basically a
+skill that ensures that your agent is
+using the newest HTML and CSS features
+as opposed to custom JavaScript
+implementations. You can also have a
+lightweight version of an accessibility
+skill. I think this is very important,
+especially if you're like vibe coding or
+you're not working in a big code base.
+You just want something quick that your
+agent can refer to and not carry out a
+lot of in-depth research.
+This is what I would recommend for
+meeting like bare minimum accessibility
+requirements. So, you want to make sure
+that you're using semantic HTML wherever
+possible, only reaching for ARIA when
+semantic HTML can't express the
+behavior. Every interactive element, if
+it can be operated by a mouse, it should
+also be operated by a keyboard. You also
+make sure that elements are properly
+labeled and can be read by screen
+readers. And then finally, before
+running the code, your agent should
+carry out an audit against all those
+steps. Of course, this is not enough to
+build a fully accessible website. You
+still need to carry out a lot of manual
+testing yourself because it's not
+possible for a one tool to make a
+website fully accessible. But, just
+having these skills in place can help a
+lot more than not having them there at
+all. Regardless of why you use AI, most
+times the goal is to solve a particular
+problem. So, just make sure that your
+solution is useful to as many people as
+possible. So, build things to be
+accessible. And that is all. Thank you
+so much for listening to my talk. I hope
+you enjoyed it. If you do have any
+questions, feel free to reach out to me
+online at Jemima Abu. That's LinkedIn,
+Twitter, or GitHub. I would love to hear
+from you. Okay, bye.

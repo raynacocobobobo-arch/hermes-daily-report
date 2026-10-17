@@ -1,0 +1,630 @@
+UP主：Corridor Crew
+标题：VFX Artists React to Bad & Great CGi 238
+链接：https://www.youtube.com/watch?v=98PBCzqy4K4
+
+Oh, that's cool. Yes, that's cool. Hey,
+you. Welcome back. It's another episode
+of Visual Effects Artist [music] React,
+but today is very special because we are
+joined by visual effects supervisor
+[music]
+Marian Space. Marian has been a visual
+effects supervisor for Stranger Things,
+Wanda Vision, and most recently the new
+season of Avatar the Last Airbender on
+Netflix.
+>> I've been working in the industry here
+since 98. Very fortunate to be working
+with wonderful people and [music] now on
+this couch with this amazing team.
+>> So sweet. Avatar season 2 has raised the
+bar with its visual effects, and Marian
+was [music] kind enough to bring us some
+exclusive behind the scenes from that
+show, as well as other great stories.
+[music] There's a guy with the blue
+tongue.
+>> He's popping [laughter] the entire time.
+>> 1998 is it's a good time to get [music]
+into visual effects, I feel like.
+>> Why did you choose that?
+>> It was 97. I was bartending at the Hard
+Rock Cafe in Orlando [music] and the
+barbback came in and said, "Hey, there's
+this uh school called Fullale that's got
+this computer animation [music] degree
+and I knew computers were starting to
+kick off because of the internet."
+>> Can you explain what internet is?
+>> I sold my drum kit and bought a computer
+system and I started playing around with
+[music] Carell Draw.
+>> Oh, really?
+>> Yeah. So, so I knew things were going to
+be happening, but I didn't quite
+understand what was going to happen.
+That first movie that you worked on is a
+movie that we're all familiar with. Rain
+of fire. You started with Rain of Fire.
+So, what what did you do on Rain of
+Fire? Where do you even start in a
+career like this?
+>> So, obviously one of the starting
+positions is uh Roto.
+>> God bless you all. I mean, look, I was
+like rotoscoping on a shot with Matthew
+McConey and I was like, "Yes, I'm
+actually rotoscoping on an actual film."
+>> All right. All right. All right.
+>> What makes a good roto? Why were you
+shouted out for the quality of your
+rotoscoping?
+>> What makes a really good roto is
+actually trying to do the roto with the
+least amount of key frames. So
+basically, you know, a lot of people get
+in the weeds and they start doing every
+single key frame from the very
+beginning. But what you want to do is
+you want to look at the object that
+you're rotoing. You always start from
+the first frame and the last frame,
+those two key frames. Then I would go to
+the middle frame, then the middle of
+that frame, middle of that frame, and
+just kind of start nudging your way
+back. And typically, you can get there
+much faster with with that mentality.
+you'll get away from that too much
+popping.
+>> So, you went on to do Final Destination
+2.
+>> I truly believe this sequence here is
+the most iconic scene from the entire
+franchise
+with the log going through the whole car
+and out the backside. We have that blood
+miss. That looks pretty practical to me.
+>> Yes, that's really Yeah. Yeah. They did
+a test in Vancouver and they threw logs
+off a moving vehicle at like 50 miles an
+hour.
+>> Hell yeah.
+>> And guess what the logs did?
+>> I always thought the logs wouldn't
+actually bounce.
+>> Exactly.
+>> They just [laughter]
+Okay.
+>> They hit the ground and bam and just
+rolled right off. I remember Joe Bower,
+main BFX supervisor, coming to us and
+saying like, "We got to do the logs and
+CG because the logs don't bounce.
+>> They don't bounce."
+>> I was the one that created the lighting.
+I also did all the texturing for the
+logs and help with the look dev of the
+bob wire. Obviously, he [snorts] would
+do the simulation and then I would take
+care of all the roto. I actually rotoed
+I think some that freaking chain.
+>> What?
+>> I also did a little bit uh there's a
+shot in here where the guy gets hit by
+the uh the bobwire fence.
+Oh yes. Yeah, this was great. It was
+great when I got to show my my mom and
+my my my family. Yeah, we sat down like
+it was like Christmas and watching Final
+Destination 2 so they could see all the
+work [laughter] that I the work that I
+did.
+>> You know, we talk all the time about
+visual effects on the show, but one
+thing we don't talk enough about is
+audio. You don't believe me? Check this
+out. Hey, do you
+probably thought I really hit him,
+didn't you? But I didn't. We just used a
+sound effect from Epidemic, today's
+sponsor. Wait, but I have to put this.
+They have over 55,000 userade music
+tracks. They get over 250,000 sound
+effects, [music] which means even though
+Dean's on a tight deadline, I can add
+work to his plate as much as I want to.
+Get that. Yeah. What sound does this
+make?
+>> Hey, that's my dream. [laughter] You
+know what? All over it.
+>> And these tracks are restriction free,
+meaning putting them in your YouTube
+video [music] won't bring the content
+police down on you.
+>> You know what, dude? It is actually
+pretty easy because if I'm editing
+something, I can literally have Epidemic
+open in my editing program and pull
+[music] in sound and music in real time.
+The selection of tracks they have is
+insane. And you can use the search tools
+to get exactly the vibe you're [music]
+looking for really fast. And speaking of
+vibes, with their selection of music,
+you can easily trick the viewer into
+making you think [music] that the
+actor's feeling something. Check this
+out. I'm sad.
+I'm not really.
+I'm whatever this is. And you know what?
+You can even have access to all of the
+stems of a music track so that you could
+literally go in and isolate the drums or
+the strings and you can really elevate
+that acting. [laughter]
+So, if you want to bring that other half
+of your video to life, click the link in
+the description below and use code
+corridor 60 at checkout to get 60% off
+Epidemic Sound for 2 months. Offer valid
+until September 30th. Yeah, give me that
+back. All right,
+>> we have fun here.
+>> Since your early days in the trenches,
+you've ascended to being an overall VFX
+supervisor on some really huge projects.
+One of which being Stranger Things
+season 4.
+[music]
+It was myself, Jabar Versani, and
+Michael Mayer. Lots of shots. 4,400
+shots basically.
+>> 4400. [laughter]
+>> Oh my god, that's insane. Cuz they do
+start to become just each episode's like
+a movie pretty much at a certain point.
+>> Oh yeah, it's it's nuts. Abar and I were
+like just, oh my gosh, when is this
+going to when is this going to when
+[laughter] is this going to end? It's
+like
+>> Well, I'm curious like you have 4,400
+shots on the docket for this season. How
+long does that take?
+>> I started in August of 21. We were done
+by July 22.
+>> So about a year a little
+>> about about a year.
+>> 12 shots a day [laughter]
+>> for an entire year.
+>> It reminds me of Peter making his
+Spider-Man video.
+>> How many shots are there?
+>> 153.
+>> How long does he have?
+>> 15 days.
+>> 15. Sorry, bud. Just [laughter]
+>> But you know what? It's freaking fun.
+>> Oh, I bet.
+>> It's so much fun. Especially when you
+finish it, you know, you're like, you
+did it.
+>> It's very satisfying.
+>> There's nothing more satisfying. The
+Duffer brothers, they want they want
+excellence and they deserve excellence
+and that's what we were trying to give
+them.
+>> What was your favorite visual effects
+note you received from the Duffer
+brothers?
+>> My favorite one was like spore 797
+is going in the wrong direction.
+[laughter]
+>> You also did the demogorgon beheading
+scene
+goo. Look at the flat. I just love the
+flat, man. It's so good. We refer to
+those as the petals, right? It's kind of
+like a flower. We tried to give them
+enough weight and movement to them where
+they didn't get too distracting. The way
+that they did this soft body simulation
+on the head hitting the snow. I mean,
+it's the perfect set to be putting a
+visual effect in a big wet guy with all
+these reflections on him. And then I
+love this like blood coming in the
+camera. The Duffer brothers are like,
+"Yeah."
+>> I mean, it was awesome.
+So, Avatar the Last Air Bender season 2,
+we're going to be looking at not only
+some of the stuff you guys worked on,
+but you got some exclusive breakdowns to
+show everyone as well. I love
+simulations so much, and this is just
+this is a treasure trove this whole show
+cuz you get all the different forces of
+nature all behaving differently and so
+beautifully integrated in one show. It's
+man.
+Yo, sorry. Hold up. That was This is
+what I'm talking about, dude. Wait, are
+they trying to pull a Moses here?
+>> They're mossesing, dude.
+>> They're mossing across the lakeing.
+[music]
+>> All it takes for them to like trip on a
+rock and everyone drowns. [laughter]
+>> This is the teardrop. That's what we
+called it where they're pushing, they're
+bending the water outwards. What I
+didn't want to look like is look like a
+lake. I really wanted to feel like an
+ocean, but I didn't want to make it look
+like it's, you know, obviously Hawaii
+and we're surfing. You have a little bit
+of that active swell. And then what we
+did though, if you notice here, it bends
+outward, but then the water wraps around
+and falls in the back side of it. So
+that's multiple simulations that are
+being blended together to the main
+simulation. That is actually the the
+main body of water.
+>> Awesome. Yeah, cuz I'm seeing like the
+directional force of the waves going
+this way. And then yeah, you've got the
+outward force that's kind of going out
+and curling back around.
+>> There's a lot of a lot of little
+interesting nuances. Like we did costics
+costics costics costics costics costics
+costics costics costics. [music]
+>> Dude, I love that shot of the school of
+fish and how you actually see the
+refraction distort where they are.
+>> Dude, that shot took forever to get
+approved.
+>> Really?
+>> Really? [laughter]
+>> What was the challenge?
+>> Well, it was the animation to trying to
+make it feel real and believable. So,
+with the school of fish, you got a
+breakdown here for it.
+>> Yeah. Goldfish. Goldfish. New goldfish
+sandwich snackers is peanut butter
+>> goldfish.
+>> This is called post viz. So post viz has
+helped us to inform with the feeling of
+the shot that we want. So now I'm
+working with ILP to figure out, okay,
+now let's make this come to reality.
+Right? So we start with animation. Now
+we're seeing the actual school of fish
+have a little bit more specificity with
+the motion. And we're also seeing Momo
+now actually animated in the shot. He's
+got animation. He was in the original
+one,
+>> but just as like a little guy just kind
+of moving around. That was like timing
+and placement. Right
+>> now we're starting to articulate the
+animation more so where we can really
+figure out like what are going to be the
+beats? What's the timing? Does it work
+with guitars arm motion? How they're
+reacting? Does Momo need to react more?
+So this is now just helping us refine
+and figure out like how are we going to
+pull this off to make sure everybody
+feels integrated seamlessly into this
+event. I can't help but notice they're
+on a blue screen and there's a lot of
+like rocky ground and it doesn't really
+seem like much of that rocky ground is
+left behind in the final shot. The more
+that we can have stuff in camera, even
+if we replace it all, it's only going to
+help what we replace it with look that
+much better. And yeah, it's all shot
+outside. So, our rule of thumb is if you
+want daytime lighting, you need to go
+outside and you need to shoot outside.
+We really don't want to spend time
+shooting on a blue screen for daylight.
+We really want that direct sunlight
+feeling and then that gives us the basis
+to be able to extend outward. It gives
+us that much more chance of success if
+you start by filming daytime for uh
+outside.
+>> If it's supposed to be outside, shoot it
+outside.
+>> Exactly. One thing that we do that
+typically maybe a lot of uh productions
+do not do, we have a a scanning guy with
+us while filming and we're doing what we
+call set scans. So they do LAR, but
+we'll have a guy jump out there in
+between takes and he can just be
+scanning and scanning and scanning.
+>> Ah, I see you have a per shot scan.
+>> Yeah.
+>> Oh, how interesting.
+>> Yeah.
+>> Has that come in handy?
+>> Oh, it comes in way handy because guess
+what? When you're up on the peninsula
+and there's rocks and stuff. If a camera
+needs to go here, they're like, "Move
+that rock. Camera goes there." Oh [ __ ]
+now we're wide again. That rock gets
+moved back.
+>> But not exactly the way.
+>> Yeah. Yeah. If if you just show up and
+scan it as is, you might get the data
+back and be like, "That rock's doesn't
+line up because because someone moved
+the rock."
+>> A per shot scan. I've never heard of
+that.
+>> Oh, this is the serpent.
+>> I LOVE THAT SHOT. OH MY GOD, THAT'S SO
+SICK. LOOK AT
+>> THE LONG LENS. OH, it's just so good.
+>> That was That was like wallpaper worthy.
+>> And we don't do slow-mo often in our
+show, but this was the right moment for
+it.
+>> So tactile. Look at the detail is crazy.
+That's a full digi double ang, right?
+>> Yeah, that's a full digi double ang.
+>> Cuz you've got him filmed here, but then
+what I'm seeing here is a different
+motion from the performance. So So you
+basically it's almost reference then for
+you there. It's easier to fully replace.
+>> Yeah.
+>> I mean, you must have a real good model
+of a than
+>> There you go.
+>> There you go. That thing looks great. Oh
+my gosh. So basically we have a really
+cool pipeline that we started back in
+Stranger Things on season 4. Clear Angle
+has this really cool system where they
+they capture them in this like cage. We
+basically model them in the cage and I
+can switch between the real A and the CG
+and it just helps us get so dialed in.
+Typically with all of us shows that I've
+been on, we've always asked the producer
+like, "Hey, let us build the main
+characters at the A quality in case we
+get in trouble."
+>> Mhm.
+The serpent in the actual cartoon, it
+looks like a seahorse. Basically, we
+use, if you look at the spine, he's got
+a seahorse spine. We used a whale for
+the eye. We used the eel. We used the
+elephant to help us with the detail and
+the scale of the skin.
+>> We used I think it's called a lizard
+fairing that has like these flappy ears,
+I guess you'd call it.
+>> Her riding the water. Yeah. The
+surfboard. The surfboard's great. She
+was on a skateboard and a a blue guy was
+holding her up. [laughter]
+>> Oh, you weren't kidding. It's literally
+a guy holding the board. That's amazing.
+He's strong.
+>> She's on wires. Uh
+>> oh, I didn't see [laughter] the wires. I
+was like, dang, this dude's jacked out
+of his mind. Who is this guy?
+>> I mean, he's the blue guy. I mean, he is
+strong,
+>> but so so he's kind of like directing a
+little bit of that sort of motion for
+the the board itself as opposed to
+getting like a big like animatronic buck
+type thing that she would have to ride.
+It's like why do that when you can just
+have someone push a little bit on the
+board, you know? [music]
+>> Yeah, that's one of the best shots.
+>> That was so cool.
+>> Yeah,
+>> the frosty detail.
+>> Oh, I feel like I could just touch it. I
+feel like I could get my tongue stuck on
+it. I love how there's two different
+layers of frost forming. You get the
+initial one, lots of light scattering
+through it, and then the second one
+forming on top of it, adding to the
+thickness,
+>> and you also have the water splashing
+off of it.
+>> This is Sim City for real, man.
+>> Oh, yeah.
+>> These shots are tricky is when it's
+digital to a, you know.
+>> Oh, a takeover.
+>> Yeah, those are super super tricky.
+>> Where is the takeover mostly happening?
+Is it kind of over a few frames? Is it a
+single frame or is it like several
+seconds? It's definitely a couple of
+frames.
+>> If I was doing this, it would be the
+landing. Like you'd basically have the
+actor kind of come in and just do a
+landing and then that's where the
+takeover would happen.
+>> Yeah. He ran. He was on like a cool
+little like a little platform and he
+jumps off and lands and then Yeah, we
+blend right into that.
+>> Okay.
+>> I can walk you through a little bit with
+our methodology for the earth bending. I
+didn't want like a rocks to look like
+they are just waiting to be pulled out
+of the ground. So what we do is we took
+the rocks and imagine if you took rocks
+and you compressed them together with
+the earth underneath. So if you look at
+our rocks, it looks like it's several
+rocks that have been compressed together
+with dirt and small rocks and detail.
+And you can see there when he's lifting
+out of the ground, you can see it him
+finishing the compression.
+>> Yeah, I noticed that.
+>> We noticed in the cartoon, it happens a
+lot in the cartoon like the debris and
+stuff just kind of disappears. So, if
+you think about this whole sequence up
+to this point of all the rocks and
+everything going everywhere, why isn't
+there like stuff everywhere?
+>> I was wondering why there aren't like
+more holes in the ground. Like, that was
+a big boulder that just came out of the
+ground. Where's What is the
+>> So, in season one, we realized if we
+actually do what you're really meant to
+do, then we're going to have a so many
+more shots. So, the rocks are healing
+themselves back into the ground.
+>> And so, we we selectively find shots to
+tell that story. So your brain thinks
+like that's why the rocks aren't all
+there.
+>> Yeah.
+>> Wow. This is really cool.
+>> So for this shot here, like even for
+something like this, the whole that
+whole rock thing under his stomach,
+that's all CG there. There's no like
+practical thing. You
+>> That's all CG.
+>> Yeah. Okay. And it looks really good.
+>> That's cool. Yes. That's cool.
+>> So what? Okay. That's so cool. There's
+like so many different layers to this
+shot here, too, because you have
+obviously the big rocks, but then you
+also have smaller rocks, and then you
+also have really small rocks, and then
+you have powder and and dust in the air,
+and it's all forming together to make
+one cohesive like rock burst.
+>> I'm the greatest EARTH BENDER IN THE
+WORLD.
+>> That is beautiful.
+>> Yeah.
+>> This is an interesting thing. You
+mentioned shooting outside when you need
+sunlight, but this is a particularly
+interesting case that looks like it was
+real.
+>> That's all CG.
+>> Wow.
+>> Look at that. It's so good.
+>> How we did this was prior to filming, we
+created this like lowres time lapse that
+I could then use in these lights. We
+used these really cool like LED lights
+where I would feed this video in and
+push light onto the actors, right? So we
+would get all the lighting on them and I
+was hand animating and just by changing
+frame rate so the timelapse would start
+going faster.
+>> And then basically the director be like,
+"Okay, cut. Now we're going to change it
+to this angle." And I would have to
+repeat manually exactly what I did.
+>> Uhhuh.
+>> And I was just doing that all day long.
+That's what I did all day long. They
+called me the DJ Marion because I was
+[laughter]
+>> So then that way the actual simulation
+of the clouds and the angle of the sun
+matches what you guys captured on set.
+>> Exactly.
+What are these things?
+>> We got a whole host of opas.
+>> What the heck? Oh,
+>> what the heck?
+>> They're baby opas. So, imagine having
+five little kids on set and having to
+figure out what each little child can
+do. So, Heromi Kamada, the director for
+this, she was able to figure out exactly
+like what each child could actually do
+and perform. Like what child could do
+what. The little guy that just runs
+right here, that's all he can do.
+[laughter]
+I mean, that was it. The girl in the
+beginning, she was able to hug OA. You
+know, we had a a practical opa there for
+occlusions and interaction with. There's
+a tongue there. There's a guy with a
+blue tongue.
+>> He's [laughter] the entire tongue with
+his arm.
+>> Oh my gosh. Is that the [laughter] Is
+that the buff blue guy from earlier or
+did you find another guy?
+>> That's actually another guy. Let's go.
+>> Like these are visual effects for like
+TV. Like that's crazy.
+>> Yeah.
+>> How do we do How how do we come this
+far?
+>> Obviously, they're giving us the proper
+budgets. We are getting, you know, a
+decent amount of time on on set to film.
+Although in television, it's still
+tricky because you're you're dealing
+with so much, you know, photography that
+you're having to to shoot, but uh but
+we're fortunate enough [music] to have a
+time frame that feels like a a movie. So
+that way we're able to uh do the things
+that we do in uh television these days.
+How many artists do you think worked on
+this season?
+>> There's thousands of artists working.
+>> Does that ever trip you out? There's
+thousands of people working and like
+it's it's coming to you.
+>> No, I mean it it doesn't trip me out. I
+mean, it gets me excited. I mean, I I
+hope everyone is excited as I I am about
+what I do. The one thing I try to
+encourage every day is for us all to
+have fun. If people aren't having fun,
+you're not going to get the best work
+out of people. It it definitely feels
+like this is a fun show and it it's very
+clear that there's a lot of heart and
+soul going into every shot.
+>> Means a lot for you guys to like it and
+talk [music] nicely about it. This was
+an honor. Well, Marian, thank you so
+much for joining us. This was an
+absolute pleasure. We'll see you next
+week.

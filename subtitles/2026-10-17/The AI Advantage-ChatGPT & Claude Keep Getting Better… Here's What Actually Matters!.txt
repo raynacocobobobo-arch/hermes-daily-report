@@ -1,0 +1,349 @@
+UP主：The AI Advantage
+标题：ChatGPT & Claude Keep Getting Better… Here's What Actually Matters!
+链接：https://www.youtube.com/watch?v=yWL93gjFNd8
+
+AI for consumers is really going through
+a renaissance right now. They're adding
+a new feature every day, changing the
+interface and it's messy. Overall, the
+direction is right though and things are
+getting more capable by today. So, in
+today's video, I really want to shine a
+spotlight on every little feature that
+they added in Chachip and Claude that I
+think matters and what changed cuz some
+things got removed too. I think this
+video is going to have something useful
+for everyone who has a Chachip or Claude
+account. So, let's get right into it.
+Starting by talking about GPT6 and the
+intelligent UI updates. This is a part
+of OpenAI's commitment to ship a new
+feature every day throughout October.
+And I think this is the biggest one.
+That's why we start here. So high level,
+this is an update that if you ask chat
+GPT question doesn't just come back with
+text or image, it comes back with a
+custom mini application. For example, if
+you want to break down the design of a
+bike, well all of a sudden you can kind
+of look at its components like this. Or
+when you want to plan a road trip, you
+might have gotten recommendations with
+some images and a plan like this. And
+now you get the same images, but map
+with the road trip route laid out for
+you and then the plan presented like
+this. Now let's give it a quick look
+inside of chat as this is available to
+everybody as of October 8th, including
+the free plans. Let's just ask it how a
+combustion engine works and see what it
+comes back with. Mind you, we were
+inside of the default chat mode. And as
+you see, it starts out by giving you the
+normal response, but there's also a
+change in how things are presented.
+First, it just loads text so you have
+something to consume immediately. Then
+it follows up with images. And then
+unlike step four, it starts making this
+custom little interface that shows you
+how it works. You can zoom out a little
+bit. We can see the whole thing. It's
+four steps. It just illustrated this
+just for me. And it even included a
+quick knowledge check quiz here in the
+end. You can see that's very different
+from a wall of text. Now, I recently got
+curious about boats and how those
+engines differ from cars. So, I'll just
+ask that. You can see I get text
+instantly, images second later, and it's
+kind of updating what it does. As the
+thinking progresses, you immediately get
+results. Now, see, it's searching six
+websites and presenting more and more,
+but I can basically start consuming
+immediately. And in this case, it
+decided not to give me one of these
+interactive visuals. One more thing I
+want to note here. All of this is
+powered by the new GPT6 as they call it
+inside of chat which caused some
+confusion because if you're in the work
+tab you have all of these different
+models like Saul and Astra and GPT6.
+Basically what the deal is that if
+you're in chat it's going to be in GPT6
+by default. And what it means is that if
+you're in a free or a go plan it's going
+to be using GPT6 Luna. And if you're in
+the pro or higher plan it's going to be
+using the Saul model. If you're confused
+by all of these levels don't worry about
+it. Just keep it on GPT6 and know that
+if you're doing harder tasks, you can
+always crank up this thinking lever.
+Super nice quality of life updates
+inside of chat GBT here. And I think
+this shows a direction where in the
+future more and more AI outputs are
+going to be custommade for you, not just
+text, but applications. Next update is a
+super quick one, and it's very limited.
+Right now, it's Mac only, pro, and
+business plans only. So, you got to pay
+at least $100 a month. But if you have
+that, they started rolling out a chat
+GPT meetings feature which if I go into
+the plugins on my Mac desktop app on the
+pro plan here, you can find this
+meetings in beta. And if you add this,
+you can basically cancel your
+subscription to any meeting services and
+just use the chat GPT app. It's crazy.
+Every week they're just consuming more
+and more startups and just adding them
+as features. And now you can see I have
+this new meeting sidebar option. If I
+take notes, it starts it. And one really
+cool thing that some of the best meeting
+notetakers like Granola out there have
+is you can actually go into the meeting
+and take notes as I speak and add
+context here. And then as it processes
+it will have the summary and your notes
+in one. And all of it is created in a
+chat GPT page which they shipped last
+week at dev day which are basically
+markdown documents in your account. And
+pages now come with all sorts of
+features like you could have scheduled
+tasks dedicated to the page that I don't
+know update the page you could do image
+generation all this stuff in there. Next
+up, on a similar note, I wanted to show
+you this inside of sites. We kind of
+discovered this while poking around.
+Whatever site you go to, I'll just pick
+this random one that I've been testing
+earlier this week. You can go to free
+dots and then settings. And then here's
+a few things I wasn't aware of before.
+You guys notice there's a database built
+into sites now. I don't think this was a
+thing. There's also schedule tasks
+related to the site. So, the site could
+keep updating itself or running some
+sort of process regularly. And you can
+also do custom domains in here. So, you
+could literally just use chat to stand
+up simple personal websites. You don't
+even need an external tool anymore. Just
+add your custom domain and you can even
+add a form where the responses are saved
+in the database. Pretty neat. Next up,
+new feature in chat GPT again. And I
+think this one is very good to be aware
+of. You can now upload audio files,
+which is something that wasn't possible
+before. In this case, I have a 43minute
+recording of a preparatory meeting for
+this YouTube video. I'm going to drag
+and drop it into chat GPT like so. And
+let's just say summarize this. I'll just
+turn down the reasoning efforts. This is
+a summarization. and we don't need the
+high thinking. And this was very
+confusing because I ran it in both chat
+and work with different models. We tried
+different accounts on a business
+account. I have a pro account. It could
+process the audio file, but as you can
+see here, it could not actually get the
+transcript. This is supposed to be
+rolled out already. So, I don't know.
+Maybe try it in your account. Let me
+know if it works for you in the comment
+section. For me, as of now, still
+doesn't work. So, I'll keep using my
+transcription app that I self-built. All
+right. Next super quick feature. This is
+a mobile thing. If you update your
+chatbt app, you know how there's these
+certain applications that allow you to
+scan documents really cleanly? Well, now
+that's built into chat GBT. It's very
+simple. If you open up chat and then you
+click plus and then camera, that's me.
+If you click the three dots, then the
+first option is scanned. You see that
+scan? And if I select that, basically go
+here and it recognizes the page. If I
+hold it up correctly, boom, and it got
+it. Now the file is a clean and edited
+scan that I can now use. Good to know.
+Okay. Next up is for anybody using
+Google Sheets who never bothered to
+learn all the details um like including
+me. There's a new Claude extension which
+is really simple. Under extensions, you
+just go to add-ons, then you search for
+the Claude add-on. It's this one. And
+once you install it, extensions extends
+with this Claude add-on that you can
+open. And there it is, a new sidebar.
+Now you have Claude directly linked to
+these docs and also it's trained on
+them. So it's going to be particularly
+good. You just got to set up this
+one-time connection with your account.
+And this is the best way to use Claude
+with Google Docs now. Simple as that.
+and included on all paid plans. This
+thing works across Docs, Sheets, and
+Slides, by the way. Enjoy. And as we're
+here, another Google Docs update.
+Finally, they did this. It supports
+Markdown now. Check it out. Whatever I
+write here, maybe I formatted as a
+heading and then a subheading. I can go
+to file, download, and there's markdown.
+Now, you can also import markdown files.
+But finally, they made this available.
+Look at that clean markdown file in my
+Oh my god, we always had to use all of
+these external applications or notion or
+whatever. It's just in Google Docs now.
+default markdown editor for the world. I
+love this one. We'll be using this,
+teaching with this. Great stuff. And
+hey, if you're interested in not just
+hearing about AI, but actually doing
+things, well, as you might know, I run
+this community called the AI Advantage
+Club. And in there, just earlier this
+week, I had a master class where for 1
+hour I showed everyone how to set up and
+refine a daily brief connected to all of
+your digital info sources. If you have
+that, great. If you don't, I break it
+down and make it as simple as possible.
+And then, and this is why I'm showing
+this to you, I showed the people how to
+turn your daily brief into a 3D asset
+where it represents your calendar and
+all your top priorities in a 3D
+environment. And I wanted to really show
+you what the community did with that in
+there because some people came back and
+they made their own version of it. So,
+look right here. Tim created his own
+pocket office, which is a floating
+island with different rooms. Check it
+out. This is his fun room, the man cave,
+with all of his priorities on the shelf
+back here. And that was him customizing
+the example that I taught in the master
+class, which was this inbox room, which
+as you can see is a replica of this room
+that I'm recording in right now. I
+thought this was such a great, useful,
+and fun class that I wanted you to know
+about it. If you have interest in it,
+you can join the club. The first month
+is just $1. If you go to the recordings,
+the master class is right there. It's
+one of the funnest things I've made
+recently. And I hope you too can make a
+pocket office where you're sitting in
+your calendar room with a glass of
+whiskey like I am right here. And if we
+zoom out, this is what my whole castle
+looks like. Such a fun class, honestly.
+All right, back to the video. Okay,
+final two quick stories, and these are
+basically a bit separate, but very
+interesting, too. One of them pertains
+to Claude. They removed co-work. They
+announced this a while ago, but it's
+gone. It's just melted into one
+experience. So, when it needs co-work
+like features like planning and longer
+runs and more connections and also the
+context management that comes with
+co-work, it just switches to that
+internally. you don't have to make the
+selection yourself anymore, which makes
+for such a clean user experience. I love
+it. But it's also confusing because now
+some of the schedule tasks that you had
+in co-work that had other permissions
+now merged like I will just have to
+rediscover what limitations are on this
+thing when it comes to specific
+connectors, especially over the next few
+weeks. But basically, this is a very
+welcome update. And similarly also for
+the scheduled tasks, they don't allow
+local only scheduled tasks. So if you
+run local scheduled tasks in the desktop
+app now they're also running in the
+cloud so they can stay always on.
+Honestly this transition is a bit
+confusing but it's the right direction
+the right vision and chat GPD with all
+of the things they're shipping they're
+also trying to make things simpler and
+better. So we're going to keep an eye on
+that over the next month as this whole
+chat work codecs projects and sites and
+files and desktop app can do this but it
+gets confusing. So they're on a route to
+simplifying it and Claude is kind of
+leading the way in that here. And
+finally, the last story that I want to
+talk about here is really this tweet
+from Elon where he said that Grockbot,
+which we talked about before, which is
+basically Xi's version of DOTS, right
+now the biggest limitation to it was
+that it only runs on their models and
+Elon basically tweeted that it's going
+to open up to all other models. So if
+you want to use GPT 5.5 for text
+generation and codew writing but you
+want to use Astro for computer use but
+you want to use Mjourney for image
+generation you will be able to do that
+with the interface of Grockbot which
+basically splits out different tasks in
+your live to different bots which you
+can think of as different employees.
+We'll be talking about it more and more
+on this channel. So keep an eye out for
+that. But this update is super exciting.
+I think especially for the power users
+this is going to be the tool of choice.
+It's probably going to cost more than
+you're going to pay on a subscription
+with OpenAI or Entropic. I mean,
+obviously they're going to have to plug
+into all of these sources, but you're
+going to get the biggest flexibility. I
+think consumers will still end up with
+OpenAI or Claude just because it's going
+to be so simple and so cheap to do it.
+Okay, that's pretty much everything for
+this week. There's a lot going on, but I
+hope you found something useful that you
+will use in your day-to-day to get you
+closer to your goals. My name is Eigor,
+and I hope you have a wonderful week.
+[music]
+stories you actually care about. A
+[music] I news you can use
+here to help you
+figure it

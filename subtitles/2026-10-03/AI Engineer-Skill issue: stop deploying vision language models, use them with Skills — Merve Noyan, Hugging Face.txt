@@ -1,0 +1,419 @@
+UP主：AI Engineer
+标题：Skill issue: stop deploying vision language models, use them with Skills — Merve Noyan, Hugging Face
+链接：https://www.youtube.com/watch?v=dKcTBQzR7jI
+
+Hello and welcome to this talk on skill
+issue. It's actually no longer a skill
+issue. So uh by the end of this talk you
+will be able to build a lot with the
+vision models if you are already not
+doing it. So shortly about me, I'm Marv.
+Uh I've been working on computer vision
+since Lava in the fix times. Uh and
+lately I work on more agents and
+ondevice stuff because I'm a bit
+fascinated and I love vision language
+models so much that I even wrote a book
+on it. But I don't want developers to
+directly use vision language models
+anymore. And uh I want every single
+developer to start uh building vision
+langu vision applications end to end.
+And this talk is going to give you like
+a good baseline to do so.
+And common behaviors I observe with the
+developers is the fact that they try to
+use vision language models for
+everything but they you will never get
+real time. And when I mentioned real
+time, it's like you have a toaster and
+you get like 30 40 fps uh on it like
+whatever whether you are building like
+image classification, instance
+segmentation or whatever.
+And um they are not super robust in
+terms of like if you were to train like
+an RFDTR which Joseph spoke in the I
+spoke about in the first talk um it will
+always outperform your vision language
+model and I'm going to prove it today.
+And uh on the right hand side you can
+actually see me uh doing stuff with
+RFDTR.
+Um and another thing is that they don't
+read the licenses. Everybody's like
+whenever I post something about object
+detection, they always ask me about
+YOLO. Like YOLO is a good model. Uh but
+it's a it has AGPL 3.0 license I think.
+And I could swear on my life that there
+is like some developers that actually
+deploy it without knowing that they have
+to pay for it. Um so yeah like uh I want
+you to migrate to Apache 2.0 models
+today.
+And for this I have built something
+called web vision and it's kind of
+inspired by this post by Mazar.
+Basically what he does is that he gives
+um SAM 3.1 model as a tool to Gemma 4 to
+call and I find it super impressive. Um
+and today I built like a tool kit uh
+where you can do this with like even
+more things.
+So I'm kind of distilling myself. Um
+first off uh this toolkit has my
+favorite models as tools uh so that you
+can give it to your agent because your
+coding agent is a bit of a clueless
+computer vision engineer basically. Um
+and when I distill myself basically like
+whenever I pick a model I always check
+the following. So first up the license
+is the biggest priority for me. It has
+to be Apache 2.2 MIT or something
+non-commercial. Uh secondly uh the
+performance has to be on par uh
+depending on its size or architectural
+choices. So I check from the benchmarks
+uh whenever a model from a computer
+vision conference comes out and third
+vibes obviously
+and so this toolkit has a second part to
+it and it's a bit like a vibe training
+part which is the most exciting part. So
+I will go through it first. So I put
+myself in developers shoes to build like
+a vision application. Um if I have
+labeled images easy I can just train a
+model or like if I I can give my
+computer computer vision agent some
+tutorials uh to do that because it's all
+out there like we built transformers for
+it. Uh but if I have images only I have
+to annotate uh and then uh evaluate the
+annotations and then just train a model.
+But how can you do it on scale? You can
+actually use a vision language model as
+a labeler and the vision language models
+as judge and then train what you want.
+But how does this pipeline look like?
+So basically I built this and it has
+like it has VLM for labeling VLM as a
+judge and then training. Uh it's a bit
+of a long horizon tasks for coding
+agents and it has infra many
+infrastructure support. You can do this
+locally. You can do this uh remotely. So
+basically it runs on hugging face
+infrastructure. We have jobs that allow
+you to do oneoff batch processing or
+training. We also have like a serverless
+routing system called inference
+providers where you can use multiple
+providers and you we also have like
+buckets to dump intermediate data on top
+of the data set repositories, model
+repositories and so on.
+Um but what enables this work? First
+off, my favorite model, RFDTR, RFDTR
+segmentation. I'm currently working on
+segmentation at the moment. Um, we have
+better agents for long horizon tasks.
+Uh, that, you know, you have to babysit
+the labeling process, the training
+process, etc. Uh, and smaller yet more
+capable vision models enable you to
+label stuff very cheaply. And also with
+transformers we went for V5 refactoring
+etc. So like it performs better for
+vision models at the moment.
+And this is how the pipeline actually
+looks like. So first up I label the data
+set like I take an image data set like
+any image data set. I label that image
+data set with Q1 3.59B
+and then I pass the labeled data set to
+two judges. First one is Gemma 4 E4B
+which is like an 8B judge and then the
+second one is LFM 2.5VL which is nearly
+2B uh it's relatively smaller basically
+I checked the research and it's better
+to have like an ensemble smaller judges
+and on top of it I merged the judgments
+so I also checked the research around it
+and most of the people ask the VLM or
+LLM to assign some score to it but those
+scores absolutely absolutely don't work
+especially if your models are of
+different size with judges. Um and then
+I pass it to train RFDTR medium or
+large. So I I chatted a bit with Rob
+people and they encouraged to use that
+and I'm going it it actually works. I'm
+going to show you very shortly. U but
+how does it work? So you take the
+repository and then you just ask it okay
+can you train it? Can you do the
+training on this data set on hub? And
+then it will start like if if the data
+set has labels like you can actually
+just get to training but if it doesn't
+have it you can just uh start annotating
+and I basically like the trick is I I
+pass the overlaid bounding boxes on
+images to the judge. So basically Qan
+technically outputs bounding boxes as
+tokens. I don't pass them. I just
+overlay the bounding boxes and I pass
+that image on top of some labels and
+label descriptions and I say okay if
+this label description has bounding box
+on it then just um tell me if you
+approve or not and then the judge I I
+merge the judge verdicts over minimum
+agreement and not consensus which I will
+come to why I did that that way and
+these label descriptions are also
+generated by coding agents. and you just
+approve it as a human being.
+And the the models that I used in this
+pipeline all have Apache 2.0 of licenses
+except for LFM model which has type of
+license where you are kind of um if you
+have like certain amount of revenue
+after that you pay for it but you can
+comfortably use it it's large and for
+the coding agents that are babysitting
+this pipeline uh I initially built with
+oppus 4.6 uh 8 and then ran the workflow
+with the G gl GLM 5.2 2 which is doing a
+good job on long horizon tasks to be
+honest
+and for infra I actually work at hugging
+face I have a lot of compute credits and
+I'm super impatient in life so like uh I
+use a good amount of hardware for
+experimentations but I benchmarked it
+and overall it takes like three four
+dollars if you want to run this entire
+pipeline to train models which to me is
+crazy initially for Q1 3.5 5 I used
+serverless because I was like okay this
+is convenient and it's super cheap so I
+use deep infra which is super super
+cheap if you were to use together it's
+better if you do batch processing over
+jobs and then for the judging I used
+hugging face jobs which cost less and
+then for training again I used like an
+L4 but the model is super small like
+RFDTR is super small and you can just
+use something else you can do it locally
+if you wanted to. I'm just impatient. I
+want a big batch size. So yeah,
+and I tested in two problems. First of
+the road sign detection. Uh secondly,
+document parsing. For the road sign
+detection one, I already have the
+labels. So like I actually compared
+against the ground truth annotations if
+my pipeline works or not. And for
+document parsing, I actually uh couldn't
+do it because basically I use like a
+docqa data set and I the problem is like
+I want to extract the images, tables, I
+don't know signatures and stuff. So it's
+like a novel task and I wanted to see if
+RFDTR can actually learn it.
+So first result it works. So yay. um we
+have like a good uh mean average
+precision over um 50 um and I compare it
+against the basically I have a test set
+and I take that test set and pass
+through QN and then I compare against
+the pseudo notations and the ground root
+annotations of that test set there is a
+bit of a gap but it's kind of expected
+because it's learned from QN and also uh
+rock oak is also like a good value to be
+frank for like such use case. Um and for
+the document parsing it actually
+generalizes which to me is crazy.
+Basically uh here the trained model
+output you can see that it detected the
+signature. Meanwhile the QN annotation
+of that test set missed it. So I would
+like to say it actually generalizes very
+well as well. uh but we owe this to like
+the how good RFDTR is as a backbone in a
+way
+and here you can also see how it uh
+captures the images technically
+um and it's like oneonone
+and while I was building this I actually
+noticed that I was clueless about
+building with vision agents um so I have
+bunch of findings around it um so first
+up there is a huge judge imbalance so
+for depending on the problem. LFM tends
+to reject a lot. That's why I couldn't
+take the consensus because if I were to
+if I were to eliminate everything that
+both LFM and Gemma agreed to remove, um
+I would left with very very little
+number of examples which would leave me
+with very poor generalization. So what I
+did was that okay, if one of them says
+yes, I'm going to take that example and
+nevertheless it worked well. If you have
+a large data set and if you care about
+the recall, I suggest that you take the
+consensus or like just observe for
+document parsing the gap isn't as big.
+And secondly, uh the prompt generation
+is a bit hard. So like this is the only
+part where as a human you have to
+approve uh okay the model generates the
+prompts for you for the judge uh and
+then you will say okay this I I approve
+this because you need to to take it
+still take a look at it uh take a look
+at your data set a little there's no
+escaping that
+um and thirdly and this is super
+interesting because your co your coding
+agent despite no matter how uh good it
+is. Like you take OPUS 4.8 which is like
+a very good coding agent. Um it's
+clueless as a computer vision engineer
+as well as it misses common sense. For
+instance like it was doing like
+horizontal flip over the traffic signs
+or it was doing like jitter over the
+traffic lights which will definitely
+corrupt your data set and break it. So I
+patched this later. So you can just say
+okay I don't want to augment or I can
+augment. So Angular coding agent will
+help you with that.
+And lastly the second part of this
+toolkit is my preferred models as tools.
+Um so this repository covers my favorite
+models from depth estimation to zero
+shot segmentation.
+Uh and this is partially powered by
+first of hugging face benchmarks uh
+which we recently rolled out maybe a few
+months ago. Basically every single
+basically we have like a benchmark
+leaderboard and over there you have the
+open models as well as their evaluation
+results and you can compare different
+models of different sizes. So um I keep
+it up to date as well but like also it's
+partially powered by me who likes to
+read the um computer vision conference
+papers.
+Um, so I would like to give a shout out
+to this model because not a lot of
+people know about this. So basically Sam
+cannot do open-ended reference se uh
+segmentation like you can do like okay
+segment this red car and it will do it.
+But if you say okay the red car next to
+the orange car that is next to the blue
+car it will not do that. and Falcon
+perception which is a model by TIA um
+can actually do it and it's only like
+600 million parameters with Apache 2.0
+license. So this one does the zero shot
+segmentation for me and this is like a
+non-exhaustive list. So for posing we
+have the sapiance family um for the
+human centric tasks where you need to do
+human koid detection human um depth
+estimation and so on and for zero shot
+detection uh I have moon dream 3 and mm
+grounding dynino which is like a model
+with apache 2.0 license is also very
+good. It's very small compared to Moon
+Dream. I give you the multiple models in
+multiple sizes depending on your
+hardware that you can pick like if you
+want to go fast just pick the tiny
+alternative.
+Um for OCR I actually took them from the
+OCR benchmark in different sizes and for
+depth estimation I actually uh
+discovered that the large model doesn't
+have a non-commercial license and the
+rest of them have it. So you can
+actually use it. That one has like an
+Apache 2.0 license. And it also comes
+with um supervision and tracker support.
+They are both uh libraries from Roboflow
+that um allow you to do tracking of
+instances, bounding boxes and so on
+and future plans. So first off, I I
+could hear you say, okay, this will
+definitely not work for the industry use
+cases because industry use cases have
+different parts. it has like
+nondescribable parts like natural
+language is not a good gateway to it. Um
+so I think in that sense image guided
+detection could help like if you don't
+know about image guided detection you
+basically have like instance of an image
+like a haggi here as an example and then
+you ask the model okay detect this
+object in this image um across all of
+the images. I feel like it could
+actually somewhat help in the industry
+use cases where you cannot describe it
+by like um natural language.
+Um as well as I want to try um
+intersection over union merger sort of
+basically you have like labeled boxes
+and then judges boxes like you ask the
+judge to actually generate a box and
+then you take the intersection over
+union instead of asking judge to reject
+or accept and I'm working currently
+working on the segmentation support
+and thanks for listening if you want to
+actually learn more so basically I We
+have a small vision repository. It has
+everything about like fine-tuning
+models, quantizing models, multimodel
+models, everything around vision. Uh as
+well as transformers task guides. We
+keep them up to date has many um
+tutorials. Um, we also have hugging face
+skills that actually have computer
+vision specific skills as well as the
+infras skills that you can just do like
+a one prompt training. Again, um, and
+this is my Twitter profile and this repo
+is actually at GitHub Marvin uh, vision
+intern. I think I have qu um, time for
+one question.
+Thank you so much.
+Yes,
+>> you have plans for training.
+>> Um, he's asking if I have uh plans to
+train train VLMs themselves like a
+self-improvement type of thing. That
+would be super exciting. But first, I
+want to solve this thing of like
+developers actually training task
+specific models and then deploying on
+edge and then that could come perhaps.
+Maybe one more. Yes.
+>> Um, not really. I don't think so. I just
+use the because I wanted because a
+coding agent actually has the context. I
+wanted it to generate the prompt.
+Maybe one more.
+Okay. Thank you so much.

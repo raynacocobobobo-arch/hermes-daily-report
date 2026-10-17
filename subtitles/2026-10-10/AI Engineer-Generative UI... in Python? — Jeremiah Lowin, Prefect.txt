@@ -1,0 +1,524 @@
+UP主：AI Engineer
+标题：Generative UI... in Python? — Jeremiah Lowin, Prefect
+链接：https://www.youtube.com/watch?v=Krzs8GeiWTc
+
+[music]
+Good. Um, thank you all for for coming
+out. Um, I'm going to talk today about
+one of the weirdest pieces of software
+I've ever written. It's sort of on the
+edge of a whole lot of stuff I've been
+putting putting forward into the world.
+Um, so join me if you will. We're going
+to try and have the most reasoned
+approach to to a very strange thing that
+agents and MCP and other things have
+enabled. And so to begin, I want to talk
+about MCP apps. I don't know if any of
+you were able to join any of the other
+talks earlier today. Maybe the one that
+um Edo and Lead just gave maybe an hour
+ago. Just a show of hands. MCP apps
+familiarity.
+Okay, this is probably the best crowd
+I've ever given this talk to actually.
+So that's that's fantastic. Um, for
+those that didn't put their hands up,
+MCP apps is an extension of the MCP
+protocol that was introduced I think in
+January of this year. And the idea is
+this is a typical request response cycle
+for an MCP um tool. The user makes a
+request to the agent. The agent in turn
+decides to use an MCP tool that's hosted
+on an MCP server. A tool result comes
+back into the agent's context and the
+agent chooses to form some response and
+send it out to the user. And so
+fundamentally MCP servers are these
+fantastic ways of adding uh functions
+and business logic to your agents but
+never a direct connection between a user
+and the MCP server. It always goes
+through the brain of the agent and more
+importantly through the context window
+of the agent. So MCP apps are an
+extension of this which allow us
+actually to bypass the agent and instead
+what happens is the following. The user
+requests something from the agent. The
+agent uses a tool, but instead of that
+tool request going back to the agent, it
+is sent out to the user and it's sent
+out as HTML, CSS, JavaScript. It's a
+full UI and it can be whatever you want
+it to be. And so the idea is you have
+this way to make to basically put the
+internet into your agent, so to speak.
+You can ship any custom branded useful
+UI that you want. You can let the user
+have any interactive experience that
+they want. And then the user, as you can
+see in the diagram, the user now can
+interact with the application. they can
+use the tools, they can send information
+back into a backend host on that app and
+really get a full experience. You can
+imagine booking a table at a restaurant
+or um changing your seat on a plane or
+interacting with a schedule for AI
+engineer. There's a lot of things that
+you can do as a user now where the agent
+facilitated it, but you are going to
+interact as a human. And there's an
+extension coming now. This is going to
+come out in um in the July MCP release
+where the agent can actually interact
+with the app as well. And this will tee
+up some really interesting use cases
+we're not going to talk about today, but
+you could hypothetically play a game of
+chess against the agent now in a visual
+app where you make a move and then the
+agent interacts with the app as well.
+And so I think that's going to open up a
+whole new world of possibilities.
+Now um some of you may know a framework
+that that I'm the author of and my
+company maintains called FastMPP. Um
+fast MCP is one of the most popular ways
+of building MCP servers. And so whenever
+new cool things come to the world of
+MCP, the first thing I wonder is how can
+I deliver this to our users? And one of
+the most important things I have to
+share with you about our user base is
+that they're mostly Python engineers.
+And so and so this is a little bit of a
+problem when we want to deliver
+frontends and UIs because how are we
+actually going to do that? And this is
+the point in the talk where I reveal
+that I don't remember what the next
+slide exactly is. So we're going to take
+a peek at it. Nope, we're going to come
+back. Um, we we have we have a challenge
+now. Uh, how are we going to have have
+Python engineers build UIs that are best
+practice, that are interactive, that are
+beautiful, that are useful without
+pretending that we're going to do
+something silly, something that's been
+tried, and jam all of the front end, all
+of the ecosystem, everything into Python
+in some sort of like weird compromised
+haphazard Frankenstein of a system. And
+so I really struggled with this. I need
+I really need I feel an obligation to
+find a way to deliver this, but I I
+can't I can't pretend we're going to
+ship React and Python. It's not going to
+work. And so we thought pretty hard
+about who are our users in the fastmcp
+ecosystem. Who are these Python
+developers who tend to be in
+enterprises? What are they doing and
+what do they need these UIs for? What do
+they need these MCP apps for? Um what
+they don't need is consumer-grade custom
+UIs that are fully branded. That that's
+not what these folks are doing. what
+they are uh primarily charged with is
+sharing information throughout their
+throughout their organization for
+collecting information throughout their
+organization and so it changed the
+nature of what we expect them to do
+within MCP apps framework and that
+constraint became really useful so
+fundamentally we expect that they're
+going to do things like build tables
+they're going to collect information
+through forms and they're going to want
+to share charts and so fundamentally
+with this constraint we can introduce a
+piece of software that we open sourced a
+few months ago and has been surprisingly
+popular among this crowd called prefab
+and it's a scoped UI building framework
+for the purpose of delivering UIs
+through an agent for the set of purposes
+that I mentioned a moment ago. So this
+is a hello world card. You might see
+this in any front-end framework,
+literally anyone. It'll have something
+that looks like this and it's on their
+website and you you type your name in
+and it it updates live. But of course,
+the weird thing about this one is that
+the code that generated it is entirely
+written in Python. And so I hope that
+you're feeling what I feel when I look
+at this, which is a really weird
+combination of like, yes, that's cool,
+and this really freaks me out. The yes,
+that's cool, comes from the fact that I
+think there's something about this code,
+even if you can't see it up close, I can
+make it a little bigger. There's
+something about this that like kind of
+makes sense. You can see the structure
+of the of the of the UI in the code, but
+there's also something about it that's
+obviously alien and a little bit a
+little bit odd. And we come to this
+conclusion when you when you feel that
+when you look at it, which is that when
+you compose a front end in Python, it's
+actually starts to feel good as long as
+we scope the challenge right. We are not
+trying to build a front end from
+scratch. We are trying to compose a
+front end from a bunch of worldclass
+well-designed components. And that's how
+we keep the guardrails and that's how we
+keep the user in mind. The user here is
+not trying to do something arbitrary.
+They're trying to take a well structured
+front end and put it in front of um
+whomever they're delivering it to. And
+so here's a little quick tour of that
+DSL. Um primarily we're using context
+managers. For those of you who do know
+fastmcp, you know that arguably you
+could reduce fastmc down and say the
+core innovation of fastmcp is that we
+used a python decorator to build an
+entire MCP server. So if you want to
+take the same reductive approach to
+prefab, you could say we use a context
+manager to build an entire UI. And by
+nesting components with as context
+managers as you see here, we are
+building up the exact same structure in
+the UI. It feels very natural when you
+read it. You can see how things are
+structured. Um each element of the UI,
+each component, which is a beautiful
+shaden component when it's rendered, as
+you can see here, is a class that you
+instantiate. You can parameterize it.
+you can pass it stuff like CSS classes
+and and make it look however you want.
+And then the last thing which we're not
+going to have enough time to really
+explore today is these reactive
+variables. Um I'll show you a demo of
+those in a moment, but essentially we
+have a full way to um create client side
+interactivity and bind data between
+components that allows you to build
+these really rich experiences again
+without having to go fully into the
+JavaScript world and leave an ecosystem
+that my user base at least is extremely
+comfortable with. Um, and this is the
+pipeline that prefab is essentially
+exposing. We use a Python DSL that I
+just shared with you. We use that to
+build a declarative representation of a
+UI that then gets serialized into a JSON
+protocol. And that JSON protocol is
+ultimately rendered by a React app which
+is hosted as the actual MCP app. And so
+this is going to open up a whole lot of
+possibilities for us that again I'm
+going to show you in just a second. But
+the key to this whole thing is the JSON
+in the middle. The Python is actually an
+accident that I discovered after the
+fact because it was a weird
+idiosyncratic thing that I wanted. The
+point of this was can we create a
+serializable representation of a UI and
+that's the JSON protocol again. And
+because it's serializable, I can
+generate it from an agent. I can send it
+to an agent. I can generate it as a
+human and ask an agent to modify.
+There's all this cool stuff that happens
+because of that intermediate
+representation in JSON. And then when
+the when the Python DSL just fell out of
+this and was really beautiful and easy
+to use, I kind of felt like we had
+something
+So uh we have these docs and sort of to
+prove the point this was another
+constraint we took on this is I don't
+even know what this is this is a doc
+these are the docs for the data table
+component in prefab I think there's 130
+or 140 components that we ship that you
+can compose into an arbitrary form the
+docs for prefab are 100% rendered in
+prefab so the data table that's here in
+the basic usage it is live rendered in
+prefab the Python code you can see it
+sneaking in at the bottom of the screen
+that Python code is being rendered live
+by the renderer to generate that. If you
+want, you can take any example in the
+prefab docs, you can click a link, pop
+them into the playground, and you can
+edit the code live, the Python code
+live, and you will see the UI update.
+And again, this is super weird. If
+you're feeling a little uncomfortable
+about this, that is that is okay. It
+makes a lot more sense when we constrain
+the problem. And remember that we're
+composing a UI rather than building it.
+So, I want to bring this back to the
+thing I opened with now, which is MCP
+servers and more specifically MCP apps.
+You are welcome to use prefab for any
+kind of front-end problem you have. My
+team has started using it for small
+interactive data apps and things to
+explore. They've been building
+presentations with it. We ship a a dark
+mode theme that honestly looks kind of
+like the one I'm showing you right now
+to make slides and presentations. You
+can do a lot of stuff with it. But the
+reason we built it, the use case that it
+is satisfying is for MCP servers. And so
+um I want to give you a quick tour of
+three ways that you can use it, three
+increasingly sophisticated ways that you
+can use it in your MCP server. The first
+is to build an interactive tool. As I
+showed you at the beginning of the talk,
+typically an MCP tool is something your
+agent calls and the agent gets the
+result and you don't get to interact
+with it at all. So what's the easiest
+way that we can advance that that
+interactive functionality?
+I'm going to show you here. This is a
+fastm tool. It's been decorated with a
+tool decorator as you can see and it's
+just a Python function that returns some
+information. Bearing in mind this
+information will go to the agent, not
+the user. If we want to turn this into a
+fully interactive tool with prefab,
+we're going to make one change. Instead
+of returning a Python dictionary at the
+end, which will go to the agent, we're
+going to return a prefab component. In
+this case, it's the data table. These
+are the this is what I just showed you
+the docs for a moment ago. And when we
+return this prefab component, FastMPP
+will automatically detect that. It will
+automatically infer that you in fact
+want to return an MCP app. and it will
+spin up all the machinery to get the
+HTML, the JavaScript, the CSS, the
+render, everything in place so that your
+user will see a data table. Here's what
+this looks like in practice. This is
+using the goose client, which is an
+excellent one. Um, I asked a server that
+had the function I just uh showed you,
+show me the team directory. And what
+pops up uh this would be better as a
+GIF. I apologize, but what pops up is a
+fully interactive data table component.
+It supports um searching and filtering
+and sorting and pagionation and all this
+stuff. And all it is is what I showed
+you a moment ago. Just return the data
+table class and all this will be taken
+care of. We can go a step further. What
+if in addition to the data table, we
+want to show a pie chart right next to
+the data table that breaks down this
+team directory. As you might imagine,
+very, very, very similar code. Instead
+of the data table alone, we're now going
+to import a grid and a pie chart. And if
+you look at the bottom, you'll see that
+we compose both the pie chart and the
+data table into a grid very naturally
+with a context manager. And this is the
+result. we now get a pie chart next to
+our data table. So this follows a
+principle that we really try to hold in
+a lot of our software at Prefect, which
+is one line of code, one big noticeable
+change. We try to keep that complexity
+incremental. And so this satisfies a lot
+of things that I think are really
+important about frameworks and DSLs. Um,
+this is very quickly because we won't
+have time to go into it. This is just an
+example I threw together and recorded of
+fully client side interactivity where
+all of these controls are linked. Uh,
+stuff's updating, text is updating,
+values are updating. No JavaScript was
+written. This is just a couple of
+classes composed that all have the same
+attribute assigned. So they all work
+together automatically.
+Um, oh, and I did throw in a quick code
+example of what that looks like. We have
+a class called RX, which as you may
+guess stands for reactive. If you use
+these reactive variables, you can just
+reference them anywhere in your code.
+You can format them. You can you can
+make them the name of something and it
+will automatically compile into the
+correct uh JavaScript implementation.
+The second thing that we can do is a
+fastmcp app. So if an interactive tool
+is sort of a oneshot here's a user
+interface and you can interact with it
+in the client a fastmcp app is a full
+application with a backend and in this
+case the MCP server is going to be the
+back end. We don't have time to go
+through a full worked example in this
+session but here's what the code looks
+like just to give you a sense of the
+ergonomics. We're going to write a class
+which is our fastmcp app and then we're
+going to decorate at least two uh
+functions with app.ui UI. That's the
+entry point that's going to return the
+prefab components that form the base UI
+of that application. And then at least
+one, I guess this is optional, so zero
+or more um app.tools. And these are
+essentially backend methods that you can
+now reference in the UI. So you could
+have a button that takes data that the
+user has entered into a form and sends
+it to a database using a decorated tool
+like this. One thing that we use and we
+ship as a built-in component now in
+fastmcp
+is an upload component. So as you can
+see because only the agent has access to
+an MCP server you can't simply upload a
+file to an MCP server. It has to go
+through the brain of the agent. And so
+what ends up happening is a lot of
+people create basically an upload tool
+on their MCP server forget that the
+agent has to actually call it. And what
+you end up doing is the world's most
+expensive copy paste operation. You give
+the agent a megabyte of text. the agent
+retypes it character by character into
+the MCP and now yes in fact you have
+uploaded it but it's extremely extremely
+inefficient. So this is a really good
+use case for an MCP app where you ask
+the agent to bring up the app interface
+you drag a file into it and now the file
+bypasses the agent and goes right into
+the server. And we've made that a
+oneliner like this along with a handful
+of other um useful tools. And is this a
+gift? this is not a GIF or if it is it's
+not rendering but it would look like
+this in your client in any client that
+supports MCP apps if you ask the agent I
+need to upload something it can now show
+you this and you can upload safely and
+most importantly cheaply um oh I do have
+a gift mind know your own slides is a
+good lesson from this talk so here's the
+agent is now interacting with a file
+that I just uploaded that I dragged and
+dropped um I'll make these slides
+available later if you'd like to see
+this or of course it's a oneliner you
+could try it in your servers uh this
+afternoon. The last thing that I want to
+talk about which is sort of enabled by
+this architecture is a fully generative
+UI. Um, we're just going to skip and let
+this play while I talk. So, this is a
+very simple demo where I asked Claude,
+"Hey, just I'm giving a talk on this.
+Just start streaming the most
+interesting UI you can come up with."
+And so, it just went. And what it's
+doing here is we exposed a tool that
+accepts the JSON uh the protocol
+serialization of a UI that prefab is
+based on. And so now as the agent is
+streaming that information over the
+wire, we are in real time rendering
+whatever we've got, healing that JSON
+and rendering it. And so this was a
+really cool demo and it was really
+effective and people like this because
+now you don't even have to define the UI
+yourself. All you have to do is use the
+skill we already ship, share it with
+your agent so it knows how to write a UI
+and off it goes. It can make you
+whatever you want. There are some
+clients that have built-in versions of
+this. if they have a built-in version,
+you may prefer to use it by all means,
+but this may be a way for you to build
+your own custom uh approach or limited
+set of components that are useful to
+you. Now, a really interesting thing
+happened when we spun this up. So, as I
+mentioned, originally the plan was for
+the agent to send JSON over the wire and
+have it be rendered into this full React
+application.
+What we ended up discovering is that the
+Python representation of a UI is about
+70% smaller than the JSON
+representation.
+So we don't do this anymore. When I
+recorded this demo was streaming JSON.
+What we now do is we actually stream the
+Python over the wire. It's executed in a
+sandbox. It's turned into JSON on the
+server and then that's rendered. And so
+this has a dramatic dramatic token
+efficiency, cost, and latency uh
+benefit. So it would work exactly the
+same as when I recorded this demo, but
+this is just one of those things that
+we've learned on the fly. And it's
+really fascinating that the Python
+representation is just that much more
+compact and ergonomic than the full um
+JSON one. So um that's prefab. If you'd
+like to check it out, if you're curious,
+if you want to see the weirdest thing
+I've ever built um along with however
+other many people, you can see the docs
+at prefab.pref.io.
+You can see the full library uh which is
+on our GitHub here. And this is already
+fully baked into FastmcP. So, if you're
+using a recent version of FastMPP, you
+should be able to install this optional
+addition, uh, import the components,
+return them, and start playing with
+these MCP apps. Thank you all for
+coming. [applause]

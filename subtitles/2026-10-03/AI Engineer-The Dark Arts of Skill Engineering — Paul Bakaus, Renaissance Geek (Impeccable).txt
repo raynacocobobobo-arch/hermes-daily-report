@@ -1,0 +1,1519 @@
+UP主：AI Engineer
+标题：The Dark Arts of Skill Engineering — Paul Bakaus, Renaissance Geek (Impeccable)
+链接：https://www.youtube.com/watch?v=SQMCtZX3trg
+
+Hello everybody.
+How's it going?
+Okay, I think we still have some people
+trickling in, but
+I'm super excited to be here.
+Okay, first off, let me reload these
+slides because my claw code was still
+building something on it.
+Um, okay. So, the contrast is a little
+bit low. Um, so please bear with me. I'm
+going to try to cover uh what you cannot
+read as much as possible. Uh, I also
+have heard that the Wi-Fi is not the
+strongest. So um while it is a workshop
+uh hopefully you just do take away a lot
+of the lessons um and then can apply it
+whenever you want to. Um but I do have a
+sample repo if you want to follow along.
+Um okay first of all hi my name is Paul.
+Um I'm really glad you found your way
+into this room. Um I'm the author of
+Impeccable. Who here has used Impeccable
+by any chance? Can I see some hands?
+Okay, a few people. Nice. Um, so for
+those of you who have not used
+Impeccable, Impeccable is a skill that
+I've built for myself mainly. Um, I've
+built this large enterprise app uh over
+the last year and it has like lots of
+different views, states, whatever. Um,
+and I wanted to design really quickly
+with my agents with codecs with claw.
+But I noticed that uh even though it
+gets me quickly to something that I can
+look at, normalizing it back to the
+design system was really really
+challenging. So the first skill that
+I've built for myself was called
+normalize and it kind of like brought it
+brought whatever claw designed back to
+the design system. That's how I started
+and I also used Anthropics funed design
+skill like maybe many of you um when I
+first got going and from there on it
+kind of expanded into more and more
+design skills that allowed me to turn
+clawed code and then codecs and other
+harnesses more into a design harness. Um
+at some point I decided maybe other
+people might find uh um might find this
+useful as well. So I open sourced it as
+open source skill uh released it and it
+turns out a lot of you liked it. Um so
+if you haven't checked it out yet um uh
+yeah give it a go. Uh it's on
+impeccable.style.
+Um but today won't be a talk about
+impeccable per se. It will be about what
+I learned from making these skills
+because it kind of escalated. It started
+with like a simple prompt and then uh
+went all the way to what it is today.
+Um, a lot of people have looked at the
+code of Impeccable and they see like a
+whole bunch of scripts in the scripts
+folder and they're like, "What is all
+this stuff?" And so, um, I wanted to
+share some of my knowledge that I've
+gained with you. So, let's get into it.
+Uh, let's talk about the dark arts of
+skill engineering.
+[panting]
+Okay.
+Um
+yeah, the production value of this talk
+is out of this roof. Um okay, so first
+of all, you've all seen this kind of
+design. Um this is actually a real
+design uh built with uh the front end
+design skill uh and clawed code. Um and
+you probably all have seen a design like
+this. This is for like a fake kids
+reader, iPad reader app. Um you have
+italic serif. Uh you have like some
+capitalized
+uh hero. Um, and you have like a eyebrow
+text, like a kicker, whatever you want
+to call it. The top of it, like a weird
+label. Um, you have beige, I call it
+claw beige, claw beige, uh, backgrounds.
+Um, and now it's not necessarily a bad
+design, right? But I think you all can
+point this out and say like, well, this
+is clearly AI generated. It's clearly
+slop. Um, and it turns out slop is a
+moving target. Um you've all seen you
+might have thinking might have been
+thinking of slop as purple gradients but
+uh we've kind of moved on since that uh
+into cloud beige.
+Um okay so this is where I started. I
+started with a system prompt and a
+prayer basically. Um, so I I started
+using the front end design skill uh like
+many of you and it's like 55 lines of
+named bands. Uh, no scripts, no routing,
+pure pros, right? Uh, and you just hope
+for the best. Um, that sometimes worked
+and sometime and most of the time it
+didn't. So, um, for example, I'm just
+going to read some of this. So, um, if I
+mean maybe it's really readable, I don't
+know. Um but for example in the font and
+design skill you have sentences like
+never use generic AI aesthetics overused
+fonts like inter robboto arial system
+fonts um or cliched color schemes
+particularly purple gradients and white
+backgrounds uh never converge on common
+choices like space grotesque for example
+um now there are two problems with this
+approach the first one it over applies
+and then a ban just relocates the model
+to the next cluster and I'll show you
+why this is a problem a a little bit
+further down the road. But really, you
+tell it not to use in, it just uses the
+next best font it finds in its latent
+space. And so it doesn't actually make
+it more creative. It just, again, this
+is why I said slop is a moving target.
+It kind of picks the next best thing.
+Um, I have uh learned my lesson here um
+the hard way because uh I don't know if
+you noticed, but the reason why we got
+purple gradients in the first place is
+because of Tailwind. Taywin's default
+sample pages theme whatever was purple.
+Um well it turns out I've turned the web
+orange before many years before that. I
+created a framework called jQuery UI and
+the first default theme of jQuery UI was
+orange. So overnight I call it the web
+orange. I thought people would modify
+the theme but now they didn't. Um so I
+learned my lesson. Um okay the median is
+the model's gravity. Even 250 lines of
+like artisal, crafted, beautiful skill
+pros cannot change this. It's just not
+enough. It doesn't help enough, right?
+It's nowhere near enough. Um, and I
+learned this the hard way and hopefully
+you don't have to. Um, my overall thesis
+for this talk is that prompting is sort
+of like the starter level, but harness
+engineering is where you should end up.
+Like you should reframe when you're
+building skills. You should think about
+okay skills the same way as MCP is an
+extension to the coding harness or
+whatever harness you're in. Uh it's not
+just a prompt that you package it's
+something more than that or you should
+at least conceptually think about it
+more than that. It is extending the
+harness of whoever is using that thing.
+Uh and it also has more capabilities as
+just prompting. Uh and when I thought
+about that way it sort of like clicked
+for me. uh prompting is a spell
+harnessing the magic and we'll talk
+about nine different dark arts today
+that I learned uh in the process of
+building impeccable
+um we'll make uh sub agents argue with
+each other uh we'll talk about how to
+force divergence as opposed to
+convergence routing like a model um and
+basic you've seen this probably um most
+modern models are mixture of expert
+architectures and impeccable is built
+like a mixture of expert skill. Um, we
+we give them memory. We'll create
+scripts that talk back and I I promise
+this will make sense. Uh, hooks that
+fight back live wire the browser and use
+more of the harness. Compile to every
+harness and design for the weakest
+model. Let's get into it. Number one,
+made it make it argue. So if you're
+building something like a critique skill
+or code review skill, um here's one huge
+issue. Uh if you are I mean you probably
+noticed this when you're working with
+claw code or codeex doesn't matter, but
+if you ask codeex or claw code to review
+its own work, it will usually rate it as
+very high. It's like I mean like I've
+built this, I've done a great job,
+right? Like it's like grading your own
+homework. Doesn't make any sense, right?
+um it anchors on what it already
+created. Um now that's not great. Um
+what can you do in order to solve this?
+Well, you can make a model argue with
+another model, right? Adversarial
+prompting is also called. So you have
+two sub agents and they never see each
+other's work.
+And here's why this matters. So in
+Impeccable, there's a critique command
+that actually critiques your design. And
+you can point it to your landing page.
+You can point it to anything. And there
+are two particular failure scenarios.
+The first one, and this is almost
+impossible to read, so I'll explain it.
+The first one is um a strong page,
+right? So, it's a really good-look page,
+but there's a whole bunch of maybe like
+uh deterministic errors. And impeccable
+actually has a deterministic engine like
+a design llin llin llin llin llin llin
+llin llin llin llinter that can detect
+things like bad contrast can detect
+things like you know too many fonts um
+you know maybe things that are too close
+to the edge of an element so it detects
+some of I would say polish issues um but
+you could have this really beautiful
+website and then the detector runs and
+it's doing that as part of the same
+skill and the same model thread and then
+the model uh just sees the detector
+output and say like well I guess there's
+500 issues therefore this design must be
+bad. Now that's one. The other one is
+the opposite. The other one is it's
+actually a really terrible page or maybe
+like an empty page but there are no
+detected issues by the by the
+deterministic detector. So the model is
+like we didn't find any issues so this
+must be great design. So both of those
+are not amazing. Uh what you want is and
+this is what uh impeccable critique
+skill does it uh it kind of combines two
+things. It spawns two sub agents and
+they are blind to each other. Um and
+that's how you get to a balance
+critique. So the first sub agent um does
+um
+um act like a design director. So it's
+an L&M um that acts like a design
+director. And so um it looks for
+hierarchy, it looks for slop, it looks
+for uristics. And so it does a critique
+the way a human would with the browser
+tools that are you that are available to
+it. The second sub agent runs
+determinist deterministic detector and
+also collects browser evidence. And then
+once both of those results come in,
+the main thread synthesizes both into
+one into one critique and that produces
+a much more balanced result. And before
+I go on, um, I realized I actually have
+not, uh, have not shown you where the
+sample repo of this lives. So, let me
+bring this up real quick. Um, if you
+want to clone this and you have a decent
+enough internet connection, go ahead if
+you like. Um, so this is, um, uh, PBA
+Aus/impeccable
+miners talks. Um the talk lives here but
+also in the dark arts folder there is a
+starter folder uh and a demos folder.
+Demos
+uh has a pretty average median page that
+you can manipulate. Um and then uh in
+the starter kit you have enough to build
+sort of a a mini impeccable if you want
+to if you want to follow along or or try
+it out yourself. And so as part of this
+um there's a troy here too. Uh you'll
+you'll follow along sort of the
+checkpoints the dark arts and build
+something yourself. I would suggest you
+know if you like to multitask great. Um
+you can apply this by the way to
+anything. You can do like a code review
+thing. You can do um it doesn't have to
+be the design skill. Um but I wanted to
+have something for you to play.
+Uh back to the deck.
+So two blind opinions beat one confident
+guess. Um you can use this again I
+already said code review design review
+but also security audits once is a good
+example. Uh or a plan creating a really
+good plan RFC critique where you have
+multiple LLM judges argue with each
+other before it gets good or ranking
+outputs is a good good example.
+Now, here's the problem, though.
+Codeex, why why you don't let me do
+this? It's bad. Uh, it turns out a
+Codeex never created these sub agents
+when I first tried this. Um, and I bang
+my head against the wall. I'm like, why
+is this? It turns out Codex has a
+different permission model than claude
+code and other harnesses. In codeex,
+you have to explicitly as a user request
+the use of sub aents for anything in the
+harness to use sub aents. So if you're
+distributing a skill, you're out of
+luck. The only way to make this work as
+far as I know today is to actually tell
+the model, okay, if you have sub agents
+capabilities, but you do not have
+permission, please stop right here and
+ask the user. And so that's pretty much
+the only way you can get codecs to
+comply. So in impeccable um if you see
+something that you know makes you go huh
+um it's probably because of that like
+you know through um lots and lots of
+issues that people filed and um a lot of
+testing on on my end also um a lot of
+this obscure knowledge got into the
+skills so that it works truly across
+harnesses. Um for instance here you see
+kind of pseudo code of how this would
+work. And then also I uh this is another
+really important thing. Uh very often
+if codeex realizes it can get away with
+something
+it will do it. So um if there is no
+punishment for not spawning sub agents
+it will simply not spawn them. It's like
+well this is the easier route. I will
+take this easier route. So what you have
+to say is actually if you cannot use sub
+agents you must say that you are giving
+the user a degraded experience and
+codeex hates that
+so use that to your advantage.
+Um so um you can watch them argue. Um
+now I did not pre-record an actual
+example here because I'm like let's do
+it live. Um, so we're going to go into
+cursor
+and
+um I'm going to do like
+critique
+and let's hopefully it'll work. I don't
+know if composer sponsor sub agents uh
+well enough but let's see
+uh composer by the way if you haven't
+used it is a really fast well balanced
+model so it's kind of uh kind of neat
+for for work that you want to show on
+stage in particular um
+okay so now it's doing something here
+Um,
+okay. This this repository I think has
+an old version of packable doesn't
+sponsor agents. I see this is the
+unfortunate. Well, maybe it does.
+I'm not sure if it did or not, but I at
+least want to show you what the type of
+critique looks like.
+Uh, all right. Now it's asking me a
+bunch of questions of what I actually
+want to create. I'm going to skip this.
+Uh, and now I get a design critique um
+on what's working, what the priorities
+issues are, persona red flags. Now the
+actual thing that I wanted to show you
+unfortunately couldn't be seen in this
+particular thread but we can come back
+to it. Um if you run this in in cloud
+code or codeex on the most recent
+version you should very clearly see I
+mean in cloud code it's very easy to see
+the sub aents running and doing its
+work. So it will spin up two sub agents
+and you see it at the bottom of the
+cloud code thread uh doing its thing.
+Okay level number two uh our Ben just
+moves the problem. We talked about this
+already. Um, you ban enter into the
+model graphs graph space grotesque. How
+do you solve that? How do you force
+divergence? Well, a ban only moves the
+model around inside its own cluster. And
+what I've built for impeccable and for a
+bunch of other skills that I've released
+is what I call an anti-attractor.
+Uh, and the anti-attractor works by
+creating a random seed of sorts. And
+that can come from user input or it can
+come from a script that it can run that
+produces something that is completely
+unexpected to the model because that's
+what you want. And so in this case for
+instance it would be font selection and
+instead of selecting this save next step
+prediction font it went into a
+completely different space through a
+different seat. Uh there are three
+techniques that you know are easy to
+hard and work differently. The first one
+um is is something you can do right
+right now. It's the most simple one and
+it's to shave the save pics. So
+basically tell the model, okay, name
+your top three fonts and then the model
+is like okay I got the top three fonts
+and then you're like now throw them
+away.
+And like but why? Um but then you
+basically shave shaved off the uh the
+next token uh that is predicted. Um and
+you do that three times and then now you
+get to a different space of the uh like
+a further away in the latent space right
+um now that's doable but now at some
+point you still get convergence so this
+is just you know a limited technique the
+second technique is to generate a lot of
+different things and then have a sub
+agent rank I've done this for a shader
+library that I've created called radiant
+shaders and um the goal here was to
+create around a hundred different
+shaders
+And the problem is every time I I would
+say you know create a new shader or
+create ideas for 10 new shaders I would
+get the same repeating ideas.
+I solved this with two in two different
+ways. The first one is I created
+something unexpected a random seed a
+creative seed. In this case I used
+celebrities. I said like well what would
+Ryana look like as a shader um or what
+would Beyonce look like as a shader? And
+um and then the model was like let me
+think about that. So that's the first
+thing and then I said well generate a
+hundred of these ideas and then spawn a
+sub agent that ranks all of those ideas
+uh and that's important. It has to be a
+sub agent because the sub agent doesn't
+know anything uh from the prior context
+of the session um and uh and can then
+completely change the order. The third
+one is to create a random seat from a
+script. So in impeccable for example
+when you first start a project it calls
+a script called color.js JS and color.js
+has um over a 100 hand selected
+uh they're not complete color pallets
+but they are primary colors and they're
+kind of like a starting point of a
+palette and it reads that and then the
+model uses that as a creative spark to
+build a pallet around it for you. You
+can still say you I don't like this. I
+mean I don't like what it proposed but
+it it turns it into a different
+direction. So those are all ways to
+create divergence
+and when you design something with
+impeccable the same brief depending on
+the users's input and you know color
+script that runs etc can produce vastly
+different results because of that
+because I didn't want to have the whole
+internet look like uh everything else.
+Number three
+um here's the problem. If you cram every
+everything into one skill, it kind of
+blurs them. The instruction following
+becomes not very good enough anymore. So
+if you're building some general purpose
+skill and you expand it and expand it
+and expand it, at some point uh it
+becomes really really blurry to the
+model. Um here's a concrete example of
+this. the anthopic front end design
+skill. Uh the former version of it, they
+just shipped a new version three weeks
+ago, but the former version had a line
+that I read earlier that says avoid
+system fonts. That's okay for landing
+page design. But for product UI, oftent
+times you want it to feel as native as
+possible. So system fonts are actually
+the thing that you want. So how do you
+solve this? Um you can say I mean you
+have like this giant if else block in a
+skill. say like, well, if the user wants
+a landing page, do this. If the user
+wants a product, do this. But that
+becomes really convoluted, wastes a lot
+of tokens, and uh honestly doesn't work
+very well. So, impeccable started as a
+lot of different subs skills and now has
+this um mixture of experts model that
+routes internally um both in terms of uh
+capabilities. So you can call impeccable
+critique or impeccable polish and you
+get a different MD file loaded behind
+the scenes for that particular job. So
+it's not just one giant skill MD. Um,
+but also, and this is something not a
+lot of people know, behind the scenes,
+Impeccable decides based on your brief
+and what you input whether you're trying
+to design something brandandy, so like a
+landing page or something that wants to
+attract attention or whether it's the
+actual product that you're designing.
+So, it switches registers and then loads
+completely different rules for those two
+registers because product design and
+brand design are very very different.
+Um, so that's also something that I
+would recommend you doing if you're
+building a larger scope. This works for
+bu big multi-tool skills, works for
+context on demand type of skills, uh,
+per audience behavior, agent toolkits,
+that kind of thing.
+Number four,
+everyone starts from zero. Skills by
+default don't have long-term memory. Uh,
+they don't really compound over time,
+but you can make it so. So um you have a
+skill folder and you can save things in
+that skill folder. In fact in claude you
+even have an environment variable that
+uh resolves to the actual directory uh
+that you can save things in which is
+nice. No other harness supports this
+right now I believe. Um but you can you
+can hack around that. Impeccable uses a
+impeccable folder in the current
+repository route. Um, but you can also
+save things directly in the skill
+folder. Um, and maybe ask the user to
+ignore them. Uh, how could this work?
+So, for example, if you're running a
+critique in impeccable, that critique is
+saved as a file in that folder and by
+default it's get ignored. But then if
+you then later on say, well, okay, I
+just ran a critique. I'd like to polish
+my page. Even if you do it in another
+session, it actually uses that prior
+critique as a signal to understand what
+have we found out about this page and it
+can look at all prior critiques and see
+sort of the progression of the page. Uh
+for example, you could have said in one
+of the critiques, you know, I don't
+agree with this critique. I don't think
+you're right and I think I really like
+my instrument fonts. Um and then the
+model would be like, okay, no problem.
+I'm gonna mark this for later. And the
+skill is now smart enough. the skill has
+uh built context to realize okay well
+that's the user preference so I'm going
+to respect it going forward um so
+compound engineering um really uh is an
+interesting theme for skills as well you
+can make skills aware of prior sessions
+with that technique
+um so make the runs compound this works
+really well for resumable gradients uh
+resumable agents progress tracking u
+multi session refactors migrations that
+kind of thing Um uh for instance, one of
+the things that I do all the time is
+refactor my code. And um how do I do
+that? By having a sort of like a skill
+that spawns itself across multiple
+sessions and tackles one file at a time.
+So I basically tell it, okay, here's
+your TSX file or whatever um for today's
+session. um and now refactor everything
+around this file and linking into that
+file and and then it sort of builds up
+context over time until it's completely
+finished with the whole codebase.
+Okay, number five.
+Uh buried rules get skimmed. We talked a
+bit about this before, but this is a
+little bit of a different point I'm
+trying to make. Um
+now especially with weaker models and
+now if you're building a skill for
+yourself and you're only running opus or
+you're only running codecs u this isn't
+that that big of an issue right you you
+know which model you run uh you know if
+it works with GPD55 for example uh I'm
+good because that's the only model I use
+now if you want to distribute your skill
+to lots of users uh this is where things
+get kind of hairy because some of those
+users might be running on it. Some of
+them might be running Haiku. Some of
+them might be running Grock. I don't
+know. Um uh some of them might be
+running Gemini. You know, you never
+know. Uh sometimes I meet somebody who
+does. Um but um
+uh really that's where it gets
+complicated, right? Um because you need
+to build for the lowest common
+denominator and ideally for the for the
+one model that is the weakest as at
+instruction following. For example, GPD5
+mini is not a very good rule follower.
+Uh there are things even in impeccable
+that don't work with GPD5 mini. Um it
+consistently doesn't load certain MD
+files that I thought it uh it
+consistently doesn't spin up the life
+mode. So there are uh boundaries to
+instruction following across these
+models and it gets especially bad with
+longer skills that have lots of rules.
+So how do you work around this?
+Well, in impeccable, impeccable really
+is kind of bionic of sorts. It's really
+not just pros. It is a combination of
+scripts that run in line within the
+skill at certain times. Uh, and then
+pros around it. For example, every time
+you call impeccable, it runs a file
+called context. MJS. And the context MJS
+does a couple of things. The first thing
+is uh if there is a product MD which is
+impeccables
+uh it's almost like design MD but it is
+for product strategy. So wants to
+understand who's the target audience or
+what do you want to achieve with this
+thing which is oftentimes more important
+in a in a design interview than you know
+how how round do you want your borders
+to be. Um but it supports both. It
+supports product MD and design MD and by
+default context M.JS JS brings these
+files together and then spits them into
+the session. Now that's not exciting.
+But when those files are not available,
+it will actually give the uh the skill
+structured JSON and say like by the way
+there is no product MD and here's
+exactly what you should do about it. Or
+here's another thing that context MJS
+does. It actually makes impeccable self
+update if there's a new version of
+impeccable now with your permission. So
+we will it will ask you but it will say
+hey by the way there's an update
+available for the impeccable skill uh
+and here's what you should do now to ask
+the user whether whether they want to
+update impeccable. So it's it's
+overloaded in many ways um and it will
+always tell the model the exact
+instructions on what to do next. And the
+really interesting thing about this is
+that I found that that works
+significantly better than some random
+rule in the pros of the main scope. when
+you put something out uh from the exit
+value uh from the standard out of a
+script uh somehow the model will follow
+it a lot uh more than before. Uh so that
+could be environment uh aware setup
+dynamic onboarding repo state gating
+adaptive flows anything really. Um
+actually before I end this session one
+of the shortcomings of this technique
+and this is something to be aware of is
+prompt caching. So this works super
+super well to keep a skill uh sort of
+like you know flowing in the right
+direction instruction following but it
+does so at the expense of prompt
+caching. Um, if you need prompt caching,
+if you run the skill many many times,
+uh, and you want the whole thing to be
+cached, this is not a good technique to
+use, but I found it to be very useful in
+really interactive scenarios.
+All right,
+number six, hooks that fight back. It's
+something I shipped quite recently and
+um, and I really like it. I want to show
+you what I mean by that. Um,
+so a lot of people have impeccable their
+systems, but sometimes they forget to
+run it. Sometimes they're like, you
+know, I don't know. I mean, I mean, I
+wish Codex is actually pretty good. Some
+of the harnesses are pretty good
+consistently looping in the right skill.
+Um, but because it now bundles as one
+skill, oftent times, uh, the harnesses
+forget to simply call impeccable when
+you don't explicitly mention it. So, now
+you're building some front-end code and
+maybe it doesn't follow your design
+system or whatever. Um
+now that can be solved with hooks. Who
+who has used hooks before in cloud code
+or codeex?
+A few people. Okay, nice. Um so
+this skill that I've built here,
+Impeccable ships design hooks. So I've
+basically built a design lint that runs
+under the hood and ships with the skill.
+When you install impeccable uh these
+hooks install into cloud code, cursor um
+codeex and github copilot uh and they
+will keep the model uh exactly where it
+needs to be. So the hooks come to you.
+It's a guardrail that fires on every
+edit. Um and um
+there are some there are some
+differences between the different
+providers here. So the hook syntax for
+codex and clot code is not the same. Um
+and also the behavior is not the same.
+So for instance we found out that with
+weaker models slightly weaker models
+like composer and cursor. Uh you kind of
+want to use a um pre-tool use hook that
+prevents writing of code as opposed to a
+post tool use hook. Post tool use
+basically happens right after the agent
+has written a file for example and then
+it it tells you hey by the way like the
+contrast of these colors is bad or um
+you know you have a purple gradient in
+here and then ideally the model is smart
+enough to actually fix it. Um some
+models don't follow those instructions
+very well and so if you do a pre-tool
+who use hook you are actively preventing
+the writing of this file in the first
+place. So, it's a much more heavy-handed
+approach, but we needed to do that for
+certain models and certain hardnesses.
+Um, but this is nice and what's even
+nicer about it is that you can
+personalize it to your design system and
+your use case or whether let's say you
+use it for code reviews. You can
+personalize it with your own ESLint
+rules uh with your own uh synthetic
+syntax guidelines etc. uh and then
+expand it from there.
+Um, so passive guardrails
+beat a command no one remembers to run.
+Um, so these are passive guardrails that
+always keep you in the right lane uh on
+track. Again, that works for linting for
+formatting. Um, of course, if you're
+using cloud code or codeex, it already
+uses uh some of the llinters for things
+like syntax formatting, but design
+linting is a whole different uh game.
+But I would really encourage you to uh
+try out hooks in combination with a
+skill and think about okay well my skill
+does this how can I create a feedback
+loop a validation loop that uses hooks
+uh to actually keep me on the right
+lane.
+Um
+okay so here's it's hard to show loop uh
+hooks in action but um you know if you
+can see this this is roughly how it
+would happen in an agent. Um so uh for
+instance in this case I would use let's
+say Gemini does this all the time.
+Gemini uh creates animations on images
+like crazy. Um it will animate any image
+and it will usually do a hover zoom in
+effect. Um it loves that. Um and that's
+something that impeccable flags. And in
+this case it the hook would fire
+silently usually that's why I built this
+fake demo because you can't usually see
+it. Um, and then it will tell the model,
+hey, by the way, here was a violation.
+The experience of this is that
+oftentimes you don't have to do
+anything. The model just course corrects
+and fixes itself. Um, now one important
+thing if you do this and you ship it to
+users, very important to add a way to
+create ignore rules or something like
+that because oftent times these hooks
+have false positives as well and you
+want a way to configure those hooks. Um,
+otherwise gets really annoying very
+quickly. Um, impeccable ships with these
+design hooks that uh allow you to create
+ignore rules at a file basis within a
+CSS rule. So like many granular levels
+uh to exclude certain files for example.
+Okay, level seven.
+Now you can't really tune pixels through
+a chat box. Uh now this might not be
+relevant if you're not building a design
+skill, but I think the general point is
+relevant. So if you think about a skill
+as harness engineering versus prompting
+then you think about the harness as a
+whole right you're living in cloud code
+for example or you're living in codeex
+or you're living in github copilot now
+what capabilities of that harness that
+you can exploit to make the best user
+experience for your use case that's the
+question you should ask yourself for
+example
+uh uh codeex on desktop now has an inapp
+browser built into the the actual um uh
+app. Can you use this inapp browser in
+some interesting ways? Can you use the
+browser screenshot tool in some
+interesting ways? Uh and in my case, I
+could. I realized, hey, there's probably
+a way to connect the inapp browser uh
+and spin up the development server and
+just load the page there and then kind
+of connect it to the main thread in some
+ways. So I can allow the user to
+visually iterate on that page
+um instead of in the chat. Um
+and so in Impeccable what this looks
+like is uh it's not using MCP. Um it's
+simply spinning up a live polar a little
+server that uh looks for input and in
+inserts a snippet into your development
+server. Um it then on the page when you
+do something on the page it sends an
+event back to that actual polar uh using
+uh serverside events and then uh and
+this is I think the the the clever bit
+maybe or the the bit that makes it all
+work. Um the polar then stops. So the
+polar uh ends itself. There's a standard
+out message. We talked about standard
+out before, right? the exit value of
+this thing and
+uh the model reads that message and
+realizes oh something happened I better
+do something. So in this case in the
+skill itself I give it instructions on
+how to handle this event. I say like
+well if this event comes in you should
+probably build some design for this
+particular section of the page and then
+you should send it back to this polar so
+that it arrives on the user side. And so
+this is a direct connection between one
+harness capability and another harness
+capability. So the chat thread and the
+inapp browser. Um and uh yeah this is
+kind of how how it looks like on a
+diagram. But I think the best way to
+experience with it is to is to see it.
+So let me bring this up.
+Okay, cursor. Uh, I think I'm already in
+live mode here. Um, okay. So,
+I I booted up live mode already. I'm now
+in picker mode. I get this little bar
+here at the bottom. Uh, and as you can
+see, I can pick anything on this page.
+Um, I get now I get this little overlay
+bar and um I can select all sorts of
+subcomands within the skill. So these
+are basically translating to MD files
+that live within the skill. Uh I can
+select the amount of variance I want.
+And then um I can hit go. And now um
+here in the thread you can see that it
+picked up the actual signal in the main
+thread
+uh because the polar stopped h and it
+now knows hopefully exactly what it
+needs to do to first wrap this element
+in some special tag. then it knows how
+to create uh variants and uh that are
+marked up in a special way with CSS. Uh
+and now it did that. So now as you can
+see the uh the thing updated
+immediately. I now get these three
+variants and I can click through
+and then if I like one of them I can
+click accept and accept it. If I don't
+like like one of them I hit uh escape
+and I'm back in this normal mode. Um so
+this shows sort of like uh how to
+exploit an a harness capability uh in an
+effective way for one problem space in
+this case design. Um you can also uh
+insert elements with this thing um and
+sort of click into anything here. You
+can um you can draw on top of this and
+leave comments. You can leave
+annotations if you want. Um you can
+dictate uh you can uh steer the whole
+page by simply writing into this and
+then uh again this goes back to the main
+agent and uh it becomes a steering
+signal for the whole page. Um and you
+can also visualize lots of things this
+way. I mean you might have read uh
+Tariq's uh blog post about this about
+how HTML is a is a really cool way to
+communicate as opposed to markdown. Um I
+agree and I think also like uh design MD
+is much better visualized as HTML. In
+this case you see the M design MD of
+this you know not great website for
+demonstration purposes but uh um you can
+use this to your advantage as well if
+you hijack the inapp browser and use it
+to your advantage. Um so this is how I
+make use of it.
+Okay
+number eight.
+It worked on my machine. Um
+well I mean everybody who who's a
+developer here knows this problem. Um
+this is this hits really hard when you
+ship a scale. Uh there are so many times
+uh I kind of saw this argument on X was
+like hey bro just sim link just you know
+sim link.cloud and all your problems
+will be gone. Um, well, that's great. If
+you're building a simple skill and if
+you're doing it for yourself, by all
+means, go for it, right? Sim link your
+claw MD to agents.m MD. Amazing. Like,
+sim link the out of everything.
+But it's not great if you're trying to
+ship a skill to lots of users because
+again, we just talked about a whole lot
+of differences these hardes have. I'm
+going to talk about more differences.
+And I know it's annoying because it
+would be great to simulate those things,
+but unfortunately, we don't live in that
+world. And unfortunately, Anthropica has
+still not adopted agents. MD. So,
+uh, what are the actual differences? For
+example, we talked about sub agents
+already. We talked about how, well, on
+the bright side, they're widely
+supported. Now, um, but who can spawn
+one is very very different. So, with
+claude, you can programmatically do it
+very easily. Codeex needs the user.
+Okay. Um, in cursor, it's agent chosen
+most of the time. Um so there are clear
+differences also if you want to
+predefine these agents codeex has a
+different syntax for that uh than claude
+and and uh and cursor etc. Another one
+is the ask user tool. So one of the
+coolest tools in and the um cla code
+harness is the ask user question tool.
+Uh it's a really nice tool that you can
+use to ask the user a question right? It
+brings up this menu say like hey what
+would you like to do and then you pick
+some option. Well, turns out Codex has a
+tool like this. That's the good news.
+The bad news is that tool is only
+available in plan mode. So, again, big
+differences between how these things
+work. Uh, and um, what does that mean?
+That means that if you're not running
+codecs in plan mode, but your skill
+wants to ask questions, most of the time
+it simply doesn't. It will simply infer
+from the current context and not ask any
+questions to the user. Uh, which is not
+great. So there's a lot of sentences in
+the impeccable skill that specifically
+say if you're codeex you have to stop
+and ask questions. No, you're not smart
+enough to infer the context. Um so if
+you see lines like this, that's why.
+Another one is background jobs. And
+there's also something you learn through
+the hard way by doing this. For example,
+this live mode that I just showed you,
+it's spawning a background task. So it's
+running a shell in a background task. Uh
+and that that's cool because you can
+keep using the session
+um and then when the background task
+finishes the model is automatically
+waken up gets a gets the message back
+and then can do something and re react
+to it. Uh where codeex cannot codeex and
+other harnesses do not react when a
+background task finishes. You actually
+have to manually say hey by the way this
+background task can you take a look at
+what it did and that's not great right
+if you're doing an automation like this.
+So there are differences in how these
+tasks are spawned and uh and how they
+work. So that's why if you're using the
+live mode in cursor or in codeex, it
+creates a foreground task and it keeps
+the actual chat thread blocked. Uh not
+ideal, but it makes it actually work. So
+there are subtle differences on how
+these tasks are spawned. Watchers is
+another example. Tail watch exists now.
+That's really cool. I mean most of the
+harnesses have a way to watch for
+instance a log file. Um but those are
+throttled way harder than uh simply
+spawning a background task. Edit hooks,
+we talked about this already. Um they
+are different and so lots and lots of
+behavioral differences, but there's also
+model differences.
+So for example, in my case,
+um they all have different tails in the
+ways they're overfitted. Uh for example,
+Gemini, again, I mentioned this loves to
+animate pictures. It just loves it. Um,
+you have to tell it not to animate
+pictures if you don't want a hover
+effect on every picture. Doesn't matter
+where it is. It loves it. Um, Codeex
+loves bad letter spacing. I don't know
+why, but it does. Um, Codex also loves
+extremely rounded borders. Uh, it will
+round anything you thought it. Uh, it
+loves it. Doesn't matter if it's
+hospital website or a kids website. Uh,
+it also loves hairline borders. And so
+there are specific tails that are unique
+to every model. And that's not just for
+design. It's for architecture. It's for
+code architecture. It's for, you know,
+preferred npm packages. Now, every model
+is overfitted in different ways. Uh
+finding out how to overfit it usually
+happens by accident. In my case, I have
+a pretty extensive EVA harness that I
+run behind the scenes. In fact, every
+line of impeccable is ablation tested.
+So I test every single line and see what
+it does across all models. I don't
+expect you to do that but it is very
+good to know that uh that the models are
+different and are following instructions
+differently and and the behav behavior
+the harness behavior is different as
+well.
+Um and so
+what impeccable does it creates harness
+specific and model specific builds for
+every single uh model. Um, you might not
+have to go all this way for your own
+purposes, but I just wanted to show you
+how far you can go with this. Uh, for
+example, it actually has a um substitute
+variable that picks the right user
+question tool depending on the hardness
+or it has these XML blocks for Gemini,
+for codeex, etc. Uh, that will actually
+insert specific overfitting avoidance
+rules for the given models. Because it
+turns out if you if you tell Claude not
+to let her space too much, it will let
+space in the exact opposite direction.
+So you can't just include it all in the
+same skill. Um and that's why you know
+you can you know if you if you
+instrument this way enough you can
+actually get to this right once ship to
+all of them uh skill that actually works
+everywhere. It's a lot of work but it
+does pay off and allows you to create
+beautiful pictures like this. Um
+now the only other problem is that uh
+typical install methods like for um uh
+MPX skills for instance if you've been
+using MPX skills do not honor
+um different directories for different
+harnesses. So they actually just take
+the first directory and then copy it or
+sim link it into all sorts of folders.
+Um that's why if you go to the
+impeccable website uh I've built my own
+CLI to solve this problem. Uh that's why
+it doesn't use impact skills. So, I
+think the committee hasn't quite yet
+gotten to the point where uh this is a
+this is an accepted idea and it's
+annoying. I get it. It's annoying to
+compile for different harnesses, but uh
+I found it worthwhile. Finally,
+um again, build for the lowest common
+denominator. Um a weaker model has
+opinions just fine, but what it loses is
+the discipline to follow yours.
+Um so uh codeex for example uh and GPT
+specifically loves the word gate. If
+you've built a skill in codeex before,
+it loves gates. Um whenever you say,
+"Hey, why didn't you follow these
+instructions?" You're like, "Well, I
+think we need a gate." Um so I gave it
+what it loves the most, gates. Um but I
+only do that for codeex. So there's a
+codeex MD that gets loaded on the fly
+for codeex. um and GPT uh and then uh it
+actually follows like you know okay here
+are your eight gates you have to pass
+every single gate and you are not
+allowed to compress those gates. Um
+that's really important because it loves
+compressing these instructions as well.
+I'll just skim over it and say like well
+I guess I do one and two and five and
+good. Um and so um the way you solve
+this is by actually having it lock every
+single result of every gate and say like
+well I just passed gate one great
+success. Um
+and the most important lesson from this
+is if the gate can be skipped it will be
+I mentioned this before right if the
+model can wiggle itself out out of a
+difficult situation it will absolutely
+do that. uh it will not do all the all
+the things it needs to do to uh to
+complete the end result. Um so be
+careful, make it unskippable.
+Um so we just built a harness extension.
+We went from prompting all the way to
+building a monster. Um but uh I think it
+turned out to be pretty powerful in my
+case and I wanted to share what I've
+learned on the way. Uh I don't expect
+you to use all of those techniques. I
+think some of them are pretty exotic and
+maybe not applicable to every use case.
+Um, but I hope that you find value in uh
+some of the advice that I've given
+today. Uh, so we've done a whole bunch
+of things today. Nine things a prompt
+can't do. We made it much more
+deterministic um and uh and made
+impactable better for that reason.
+Uh if you like to try it out yourself um
+again you can clone the repository for
+this talk. you can clone uh impeccable
+minus talks. Um but of course it also is
+useful to just take a look at the actual
+skill and see how it's built. Um the
+project is completely open source
+license under Apache 2. Um you can
+install impeccable MPX impeccable skills
+install. Um and check out the source
+code on GitHub. Um with that um I'm at
+the end of it. Thank you.
+>> [applause]
+>> And uh now I think we have uh about 10
+minutes for any questions that you have.
+>> Does anybody have questions?
+>> Yes.
+>> Oh, sorry. What was that?
+>> A link
+>> to the repository. Yeah. Um so the the
+this is hard to see but [music] uh let
+me let me put it up here. Um this is the
+repository
+uh for the talks. Yeah.
+>> Awesome. My question was you mentioned
+that.
+>> Yeah, I the question is I mentioned that
+it breaks prompt caching um the the
+actual sort of trick the technique to
+actually get uh something back from a
+script um within a skill. And the reason
+is because the result is dynamic, right?
+It could be anything. Um, so unless the
+result is always the same, it's a
+dynamic shell execution. Um, so it gets
+inserted into the into the thread. Now
+the now to be fair, the skill will still
+be cached. So the skill will still be
+cached but uh but I guess I'm
+differentiating between the skill with
+inline uh you know static content versus
+the skill with sort of like a dynamic
+instruction to call out. So this part
+will not get cached
+yeah that was that was my main point.
+>> Yeah.
+>> Yeah.
+>> Yeah. what is the process on how I
+evaluate and iterate on this skill? Um,
+so I
+the process is pretty involved. Um, let
+me see. Uh, see if I can bring this up
+on screen.
+Uh,
+uh, okay. Here we go. So, here's a
+glimpse. Oh, no. Okay, I shut down the
+server. That's fine. Um,
+okay. I'll just voice over. So, um,
+yeah, I mentioned I built an uh Evals
+harness and, um, and so I've created
+myself a harness that, uh, re closely
+recreates the conditions and the tools
+of every harness that I care about. So,
+for instance, it uses the clawed code
+SDK.
+Yes. Uh sorry guys, can you uh can you
+lower your volume a little bit? Um
+because uh people are still trying to
+hear the questions.
+Um thank you. So how do I how do I test
+this? How do I build it? So this it's a
+combination. So first of all, Impeccable
+has a ton of end to-end tests in the
+repository. Um uh that's both L&M driven
+tests as well as um endto-end playright
+tests. So that's one uh and that's
+useful for things like testing the live
+mode scripts for example. Um, but then
+beyond that, how do I test that it
+actually works? Uh, well, I've built a
+EVA harness. That one is not open source
+yet, but I built a EVAL harness that
+closely replicates every um every model
+harness that I care about right now.
+Specifically, right now uh uh cloud
+codecs in Gemini and um and I'm trying
+to expand to more and it also recreates
+the tools like for instance browser
+screenshot tools uh or something along
+those lines. And um and then it also
+recreates um the because some parts of
+impeccable are interactive. In the
+initialization of impeccable oftent
+times the user gets asked so you know
+what would you what would you like your
+page not to feel like? And so you get
+these interactive like back and forth
+and so I've built this LLM that acts as
+the user against the other LLM. And so
+it does like an interactive you know
+back and forth turn. Um so I've built
+that harness and then I've built a um
+mixture of expert design judge that runs
+on top of it. So basically give it eyes
+uh to evaluate each result. Uh and then
+I can run uh across 20 different niches
+like for instance Italian restaurant. Um
+I run across all models that I care
+about GPD55, Opus, Sonnet um and do like
+five to 10 tests um for each of those uh
+for each skill release to see you know
+how it changed. I also run against
+competitors for instance I run against
+the front end design skill to see does
+it make a difference um um and and and
+how does it make it worse or better um
+and then beyond that I'm doing ablation
+testing that's
+harder and more expensive I would say um
+so I don't recommend it for everyone but
+this the ablation testing so every
+you'll see this in the source code of
+impeccable every rule has sort of an XML
+tag that says like you know a unique
+identifier of that particular line. Um,
+and that that will be used by the
+harness to then do a test where it
+removes that line um runs the evolves
+against all models and then adds the
+line back in and then uh uh uses the
+detection engine of impeccable the
+deterministic one to see did it actually
+change. Right? Right. So if there's a
+line that says, "Hey, don't don't do
+like gray on colorful backgrounds for
+for contrast purposes." Um there's a
+there's an ablation test and then a
+deterministic check or feedback loop
+that tests against it. So uh in short
+quite involved
+um but uh but I really it started you
+know vibes based uh and now it's really
+uh truly um well tested. Yeah.
+>> Yep. Go ahead.
+Sorry,
+>> you set up for evaluating taste.
+>> Yes.
+>> Yes. Um I do have I do have um evals for
+evaluating taste, but I don't think they
+work particularly well. Um I just talked
+to uh Ben from Contra about this. Um I
+don't think I I mean I know I know um
+some of my colleagues might disagree um
+but I don't think taste can be solved at
+a model level. Um I actually think it's
+a it's a fundamentally human thing um
+because taste is scars and unique and
+once everybody uses the same taste uh it
+becomes ubiquitous and then we don't
+think it's tasteful anymore. So it's it
+I think it's uh um I think it's hard. Um
+and I also think the models are
+particularly bad at evaluating taste. So
+for example um there are certain things
+that the models can evaluate well like
+hey is this is is the correct thing in
+the first viewport right? So functional
+stuff that works but what doesn't work
+and here's one example I've built again
+this mixture of judges and one judge
+rates whether the first viewport looks
+great right and is effective. Um, and
+one of the tells is that uh, Gemini, for
+example, the more stuff there is in the
+first viewport, the higher it rates it,
+right? This is just a general rule. Like
+if you just cram the viewport full, it
+gives it a higher ranking. And so
+there's a interesting example of like,
+you know, the models are often
+maximalist, right? They like, well, more
+is more, I guess. Um, and so oftent
+times I build judges that actually
+invert the response of the model. Uh,
+which is really strange, but it works.
+Um, where it sort of judges something
+very high. I'm like, okay, that's
+definitely not a good design. Um, so
+anyway, I don't think it's solved and I
+don't think it's solvable, but um, I do
+have, I would say, a tool that gives you
+the design director eyes that works
+marginally better than random. And
+that's good enough for me for like a
+first pass and then I use my own human
+eyes to evaluate results and annotate
+them.
+Any other questions? Yeah, over here.
+>> What do you say is the future for
+skills?
+>> The future for skills. So I would say
+that's a that's a broad question. Um
+yeah.
+>> Yeah. So I'll first answer for
+impeccable and for me. So in the in the
+case of impeccable I think we're we're
+definitely outgrowing
+uh the skill platform kind of what's
+possible with skills. I think the the
+live mode is a good example of that. the
+live mode um was sort of like a Jurassic
+Park experiment to see like can I do
+this? And the answer is yes is um I
+think it's it's it's working better than
+I expected but um it still has a lot of
+problems. I mean it would be way better
+to do this in a first party harness
+integration or like a like a first party
+tool. Um so I think there are limits
+that I'm hitting where um where skills
+might not be effective anymore. I think
+in general
+I would say most skills should probably
+be written by the individual users. I
+think those that actually go go through
+the effort of packaging a skill and
+sharing it with others need to invest
+more time than they currently do. So I
+guess that's my hot take. I think right
+now I've I've seen plenty of skills that
+are distributed that uh do not work well
+in a model that the author didn't use
+for example, right? And so I think I
+think we just have to raise the bar of
+what's acceptable to ship uh to to to
+people. I mean again this is like the
+works on my machine thing. Um I would
+rather see less skills in the ecosystem
+that are really battle tested and
+proven. Um and I I hope we're shifting
+towards that because right now it's sort
+of like a wide west.
+>> Yeah. Go ahead.
+There's no like way to test
+it all.
+>> There's no common way to test the
+skills. Yeah. And that could be a
+opportunity. That's a good point. Yeah.
+I guess I could I do have the tool for
+that. That's true. [laughter] Yes, I
+could do something with it. Yeah. uh
+right now it's purely built for my own
+purposes but uh but yeah the same is
+true for for instance like the the
+impeccable installer and compiler um I
+don't think most people know that it
+exists uh that it can compile to every
+harness and that it has these
+substitution techniques and stuff like
+this like I could probably release that
+standalone as well. Yeah, it's a good
+point.
+>> Yeah, go ahead.
+MCP having skills on the server. How
+would that work?
+>> Oh, I see. Yeah. Um,
+to be honest, I haven't tried it out
+yet. Um, or I haven't really read too
+much into it. I think MCP in general um
+you know I worry greatly about context
+pollution and um I do that with skills
+too and I think um
+I'm not using MCP a lot for that reason
+um because it polluted my context many
+times. Um
+how do skills work in MCP?
+Oh, you can download a skill from MCP
+server. Yeah. Okay.
+>> Yeah.
+>> Yeah. Yeah. Yeah.
+>> So, what's the recommended way of
+packaging them and distributing them?
+Yeah. It's a good good topic. Um so of
+course like the harnesses and the and
+the frontier labs have their own ways. I
+mean um Codex has a marketplace that you
+can use for distribution plug-in
+marketplace. Um uh Claude Code has a
+marketplace as well. I think they
+started with the marketplace technique.
+Those marketplaces don't work
+particularly well. I mean the Claude
+code one for sure doesn't work
+particularly well. I know this for a
+fact because I mean the update me
+mechanism often doesn't work and people
+are like well my skill doesn't update
+and oftentimes there's a caching issue.
+So it my experience has been hit or miss
+with the native methods of distributing
+and then of course it only for that
+particular provider. That's why projects
+like uh skills.sh exist. But again, the
+problem with MPX skills right now, it
+does it it does it it doesn't allow for
+like, you know, more advanced skill use
+cases like, you know, compiled for every
+different harness. I have a pull request
+um in the in the repository. Um and I've
+uh I've bugged Andrew a couple times
+about it, but um he uh he still has to
+get it merged or agree to agree with me
+on that, I guess. Um I think uh we're
+still discussing. Um but yeah, MPX
+skills I think is a great project in
+general. I think it'd be great if we
+could sort of like standardize around
+it. Um there's also one from Microsoft
+trying to do that. Um a project from
+Microsoft. I forgot the name of it. Um
+but there's definitely no no industry
+standard for distribution yet. Um yeah,
+I'm not I don't love having to maintain
+my own CLI installer. I would rather
+not. Uh it's annoying. Um but uh it does
+make it so it plays safe with all
+harnesses installed, the hooks in the
+right part of the system, etc. So it's
+um Yeah. Yeah.
+Okay. I think I'm way out of time, but
+come up and speak with me if you like.
+Yeah, I would say I'll end it here, but
+yeah, come come up if you like. Um let
+me just uh Thank you. [applause]
+>> [music]

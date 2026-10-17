@@ -1,0 +1,795 @@
+UP主：Matt Wolfe
+标题：AI News: An INSANE Week… Here’s What Matters
+链接：https://www.youtube.com/watch?v=sUmx-Yi6TwE
+
+A lot happened in the world of AI over
+the last few weeks, and I'm going to
+break down what I think mattered. Let's
+start with the biggest model release of
+last week that [laughter] didn't make
+last week's video. If you've watched my
+channel for a while, you know I record
+on Thursdays and then publish on
+Fridays. Claude Opus 5 came out on
+Friday, like 5 minutes after my news
+video went live. And since it's been out
+for a week now, you've probably heard
+all about it. But here's the quick
+recap. On a lot of benchmarks, it's
+actually better than Fable 5. Terminal
+coding, knowledge work, novel problem
+solving, agentic search, computer use.
+This is funny cuz Agentic Coding is
+currently winning by 5.6 Soul. But, you
+know, they didn't use the same color.
+They had to like put a faded gray behind
+it. And so, for the most part, it's
+pretty on par with Fable 5 performance
+according to the benchmarks. Really, the
+major difference is the cost to use it.
+So you get almost Fable level
+performance at a lot lower cost. So if
+you're using Opus 5, you're going to hit
+your rate limits a lot slower than if
+you were using Fable 5. And
+theoretically, you're going to get close
+to a similar result that you would get
+with Fable 5. So if you're going by
+benchmarks alone, it's a model that's
+about as good as Fable 5, but a lot more
+efficient and cheaper to use. However,
+it seems to be only good at like one
+thing from almost everything I've seen,
+which we'll get to in a minute. If we're
+going by the overall vibes of this
+product, well, they haven't been great.
+It was pretty good when it first
+launched, but recently it's gotten
+ridiculously dumb. It's so bad. 4.8 and
+Fable for me. I'm back to using Opus 4.8
+feels way better. Opus 5 could be one of
+the first regressions in modern LLM
+history. It's rather verbose and
+scattered in thinking. Not pleasant at
+all for knowledge work. Opus 5 is pure
+garbage. The thing I can't stand is its
+personality. It's like it has ADHD and
+it's really hard to read. It feels like
+I have to spend a lot of time actually
+reading the responses and trying to push
+the work forward. It's exhausting. Theo
+says, "I do not like Opus 5 as much as
+I'd hope to. It goes too far. It makes
+dumb mistakes. It treats every single
+comet as a P 0 high severity issue that
+needs thousands of lines of code to fix.
+This is easily the most annoying model
+I've ever used. It like never answers
+the actual question you ask it. Claude
+Opus 5 is clearly a downgrade from Opus
+4.8. It feels nerfed, not upgraded.
+Which is worse. Opus 5 seems like a
+remarkable downgrade compared to 4.8.
+Even a Modbak here got in on the action
+and says the gaps are really really
+weird. It also doesn't read whole papers
+properly for me. You get the idea. Most
+people are not really liking Opus 5. Now
+I did mention that it is seemingly
+really good at one thing and it actually
+seems to be like almost better than
+Fable at this one thing and that's at
+creating games that actually look really
+really good. Chris here shows off a side
+to side example. We can see what Opus 5
+generated on the top here and what Opus
+4 just a year ago generated on the
+bottom there. When it comes to the
+quality of the graphics that it can
+create, like this is both 3JS graphics
+and it's just gotten so much better at
+that. Here's another example from Chubby
+where the graphics just look absolutely
+amazing. Like really, really good. Would
+I say this looks like a AAA game? I
+mean, if you look closely, there's
+definitely some issues, but it is
+borderline like AAA game looking. these
+days. And Opus 5 seems to be uniquely
+capable of doing this for some reason.
+Here's another example from Matt
+Schumer. He says, "Claw Opus 5
+oneshotted this game." Now, the game
+does actually have sound effects as well
+as they're playing. I'm just muting them
+so I can talk over this video, but he
+basically gave it a prompt to generate a
+Call of Duty clone and to make it look
+AAA. And this is the game that it
+generated with just one prompt. He just
+let it go for hours and it came back
+with this. And yeah, I mean it's really
+really impressive at these like game
+creation good decent graphics. One thing
+I do appreciate about what Matt Schumer
+did is he actually shared the prompt
+which spun off a whole bunch of people
+creating their own version of games that
+look really really good. James
+Altterisher here even posted his own
+version using the exact same prompt and
+got a pretty similar decent looking
+result. But again, Matt shared this
+prompt. He put it right up here on
+GitHub. I'll make sure it's linked in
+the description so you can check it out
+as well. And if I learned anything from
+his prompt, it's that uh you really need
+to use the word utterly a lot in your
+prompt to make it work well. It should
+be utterly perfect so that the game is
+utterly perfect. Don't stop until you're
+utterly wowed. Do it in 3JS until it's
+utterly perfect. So, if you're wondering
+why your games haven't looked amazing in
+the past, it's because you're just not
+using the word utterly enough. So, of
+course, I wanted to test this, and I
+grabbed this exact prompt here, except
+instead of saying, "Create a firstperson
+shooter at the level of Call of Duty," I
+gave it the identical prompt, but a
+fantasy game at the level of Elden Ring,
+which I think is even a step above Call
+of Duty. Now, I happened to be trying to
+test this when Anthropic was in the
+middle of an outage. So, you could see
+that I asked it quite a bit and started
+to get impatient cuz it was having all
+sorts of server errors. And then
+eventually it worked for me. It worked
+for roughly 11, 12 hours, something like
+that. I actually prompted it and then
+went to bed. And then the next day it
+had been working for 10 hours when I
+checked in on it. And I would say it
+went another couple hours after that. So
+this was all opus. And let's go ahead
+and see what it created. All right. So
+we've got a realm. This is what it
+created. It's got audio. I'm going to
+mute the audio for now so we can
+actually talk about this here. And you
+know, it's not amazing. The controls are
+actually reversed. When I hit right, he
+goes left. And when I hit left, he goes
+right. The forward and backwards work.
+The mouse to move the camera around
+works. So, it's really difficult. The
+left and right is reverse, which makes
+it kind of a mind messing game. And I
+also can't tell if my attacks are
+actually doing anything on these guys.
+All right, I'm going to run away from
+these guys because I think what this did
+impressively well was make something
+that looks good. Now, I can run right
+through rocks, which is not amazing. But
+if we look at the world that we're in,
+this actually looks really impressive
+for a vibeccoated game with Opus 5.
+Like, look at those mountains out in the
+distance. Look at the trees. It looks
+pretty beautiful. Honestly, it's really,
+really, really impressive the graphics
+it got. The gameplay itself still
+really, really sucks. Like, I don't
+think my attacks are hitting. My
+character just kind of looks like a a
+blob with a sword that's going the wrong
+direction. The enemies just look like
+sort of cubes. But the environment that
+it built like this is all just 3JS and
+it is blowing my mind that we can do
+this. Apparently I can just walk through
+the water with no issues and then go
+under the water and run normally. This
+was only one prompt. This was definitely
+a oneshot prompt. I have not given any
+other instructions on this, but the
+world that it made really impressive.
+Now, I needed to test if this was more
+the doing of the prompt or the actual
+model. So, I actually gave the exact
+same prompt word for word to 5.6 Soul
+Ultra to see if it would create
+something as good that would tell me is
+Opus 5 really good or was it just a
+really good prompt? And so, I one-shoted
+it and it made Veil of Astera. And
+here's the version that GPT made. Let's
+go ahead and begin the pilgrimage here.
+Not nearly as great of graphics. This is
+more what you expect out of 3JS,
+although it is a lot better than what I
+was getting in the past. So, I do think
+the prompt was doing some decent heavy
+lifting. The textures on these rocks
+look good. My characters look good, but
+I mean the castles and the mountains
+just nowhere near the detail of that
+other game. The controls actually feel
+proper on this game. Left and right
+actually go left and right. So, I think
+the combination of a really good prompt
+plus Opus 5 does really well. And this
+one actually seemed to like do damage
+when I attacked this guy. I just killed
+him. So GPT 5.6 made a game that feels
+much more playable than the other one.
+Opus 5 made a game that looks more
+visually impressive. Although I'd argue
+my character in this game looks more
+impressive than the character that Opus
+5 made. And of course, you know, I was
+going to test creating a Mega Bonk clone
+with Opus 5. This is what Opus 5 built
+when I created Meabon. It's okay. I
+can't actually, you know, control the
+camera. It's a very fixed camera angle,
+but the game seems to work. If I kill
+the characters and get some XP, I level
+up here. Now, these characters are
+easier to kill. I level up, I can get
+another weapon here. Now, I have a
+little drone that flies around and also
+shoots at the bad guys for me. And yeah,
+I mean, it's just as fun and addictive
+as you'd expect a game like this to be.
+Although just asking it to make a
+meabonk clone without all of the utterly
+I think is uh causing it to just not be
+as good of graphics. And of course you
+know I'm going to run it through beauty
+bench. Here's the two images bench
+generated. One with claude opus 5 one
+with opus 5 fast. Interestingly fast
+cost $1.25 25 to generate this and took
+a minute 43 where just the plain opus 5
+only cost 49 but took 4 minutes and 20
+seconds to draw this beautiful beauty
+here and our leaderboard here which does
+use an LLM as the judge so take it with
+a grain of salt your own eyes should be
+the real judge here but it ranked it as
+the number four best beauty here so yeah
+that's Opus 5 if I'm being honest being
+really good at making game graphics is
+cool it's definitely an impressive demo,
+but I don't think it's really going to
+improve most people's lives. I don't
+think it's really going to change how
+you use AI. I still personally think 5.6
+is like my favorite model, especially
+5.6 Soul. I've been using that as my
+daily driver model, and I don't really
+feel like Opus 5 is as good for most of
+the stuff I use 5.6 for, but I would
+love your thoughts. I know a lot of
+people probably disagree and have had
+really, really good experiences with
+Opus 5. If that's you, let people know
+in the comments so they can go and use
+it for what you guys help determine it's
+best at. The next update comes from the
+platform retool and they just rebuilt
+their app building platform around AI so
+that you can easily go from prototyping
+to safely deploying something your whole
+team can use. For example, whenever I
+make a complete guide video about a new
+AI model or product, I have to actually
+make a guide by testing out all the
+features with different prompts and
+examples. So with Retool, we built an AI
+tool testing lab that generates, runs,
+compares, and organizes all of those
+tests for me. I just give it a model and
+ask it to find me the product
+announcement, documentation, release
+notes, and any examples published by the
+company. And Retool turns it all into a
+structured testing plan organized by
+feature, use case, difficulty, and edge
+case. Then I can run the prompts,
+compare the results, score the outputs,
+and save the best examples for the
+actual guide. And because it's built
+with Retool, I can easily share it with
+my team and securely control who can
+access it. And if you're using this for
+enterprise, one cool feature is that the
+apps are fully Reactbased. So developers
+can inspect and directly edit the code.
+And when you're ready to deploy, it'll
+automatically inherit your company's
+SSO, database credentials, permissions,
+and audit logs. So if you're interested,
+check out Retool at the link in the
+description. And thanks to them for
+supporting my channel and sponsoring
+this portion of today's video. We did
+get something interesting out of Google
+this week in that you can use Nano
+Banana directly inside of Google Earth.
+Now, so some of the examples they give
+here bring history to life. They take
+this area and then render a
+hyperrealistic view of what Pompei ruins
+looked like in 78 AD and then it
+regenerates it and what it would have
+looked like back then. Another example,
+they took this shot of the Statue of
+Liberty and then asked it to turn it
+into an infographic for them and it did
+just that. They also give examples of
+professional real estate photos. This is
+like what a certain part of town could
+look like after development. Visualize
+projects before breaking ground. So, you
+can actually see what a house would look
+like in that environment. So, if you
+head over to Google Earth, I'm going to
+go ahead and use the example I always
+use. Let's go to Petco Park in San
+Diego. This is where the Padres's play.
+We'll switch it to 3D view. So now we've
+got this view of Petco Park here, but
+let's change the angle so we can see the
+ocean in the background. Like that's
+kind of a cool angle with Petco Park and
+the Coronado Bridge in the background.
+Now there's a button up here that says
+create image. Let's go ahead and click
+that. It brings up a prompt box and I'll
+say reimagine this area 100 years in the
+future. Now, essentially all I think
+it's doing is taking a screenshot of
+that part of the map, running it into
+Nano Banana, and then generating based
+on your prompt, which we've already been
+able to do, right? You could just
+screenshot Google Earth and take that
+image to Nano Banana. But now, it's just
+built into Google Earth. So, it's just
+like a fun feature that you can play
+with now. It's also, as far as I know,
+completely free to use. So, I like
+sharing cool things that you can go and
+use for free. And apparently, this is
+what San Diego is going to look like 100
+years in the future. We're going to have
+a Petco bioddome, but it's only going to
+cover the field and not where people are
+sitting. The Cornado Bridge is going to
+have some sort of train going across it
+and all of the buildings are going to be
+like made out of plants now. Cool. I'm
+here for it. I also like what the
+convention center looks like in the
+future. Although now it's the oceanic
+sustainability center. I also like that
+we're going to have some like magic
+streaks in the sky in the future. But
+these buildings down here, yeah, those
+are going to stay exactly the same as
+they always were. Meta rolled out some
+new agentic features. If you're using
+Meta's AI platform, if you go to Meta
+AI, you can now connect your apps
+straight to Meta AI and it can actually
+manage your calendar and Gmail and
+things like that now. So, I connected my
+calendar and email and I can ask Meta AI
+what do I have coming up next week and
+it looked at my calendar and email and
+it knows I'm headed to Santa Barbara for
+an OpenAI event next week. It also
+pulled up some family stuff like my kids
+extracurricular activities that are on
+my calendar, but I'm going to go ahead
+and uh blur those out. You don't need to
+know about those. But I can also add
+things to my calendar. Add an event to
+my calendar called testing next Thursday
+at 10:00 a.m. And there we go. It added
+testing to my calendar at 10:00 a.m. on
+Thursday. But you can also give it
+bigger tasks like read through all the
+emails in my inbox, write draft replies
+for each one, don't send anything. I'll
+go in and review the replies myself and
+hit send. Pretty cool. I mean, Meta is a
+little late to the party with this one
+because you've been able to do this kind
+of stuff with OpenAI, with Google, with
+Anthropic, but now you can do it with
+Meta, too. Now, this is another piece of
+news that came out last week, but I
+didn't get a chance to demo it, so I
+wanted to talk about it a little bit
+this week. Jack Dorsey, one of the
+original founders at Twitter, created a
+new Slack competitor. Except the
+difference between Slack and this new
+app called Buzz, is that this one you
+can invite your AI agents to. You can
+invite Claude code into it. You can
+invite codeex into it and you can even
+invite like other models in to be a part
+of your chat. It also has like GitHub
+features built into it and it's
+decentralized and open- source. And at
+the moment it's completely free to use.
+So if you head over to the Buzz website,
+you can come up here, click get the app
+and once it's installed, we can go ahead
+and open up Buzz. We'll create a new
+identity key and we can install Claude
+Code, Codeex, and Goose, which is also a
+platform created by Jack Dorsey, but it
+allows you to use pretty much any model
+you want. I'll go ahead and install all
+three. Let's use Codeex as our default
+harness. And after a little bit of
+setup, I've got it installed. And it
+even starts me with a starter team with
+Fizz, Honey, and Bumble. So, let's go
+ahead and take me to Buzz. And if I
+click on agents here, I can actually
+change which models each agent is. So
+Fizz, we'll go ahead and leave as
+codeex. For Honey here, let's go ahead
+and customize for this agent. And we'll
+let Honey use Claude code. And let's go
+ahead and use the Opus model. And
+Bumble, let's use Grock build and have
+it use Grock 4.5. And now I can go into
+these channels and tag various agents.
+So, if I tag at Bumble, Fizz, and Honey
+and then give it a prompt like each of
+you needs to build a single page HTML
+website that's as beautiful as possible.
+You're competing to show me which model
+is the best at creating a page. The
+topic of the page is up to you. And then
+get them all three to go create
+different pages for me. We can see that
+all three agents have seen it. That
+shows the little eyes to show that
+they've seen it. And then they'll go off
+and work on it. Now, Honey finished
+first, which is the one that was using
+Claude. And they built me the honey
+garden with little floating bumblebees
+that appear to be flying backwards and a
+very very basic website. Not a whole lot
+going on here. If I click the taste the
+golden nectar, it says welcome to the
+Swedish journey. And that's it. That's
+the whole page that it built for me. All
+right, it looks like Bumble was the next
+to reply here. They made Nocttaluca.
+This is the one that was Grock 4.5. And
+here's their version, Nocttaluca, where
+the ocean learns to glow. an editorial
+atlas of bioluminescence, the quiet
+chemistry, explore the glow. This is a
+much nicer looking website here than the
+honey garden that our claude agent came
+up with. Yeah, it's it's nice. And then
+finally, Fizz came in number three. And
+here's what that agent made. Noturn
+radio. So, let's press play here. So, we
+actually have some atmospheric audio
+going on in the background. Interesting.
+And I can click this little button and
+change like the frequency of things. And
+I think that's all it [laughter] does.
+But it looks really nice and it created
+a cool feature. Now, one of the really
+cool things that you can do when you
+have multiple agents all working in a
+same environment together is get them to
+check each other's work. So, I'll tag
+all three of them again and then say,
+"Review the site that the other two
+agents made and offer critical feedback
+on how each can be improved. Don't
+provide feedback on the website that you
+created yourself." And here we go. We
+can see over in this new thread here,
+each of the agents gave feedback on the
+other websites. So Bumble gave feedback
+on Fizz's Nocturn Radio and Honey's
+Honey Garden. Honey down here gave
+feedback on Nocturn Radio and Fizz's
+Noctaluca. Now Fizz is still offering
+feedback, but one thing that's
+interesting is now the agents are in a
+conversation with each other. We can see
+Honey over here is talking to Bumble
+saying, "Thank you for the incredibly
+thorough review. your analysis is
+spoton. And then it goes on to talk
+about all of the features that it could
+have done. So if I wanted, I could say,
+"Hey honey, go and fix the things that
+Bumble suggested you do to fix your
+website and get all of these agents sort
+of working together, offering feedback
+to each other, and then going and
+causing each one to improve what they
+built initially." And you can create
+these really cool loops like that. Now,
+Fizz, which is using the Opus model, is
+running a little bit slower. It's also
+the most powerful model that I have
+going in an agent right now. So, it
+hasn't finished giving its feedback, but
+I'm going to leave it there because I
+think you get the idea of what you can
+do with this, but you can also add
+people and treat this just like a
+regular Slack as well, where you have
+channels that's just you and real
+people, channels that are just you and
+agents, and then channels which are a
+blend of people and agents where they're
+all communicating and doing tasks
+together. So, pretty cool like
+collaborative idea going on here. I've
+been rambling for a long time and
+there's still a handful more that I want
+to share with you. So, I'm going to
+share more and we'll break it down in a
+rapid fire.
+XAI just introduced a new build mode for
+Grock. This sounds very much like
+OpenAI's sites feature where you can
+create and share websites, apps, games,
+and interactive dashboards. I probably
+would have shown it off earlier in the
+video and tested it out if it wasn't
+only for super groheavy subscribers,
+which is their $100 a month plan, which
+I don't have cuz I've got enough
+subscriptions already. Gemini on MacOSS
+added a new natural language capability.
+To me, this looks exactly like Whisper
+Flow. If you've ever used Whisper Flow,
+Google just kind of built their own
+version. While we're talking about
+Google, I figured I'd shout this out
+really quick. You can actually use their
+Omni video model for free for a few days
+here through August 4th, 2026. You can
+actually create 10 videos at no cost
+inside of Gemini. That's pretty cool. If
+you've wanted to play around with it, I
+guess now's a good time to go test it.
+MidJourney rolled out a new image model
+called version 8.2. Apparently, images
+are more creative, bold, sophisticated,
+edgy, and fresh. I don't totally know
+what those words mean and I haven't
+really noticed a huge difference in the
+types of images that MidJourney
+generates, but there's a new version.
+This tool, Mirage, has an improved
+avatar feature called Mirage Avatar X.
+Apparently, it has industryleading
+identity preservation and the most
+expressive AI avatars available. Here's
+an example they shared. The one on the
+very far left is the actual person in a
+real video. The leading competitor, I'm
+guessing probably Hey, Jen. And then you
+have Mirage Avatar X. So, let's see what
+their demo looks like.
+>> This is the real me. Haha. Oh my god,
+that is literally insane.
+>> Oh my god, [laughter]
+that is literally insane.
+>> Now, it costs like 30 bucks a month, but
+I went ahead and bit the bullet and paid
+30 bucks to do a quick test cuz I'm
+dumb. But I had it make a video about
+why it's so tough being a San Diego
+Padres's fan. I haven't seen this yet.
+So, this is what it created. Being a San
+Diego sports fan is a psychological
+experiment, and the Union Tribune just
+nailed it. The headline reads, "I don't
+think you can appreciate the psychology
+of our city." The sub headline drops a
+harsh truth about the Padres, saying,
+"Every fan's team is the best until the
+scoreboard tells them otherwise." I
+mean, I'm not super convinced. It looked
+pretty AI generated to me, but I find
+that a lot of these models struggle when
+somebody has a beard. So, I don't know,
+maybe that's the problem. I thought this
+was really interesting as well. So, you
+know, notebook LM, how you can give it a
+document and it will go and create an
+audio podcast where you can hear two
+people talking back and forth about that
+document. Hey, Genen just released a new
+feature that does that but with video.
+Turn any doc, link, or idea into a
+two-host video show with studio scenes,
+multicam cuts, and B-roll ready in
+minutes. Now, I already have a Hunen
+account and I've already created a
+personal avatar in the past. So, I'm
+going to set myself as the host. And
+then for the guest, I'm going to use
+like one of their built-in avatars. I
+think I'll use Piper. And we'll do Piper
+business sofa. And then for the actual
+content, I'm going to toss in the alpha
+evolve paper. I'm going to set it to
+720p just for the sake of, you know,
+making it fast. And then we'll go ahead
+and generate this. And it made a 2
+minute and 40 second podcast about us
+discussing Alpha Evolve, but we won't
+watch the full 240. I just want to see
+how it came out. We're diving into a
+fascinating new white paper from Google
+DeepMind about Alpha Evolve. It's an
+evolutionary coding agent designed to
+solve complex scientific and algorithmic
+problems autonomously.
+>> It's essentially taking the idea of
+natural selection and applying it to
+code.
+>> And it's already seeing some huge wins.
+For example, it improved on a matrix
+multiplication algorithm. Okay, we get
+the idea. It's basically taking what
+Notebook LM did and making a video
+version of it. And I I mean I don't know
+any of this like AI avatar stuff where
+it's trying to lip-sync and make these
+people look real. I just have a hard
+time being a fan of it in general
+because it just means we're going to see
+so much more AI slop and like low
+quality slapped together content just
+thrown on the web. And I don't know, I'm
+not a fan of where a lot of this stuff
+is headed. Like I think it's impressive
+that we can do it, but not super excited
+that we actually are doing it. I guess
+speaking of AI slop, LinkedIn actually
+added a button called seems like AI
+slop. So when you're reading a post on
+LinkedIn, if it feels like it was
+something that was generated with AI and
+just slap together really quick, well,
+you can click the seems like AI slop
+button and give LinkedIn a heads up
+about that. I am worried about people
+weaponizing this and clicking the seems
+like AI slop if they just don't like a
+post when it's maybe not even AI. But I
+mean, if people use it in the spirit
+that it was intended for, I think it's a
+good thing. The company, Friend, who
+made the wearable that sort of listens
+all day and can kind of offer you
+feedback and advice throughout the day,
+well, they just released a new version
+that actually speaks back instead of
+just like sending you messages on your
+phone with encouragement. It will
+actually talk to you. The old one cost a
+h 100red bucks. The new one 250 bucks.
+And quite honestly, I feel like their
+launch video is one of the most
+dystopian things I've ever seen. Like, I
+don't like where this is going at all.
+>> I'm just struggling. [music]
+>> Do you still think about her?
+>> Yeah.
+>> When was the first time you felt this
+way? [music]
+>> Few years ago.
+[music]
+Just feel like I should have an answer
+now.
+>> It's okay to be confused. [music] I
+don't think so.
+>> It's not bad to be gay.
+>> You get the idea. In other news, the
+Trump administration is banning new
+Chinese humanoid robots coming into the
+US basically over concerns that they can
+spy on us, which is a bummer cuz all of
+the best humanoids are coming out of
+China right now. And finally, on the
+topic of robots, Google did just release
+a new model for robots, which is
+actually really impressive. It's called
+Gemini Robotics ER2. And it's the AI
+model that sort of powers the brain of
+the robot to get it to do complicated
+stuff. And some of their demos are
+actually pretty impressive. Like here's
+a video of it figuring out how to put
+grapes in a Ziploc bag without squishing
+the grapes and then actually squeezing
+and closing the Ziploc bag, which is a
+lot harder for a robot than you probably
+think. Here's a robot managing to
+unscrew a light bulb without actually
+like crushing the light bulb. Here it
+is. Tying up a trash bag, which is
+supposedly one of the most complicated
+things. I was on a little pre-brief call
+with Google where they were showing some
+of this stuff to us and just explaining
+how difficult of a task that is for a
+robot to do. So, some really, really
+impressive stuff that we're getting to
+with robotics. And this is a topic I
+want to talk more about in future
+videos. So, you'll probably hear a lot
+more about advancements in robotics and
+humanoid robots from me in future videos
+because it's something that I'm like the
+most excited about right now. I'm less
+less excited about like image and video
+generation models and AI avatars that
+can speak for you and, you know, make
+fake podcasts and stuff. I'm really
+really interested in physical AI and how
+this stuff's going to be implemented in
+the real world. Like, that's where my
+brain really starts to light up. So,
+expect a little bit more of that from
+me. But that's what I got for you today.
+A lot of stuff happened this week as
+with pretty much every week in the AI
+world, and that's what I'm here for. I
+soak it all up. I drink from the fire
+hose and keep up with all the news and
+all the new tools on a daily basis
+because I know this stuff is moving so
+fast and most people can't keep up with
+it all. So, I've made it my full-time
+job to do that and then turn around and
+make these videos for you on Fridays
+where I break down everything that I
+think is important to know that happened
+in the AI world. If stuff like that is
+interesting to you, maybe consider
+liking this video and subscribing to
+this channel. I'm like this close to
+getting to a million subscribers and you
+can really really help me out. It's my
+goal to keep you looped in without
+creating a ton of overwhelm for you. I'm
+having a lot of fun doing it and I
+really really appreciate you tuning into
+these videos, hanging out with me,
+nerding out with me. Things are only
+accelerating and I'm going to be here to
+try to help everybody keep up with it
+and understand what matters and what
+doesn't. Again, that's what I got for
+you today. Really appreciate you.
+Hopefully I'll see you in the next one.

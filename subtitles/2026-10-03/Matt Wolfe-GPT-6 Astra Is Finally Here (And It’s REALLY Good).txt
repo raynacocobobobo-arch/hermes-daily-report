@@ -1,0 +1,551 @@
+UP主：Matt Wolfe
+标题：GPT-6 Astra Is Finally Here (And It’s REALLY Good)
+链接：https://www.youtube.com/watch?v=GGzT7zVrRTU
+
+We just got another huge model launched
+today in GPT-6 Astra. And I was going to
+save this for my news video and just
+talk about it tomorrow. But if I'm being
+honest, this launch feels too big to
+just be like a footnote in an AI news
+video. When I open up my X feed, it is
+literally the only thing anybody is
+talking about on X. It is purely GPT-6
+and what early access testers were able
+to build with it. So, let's talk about
+what GPT-6 is, do a few tests with it
+ourself, and take a look at what some
+other people have managed to build with
+it. Now, full disclosure, I did get
+slightly early access to GPT-6, so I've
+had a little bit of time to play with
+it. Also, in another disclosure, OpenAI
+has sponsored my channel before, but
+this video is not sponsored. They don't
+even know I'm making a video about
+GPT-6, and I can say whatever I want
+about it because, well, it's not
+sponsored by OpenAI. So, first thing to
+note is, as of today, the day I'm
+recording this, September 3rd, it is not
+fully publicly accessible yet. They made
+the announcement that GPT-6 Astra is
+rolling out today to a limited set of
+organizations, and over the coming days
+will become available to all ChatGPT
+Plus, Pro, Business, and Enterprise
+users. Although the day this video is
+going live, you may not have access to
+it yet. Within the next, you know, 2 to
+3 days, you probably will have access to
+it. They have a handful of demos on
+their blog post here, like this
+interactive circuit board, this Excel
+competition, developing like what looks
+like a SimCity type thing, and a bunch
+of other demos. I'm not going to really
+go through those demos cuz it's easy
+enough for you to just [laughter] go
+read the blog post and click through
+them yourself. But in a minute, I will
+show you some of the things that I
+tested, as well as some of the other
+things I've seen others test. But let's
+scroll down to the benchmarks really
+quickly. Although I know benchmarks mean
+less and less to most people these days,
+there are some benchmarks that I still
+think are impressive and interesting to
+take a peek at. Things like automation
+bench, where the jump went from 18.1% to
+41%
+and the benchmark I always like to talk
+about, the one that feels most
+correlated with how you'll actually feel
+when coding with it is Deep Sue. And
+this one, I'm going to be honest, it's
+interesting to me cuz I thought this
+would actually be a bigger number. From
+my experience, it feels really, really
+good at coding. And don't get me wrong,
+74.1%
+is a great benchmark on Deep Sue. It
+puts it at pretty much the top of the
+list. It's about a 2% jump over 5.6
+Soul. However, the reason I thought it
+would kind of be a bigger jump is if we
+take a look at Deep Sue here, Gemini 3.8
+Flash is at 74%. Claude Opus 5 is saying
+74%. Meta's Muse Spark 1.3, which came
+out yesterday, according to their
+website, is 75.4
+on Deep Sue. So, this new Astra model is
+underperforming on the coding benchmark
+that most people are paying attention to
+compared to Muse Spark 1.3, which is
+just really surprising to me. Now, I do
+say according to the Meta website
+because, again, if I look at the Deep
+Sue website, Muse Spark 1.3 isn't
+actually listed on their website yet. We
+have 1.2 down here, but 1.3 is not
+showing on their ranking yet. But then
+again, neither is GPT-6 Astra. Now,
+where the benchmarks start to get really
+interesting are down here, Terminal
+Bench Science. It went from a 22%
+to a 64.6%
+massive, massive leap. GPQA, Google
+Proof Question and Answers, I mean, it's
+basically saturated benchmark at this
+point, same with Frontier Math Tier 4.
+And then the Arc AGI benchmark, it went
+from 7.8%
+to 99.9%.
+I mean, it's basically solved this
+benchmark. But for additional context,
+the Arc AGI 3 tests how well agents
+learn as they solve unfamiliar
+interactive tasks. GPT-6 Astra saturates
+the evaluation, scoring 99.9%.
+The average human tester scored 48%.
+Now, the other benchmark that I often
+refer to is artificial analysis because
+this is like a sort of aggregated
+benchmark. They take the scores of a
+bunch of different tests, put different
+weights on those different tests, and
+then rank what they believe to be the
+objectively smartest models. And this
+one I find kind of interesting because
+GPT-6 lands in fifth place. It pretty
+much tied with GPT-5.6,
+which if you've used 5.6 and then you
+use six, it definitely feels like a big
+leap, which makes me sort of question
+the legitimacy of this benchmark just a
+little bit. Now, I still like the
+aggregated weighted take that artificial
+analysis does, but my tests, I've been
+way more impressed with GPT-6 Astra than
+I have been with Opus 5 and Fable 5. I
+haven't personally tested MuSpark yet on
+anything but BUS bench, but it's on my
+list to play with next. And when we come
+down here and look at cost per task,
+like I talked about in yesterday's
+video, Fable 5.1 is the most expensive
+per task to run. And GPT-6 falls down
+here at about a dollar 67 per task,
+which is, you know, a little bit more
+expensive than GPT-5.6.
+So, if you're using this through the API
+or if you have a ChatGPT account and
+have usage credits, well, you might find
+you use them a little bit quicker or
+it's a little bit more expensive through
+the API if you're using six versus 5.6.
+But let's take a look at BUS bench.
+Here's what GPT-6 generated, and
+according to my AI as a judge here,
+GPT-6 falls into first place, just above
+Claude Fable 5.1 and the two Gemini
+flash models here. Now, MuSpark 1.3,
+which actually performs better on both
+Deep Sue and the artificial analysis
+benchmark created this SVG of Gary
+Busey. Now, if you're not familiar with
+SVGs, they're basically images that were
+created from code. So, the code is
+basically telling it where to draw the
+lines and the circles and the shading
+and things like that to generate the
+image. So, it is pretty much a coding
+test to see how well the code is at
+drawing images with code. And again,
+here's Muse Spark 1.3, which scored 5.7
+on my AI as a judge. And here's GPT-6.
+Like, I don't even think they're close,
+which is again why I was slightly
+confused by the difference on Deep Swat
+and artificial [laughter] analysis. But
+again, artificial analysis is taking a
+bunch of different benchmarks into
+account and not just coding. Now,
+digging in a little bit deeper here on
+the GPT-6, it does say NA for cost.
+That's because I had early access. I
+didn't run it directly through the API,
+so it didn't get the cost specifically.
+However, the AI did estimate it would
+have cost about $1.94
+to generate this. But again, that's just
+an estimate. It used 63,858
+tokens and it took 9 minutes to
+generate. And when I do my generations
+on Busey bench, I always use the highest
+mode I have available. So, this was
+actually using the max mode. Now, if
+you've been watching my videos for a
+while, another thing I like to test just
+for fun is to see its kind of design
+taste for making a game. So, I always
+like to tell it to go and clone Mega
+Bonk for me. If you're curious what the
+actual prompt was, it was literally
+create a clone of the popular Mega Bonk
+3D game. I always like to add 3D game
+because in the past it's made like a 2D
+top-down version. I just like to specify
+that. And honestly, this is one of the
+most visually appealing versions of Mega
+Bonk I've gotten so far. Here's what it
+looks like. I can be a knight, I can be
+a ranger, or I can be a mage, each with
+different starting weapons. So, let's
+start as a mage this time and click
+let's bonk and you can see it's pretty
+good looking. I mean the character is
+one of my favorite character generations
+from any of these mega bonk tests that
+I've done so far. Like it's just a cool
+looking character and it's all done with
+3js. It didn't actually build the
+models. So it it coded all of this up
+and yeah, it looks really good. I'm
+going to quit out of this. I want to try
+the ranger, see what their weapon is. So
+they have more of like a bow and arrow
+where they're shooting just one arrow at
+a time. And then if I use the knight,
+they have more of this like bonk which
+is like this wave. I think it's supposed
+to be hitting with a hammer. It didn't
+actually animate the hammer moving very
+much. I guess it kind of did a little
+bit. But yeah, the hammer animation is
+kind of leaving a little bit to be
+desired. I just really like the design
+aesthetic. I think it did a great great
+job and the game works beautifully. It
+works really smooth. And one thing I
+found really interesting was I prompted
+this game and it built the whole thing
+in 8 minutes. In the past when I've done
+this mega bonk test, it would take an
+hour and a half, 2 hours to make
+something like this. This one, it did
+the whole thing in 8 minutes. Now to be
+honest, I'm not sure if it was super
+quick because less people were using it.
+It wasn't in public access yet. And so
+because there was only a handful of
+people that had early access, it was
+loading a lot faster or if this new
+model is just way faster. But in
+everything I've tested so far, it worked
+really really quickly. Now another
+prompt that I like to test just to see
+what the AI comes up with is create a
+beautifully designed interactive website
+that shows off your capabilities as a
+model. The site can focus on whatever
+you want but design it to really impress
+me with your capabilities. I've gotten
+some pretty fun websites out of that
+prompt in the past. And here's what it
+generated. I'm going to hide my face
+real quick so I can show it off a little
+better but it created this like world
+simulator. So I can control the Earth.
+And look at the details. You can see
+like this is the dark side of the Earth
+and all of the city lights are on over
+here. It's not Earth, I guess. It's
+Orbis, a little world uh that it
+created. So, it's it's like a simulated
+world similar to Earth. But, it gave me
+all of these sliders. So, I can see what
+this world would look like if it got a
+lot more sunlight. You can see how it
+dried the whole thing out. Or a lot less
+sunlight. You can see how the whole
+thing freezes over. I could raise the
+sea level and just make it a water
+planet. Or lower the sea level and make
+the whole thing just completely solid. I
+can change the level of rainfall, which
+affects how much clouds there are and
+how green it is. But, here's what I
+found the most cool about this is that I
+can change what this world looks like. I
+can raise land. So, any of these areas
+where there's no land, I can click
+around and actually add more land to
+them. I can carve an ocean. So, I can go
+through here and actually add oceans
+into it. I could add more uh seed life
+and make areas greener, add more plants.
+I could leave craters. So, there's like
+an impact thing. So, if I wanted to put
+a crater here, boom, an asteroid just
+hit that spot. Or an asteroid just hit
+right [laughter] there. And you can see
+what would happen and how it would
+affect the the world. But, check this
+out. Down here, it shows the
+habitability. 85% habitability, surface
+temp 16.5° C, population 1.35 billion
+and rising. Now, if I crank up the
+sunlight so it gets drier, now 10%
+habitability. And we can watch the
+population just drop like a rock. Bring
+this back to 50% habitability goes back
+up, population goes up. Reduce the
+sunlight. Once again, we see
+habitability start to drop. We'll watch
+the population drop. And it's just this
+really cool like little world simulator.
+And there's some like beginning
+templates that you can start with here
+that changes everything for you to see
+what these other worlds would look like.
+And once you build a world that you
+really like, it'll build a little
+postcard of the planet that you made.
+But I think probably the thing I've had
+the most fun doing is getting this new
+model to use its computer use
+functionality to go and play around in
+Blender and Unreal Engine for me. So
+first I prompted it with I want you to
+take control of Blender and create a 3D
+figure of a humanoid wolf. So it took
+about 8 minutes and it created this
+little figure. Now this is just a
+screenshot of it, but if I pop open
+Blender here, you can actually see the
+character it created. It's not the best
+there's definitely quite a bit of
+wonkiness to it, but this was a one
+prompt thing. I could have gone back and
+forth prompted it over and over again
+and got it more dialed in, but I wanted
+to see what it would do with one prompt
+and this is what it designed for me. And
+then I went, "Hey, can this like rig it
+up and actually animate it for me?" So I
+said, "Can you rig this up, remove the
+stand and then animate it?" The original
+version had that little stand on the
+bottom. It took 6 minutes and it says,
+"Done." Removed it, added a 50 bone rig,
+and created an 8-second looping
+animation and it created this animation
+which left a little bit to be desired
+cuz the head's just kind of moving and
+the tail's wagging, but there's not much
+else going on. So I said, "Now animate
+it so it looks like it's running." And
+it made it so it looked like it's
+running. I mean, little little wonkiness
+with the hips, but it made it so it
+looked like it was running. And if I
+open it up in Blender here, you can see
+that's actually what this animation is
+right now. It's actually the wolf
+running. But it did this by taking
+control of my computer, opening Blender,
+drawing out the wolf for me, and then
+after that it rigged it up with 50
+different bones so that it knew where to
+move and then it created the little
+animations for me all through prompts.
+Like I have no idea how to use Blender.
+I'm not good at Blender at all. So that
+was pretty impressive. But then I was
+like, "Let's take this to the next
+level. Can I make this as a character in
+a game that I can run around as?" So I
+gave it the prompt, "Create a beautiful
+forest world in Unreal Engine and then
+add this wolf as a playable character
+that I can use and run around as within
+the world. That was supposed to say run
+around as. I said round around, uh, but
+it knew what I was talking about,
+luckily. It took 35 minutes, and it said
+it created Whisperwood, a forest with
+winding trails, a pond, wildflowers,
+etc., and it added my character in. And
+here is Whisperwood. Again, this is all
+computer use. It took control, opened
+Unreal Engine, and made this. Not the
+greatest running animation, but it built
+this whole world. I can jump around. I
+can play as this wolf. So,
+I can use my arrow keys to look around.
+I can jump. Shift is to run. And it
+built all of this for me. I know people
+who know what they're doing with Blender
+and Unreal Engine are going to be very,
+very unimpressed, but as somebody who
+doesn't know how to use [laughter]
+either of these tools, just telling
+ChatGPT to prompt this into existence
+for me, yeah, that for me it's wild. I'm
+I'm super impressed with what this was
+capable of using computer use. Oh, but I
+just found the edge of the world. And
+again, this was just like one prompt at
+a time. Like, I wasn't trying to
+optimize or dial it in or really, really
+improve the look of the wolf or anything
+like that. A few more prompts, and this
+would have looked like really good. And
+quite honestly, most of what I created
+actually feels kind of janky compared to
+some of the stuff I've seen people
+posting on X that are way more creative
+than I am. So, I figured I would quickly
+share some of the stuff that I saw other
+people share that they made with GPT-6.
+I don't have to look very far on X, cuz
+again, that's my whole feed right now.
+But, here's something that Matt Berman
+created, like these little planet worlds
+where you're this character that can
+move around in them. It looks really
+good. I'm pretty sure this is all 3JS.
+Like, this didn't go and create separate
+assets. This is all written with code,
+and it looks really, really good. Matt
+Schumer here, GPT-6 Astra built this
+Manhattan world in Unreal Engine over
+the course of a week. So again, somebody
+who managed to get it to just take
+control of Unreal Engine and build
+inside of that world. And yeah, it looks
+really, really impressive. Matt also
+created this 3D horror game here that
+looks like some sort of first-person
+shooter just without the shooter part of
+it. [laughter]
+But it looks pretty good. And another
+one here from Matt Berman, which is like
+a Fall Guys clone where you're, you
+know, running through these obstacle
+courses and trying not to fall off.
+Looks pretty decent again. Here's
+another one from Matt Schumer. He claims
+he asked it to create a world in Unreal
+Engine and fill it with humans and each
+one have an Astra-powered agent who all
+work together to survive. A day later,
+he was in his bedroom, heard some voices
+coming from the other room, came out of
+his room scared, and it was the Astra
+agent. They actually started talking to
+each other. So here's the clip of what
+he shared of that.
+>> Thanks for helping, everyone. Good to
+have a place in my home.
+>> You're welcome.
+>> Now the video here looks ultra
+compressed. I'm sure it looks better on
+his original system, but pretty
+interesting. Pietro here has some demos.
+He made this 3D model and the animation
+all from a image that he gave it. He
+made this Atlantis underwater simulator,
+which is one of the more impressive
+things I've seen for sure. A Beyblade
+game that you can play. A game that kind
+of looks like Wave Race from N64, but
+maybe even like slightly better than the
+N64 version graphics-wise. Ethan Mollick
+here had it create the Library of
+Alexandria here. Now, I have the audio
+turned off, but it will actually explain
+things to you.
+>> Around 250 years before our era.
+>> And we're going to see more and more
+demos of what other people have built
+with it and what it's capable of over
+the coming days. But man, it is it is
+one of the more impressive models I've
+played with lately. I just did a whole
+video yesterday about how this release
+schedule of new models like every other
+day coming out is sort of getting
+frustrating because they all feel like
+small leaps, but this one does to me
+feel like a bigger leap. It's one of the
+models I've had more fun with than
+others, especially getting it to go and
+use Unreal Engine and Blender and things
+like that for me. Really, really fun.
+I'm excited to use it to go and overhaul
+like my dashboard, find ways to improve
+it and make me even more productive on
+my daily routines, things like that. So,
+really, really exciting. Again, I'll
+talk about it a little bit more in
+tomorrow's Friday news breakdown where I
+break down all the news for the week,
+but I wanted to make a couple extra
+videos this week because a lot of models
+dropped and I didn't want tomorrow's
+video to be like an hour and a half-long
+video talking about all this stuff.
+Plus, the GPT-6 launch felt like a big
+enough leap in model capabilities that
+it warranted its own video. If you like
+videos like this and you want to stay
+looped in on all of the latest AI news,
+again, I also make an end-of-week video
+that comes out every Friday that breaks
+down all of the AI news stories for the
+week. So, if you only want one video a
+week that breaks down everything you
+need to know in the world of AI, maybe
+consider liking this video and
+subscribing to this channel. That'll
+make sure that those news videos show up
+in your YouTube feed. I drink from the
+firehose all week. I keep up with all of
+it so that ideally I'll be overwhelmed
+on your behalf and you can just watch
+one or two videos a week and be fully
+looped in on what's going on. That's my
+goal with this channel. Again, consider
+liking and subscribing if you're into
+that kind of thing. I also have a free
+AI newsletter that comes out twice a
+week that will also keep you looped in.
+I'll put that link down in the
+description below, but thank you so much
+to everybody that tunes into these
+videos and nerds out with me about all
+of the latest cool tech stuff. I am
+upping the amount of videos I'm doing
+outside of the Friday news video because
+I feel like there's a lot to talk about
+right now. So, I'll make a few more
+videos than I used to make. I've got a
+really cool project coming out next week
+and some really cool collaboration
+videos coming up as well with some other
+creators that I'm super excited to share
+with you. So, again, I really really
+appreciate everybody that tunes into
+this channel and nerds out with me and
+obsesses over tech like I do. It's a lot
+of fun and the community that's been
+growing around this channel has been
+awesome to see. So, thank you again. I
+really really appreciate you. But,
+that's what I got. Hopefully, I'll see
+you in the next video, which will be
+tomorrow's news video. See you later.
+Bye-bye.

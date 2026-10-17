@@ -1,0 +1,565 @@
+UP主：AI Engineer
+标题：From VLM/VLA's to Embodied Agents — Armen Aghajanyan, Perceptron AI
+链接：https://www.youtube.com/watch?v=ZZcE0HeO-Hc
+
+[music]
+Yeah, I guess uh let's get started. I'm
+I'm Armen. I'm I'm the co-founder and
+CEO of Perceptron. Um, we'll get a
+little bit into into what we do, but uh,
+primarily what I want to talk about
+today is kind of our research stance
+that we want to move away from
+distinctions between VLMs, VAS, world
+models, whatever you want to call it, to
+something that we call embodied
+foundation models.
+So specifically what we what we do at
+Perceptron kind of our northstar really
+is we want to be able to build physical
+AI foundations that give us the ability
+to perceive, understand and interact
+with the physical world in real time.
+And so kind of the the northstar mission
+is really to bridge the the physical and
+digital world uh worlds fundamentally
+meaning that our our goal is kind of
+wherever there is a um a device, an
+instrument, a robot, a camera, a sensor,
+uh we're essentially there providing
+intelligence to it.
+And specifically when we talk about this
+paradigm of being able to perceive,
+being able to reason, being able to act,
+we view this as kind of a a unification
+of uh traditional multimodal modeling.
+So I came from fair, I was there for six
+years and and and my target there was
+really to try to figure out how to scale
+up recipes for multimodal models. And so
+one of the early things that we we
+started working on and we've published a
+lot in this domain was around early
+fusion. So this concept that you want to
+bring in all these modalities as early
+as you can and and the real complexity
+there is trying to figure out what is
+the correct way to actually properly
+represent all the different modalities
+uh both on the input and on on the
+output that you want to be able to
+represent holistically and so VLMs have
+kind of became the when I talk about
+multimodal models um you probably think
+of VLM. So this is the ability to take
+in some image video and some text and be
+able to output some some text
+essentially. And there's there's
+variations of this. There's there's
+models like the ER models, the embodied
+reasoning models that are able to output
+maybe some grounding points um that are
+able to do spatial understanding or
+reasoning a little bit better. Then we
+have things like VALAS that extend kind
+of the output domain apart from just
+text to now actions. And these are
+traditionally of course continue to be
+built on by standard VLM backbones.
+Although there's been some efforts to
+try to migrate away from uh from VLMs to
+things like world models or world action
+models, although nothing that's been
+super fruitful just yet. And then we get
+into kind of more interesting and
+complex uh variants of multimodal models
+like world models where you essentially
+are outputting video uh from some inputs
+and the inputs can be either image or
+video or honestly image video and and
+actions. Um and the last point that I'll
+talk about is something recent which we
+call semantic world models which is you
+don't really output anything but you
+learn some type of representation that
+you think is useful um in the future.
+What we kind of view as an embodied
+foundation model is actually uh a
+framing that allows you to both to do
+the standard perception the embodied
+reasoning and then the northstar target
+of control all within one model. Um, so
+being able to reason across different
+sense of modalities on the input and
+being able to do kind of most of what I
+mentioned on the output all within one
+single unified model.
+And so very quickly I'm going to talk
+about two challenges and these are kind
+of fundamental research challenges that
+we face and I'll talk about kind of how
+our company has approached this um and
+and and what other folks are doing in
+here as well. So the very first thing is
+think about purely if you're going to
+try to model something like video like
+one hour of video depending on the
+representation you might have something
+like 1 million visual tokens that are
+coming in. The truth is is that there's
+not actually any ground truth that you
+can use uh effectively, right? So you
+can do things like and people have done
+this of course like pull out the
+transcripts uh predict the transcripts
+from the video or or maybe synthetically
+label some frames, ask it some questions
+and it turns out that this is kind of a
+humongous waste, right? So if you think
+about what's going into your model, you
+have 1 million tokens going in and
+you're essentially calculating the loss
+on something like you know 2% of all the
+tokens that are going in. And so this is
+very fundamentally problematic and and
+and the truth is is any way you try to
+figure out how to fix this, you're
+essentially injecting a wrong training
+signal. Either the signal is too sparse,
+it's too synthetic, or it's too
+indiscriminate. And so approaches beyond
+just synthetic enrichment have been,
+well, let's predict every single pixel.
+I mean, true, this is a very dense
+signal, but it actually very poorly
+allocates attention. there's, you know,
+you're comparing a, you're treating a
+background pixel with the same degree of
+importance as you're treating a gripper
+tip or the contact points or the
+specific failures or the physics. And so
+what we do kind of at Perceptron is, and
+this is kind of some of our core IP is
+we think about what does a natural
+perceptive objective look like? So
+specifically, how can I predict the
+percepts that we think will matter in in
+the future in a very very automatic way.
+So, as an example, you might hardcode
+something like, well, if you have a
+robotic arm, well, the the the tip of
+the grippers turns out to be a very
+useful percept that you can predict into
+the future. And folks have started doing
+this. Um, like the Momo app folks from
+AI2 have done this. There are other VAS
+that have done this. But this is still a
+hard-coded percept. So, the question is,
+can you figure out an automatic way that
+the model semantically is able to learn
+this very unique objective? And the
+truth is, we have figured out a way. uh
+we're not going to share how we do it
+here, but this is just kind of hinting
+at how we approach the the problem of of
+of sparity.
+The the second core problem that we've
+spent a lot of time focusing on is is
+context bloat. So, if you have always on
+cameras, if you have robots that don't
+necessarily wait, they don't stop,
+you're essentially having to reason over
+a very very long um very long amount of
+tokens. And and so text is relatively
+dense and video is relatively sparse.
+And so the question is, are there
+architectural breakthroughs that are
+there in order for you to be able to
+deal with this problem problem natively
+rather than just trying to on some
+synthetic level figure out how to fix
+this imbalance?
+Um, and so there's a couple of things
+that you can do. One kind of core first
+principle is you need to start treating
+different uh modalities as completely
+different. So you can't treat text
+tokens as the same as image tokens as
+the same as audio or video tokens. So,
+one thing that you can start thinking
+about doing is focusing on spatial
+compression or token compression. And
+people do really dumb things and we
+started off doing the dumb things and it
+does work. You can start thinking about
+averaging, you know, patch-wise
+representations across a a video or an
+image. Um, and you can start getting
+some interesting compression rates, you
+know, up up up to 10x.
+But still, this is relatively of a hack
+and there's there's not, you know,
+wellused architectural methods to
+actually solve this. Um, so what we've
+done in in in the last couple of months,
+we've released what we think is our
+approach to dealing with um varying
+degrees of sparity, which is just let
+the model figure out what tokens it
+should look at and what tokens it
+shouldn't look like. And so we released
+our data sparse mixture of experts
+paper, which essentially allows you to
+do this. Um, it allows the model, well,
+there's a router in the model allows it
+to actually predict what token I should
+input, what token I should skip. Um, and
+it allows us to do it kind of for free
+through all the different layers.
+And it turns out that if you just let
+the model learn, if you're not actually
+hard coding any significant um
+architectural priors, um, the model
+actually does learn. So if you end up
+visualizing the data sparse compute uh
+that our models use, you'll actually see
+that our models innately learn to start
+focusing on very um high density
+information or task relevant
+information. Um so in in in the upper
+right you can kind of see that the model
+decides to focus in on the graph which
+actually you as a human would also kind
+of zoom into because this is likely uh
+what's interesting within the figure. Um
+and it turns out that even task
+dependent um uh task dependent
+allocation ends up happening as well. So
+if you look at the bottom left if you
+just ask you know a very very general
+question you're kind of going to see an
+attention graph that is throughout the
+whole image. So the model just doesn't
+know what the proper way to allocate
+compute is. At the same time, if you ask
+it to do something like, you know,
+segment out all the fruit, you can see
+that it's going to allocate more tokens
+to what it thinks are fruit tokens. And
+so this is a very nice and clever trick
+that that we use and we've published and
+and other folks are starting to use
+around embedding priors into the
+architecture that are useful to deal
+with the sparsity imbalances of your
+modalities but not too harsh to the
+point that the models aren't actually
+learning uh natively.
+And so kind of we we put all this
+together and you guys might have seen
+the release, but we essentially released
+our our our model which was uh what we
+considered to be the first embodied
+foundation model a couple weeks ago. And
+this model is essentially frontier um
+with respect to Gemini 3.1 Pro. It's
+actually better than Gemini embodied
+reasoning. Um and it's something like 15
+times cheaper. And it's essentially
+trained on this one pedibyte data set
+that we've collected across uh literally
+everything. It's uh from from internet
+crawls to to our own custommade training
+recipes or synthetic data pipelines. We
+have this one one pabyte of data across
+text, images, videos, trajectories. And
+these trajectories can be very very
+general. They can be desktop use
+trajectories. It can be playing a video
+game trajectory.
+And it turns out that once you start
+doing these things, very interesting
+properties end up emerging. And so the
+the biggest property that we kind of saw
+which is kind of obvious in retrospect
+is that you can actually start thinking
+of doing classical CV tasks as being an
+agentic task. And so in this case we
+essentially reframe detection as an
+agentic task. So our model can you know
+write code it can it can ask to zoom in
+into specific portions. Uh it can change
+the contrast. Um and you can actually
+see here this is a very hard problem. I
+think there's a whole Reddit subreddit
+of these problems of trying to find very
+hard objects and images. And our models
+essentially do this very well, but they
+do this in an agentic sense. So this
+isn't the this isn't a classical, you
+know, detect this one box. This is the
+model actually deciding that it needs to
+tile things up. It needs to change the
+contrast. It proposes a box here. I
+think here it yeah uh increases contrast
+and it can find the bird. So again, very
+hard to do if if like even for a human
+and humans are very good at perceptive
+tasks. This is a relatively tough thing
+to do. And this all comes from just
+having natively embodied models that
+actually understand how to look at
+different modalities.
+And so following up kind of how does
+this relate to the general physical AI
+stance around robotics? So I kind of
+stole this slide from from GDM folks.
+And so one thing we've we're starting to
+see from kind of robotics um u agentic
+systems is this separation between what
+we call kind of embodied reasoning
+models or orchestrators and tactile
+policy models. You can think of problems
+as like you know if I have a if if I'm
+making coffee and that takes me three
+minutes to do I mean one thing I can do
+is try to force my whole you know VLA to
+try to figure out how to do this
+individual task or what I can do is I
+can have an orchestrator model that
+breaks up this tasks into subtasks and
+there's a tactile control policy that's
+running on top and there's kind of a
+full spectrum between you know full VA
+only all the way to this kind of agentic
+system. Uh but the main thing I'm trying
+to highlight is that embodied reasoning
+is actually very interesting and complex
+problem that is yet to be solved. Um
+that being said, our models continue to
+be frontier on embodied reasoning. And
+because they're frontier, we start
+seeing really cool things that we
+haven't seen before. Here's a concrete
+example of doing very complex egocentric
+or not egocentric, but this is robotic
+data annotation. And you can kind of see
+here the model is jumping around looking
+at different portions of the video, uh,
+you know, clipping it, figuring out
+whether or not the captions are correct,
+self-ver uh, self-verifying. And we can
+all do this because AR models are fast.
+They're significantly cheaper than
+anything else that's out there. So, if
+you try to do this with Gemini, this
+video would probably cost you a couple
+of dollars where for us, it's probably
+in the sense. Um, and these all kind of
+emerged from being able to have these
+frontier embodied reasoning capabilities
+that we just previously have not seen
+from other models.
+Um,
+okay. Probably going to share the the
+biggest research breakthrough that we've
+had and I think we'll we'll share more
+of this uh in the upcoming weeks
+probably on Twitter. Uh, but one thing
+that we found is we've we've we've
+discovered new scaling laws for embodied
+foundation models. So these are models
+again that you can jointly do
+control-based training, you can do
+trajectory training, you can do
+perceptive training, you can do embodied
+reasoning training. If you just figure
+out what the right way to mix this all
+together is and the right objectives to
+use, you actually start seeing very
+interesting levers that you maybe
+previously haven't been able to see
+before. So the concrete lever that I'll
+talk about is this ability to trade um
+this ability to trade general video uh
+pre-training data for teleop data. So
+kind of as we know teleop data is very
+expensive. It's on the orders of you
+know $100 per hour of data for a hundred
+you know dollars I can collect
+significantly more video pre-training
+data. And so what this graph is showing
+is that um if you're just training pure
+VA's pure policies there's this band
+that you have. So you do actually still
+have scaling loss. So you do get
+benefits from more and more teop data.
+That being said, the benefits are not as
+substantial as if you are really
+training these unified embodied
+foundation models. And so this is what
+kind of the bottom bottom half of the
+graph is. Uh and the really cool kind of
+uh lever that we get is you can
+essentially trade 10x uh less teleop
+data if you have 10x more video
+pre-training data. And so far this is
+kind of held for the amount of compute
+that our company has. Um and it will be
+continuing to to kind of push the fold
+on uh how far you can push these
+embodied foundation models.
+So here's a couple of videos of of a
+policy that hopefully will will um we'll
+open source one of the smaller models in
+a couple of weeks. Uh but this is all
+running natively within a single model
+that is capable of doing the embodied
+reasoning in order to figure out the
+task actually is outputting control
+tokens. Um you can see it's a little bit
+jittery but that's okay. Hopefully it'll
+be figured out at scale and you can
+actually see very complex tasks that
+previously I think would be really tough
+for pure VA to do. So I think if you
+look at the right hand video, this is
+requiring them all to actually read the
+title of the book, have the knowledge
+about what type of book this is and then
+properly allocate it within one of the
+bins. Um so this is actually a
+multi-step task between perception and
+control that is really really tough to
+do if you have a kind of a pure
+endto-end control model that is not
+aware of the different perceptive tasks
+that it needs to accomplish in order to
+do this task.
+Yeah,
+it's pretty cool. It also works zero
+shot relatively well out of the box. So,
+we're excited to get this in the hands
+of folks in in a couple of weeks
+sometime in July.
+Um, yeah, going to leave a couple of
+minutes for for for general questions,
+but if you guys are interested, let's uh
+let's connect. So, one cool thing that
+we do with our company is we actually
+for a limited set of partners give
+access to our Mark1 weights. We give
+access to our larger embodied foundation
+models weights. So, email me, DM me on
+Twitter, uh, whatever is easier. Um, and
+then yeah, I'll open up. There's a
+couple minutes left for for questions.
+>> [applause]
+>> these models
+and like when I saw
+a lot of contss
+So can you talk a little bit on that?
+>> Yeah, I think it's it's so yeah. So the
+question is how are we able to nail
+temporal and uh understanding to this
+degree? Um it's a good question. I mean
+to be honest it's not nailed. So there's
+still a lot of work to actually get it
+to a place where you can reliably deploy
+it. The the core thing is how do you
+think about context management? So you
+have relatively limited context. So I
+think the the the models here have 1
+million context, but that's relatively
+easy to fit in with the, you know, high
+FPS video. And so you have to start
+thinking about, are there interesting
+things that you can do? I'll throw
+something out there. We we used to do
+this, but we got past this, but like how
+do I think about like uh uh key frames
+versus delta frames? How can I manage my
+context by training these two off? Um,
+and then you start thinking about during
+your pre-training objective, how can I
+start kind of natively ingesting things
+that I think will be useful for the
+robotics tasks. Um, so for example, a
+very basic thing that even kind of the
+the Gemini models used to struggle at, I
+think the new ones are pretty good, but
+being able to tell cardalities. So like
+left and right is very hard to tell if
+you do internet scale crawls because no
+one on the internet is necessarily
+labeling things as, you know, this
+object is to the left of this object,
+it's below this object. So really
+thinking about data distributions early
+on gives you this ability relatively
+quickly. And it's also like er this type
+of embodied reasoning was a very
+concrete focus with this which is why I
+think we were able to kind of surpass
+Gemini ER with relatively less compute.
+>> One issue with
+sometimes I was wondering whether
+you looked
+your models are more robust than
+>> Yeah. So, probably the coolest
+robustness that we've seen is that uh
+for VA models specifically, like if you
+go and you take one of the Chinese ones
+um and you try to fine-tune it for a
+specific policy, if you just change the
+background of the I don't know, you can
+like in the table uh if you change the
+the background of the table, the policy
+will actually fail. What's really
+interesting, if you do this type of
+joint perceptive and control modeling,
+you're much more robust to these types
+of errors or if the light is hitting it
+a slightly different way. And I think we
+primarily view this as robustness to
+background uh in a way that I think
+traditional models don't necessarily
+have. That being said, I'm not going to
+overclaim like uh I mean like it's still
+relatively hard. I think if I was going
+to go and shine a flashlight into one of
+the one of the arms, it's probably not
+going to work. Uh but being able to
+jointly model these things helps a
+significant amount. We also do a lot of
+online augmentations. So, so we do
+actually, you know, fake um I don't know
+um one of the one of the arm cameras
+being off, right? We fake uh you know,
+sunlight coming in from a certain
+direction, right? So, we do these things
+during training to improve robustness.
+Uh but the big gains come from taking
+this early fusion paradigm and then
+moving it into the robotics domain.
+>> Cool.
+uh create knowledge base using the K1
+model.
+>> Uh oh, knowledge bases. Um it's useful
+for like I I mean if you want to caption
+images, videos, it's relatively well. We
+work with robotics partners for like
+very complex egocentric annotation like
+this. Um so it's not necessarily
+building out an ontology, but being able
+to do kind of very deep structured
+extraction, I think our models are are
+very good at. Yeah. By the way,
+everything that I kind of showed here is
+kind of public APIs, so you can go play
+around with it. The benchmarks are
+public. Um, I think I'm out of time.
+They're cutting me off. So, uh, I can
+talk with folks outside, but thank you
+guys.
+>> [music]

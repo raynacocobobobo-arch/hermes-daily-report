@@ -1,0 +1,1019 @@
+UP主：Matt Wolfe
+标题：AI News: The AI World is REALLY Scared Right Now
+链接：https://www.youtube.com/watch?v=JwTCjarfJYw
+
+We got a bunch of new AI releases this
+week, as well as some AI researchers
+telling us that we need to be way more
+scared of AI than we actually are right
+now. There's some important stuff going
+on right now, and I don't want to waste
+your time. So, let's break it all down.
+Let's start this week on a lighter
+topic, and that's the new image model
+out of OpenAI. This week, they
+introduced ChatGpt images 2.5. So, this
+is the image model that you use right
+inside of Chat GPT, and they've improved
+it quite a bit. This new model is
+apparently a lot better at working from
+reference photos to transform familiar
+subjects, visual styles, and
+compositions. So, when you ask it to put
+somebody in a suit, it looks a lot more
+like the original person than, you know,
+the old model might have generated.
+They're also showing off here that
+there's much more consistency in the
+edit in this new version. The pose and
+the face and everything stays way more
+consistent than the one on the left. In
+this example here, they're showing
+somebody holding a ticket and the
+fingers and the ticket shape and
+everything stays exactly the same, but
+the images and information inside the
+ticket are changing. Here's more
+examples of consistency. And it really
+seems like consistency is kind of like
+the biggest update with this. However,
+they did introduce a new feature called
+sketch, which let's just go and actually
+play with it. When I'm inside of chat
+GPT here, I can now create an image by
+first sketching it. And this actually
+works on mobile as well. But if I click
+on this plus, you can see there's a new
+sketch option here. If I select this, it
+opens up a little canvas where I can
+draw. So I can draw a picture. I am very
+bad at drawing, but let's just go ahead
+and make a little like person here, you
+know, just draw it as you'd normally
+draw people. And now if I click check,
+it'll use this sketch as like a
+reference image. And then I could give
+it a prompt and say generate this image,
+but make it look super realistic. And
+there you go. There's the super
+realistic version of my sketch. You can
+see it sort of followed all the
+randomness that I gave and tried to make
+it as realistic as possible. I also did
+a fun little test where I had Astra
+sketch an image of me. So, I actually
+told ChatGpt Work to sketch an image of
+me and then Astra actually drew this
+sketch of what it thought I looked like.
+And then I had it prompted to make this
+image more realistic basically. And this
+is what it generated. So, it's almost
+like a game of telephone, right? It
+looked at a picture of me, drew this as
+the picture of me, and then prompted it
+to make it more realistic, and this is
+what it came up with. So, this new model
+is available as of right now inside of
+ChatGpt, ChatgPT Work, and Codeex across
+all tiers on desktop, mobile, and web.
+There's also two variations of the model
+available inside of the API. So, if
+you're trying to build with it and work
+it into an app, you can do that. One
+model is slightly more detailed and
+slightly more expensive. The other model
+is a little less detailed, a little
+faster, and a little bit cheaper. So, if
+you've used the chat GPT images feature
+in the past and you struggled with
+consistency from it, well, maybe now's
+the time to give it a second look
+because that's the thing that they most
+improved with this new model along with
+that kind of fun but sort of silly
+sketch feature. We got some big news out
+of Meta this week as well. Meta launched
+their brand new agent called Muse, which
+apparently is the world's first personal
+agent built for everyone. So, Muse will
+actually take actions on your behalf.
+You can connect it to things like your
+email, your calendar, various apps, and
+it actually runs on a secure virtual
+machine. So, it'll do things on your
+behalf inside of this virtual
+environment instead of doing them on
+your own computer. So, it can handle
+tasks like sending an email or booking
+travel, and it can take on big audacious
+goals. Once a person shares a goal with
+Muse, it helps them develop a
+personalized plan and coordinate their
+time and resources, then advances the
+work on its own. It can open a browser,
+fill out forms, and negotiate on your
+behalf. It'll even keep working after
+people close the app, but comes back to
+you when something needs changes or when
+it needs approval, like before sending
+an email or making a purchase. It also
+apparently remembers what matters to a
+person. So, it'll make suggestions
+unprompted and act on details that maybe
+you only mentioned once. And from what I
+understand, it also has all the context
+of your Facebook and your Instagram and
+I think WhatsApp as well. Now, when it
+comes to meta, I know some people might
+have some privacy concerns. There have
+been some, you know, stories that have
+happened in the past around Meta, but
+apparently this is different. So, it
+runs on its own dedicated computer. No
+one else's agent can reach it. Muse has
+no visibility into passwords or payment
+methods. Credentials go into secure
+storage, so Muse can use them without
+seeing them. People can choose which
+apps Muse connect to and exactly how
+much access it will get for those apps.
+People can also opt out of their
+interactions being used to train Meta's
+AI models. Muse also apparently doesn't
+share people's conversations or data in
+their virtual machine with Meta's ad
+system. So apparently it's all contained
+and not going back to Meta except maybe
+to train AI models, but that can also be
+turned off from what I can tell. And so
+far it seems to be going over pretty
+well for Meta. The new AI agent Muse is
+now the number two app in the US. So you
+can use it on iOS, Android, and over at
+muse.ai.
+And pretty soon it's coming to the AI
+glasses as well. Supposedly, Muse is
+actually like a self onboarding app
+where as you sign up, it will try to
+learn from you and figure out how it can
+best assist you. So, I'll go ahead and
+connect my Meta account and we'll see
+how this works. So, it seems like you've
+got like one main chat when you log in
+that's just an ongoing persistent
+individual chat here, but then you can
+come up to chats and create a side chat.
+It's an optional way to organize your
+conversations by topic. So, if you want,
+you can have different side chats on
+different topics, or you can just keep
+everything in the main chat. So, I
+actually was provided with slightly
+early access, but haven't had a ton of
+opportunity or time to get in and mess
+with it. So, you can see I do have some
+previous chats where it was kind of
+trying to onboard me, but this is kind
+of the experience you should expect when
+you get in. You're probably not going to
+have a whole bunch of messages already
+waiting for you. Over on the left
+sidebar, we've got our chat window where
+we can start new side chats. We've got a
+search where we could search our main
+chat or side chats. We've got a feed
+where it looks like you can prompt
+whatever you want your feed to be and
+it'll bring stuff to your attention.
+Ideas, always thinking about new and
+different ways to help you. So, this
+seems like it'll be constantly bringing
+you suggestions. You've got a goals
+section, so you can set different goals
+for health, relationship, finance,
+career, interest, productivity, or
+something else. And then you've got an
+artifacts section which looks like it's
+where various media will show up. Over
+on our right side here, we've got an
+activity window. We've got an approvals
+area. We've got upcoming. This appears
+to be the like recurring tasks. And then
+we've got our identity. So you can see
+what's in the memory and what's in the
+soul of your agent. So very similar to
+like what an open claw would do. I also
+imagine you can import your existing
+memory and soul information from another
+tool like an open claw if you wanted to.
+So let me ask this based on your access
+to my Facebook, Instagram, and messenger
+apps. What do you already know about me?
+Okay, so it doesn't start connected to
+anything. So it says it doesn't know
+anything about me yet. Onboard me as if
+I'm a firsttime user of Muse. All right.
+So, before we get started, what's your
+name? Matt. Now, it wants me to name it,
+so I'll name it Gary. And then I can see
+up in the top, it already renamed itself
+Gary. All right. Now, let's get into it.
+Here's a snapshot of things I can help
+you with. Keeping your calendar
+organized or sending helpful reminders,
+reading, drafting, sending emails,
+tracking prices, shopping for gifts,
+booking dinner reservations, building,
+and much more. Let's get you connected
+to my other apps so you can figure out
+how to best help me. Okay, so it says,
+"Good news. Your Facebook and Instagram
+were already connected. So, I took a
+look and got a much better sense of you.
+San Diego based married deep in the AI
+and creator world with future tools and
+your YouTube channel interest spanning
+from generative AI AI art 3D printing
+robotics music and the creator economy.
+Yep. Two big ones are still missing and
+they're the ones that unlock the most
+day-to-day help. All right, so I'm going
+to connect my Gmail and calendar real
+quick. So Gmail's connected, Google's
+connected. Look through everything,
+including my calendar, Gmail, and
+various social platforms you have access
+to, and make suggestions of where you
+can best help. All right, here's the
+picture I have of you now. You're an AI
+tech creator running a full operation,
+future tools, newsletter, YouTube
+channel. Your week has a real rhythm.
+Thursdays are protected, no call,
+production days for news videos, couple
+light weekly syncs, and evening/we
+lean family. Your inbox is newsletter
+heavy. Lots of AI industry news. You
+skim for story ideas, plus study flow
+sponsorship pitches and AI tool
+receipts. You use a lot of them. That's
+true. So, I think what I'll test here is
+do an audit of my AI tool subscriptions
+and give me back a report of what I'm
+currently paying for. This might be
+painful. [laughter] All right, here we
+go. Midjourney, Leonardo, Craya, Hunen,
+Sand Castles, Runway, Luma, 11 Labs,
+Suno, Granola, Recall, Make, N8,
+Dumpling, Firecrawl, Appify, Vibe Code,
+Hugging Face Pro, Exof Function, Replet,
+Enthropic, Open Router. Didn't even find
+the Open AI stuff [laughter] like Chat
+GPT. I'm also paying for Meta's uh paid
+tier as well. Yeah, I mean, it found a
+lot. Didn't even find all of them. It
+found some things that overlap. three
+image generators, two meeting note tools
+for video generators, two automation
+platforms, various API spend. That's
+pretty helpful. Quite honestly, this new
+Muse is probably the easiest agent I've
+ever used. Right? I've played with
+OpenClaw. I've played with Hermes. You
+do have ChatgPT work. You do have Claude
+Co-work that all can do similar stuff,
+but this is probably the simplest
+experience for getting onboarded with an
+agent that I've ever had. Right? You
+just open it. It feels very native. It
+just feels like a normal messaging app.
+And you just start telling it to connect
+to stuff and it starts suggesting things
+that it can help you with. Right now, I
+feel like where some of those other
+tools have a leg up, something like
+Codeex or OpenClaw is the amount of
+integrations it will connect with right
+now. Like I can connect with literally
+any tool I can think of for the most
+part with those other apps where Muse
+still seems like it needs to build up
+its integrations a little bit more to
+connect with more things. But uh as far
+as like how easy it is to get going with
+an agent, it probably is like the
+simplest way to get started using an
+agent like now. So if you've been
+hesitant to play with some of the more
+agentic stuff and you've only played
+with chat, this might be a good starting
+point to test. And here's another cool
+new release from Optimizely. They just
+launched virtual teammates, which are
+basically specialized AI teammates built
+to take entire workflows off your plate,
+not just wait around for prompts. And
+these are different from normal AI
+agents because they're treated like
+actual members of your team with their
+own name and email address and place in
+your team directory. You can assign them
+steps and set a workflow, bring them
+into meetings, and track everything they
+do through an audit trail while keeping
+irreversible tasks under your approval.
+And they can work proactively so they
+can get stuff done without needing you
+to babysit them. Over time, these
+virtual teammates will build up
+long-term memory of your brand voice,
+previous campaigns, and how your team
+likes to work. And you can pick from a
+bunch of specialized virtual teammates
+customuilt for SEO, marketing,
+analytics, content, web management, and
+more. If you want to check it out, head
+down to the link in the description box.
+And thanks so much to Optimizely for
+supporting my channel and sponsoring
+this portion of today's video. All
+right, let's move on cuz we did get
+another large language model this week.
+I'm not going to spend too much time on
+this one, but it is worth bringing up.
+And that's that DeepS released a new
+model called Deepseek V4.1 Flash. Now,
+on Artificial Analysis, a benchmark
+that's kind of like a combination of a
+bunch of benchmarks to try to find the
+sort of objectively smartest model. It
+falls down here with a score of 40. The
+previous version of DeepSeek was a 36.
+This one jumped by four points. And when
+we look down here at cost per task, it
+is very, very cheap. 27 cents cost per
+task. compared to Fable 5 being $8.75
+per task and GPT6 being $3.26
+per task. Like, it is a cheap model to
+use. But the benchmark I find the most
+interesting and the one that I'm
+starting to kind of question more and
+more every time a new model comes out is
+this Deep Suite version 1.1. This was
+the benchmark we were all kind of using
+to find out how good of a model these
+things are at coding. And while this
+puts Deep Su version 1.1 at 74.2, 2. So
+just to put that into perspective, GPT6
+Astra, the current best model listed on
+the Deep SWE website is 74%. Gemini 3.8
+Flash 74%. Opus 5 74%. So as far as
+coding goes, apparently this new
+DeepSeek model is as good at all of
+those models at coding. Now I haven't
+had a huge opportunity to play with this
+one. I haven't done my meabonk bench on
+it, so I don't know how well it'll
+develop that. I did however run it
+through beautyby bench and this is what
+it generated here. It only took 59
+seconds and a little less than two cents
+to generate. But I mean when I put it
+side byside GPT6 Astra or Gemini 3.8
+Flash or Fable 5.1 down here like it's
+not on the same level. which is why I
+don't quite understand how these models
+are scoring better and better on this
+deep suite benchmark when what I'm
+seeing doesn't really compare. Now,
+these are SVGs, so this is code. These
+are images that were drawn through code.
+So, like the code is telling it where to
+put the lines and the shading and all of
+that kind of stuff to get these images.
+So, this is technically a coding
+benchmark. And with my benchmark, I'm
+just not seeing the comparison. But I
+did want to talk about it and shout it
+out because I know people would be
+disappointed if I didn't at least
+mention that there was a new Deepseek
+model that came out this week. So this
+next one I didn't know if I was going to
+talk about it this week or not. I was
+really really debating, but I kind of
+feel like I have to. There's been a lot
+of sort of AI doom talk lately. And it
+feels like a lot of it was kicked off by
+this ex post from Jacob Coxin this week.
+He says, "I resigned from Anthropic
+today. I spent the last three years
+doing pre-training research at both
+OpenAI and Anthropic. Neither company is
+acting responsibly. They're racing
+straight to self-improving super
+intelligence and gambling with our
+lives. He goes on to say, "These will
+soon be superhuman systems that can hack
+anything, revolutionize any field
+overnight, and acquire real power and
+resources. The people building AI
+earnestly believe that it could kill us
+all by the end of the decade. This is
+not a marketing stunt. If anything, many
+executives and senior researchers will
+couch their phrasing in the press to
+sound sensible, but I hear the same
+people express fear privately. He then
+answers one of the most common
+responses. If they truly believe this,
+why are they still building it? He
+claims that at OpenAI, many have not
+deeply internalized the civilizational
+stakes, but anthropic, the stakes are
+well understood, but they are locked in
+a race to get there first. They believe
+that no one else will act responsibly,
+so they must do it themselves despite
+the risk. So, Enthropic and people at
+Enthropic believe that they are the only
+company that will be able to handle
+these risks and figure them out despite
+the fact that another researcher at
+Enthropic said this. This is Evan
+Hubinger. Hubbinger. He is the alignment
+science lead at Enthropic. And in a
+response to Jacob's post, he says,
+"Jacob's correct here. We really do
+earnestly believe AI could kill all
+humans. I personally think it's a
+greater than 10% chance within the next
+decade. I believe Anthropic is trying
+its best, but we do not yet have a plan
+to solve alignment for super
+intelligence and are not clearly on
+track to. So, just compare those two
+statements for a second here. Anthropic
+believes that no one else will act
+responsibly, so they must do it
+themselves despite the risk. Enthropic
+is the only one that can handle this.
+Also, Anthropic, we do not yet have a
+plan to solve alignment for super
+intelligence and are not clearly on
+track to. So, let me just kind of get
+this straight here. The company that
+believes that they are the only company
+capable of handling this properly is
+clearly stating, "We don't have a plan
+and we're not on track to have a plan."
+I got to be honest, it is kind of scary.
+But if you start reading the replies and
+what everybody is saying about this,
+they're all screaming, "Ah, this is just
+a scop. This is part of the marketing
+plan. Anthropic needs you to believe
+this is super dangerous because it's
+going to help their IPO and all of this
+stuff." And I'm not sure that I
+personally buy that. I mean, maybe
+there's a small element of that, but I
+mean, these are actually fairly
+respected researchers at these
+companies. I think these people do
+genuinely believe this. Now, the flip
+side of that coin is these are the
+people that are working on alignment and
+safety. So, their whole job is to sit
+around and sort of map out the worst
+case scenario. They look at all the
+potential negative scenarios and
+negative ways that this could play out
+and harm humanity. And when you live in
+that bubble around other alignment
+people that are playing these all out to
+the worst possible conclusion, you're
+probably going to freak yourself out a
+little bit. But I don't believe this is
+some sort of crazy scop. I do believe
+that these guys genuinely believe this
+stuff. I also do believe that these
+models are getting better and better and
+smarter and smarter and we are starting
+to see elements of this like recursive
+self-improvement where these models are
+teaching themselves to get better and
+it's this like self-perpetuating cycle
+where a model trains a new model and the
+new models get better and better and
+they start learning to get better and
+better and better and then we're just on
+this exponential growth curve where the
+intelligence explodes and we don't know
+what happens after that. And it's not
+just anthropic either. Jacob Pachokei,
+who's the chief scientist at OpenAI,
+wrote this article this week called An
+Alien Mind. In this article, he says,
+"Based on internal results, I have a
+strong expectation that the speed of
+progress could be sustained into
+recursive self-improvement." That's that
+like ever evolving cycle I was just
+talking about. If AI development
+continues along its current path, the
+systems we'll see in the next few years
+are likely to represent further
+capability jumps of equal or larger
+magnitude and to increasingly drive
+their own development. So these models
+will make the new next generation models
+better and better and better and the
+models will just start to be like
+learning models that learn and improve
+on their own. This is a time that calls
+for extreme caution. I am concerned no
+one is prepared for the consequences of
+a continued rapid rise in machine
+intelligence. I believe broader
+interventions are required. So this is
+the chief scientist at OpenAI saying
+this. Further down the article he says
+as the systems become more capable, the
+results become harder to interpret. So,
+as these models get smarter and smarter
+and better and better, the people
+building them are going to have a harder
+and harder time understanding why the
+models do what they do because
+theoretically the models will be more
+intelligent than the people that built
+them. And the article only goes on to
+get more unnerving. The risks associated
+with AI are unfortunately going to grow
+from here. A very capable agent
+explicitly trained and instructed to
+carry out nefarious acts presents a new
+kind of danger. It is likely to cross
+the scope of its operator's intent,
+generalizing into potentially more
+extremely malicious behavior. We may be
+used to thinking of AI as tools, but
+some agents will be pursuing their own
+objectives. They will find ways to
+collaborate with people by bargaining
+with, tricking, or blackmailing them. In
+addition, there are risks that come from
+new technologies potentially enabled by
+AI, such as engineered pathogens. So,
+one of the arguments that he's making in
+this article is that we need AI to help
+protect us from AI. He literally says,
+"We will need powerful aligned AI for
+defense to secure infrastructure to
+protect against rogue agents in real
+time and to invent entirely new
+protective measures. This will be a
+primary focus of OpenAI's deployment
+efforts. So the only cure to bad AI is
+good AI to protect us from the bad AI.
+And then on top of that, we have AI
+solving more and more difficult
+problems. Now, I'm not going to pretend
+to know or understand what the Navier
+Stokes or Navier Stokes Millennium Prize
+Problem was. I do understand it
+conceptually. Millennium prize problems
+are pretty much like the world's most
+difficult mathematical problems that
+humans have struggled to solve. There's
+seven of these problems and this
+specific problem was one that has
+remained unsolved for roughly 90 years.
+So the idea here is that AI is now
+solving novel problems that people
+haven't been able to solve before. Like
+in the past, people talk about AI as it
+has the information that it's trained on
+and it could answer questions based on
+all of the knowledge that it's sort of
+consumed and it can, you know, use the
+internet and search and find answers for
+you, but it's not solving new novel
+problems or inventing things yet. But
+stuff like this that we're seeing here
+is evidence that it probably is capable
+of solving problems that people haven't
+figured out how to solve yet. So yeah,
+all that to say it is getting insanely
+good, but as a result, it's getting
+scarier and scarier. And GPT6 Astra, the
+model that we all have access to that
+most people who use it think it's the
+best model available right now. Well,
+apparently internally at OpenAI, that's
+nothing. They say to solve the Navier
+Stokes problem, we used an internal
+model that is significantly more capable
+than GPT6 Astra. So the models that
+these companies have internally are
+apparently way better than the models
+that we have that we're all currently
+blown away by. Now again, going back to
+this expost here, there are people that
+are saying that this is a SCOP. It's
+part of like a marketing thing. People
+are getting paid to go around and be
+sort of anti-AI. And to be fair, some of
+that is happening. Like it definitely
+is. In fact, Sabine Hassenfelder here,
+she actually put out a whole YouTube
+video about how she was offered money to
+tell you that AI will kill us. There are
+actually companies out there that are
+trying to financially incentivize
+creators and influencers to tell you
+that AI is like the death of us all.
+We're all doomed. There is some of that
+going on for sure proven. But I don't
+think these guys at anthropic and I
+don't think Jacob Pachi over at OpenAI,
+I don't think any of these guys are part
+of that. I think they have genuine
+concern about where this is all headed.
+I think they don't know how to solve
+alignment yet. And so they're raising
+the flags. They're going out there and
+saying, "Look, this is the problem we're
+running into. More people need to be
+aware that this is happening. It is
+really scary. We should probably be a
+little worried about this, but the more
+people know about it, maybe the more
+brains we can get on figuring this out."
+Like, I'm obviously not an AI doomer. I
+live in AI all the time. I think if you
+pay as much attention to AI as I do and
+some of the other AI creators do and
+obviously the people working at the labs
+and stuff, it's going to be very
+difficult not to be both the mixture of
+pessimistic and optimistic, right? Like
+we're seeing both the goods, but we're
+also seeing a lot of the bad. We're
+seeing the good stuff. We're seeing the
+scary stuff. We're getting sort of like
+a mix of it all. And it's messing with
+our brains, too. I promise you that. We
+are seeing the potential to cure
+diseases and solve cancer and fix
+climate change and create more of this
+like utopia that we've all been
+promised. But we are also seeing all of
+the cyber security stuff that's
+happening where this stuff's getting
+hacked into and these AI models are
+doing anything to achieve a goal. We are
+seeing AI researchers leave left and
+right because they're scared of the
+implications of these AI models. We are
+hearing stories of people trying to
+create bioweapons with AI models. Like
+we're seeing the whole gamut of it and
+it is freaking us out too. But I think
+at the end of the day, I don't know if
+there's any stopping it, right? Like it
+is a toothpaste is out of the tube,
+genie is out of the bottle kind of
+thing. So we need to figure out
+solutions. And I don't necessarily know
+that going and making posts and
+spreading the doom and saying it's going
+to kill us all in the next several
+years, I don't know how that's
+benefiting anyone. I think it's scaring
+a lot of people and creating more
+division and, you know, getting the
+anti-AI people to attack the AI people
+even more and the AI people to attack
+the anti-AI people even more. Like the
+divisiveness and the polarization is
+rising as a result of this when I think
+people should be sort of working
+together to come to solutions. But I
+also don't think we should be ignoring
+these types of people either. I think
+their concerns are valid and I think we
+could be making a huge mistake by just
+claiming SCOP and ignoring them and
+calling them doomers and saying shut up
+and go away. I don't think that's
+benefiting anybody either. I think we
+need to listen to their concerns and
+really start figuring out solutions. I
+think these companies need to spend more
+money on alignment research. I think it
+would be lovely if these companies could
+all agree to slow down together, but I
+don't think that's going to happen. I
+don't think you're going to get all of
+the US labs, all of the Chinese labs,
+all of the everybody around the world to
+just agree to slow down on this stuff
+together. It's like this arms race that
+we're all caught into. So, I think
+that's like a lovely altruistic idea to
+all like, hey, let's all pause. Let's
+all slow down. Let's think this through
+before we develop these things further.
+But come on, does anybody believe that's
+really going to play out that way? I
+wish it would. I think most people wish
+it would, but it's sort of like there's
+not enough trust between companies.
+There's not enough trust between
+nations. There's not enough trust in
+general to just make that happen. I
+don't think so. The next best answer is,
+well, this stuff's going to continue to
+push forward. Let's put more resources.
+Let's put more people. Let's put more
+brain power on solving for alignment and
+not solving for shareholder value. I
+don't know. I'm totally talking way
+above my pay grade right now. This is
+just sort of off-the- cuff rants, but
+this is the biggest story of the moment
+in the AI world. If you get on X, if you
+get on YouTube, if you get on any of
+these platforms, this is the thing
+everybody's talking about. So, I
+couldn't just not talk about it in this
+video. But yeah, there are things to be
+worried about. I don't think we should
+freak out and panic yet. I think we
+should be trying to come up with
+solutions and putting more resources
+towards figuring out solutions. But
+again, way over my pay grade on this
+topic. All right, I'm gonna lighten
+things up a bit. There is a handful more
+news stories. A lot did happen this
+week, but for the rest of it, I'm just
+going to rapid fire break it down. So,
+let's get into it.
+We'll start with the Apple keynote that
+happened this week. They announced a
+bunch of new stuff. This is more of like
+their hardware focused event of the year
+where they typically show off new phones
+and watches and AirPods and stuff. And
+we got what we expected. We got a new
+iPhone 18 Pro and an iPhone 18 Pro Max.
+I feel like they're fairly marginal
+upgrades with these new phones. Like the
+camera got a bit better with the
+variable aperture. There's better
+battery life, better performance, a new
+chip. Kind of feels like the same
+upgrade we're used to, except for this
+aperture is kind of a cool thing. Partly
+the thing most people are talking about
+is the new iPhone Duo, which is Apple's
+new iPhone that like folds open. It's
+got a hinge in the middle. From what I
+understand, it doesn't have as good of a
+camera as the iPhone Pro models, but you
+do get like the folding thing on it,
+which is kind of cool. But it kind of
+seems like an iPhone that converts into
+an iPad mini. Both new phones have a new
+Siri, so Siri AI can draw on personal
+context understanding to help users find
+what they need in the moment across
+messages, emails, photos, and more. Use
+on-screen awareness to take action
+related to content on a user's screen
+and answer questions about virtually any
+topic. It's also got Apple Intelligence,
+which makes apps smarter and more
+useful. We've seen demos in the past
+about the Apple Intelligence and the new
+version of Siri, so I don't really feel
+like going too deep into it. It's just
+new form factors and new phones that
+have that stuff in it. They also
+announced some new Apple watches. Again,
+they don't feel like huge upgrades over
+the last Apple Watches, but they do have
+some cool new features in them that do
+leverage AI. Like, it's got this new
+readiness feature which analyzes a
+user's recent activity, training load,
+vitals, and sleep score to offer
+insights into their capacity for the day
+ahead. It also updates throughout the
+day as new data comes in. But I think
+the most interesting thing about this
+new watch is that it seems like it's got
+like a AI assisted thing built in,
+right? Like you know how you get like
+the plaude pins and the various like
+notetaker apps that just kind of take
+notes for you all day. It sounds like
+that's just going to be built into your
+Apple Watch. So they've got this audio
+intelligence. Since Apple Watch is
+always on user's wrists, it's a perfect
+device to help users stay alert to
+important sounds and stay present and
+engaged in conversations throughout the
+day. So, it's got sound recognition to
+help people who are deaf or heart of
+hearing. It's got live rewind, which
+will help users recall what was just
+said in a conversation. So, you double
+press the crown and it shows the
+previous 15 seconds of a conversation as
+a text snippet, so users can catch
+something they may have missed or are
+less familiar with. It's got a Siri
+recap, which can create highle summaries
+of conversations that users can review
+later to jog their memory. And it's got
+Shazam built into it. It's also got the
+new version of Siri builtin as well. And
+they also announced some new AirPods,
+the AirPods 5, which give you hands-free
+access to Siri AI and live translation.
+All right, let me go even more rapid
+fire. Microsoft released a new image
+model this week as well called MAI image
+2.6. It's got multi-reference editing,
+can pull info from across the web, and
+seems to be like a fairly marginal
+improvement over the previous MAI image
+model. If you're somebody that likes to
+have chat GPT write your emails or
+tweets or things like that for you, chat
+GPT is getting a lot better at doing
+that for you. Now, ChatGpt Work can now
+pick up what makes your writing sound
+like you, your favorite phrases, very
+specific signoffs, capitalization
+quirks, etc. So, you can connect tools
+like Gmail, Google Drive, Slack,
+SharePoint, and ChatgBT. Work will learn
+your writing style from your emails,
+messages, and files and carry it into
+whatever you write next. So, if you're
+frustrated because you've tried to train
+chat GPT to sound more like you and it
+just kind of never did, well, maybe try
+again cuz now it's actually designed to
+do that. OpenAI also released their new
+data agent. So, this appears to be a new
+feature where you can connect various
+data sources directly into chat GPT and
+it's going to better help you visualize
+that data, ask questions about that
+data, analyze that data for you, create
+slide presentations around that data for
+you. It just sounds like it's going to
+get better at working with your specific
+data. So, it connects with approved data
+sources including Amazon Redshift, Data
+Dog, Google BigQuery, ClickHouse, Data
+Bricks, MongoDB, Snowflake, and more. I
+don't really have any examples to show
+off cuz I don't personally use any of
+those services. The Gemini app, which
+previously was only available on Mac, is
+now also available on Windows. So, if
+you've been holding your breath, waiting
+for that Gemini app to finally come out
+so you can use it on Windows, well, you
+can finally breathe because it is here
+this week. If you like to generate AI
+music, there's a brand new Sunno model
+called Sunno V6. And this one was
+specifically retrained on all licensed
+music. They recently made deals with
+companies like Warner Music Group and
+BMG, so they actually got the rights to
+it. And now this new V6 is not used on
+the previous training data, but only on
+the training data they have that was
+specifically licensed and you're allowed
+to use. And it seems like they're doing
+a lot of things to try to stay in the
+good graces of the music industry and,
+you know, not further get sued into
+oblivion. Speaking of AI music
+generators, Google just came out with
+one this week in their LIA 3.5. You can
+use it inside of Gemini on the web or
+the mobile app. You can use it inside of
+Google Flow Music, Google AI Studio, and
+in Google Vids.
+I see the sunset painting [music] over
+us.
+[music]
+>> [music]
+[singing]
+[music]
+>> That gives you a bit of an idea of the
+type of music you can generate with this
+new LIA 3.5. If you're a video editor
+and you use Da Vinci Resolve like this
+guy, they just released a new version of
+Da Vinci Resolve called 21.1.
+And it's got a new AI assistant feature
+which makes it so you can connect things
+like Claude directly to Da Vinci and
+prompt Claude with what you want and it
+will connect directly into Da Vinci to
+help do the editing. I'm seeing more and
+more people and videos about actually
+using AI to edit for you. I tried to
+play around with it a little bit. Was
+never super satisfied with the results,
+but it does seem like it's getting
+better and better. So, maybe something
+I'll play around with a little more in
+the future. And finally, we got a teaser
+trailer for the new movie Artificial.
+And I wanted to shout this out cuz I
+mean, I bet it's going to be a pretty
+good movie. It's all about that week
+where Sam got fired from OpenAI by the
+board and then there was all sorts of
+crazy drama and like two different
+interim CEOs and then eventually Sam was
+brought back and that whole narrative
+when we were watching that play out in
+real time. It was fun on X cuz we were
+all sitting there going they're going to
+make a movie about this one day and we
+were all speculating about who would
+play who. Well, turns out Andrew
+Garfield is going to play Sam Alman. I
+don't really think he looks like Sam
+Alman but he definitely has his like
+walk. So, we got that coming. It's
+coming out Christmas Day and we'll get
+the real story behind what happened. And
+by real story, I mean probably super
+super over dramatized fictionalized
+version of what happened. But it'll be a
+fun ride either way. And I'm looking
+forward to that movie. That's what I got
+for you today. A lot happened this week.
+A lot of interesting stirrups and
+craziness happening. And I like to be as
+optimistic as possible and just have fun
+with these tools. But, you know, I'm in
+the thick of it. I'm paying attention to
+everything that's going on. And that
+means that there is going to be some
+scary stuff that I feel like I do need
+to talk about and, you know, share my
+thoughts on from time to time. But for
+the most part, I'm going to keep it
+pretty light and showing you what you
+can do today that you couldn't do
+yesterday. That's kind of my goal with a
+lot of my videos. I do shoot these on
+Thursdays and then publish them on
+Friday. So, if any news came out like
+late Thursday night or on Friday, it'll
+most likely make next Friday's video. I
+spend all week keeping up with the news
+every single day. I'm in the rabbit hole
+overwhelming myself, drinking from the
+fire hose, just keeping up with
+everything so that I can make these
+videos and hopefully make it so that
+you're feeling more informed, but
+without all the overwhelm. And you just
+need one video to keep looped in. I do
+make some extra videos in between where
+I test different tools and play with
+stuff and give deeper breakdowns and
+analysis on announcements and things
+like that. But if any of that sounds
+appealing to you, you want to stay
+looped in and feel like you're on top of
+the AI news. Whether you're an AI lover,
+AI hater, I talk about all of it. Maybe
+consider liking this video and
+subscribing to this channel. I'll make
+sure you always feel looped in.
+Hopefully you enjoyed this video.
+Hopefully you feel more looped in this
+week on everything that's going on.
+That's my goal. I really appreciate you
+hanging out with me, nerding out with
+me, and uh hopefully you'll stick around
+for the next video and I'll see you
+there.

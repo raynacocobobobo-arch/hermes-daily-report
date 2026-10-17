@@ -1,0 +1,62 @@
+UP主：The AI Advantage
+标题：How ChatGPT Dots Can Change Your Life in 4 Minutes
+链接：https://www.youtube.com/watch?v=E3xKmcHBOzY
+
+OpenAI released chatb dots and I believe if used correctly, these can be literally life-changing
+to so many people that have not bought Mac minis and went down the whole AI rabbit hole
+of setting things up in a custom way. This is a very userfriendly product that basically allows
+you to not pay much attention to anything else in your chatb account except the conversation
+with your dot. And that's why today I want to show you a use case which you could never do
+by yourself. you would need to hire a person for this. And I believe that in just a few seconds I
+can show you exactly what this product does because many people seem to be confused. So
+what is a do? It's a new feature inside of your chat GBT account that lives here next to your
+chat. Now they just released this. So it's only available on the most expensive plans,
+but over time this will come down. Every paid plan will have these. And the way it works is
+that usually you have chats in your account. Let's say this is a chat. This is another chat. This is
+another chat. And as you do tasks, these get scattered. And also your work from one doesn't
+carry over into the next. Now what many people who get a bit more fluent with AI start doing is
+creating these so-called projects. And a project allows you to group multiple chats together so
+they can share the same context. So if you have details on your business or your customers,
+you can put that in the project and then all chats share it. Now this still gets messy as
+you do more and more with AI. What a dot does is it sits above all the chats and
+all the projects in your account. So basically, you're dealing with one thing, one conversation,
+and you can command all the other things in your account. This is what it looks like. If I'm in
+my chat GPT account, I can interact with my dot right here through typing or even start a call.
+Hey, uh, name two things we've been working on this week. The my CFO workshop sandbox and your
+Alfredo task board with the new look and the asana tracking. So, new recording requests flow into
+secondary. Those two have been the main threads this week. As you can see, this keeps it really
+simple as opposed to using the entire account. And hey, if you wonder what other things you could
+do with this and which use cases become super convenient with this new interface that exists
+now, I created a PDF with some of my favorites. You can get it for free in the description below.
+There's a link at the top. Now, let's get back to this tutorial. So, let me show you how to get
+things done in here so that you don't have to deal with all of these separate items. And we're going
+to take this example that I think you can use for so many things of setting up a scanner because
+this dot and that's a thing I haven't told you yet also has a computer and it's on 24/7. So if I tell
+it something like all right I want you to scan the housing market in Phoenix concretely Scottsdale.
+Look through various websites and find something to rent between three and $6,000 a month. Minimum
+free bedrooms and two parking spots. I want you to scan now, but then also go in every 30 minutes
+and look for brand new listings and notify me if something new pops up on the market that fits my
+criteria. This pattern of giving it a task to execute over and over again is literally like
+having an employee with a computer that does this. And as you can see, it starts using its computer,
+which is available here on the right, to research exactly what I need. And by the way,
+OpenAI computer use models are bestin-class. So, it's really good at browsing. So,
+if you ever had experience with this before, forget about that. It's a whole new world. Okay,
+here's the results. And you might know this, but when you work with AI, it's all about keeping the
+conversation going and giving feedback. Okay, so after a quick review, I would conclude. Hey,
+I definitely want there to be a pool in the backyard. Update the scanner. And now I want
+you to see this. If you go to the schedule tasks here on the site, see it added the Scottsdale
+rental alerts. And you could have this yourself. It wrote the entire prompt here. And it runs every
+30 minutes. If I click that task here in there, I could change the interval to be shorter. But the
+point is I can access all of CHP's functionalities for one interface, which is this dot up here. It's
+not just limited to schedule tasks. You can even give it tasks in codecs if that's what you use.
+And you don't have to worry about context or what tool or what project, whatever. It just figures
+it out. If you haven't tried it, I would highly recommend it. Go ahead and set up a task to scan
+something like either flights or accommodation for an upcoming trip. That's a classic one. Or you
+could go on any marketplace ever. And if you're looking for a product, you could set up a scanner
+to go ahead and look regularly. Or if you're looking for a job, there's a LinkedIn connector
+that you could set up and it would just scan for new job listings and then let you know and you
+could immediately say, "Okay, let's proceed. Let's book, send an email, follow up with the email." It
+reduce the friction with AI. And that's a big deal for a very, very large group of people. And this
+makes it accessible cuz honestly, I wake up, press this little call button, and I just talk to it.
+It's all in one place now. And that's what dots and this entire category of always on assistants
+like Muse or Grockbot is all about. All right, I hope this was helpful and have a wonderful day.

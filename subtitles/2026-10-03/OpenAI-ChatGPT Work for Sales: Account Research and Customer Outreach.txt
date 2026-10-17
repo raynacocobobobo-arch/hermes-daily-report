@@ -1,0 +1,60 @@
+UP主：OpenAI
+标题：ChatGPT Work for Sales: Account Research and Customer Outreach
+链接：https://www.youtube.com/watch?v=5DbZAMGZ5oM
+
+At Open AI, our focus for sales is
+simple. Redesign revenue workflows so
+agents can carry more of the load and
+let our sellers focus on driving deals
+forward. In this example, an always-on
+ChatGPT work agent has detected a signal
+in one of my accounts based on updates
+from the company's latest earnings
+report. It gives me a link to the
+earnings call if I want to dig through
+it line by line. Even more helpful,
+ChatGPT work generates an account brief
+that combines that information with
+recommended actions for breaking into
+the account. The brief pulls together
+key information about the company,
+identifying the points that matter to
+our sellers, and highlighting exactly
+what the customer said. Pulled directly
+from the source, that can help drive the
+sales motion forward. It also generates
+a stakeholder map with profiles that
+help us understand our buyers, identify
+the buying committee, and determine who
+we need to win over to win the deal.
+Finally, it generates an outbound email
+for the team to send to our strongest
+stakeholder.
+Let's open that in Gmail and take a
+quick scan through it.
+The next step happens when the prospect
+books the meeting. Because ChatGPT work
+is connected directly to my calendar, as
+soon as the meeting is booked, it begins
+creating the assets the seller will
+need. Here, you can see a polished
+presentation based on our first call
+pitch deck template. It incorporates key
+elements from the earning signal and
+turns them into relevant action-oriented
+content for the meeting.
+After the meeting, a ChatGPT work agent
+automatically looks for the call
+transcript and generates a review of the
+conversation.
+It updates the seller's CRM records,
+suggests content for the follow-up
+email, and even recommends the next
+actions the team should take. This is
+how we've redesigned revenue workflows
+at Open AI. ChatGPT work agents connect
+every stage, from detecting the signal
+to managing the follow-up and everywhere
+in between. So, our sellers can spend
+more time building relationships and
+moving opportunities forward.

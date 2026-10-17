@@ -1,0 +1,578 @@
+UP主：Theoretically Media
+标题：Meta's FREE "Banana Killer" & My AI Video Tool (Also Free!)
+链接：https://www.youtube.com/watch?v=epJiVrv4KVQ
+
+Well, Meta just came roaring back into
+the AI video and image game. Well, maybe
+not roaring back considering well, they
+never really roared to begin with, but
+they are finally swinging in with a I
+mean, I'd say a GPT image 2 and Nano
+banana competitor that you can use for
+free today. Plus, a brand new video
+model that does look pretty impressive.
+So, we're going to take a look at all of
+that. Plus, I've got a free tool that
+well, I built for you guys that you can
+download and run locally and helps a ton
+with precision in your video outputs.
+All right, let's go Zuck it up.
+Kicking off, yeah, hey, Meta actually
+shipped something. Yeah, it's been a bit
+of a road to get here. In fact, we can
+actually go back to 2022 with
+Make-A-Video and then in 2024, there was
+of course MovieGen. MovieGen in
+particular, I think a lot of us remember
+because it was the first one that said
+that it was going to have sound baked
+into the video generation. Of course, it
+ended up being a research concept that
+that never actually released. Then of
+course, we got Meta Vibes, which I do
+believe is still running. Uh and that
+was actually Midjourney and Flux under
+the hood. Uh and apparently the payout
+to uh Black Forest Labs was something
+like 140 million. I don't know how much
+they paid to Midjourney, but Midjourney
+just unveiled a medical scanning spa, so
+let's just presume it was a lot. Now,
+I'm not going to get into the whole
+Alexander Wang subplot here, but uh you
+know, Zuck did pick him up for about 14
+billion dollars. And I mean, you know,
+what they did ship their own image and
+upcoming video model uh like their own.
+And it's free. Well, the image model is
+at least for now, but well, I mean,
+we'll see what happens. But in the
+meantime, if you head over to meta.ai,
+the new image model will be there. So,
+checking in with our old friend, a man
+in a blue business suit walking down a
+busy city street. Um you know, overall,
+not not bad. There is kind of like this
+overall like GPT image 2 kind of vibe
+that I get from it. Um, you know, our
+man in the blue business suit looks
+pretty good uh for, you know, man in the
+blue business suit. I do appreciate he's
+actually on the sidewalk as we remember
+from many generations of the past he
+would just be walking in the middle of
+the road. Um, you know, decent um text
+uh with newsstand and pastries and
+coffee here. Background characters all
+look pretty solid. Uh
+I mean, the only issue that I'm that's
+really really catching me is like this
+the one-way sign that is actually a
+two-way sign. One thing I will note is
+that our guy does have a bit of that
+like waxy AI character skin texture
+going on uh with him and the suit itself
+looks like it could probably use just
+like one more texture pass. So, uh this
+is something that, you know, maybe you
+hit it with a creative upscaler. As a
+quick detour into editing, uh I did take
+our uh red-headed lady that can never
+tie her shoes together
+uh and had her uh inserted into that
+image. And the model did do a pretty
+good job inserting her in. I will say
+there's a little bit of stretching on
+this because uh in the prompt I did ask
+it to change it out to a 16 by 9 image.
+Um, so everything feels a little more
+stretched. So, it doesn't seem to
+really,
+uh you know, handle necessarily
+outpainting different aspect ratios all
+that great. Now, another interesting
+thing is that the meta image model is a
+thinking or like autoregressive image
+model much like GPT image two or Nano
+Banana. Um, you can toggle thinking on
+in your prompt down here either instant
+or thinking. I would just leave it on
+thinking it tends to do a better job
+that way. But more interesting is the
+fact that you can actually turn on show
+thinking over here and you can kind of
+review exactly what the model was
+thinking. What's kind of funny about
+this is that um you'll note that the
+open sign here is actually facing like
+the wrong direction. It should be
+pointed outwards. Uh and you can see the
+model as it's like thinking through its
+iterations and it It gets it correct
+here. Um, but then it actually for our
+final that actually talked itself out of
+that version. So yeah, AI it can it can
+talk itself out of the correct decision
+just like people. Moving on with some of
+our other standard thinking image model
+tests. Here of course is a glass of wine
+filled to the top at 3:30 in the
+afternoon.
+We have the analog clock back here. It
+is set to 3:30. Generally if it's not a
+thinking model it will be set to 10:10.
+That smiley face that most clocks that
+you generate will get and it is filled
+to the topish I guess.
+It is
+at a reasonable top as opposed to I
+think it was GPT image two that filled
+it like up to like the very top. There
+are some splashes around here which is
+fine because it's somebody drinking at
+3:30 in the afternoon. So clearly this
+is the second glass. Moving on to my
+personal absurdist test for thinking
+image models. Here is a pelican riding a
+bike holding a glass of wine. Overall I
+mean this it's not pretty good.
+Nice little character detail with a
+satchel here. I actually really
+appreciate that.
+Bike pedals are kind of in a weird
+position but it is a pelican bike so I
+can't really say. I mean the one thing
+of course that kind of really kind of
+creeps me out and throws me off a little
+bit is the human hand holding the glass
+of wine but at the same time I mean it's
+it's a pelican riding a bike holding a
+glass of wine. So I'm not going to dock
+it too hard although it does really
+creep me out. Another test on prompt
+adherence. This is a prompt from Fofur
+that I do like to run on the channel
+just because there's a lot of like
+landmarks here that where you can see if
+the model is paying attention or not. In
+this case I mean we're getting some
+we're getting a lot of it. I mean the
+white wicker furniture here, the blue
+walls, the red carpet. The room I guess
+you know has a
+sure we'll call it a 90s-ish look to it.
+This is interestingly the first time
+that we've actually seen cassette tapes
+show up in this prompt. So uh kudos to
+that. Scale looks a little bit off
+considering that um like this is either
+a very large cassette tape or a very
+small coffee cup, one of the two. Moving
+over to a test on imagination, this is
+show me a screenshot of The Elder
+Scrolls 6 when it releases in 2031, if
+it releases in 2031. Uh overall, I
+actually think this is actually this one
+came out pretty good. Uh we got some
+nice UI elements going on in here. Uh we
+are a level 24 Breton Battlemage, which
+is accurate to uh Elder Scrolls lore. In
+our mini-map down here, we are in
+Hammerfell, also accurate to the land of
+Tamriel. Um we're running at 78 frames a
+second right now at 4K, so decent
+machine, I guess. Uh our guy's on the
+coast right now, so watch out for those
+mud crabs. Actually, he's level 24. He's
+he can just stomp all over them. One of
+the reasons I am impressed with that
+output is that when you use that same
+prompt in something like Nano Banana 2,
+what you end up with is something that
+looks like this, which just kind of
+looks like a screen grab from Elden
+Ring, a current game. Um so, the fact
+that the meta model kind of dug into the
+lore a little bit more, I mean, yeah, I
+appreciate going the extra mile there.
+Moving on to some text tests, that's
+always tough to say. Uh we have the
+Sharknado AI poster. We're going to make
+this happen, people, we are. Um
+you know, overall, the image itself does
+kind of again, it sort of has that like
+GPT image 2 kind of like grainy look to
+it. Um but, what we're judging here is
+the text, and indeed we are getting
+Sharknado AI uh title treatment uh
+pretty well done. Um
+I I had to do some taglines, so you
+prompt the movie this time, the bite is
+bite-sized, well played. Now, if there
+is kind of one interesting thing that I
+have discovered about the meta model is
+that um because you're sort of in this
+chat interface, kind of like Gemini, it
+does get a little bit on the lazy side.
+Um like I I did, you know, drop it the
+prompt for our uh beat sheet that we
+used for our jungle girl uh sea dance
+prompt test. Um so, you know, it's a
+it's a pretty long prompt and I you
+know, obviously gave it the character
+image reference there and was like, you
+know, let's let's start generating up
+some storyboards for this. So, it
+initially begins by generating up
+another character sheet for her and that
+image actually does look pretty good. It
+is very accurate to our
+image reference. From there, it ran me
+through its whole plan for the
+generation and then interestingly
+started generating up solo images for
+each one of the shots in 21:9 which
+actually looks pretty good. I will say
+we're losing a little bit of
+character consistency when we hit the
+third shot. We do have our element here
+and then you know, of course we were
+running into scale problems with our
+character and the artifact
+not extremely excited about the side
+journal as he appears here. What's funny
+is that you can see here it just it just
+stops making images and then by the end
+of it it's like, "Hey, do you want me to
+do you want me to go back and and do
+those shots back there?" It's so yeah,
+it it just kind of gets a little bit
+lazy. At the end of the day, well, I
+mean the one of the arenas has Muse
+image listed as number two.
+I don't know if I go quite that far. I
+would say that the first the top two
+spots are
+the tying number one spot is probably
+GPT image two and probably Nano Banana
+2. Although I would say that for
+cinematic outputs nothing still beats
+Nano Banana Pro 2K for cinematic
+outputs.
+>> Interestingly in the middle of editing
+this by dance just decided to release C
+Dream 5.0 Pro. So, this may dramatically
+change this leaderboard entirely. I'll
+circle back on this. It certainly looks
+pretty good. Some features that I'm
+interested in checking out are like
+selectable interactive editing and
+apparently this one has layers as well.
+So, yeah, we'll definitely be circling
+back to this. In the meantime, let's go
+check out Meta's new video features. So,
+yes, Muse video is coming. They note
+that it is offering competitive
+performance in prompt adherence, visual
+fidelity, and temporal consistency, and
+investing in areas with current
+performance gaps such as audio-to-video
+synchronization and physically accurate
+fast motion. So, basically C Dance.
+They're They're talking about C Dance.
+Checking out some samples beginning with
+the oldest debate in the English
+language.
+>> Do you say tomato
+or tomata?
+>> Tomata, always.
+>> Interesting. I go back and forth,
+honestly.
+>> Just pick one and commit.
+>> But the real question, of course, is do
+you say potato or patata? Um yeah, I
+mean, overall,
+interesting pronunciation on tomato
+there, but um or tomata, depending.
+Um but overall, in terms of video
+generation and everything else that they
+were saying, it looks pretty good.
+Another example, kind of slice of life
+here, I think showcasing multi-shot.
+>> Hey, y'all.
+>> Yeah, it is kind of interesting that
+each of the examples run 10 seconds. And
+in this case, which, you know, we have
+this multi-shot here, the the the cut
+happens around the 5-second mark. So,
+I'm not sure if that says something
+about the model or not. Overall, I mean,
+just based off of these samples, it is
+too early for me to give any kind of
+opinion as to, you know, where this is
+going to land. Uh again, going back to
+the arenas, apparently it is just below
+uh C Dance 2.0 in the number three slot,
+but this arena also has Gemini Omni
+Flash as the number one. So, take that
+as you will. The plus side is that I I
+mean, I don't think this is going to be
+like MovieGen or uh any of the other
+various Meta papers on video models that
+have been released over the last number
+of years, that this one will actually
+get a release. So, uh yeah, I mean
+looking forward to having another video
+model to test out. I will let you know
+as soon as we know more. Next up, a new
+tool that I built for you, but first,
+you know, one model that I still think
+that we haven't fully maximized yet and
+is a bit underutilized and needs to be
+explored more is Google's Omni model. I
+covered this one on the channel when it
+launched and you know, as I continue to
+poke at it, I mean I'm finding that it
+does some pretty cool stuff. Actually
+does some really remarkable things both
+as an editor and a generator.
+And a great place to continue to
+experiment with it is over on Artlist
+who are kind enough to sponsor today's
+video. Now, the cool thing about Omni is
+that you can direct it conversationally.
+It is very much I mean it's like nano
+banana for video. Obviously, it's very
+good at doing things like removals in
+real footage, but you can also give it
+multimodal inputs to completely change
+the style of an input video. And Omni is
+a very smart model. I mean for one, it's
+so smart it can count to 10. I know that
+that doesn't seem like that's that big a
+deal, but I'm try it in any other video
+generator. It does not work. But what's
+cool about experimenting, iterating, and
+creating over on Artlist is that they
+have a new feature. So, that allows you
+well like if you ever run into the thing
+where like you don't even feel like
+writing a prompt, well, Artlist just
+launched AI apps. These are very cool
+apps built by creators. They are updated
+constantly, so well you're not having to
+reverse engineer whatever is trending
+this week. So, if you're looking for an
+AI pipeline that gets you to creative
+block very quickly and into the approval
+stage, well, you should definitely give
+Artlist a shot. Both AI apps and Google
+Omni are now available over on Artlist.
+The link is down in the description
+below. Once again, a big thanks to
+Artlist for sponsoring today's video.
+Moving on. So, a couple of days ago, I
+ran across a pretty interesting
+experiment from Josh Doze utilizing
+footage of a well, a famous
+fedora-wearing adventurer,
+depth mapping, uh pose control, and then
+of course an output down here that that
+basically re-skins it. So, this sent me
+down a rabbit hole, and that ultimately
+led me to this, taking
+uh a more modern-themed uh jungle
+adventurer. Uh a very similar technique
+uh utilizing again um depth and uh pose,
+and then uh ultimately baking it in with
+uh flamethrower girl, or in this case um
+uh bow and arrow girl. I will say that I
+did get a number of comments that did
+mention that this is probably a very
+expensive experiment to run. And yeah, I
+mean it definitely is. Like Fable, as we
+know, is a very expensive model. The
+thing is, what I did instead was have it
+build me an app so that, you know,
+essentially I could run it anytime. You
+can run it anytime as well. I'll have a
+link to it down below. Uh let's run
+through how it works real quick. So,
+I'll just drag a um a video into here.
+You can see it immediately begins
+tracking the motion, and then we will
+have an OpenPose skeleton uh basically
+that will Yeah, there is. Um so, if we
+play our video, you can see it's
+tracking um her our character here. Now,
+where the real strength of this I think
+comes in is when you add depth in. Now,
+when you toggle depth on, um you'll
+actually have to end up baking it in.
+There are two options here. There's
+fast, and then uh there is a consistent
+or uh video depth anything. I got to
+thank AI Warper for that suggestion as
+well. So, if you choose uh VDA,
+uh I I do have to note that you will
+need to be on a Chromium browser, so uh
+Chrome, Edge, uh or my beloved Arc um
+will be able to use it. Um
+essentially, what this ends up doing as
+soon as you hit uh VDA, and you hit
+bake, um
+what it's going to end up doing is it's
+it's downloading um
+uh video depth anything from Hugging
+Face. Um so, that'll take a few seconds
+uh when you first I think about like 30
+seconds or so when you first initialize
+and run this. So, just keep that in
+mind. After that, once it's loaded in,
+you're good to go. But again, that is
+something that will speed up after your
+first run. And then from there, yeah,
+you have sort of your depth and your
+your your pose basically baked in. You
+can play around with the smoothing and
+the tracking here as well. There's a
+confidence down here as well that kind
+of as you bump up the confidence it well
+it gets more confident about what it's
+looking at. And then yes, if you do have
+multiple characters,
+you can pop that on as well. We'll go
+over multiple characters in just a
+minute, but I did want to go over sort
+of the C-Dance side of it cuz it can be
+a bit finicky.
+So, so yeah, running this over on
+Runway, we did end up getting up you
+know a pretty good generation out of
+this using that essentially, you know,
+that depth and pose as a video reference
+and saying like use at video one as your
+motion depth and then sort of further
+describing the scene. And again, the
+kind of cool thing about all of this is
+that you aren't limited to just swapping
+out the character. Like you can change
+the entire location as we see here where
+we now have flamethrower girl with like
+a laser bow and arrow on some derelict
+spaceship. Now, I do have to say that
+for whatever reason from time to time
+C-Dance just decides to get lazy and
+completely ignores your video input.
+This is the exact same prompt that we
+ran earlier, although clearly like you
+know, the action of the camera is like
+completely different. So, I don't know
+why that is.
+I'm hoping that 2.5 like solves this
+issue. Might be a context issue, I'm not
+sure. Some people were asking about
+multiple characters and indeed you can
+have multiple characters. I built in a
+little thing here too as well.
+You can have like up to five characters.
+We'll take a look at three characters in
+just a minute. And then in addition to
+that, you can color code them. It is a
+little bit on the janky side when you
+know, the sort of occlude or pass by,
+but uh, you get a little bit of
+flickering there. Um, you know, you can
+crank up the confidence. Um, and you can
+also turn this off if you want to and
+just remain as grayscale if you want to.
+Um, but I have found that, um, I mean, C
+Dance is pretty smart. Um, so even
+though you're getting this flickering,
+if you're, you know, if you kind of let
+it know, like, character in green,
+character in red, uh, and you can
+actually change out those characters,
+like, those colors as well if you want
+to. Um, yeah, it can generally kind of
+track who you're talking about. Can or
+should be able to do multiple cuts and
+here as well as Naja shows here
+utilizing uh, a very similar technique.
+Um, so yeah, I mean, doing this should
+work. That said, always a little bit
+wary of this uh, only because
+essentially more cuts gives uh, C Dance
+or really any other video generator that
+you're working with, you know, more
+chances of screwing up. So, what I ended
+up doing was building out um, in and out
+points here as well. So, wherever you
+want to start your
+uh, you can hit your in point and then
+um, you know, wherever you want it out
+is out and it'll just uh, render that
+sections. Where the real strength of all
+of this comes into play is when you have
+a very specific shot or like a really
+tough shot. Like, this is one that we
+have run a number of times on the
+channel as a as like, this is probably
+the hardest video to video test um, that
+we've like, I've ever run. Uh, again,
+there's a lot of like, movement. Uh,
+there's a lot of occlusion uh,
+essentially happening or contact
+happening and then there are moments
+where, you know, the characters actually
+vanish from the screen uh, and then
+return. So, yeah, video video models um,
+most of them have not really been able
+to successfully handle this. For
+example, Kling has a a really tough time
+with this one. Kind of turns into a bit
+of an interpretive dance scene and then
+uh, our Liu Kang over here uh, just
+sprouts a mustache for no reason. Liu
+Kang also really struggles with this one
+in this case with a character identity.
+Obviously, the kicking person here
+should be the woman. Again, this guy
+just turned into Johnny Cage. I don't
+know who that guy is. Yeah, it's just
+you know, this is a tough generation.
+And I'll say even though like our pose
+controller here does get pretty flickery
+with the character colors. Again,
+there's a lot of like action and
+movement in here. There's enough to grip
+on that when you run this in C dance.
+So, if you would like to give this a
+shot, the whole thing is packaged up
+over on Gumroad. It is totally free. You
+just put $0 into the box and and yeah,
+you can get it. If you would like to
+leave a donation, you are certainly more
+than welcome to, but please do not feel
+obligated. So, what you'll get is the
+pose UI that we were looking at earlier.
+That's here. A nice little user guide
+that Claude put together for us as well.
+Oh, yeah. They did a really nice job
+with that. Not only that, but all of the
+source code is here as well. So, if you
+want to make modifications to it, make
+it your own, add some stuff, take some
+stuff out, do whatever you want with it.
+It is yours. I mean, obviously, feel
+free to leave suggestions for version 5
+and on down in the comments, but you
+know, if you just want to take it upon
+yourself and build it, I mean, you know,
+take the code. I just saved you, I don't
+know, like 2 and 1/2 million tokens or
+so. I think that's how many it burnt.
+Okay. Well, play around with it, please.
+Let me know what you think down in the
+comments. As always, I thank you for
+watching. My name is Tim.

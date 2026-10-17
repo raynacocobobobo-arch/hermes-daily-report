@@ -1,0 +1,79 @@
+UP主：OpenAI
+标题：Use ChatGPT Work to pressure-test marketing campaign briefs
+链接：https://www.youtube.com/watch?v=HHt8CPJRviA
+
+So you get a sharper brief just in an
+afternoon. Here is an example of
+marketing brief and this is just for
+demo purposes. You know, it's a
+situation we find ourselves in all the
+time in Open AI since we're shipping so
+much product all the time. You know, our
+product and marketing teams generally
+have great intuition about what
+messaging and positioning would resonate
+with users and you'll see we have some
+of that in here. You look at our
+messaging table down below, the tried
+and true PMM messaging framework table.
+And what's really cool is sometimes
+we're up against a tight deadline. And
+we want to do some user research and we
+don't have time to go out in the field
+and commission actual research in real
+life. What we can actually do is build a
+skill to upload all of our previous
+research, our customer calls and any
+sort of data we have from Salesforce and
+create synthetic buyer personas and put
+this brief into that skill and refine
+it. So let me show you how that all
+works. And we're going to do an advanced
+skill which is basically a way to create
+synthetic customer profiles based on
+real customer data that you've collected
+in the past. So if I go down here, this
+is just an example of how we would
+create that skill. We have some mock
+buyer personas we want to include. So
+these are some key C-suite leaders that
+are in the process of deciding whether
+to buy a product like ChatGPT work for
+their employees. So here's kind of an
+instance where we're showing use the
+customer positioning review skill we
+just created to pressure test the brief
+which I've uploaded there and put it
+through these buyer personas. Have each
+persona review the brief independently
+and have a discussion. So what ChatGPT
+work will actually do is simulated
+discussion amongst them. It's like
+they're in a meeting room. And it'll
+bring out what their scorecards are for
+different criteria.
+They'll debate synthetically, right? The
+agents will debate and they'll have a
+buyer discussion here on what matters to
+them. They'll talk about positioning and
+then ChatGPT will intervene and tell me
+what to keep, what to pivot and it'll
+actually spit out revised launch
+positioning. And what's really cool is
+at the very bottom you can say, "I like
+these recommendations. Change the brief
+for me to reflect all these things." You
+know what team appreciates this whole
+thing the most? It's our customer
+insights team. The team that actually
+does the research themselves. Because
+firstly, they get to work on higher
+stakes research that actually moves the
+business. And secondarily, I can
+actually do this research from my desk
+to sharpen the research instrument, the
+survey, the interview guide, the focus
+group guide, so that they then have a
+stronger instrument to go to the field
+with and get more bang for our buck out
+of that research.

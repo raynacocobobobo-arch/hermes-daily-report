@@ -1,0 +1,345 @@
+UP主：OpenAI
+标题：Higgsfield - Building Agents That Provision Their Own Compute | DevDay 2026
+链接：https://www.youtube.com/watch?v=8804JYm81cc
+
+All right, everybody, welcome.
+Welcome to the outdoor stage.
+All right, thank you.
+Today, our next guest coming
+up here, I'm so excited
+to have you hear from him.
+He co-founded a product that became
+Snapchat Cameos and then went on
+later to lead generative AI at Snap.
+But now what he's doing is
+he's using agents to choose
+models and spin up new GPUs
+that unlocks new ways to create
+and experience media.
+So I would love a warm DevDay
+welcome for the co-founder and CEO
+of Higgsfield, Alex Mashrabov.
+Thanks for being here, Alex.
+Thank you very much.
+Alex, for the people, I'm a huge fan,
+but I'm not sure everybody knows.
+How do you describe
+Higgsfield these days and what
+are people building with it?
+So Higgsfield is a leading multimedia
+AI platform where creative marketers
+can build their advertising
+campaigns end-to-end using
+modern models like Astra,
+but also advanced image and video
+models provided by Higgsfield.
+Most importantly, these AI-generated
+ads become a way how actually businesses
+can grow their revenue and their sales.
+But also we felt
+that there are some unmet needs
+as a lot of people have admiration
+around building new forms
+of creative media, interactive media,
+which were not possible before.
+That's why we launched Higgsfield API,
+which can actually help developers
+to ship those experiences
+and build new businesses.
+And that's where we have seen
+that models like Higgsfield,
+models like OpenAI Astra,
+in conjunction with Higgsfield API,
+can deliver those workflows where
+essentially a team of just one
+person can ship an interactive show,
+which would be impossible
+to even imagine a few years ago.
+Yeah, yeah.
+And so you went through
+and you built this agent, right?
+You built an agent.
+What caused you to have
+to think through that?
+Absolutely.
+What we have seen very often
+is that it's very easy to get
+a good asset, like concept image,
+but very difficult to deliver
+a continuous experience around that.
+And that's why we shipped supercomputer.
+Recently on another podcast,
+I actually mentioned that we
+were able to deliver absolutely
+new skill, like for example,
+video editing skill,
+which can go and make 10
+minute long video consistently.
+That would be impossible
+to imagine without Astra model.
+But we spent over
+$30,000 to deliver this experience.
+And you can imagine that it takes,
+that's for, to put this for production
+purposes, such skills,
+there are a lot of decisions
+which need to be made on which
+model to use and which use case.
+And that's also where agentic
+systems have to be really good
+that self-evaluation to define
+a specific criteria which quality
+of the output is acceptable.
+So it's choosing
+those models as it goes.
+What goes through that, right?
+What happens when we, you start,
+you have this creative spark.
+Let's go, let's go high level.
+Creative spark,
+what, then it comes out of the end product.
+What is that?
+Yeah, so, and that's where I
+think also, that's a really
+good question because I think
+one of the areas where Sol
+model and the Astra model are
+truly unique and it starts probably
+from Sol 5.5 is creativity.
+Like, obviously it all starts
+with idea and a concept,
+but then it's very important to bring
+this concept to a, to build
+a very specific plan of execution
+and define a very specific criteria.
+Yeah. What,
+what, what's like the final outcome is.
+And that's where we actually have
+seen that's having deterministic
+workflows is also very valuable.
+Like, those workflows may
+actually include
+advanced rendering using,
+like, video models, fine-tuned
+video models and so on.
+That's why at Supercomputer we
+actually had to build agent which can
+launch its own GPU infrastructure.
+Oh, wow. And that, that has been critically
+important for us to deliver
+a, a, a, a really consistent
+execution across various use cases.
+Awesome.
+So, we talked a little bit about, ah,
+we talked a little bit about where
+the OpenAI models fit in.
+Anywhere else in that stack
+where that's happening?
+So, and I think this, what
+I have seen with Astra is
+that it's probably the first,
+it's the next generation of models
+which actually unlock computer
+use, computer use use cases.
+And that's so important.
+when we think about the creative
+workflow,
+ah, traditionally it required
+a team of over, like, 15 people
+who have to be proficient at,
+like, maybe 10, 12 tools out there.
+So, essentially, it put a lot
+of, like, huge production tax which,
+which goes between the creativity
+and the idea and execution.
+And, that's why we, when we
+have seen this a lot happening
+in the gaming industry where, like,
+really the bar in terms of the visual
+quality gets high and the budgets
+actually have grow enormously.
+And that's where I feel like
+Astra can actually allow
+smaller teams to be way more
+successful as, as really, like,
+Astra can call all these 10,
+12 programs on, like, creator behalf.
+Gotcha.
+Through, through, like, sub-agent stuff. Awesome.
+Awesome. So, so when you're building
+this, what's some of the, like,
+what are some of the bigger decisions
+or trade-offs that you had
+to make as you were, as you
+were thinking through this?
+One of the, going back to, going
+back to the previous examples is,
+it's, we were so happy that we
+were able to unlock this net,
+absolutely new use cases related
+to continuous video generation
+and automatic video editing.
+And this requires multiple,
+really multiple decisions
+which need to be made.
+We really had to make
+sure that we can keep,
+we can optimize the speed
+to really enable, to really
+enable real-time experiences.
+Today, obviously, there was
+a very exciting announcement
+of ultra-fast models, so it's,
+it's not, it's, it's now becoming
+more accessible to everyone.
+But back then, we were working on,
+like, with Neon, very popular streamer,
+to unlock the first AI-generated stream.
+Tell me about that.
+Yeah, that's, that's like truly,
+that's truly unique.
+So, it's essentially two
+real creators.
+One is Adil Hicksfield's spokesperson,
+and Neon, very popular streamer. Okay.
+They were walking through New York City,
+and, like, really interacting with other
+people, with very, and so on.
+And, like,
+Astra was able to really reconstruct
+the whole world, so it feels realistic.
+Live? Yeah, live.
+And, like, I think the stream
+went over 10 hours.
+10 hours?
+Yeah, and imagine, like, this is
+new form of media, which would be
+impossible to imagine before that.
+And, and now everyone, like,
+every developer in the world,
+like, just a team of, like, two,
+three people can ship these new
+experiences and build, like,
+businesses on top of that.
+Yeah, yeah, I like that.
+I think, so that's a great,
+that's a great customer use case
+that we're talking about there.
+Is there something that, as you,
+as you were building Higgsfield,
+right, we got an audience full
+of developers here, is there,
+is there a specific moment that you
+can think of that you can help
+to inspire these devs of building it?
+Because that's, that's amazing,
+going from, to 10 hours.
+What has been, what has been truly,
+what has been truly unique, like,
+there are many of these truly unique
+moments where, like, a team of really,
+teams of three, five people
+can ship product end-to-end,
+and we have seen
+a lot of that actually
+happening with,
+we have seen a lot of that actually
+happening with direct-to-consumer apps,
+like mobile apps and websites,
+where essentially, it's, it's
+absolutely new, like, consumer type
+of the experiences, which could be
+enabled, which could be enabled by
+Higgsfield API and OpenAI models.
+But also, I wanted to step back,
+really, towards more, like,
+larger scale use cases, where actually
+controllability becomes important.
+And that's where it was
+so important for us that we,
+that the agent does not just,
+creates, like, very certain, like,
+guardrails around the agent and can
+provide a secure deployment through
+a perimeter, like, through, like,
+perimeter infrastructure with GPUs.
+And this really helped us to accelerate,
+like, our own enterprise go-to-markets.
+And now, as this becomes
+available in Higgsfield API,
+others can build those
+experiences as well.
+Great.
+Yeah, that's, that's, I
+think that there's, like,
+you're doing this thing that we always,
+we always recommend this, is that, like,
+if you're, if you are building
+with the latest models, you should
+always, like, to use a hockey metaphor,
+you should always kind of, like,
+skate to where the puck is going.
+We always say that, and you
+all do that so well.
+You're building these experiences,
+the model's not quite there yet,
+you're going from two to ten hours,
+and now all of a sudden
+it's possible, and you're able,
+everybody's able to access this.
+For the developers here and for those,
+you know, those watching at home,
+what should they be building
+today to get ready for the next
+jump, the next AI jump?
+Look, the models improve so quickly.
+Even earlier today, we have
+seen that there are going to be
+new capabilities regarding
+with two decisioning and so on,
+and I think, what
+truly excites me is that now
+the interactive media
+creation gets absolutely
+democratized like
+really never before.
+Historically, it all was
+really bottlenecked by just
+ability to coordinate
+a lot of various tools,
+and with Astray, it becomes
+finally possible to unlock that.
+So what we have seen also, what
+truly excites me is that we
+open sourced
+our own new skills like
+AI video editing skill
+to help to make AI
+YouTube explainer videos.
+We use it at Higgsfield as well,
+so this skill was actually very
+valuable for us to build more
+education about Higgsfield products,
+so it's very funny that basically, Astra
+helped us to build a skill which
+we use internally to build more videos
+how to actually use Higgsfield, right?
+So it's like singularity,
+but what's important is that we
+are actually seeing developers
+to build, now they use the same
+skill to build tutorials about
+their own products as well.
+That's awesome.
+It's a brand new use case
+that you're unlocking there.
+I think what you're building is
+incredible, and I hope that everybody's
+feeling inspired to build a little bit.
+Anything, any last words you want
+to give here to the audience?
+In just 18 months, we built
+Higgsfield, and now is
+the best time to build yours.
+Awesome.
+Thanks, everybody. Thank you. Thank you. Thank you.

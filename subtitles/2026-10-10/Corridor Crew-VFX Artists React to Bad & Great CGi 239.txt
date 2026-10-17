@@ -1,0 +1,521 @@
+UP主：Corridor Crew
+标题：VFX Artists React to Bad & Great CGi 239
+链接：https://www.youtube.com/watch?v=p-OgiIwfUB8
+
+WOAH!
+>> WOAH!
+>> WOAH! We got some physics in there.
+>> He said that was hand animation.
+>> He's simulating that. Welcome to another
+episode of Visual Effects Artists React,
+where we look at cool stuff and stuff
+that might be janky and we figure out
+how we can make it better. Let's get
+into it.
+Do you guys remember Terminator 3?
+>> Talk to the hand.
+>> There's a scene in Terminator 3 that was
+so expensive to shoot that Arnold
+Schwarzenegger had to put up 1.4 million
+dollars of his own salary to help pay
+for it, which I assume he got paid back
+once the film hit box offices. It's
+perhaps the most destruction you've seen
+on film before CGI really took over that
+job.
+They bought a crane for this movie. They
+bought that.
+>> As opposed to renting
+>> They bought that. They bought it.
+>> bags over here.
+>> Well, how much is a crane?
+>> Probably a couple mil.
+>> Couple mil?
+>> Yeah.
+>> Is that just so they could totally trash
+it?
+>> Yeah, and they did.
+>> Oh my god!
+>> gosh! Did they buy the street? What the
+heck?
+>> That does literally look a few blocks
+from here.
+>> This is why LA looks the way it does.
+>> Gosh, yeah. They never put it back
+together.
+>> They're dropping the car right beside
+the stunt guy driving the motorcycle.
+>> OH!
+>> OH!
+>> SO SICK.
+>> WAIT, DID HE ACTUALLY grab that?
+>> I think so.
+>> There wasn't any sort of like harness?
+>> Can we frame by frame that real quick? I
+think that's real. That's a real stunt.
+>> Dang.
+>> Yeah, they're they're using that that
+counter offset motion to increase the
+speed. Camera moving opposite to the
+motion of the crane.
+>> The scary thing about those kind of
+stunts outside of the fact you're
+getting hit by a crane
+is that you can't wear a helmet. Cuz all
+in all, like, you know, he's wearing
+leather. What's the worst that could
+happen? You'd fall and you'd get scraped
+up and slide. But he doesn't have a
+helmet. So the actual worst that can
+happen is you crack your head on the
+pavement and die.
+>> So, what I'm wondering is he is he like
+secretly wired up somehow? Cuz he grabs
+the whole thing, but slips down to the
+hook after getting dropped from the
+motorcycle.
+>> The proper way to do it would probably
+be with a wire.
+>> They could clean out wires at this
+point. They were doing that in the
+Matrix years before this.
+>> Yeah.
+>> That's a CG Arnold. That's a CG Arnold.
+>> In there?
+>> Oh, yeah. You can tell cuz of the way it
+is.
+>> It's actually both, believe it or not.
+>> WOAH!
+>> OH! DARK NICE.
+>> SERIOUS.
+>> That's a CG flip, though.
+>> Yeah. That's a [ __ ] Ohs.
+>> So, this sequence was, in my opinion,
+the best part of the movie. And then
+like the final shot with all the
+>> With all the nukes going off. That's
+That's the main thing I remember from
+this movie is just all the nukes going
+off at the end.
+>> This is right at the era where you
+couldn't really do this destruction with
+CGI. Any car crunches, pyrotechnics,
+things like that, you're going to have
+to do it for real. And then that last
+shot of the crane flipping is like where
+all their effort went with all the CGI.
+And even then, that flipping shot is a
+huge like undertaking of hand animation,
+a little bit of physics, but not that
+much, just some like basic rigid body
+stuff, and then just tons and tons OF
+COMP WORK.
+>> WOAH! WE GOT SOME PHYSICS in there?
+>> He said that was hand done.
+>> Look at that! He's simulating that. Oh,
+wow! That's so fun.
+>> And I have a feeling they didn't use any
+of that sim, but used it
+>> as direction for the animation.
+>> Like a timing ref, almost.
+>> They start with this, they get approval,
+and then they go and start doing the
+actual work with the higher quality
+model. This scene where they drive
+through the building is, you know, the
+big set piece here. This is very
+expensive. It took them a week to build
+this building and set it up, 18-hour
+days. But they actually have a dummy
+Arnold hanging from the crane for this
+shot. For all the shots, but they're
+going to go in and replace it with a CGI
+person as needed to sell the movement.
+Cuz the dummy is obviously not kicking
+its legs or anything like that. So here
+that's you know most likely a CGI guy.
+>> Yeah.
+>> They're doing their best to cut him out
+and stick him in the debris right there.
+>> And they're doing a decent job.
+Honestly, it's happening so fast. So
+basically what you're saying Nico is
+that they built this whole building for
+one take. They only get one shot at
+destroying this building. You can't just
+break some of it. You have to destroy
+all of it.
+>> They built the facade. It's worth noting
+it's built on a building that already
+exists. And you can see how the other
+buildings also have facades cuz like
+this is LA and there's not a bunch of
+done up storefronts. They had to do up
+all the storefronts for this chase in
+the street.
+>> It does have me thinking what's the most
+expensive mistake in like special
+effects history?
+>> That's a good question. We should look
+that up. That's a good video right
+there.
+>> I'm really curious.
+>> Subscribe for what's the most expensive
+mistake in special effects history.
+>> Yeah.
+>> We'll make that movie We'll make that
+video soon.
+>> Heck yeah.
+>> We'll make that mistake soon.
+>> [laughter]
+>> This is one of those things like when I
+was watching in theaters like it looks
+good but you can still spot kind of
+immediately when CG Arnold shows up and
+when the CG crane flips it's cool but
+there's just something about it where it
+becomes animation. It stops being real
+life. But it does look cool and it's
+very art directed. But if you compare
+this to like The Dark Knight semi truck
+flipped it ages more gracefully than
+something like this does. Cuz all this
+stuff is amazing. Like driving the crane
+through the building is amazing. And the
+CGI Arnold doesn't really even matter
+because you're seeing all this real
+destruction.
+>> Yeah.
+>> And I can understand like doing CGI for
+the crunch here when like the wire goes
+tight.
+>> Which I thought was super dope. They
+nailed how fast that should be. It's
+just like an immediate just snap down
+into the ground.
+>> Oh you can see the building they're
+working on in the background there that
+one shot too. There there's the building
+they're working on.
+>> Oh.
+>> Oh yeah.
+>> [laughter]
+>> That's fun. They're literally building
+it. That's so funny.
+>> So they're spending a lot of time on
+animation here which is what you have to
+do to make anything feel real. It
+doesn't have to like necessarily render
+realistically if the animation's good
+and the motion really sells cuz at the
+end of the day that's what you're really
+trying to sell is the feel of the
+impact.
+>> opinion the animation of that whole
+sequence is by far the best part.
+>> They just don't do it like they used to.
+Everybody's like well CGI is cheaper so
+let's just do it in CGI but it's like
+it's not about how much it costs.
+It's about how it looks.
+>> Well, you guys want to know one area
+where practical is not better than
+visual effects?
+>> Always.
+>> Taking off body parts. Have you guys
+seen 2014's The Knick?
+>> It's over.
+>> Not until I say so.
+>> If you guys don't know about The Knick,
+it's a Steven Soderbergh series. It
+takes place in a hospital during the
+turn of the century, right when
+anesthesia is discovered and invented.
+>> Right before blood transfusions have
+been figured out. They don't know about
+blood types yet. So, they can do the
+surgery, but they can't fill them back
+up with blood. So, every surgery has a
+clock to where people bleed out and
+stuff. It's a really great setting for
+an interesting medical drama.
+>> There is a shot in season 1 that is
+really disturbing that I want to look at
+right now.
+>> There's a lot of shots in season 1 that
+are disturbing.
+>> very fair. A nose is removed. I don't
+know if you know what I'm talking about,
+but let's roll it.
+>> They got that edge light.
+>> Mhm.
+>> You know, the rest of her face is in
+really good condition for for the
+syphilis. Sorry, syphilis.
+>> Sy- syphilis?
+>> [laughter]
+>> He didn't have it when I first
+met him. It happened later.
+>> Look at this, dude.
+>> Flashbacks to my colonoscopy.
+>> COVID test was bad.
+>> Yeah. There's something about stuff in
+the nose that's tough.
+>> They're being very creative with their
+shots here. There's only two angles so
+far, and each one Oh, actually, that was
+a bit of a hard angle there. Whenever
+she turns this way, her nose is now
+obscuring parts of her face. And without
+that nose, they have to like paint back
+in that part of her face there. So,
+that's a challenge. But, for the most
+part, we're either seeing it perfectly
+like profile where you can just kind of
+like cut it out here with an easy clean
+plate, or perfectly straight on where
+you have most of the cheek already
+there. This is also one of those classic
+type of effects that you cannot do with
+makeup. You cannot add subtraction.
+>> You're totally right, Wren. And that was
+their first step was they were trying to
+blend into the wound with practical
+makeup on set and they found that that
+actually became more obstructive than it
+was helpful because you're right, all
+prosthetic makeup is additive.
+>> We did way too much.
+>> And we need subtractive work to be done.
+So CG is the only route to take because
+we need to literally remove volume from
+the face which I don't know what kind of
+movies you're watching, but normally
+that's that can't be done practically.
+>> A couple crazy things. The side shot,
+when his hands are behind where her nose
+would be, they are having to paint back
+in those details. So like the stem of
+the glasses there, somebody's basically
+looking at the next frame as the glasses
+move, grabbing that chunk of frame,
+going back one frame, and then putting
+that where it would be obscured by the
+nose. They're rebuilding that little
+hole in the footage right there.
+>> Now I remember having to do a lot of
+that on the Boston Dynamics short
+anytime like my foot was obscured by
+Clint. So I had to go in and like
+literally track in little freeze frames,
+little patches of my shoe back to cover
+it. So fortunately again though, this is
+a fairly straightforward shot. There's
+no parallax in the arm. It's just like
+more or less just up and over so you can
+take that still frame of his sleeve
+there and track that back on as it goes
+behind where her nose should be in this
+shot.
+>> As far as what I'm seeing working really
+well, like obviously the tracking and
+integration is working nicely. They're
+getting the lighting, that nice sort of
+edge light around her forehead that then
+matches the sort of edge light
+reflection on that part of the nose, but
+we're getting a little bit of that
+subsurface scattering as well.
+>> They're also not hitting her cheek with
+the shadow of her nose. They've set the
+light up in a way that you get that nice
+clean line on the cheek which might
+actually be VFX. Same thing with this,
+you know, shadow of the nose would be on
+that side of the face.
+>> But in the best part in my opinion is
+getting that little light. That little
+light.
+>> That's such a great like integration
+element there.
+>> That touch of red subsurface scattering
+going on.
+>> that's a little bit of that red glow.
+>> Yeah, cuz the light goes into your skin,
+hits things inside your skin like blood,
+and then comes back out with that tint
+of the light.
+>> Mhm.
+>> Light those ears up.
+>> Do you got a lot of blood in there? You
+should you have that much blood in
+there?
+>> Yeah, I know I love the touch of that
+flashlight and also just the subtle but
+consistent matching of the light being
+blocked every time the doctor is moving
+past the window. Like it's a very subtle
+thing to have that shadow integration
+blend so nicely, but every time he's
+obscuring
+and it is perfect. What's really cool
+about this is that the entire CG scene
+was set up with one lighting
+environment. All of the shadow work, the
+frustum of the flashlight in the nose
+was done in compositing using multi-pass
+EXRs, meaning all the different light
+passes are separated, which means all
+the light contributions are separated
+and the compositors can effectively turn
+on and off the lights in compositing.
+So, they can dial in what light should
+be affecting what area with simple masks
+in 2D compositing. So, it allowed them
+to be very curative and specific as to
+what areas of the lights are turning
+off. So, they didn't need to rebuild a
+perfectly shaped body passing by a light
+source to create the accurate shadow on
+the nose. They could just eyeball it
+with masks based on the practical
+lighting they were seeing on the rest of
+her face. So, it's kind of cool. It
+shows you the power of compositing with
+those kind of multi-pass EXRs, you know?
+>> But, this is also just like one
+sequence. They can focus and put a lot
+of points into this one moment. If this
+was going to be an entire season where
+we're seeing this character all the
+time, they would have to put a lot more
+points into developing a sort of
+workflow and a pipeline to make it all
+efficient. With this, I imagine each one
+of these shots is just very bespoke.
+We're just putting everything we have to
+making this one shot work because we
+don't have to make a pipeline for a
+whole show.
+>> Really cool and really well done.
+>> I wanted to take a look at this show
+from the '90s called Tales FROM THE
+CRYPT.
+>> [screaming]
+>> TALES FROM THE CRYPT.
+>> This is [snorts] from an episode called
+You Murderer from 1995 directed by
+Robert Zemeckis hot off the heels of
+doing Forrest Gump.
+>> Oh, wow.
+>> The reason why we're bringing this up is
+because this stars Humphrey Bogart.
+>> Who wasn't alive at the time.
+>> Who had been dead for something like 40
+years.
+>> Oscar?
+>> No, Lou. It's Betty.
+>> Uh
+>> They knew they weren't going to be able
+to like star him in the movie. This is
+like way before like resurrecting actors
+was something you can have be your main
+character in the thing. So, their whole
+pitch was like it'll be POV of this guy
+who got plastic surgery to look like
+Humphrey Bogart cuz he's a mob boss and
+then he's trying to be under cover.
+>> That's one way to resurrect an actor
+without having to get permission from
+the family.
+>> No, they didn't. [laughter] They looked
+through his eyes.
+>> But they tried to fit in every moment
+possible to get reflections in there.
+>> We did it for each other then, we do it
+for each other now.
+>> I KNOW THAT.
+>> [laughter]
+>> DANG, this is compositing like 101 here.
+>> Oh my gosh.
+>> I love that as he's turning his head,
+the guy's already just looking straight
+on. Oh, yeah, baby.
+>> That is crazy.
+>> I mean, you know, for TV episode, Tales
+from the Crypt episode, like it's pretty
+creative. I'm not going to lie. If I was
+watching this on TV, I'd be like, "Holy
+heck, this is so awesome." But yeah,
+sure, it's like cut out footage of
+Humphrey Bogart, but like still, what a
+concept.
+>> Nice move, Lou. You learn that in
+prison?
+>> Nah, that's a little trick I picked up
+in Benny's shooting gallery IN CONEY
+ISLAND.
+>> [screaming]
+[laughter]
+>> OH, MAN. THAT IS CRAZY.
+>> Oh my gosh, I love it.
+>> One of the interesting things about
+Forrest Gump was that they actually put
+Tom Hanks into archival footage. But for
+this episode, they did the exact
+opposite. They took archival footage and
+tried to blend that into modern footage.
+They literally took footage from old
+movies like The Maltese Falcon,
+Casablanca, and colorized it.
+>> OH, WOW.
+>> They're taking the black and white
+footage, they're painting it frame by
+frame. Who else could do such a big task
+like this in the '90s?
+>> Did ILM do the effects for this episode
+of Tales from the Crypt?
+>> Yes.
+>> ILM ILM did the effects here.
+>> Wild.
+>> And that shot right there is the actor
+that they filmed. His name is Robert
+Sacchi. He's a Humphrey Bogart
+impersonator. And so what they're doing
+is just a face replacement. Manually
+cutting out faces of Humphrey Bogart
+from all these old movies and tracking
+it back onto his face. And so what
+they're doing is they're finding the
+shots from the original movies and then
+matching the framing while they film the
+new shots. Not only did they go back and
+cut out Humphrey Bogart from those
+movies, they changed his eyeline. In the
+articles I read they're like, "Oh yeah,
+and then they adjusted the eyeline." As
+if you can just do that. But like that's
+a bit of a task there. That shot there
+looking down at the table, I think this
+is an example of where they changed his
+eyeline cuz you know, he was originally
+probably looking off to the side and
+they moved his eyes. So now his eyes are
+in the center kind of looking
+>> [snorts]
+>> here.
+>> Looking right through us.
+>> And it's it's a little weird looking.
+>> It might be a good like pallet reset for
+you. You do Forrest Gump, the intensity
+of that press tour and you know, Oscars
+push and then it's like, let me just do
+a six season episode seven of Tales from
+the Crypt POV.
+>> Let us know in the comments what you
+think about today's episode.
+>> I do actually read most of the comments.
+How do you think I get all these clips
+for the show?
+>> Thanks for watching and we'll see you
+next week. Bye.

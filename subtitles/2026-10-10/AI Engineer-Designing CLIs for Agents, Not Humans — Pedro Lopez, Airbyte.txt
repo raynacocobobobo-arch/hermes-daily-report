@@ -1,0 +1,423 @@
+UP主：AI Engineer
+标题：Designing CLIs for Agents, Not Humans — Pedro Lopez, Airbyte
+链接：https://www.youtube.com/watch?v=3wj6sgbi1YA
+
+[music]
+Hello everybody. Uh my name is Pedro.
+I'm a software engineer at Airbet. And
+today we're going to be talking about
+how we built our agent MCP and our CLI.
+Um, and before we go into the
+nitty-gritty of all of that, um, I
+wanted to give a bit of context on what
+we do at Airbet and how all of this kind
+of fits into, uh, our product. So,
+Airbite's been around for a while. Um,
+we started as the open- source uh,
+standard for data movement. Um,
+connecting all of your SAS tools that
+you might be using like Zenesk, Stripe,
+uh, GitHub, etc. to um, your data
+analytics pipelines. And now we're using
+that same expertise and have evolved to
+being the data and action layer for your
+AI agents. Um, and we do that by
+offering a or agent product um that has
+what we call the context store which
+connects to all of those tools that that
+I mentioned before and sits in between
+your agents um to provide a search
+optimized index of all of your data um
+that is able to be more efficiently
+queried by your agents. So, you're able
+to gather information about all of these
+um records and and and contacts and
+stuff that you might have in these all
+all these tools and join them together
+in an easy way uh through our contact
+store.
+And so, our goal is that we want to make
+data available and actionable
+everywhere. And so, we have a couple
+different interfaces by which you can
+access this context store. Um, one is
+our SDK, which is more usable if you are
+uh building your own agents and your
+tools. Um, our UI, which is, um, just a
+quick way that you can use it through
+our web app. Uh, and then what we're
+going to be focusing on in this talk,
+which is our MCP and our CLI, which is
+um, a way to easily make that um,
+available within existing uh, agents
+like Chad GBT um, and and Claude. So
+what exactly are we exposing through
+these interfaces? Um three main things.
+One is the ability to manage all of the
+the core resources of our product to our
+organizations workspaces and connectors.
+Um and so all these interfaces should
+let you uh interact with that. Second um
+super important is be able to
+authenticate those thirdparty services
+that I mentioned about earlier um and do
+so in a way that's secure and doesn't
+expose your credentials uh to to the AI
+agents. And third um ask and act. So we
+want to expose the ability to search
+across the context store uh be able to
+read and write uh take action on all
+those systems. Um, and so we want all of
+our interfaces to be able to span across
+these uh three capabilities.
+Um, so the MCP and the CLI, the way the
+way that we've structured things is that
+they are thin unified interfaces into
+our platform, not reimplementations of
+the platform. So most of the surface
+layer of these uh interfaces are
+presentational where you take a command
+uh and you call the platform and format
+the results in some way. Uh and
+everything kind of sits on top of our
+shared platform and APIs. Um and because
+we want to we deploy a lot, you know,
+our our platform changes like over 10
+times a day, we want to keep these
+things up to date as we go. And so a big
+part of this as well is open a open API
+uh specs as a source of truth for how to
+connect to to our APIs. And a lot of
+those interfaces um are built on top of
+uh those specs.
+Okay, so let's go into these interfaces.
+Let's start with let's start with the
+the MCP. And so MCPs are really great
+for users that might not be technical.
+Um, and in our case, it's great for
+those users that just want to plug their
+data straight into Chat DBT or Claude in
+an easy way. Um, and the cool thing is
+they're they're very nicely packaged.
+They're very uh easy to install. For
+example, here's our um listing on the
+Chad GBT app. uh listing the official uh
+store that they have. Um and we also
+have a application for the the anthropic
+one uh which we're still pending on if
+there's anybody from Enthropic out there
+that wants to approve us. Um but even if
+you're not on these marketplaces, um
+they are pretty trivial to install uh
+for a an end user. You just give it the
+hosted MCP URL and you're able to um
+connect pretty quickly.
+Okay, so let's look at uh an example.
+This is our MCP in action. Here I'm
+asking, you know, which connectors do I
+have available? Um, and it goes through,
+hey, I have four connectors set up in
+this workspace. And then I can ask it
+some questions about my data like show
+five paying customers with Zenes support
+tickets. Um, and so this right now is
+looking through all the connectors that
+we have, searching the context store for
+that information that I that I asked it
+about. Um, and then combining that
+information across Zenesk and Stripe,
+um, so that it can come up with an
+answer for me. Okay. And there we go. So
+it cross referenced Zenesk and Stripe
+and then came back with, you know, five
+of those people that um, have open
+support tickets.
+Cool. So let's go into kind of some
+lessons learned while building this uh
+MCP and things that you might want to
+keep in mind if you're doing uh
+something similar. So one thing that we
+decided to do um after trial and error
+is to keep the tool count small. So um
+we for the execution part of the
+connector where you're pulling that
+data, we only expose or really deal with
+two main tools. one is to describe the
+connector to get the schema of how do
+you query that information and two is
+the execute that's able to read write
+and delete records. Um the opposite end
+of the spectrum here would be since we
+connect to so many different um
+connectors and each of these has
+different entities different actions you
+can take. We could have exposed, you
+know, an MCP tool for each one of these.
+Um, but instead what we found is really
+keeping it narrow, using progressive
+discovery of all of the capabilities um
+that the connector has available. Um,
+and really limiting the amount of
+context that you shove into the those
+tool descriptions um really helps with
+the the performance of the of the MCP
+server.
+Two, Olaf is the way. So this this
+refers to how you authenticate the MCP
+server itself. Um so this is an example
+for like anthropic. You click a button
+uh to connect and that spins up our ooth
+flow. So you can sign in to air bite um
+accept the the privileges and then
+you're all set up with all the
+connectors that you've uh linked up. Um,
+and technically you can use other
+authentication mechanisms through MCP,
+but you're really going to have a hard
+time um if you do like beer off or or
+anything like that because the spec is
+really heavy on ooth and all of the
+clients, the the main ones at least um
+are really leaning towards the the OAF
+as a better UX for uh installing that
+connector. So that's an example for uh
+the the enthropic um custom connector um
+registration where they have no no way
+of you to put like a bearer token or
+anything. It's just all defaulting to to
+OOTH. So that's is is very important.
+And two, users actually expect um to
+have long lived sessions uh through
+these MCP servers. Um unlike a web app
+where you might be okay with having to
+sign in again um a couple times, uh
+users expect to use MCPs more like a
+mobile app where they don't really have
+to think about authenticating. It's just
+available uh whenever they want to use
+it. And so that has its own little um
+you know uh things to keep in mind as
+you're implementing ooth is keeping
+offline long sessions um that are stored
+separately from the web app and have its
+own set of uh of life cycles.
+Cool. Elicitation though is not the way.
+So I'll get into what elicitation is but
+a big part of um the MCP server that I
+mentioned is you need to be able to
+connect your tools. you need to be able
+to give credentials in a way that's
+safe. Um, and to do that, uh, basically
+when you ask, you know, how do I connect
+to to HubSpot? Um, we generate a link
+that you go to which you can pops up
+this widget and you're able to select,
+you know, which uh entities you want to
+connect and redirect to to HubSpot to go
+through the that OOTH flow. Um, now
+technically MCP has something in the
+spec that allows you to surface those
+kinds of URLs um and and process those
+inputs um called elicitation. It's a way
+that you can request information from
+the user. For the longest time um it was
+only form mode elicitation which is not
+um applicable for sensitive um sensitive
+uh data like credentials for an API. But
+more recently um this URL mode
+elicitation became a thing um that is
+very similar to what we're doing. But
+the problem is uh support across the MCP
+clients. So that's a big theme uh when
+working with MCP is that even though
+there is a spec
+features that is are supported across
+the clients kind of vary quite a bit. Um
+so this is an example from cloud desktop
+where you know it just is telling me hey
+I don't support URL mode elicitation. I
+can't do that. And so we had to go back
+to doing our own thing um and not using
+the spec for that for that kind of
+thing.
+Okay, let's talk about the CLI a bit. So
+if MCPS are easy for these non-technical
+users, um CLI are kind of the more
+technical counterpart might call it the
+kind of more powerful in some ways that
+we'll get into. And this is the the same
+example we saw earlier, but this time
+with the the MCP or sorry, with the CLI
+where we're asking, you know, which
+connectors do I have available? It's
+this time loading a skill that tells it
+about the CLI. Um, and then, you know,
+using the CLI itself to query things. We
+got back the connectors. Then we asked,
+you know, show five paying customers
+that have Zenes support tickets. Same as
+last time. um it's able to this time use
+the CLI to query that query the context
+store aggregate that data and then
+eventually it should come back with a
+result now okay um so there's those same
+five um five users
+so um on the design side for CLI I think
+one important thing to keep in mind is
+to design those CLIs with agents in mind
+um some of the things that might be
+helpful for users when you're making a
+CLI are going to be like blockers for
+agents. Um, and we'll get into that a
+little bit more. Um, the first design
+decision here that we made was take JSON
+in and return JSON out. So
+uh for humans it's very nice to specify
+um a bunch of flags uh to work with CLIs
+but when it comes to these more
+complicated um inputs that uh you have
+to build to to make these queries and
+agents are really good at working with
+JSON. um they're able to construct this
+uh in a much more um direct and and less
+of a guessy way um than using those
+flags. And so on the output, JSON also
+makes it easy to deal with longer
+responses um be able to leverage one of
+the key capabilities of CLIs, which is
+hey, you have these this Unix system
+with pipes that you can redirect the
+output to different um programs. So you
+can use jq for example to select certain
+certain things from the output and trim
+that and so JSON really unlocks a lot of
+that um capability.
+Two consistency is very much key here.
+So it should be dead obvious for agents
+to know how to do something across all
+of the resources that you're exposing.
+If you have structured your CLI in a way
+that it's it's structured where there's
+a noun and then a verb for this example
+you know connectors list connectors
+create make sure that when you're
+implementing a workspace um CLI uh
+commands they also follow that same
+format. So workspace list is another one
+that that we have. And so it's very um
+critical that agents know the right way
+to do things and it's easy for them to
+know the right way to do things without
+having to read a bunch of documentation.
+And another interesting fact here is,
+you know, if you see agents making the
+same mistake over and over, um calling
+the wrong command a bunch of times,
+consider making that your contract. Make
+it dead simple for agents to stumble
+across the the right way to to use
+things. um because that usually means
+that something is not quite as obvious
+as it should be in your AP in your CLI
+contract if agents keep making the same
+kind of mistakes.
+Three, skills are skills ship with uh
+the CLI tool. So skills are a must uh
+when you're doing CLIs because how else
+if you have a CLI installed is an agent
+going to know that that CLI even exists
+in the first place. So it helps a lot
+with discovery of uh your tools that are
+available. Um and they also help with uh
+using that tool effectively. So uh we
+have a skill that gets surfaced. It has
+a a description that is able to come up
+whenever you ask anything about
+connectors. It knows to bring up that
+CLI and invoke it. Um and then the way
+that you structure the skill is also
+something to um think through. you know,
+you don't want to put too much into the
+skill uh that you're going to bog down
+the context. Um, skills have this uh
+ability to be separated out into
+references um where you can have a main
+skill that points to other files in a in
+a skill directory um that can expand
+information about the the different
+commands. And that really uh helps cut
+down the the amount of uh of context
+that you're loading in and um leverages
+the progressive discovery um ability of
+uh of these agents.
+Cool. And then another interesting fact
+uh for off side, off was interesting on
+the MCP side. It is interesting in other
+ways for CLIs because we can't assume
+that a human is going to be present to
+able to interact with those prompts. Um
+when CLIs are being invoked by agents,
+it can't sit there and wait for you to
+type um a prompt into the CLI. you have
+to expose things either through flags um
+or in the case of credentials
+environment variables and config files
+um so that things can be set up out of
+band and you don't have to wait for that
+uh whenever you're invoking the CLI um
+and I would say aside from off um that's
+a general thing a lot of CLIs that are
+built for humans you type a command and
+it'll wait there ask you for prompts uh
+and that is not um you know able to be
+used properly ly by these agents. Um
+they'll just kind of get get stuck
+there. Um
+cool. So CLI and MCPs, which one is
+better? Well, they both have kind of
+their own trade-offs. You know, with the
+MCP, the spec is not uniformly
+implemented across the board. Um there's
+a bunch of limits that these providers
+decide to implement aside from the spec
+as well. For example, like Claude has a
+2 kilobyte limit on server and tool call
+uh descriptions. There's a limit of how
+long the tools can run. So it's harder
+to do more longunning processes through
+MCP. Um and uh you know there's there's
+other kind of kind of limits that
+they've introduced there. And then on
+the CLI, the cool things about MCP like
+you know you can have a hosted MCP
+server that just is always updated.
+That's not quite the case with the CLI.
+you have to think more about versioning.
+It's harder to keep packages up to date
+uh with all these new features. Um and
+there's no while the limits can be well
+limiting on the MCP side, not having any
+of those on the CLI across the tools uh
+across the the calls of the CLI can make
+things go wrong and continually go
+through loops that um you know make the
+agent spin. And so really I think both
+have their place. I think MCPs are great
+for those non-technical users, be able
+to quickly prototype things, build
+one-off reports, um, and even leverage
+that MCP ecosystem to have things uh,
+talk to each other. And then the CLI is
+better for those more technical users,
+more longer running tasks, maybe outputs
+that are super long and you need to
+leverage those um features that Unix and
+and the pipes give you where you can
+redirect output to a file. You can do a
+tail, do a head on that output. Um
+that's where really the the CLI um
+starts to to shine.
+All right, that is basically all that I
+had. Um, we have a booth over there at
+Airbite um that you should check out and
+come work with us. Thanks.

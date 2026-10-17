@@ -1,0 +1,724 @@
+UP主：Matt Wolfe
+标题：Why Aren't People Talking About This Google Model?
+链接：https://www.youtube.com/watch?v=Po_Dh7WLgmM
+
+So, there's been a ton of announcements
+about new model releases this week. I
+think some of them have been overhyped
+and some of them have been underhyped.
+And there's been a few things that I
+actually haven't seen anybody else
+talking about. So, I want to break down
+what came out this week and share some
+of my thoughts quickly about these new
+models. I also did some testing with
+them and I'll show you some of those
+results in a couple minutes here. So, we
+got the new models out of Anthropic. We
+got the new models out of Google
+DeepMind. And we got the announcement of
+an announcement to come from OpenAI
+about their upcoming Astra model. Now,
+I'm going to say something that I'm
+probably going to get some crap for
+saying, but I'm actually kind of getting
+frustrated with all these model
+releases. Like the pace at which we're
+getting these new models has not slowed
+down, but at the same time, it also kind
+of feels like none of our lives are
+really being changed in much of a big
+way every time one of these new models
+comes out. The average user of ChatGPT
+or Claude has had pretty decent models
+for a while that kind of do like what
+most people want them to do. Most of the
+big leaps we're seeing are more in
+things like math and science and coding
+capabilities. So, I feel like the people
+that are like being most impacted and
+really feeling it the most are coders.
+But even when it comes to coding, like
+these models have been pretty good for a
+while. They're just kind of now making
+it so to get to our end result, it
+requires a little bit less prompting.
+But despite always feeling like these
+aren't like the hugest leaps in the
+world anymore, I'm constantly seeing
+content online about how this changes
+everything and it's just like this giant
+hype machine. So, let's actually dig
+into some of these models and talk a
+little bit about what's going on with
+them. Let's start with Fable 5.1. Now,
+yes, Mythos 5.1 was also released, but
+it's only for a very small subset of
+like cyber defender companies or
+whatever. Fable 5.1 is the model that if
+you're on like a paid Anthropic plan,
+you now have access to. When we scroll
+down to the benchmarks here for Fable
+5.1, they've cherry-picked a handful of
+benchmarks to show off, specifically
+ones that are giant leaps over what 5.6
+Soul was achieving. So, when it comes to
+agentic scientific research, this new
+model is pretty much double every other
+model that came before it. Agentic
+coding, pretty much a big leap over GPT
+5.6 Soul. Knowledge work, pretty big
+jump, not huge, but a a pretty big jump
+over 5.6 Soul. And we can see that on
+their selected benchmarks, they picked
+the benchmarks that would make 5.6 Soul
+look weak in comparison. Now, one thing
+to note about Fable 5.1 is that
+supposedly it's going to reject less
+things. Before a lot of prompts, they
+would reject them and bump them down to
+the best available Opus model, and Fable
+5 would have refused them. However, with
+5.1, they've updated their cybersecurity
+safeguards to be more precise, and you
+can now use it to identify software
+vulnerabilities. Therefore, you should
+expect an average of around 60% fewer
+interventions. However, the safeguards
+still do redirect several kinds of
+dual-use cybersecurity tasks to the Opus
+models. They also set up
+anti-distillation mechanisms. If you're
+not familiar with distillation, it's
+basically using one big model as a
+teacher to train a newer model on the
+way that this bigger model would have
+worked. Now, that's a super
+oversimplification, but it's like you're
+using a model that exists to train
+another model, the existing model's the
+teacher model, where the new model is
+like the student model taking the
+prompts and the outputs of the teacher
+model to train this new model. Again, an
+oversimplification, but that's what
+distillation essentially is. Well,
+they're making it harder to do that. It
+says, "For example, it's no longer
+possible for new API accounts to
+manually edit Claude's prior context in
+a multi-turn conversation while
+preserving the transcript of Claude's
+prior thinking." They're doing this to
+prevent extracting Claude's thinking and
+using that thinking for training new
+models. There's been a lot of talk about
+these models coming out of China
+distilling Anthropic and OpenAI's models
+to train their models and that's how
+they're getting so good so quick. So
+essentially new models are copying the
+homework of existing frontier lab models
+and yes, there is a little bit of
+hypocrisy here when you think of how
+these Anthropic and OpenAI models and
+pretty much all the frontier lab models
+were trained by scraping everything off
+the internet and using it in their
+training data. They copied everybody
+else's homework to make the models and
+now they're saying you're not allowed to
+copy our homework to make your own
+models. But I've ranted about that
+plenty in the past. Now when it comes to
+price, they claim Fable 5.1 will cost an
+estimated 25% less than Fable 5 for
+typical workloads. That's due to them
+reducing their pricing on cache reads.
+So basically when the model's reading
+inputs that have already been processed
+and stored, it doesn't have to process
+those again, so it's a lot cheaper to
+process those. Now actual pricing here,
+they did keep the pricing on Fable 5.1
+the same as the pricing on Fable 5.
+They're both $10 per million token input
+and $50 per million token output. Still
+really expensive, but the price didn't
+go up with the newer smarter model. Now
+this isn't a brand new training model
+with brand new underlying weights. It's
+still like the Fable 5 with additional
+post training done on it. They did some
+like additional reinforcement learning
+and things like that to try to improve
+it and to get it to refuse less of these
+cybersecurity things. Now there's really
+two benchmarks that I like to pay
+attention to the most and that's Deep
+Sue because Deep Sue is the software
+engineering benchmark that kind of has
+the biggest correlation between how a
+model feels when you're coding with it
+and what the benchmark shows. Like the
+better a model shows on Deep Sue,
+typically the better it seems to do at
+coding projects. The other benchmark I
+like to look at is artificial analysis
+because it's sort of like this what is
+objectively the smartest model right now
+benchmark where it takes a whole bunch
+of different benchmarks and sort of
+combines them and puts different weights
+on different benchmarks to determine
+what is the best like overall model at
+the moment. Now, unfortunately, at the
+time of this recording Fable 5.1 is not
+showing up on Deep Sweet yet so it
+doesn't look like that benchmark has
+been run so we can't actually look at
+it, but we can look at artificial
+analysis which shows that Claude Fable
+5.1 is pretty much the smartest
+available model right now. It's got a 66
+where the previous best was Claude Opus
+5 with a 63. And I mean a three-point
+jump is actually pretty big. Like that's
+the difference between what GLM 5.3 is
+and Claude Opus 5. That's a three-point
+jump. So I mean, in the grand scheme of
+things it is a pretty decent size jump
+between these two models. Now, one thing
+they did say in this Anthropic article
+article here was that Fable 5.1 will
+cost an estimated 25% less than Fable 5
+for typical workloads. However, if we
+jump back to artificial analysis here,
+this is something that I saw Matt Berman
+mention in one of his videos, we can
+jump down here to the cost per task.
+Looking at a cost per task basis, Claude
+5.1 has the most expensive cost per
+task. So on average it costs about $3.69
+to complete a task with Fable 5.1 with a
+$1.48 of that going to reasoning. Claude
+Fable 5 on the other hand is about $3.14
+per task. Again, they're saying 5.1 will
+cost 25% less than Fable 5 for a typical
+workloads, but the actual benchmark data
+is showing different here. It's showing
+that 5.1 per task is actually more
+expensive. When we look at the
+intelligence index versus cost per
+intelligence task, we can see that
+Claude Fable 5.1 is the most intelligent
+model on this list, but it is also the
+most expensive model on this list still.
+Now, I did do a little bit of testing. I
+ran the model through BusyBench, and it
+did put out a really decent SVG image of
+Gary Busey. However, this one image cost
+me $4.35.
+It took 18 minutes to process. It does
+win on the leaderboard. It is currently
+sitting firmly in first place where the
+AI as a judge has decided it is the
+absolute best image of Gary Busey, but
+the cost is kind of crazy. Now, I also
+did have it make a clone of Mega Bonk,
+which is one of the fun tests I always
+like to do. And yeah, it's definitely
+the best clone of Mega Bonk I've seen so
+far, including the fact that it made a
+whole bunch of the characters that you
+might actually see in Mega Bonk. It's
+got a pretty decent shop, a bunch of
+settings, you've got your records here,
+your controls over here. It looks really
+good. Now, there is audio with it as
+well, but I muted this tab because the
+audio was quite annoying. But when we
+jump in and play, I mean, the character
+looks good. It looks like this little
+fox-like character, and it's shooting,
+and the bad guys actually look like more
+than just cubes or circles or blobs,
+like we've got in some of our past
+games. And these little images here and
+animations that pop up to level up, they
+look pretty good. I don't know why stuff
+keeps disappearing, but it looks decent.
+And yeah, I mean, overall, it did a
+really, really good job with this Mega
+Bonk clone. This is a single prompt
+first try, so this wasn't a multi-shot
+attempt here. And I'm pretty impressed
+with it. I actually think Opus 5 still
+does a better job at making games, but I
+feel like this one got a little bit more
+of the details, and some of the bad guys
+and characters look a little more
+detailed. It is a really good version
+of, you know, a Mega Bonk clone. Can't
+complain about this at all. Actually, I
+take that back. I have a lot to complain
+about, but it has nothing to do with the
+output or the generation here. If we
+take a look inside of my Claude code
+here, I made the mistake of putting it
+on ultra code to code this thing. This
+is the first thing I've coded inside of
+Claude code in like weeks. I'm on the
+$200 per month plan of Claude, the 20x
+plan, and you can see it is still
+coding. It's been working for an hour
+and a half plus here, and it's using my
+usage credits. So when I look into my
+usage here, my current session 2 hours
+18 minutes. This is the only thing I've
+coded in here today. It used 100% of it,
+and then started jumping into usage
+credits to build it, and it's not even
+done yet. It's still working on QA. So
+it's like taking forever, and let's do a
+quick like usage prompt here to see how
+much this actually cost me. So that
+version of Megabunk, yeah, it's pretty
+impressive, right? It cost me $114
+and counting. So while yes, it did a
+great job of coding up Megabunk, it blew
+through my usage like insanely quickly,
+and then got into extra usage, and it
+cost me like 100 bucks to make this
+thing. So again, yes, Fable 5.1
+objectively the best, smartest, greatest
+model we've seen so far, but way too
+damn expensive for most people to do
+what they want with it. And again, you
+could go and use other models like 5.6
+so for quite a bit less expensive, and
+maybe it'll take you a couple more
+prompts, but you could get to this. But
+again, that's not the only model I want
+to talk about. We had a few
+announcements this week. We also got
+Gemini 3.8 Flash, and this is a model
+that I think is way underhyped. I think
+5.1 has been overhyped, 3.8 Flash way
+underhyped. So let's take a peek at this
+one, because if we look at the
+benchmarks here, they did run this one
+through Deep Sweep, and it scored a
+73.7.
+Like just a couple months ago, Fable 5
+was the best model anybody had ever
+seen. It was being restricted and
+Anthropic took it away because the
+government requested they take it away
+because it was way too good of a model,
+way too smart. Well, let's take a look
+at Deep Seek here again, their actual
+official page, and look at this. Gemini
+3.8 Flash is smarter than Claude Fable.
+So, the left is how well it performed on
+Deep Seek here. Claude Fable sits right
+here at about 69% with an average cost
+per task of $9.18.
+Gemini 3.8 Flash moves up the
+intelligence scale to 74%
+at an average cost per task of $2.36.
+When we look at the leaderboard here on
+Deep Seek, this new Gemini 3.8 Flash is
+sitting at 74%
+tied with Claude Opus 5. They're
+basically as smart as each other, but
+one has an average cost of $2.36,
+one has an average cost of $11.84. And
+Claude Fable 5, the absolute best model
+the world had ever seen like 6 weeks
+ago, is at 70% with an average cost of
+$21.63.
+So, we're getting a model that is pretty
+much as good at coding stuff as Fable 5
+for like a tenth of the cost. But, I
+feel like Google has been so out of the
+picture for so long and people haven't
+been talking about their models lately
+that nobody's really talking about this.
+Now, there are some caveats and I'll get
+into them in a second. But, I mean, when
+it comes to a really smart coding model
+that is really efficient and very
+inexpensive to use, this model is
+really, really impressive. We were just
+looking at Fable 5.1. We don't know
+where that one falls on Deep Seek. I'm
+sure it's probably going to be better
+than Gemini 3.8 Flash. But, if you
+remember, that one was $10 per million
+tokens input and $50 per million tokens
+output, which is the same price that
+Fable 5 was cuz they didn't bump the
+price. So, this model, when it comes to
+coding specifically, is a better model
+than Fable 5, according to the Deep
+Sweet benchmark, but way way cheaper to
+use. Now, this actually puts Gemini 3.8
+Flash at 73.7 versus 74. The actual Deep
+Sea website has them both at 74. So, you
+know, maybe it rounded up a little, but
+it's pretty much like just as good as
+Claude Opus 5. And I just feel like for
+the price, this model is really good.
+Now, I did run it through some of the
+same tests. On BUS C bench, this is what
+it generated. Not horrible, but it cost
+me 9 cents, right? Fable 5, almost 5
+bucks. And it generated it in a minute
+32. Like this model is fast. When it
+comes to the leaderboard, it pretty much
+came in as a tie with 3.7 Flash, but
+it's a decent model with SVGs, even if
+it does kind of make some wonky hair
+sometimes. I also had it generate its
+own version of Mega Bonk, and this is
+what it generated. Now, this isn't
+horrible. Now, it definitely doesn't
+look as good as what we got out of Fable
+5.1. I'm definitely going to concede
+that. However, this is way better than
+the first version I got out of Fable. If
+you remember when I did a test of Fable,
+my character just looked like a little
+potato. It was like a little brown
+sphere running around. The characters
+that I was fighting against, they were
+just cubes trying to attack me. These
+actually look like they've got little
+goblin heads, and I can control the
+camera around. Once again, this is just
+one shot. This is one prompt to get this
+whole thing, and it looks really good,
+especially compared to what Fable 5 gave
+me the first test I did. Gemini 3.8
+Flash did this with one prompt and looks
+way better than what Fable gave me the
+first time around. And when we take a
+look at artificial analysis on this one
+here, well, this one falls kind of
+middle of the pack. It's sitting at 59
+and basically 10th place. However, I
+feel like this model was really
+optimized to be good, cheap, and fast at
+coding. I don't know if that's what they
+intended, but to get as good of a
+ranking on Deep Seek as Opus 5 and a
+better ranking than Fable 5, it really
+feels like this is a model that is great
+for coding and it's cheap and it's
+really fast. So, when it comes to the
+intelligence index, no, it's not the
+smartest model in the world because when
+it comes to things like GDP valve for
+knowledge work, it's not amazing at
+that, but it's really good at code. When
+it comes to banking and side code and
+terminal bench version 2.1 and
+humanities last exam and a lot of these
+other areas, it doesn't live up to these
+better models. But, if you need a model
+that's really, really good at coding and
+is now pretty much comparable to the
+state-of-the-art at coding, this model's
+like right in there. Now, let's take a
+peek at cost per intelligence task. If
+you remember, Fable 5.1, $3.69 per task.
+Quad Fable 5, $3.14.
+We already know that this 3.8 flash
+model is better at coding than Fable 5.
+You have Quad Opus 5 here, which is
+$2.34
+per task and it's pretty much on par on
+Deep Seek. You have GPT 5.6, amazing
+coding model, probably my daily driver,
+the one I use the most for coding, $0.95
+per task. Gemini 3.8 flash is all the
+way down here, $0.58 per task. So, very,
+very inexpensive model for coding, but
+as good as the models that are towards
+the top of the artificial analysis here
+when it comes to coding on the Deep Seek
+benchmark. Now, when it comes to time
+per task, Gemini 3.8 flash averages 2.5
+minutes per task. Really, really fast.
+Opus 5 way up here, 7.4 minutes average
+per task. Fable, 7.4 minutes average per
+task. 5.6, 3.9 minutes. So, it's cheap,
+it's fast, and it's good. Now, it does
+use a lot more output tokens. So, when
+it comes to actually using the tokens,
+it's pretty much the least efficient
+model. All the way over here to the
+right, it spends a lot of time reasoning
+before it gives you the answer, but that
+doesn't really matter because what we
+really want to know is how much is it
+going to cost us to do something, and
+well, we know that this model is pretty
+cheap to use. Yes, it may use a lot more
+tokens, but at the end of the day, it's
+only costing us 58 cents per task. So,
+again, I just wanted to share that
+because everybody's talking about Fable
+5.1. They're saying this is the best
+model ever. It's the craziest thing. You
+need this now. Oh my god, this is
+game-changing. Whatever sort of hype
+term you want to use. And I don't really
+feel like anybody's talking that much
+about Gemini 3.8 Flash, but Gemini 3.8
+Flash is a huge leap in coding
+performance with much lower cost, much
+more efficiency, not necessarily token
+efficiency, but like cost per output
+that you're trying to get efficiency,
+and it's really, really good at coding.
+5.1, amazing at coding. Hands-down, the
+best model there is right now at coding,
+at knowledge work, at pretty much like
+every meaningful metric except for cost.
+You're going to go and use it, you're
+going to be impressed by it, and then
+you're going to be like, this isn't
+economical to actually use on any sort
+of consistent basis. And then there was
+one last thing I want to talk about. I'm
+not going to go too deep into this cuz
+it isn't actually a new model release.
+It's more of an announcement that a
+model release is coming. OpenAI put out
+an announcement, Path to Astra, where
+they basically said that they've been
+slowing down and holding back on Astra
+because they want to make sure that it
+is really safe. They say that with this
+model, with the right tools and access,
+it can find previously unknown security
+flaws and develop ways to exploit them
+across many well-protected systems
+without a person guiding each step. It's
+the first model we are designating at
+this level. Over the past several weeks,
+they've delayed parts of Astra's
+development and release while
+strengthening and testing protections
+against cyber misuse and unauthorized
+model actions. They do, however, say we
+plan to make Astra available soon. Many
+are speculating it's going to be this
+week or next. I don't have any insight
+into that, but I don't think they're
+going to let Fable 5.1 and this new
+Gemini 3.8 flash models be sort of the
+top dog, most talked about models for
+too long. But this graph here says a lot
+about this model. From what I can
+understand, it's basically saying that
+this access here is the success rate of
+it being able to find and exploit
+vulnerabilities. With GPT-5.6
+Soul, their current best model
+available, you know, it got up to a
+success rate of 11.5%
+and to do it, it was using a lot of
+tokens, almost 140,000 tokens to get
+that 11.5%
+success rate. This new Astra model
+they're about to release, well, it's
+telling a quite a bit different story. A
+lot less tokens, 18,535
+tokens to get a 17.5%
+success rate and all the way up to
+almost 40% success rate with 76,188
+tokens. So, it's gotten both more
+successful at exploiting vulnerabilities
+and it's gotten way more efficient at
+exploiting those vulnerabilities by
+using way less tokens to accomplish
+those exploits. There's also some other
+concerns that are starting to be voiced
+about this model that I recently read
+about on the website The Information.
+They're using a new type of training to
+get this new Astra model even better and
+better. And the new technique OpenAI is
+using is called recurrent depth or
+looped transformer. It allows an AI
+model to improve its answers by
+processing the same text multiple times.
+Unlike commercially available
+state-of-the-art models which show in
+writing how they are thinking about a
+task before completing it, the new
+technique works in a way that obscures
+some or all of the AI's reasoning,
+otherwise known as chain of thought.
+When you give a model a prompt and you
+sort of see all the text kind of
+streaming through as it's thinking
+through something before it gives you
+the final output, that's the chain of
+thought that you're seeing. But this new
+method is making it so that humans can't
+actually easily read the chain of
+thought. This whole new technique has
+some people worried because as it says
+here in this article, the new technique
+could conflict with OpenAI's support for
+keeping models thinking fully legible to
+humans. OpenAI said its ability to
+monitor the thinking process of its AI
+would help it prevent incidents such as
+the July hack. So think of it this way,
+when you give a model a prompt, you can
+see the chain of thought. You can see it
+sort of logic through everything and try
+to figure out how to solve the problem
+in real time, and then it gives you the
+output, and if you want, you can
+typically open that chain of thought and
+then see kind of how it came to that
+conclusion, and that allows you to kind
+of audit it. If the output you got is
+not what you were expecting, you can go
+and look back through and see where
+maybe the logic got messed up and then
+redirect the AI model. Now with
+recurring depth, you would give a model
+a prompt, and then instead of seeing
+that chain of thought and the logic and
+how it came to the conclusion, behind
+the scenes it's just doing a whole bunch
+of complicated math algorithms and
+essentially doing like mental math in
+the background that the humans can't
+really read and understand, and then we
+get the output. Now for most of your
+typical prompts where you're just asking
+it a standard question and it's giving
+you a standard reply, that's not a big
+deal. But when it gets into coding and
+cybersecurity and biology type stuff,
+not quite understanding what it's
+thinking about is going to make it a lot
+harder for scientists and researchers
+and people using these models to like
+steer in the right direction and make
+sure it's not going off on like
+malicious paths and things like that. If
+we can't see the chain of thought and we
+don't know why it's going in the
+direction it's going in, that could lead
+to some problems. So, that has
+scientists kind of worried. Now, OpenAI
+does say that they are trying to limit
+this as much as possible and they're
+putting a bunch of safeguards in place.
+So, we'll see how that all plays out.
+But, if this sort of technique gets
+popularized, well, that doesn't stop
+other model makers and, you know,
+Chinese model makers and open-source
+model makers from using similar
+techniques that are just as scary, but
+may not think about safety in the same
+way some of the frontier labs do.
+Anyway, that's my rant about the new
+models. I guess if I was to sum
+everything up with my thoughts right now
+and kind of give you a conclusion, we're
+getting all of these model drops. I feel
+like I'm kind of getting frustrated by
+all these model drops because they're
+all getting super super hyped up as like
+world-changing, game-changing new
+releases. I would say most of that's
+because of content creators and not
+necessarily the the labs, but I almost
+kind of wish the labs would just like
+wait until there's big leaps and release
+the, you know, the GPT-5 and then GPT-6
+or, you know, the the the big leap
+models instead of the like little
+incremental improvements. Like, yes, 5.1
+is better than five, but for most of the
+world, you're not going to notice the
+difference. If you're a coder, you're
+going to get a little bit of a boost,
+but also it's a really, really expensive
+model where cheaper models are going to
+get you to the same place. And then you
+have Gemini 3.8 Flash, which I think
+because it's Google is not being as
+talked about, but is a model that got
+really, really smart and really
+efficient at coding really, really
+quickly. But, the amount of releases is
+just kind of getting exhausting and part
+of me just kind of wishes it's like, all
+right, for most of what we're doing,
+these models are good enough. Let's hold
+off a little bit until we have another
+really, really good model to show people
+instead of every, you know, point X
+model that increases 1% on a benchmark.
+Like that to me is kind of getting
+frustrating and a little hamster
+wheelie. Like every week there's a new
+model that is a half a percent better on
+some benchmark that most people don't
+care about. Anyway, I just want to do a
+little bit of a rant and talk about this
+for a minute. I am going to talk about
+these models again on the AI Friday news
+recap, but I figured I had so much to
+say about what's going on with these
+models that I would talk about them in
+this video and then on Friday's news
+video I'll probably spend a little bit
+less time on them and talk about all the
+other news outside of these models that
+came out. So, if you want to stay looped
+in on all the latest AI news and latest
+tools and really cool workflows that you
+can do with AI, maybe consider liking
+this video and subscribing to this
+channel. Every Friday I release a full
+news breakdown of all the news that came
+out in AI for the week. This is a sort
+of in between episode where I wanted to
+talk just about these models, but the
+Friday videos are really where I break
+down everything. So, if you want a
+breakdown in just one video a week of
+here's all the news you need to know
+about that happened in the world of AI,
+that's also a good reason to consider
+subscribing to this channel and liking
+this video cuz that'll make sure stuff
+like this will show up in your feed.
+Anyway, that's what I got for you today.
+I'm planning on putting out some more
+little like commentary and rant videos.
+I haven't been doing them as much
+lately, but feel like I've got more that
+I want to rant about and
+>> [laughter]
+>> have some commentary around, so I'll
+probably put these out a little bit more
+often. And if you don't want to watch
+them, you don't have to cuz I'm still
+going to make those Friday roundups
+where I'll cover all the most important
+stuff anyway. Anyway, thanks for nerding
+out. That's all I got for you. Bye.

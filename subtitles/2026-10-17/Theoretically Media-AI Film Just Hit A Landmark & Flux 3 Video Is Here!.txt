@@ -1,0 +1,447 @@
+UP主：Theoretically Media
+标题：AI Film Just Hit A Landmark & Flux 3 Video Is Here!
+链接：https://www.youtube.com/watch?v=TZ1uAQazv90
+
+Grab your map, it's time to head back
+into the forest as Black Forest Labs
+have released Flux 3 and it's a video
+model with some impressive specs. Plus,
+a landmark moment for AI filmmaking. One
+film is getting a theatrical release.
+Zach London, aka Gossip Goblin, is
+headed to the silver screen. We'll talk
+about that, but more importantly, I've
+got a breakdown on his workflow that you
+will definitely learn a thing or two
+from. Okay, Gretel, get your breadcrumbs
+for the forest and your popcorn for the
+movies.
+Kicking off, Black Forest Labs returns
+with a surprise. The long-awaited video
+model that was teased at the launch of
+Flux 1 way back in August of 2024. So,
+yeah, it's been a hot minute, but never
+take a cake out of the oven early,
+especially if it's a Black Forest cake.
+I you know, I was going to say strudel,
+but last time I made that joke, the
+Austrians got really mad at me. I had no
+idea that strudels were so contentious.
+Anyhow, the question, of course, on
+everyone's mind is how does it stack on
+the C-Dance scale? Well, I mean, it's
+there-ish. For some quick specs, Flux 3
+can generate up to 20 seconds, which is
+awesome because well, I mean, 10 seconds
+just does not feel like it cuts it
+anymore. It's also a multimodal model,
+meaning you can input references up to
+10 of them or audio or video inputs for
+editing or remixing. Plus, of course,
+all these standard aspect ratios from
+9:16 to 21:9 and of course, yes, it does
+generate audio. Currently, we are
+essentially in the launch window. I've
+had a little bit of time to play with it
+in early access. So, resolution is
+currently limited to 720, but 1080 will
+be rolling out shortly. So, all that
+said, how does it look? Well, let's fire
+it off with a quick trailer for the new
+Netflix show, Flux 3: Return to the
+Black Forest.
+>> The Flux died here.
+>> Correction.
+Interim
+>> No!
+>> I mean, I I'd probably watch it. So,
+that was text to video. As a quick note,
+it was upscaled in Topaz because of all
+the 720-ness of it all. The prompt was
+very simple, just make me a trailer for
+a Netflix show titled Flux 3: Return to
+the Black Forest. I do think that we can
+surmise that this is a reasoning or
+thinking video model. And while perhaps
+not completely perfect in terms of the
+output, I mean, it is pretty good. Now,
+on the image to video side, I do have to
+admit I was having some difficulty
+there. Again, this was early access and
+it was through Discord. Discord haters,
+I'm now officially on your side. So, the
+main issue is that I was having problems
+getting my image references to stick. I
+don't think that'll be the case for
+release. And that's that. I did manage
+to get off our standard test of an FBI
+agent drinking coffee in a Pacific
+Northwest diner.
+>> That's a damn fine cup of Joe.
+But how's the pie?
+>> It's really good.
+It's an old recipe from the log lady who
+got it from the owls.
+>> I'm still waiting to order.
+>> Yeah, that lady in the background
+finally got something to say. And if
+you've been watching this test for the
+last year or so, yeah, that poor woman
+has been waiting to order for quite some
+time. And while she does kind of get cut
+off at the end there, I do think that if
+anything that goes to show you exactly
+how much that extra 5 seconds buys you.
+My final test before checking out some
+community outputs was on prompt
+coherence. So, running one of the more
+difficult Sea Dance test uh prompt on
+screen by Coda, the 15 shots in 15
+seconds hyperpop frantic day loop, uh we
+get this.
+We do normally run this prompt with this
+character, but again, I was running into
+issues, at least on the Discord side in
+that early test group, of uh my image
+references not attaching to my prompts.
+I'm sure that will be fixed in no time
+if it hasn't already been fixed. But
+overall, I mean, I think it did a pretty
+good job in terms of prompt coherence.
+I'm not going to get Again, I'm not
+going to get into like a head-to-head
+with SD Dance 2.0 because I mean, to be
+honest, it's just not that interesting
+to me. What is interesting to me is how
+this model performs in terms of, again,
+coherence. Now, I will note that it does
+not have some of the like hyperpop
+kinetic energy that the SD Dance output
+had. And it certainly doesn't have a few
+of those like, you know, trick shots
+with fish-eye lenses and uh you know,
+rapid camera movement. That said,
+everything that I asked for is here. So,
+there is that. So, Flux 3 might not be
+your go-to for your like hyper heavy
+fast-action sequences, at least
+currently. Again, we are just looking at
+launch and there's a lot of updates that
+are coming. So, we'll see. That said, it
+can do some pretty cool stuff already.
+For example, moving on to some community
+outputs, I mean, I think that this is a
+pretty good dramatic scene.
+>> I would have actually married you if you
+picked up the phone and told him exactly
+where I was.
+>> Yes, I told him the truth because I
+stood at that window every night
+watching you disappear into this thing
+and already bury my brother. I was not
+going to stand there and bury you, too.
+>> you said it, they came and everything we
+had went with the mess the whole story.
+>> No. The truth was the last piece of you
+I still recognize. And you've been
+standing here, even losing you.
+>> My theory is that by the end of the
+movie, he'll have overcome his demons,
+but it'll be too late because she's
+moved on. But that's okay cuz he's got a
+sequel to get to. I mean, overall,
+that's some pretty decent acting.
+Definitely some very rapid-fire
+dialogue. I mean, that is north of
+Gilmore Girls. I say Gilmore Girls
+because it's been It's been on a lot at
+the house lately. Uh I actually forgot.
+I mean, that that show was really,
+really great. And you can get some cool
+like action alien invasion type stuff
+out of it as well. Uh this was in the
+test group and I missed who it was
+because Discord. Um so, I I can't
+properly credit, but the generation is
+pretty cool. So, overall, we are very
+early into this model. Like it is like
+day one. So, there's going to be a lot
+to discover about it. But, I think the
+big takeaway here is like is this going
+to replace C Dance in your workflow? No,
+I mean, no, probably not. Is it going to
+augment it? Yeah, I mean, that I
+certainly think it can. There's no word
+on pricing yet for Flux 3, nor have I
+heard about any anything about
+open-sourcing as of yet, as I'm sure
+many of you are wondering. Editor Tim
+breaking in with some good news.
+Apparently, open weights are on the are
+in the launch plan. So, we will be
+seeing that at some point soon. But,
+either way, I do expect that generation
+costs will be lower than C Dance
+pricing, which I mean, I don't I don't
+think anyone can argue is a lot. Again,
+this is like launch day, so this is the
+very earliest version of the model. So,
+again, I do expect a number of updates
+to be coming along. In the meantime, you
+can sign up for the early access
+waitlist to Flux 3 at the link down
+below. And as we get into a wider
+release, I will be taking a much deeper
+look into it. In the meantime, I'm in
+it. Well, it's just good to be back in
+the forest. Moving on, we have the
+biggest AI film theatrical release to
+date. The juggernaut that is Gossip
+Goblin is going to the movies. So, let's
+talk about that, plus his workflow. But,
+first, quick word on Second Brains from
+our friends at GenSpark. Something cool
+and new from our friends at GenSpark,
+who just rolled out a thing that well, I
+know a little something about. Second
+Brains. If you've been watching the
+channel for a while, you've know that
+I've built a few of these, and oh, I
+mean, there's one thing I can tell you.
+It's that a Second Brain is a genuinely
+powerful tool to have in your arsenal.
+But, it it it it also can be a real pain
+in terms of upkeep. Just like real
+brains, if you don't keep the clutter
+away, the wires start to get a little
+scrambled. Even worse, untangling those
+wires can be a real rabbit hole of
+feature creep. And well, if you're
+anything like me, you'll find yourself 6
+weeks into a brain build, suddenly
+realizing that you haven't actually done
+anything on the project you were
+building the brain for. And that is why
+GenSpark's Second Brain is great. It
+skips all of that. No architecture, no
+maintenance, simply feed it and it
+organizes itself. Plus, it's got
+something no other software second brain
+has, hardware. I'll circle back to this
+in just a minute. So, as a test, I gave
+it everything I've been accumulating for
+the Planet Hell series that I've been
+developing. Well, I mean, well, let's be
+honest, forever. All the notes, all the
+drafts, the world-building, basically
+everything that I've been noodling on.
+Second Brain hoovered all of that up in
+no time and I was able to start asking
+questions about the project and
+discovering all the little decisions I
+said I'd get to later. For example, if I
+ask, "What outfit did we put Tom in for
+episode one?" it knows that we have him
+in the orange jumpsuit, but it also
+knows that I haven't locked my visual
+references yet. See, Second Brain
+working already. Plus, the more you feed
+it, the smarter it gets. So, when I pop
+in my episode two script, it'll continue
+growing, knowing even more about the
+world. And obviously, by the time we hit
+episode five, I mean, it'll have built
+up a whole bunch of context about the
+world. And here is where it gets really
+slick. With one click, I can hand all of
+that over to Gen Spark's super agent and
+it'll build out an entire spreadsheet
+with like all of my decisions and like
+everything that is going on with the
+story. Very informative. I'm not even a
+big spreadsheet guy, but I mean, this
+does give me a very good overhead view
+of everything contained across all of my
+brainstorming documents. Another nice
+little surprise, all of my previous Gen
+Spark sessions were already in my Second
+Brain waiting for me. This was the
+Dragon Blue presentation that we did a
+few videos back. Now, for the hardware,
+this is kind of cool. The Second Brain
+note is a slim credit card-like device
+that snaps onto the back of your phone
+with MagSafe. Although optionally, you
+can just slip it right into your wallet.
+Although I do like the kickstand thing
+that it comes with and I keep all of my
+credit cards in there anyhow. So,
+whenever you're out and about and you
+suddenly have an idea or you know,
+you're in a meeting, you just hold the
+button for two seconds and it's
+recording. Tap it once to bookmark the
+good stuff, hold it again to stop, and
+all of that sinks right to your second
+brain automatically. No pulling out your
+phone, no opening an app. The idea is
+captured and the brain is fed. Now,
+obviously this is just the creative side
+of a second brain. You can, of course,
+connect all of your other business and
+administrative applications, Gmail,
+Notion, Slack, and so on. All with
+toggles that decide what it sees. So, if
+you've ever wanted a second brain, but
+the lift was too heavy for your first
+brain, GenSpark now has you covered. The
+limited first release of GenSpark's
+second brain note is available right
+now, and normally it is $199, but if you
+use my link below, you'll get 10% off,
+bringing it down to $179.
+Check it out in the link in the
+description. And my thanks to GenSpark
+for sponsoring today's video. Moving on.
+I mean, I would definitely call this a
+landmark moment for AI filmmaking, as
+Gossip Goblin, who I'm sure most of you
+are aware of, uh if not, links down
+below, definitely go check out his
+stuff, has a feature-length film coming
+out. And more than that, it will be a
+theatrical release. And uh look, we're
+not going to go too deep into the Gossip
+Goblin backstory, but very quickly, if
+you are not aware, Zach London is the
+guy behind Gossip Goblin. He was
+recently called the George Lucas of AI
+filmmaking by the Hollywood Reporter.
+All right, all right, sure. Does that
+also mean that he's going to go back and
+revise all of his previous work like 300
+times? I don't think so. But obviously
+GG does have a pretty rabid cult
+following. So, look, it makes sense in
+this current age of like Curry Barker's
+obsession and Markiplier's Iron Lung,
+that if you're going to back an AI
+filmmaker with YouTube pedigree for
+theatrical release, well, I mean, Gossip
+Goblin is the smart play. I haven't gone
+too deep in researching how distribution
+is actually going to roll out. Uh if
+you're interested, I've actually become
+pals with Fable's Edward Sachi, who is
+producing the film. So, possibly as we
+get closer to release, if you guys are
+interested, uh we can have him on to
+discuss that aspect of it. In the
+meantime, I would highly recommend going
+and checking out the half an hour short
+film Pomegranate that Gossip Goblin just
+released. You don't need to know
+anything in advance. It works as its own
+standalone. It is very good. And from a
+technical standpoint, I think you know,
+I think an interesting game that viewers
+of this channel might be interested in
+playing is that as you're watching it,
+don't count the moments where you clock
+that something is like AI generated.
+Instead, take note of when you don't see
+it. Because the final tally on that
+number is much more interesting. And to
+that, I am sure that you are curious to
+see how Zach and the team pull all this
+off. Well, as a quick run-through, we
+actually do have a lot of good
+information on this from two sources.
+First, friend of the channel PJ A's had
+a deep dive interview with Zach where
+they went over workflow. And secondly,
+again, friend of the channel Chris
+Branches AI live show just did an
+interview with him yesterday. PJ's deep
+dive is from about two months ago, which
+practically makes it ancient. That said,
+I mean, I think that there's still
+plenty to mine from. For one, Gossip
+Goblin begins generation in Midjourney.
+Uh specifically, not just the straight
+vanilla Midjourney, but instead
+utilizing and honing in on a number of
+personalization and Sref codes.
+Interestingly, at the time of this deep
+dive, again, two months ago, Zach was
+focusing in on Midjourney version 7 as
+opposed to 8.1. I do not know if that's
+changed since then. But the key takeaway
+here is that nothing begins in Nano
+Banana. Rather, Midjourney is the
+generator, Nano Banana is the Photoshop
+and manipulation. The other interesting
+aspect is that there is no
+multi-referencing or omni-referencing in
+his video generations. They are all
+first-frame image-to-video. Now, the
+reason that Zach goes with first-frame
+image-to-video as opposed to using multi
+or omni references is that essentially,
+he wants to maintain camera control. I
+do have to admit, I mean, I kind I
+really do sort of agree with him there.
+I do feel like in some ways, a lot of
+the omni and multi models are kind of
+making us a little bit lazy.
+Interestingly, because they're not using
+omni-refer like multi-referencing video
+generation, There isn't like one master
+character sheet for their characters.
+Instead, they're like modularly putting
+these characters into the scene. So,
+where what I take that to mean is that
+there's probably a, you know, a one
+image for the front of the character,
+one image for the side, one image for
+the back, and then utilizing that for
+each location and pasting, you know,
+having Nano Banana like basically comp
+those in. So, for the previous Gossip
+Goblin film, The Patchwork, which PJ was
+covering here, Kling did all of the
+animations there. But if you check out
+Pomegranate, there's definitely that's
+definitely C Dance. So, I think it might
+be interesting if you haven't seen it to
+go check it out considering that it was
+made in Kling, again an old model, just
+to see like where you clock it at and if
+that takes it you out of the film at
+all. I don't think it will. More tips in
+PJ's article, which will be linked down
+below. Ultimately, I do encourage you to
+sit down and watch Pomegranate in its
+full 30-minute glory on the biggest TV
+you have. Not your computer screen and
+for sure not on your phone. Watch it
+like where you watch movies and TV shows
+and just enjoy it. It's really good. And
+obviously between, you know, the Gossip
+Goblin theatrical release news and of
+course the recent Neil Blomkamp like
+film release, a lot of interesting big
+movements are happening in AI
+filmmaking. And just as an admin note,
+we just shared a bunch of Gossip Goblin
+tips there and I'll be sharing more of
+my tips in an upcoming live webinar with
+Teachable's AI Academy. It's free to
+attend live and well, it'd be awesome if
+you could make it. The link is down in
+the description. I do hope to see you
+there. In the meantime, I thank you for
+watching. My name is Tim.
+>> You didn't put me in this video. People
+get mad when I'm not in the video.
+>> [sighs]

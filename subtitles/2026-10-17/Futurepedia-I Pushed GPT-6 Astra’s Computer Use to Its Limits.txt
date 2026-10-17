@@ -1,0 +1,600 @@
+UP主：Futurepedia
+标题：I Pushed GPT-6 Astra’s Computer Use to Its Limits
+链接：https://www.youtube.com/watch?v=2hTtpFVZE5A
+
+I've been using GPT6 Astra since it came
+out, and there's one area where it feels
+like a much bigger leap than everything
+else, computer use. So, I tested it
+across 10 different apps, from editing
+in Premiere and building a thumbnail in
+Photoshop to 3D modeling, designing
+Lego, and even actually playing and
+recording instruments in GarageBand. AI
+models have been able to click around on
+your computer for a while, but they've
+been pretty slow and unreliable. Astra
+is the first one I've used where I can
+give it a real task in software that I
+actually use and just let it work.
+I'm going to start out with asking it to
+create an animation in Google Earth
+Studio. So, I tested a range of really
+popular softwares and much lesser known
+ones. This is kind of the middle ground,
+so I think it's a good place to start.
+So, here's my prompt. It's basically
+just saying I want an animation that
+starts off at the Utah State Capital,
+flies through downtown Salt Lake, then
+travels across Utah to Arches National
+Park, and flies directly through
+Delicate Arch, then turns around to look
+back at it as it pulls away. So, a
+fairly complex animation. And this is
+Delicate Arch. If you don't know, Arches
+is an awesome place I've been to a bunch
+of times. Actually, highly recommend it.
+In this case, I pulled up Google Earth
+Studio in Codeex's built-in browser. All
+of these demos will be using codecs in
+the chat GBT desktop app. And I'll show
+one using the inapp browser, then a
+separate browser, and with just some
+software pulled up right on my computer.
+It works the same across all of them.
+You'll see codeex's cursor, the one with
+the glow around it, actually clicking
+around, typing, dragging things,
+operating the software in the way that a
+person would. I'm going to speed all of
+these up after the fact and show it
+working as a time lapse. And with Google
+Earth Studio, I've used this before and
+it actually took a long time to learn
+and make my first custom animation in.
+You set key frames for the location and
+the camera. Then you can adjust the
+easing curves between them to control
+exactly how the camera speeds up, slows
+down, rotates, and moves around. It's
+really fun, but since I've only used it
+maybe five times total, it takes a long
+time whenever I want to make something
+in it. Its first pass came back in 11
+minutes and 49 seconds. It was a really
+solid base, but the animation is pretty
+slow. And there are a couple other small
+issues like the angle it's pointing when
+traveling across Utah and it sort of
+like wobbles around as it's finding the
+arch. So, I'm going to just point out
+what I want it to fix and send it off
+again. In total, I ended up doing three
+follow-ups, which were a total of about
+23 more minutes on top of that first 11
+to get this final result. So, I'm going
+to play that all the way through.
+The final animation is basically
+perfect. I think in the future if I
+spent a little more time on my original
+prompt and was more specific, that could
+have been almost there on the first try.
+Then I'd probably do little bits of
+fine-tuning myself. I think that's
+probably the best balance of time
+saving. So that's exactly what I'll do
+the next time I need to use this. Send
+the prompt, work on something else, then
+touch it up at the end.
+I'm going to switch up for just a second
+and show what was actually the first
+test I did with this. It was just for
+fun. Then I'm going to jump into all the
+Adobe products I tested that are more
+practical. And this computer use is a
+very specific feature in ChachiPT that
+I'm covering. But there's already so
+many other ways you can use it to get
+ahead in your career or business. So
+down in the description, I have a free
+resource bundle called five essential
+resources for using Chat GBT at work. It
+covers all the capabilities, use cases,
+and best practices for implementing chat
+GBT, including what's new in 2026. My
+favorite part is the document called 100
+ways to try chatbt today. It has 100
+prompts across a wide range of use cases
+you can just copy and paste. It's one of
+the most helpful prompt databases on top
+of all the other stuff that's in there.
+That is all free. Just click the link in
+the description. I pulled up the draw
+canvas in Canva and I said sketch
+something from your mind. Don't try to
+recreate anything you've seen. Come up
+with an interesting idea and draw it
+there. And this one was in a separate
+browser, not the inapp browser. The
+first one took under four minutes. It
+called it the wandering greenhouse, and
+I thought that was too simple, so I
+asked it to make something new, but far
+more complex. Then it spent 7 minutes
+and 14 seconds creating the clockwork
+nightkeeper. This one was pretty cool,
+but still not as far as I wanted it to
+go. So I said, make it way more complex
+with color all throughout. This time it
+spent much more time and added a lot of
+colors and smaller details. It spent 20
+minutes 47 seconds creating the
+chromatic caravan, which is much closer
+to the level of complexity I was hoping
+for. I thought that was pretty
+impressive and fun. Although, I think
+it's kind of funny that in all three
+examples, it was basically an animal
+with some sort of structure or city on
+it. And I also asked it to turn that
+into a realistic photo. Pretty solid.
+Next, I tested it across three Adobe
+products that I use to see where it
+could save time. Photoshop, Premiere,
+and Illustrator. Starting in Photoshop,
+I uploaded three photos of me it could
+select from to use. Then said it needs
+to create a thumbnail from scratch using
+Photoshop for this video about computer
+use. I said it can look through the
+previous chats we have in this project
+to see what will be in the video. Then
+on my photo, it will need to remove the
+background. I asked it to change my
+shirt color to match whatever it makes.
+Also to generate individual assets on a
+transparent background to use. And then
+also to add some text and maybe add some
+effects to me to make me pop more. I
+gave it basically creative freedom
+beyond those things to convey the
+concept of the video however it feels is
+best. I think this may be a pretty
+helpful way for me to do this in the
+future. Normally when I use AI for
+thumbnails, I have it generate
+individual assets and sometimes help me
+figure out the composition. Then I
+manually assemble everything in
+Photoshop. So here I'm basically trying
+to hand that middle step over to codeex
+while still ending up with a normal
+layered Photoshop file that I can tweak
+myself. But it took 25 minutes and came
+back like this, which is a decent start.
+Then I asked for a couple changes and it
+spent another 14 minutes. Then one more
+follow-up for 20 minutes and this is the
+final result. It does have all the
+layers to test out different things on
+the computer screen, which I think is
+actually pretty impressive. if it could
+scale that down and adjust the angle to
+actually fit on the laptop screen
+properly. So, I'm going to use this
+thumbnail that it made as the actual
+thumbnail for this video. And that was a
+total of about an hour. And
+realistically, I could have done the
+process faster myself. But the part
+that's really cool with this is I was
+actually downstairs playing with my kids
+while it was working. When it finished,
+I use remote control on my phone so I
+get the notification when it's done and
+it has the picture right there. So, I
+just review it and send a quick
+follow-up to ask for those changes. I
+didn't even have to go up to my computer
+or anything. So yeah, an hour sounds
+slow if I'm sitting there waiting for
+it, but I wasn't. Anytime I have Codex
+do something, even if I am still at my
+computer, it's on a separate monitor.
+It's always working in the background.
+Since Photoshop worked well, let's take
+a look at Premiere. I'm asking for a
+couple things. I wanted to add text
+behind me as I say GPT image 2.5. This
+was the intro from my last video. And
+also later, I wanted to add a popup and
+wobble animation to the images I have on
+the timeline. And I placed the images
+there, but they're not properly sized or
+anything. I just dropped them in. And
+I'm not asking it to edit my whole video
+from scratch. There's definitely
+possibilities for that. I have a
+workflow that can do a ton of the first
+parts, like getting rid of pauses and
+repeat phrases and that sort of thing
+already. That stuff's been pretty easy
+for a while, but I want to see if it can
+do little animations and things that are
+harder to automate. Figuring out a way
+it can help with intros or animations
+would be awesome, especially since I
+don't need a ton of them or really
+anything that complex. So, it may
+actually be able to help me out a lot.
+The first pass came back in 12 minutes.
+I asked for a minor change to the text,
+but then I also pulled up a project that
+has a bunch of sound effects in it and
+said to search through and find some
+that fit this sequence. And I'm just
+going to let it choose.
+Then, after another 13 minutes, it's
+done. So, let's take a look at the final
+result. ChatGPT image 2.5 just launched
+and after testing it across a huge range
+of challenges, I think this is the best
+image model right now for a lot of
+realworld use cases. That looks great.
+Like I could do this myself, but
+manually key framing all these little
+animations and syncing the sound
+effects, that's some of that tedious
+stuff I want to hand off. And there are
+plugins and presets you can get to make
+these types of animations really fast.
+But still, that was pretty good. And I
+think I'll be able to find certain tasks
+I can delegate to this.
+Now, with Illustrator, I have a more
+complex challenge for it. I wanted to
+recreate this graphic from scratch. I
+said I want it as a clean vector
+illustration, and I asked it to build it
+using proper shapes and paths rather
+than the image trace feature they have.
+And you may have noticed in this prompt
+and most of the other prompts I've used,
+I say things like, "Do not use code,
+scripts, APIs, MCPS, and things like
+that." That's just to force it to use
+the computer use feature. In
+Illustrator, if you just ask Astra to
+make something, it will use
+Illustrator's Python API to generate or
+modify the scene programmatically. So,
+it's not like moving the mouse on the
+screen to do things. It does that same
+thing using Python in Blender by
+default, too, which I'll demo later. And
+other apps have similar ways for Astra
+to bypass the interface and manipulate
+things more directly. If you're wanting
+it to do something for you, definitely
+just let it use whichever option it's
+best or fastest at. But I'm specifically
+testing computer use in this video. So,
+I blocked all that and am forcing it to
+use the interface. I did also run the
+exact same challenge after without those
+restrictions. And I will show you how
+those compared in a minute. So, this
+first pass it goes through ends up
+taking a total of 40 minutes. So, it
+worked for a really long time. And the
+final result is not good at all. So, I
+did tell it to work until it's perfect.
+uh goes off for another 52 minutes. I
+have this which still has a long way to
+go. I could send it off for another
+couple hours and maybe get close, but it
+definitely would not get all the way
+there. Like I mentioned, I also sent the
+same prompt, but without restricting it
+to computer use. So, it used Python and
+got a better result on the first try and
+significantly faster. Just 20 minutes to
+get here. I asked it to fix it up more.
+Another 10 minutes and it got this. Then
+I sent it for another 15 to get this.
+Now I have both of the final results
+pulled up now. This was the computer use
+version which is pretty bad. Then the
+Python version is definitely better but
+still not at all like the original it
+was trying to recreate. Areas like the
+clouds and glasses are way better. But
+it added all sorts of detail in the fur
+it didn't need to. Just over complicated
+it. So for a complex Illustrator project
+like this, codecs using either of these
+paths probably isn't especially useful,
+but it probably would be for simpler
+projects.
+Now, I'm going to quickly go through a
+few fun ones I tested out. These were
+recommendations from ChatGpt for what I
+should test it on. I hadn't used any of
+these softwares before. First was to use
+a Lego designer. I decided to ask it to
+design Delicate Arch using BrickLink
+Studio. This is the platform. You can
+select all these different pieces and
+design things. Then you'd be able to
+order real Lego pieces to build it right
+through here. My screen recording failed
+on this one. So, I don't have the time
+lapse, but this is the result on the
+first try. This looks awesome. I mean,
+I'd say it nailed that. It ended up
+using 257 pieces, and it even organized
+the model into 27 assembly steps. So,
+theoretically, I could actually order
+the pieces and try to build it.
+Although, I assume some of the fun is in
+actually designing it yourself. But that
+was a interesting test. Next was Open
+Rocket, which is I guess a platform
+where you can design rockets then
+simulate them in different scenarios.
+Since I'm not really familiar with the
+platform, I just ran a prompt that
+ChatGBT gave me. Then at the end, I
+realized there's not a nice visual
+payoff. You just click the button to run
+the simulation and it tells you if it
+passed or not. But the goal was for it
+to design a stable rocket that could
+reach at least 1,000 meters and recover
+safely. It ran the simulations, iterated
+on the design, and eventually passed
+both constraints, which for me to check
+that I just click this button, and it
+tells me right away that it passed. The
+next was this platform called Algadoo,
+which you can use to build sort of Rube
+Goldberg style interactions. So, I had
+it build with the prompt shap gave, and
+it made one with five interactions,
+which seemed pretty easy.
+So, I told it to make a much more
+complex one, and it built this.
+Honestly, I've never used this, but that
+still doesn't seem like it would be that
+hard to build. It did accomplish the
+task, though.
+Now, on to Blender. This is the one I've
+seen the most examples with on Twitter,
+and it is very impressive, but I also
+feel like it gets pretty misrepresented.
+So, I sent off a prompt asking it to
+recreate Delicate Arch in Blender. And
+again, I'm forcing it to use computer
+use here. I'll run it separately,
+allowing it to use Python, and show both
+results in a minute.
+This first result after 15 minutes is
+not very good. So, I told it that and
+sent it off to work on it some more. And
+I want to point out that I could have
+automated this iteration, too. Astra can
+visually critique its own result and
+keep working until it reaches whatever
+quality bar you give it either directly
+in the prompt or using goals or loops. I
+didn't do that for two reasons. First
+was because I wanted to inspect each
+pass myself just to be more in the loop
+on how good it is. Also because if you
+loop it on something that it's not very
+good at, it can end up spending all day
+working towards it. Usually, it's good
+to limit it to a certain number of
+iterations so it doesn't eat up a crazy
+amount of tokens if it's not able to
+meet the criteria you set. So, that's
+just something to experiment with
+depending on what you're using it for.
+This time it pulled up the browser to
+compare against some real images. Smart.
+Then, it's off modifying it some more.
+The first one was so bad it just
+rebuilds the arch completely. Then, I
+think it's pretty cool to see it pull up
+the node system to work with the
+textures and colors and all of that.
+Then, it keeps working. Eventually, it
+takes a picture of it to analyze, then
+gets back to work some more. It adds
+some features and texture, then ends up
+working harder on the scenery around it.
+That came back after around 50 minutes,
+and it was much better than before. But
+I sent it off again, told it to make it
+perfect, and it works for a long time.
+And I will point out this isn't an easy
+thing to make. You know, it's an
+irregular asymmetric organic shape
+rather than something built from like
+clean mechanical geometry. It's
+definitely not a beginner level job. So,
+that final result does look pretty good.
+And I also ran that same challenge again
+without forcing computer use and let
+Astra use Blender's Python API. This is
+that result. It's clearly better. And it
+also got there in about half the time,
+about 54 minutes instead of roughly an
+hour and 45 minutes from the computer
+use version. So yeah, if I actually
+needed something made in Blender, I
+would definitely let it use Python. And
+in general with any of these softwares,
+I would ask it to choose whichever
+method it thinks will get it the best
+results fastest. And this was letting it
+run for a little while. But I've seen
+lots of other examples online where
+people send it off for much longer than
+this on more complex things. And it
+definitely is amazing. But I've also
+gotten a little annoyed with how some
+people portray this. Almost like Blender
+is solved now. It may be able to do some
+stuff faster than a person would. and is
+certainly better than me who has only
+used it a few times. But from my very
+non-expert perspective, this feels
+closer to competent intermediate user
+maybe. If you look at the really complex
+stuff people can make in Blender, even
+the best Aster examples I've seen are
+not even close. But who knows where this
+will be in another year.
+Now, for this final one, I wanted to see
+if it could create a song using
+GarageBand. In particular, I didn't want
+to use the computer version because
+that's more like a standard DAW where
+you're mostly arranging and editing
+notes on a timeline. On the phone
+version, you can actually pull up the
+instruments and like tap to play the
+drums
+or like play the notes on the guitar.
+I thought that would be a much more
+interesting challenge. So, I used iPhone
+mirroring where it pulls up my phone on
+the computer, then you can interact with
+it there. And I already had it do one
+song where I asked it to have drums,
+acoustic guitar, a cool baseline, and a
+catchy piano melody. It sounded good,
+but it was a little simple. So now I'm
+asking it to make something much more
+complex, but it can choose whatever
+instruments it wants. I'm hoping this
+one will be cooler. So this is Codeex
+actually clicking around on the drum
+set. And you might notice it's not
+perfectly synced up with the metronome.
+It's really close to the right tempo,
+but it can't actually hear the metronome
+in real time. I discovered this in the
+previous version and asked about it. It
+calculates the time between beats based
+off the BPM and then schedules the
+screen presses. So, it's the right
+tempo, just not perfectly on the beat.
+So, I just told it about the
+quantization setting GarageBand has,
+which is where it will like bump the
+note to the proper spot automatically.
+Another thing is on the phone, you can
+use multiple fingers at a time to play
+drums. So you can hit the high hat at
+the same time as the bass drum or snare,
+which you'll usually want on a drum
+track, but it seems like it can only tap
+in one place at a time. All right. And
+it actually ended up deleting that track
+and realized it can make a fuller sound
+if it does multiple drum tracks. So it
+can fix the issue of not being able to
+hit more than one thing at a time. Yeah,
+that's really smart. That's always
+amazing to see when it discovers a
+problem, then comes up with a solution
+and changes course to implement it
+without me saying anything. But I'll let
+it do its thing here. I do like that it
+figured out you can make a rimshot sound
+when you tap the edge of the snare drum.
+So I can watch the snare right here and
+see how there's two different sounds
+when it hits the different parts
+right there. That's super cool. It
+figured that out. Okay, I finished the
+second drum track. So it's switching to
+a new instrument. It's going with bass
+next.
+And yeah, I don't know that I really
+like that bass sound it's going with,
+but I will let it work and see what it
+has in mind. It's finished with bass and
+is starting up a keyboard track. It's
+selecting a different sound, a synth
+bass.
+And I like that one. It's much fuller
+than the other bass. I think the issue
+it had is it doesn't seem like it can
+hold down notes like you can when
+actually using the app. You can hold
+down your finger and it holds out the
+note, but I think it can only like
+click. That's actually a pretty big
+limitation. But its solution was to use
+the sustain and click that on and off
+along the way. The sustain holds the
+note out. Then it clicks it off to end
+it. Yeah, it's coming up with some smart
+ways to make this work. Right here, it's
+working on another keyboard track with a
+different sound. This time it's holding
+out multiple notes with the sustain
+before it turns it off, then plays out
+the next chord. Now it's working on a
+melody with this new sound. It's
+probably getting pretty close if it's
+playing the melody. Now it's just going
+in and adjusting individual track
+volumes and EQs. So, it should be just
+about done. Right. I finished the song
+in 52 minutes. Recorded a total of seven
+tracks. I'll open that up and let's see
+what Neon Switchback sounds like.
+>> [music]
+[music]
+>> That's not the best song in the world,
+but I do think that's actually insane it
+was able to do that by actually playing
+each individual instrument. I'm sure I
+could use a much more specific prompt
+with the genre, instruments, tempo, and
+all sorts of stuff to get a more
+interesting result. I wanted to show a
+broad range of use cases. So, I was
+just, you know, prompting for something
+that came to mind. But if you go deep
+with the thing that will actually help
+you in your workflow, then iterate over
+time as you find out what you like or
+don't like and what it's good or bad at,
+you can get far better results with any
+one of these use cases or whatever use
+cases apply to you. I'd say another big
+takeaway from all of this is Astra isn't
+better than someone who has spent years
+mastering Blender, Photoshop, Premiere,
+or any of these tools yet, but it
+doesn't have to be. In software I barely
+know, like Google Earth Studio, it got
+me all the way to a result I would use.
+And in software I know really well, like
+Premiere or Photoshop, it can take some
+of the tedious setup and boring steps
+off my plate, then hand everything back
+to me in a form I can keep editing.
+Either way, this has been a ton of fun,
+and I think it's incredibly impressive
+how far computer use has come. All the
+previous models I've tested felt nowhere
+near this reliable, so this was huge. I
+hope you find some helpful ways you can
+use this and I'll see you in the next

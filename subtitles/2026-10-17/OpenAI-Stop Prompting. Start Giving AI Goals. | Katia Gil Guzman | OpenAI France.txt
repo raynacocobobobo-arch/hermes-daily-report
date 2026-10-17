@@ -1,0 +1,43 @@
+UP主：OpenAI
+标题：Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France
+链接：https://www.youtube.com/watch?v=1fL_lwsdMd4
+
+You don't even need your prompt models
+anymore. You should just tell them like
+this is what I'm doing. Figure it out
+and it will.
+I work with developers globally. My role
+is really to help them leverage our
+technology. It used to be, you know,
+just developers, but now it's actually
+all builders. It's really interesting
+because now everyone can be a builder.
+Things are changing so fast. Just seeing
+everything that's happened just these
+past weeks is insane. And now we have
+all of these things coming to the EU as
+well. Also seeing our customers, Verso,
+I know them pretty well and when I see
+the way they build a company around
+Codex, it's so inspiring to see and I
+hope this gives ideas to everyone.
+I love builder communities in general
+because I think they're the most
+innovative people that I get to talk to.
+Like they're the early adopters. And in
+France in particular, I've been amazed
+the way they're leveraging all of these
+uh agents is uh super advanced.
+So I think one thing that we shared uh
+today and we talk to we talk about it a
+lot in general is uh slash goal. You
+know, you're changing from just
+prompting Codex to do stuff for you to
+giving it a goal and you just let it
+decide. Now you don't need to think
+about how it's going to do it. You just
+know and you can trust that it's going
+to do it regardless of what it uses. And
+our models now are very like high
+agency, so they will do whatever it
+takes to achieve a goal.
