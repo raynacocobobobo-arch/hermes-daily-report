@@ -1,0 +1,573 @@
+UP主：AI Engineer
+标题：How OpenAI Built ChatGPT for Bankers and Analysts — Joseph Kim, OpenAI
+链接：https://www.youtube.com/watch?v=opHmX7qClzE
+
+[music]
+>> Hi everyone. I'm Joseph Kim and I lead
+ChatGPT for financial services, a new
+product we launched just 1 month ago.
+Many of you have already experienced how
+tools like Codex have changed the way
+you build in software engineering.
+AI has become a much bigger part of the
+work you do every day.
+Model is continuing to improve at an
+incredible pace.
+But many people working in industries
+like finance haven't yet experienced
+that same change in their day-to-day
+work.
+I expect that to start changing rapidly
+over the next few months.
+And builders like all of you in this
+room have a big role in making that
+happen quickly.
+Taking the intelligence in these models
+and turning that into products that
+people can use in their daily work.
+Today, I will share a little bit about
+what we learned building ChatGPT for
+financial services and how we're
+thinking about what comes next.
+I'll start by showing you what we've
+built including a quick demo.
+Then I'll explain why we built it and
+why we think now is the right time to
+build.
+From there, I'll walk you through how we
+built it with some technical lessons
+that I hope you can apply to your own
+products.
+Finally,
+we'll take a look at where models are
+headed and products are going and what
+that could mean for financial work over
+the next year.
+Let's start with what we built.
+ChatGPT for financial services is a
+tailored version of ChatGPT work built
+specifically for financial professionals
+starting with investment banking and
+equity research.
+It's designed to help people at the
+large financial institutions get more
+out of their day-to-day work similar to
+how Codex speeds you up in software
+development.
+As we built the product with our design
+partners Morgan Stanley and Evercore, we
+focused on three core areas.
+First, financial data.
+Financial data is a foundation of
+financial work, and the work you can do
+is limited by the quality of your
+sources.
+We wanted people to have access to the
+data they need directly within Chat GPT.
+Second, an interface built for finance.
+We wanted the product to feel familiar
+to financial professionals with ways to
+inspect source material, explore
+financial charts, and control the
+sources behind an analysis.
+Third, your firm's format.
+Financial work happens within the
+context of an organization, and the
+models and presentations people produce
+need to follow their firm's format and
+standards.
+We made it easier to create those
+artifacts using firm-specific templates.
+But they say a picture's worth a
+thousand words, so I'll stop talking for
+a bit and show you the product.
+>> [music]
+[music]
+[music]
+>> Wonderful. Now, I'd like to take some
+time to talk about why we built it.
+We built ChatGPT for financial services
+to help close what we call the
+capability overhang.
+As you can see here, model capabilities
+have improved at a tremendous rate over
+the last few years.
+In just a few years, we've gone from
+models solving high school math problems
+to systems capable of solving millennial
+prize math problems.
+But, the value people get from these
+models in their day-to-day work hasn't
+kept pace.
+You read about the breakthroughs in the
+news, yet for many financial
+professionals, the way they work hasn't
+changed nearly as quickly.
+We call that gap the capability
+overhang, the distance between what the
+model is capable of, and the value
+people can actually get from it.
+Closing that gap takes more than
+building a capable model.
+People need the right data and tools,
+and and they need an experience that
+fits the way they work.
+That's where builders like you come in.
+I want to show you an example of how
+much of a difference a right product
+experience can make.
+This is a chart that shows how Codex
+usage grew within OpenAI across
+different job functions.
+As you can see, engineers started using
+Codex early, and that share grew
+steadily.
+But, look at finance, legal, and
+recruiting.
+At the beginning of 2026, almost none of
+their AI output was generated in Codex.
+By June, that share was around 90%.
+If you look carefully, you'll notice a
+huge inflection point that happened
+around February-March of this year.
+I went back to see what happened around
+this time, assuming that we must have
+released a new model, but instead I
+found that we had released the Codex
+desktop app in February.
+My takeaway is that the product made it
+easier for people outside of engineering
+to put these capabilities to work.
+That's the opportunity we're pursuing in
+finance. Building an experience that
+helps financial professionals get much
+more value from the intelligence already
+available to them.
+Now, let me talk about how we built it.
+Let's start with data.
+In finance, the work you can do is
+limited by the quality of the
+information you have access to.
+So, we wanted the product to come with
+the sources professionals rely on, from
+financial statements and earning
+transcripts to market and private
+company data.
+We looked at existing MCP connectors for
+financial data and found that many had
+issues with latency, errors, or search
+quality.
+So, we went and licensed a lot of this
+data directly and built our own hosting
+and search indices using the same
+infrastructure as our web index.
+We still use the MCP protocol to give
+the model access to the data, but
+hosting and indexing it ourselves gives
+us more control over the quality and the
+reliability of the experience.
+It also gives us the flexibility to post
+train our models to work with these data
+sets.
+The analogy I like to use is MCP and
+skills are like handing an instruction
+manual to a junior analyst versus post
+training, where the model's like having
+a senior analyst who's been working with
+the data for over two decades and knows
+all of its quirks like the back of their
+hand.
+MCP and skills give the model access and
+instructions. Post training can help it
+develop more familiarity with the data
+itself.
+Once we had that data foundation in
+place, the next step was making it easy
+to turn that information to professional
+grade work.
+For financial professionals, that work
+often takes the form of an Excel model,
+a PowerPoint presentation, or written
+analysis that needs to be reviewed and
+shared with other people.
+So, we focus on helping the model
+produce those outputs in a way that fits
+the firm's existing workflows.
+We built a template system that gives
+users access to the firm's approved
+templates when generating spreadsheets
+and presentations.
+The goal is to reduce the work someone
+has to do to get an output ready for
+their team or clients.
+We also added things like interactive
+financial charts, so users can explore
+stock prices and financial metrics
+directly within ChatGPT as they work
+through an analysis.
+And we built citation viewers that let
+people inspect the source passages and
+tables in behind an answer. In finance,
+you need to be able to check where a
+number came from and understand the
+context around it.
+We wanted that review to be a natural
+part of the experience.
+These are the kind of product details
+that help turn a model's capabilities
+into work that someone can use.
+The part I think that is most relevant
+for people in the room is how we built
+it.
+Much of the functionality you just saw
+was built using the same ChatGPT plugin
+platform that's available to you as
+developers.
+For financial data, we used MCP tools
+and connectors to give the model access
+to the information it needs.
+We use citation metadata and MCP apps
+let users inspect the sources, and MCP
+apps also power interactive financial
+charts.
+We use skills together with shared
+artifact tools to guide what financial
+workflows and produce Excel models and
+PowerPoint presentations.
+And for financial onboarding, we
+leveraged the native
+plugin onboarding experience.
+What that means for builders is you
+could is that you can focus on the
+expertise that makes your product
+valuable. If you have unique data, an
+existing tool, or a deep understanding
+of a particular workflow, you can use
+these building blocks to bring that into
+ChatGPT and create an experience around
+it.
+Financial services is just one example,
+but I do think this this opportunity
+expands far beyond finance.
+I personally believe that we're going to
+see multiple $1 billion businesses built
+simply as ChatGPT plugins.
+And that opportunity will keep evolving
+as the models become more capable.
+Last but not least, I'd like to spend
+the rest of the talk on what comes next
+and what that means for the products we
+should be building today.
+I'd like to start by talking about model
+capabilities and expectations for the
+future.
+Models are improving so quickly that it
+can be difficult to get an intuitive
+sense of what comes next.
+One useful way to build that intuition
+is to look backwards.
+Something remarkable about the last
+couple of years is how predictable parts
+of that progress have been.
+Model improvements have come from three
+broad, sometimes overlapping drivers.
+Scaling compute, improving algorithms,
+and something we call unhobbling, which
+is about finding ways to get more useful
+work out of the models.
+We'll come back to unhobbling on a on a
+later slide.
+In 2002 and 2003, the most visible
+driver was pre-training, which meant
+scaling compute by making the models
+bigger and adding more data.
+By leveraging scaling laws, researchers
+were able to predict model at
+performance with high accuracy.
+For example, before GPT-4 finished
+training, OpenAI researchers were able
+to predict its final loss, as well as
+its performance on a coding eval.
+Improvements on the algorithm side have
+also been surprisingly steady.
+One study found that the compute needed
+to reach a given level of language model
+performance from scratch fell by roughly
+half every eight months.
+Although you can't predict the timing of
+each individual breakthrough, the
+cumulative rate of of improvement
+follows a surprisingly steady trend.
+In 2024 and 2025, reasoning became
+another major driver of progress. We
+used reinforcement learning and
+post-training to teach models to work
+through problems more effectively, and
+we gave them more compute to think when
+answering.
+That opened up another way to improve
+performance alongside pre-training.
+However, for folks that don't know, at
+OpenAI, we ran into problems with
+pre-training and therefore had
+difficulty scaling the model.
+In 2026, we've been able to solve many
+of these issues, and we've successfully
+trained larger and more capable models,
+as you've seen through GPT-5 Soul and
+GPT-6 Astra.
+Throughout these years, researchers have
+raised concerns about potential barriers
+to further scaling.
+For example, in 2024, many researchers
+were concerned about a potential data
+wall, where we would run out of
+human-generated text to train on.
+But techniques like synthetic data
+generation, learning from verifiable
+rewards, as well as algorithmic
+improvements to learn more from each
+individual token, have essentially
+solved this problem.
+We've also solved concerns around things
+like context window length using things
+like sparse attention and compaction.
+Looking ahead to 2027, I strongly
+believe that the trend lines of the past
+will continue and that we'll train
+larger, more efficient, and more capable
+models.
+We clearly still have very difficult
+problems to solve, especially around
+things like alignment and safety, but
+like we have in the past, I believe that
+human ingenuity, increasingly assisted
+by capable models, will help us make
+progress on those problems, too.
+So, how good will models be at the end
+of 2027?
+Let's use math as an example.
+In 2023, GPT-4 scored 700 out of 800 on
+SAT high school math.
+By 2005, an OpenAI model reached gold
+medal status on the International Math
+Mathematical Olympiad.
+And in 20 In early 2026, an internal
+model disproved a long-standing
+conjecture related to a problem that
+mathematicians have been working on
+since 1946.
+More recently, an internal model
+proposed a solution to the Navier-Stokes
+Millennium Prize puzzle um problem, and
+we also saw shared 719 mathematical
+research manuscripts across 372 families
+of results.
+In just a few years, we've gone from a
+strong score in a high school math exam
+to AI systems producing original
+research at the frontier of mathematics.
+If we see another year of progress
+roughly in line with what we've been
+seeing over the past couple years, I
+expect that by end of 2027, models will
+outperform even leading human experts on
+a growing range of difficult tasks
+across different fields and specialties.
+Mathematics gives us an early glimpse of
+what that could look like.
+And while the capability curve may look
+gradual, the change in how we work can
+feel sudden. I call this the threshold
+phenomenon.
+For any given task, there's a threshold
+of usefulness, the point where a model
+becomes capable and reliable enough to
+save you time.
+That threshold depends on the work
+you're doing and how much checking or
+human review it requires.
+Below that threshold, improvements can
+be hard to appreciate. The model might
+produce better answers, make fewer
+mistakes, or get further through a task.
+But if checking and fixing its work
+still takes as long as doing it
+yourself, your practical assessment
+hasn't changed. It's still not useful.
+Meaningful improvements in capability
+can feel like like little progress.
+Then the model crosses that threshold.
+Suddenly, it produces something you can
+use. The time you spend reviewing it
+becomes much smaller than the time it
+saves you. You start using it regularly,
+and eventually you become comfortable
+delegating that task. That transition
+can feel like an enormous leap, even if
+the underlying improvement was similar
+to the previous few improvements. What
+changed is the progress became useful to
+you.
+This helps explain why model progress
+sometimes feels sudden, even when parts
+of the underlying trend have been steady
+and predictable. And because difficult
+tasks have different thresholds, we
+should expect those moments to arrive at
+different times across the work that we
+do.
+So, as you think about the products
+you're building, I'd encourage you to
+ask yourself, what model capabilities am
+I under appreciating today because they
+aren't quite useful yet?
+Where might those capabilities be a year
+from now?
+Then think about what you would build if
+those capabilities crossed the threshold
+of usefulness and became reliable enough
+to delegate.
+How would the interface change?
+What would the user still need to
+control, review, or approve?
+Those are product and design questions
+we can start working on now.
+We want to have the right experiences
+ready so that when the models cross that
+threshold, people can take advantage of
+the capabilities right away, and so you
+can stay one step ahead of your
+competitors.
+So, what does this mean for finance?
+I think there are two forces that will
+push more financial work across that
+threshold of usefulness. I think of them
+as a rising tide and the waves on top.
+The rising tide is the underlying
+improvements to the underlying model.
+Historically, we haven't dedicated a
+significant amount of training time or
+compute specifically to finance.
+Much of the financial capabilities you
+see today have come from building
+larger, more capable models, and from
+transferable skills developed in areas
+like mathematics, coding, and reasoning.
+As these general capabilities improved,
+they lift the performance across many
+kinds of financial work.
+The ways are what happen when we focus
+directly on finance.
+My team is leading an effort to invest
+significantly more in finance specific
+post training. The idea here is to build
+on those broad capabilities and train
+the model more directly on the work
+people do in finance. That can create
+peaks in performance on particular tasks
+on top of the rising tide.
+Over the next 3 months, we'll focus on
+improving general financial reasoning
+and the quality of the work these models
+produce, analyzing financial
+information, building Excel models, and
+creating PowerPoint presentations. These
+are the kinds of tasks that make up a
+significant percentage of the daily work
+of a junior analyst, and we want the
+output to be accurate, well-structured,
+and increasingly useful in real
+workflows.
+Beyond that, we plan to invest more in
+the kinds of judgment that senior
+bankers, analysts, and investors bring
+to more difficult questions.
+This includes taking in large amounts of
+information, deciding what matters, and
+essentially trying to predict the
+future. Forecasting a company's
+earnings, assessing where commodity
+prices might go, or evaluating which
+businesses are attractive investments.
+Our goal is for models to match the the
+performance of the best human experts on
+these types of financial tasks sometime
+in 2027.
+We expect that progress to come from
+both forces working together. The
+underlying model continuing to improve,
+and our team training it more directly
+for the work people do in finance.
+We talked about how models are becoming
+more capable and how we can train them
+to perform better on specific tasks, but
+I want to come back to one third driver
+I mentioned earlier, unhobbling.
+We've already seen few examples. Chat
+GPT used RLHF to teach models to follow
+instructions and have conversations with
+us.
+Tools allow them to search for
+information, write and run code, and
+interact with the software we use. Each
+of these makes the model more useful in
+the real world.
+I think of the next form of unhollowing
+will be proactive and persistent agents.
+Today a lot of our interactions with AI
+still happen when we open a conversation
+and tell it what to do next. A
+persistent agent can hold on to a goal,
+remember the relevant context, and
+continue working in the background. Once
+you've given it a direction, it can make
+progress even when you aren't actively
+prompting it.
+The other reason persistence matters is
+it changes the API or the way people
+work with the agent. Today getting the
+most out of AI agents requires learning
+a new workflow, learning how to prompt
+it, and learning how to use it to tools.
+A persistent agent can work in a way
+that's more familiar. You can give it a
+project, share context, and ask for an
+update.
+It's much more similar to how humans
+work with other humans, and therefore
+makes the AI more accessible to people
+um that don't develop those initial
+skills.
+Let me close with three bets for finance
+in 2027.
+These are just a couple of my
+expectations for what comes as the
+models improve.
+First, people will rely rarely, if ever,
+on Excel and PowerPoint to make
+financial models or pitch decks.
+Second, AI financial analysts will start
+to feel like human coworkers. They'll
+remember your preferences and context
+from the previous days, take ownership
+of assignments, proactively follow up,
+and keep working when you're focused on
+something else.
+Third, models will start to outperform
+the best human experts on critical
+financial tasks. That includes things
+like forecasting earnings and developing
+investment ideas. I expect models to
+become better than the best people at
+making these economically important
+forward-looking judgments.
+Those are my three bets for 2027. And if
+this is where we expect to be in 2027,
+I'll leave you with one last question.
+What would What should you start
+building today to be ready for
+inevitable thresholds that the models
+will cross tomorrow?
+Thank you.
+>> [applause]

@@ -1,0 +1,356 @@
+UP主：Curious Refuge
+标题：I Tested AI Agents Against a Real AI Artist
+链接：https://www.youtube.com/watch?v=aVVxF88J2co
+
+If you put a human against an AI bot,
+who's more creative? Well, that's what
+this video is all about. Over the last
+year, just about every creative platform
+has had their own version of an AI agent
+that can automate the creative process.
+Now, generally speaking, most of these
+agents have been absolutely terrible.
+They were so bad that back over the
+summer, we said we would give $200 to
+anybody that could give us an AI agent
+workflow that was actually helpful. And
+we tested all of them. Ultimately, not a
+single workflow was actually that
+helpful. But things have changed over
+the last month. We now have AI agents at
+the frontier level inside of tools like
+ChatGBT and Claude that have the ability
+to take over your computer and use data
+connectors to pull off creative task
+from start to finish. These higher level
+agents are really good and we've already
+created some content talking about the
+creative possibilities. But the big
+question is how does this actually stack
+up against the same type of work that
+you would expect from a professional
+artist? So that brings us to this video.
+So, inside of this video, we're going to
+be testing three distinct things. The
+very first test is what does a human do
+whenever they are tasked with a specific
+assignment. The second is what does an
+applicationbased agent do whenever you
+give it the exact same instructions. So,
+inside of this test, we're going to be
+using Luma's agent, but it could of
+course be any agent across any creative
+application. Just about every single one
+of them has an agent built in. And the
+third test is going to use chat GPT
+Astra to create the exact same project.
+So for these examples, we're going to be
+creating an advertisement for Converse.
+Essentially, we want to create a 30-
+secondond shot, and we even have a
+creative brief here that goes into more
+information about what the overall
+advertisement should be like. I should
+note that this creative brief is a bit
+more general. There's not a ton of
+specific information, but it does talk
+about the target audience, what we hope
+to achieve, but it leaves a lot of room
+for interpretation, which is what we're
+looking for from this very first test.
+So, first things first, let's take a
+look at the human created advertisement.
+So, for the human test, we actually have
+this incredible project created by
+Louise Sanchez inside our Curious Refuge
+community. We do member builds where we
+challenge people to do various creative
+tasks. And over this last month, we did
+an advertising competition. It was super
+fun. And this was the project that he
+put together with the same brief.
+Credencio Cruz has never fallen from
+anything
+in 65 years [cheering]
+until tonight.
+Born standing, raised on fences, never
+came down. Every legend meets the wrong
+pair of shoes. But he went back to the
+original. Same wire, different soul.
+Credencio has never fallen, not even
+tonight.
+>> Okay, so fantastic concept. I really
+like the generations. The execution was
+really solid. And while there are
+certain parts of it that I definitely
+would want to refine, like let's say the
+voice over and some of the artifacting
+that is visible inside of the
+advertisement, I do think it does a good
+job and it's a fantastic base for going
+in and creating something that I think
+would resonate with a potential
+audience. Now, let's take a look at the
+same thing inside of Luma. So, when you
+are on the Luma website, you'll see a
+chatbot in the bottom right corner. And
+in there, we uploaded that PDF that I
+talked about with the creative brief and
+an image of the shoes. And we said,
+"Here are the instructions. Create the
+advertisement." The entire process took
+about 15 minutes and $14 to accomplish.
+And inside of Luma, it created key
+frames for different shots. It also
+created the videos and then ultimately
+edited everything together. I should
+note that Luma flagged that some of the
+audio actually got blocked for whatever
+reason. And so it ran into a bit of a
+snag there, but it was able to work
+around and ultimately create the 30
+secondond ad. So let's take a look at
+this ad.
+[music]
+[music]
+>> [music]
+>> Uh yeah. Okay. Uh that's that's not
+good. That's not good. It is impressive
+that it did it automatically, but that's
+definitely not the Converse logo. I
+don't really know what's going on there.
+And there's so many just kind of weird
+shots. It just feels like a strange
+montage. And I should note that uh this
+person is going to haunt me in my
+nightmares tonight. Uh that is uh kind
+of terrifying.
+[laughter and gasps] So Luma absolutely
+did not pass this test. But what about
+chat GPT Astra? If we go outside of an
+application-based AI agent environment,
+can it actually create something that is
+somewhat interesting? To use chat GPT
+Astra, all you have to do is go to chat
+GPT and then select the work tab. It
+works best if you're running in the
+application version of chat GBT. And
+we'll paste in the prompt. Basically, we
+want it to create the ad based on the
+uploaded PDF. And then, of course, we
+can bring in the PDF, but that could
+also be any sort of supporting assets,
+images, anything in between. It's
+[music] entirely up to you. Now, for the
+model, we will turn this to chat GPT
+Astra. And for this one, we will do
+extra high effort and go ahead and hit
+render. Now, I'll skip to the end. The
+entire process took about 17 minutes to
+pull off. And we used the runway
+connector inside of ChatGpt so that it
+could create the videos and it didn't
+have to log into an application. It just
+depends on what you have connected to
+your version of chat GPT. Now, Astra
+absolutely has the ability to hop into
+video editing applications on your
+computer like Adobe Premiere Pro or Da
+Vinci Resolve. It also has the ability
+to edit videos automatically using
+JavaScript, which is pretty crazy. It's
+interesting because you don't really
+have eyes on what it's doing, but it
+still is able to pull off the final
+result. Now, let's take a look at this
+advertisement from Chat GBT.
+[music]
+[music]
+>> [music]
+[music]
+>> Okay. It's kind of cool. Like, I like
+the music choice. I feel like it's
+appropriate for the overall vibe of the
+advertisement. There's definitely
+inconsistencies in the product, and
+ultimately, conceptually, it's very
+plain and basic. It absolutely knocked
+it out of the park compared to Luma, but
+you can really feel that the actual
+human authored advertisement just has a
+concept that emotionally resonates
+better. So, I would say that Chat GBT
+did an okay job. It did not do a
+creative job at pulling off the task.
+Now, in terms of overall time and cost
+inside of ChatGpt, the entire process
+took about 17 minutes and 22 seconds,
+and it cost us about $12 in runway
+credits along with around $8 to render
+using Astra for a grand total of $20.
+So, I would say that that $20 in this
+test was basically vaporized. But if you
+wanted to create a few different mood
+films or just get some general concepts
+for what you potentially could work on,
+it could make sense, especially if you
+had a larger advertising budget. But for
+all intents and purposes, the actual
+human authored project was so much
+better. But that brings us to the next
+test. For our next test, we wanted to go
+a little further down the creative
+process. Essentially, we want to assume
+that you now have a script and a concept
+for the commercial that you want to pull
+off. And for our commercial, we're going
+to be using Louise's commercial as a
+baseline. So, essentially, we want to
+create a commercial that feels very
+similar to the one that Louise put
+together along with the voice over, the
+shots, and really just the overall
+blocking and compare the result to what
+we get from these AI agents. So again,
+this was the project from Luis.
+>> Credencio [music]
+Cruz has never fallen from [snorts]
+anything
+in 65 years
+until tonight.
+Born standing, raised on fences, never
+came down. Every legend meets the wrong
+pair of shoes. But he went back to the
+original. Same wire, different soul.
+Credencio has never fallen, not even
+tonight.
+>> Again, love that ad. I think he did a
+really good job. And for this test, we
+broke down the entire advertisement into
+blocks where we have the voice over.
+We're describing what we want to see.
+Essentially, this is the exact direction
+that we're looking for to pull off the
+advertisement that Louise put together.
+We put that into Luma and after about 14
+minutes, it spit out this project.
+Fore.
+Uh, yeah, you're right. That was
+Mandarin Chinese. We have no idea why it
+did that. We prompted for English voice
+over and it went Mandarin Chinese
+consistently throughout the entire
+generation. So I I don't really know
+what happened there. There are some
+things that I like. You can definitely
+tell that from a creative direction
+perspective, especially because we had
+more information about what we wanted to
+see and it was less room for
+interpretation. It is cooler, but
+there's still things that are just very
+weird. Like the tightroppe at the very
+beginning is like a T-shape, which
+doesn't make any sense. The actual
+product falls apart throughout the
+entire thing, so it's not really usable
+in an advertising capacity. And I should
+note that it cost us $1127
+to pull that off inside of Luma. But
+let's take a look at ChatGBT and see
+what it was able to do. The entire
+process took about 17 minutes to pull
+off and cost us $13 in runway credits
+along with about $10 in chat GBT
+credits. And that gave us this.
+>> Prodencio Cruz has never fallen from
+anything in 65 years.
+Until tonight,
+born standing, raised on fences, never
+came down. Every legend beats the wrong
+pair of shoes. But he went back to the
+original.
+Same wire, different soul. Predencio has
+never fallen. [music]
+Not even tonight. [laughter]
+>> I love the wrestler voice over. I don't
+know why it chose that one, but uh
+fantastic creative direction there. Uh
+chat GPT. [laughter]
+Okay, so that is better. Again, that is
+better than Luma Labs, but I would still
+say kind of unusable. Maybe there are a
+couple shots in there, but ultimately
+the entire thing does just come across
+as very AI generated. From the actual
+quality of the generations to just some
+of the weird blocking and pacing in the
+advertisement, I think that it did not
+do ultimately the best job, especially
+given that we literally had the time
+code that we wanted to see from the
+generations. So, with all of that, what
+is the ultimate conclusion of this
+video? The first is applicationbased AI
+agents are terrible across the board.
+We're not trying to single out Luma
+here. They ultimately are not very good
+on any platform. If someone's saying
+that they're good, they're usually
+getting paid from that company to say
+that. So ultimately, application-based
+AI agents not very good. Second, I think
+the more frontier models show the most
+promise. These are the models that have
+the ability to open up the internet,
+perform actions on your computer, and
+then ultimately write scripts and do all
+sorts of crazy things directly on the
+machine or ultimately in the cloud. And
+they have the ability to access the
+world's knowledge in the process. Those
+types of models, whether they're coming
+from Claude or ChatGpt or in my opinion,
+the new Google announcement is going to
+be absolutely transformative in this
+way. I think those models are the
+future. And at this time, I think the
+best application for those tools is to
+perform routine tasks that require very
+little creativity. So, if it's
+organizing data on your computer or
+putting together a very quick and dirty
+rough cut, I think those are some of the
+more interesting applications for these
+AI agents. But you can learn more about
+that in the previous video that we put
+out. And the third and final takeaway is
+the very best projects come from humans
+that have really good taste. And that's
+why you see a lot of people that thrive
+in this new AI era have a background in
+creativity and an understanding of the
+latest tools and technology. Now, if you
+want to learn the latest AI workflows
+from the world's home for AI
+storytelling, I highly recommend
+checking out our courses over at Curious
+Refuge. Our courses not only give you
+up-to-date training on the latest AI
+filmm, advertising, and creative
+concepts, but we have so many
+interesting ways in which you can level
+up your career. From one-on-one coaching
+with a creative expert to member onlyly
+events where you can get your technical
+questions answered, there are so many
+amazing things happening in the Curious
+Refuge community and we would love to
+have you inside. Thank you so much for
+watching this video. If you've done some
+tests with AI agents yourself, be sure
+to let us know in the comments. And if
+you have ideas for future videos, let us
+know in the comments as well. Be sure to
+like and subscribe, and I'll see you in
+the next one.

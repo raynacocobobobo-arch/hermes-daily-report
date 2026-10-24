@@ -1,0 +1,602 @@
+UP主：Curious Refuge
+标题：How Much of Filmmaking Can AI Agents Actually Do?
+链接：https://www.youtube.com/watch?v=JWEAmLHp7Sg
+
+It's no secret that AI has completely
+changed the way that we approach our
+film projects. But perhaps one
+innovation more than all the others has
+had the entire online world talking over
+the last few months. And that big
+innovation is frontier level AI agents
+that have the ability to take over your
+computer and perform creative task on
+your behalf. That may seem kind of
+nerdy, but the big value proposition is
+that you can use AI tools to do the
+repetitive and boring parts of the
+creative process so that you can focus
+on refining the details, directing, and
+focusing on the parts that you love
+doing. So, in this video, we're going to
+be taking these AI agents and putting
+them to the test. I'm going to take
+ChatGPT Astra, which is one of the more
+popular AI agent tools, and put it to
+the task. I'm going to give it an actual
+film project and see what it can pull
+off and how much it cost. And by the end
+of this video, you'll have an
+understanding of the amount of time and
+the actual cost to pull off these
+creative task. There's a ton of really
+fascinating insights. I can't wait to
+show them. Let's get to it. Hello and
+welcome to Curious Refuge. My name's
+Caleb. Welcome to the channel. Be sure
+to like and subscribe. We're the world's
+home for AI storytellers. In fact, I
+just learned this last week that our
+students have over 172 nominations
+across major awards like the Emmys and
+Oscars. It's really cool to be
+surrounded by so many talented
+filmmakers who are leaning into the
+technology. If you want to be a part,
+you can find a link below this video,
+but absolutely no pressure. So, let's
+get to it. So, let me set the stage here
+for what our overall task is going to be
+like inside of this video. So, first
+things first, we have a scene. So, we
+had a script. We had a storyboard that
+we worked off of. We have different
+characters. The first character is Adam
+on our team. He's the bad guy inside of
+the scene. We have this character sheet
+of me that we created with GPT 2.5. And
+then we have a character sheet of
+Shelby, my wife and co-founder of
+Curious Refuge. So, we created an entire
+scene that takes place inside of this
+bar. Basically, you will see me and
+Shelby talking about some sort of
+information that got out and Adam is
+tracking us and we got to get out of the
+bar. Now, to pull that off, we created
+individual shots like you would if you
+were working on an AI film project. So,
+we have just a bunch of different shots
+here. We have the wide shot, we have the
+close-up of Shelby delivering her line.
+But of course, you could use live-action
+footage with different takes in the
+exact same way. All of the processes
+that I'm going to show you inside of
+this video would work for live-action
+footage. So, first things first, let's
+see if we can organize this project in a
+way that makes sense using Astra. So,
+let's start from the top here. We have
+those raw files which are moderately
+organized but not deeply organized. And
+let's say that we want everything
+brought into a video editing timeline
+and everything put into the correct bins
+and labeled correctly so that we can
+then get into the process of editing the
+film together. Well, in order to use
+Astra here and I should note that you do
+have the ability to use Claude as well.
+You don't exclusively have to use
+ChatGPT Astra. I'm just utilizing it for
+the sake of this demo. So, at the top
+here, I'm under the work tab. You can
+see we are in the Astra model here. But
+basically, we are going to ask Astra to
+organize our entire project inside Adobe
+Premiere Pro. And this is actually going
+to take over our machine. This isn't an
+MCP connecting to data in the cloud. It
+physically is going to take over the
+machine to pull off the action. But it
+also has the ability to jump back and
+forth depending on what is most
+efficient. So, let's go ahead and click
+render. Now, I'm not going to just sit
+here and watch the time-lapse because
+frankly, that would be very boring. But
+you should know it took 15 minutes to
+pull off this action. Let's hop into
+Premiere and see what we get. So, first
+things first, you'll see that we have
+three different folders here broken up
+depending on what the media type is. So,
+in the first folder here, you can see we
+have folders broken down based on the
+shot. So, for example, you can see we
+have our master wide shot here for shot
+number three, and then we can go to the
+same angle for shot number six, and we
+also have shot number five here. But, if
+we go to the other folders, for example,
+this one labeled Caleb for letter and
+reactions, it's basically a folder that
+has all of the close-ups of me. And the
+same is true for the other folders
+inside. Now, if you have specific
+requests for the way in which you want
+your folder structure organized, you
+can, of course, include that in the
+prompt. Now, the thing I should note is
+ChatGPT Astra does not actually have the
+ability to listen and watch the video at
+the same time. It has to separate the
+audio and then watch the individual
+frames. It's a bit of a quirk, and I
+imagine that that won't be the case
+going forward into the future, but it is
+just a quirk that we have right now.
+Now, you'll also see that it broke up
+images and references into subfolders
+here along with the storyboard that
+we're working off of, and then we also
+have our dialogue and audio in a
+separate folder. Okay, so all things
+considered, I actually think it did an
+okay job. Maybe you would go in and want
+to change just a few things based on
+your own personal preference, but the
+entire process took about 24 minutes
+with about 15 minutes of active time.
+For whatever reason, the computer
+sometimes just sat there thinking for
+extended amounts of time. I'm not
+entirely sure why, but overall, it cost
+us about $15 to pull off the
+organization here. So, all things
+considered, I think the ROI is about in
+line with what you would expect in a
+professional context. So, in this case,
+ChatGPT Astra did a very good job. But,
+the The test is actually much more
+interesting. I want to see if this AI
+tool actually has the ability to
+generate a rough cut that makes sense.
+It's one thing to organize a bunch of
+files using data because these are
+computers after all, that makes sense as
+to why it would do a pretty good job.
+It's another thing to creatively put
+things together in a way that makes
+sense. So for the next test again, we're
+back inside of Astra and I said, "You're
+an editor on a film project, build a
+rough cut from the scene." And I went
+into a bit more information about what I
+want to see from the edit. It's exactly
+like if you were working with an actual
+editor to edit everything together.
+There's always just slight things that
+you'll want to see from the output and
+so we wanted to test to see how it did
+at interpreting those instructions. And
+when you're ready, you can hit generate.
+So this entire process took about 26
+minutes and 14 seconds to pull off and
+the overall cost was about $18. So that
+equates to about $40 an hour to pull off
+the edit, which is much less than what
+someone who is a deep experienced
+narrative film editor would more than
+likely charge, but it is close to in
+line with what you would expect somebody
+to make who is on the utility side of
+video editing. But all of that is
+secondary to how good of an edit did it
+actually do. So this is the actual rough
+cut that we got from GPT Astra inside
+Premiere Pro.
+>> And he still hasn't noticed.
+>> [laughter]
+>> He never does.
+>> This came for me by the way, it's your
+handwriting.
+>> I haven't written anything.
+Is this some kind of joke?
+>> This isn't a joke. He's coming in any
+second. We need to go now.
+>> This isn't funny. How did you fake my
+hand writing?
+>> The pacing is definitely off, but it is
+a rough cut. Like it's a rough version,
+and there wasn't a shot that I think was
+deeply out of place there. It's just
+that the overall trimming I think can be
+refined. So, if we hop into the edit
+here, what's really interesting is you
+can see that there are some advanced
+video editing techniques on display. So,
+we have a single track of audio here,
+and we have different cuts that are
+perfectly synced up so that the lips
+match. What's interesting is it took
+those individual clips, synced up the
+audio, and then deleted the audio from
+one of the clips so that it didn't
+duplicate. What's also wildly
+fascinating is the fact that it went in
+and put in editorial notes about why the
+AI tool decided to make some of the
+choices that it did on your project. So,
+on the Curious Refuge side, our team
+took that rough cut, hopped in, and made
+some slight changes, and here's what the
+final scene felt like whenever a human
+went in and polished it up.
+>> And he still hasn't noticed.
+>> [laughter]
+>> He never does.
+>> This came for me, by the way. It's your
+handwriting.
+>> I haven't written anything.
+Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> This isn't funny. How [clears throat]
+did you fake my handwriting?
+>> And you get the idea. The pacing really
+helps to reinforce what the narrative is
+all about, but that rough cut was
+actually pretty helpful. Now, again,
+that entire process took 26 minutes and
+about $18 to pull off, which is a little
+expensive, but you also don't run into
+any of the problems with sending off
+files, and that is 26 minutes that was
+instantly available to you. You didn't
+have to work around any other schedules
+or things like that. So, the return on
+investment there is close. I don't think
+we're quite there just yet, but we are
+very close, and it's really fascinating.
+The world of video editing is absolutely
+going to be changing over the next 12
+months. So, the next thing I wanted to
+test out is a visual effects workflow.
+So, we have this shot here of Adam
+busting down the door, and he walks
+inside, and you can see he's holding a
+gun there.
+But, let's say that for whatever reason,
+we felt like the gun was a bit
+heavy-handed, and we wanted to remove it
+from the scene. Well, now we have a
+visual effects solve that we need to
+figure out. There's a lot of different
+ways that you could approach this, but
+let's use Adobe After Effects to pull
+this off. So, we typed in the prompt
+inside of Astra. Again, you can find a
+link to these below this video, and we
+asked it to use the content-aware fill
+along with other tools inside After
+Effects to remove the gun from the
+scene, and we hit render. Now, this one
+actually took a long time, and it was
+really interesting because it did all
+sorts of really wild things, like
+creating a grid that it could work off
+of. It also created checkpoints that it
+could reference off itself, and
+ultimately, it automated the process,
+and it took about 43 minutes to pull
+this off inside of After Effects, which
+I am pretty skilled at After Effects,
+and that is faster than what it would
+take me if I was hopping into the
+software. What was also really
+fascinating from this test is it only
+cost about $5 to pull off. So, I don't
+know why more time did not equate to
+more money, but it has something to do
+with the credits here. But, all of that
+does not mean anything if the result
+does not look good. So, let's take a
+look at what we got after Astra put
+together this visual effects shot in
+After Effects. Again, this is the
+starting video.
+And this is the video with the gun
+removed.
+>> [laughter]
+>> Did you catch that? Did you see the
+hand? It looks like his hand is made of
+porcelain or something like that.
+It technically motion tracked, but man,
+it is not very realistic. I think it did
+a much better job on the ground, but the
+hand is just not realistic. It's very
+cartoonish. Now, of course, we had to
+test this against just utilizing C Dance
+and prompting for the exact same visual
+effects off. So, I hopped over to
+Magnific and selected C Dance 2.5 and we
+uploaded the video as a reference asset,
+and then we kept it super simple. I
+said, "Remove the gun from the man's
+hand and the shadow, but keep everything
+else the exact same. We're in 1080 at 8
+seconds long and I turned the sound off.
+And let's go ahead and hit generate. So,
+for this one, it cost about $8, but then
+we got this.
+And so, yeah, it did a much, much better
+job. Again, for a lot of visual effects
+problems now, you can just go to C Dance
+directly and you don't really need to
+use an AI agent to pull it off. But for
+the sake of this video, I would say that
+ChatGPT Astra got a one out of 10.
+What's so funny is whenever you're
+utilizing visual effects or motion
+graphics inside of tools like Adobe
+After Effects, it seems like a lot of
+these AI tools really, really struggle,
+which is just kind of fascinating. Okay,
+so we have our rough cut inside Adobe
+Premiere Pro. Now, let's do some color
+grading. I'm curious if AI agents can do
+a good job at color grading, cuz I've
+seen a lot of viral projects online
+recently that say, "Oh my gosh, it does
+an amazing job." Let's find out for
+ourselves. So, I have a quick little
+prompt here where I said, "You are a
+colorist on a film project. Here's our
+project and I want you to hop in and
+give it some color grading in the style
+of The Godfather. Of course, you can use
+reference footage or stylistic frames to
+push the generations in a specific color
+grading style. We're doing Godfather
+color grading just for the sake of this
+example. And we also gave it a link to a
+website that has just a bunch of stills
+from the film to get an idea of what the
+overall color grading can feel like. And
+I should note, we also did the same
+thing in the style of La La Land. So,
+after about 30 minutes, it was able to
+pull off both color grading styles
+inside Adobe Premiere Pro and it also
+gave us two different projects. Now, of
+course, one of the big problems is if
+you're editing an AI project, there's a
+good chance that you're only getting
+8-bit color, which makes it really hard
+to grade in the first place. That's a
+separate conversation. We'll talk about
+more tools that allow you to have more
+color space inside of your AI videos in
+an upcoming video. So, here's the
+project inside Adobe Premiere Pro graded
+to look like The Godfather. Let's take a
+look at the result.
+>> And he still hasn't noticed.
+>> [laughter]
+>> He never does.
+>> This came for me, by the way. It's your
+handwriting.
+>> I haven't written anything.
+Is this some kind of joke?
+>> Okay, so you get the idea. The color
+grading, I would say, is better and it
+did push it a little closer to what you
+would expect to get from The Godfather,
+but you're also dealing with just a lot
+of factors that would make it a little
+challenging to push it to be exactly
+like the original film. Number one, the
+lighting and overall style is completely
+different, which would make color
+grading very challenging. And number
+two, you don't have all of the same
+depth that you would have if you were
+actually working on a professional
+project. It does an okay job and I would
+say if you're not experienced with
+color, this is a great place to start.
+But it's not going to do a final pixel
+quality pass. But that's kind of the
+theme of the video so far. Now we also
+did a version in the style of La La Land
+and that gave us this.
+>> And he still hasn't noticed.
+>> [laughter]
+>> He never does.
+>> This came for me by the way. It's your
+handwriting.
+>> I haven't written anything.
+Is this some kind of joke?
+>> Okay, so again there some things that I
+like and you can tell that it's really
+pushing into that blue atmospheric style
+that you see inside of La La Land. But
+overall, it's not exactly that
+Technicolor idealistic style of grading
+that we got from La La Land again
+because of a lot of the limitations that
+we've talked about up to this point. So
+it did again an okay job, but not a
+great job inside Adobe Premiere Pro. The
+entire color grading process for both
+scenes cost us about $30 total. So the
+next test that I want to take a look at
+is adding in a music score and sound
+effects to the scene. So we gave Astra
+the project file and asked it to go over
+to 11 Labs to create the music and sound
+effects and went ahead and hit render.
+Now this one was fascinating because it
+actually took the longest out of all of
+the test. It took an hour and 44 minutes
+to pull this off. But what's so
+interesting is our computer just kind of
+sat there for a big portion of the time
+just kind of in an idle window. So I'm
+not entirely sure what it was doing.
+Maybe it was thinking in the background.
+Maybe it thought it was waiting on 11
+Labs for some of the outputs, but 11
+Labs was really quick. So I'm not
+entirely sure what was happening there.
+Now the entire process cost us about
+$5.20,
+but let's watch the scene now and listen
+for the sound design to see how it did.
+>> And he still hasn't noticed.
+>> [laughter]
+>> He never does.
+>> This came for me, by the way. It's your
+handwriting.
+>> I haven't written anything.
+Is this some kind of joke?
+>> He's coming in any second. We need to go
+now.
+>> This isn't funny. How did you fake my
+handwriting?
+>> Okay. So, yeah, it did not do a great
+job. What I do like though is it did
+pull some rough sound effects that we
+can work off of there. The timing is
+terrible. You absolutely would need to
+go in by hand and adjust this. Not to
+mention, I simply wouldn't pick some of
+these sound effects for the scene, but
+it did generate all of them
+automatically including that background
+tone that you hear. And what's also
+fascinating here in the timeline is it
+took each sound effect and put it
+basically in an entire track on its own.
+So, we now have 12 different tracks with
+each individual sound effect, which
+would not be ideal if you're working on
+a film project. So, again, an okay rough
+cut, but you absolutely would need to go
+in and adjust things as it makes sense.
+Now, the final thing I wanted to test
+was distribution. Can AI actually create
+thumbnails and marketing assets
+automatically? So, we typed in a prompt
+and said, "You are handling marketing
+materials for this film. We want three
+posters in 16 by 9, three posters in 9
+by 16, and oh yeah, why don't you go
+ahead and create a teaser for the film?"
+And after about 25 minutes, we got our
+results. So, first things first, we have
+a couple posters here. We have our tall
+version and our wide version. I would
+not say that these are good, but maybe
+they're okay for like a creative jumping
+off point. And what's also fascinating
+is it also added in a title for the
+film, which we did not prompt for. It
+just decided that the film should be
+called Your Handwriting, which I think
+is hilarious. We also have this poster
+here, which I don't know, it's kind of
+fun, I guess. We have the 16 by 9
+version, too, which I kind of dig the
+layout on this one. I do think there
+needs to be a lot of work with the
+actual type on screen, and maybe you
+could adjust the realism of the
+characters, but the overall composition
+is not too shabby. And then finally, we
+have this one here with Adam at the
+door. And yeah, I think this one's
+pretty cool, too. What's also
+interesting is it also gave us a
+breakdown of what prompts it used to
+actually pull these off. Now, what was
+fascinating about this process is while
+we were waiting inside Adobe Premiere
+Pro for the tool to actually pull off
+the teaser, it also opened up Adobe
+Photoshop and was using some scripts
+back and forth to pull off some creative
+processes that we still don't fully
+understand. I don't know exactly what it
+was doing inside of Photoshop, but it
+was using the bridge between both
+softwares to actually create the teaser.
+And speaking of teaser, I should note
+that it did not give us a very good
+teaser. It basically just created the
+entire scene and then put a little title
+card at the end. So, that would
+absolutely not work on a professional
+project. So again, that entire process
+took about 25 minutes and $3.25.
+So with all of this being said, the big
+question is what is the role of AI
+agents in a filmmaking workflow today?
+And the truth is, I think there are a
+few things that are interesting.
+Ultimately, from all of these
+experiments, it took roughly 4 hours and
+$77.38.
+And in the end, we got a project file
+with an organized structure. We got a
+rough cut, a hilariously bad visual
+effect shot. We had two color graded
+scenes. We had some rough sound effects
+added to the timeline, and then we had
+some poster variants with basically an
+unusable teaser trailer. Is that worth
+$77?
+Perhaps, but probably not inside your
+day-to-day workflow today. But But I
+talk about on this channel all the time,
+this is the worst version of this that
+will ever exist. And all of the
+processes that I've shown you today will
+more than likely be optimized using AI
+tools in the near future. What does that
+mean for you as a creative professional?
+Well, it is more essential than ever
+before to really refine how you
+communicate the creative outputs that
+you're looking for. If you have the
+ability to take a project that was
+created roughly using artificial
+intelligence and then use your
+background and skills to refine it to
+where it feels professional and awesome,
+you are going to be very much in high
+demand. Now, if you want to learn more
+about the process of creating AI films,
+I highly recommend checking out our
+membership over at Curious Refuge. Our
+training is used by artists at every
+major studio, and we would love to have
+you inside our community. We have
+everything from a huge catalog of
+training material that is updated on a
+regular basis, all the way to one-on-one
+coaching where you can get career advice
+on how to best position yourself in this
+new era of creativity. If you want to
+learn more, you can click the button
+below this video. Thank you so much for
+watching this one. Again, be sure to
+like and subscribe if you want more
+tutorials and AI news directly here on
+the platform. And as always, if you have
+any ideas for a future video, be sure to
+let us know in the comments. Thank you
+so much for watching, and I will see you
+in the next one.

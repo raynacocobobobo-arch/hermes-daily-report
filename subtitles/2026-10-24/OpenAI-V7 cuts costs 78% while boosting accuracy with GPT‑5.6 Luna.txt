@@ -1,0 +1,59 @@
+UP主：OpenAI
+标题：V7 cuts costs 78% while boosting accuracy with GPT‑5.6 Luna
+链接：https://www.youtube.com/watch?v=20IRGgQwPkc
+
+With GPT 5.6 we seen huge improvements
+in the build out of enterprise workflows
+with a B7 Go.
+A few months ago the models couldn't
+really understand complex processes like
+insurance underwriting or screening of
+finance deal, but the latest GPT models
+can ingest 100 pages of instructions and
+build out a workflow that can solve them
+end to end. B7 Go helps GPT models
+develop these long horizon workflows
+with citations that anchor every fact.
+>> And recently a memory system that
+remembers everything about your company.
+>> We benchmark every new model and with
+GPT 5.6 sold we noticed that tool called
+errors in our context graph benchmark
+dropped from 2.7% to just 0.2%.
+>> Yeah, the model's only half the equation
+because the other half is the platform
+where these models run on. And our
+context graph store all this information
+about entities, facts, relationships
+following an ontology that matches your
+data.
+Previously models used to make ingestion
+errors especially whether fact was worth
+remembering or not.
+>> Older models using rag would also try
+and guess unanswerable queries. With GPT
+Luna on V7 Go context graph we've seen
+hallucinations reduced by 38%.
+Visual understanding of documents is
+also getting much better.
+>> And we're seeing the same benefits in
+workflows as well. I were previously we
+took minutes to research companies
+information and then just give the user
+an output. Now we take just a few
+seconds and we don't need to re-ingest
+all the data from scratch.
+>> We're also seeing the quality of the
+output improve. So previous models used
+to generate decent investment memos, but
+they lack the depth and accuracy that
+we're seeing with the new models.
+>> Yeah, so the GPT 5.6 suite is letting us
+solve use cases that a year ago were
+impractical or even impossible.
+And combining that within a workflow
+engine and a memory system we can help
+these enterprises that are known for
+their slowness in retooling towards the
+AGI. And we're thrilled to be working
+with OpenAI towards that.

@@ -1,0 +1,38 @@
+UP主：OpenAI
+标题：How Shield uses OpenAI’s Astra to support IT teams
+链接：https://www.youtube.com/watch?v=m6MlxaFMmPI
+
+Hey, my firewall is broken. I can't
+access the internet. Can you fix it for
+me?
+[music]
+The Shield, we're building Forge. It's
+the AI operating system for IT services
+businesses. By bringing Astra and OpenAI
+models to these IT services businesses,
+we're really able to bring them to these
+small and mediumsiz businesses that
+otherwise might never have gotten a
+chance to interact with them. Our agents
+would be stuck because they couldn't
+access a particular system to go solve
+the problem. you now need to wait on a
+real technician to come in and help. The
+fact that Astra is able to allow our
+agents to just log into computers, log
+into complicated legacy portals and
+solve real issues for our customers in
+real time has completely changed the
+game. Legacy models, even if they were
+able to figure out how to click around,
+they would take much longer than Astra
+does. We've actually seen Astra be 35 to
+40% faster on average. The only time you
+need to bring in a human technician is
+if you truly need their judgment, not
+because you're blocked on access.
+tickets where AI is being used. It's so
+much faster. The customer satisfaction
+is sometimes even double uh what it used
+to be. I feel like Forge is now truly an
+extension of our human technicians.

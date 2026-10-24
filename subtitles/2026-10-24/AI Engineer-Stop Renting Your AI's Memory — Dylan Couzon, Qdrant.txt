@@ -1,0 +1,333 @@
+UP主：AI Engineer
+标题：Stop Renting Your AI's Memory — Dylan Couzon, Qdrant
+链接：https://www.youtube.com/watch?v=apyrzaWj0Z4
+
+Hi everyone, thank you for joining me
+today. I hope everyone is having a great
+conference so far. Um, so my name is
+Dylan Kuzan. I am a developer relations
+engineer at Quadrant. And the title of
+my talk today is the frontier is coming
+home. So what do I mean by that? And
+somewhere in the next few years,
+something smarter than all of us is
+going to exist. We've spent years asking
+when, but I think when is kind of the
+boring question. I think the real one is
+who it belongs to because there are two
+versions of this. In one, super
+intelligence lives in someone else's
+data center and you pay by the token. In
+the other, it's yours. It learns from
+your life. your context stays private
+and nobody can switch it off, throttle
+it or take it away from you. That second
+version is what I want to talk about
+today. That's the frontier coming home.
+Quick thought experiments. What would
+you build if your assistants actually
+remembered everything you ever taught
+it? Every preference, every correction,
+every dead end for years. That's not a
+chatbot any anymore. That's a second
+mind. But the the assistant you're using
+right now forgets almost all of it the
+second the conversation ends. Every
+session starts from zero. We call these
+things intelligence. And they are
+they're just geniuses with no long-term
+memory.
+This talk is about fixing that. Not with
+a bigger prompt with actual memory.
+That genius used to only exist behind
+someone's API in a data center you never
+see. Now it runs on a on hardware that
+most of us own. Not the absolute
+frontier, I'm going to be honest, but
+shockingly close. A machine under $2,500
+today can run what was basically
+last year's frontier. And open weights
+models are closing on fast. The gap is
+shrinking every quarter.
+You'd expect this to feel like a
+landmark uh the frontier on your desk
+for the price of a laptop and yet it
+doesn't quite land because a model on
+its own is just a brilliant stranger.
+It's powerful. It's but it it isn't
+yours. What make what makes it yours is
+everything it knows about you and that
+part hasn't come home yet.
+So you can run a frontier class model on
+your own hardware today and yet look at
+the AI stack that most of us are using
+today. The compute is rented, the models
+is rented, the harness is rented and the
+part that's supposed to become you, the
+thing that should compound over the
+years also rented.
+If we don't fix that, the most powerful
+technology any technology any any of us
+will ever touch ends up owned by whoever
+holds the lease, not the people it was
+built for. So let's look at what renting
+actually costs today.
+Starts where we starts with where the
+model leads because when you rent it,
+you don't really control it. This shows
+up in three different ways. Last month,
+a government order pulled access to two
+flagship models, Fable and Mythos 5 for
+every single customer. Now, compare that
+to weights you already that are already
+sitting on your desk. Nobody can reach
+into your machine and flip those off.
+Even when the model the model stays up,
+it doesn't stay put. Providers retire
+versions and they throttle what's left.
+When the economics get gets tight, the
+model you rely on can quietly get worse
+or vanish. Weights your own never change
+unless you change them.
+People also don't don't write prompts
+anymore. They run agents or loops for
+hours. And one task can burn thousands
+of times more tokens than a chat
+message. Some developers burn through
+over $5,000 a month of of compute on a
+$200 plan. That's a subsidy. And those
+subsidies will ultimately disappear.
+If you own the compute and the weights,
+the control comes back to you. But
+that's still only half the problem.
+Here's the deeper issue. Owning
+inference gives you autonomy. Nobody can
+take the model away. But only memory
+gives you continuity. And continuity is
+exactly what every major lab is trying
+to package up and sell back to you. Look
+at last year. Every Frontier Lab shipped
+a memory feature, not because the models
+got smarter, but because they don't
+carry anything between sessions. That
+gap is the actual product.
+A system that starts simple and keeps
+learning you will always feel smarter
+than one that starts brilliant, but
+forget everything about you. That
+compounding is where intelligence starts
+to feel personal.
+So what actually is memory? It's not a
+bigger prompt. It's a systems with three
+verbs. Write, retrieve, and forget.
+Same three things your brain actually
+does. And you know, there's an obvious
+push back. Why not just throw everything
+in a big folder of markdown files. And
+because retrieving the right memory
+beats dumping everything and praying the
+model finds it. Retrieval gives you
+something a prompt cannot. It is
+control. You can filter by topic. You
+can decay by recency and frequency. You
+can let relevance shift over time. The
+way human memory actually works.
+And the infrastructure has been ready
+for years. HNSW in 2016. Um, embeddings
+have been running locally since 2019,
+long before any any model could really
+use them at scale.
+The memory side of super intelligence
+was never the hard part. We were just
+pointing it out at ourselves.
+So today, the memory that actually knows
+you lands in one of two places. Either
+it's stuck in an unindexed file you
+can't really query or it's in someone
+else's cloud. One terms one terms of
+service change away from being being
+reshaped or moved. Corp Carpathy framed
+it in a way that really stuck with me.
+It's the model is the CPU, the memory uh
+the context window is the RAM and the
+memory is the disk. RAM is fast but
+forgets forgets the moment the session
+ends. The disk is what remembers you
+across every conversation. And right
+right now for almost every AI assistant
+on on Earth, the that disk is in someone
+else's data center.
+So, you know, today I'm not going to
+argue which memory architecture wins or
+is the best one. That's definitely a
+different talk. But the disk, the parts
+that holds the actual record of you
+should be yours fully and forever.
+So, this is the piece that I work on and
+it's just one way to do it. Um, a ve I
+work on a vector search engine that
+embeds directly into your app. It opens
+look a local store inside your process.
+You write embeddings with payloads. Then
+query offline sub millisecond time.
+Same rust score as quadrant in the cloud
+just running where you are. With
+quantization, a million memories can fit
+in less than a gigabyte. Small enough to
+live on a phone or even a Raspberry Pi.
+Close the app, come back a year later,
+the memory is intact. Every app gets its
+own isolated store. And that folder is
+the thing that actually follows you.
+So, I'm going to do a quick live demo
+here. Um, so right now, um, I have a
+video recording of a drone like going
+over a house. So, basically that drone,
+it's it first time starting. It's it's
+first time out in the world. It doesn't
+know anything. And so, this this is
+actually running live right now fully
+offline on my laptop. And I'm using
+yellow which is an object detection
+model. So it detects the object and
+creates a um label for every items it
+sees here. Then we take take that
+picture, we take that label and we turn
+that into embeddings to create a live
+realtime memory for that drone. And and
+that way we can re the drone can
+remember everything it has ever seen
+before. And so here you can see a 2D
+representation of that vector space with
+all the memories inside. And memories
+that are the most similar will will be
+the closest to each other.
+So here you can see that we've already
+recognized 92 different objects and we
+have over three 300 vectors. So that's
+300 different representations of those
+90 objects. And you can see that the
+entire memory and quadrants engine uh
+footprints is only 15 megabytes.
+And then what we can do uh on those
+memory? Well, we enable um semantic
+search over those memories. So, you
+know, if I click here on the um coffee
+table, you can see that in less than one
+millisecond, I was able to pull up every
+single coffee table that this drone has
+seen before. And so, you know, we have
+the image here. We have the first sin
+time stamp. We have the last s time
+stamp. We have a definition of that
+coffee table. and and also we can see
+how many times that u table has been
+seen.
+So this is all being run and processed
+locally. There's no network attachment
+at all. Um but we also have a capability
+of uh cloud sync. So for example, you
+know, if you have like a swarm of drones
+or robots navigating the world, they can
+have like a hive mind in the in the
+cloud where I you know, one system uh
+learns something and they can all learn
+about it.
+And you know, this is what this was like
+an example for a drone, but you can
+apply that to to everything. just a
+chatbot, an agent that you call to a
+code assistant. And you know, if you
+create those memories for just a few
+weeks, the stranger just disappears. It
+remembers your corrections, your
+preferences, the dead ends you had to
+only hit once. And a model that's merely
+good, but never forgets you and keeps
+compounding over the years starts to
+feel super human in practice.
+Not because the model changed, but
+because it never stopped learning you.
+And it's portable. Swap the resulting
+model, change the hardware, none of it
+matters. It all comes with you if you
+keep the same embedding model and that
+folder becomes permanent. A lifetime of
+context fully yours moving from device
+to device.
+But we can go even further than that.
+You know, this can go way past a laptop
+or a drone. points that same memory at
+your whole day. Where did I leave my
+badge? What was her daughter's name
+again? What was on that whiteboard? And
+what what was the song that was playing
+when we met? Every one of those is just
+a a retrieval query. And you know, you
+just watched a drone remember objects.
+No, extend that to everything you see
+and everything you hear. And you know,
+that's not science fiction. Those are
+the smart glasses that are already
+shipping today and that we have seen
+today in this room. It's not a smarter
+you. It's a you that doesn't forget.
+And right now, none of those memories
+share uh none of those devices share a
+memory that you actually own. They could
+on your own terms because Frontier
+models are already building an index of
+you today. They have your relationships.
+They have your habits. They they have
+your whole inner life. That index is
+common whether you opt in or not. The
+only question is whether you own it or
+if you're renting access to yourself.
+And one last idea because owning memory
+doesn't doesn't mean keeping it to
+yourself. Edge can sync parts of your
+store to the quad quadrant cloud out of
+the box when you choose to. Picture a
+family, each wearing glasses that record
+their own day. Separate memories, but
+they can pull into a hive mind the whole
+family owns.
+Mom's day, dad's day, your day,
+searchable together. Now, scale that up.
+Instead of one company's super
+intelligence serving billions of
+identical people, you get thousands of
+small private ones, each shaped by a
+life, a family, a team.
+But that same mechanism cuts both ways.
+A memory can be shared without a memory
+share can be shared with consent or it
+can be extracted without it. That's
+exactly why it has to start local and
+why sharing should always be optin never
+the default.
+You should really decide who gets your
+continuity and your memories.
+And this is where I'm going to leave
+you. You know, every everyone here is
+going to watch super intelligence show
+up over the next few years. That's that
+part is basically settled. What's not
+settled is who it belongs to. And that's
+the fight worth having right now. While
+the AR while the architecture is still
+up for grabs. So tonight, don't go home
+and just try a tool. Take the stranger
+home and give it memory. Then picture
+that memory 5 years from now. not a
+chatbot, a private mind that never
+forgets you, that nobody can switch off,
+and that knows knows you better than any
+system ever has because you were the
+only one who ever trained it. That's not
+a that's not a smaller super
+intelligence. That's the only one worth
+wanting.
+All right, that's all for me. Thank you
+very much.
+>> [music]

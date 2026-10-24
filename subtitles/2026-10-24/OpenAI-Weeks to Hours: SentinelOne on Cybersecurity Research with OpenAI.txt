@@ -1,0 +1,27 @@
+UP主：OpenAI
+标题：Weeks to Hours: SentinelOne on Cybersecurity Research with OpenAI
+链接：https://www.youtube.com/watch?v=BOTAeAU5ExQ
+
+How much of the world of malware can I
+actually map?
+At the moment, we're only able to
+reverse a very small numbers of pieces
+of software. You can now reach human
+level capability in things like reverse
+engineering. Something that would have
+taken a top-flight researcher four
+weeks, six weeks to do, now it's doing
+at human level output in something like
+eight hours. If you find an element
+inside a piece of software that you've
+seen somewhere else and you've
+identified who owned, you know who built
+that, then you can now say, "Well, this
+is a relationship now between these two
+pieces of previously unrelated malware."
+That's a kind of intelligence that we
+were never able to afford before. But
+OpenEye is shifting the advantage to
+defenders by providing expert-level
+cyber capability to everyone in the
+development team.

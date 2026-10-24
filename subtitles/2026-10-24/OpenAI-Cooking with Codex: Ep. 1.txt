@@ -1,0 +1,340 @@
+UP主：OpenAI
+标题：Cooking with Codex: Ep. 1
+链接：https://www.youtube.com/watch?v=DQHtmW9ZlIs
+
+I think you're the only qualified cook
+in this kitchen.
+>> [laughter]
+>> Welcome to Cooked from OpenAI.
+>> doing [music] my way never did it by
+[singing] the book. Let me cook. Now let
+me
+>> I'm Danny.
+>> I'm Alex.
+>> And today we have a lot of things on the
+menu. Dots, ChatGPT spaces, and many
+other things from OpenAI Dev Day we want
+to try ourselves. [music]
+How confident are we in this recipe?
+>> They were pretty confident. I took a
+bunch of pictures of all the ingredients
+and sent them to my dot and I think he
+is on the task. So, see how this turns
+out.
+>> Speaking about dots.
+>> Dot is your always on persistent agent.
+In [music] this case, our dot has been
+running in the background, running
+interference for us for checking in
+guests, sending emails, and of course
+putting [music] this recipe together.
+Now there was another big launch at Dev
+Day and that was Codex Cloud. Codex
+Cloud [music] lets you work inside the
+cloud in your own environment that you
+and your team can fully set up and
+customize so that you can close your
+laptop.
+The other thing I'm really excited about
+is spaces. Spaces gives your dot a place
+to actually write its thoughts [music]
+and a place for you to collaborate with
+your dot. He has everything in a space
+right now that he's preparing for us and
+we're just going to have a look at the
+space, follow the steps, and see what
+happens.
+>> Before I continue cooking, a word from
+my [music] sponsors.
+>> Our sponsor.
+>> Introducing the refreshed Codex CLI. A
+new full-screen look. Keep tabs on your
+agents. Fork a conversation into a
+separate work tree. And now, talk to
+your terminal.
+>> [music]
+>> How do we cook like no sites ever cooked
+before?
+>> Oh, I love the energy. Let's invent, not
+imitate. [music]
+>> Update and keep cooking. Please consult
+your existing side projects before
+starting another.
+>> We're back and we have our sous chef
+here with us.
+>> Ooh, the chaos twins return. Welcome
+back to Cooked where Alex and Danny
+pretend they know where the ginger is.
+>> That's not very nice.
+>> That's not nice at all.
+>> It's nicer than your nice skills,
+[music] but not by much. Let's make this
+>> Hey, hey, hey.
+Can you just walk us through this recipe
+for today?
+>> We don't know how to cook.
+>> Okay, chef. Resetting. Let's identify
+those [music] decanted seasonings.
+>> What's this one? You want to pass it to
+me? I think this is paprika.
+All right. I checked out the seasoning.
+That is definitely chili.
+>> Okay, excellent. Get those eggs
+simmering about 11 to 12 minutes. We'll
+ice them after. Chop two garlic cloves.
+We'll warm garlic and ginger in a touch
+of oil. No browning.
+>> All right. So, our sous chef here is
+powered by GPT live one, which is
+[music] our frontier model for voice,
+and it is a full duplex model, which
+means that when I trail off like this
+[music] or say um, it actually doesn't
+interrupt me. Right, Jeff?
+>> Yeah. I was waiting my turn. Gold star
+for not talking over you. Okay, back to
+the stove.
+>> All right. Let's do it.
+>> We'll do it.
+>> Matthew.
+You've been following us as we've been
+cooking here. How do you think we're
+doing?
+>> Yeah, it's pretty good so far.
+Definitely looks like ramen.
+>> Thanks.
+>> Thanks.
+>> I think Brian's here somewhere, too,
+right?
+>> Yeah, I'm here.
+>> Oh my god.
+>> I was in the kitchen basement.
+>> So, Dots came out last week. We've been
+using [music] it a ton. We want to hear
+how you guys have been using your Dots.
+>> Yeah, I mean, the first thing I did was
+obviously connect it [music] to all the
+different services I use. Last night
+before filming, we got emails of
+instructions. Now, I was in bed and it
+popped up with a message saying, "Hey,
+you just got this email. You probably
+should know about it for your film
+tomorrow." So, it's been great.
+>> Guys, we have a challenge for you.
+>> Have you heard of one shot?
+>> Absolutely.
+>> You guys are going to one shot these
+shots, which is ingredients from the
+kitchen, fresh ginger, and then you are
+going to build a game with ultrafast on
+the new mod retros. Are you ready?
+>> Here we go.
+>> it.
+>> All right. Here's mine.
+>> Let's do it.
+>> Yeah, okay. We're going to make a game.
+Okay, we want to make a ramen simulator
+game [music] for the mod retro and we
+want it to be obviously a bit
+>> Give me a character select screen where
+I can choose any of the dots.
+>> The goal of the game is [music] to
+collect the different ingredients, put
+it all together and make the best bowl
+of ramen possible. Hey, it's moving.
+Yeah, we're getting there.
+>> You could say we're cooking.
+All right, Matt. You want to keep
+chopping the garlic?
+>> Absolutely.
+>> Thank you. Thank you. I think you're the
+only qualified cook in this kitchen.
+>> I I am far from it.
+>> Actually, I don't know about you, Brian.
+>> No, no, no, no. Don't even ask.
+>> If we're ready, if we got it going, we
+have the emulator running here.
+>> We have dialogue options.
+>> Okay, gather fridge, cook, chop, [music]
+okay.
+>> Get in front of that fridge. Come on.
+>> No!
+>> There we go.
+>> We got the ingredients.
+>> Fresh ingredients, noodles, and [music]
+miso broth.
+>> Soft egg, mushroom. Uh, you got to get
+that soft egg, man.
+>> And now I go [music] in for the chashu,
+sorry.
+>> [laughter]
+>> For the broth, are we doing a gentle
+boil or a rolling boil?
+>> Ooh.
+It's rolling for me.
+>> Okay, rolling it is.
+>> Stir clockwise.
+>> This mod retro and like pixelization
+presentation, it makes me feel both that
+I'm in the future [music] and the past.
+>> A little overdone, still tasty.
+>> Hey, you're not Danny.
+>> No, I'm Fede. I work at Developer
+Community at OpenAI.
+>> Of course.
+>> So, we're going to do a little community
+section. We've been watching all the
+builds that you guys had on Twitter,
+LinkedIn, and Instagram. So, today we're
+going to bring a few of these community
+builds and [music] see what you think
+about it.
+>> Is it cooked or is it undercooked?
+>> Yeah, we even have pre-made cards for
+it.
+>> Yeah, this is super official. I'm ready.
+>> Don't make [music] me use this.
+>> Bet it. What are we looking at here
+today?
+>> So, this is a very cool retro game built
+with [music] GPT-3 6.1 saw.
+>> That's pretty cool. What do you guys
+think?
+>> You know, I actually think this is super
+impressive. [music] It's detailed. It
+has the retro vibes.
+I am probably going to go home and
+recreate this myself. I'm going [music]
+to say it's cooked just right.
+>> All right. We'd love to see it.
+>> Ryan?
+>> No, Cosman, great job. You cooked it.
+>> Yeah.
+>> Really well done. This is one of my
+favorite community builds that I think
+I've ever seen. Carter Church here has
+used Astra to actually decode a message
+that Napoleon had sent all the way back
+in the day that's remained unsolved for,
+I guess, what? 2 or 300 years?
+>> What do you guys think?
+>> Yeah, definitely. And I already see
+Brian reaching for his card, so I'm
+going to let you go first.
+>> [laughter]
+>> Napoleon could have never predicted
+this. This is ridiculous.
+>> You did great. Cooked.
+>> Yeah, you know, I just like the cool
+factor on it. Definitely opening up
+history for a broader audience.
+>> Almost 5 million views.
+>> Pretty good.
+>> Perfect.
+>> So, for this next one, we have a pretty
+cool horse racing game that went pretty
+viral where you draw your character and
+just let it run and win the race. What
+do you guys think?
+>> The actual game is you're drawing the
+horse and depending on how you draw it,
+makes it go faster, slower. [music]
+>> Exactly.
+>> Yeah, forget that. I'm going to go first
+on this one, especially because, uh, you
+know, the guy who made it is right
+there. I'm going to say
+cooked.
+>> There's
+>> [applause and cheering]
+>> There's not much more to say. Double
+cooked.
+>> Oh! First time for that. There you go.
+>> All right, then. To close this out, we
+are going to do our catch of the day.
+>> Keep that in.
+>> We're going to pick our favorite builds
+and talk [music] about it a little bit.
+So, for me, it was definitely the
+Napoleon letter better. What was yours?
+>> Yeah, that's that's I think the the
+coolest.
+>> I'm going to go with the first one. I I
+liked the retro space shooting game. I
+that's like right up my alley. I'm going
+to play it when I get home.
+>> And I'm loving this horse racing [music]
+game, honestly.
+>> All right. Napoleon wins.
+>> Napoleon wins.
+>> Again.
+>> Again?
+>> He can't keep getting away with
+>> That's been catch [laughter] of the day.
+>> All right, Matt. I think the mod retro
+has finally loaded our game. Are you
+excited to see what's going on?
+>> Yeah, let's play it.
+>> All right, let's do it. Here you go.
+>> Thank you. All right, so we got the
+little blue dot.
+>> [music]
+>> I got to go to the fridge.
+>> Matt, get the soft egg this time.
+>> Yeah, for sure.
+>> Yeah, stir clockwise.
+>> Clockwise. Silky broth, perfect noodles.
+Nice. Better than last time.
+>> Yeah, buddy.
+>> Good job.
+>> Didn't you put an egg in there?
+>> Nah, shh.
+>> [laughter]
+>> Yeah, really cool. Congrats, everyone.
+We did it.
+>> Yeah.
+>> [applause]
+[cheering]
+>> All right, so Alex, we've been at this
+for a little bit. I smell all the
+delicious ingredients. I've actually
+gotten [music] quite hungry. What can we
+do about this?
+>> Yeah, I think we got a little little
+carried away talking about dots [music]
+and dub day. Um but I think we actually
+did cook something up, didn't we, Fedor?
+>> Yeah, I came prepared.
+>> Ooh, okay.
+>> Here we go.
+Wow, that is beautiful. Did we [music]
+cook this? We absolutely cooked this.
+Yes, everyone nod. Everyone nod.
+>> yeah.
+>> Yes, we cooked that. It looks beautiful.
+Fedor, you want to
+>> We actually [music] cooked with this
+one, boys.
+>> Look at that. Yeah, put it right on the
+laptop. That's our fix right here.
+>> Smells excellent.
+>> Looks beautiful, too.
+>> I can't [music] believe we cooked that.
+>> Matt, how is it?
+>> It's actually really good.
+>> [laughter]
+>> Yeah.
+>> Oh, Danny, you're back. Where'd Fedor
+go? Never mind. Anyways, guys, this has
+been cooked. Thank you so much for
+joining us, and thank you [music] to our
+special guest, Matt and Brian. We had a
+great time. Played some games, made some
+memories.
+We'll see you again next time. Thank
+you.
+>> [music]
+>> Always did it my [singing] way, never
+did it by the book. Let me cook. Now,
+let me cook. Just let me cook. Let me

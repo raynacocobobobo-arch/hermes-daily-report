@@ -1,0 +1,150 @@
+UP主：Curious Refuge
+标题：We Found a Weird Seedance Character Hack
+链接：https://www.youtube.com/watch?v=7AVUM6AR1W8
+
+If you work a lot inside of AI video
+tools, then you have probably got an
+error code saying that you cannot
+generate an output that has a human face
+in it. It can be crazy frustrating and a
+total deal breaker if you're actually
+trying to create a compelling film or
+advertising project. It's incredibly
+annoying, especially if you're working
+on a legitimate project where you
+actually have the rights to use the
+people inside of your film. So, in this
+video, we're going to take a look at
+that viral workflow and see if it's
+actually helpful inside in AI filmmaking
+project. So, for this video, I'm going
+to say that we are working on a project
+with Shelby and myself. Now, the viral
+workflow is basically you take a
+character sheet and just add a quick
+little scratch pattern over the person's
+face, almost like they're wearing a
+veil. So, we did that for Shelby here,
+and then we did that for myself. Once
+you have your character sheets, you can
+hop into any AI video generation tool
+that you want. I'm using Magnific, and
+we'll select C Dance 2.5. We uploaded
+both of our character sheets with the
+scratches on the face. Now, for our
+prompt, I'm not going to get into it.
+Basically, we prompted for a super long
+scene here, and at the bottom, we're in
+1080p for 30 seconds, 16 by 9, sound on,
+and go ahead and hit generate. So, let's
+take a look at the output here. This is
+the version that has the scratches over
+the face.
+>> Hold up.
+>> [laughter]
+[gasps]
+>> Oh, it's so funny.
+Uh okay, so the likeness is like 80%
+there. It's not exactly us, but it's
+close. And depending on who your
+character is, especially if they're a
+bit more over-the-top, it might actually
+work for your project. But, let's do the
+same thing with actual character sheets
+of our subjects.
+>> [laughter]
+>> So, you get the idea. It looks much
+closer to the original characters. But,
+let's take a look at a few other
+examples to see how it stacks up. So,
+for this next one, we have both of those
+scratched-out character sheets, and we
+have this location. We prompted for an
+entire scene here, and here's what we
+got with the face grid.
+>> [laughter]
+>> Okay, I don't know what happened there,
+and I think they turned up the
+handsomeness slider by about 30% with
+the main character there. So, that's not
+exactly me. Again, it's about 80% there,
+maybe 85%, but I don't know if you could
+actually use it on a live-action
+production if your character needed to
+be exactly the same. Now, let's compare
+that again to the same generation, but
+without the face grid. This is the
+actual real character reference sheets
+of our main characters.
+I don't know the like the motivated
+action there. She just decided to leave
+apparently. But what's pretty crazy is
+like even the eyeline in this
+production, it understands like which
+direction people should be looking in
+the 180° rule. Like pretty interesting
+like the cinematography that's coming
+through here. So as you can see, those
+characters are much closer to the
+original references. And finally, we
+have both character sheets again with
+this coffee scene and with the grid over
+the face, we get this.
+>> I've been trying to figure out how to
+say this since Thursday.
+>> I know.
+I've known since March.
+>> March?
+Why didn't
+>> Her eyes, however, betray her because I
+kept thinking you'd tell me.
+>> I was going to.
+>> I should note that entire line about the
+woman's eyes, we did not prompt for it.
+Just like added that in. So you know,
+testing out some screen writing there.
+See dance. So you can see again, not
+exactly us, but without the face grid,
+this is what we got.
+>> I've been trying to figure out how to
+say this since Thursday.
+>> I know.
+I've known since March.
+>> March?
+Why didn't you
+>> Because I kept thinking you'd tell me.
+>> I was going to.
+>> [laughter]
+>> Okay, again, it's so much closer. So,
+with all of that being said, the big
+question is, is this workflow actually
+helpful? And I would say this workflow
+is helpful if you absolutely cannot
+generate a character that you have the
+rights to use inside a tool that you
+have access to. Now, we have heard
+rumors that there are some tools out
+there that are less restrictive.
+Generally, most aggregators have the
+ability to turn off restrictions for
+enterprise customers who are you know,
+of course, buying tens of thousands of
+dollars worth of credits. But, if you're
+an individual, two tools that have
+recently popped up have been TopView AI
+and Oxen AI as helpful tools that would
+be less censored so that you can go
+through the process of creating your
+film projects. I should note in an
+ethical way. I hope you enjoyed this
+video. If you want to learn more AI
+filmmaking tips and techniques, I highly
+recommend checking out our courses over
+at Curious Refuge. We've worked with the
+world's best AI filmmakers to create
+professional training used at every
+major studio. Thank you so much for
+watching. Be sure to like and subscribe,
+and let us know if you have any other
+tips and techniques for pulling this off
+in the comments.

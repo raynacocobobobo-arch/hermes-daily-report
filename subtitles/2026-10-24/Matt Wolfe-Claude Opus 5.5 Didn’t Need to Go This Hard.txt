@@ -1,0 +1,445 @@
+UP主：Matt Wolfe
+标题：Claude Opus 5.5 Didn’t Need to Go This Hard
+链接：https://www.youtube.com/watch?v=0t-eWrGFZyA
+
+Another day, another new best model in
+the world just came out. And of course,
+on the day where we get not one but two
+state-of-the-art models out of the big
+foundation labs, I'm out in Palo Alto
+for Meta Connect. So, doing a quick
+review of what just came out from my
+hotel room. So earlier this morning, we
+got a new model out of Anthropic, and it
+appears to be the new best of the best,
+better than Fable 5.1, but cheaper and
+faster. And this model is Claude Opus
+5.5 out of Enthropic. They claim on
+their website it now performs at the
+level of Claude 5.1 on most work and
+costs 40% less to run than Opus 5. So,
+better than 5.1, cheaper than Opus 5,
+the, you know, tier below Fable. So,
+let's scroll down to the benchmarks here
+and take a quick peek. Again, I don't
+put as much weight on benchmarks as I
+used to. I put much more weight on what
+we can see and test and feel and what
+other people are actually doing with
+this. But, let's take a peek real quick
+nonetheless. So, as far as agentic
+coding goes, 66.4%
+that makes it state-of-the-art across
+the board. Agentic Coding on Frontier
+Code 54.4%
+state-of-the-art across the board.
+Better than Fable 5.1, which Fable is
+supposed to be their top top tier,
+right? That's supposed to be the best of
+the best in their model lineups. And now
+Opus, the tier below it, is actually
+performing better in most areas. Agentic
+Coding on Cursor Bench 57.8% makes that
+state-of-the-art. GDP val for knowledge
+work 1846 state-of-the-art across the
+board. Automation bench Astra still has
+them beat there. Humanity's last exam
+new state-of-the-art terminal bench
+science still give the lead to Astra
+here. Computer use state-of-the-art
+visual chart recognition
+state-of-the-art. So, Opus 5.5 beats
+Fable 5.1 and Opus 5 pretty much across
+the board and it beats out GPT6 Astra in
+most areas. And here's what people
+probably mostly care about is not only
+does it do most of that stuff better,
+but it does it for cheaper. So, we can
+see here input tokens went to $4, down
+from $5. Output tokens went to $20 down
+from $25. And that's based on the Opus 5
+pricing. Now again, remember they're
+saying that this is pretty much better
+than Fable 5.1 for most things. So if we
+look at Fable pricing here, Fable 5.1 is
+$10 per million input tokens, $50 per
+million output tokens. So $10 for Fable
+5.1 down to $4 for Opus 5.5, $50 for
+Fable 5.1 down to $20 for Opus 5.5. So,
+if you're comparing like model
+capability to price, this just got a lot
+cheaper for the capability. When it
+comes to Terminal Bench here for Agentic
+Coding, we can see cost per score on
+Terminal Bench. Along the bottom, we've
+got the price. Along the left side,
+we've got the score. So, if you're using
+extra high here, it actually appears to
+be slightly better score than on max and
+cheaper. And then we can see Fable 5.1
+is this green line here, which not
+nearly as smart for way more expensive.
+As far as availability goes, it's now
+available pretty much everywhere. So,
+you should be able to use it in Claude
+right now. Another benchmark I like to
+look at is artificial analysis. They're
+trying to rank like the objectively
+smartest model based on an aggregation
+of a whole bunch of benchmarks. And if
+we look at this, we can see Claude Opus
+5.5, now takes the lead with a score of
+58. Fable 5.1 was the previous best at
+53, tied with GPT6 Astra, also at 53.
+So, new smartest model in the world at
+way cheaper than the previous smartest
+models in the world. Scrolling down here
+to cost per task, we can also see that
+it is cheaper than Fable 5.1, but not by
+a ton. So we can see Fable 5.1 cost
+about $763
+per task where Opus 5.5 in max mode cost
+about $5.98. So still pricey and the
+reason being yes it got cheaper per
+token but if we look at the output
+tokens per task Claude Opus 5.5 now uses
+way more tokens. So if we look at Fable
+5.1 it used to use 78,000 tokens per
+task. Opus 5.5 uses 119,000
+tokens per task. So, it's using a lot
+more tokens at a cheaper per token
+price. I mean, at the end of the day,
+you're still getting cheaper per task,
+and that's what really matters. But the
+reason it's not such a big drop off here
+is because it does use so many more
+tokens. Okay, now that we've got that
+out of the way, let's take a peek at
+what some people are actually building
+with Opus 5.5 because the demos have
+been really impressive. So Drew here
+made this animation using Opus 5.5. This
+whole thing was created with JavaScript
+with Opus 5.5 and it looks impressive.
+This is an amazing animation. Like I did
+not think we would get to a point where
+LLMs could generate animations like this
+without needing to go into something
+like After Effects and generate them. So
+super impressed with what we're seeing
+on the screen right now. Here's another
+example of an animation from Kevin. No
+or go. I'm not sure how to pronounce
+that, but Opus 5.5 drew every frame of
+this animation in JavaScript. Everyone
+in town sends Claude their request, but
+one girl sends a question instead. What
+do you love? And this looks like a, you
+know, children's drawing sort of
+animation. And once again, ultra ultra
+impressive animation. Like I didn't
+think we would get to this point. Angel
+here with another demo. They did what
+they call the Game Boy test. I guess
+they had it generate a Game Boy and then
+actually use the Game Boy. And I'm going
+to start to be really really repetitive
+here because everything I'm seeing come
+out of Opus 5.5 is insanely impressive.
+This Game Boy little emulator here
+really impressive. Edwin here, who full
+disclosure actually works at Enthropic
+shared this demo of a game inspired by
+anti- Cathedral mechanism. I don't know
+if I'm saying that right, but once
+again, like crazy crazy impressive
+demos. Like this animation was all made
+using just Claude. Like this this is
+just it's it's blowing my mind. It is.
+It really is blowing my mind that we're
+getting this kind of graphics right now.
+Here's another animation that was
+generated in Blender. Alex Albert, who I
+believe also works at Anthropic,
+generated this animation and did the
+whole thing using Blender. They asked it
+to do a claimation look, render the
+video, and then check the frames before
+sending it. Now, I'm not sure if this
+actually used the MCP or if it used
+computer use, but either way, we're
+getting really, really good results out
+of Blender using Opus as well. Tac here
+showed off his firsterson shooter doodle
+game, which also looks really, really
+impressive. Hakam here showed off his
+version of Snake that was made with Opus
+5.5. I just like the look of it sort of
+dragging through the sand. And you can
+see that over time the trail gets
+thinner and thinner. So, I don't know,
+just like really, really cool details.
+Again, hard to be impressed by a snake
+game, but uh this one's pretty decent.
+Alex from Forward Future made a version
+of Dark Souls, and I mean, holy crap.
+Like, this looks insane to me. Like if
+somebody sent this to me a year ago and
+said I generated this with AI, I would
+have assumed they were trolling me and
+that this was just a clip from an actual
+game that they were pretending was made
+by AI. But you know, I know the Forward
+Future guys, that's Matt Berman's team.
+They're not faking this. They made this
+with Opus. This is insane. Here's a
+flight simulator that Alex from Forward
+Future also made. Let me fast forward a
+little bit. You can get sort of a
+firstperson view out of the cockpit. And
+again, it's hard to not be impressed by
+what people are making with this right
+now. Alex also got it to make a version
+of Mario Maker, which looks pretty
+decent as well. I mean, yeah, I I know
+I'm sounding like a broken record just
+saying how impressed I am over and over
+again. I think looking at games and
+animations are two of the best things to
+look at with these models to show how
+far we've come. Because when I look at
+sort of games and animations that these
+things were doing just a year ago, we
+were nowhere near this. Like they
+weren't even making animations at all.
+Games were like decent, but they were
+fairly archaic looking. Now we're
+getting stuff that looks like what you'd
+get out of a studio today. Just super
+impressive. But here's the thing. Opus
+5.5 wasn't the only model we got today.
+About two hours after Opus 5.5 was
+announced, OpenAI jumped into the party
+and said, "Hey, we got a new model
+today, too." And they launched GPT6 Soul
+and Luna. Now, I'm going to be totally
+real with you. These new models aren't
+quite as impressive as what we just saw
+out of Opus 5.5. Now, they're good.
+They're less expensive. They're faster,
+but they're not quite as
+state-of-the-art as what we just got out
+of Opus 5.5. Now, the article that they
+put out is a little bit light on the
+benchmark side. We can see their pricing
+here for GPT6 Soul versus 5.6 Soul. They
+dropped the price on this new model from
+$4 per million input tokens to $2 and
+their output price from $20 per million
+down to $10. So, they slashed the price
+in half on GPT6 Soul from 5.6 Soul. Luna
+quite a bit less expensive as well. They
+slashed the input price in half from 20
+cents to 10 cents and the output price
+from a$120 down to 50 cent. So actually
+more than 50 cents cheaper on output.
+Again, not a ton of benchmark data here.
+They did cherrypick a few benchmarks.
+We've got Automation Bench here where
+they show GPT6 Soul scoring not quite as
+good as Astra, but quite a bit cheaper
+cost per task. So on extra high here, it
+scores about as good as Astra medium but
+at a cheaper cost. When we look at
+agents last exam, you can see the blue
+stars are Astra, the yellow stars are
+GPT6 stole. So, as far as score goes,
+their max model in GPT6 does better than
+Astra's low model at about I don't know
+roughly the same cost, if not a little
+bit cheaper. On Deep Suite, the coding
+benchmark, it does decent as well. So,
+it scores better than Astra on low, but
+at a slightly higher price than Astra on
+low. So that's why this model feels a
+little more marginal than the Anthropic
+announcement because it is a cheaper,
+better soul model, but it's not as good
+as Astra. And if we go look at what
+Anthropic released, they released a new
+Opus model that is actually currently
+better than their previous
+state-of-the-art Fable model. So, when
+we're looking at these two launches that
+came out the same day, you got to give
+that edge to Enthropic a little bit
+because they just put out a model that's
+faster, cheaper, and better than their
+previous state-of-the-art, where OpenAI
+put out a model that is cheaper and
+faster, but not nearly as good as their
+state-of-the-art. Now, as far as
+availability goes, GPT6 Soul and GPT6
+Luna are available in ChatGpt Work and
+Codeex starting today if you're on one
+of the paid plans, plus pro, business,
+enterprise, and .edu EU users, free and
+go users can use GPT6 Luna in the
+desktop app. Now, it also appears to me
+that GPT6 Soul and Luna weren't really
+distributed to a bunch of early access
+people cuz I couldn't find any demos of
+people using this yet. Fable, a lot of
+people seem to have a little bit early
+access, got to play with it, and now
+started showing off their demos. I
+wasn't somebody that got early access to
+either of these, so I have no demos to
+show. Otherwise, I would have probably
+recorded those back at home and not from
+my hotel room here at MetaConnect. But
+when I do scroll X today, almost
+everything I see on X is all about Opus
+5.5 and very, very, very little about
+GPT 6 Soul. So, not nearly as many
+benchmarks, probably because they know
+it's not going to top the
+state-of-the-art Opus 5.5 and it's not
+going to top Astra. Also, not a lot of
+demos circulating because from what I
+can tell, not a lot of people got early
+access. I'm sure some people did, but
+because Opus 5.5 was so much more
+impressive today, almost all the demos
+I'm seeing are out of Opus. Taking a
+peek back at artificial analysis again,
+something that's supposed to be like the
+objective smartest model. We can look
+where GPT6 Soul falls, and it falls at a
+4.8, making it tied with Muse Spark. But
+you can see that GPT6 Astra is still at
+53 and the Opus 5.5 we got today is 58.
+So the new anthropic model is a full 10
+points higher than GPT6 Soul. And then
+GPT6 Luna falls all the way down here
+and appears to be tied with GPT 5.6
+Luna. When it comes to cost per task, it
+is a fairly inexpensive model. GPT6 Soul
+down here comes out at a$16 per task
+where if you remember Opus 5.5 is all
+the way up here at almost six bucks per
+task. And as far as output tokens used,
+it falls all the way down here at 31,000
+per task. If you remember, 5.5 max is
+all the way up here at 119,000
+per task. But again, I feel like cost
+per task is a more important
+measurement. You just want to know how
+expensive something's going to be to
+run. you probably don't care as much how
+many tokens it's actually using. And as
+far as cost per task, six soul comes out
+to about a$16. Oh, real quick, I forgot
+to mention I did run both of these
+models through beauty bench. And you can
+see Opus 5.5 here, GPT6 Soul here, and
+then Soul Pro here. Interestingly, if I
+take a look at my leaderboard, it
+actually puts GPT6 Soul as the new
+leader with GPT6 Soul Pro a few points
+below it. Now, again, take these
+leaderboard rankings with a grain of
+salt. Use your eyes to decide what you
+think is best. This is an LLM as a judge
+deciding this. I personally think Astra
+still looks better than GPT6 Soul to me,
+but my LLM as a judge put GPT6 Soul as
+the new leader. If you're wondering
+where Claude Opus 5.5 lands, it put it
+down here at number eight. But I don't
+really pay attention to the leaderboard.
+I pay attention to my eyes. So, that's
+what I got for you today. I wanted to
+quickly break down these two model
+launches that both happened on the same
+day. This is going to be an insane week
+by the time the week is over because
+again, MetaConnect is happening right
+now as well, which we're going to get
+some announcements out of this event.
+We've got Made on YouTube happening this
+week as well, which we'll probably have
+some announcements probably more for
+YouTubers. There's also a ton of buzz
+about Jev, which I will be talking about
+in another video. And of course, I will
+do my Friday news breakdown just like I
+do every week. We will dive more into
+Opus 5.5 into GPT6 Soul. Whatever news
+comes out of Meta Connect this week,
+we'll talk a little bit about Jev and
+all of the other announcements that end
+up happening this week. Those will all
+be in my Friday news breakdown. By then,
+there will be much more demos from some
+of these products. We'll have had a
+chance to do even more testing with
+them, and we'll be able to go even
+deeper. I just wanted to give you the
+initial impressions, what people are
+doing with them, let you know that these
+are out there and available if you're on
+a paid plan for either of these
+companies. You can be using these models
+right now. If I was to sum this all up
+in like a couple sentences, Anthropics
+Opus 5.5 came out today. It's way
+cheaper, way faster, and apparently way
+smarter and better than Fable 5.1, their
+previous state-of-the-art model. So,
+their next version of Fable is going to
+be even better than this model, which is
+just going to be mind-blowing. And then,
+because OpenAI needs to also stay in the
+news cycle and not be overshadowed by
+anthropic, OpenAI released GPT6 Soul
+today, a couple hours later, which if
+we're being honest, feels like a fairly
+marginal improvement because it's not as
+good as Astra and it's slightly better
+than the previous generation of Soul
+models. However, yes, it is faster and
+cheaper, but you're probably not going
+to notice a huge difference using this
+model over something like Astra, other
+than it'll be less expensive to use than
+Astra if you're using the API. So,
+fairly marginal update unless you're a
+developer who's looking for a cheaper
+GPT model, but the big news here is
+definitely Opus 5.5. It is really damn
+impressive. Again, that's what I got for
+you today. Every week, I keep up with
+all the AI news. I drink from the fire
+hose. I overwhelm myself with all the
+news and then every Friday I make a
+breakdown video of here's all the news
+you missed this week. So if you want to
+just keep looped in with just one video
+a week, that Friday video is the video
+to check out. There will be one coming
+this Friday that will recap all of this
+news plus everything else that happened
+this week. So if you haven't liked this
+video and subscribed to this channel,
+you should probably do that cuz that'll
+make sure those videos show up for you
+and uh you'll be totally tapped in. So,
+thanks for hanging out with me here in
+my hotel room in Palo Alto. I'm about to
+head off to MetaConnect right now. Just
+wanted to get this video out quickly for
+you to share some of my quick thoughts
+on it. But, uh, again, thanks for
+nerding out with me. Hopefully, I'll see
+you in the next one. Bye-bye.

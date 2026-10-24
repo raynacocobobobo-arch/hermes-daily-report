@@ -1,0 +1,815 @@
+UP主：Matt Wolfe
+标题：AI News: The Most Insane Week So Far This Year!
+链接：https://www.youtube.com/watch?v=GfPZm9yucQo
+
+This week was absolutely insane. I know
+most weeks I talk about, "Hey, there's a
+lot of news this week." This week there
+was a lot of really, really big news.
+Huge model releases, new product
+updates, lots of stuff to talk about. I
+don't want to waste your time. Let's
+dive right in. We actually got four
+brand new state-of-the-art models from
+four big foundation labs. We got Claude
+Fable 5.1. We got Gemini 3.8 Flash. We
+got Muse Spark 1.3 out of Meta. And of
+course, we've got GPT-6.
+All huge releases. So, I actually
+already made videos about most of these
+new models. This video here, the most
+overhyped and underhyped new models, I
+really dig into Fable 5.1 and Gemini 3.8
+Flash. And then this video, GPT-6 Astra
+is finally here, obviously digs into
+GPT-6 Astra. I made two additional
+videos this week to talk about those
+three different models because if I
+tried to deep dive on every single new
+model that came out in this video, it
+would be like an hour and a half-long
+video. So, I broke them out into
+separate videos this week. However, the
+value proposition of this channel is
+that you really only need to watch one
+video a week to get a breakdown of all
+of the AI news. So, I am going to give
+you the quick TLDR of these four new
+models. So, let's do it in the order
+that they came out. First, we got Claude
+Fable 5.1 and Mythos 5.1, which Mythos
+is only available to like cybersecurity
+testers and stuff. When this model came
+out, it pretty much crushed everything
+else on the benchmarks, scientific
+research, 52.6
+over Souls 22.4, Opus's 29, Fable's
+24.7, Terminal Bench 55.8%
+beating out everything else. On the day
+it came out, it was by far the best
+model ever. Some interesting notes about
+it. When it comes to price, they claim
+Fable 5.1 will cost an estimated 25%
+less than Fable 5 for typical workloads.
+However, if we look at Artificial
+Analysis here, they actually do a
+benchmark test for cost per task, and
+Fable 5.1 actually came in as the most
+expensive model per task at $3.69 per
+task, where Fable, the one that
+supposedly 5.1 is 25% cheaper than,
+comes in at 314 per task. Supposedly,
+this model will also refuse requests
+less often. It says, "We've improved our
+safeguards to reduce false positives,
+now blocking 60% fewer false positives
+than before." On BU & C Bench, Fable 5.1
+came in second place, but it cost $4.35
+to generate this SVG image. So, it is a
+really good model, but it is really
+expensive. It also took 18 minutes to
+generate this one SVG here. I also
+prompted all of these new models to do a
+clone of Megabonk, as I've done in past
+videos, just to see what sort of design
+aesthetic it gives these video games,
+but I'm going to show those after I've
+talked about all four models, so we can
+compare them side by side. I also have
+like a little bit of a point I want to
+prove about something, and it will make
+more sense if I put them all side by
+side. Claude Fable 5.1, when it came
+out, the new best of the best, new state
+of the art. In fact, if we look at
+Artificial Analysis, even after the rest
+of these new models came out throughout
+the week, Fable 5.1 still leads the
+Artificial Analysis benchmark. This has,
+for the longest time, been one of my
+favorite benchmarks to look at, because
+it's sort of like a combined benchmark,
+where it takes a whole bunch of other
+benchmarks, puts different weights on
+them, and then tries to find like the
+objectively smartest model. But, I do
+have some new issues with this benchmark
+that I didn't have before, which I'll
+get to later as well. But according to
+them, it is the new objectively smartest
+model, but also the most expensive model
+to use. Now, the next model to come out
+this week was Gemini 3.8 Flash. This is
+a new Google model, and it's designed to
+be pretty inexpensive and really, really
+fast, but still up there with the
+state-of-the-art models. So, if we take
+a look at the benchmarks here, Gemini
+3.8 Flash is pretty inexpensive, 75
+cents per million token input, 375 per
+million output. When you compare that to
+Opus, they're $5 per million input and
+25 per million output, and Fable is
+actually double that. So, Fable's $10
+per million input and $50 per million
+output, I believe. So, way, way, way
+cheap compared to the most
+state-of-the-art models. However, this
+model is really good at coding. This
+Deep Seek benchmark is a benchmark that
+people look at because it's got a pretty
+good correlation between the benchmark
+score and how good these models actually
+feel when you're using them to code.
+Gemini 3.8 Flash, 73.7%,
+where the previous state-of-the-art best
+model on Deep Seek was Claude Opus 5,
+which got a 74% a 0.3%
+difference at a giant cost savings. Now,
+this model is really good in a whole
+bunch of these other benchmarks here,
+but where I've noticed it being the best
+is actually in coding specifically. It
+is fast, it is pretty inexpensive
+comparatively, and it's like just as
+good as some of the best coding models
+we've seen. Taking a look at the Deep
+Seek page here, it actually puts Gemini
+3.8 Flash on top, even above Opus 5.
+Now, they're both showing 74%,
+but the average cost per task here is
+$2.36
+for Gemini 3.8 Flash and $11.84
+for Opus 5. And then Claude Fable is at
+70%. Claude Fable, when that came out,
+everybody was blown away by how good of
+a model that was. That was like the best
+model anyone has ever seen. Massive,
+massive leap. And now we're getting a
+model that outperforms that where the
+average cost is $21.63
+for Fable 5 at $2.36
+for Gemini 3.8 Flash. So as far as like
+cost to value ratio, this Gemini 3.8
+Flash is like really good value here,
+especially for coding. Jumping back to
+artificial analysis here, you can see
+Gemini 3.8 Flash is here, 11th place.
+But again, this takes in a whole bunch
+of different benchmarks into account.
+But when we scroll down to the cost per
+task, Gemini 3.8 Flash is way down here
+at 58 cents per task. If you remember,
+Fable 5 is up here at 314 and 369 for
+5.1. So again, cost to value ratio, huge
+value in Gemini right now. Taking a look
+at Beauty Bench, this one came in a tie
+for third. It's a little bit wonky, like
+it tries to make this really hectic
+crazy image with crazy hair and stuff.
+But Fable 5.1 cost me almost $5. This
+one cost me a little over 9 cents. Fable
+5.1 took 18 minutes. This one took a
+minute and 32 seconds. Another recent
+update is from Artlist, and they just
+launched a new feature called AI Flows.
+This is supposed to save you a ton of
+time if you're frequently using AI to
+make content. So basically, Flows gives
+you this node-based visual canvas where
+you can connect different image, video,
+and voice-over models together into one
+reusable workflow. So instead of
+rebuilding the same process every time
+you start a project, you just build it
+once, and then next time you need it,
+you can swap out your inputs and let it
+run. You can even generate multiple
+variations in parallel or start with one
+of Artlist pre-built templates and drop
+your own media into it. And Artlist also
+just added Seed Dance 2.5 to their
+platform, which can now generate up to
+30 seconds of 1080p video in a single
+generation. It supports up to 50
+reference images with much stronger
+consistency for keeping the same
+character, product, or location across
+an entire scene. AI Flows is live now
+and included with Artlist Unlimited. So,
+try it out at the link in the
+description box, and thanks so much to
+Artlist for supporting my channel and
+sponsoring this portion of today's
+video. So, next up this week after
+Gemini 3.8 Flash, we got Muse Spark out
+of Meta. And this one the benchmarks
+confuse me. We can look at Deep Suite
+here, which is one of the evaluations
+that I really, really like to see how
+good at coding this is. And this is
+showing a 75.4,
+which would make it the very, very top.
+Now, when I look at the Deep Suite
+leaderboard itself, it doesn't actually
+list Muse Spark 1.3. We've got 1.2 way
+down here, but number one is 3.8 Flash
+at 74%.
+So, this one being 75.4,
+that means it is the new best coding
+model ever. And this is where when I
+show you all the comparisons between my
+Mega bunk test, it's not going to make a
+lot of sense. But these benchmarks are
+really impressive if you care about the
+benchmarks. It's actually Muse Spark
+1.3, which is really making me question
+the validity of most of the benchmarks
+lately. Looking at Muse on Artificial
+Analysis, it apparently comes in at
+third place behind Opus 5 and Fable 5.1.
+It's coming in ahead of GPT-6, ahead of
+Gemini 3.8 Flash by a big margin. So,
+this is the other benchmark that I tend
+to look at a lot and put a lot of value
+on. And this model coming in ahead of
+Fable 5, ahead of GPT-6, and just barely
+below Opus 5 and Fable 5.1 makes me
+really, really question this benchmark.
+As far as cost per task, it's pretty
+much in line with Gemini 3.8 Flash, 55
+cents cost per task here. But when we
+look at B U S I bench, and again, take
+these with a grain of salt because this
+is AI as a judge, so your own visual
+should be like the real decider here.
+This one comes in at Let me keep
+scrolling here. Keep scrolling. Is it
+even on the first page? Yeah, here we
+go. Muse Spark 1.3 ranks number 20th
+overall. It took a minute and 4 seconds
+to generate. There was no cost cuz right
+now you can actually use this model for
+free through OpenRouter. But this is
+what it generated. And if you're not
+familiar with SVGs, SVGs are basically
+images that were generated with code. So
+code is telling it where to draw the
+lines, what colors to use, where to do
+the shading. It's basically a coding
+benchmark to see how well these models
+are at using code to generate an image.
+So this being the top model on Deep Seek
+and in third place on Artificial
+Analysis, and this is the image it
+generates. And then you can pair that to
+Gemini 3.8 flash here, which is lower on
+both of those benchmarks. Fable 5.1
+here, which is lower on Deep Seek. It's
+higher on Artificial Analysis, but lower
+on Deep Seek, the coding benchmark. Does
+this model really look like it's a lot
+better at coding? I mean, don't get me
+wrong. It's a good model and it's
+basically free right now, so I can't
+complain about that. I'm just very
+confused about the scoring and it's
+making me question all of these
+benchmarks like a lot. And then finally,
+we got GPT-6 this week or GPT-6 Astra,
+which hasn't fully rolled out to
+everybody. It was sort of just given
+access to like early testers. Maybe by
+the time you're watching this, more
+people have access. I'm not sure, but we
+can see in their announcement, GPT-6
+Astra is rolling out today to a limited
+set of organizations. And over the
+coming days will become available to all
+ChatGPT Plus, Pro, Business, and
+Enterprise users. So they're rolling it
+out, but as of this recording, most
+people don't have access yet. I was
+lucky enough to get slight early access
+and play with it and, you know,
+benchmark it and do some of my own
+testing. So, I will show those in a
+minute, but let's take a look at their
+page here. When I scroll down to the
+benchmarks, here we are at Deep Seek,
+74.1%.
+So, again, another model coming in lower
+than what Muse Spark is getting. Muse
+Spark was over 75%. Deep Seek would have
+been the number one, but Muse Spark is
+above this one. When it comes to the Arc
+AGI benchmark, this one's pretty insane.
+5.6 Soul, 7.8%.
+Arc AGI 3, 99.9%.
+They've saturated the benchmark. This
+benchmark is useless now at this point.
+So, some crazy, crazy jumps in its
+ability to like solve problems and
+stuff. Again, I made a whole breakdown
+on GPT-6, which is why I'm kind of
+brushing over it quickly in this video.
+But, if you remember, Deep Seek, 74.1%.
+If we look at the Deep Seek webpage,
+that would put it at number one, right?
+That would put it above 3.8 Flash Opus 5
+on this specific coding benchmark.
+However, don't forget, Muse Spark 1.3
+scored a 75.4.
+So, even better than GPT-6. However, on
+my Busy Bench, images that were
+generated by code, it's now the first
+place model. This is what it generated.
+It took 9 minutes. The price says NA
+because I had early access and it wasn't
+running through the API. It but if we
+look here, the estimated API equivalent
+cost would have been about a dollar 94
+using the standard API pricing. And
+again, this one scored lower on the
+coding benchmark than Spark. Okay, now I
+want to show you a comparison between
+all of the different Megabunk clones
+that I had all these models create for
+us. So, first up, this is the version
+that Fable made. Looks pretty good. You
+have different characters you can use.
+The characters actually look pretty
+good. This looks like a fox and the bad
+guys look good. You got little like bugs
+and monsters. I can change the camera
+angle. It's a good looking game. Pretty
+impressed. The colors are great. There's
+some weird wonkiness like with these
+things flashing when I hover over them,
+but it looks pretty good overall. I like
+how when I switch to shotgun, the
+characters basically like blow up when I
+hit them. Nothing really to complain
+about on this one other than the fact
+that it worked for about 2 hours to
+build this game, used up all of my usage
+for the day, and then went into using
+extra credits, and ended up costing me
+like $120
+to generate this game. So, yes, it looks
+good, but $100 plus and it used all of
+my usage credits. I'm on the 20x plan
+for Anthropic, which is $200 a month. It
+used all those credits and then started
+using additional credits cuz I told it
+it can just spend money if it goes over
+the usage. Looks great, insanely
+expensive to generate. Next up, this is
+the version that Gemini 3.8 Flash
+generated. Mega Bonk 3D. Let's go ahead
+and use the fox here, see how this
+character looks. Doesn't really look
+like a fox. Looks like a little wizard.
+But, this version looks much, much
+better than the version I got out of
+Fable 5 when I first built something
+like this with Fable 5. I don't know the
+actual cost it used to generate cuz I
+actually generated this one using
+Cursor, and it just used my Cursor
+credits. I didn't go over the credits.
+It used a very, very small percentage of
+my Cursor credits. Really no complaints
+here. All right, now let's check out
+what Muse 1.3 Spark generated. This is
+the Mega Bonk game that Muse generated.
+Yeah, I got a cube with a little
+cylinder and I'm shooting other cubes.
+This is the model that is scoring number
+one on Deep Swell right now and number
+three on Artificial Analysis. This is
+the Mega Bonk clone that it gave me when
+I put it on the highest setting for Muse
+1.3. So, you can see why I'm very
+confused by the Deep Sweet rankings. And
+then finally, here's the version that
+GPT-6 gave me. We've got a knight, a
+ranger, and a mage. Let's go ahead and
+use the mage just because that's
+probably the closest comparison to the
+other ones. And I mean, this one to me
+is probably the most aesthetically
+pleasing. Like I just like the way the
+character looks. I like the way the
+little bad guys look that are coming at
+me. It looks like the most complete real
+game here. And this one it generated in
+like 12 minutes, I think. I prompted it
+and it generated super quick. And it
+looks great. I mean, look at the little
+skeleton characters. Look at the little
+blobs that are chasing me around.
+There's like bats that actually look
+like bats. You can tell they're supposed
+to be bats. And as the game goes on,
+more and more different types of
+characters come in. And it just looks
+good. I mean, it's very, very pleasing
+on the eyes. So, that's why I'm so
+confused when I look at Deep Sweet, like
+the benchmark design for coding, having
+it put the new Muse Spark 1.3 as the
+best-performing model. And same with
+Artificial Analysis, it's putting this
+model above GPT-6, above Gemini 3.8. And
+I think both of those models gave me
+both better outputs on Busy Bench and
+when playing around with like my Mega
+Bonk test. So, yeah. The benchmarks I've
+relied [laughter] upon the most, I feel
+like I can't really trust even those
+anymore. I don't feel like that's
+accurate to my experience anymore. I'm
+curious what you think about that. But
+again, I made two other videos this week
+that go even deeper on all of these
+models. One that specifically focuses on
+Fable and the new Gemini model, and
+another one that focuses just on GPT-6.
+I didn't make a separate video about
+Muse Spark, but I feel like I accurately
+conveyed my thoughts about it in this
+video. Anyway, I got more to talk about.
+This next one is a super quick one, but
+one that I'm really, really happy
+finally exists. If you use the Chat GPT
+app and you want to connect more than
+one Google account, you can finally do
+that. Now, this is news that came out
+last week and somehow I totally missed
+it. If I open the Chat GPT app here,
+click on plugins, and then click into
+Gmail, I can click manage, and you can
+see I've got one email connected, but I
+can connect another account now. I know
+I'm not the only one that's excited
+about this. Now, Google also rolled out
+a sort of quality of life feature for
+Gmail, Docs, and Google Keep. You can
+now use voice directly inside of those
+platforms. So, pretty much the Gemini
+audio features that you've had access to
+in some of the other Gemini specific
+apps, you can now use in Gmail, Docs,
+and Keep.
+>> Imagine you can have a conversation with
+your inbox. I'm a mom of a 3-year-old.
+Jack is starting pre-K. What do I have
+to bring for Jack's first day of pre-K?
+>> Two changes of weather-appropriate
+clothes and a family photo for the
+classroom tree.
+>> I'm a person who thinks out loud. Now, I
+have this partner in Gemini where I can
+brainstorm right inside of Docs. Hey
+Gemini, help me create a document to
+help me organize my upcoming block
+party.
+>> I've gathered the details for the end of
+summer block party scheduled for August
+29th, 2026.
+>> So, it says these new conversational
+features are rolling out this week, so
+you may have them in your account by the
+time you see this, but they are for AI
+Plus Pro and Ultra subscribers. So, you
+got to be on like a paid plan to be
+using these. We got an update in the
+world of AI video slop, I guess. That's
+not my words. I mean, like the people
+doing this stuff are actually calling it
+slop. MiniMax rolled out a new video
+model that can generate a 15-second
+video in 13 seconds. So, it can make a
+video that is longer than the amount of
+time it takes to generate that video.
+So, of course, what do you think people
+did with that? They started making
+infinite streams where you could just
+keep on prompting stuff and the video
+just keeps on going forever because it's
+generating faster than it's actually
+playing back. The company Foul created
+foul.live or fall.live, never really
+know how to pronounce that, but it's a
+new platform for infinite interactive AI
+live streams. You pick a channel, prompt
+what happens next, and watch it generate
+in real time. Peter Levels here created
+something similar, infiniteslop.ai.
+37,000 people were watching infinite
+slop on one of the days. But it's the
+same kind of idea. People tell what they
+want to see in the comments and the
+video just keeps on generating and
+making new videos. So, here's what that
+looks like on infinite slop. You can see
+what people are prompting and you can
+see what it's generating and the queue
+for prompts that are going to come up
+and it just keeps generating videos of
+slop.
+>> It's slopping time.
+>> Yeah, and there's 75 people watching and
+over 5,000 have watched today. So, yeah,
+that seems like a pretty good use of
+your time, I guess. I mean, just because
+we can, does that really mean we should?
+Uh,
+anyway, I said there's a lot this week.
+There's still quite a bit more I want to
+talk about, but I will talk about all
+the rest very rapidly in a rapid fire.
+I'm going to start with one of the
+cooler things I saw this week, which is
+the new Atlas model out of World Labs.
+This is really cool cuz you give it an
+input image and you tell it a camera
+path and it will generate an output
+based on that. So, basically using
+photos, it can sort of figure out the
+space around those photos. Atlas
+generates images and videos from one or
+more images with pixel-perfect camera
+control. It's got spatial
+reconstruction. It reconstructs
+real-world scenes from one to dozens of
+input images. Now, this isn't just
+generating a video. Like, this isn't a
+video generator. This is generating like
+an environment here. We can see the
+input image that was given, and then it
+sort of reconstructs everything based on
+that one image. In fact, here's another
+example where it took this one image,
+and I can actually I'm manipulating this
+in real-time. As I move my mouse around,
+look at different angles from just that
+single image. And if you give it two
+images, you can see that it can combine
+those two images into a single scene
+that you can move around and manipulate.
+This one here looks like it's got 1 2 3
+4 5 6 7 different inputs to generate
+this output here. And again,
+[clears throat] this isn't just a video.
+This is like something that you can move
+around in and manipulate and change
+camera angles on and things like that.
+Super, super cool. Now, this is in early
+access, so most people don't have access
+to it yet. I reached out and asked about
+early access so I can play around with
+it and test it and make another video
+about it because I thought this was
+really cool. I love stuff like this. I
+can imagine, you know, going and taking
+a whole bunch of pictures inside of your
+house, putting them into a platform like
+this, and easily remapping the house.
+Now, I know you can already do that with
+things like Gaussian splats, but this
+does it with a lot less photos, it
+seems. Something I'm really excited to
+play with. So, again, not a video
+generator, like an actual environment
+generator. You can also do really cool
+like bullet time type effects with it.
+So, if you did want to use it for video,
+there's some pretty cool implications
+there as well. Anyway, this is supposed
+to be a rapid fire and I'm nerding out
+about this too much. So, moving on. The
+company Runway introduced something
+called Solaris this week, which appears
+to let you like manipulate videos in
+real-time. This is another one that's in
+early access, and I don't have access
+yet. But, check out some some demo
+examples here. This person takes a
+selfie here, uses that photo, puts them
+in a scene, and they're able to drag and
+drop shoes on their feet. They're able
+to drag and drop different clothes.
+Here's a scene inside a room where
+they're manipulating it and moving
+things around in the scene. And what's
+crazy is like as they move the plants
+around, you'll notice the shadows change
+and things like that as well. So, it's
+built on the Gen 4.5 video generation
+model, which was adapted to understand
+interaction and respond in real time.
+Solair treats user input as conditioning
+for the next frame, the same way it
+treats text or images. So, the model
+observes clicks, drags, and other
+interactions as it generates, using them
+as signals for what comes next. Again,
+this is something I probably would have
+done a deeper dive on if we had access
+to it, but if you want to check out some
+of the demo videos and see what this is
+capable of, all the links from this
+video are mentioned down in the
+description. If you're a user of Open
+Claw, they just released a brand new
+overhauled a new version with Open Claw
+2.0. For me, things like Codec and
+Cursor have completely replaced Open
+Claw since they have sort of like
+agentic features built in now. So, I
+haven't used Open Claw in quite a while,
+but if you are somebody that's still
+using Open Claw and you've tried the
+Open Claw 2.0 and really, really like
+it, let me know in the comments cuz
+maybe I'll make another deep dive video
+about Open Claw. We got not one, but two
+new transcription models this week. One
+out of Meta, Muse Voice Transcribe. It
+does exactly what you think it would do.
+You speak, it transcribes. These
+transcription models are getting better
+and better. This one is really good for
+streaming, I guess for like real-time
+transcriptions. This one came out on
+September 1st, and then just 2 days
+later on September 3rd, Microsoft
+released MAI Transcribe 2, which is now
+the fastest, most accurate, and cheapest
+speech recognition model. So, again,
+another model that does exactly what
+you'd expect it to. It transcribes your
+audio into text for you, and they're
+just getting better and better. This
+would have been a much bigger story if I
+hadn't already went off on a big long
+rant in last week's news video. But,
+Nvidia officially acquired Hugging Face.
+We talked about it last week because
+there was rumors that it was going to
+happen, so I really deep dove on the
+implications of that. But, to sum it up,
+this is basically Nvidia betting on open
+source. You have companies like Meta and
+OpenAI and Google all trying to build
+their own chips so that they don't have
+to use companies like Nvidia and buy all
+their compute from them. So, Nvidia
+goes, "Okay, well, let's really pump
+some investment into open weight models,
+the models people are just going to run
+locally, the models that are very
+inexpensive to run. And if the big
+frontier labs don't need our compute as
+much anymore, well, then the general
+consumers and the businesses and the
+enterprise companies that want to build
+their own on-premises sort of data
+centers, they'll buy our compute and use
+the open weight models." In my mind,
+that is sort of the play that Nvidia is
+going for here by acquiring Hugging
+Face. Hugging Face is like the GitHub
+for model weights. Whenever new models
+come out, people load them onto Hugging
+Face. Hugging Face also is a compute
+provider. You can go and use the models
+using Hugging Face's compute. So, very
+interesting dynamic here, but again,
+this is Nvidia betting that open weight
+models are going to get bigger and
+bigger and more popular in the future,
+and they can sell hardware to the people
+that need those. But, if you want an
+even deeper dive, again, last week's
+Friday AI news video dove pretty deep
+into this. Apparently, your ChatGPT
+conversations could end up in court, and
+they are not protected. So, the
+conversations that you are having with
+ChatGPT, they're not as private as you
+think. If you're talking about illegal
+stuff and you ever get in trouble, your
+chats are not off-limits in court. So,
+just something to keep in mind for the
+future if you're talking about some
+weird stuff with your models. The mayor
+of New York, Mayor Mamdani, made a new
+AI policy this week making it so that
+students in K through eighth grade can't
+use AI in school. Now, it's not against
+the rules for kids to use AI, they just
+can't use it in school. The whole
+thinking behind this is that kids need
+to learn fundamentals without using AI
+before they get access to AI. So, in the
+same way when you're learning the basics
+of math, like addition, subtraction,
+multiplication, division, like the
+basics, you really shouldn't be learning
+with a calculator. But then once you
+understand how to do it, then you bring
+the calculator to the mix so that you
+can do it easier and faster. That's sort
+of the thinking here, but there's
+obviously a lot of mixed opinions on
+how people are seeing this right now.
+And finally, I always like to end with
+tech and gadgets, and the company Dyson,
+yes, the company that makes the vacuums
+and the fans, they just made an AI
+toothbrush. And to be honest, I kind of
+want one.
+>> [laughter]
+>> It's called the Dyson Cam Jet, and it's
+got a camera and a water jet on it, and
+it uses AI to accurately shoot water
+between your teeth and like does the
+flossing for you. So, you're brushing
+and flossing at the same time, and it
+uses AI to like help shoot the water
+jets in the optimal spots to do the
+flossing for you. That's my
+understanding at least. So, here's a
+picture. You've got like a camera sensor
+thing here. You got your normal
+toothbrush, and it's got a light so the
+camera can see, and then it's shooting
+the water to do the flossing. And like
+if I can knock out both brushing and
+flossing all in one go, and it uses AI
+to make sure it's doing a good job, like
+I'm all for that. The one major downside
+is that it is a $500
+toothbrush.
+>> [laughter]
+>> So, no, I haven't ordered one yet, but
+I'm kind of seriously considering it.
+Would you pay $500 for one of these?
+Anyway, that's what I got for you today.
+I know there was a lot this week. All of
+these model drops are getting sort of
+exhausting. If you feel exhausted by it,
+trust me, that's how I feel as well
+trying to keep up with it every day. But
+that's what I do here. That's what I'm
+trying to do every single week. I am
+keeping up with all the AI news. I'm
+drinking from the firehose. I'm testing
+the things. I'm reading the articles.
+I'm talking to the people. I'm, you
+know, trying to get early access
+wherever I can and trying to stay as
+looped in as possible. I'll sort of take
+on that overwhelm and then make these
+Friday videos for you. So that if you
+want, you can just watch one video per
+week and stay completely looped in on
+everything that's going on in the world
+of AI. That's my goal with these types
+of videos. If that's something that
+interests you, maybe consider liking and
+subscribing to this channel. That'll
+make sure videos like this continue to
+show up in your YouTube feed. I don't
+think any of the news is slowing down
+anytime soon. We still have Meta Connect
+coming up this month. We have an Apple
+event coming up this month. Open AI's
+Dev Day is still coming up this month.
+The Made on YouTube event is coming up
+this month. There's a lot still
+happening. People call this Tech-tember
+because there's so many different like
+keynotes and things going on this month.
+I devote pretty much my full-time job's
+worth of attention to this stuff so that
+I can try to make it easy and accessible
+to as many people as possible. And I
+absolutely love doing it even though it
+is overwhelming at times. It's a lot of
+fun, but it's also a lot to keep up
+with. But I wouldn't have it any other
+way. Anyway, thanks so much for hanging
+out and nerding out with me today.
+Hopefully you learned something.
+Hopefully you feel more looped in. And
+uh yeah, I really hope to see you in the
+next video. I got some really cool ones
+coming up. So see you there. Thanks
+again. Bye-bye.
+>> [clears throat]
+>> I am the knight of the round table.
+>> And that's how it happened.

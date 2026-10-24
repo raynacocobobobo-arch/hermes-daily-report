@@ -1,0 +1,635 @@
+UP主：Curious Refuge
+标题：I found the craziest AI Film Tools you need to see...
+链接：https://www.youtube.com/watch?v=uiYnWs6Wcqs
+
+A new company has released brand new
+camera technology that looks like it's
+going to absolutely change the way that
+we create films. I also have a real-time
+visual effects tool that you can use
+today and impress your friends. And
+Netflix has used AI in over 300 films
+and you probably didn't even notice. We
+have all that and more in this week's
+episode of AI film news. A company
+called 4D Views has released new
+technology that absolutely looks like
+it's going to change the future of
+filmmaking. Actually, the company has
+created a digital camera array that can
+capture a scene as it unfolds in front
+of the camera. But the huge value
+proposition is it then converts that
+entire scene into a 4D Gaussian splat
+that you can go and navigate. The reason
+why that's important is you can
+essentially capture a scene in a single
+location and then change the camera
+angle with a ton of detail. But I don't
+want you to hear me yapping about it.
+Let's hop in and check it out for
+ourselves. In order to play around with
+some of the demos, you'll find a link
+below this video. So, I'm here on the 4D
+Views website and you'll see we have a
+few different demos that we can check
+out. Let's click this one of this cat
+here. So, usually whenever you shoot
+footage, you have a single angle. But
+the value proposition here is you
+actually have the ability to go in and
+change the camera angle and zoom in and
+zoom out. So, you essentially can frame
+up the entire composition in
+post-production, which is pretty cool.
+So, let's go ahead and hit interact here
+and you can see we can zoom in on the
+cat here and move around and there's
+still a ton of fidelity here. Now, it's
+not completely perfect. There is some
+artifacting, but frankly, it's really,
+really impressive. Now, let's take this
+studio environment here. So, we have
+this guy talking to the camera and you
+can see we can move it around and change
+the angle. So, if you are working inside
+a documentary context, you don't have to
+have camera A and camera B, you could
+have camera anything and essentially
+move your camera around to get the exact
+angle that you're looking for for that
+specific scene. And for this fight scene
+here, we can literally move the camera
+around, zoom in, and then capture the
+angle, and then do that for all of the
+angles that we need to get coverage for
+our actual film scene. There's actually
+quite a few reasons as to why this is a
+big deal. Now, number one obviously
+would be giving you more control over
+the camera inside of post-production,
+but that's just the tip of the iceberg.
+The magic of this is also in conjunction
+with other AI tools that are popping up.
+Hypothetically, you would have all the
+information you need to cut these
+characters out and put them in any
+environment. The second way that I think
+this is really impressive is the fact
+that if you have the ability to shoot
+characters in a controlled environment
+like this, you can also very easily
+rotoscope them and put them anywhere you
+want them to be. So, you don't actually
+have to take your crew on location, you
+can work inside a 4D Gaussian splat
+sound stage, and then put them in
+whatever environment you're looking for
+inside of post-production. The next
+reason is motion capture. If you have
+the ability to have all of these cameras
+capturing really high fidelity footage
+of your character, it's very easy to
+connect this to an AI tool that will
+give you really high-quality motion
+capture without having to put on a super
+expensive suit in a controlled [music]
+environment. The final reason why this
+is so important is it gives you control
+over your actors' performances. So,
+you're not rolling a slot machine and
+hoping that the acting looks like what
+you're going for, you actually have a
+human acting and then you're changing
+the camera in post-production to get the
+exact angle that you're looking for. You
+can absolutely see that the future of
+sound stage production is going to be a
+4D Gaussian splat studio with cameras
+all along the walls and flat lighting.
+Essentially, the actors will act out
+their scene blocked out in the location
+that the director is looking for. And in
+post-production, everything from the
+clothing that they're wearing to the
+environment itself is going to be
+rendered. And it's not a matter of AI
+assisted workflows being good enough
+yet. They absolutely are, and we'll talk
+about that in just a second. There's a
+real-time visual effects tool that you
+should absolutely check out. It's called
+Lucy 2.5 and it has the ability to
+change an environment in real time.
+Let's hop into the tool and check it out
+for ourselves. So, you can see here that
+all of these updates are happening in
+real time. But, what makes it really
+interesting is the fact that it also
+interprets physics incredibly well. So,
+we can play around with a few of these.
+So, for example, you can imagine in the
+world of fashion or shopping, you could
+have a virtual mirror where you can try
+on clothing in real time. And you can
+see it has all of the physics that you
+would want to see from actually trying
+on the clothing here. It can also render
+things in real time here. So, yeah,
+covered in slime and you can see it
+actually interacts with my hand as I
+move it around.
+It's so weird. It also can do real-time
+light rendering. So, look at this. So,
+as I move this light
+around my head here, you can see it's
+interacting in real time here. So, it
+has all the shadows.
+It's pretty crazy. And the fact that
+this is operating in real time with this
+level of fidelity right now is pretty
+awesome. You can imagine that in just a
+few years, this workflow will be super
+realistic. And then finally, you also
+have the ability to upload your own
+reference image. So, I have this image
+here that I pulled from Midjourney of
+this like horrifying monkey character.
+And one of the value propositions of
+using this tool is having the ability to
+do live skinning and changes to your
+characters in real time for streaming
+environments. So, I could hypothetically
+do video game streams with this super
+weird character in real time, and it
+would do a pretty decent job. The team
+at Flux has announced Flux 3, which is
+an AI video generation tool that allows
+you to upload images and videos to
+control your output. Now, one of the
+reasons why this is so interesting is
+the fact that the Flux team has said
+that open weights are coming very soon.
+So, that means you'll be able to run it
+locally on your computer. And you also
+have the ability to generate video clips
+with audio directly in the outputs. It's
+an awesome value proposition, but we
+actually had the ability to beta test
+this tool, and I want to show you the
+results. So, for our first test, we have
+this image that was generated inside of
+Midjourney, and we prompted for a very
+specific two-shot scene. In shot one, we
+have the woman walking, she gets
+surprised, and she says, "What is that?"
+And then in shot two, we have a man who
+looks around and says, "I don't know."
+It's super basic. So, inside of Flux, we
+got this.
+>> Wait.
+What is that?
+I don't know.
+>> [laughter]
+[gasps]
+>> I don't know what's going on with the
+guy's face. And also, that's not the
+image that we uploaded or the character,
+right? It almost like interpreted the
+image and pushed it in a completely
+different direction. It's close, but
+it's not exactly what we inputted. So,
+that would not be usable inside a
+production environment. But of course, I
+want to test this against other tools
+that are on the market. So, let's first
+take a look at SeeDance 2.0, which is
+the industry standard.
+>> Wait.
+What is that?
+>> I don't know.
+>> The pause, the pause. But, you get the
+idea, the acting, the physics,
+everything in SeaDance absolutely
+better. And, you're limited to 720p
+inside of Flex 3 versus all the way up
+to 4K inside of SeaDance. So, the
+generations are not on the same planet.
+We're not comparing apples to apples
+here. But, the value proposition with
+Flex 3 will be the fact that it has open
+weights. So, you will have the ability
+to download it to your computer and then
+render it locally essentially for free.
+And, the industry standard for
+open-source video generation tools is
+LTX 2.3. So, we ran the same generation
+inside of LTX and this is what we got.
+>> Wait.
+What is that?
+>> I don't know.
+>> Okay. So, yeah, it's not great and that
+is definitely a valley girl accent that
+we were not necessarily going for,
+but it did do a pretty decent job. And,
+again, it's in 1080. So, already the
+existing LTX 2.3 that has been around
+for a while now seems to be better than
+Flex 3 before it even hits the market.
+And, the other thing that makes LTX 2.3
+very interesting for a larger studio
+environment is the fact that it was
+trained on licensed data from
+Shutterstock and Getty. So, presumably
+the outputs that you get from LTX would
+be copyright cleared compared to those
+inside of other tools like SeaDance or
+even Flex 3. So, that's the other thing
+with Flex 3 that I'm not entirely sure
+about because we saw another creator use
+Flex 3 to create a version of Rick and
+Morty in Korean and this is what they
+got. So, I don't exactly know what's
+going on there, but I imagine that this
+was trained on some scraped data and it
+would be very hard to actually use it in
+a studio environment. So, it's kind of
+hard to know where Flex 3 actually
+lives. Is this a tool for doing open
+weight renders on your own machine? And
+if that's the case, why in the world
+would you ever use this versus LTX 2.3?
+But, I don't want to make that
+assumption on just one render alone.
+Let's take a look at a couple other
+examples. So, I have this image here of
+a man walking down a hallway, and
+essentially we asked for a reverse
+tracking shot of the man, and then a
+woman in the background basically walks
+behind him. And so, this is what we got
+from Flex 3.
+I think this man is about to be
+murdered. I don't know why that woman is
+being so weird in the background. And
+there's also some just artifacting there
+that I just don't think you would be
+able to work around inside a
+professional workflow. Now, let's
+compare that against the same generation
+inside of SeaDance.
+And the woman just appears out of
+nowhere in the boardroom there. So,
+that's not exactly what we're looking
+for. And here's the same generation in
+LTX.
+I think that's the same woman. So, uh
+yeah, she's definitely a ghost, and this
+guy again is about to be murdered inside
+this scene. For this next example, we
+just prompted for a baby panda falling
+down a grassy hill, and this is what we
+got in Flex 3.
+That is a very flexible uh panda {slash}
+transformer we got here. This is the
+same generation inside of SeaDance.
+Maybe not realistic, but very, very
+cute. And this is LTX 2.3.
+>> [laughter]
+>> Getting some uh handsome Squidward
+falling vibes there. I don't know if any
+of those did an amazing job, but C
+dances a little bit better. Now, for
+this next example, we prompted for an
+influencer marketing video talking about
+a brand new kettle, and this is what we
+got from Flex 3.
+>> Okay, this Breville kettle is actually
+insane. It heats water so fast.
+>> Okay, I think we just kind of skipped to
+being a commercial there at the end.
+There is some weird stuff, but it's kind
+of interesting. This is the same
+generation from C Dance.
+>> Okay, this Breville kettle is actually
+insane. Boils in like a minute.
+>> Okay, okay, she's very excited. And then
+finally, we have the generation from LTX
+2.3.
+>> Okay, this Breville kettle is actually
+insane.
+Boils in like a minute.
+>> Yeah, that Breville kettle is actually
+insane because it transforms from a
+phone to a kettle with water in it. So,
+yeah, actually that is a very accurate
+assessment of what that kettle is all
+about. And obviously, as you can see, I
+think again the physics from C Dance are
+better, but in this case, I actually
+think Flex 3 did a better job than LTX.
+And then finally, we did a multimodal
+test where we uploaded reference video
+of me talking to the camera, and then
+asked it to create an intro for that
+scene. So, Flex 3 has the ability to
+take video as an input reference and
+generate a video in return. Basically,
+we prompted for a crazy scene to unfold,
+and then it ends with the following 3
+seconds of video.
+>> Throughout the course of film history,
+>> So, we prompted for that crazy scene to
+unfold inside of Flux. Here's the
+result.
+Okay, I don't know if that's supposed to
+be me there. I'm not entirely sure what
+happened, but the physics were cool in
+some parts and then in other parts it
+looked pretty hokey. So again, I don't
+know if it's silver screen quality and
+it's not really an omni model in the
+classic sense that we're used to inside
+of tools like seedance. But speaking of
+which, let's take a look at these same
+generation from seedance.
+>> [panting]
+>> We just find a good to stare at they
+>> matter.
+>> Okay.
+>> [laughter]
+>> I don't know what words he's saying
+there, but you get the idea. The
+physics, the overall realism of the
+entire scene just looks so much better.
+So after a quick analysis, it kind of
+seems like Flux 3 is probably not the
+best tool, but we'll do some more tests
+and let you know if that changes. I want
+to give a huge shoutout to everyone who
+attended our AI filmmaking meetup at
+SIGGRAPH 2026. We had so many members of
+the Curious Refuge community there.
+Thank you to everyone who showed up and
+talked about how our training and
+community has impacted your life. It
+means a lot and it was a lot of fun.
+Now, on that note, I do want to let you
+know that we have just announced a brand
+new course called AI for YouTubers that
+will be dropping on July 29th at 11:00
+a.m. Pacific time. If you've ever
+dreamed of growing a YouTube following
+into a thriving community, this is the
+course for you. The course will cover
+everything from research and strategy
+all the way to launching your channel
+and making money. Plus, we're giving you
+a peek behind the curtain into how
+Curious Refuge has grown into a thriving
+global community and give you mentorship
+and coaching along the way. You can
+learn more by clicking the link below
+this video and I do want to let you know
+if you are a member of Curious Refuge,
+you will automatically have access to
+this brand new course. Last week we
+talked about a workflow where you can
+use a depth map to have greater control
+over an individual video clip. Well,
+this week we actually wanted to test it
+one step further to see if you could use
+depth maps to create storyboards that
+were more accurate inside of Seed Dance.
+A lot of times if you're working on a
+storyboard and you upload it to Seed
+Dance, it can kind of skip over some of
+the shots. So, we're actually curious to
+see if this workflow actually made it
+easier to have more control over the
+output. To pull this off, let's set the
+stage. So, I have this shot of this
+environment here and I want this
+character to be riding this lion with
+wings here. And so, we put all of those
+images together inside of Nano Banana
+Pro and generated this specific image.
+So, this is the starting image that
+we're going to be working with. And we
+also created this character sheet of
+both characters in order to have
+different angles for the generation
+inside of Seed Dance. Again, this was
+generated inside of GPT-2. So, I have
+two different storyboards here. So, we
+have this three-panel storyboard of this
+guy as he's flying around this
+environment. It's basically nine
+different shots. And then we took the
+same panel and ran it through Seed Dance
+to create a depth map that looks like
+this. So, the big question is which one
+was actually better for generating the
+scene? So, let's start with the one that
+actually used the storyboard.
+>> Okay, I don't know if I really feel any
+sort of emotional tension in that scene
+and there's absolutely some continuity
+errors, but it was fairly accurate to
+the storyboard that we uploaded. So
+maybe it did a good job, but let's
+compare that to the depth map approach.
+So let's break down both of these tests.
+So we're inside of Dreamina to pull this
+off and we have three different images.
+We have our environment, we have our
+character sheet with both of our
+characters, and then finally we have our
+storyboard. And so we prompted for a
+multi-shot storyboard that uses all of
+these images together to pull off the
+scene. And in the second example, the
+only difference is we replace the
+photorealistic storyboard with the depth
+map. So let's take a look at the
+results. This is the first generation
+using the photorealistic storyboard
+technique.
+>> [music]
+>> And as you can see, some of the shots
+are okay and some of them get kind of
+wonky. There's not a lot of emotional
+tension happening inside of the scene.
+It's being very linear in the way that
+it put it together, which could be a
+good thing, but I think for this
+specific generation, it's not the best.
+So let's compare that now to the
+generation that utilized the nine-panel
+depth map image to pull off the result.
+Awesome. So that looked very good and
+there's definitely still some continuity
+errors, but it did a much better job at
+weaving the overall scene together. Now,
+where some filmmakers may not love this
+specific workflow is it gives more
+interpretation to C dance, but it also
+allows C dance to create a more robust
+3D world to actually pull off the shot.
+So, rather than you uploading a very
+specific shot-by-shot storyboard that is
+following that storyboard 100%
+accurately, it's giving a little bit
+more wiggle room so that the generator
+can render out the 3D environment and
+create more continuity between your
+shots. But, this workflow is actually
+really interesting if you have a little
+flexibility in what the output actually
+needs to be. If it needs to be shot for
+shot exactly like the storyboard that
+you're uploading, this is not the best
+workflow for you. But, if you want to
+have the best physics and the overall
+continuity inside of your scene, which
+is one of the bigger problems you're
+going to run into in an AI workflow, it
+does seem like this approach can help
+solve some of those environmental
+problems. The team at Netflix has come
+out and said that they've used
+artificial intelligence in over 300
+productions. The team said that it's
+been used in everything from
+pre-production to visual effects and
+post-production. I think big companies
+like Netflix coming out and saying they
+are using AI inside their productions
+only helps to validate this technology
+in professional workflows. Now, speaking
+of professional workflows, the team at
+Adobe released a report this last week
+that you can download for free. I highly
+recommend checking it out. They're
+calling it their creators toolkit
+report. Essentially, they interviewed
+16,000 creative professionals to ask
+them about AI adoption inside their
+professional work. 87% of the people
+surveyed said that AI has accelerated
+the growth of their business or follower
+base, and 75% said that it is now
+essential to how they work. About 57%
+said that the outputs still require some
+editing, which totally makes sense. But,
+that means that 43% of the people are
+not editing the outputs, and they're
+getting exactly what they're looking for
+from these AI tools. There's a ton of
+other takeaways inside of the document,
+but long story short, from the creators
+that they interviewed, it sounds like
+people feel like they now have the
+ability to compete with larger studios
+because of the empowering way the tools
+are helping them. The music streaming
+platform Deezer, which is kind of like a
+competitor to Spotify, came out this
+last week and said that over 50% of the
+music that is submitted to their
+platform is AI generated. And we've seen
+this across the board, even on the
+larger platforms like Spotify, AI music
+is increasingly all over those
+platforms, and you would never even
+know. In fact, the team at Deezer
+actually did a survey with their
+community, and 97% of the people could
+not identify which song was created with
+artificial intelligence. I think that
+news like this reinforces the fact that
+it's not just outputting the creative
+piece, it's all of the storytelling that
+goes into it and connecting with that
+audience that actually is going to help
+your work stand out from the crowd. It's
+no longer enough just to create
+something that's a spectacle, you have
+to have perspective and storytelling
+underneath to get people excited. We
+also saw a report this last week that
+said LinkedIn has become the most AI
+saturated social media platform, and I
+can absolutely attest to that. LinkedIn
+is covered with AI post. And two quick
+tips, if you're trying to identify if
+that LinkedIn post was generated using
+artificial intelligence, look for those
+em dashes, and if they're using emojis
+as bullet points, it's AI generated. I
+want to give a shout out to our members
+here at Curious Refuge who recently
+finished their membership build
+challenge where they put together a spec
+ad for a sneaker company. We saw so many
+incredible projects from creatives
+inside the platform. And the reason why
+this is so cool is it was actually
+inspired by somebody who reached out to
+us looking to hire artists. We found
+that so many people are very passionate
+about wanting to work with big name
+brands and on big projects, but they
+simply did not have the portfolio to
+showcase their skills. So, we want to do
+more membership build projects like this
+in the coming months. There are a ton of
+AI filmmaking community meetups
+happening all around the world. We're
+hosting a meetup in Vancouver on the
+25th with special guest Dale Williams,
+who goes by the real robot online. He's
+a pioneer in the space. I highly
+recommend coming out and picking his
+brain because he's a fantastic artist.
+We're hosting a meetup in Denver on the
+25th of July as well. We're in Dubai on
+the 30th of July, and we're back in LA
+on August 5th. You can RSVP for all of
+these events and see more events
+happening in your area by clicking the
+link below this video. Now, if you don't
+have the ability to attend an in-person
+event, we do host a weekly live stream
+Q&A session with Adam here on the
+Curious Refuge team every single
+Thursday along with regular live streams
+and events on Tuesdays. In fact, this
+last week, we hosted a live stream with
+Ludovic Nastasin, who broke down a ton
+of AI visual effects workflows. You can
+find more information below this video.
+And the final bit of news that I thought
+was really cool is the team at Anthropic
+is offering up to $50,000
+in research grants to people who are
+researching rare diseases. The context
+is there's over 7,000 rare diseases in
+the world that affect 400 million
+people, but a lot of times these
+specific diseases do not get the funding
+required to actually try to find a cure.
+So, the team at Anthropic is giving
+funding to help with medical research.
+Thank you so much for watching this
+week's episode of AI Film News. And of
+course, as always, if you want to get
+the latest AI filmmaking news sent
+directly to your inbox, just click that
+button in the top right corner of the
+Curious Refuge website. We'll also send
+you a free intro to AI filmmaking course
+just for signing up. Thank you so much
+for watching. Be sure to like and
+subscribe. We will see you in the next
+one.

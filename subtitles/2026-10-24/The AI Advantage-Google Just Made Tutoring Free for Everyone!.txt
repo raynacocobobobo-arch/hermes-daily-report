@@ -1,0 +1,214 @@
+UP主：The AI Advantage
+标题：Google Just Made Tutoring Free for Everyone!
+链接：https://www.youtube.com/watch?v=uaMbKQIOtwk
+
+Okay, so Google is reworking their
+Gemini product and as a part of that we
+had a big release recently called Gemini
+study notebooks. And I think this is
+really significant because one-on-one
+tutoring is just one of the big things
+that has been available to people who
+can afford it while everybody could
+benefit from it. And I think study
+notebooks actually doesn't just close
+the gap for people who cannot afford
+tutoring. It's also a brand new way to
+think about topics, to learn about
+topics, and a way to interact with
+information. This workflow is unique and
+Google is trying hard to bring unique
+things to Gemini to compete. So that's
+why today we'll be looking at, well, a
+brand new study notebook feature. And
+the best part is that you can complete
+everything I do in this video for free.
+So, if you have a Google account, you
+now have access to this private
+one-on-one tutoring app. And it's a
+concrete feature that you're looking for
+called Gemini study notebooks. So let me
+show you how to get the most out of
+this. So, study notebooks, they're
+basically a new type of notebook. You
+might already be familiar with notebooks
+from NotebookLM. However, this now lives
+inside of the Gemini app. And notebooks
+are basically like a folder that you put
+certain files and sources into, okay?
+They're customizable compartmentalized
+spaces. Try saying that one five times
+in a row. Customizable compartmentalized
+spaces. Customizable compartmentalized
+Not bad. These spaces let you customize
+the context, upload sources, and keep
+your chats siloed off from the rest of
+the chats in your account. It's silo,
+okay? So, while study notebooks might be
+a new type of notebook, they're still
+siloed and these help you build a study
+plan, but not just that, they really
+identify the gaps in your knowledge and
+that's why I love these so much. So,
+you're going to see these are useful in
+many scenarios. It's not just for
+studying for university. It's literally
+just if you're exploring something where
+you're not sure what you know and what
+you don't know, these are useful. So,
+let's get you set up. So, as I
+mentioned, all you need to do this is a
+personal Google account and And works
+only on the web right now. So, pull up a
+desktop computer or a laptop to see this
+feature. Once in gemini.google.com/app,
+here you click new notebook and this is
+the interesting piece. You'll see two
+options. One's a regular notebook and
+the other one is this new option called
+study. That's what this video is about.
+We'll select study and now for the
+topic. Let's go with something a lot of
+people search for, SAT prep. If you're
+not familiar, it's a standardized US
+test before college. It's just a large
+thing that people are learning about and
+moving towards. Now, you could obviously
+recontextualize this to your life. So,
+type something like help me prepare for
+the SAT reading section. That's a
+concrete piece of the SAT test. And if
+you have any notes, PDFs, maybe a
+practice book file sitting in your
+Google Drive, this is also where you'd
+upload them and Gemini will build your
+plan around that material. You can add
+websites, you can add YouTube videos.
+All of these things can be added here in
+sources and think of it as just curating
+a folder of stuff that is relevant to
+what you're learning. Okay, from here,
+Gemini is going to follow up with a
+question or two to help narrow things
+down. It's important you answer these
+accurately and then as you confirm, give
+it a few seconds to finish setting up
+and voila, there it is. One important
+thing to note, once you create a study
+notebook like we just have here, you
+can't go back and you can't change the
+goal. You would need to create a new
+one. Now, this video is about using AI
+to work with you, right? You're
+improving your knowledge side by side
+with AI, but I know that many people are
+interested in AI working for you where
+you let it do something and it plans it
+all out and just does it. And the
+interesting thing is that just recently
+this has become very feasible for mere
+mortals that are non-technical.
+Concretely, I'm talking about the new
+feature ChatGPT work and if you haven't
+tried that yet, that thing can do work
+for you. You just have to know what to
+ask and exactly for that reason I
+created a resource with my top 10 use
+cases that you can run through ChatGPT
+work. Some of them free, some of them
+require the $20 plan, but if you're
+interested in that, I put all of that
+into a PDF that you can get from the
+first link in this video's description.
+It's free, so get it right now and now
+let's get back to our video about Gemini
+study notebooks. So, once in is ready,
+this is where the interesting part
+begins. The first thing you'll want to
+do is click take quiz. This is not a
+test you're trying to pass. Think of it
+more like a calibration or a new tutor
+figuring out where you're actually at
+and where the gaps are. So, go ahead and
+work through the questions as they come
+up, and once you're done, you'll get a
+score. But, honestly, don't get too hung
+up on the number itself. The real value
+here is how it adapts your notebook
+based on the results of the quiz.
+Because now in the next step, you land
+on your dashboard. And this is where
+study notebooks really shows what it can
+do and what I'm so excited about this.
+Everything you just got quizzed on gets
+sorted into three buckets: strengths,
+focus areas, and not started. So, behind
+the scenes, Gemini's actually tracking
+over 100 different specific skills, not
+just handling one overall grade. And
+that's what makes this plan that this
+creates for you genuinely personalized
+and your progress tangible. From here,
+you can click on one of these focus
+areas, and this kicks off a short
+personalized lesson built around
+gap. This is where your learning begins.
+When you work through this, at the end,
+there's a little follow-up quiz to see
+if you actually got that information. If
+you score well, and that topic will flip
+from focus area over into one of your
+strengths. You're up, and your dashboard
+changes. This makes it feel like a
+little game where you're just
+progressing towards growth and this
+knowledge area. And that's really the
+core engine of this whole tool. You set
+up your notebook with a topic, and then
+you work on moving these focus areas
+into your strengths. You take a lesson,
+you complete a quiz, and your dashboard
+updates. And then you repeat. Okay, so
+that's the core, but here's one thing
+that is easy to miss about these. Well,
+you'll have to step right outside of the
+core application here. Just go to
+notebook.lm.google.com,
+and within here, you get more
+functionality, and all these notebooks
+basically carry over one to one. So, you
+can just go in here, select that
+notebook, and you can see the same
+sources on the left, but here on the
+right side, this is different. You can
+now create these different short videos,
+audio overviews, and presentations, all
+these different formats based on your
+sources. So, it's the same sources, same
+notebook, same silo approach to the
+information that you put into those
+sources, but the goal and the output is
+different. You're creating these
+different media formats rather than
+trying to increase your own knowledge.
+Personal favorite, audio overviews. It
+basically creates a little personalized
+podcast for you. Also a great way to
+learn about something and then maybe you
+can go back into the study notebook and
+take the quiz without even doing the
+lesson cuz you consumed the podcast.
+Again, fully optional. Study notebooks,
+it's just a new modality in AI that I
+think it's really interesting. If I had
+a kid, I would show this to them right
+away, but I do recommend you try it
+yourself so you get a feeling for what
+the future of learning might look like
+once AI gets involved in the mix because
+this is a powerful product, but it's
+really just the beginning of a new world
+where everybody can get something akin
+to one-on-one tutoring eventually. All
+right, my name is Igor and I hope you
+have a wonderful day.

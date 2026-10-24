@@ -1,0 +1,344 @@
+UP主：Theoretically Media
+标题：Kling 4! Gemini 4! ElevenLabs v4! Ideogram 4.5! Everything Goes Four!
+链接：https://www.youtube.com/watch?v=U9tFP81PSbQ
+
+Well, today four is your lucky number
+with big AI updates across all the
+modalities. Today I'm taking a first
+look at Cling 4 with some tests to see
+where it lands. Speaking of four, Google
+is back with Gemini 4, Return of the
+King. We'll see. Plus, more four themed
+updates from Ideogram and 11 Labs. Yeah,
+four. It's a bit of a theme today.
+Kicking off. Well, it has been a minute.
+Cling. Uh the last big version jump for
+from the big K was back in February with
+the release of Clling 3.0. Now we did
+get 3.0 Turbo in June, but yeah, as far
+as a whole new generation goes, yeah, I
+mean it has been a while. Obviously,
+there has been a lot of anticipation for
+the V4 model and as of now, we have it.
+Well, kind of because yes, Cling 4 has
+entered early access, although the wider
+rollout is still yet to come. And yes,
+sadly, uh, this is the Flash model.
+Flash's initial roll out is for Ultra
+subscribers on the annual plan. To be
+fair, this is not uncommon for Cling.
+And, uh, we'll see a full roll out with
+the, you know, the larger Big Daddy
+model uh, planned sometime in October.
+But in the meantime, well, let's take a
+look at at 4 as it stands today. Kicking
+off on the texttovideo side with our man
+in the blue business suit about to get a
+jaywalking ticket.
+So, overall, I mean, for text to video,
+not not so bad. Um, there is some like
+weird actions in there, like uh the
+police officer with this motion. I don't
+I don't know what that is. I definitely
+didn't prompt for it. I think he's like
+trying to ID him from a photo. Again, I
+didn't prompt for it, but uh yeah, I
+mean, overall, pretty solid. Uh let's
+move on to our other standard image to
+video test of our uh FBI agent uh having
+coffee in a Pacific Northwest diner.
+>> That's a damn fine cup of Joe.
+>> But how's the pie?
+>> It's really good. It's an old recipe
+from the log lady who got it from the
+owls.
+>> Overall, not too bad. The reason like
+the benchmarks for this test are really
+two things. One, can it handle all of
+that dialogue, which in this case it
+definitely did with room to spare. Uh
+and secondly, that in the initial image,
+obviously the waitress's back is turned
+to us. So, you know, when she turns
+around, the model essentially has to
+invent her. Uh, and I think it did a
+pretty good job here and more than that
+managed to hold stylistic consistency,
+you know, throughout the scene. Now, I'm
+not going to discount the fact that
+you're probably going to see some
+decoherence in these, but remember, we
+are looking at the fast model. Uh, we'll
+talk about the, you know, the big the
+big daddy model in a little bit, but in
+the meantime, moving on to the Omni side
+of things. You know, each of the models
+all have sort of different takes on a
+character in their omni and reference
+modes. I do have to say when it comes to
+flamethrower girl, uh, Cling's like omni
+version of her has always been one of my
+favorites. So, uh, you know, I figure
+let's let's give her a roll and bring
+her home in version 4.
+Oh, you guys didn't forget my birthday,
+but I got to blow out the candles for my
+wish.
+Nailed it. So, biggest issues with this
+generation are that when she, you know,
+when she first walks in, obviously the
+candle is lit on the birthday candle.
+Additionally, I'm sure that someone out
+there is upset that the candle itself
+didn't melt. Uh, you know, when she
+basically like flames over the entire
+tabletop. At the same time, of course, I
+want to point out that it's a pretty
+silly prompt. Uh, the other thing I did
+want to note with this particular
+generation is the uh, you know, the
+somewhat improvement in spatial
+awareness. uh when she walks in uh our
+kitchen sink is here and then later on
+in the generation kitchen sink is in the
+same location. So I we pretty well done.
+Speaking of locations, I figured this
+would be a good chance to check in with
+uh Tuesday Sinclair uh Mallaloy who I
+did cast as Tom once again. Something
+kind of interesting happened here in of
+course like in Mallaloy's office uh for
+our cinematic noir scene.
+>> Mr. Mr. Mallaloy, I hear you're a
+detective and I'm in need of one.
+>> You heard wrong. I'm done taking cases.
+>> I think you'd be interested in this
+particular one. It's a murder, but the
+thing is it hasn't happened yet.
+>> Oh, yeah. Who's getting iced?
+>> Well, that's just it.
+You are.
+>> Well, you have my attention.
+>> So, a few things to note about this
+particular generation specially. I mean,
+I think it holds up. um you know it's a
+it's pretty simple in terms of like
+camera setups but um you know uh ey
+lines match so there's that do want to
+note that interestingly for whatever
+reason uh Kling's Omni model decided to
+put um Tom into a gray jacket uh that
+was actually that was not provided uh
+nor was it called out for in the prompt.
+I will say that video quality albeit it
+is only 720 right now is pretty good
+personally I mean I do find the
+performances to be a little bit on the
+flat side. That said, the big win here
+is that Cling 4.0 does seem to have
+solved that lip sync drift problem that
+was like just plagued Cling 3.0.
+>> It's really good.
+It's an old recipe from the log lady who
+got it from the owls.
+>> Now, on the performance side, and this
+is something that I do have to dig more
+into, but I think you can improve it by
+utilizing a method that I've been using
+a lot more, which is uh, you know, kind
+of combining key frames with an omni
+reference. you're kind of getting the
+best of both worlds. Uh, and for uh, you
+know, key frame referencing, uh, 4.0
+does allow up to 10 references.
+>> You're standing in my light.
+>> I'm looking for a monster that took a
+little girl.
+>> You're not the first to ask tonight,
+but I think you're the one that will
+bring her home.
+Here, you'll need this.
+>> How much?
+You'll pay me on the way back.
+>> Where do I find it?
+>> Down the alley to the left. Whatever you
+do, don't take off the cross.
+>> So, aside from some edit timing issues
+at the beginning of the clip, I mean, I
+do think that this one holds together
+pretty well. Uh, you know, my my running
+theory is that by providing it key
+frames uh for your characters, it kind
+of gives a the model a better grip on
+what the performance should, you know,
+should should feel like. So yeah, I mean
+overall an early look at Cling 4.0.
+Maybe not the Sea Dance Killer that some
+had hoped for, but I'll definitely roll
+back with a deeper look at everything
+once, you know, essentially the big
+daddy model drops. Meanwhile, and
+staying on video for just kind of a
+quick one. Uh Heyen have released Hey
+Gen Video. This is their first uh
+general purpose video model. It is
+another one that is built off of Miniax
+H3. We are definitely seeing a lot of
+those. But hey Jen's pitch here is that
+it is cheap and fast. And I do mean
+really cheap. Pricing starts at 1 cent a
+second. I do want to point out that this
+is just a 50% off launch sale going
+through the end of October. So, uh yes,
+the the the regular price is 2 cents a
+second. I do want to point out that this
+1 cent offer uh is only 480. So, you're
+like, "Ah, I got you there." Um but the
+720 version or well 7.68 um is actually
+a cent and a half during the sale. So,
+uh, you know, 3 cents normally. So, I
+mean, I really can't get mad at that.
+Now, I haven't tested it out, but you
+know, it is a Miniax H3 fine-tune, so
+you know, you can kind of figure where
+it's going to land. Uh, it is currently
+available via their API and, uh, comfy
+UI and Hey Gen's web interface will be
+coming later. Moving on, the Giant
+Awakens. Yes, Google has returned with
+Gemini 4 sort of. Google have announced
+Gemini 4 Argon, which I'm not going to
+lie, initially when I saw it, I thought
+it it was uh I thought it was Aragon and
+I just kept thinking to myself, and that
+is bold. I mean, very bold, but no, it
+is Argon. And you know, to note, once
+again, this is more on the announced
+side as opposed to the widely released
+side. Uh and at the moment, you know,
+what we're looking at is benchmarks. Uh
+the benchmarks are impressive, but also
+they are benchmarks. Now, what do those
+benchmarks say? Well, of course they say
+that Gemini 4 is ahead of OpenAI and
+Anthropic. What I mean, what else do you
+think it's going to say? Now, I do have
+to point out that when it comes to all
+of these benchmarks, that one of the
+secret powers of, you know, Gemini in
+general is its video understanding. And
+in this case, uh, 4 does look to be
+pretty impressive, scoring a 91.7 on
+LVB, which is the test for long- form
+video comprehension. Now, as to when
+this rolls out more broadly, well, we we
+do not know, but I mean, it's no secret
+that Google has been kind of stuck in
+flash land, at least since Google IO.
+So, it's nice to see a flagship model
+finally on the verge of being widely
+released. And I mean to me the bigger
+thing is what what's behind it, what's
+going to follow it because the big guy
+model will create some momentum behind
+you know the creative stuff that we use
+stuff like you know Nano Banana 2 Pro
+possibly a Genie update and if we're
+lucky Google decides to get back into
+the video race and we'll see more of a
+major push with the like Omni model or
+VO or omni VO or whatever it's I mean
+who knows with Google naming
+conventions. Other spot that I'm curious
+to see what Google has in store is to
+match this new class of like aentic
+assistants rolling out like Muse and
+Open AAI's dot. Uh they had previously
+released Gemini Spark, but I mean let's
+face it, that wasn't it. In the
+meantime, rolling out of the Google
+section. And speaking of Nano Banana,
+poor one out for the OG. Yeah, Google
+has scheduled the shutdown of Gemini 2.0
+2.5, I'm sorry, Flash Image, uh which
+was like the our first taste of the
+banana. This is like Nano Banana 1. Um,
+so that is going away in the Gemini API
+on October 2nd. Moving on, another quick
+hit on the image side. Uh, Aiogram 4.5
+has released and the focus here is on
+more precise editing. To be honest, I
+haven't gotten a ton of time to play
+around uh, with 4.5 as of yet. But, I
+mean, Aiogram has been it's always been
+a really solid model for me, but I
+definitely wanted to give the editing
+capabilities a shot here. So, I pulled
+up this image uh kind of kind of funny.
+Uh this was generated in audiogram about
+10 months ago and clearly around the uh
+the time of Gemini uh 3's release. Um
+you know, overall a lot of the well
+10-month-old uh the AI image problems, a
+lot of like garble text here. Um it did
+get almost almost whatever that prompt
+was correctly uh minus the fact that
+it's we're so ocoped. So, making some
+text edit corrections on this uh and uh
+throwing in a image of flamethrower girl
+because why not? Just updating that uh
+that user profile. Um yeah, I mean
+pretty solid. Yeah, well done audiogram.
+I'll definitely keep writing some tests
+on this one. Um Adio, they've always
+been super solid. I definitely don't
+think that you should sleep on this one.
+So, um yeah, I'll let you know uh as it
+works its way into my workflow. Finally,
+rounding out on the audio side, 11 Labs
+have released 114 along with a turbo
+version for real-time voice and agents.
+Dialogue and sound have obviously been a
+bit of a bane uh at this point for AI
+video. So, it is nice to see 11 Labs, I
+mean to be honest, kind of catching up
+with seed audio 1.0. So, with 11 Labs
+V4, you can put in well natural language
+direction uh directly into the script.
+And 11 Labs does say that the new model
+is better at following those
+instructions, including things like
+laughter and sound effects. So, I
+figured this would be a good opportunity
+to return to a test we ran uh a while
+back. I think that we did this with Seed
+uh 1.0. Um, essentially the opening to a
+high fantasy uh audio novel.
+>> At the northern watchtower, snow
+whispered through the arrow slits. The
+old watchman kept vigil beside a green
+flame.
+>> God, it's freezing. Why are we guarding
+a fire that gives no heat? That's not
+what the flames for, lad. Then what's
+it? Don't stare into the flames.
+>> The boy looked away. Something in the
+fire kept watching.
+>> Overall, this is another one that I'll
+be digging more into. I think that audio
+references in Omni Video models are
+going to be a pretty big thing as it
+does seem to be a while for video models
+to catch up on the audio front. 11 Labs
+V4 is available now, including on the
+free tier. So, yeah, head over, go check
+it out. So, that's it for today, but
+overall, I mean, impressive updates
+across the board. Uh, you know, starting
+to get a little bit toasty here in AI
+Fall. And the leaves haven't even
+started changing color yet. Although, I
+guess once Zuck has Metav Vision
+strapped to all of our faces, yeah, we
+could probably just edit them in. As
+always, I thank you for watching.

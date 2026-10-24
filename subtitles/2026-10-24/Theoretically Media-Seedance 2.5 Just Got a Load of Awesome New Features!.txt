@@ -1,0 +1,539 @@
+UP主：Theoretically Media
+标题：Seedance 2.5 Just Got a Load of Awesome New Features!
+链接：https://www.youtube.com/watch?v=ky9Gj5N3wyQ
+
+Big news from ByteDance and Dreamina on
+the SeaDance front. It is not SeaDance
+3.0, just to be clear. But Dreamina has
+rolled out some long-awaited SeaDance
+features and some I actually really big
+quality of life features to their
+platform. Uh and today we're going to
+take a look at those. Plus there's a new
+feature that's currently in preview, but
+it's one that I and you have been
+waiting for. All right, let's go out
+dancing.
+Kicking off, Dreamina have unveiled a uh
+well, there's a pretty big update to
+their platform. Dreamina of course being
+the western home to SeaDance both 2.0
+and 2.5. Uh and like to be fair, this is
+a pretty long overdue update. Uh first
+and maybe biggest, they have finally
+introduced their own murder board. Now
+admittedly, this isn't entirely new.
+They have had their canvas feature up
+for a while. They've just made some
+massive improvements to it. And look, I
+know that no base workflows are not
+everyone's cup of tea. I I do want to
+know that you can still do it like the
+old way, but this is here if you want.
+Alongside that, they have revamped the
+AI assistant over here. Uh basically,
+you know, the the chatbot in the canvas
+system. Uh to be fair, once again, the
+canvas system did have the old AI
+assistant in here as well. It's just,
+you know, early on, uh in my opinion, it
+it just wasn't very good. It was it was
+actually pretty stupid. To their credit,
+Dreamina does seem to have up their game
+on this front. I wouldn't call it
+perfect, but it's definitely drastically
+improved. And there actually there are
+some surprises here as well. Uh for
+example, if you want to generate images
+on the canvas, uh you're not just
+limited to the seed uh dream models. Uh
+you actually can use uh GPT image 2 and
+nano banana pro. No sign of image 2.5
+yet. That that would be a nice addition.
+If you want to generate audio, of
+course, uh seed audio 1.0 is here. Um
+we're going to take a look at some of
+the other stuff in here, too, cuz
+there's some cool stuff in here. But uh
+on the video front, of course, there is,
+you know, uh all of our various uh seed
+dances. But uh surprisingly, actually,
+this one really surprised me. Uh, Mini
+Max H3 is available here as well. So,
+just taking it out for a quick spin, I
+took our PI office along with our
+character of Tuesday Sinclair. Uh, and
+then usually we have uh, Malloy in here,
+but in this case I just recast him as
+James uh, from uh, Death Walks into a
+Bar.
+Um, again, you know, just all three
+nodes going into this and then using the
+chat system, uh, I essentially just gave
+it the transcript of the first version
+of this scene uh, and said like like
+let's let's redo this with these
+characters. Uh, this is what we got.
+>> Mr. James?
+>> Can I help you?
+>> I hear you're a detective and I am in
+need of one.
+>> Detective? No. Gumshoe, maybe. Got a
+pretty good nose.
+So, what's the case?
+>> It's a murder.
+But the thing is, it hasn't happened
+yet.
+>> You don't say. Who's getting iced?
+>> Well, Mr. James, you are.
+>> Well, that's certainly a way to get my
+attention.
+I didn't catch your name.
+>> Tuesday. Tuesday Sinclair.
+>> If I hadn't taken this case, maybe I
+would have lived to see Friday.
+>> Now, admittedly, nothing here that we
+couldn't do in a non-canvas version. So,
+uh, you know, pushing it forward and
+making it a little bit more intentional
+and challenging the board a bit, I gave
+it the material from our flamethrower
+girl / jungle girl uh, prompt reference
+stress test that we ran for C Dance 2.0.
+Uh, and it it actually ended up doing
+some pretty interesting things here.
+Now, interestingly, one of the first
+things that it did is it actually went
+through and created uh, basically like
+transparent PNGs for all of our elements
+and characters. Uh, I thought that was
+kind of interesting. Kind of just
+decided to do that on its own. Uh, from
+there, after discussing what we what I
+wanted, uh, you know, to accomplish with
+this uh, this little test, it basically
+ended up coming up with its own little
+uh, you know, brief on it and uh, asset
+list uh, and it's actually, you you a
+breakdown and plan for the generation.
+Very interesting side note here is that
+it decided to name flamethrower girl
+Lyra, which is not her name. That's
+actually the name of our barbarian from
+the bridge. Now, I don't know where it
+pulled that name from considering that
+the bridge was not generated on
+Dreamina.
+That's it. I mean, nothing
+conspiratorial. Somewhere in past
+generations, I probably used the name,
+but I do I did think that was pretty
+interesting. Anyhow, so what we're
+looking at here is actually not the
+original plan that it came up with.
+We'll talk about that a little bit
+later, but these are the initial three
+generations that it came up with because
+it's initial plan was like, "Hey,
+instead of doing one 32nd generation, I
+want to do this as 10 separate C 2.5
+generations."
+And admittedly, I was not keeping an eye
+on it, so it decided to generate in
+16:9. You know what? Overall, I wasn't
+that happy with it. Actually, we're just
+going to run these MOS because well, I
+mean, I'm not overly in love with them.
+I mean, from a technical standpoint,
+nothing super wrong with this. It just
+it does feel a bit a little bit on the
+bland side. The other problem is that at
+this 10-second mark, we can see that
+we're supposed to cut then to the next
+shot, which would be this. So, there's
+kind of like this massive jump cut. The
+size of the idol completely changes. And
+then as she runs, you can see the idol
+just completely vanishes. Our third shot
+picks up. She's kind of in mid-roll. She
+does have the idol back again.
+Our guardian is chasing her, obviously.
+And she actually not not too much wrong
+with the back end of that. But, you
+know, overall, it's just not it's not
+going to cut together, and I'm not in
+love with it. So, experimenting around a
+bit more, I decided to give it the
+original storyboard breakdown for this
+stress test. Now, this was generated up
+in GPT image one. So, yeah, it has been
+a minute. And specifically, I told the
+agent like, "I don't want you to use
+this as storyboards, but rather use it
+as inspiration for your version of
+this."
+Actually, it's kind [clears throat] of
+funny. The The agent was like, "This is
+one of the best previews shot breakdowns
+I've ever seen." So, yeah. You know, the
+Dream Agent will gas you up. If you're
+feeling a little bit low, go have a chat
+with it. It'll make you feel better.
+Now, what I thought was pretty neat is
+that after providing it with the
+storyboards and kind of heading into
+this direction, that all of sort of our
+our shot planning and text stuff over
+here, that all auto updated. So,
+actually I thought that was actually
+very smart. So, you know, it just helps
+again keep everything organized and
+streamlined. Now, all that said, what we
+actually ended up getting out as a
+generation, well, I mean I do have
+notes. Let's take a quick look.
+So, yeah. I mean, overall it I mean,
+it's all there. Maybe not quite as
+kinetic again as like CDS 2.0, but
+that's that's just something that we
+I've noticed a lot with CDS 2.5. I will
+say that we've been running into like
+these problems with the glowing eyes. I
+mean, that was obviously the thing that
+stood out the most. And then we have
+this weird jump cut here. Now, that
+said, there is actually kind of a cool
+new edit segment feature over here in
+which we could scroll over to the
+glowing eyes. And then we can
+essentially prompt out of that. So,
+that's pretty handy. Now, that said,
+when I did run that edit, what CDS
+decided to do was just have her eyes
+closed the entire time. So, yeah. I
+mean, I got to admit that was that was
+pretty funny. It generally does just
+make me laugh when AI is like the
+ultimate snooty waiter. "Oh, you wanted
+her eyes open and not glowing? Well,
+sir, that is not what you ordered. So,
+ultimately, I mean, I do think that the
+canvas feature has significantly
+improved. Um but, when it comes time to
+actually, you know, prompting your shot,
+I think that that's a spot that you
+should take over manual control. So, um
+again, all of this stuff, I think it
+does a great job keeping all of that
+organized and pulling things together.
+Uh but, then ultimately, when it comes
+time to generating your shot, yeah,
+again, just go in and and manually take
+care of that or you know, use your LLM
+of choice. Uh for example, taking all of
+this and then just running it via my
+prompt.
+>> [sighs]
+>> And look, I mean, I'm biased, but I do
+think that that looks better. Quick
+quality of life feature that they've
+thrown in, we now have an elements
+folder. And while this is like uh you
+know, I haven't loaded this up with
+everything yet, but uh while this is
+very simple, uh like Kling has had this
+for ages. Um but, you know, essentially,
+I can put uh Tuesday Sinclair in here.
+Uh we can even give her a custom voice,
+which is pretty handy. Uh and then now
+in any prompt, anywhere across either
+the canvas or standard generation, I can
+just at Tuesday and then it'll
+automatically add her in. Uh plus, we
+have, you know, additional angles for
+her as well. Um again, nothing
+groundbreaking, but at the same time, um
+sorely overdue and uh very much
+appreciated. If you want to see how all
+of this can come together for a
+longer-form piece, um friend of the
+channel, PJ Ace, uh recently released uh
+Skyline Heist, I believe it's called.
+It's the uh it's a chapter from his
+Nexus Project or Nexus Universe, I
+guess. Yeah, I mean, it's very, you
+know, uh steampunk uh kind of vibe um
+heist film in the sky. No notes. So, as
+always with one of PJ's projects, um
+there is Oh, I mean, there's a lot going
+on on this board. Um so, you know, you
+can see essentially all of the shots uh
+generated, but I think that where you
+might find some value in it as well is
+if you start punching it like you you'll
+see like his version of uh character
+sheets here.
+Um so, I'll have to dig into this. This
+is actually it's a pretty good format
+for it. Now, this whole thing is
+definitely worth a gander um mostly
+because I mean, you know, you can sort
+of peek behind the scenes a little bit
+uh and see some stuff in here like uh
+PJ's got a a a note to the animator,
+which I guess would be essentially the
+board itself. Uh little outdated, I
+think he calls uh out uh 2.5 is limited
+to 720. It is 1080 now. Um but, you
+know, again, most of the information in
+here is uh is is is worth scoping out um
+to steal for yourself. Um he's also got
+an acting system in here. This might be
+a little bit on the outdated side as
+we'll see in just a minute because CD
+has now has kind of a micro acting skill
+that's in there, but still, you know,
+again, worth uh worth cribbing this. Um
+the other thing I think is like just,
+you know, valuable to look through. If
+you come down to generated videos down
+here, um it gives you an idea of
+essentially what he was using for uh you
+know, various elements. I know PJ is
+more of a um uh character reference
+sheet and like location or back plate um
+guy and then just providing very
+detailed prompts in terms of action as
+opposed to first frame, but um yeah, I
+think this gives Overall, there's just
+like there's a lot of really, really
+interesting stuff on this board that you
+can kind of like nick and and mine from.
+So, uh and definitely end up giving you
+some ideas of your own. The link to PJ's
+film is down below, and of course, uh
+the entire canvas workflow is over on
+Dream and uh Now, there are two other
+really interesting updates, uh one of
+which is currently in preview, so this
+is kind of like your first time looking
+at it, but again, I think you're really
+going to be appreciative of it. We're
+going to take a look at those, but
+first, a quick word from today's
+sponsor, our friends at GenSpark. Today,
+we're going to check in with our friends
+at GenSpark, who were kind enough to
+sponsor today's video. Specifically,
+GenSpark Design, which is a cool new
+feature that is worth showing you rather
+than just talking about. Overall, the
+idea is one prompt and it design, and it
+comes back editable, so you control it.
+So, as a quick test, I of course asked
+it for a poster for The Bridge. The
+process was actually pretty cool as
+well. I first had it like watch the
+film,
+and yeah, I mean, it proved that it
+definitely knew what the story was
+about, and then it followed up with a
+few questions. And that was followed up
+actually by another set of questions,
+which oddly enough actually ended up
+leading me into a direction that I
+wasn't even aware that I wanted when I
+first started this. So, we ended up in
+this cool spot here. Let me move into
+present mode over here, where
+we were kind of more in like an indie
+film kind of like, I guess, A24-ish
+style,
+which actually I mean, I thought kind of
+worked for this. Now, what's what's
+really kind of cool about this was that
+I can take any element here and just,
+you know, resize it or, you know, if I
+wanted to change the the font on this, I
+could. If I wanted to change the color
+on this, I could. If I wanted to move
+things around, I could. All of this is
+fully editable, so like there's no worry
+about having to go back and reroll the
+whole thing. But here's the big time
+saver is like you can take this whole
+same look and say something like, "Give
+me a whole launch kit for it." So, now
+we have assets in like 916 and 11 for
+various social media platforms. And I do
+want to point out that this was all done
+very conversationally over on this side.
+And on top of it, you can this was
+actually surprising to me, but you can't
+actually browse local files right from
+here, or you know, obviously you have uh
+GenSpark's AI Drive where you can put
+your files as well. Obviously, we can
+see that we have 916 uh sort of like,
+you know, poster versions of it. Uh it
+actually came up with these like YouTube
+thumbnails, which actually are really
+good. I actually like this title
+treatment a lot. Um
+and then uh oh, just a 1:1 Instagram
+post as well. Once again, all of this
+fully editable as well. Does anyone
+remember actually having to do all of
+that manually in Photoshop? I mean, that
+was a day. And now, here is the big one
+is that all of this does video now, too.
+Once again, we went through a series of
+questions as to what I was looking for.
+Um in this case, I went with kind of
+like a 10- to 15-second 9 by 16 like
+TikToky vertical thing. So, uh just kind
+of briefly chatting with it and giving
+it some direction, this is what it came
+up with.
+Now, admittedly not perfect, but also
+for a one-shot, I mean, not bad. I did
+like the music that it picked out for
+this. Now, if we want to take another
+path of the edit, again, we just we just
+chat with GenSpark Design. Now, all of
+that did kind of get me thinking since
+it has all of this context, could it
+design a web app for me? And yeah, after
+just a few minutes, we end up kind of
+with this applet web presentation sort
+of thing. We've got our video streaming
+here. Uh we just kind of can scroll down
+and there's our teaser again. We have
+all of our character images here. Uh
+obviously, down here, we can tweak
+anything that we want as well. Uh and
+then it provided us with uh a stills
+gallery as well taken from uh some of
+the uh screenshots from the film. Um and
+then we we have a like a download
+section. Again, all of this is editable
+and customizable. Now, while all of this
+is pretty cool for me, I mean, I think
+the where the real power of all of this
+comes is uh when you upload your logos,
+colors, and fonts as essentially your
+brand in and, you know, lock in a visual
+lookbook that is your own. Now, if
+you're looking for inspo or just a quick
+start, uh GenSpark Design, of course,
+does have a number of templates here
+available for you. So, uh great place to
+get started with your project. Uh also,
+all of these templates are totally free.
+Speaking of free, GenSpark does give you
+free compute credits every day you log
+in. So, you can try all of this today.
+Hey, a big thanks to GenSpark for
+sponsoring today's video. Link is in the
+description. Sliding back over to
+Dreamina and specifically on the
+generate side as opposed to the canvas
+side that we were looking at earlier.
+So, this is kind of like our regular
+usual like prompt goes in here, image or
+video references go here. Um there are
+some new things that they've added in.
+Um skills, namely. So, uh we have like
+an iconic film style over here. Um we
+have a skill for cinematic long takes.
+This is the thing that allows for longer
+than 30-second generations. To be
+honest, I don't really mess with that
+that much only because I mean well I
+mean that gets expensive. Um although,
+something pretty great about that coming
+up in just a minute. We still have a
+film storyboard uh skill and then the
+micro expression prompt, which is uh we
+kind of talked about that a little bit
+earlier with the acting thing. So, this
+allows for I guess like multiple
+uh emotional ranges within one prompt.
+Um so, there's a whole bunch of other
+skills that you can grab now as well. I
+mean I kind of read them as like
+pre-built markdown files. Um but, you
+know, definitely again something worth
+kind of going in and taking a look at uh
+or just, you know, utilizing just by,
+you know, hitting using chat. Now, all
+that said, what I think is super
+exciting for everyone is uh and again,
+this is in preview right now. So, um
+expect it to release at some point soon
+is uh we now have SDNS 2.5 for preview.
+So, what this will do is actually
+whatever you prompt in here will
+generate in SDNS 2.5 um
+at 480 for obviously a significantly
+lower price than it would cost you to do
+it in like 720 or 1080. So, giving it a
+quick whirl with uh channel fan favorite
+sniper girl.
+Again, we're running this in C Dance 2.5
+preview. So, this is a 480 generation.
+>> Got you, Clanker.
+>> Admittedly, kind of a weird generation
+there uh with the cross dissolve in the
+sniper scope. Um at the same time, I
+think it looks kind of cool.
+That said, again, 480, so there's not a
+lot that we can do with this in terms of
+upscaling. In fact, if you were to try
+to bring it up to 1080 or 4K, it
+probably look a bit of a mess. But, what
+we can do now is actually generate in
+full quality. And if we do so, C Dance
+will then re-render that clip at 1080.
+So, this is not upscaling it. This is
+actually a full re-render.
+>> Got you, Clanker.
+>> So, really this allows us to actually
+really hone in on a prompt as opposed to
+using one of the fast models. And
+obviously, if you try to use that exact
+same prompt in one of the higher level
+models, you're not guaranteed to get the
+same output. This time, you are. Now,
+I'm not exactly sure when they're going
+to be releasing this, but it is probably
+pretty soon. I mean, it's definitely
+past beta. It is in preview. So,
+I expect you to probably have access to
+this hopefully like within a week or so.
+I do think that we're on the verge of
+some pretty big ByteDance and C Dance
+updates as well. BytePlus has just
+introduced Dramagic, which is
+for it's actually more on the enterprise
+side, but
+it does is script analysis assistant
+setup, storyboarding, and video review,
+uh essentially all uh in, you know, one
+platform. Uh this one is uh in beta
+right now. There's actually a link um to
+request access down below um if you want
+to give it a shot. I should say that's a
+link to request access, not get access.
+Um so, I mean, I signed up for it, so I
+have requested access. Doesn't mean I'm
+going to get it. Uh the other kind of
+interesting thing is that there have
+been rumors uh going around lately that
+ByteDance is nearing the release of a
+its own world model. So, that should be
+very interesting as well. Definitely be
+keeping an eye out for that, and I will
+let you know as soon as I hear more. In
+the meantime, I thank you for watching.
+My name is Tim.

@@ -1,0 +1,584 @@
+UP主：OpenAI
+标题：Codex Has Left The Laptop | DevDay 2026
+链接：https://www.youtube.com/watch?v=XkKdbPhIvbY
+
+[applause]
+>> Hi everyone. My name is Dominic. I work
+on the developer experience here at
+OpenAI.
+Now Sam earlier launched around 20 or so
+new features.
+And between those and the roughly 300
+features that we launched over the
+course of the last year,
+the
+building with them has drastically
+changed how we build things at OpenAI
+and how many of you built.
+And I know this is incredibly hard to
+keep up. So over the next 25 minutes, I
+want to give you some practical examples
+how you can actually incorporate these
+things into your workflows.
+Because the fact is these features have
+drastically changed how we built and I
+believe they're going to change how you
+built.
+But I also know that it can be not just
+overwhelming but confusing how to
+actually build these things into your
+workflow.
+And ultimately, I want you to build how
+And ultimately, I want to make sure that
+you can use Codex anywhere the way that
+you want to.
+At the beginning of the year,
+I I don't know about you all but for me,
+it was pretty common to like run one or
+two tasks.
+But seeing Peter um
+>> [clears throat]
+>> have this tweet uh
+with like
+I don't know, 40 different Codexes
+running at the same time felt
+overwhelming. I could not imagine
+actually running that many tasks at the
+same time.
+But then we launched the Codex app and
+it made delegating and switching tasks
+so much easier.
+And since then, running multiple agents
+at the same time is almost the norm.
+And as models got better and more
+capable, especially around computer use
+and long-running work, we started
+handing increasingly more
+increasingly bigger problems off to the
+models, often running for hours or days.
+And as a result, we started carrying our
+laptops half open just to keep them
+running between meetings.
+And to solve that,
+I know about you all, but like how many
+of you ended up buying a Mac Mini
+or like a Raspberry Pi or even renting
+some VPSs just to keep your agents
+running.
+But more machines means that you have to
+deal with more upkeep, more disk space,
+dealing with updates, overall capacity
+that you need to manage, and every time
+you want to do more, you have to procure
+more.
+But delegating work should be as easy as
+just telling Codex to do something, and
+it picks up the work regardless of
+whether you have to like go and procure
+more computers.
+Cuz ultimately, you should be able to
+use the Codex harness in whichever
+interface you want to use
+and choose where that work runs for you.
+So that you have the opportunity to
+adapt the workflow
+um to
+to adapt the workflow to your needs, and
+as agents and models become more
+capable, continue to keep up with that.
+And so today, we launched Codex Cloud,
+dots, and add chat GPT in Slack and in
+Teams.
+And all of these use the same agent that
+you've been using.
+Meaning you have access to the same
+tools and information through the
+plugins that you already installed in
+your account.
+And it means that you can pick the
+features that fit your workflow
+without having to start from scratch.
+Enough talk, though. Let's actually show
+you a couple of these things and how you
+can use them.
+All right. So, in the desktop app, um
+additionally to running tasks locally
+um or running them on your remote, you
+can now uh run tasks on Code X in the
+cloud using environments that either
+your team has already created or by
+creating a new environment.
+When you create a new environment, you
+can pick the different repositories that
+you want the environment to have access
+to.
+We're going to pick two of the projects
+from Blossom Music, the project that
+Holly was working on.
+As soon as I uh select these, Code X is
+actually going to begin to work on
+setting up this project. It will do all
+the preparation for you by inspecting
+the repository, the dependencies,
+and set up all of the necessary things
+that might be required to work on this
+project. This used to take a lot of
+manual configuration and was often very
+cumbersome.
+As part of this, it will not just
+discover the dependencies, it will also
+write both a startup skill that teaches
+the agent how to use the environment,
+and it will uh write a startup script to
+make sure that it can quickly iterate on
+these environments.
+In this case, um
+if everything goes well, it will notice
+that we have
+iOS um and web dependencies in here both
+uh both at the same time. However,
+because this is a Linux environment, you
+can see here, it is noticing correctly
+that it won't be able to run the mobile
+application, which is fine for me
+because in this case, I just wanted to
+have access to that code so I can
+reference that.
+However,
+um eventually, you'll be able to bring
+your own cloud environments, which means
+that you can actually adapt this to
+whatever way you want want these tasks
+to run while still leveraging the same
+capabilities of Code X Cloud.
+One of the things that we did put a lot
+of effort in as part of this is making
+sure that things run faster than before,
+which means that we put a lot of effort
+into the snapshotting of the file
+system, making subsequent tasks faster
+to start up. But, it also means that we
+can run background updates to make sure
+it has the latest repo changes and run
+any other update scripts necessary.
+Now, I'm going to let this run for a
+bit, but I wanted to show you an example
+of what you can do with Codux Cloud.
+So, in this case,
+um
+I kicked off a task earlier
+where
+I sent it an app shot to go and
+implement a shader that we had designed
+in Figma.
+So, I took an app shot like this
+and sent it over to my cloud
+environment. And from here, it worked on
+it, pulling all of the necessary details
+directly from Figma using the Figma
+plugin that I had installed in my
+account.
+From here, it went and actually
+implemented the
+um
+the shader, it tested it, and created a
+video
+that for some reason
+is not loading right now.
+Um
+but in order to actually play with it,
+and because we have access to all of the
+different plugins in our environment,
+I went ahead and actually asked it to
+turn the same thing into a little
+playground that we can play with.
+So, this is deployed as a site, and from
+here, I'm able to test out the shader um
+before I actually deploy it to the site
+itself.
+I can tweak things, and then I can go
+and send off any additional updates to
+the settings back to my app.
+I can also the same way that I'm used to
+from any other cloud environ- uh any
+other local environment that I might
+have used Coduxin before, use the app to
+leave comments directly on the code that
+was edited, inspect what has changed,
+and even
+start up a site chat if I want to have
+questions about the task that was just
+executed.
+The other thing um that is normally a
+common drawback with cloud environments
+is access to private resources. You
+might have some resources where you want
+to be able to have the cloud environment
+access those but not expose them to the
+entire public internet.
+One of those examples is I have this
+little API running on this Raspberry Pi
+right now. It is not available to the
+internet. It runs on this Raspberry Pi
+alone. Um
+but I configure it my environment here
+to be able to use Tailscale as a VPN
+access.
+So I gave it access. Thank you.
+I gave I gave it an off key to my
+Tailscale and from here Codex can access
+any of my resources on my Tailscale
+network.
+Uh at the same time we also added OIDC
+support. So if you want to access your
+cloud resources through OIDC, you can do
+that as well.
+And so I have an environment here that
+we can start off a task.
+And I can ask it to pull the API that is
+running on this task.
+And to prove to you that this is
+actually an API that doesn't run
+um on the cloud. This is the This is the
+port that the API runs on.
+Right now it's not responding
+um but if I connect my laptop to that
+same Tailscale network.
+See. All right.
+We can see the API's responding. And so
+if we're going back
+to the task.
+Seems something You might have noticed
+we had some outages during the
+um keynote. There's some devs working on
+it. So I don't know exactly what's going
+on here but I'm going to show you a
+backup. Um so here you can see I asked
+this earlier and we're doing the same um
+API calls in this request.
+There we go. We're doing the same API
+calls here. So Codex is able to access
+those same resources that are just
+available in our Tailscale network.
+All right, let's take a look at how our
+setup task went here.
+Um so, as I mentioned earlier, it
+figured out that it cannot actually test
+the iOS changes, but that it can still
+do mobile source editing. And then it
+suggested to us here
+uh both an install script that we can
+run as well as a startup skill. From
+here, I can go and modify this by hand,
+or I can continue to ask Codex any
+questions or give it instructions about
+how I want to continue to configure this
+environment. You can do that at at while
+you're creating it the first time, or
+continue to come back and iterate on it
+further.
+And similarly, we have a startup skill
+that describes all of the necessary
+details here for this project. And I can
+go and accept these.
+And now I can do any other changes, like
+controlling what network access it has,
+set up the network secrets, and even
+configure environment variables that are
+either specific to the cloud environment
+that I have,
+or use personal environment variables
+that are stored in my vault so that they
+are not shared with my team.
+Cuz the other thing that I can do is
+choose between sharing this environment
+with just myself, or with my entire
+team.
+And because these tasks run in the
+cloud, I can actually turn uh like close
+my laptop and continue to have access to
+all of those tasks on my phone or in the
+browser.
+The other thing that you get out of
+running these tasks in the cloud is that
+we can bring them into the environments
+where our teams are already working.
+So, in our case, that's Slack,
+where
+we were able to have a conversation
+between me and my colleague about this
+bug that he found in the app where it
+looked like the web app didn't actually
+have the right visuals implemented.
+I asked Codex or I asked ChatGPT
+to go and figure this out. It actually
+pulled up the pull request. It also
+accessed the Figma files
+to figure out what was wrong and noticed
+that there was already a PR that was
+solving this problem.
+I asked it to dive deeper into it and
+even test these changes and it used that
+same cloud environment that I had
+already created and shared with my
+organization
+um to test all of the changes.
+We were able to collaborate on this
+between both of us and ultimately get to
+a point where the PR is ready to be
+reviewed.
+Talking about reviewing code, I don't
+know about you all, but as agents write
+more code, I find myself spending more
+time actually reviewing code.
+And because of that, we ended up
+overhauling the code review tab inside
+the desktop app.
+So, you can now see all of the PRs that
+are assigned to both yourself or were
+created by you um directly in the app.
+And from here, you can do all of the
+things that you would do with a regular
+code review. You can see the code, you
+can leave comments, you can see the
+comments of others, submit your review
+feedback,
+or even run a review with Codex. The
+thing that I personally find incredibly
+helpful, though,
+is to be able to ask questions
+directly inside the app.
+Come on.
+Directly within the app. There we go.
+Um to get details about what this PR is
+about and help myself better understand
+the the side effects that might be
+happening inside um this particular pull
+request. And when I'm happy, I can
+submit the feedback.
+As agents take on bigger work, the other
+big part is planning and collaborating
+with our teams.
+Um Space is a great way for you to
+actually collaborate both with your
+agent and with your team at the same
+time without having to copy-paste
+different pieces of information back and
+forth.
+So, in this case, I was working on a
+redesign of our API
+uh
+reference implement reference
+and how I wanted to deploy it.
+And so, in this case, Codex wrote up a
+plan, I put it into space, I can share
+it to with my team, get feedback from
+them,
+but I'm I can also continue to iterate
+with Codex on it. So, in this case, I
+asked it to add a system diagram to
+better understand how these different
+pieces fit together.
+And then, um have a task tracker as
+well. And as Codex works on these tasks,
+I can have it update those, or if I'm
+working with the entire team on this
+project, we can have all of our
+all of our
+dots and our Codex contribute to this
+document so that we're all in sync on
+what is happening.
+The other thing that I can do is once
+I'm happy with this plan,
+I can go and ask Codex to implement the
+plan and it will pick it up and
+continuously push information back if I
+wanted to.
+The last part of all of this is
+productivity.
+Uh how many of you have been using like
+loops or threads of threads to manage
+their work?
+All right, a decent amount of you. So,
+you will actually love the productivity
+of dots uh because it gives you a way
+for you to manage both your existing
+Codex tasks and hand off more tasks to
+Codex while gaining some productivity of
+dots continuously watching out on what
+is happening.
+That means you can track product and
+engineering discussions, it can notice
+code changes for you, and then it can
+also spin up tasks for you when
+necessary.
+In this case, for example, my colleague
+Carolus had tagged me in a PR that I had
+missed.
+And I got a notification that in Slack
+from my dot to check out this PR.
+I didn't really have time in this moment
+to take a look at it. It was uh 10 20
+past 10
+on a Sunday. So, I asked it what the PR
+was about um and my dot actually uh
+started reviewing that PR trying to
+figure out if it was what it was about.
+And then I asked it to do a more
+thorough review.
+As part of this,
+it went ahead and actually spun up
+a full-on cloud task uh directly from my
+Slack environment so that it could uh
+dive into the PR, figure out what the
+issues are, and then report back to me.
+But, because this is an actual task, I
+can also go in here and continue to ask
+follow-up questions myself later on, or
+even use this to bring the PR over the
+finish line.
+Now, I showed you two Slack examples,
+and one of the questions I'm certain
+you're answering asking yourself right
+now is, "Great, there is @ChatGPT and
+there is my dot. Why when when do I use
+which and what's the difference?"
+And the way to think about it is the
+dots are an extension of yourself. We
+intentionally named these with your name
+and then the name of your dot, so that
+people inside Slack understand that
+they're tied to your personality, they
+have context about um what you're
+working on, your memory. And so, they're
+great for any ongoing work that is
+related to what you do.
+That means my dot regularly watches
+channels that I care about, weighs in on
+topics if I give it the permission to,
+but it also just means that I can
+forward constantly forward tasks to it
+in Slack or in other channels to go and
+have my dot tackle tasks for me.
+@ChatGPT, on the other hand, is meant
+for collaboration.
+It's a great way for you and your
+colleague to work in a thread at the
+same time, interact on it, work together
+on a PR, for example, and because of
+that, your dot has access to all of your
+cloud environments and your local code
+acts
+while at chat GPT only has access to
+your shared cloud environments.
+But, it makes it so much easier for you
+to collaborate on things.
+Now, earlier I mentioned that I want you
+to be able to use code acts anywhere you
+want to, and whatever way you want. And
+so far, the only thing that I showed you
+is desktop and we talked about mobile.
+But, I know a lot of you also love using
+the CLI, and because of that, we started
+giving the CLI a big overhaul.
+Um
+Among other things, you now have an
+agent view, which means you can see all
+of the different tasks that are running
+inside your
+code acts, so you can keep an eye on on
+um which ones need your attention, start
+up new ones, and run multiple ones in
+parallel very easily.
+We've also overhauled
+We also overhauled things like being
+able to at mention both all of your
+plugins that you're using, as well as
+making it significantly faster to do
+things like selecting image selecting
+text. You can render
+um
+diagrams and LaTeX directly inside the
+terminal.
+Uh and we even added things like voice
+mode, so that you can now talk to your
+agent directly within the terminal using
+the same
+um
+the microphone is not enabled on this
+one. Um but, using the same
+uh GPT life model that you know and love
+from the desktop app.
+The other thing that you can do now is
+use more of your experience directly in
+the web. So, this is Chrome. Um it is
+not the desktop app, but you're going to
+see a very familiar experience. You can
+access all of your cloud tasks that
+you've been running using code acts
+cloud directly in the browser. You can
+see here actually it shows the same app
+shot that I sent over.
+We can review that video that wasn't
+playing earlier.
+So you can see it here engaging with it.
+And you can even interact with the sites
+that were deployed directly within your
+web interface.
+You can also access your dot and soon
+hopefully very soon in the next coming
+days you'll be able to access your code
+review tab inside the web app as well.
+So you don't have to install or use the
+desktop app just to get more things
+done.
+Now the way we develop has drastically
+changed over the last year.
+We moved from individual tasks to giving
+increasingly bigger and bigger problems
+to our agents.
+And um and it made it easier for you to
+take on the things that you've dreamed
+up and actually build high quality
+solutions rather than just some
+prototypes.
+And you don't need to adopt all of these
+things that I've showed you today all at
+once.
+We want you to be able to use codex
+wherever you want and however it fits
+into your workflow.
+But there are three things I would
+encourage you to try.
+One, if you're still leaving your laptop
+cracked or managing a pile of dev boxes
+in whatever shape it is.
+Try out codex cloud for your work. It
+means you can move off your laptop and
+reuse prepared environments and spend
+less time maintaining that
+infrastructure.
+And if you're tired of jumping across
+docs for your team
+and then go and copy the plan back into
+a doc for codex to be used.
+Instead, try out space. It gives you our
+It you the ability to take the features
+and plans and keep them in one place for
+both your agents and for your team.
+And it lets your Codex continuously
+update the progress directly within the
+doc so that your team knows what is
+happening at the same time.
+And if you're tired of manually
+forwarding work to Codex and prompting
+each every time uh uh prompting it every
+time, give your dot an ongoing
+responsibility that you're handling and
+let it keep that uh keep track of that
+work and let it uh handle keeping it
+moving.
+With then, go ahead and build the things
+that you've been dreaming up with Codex
+anywhere. Thank you.
+>> [applause]

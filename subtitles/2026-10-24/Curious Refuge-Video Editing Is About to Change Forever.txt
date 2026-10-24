@@ -1,0 +1,311 @@
+UP主：Curious Refuge
+标题：Video Editing Is About to Change Forever
+链接：https://www.youtube.com/watch?v=_fSIhcZqm2g
+
+Over the last few years on this channel,
+we've talked about monumental shifts in
+the way in which we create our films.
+Whether it's the introduction of Google
+V O that gave you the ability to
+generate a video with a voiceover up to
+the latest iteration of C Dance 2.5 that
+gives you incredibly fine details that
+make your videos indistinguishable from
+reality. However, in this video, I'm
+going to talk about an update that I
+think is actually more important than
+any other update that we've ever had on
+this channel. Over the last few weeks,
+you've probably heard quite a bit about
+Open AI's Astra model. With Astra, you
+can literally have Chat GPT take over
+your computer and perform actions on
+your behalf. There have been crazy
+examples of people creating everything
+from video games to interactive
+websites. But because this is a
+filmmaking channel, we wanted to see how
+Astra stacks up in a few different
+tests. And so, in this video, we're
+going to be taking a look at some
+creative uses of Astra. And I'll be
+talking about what this means for the
+[music] future of creativity. It's going
+to be really exciting, so let's get in.
+My name's Caleb. Thank you so much for
+joining us here on Curious Refuge. Be
+sure to like and subscribe if you want
+more videos like this in the very near
+future. So, I'm going to cut right to
+the chase. To use Astra, all you have to
+do is log into the desktop version of
+Chat GPT, which you can download to your
+computer, and click on the work icon at
+the top. From here, you can type in your
+prompt and describe any action that you
+are trying to take, and you'll see you
+have this little menu here that allows
+you to select which version of the model
+you're using. So, we'll use Astra, and
+then you can drag it to as much as you
+want, but it can add up, so you just
+want to keep that in mind. Now, for our
+first example here, I want to take a
+look at a very common workflow. So,
+let's say that you hopped on set and you
+shot a ton of footage, and then you
+needed to ingest that footage and
+organize it so that you can get into the
+editing process. This is usually
+something that you will work with an
+assistant editor or just hop in
+yourself, and it can be very
+time-consuming and frankly kind of
+boring. We were really curious to see if
+Astra could actually pull this off. So,
+we prompted inside of Astra that we
+wanted it to ingest 64 clips that we
+shot on a recent test at Curious Refuge,
+and we gave it the creative freedom to
+organize it in whichever way it deemed
+fit. Of course, you could direct the
+folder organization to be whatever you
+want, depending on your own workflow and
+the way in which you want to operate,
+but we were really curious to see what
+this would pull off automatically. And
+so, after 17 minutes and after spending
+$5 on this task, we got this folder
+structure. So, let's work through what
+we have here. So, we have this start
+here document. That's basically just a
+document outlining everything that it
+was able to pull off, and you'll see
+that it tells us that there were 64
+video clips that were shot in 1080 at 24
+frames per second, and there's just more
+information about everything that was
+included inside. In our very first
+folder here, we have a ton of really
+interesting documents. So, keep in mind
+that the original footage that we
+uploaded were 64 individual video clips
+that we shot at Promise Studios. So,
+let's take a look at what it was able to
+give us. So, first things first, it was
+able to give us an entire manifest
+breaking down the actual file names and
+then what the brand new file names are
+that the AI system decided to name them.
+And we'll talk more about that in just a
+second. It also created a document that
+matches the audio clips that were
+recorded on set with the video clips,
+which is pretty impressive. It also
+created contact sheets for all of our
+video clips automatically. So, these are
+actually thumbnails of each one of the
+video clips, and it broke it down and
+organized everything. We did not ask it
+for this. It automatically put it
+together. It also literally created a
+website that we can go to that breaks
+down all of the files inside. So, if the
+contact sheet wasn't enough, you have a
+customized website specifically for this
+folder in your project. It has
+everything from the clips being broken
+down based on duration and what's
+happening inside to direct links to the
+original video files. And I could just
+keep on going with breaking down all of
+the documents that it was able to
+create. But, what's also crazy is it
+developed this dot command file. If I
+double-clicked on that dot command file,
+it would restore all of the folders to
+the original version of the the folder
+structure. And so, if we decided we
+didn't like what the AI system did, it
+would just revert back. So, let's
+quickly take a look at the other folders
+here. In 01, we have the original folder
+structure from the camera. And then in
+02, we have the audio clips. So, those
+are basically just the raw folders that
+we gave the AI system. Now, in the 03
+folder, this is where things get pretty
+nutty. So, it has automatically gone in,
+taken all of these video clips, and
+organized them based on conceptually
+what is going on. But, what's really
+wild is whenever you actually hop in
+here and take a look at the video clips,
+if you look at the name, it actually
+broke down what's happening. So, for
+example, with this one it says intense
+conversation reverse OTS.
+And so, it recognizes the composition
+from that video being an
+over-the-shoulder shot. So, it's pretty
+wild. It did all of this automatically.
+And hypothetically, you could literally
+take that folder and drag and drop it
+into your video editing application.
+Now, that's already crazy, but we'll
+come back to it because I want to show
+you an even wilder test. So, here at
+Curious Refuge, as you know because
+you're literally watching this video,
+you know that we create YouTube videos.
+And we will do tutorials, and we have
+supporting assets, and a design style,
+and all sorts of things that we go to to
+pull off these edits in the content
+pipeline. However, we are really curious
+to see what would happen if you gave
+Astra the exact same video assets that
+we give to our video editing team. And
+we decided to take it even one step
+further. Instead of us actually typing
+out the instructions of what we wanted
+to see, I actually used one of my
+favorite tools called Loom to create a
+video of me simply pitching what I want
+Astra to pull off. So, instead of me
+typing out using voice dictation on my
+computer, I created a video where I
+talked over the file structure and what
+I wanted it to pull off. It was very
+similar to me having a meeting with an
+editor. So, we uploaded all of the
+assets, the video that we're recording
+here, our screen recording, supporting
+assets, all of those things into a
+folder, put it inside of Astra, uploaded
+the Loom video explaining what we wanted
+to see, and after about an hour and 20
+minutes of editing, which equates to
+about $60, we got this video. Now, I'm
+not going to play the whole thing
+because it's about 7 minutes long, but I
+just want you to get an idea of the
+quality that you can expect to get from
+Astra in a video editing capacity. So,
+in this video, we're going to take a
+look at that viral workflow and see if
+it's actually helpful inside in AI
+filmmaking project. So, for this video,
+I'm going to say that we are working on
+a project with Shelby and myself. Now,
+the viral workflow is basically you take
+a character sheet and just add a quick
+little scratch pattern over the person's
+face, almost like they're wearing a
+veil. So, we did that for Shelby here,
+and then we did that for myself.
+Once you have your character sheets, you
+can hop into any AI video generation
+tool that you want. I'm using Magnific
+and we'll select C Dance 2.5. We
+uploaded both of our character sheets
+with the scratches on the face. Now, for
+our prompt, okay. So, you get the idea.
+That is not a great tutorial. There's
+definitely some pacing issues. The color
+grading is off, the audio obviously
+needs some work,
+but it automatically pulled the
+references that we wanted to see inside
+of that video. And to take it even
+further, we did not prompt for any of
+the design styles. So, the green borders
+that you typically see on this channel,
+that was pulled automatically because
+Astra watched our YouTube channel and
+designed a template. Again, there's
+problems. You would absolutely need to
+go in and update the result that you're
+getting, but it created a project file
+in Adobe Premiere Pro, so you could
+totally hop in and begin updating all of
+those small details that need to be
+fixed. And to take it even further, it
+also created a thumbnail for the video,
+which I mean, would probably do fine on
+YouTube. And it even created the
+description, the chapter markers, and
+the title for the video. Now, we did
+even more tests that we talked about in
+our recent office hours over at Curious
+Refuge. If you're a member at Curious
+Refuge, you can see even more of those.
+But, I want to take some time here to
+talk about what I think this means for
+the future of creativity because this is
+actually really important. I know it
+almost seems benign that it can organize
+footage and even create rough cuts. Long
+story short, the current version of GPT
+Astra is okay for some of these tasks.
+And if it came to logging footage, I
+actually do think it's very helpful. You
+can save time and money by utilizing GPT
+Astra. But, for creative editing task,
+it might be more trouble than what it's
+worth. Remember, it cost us $60 to get
+that YouTube video tutorial, and it was
+still in a very rough place. So, I think
+it's comparable to what you would pay if
+you're working with an actual video
+editor. And dollar for dollar, I think
+the quality of the work would be much
+better if you were working with a real
+human. However, I think that's going to
+change, and I would not be doing a
+service to you as a member of the
+community to tell you otherwise. The
+truth is, this is the worst and most
+inefficient version of this tool that
+will ever exist. And utility based
+editing projects, whether it's logging
+footage, doing rough cuts, or creating
+cut downs for social media, will
+absolutely be automated with artificial
+intelligence within the next 12 months.
+While you will definitely be needed to
+hop in and refine the edit and give it
+that polish that really helps good
+videos stand out. The truth is, in the
+next 3 to 6 months, getting a rough
+video edit that feels comparable to what
+you would expect to get from a working
+professional is absolutely going to be
+here. And so, it's important to us as
+creative professionals to begin to view
+ourselves more as directors and
+producers on the projects rather than
+just the ones who are being utility
+driven and going to the tools and
+clicking the buttons. This is just the
+beginning and I can see that in the next
+2 to 3 years, the software that we use
+to pull off our creative task, whether
+it's editing photos or editing videos,
+could become a thing of the past. But,
+of course, in a narrative capacity, the
+tool is simply not there yet. But, I'm
+curious about how your tests have gone.
+Have you used Open AI Astra to do
+anything impressive? Be sure to let us
+know in the comments and I would love to
+hear about your opinion as it relates to
+this tool. As always, if you want to
+learn the latest AI workflows for
+filmmakers and creative professionals, I
+highly recommend checking out our
+courses over at Curious Refuge. We train
+artists at every major studio and we
+would love to have you inside our
+community. Thank you so much and we will
+see you in the next one.

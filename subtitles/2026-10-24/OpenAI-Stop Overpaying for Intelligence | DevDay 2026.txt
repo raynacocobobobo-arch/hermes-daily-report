@@ -1,0 +1,712 @@
+UP主：OpenAI
+标题：Stop Overpaying for Intelligence | DevDay 2026
+链接：https://www.youtube.com/watch?v=_nmlHbSB8kM
+
+Hello everyone, hope you're
+having an amazing DevDay so far.
+On the outdoor stage now we're going
+to have a panel side discussion
+with two people from our AI
+deployment engineering team to talk
+about how to optimize AI costs.
+So we're going to talk about
+things like you know what is
+the right what is the right metric
+to look at even when you think
+of optimizing costs, how do you
+right-size a model for a particular
+task, levers beyond the model itself,
+and throughout we'll be drawing
+on examples from real customers
+that OpenAI works with.
+So with that please welcome
+to the stage Mandeep and Sapto.
+Thank you for being here.
+Thanks for the introduction, Arty.
+Thank you. Of course.
+So let's start with the number one
+mistakes that we see developers make
+which is starting with even the metric.
+You know most people think of cost
+and look at the list price
+of the input and the output
+tokens on our website.
+But talk to us Mandeep about
+what do those numbers miss?
+Yeah, by the way quick
+introduction Mandeep.
+I lead the applied AI engineering team
+based out of here in San Francisco
+and welcome to the DevDay.
+A model that is cheap on cost per
+token basis may not be the cheapest
+model on cost per task basis.
+And there are many reasons for this.
+Two main reasons are a cheaper model
+may consume more tokens or produce
+more tokens to complete the task
+or the model may not complete
+the task at all and a human
+has to intervene to complete the task.
+So the metric that developers
+and businesses should be looking at is
+cost per task not cost per token.
+Got it.
+So cost per task not cost per token.
+Can you give us a few examples
+of what this looks like in practice?
+Yes, I'll give a very personal example.
+Last week I had to travel to New
+York City, had to take a flight.
+Who here has been stranded on
+an airport with a canceled flight?
+And well, I guess that misfortune
+has happened to most of us
+at one point in our life.
+And I look at the flights online
+change, but couldn't find the flight
+that actually matches the schedule.
+I had to call the airline and I'm
+greeted by a customer support chatbot.
+Now I have a soft spot
+for customer support chatbots
+because we're in business of building
+customer support chatbots.
+So I very patiently explained
+to the AI chatbot that I
+wanted to reschedule my flight.
+I did not want a red eye,
+but I could not make it understand.
+So I literally had to say,
+I need to speak with a human.
+So a human had to intervene and complete
+the transaction, answer my query,
+book me in a flight through Houston,
+and I arrived before my team offsite.
+So while the model that the airline
+may have been using may have been
+cheaper on cost per token basis,
+but the cost to actually complete
+the task was the cost of the tokens
+plus the human that had to intervene
+to actually complete the task.
+So the metric that airlines should
+have been looking at is the cost
+per task, which includes the human,
+the time that human had to spend
+to complete the task as well.
+Unfortunately, a very relatable example,
+and I hope the rest of you
+had a smoother journey here to DevDay.
+Yeah, and I'll quote a couple
+of customer examples.
+So perplexity, we're familiar
+with the product, a customer we
+work very closely with.
+On their research benchmark,
+they reported six Astra
+produces 9% more accurate
+results at half the cost.
+So while compared
+with the previous model.
+So while six Astra may be more
+expensive on token per cost basis,
+but on a cost per task basis,
+it's actually much more efficient.
+It uses fewer tokens
+and gets the task done.
+Likewise, Notion, a customer we
+work very closely with, we're
+familiar with the Notion product,
+I use it every day.
+They are very good at using
+the migrating
+to the latest series of models.
+For example, they migrated from 5.5
+to 5.6 sold, reported better
+accuracy, half the cost per task.
+Makes sense.
+You've mentioned, you
+know, cost per task.
+So is the task really done successfully?
+But then the other thing you called
+out is token efficiency.
+We continue to invest a lot
+in making not just our models
+performant, but also token efficient.
+And that really plays in.
+Speaking of, let's start with, you know,
+we've talked about the right metric
+here, which is cost per task.
+The biggest decision you have to make,
+of course, is which model to pick.
+So how do you think through right
+sizing a model for a particular task?
+Yeah.
+So when we advise developer on business
+on right sizing the model, we recommend
+begin with crisply defining the task
+and what accuracy business
+or a developer expects from that task.
+So from the airline example, it could
+have been we want 80% of inquiries
+to be resolved by the chatbot.
+So if they had used, for example,
+GPT Live with 6.0 as a delegate
+model, they might have been able
+to resolve my inquiry without
+delegating it to a human.
+So begin with define the task
+and then define what is the accuracy
+we expect from the task.
+So the goal here is
+to find the model harness
+and the configuration that can
+achieve that accuracy at
+the best cost possible.
+Here, it'll be good to introduce
+a concept, Pareto curve.
+Many of you may have heard of it.
+It's essentially plotting two
+variables that are dependent
+on each other and you have
+to optimize for one or the other.
+In this case, the two variables that we
+would focus on is accuracy and cost.
+The idea here is try different models,
+try different settings, different
+configurations, different harnesses,
+figure out what is the accuracy
+per task with those configurations
+and figure out which model configuration
+and harness meets that accuracy
+threshold with the best cost possible.
+Got it.
+So you touched on, you know,
+there are some tasks where you might
+know upfront what model to use.
+Like let's say if it is a simple,
+simpler task, you might want
+Luna to let's say route.
+Or if it's a more complex
+example, you might want Astra
+to handle a lot of the planning.
+But what if it is not clear upfront
+what model to use for a task?
+Yes. So while luckily here at OpenAI, we
+have models that are at the Pareto
+frontier for accuracy and cost.
+So starting with six Astra,
+which is our frontier model, very
+high intelligence, 6.1 Sol provides
+a very high level of intelligence,
+very cost efficient per task.
+And then Luna and we've
+heard Luna maxing.
+So to your point, if the task
+is somewhat, many tasks you would
+intuitively know which model to use.
+If it is simple classification,
+or it is extracting a few
+fields out of a document,
+you would know that Luna is probably
+so I would in those cases,
+I would test a smaller, more efficient
+model early on in the process.
+If the task is more
+requires more intelligence,
+I would begin with six Astra.
+And then as I test different models,
+I would plot that Pareto frontier
+and figure out what is that cutoff where
+the model and the configuration meets
+the performance threshold with the best
+cost efficiency per task.
+Makes sense.
+So start with evaluation sets,
+try to find the model that meets
+the accuracy threshold that you want,
+and then try to optimize for costs.
+Yes, exactly.
+Got it. You also mentioned Luna maxing.
+How many people have heard of that term?
+Okay, quite a few people.
+But the overall takeaway there is
+Luna is actually quite capable model.
+And it's found to beat a lot
+of models, like larger models
+from previous generations.
+But yeah, Mandib, do you want to quickly
+tell us about what Luna maxing is? Yes.
+So a lot of customers are
+pleasantly surprised that Luna
+with a high or extra high reasoning
+effort can actually beat many
+bigger models, especially from
+previous generation or competitors
+to a lot of customers offer
+Luna as the primary way
+for their developers to code
+and only default to other models
+when a higher intelligence is needed.
+So we hear that a lot from
+our customers that Luna
+for 80-90% of their workflows,
+it works really well for our customers.
+So don't discount
+Luna and give it a shot.
+It might do more than you
+think it can do.
+And today we also announced Decisions
+API, also for simpler tasks.
+So the family grows.
+So we've talked about the right
+metric, cost per task,
+that you want to optimize for.
+We've talked about how do you
+find the right model family,
+or the model size for the task.
+But that's of course
+just one lever, right?
+Finding the right model.
+So Sapto, can you talk to us
+about beyond the model, what are
+other levers developers can use
+to optimize costs for their application?
+Yeah, great question, Arti.
+Firstly, I would like
+to tell like this, right?
+Same model family can cost
+very different amounts based on
+the amount of information we process,
+amount of information we pass
+it through, and what the output
+that we are seeking from it.
+Now today I'm going to talk about
+four ways, which where you can
+control cost while also kind
+of maintaining the quality.
+So we are going to talk
+about four levers here.
+The first one is prompt caching, then
+we have programmatic tool calling, third
+one is reasoning effort, and the last
+one is batch or flex API processing.
+So let's talk about or dive deeper into
+a first lever, that is prompt caching.
+So a good starting point is
+to take the repeated text
+within your input prompt.
+So let me give a quick example here.
+So suppose you have a company
+support assistant, right?
+And it uses same company policies
+and documents to process every customer.
+Now prompt caching like works on
+the concept where it can reuse
+the pre-processing of those shared
+information, while your model still
+processes any kind of new information
+in the prompt and produces a fresh
+response each and every time.
+So now that we talked about prompt
+caching a little bit, I want
+to go deeper into our second lever.
+But actually this is a very important
+one, so I'm going to ask all
+of you a quick question here.
+So I'm going to give you a quick
+example or a scenario.
+Suppose you have an online
+ordering system,
+and you want your agent, which kind
+of fills or processes a lot of orders,
+and you want your agent to find,
+you know, if there's F stock
+available to fill those orders.
+Now how is it going to work?
+You know, the agent can call
+multiple tools, process the orders,
+find what's missing, what's
+arriving, and then pushes all
+the results back to your LLM,
+which is the reasoning engine.
+Quick question to all of you.
+Do you really think your model
+needs to read and compare all
+of those results by itself?
+What do you all think?
+Also, it's up to the mic, sorry.
+Oh.
+Yeah, what do you all think?
+Like, does your model really
+need to read and compare all
+of those results by itself?
+I'm seeing some shakes.
+Okay.
+Okay, probably not.
+And that's the main
+concept behind our second viewer,
+that is programmatic tool calling.
+So programmatic tool calling is,
+like, for some scenarios, your model,
+you can pass all of those tool
+results back to your model for judgment.
+But for some scenarios, there is
+no need for you to pass those
+tool results back to your model.
+It can be calibrated, combined,
+and then compared as well.
+So programmatic tool calling is
+a concept where your model runs
+a small program, and that small
+program kind of coordinates the tool
+calls and processes the results
+and shares the package report
+back to your model for judgment.
+With programmatic tool calling,
+the thing that you're avoiding here
+is there is no need for you
+to send every piece of intermediary
+data back to your model,
+and you're also reducing the number
+of model calls that your workflow
+is making at every possible step.
+Now, let me give a quick example.
+This is a customer scenario, just
+to show all of you the real-world impact
+of using programmatic tool calling.
+So we have one of our customers, Clio.
+So it's a legal AI-powered company
+which provides cloud management
+software systems to law firms.
+They reported in their multi-step
+document analysis that they were
+able to achieve 38% fewer PROM
+tokens by using programmatic tool
+calling with no loss of quality.
+So this is a very important
+thing to remember.
+That's 38% fewer PROM tokens just
+by changing how the application
+interacts with the model.
+So now that we talked about
+a second lever, programmatic
+tool calling, the third lever,
+which is the reasoning effort, I think
+all of you might already be aware
+of it, but think of reasoning
+effort as a setting to test.
+The reasoning effort, like our main
+recommendation, that reasoning effort is
+very different from the answer length.
+Like even like a short answer
+can require a lot of reasoning
+effort to generate it.
+But one of our major guidance for all
+of you here is whenever for any
+kind of routing task, always start
+with a lower reasoning effort level,
+and then run your evals to see
+whether the quality holds or not.
+Now for any kind of difficult
+or differentiated task, the extra
+tokens is worth paying for.
+But a most important thing to keep
+in mind is it's very important
+to run your evals iteratively
+to help you make that informed decision.
+So we talked about these three levers.
+Let's talk about our last one,
+that is batch or flex API processing.
+Now this comes with a question, like
+how much are you willing to wait?
+So suppose you are processing, you know,
+thousands of documents, and you have
+the capacity to wait a little bit.
+We have OpenAI batch APIs, which
+provides a 24-hour processing window at
+a 50% lower token pricing compared
+to standard synchronous requests.
+Now this is ideal for workflow where
+you do not need an immediate
+response back from the model.
+So now that we talked about these
+four levers, I want to, like,
+give a quick thought to all
+of you guys here, is whenever you
+are building your AI applications,
+and you have this question
+in your mind, like, hey, like,
+which model family should I use?
+You should also ask an additional
+question, that how much work am
+I going to make the model do?
+Our recommendation for all of you
+is follow through one complete
+task within your application,
+see what went in, what
+the output looks like,
+you know, if there are any kind
+of repetitive workflows, or if
+there are any kind of, you know,
+what you can say, like, some, there
+are tool calls, the number of tool
+calls that has been made here as well.
+Now think of it, see what improves
+the results, change one setting,
+and then iterate, run your evals,
+as your application and models
+kind of evolves from there.
+And another thing, another
+important thing to keep in mind is,
+it's not about lowering tokens
+or having simply, like, pure tokens.
+It's about having a successful
+outcome through lowering cost
+and acceptable latency.
+Makes sense.
+Thank you, Sapto.
+That was a lot of different
+levers, so let me quickly summarize
+that for the audience, and we'll
+dive a little deeper.
+First, we talked about prompt caching.
+This ends up being
+really, really important.
+If you even look at our price
+list, you'll see cost of input
+and output tokens, and there's up
+to 90% fewer costs for cached inputs.
+So prompt caching ends up
+having up to 90% impact in terms
+of the cost that you pay, so
+we'll talk about it a little more.
+The second one we talked about is,
+of course, you want to reduce the amount
+of input tokens you give the model.
+Instead of just dumping in a lot
+of information, you can use
+programmatic tool calling to offload
+some of that processing of data
+or context to code and keep
+that out of the model's context window,
+which directly lowers the cost.
+We talked about reasoning effort.
+A lot of you are familiar
+with the slider that we have on Codex.
+On our API, too, you
+can change the reasoning effort.
+And actually now, in the API,
+you can change the reasoning
+effort without breaking the cache,
+which was massive.
+I think we released it with Astra
+a few weeks ago.
+And then lastly, batch or flex, which
+is if a request is not urgent
+and you can delay it, you get
+to pay less for those types of requests.
+Just given how important prompt caching
+is, I think it's worth going deeper.
+So, Septo, can you talk to us
+about, you know, what are the common
+mistakes you see developers
+make in terms of optimizing
+their prompt cache hit rate,
+and any recommendation you might have?
+Yes. So, that's a very interesting
+topic, and I'm really excited
+to talk to you about here.
+But before we do that, I want
+to ask a quick question again.
+How many of you are currently
+using prompt caching?
+It's all of us.
+It's enabled by default.
+Yeah.
+So, as, like, and I'm
+quite excited to see, like,
+a lot of raised hands here.
+Thanks, Mandeep.
+But as Mandeep mentioned, like,
+it's, like, enabled by default.
+And we talk to a lot
+of our customers about prompt caching.
+But we are also seeing that a lot
+of our customers are not utilizing
+it to the fullest extent as possible.
+Now, our number one guidance
+with prompt caching is to keep
+the beginning of your prompt
+consistent whenever possible.
+In that way, prompt caching
+can reuse the preprocessing
+of that shared instruction.
+Well, any kind of newer information
+in your prompt, like, which is not
+in that matching portion, can be
+freshly processed by your model,
+and your model produces a fresher
+response each and every time.
+Now, when this technique is combined
+with our newer model families,
+it significantly reduces cost
+and latency for our customers.
+Let me give a quick example
+of our customer scenario here
+to show you how you can improve
+your cache reuse with prompt caching.
+So we have one of our customers, Blitzy.
+Blitzy is, like, an AI-powered
+software development company.
+And they reported that by moving
+from single-structured output
+call to Luna's tool calling loop,
+they were able to improve
+their cache reuse from 24% to 90%.
+And across their thousands
+of production calls, they also reported
+8.5x fewer output prompt tokens
+and 87% cheaper cost compared
+to GPD 5.4 Mini, while also
+handling 2.2x more context.
+Wow, okay.
+So you can keep the prompts
+consistent, as it were, but what
+if your prompts change frequently
+across different queries?
+Yeah, great question.
+So as we were saying, like,
+for our earlier model families,
+automatic caching was
+enabled by default.
+We didn't have, like, the system
+was able to choose breakpoints
+based on token intervals.
+We were able to keep the beginning
+of the prompt consistent,
+but there weren't any option for us
+to choose our own boundaries.
+Now, that has completely changed with
+GPD 5.6 families,
+where we have the option
+to add explicit breakpoints.
+So if I want to put it
+in simple words, think of explicit
+breakpoints as, like, I want
+to cache until this point, right?
+With explicit breakpoints, what you
+can do is, if I give you
+a quick example, you have the same
+long-running coding instructions,
+and you have tasks that keep on
+changing every time at the end.
+With explicit breakpoints, you can
+actually put breakpoints right after
+the stable piece and before the task
+that actually keeps on changing.
+In that way, you are actually reusing
+the stable piece of information
+while the model still processes
+the task that keeps on changing.
+Now, if you want more control,
+we have another option that is
+explicit only mode.
+With explicit only mode, you can pick
+and choose which specific portion
+or path that you want to cache.
+And this is very ideal because you
+do not want to cache unnecessary
+content which changes frequently,
+and it won't be reused later.
+Now, as Artie mentioned,
+like, with GPD 6 Astra,
+we keep all of the controls are
+all of the capabilities that you
+had with GPD 5.6 families,
+but with one added capability here.
+With GPD 6 Astra, you now have
+the power to change your reasoning
+effort within an ongoing conversation
+without breaking the cache.
+Thank you, Sapto.
+That just reminded me, the other
+thing we already had that people
+might not be aware of is you
+can already change the tools that you
+give to the model without breaking
+the cache as well by adding them
+in allowed tools or other parameters.
+So we're adding just a lot
+of flexibility in terms of changing
+the reasoning effort and the tools
+while maintaining the cache rate.
+Again, we continue to invest
+so much in this area.
+Two other things to flag.
+We shipped a prompt caching, like,
+dashboard on our admin webpage
+so that you can actually see,
+measure, and track your cache hit
+rate across your applications.
+The other thing we released
+is a diagnostics API.
+So given two different queries,
+we can actually tell you where
+the cache miss is happening so
+that you can start to optimize it.
+But again, reinforcing,
+again, how important that is
+and really an important
+lever for cost optimization.
+Great.
+So we've covered a lot.
+We've talked about the right metric,
+look at cost for completing the task,
+not just the list price.
+We talked about how do you find
+the right model for the task.
+And again, we're very proud to say
+we have models at the Pareto Frontier
+in terms of cost and accuracy.
+We talked about the various levers,
+prompt caching, programmatic
+tool calling, reasoning effort,
+and then batch reflux.
+So with all of that now,
+Mandeep and Sapto, what would you
+like to leave the audience with?
+Like, what should they go home and do?
+Yeah. So the first starting point is
+define the task that you want
+the model to be able to do.
+Identify the accuracy threshold
+that business expects or you
+expect from the use case.
+Second, define a representative
+set of tasks that define how
+the application is going to be used.
+Use, try different models, different
+settings that Sapto mentioned,
+different reasoning effort,
+different prompts to see
+prompt caching, how that works.
+Plot the Pareto Frontier and find
+the model configuration harness
+that works best for the task
+at the accuracy threshold
+that the business expects.
+Yeah. And from my side is test
+one change, one improvement.
+And when you find that improvement, keep
+that setting and iterate, run your evals
+as your application and model evolves.
+Amazing.
+Thank you all.
+And you can come find us throughout
+the day if you have any questions.
+Thank you.
+Thank you.
+Thank you.
+Thank you.

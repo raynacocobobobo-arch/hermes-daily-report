@@ -1,0 +1,25 @@
+UP主：OpenAI
+标题：How Benefit Street Partners is building financial analysis tools with Codex
+链接：https://www.youtube.com/watch?v=CTkDi1THc_g
+
+I've gone from being just an analyst and
+a portfolio manager to being a developer
+as well now.
+People right now are concerned about
+levels at which different firms are
+marking [music] the same loan in their
+books. All of this is filed with the
+SEC. I'm sure at many firms there is a
+person sitting who logs into Edgar,
+downloads the document, goes through
+every line by line. The big unlock for
+us was Codex. I built a tool that just
+scripts all this information automated.
+It [music] creates a beautiful website,
+amazing visualizations. All of that took
+me about a day. The quality of my
+analysis has become so much better
+[music] and so much faster. We feel more
+confident in our decision making because
+you just you have more information at
+your [music] disposal.

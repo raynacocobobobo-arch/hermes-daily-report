@@ -1,0 +1,78 @@
+UP主：OpenAI
+标题：Put ChatGPT to work on shared team tasks
+链接：https://www.youtube.com/watch?v=OMxEUdIgsQc
+
+Every team has routine work, like
+reviewing requests, pulling together
+weekly updates, and staying organized.
+And often, one person
+ends up running it all.
+With team tasks in ChatGPT,
+you can set up that recurring work
+and maintain it together.
+Tasks run in the cloud,
+and your teammates can review
+the results and improve the instructions
+as your needs change.
+Let's say you're on a legal team.
+Every morning, there's
+another batch of requests.
+What needs a review?
+What's missing?
+And who's picking it up?
+You can now create a team in
+ChatGPT for the people
+that you work with regularly.
+I'll open Settings, create our legal
+team, and add my teammates.
+Add everyone once, and you can share
+pages with that whole group.
+You can share custom plugins
+and team tasks too.
+Let's use a team task to take
+a first pass at this inbox.
+A team task is a recurring job
+we can review and improve together.
+And it runs in the cloud,
+so it doesn't depend on my laptop.
+To set up our first team task,
+the shared inbox is already connected,
+so the task can access the requests.
+I'll link to our intake guide
+in the task instructions,
+so Chat has our rules for routing them.
+I'll save this as Daily Legal Intake.
+Now the team has one task
+all of us can come back to.
+Okay, let's see what it found.
+This NDA is missing
+the other company's name.
+This contract is due Thursday.
+And it also suggested
+who should pick up each request
+with a link back to the message.
+Let's open the original message.
+Yep, Thursday.
+I'd want their deadline
+right at the top.
+This is useful, but
+requests with upcoming deadlines
+should be easier to spot.
+Because we're sharing
+the task, my teammate
+can update its instructions too.
+Here, they're asking it to put requests
+due within two business days at the top.
+There we go.
+In the next run, the upcoming deadline
+is right at the top.
+Now we've set up a recurring review
+and checked its work, and we
+improved the instructions together.
+The team now has a task we can keep
+using and refining as our needs change.
+And if I'm away,
+someone else can pick it up.
+Try it with one job
+your team does every week.
+I'd love to see what you make easier.

@@ -1,0 +1,823 @@
+UP主：Matt Wolfe
+标题：AI News: OpenAI Made a Massive Move Against NVIDIA
+链接：https://www.youtube.com/watch?v=TInwQglNkzo
+
+So, there's been an interesting
+narrative playing out in the world of AI
+right now and I've just been absolutely
+fascinated by it and that's the whole
+narrative of the openw weight models
+versus the closed weight models and that
+whole storyline sort of accelerated this
+week. Earlier this week, OpenAI showed
+off the first results from its Jalapeno
+chip. This is an AI inference chip that
+they're building to try to release
+reliance on Nvidia. They announced that
+they were working on it not too long
+ago, but they finally showed off some
+results of what it's capable of. We can
+see here on openweight models, it's
+getting upwards of 104 times the
+performance. Now, they tested this on
+public models on purpose because it's
+much more verifiable. Other companies
+can go and use other chips and see what
+sort of performance they can get on GPT
+OSS or Deep Seagar 1, etc. However, they
+can't really go and test GPT 5.6 6 on
+different chips since those all run in
+OpenAI's cloud. They do however claim
+that in their internal testing,
+Jalapeno's advantage widened further on
+their own Frontier Open AAI models. Now,
+this is interesting to me because it
+shows that OpenAI is actively taking
+steps to release reliance on Nvidia
+chips. Now, they recently partnered up
+with Cerebrris to do ultraast inference
+with their chips and now it even seems
+like they're making like a competing
+chip to what they were getting from the
+Cerebrris chip. One thing that is
+important to note though is that these
+are specifically for inference. So
+inference is essentially when you type a
+prompt and you get the output. That is
+the inference phase of AI. These chips
+don't appear to be designed for actually
+training brand new models which they
+will likely still go to Nvidia to do at
+least in the near term. However, this
+story gets even more interesting.
+According to the information, Nvidia
+agreed to buy hugging face. Now, I
+emphasized according to the information
+because neither HuggingFace or Nvidia
+have publicly made an announcement about
+this as of the time of me recording it.
+Now, if you're not familiar with Hugging
+Face, Hugging Face is like the GitHub
+for AI models. When companies go and
+make open weight models and they go and
+make them publicly available to anybody,
+they typically go and store those
+weights on HuggingFace. Now, HuggingFace
+is also a GPU provider. You can go on
+their site and essentially rent GPUs
+from them to play around with the
+various models that are available on
+their site. Now, here's why I find this
+super fascinating. You have OpenAI over
+here starting to build their own chips
+for inference chips that they would have
+bought from Nvidia if they didn't start
+making them themselves. You have Meta
+starting to build their own chips
+inhouse. You have Google who's already
+building their own chips with their
+TPUs. And as these AI companies get
+bigger and bigger and start trying to
+own more of the stack themselves, it
+could start to shift some business away
+from Nvidia. But Nvidia is going allin
+on open-source. All of the models
+Nvidia's been developing and releasing
+have been these openweight models that
+anybody can use. Now, most of them are
+too big to run on a personal computer,
+so you need to go and run them in a
+cloud. hugging face is where people go
+oftent times to run these models in the
+cloud now. And if Nvidia owns all of
+that infrastructure to run these models
+in the cloud and more and more people
+start switching to openw weight models,
+well then Nvidia's no longer going to be
+as reliant on the open AIs and the metas
+of the world for this inference compute
+because now everybody that's moving to
+openweight models is now going to
+directly go to an Nvidia company to get
+their inference provided. So they're
+betting that openweight models are going
+to get bigger and bigger and bigger and
+take away more and more market share
+from the closed models and with owning
+hugging face they're going to be the
+dominant compute provider of everybody
+running open models and there is some
+data showing that we are seeing more and
+more people and companies move to openw
+weightight models. So check this out.
+This is a post from the CEO of Verscell
+and he's showing that 2 months ago most
+of the tokens on Verscell's AI gateway
+were going to closedweight models, 71.6%
+with only 28.4% going to openweight
+models. Fast forward to this week and
+now open models account for 62% of the
+token usage versus 38% for the closed
+usage. Now there is a caveat to this.
+When we go to their AI gateway model
+leaderboard here, here's the graph that
+he was showing showing the token volume.
+So back here, blue is the open weight,
+yellow is the closed weight, closed
+weight models were getting most of the
+token usage. However, there is a drop
+down here that shows the amount of
+requests. If we select requests that
+tells us a little bit different of a
+story. It tells us that most people that
+are using this gateway are still making
+their requests to closedweight models.
+It's still 62% closed weight to 38% open
+weight on actual requests to the models.
+But the amount of tokens being used,
+well, it's pretty clear that the open
+models just use a lot more tokens.
+Saying that, we are seeing more and more
+requests recently going to more of the
+openweight models. So, yeah, I think
+that Nvidia acquiring hugging face, if
+true, is actually a pretty big deal
+because again, it is Nvidia betting that
+open weight is more of the future. And
+to round this whole discussion out,
+there was another thing that happened
+this week that, you know, kind of adds
+to the story as well, and that's the
+fact that Apple just introduced some new
+chips. This week, they announced the M6
+and the M5 Ultra, and these are designed
+for AI compute. These are designed to be
+devices that live on your desktop that
+can run your compute completely locally.
+And this M5 Ultra chip is insane. I'm
+currently running an M3 Ultra and this
+has 4.5 times the peak GPU compute for
+AI and my computer right now is an
+insanely good AI computer. They're also
+releasing it in versions all the way up
+to 512 GB of unified memory, which means
+pretty much most of that 512 GB can be
+used as essentially VRAM for running AI
+models. Now, they're not going to be
+cheap. an M5 Ultra with only a 1 TBTE
+hard drive is still going to cost you
+almost 11 grand. And that's for the 256
+GB version. They haven't released the
+price of the 512 GB version yet. But the
+bigger point being here is that we're
+starting to get more and more devices
+that are very capable of running really
+good models at home. Like you're going
+to be able to run these really good
+models coming out of ZAI, like the GLM
+models. You're going to be able to run
+some of the DeepSeek models. you're
+going to be able to run some of these
+bigger Quinn models on this thing. And I
+mean, it's only a matter of time before
+we're going to get like Fable level GPT
+5.6 soul level models that will run on a
+computer like this. But I've been
+finding this whole story just
+fascinating watching the open source
+versus closed source battle. If you
+would have asked me 3 or 4 years ago, I
+would have told you I don't see
+openweight models catching up to the
+closed weight anytime soon. And here we
+are a few years later and like we're
+this close. Speaking of openweight
+models, we got two new models this week
+that I want to talk about real quick.
+First, we got GLM 5.3 Flash. And this
+model kind of flew under the radar and
+launched in stealth like a week or two
+ago under the name Ox Alpha. And when we
+look at the benchmarks here, again, Deep
+Suite is kind of the one that I pay the
+most attention to because I think it's
+the most accurate to like actually what
+we'll feel when we're coding with these
+models. And this one scored a 63.4,
+which outperforms Opus 4.8. and falls
+just shy of Google's like most recent
+model Gemini 3.7 Flash. I also think
+this chart right here is very very
+telling. So on the left side you've got
+the artificial analysis intelligence
+index. This is sort of a combined score
+across a whole bunch of different
+benchmarks to kind of pick the
+objectively smartest model. On the
+bottom you've got your compute cost.
+This red dot here is where GLM 5.3 Flash
+sits. So, as far as intelligence goes,
+it's right around Quinn 3.8 max level,
+but way cheaper to run. And notice how
+some of these other models aren't even
+that big of a jump. Claude Opus 5,
+Claude Fable 5, GPT 5.6 Soul. Like, not
+a massive intelligence leap over what
+you're getting over GLM 5.3 Flash.
+Everything that falls into this red box
+that you're seeing here is basically
+both dumber and more expensive than GLM
+5.3 Flash. And that includes models like
+Gemini 3.7 Flash, Claude Sonnet 5,
+Gemini 3.1 Pro, DeepSeek V4. These
+models are all more expensive and less
+intelligent, which is why this model
+release is kind of a big deal. It just
+made a big chunk of models kind of
+obsolete. And if you're curious how it
+performed on Beautybench, here's what we
+got. Now, it was during a period where I
+was able to use the model for free. So,
+I'll probably run it again to get an
+actual accurate cost. And it also ran it
+when it was called ox alpha. So the name
+needs to be updated here. But it took 12
+minutes to run, used 46,000 tokens, and
+came in at a 5.4, which on my very, very
+subjective leaderboard here puts it at
+number 25 overall. But we got another
+open- source model this week as well. We
+got Quinn 3.8 Flash. Now, recently, we
+got Quinn 3.827B, 827B, which was a
+really good model for running locally on
+high-end consumer GPU. This one is a
+little bit bigger. It's 125 billion
+parameters. Like that new M5 Ultra would
+run this model probably, but most likely
+you're going to want to run it in a
+cloud. It does decent on the Deep Suite
+benchmark, and on artificial analysis,
+it falls at about a 56 compared to a 57
+from the model we were just looking at,
+GLM 5.3 Flash. Quinn 3.8 Flash generated
+this on beauty bench. It took a little
+over a penny to generate, just under 5
+minutes and used 26,000 tokens.
+Interestingly, this one got ranked at
+number 19, which came in below what my
+AI ranking thought of Quinn 3.827B.
+But again, the rankings here don't
+really matter. You can just use your own
+eyes and determine which one you think
+did a better job. Here's another cool
+update that's been out for a little
+while now, but I just came up with a
+cool new way to use it. I'm going to use
+chatbt sites inside of the Codex app to
+turn my spreadsheet of social media data
+into a live performance dashboard that
+my whole team can access and use. So
+inside the Codex app, I'm just going to
+type at sites and say build me a social
+media performance dashboard that tracks
+all my platforms and that I can share
+with my team. And then sites will create
+the website plus handle everything else
+like the hosting and the authentication
+and even a built-in database. Now, the
+underlying data is coming from this
+spreadsheet that tracks my audience
+across YouTube, the Future Tools
+newsletter, Instagram, LinkedIn, Tik
+Tok, X, Threads, and even Facebook. So
+now my team can quickly see our
+audience, weekly growth, and which
+platforms are moving the fastest. And
+now we can even build and refine the
+site together and connect it to a custom
+domain if we want. With site analytics,
+I can see basic performance metrics like
+visitors and page views. And the really
+interesting part is this new web MCP
+support. You can build predetermined
+actions into the site that compatible AI
+agents can use instead of the agent
+blindly clicking around the page. This
+is a really easy way to build tiny
+pieces of custom software for your team
+without dealing with all of the
+infrastructure that you normally need.
+So if you want to try sites out for
+yourself, head to the link in the
+description box to download the Codex
+app. And thanks so much to OpenAI for
+supporting my channel and sponsoring
+this portion of today's video. We also
+got like a flurry of new announcements
+out of Google this week. They released
+an updated version of their video model
+called Gemini Omni 1.1 Flash. I'm
+guessing their VO model is pretty much
+done for cuz everything seems to be this
+new Omni model. We can see this new
+model is the same price as the previous
+model. 10 cents for a 720p output. We
+can also do a 360p output, 1080p, and a
+4K output. The 360p is nice if you want
+like a quick generation just to like
+test to see how something might come
+out. And if you think it does a good
+job, I guess you can always do a new
+generation at a higher resolution. The
+new model can analyze up to 10 seconds
+of prior context. You can specify start
+and end frames so that you can have them
+animate between or do like cool
+transitions and things. Do drast
+upscale to 4K. Add video reference.
+Seems like a lot of the same stuff we
+were able to do with the original Omni.
+It's just we have better quality
+versions and a little bit more context.
+Here's some examples with the prompts on
+the screen. [music]
+Start and end frame.
+A microscopic view of iridescent marine
+dios displaying integrate glass silica
+shells with breathtaking natural
+symmetry
+etc. Interestingly over on arena.ai
+under the texttovideo arena Gemini Omni
+1.1 Flash is the new top model there. If
+you don't know what Arena is, it's
+basically like a blind test. You give
+Arena a prompt. It gives you two outputs
+from two different video models, not
+telling you which model is which. It can
+be any model that's in their database.
+You pick which one is your favorite
+between the two and then after enough
+people have done their voting, that's
+how you get the ranking. So, it's a
+blind test of user preference. And Omni
+1.1 Flash is winning in text to video.
+And in image to video, it is second only
+behind Miniax and not by a wide margin.
+But you can also see not a ton of votes
+yet. It's still early. Now, their
+announcement here says you can build in
+AI Studio using your API key. Or if
+you're a AI Plus Pro or Ultra
+subscriber, you could use it inside of
+Google Flow. So, first I went to AI
+Studio and have tried to prompt multiple
+times and I keep getting an internal
+server error. I don't know if I'm doing
+something wrong. I even went and
+pre-added money in. So, I put $25 in
+here so I have credits and I still
+couldn't get it to work. So, I took my
+prompt over to Flo because I am an ultra
+subscriber. And this was the prompt I
+gave it. A video of a robot wearing a
+hat that says future tools on it. Break
+dances in front of a castle where a
+dragon flies overhead.
+[music]
+My initial thought is okay. Again, I've
+talked about this a bit lately. I'm less
+and less impressed by video models these
+days. And this one, I do see some
+wonkiness in it. The castle in the
+background looks fine, but my robot, for
+some reason, the head just pops off,
+falls on the ground, and then apparently
+it's got the same hat on both sides and
+the same face on both sides. Although,
+when you look at it here, it clearly
+doesn't. So, that's a little funky. And
+then there's some wonkiness when he
+starts doing his like ground moves here.
+[laughter] Like, yeah, it's just a
+little awkward. The consistency of the
+castle and the dragon are really good
+between scenes, though. That's one thing
+that's gotten a lot better over time is
+consistency. When it switches scenes and
+then comes back to the same scene,
+things look really good. That's
+something that's really, really improved
+with AI video models. Google also
+released a new transcription model,
+Gemini 3.5 Transcribe. Now, this is
+pretty much exactly what it sounds like.
+It's, you know, their version of
+Whisper, but apparently more accurate
+than everything else that's out there.
+And it's available in the Gemini app on
+MacOSS, Rambler on Android, and coming
+soon to Chrome, but you also have it in
+the various enterprise platforms, and
+via the API if you'd want to use it.
+Google also added some new AI features
+for travel inside of the AI mode in
+search. It can track flight prices for
+you now. It'll show you in both price
+and points, and you can apparently book
+hotels directly inside of AI mode in
+search now, as well. There's also a new
+update to Gemini notebook, previously
+known as Notebook LM. You can now
+incorporate books that you own directly
+into your notebook. So, they say, "We've
+built the ability to add select ebooks
+you've purchased from Google Playbooks
+directly to a Gemini notebook." So, you
+would have had to purchase it through,
+you know, Google's book platform. It's a
+pretty cool feature, but personally,
+when I do buy ebooks, it's mostly on
+Kindle. And if you use anti-gravity to
+do your coding, they finally added a
+remote control feature. This is a
+feature that pretty much every other
+sort of AI enabled IDE has had for a
+while now, but now it is also inside of
+anti-gravity. Remote control allows you
+to connect and drive your anti-gravity
+sessions running across your different
+machines like laptop, servers, and
+desktops. All you need is a web browser.
+while you have your web browser handy.
+You're able to remotely connect to each
+of your different machines running
+anti-gravity and retain full access to
+your files, workspaces, build tools,
+credentials, etc. Again, this is
+something we've had in Codeex for a
+while now. We've had it in Claude Code
+for a bit now. It's been in cursor for a
+bit now. And well, you could do it in
+anti-gravity now, too. Now, it has been
+a really, really busy week, and I've
+shared a lot already. And I still have
+quite a few more things I want to share,
+but I'm just going to run through them
+super quick in a rapid fire.
+We got a couple additional updates out
+of OpenAI. ChatGPT work can now use its
+computer and browser to sign into
+websites on both web and mobile. Now, if
+you're using the ChatGpt app, it has a
+built-in browser which can remember
+passwords and things like that. But this
+is now available on the web version.
+Here's an example they give to log into
+DMV and help me replace my driver's
+license. And you can see it logs into
+the site and then asks you to continue
+with your password and it can log in
+with things like one password or your
+built-in password manager. And it never
+actually knows your passwords. Now,
+personally, I still like using the chat
+GPT app better cuz it will just open the
+browser and then log in for you using
+whatever saved credentials you have
+inside of the chat GPT browser. But if
+you like to use the web browser version,
+this is a pretty cool new quality of
+life update feature as well. There's
+another new feature inside of chat GPT
+work on web and mobile. If you're on a
+plus or a pro plan, you can now have
+tasks run based on things changing in
+places like Slack, Gmail, and GitHub.
+So, in the past, you've got this
+scheduled tab here, and you can have it
+schedule a task to run, you know, every
+day at 2:00. Now, you can say schedule a
+task every time I get this Slack message
+or schedule a task every time this Gmail
+message comes across. So, more ways to
+have automations fire off on your
+behalf. OpenAI also dropped the price on
+their most powerful model. So their GPT
+5.6 Soul model is actually 20% cheaper
+for the next three months. So that's
+pretty cool as well. Moving on to
+Anthropic news. Claude is getting its
+own browser inside of Co-work. You know,
+we saw this happen in Codeex and
+Anthropic likes to steal OpenAI's
+homework and whatever a feature looks
+cool that OpenAI does, Enthropic seems
+to roll it into their products these
+days as well. Codex has its own browser.
+Couple weeks later, Claude is like,
+"Yeah, us too." Although I don't believe
+it's available quite yet. Yeah. So, we
+see the built-in browser is rolling out
+over the coming weeks to Pro, Max, and
+Teams plans on Claude desktop app on
+MacOSS, Windows, and Linux. They
+announced that it's coming, but it's not
+here yet. But they also have Claude in
+Chrome, which is now generally
+available, which is a Chrome extension
+that will basically, you know, summarize
+articles for you on the web. It will
+fill in details for you. it can actually
+click around, but it is pretty slow. So,
+I'm hoping when they actually build the
+browser into their app, that will be a
+much faster way to do a lot of those
+things. Enthropic also announced this
+week that Claude's memory works
+everywhere. So, starting today, the
+memory you use in chat is the same as in
+Claude Co-work. Co-work now has memory,
+and it's the same one you use in chat,
+leading to less reexplaining and more
+picking up where you left off. When
+Co-works a task in the cloud, what
+Claude remembers from your chats is
+there, and vice versa. So you can sort
+of plan out something you want to do in
+a regular chat. Jump over to co-work and
+have co-work execute it and it will
+remember what you chatted about in a
+previous chat. By default, Claude does
+not store topics related to personal or
+sensitive subject matter like health,
+race, ethnicity, religious beliefs,
+politics, etc. But you can go in and
+change what it does save about you and
+what you don't want it to remember about
+your conversations. Jumping back to the
+conversation about AI running locally,
+Perplexity's computer now has a portable
+computer which is local. So the model
+harness conversation and trajectory all
+live on the user's machine. However,
+work that needs the outside world such
+as web search connectors or escalation
+to a stronger advisor model on the cloud
+is invoked only when necessary and
+always gated by the user. Local models
+carry no inference fee. So the system is
+private and cost-effective by
+construction. So they're using small
+efficient models like Nvidia's Neotron,
+Quinn 3.6, Quinn 3.8, and it does say
+systems such as the Nvidia DGX Spark can
+now run these models locally. So you
+must need a pretty decent system to be
+able to run this local computer model.
+Basically, my understanding is that
+Perplexity built their own version of an
+OpenClaw or Hermes agent that will just
+run on your computer and do tasks that
+you need it to do on your computer. It
+will run local models. It will go off
+and use cloud models when necessary, but
+it'll ask your permission first. But
+it's kind of designed for really decent
+computers that have a lot of compute
+capacity, seeing as they called out a
+DGX Spark, which is, you know, a roughly
+$4,000 box for 128 GB of VRAM. So, not
+quite accessible to everybody yet, but
+like this is their local version of a
+openclaw Hermes kind of agent harness
+thing. Let's talk about AI music for a
+second. Dr. Andre admitted that he uses
+AI to produce songs, which is a very
+risky thing for an artist to do these
+days. He said, "I don't see it as a
+threat. I think the only people that see
+it as a threat are the people who have
+trouble creating." I had a discussion
+with a few people a few days ago. They
+were against AI. And I'm like, okay, you
+sound like the person that would have
+been against the drum machine when it
+came out or synthesizers right now. I do
+have my own take on AI music. And I
+agree with Dr. Dre. I think AI is a
+great tool to assist with music. Where I
+think the line should be drawn and where
+I'm not a fan of AI music is just like
+prompting a whole song into existence,
+right? Like going to Sunno, creating a
+song that sounds like any other band,
+and then putting it up on Spotify and
+saying, "I created this." No, you just
+prompted that song. However, I've played
+around with Sunno a lot. I actually
+think it's a really, really fun tool.
+It's a blast to make silly songs for my
+own personal use and listen to them and
+play them for my family and we laugh
+about it. But I'm not a big fan of
+publishing them and trying to fool
+people into thinking that they're real.
+Something that is really, really fun
+though is I've grabbed my guitars before
+and started to play like a little riff,
+put that into Sunno play drums over the
+riff that I made. Now it's like a
+collaborative thing between me and AI.
+And that's really really fun. So I
+definitely think there's like levels to
+AI music. And I think just prompting a
+song into existence and saying, "Look,
+I'm a musician now."
+I don't know about that. but using AI
+tools to assist in making cool music
+where it's like a collaborator with you.
+I'm actually pretty cool with that.
+That's just my take. And speaking of
+music, this is really interesting. The
+company Stability AI just raised a new
+round of funding and they actually have
+music generators under their umbrella of
+tools they've built. And the investors
+that just invested are comprised of
+Electronic Arts, Sony Music Group,
+Universal Music Group, Warner Music
+Group, and more. So, I think this kind
+of tells us that the music industry, the
+big studios, aren't necessarily against
+AI. They're actively investing in it.
+They just, you know, don't want to be
+cut out of the loop of making money on
+AI music. Time magazine released their
+list of 100 most influential people at
+AI, and it's an absolute joke.
+[laughter]
+Now, don't get me wrong, there's a ton
+of people that I do think deserve to be
+on this list. I definitely think the
+OpenAI team, Elon Musk, Daario, Peter
+Steinberger, Mikey Scholamman, Fay Lee,
+Ilia Suskiver, Mirror Morati, these are
+all people that I think absolutely
+deserve to be on that list. However,
+Jensen Hong, the person who's making
+this happen through all of this compute
+that he's providing to all of these
+companies, one of the people that's
+probably shaped the like AI revolution
+the most. Deis Habibus, the ex CEO of
+DeepMind, who literally has a Nobel
+Prize for his AI with AlphaFold. Andre
+Carpathy who's literally the most
+followed voice on X around AI and even
+like Mark Zuckerberg who's trying to be
+like the voice of openweight models and
+push that forward. All of these people
+are like pretty influential and they
+didn't make the list yet somehow Paris
+Hilton is on the list. Joseph Gordon Lev
+is on the list. Bernie Sanders is on the
+list. Like what? And the reason Paris
+Hilton is on the list is that she's an
+advocate against deep fakes. I mean,
+nothing against any of those people.
+They just don't deserve to be on a list
+of the most influential voices in AI.
+Take it from me, somebody who is
+literally in the weeds of AI every
+single day. I read every bit of news. I
+read all the articles. I read the
+research papers. I watch the YouTube
+videos. I scroll the threads. I try the
+tools. I am in the thick of it every
+single day. These are not influential
+people in the space. They're just not.
+And I know I'm getting worked up over
+something that's probably designed to
+work people up, right? Like Time
+magazine is probably purposely rage
+baiting us knowing that this is an
+incomplete list and like names like
+Paris Hilton are on it to get people to
+go, "What the hell is Paris Hilton doing
+on this list?" and get people like me
+and other like people on social media
+talking about how bad this list is just
+because it drives more eyeballs to time.
+And I played right into it. But okay,
+I'm done ranting. I just think this list
+is absolutely ridiculous. Let's end with
+a cool robot. So, Skilled AI introduced
+S1, which is a new foundation model for
+robots. It can be taught 10-minute long
+tasks that it has never seen before from
+just one video prompt without any
+fine-tuning. So, in this example, you
+can see them wearing like little wrist
+things with cameras on it doing the
+task. And then when they're done doing
+the task, the robots know how to operate
+their hands and recreate the task
+because they can watch the cameras,
+right? There's a camera on each wrist
+and there's two robot arms and now based
+on what they saw from the cameras, they
+could now do that. That's pretty cool. I
+love seeing advancements in robotics
+and, you know, making it easier and
+easier to train robots. So, yeah, this
+one's pretty awesome. Oh, and by the
+way, if you haven't watched some of the
+videos from the World Humanoid Robot
+Games, you should definitely look them
+up. They're kind of awesome. And that's
+what I got for you today. Now, before I
+sign off, this week was a really big
+milestone for me personally as well.
+This was the week that I actually passed
+a million subscribers on YouTube, and I
+can't thank you enough for being a part
+of that. Everybody who watches these
+videos, has hit the subscribe button,
+who has liked the videos, which has
+helped me get more reach on these
+videos. I appreciate you more than you
+know. It has been an awesome ride and
+I'm excited to keep on going and seeing
+how big this thing could get and how
+much more helpful I could try to make
+these videos as I go. It's my goal every
+week to drink from the fire hose and
+keep up with all the AI news. I'm not
+going to try to pretend that everything
+is the biggest deal that's ever
+happened. I'm just going to share my
+thoughts as they come out about the news
+that I think is the most important to
+the most amount of people. And if that's
+something that's interesting to you,
+maybe consider liking this video. And if
+you haven't already, subscribe to this
+channel. A million of you have already
+done it. And again, thank you so much. I
+do record these videos on Thursdays and
+publish them on Friday. So, if anything
+came out sort of late Thursday evening
+or on Friday, it'll usually make it into
+next Friday's video. But again, I'll do
+my best to keep you looped in and
+hopefully make you feel like you don't
+have to keep up with it on a daily
+basis. I got a lot of cool thank yous
+and shout outs from a lot of different
+people over the last few days as I
+crossed that million subscriber
+milestone. And so to wrap this video up,
+I thought it would only be appropriate
+to share a few of those messages that
+people sent to me just because I think
+it's pretty cool and like I'm very
+grateful that people took the time out
+of their day to send me some of these
+messages. So, thank you so much for
+tuning in. I really really appreciate
+you. It's been so much fun nerding out
+over the last 17 years, but really five
+and a half years about AI. And uh I'm
+going to keep on going with this. Thank
+you again for tuning in. I really,
+really appreciate you. And hopefully
+I'll see you in the next one.
+>> Congratulations on a million
+subscribers.
+>> Congratulations on a million on YouTube.
+That is amazing.
+>> Congrats, buddy. Well earned.
+>> Congrats on 1 million subscribers.
+>> Congratulations on the million
+subscribers.
+>> Congratulations on the 1 million
+subscribers.
+>> Matt, congrats on 1 million subscribers.
+This is such a big milestone and so
+welld deserved.
+>> Congrats on reaching 1 million.
+>> Very happy for you and uh onwards and
+upwards. Let's do it.
+>> I wanted to wish you a huge
+congratulations on reaching those seven
+digits.
+>> I wish you way more success than you
+could ever imagine and I hope that this
+is just the beginning of your journey.
+>> Just wanted to wish you a heartfelt
+congratulations on reaching 1 million
+subscribers. Big boy.
+>> Congrats.
+Congrats
+on 1 million subscribers.
+>> We love you.

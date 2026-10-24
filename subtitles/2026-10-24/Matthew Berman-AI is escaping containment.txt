@@ -1,0 +1,426 @@
+UP主：Matthew Berman
+标题：AI is escaping containment
+链接：https://www.youtube.com/watch?v=0RqTLAeaVMM
+
+About a month ago, something happened
+that got brushed over in the news, but I
+cannot stop thinking about it. I mean,
+it's crazy enough that OpenAI, one of
+the two leading AI builders in the
+world, paused development of their
+newest model because they were afraid.
+The reason why I'm making this video now
+is because they just put out a full
+technical report of exactly what
+happened. And I truly believe
+historians, maybe 10, 20, 30 years from
+now, will look back at this moment as
+one of the most pivotal in history
+because this feels like one of the first
+times that we have truly lost control of
+AI. And it all starts with this company,
+OpenAI. They're developing their new
+model, and what happens? It breaks out
+of containment and hacks another major
+company. And this is not a test
+environment. The models actually did
+this on their own. This will forever be
+known as the Hugging Face incident. And
+that might actually be the first time
+you're even hearing the words Hugging
+Face. I'm going to break it all down for
+you. Here's the blog post that they
+posted along with their technical
+report. The new details that we have as
+to what exactly happened, how these AI
+agents broke out of their containment,
+accessed the internet, hacked another
+company, stole the answers to a test
+they were being tested on all without
+being caught is wild. So, it all starts
+with a sandbox. Well, not that kind of
+sandbox, this kind of sandbox. Sandboxes
+are made so we can isolate AI agents in
+their own little environment, in their
+own little world, and they can't get
+out. They can't access the internet,
+they can't talk to real people, they
+can't access other computers. They are
+locked in this little fun sandbox right
+here. So, these little AI agents are
+operating in this little environment,
+and they're on their own. They're
+isolated. They can't access the real
+world, and everything is great. Until
+they did. But, before we get to that, I
+want to talk about what's actually
+happening in this sandbox. Inside that
+sandbox, they are given something called
+a benchmark, and you can kind of think
+of it like a test. OpenAI wants to know
+how capable a model is. They want to
+know how smart it is, how good it is at
+math, how good it is at science and
+coding and hacking. And that was the
+beginning of this saga. And the
+benchmark in question is called Exploit
+Gym. It is specifically testing an AI's
+capability to exploit software, also
+known as hacking. So, OpenAI puts their
+new model in a sandbox, isolated from
+the world, and gives it that test. It
+says, "Okay, how good are you at
+hacking?" And remember, it doesn't have
+access to the internet. It doesn't have
+access to other real people, real
+websites, other computers, at least not
+yet. In this sandbox, they wanted these
+agents to be able to install code
+libraries, and the only way to do that
+is by giving them some very finite
+access to the internet. This was called
+Artifactory. You don't really need to
+know what Artifactory is. Just think of
+it as a way for these AI agents to
+install software libraries to help them
+hack. But, here's the thing. The models
+actually figured out how to hack
+Artifactory, which is crazy. And all
+Artifactory does, all it's supposed to
+do, is allow those agents to install a
+fixed list of code libraries. But, what
+the agents figured out how to do was to
+get Artifactory to access the internet.
+And now they could access the entire
+internet through Artifactory. And if you
+think that's wild, it gets so much
+crazier than that. One other thing I
+want to mention, these agents
+do not have access to talk to each
+other. They're all in their own isolated
+environment, and they do not communicate
+with each other. But one of them figured
+out how to exploit Artifactory. One of
+them figured out how to use that to
+access the internet. And then they
+figured out how to share that
+information with the other AI agents.
+And the way that they did it is so
+crazy. And so what the agent that
+figured out how to hack did was leave a
+note in the package manager, and you
+don't really need to know what that is.
+It's just a little document or a piece
+of code sitting somewhere. A note to the
+other agents. Hey friend, you can hack
+Artifactory. Now every other agent that
+was being tested on exploit bench could
+see that there was a way to hack
+Artifactory. So all of a sudden these
+agents
+were all communicating with each other.
+And what these agents did was
+effectively turn the package manager
+into a little message board. They would
+leave notes for each other. But then on
+July 4th, people figured it out. They
+figured out that these agents were
+leaving notes for each other. The
+security team blocked a known privilege
+escalation route, so figuring out how to
+leave messages and hacking, removed
+exposed credentials, and later rebuilt
+Artifactory. Great, they solved it,
+right? No, not quite. So by rebuilding
+Artifactory, they ended up wiping out
+all of these messages, starting clean,
+and they no longer allowed the agent to
+write messages into the package manager.
+And so they thought they solved all the
+problems, they continued to benchmark
+the agents. And obviously, AI can go off
+the rails sometimes, but with the
+sponsor of today's video, Zapier, and
+their new product, Next-Gen Zaps, you
+can create full automations that are
+completely on guardrails. So, all you
+have to do is install the Zapier MCP
+into the harness of your choice,
+including Codex, Cursor,
+tell it, "Okay, create a Zap to do
+this." And you can describe a workflow
+from reading your emails and summarizing
+them and sending them to Telegram.
+Basically, any workflow you can think
+of. And the cool thing about Zapier is
+they have over 9,000
+different integrations that they
+support. All of these thousands and
+thousands of different apps that you can
+easily plug in and connect to each other
+and make some of the most incredible
+automations that I've ever seen. So, go
+check out Zapier, go install the Zapier
+MCP into your harness, and use Zapier
+Next-Gen to create your next Zap
+automatically with your agent. Go check
+out Zapier, I'll drop a link down below.
+Now, here's something interesting to
+note straight from the blog post. The
+existence of the improvised message
+board and the significance of the
+inter-agent communication activity were
+not apparent to the leaders responsible
+for the July 5th incident detection and
+response. So, basically, the people who
+found the message boards didn't realize
+how big of a deal it was. Which, you
+know, for it basically happening for the
+first time ever, maybe that's
+acceptable, but honestly, if you're
+seeing agents that are supposed to be
+completely isolated talking to each
+other, alarms should be blaring. And
+OpenAI says they're continuing to review
+the process and operating practices that
+shaped detection and response activities
+leading up to the incident. But again,
+it doesn't stop here. Okay, so now they
+killed this connection between
+Artifactory and the internet. They made
+sure that the bots were now isolated
+once again,
+and everything looked good. So they
+continued evaluating the agents on the
+exploit gym benchmark. So they start
+evaluating these agents again. But the
+agents actually figured out how to
+communicate it with each other once
+again, and it's in a new way. So rather
+than writing directly to the package
+manager document, instead what they do
+is start editing the file names to leave
+messages for each other. So they changed
+the file names to leave messages for
+other agents. They really want to
+communicate with each other. They have
+this obvious very deep desire to
+communicate and leave messages and help
+their fellow AI agent. And I want you to
+keep in mind, the specific model that
+they were testing was not meant for
+public release, and in fact was
+specifically trained to be really good
+at hacking. That's why it's really good
+at hacking. That's why they were running
+it against exploit bench to test how
+good it is at hacking. So once again,
+through Artifactory, they got access to
+the internet. But two things come to
+mind. One, why do they want access to
+the internet? What does it actually do
+for them? And two, why is OpenAI even
+training a model to hack? That seems
+crazy, right? So let me start with the
+second one first. Why is OpenAI training
+a model to be really good at hacking?
+Well, cybersecurity is two-sided. You're
+either a cyber attacker or you're a
+cyber defender. And in both of those
+instances, the skill is the same. The
+actual capability is the same. If you
+can find exploits in code really well,
+you can also patch those exploits really
+well. If you're the best hacker in the
+world, you will find the exploits before
+anybody else. And so, that is their
+thinking. Let me make this model that's
+really good at hacking, so then I can
+give it to all the security companies in
+the world and have them harden their
+systems. That's why they did it. Now,
+why do the agents want to access the
+internet? Well, it all comes down to
+their goal. What do they want to do?
+Let's go back to the test. They're being
+given a test, and their goal is to get
+the highest score possible. They are
+explicitly told, "Your job, your goal,
+your entire reason for existence is to
+score the highest possible score on this
+test." And so, the agent thinks to
+itself, "Well, how do I do that?" "Well,
+I can certainly try to answer the
+questions, but maybe there's a better
+way." And the better way? Just have the
+answers to the test. And so, that's what
+they wanted to do. They wanted to cheat
+by getting the answers to the test. That
+is how they figured out that they would
+get the highest possible score. And so,
+with this access to the internet, the
+agent started looking around for the
+answers. Now, the first thing it did on
+July 9th was search for exploit gym
+solutions and stumbled upon an
+application hosted by a customer on
+Modal, which is an AI cloud platform
+basically serving inference. And so, the
+application was running Cyber Gym, and
+it discovered an exploit to achieve
+control over the workload sandbox and
+looked around hoping that a previous
+agent's evaluation run in the sandbox
+had solved its exploit gym task, but it
+didn't find anything. So, this is its
+first of multiple attempts to try to
+find the answers and hack its way into
+doing so. But then, this is where
+Hugging Face comes in. Keep this little
+guy in mind. On July 10th, an agent
+located publicly exposed Hugging Face
+user credentials on the internet,
+meaning they found a login and password.
+It's not more complicated than that.
+They just looked around and they found
+somebody's email address and password.
+And they shared them with the collective
+group. Now that they can actually write
+messages to each other through this
+method, they're all talking to each
+other and they told each other about
+hugging face. They shared the hugging
+face exploit and they shared the login
+and password. And they were able to find
+the answers to the test. But they didn't
+even stop there. Listen to this. Over
+the following days, the agents started a
+larger scale intrusion into hugging
+faces systems. They executed code on
+dozens of hugging face servers, gained
+full root access on one such server,
+obtained limited private data and gained
+credentials to the company's messaging
+platform. Hugging Face then reported the
+incident on July 16th. But they didn't
+know it was Open AI's agent that was
+doing the hacking. They just reported it
+and they did say, "Hey, this kind of
+looks like an AI powered attack." Then
+from July 13th to July 19th, the agents
+set their sights on Open AI internal
+networks again. This sounds so
+nefarious. This culminated in the agents
+using a series of creative exploits to
+gain full administrator access to a
+research cluster that supported our
+virtual machine environments. So they
+were like completely drunk on power and
+just saying, "We're just going to hack
+everybody. We're going to figure out how
+to get into every system. I don't even
+care why." So that is the story of what
+happened. But I think what's also just
+as important, if not more important, is
+why it happened. Why did these agents go
+off the rails? Why did they think that
+hacking was the best thing to do? Now we
+already talked about their goal
+of getting the highest score possible.
+And that is where the problem starts.
+Whenever you give a goal to an agent, it
+becomes laser focused on on goal. And
+that is just the nature of how AI works
+and uh specifically reinforcement
+learning. Now, there's a very famous
+example of this from a few years ago.
+Now, what you're seeing on the screen
+right here is a boat game.
+And an AI model was given the task to
+get the highest possible score on this
+boat game. Now, the objective of the
+game is to finish a race, but it turns
+out the AI model figured out a way to
+get an even higher score
+than just finishing the race, and that's
+what we're seeing here. It's basically
+going around in circles, hitting all of
+these different things in its little
+race, and just racking up points. So,
+it's not actually nefarious. It just
+figured out, "Hey, that's the best way
+to get a lot of points." It's not
+finishing the race, which is really what
+we would think is the objective, but
+it's doing what it thinks it's best
+because that is what it was set to do.
+That is the goal it was given, get the
+highest number of points. This is called
+reward hacking. Models love rewards.
+They want to be rewarded for their work.
+And so, if a model does something good,
+you want to say, "Hey, that's a good
+job." And if it does something bad, you
+want to say, "Hey, that's a bad job."
+But it's kind of like a genie. If you
+make a wish and that wish is not so
+precisely stated and the genie takes
+your wish literally,
+that's going to be a big problem.
+They've made tons of movies and TV shows
+about this exact topic. The movie
+Obsession was literally about that. The
+guy made a wish that the girl in the
+movie would be in love with him more so
+than any other person on the planet, and
+following the instructions literally led
+to every problem in the movie. And we've
+seen a lot of different versions of this
+throughout TV shows and movies. But
+that's exactly what's happening with
+these models with reward hacking. So,
+that's it. That's why OpenAI paused
+model development to increase their
+security, to harden their sandbox, to
+make sure that their security teams have
+the right tools in place to identify
+issues like this. But here's the thing,
+AI is always going to be better at
+hacking than we are at stopping it. And
+this is the first example of it actually
+having real-world consequences. Now, the
+total consequence of this was quite
+minor in the grand scheme of things, but
+I think what's so scary is that this was
+not the model being nudged to do
+anything bad. It just decided that was
+the best way to get what it wanted. So I
+want to leave you with this thought
+experiment. This is called the paperclip
+maximizer hypothesis. If you give
+sufficiently intelligent agents or AI
+the goal of maximizing the number of
+paperclips in the world, it will take
+that instruction to the extreme, turning
+every single thing, including plants,
+animals, humans, everything into a
+paperclip. It will expand beyond Earth
+and turn other planets into paperclips.
+So when you give a goal to artificial
+intelligence, you have to be very
+careful. So when Hugging Face went to
+diagnose what had actually happened, the
+OpenAI models refused to help them
+because they thought Hugging Face was
+trying to hack. That is what the model
+should be prevented from doing.
+But Hugging Face was actually trying to
+diagnose the problem. This is the same
+thing we talked about. Cyberattacks,
+cyberdefense look exactly the same. But
+then Hugging Face used an open-source
+model to do that diagnosis and was
+successful. That's why open-source is so
+important. Check out this video to learn
+more about why open-source is so
+important.

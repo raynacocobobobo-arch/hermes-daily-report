@@ -1,0 +1,57 @@
+UP主：OpenAI
+标题：Build a Better Shopping Experience with OpenAI | Shopping Agent Demo
+链接：https://www.youtube.com/watch?v=8n-SXxRIrm8
+
+I've logged into Vesper and Alder, a
+fictitious home goods app.
+I'm going to use their shopping agent to
+restyle my room.
+Let's give this a shot. I'm hosting some
+people for the holidays, and could you
+give me some ideas to make this corner
+of my room warmer? I'm thinking a
+reading nook.
+>> I can help with that. Upload a photo and
+I'll put something together for you.
+A cream chair, a light oak table, and a
+warm linen shade lamp will pull your
+room together.
+I'm generating the visualization now.
+Take a look at your reading nook.
+>> This is nice, but let's try to keep it
+under 250.
+>> No problem. I've swapped in the Lemmy
+cream chair to keep the set under 250
+before tax.
+I'm updating the visualization.
+Take a look.
+>> Oh my god, amazing. And the picture
+actually really helps. Let's go to check
+out.
+>> All right, sounds good.
+One last thing, the natural stripe throw
+adds a little warmth for 1750.
+Would you like to add it?
+>> Ooh, that's actually really nice. And at
+that price, why not? Um, yeah, add that
+to my cart.
+>> Sure.
+I'll add the throw.
+Review your pieces when you're ready.
+And just so you know, Berkeley pickup
+takes 5 days.
+>> Oh, no. I ordered that to the Berkeley
+store, didn't I? I meant to order this
+to my house. Can you help me with that?
+>> Of course. What's your new street
+address, city, state, and zip code?
+>> 1515 3rd Street, San Francisco,
+California, 94158.
+>> Review the address here when you're
+ready.
+>> Yeah, that looks right.
+>> Great.
+I'm updating that now.
+All set. I've updated your order for
+delivery on October 9th.
+Thanks for shopping with us, Alex.

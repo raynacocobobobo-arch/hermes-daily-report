@@ -1,0 +1,458 @@
+UP主：AI Engineer
+标题：Buying GPUs Should Work Like Buying Stocks — Carmen Li, Compute Exchange
+链接：https://www.youtube.com/watch?v=laQ8wMysnkk
+
+[music]
+>> Happy Wednesday. My name is Carmalee.
+I'm the CEO for Compute Change as well
+as Silicon Valley.
+Um I love the you know, the previous
+session. Um we talked the talk about a
+lot about the whole ecosystem, the
+financiers, and the small market
+traders, and the hedgers.
+So, what we're sitting in is really
+cool. I've company of Compute Change.
+The world's actually the only neutral
+marketplaces for GPU procurement. We
+started in 2024 when there were, I don't
+know, five new clouds, three hyper
+scalers. Um essentially, we sort of will
+foresee, interestingly enough, the
+proliferation of the GPU ecosystem. So,
+you think about stock market today,
+right? When you try to buy and sell
+stocks, you can call brokers. Obviously,
+you can call a few banks to say, "Hey, I
+want to buy and sell X amount of Tesla
+or actually SpaceX, right?" And you can
+do that or you can transact through your
+app at NYSE or NASDAQ.
+Doesn't mean you get the best price at
+NYSE or NASDAQ just because it's more
+efficient. And you know the liquidity is
+going to be there. You know the trade
+will be settled. It'll be cleared. You
+can get what you're looking for at the
+prices you're looking for in a very
+efficient manner, right? For capital
+markets and resource allocation, it's
+about efficiency.
+So, in computer world, obviously now we
+have a huge proliferation, which is
+great. We have over 300 new cloud
+private provider globally. We have a lot
+of token factories. We have a lot of API
+routers, which is all good for end
+customers. But at the same time,
+introduce a very interesting variable is
+how do we make transaction efficient,
+right? Do you want to call 300 sales
+people? I mean, it's great to make
+friends, right? You want to talk to them
+regular basis. They know a lot of
+things. But same time, when you need
+compute in the next 48 hours on reserved
+contracts, is easiest way is go to
+exchange and then go to the verified
+computer resources. Just like go to
+Nasdaq and I see to buy stocks.
+Right? So, this one of the things
+computing does extremely well is we have
+this neutral platform.
+And by design, we do not own GPUs.
+Once we start owning GPUs, that would
+translate to just like Nasdaq owning
+stocks, translate to I have a conflict
+of interest with you and then with the
+providers.
+I could cherry-pick clients, right? I
+could hoard relationships. Because
+Compute Change does not own anything by
+design,
+we work really well with all our
+providers globally.
+Um and one very important thing is we
+treat every single transaction
+individually, meaning we want to find
+you as an customer the most suited
+computer resources.
+And we focus on reserved compute forward
+contracts as well as token packages.
+So, give you some um high-level.
+So, today we have over 100 verified
+providers
+um and over 80,000 GPU in supply. We
+cover all regions, obviously ex-China.
+>> [gasps]
+>> Um our commitment is 24-hour turnaround.
+The difference between us and other
+so-called brokers is we do verify GPUs.
+If it's existing reserved capacity,
+meaning things are actually in a
+functional stage, we'll verify the
+UUIDs, the inventories, the
+performances. We run Nvidia DGX,
+Inference X, MLPerf, make sure you get
+resources you promised to get. Um so
+we're in the middle middle sort of trust
+the platform.
+So if it's forward capacity, I'd say you
+need GPUs starting Jan 1st, 2027.
+We actually look through the purchase
+orders, all the permits they get, make
+sure, you know, we help you do the due
+diligence level.
+And on the flip side, right? If you're a
+new cloud, you can send this this is a
+zillion clients looking for compute. How
+do you know who has the ability to pay
+at a scheduled rate? That's where
+Compute Exchange comes in. We do KYB KYC
+of the clients. Obviously, you want to
+make sure your clients is the clients
+you think they they are. So we step in
+and do that kind of verification just
+like any exchange would do.
+And everything we do in the forward
+markets is actually a precursor to
+physically delivered futures.
+Also give you some context why I am what
+I do. Sorry, I probably shouldn't say
+that. I start my career as energy option
+market maker um at DRW Trading, Chicago.
+So I did that for 4 5 years. So as
+option energy market maker, everything's
+very intuitive. You have WTI, you have
+Brent, right? WTI is a physically
+delivered
+commodity contracts. Brent is cash
+settled. They also have very distinct
+use cases. You're looking for hedging in
+the financial sense, right? The your
+price volatility, your cost volatility,
+you're going to Brent. You're looking
+physically procure resources, use WTI.
+So we're creating that the WTI at
+Compute Exchange.
+So the ways to buy compute through um
+Compute Exchange right now, you can get
+reserved contracts, you can get forward
+contracts on both GPU and token.
+Let me explain. The forward contracts on
+GPU is very reasonable, right? You want
+something starting in the future,
+nothing available right now. So that's
+something we're doing on regular basis.
+Token forward I think can be a newer-ish
+concept. Basically, you can think about
+as
+a dedicated deployment, on-premise
+deployment, right? Similarly, you
+reserve a bare metal GPU clusters. You
+reserve a cluster, but you have
+dedicated token deployment on top of
+that. So, you get guaranteed
+SLAs for that particular models. You get
+quantization, precision, everything's
+fixed for you for a period of time.
+So, we try to solve the on-demand token
+API volatility pricing problem here.
+The third is we have a huge market, open
+hardware market. It's really
+interesting. The secondary server
+transactions started last year when
+people just pinging me say, "Hey Carmen,
+I have like 20,000 H100 sitting at data
+center. Can you take away from me?"
+So, I was like, I don't know. I can't
+store it in my home, obviously. So, we
+started having a marketplace for
+secondary server sales. This has been a
+very vibrant market for the past I would
+say 12 months.
+We cover again all servers, even B200
+you see secondary transaction is
+happening.
+Sometimes trading above MSRP, right? Can
+make sense think about like COVID times
+when secondary cars trading above,
+right? It's a brand new car price.
+So, we covered the three major
+layers of compute.
+So,
+reserve GPU, obviously, I think the
+previous speaker covered extremely well
+with the terms. The minimum we do is one
+node starting at one month, and then we
+can go all the way to three, four, five
+years, right? It's all depends on the
+availability, the providers, but you get
+a chance to state your preferences.
+We don't do on-demand.
+And another thing really works really
+well for config changes we do provide a
+flexibility. Let's say you have over
+committed it in terms of quantity or
+duration, you can sell it back to config
+change, right? So, that's something we
+committed to do. So, you don't have to
+worry too much if you over bought.
+All right, segment life So, I will
+actually do a quick demo later. Um so,
+we have a lot listings, marketplace
+listings you can browse and chat with
+the providers and figure out the best
+silver mechanisms.
+You can also RFQ if you don't see
+anything you like you liked. We actually
+seen over a billion RFQ'd every month.
+Sounds big, but we all know it's full
+computer it's not that huge, right? But
+still you see the the the the the
+activities, which a lot is we see a big
+range of RFQ requests from one node all
+the way to 20,000 nodes. So, our clients
+are you know, all different shapes and
+forms, different use cases, which is
+great.
+Yeah, so you set timing submit and we
+route it. So, in the behind the scene,
+we have inventory tracking. So, with
+over 100 providers globally, we know who
+has one roughly one right before
+capacity. And then I say you you submit
+a request in that hey, I need 30 300
+GPUs B200 US East starting Jan 1st.
+We say, you know, we have three
+providers we think they have those.
+We'll route them to the three. They will
+respond to you through the platforms and
+they'll give you
+um a rubrics back. Pricing, specs, SLAs,
+we benchmark them if it's existing
+servers and then it's your choice,
+right? Price is not only indicator. We
+believe give you as much transparency as
+we can and then you will make a
+decision.
+So, everything is in one place. Again,
+the rubrics come back. You will see
+everything and we introduce you to each
+other. We never hold relationships,
+right? We'll make sure you know who
+you're dealing with.
+Um so, buy tomorrow's computer today's
+price. So, it's a physically procured
+platform.
+This is the used refurbished uh GPUs.
+So, again, we have a extremely um
+exciting uh ecosystem participants in
+this
+uh in this uh secondary GPU cells. We
+cover from 490s to B1200, AMD,
+everything.
+Inventory is life and we do connect with
+you through all different channels like
+email, chat, however you want to do
+this.
+Um we track end to end. We actually have
+scoring for everybody. We score you, our
+customers. We score our providers. You
+can't see it quite yet, but you know,
+it'll be really fun. Um we're going to
+have end of year celebration for our
+providers. We can We're going to give
+all the best provider in APAC, best
+provider in Europe, best provider in US,
+most responsible providers. So, we're
+going to have a lot of a provider awards
+coming up. Stay tuned.
+Um verify network. So, everything's uh
+you know, verified, which is you know,
+negotiate state exchange. So, we help in
+terms of be the middleman. Sometimes
+things are not very clear. We try to
+make sure people understand what's the
+best practices we have seen in the
+ecosystem.
+I'm going to quickly show you guys the
+platform.
+I think that's more fun.
+Uh
+here.
+So, this is the platform. You can see a
+bunch of available inventories. By the
+way, anyone can come sign up. It's
+completely free. There's no downside
+using us. You don't have to buy, you can
+browse. You can request for quote if
+you, you know, interested something we
+don't have.
+You can start with your vendor type.
+Again, we agnostic of GPUs. You can
+select your model, you can select your
+deployment type.
+You can select number of GPUs.
+You can select your compute interconnect
+preferences, CPU platforms, storages,
+everything you need. And then some
+optional items with system software
+stacks, regions. Obviously, we encourage
+you to select multiple regions if you
+open to that. You can add head nodes,
+tell us your use cases, anything you
+want, and then submit RFQ.
+So, this has been extremely robust. And
+then we, you know, we obviously we want
+to make sure
+um if you have any feedback, let us
+know.
+So, I'm going to pause on Compute Change
+side.
+Um I think I have some time left, which
+I'd love to show you some of numbers
+we've seen in terms of term structure.
+Also, context. I'm CEO for Compute
+Change. I'm also CEO for another company
+called Silicon Data.
+So, I'm a founder CEO for Silicon Data,
+which is the Bloomberg for compute. So,
+we provide indices for CME to settle
+their futures on, which will be
+happening in a few weeks.
+We I'm very excited about this.
+So, the one that's going to be start
+trading at CME will be the H100 near
+cloud on demand rate as well as V200
+um prices.
+What I want to show you is implied
+forward curve.
+So, as I said, Compute Change we do a
+lot of forward capacities. So,
+essentially a lot of longer term
+contracts is going to be very critical
+using about even in your cloud or your
+your consumers. Let me just make it
+larger.
+So, the yellow line was last year,
+right? The the X horizontal line is the
+duration, and the dollar amount is the Y
+axis. So, last year was complete
+downward sloping curve for the yellow
+line, right? Meaning the longer term
+contract you signed, the cheaper you
+know, was per shift per hour. And this
+year, starting early this year, the
+whole curve shift up and became
+contango. If you see the
+the red line, right? So, translate to
+people not getting a discount enough
+discount for longer term contract.
+Implies that people assume the price
+going to rise down the line.
+And now you see the price the whole
+curve keeps shifting up, got flattened,
+right? So, meaning people are now either
+get penalized or get, you know, awarded
+by signing long term contract.
+This is reserved contract we observe.
+And if you look at implied forward
+rates, this is not this is the implied
+forward rates, right? Because we don't
+have a future trading. So, this is
+calculated based on our term structure.
+And we use similar methodology as
+Treasury futures curve. So, you can see
+a market consensus view is the price
+could go up next in the the future next
+36 months.
+Again, market consensus doesn't mean
+it's right.
+If you look at B200, again, last year
+was contango and this year the whole
+curve shift up. Every single term is
+more expensive and it's got flattened,
+right? Implied forward rates, similarly,
+people think the price going to go up.
+I want to point this out the term
+structure how is this shows you that GPU
+is behaves just like any commodity, have
+a very clear term structure risks, which
+data futures are excellent at hedging.
+So, we have seen a lot block trading
+happening around the term structure. So,
+you think about this, right? If you have
+servers on your balance sheet, you have
+financing obligation for next
+5-6 years, and you have reserved
+contracts for first three,
+then you're exposed essentially year
+four, five, or six, right? So, you want
+to hedge that risk out by entering, you
+know, a swaps or block trading.
+Um so, those are things Oh, or there
+there are trades happening even for the
+first three years, which you have resale
+contracts on. What if
+the resale contract defaulted, right?
+What's your
+um
+guarantee from some of the players? So,
+we saw block trading happening around
+the indices. Trade as a floating rate.
+This chart um actually is being uh used
+differently by the NVIDIA team.
+Um
+in NVIDIA's latest uh
+um September investor day deck, they
+said us with only data provider that
+actually cited in our deck. Um this is
+very interesting. Silicon data becomes
+the appraisal for a few banks when they
+have GPU servers on their balance sheet.
+Um
+this everything you see here uh
+forward-looking view, right? So, it's
+discounted cash flow.
+So, as I said, we have a time structure.
+So, assume A100s, right? A100s have been
+around for six years. If today you sign
+a three-year long lease on A100s, and
+you have a rate, and we discount the the
+cash back to time zero, you have how
+much the asset's worth, right?
+Obviously, there's a lot of things baked
+in, utilization rate, what is your cost.
+There's a bunch of assumptions which
+we're pretty transparent about. Um we
+actually calculate the residual value
+for normalized value, obviously, across
+all A100, H100, B200 servers globally.
+And then we'll compare that with the
+straight-line depreciation, which is
+everybody using the five-year
+depreciation. What's interesting is the
+A100, right? Even though it is downward
+sloping, you know, think means things
+are a
+but it's worth the accounting
+depreciation curve, straight line. And
+the H100 obviously, you know, it's going
+going bananas now and the price actually
+went up. My My analogy would be just
+like secondary cars during COVID time.
+The price went up, right?
+And B200 obviously went above its MSRP
+by this point.
+So, this is give some give you some
+views about what's going on in the
+secondary market side. I think I'm out
+of time, but you know, feel free to
+follow me at Carmen
+CLI at computerhistory.com,
+CLI@computerhistory.com. Feel free to
+get me on Twitter. Carmen Li is my
+Twitter handle.
+Just Carmen Li. That's it.
+Thank you.

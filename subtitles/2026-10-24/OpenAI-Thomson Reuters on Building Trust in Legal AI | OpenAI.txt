@@ -1,0 +1,24 @@
+UP主：OpenAI
+标题：Thomson Reuters on Building Trust in Legal AI | OpenAI
+链接：https://www.youtube.com/watch?v=ExVDpMeaWp0
+
+Hold on. Can we do this differently?
+Lawyers, when they start drafting a
+document, they have to go between
+different systems. Then you add the
+complexity of having to do a global
+contract, they have to talk to different
+offices. They have to talk to different
+colleagues. They have to talk to
+internal and maybe external advisors as
+well. It's taking them away from where
+they can really add value. We want to
+communicate through one central
+environment, ChatGPT Enterprise, but
+also use that trust that we've delivered
+through Counsel Legal and HiQu. So that
+judgement becomes verifiable, becomes
+cited. We have a fiduciary obligation to
+legal professionals to deliver a message
+that they can trust and put their name
+on.

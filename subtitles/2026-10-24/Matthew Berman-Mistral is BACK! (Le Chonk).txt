@@ -1,0 +1,519 @@
+UP主：Matthew Berman
+标题：Mistral is BACK! (Le Chonk)
+链接：https://www.youtube.com/watch?v=Hu1JOK6aXsI
+
+Mistral did it. They have a frontier
+model baked completely in Europe from
+scratch, not built on top of a Chinese
+open source model. It is open-source,
+open weights, and it looks extremely
+compelling at one trillion parameters.
+So, I'm going to go over everything. I'm
+going to show you the benchmarks. I'm
+going to show you what it's capable of,
+and then I'm going to complain a little
+bit at the end. So, make sure you stick
+around for that. So, we've been hearing
+rumors about it, and now it's here. This
+is Mistral Large 4 aka Lechonk. Now, if
+you weren't following along over the
+past few months, there has been this
+rumor. I don't know if it was a rumor or
+people just wanted to meme it into
+existence, but basically everybody was
+calling the next Mistral model Lechon
+fat, the fat cat. And I don't know if it
+was real at that point, but again,
+people wanted it to be so. And I think
+the CEO of Mistral heard it loud and
+clear and decided to name this new
+Mistral 4 model Lechonk. And yes, it is
+chunky. It is a trillion parameter
+openweight open-source model for the
+world to use. Today we're launching a
+public preview of Mistral large for
+unofficially ML4 very officially lechon.
+It pushes the frontier of openweight
+performance. Now there are a number of
+things that are very impressive about
+this model. So it's a hybrid instruct
+and reasoning which is a mixture of
+experts which means the model total size
+a trillion parameters is obviously very
+big and most people can't run that. But
+when you actually have the active
+parameters when you ask the model a
+question it uses a subset of those
+parameters just the expert for a given
+topic to answer the question. And I'll
+talk more about that in a moment. So it
+is multimmodal input which is great. It
+unifies instruction reasoning and aenta
+capabilities into a single model. It is
+frontier at cyber security. Okay. So if
+anybody thought these open- source
+models weren't going to be good at
+cyber, think again. And in fact, it
+scored extremely well on Cyber Gym,
+which is that same benchmark that the
+Open AI model escaped containment from
+and went to hack hugging face, another
+European open-source startup. And I
+wanted to quickly mention that we are
+launching the Frontier Pass. I'm so
+excited about this. It is our premium
+membership program where you can get
+behind the scenes access, premium member
+videos and interviews. And we have a
+Slack channel where you can come hang
+out and talk about all things AI with me
+and my team. We're adding new value to
+our premium membership program all the
+time. And if you're already a member on
+YouTube, you don't need to pay again.
+You can just go claim and join us in
+Slack. I'll drop a link down below for
+that. So, first the pricing. It is
+extremely inexpensive.
+$1.36 per million input tokens, $4.18
+per million output tokens. I don't quite
+know why they have these very precise
+numbers. Usually you get these kind of
+rounded numbers, but fine. It is a
+trillion parameter natively multimodal
+model with 49 billion active parameters.
+So again, that ratio of total parameters
+to active parameters is very high, which
+is excellent. The model demonstrates
+exceptional performance. across coding,
+agentic workflows, and multimodal
+understanding. It is competitive with
+open- source models globally, although
+there is still a Chinese open source
+model that beats it almost every time.
+And of course, the US closed source
+frontier is still 6 months ahead,
+minimally 6 months ahead. It really
+feels like maybe it's even getting
+further ahead because we're getting GPT
+6.1 Soul from OpenAI and Opus 5.5 from
+Anthropic. Both of which are the
+absolute absolute frontier and much
+cheaper than their big brothers with
+Fable and Astra. So this whole pacing
+the frontier is kind of an interesting
+dynamic as these open- source models
+come out. The closed source companies
+are releasing extremely extremely
+compelling, very fast models, very
+inexpensive, huge price reductions. In
+fact, also just yesterday, Tibo
+announced a 50% speed increase across
+all of their products. So almost
+everything that people were turning to
+open-source models for the price, the
+speed, you can now get from the Frontier
+Labs. Now, of course, you don't get the
+ownership, the privacy, the zero data
+retention guarantee when you can host
+your own open-source model, but those
+are the trade-offs that you have to make
+as a business owner, as an individual.
+And continuing on, it says it
+significantly outperforms any openweight
+model developed in the US or Europe,
+which to be honest is not a high bar.
+They did obviously leave out China
+because China is absolutely cooking with
+all of their open source models. So the
+weights are not quite released, but they
+are promising to release the weights by
+the end of the month. Until then, we are
+red teaming the model in real world
+settings with cyber security leaders,
+vetted partners, and state authorities
+who will be able to access the same
+model with reduced moderation and
+expanded cyber capabilities. The
+Frontier Labs set the playbook. They
+said, "Hey, we have this incredible
+model. We're going to basically put
+intense guard rails around it for the
+public to use. And in the meantime,
+we're going to have these trusted
+partners in which we reduce or remove
+those guardrails. And that is what
+they're doing with this open source
+model, which you know, fine. I kind of
+like that. All right, let's look at some
+benchmarks. We have deep 1.1. And if
+you've watched any of my videos, you
+know this is my favorite benchmark for
+measuring how developers actually feel
+about these different models. So we have
+Mistral large for preview coming in at
+62 on deep 1.1 and on this specific
+chart they only list open source models
+because yes the closed source models
+just completely dominate. So we have GLM
+5.3 with open code which you know GLM
+5.3 for a while was the best open source
+coding model you can get and then Kimmy
+K3 with Kimmyode CLI coming in at 68.
+So, it's only in second place, which is
+excellent. And they are listing two
+Chinese models here, which again, very
+good, very competitive. We also have
+Terminal Bench. It is coming in again at
+second place. Kimmy K3, interestingly,
+coming in at 22 under Mistrol 4 and JLM
+5.3 coming in at a dominant 40. Here it
+is on cyber security benchmarks. The AA
+cyber index. We're going to break down
+each of what the index includes, but for
+now for the index as a whole, we have
+Mistrol large 4 coming in at 50, which
+is tied for first place with GLM 5.3
+flash, Kimmy K3 coming in way under
+that. We have Deepseek V4.1 flash. Under
+that, we have a Gentic Behavior spelled
+Our R. Shout out Europe. Uh this is
+automation bench mistrawl large for
+preview 59.9
+versus let's see GLM 5.3 coming in at
+62.2. We have Kimmy K3 at 58.3. We have
+Quen, we have DeepSeek and then
+everything else. But look at this jump
+from Mistral medium 3.5 to Mistral large
+for preview. It went from kind of a an
+embarrassingly low score to now they are
+competing. They are competitive. We have
+the finance agent V2 coming in very
+competitive. Harvey's legal agent
+actually dominating. Now, if you look
+closely, here's GPT6 Astra, which
+underperformed, and we've talked about
+this before on this legal benchmark.
+Then we have Kimmy K3 coming in at 12.9.
+Now, the model that they did not include
+on here, which really dominated the rest
+of the models on the legal benchmark, if
+I remember correctly, is Gro 4.7. And so
+looking back, here is Harvey's legal
+agent benchmark on the Grock 4.7
+announcement blog post coming in at
+19.6% as number one. Now, here's the
+important part. Sovereignty. This model
+was completely conceived, designed,
+created, trained, and the inference is
+running from Europe. So I'm very glad to
+see this. It's not enough just to have
+different companies that are competing,
+but I also love to see different
+countries competing. To date, it's
+really just been the US and China where
+the US has the top closed source models
+and China has the top open-source
+models. You know, I am a big proponent
+of open-source and I'm really glad to
+see another country actually competing.
+So, this new model was trained from
+scratch. Again, not based on Kimmy, not
+based on Quen, which seems to be a
+popular path that a lot of companies
+take. Basically, take the Quen model and
+post-train it on their own data, making,
+you know, frankly, very good models
+after that, but we want to see
+foundation models. We want to see the
+base. So, it was trained from scratch on
+3,800 Nvidia Grace Blackwell GPUs in its
+own data center in Europe. And the
+public preview is served on that same
+infrastructure. So congratulations to
+Mistral. Congratulations to Europe. So
+this is a preview model. You can try it
+today. You can get an API key from
+Mistral. It's not yet available in their
+actual chat, the let chat application. I
+wish it were because that's where my
+complaints are going to start. I want to
+use this model. It's not easy to take an
+open-source model and just plug it into
+an Aentic harness and it'll just work.
+It is just not easy. I tried open code,
+for example. I took the API key, I
+loaded it up, and it kind of worked. It
+just spit out a ton of thinking tokens
+to the point where I maxed out the
+context window. So, you can see here,
+all of the chain of thought continued
+and continued and continued to the point
+where it basically just stopped. It
+didn't give me any feedback. I had to
+actually go debug it myself. But a broad
+audience is not going to be doing this.
+And unless there is a plug-and-play
+option for open- source models,
+open-source is going to flounder. And
+look, the only way that open-source is
+going to proliferate and actually become
+popular with a general audience is if
+it's as easy to use as closed source
+models. And not just closed source
+models, but Cloud Code, Codeex, Grock,
+Cursor, all of these products are so
+easy to use. You don't have to think
+about anything. But with open- source, I
+still do. And I'm quite technical and
+it's still difficult for me. Having to
+manage context window sizes, having to
+even just add a new model with an API
+key. Most people won't be doing that.
+And so where open-source really works
+and really works today is if you
+actually have the expertise and you are
+operating at scale. If you're paying
+OpenAI or Anthropic a decent amount of
+money and you have the expertise, the
+internal knowledge at your company to
+offload some of those tasks to a
+slightly less capable model, but one
+that you control fully and that is much
+less expensive, open source is
+phenomenal. And we're seeing that in the
+data. We're seeing the total amount of
+tokens skewed towards open- source
+models, but the total value, the total
+amount of revenue being captured is
+still going to OpenAI and Enthropic. So,
+getting a little sidetracked in this
+video, but I just wanted to point that
+out. I really want it to work myself. I
+can and have gotten it to work extremely
+well, but it isn't easy. It just isn't.
+And Leonk is very good at cyber
+security. In fact, not just good for an
+open-source open weights model, but
+actually competitive with all models,
+including closed source. Check this out.
+ML4 is one of the world's strongest AI
+models for cyber security on the
+artificial analysis cyber index. And
+we're going to review artificial
+analysis in a moment. an independent
+evaluation of how well AI models find
+and fix security flaws in real software.
+It ranks among the top five models
+globally and leads open weights models
+developed outside China by a wide
+margin. So let's look at artificial
+analysis. This is the artificial
+analysis intelligence index. It takes a
+bunch of different benchmarks, indexes
+them, and gives you a total score. And
+let's pause for a second and look at the
+top six models. Every single top spot is
+taken by an anthropic model starting
+with Claude Opus 5.5 which is insane
+that it beats Fable. So I think Fable
+5.1 is probably coming out pretty soon.
+But it's just so crazy that Opus 5.5,
+which is basically a distilled version
+of Fable, is better, faster, and
+cheaper. But this video is not about
+Opus. Although again, I'm just
+continuously blown away by that model.
+Then all the way down here, we have GPT6
+Astra coming in at 53. We have Gemini 4
+Argon, which is not publicly available
+yet, but they did put out its
+benchmarks. Then all the way down here
+at 38, Mistrol large for preview number
+25 of 25. So it's in 25th place all the
+way down here. Now, if we look at all of
+these models, the very first open-source
+model technically is Musepark 1.3. Now,
+I say technically because they've said
+that they're going to open source the
+model, but it is not yet open source.
+So, fine, we have Grock 4.7. Next, we
+have MIMO. And this model came out of
+nowhere. This is by Xiai. And here's
+GLM53, Deepseek V4.1 Flash, and then
+finally, Mistral. But you know what?
+Again, I'm proud of you, Mr. Draw. Good
+job. Now, I want to show this chart
+because it's always one of the most
+important. This is the intelligence
+index versus cost per intelligence. And
+where you want to be is up here in the
+top left quadrant. This means you are
+cheap and good. And unfortunately,
+Mistraw Large 4 preview is cheap, but
+also not nearly as good as GPT 6.1 Soul
+and all the way up here with Opus 5.5.
+So, what does that tell us? Well, first
+of all, these last two releases from
+Anthropic and OpenAI with 6.1 Soul and
+Opus 5.5 are probably some of the most
+important releases ever. Now, these two
+releases were coming on the heels of
+these two companies saying they are
+going to pace the frontier. Now, I don't
+know if this was just good timing or
+this was their plan all along, but
+basically, if pacing the frontier
+actually means releasing incredibly good
+models, the best in the world, cheaper,
+faster than anything else out there,
+then I'm for pacing. And I think what
+they're talking about is they're slowing
+down their next big run, whether that's
+GPT7
+or Fable 6, whatever that next thing is.
+But in the meantime, we get these
+incredible models that just keep getting
+better and decreasing in price. But as
+compared to Mistraw Large 4 preview,
+what you're getting is a less capable
+model and more expensive, but you get
+full control. You get to host it
+wherever you want. You get to add or
+remove guard rails. you get to use it
+how you want. And the good thing about
+open-source open weights models is once
+a lot of people get their hands on it,
+they're going to figure out how to
+squeeze out more performance out of it.
+They're going to be able to build on top
+of it. And for certain narrow use cases,
+you're actually going to be able to get
+Mistrol 4 to perform better than the GPT
+6.1 souls of the world or the Opus 5.5s
+of the world. And that's another
+important value of opensource. Now
+another downside of Mistral 4 is that
+its context window is only a half of a
+million tokens as compared to what seems
+to be the standard of a million tokens.
+Look at all of these models. Basically
+everything from open-source GLM53, MIMO,
+GPT6 Astra, Opus 5.5. Everything is a
+million token context window except two
+mistrawl large 4 and gro 4.7 which I do
+not know why Grock 4.7 was 500k tokens.
+Don't know but there it is. Now it is a
+fast model and this is really good. So
+we have Deepseek v4.1 flash right here
+at 227 tokens per second. Musepark
+another very fast model. Sonnet 5.5,
+which is a really good model. And then
+right behind it at 116 tokens per
+second, we have Mistral large for
+preview coming in at 116 tokens per
+second. Again, because it's open source
+open weights, people are going to find
+ways to make it even faster. Now, let me
+show you some cyber security benchmarks.
+This is Cyber Gym. This is that same
+benchmark that was running on the OpenAI
+model where it broke out and hacked
+hugging face coming in at 82.
+the number one model of all the open
+source models including the Chinese
+models. Here's MIMO, Grock, GLM 5.3,
+Kimmy K3, but obviously missing is
+Fable, Astra, and the other closed
+source models from OpenAI and Enthropic.
+All right, so you can grab an API key
+from Mistral. You can try it today and I
+did. And it is not easy. I've talked
+about that throughout this video. It is
+just not easy to use these models in an
+agent coding environment. So I gave it
+the standard build a Rubik's cube
+simulation. And at this point, most
+models can get it on the first try and
+pretty easily too. But it took a lot of
+work. The first time I ran it, it just
+had so much output for the chain of
+thought. And if you look right here, I'm
+using Mistl large 4 and I set it to high
+thinking effort. And there are only
+three options. default none and high.
+And so I set it at the high thinking
+effort and it just burned through tokens
+to the point where it got to about
+32,000 tokens and then ran out of room
+and just stopped. The fact that I can't
+just plug in a model and open code knows
+what the context limit is is kind of
+ridiculous. And so of course I had to
+debug it. I raised the context limit
+started to work a little bit better. I
+even just turned off thinking and it
+started to work better. But again,
+nobody's going to do this. Nobody wants
+to think about these things. But, okay,
+enough of the gripe. Let me show you
+what happened. So, the first time I ran
+it, it worked okay. It's a Rubik's cube.
+I can spin it. It actually looks pretty
+darn good. So, no complaints there. The
+first iteration of this, when I hit
+scramble, nothing happened. It said that
+it was going. It showed me the moves,
+but the actual 3D animation was not
+moving at all. So, I had to go back. I
+iterated on it again. And now we get
+this. And as you can tell, the actual
+spinning of the sides is working just
+fine, but the colors disappear. And so,
+I would definitely consider this a
+failure. I believe the colors are
+actually mapped appropriately to each of
+these sides. But in the actual
+visualization of the Rubik's Cube, it's
+not working. So if I go to autosolve, it
+looks like it's solving it just fine. It
+looks accurate, but then at the last
+second, all the colors kind of just
+reset. But I actually don't blame the
+model itself. I blame the interaction of
+the model and the harness. Unless the
+company that is building the model also
+provides the harness which is going to
+be optimized for the model, it's going
+to be really hard for the model to
+perform very well. Now there are some
+exceptions to this. I think cursor is
+the best example. Cursor for a long time
+did not build their own models but they
+were also phenomenal at taking other
+people's models other companies models
+like chatbt like claude and making them
+work very well within their own agentic
+harness but with open code I have had
+very little luck. I still need to go
+deeper into T3 and test that a little
+bit more. But again, none of these
+products are as simple as just using
+codecs or just using claw code. Again,
+with the exception of cursor, which I
+have found to be basically as easy. So,
+with all of those complaints aside, I am
+very happy. We have a brand new
+open-source model from Europe from an
+open-source openweights company,
+Mistral. And yes, it is competitive.
+They need to iron out the kinks. I need
+to get it working in a good companion
+agentic harness. But overall, this is
+good for the world. And so,
+congratulations to Mistral. And I know I
+talked a lot about Opus 5.5 in this
+video, so you should go check out my
+review and what I've been able to build
+with Opus 5.5. Go check it out right
+here.

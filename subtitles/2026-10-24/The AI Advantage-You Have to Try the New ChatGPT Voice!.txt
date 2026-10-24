@@ -1,0 +1,524 @@
+UP主：The AI Advantage
+标题：You Have to Try the New ChatGPT Voice!
+链接：https://www.youtube.com/watch?v=UIKgq0LBfws
+
+So, one of my favorite and also most
+useful things about AI is voice. It's
+just a bandwidth. You can put in five
+times more than typing, no matter how
+fast you type. And this week, we had so
+many voice updates. Not just OpenAI
+reworking how their voice works from the
+ground up. We're going to explore that
+today. But also Claude releasing in
+their web application a proper voice
+model finally. That was like the biggest
+weakness of Claude. So we're going to
+have a look at all of that how it
+integrates into the different products
+all across chat GPT chat GBT work. It's
+even available in codecs and it's just
+at a different level. It looks similar
+but it's not. And I think a few little
+tips could change the way you interact
+with AI permanently. And that's what
+we're going to do today in this week's
+episode of News, the show where we used
+to look at every news story and filter
+ones that matter. But now it's more like
+what's the one thing this week that
+really makes a change and how you'll use
+this stuff. and then we look at other
+stuff on my radar in the end. Let's
+begin by looking at all of these voice
+functions that launched this week. So,
+first of all, what released? Well, an
+overhaul to the chat GPT interactive
+voice experience. You remember two years
+ago, it went super viral when they had
+all of these demos of them speaking to
+AI. It was almost instant, felt fluent.
+They had a visually impaired person
+calling a cab and then using it to kind
+of navigate as it saw their camera.
+>> Get ready to wave it down. they never
+really fulfilled on many of those
+promises. It was super hyped and then
+when we got the features, it was kind of
+nice, but most people that I know
+weren't using this interactive voice
+feature. This one particularly, this
+icon. So, let's start by clarifying that
+there's a big difference between this
+one right here, the microphone, which is
+just voice input, or this one, which is
+interactive voice back and forth for the
+AI replies to. This is the one that got
+the big overhaul now. So, where can you
+find or access this? Well, pretty much
+in every place that chat gbpt lives as
+opposed to the cloud releases. We'll
+talk about that in a second. You can
+find it here in the web interface.
+chatgpb.com. I could just hit this and
+you'll instantly see it's a bit
+different. Hey, what's up?
+>> I was just thinking about how people
+decide what to work on next. What's been
+on your mind today?
+>> And there you go. A few things to
+pinpoint there. As you see the
+interface, there's a chat below. So now
+I could be adding images and other
+things like so. Yeah, you can drop
+images into the chat along with your
+text and I can work with them. Just
+upload or drag and drop and tell me what
+you like. So, what do you see?
+>> Got it. Yeah, thanks. I'll summarize the
+image first. It's a YouTube thumbnail
+that contrast. There you go.
+Additionally, there's some settings. So,
+here in the top right, if you check out
+the intelligence level, instant is just
+the quickest and high is the smartest
+but the slowest. As before, you can also
+pick the languages. I'm a cove type of
+guy. You would just go through and
+select which one you like.
+>> It's lovely to meet you. What would you
+like to
+>> Hey, good to see you. What's new in your
+world?
+>> So, this is where it begins. And this is
+the point at which you might think,
+okay, not that big of a deal. But I
+think where it's really interesting is
+the fact that this works in all other
+interfaces, too. So, let's get the next
+one out of the way, which is mobile. If
+you update your mobile app, it can do
+the same thing. And I kind of like this.
+I was testing it on my morning walk
+today, and you know, you just press the
+icon, it works the same way. But now you
+can upload images and even use your
+camera as you move through. So look, for
+example, I can say, "Hey, what do you
+see?"
+>> Yeah, that changes everything.
+Let me take a quick look. It looks like
+a retro interior corner. Striped green
+and brown wall.
+>> Yeah. So that's really nice. But here,
+and this wasn't obvious to me
+immediately, if you go to the three dots
+here under more, you can switch to
+either share screens or live video. So,
+let's do that. Okay. Switch to live
+video mode. Confirmed. First time I'm
+doing this, by the way. All right. Can
+you see? Oh, up here. It switched to
+advanced. I'm going to switch.
+>> Got it. Live video is on now. I see your
+screen on a chat GBT settings page with
+a share screen option in the menu.
+>> Okay. Okay. So, you see the phone
+screen, not the camera screen. Is that
+right?
+>> Yeah. Right now, I'm seeing your screen,
+not the camera view.
+>> Ah, I see. So, live video is not
+available with this new model. If I want
+that, I need to switch to the old chat
+chip voice, which you can do here up
+top.
+>> Difference is that one is colored. The
+new one is black and white. So, let's
+explore the last option here, which is
+more and then share screen.
+>> Right. In most cases, you'd open more.
+>> And again, you will notice this one
+neither this one isn't available with
+the new voice model. So, you can only do
+camera and photos for now, which does
+limit the mobile application. But let's
+get to my favorite part, which is the
+desktop app. This is the one where they
+really shipped. So, what I'm talking
+about is the app that you need to
+download here. Download ChatB for
+desktop. And once you have it, you just
+have the standalone application in your
+app bar here at the bottom. And they
+reworked this recently. If you're a
+little lost here, hey, you're not alone.
+I feel the same way. What they basically
+did is they now have the same lineup
+that Claude has. If you're familiar with
+that, if this helps claude, it's claude,
+right? That would be chat GBT. Then it's
+claude co-work that would be chat GBT
+work. And then the third one is claude
+code which is made for building apps.
+They have codecs which you can access by
+going here to chatbt and then codeex in
+here. So the desktop app contains all
+three levels now. Now you know how to
+navigate to them. And all three of these
+are empowered with the new voice
+function. So for anybody who hasn't
+tried any of this, I recommend just
+going into work and then launching the
+voice chat from here. And this is where
+the capabilities unfold. Hey, what's up?
+>> I'm here and ready. What are we thinking
+about today?
+>> All right, so I want to show your
+capabilities. And one amazing thing
+about this is that hey, if I just move
+this out of the way, I'm just going to
+move this chat GPT window to the side so
+you can still kind of see it. But you
+could totally move it out of the way.
+But what I want to show off is that if
+I'm doing my work, for example, if I'm
+on the side, this just works. There's no
+old model, new model. It just works.
+What do you see?
+>> I get you. You can keep me off to the
+side while you work and just talk
+through whatever's on your mind. If you
+want, I can help brainstorm, explain
+stuff, or
+>> Okay, what do you see? One sec. I'm
+looking at your current screen now.
+You've got Chrome open to Chachi
+Beauty's download page.
+>> Exactly. So, it took a screenshot and it
+kind of just hovers there. Another thing
+I like is it kind of just sits there.
+So, when I'm working and sitting here in
+silence, it's not just going to talk
+talk talk my ear off. I can kind of just
+do my thing and have chat open like this
+and whenever I need it, I can invoke it.
+Okay, how about a little test? I'm just
+going to open up Slack here with a
+message that has been sent to me by
+Daniel who helps with some of these
+YouTube videos and he was asking me to
+set up a chatbt work schedule task cuz
+we're making a short tutorial video on
+that feature. This was from Monday and
+he basically gave me a prompt here and
+told me to set it up in chat GPT work. I
+have not tried this previously. I want
+to see if chat can do that, right? Hey,
+this is chat GPT work. This is a prompt.
+Can you just set the schedule task for
+me?
+>> Sure, I'll check that out. Okay, I'm
+checking Daniel's message to pin down
+the exact schedule before creating
+anything.
+I scheduled the hourly check. It stays
+quiet unless OpenAI or Enthropic
+announces a major launch, then emails a
+>> Holy It did that. Okay. Okay, hold up.
+Let's pause this and check in the
+interface. I should see this here under
+scheduled. Yeah, major AI release
+monitor running here. It uses the terra
+model. I could upgrade that. I could
+change all of this. It runs in my
+default project, which is good. This is
+amazing. It just created a schedule task
+automatically, which I'll delete now.
+But you can see the capability. You
+really get all of Chat GP, including the
+new work features, which are powerful.
+And by the way, if you're wondering what
+else work can do, I put together a PDF
+with 10 of my favorite use cases. You
+can get it for free in the description
+below, first link. And all of that you
+can now command with your voice. This
+does feel like this Jarvis fantasy that
+we all saw and probably liked in Iron
+Man.
+>> Wake up, Daddy Sh.
+>> Welcome home, sir.
+>> I know a lot of people come into AI with
+those expectations. It's becoming a
+reality. Now, I have two more use cases
+that I want to show you. I think one of
+them is kind [snorts] of obvious, but
+it's a good reminder that it's that
+chatbt is just the goat at this. And now
+with this new voice feature, it's even
+better. Let's say I'm doing something
+new, right? Whether that's, you know,
+building something or maybe I'm
+stumbling my way through Codeex. I just
+switched to Codeex and I'm like, gosh,
+this is a new interface. Where do I even
+start? I want to build, I don't know,
+Pomodoro timer app.
+>> Totally fair question. If you're new, a
+good first step is to keep it small.
+Define a tiny goal like one timer.
+>> But concretely, like what what is the
+next tiny step that I could take here?
+Can you assist me?
+>> Sure thing. Let me check the quickest
+next move for that timer. The next tiny
+step is type one sentence ask into
+codeex. Make me a simple pomodoro timer
+with start, pause, reset, and a 25minute
+default. Once it generates, test it.
+Then ask for just one small tweak like a
+5minute break mode.
+>> Okay. Can you explain the entire
+interface here? What's going on here on
+the left with all of these folders and
+projects?
+>> Sure. I'll focus on that left panel and
+map out what you're seeing. The left
+panel view is the add simple Pomodoro
+timer task. I'm checking the interface
+context so I can orient you properly.
+Quick orientation. The left side is your
+workspace library. At the top, you can
+start a new task. Projects and folders
+sit below to organize related work. And
+the items under them are past tasks you
+can reopen to pick up where you left
+off. The main area is whatever task
+you're currently working on, like your
+timer.
+You don't need to organize anything yet.
+just stay in this task and describe the
+timer you want.
+>> So there you go. I think that's a simple
+demo, but this use case of hey, you're
+doing something new and now you're not
+alone with it because chat is right
+there, sees what you see. And if you're
+confused, you're just like, hey, I'm
+confused. What's going on here?
+>> I'll figure that out right now. You're
+in the ad simple Pomodoro timer task.
+Nothing's wrong. You're just in the chat
+where you ask for the app and get made.
+>> Great. Okay, now I could mute my
+microphone down here or even mute the
+voice chat if I just wanted to
+completely turn this off for a while.
+And then if I want to continue, well,
+there you go. I just continue or cancel
+the thing overall. So, you can see how
+this fluently could integrate into your
+daily workload. It doesn't need extra
+screen real estate. You don't need to
+learn a new app. It's just chat GBT in a
+more fluent interface. Like, it's not a
+extra window you need to manage or
+minimize or something. It's kind of just
+there and doing its thing. And this is
+where the desktop app shines because
+that's where you unlock these
+capabilities of it sitting over on the
+side, it accessing local files, it being
+able to remote control chat, work, and
+codecs all at the same time. And again,
+everything you've been doing with chat
+will work with this more fluently. I'm
+sure there's some caveats and there's
+going to be some fantastic comments
+below pointing out,
+>> hey, you're actually this one thing
+doesn't work.
+>> But kind of operating under the
+assumption that it does is the right
+thing because most of the stuff I've
+seen works. I think it has some issues
+with projects from what I've seen. Like
+you can't just go into your project,
+which I do all the time. Start a new
+chat and then work from there. Hey, can
+you see the context files in here?
+>> I can see the current voice chat, but no
+Paul is visible here. Do you mean uh
+person message?
+>> I mean attached files in this project.
+>> Got it. I'll check for attachments. I'm
+not seeing any attached or context.
+>> Yeah, this is the biggest limitation
+that I found for myself. every time it
+starts a chat, it's just a brand new
+chat and not inside of a project,
+unfortunately. Okay, there's one more
+thing that I want to show you with this
+before we talk about other stories and
+that is the fact that it also works with
+connectors. So, they're called plugins
+in chat GPT, right? And I connected a
+few plugins including my main calendar
+and now I can talk to it. And what I
+want to end on is one of my main issues
+is scheduling something. So, what is
+coming up today in terms of events for
+me? Okay, I'll check your calendar for
+today. It
+>> takes a second. Fair enough.
+>> You're in the video shoot until 2. Then
+you have Pedell from 2:00 to 4:30, a
+brief mastery hub switch at 4:45, and
+Asauna cleanup with Stephanie at 5.
+After that, networking at 6:00, editing
+sync at 7, two overlapping commitments
+at 8, and dinner at 9:00. That's
+amazing. That's exactly right for today.
+And you know, I want to schedule
+something for tomorrow, a 30 minute sync
+up with our YouTube team. Propose um the
+best time for that. Got it. I'll look at
+tomorrow and find us a good slot. I'm
+checking tomorrow for a clean halfhour
+window with your team. Tomorrow's best
+slot is 11 to 11:30 a.m. your time. It's
+open. It's before lunch and it leaves
+room before your 3:00 slides review. I
+can't see the team calendars, but given
+yours, that's the strongest option.
+>> Honestly, that's a great take. Now, my
+main gripe with this is that I would
+want to alter its behavior and install
+certain rules on how to book things, but
+I'm not sure how to do that if it's just
+going to open up a new chat every single
+time. I guess I could use my accountwide
+custom instructions under
+personalization and then put them in
+here. They did up these recently to
+5,000 characters now, which is more than
+triple what it used to be. So, I guess I
+could put my booking rules in here, but
+ideally I would want to create a project
+with some rules on how I book my events
+and context on recurring commitments and
+then tell it, hey, every time I want to
+book something, look into that project
+file rather than accessing my entire
+account. This is really still the
+biggest weakness of chat GPT because in
+terms of the capabilities, it's getting
+close to a lot of the more advanced and
+connected applications like Open Claw
+and Hermes. Its memory and its context
+management is still very lackluster. But
+this voice function, the smoothness of
+it, the interactivity goes beyond
+anything I currently have in my own open
+claw. I guess I could install the new
+models and go through the API and kind
+of like build it myself, but this just
+works. It's a perfect implementation.
+Like I literally want the same thing
+here with this floating box and you too
+can try this today. Now, I did say that
+I wanted to talk about Claude 2. And you
+know, Claude is amazing. You know, I'm a
+big fan if you've been following the
+channel, but their voice function was
+the worst in the market. Now it's
+actually pretty good. They made major
+upgrades to this last weekend. But the
+big caveat is this interactive voice
+that they now too have only works in a
+regular chat. Hey Claude, what's up?
+>> Hey Eagle, not much. Just here and
+ready. That first bit came through a
+little scrambled on my end, but no
+worries. What's on your mind today?
+>> Nice. Not bad. But as soon as I switch
+into cowwork, this option disappears.
+Code is the same thing. Desktop app is
+the same thing. So really interactive
+voice for Claude. It's now in chat. So,
+in other words, they're playing catchup
+to chat GBT. I will say that finally,
+this normal voice input is amazing and
+available across all of them. So, they
+upgraded this tool and yeah, you can
+speak into it and it just works as
+seamlessly as the chatbt one did for the
+past 2 years. If you're not familiar,
+the claw voice input used to be so bad
+that that the only thing you could do is
+just joke about it. It got every I don't
+know fourth word wrong in my opinion.
+Maybe it's just my accent. No, actually
+kidding. It was bad for everybody. And
+there you go. Those are the voice
+updates this week. Pretty great stuff.
+Now, to round this video out, I want to
+talk about two quick stories. One of
+them is Opus 5 that came out. I usually
+create a dedicated video. Last week, I
+was traveling and also when I tried it,
+first I wasn't that blown away, but now
+I'm like, "Wow, it's actually really
+good if you use Fable to orchestrate and
+Opus 5 to deliver." Um, it's a bit
+confusing that model on the benchmarks.
+It looks better than Fable in many of
+them, but when building things, I don't
+know. I was a bit confused by it. I've
+seen articles saying that, hey, you
+should just completely wipe the context
+when you're working with it. And I just
+want to be clear, what I'm talking about
+here is for people building with it.
+Everyday usage, it's fantastic. It feels
+very similar to Opus 4.8, but to build
+things, I was initially confused by it.
+Guess I still am a little bit, but what
+I've seen people do is, yeah, use Fable
+to orchestrate and then switch to Opus.
+I've been doing that too for the past 3
+days. Works well, but honestly,
+personally, it's just not one of those
+releases where I went from Opus 4.8 day
+to Opus 5 and I was like, "Wow, it's
+just so so so much better." It is
+better. But yeah, that's kind of my take
+on it as of now. Would love to hear
+yours. And then secondly, this is a
+really fun one. If you're in claw,
+there's a new connector that you can set
+up connector and it's called empropic
+economic index. If you're not familiar,
+this is the research on how AI is
+actually being applied in the real world
+under manage connectors. You can just
+install this and if you have context on
+yourself DNA files even if it's
+relatively shallow you can just ask what
+can a AI do for me based on the economic
+index top 10 by productivity and it's
+going to give you a list of
+statistically proven best use cases for
+your industry your job and then of
+course because it's cloud it can write
+the prompts to run those things. This is
+probably the biggest hack to finding use
+cases for yourself that I have today.
+Yeah. And now you know too. All right,
+that's pretty much it for this week. Let
+me know how you're using voice or what
+limitations you hit. And with that being
+said, my name is Igor and I hope you
+have a wonderful week. [music]
+here to help you figure it out.

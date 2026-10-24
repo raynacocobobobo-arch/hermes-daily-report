@@ -1,0 +1,140 @@
+UP主：OpenAI
+标题：Building the partner ecosystem with Sophos
+链接：https://www.youtube.com/watch?v=zoohZ1BiHs0
+
+I'm delighted to be joined by by JP and if Matt mentioned the post afternoon post lunch slump I
+think of all people JP probably has the excuse to maybe have a little bit of a slump uh having
+traveled from the east coast at the start of the week to the west coast to arriving in London last
+night. Yes. Uh so please go easy on them. Um with that JP would be great to introduce yourself to
+the audience um and to tell us a little bit about Sophos please. Hey everybody it's great to be with
+you here today. I'm John Peterson. I'm chief technology officer at Sophos. And Sophos, for
+those of you that may not know us we are one of the largest cyber security companies in the world.
+We have about 650,000 customers that are spread across the you know with a global footprint and
+they really span every segment every sector and as such we see a huge variety of different attacks
+and we've cultivated you know vast expertise in combating them over four decades of being in the
+cyber security business. So it's great to be with you here today. Thanks JP. Yeah great to have you.
+Sophos is a Daybreak partner and we're speaking a lot today about the narrowing defenders window.
+What does the defenders window mean for Sophos um and how you protect your customers? Yeah,
+that's great. So, the we think of the defenders window in terms of the the pace of acceleration
+in frontier intelligence. So, the leading frontier models are developing more and more sophisticated
+cyber capabilities. those are working their way down into the openweight models as well
+and that's driving you know a faster exploitation paths more vulnerabilities we're seeing that in
+the CVEes as well um just the level of CVS has gone up massively in the last few years
+and so we think about it in terms of we have an opportunity to take advantage of the frontier
+um frontier intelligence through programs like Daybreak that allow us to stay a step ahead
+of the attackers um and we we look at that in terms of protecting ourselves at Sophos
+because as a large cyber security company, we're obviously a target, but we also have 650,000
+customers who and it is our obligation to protect them. So, we have an opportunity, I think, with
+programs like Daybreak to stay a step ahead of the attacker community. And I guess that protection
+takes a combination of technology and expertise. So how do OpenAI, Sophos, and the customer each
+contribute to making this essentially work for the entire ecosystem? Yeah, that's that's a good
+question. I think the way that I think about that is Sophos is Sophos contain we have lots of cyber
+security domain experts, right? We've been in the cyber security business a long time and we've,
+you know, it's our business to protect our customers and that that domain expertise takes
+a variety of forms. So threat intelligence um you know response playbooks when we're managing
+incidents on behalf of customers um and also just the expertise of our people. So I look
+at it as Sophos brings the domain expertise and the knowhow to actually combat attacks at scale
+but then the programs like Daybreak and companies like OpenAI bring frontier intelligence that allow
+us to take that domain expertise and then scale it to support all of our customers. And that's what's
+been so powerful about the program and what it's allowed us to build. It's been fantastic to see
+that partnership go from from strength to strength in recent months. Absolutely.I guess we're joined
+by some of the leading uh security leaders across EMEA here today. Maybe let's give them a little
+bit more of a a practical example here. um can you walk us through an example of how a Daybreak
+powered agent helps your team investigate a threat? Yep, absolutely. So, I think the the place
+that I would start in explaining that is by just explaining the Sophos Fusion system, which is the
+system that powers the managed detection response service at Sophos and all of our EDR and XDR
+products. So these systems are built um leveraging sensor data from over 500 different integrations
+with third-party security products but also our own products as well. Those sensors are
+producing like trillions of events every day. And those events get distilled down really into
+a small set of about a thousand to 2,000 cases a day that are you know nine different security
+operations centers are investigating on behalf of customers. And so that process of taking a case,
+conducting the investigation and then remediating whatever the threat is. Historically that was
+driven primarily by human expertise. And you know in the before time right that human expertise and
+the processes that we built around it allowed us to have around a 38 minute average response time
+for or average investigation time on those cases which is you know at the time like 18 months ago
+that was better than 96% of professional security operations centers. But now because of the agents
+that we've been able to build leveraging the Daybreak program, the average response time for
+cases that are leveraging the agents that we've built has reduced to about 89 seconds. So that's
+about half of the cases that we handle are now being automated by agents that we've developed
+using the Daybreak models. And that's obviously that's been transformative in terms of the effort
+that it takes for us to actually conduct those investigations, but it also results in better
+customer outcomes. And to to provide a little more detail about how that actually works in practice,
+we have these cases that come into the security operations team. And the cases themselves are
+now handled primarily by a investigation agent that we've developed that takes all
+of the information from the case. Customer context detections, indicators of compromise, um you know,
+knowledge of the um the the threat landscape. And it feeds that into a planning model which
+then creates a kind of plan execute um review loop and goes through it creates an investigation plan,
+conducts the investigation steps and then creates a summary for the analysts to review and then a
+set of recommended response actions and then we have agents that we've built as well that
+handle some of the response. But that's a little bit of background and to how the whole thing
+actually functions. And it's been transformative because it allows us to respond more quickly,
+but it also gives customers broadly a more consistent outcome, which is what we're really
+in the business of doing. And I guess given that you're halving that time to response, where where
+are those efforts then being placed? Where are you putting th the additional time and effort? And
+how are you as a a leader making those decisions and and where that time is spent as well? Yeah,
+I mean the a big part of the value is is that well let me take a step back. So the cyber security
+expertise has always been in short supply. One of the the reasons that our MDR business has been so
+successful and why other MDR businesses have also been successful is because it's actually hard to
+find security operations analysts that have the expertise to protect customers. it's hard to staff
+your own sock um you know and have 247 response capabilities. So you know what this has allowed
+us to do is help with that talent help help to use the talent that we have in the in the organization
+more effectively and more efficiently so that we can we can scale our we can scale the compute
+in ter as opposed to the personnel that are supporting the MDR business. Yeah, I think that's
+great to hear JP. I think there's not a person in this room that probably doesn't feel that
+skills gap in in terms of cyber security, I'm sure. Finding a threat, right, is is is one thing,
+but deciding how to respond is really where trust and judgment matter. So, how do you decide when
+to act on what an agent does find? That's a great question. Um so at at Sophos the way that we've
+structured our MDR business from the beginning um kind of takes this problem into account because
+it's a problem if it's humans doing it. It's also a problem if it's agents doing it. Um so the way
+that we've approached this is by starting with we have three basically basic operating modes
+that we operate within. First is called notify and in that mode um our sock will investigate a case
+fully on behalf of customers but we'll never take a response independently. um we guide the customer
+and we recommend response but we never take that on their behalf. Second is collaborate and in that
+mode we conduct the full investigation but then we will work with the customer and never take a
+response without their direct involvement. And the third is um authorize and in that mode we
+are fully authorized to take response actions on behalf of customers and keep them protected
+and we're comfortable operating with customers in any of those different modes. And we structured it
+that way so that we could meet the customer where they are and align our service with their level
+of expertise and comfort level with us taking response on their behalf. So all of those same
+um principles apply to agents as well as to humans. And the the way that we handle automation
+and response is you know we of course want to ensure that we're responding quickly. We also
+want to make sure that we're using our analysts as efficiently as we can, but we also recognize the
+need to ensure that human judgment is applied whenever there's potentially a destructive
+response that an agent could take. And so there's still anything that we don't feel comfortable
+um you know with an agent handling, we will pass off for human judgment. So there's still a lot of
+human judgment in the response process even though there's investigation even though the agents are
+are automating a lot of the investigations. And how how do you see that that evolving over time
+JP. Excuse me I'm a little bit tired after last night. I think you're doing great. Yeah. So the
+way that we see it evolving is basically the the response capabilities are going to continue to
+to become more sophisticated and we're going to continue to broaden the series of use cases that
+we are addressing with the agents that we've built. But we're always going to have humans
+at least at the moment I feel like we're always going to have humans supervising anything that
+could be potentially destructive in a customer environment. Um because at the end of the day our
+mission one is keeping customers protected and you know operational. So keep customers protected keep
+them operational but also giving them the control to decide whether that's full authorization or
+notification only. Exactly. okay great. I suppose to to close let's bring it back to the security
+leaders that that we have here in the room and um what would the the first step to getting started
+with Sophos really look like? Yeah. Well, I I think the way that I would um explain that is
+just in this environment where the defender window is closing, Frontier Intelligence is accelerating,
+and the the capability of, you know, relatively novice attackers to make a real impact. Doing the
+fundamentals well is more important than it's ever than it really has ever been. Um, and that means
+of course like having patching programs to deal with the um the vulnerabilities and the CVEes that
+are being released by by many different vendors and by the open source community, but also making
+sure that you have good fundamentals in place across your infrastructure. So solid endpoint
+protection like having having above having the best endpoint protection is more important than
+it's ever been. Additionally, having, you know, basic things like MFA in place across all of your
+identity infrastructure, having strong network segmentation in place, and then having a strong
+security operations program that wraps all of that is more important than it's ever been. And Sophos,
+we obviously we play in all those different places. And um you know,
+we're we would be happy to to talk to anybody that's interested in learning more. So really,
+you're not saying to throw out the fundamentals here and forget all those basics. I am not saying
+that. No. Okay. Yeah. And it's not it's not controversial what I'm saying, I don't think,
+but I think we get distracted by the um the pace that the technology is moving. Um you know,
+and of course we want to we want to do everything that we can to leverage agents to help help
+security operations teams deal with the increased workload, but also like fundamentals fundamentals
+like endpoint protection are just more important today than they ever have been. Yeah. Thanks a
+million JP. It's been it's been great chatting and I'm sure there's many people in the audience who'd
+love to to pick your brain this afternoon. So JP is around. Um he will be here for the remainder
+of the afternoon and available if you want to buy him a drink at our open bar shortly. Um but yeah,
+thanks a million for your time JP. Um I'm going to be uh leaving stage shortly, but uh next
+up I'm delighted to introduce Tom Duff Gordon who's OpenAI's policy VP for EMEA. Thank you.

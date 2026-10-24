@@ -1,0 +1,525 @@
+UP主：The AI Advantage
+标题：ChatGPT Just Entered a New Era (How This Affects Normal People)
+链接：https://www.youtube.com/watch?v=uapAA5hx5uI
+
+Okay, so we just had probably the most
+significant set of AI announcements, 20
+in total by OpenAI yet, probably since
+chat GPT release. Okay, there's things
+for everybody here. I want to talk about
+all of this, but especially I think I
+have a unique take here on what this
+means for people because between, you
+know, dots and the the hyperfast API and
+new API endpoints that they have, I have
+notes on all of it here. the decisions
+API, which basically takes what Jeff was
+doing last week and everybody was
+excited about and puts it into the
+OpenAI universe. All of those things and
+GPD 6.1 soul and the new sites, there's
+just so much to unpack here, but I don't
+think all of it matters equally as much.
+And the reason for that is because
+there's different groups of AI users.
+So, in this video, I want to kind of
+break down my view on AI adoption today.
+how these products relate. And then
+finally, I want to let you go with what
+I'm looking forward to and what I'll be
+doing throughout the next few days with
+these products. Okay? Then obviously
+more videos coming on exactly what use
+cases, prompts, and combinations of
+think work. That's what we do on this
+channel that's coming. This video is a
+discussion of this madness that just
+happened so we can process this
+together. All right. So, first up, let
+me show you my iPad and let me talk
+about kind of the AI landscape as I see
+it, right? I've been privileged enough
+um and and I had the the honor of
+teaching well millions of people on this
+channel, hundred thousands of people
+through various programs and products
+over the past few years on AI. Okay. So,
+this perspective isn't just grounded in
+what I kind of just feel like. This is
+literally what we see on the ground. So
+I think kind of the AI market is like
+there's this thin sliver. Um this is
+less than 0.1% by the way of power
+users. Now a lot of people a lot of
+power users watch you know channels like
+this videos like this or they hang out
+on Reddit and on Twitter all day and
+they're in this little bubble where they
+think everybody is a power user like
+them. But the reality is you go out into
+the real world and you go out into
+people using AI every day and you're
+going to realize no not everybody is
+using codecs and cloud code and has a
+Mac Mini and has free OpenAI accounts
+and and maxes out all of them. No,
+that's freakish behavior when we look at
+wider society. Okay, it's a great thing
+if you're in that group. Hey, shout out
+to you. I feel you. I think I know I'm
+in that group too because I max out my
+accounts and rack up API bills and try
+all of the latest stuff. That's when you
+dedicate a big part of your life to AI.
+That's when you're here. Dev Day
+delivered a ton of stuff for these
+people. Okay, so then there's a second
+camp of people. Okay, this is probably
+way too large, but I would say that's
+probably another one to two% of society
+where they're paying for a paid plan and
+they're actually actively using it. You
+know, they state they have 1.2 million
+billion weekly active users. Sure, but
+that includes the free accounts or
+people just making an image and all of
+that stuff. The people who are actually
+using it, like there's new A16Z
+research, I quoted this recently, only
+3% of US consumers are actually paying
+for AI accounts out of their own pocket.
+That's that's US consumers, okay?
+Working age. That's incredible. So, this
+second group, okay, for for this second
+group, oh, oops, wrong screen. For this
+second group, there's also a lot of
+stuff that came out here, and I'm going
+to tell you exactly what it is in a
+second. But I think the most exciting
+piece by far is that for this third
+group of people that are on free
+accounts or maybe they have a
+subscription, but they don't use it
+fully. they haven't explored I don't
+know skills connectors sites even these
+capabilities that you know are required
+for you to use this to its even even 50%
+of its potential
+this group okay for this this new dots
+feature sugar so for this group which I
+don't know you know and then there's
+then there's everybody else I don't know
+the exact percentage of this group it's
+probably I mean if they stayed 1.2 2
+billion. It's probably the other like
+20%. And then you have everybody else
+who's like not using AI at all and just
+complaining about it, which you know
+there's some points there, but they I
+don't know if they really hold up to a
+thorough discussion. But we're here to
+talk about the products. And I think
+when it comes to these products, and now
+let's get into it. When it comes to
+dots, that thing, and the reason why I
+wanted to frame the video like this, oh
+my god, the dots in here. I'm just going
+to draw a dot. That's what's going to
+convert and give capabilities of these
+folks to these folks. So all of a sudden
+you went from like one to two% maybe
+it's it's free whatever you want to say.
+All of a sudden you gave those
+capabilities to 10 times more people to
+eight times more people. Okay. And why I
+think that is super exciting is because
+not just that these people got more
+capabilities also us up here. Like if
+you're watching this video, chances are
+you're in this upper trench and also we
+got these new capabilities. So what's
+new with dots and and why do I think
+this is so exciting for a way larger
+group of people than these AI releases
+usually are? Okay. And then we'll talk
+about some of the other stuff. So I
+think dots basically bring open claw
+level capabilities, Hermes level
+capabilities
+of literally uh always on 247
+agent with its own computer that can
+connect securely connect to all your
+accounts and just get digital tasks done
+to everybody. Like they literally
+announced that you're going to be it's
+not going to be available yet even if it
+rolls out in the next day or two. you're
+going to be able to call in to the agent
+and you're going to be able to talk to
+him using the state of the arts chatbt
+voice um to talk to the agent.
+Incredible. So, you're literally setting
+up you're literally giving a executive
+assistant to a billion people. Okay. So,
+that is super exciting. Secondly, there
+was this phrase in the presentation of
+dots that that really resonated with me.
+They said it's like a second pair of
+hands. And I thought that was a really
+good way to summarize what like an open
+claw does for people who have figured
+this out for themselves over the past
+few months. Now, to be clear, when I say
+dots, I'm also kind of referring to Muse
+and Grock uh bot, which by the way, did
+you see that cheeky move from Grockbot?
+They went ahead. Let me show you my
+browser. They went ahead and they bought
+dot.com.
+So if you type in dot.com,
+you're going to you're going to
+crockpot.
+This is so good. What a masterful troll
+move. Anyway, they're in the same
+product category, right? They're trying
+to productize Open Claw for the masses.
+Muse is doing it with the cute character
+and all the Facebook integrations. So, I
+think this is fantastic and I think
+you'll see so much content out of this
+channel and overall the Advantage brand
+focusing on this that it's like not even
+funny. I think this is the future of AI
+for most people. They're starting with
+one dot, by the way, if you didn't catch
+that. They give you one dot for now and
+then only later once people get
+comfortable, they're going to expand to
+you having multiple dots. Grockbot went
+straight to multiple bots, but honestly,
+you know, it's a great product, but the
+model is just not that good. It cannot
+replicate my teaching style. It doesn't
+do the analysis at a level that Astra
+does. The computer use is okay. Astra
+computer use is unbelievable.
+So look, the key to this product in
+summary, I could talk about all the
+little details and all the notes I have
+here. Like the key to it is that it just
+brings together all of these things that
+before you had to figure out yourself.
+And now we can spend all of our time
+focusing on what to actually do with
+these tools that you wouldn't have done
+otherwise. Like I think they always use
+the travel booking demos because people
+already book their travel manually and
+if you if you're like okay look this dot
+can now book your travel or Muse can
+book your travel. It's like oh I get it
+that connects but there's a whole
+category of use cases of stuff that you
+would not do because it's not worth your
+time or maybe you didn't have the skills
+that these dots can do for you. Now
+that's what I'm interested in. Okay. So
+for this like 20 So for this like whole
+segment of people this entire thing
+right here all of this all of these
+people will be using these dots even at
+a pro um level. So look dots incredible
+I get it. But then beyond that there
+were so many more announcements. I don't
+want to talk about every single one of
+them. I just want to talk about the few
+things that stood out to me from my
+notes here and give you kind of my takes
+on them because I think some of this
+stuff is exceptional. Some of it is just
+taking what was already present in some
+of the competitors. Like I think another
+big thing for all of these like 23% like
+all active AI users now it's going to be
+these sites that integrate with plugins.
+Okay. So if you're not familiar sites
+are a way to host websites in chat GPT
+really simply pretty nice URL and it
+just gets the site up. It looks like a
+legit site. Now you can use all plugins
+in combination, which means you're going
+to be able to build something like your
+AI operating system yourself. It's still
+going to, you know, take a little bit of
+guidance, I believe, to, you know,
+connect your email and your calendar
+into one dashboard that you built that
+lives inside of your account. But then
+your dot can use the dashboard. You can
+show up every morning and you can have
+emails that have already been answered
+and appointments that have already been
+scheduled based on your context and the
+calendar's context. Okay, now I think
+I'm going a bit too far. Like for people
+who are familiar with this type of
+stuff, it's like yeah, sure, easy, cool.
+Yes, user friendly. But for people who
+are not familiar with this, this idea of
+even connecting multiple tools is
+foreign. And I think these products are
+going to make it simple because you're
+going to talk to your dot just like you
+talk to Muse or you talk to Grockbot and
+you're going to say, "Hey, I have so
+many emails. What do I do?" And then
+it's going to suggest some of these
+workflows. Now, in my experience,
+there's a big difference of setting
+something up and setting something like
+if you set it up intuitively, oftent
+times you're at like a five or six out
+of 10, and when you refine it, you get
+to like a nine or a 10 out of 10, which
+is the goal. So, I don't think any of
+this is going to be just kind of like
+plugandplay. But I think channels like
+this one or other education is actually
+going to become more important now. And
+this might be a contrarian intake
+because some people are saying, "Hey,
+Gore, but what if you know these agents
+are so simple to use and they just use
+all of these features, they'll know what
+to do." Well, I would say, have you
+thought about how the internet shaped
+society? And have you thought about how
+the advent of social media and how kind
+of Tik Tok became a thing and YouTube
+became a thing. What did that do to
+education around social media content
+creation around I don't know e-commerce
+that became possible right created this
+whole new category of education around
+that right like all the drop shipping
+bros creating you know the e-commerce
+courses that was not a thing before the
+internet.
+This is way deeper than drop shipping.
+There's so many options and all these
+people that I get to work with, each one
+of them uses it in a slightly different
+way. Like even if you take like real
+estate agents, each real estate agent
+has like different use cases that are
+unique to them. Although it's like a
+pretty tightly defined category, it's
+kind of crazy because they operate
+differently. They have different
+standards for their work. There's so
+much variability in the oneoff that the
+demos they use have to be things like
+travel booking. so it can connect with
+everybody. Okay, so that's that's my
+take on that. I think ultimately what
+we're going to see and and and I'll say
+this as I go through some of these other
+releases and leave you with a practical
+takeaway. I think ultimately what we're
+going to see is we're going to see a lot
+of consumers and people who barely
+scratch the surface of Chat GPT now have
+a really good time with Dots because
+it's intuitive and because you can go
+into uh this new interface and you can
+kind of just talk to it. You can use
+voice, you can use a phone call and all
+of a sudden it has the ability to draft
+up a document which you know sounds
+simple but if you didn't connect Google
+Docs like how is it going to set that
+up? You could like it's going to give
+you a markdown file and a normie is
+going to be like what do I do with a
+markdown file? By the way, ignore me. I
+don't mean it derogatively like it's a
+term used in the AI space for people who
+are just like not
+manically obsessed with this stuff
+basically right but people like were
+like yeah how do I create a document and
+intuitively chat GPT you know they tried
+the canvas thing then they removed it
+again they didn't have a good solution
+now with dots they're also adding kind
+of a Google docs knockoff with Google
+slides coming later it's kind of a
+combination of Google Docs and and
+notion which is Beautiful. But basically
+what this is, it's everything coming
+together. It's all of these most
+important features that some of their
+competitors did coming into one thing.
+Okay? So we don't just get the dot that
+gets to command it all, but we also get
+to set up sites that are connected to
+your other tools and your plugins. We
+also get this word editor that is going
+to be present.
+And along with improvements in the
+models with the new GPT 6.1 Saul model
+that is cheaper and basically performs
+the same as Astra most things but it's
+like 10 times cheaper.
+Everything is coming together. Their
+computer use is bestin-class. Their
+their plug-in marketplace has now
+expanded and people will be able to f
+add plugins and also add they they added
+like a new modality. I have to look
+further into that into like like like
+you can do like new types of plugins I
+think or plug-in extensions, right? So,
+it's interesting. Everything just got an
+upgrade across the board, but usually
+that would just mean the top 1% of this
+by now really messy drawing uh
+benefiting of that, right? Usually only
+the the people geeking out over this
+stuff would get to get the benefit. But
+with this new old product, I think that
+it's actually going to go to a wider
+group. Maybe not everybody. Maybe maybe
+more something like maybe more something
+like this. But that's a huge upgrade
+from, you know, this very small group of
+people who are geeking out and this top
+trench of people who are like power
+users of this stuff getting the benefits
+of this. Okay. Now, one more thing that
+got me so excited. My probably favorite
+thing from all of this. I'm I can't wait
+for dots because I'm going to be
+teaching in it and and exploring it and
+I already have like a vault of use cases
+because I've been working with Muse and
+with Grockpot a lot. But the thing that
+got me most excited from everything that
+I heard here, could you guess? Could you
+guess for longtime viewers of the
+channel which part got me most excited?
+I tend to speak fast sometimes when I
+get excited. That's a hint.
+It's the ultra fast mode.
+Eight times faster, guys. In my open
+claw setup, I'm on fast mode like 70% of
+the time. I just I find my mind drifting
+when I work on something and then I have
+to wait for the output for a minute or
+two. Like I'll just start two other
+things. But gosh, I know there was like
+a phase like when was it like two years
+ago, one and a half years ago. I I was
+playing games while vibe coding stuff
+cuz I couldn't, you know, I was doing
+free things at the same time, but then
+you had to like wait for a minute.
+Ultraast solves that. And also the Oh my
+god. I mean, my god, I'm just I'm just
+so looking forward to that. I'm going to
+be running that all the time. And what
+it basically means that if you're
+willing to pay more now you can get well
+four times more speeds than you got in
+the fast mode. Fast mode was 2x. This is
+8x. I I'm I'm so excited about that. And
+it's not about the little tasks. It's
+about creating new things where this
+comes in handy. So this is really a top
+1% trench type of use case. The ultra
+fast thing just to be clear that's going
+to be up here. But then they had one
+more announcement which was also um it
+was basically Jev. It was Jeff but from
+OpenAI, right? They call it the
+decisions API and the decisions API is
+basically just the ultra super fast
+model that makes binary decisions for
+you and it speeds up browser use.
+So if you're building things, you can go
+eight times faster if you've paid the
+money. If you're just an everyday user,
+it's cheaper and more reliable and more
+sustainable and more accurate than ever
+to use the browser and to do ordinary
+tasks. And you could literally just
+phone in and talk to this thing with the
+voice models. Like I guess my grand
+point is everything has come together
+here for OpenAI. And I'm sure some of
+like other companies are going to
+follow, right? There's there's rumors of
+of Gemini having their product like this
+and Claude is going to make their move
+and Grockbot, you know, bought the
+domain and has their own version and the
+models are going to get better. But I
+think this moment, this moment of chat
+should be unifying all these
+capabilities between having an easy to
+use interface with an dot that you just
+talk to that has its own computer that
+runs 247 that can use a browser and that
+browser use actually is
+more than good enough to do pretty much
+virtually everything. Like with Astra,
+you can pilot all of this complicated
+software too. Now, all of that coming
+together with the decisions API that
+makes the little things faster in the
+browser,
+the new soul models at better prices.
+Gosh, I sorry for repeating myself, but
+I really think this is a milestone AI. I
+really think this is where things
+converge and this is where we're going
+to see a lot more adoption from people
+who are not in that camp or like not in
+a position where they they even can
+spend two to three hours a day with this
+type of stuff. Okay, I know that a lot
+of people watching this channel are in
+that camp. A lot of others are curious
+and like watching that type of life, but
+this is going to open it up. this makes
+me want to call my mom and tell her and
+give her a little class um on the dots.
+So now it's your job to kind of think
+about how that affects your business or
+your line of work, your career. like
+what is it going to mean if
+you were in a small little exclusive
+group of people who were like using AI
+to you know even a fraction of its
+potential or let's say let's call it to
+like you were using a lot of the
+potential
+and now like
+imagine a world in which like every
+fourth person on the street actually has
+all of those capabilities what does that
+mean for you
+it's a good question I would love to
+hear in the comments and I'll certainly
+keep thinking about that myself. You can
+expect a whole lot more tutorials on
+this technology, how to do things step
+by step. These are just some thoughts
+that I wanted to get out immediately as
+I usually do when big things like this
+come out. All right, that's it. You
+know, unscripted raw coffee talk with
+Eigor. I hope you took something from
+this and yeah, going to be in the
+comments. Can't wait to talk to you
+guys. See you soon.

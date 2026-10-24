@@ -1,0 +1,90 @@
+UP主：The AI Advantage
+标题：ChatGPT Just Solved My Biggest Browser Problem
+链接：https://www.youtube.com/watch?v=KwvpDtUFS-s
+
+So, I just find AI so interesting right now because it's making the internet as we know
+it disappear. Just this week, OpenAI added a new Google Chrome connector in ChatGPT, and I really
+want to show you that because it removes this idea of you even needing a browser, partially at least.
+I'll show you that in a second. But, beyond that, I just noticed with all of these super
+user-friendly applications and these connectors that have become really good recently, the need to
+frequent your emails and all these different apps slowly going away, and I kind of love it. We're
+going to talk about those two topics and the rise of Grok Bot in that category in this week's video,
+where every Friday I look at what happened in AI and break down what matters the most. So, what's
+new? If you're on a paid plan, you can tap over to ChatGPT work now and type @chrome, and then you
+will enable the Google Chrome plugin. This is not something you need to enable within the plugins,
+it's just there. I suppose you might need to be in a Chrome browser, which I am right here. But,
+if you do that, you can now talk to all of these other tabs. So, if you're anything like me,
+you very often have not just multiple tabs, but multiple windows with multiple tabs. Like,
+usually I have dozens of tabs open. In this case, I opened up a few of them with different Grok
+Bot use cases. These are just articles that show different prompts and ways people are using them.
+So, I could just say, "From the open tabs, what are the top three use cases I should try today?"
+And then I'm going to use Sol Medium as the model. And when I run this, it looks into all of these
+tabs, effectively removing the need for me to read all of this in detail. It can just filter
+it for my context, which it has in here. The one thing you will need for this to work, though,
+is the ChatGPT Chrome extension, but I think now it's really worth it because you don't have to use
+the extension. You can just pilot it from within chat. So, in the Chrome Web Store, I will just add
+it to Chrome, and there it is. It was literally a one-click install. I'm logged in with my account
+right away. And now inside of Chat GPT work, I will just navigate to this Igor's clone project,
+which includes all of my context files as I teach it in the AI Advantage Club. If you want to learn
+how to get started with managing context, and then I just say add Chrome. So now it knows about me,
+it knows about the business that we run. And I can say something like, from the open tabs, what
+are the top three use cases I should try today in Grok Bot. Enter. Let's see. As you can see,
+it's connecting to the Chrome extension. And now it's effectively looking through all of
+these tabs, which are, you know, different posts and articles with different use cases. There's
+a lot of prompts, each one of them is written differently, and most of them are not relevant to
+what I do. So I can just let chat filter through this. And I think the cool thing here, to me,
+is that this is how I usually work. This is not some new workflow. I usually open a ton of tabs,
+have the info in there, and then it becomes a bit cumbersome to manage all of that info. Oftentimes
+I even take out pen and paper and take notes. But right here, like this, I can just do Chat
+GPT work and the Chrome extension, and work with all the info that's there, exactly in the workflow
+that I already use. Just removing this needs to, you know, review everything in detail. In just a
+normal chat, I will tag at Chrome and say, from the open tabs, what are the top three use cases
+I should try today in Grok Bot. Right there, this will pop up. You can give it permission. And look,
+in just 30 seconds it read through all of it, and it makes recommendations and uses the new
+dynamic interfaces, which we covered last week, to give you a better feeling for what's going on. A
+little pictogram instead of a wall of text. I love it. It says the number one is a AI research team
+into YouTube idea pipeline. Second one would be a personal chief of staff, and third one,
+sorting X bookmarks and turning them into working automations or AI demos. Guys and ladies,
+I love this. And look, there's a lot of features that come up, but what I really like about this
+is that this integrates into how I already work. I usually have 15, 20 tabs open. It's ridiculous.
+It's a mess and going back through everything is often more work than I make time for. This can
+just cut through all that. So, that's basically the feature that I really wanted to show you here
+and I just love that I have this in my repertoire right now and I can only tell you I'll keep using
+this all time just because this exactly how I work. But, I think there is a larger theme
+here that is worth highlighting and that is the fact that all of these tabs here, well,
+there's no real reason to, you know, keep them open unless I really want to read them in detail.
+Like you kind of just close everything else now. This task is done. And that's a real trend within
+AI right now. Because the plugins have become so good, and all of these applications like Grokbot
+that right here I just set it up as a personal assistant to manage my travel, and my calendar,
+and my email, and WhatsApp communications that if you do that, too, you stop frequenting those apps.
+All of a sudden your Gmail is just a database of different tasks that other people need from you.
+But, I shouldn't have to spend time inside of Gmail. Like I don't want to be reading email.
+I just want to know about what other people need from me so we can move our projects forward. And a
+way more effective way of doing that is, you know, having a dot setup or having a Grokbot setup that
+scans all of it and filters way better than Gmail can ever do even with its AI features. I don't
+want to be going into Gmail. I don't want to be going into WhatsApp. Heck, maybe that's just me,
+but ideally I would put all of my devices away and just work on interesting projects. And I realize
+we need technology for that. So, then the better version of that is then interacting with one dot
+or interacting with my main Grokbot instead of going into all of these applications. Like
+yesterday I didn't go into Slack, but I sent like 15 Slack messages using context from emails and my
+calendar all at the same time. And all of a sudden I'm just interacting with one bot instead of all
+of these applications. That's a massive win in my books. And now with this Google Chrome add-in,
+I don't even have to navigate Google Chrome. That is the main app that I use on my computer.
+This is incredible. To me, I'm really seeing a transition of the consumer towards having one
+interface to all of this communication and this information that is on the internet. You just
+talk to your bot or your bots. And I personally think that's absolutely incredible cuz it allows
+me to be less on my devices and more present and engage with things that I care about. All right,
+that's the release that I got most excited about this week and my take on it. And by the way,
+if you have not given Grokbot or Dots or Meta Muse a shot yet, just go in there,
+get your feet wet. Pick one thing that you're doing manually. Email is a fantastic starting
+point. And instead of going to your email inbox, try just going into the dot or the
+Grokbot. I guess Muse is not really built for the more business-y use cases. It's more
+like a personal assistant. I would make this recommendation. If most of your life resolves
+around work and you want to manage that, then set up a dot. Alternatively, if you want more
+control and you're going to be tinkering on it every day, then go into Grokbot. It's really
+good at separating the tasks out, but then you also have multiple bots to manage. But yeah,
+go ahead and try using that as an interface instead of frequenting your email and see how
+that goes. I think you might just be surprised and maybe even delighted as I am. Oh, also quick
+disclaimer. I literally just landed from a I guess 22 hours of travel, 13 hours of flight
+in total. But, I haven't missed a Friday upload in over 5 years. All right, this is good stuff,
+but I need to go to bed. Thank you for joining me today and I hope you have a wonderful day.

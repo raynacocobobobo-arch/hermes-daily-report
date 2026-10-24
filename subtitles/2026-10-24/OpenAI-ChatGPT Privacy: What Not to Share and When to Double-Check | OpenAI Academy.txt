@@ -1,0 +1,48 @@
+UP主：OpenAI
+标题：ChatGPT Privacy: What Not to Share and When to Double-Check | OpenAI Academy
+链接：https://www.youtube.com/watch?v=dfAZbuAQxi8
+
+Let's talk about privacy. That's an
+important thing to keep in mind when
+you're using AI.
+Think of using ChatGPT like packing a
+small bag. Bring only what you need for
+the trip. Leave the rest behind.
+Let's say I have a utility bill I want
+help understanding.
+The best thing to do might be to take a
+picture and upload it to ChatGPT.
+But the bill has my name, phone number,
+and my account number. Those have
+nothing to do with my question, so I
+should cross them out with a pen or
+marker. Or make sure the picture I take
+doesn't show that personal information.
+What are some common charges on a
+utility bill?
+And which one should I ask the utility
+company to explain?
+That prompt gives me some useful
+information without sharing any of my
+personal details. And I can ask
+follow-up questions, too.
+What does delivery charge usually mean
+on a utility bill? What should I verify
+with the utility company?
+The other thing to think about when
+using AI is knowing when to double-check
+it.
+If ChatGPT is helping you do something
+really important, prepare questions for
+a doctor, review a legal document, or
+make sense of a government form,
+that second set of eyes can be really
+helpful. But of course, ChatGPT is not
+your doctor, your banker, or your
+lawyer.
+Use it to understand, use it to
+organize, use it to prepare better
+questions, then check the important part
+with an official or trusted source.
+AI can help you do a lot, but you're
+always in charge.

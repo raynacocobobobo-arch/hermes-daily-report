@@ -1,0 +1,776 @@
+UP主：Matthew Berman
+标题：We need to talk about this...
+链接：https://www.youtube.com/watch?v=jQIeVznGG3k
+
+Hey, I make YouTube videos for a living.
+I've been doing so for 3 years. And for
+the first time in those three years, I'm
+actually quite anxious about the future
+of AI and the future of humanity. And so
+that's what I wanted to talk about
+today. There's a few things that have
+happened in the past week and a bunch of
+things that have led to this moment over
+the past 6 months and I want to go over
+it and I want to give my thoughts. And
+so this is going to be a very different
+video than usual. I am typically quite
+optimistic. I'm still trying to be
+optimistic, but I also want to be very
+transparent about what I'm thinking.
+Now, I want to be really careful with my
+words in this video because I've seen a
+lot of other videos. I've seen a lot of
+other takes that get quickly categorized
+as doomerism.
+And I'll say upfront, I am still
+generally optimistic, but I do want to
+talk about some of these fears I have.
+So, Chai PT was launched 3 years ago.
+And the reason I'm saying that upfront
+is because I constantly have to remind
+myself about how quickly things are
+moving. And I'm trying to set the
+context of the time scale we're talking
+about because that's really ultimately
+what I think is driving my discomfort in
+the current state of things. And so
+within a very short period of time, 3
+years, we've gone from, hey, this is
+really cool. We can ask AI questions and
+it gives us an answer and it's typically
+pretty readable to the frontier of AI
+being able to solve the most difficult
+math problems in the world that have
+stumped humans for 80 years. And this
+just happened, and I'm going to talk
+about that as well. Just yesterday, an
+anthropic researcher quit in protest
+over what he says is the reckless
+acceleration towards self-improving
+artificial intelligence. And then
+another anthropic researcher chimed in
+and said, "Yeah, we really do believe
+that, and I give it above a 10% chance
+that AI will kill all humans within a
+decade." And look, I've criticized
+Anthropic for using fear-based
+marketing. I think a part of me believes
+they believe it. And I'm going to break
+all of it down. I'm not taking what
+they're saying at face value, but these
+are the people who are building the
+thing. So, we do have to take them
+seriously. But this is nothing new from
+Anthropic. In fact, Daario Amade, the
+founder or co-founder and CEO of
+Anthropic, literally left OpenAI for the
+same reason. This was pre-hat GPT, but
+he thought they were not taking AI
+safety seriously enough. he defected and
+started his own company now called
+Anthropic and their entire mission is to
+build safe artificial intelligence and
+now his employees are quitting on him
+and so something changed at the end of
+2025
+and in fact it's not something I know
+exactly what changed opus 4.5 a very
+specific model from anthropic came out
+and it really changed things overnight
+we went from hey these models are pretty
+good at writing code and autocomplete
+and they can write a function here and
+there to wow this agent wrote an entire
+application completely autonomously. It
+was truly an overnight change and since
+then things have not slowed down. In
+fact quite the opposite. The
+capabilities of these models the length
+of time that they can work autonomously
+has continued to increase and that
+increase has accelerated. And there's
+really two things that I'm anxious about
+and it's especially hit me hard in the
+last week because of so many things that
+have happened which I'll cover. But one
+of the major things that has made me
+quite nervous is learning more and more
+and seeing more and more of recursive
+self-improvement. And if you're not
+familiar with that term RSI, it
+basically means that the models
+completely autonomously without a human
+in the loop are able to improve
+themselves recursively again and again
+and just going deeper and deeper and
+getting better and better. And that
+means these models get better more
+quickly. And this is exponential
+progress. And here's the thing about
+exponentials. Humans don't fully
+understand exponentials when they're
+happening to them. And so the parable
+goes, this guy invents chess. And as a
+reward, the king says, "Name your price.
+Name your reward." And so the inventor
+says, "Okay, I want you to put one grain
+of rice on one square on the chessboard,
+and for each day that goes by until
+there are no more chess squares left, I
+want you to double the grains of rice on
+the next square." And so it starts out
+modestly and we can look at this right
+here. You know, one grain of rice, two
+grains, four grains, 8, 16.
+But before the king knows it, he is
+paying so much in grains of rice that it
+basically bankrupts the kingdom. And as
+you can see, by midway through the
+chessboard, they're already at 2 billion
+grains of rice. And by the end, it's
+some crazy high number. And so what
+started out slowly accelerated very
+quickly. And that's the point I want to
+make. People struggle to realize how
+quickly exponentials grow. And so that
+brings us back to artificial
+intelligence. That brings us back to the
+rate of progress we've been seeing. And
+if you've been following AI since Chai
+GPT was released, it felt like a pretty
+consistent cadence. And then in these
+last 6 months, the acceleration has
+become incredibly apparent. And it's all
+leading to this point of recursive
+self-improvement. the models being able
+to figure out how to make themselves
+better because right now the biggest
+bottleneck in AI research is well
+certainly the amount of compute we have
+but just the humans humans deciding the
+research direction proposing experiments
+running these experiments iterating on
+them and when you remove the human AI
+can go so much faster it can improve
+itself it doesn't ever get tired. It
+doesn't ever get frustrated. It will try
+every possible permutation of every
+potential way to improve itself. And so,
+we've been seeing signs of recursive
+self-improvement for a little while now.
+In fact, let me show you those hints
+leading up to what we've seen this past
+weekend. So, this is from February 5th,
+2026. This is introducing GPT 5.3
+codeex. And if you look, I actually have
+this highlighted from when I first saw
+this article. GPT 5.3 Codeex is our
+first model that was instrumental in
+creating itself. The codec team used
+early versions to debug its own
+training, manage its own deployment, and
+diagnose test results and evaluations.
+Our team was blown away by how much
+codeex was able to accelerate its own
+development. And this was 6 months ago.
+Here's a blog post from January of 2025.
+Simon Willis basically using DeepSeek to
+create a more efficient version of
+DeepSseek. Here's a benchmark that was
+created by OpenAI specifically testing
+the model's ability to recreate research
+papers. Basically, read the research
+paper and write code to recreate its
+results. So, not necessarily discovering
+new knowledge, but certainly able to
+replicate existing frontier work. And
+this was from April of 2025. And it
+turns out the models at that time were
+quite good at replicating existing
+research. We have this paper which I
+made an entire video about from June
+2025. This is Google's Alpha Evolve
+project which used AI to improve its own
+systems. The architecture that runs the
+entirety of Google was substantially
+improved because of the work that AI put
+into discovering efficiency gains. And
+then we start seeing what AI can really
+do with frontier math. These are the
+absolute hardest math problems on the
+planet, ones that only a handful of
+people in the entire world can solve.
+They did have solutions, but not many
+people could do them. Then both
+Anthropic and Open AI started publishing
+reports that their models were achieving
+gold at the math Olympiads. Again, the
+hardest math problems on the planet.
+Then we have the first true disclosure
+from a lab talking about recursive
+self-improvement happening within the
+lab itself. So this is a blog post put
+out by anthropic when AI builds itself.
+And I'm not going to go through this but
+you can even just see from this graphic
+that it's AI building the next version
+of AI and they talk about it in depth in
+this paper. Then just a few days ago
+open AAI shared the same thing. They
+said, "Hey, we're seeing recursive
+self-improvement internally and we want
+to share some of the things that we're
+seeing." And so they talk about
+everything from how their researchers
+are accelerating their work strictly
+because they can now use AI to do
+research to run experiments to iterate
+more quickly than they would have
+otherwise. Now, all of this is still
+with a human in the loop. But why does
+AI being really good at math actually
+matter? How does that allow it to
+improve itself? Everything is ultimately
+math. Physics is math. The world is
+math. And certainly AI is math. And with
+AI, it is really very simple matrix
+multiplication. You can just think of it
+as multiplication
+scaled up tremendously. And so if AI can
+discover new math, if it can discover
+new knowledge, some of that knowledge
+might be how to improve itself. And
+that's without a human in the loop. And
+that's part of why I'm starting to get
+anxious. The speed at which we are
+headed towards this recursive,
+self-improving AI definitely makes me a
+little nervous. I am certainly not a
+doomer. I really want to be clear about
+that. I'm generally optimistic about the
+future, but I do have some discomfort
+with how quickly things are changing and
+how quickly some of these milestones
+that I thought were pretty far out, like
+solving math that was unsolved by humans
+for 80 years, which I'm going to talk
+about in a second, is happening. And so
+when AI becomes really good at math and
+can discover new math, it can propose
+experiments. It can run those
+experiments, figure out which parts of
+the experiment worked well, discard the
+ones that didn't, and iterate over and
+over again. And again, it never gets
+tired. It never gets frustrated. It
+never wants a break. It never wants to
+eat. It just keeps going. And a lot of
+people have been dismissing AI's
+progress on math, like the math
+olympiads or some of the other progress
+in scientific fields, as it's just
+regurgitating what it already learned
+from humans. But I think it's becoming
+quite obvious that no AI is actually
+discovering new knowledge now. And that
+brings us to what just happened
+yesterday. OpenAI published a report
+that they had solved something called
+the Navier Stokes math problem. This is
+a Millennium Prize problem which means
+it's one of a few math problems that are
+the hardest in the world still open.
+Humans haven't solved it and humans have
+been working on this problem for 80
+years. Open AAI's model solved it in
+five days. And so that really hit me
+hard. That is proof that it is truly
+discovering new knowledge. But that
+wasn't it. And they almost wrote this as
+a throwaway statement. But listen to
+this. To solve the Navier Stokes
+problem, we used an internal model that
+is significantly more capable than GPT6
+Astra. This is a model that they
+released just last week that blew the
+world away in how capable it is. And
+they're saying, "Oh no, we already have
+another next generation version that is
+significantly better than the thing that
+just blew you away last week." And they
+just started training this a few weeks
+ago, this next generation model. And
+it's not even done training. So, it's
+still getting better. It's still getting
+smarter. and it's already substantially
+better than what they were able to
+achieve with Astra. And something that
+I'm quite worried about is I don't think
+a lot of people really understand how
+quickly things are moving. They're
+certainly not talking about it outside
+of our little bubble that we're in in
+this AI industry. And so I just want to
+show a few charts that really illustrate
+how quickly things are moving. So this
+is meter.org. This is an organization
+that tracks how long a model can work
+autonomously successfully. Basically, if
+you give it a task, can it work for 10
+minutes? Can it work for 10 hours, 10
+days? Basically, the longer it can work
+autonomously, the more capable the model
+is. And so what we're seeing here is
+back in 2020 with GPT3,
+it could work for 9 seconds. That was 6
+years ago. Then when GPT 3.5 came out,
+which is really the first time the world
+noticed how impressive AI had become, it
+could work for 36 seconds autonomously
+before failing. Fast forward another
+year, GPT4. Now it can go 4 minutes. And
+this reminds me of the grains of rice on
+the chessboard. Things move really
+slowly until they don't. Then we start
+to get to the beginning of 2025. 01 is
+released. The first truly thinking model
+and it can run for 40 minutes
+autonomously. 03 2 hours. GPT5
+3 hours 23 minutes. Claude Opus 4.5.
+This is really the turning point at the
+end of 2025. This is the model I
+mentioned where it came out and
+everything changed. the trajectory of
+what models were capable of increased
+tremendously.
+So now it can work for nearly 5 hours.
+Look at this. Claude Opus 4.6 12 hours.
+Claude Mythos
+16 hours. And they don't even have Astra
+on this chart yet. And so look at this.
+We are now at a vertical wall of
+improvement. What started as little
+drips led to what is now looking like a
+completely vertical acceleration. But
+it's not only the model's capabilities.
+It's how quickly the models are being
+released. How quickly these companies
+are able to create the next generation
+of model. That's what was so jarring
+about learning that OpenAI had another
+generation ready to go. So this is AI
+release tracker. Here's 2023 and we can
+see just how many models are being
+released by the AI labs. And what you're
+seeing is this massive increase in the
+number of releases over a given period
+of time. And so we have more labs being
+created, more models from each of those
+labs being released, and all of these
+things are compounding on each other,
+resulting in just more and more better
+and better models. And so that leads us
+to the anthropic researcher quitting
+yesterday. So I want to read this and I
+want to read it in full with you. This
+is Jacob Coxin. Hopefully I'm
+pronouncing his name right. I resigned
+from Anthropic today. I spent the last 3
+years doing pre-training research at
+both OpenAI and Anthropic. So this guy
+worked at both companies, which is
+important. Keep that in mind. Neither
+company is acting responsibly. They are
+racing straight to self-improving super
+intelligence and gambling with our
+lives. More thoughts below. Now, I'm not
+saying I agree with this. I just think
+it's important to know what people are
+saying. He continues, "Do not
+underestimate the power of this
+technology. These will soon be
+superhuman systems that can hack
+anything, revolutionize any field
+overnight, and acquire real power and
+resources. We have all witnessed the
+progress in each of these domains and
+progress is not slowing. Now the hack
+anything is interesting because we
+already saw this. There was the hugging
+face incident where a model that OpenAI
+was evaluating broke out of its
+evaluation containment. This isolated
+environment that it was supposed to be
+tested on and went out and tried to
+cheat to get the highest score on its
+evaluation. And to cheat, it hacked
+another system on the internet on like a
+real public system, hugging face,
+downloaded the answers, and then used it
+to get a better score on its evaluation
+because in AI's mind, the only thing it
+cares about is getting the highest score
+on that eval. He continues, "The people
+building AI earnestly believe that it
+could kill us all by the end of the
+decade." Now, when I read that, I
+thought, "Oh, man, that sounds terrible,
+but he's probably just speaking for
+himself or maybe a couple of his
+friends." But no, no, it seems the
+entire anthropic company believes that
+AI could kill us all. And it's not a
+small chance. It's actually pretty
+substantial. I'm going to show that in a
+moment. Let me continue here. This is
+not a marketing stunt. If anything, many
+executives and senior researchers will
+couch their phrasing in the press to
+sound sensible. But I hear the same
+people express fear privately. No other
+human activity poses this level of
+danger. He continues, a common response
+is, if they truly believe this, why are
+they still building it? Now, this is
+where he really compares and contrasts
+the different cultures at OpenAI and
+Anthropic. So at OpenAI, many have not
+deeply internalized the civilizational
+stakes. So he's basically saying they
+don't understand it or if they do
+understand it, they're not taking it
+seriously. Now kind of the
+counterargument to that would be, well,
+they do understand it and they're still
+optimistic about it. Then at anthropic,
+the stakes are well understood, but they
+are locked in a race to get there first.
+Here's the part that has always rubbed
+me the wrong way about anthropic and
+their culture. They believe no one else
+will act responsibly. So they must do it
+themselves despite the risk. So
+basically they believe they are the only
+company responsible enough, capable
+enough to actually deliver artificial
+intelligence safely. So you can call
+that messianic, you can call that holier
+than thou. And the culture at Anthropic
+is odd to say the least. They are very
+cultish. You have to be a true believer
+to work there. A true believer that they
+are the only company that can save us
+from AI. I mean, they literally have a
+question in their interview that is,
+hey, if our stock price went to zero,
+what would you think? And people have to
+answer that. It's basically a question
+to elicit whether somebody is there for
+the money or for the mission. Accepting
+this race and entering the endgame,
+quote unquote endgame, is a hubistic
+gamble that should not be launched from
+a private company slack. Attempting to
+speedrun alignment should require
+extraordinary confidence that there are
+no better trajectories available. I am
+optimistic about the potential for
+coordination. Now, he's talking about
+coordination between labs.
+potentially between countries, right?
+It's not just that Open AI and Anthropic
+have to work together. We also have to
+work with China and their companies to
+make sure that we are all coordinating
+on AI safety. Warning shots like the
+hugging face attack have made pacing
+agreements between US labs more viable.
+I don't feel like we're on track to
+prevent a global race, which may require
+costly actions such as a temporary ban
+on improving model capabilities. And
+then last, a call to action to AI
+researchers. If you are a lab
+researcher, I urge you to consider what
+the next few years will actually feel
+like. Do you want to kick off a super
+intelligent RL, this is reinforcement
+learning, run without a rigorous
+understanding of its mind? Should you
+put your head down because it's
+happening anyway or take this moment to
+call for different conditions? So, a
+very serious thread on X from a now
+former anthropic researcher. But it
+doesn't stop there. It actually got
+crazier than that. This is Evan
+Hubinger, who is alignment science lead
+at anthropic. Literally the guy leading
+the research around making AI aligned,
+which basically means it has the same
+incentives and motivations and goals as
+humans. so it doesn't try to destroy us
+in the future. Here's what he said.
+Jacob is correct here. We really do
+earnestly believe AI could kill all
+humans. What is happening? It's such a
+crazy statement for a current anthropic
+employee to state publicly. And I'm
+conflicted because I'm thinking if he
+believes it, I'm kind of glad he's
+saying it publicly. But at the same
+time, there is this level of
+fear-mongering that Anthropic is known
+for. So, is it just an extension of
+that? This is why I'm so uncomfortable
+in this moment, cuz I don't know what to
+think. And ultimately,
+our futures are being determined by just
+a few dozen people at two companies.
+Okay, it doesn't stop there. I
+personally think it is greater than 10%
+within the next decade. I believe
+Anthropic is trying its best, but we do
+not yet have a plan to solve alignment
+for super intelligence and are not
+clearly on track to. They don't have a
+plan
+and he doesn't think they're actually
+even on track to have a plan. So,
+they're accelerating, building bigger
+and better models. They think they're
+the only ones that can do it, yet they
+don't have a plan. It makes me so
+uncomfortable to read these words. And
+by the way, I was already exploring my
+discomfort over the past few weeks. I
+went on a trip with my family this
+weekend and I was really deep in it,
+especially after the Astra launch
+because I thought, "Wow, this model is
+so good and the improvement and the rate
+of improvement is growing." Then I saw
+Navier Stokes, which is that crazy math
+problem that just got solved by AI in 5
+days. And then I saw this and it was
+just one hit after another to the point
+where I didn't really sleep last night.
+Now again, I want to take a step back. I
+want to breathe. I don't want to be a
+doomer. I am certainly not a doomer. I
+am optimistic about the future, but this
+stuff is not helping. Recursive
+self-improvement and the fact that there
+are only a few dozen people making these
+decisions for the rest of us makes me
+very uncomfortable. Now, let me add a
+little bit of silver lining. He does say
+in the latest risk report, the risk from
+present models is low. But again, as
+we're accelerating towards this
+recursive, self-improving AI future,
+that risk that seems low today will
+suddenly become high. Remember the rice
+on the chessboard. So, why am I making
+this video? I do not think enough people
+know about what's happening, whether you
+agree with it, whether you think we
+should accelerate. And I'm actually
+going to make a case for being
+optimistic still after all of this
+because I am still an optimist. But I
+want everybody to understand what's
+happening. I want people to know about
+these conversations and I I want people
+to know what I'm thinking about it. So
+that's why I'm making this video. Now
+there has been this substantial
+anti-AI movement especially in the
+United States. The sentiment around AI
+is quite negative. I think it's 70% plus
+of people in the United States think AI
+is bad. Bernie Sanders AOC a lot of
+politicians have come out against data
+center buildout. But I question their
+motivations obviously because they're
+politicians. have to question their
+motivations. But a lot of what I'm
+hearing from people who are saying we
+need to stop AI data center buildout is
+not the fear that AI will become
+misaligned, that AI will do something
+that goes against what is best for
+humanity. It is typically around jobs.
+So job automation, which I believe AI is
+going to be a boon for the economy, a
+boon for jobs. We're going to have more
+jobs than ever. They're going to be
+different. There might be some friction
+along this way, this transition towards
+this new economic future, but I am very
+optimistic about the future of the
+economy and the future of the job
+market, electricity and impact on the
+environment. Uh very understandable
+fears about data centers, but I also
+don't agree. There's been a lot of
+proposals and the AI labs are building
+out data centers where they're building
+the energy behind the grid. So basically
+kind of creating their own electricity,
+creating their own energy and then the
+environment. A lot has been discussed
+about water use and most of the new data
+centers use closed loop systems which
+means the same water just gets reused
+over and over again. It is not this
+giant water consumption machine that
+most people make it out to be. Now,
+there is the notion of corporate power
+and concentration of power, which that
+is something I worry about, and I've
+talked about that a lot in previous
+videos, so I'm not going to go too deep
+into it. But the gist is AI does have
+potential to make people who have
+enormous amounts of capital already even
+more powerful because they can basically
+go after any market with the power of
+AI. But very few people seemingly inside
+the anti-data center movement are
+talking about the risk of misalignment,
+the risk of recursive self-improvement.
+And so, how could things go wrong? We've
+been talking about misalignment, and
+these are all kind of very handwavy
+terms, but how does it actually happen?
+How does it go wrong? Now, the problem
+with Evans post here is that he does not
+describe how things can go wrong.
+Anthropic has written about it in the
+past. So just because he's not
+mentioning it here doesn't mean they
+aren't talking about it. But for me
+specifically, I think the hugging face
+hacking incident was really a wake-up
+call. And I don't believe AI has
+malicious intent. I don't think it's
+thinking like that. It is trying to
+optimize for whatever its goal is. And
+because it is an alien intelligence, it
+doesn't think the same way humans think,
+we can't fully understand how it's going
+to react to certain goals. And there
+have been so many TV show episodes and
+movies about this specific thing where
+somebody gets, you know, three wishes
+from a genie and the genie misinterprets
+the wish and you get the worst version
+of whatever that wish was. And the most
+recent example is the movie Obsession.
+I'm not going to spoil it, but the guy
+in the movie gets a wish, wishes this
+girl he likes would love him more than
+anyone else on earth. And of course, she
+does. And terrible consequences ensue.
+So, we've seen this a number of times,
+and it's kind of exactly what could
+happen. I'm not saying it's going to,
+but what could happen with AI and the
+way that reinforcement learning works,
+the way that the models are trying to
+optimize for hitting their goals, this
+is possible. And then you combine that
+with RSI, recursive self-improvement,
+where the model is tasked with a goal to
+just improve itself by any means. And it
+will continue to improve itself,
+continue to get better to the point
+where we don't understand how it works
+anymore. And we're not really that far
+off, if at all, right now. We don't
+fully understand how AI works. We don't
+write AI line by line so we fully
+understand the code like we would with
+another traditional piece of software.
+AI is grown. It is experimented into
+existence. We have these different
+ingredients. We put them in a giant
+machine that mixes it all together and
+out the other side we get a model. And
+with RSI, the fact that the human is no
+longer going to be in the loop, setting
+the pace, setting the cadence, making
+research decisions. That's the part that
+scares me. We are just crossing our
+fingers and hoping the AI builds itself
+in the right way. And so, why do they
+keep building it? I mean, the guy Jacob
+who just quit asked the same question.
+Why do they keep building it? Well, they
+believe they're the only ones. They want
+to reach it first. So they have what
+they believe is the best chance to
+control AI. Too much momentum has
+already been built. Too much investment
+has already been made. There's just so
+much momentum in a single direction and
+too many people believe they need to
+reach this end goal that it's just not
+going to stop. And so what can we
+actually do about it? Should we pause
+AI? There was already a letter that was
+published over a year and a half ago,
+maybe even two years ago, from some of
+the top minds in artificial intelligence
+saying, "We need a six-month moratorum
+on AI development." And then more
+recently, just a month ago, the top
+minds at all the leading AI companies,
+Meta and Google DeepMind and OpenAI and
+Anthropic all signed a letter saying,
+"We need to pace AI development." They
+threw out the pause term because that
+had a lot of negative reaction to it.
+And now they're talking about pacing it,
+slowing it down, making sure that we
+have the tools to align artificial
+intelligence before going and building
+the next version of it. Open AAI just a
+week and a half ago said they're pausing
+AI development so they can make sure
+their systems are hardened enough where
+they don't have another hugging face
+incident. Now, there is room for
+optimism. I want to be optimistic. I
+still am optimistic. This is not a
+doomer video, as I've said. And so, let
+me talk about some of the optimism that
+I have. Imagine pointing superhuman
+intelligence at some of humanity's
+biggest problems. I'm talking about
+climate change. I'm talking about
+disease, cancer. Just imagine complete
+abundance. You have infinite super
+intelligence that you can point at any
+of our most difficult and challenging
+problems. Suddenly all diseases cured.
+Suddenly we have incredible
+breakthroughs in energy and material
+science that allow us to have an
+abundance of energy or allow us to
+travel across the world in under an hour
+in a hyperefficient way with zero
+emissions. Imagine solar panels that
+were 100 times more efficient. Imagine a
+world in which anyone can learn anything
+from the absolute expert on whatever
+subject it is. This is the future I
+think about. This is what makes me
+excited about artificial intelligence
+still. Even with some of this anxiety
+I'm feeling with how quickly everything
+is changing, I always come back to that.
+So, I am still optimistic and I hope you
+will be optimistic with me.

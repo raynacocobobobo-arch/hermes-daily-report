@@ -1,0 +1,796 @@
+UP主：Matt Wolfe
+标题：Anyone Can Make Amazing Games Now (Easy)
+链接：https://www.youtube.com/watch?v=qK4nV_LnXxQ
+
+So, I made a pretty incredible video
+game within a few hours. And the
+experience made me realize that the
+video game industry is anything but
+cooked.
+>> Yep, we are absolutely cooked, chat. GG.
+>> Now, I'm no stranger to vibe coding
+games on this channel. In the past, I
+put out a few versions of vibecoded
+games, and none of them I've been more
+proud of than The [music] Librarian,
+which took me the better part of a day
+to come up with and is actually a
+playable game. You can actually go over
+to this GitHub page and click on this
+link and test it yourself and see what a
+vibecoded game looked like a year ago.
+Now, it's no secret that coding models
+and platforms have actually come a long
+way. But what [laughter] really grinds
+my gears is that every time I'm over on
+X and I happen to see someone post their
+onelevel game with very superficial
+elements, they're always suggesting that
+game development is cooked. And they
+couldn't be more wrong. And to try to
+prove that point and also show that it's
+not as easy as people make out, let's
+make the librarian 2, which my producer
+Dave wants to call, "Look, ma, I can
+read good now." The title's a work in
+progress, but let's go ahead and build
+it and discover together how realistic
+it is for one person to pull off a AAA
+title. [music]
+Now, there's typically a lot that goes
+into game development, especially when
+you're talking about the bigger game
+studios before the code actually starts
+getting written. When they're planning
+out a AAA title, there's a ton of roles
+involved. typically like the game
+director, the creative director, the
+design director. Like these big game
+studios have all of these roles that are
+all trying to do different things and
+pull different pieces together oftent
+times before the game is ever even
+started at all. And before they start to
+code, the art team is doing things like
+mood boards and concept art and figuring
+out the color palette. They're going to
+look at competing games. What are the
+major themes, the character arcs, the
+story arcs? And most of these vibecoded
+game demos that you're seeing, they
+don't do any of that. In fact, on this
+demo, I'm actually skipping over most of
+that. Now, me and Dave have had multiple
+game planning sessions where we figured
+out game loop and character styles and
+things like that, but we're also kind of
+skipping over a lot of the story and the
+narrative, things like that that would
+typically go into a normal AAA game.
+Most games also figure out early on what
+are sort of the core pillars of the
+game. For us, we're basically taking the
+original librarian concept and we're
+trying to uplevel it. So, if you've
+never played the original librarian
+game, you're in a library, you've got
+these students that come in and they
+knock books off the shelf. Your job is
+to go around and to take the books away
+from students or pick them off the
+floor, put them back on the shelf. The
+more books you pick up and put back on
+the shelf, you actually earn XP up here.
+You can level up, making it easier for
+you to chase down students, carry more
+books, and clean up the library. There's
+a chaos meter at the top, and the more
+cluttered and crazy the library gets,
+the more the chaos meter goes up. Your
+game is over when the chaos meter goes
+all the way to 100%. That's pretty much
+the entire game loop of the Librarian
+one. So, we're going to build off of
+that. For the Librarian 2, we're going
+to try to uplevel the graphics by quite
+a bit. We're going to try to make a 3D
+version of it. The levels are going to
+be procedurally generated, so every time
+you play it, it's going to look slightly
+different. You're going to be able to
+collect new and different powerups from
+the first version. And ideally, you
+could sometimes create what's called a
+broken run, meaning that your character
+gets so powerful that the game just
+feels effortless. Anybody who's played
+the rog light genre of games kind of
+knows the idea there. There will also be
+meta upgrades in the game. So, when you
+lose a round, you can still upgrade your
+character, and those upgrades are
+permanent. So, your next round, the game
+is slightly easier than the last round.
+And we're introducing new boss systems
+and different types of disruptions in
+the library. Things like sick kids. And
+we're going to introduce like natural
+disaster type stuff like an earthquake
+can rock a whole bunch of books off the
+shelf and create chaos as well. So
+there's going to be some new systems
+introduced as well. But the main thing
+we're going for is better graphics, 3D
+environment, and the ability to create a
+super super fun broken run occasionally.
+Now, to build this game, I'm actually
+going to use two different coding
+models. I'm actually going to build out
+the initial game using Claude Code and
+the Opus 5 model because that's the
+model that's been the most impressive
+recently at creating really goodlooking
+games. Most of the demos that you've
+seen of people making things that look
+like Call of Duty and stuff like that,
+they've been made with the Opus 5 model.
+Once it's built with Opus 5, I'm
+actually going to switch over to Codeex
+and use GPT 5.6 to do all the
+fine-tuning and dialing in all of the
+features and functionality of the game.
+So, to start, I'm creating a new chat
+here. I created a new folder called the
+Librarian 2 where we're going to build
+this game out, and I'm linking it over
+to my GitHub repository here of where
+the librarian part one is located. So,
+it has a reference of like the initial
+game concept. So, this is the repo for
+the librarian 1. Here's the link to the
+repo. We're now building the librarian
+2, which is a complete overhaul and
+reimagining of the game. Now, I'm just
+going to go ahead and use Whisper Flow
+and rattle off all of the ideas we want
+to be in this game initially. This new
+version of the librarian should be 3D.
+>> Look at the librarian one to understand
+the initial game loop. The library that
+the characters are in should not look
+the same every single time
+later.
+>> So, there's my long ramble of everything
+I want into this game. And this is going
+to be V1. It's not going to be perfect,
+but this could potentially run for like
+an hour or two. So, I'm going to go
+ahead and submit it and I'll let you
+know what we get back when it's done.
+All right. So, it took about an hour and
+a half, but it finally finished working
+through my initial prompt here. It's got
+the original game loop. figured that
+out. So, let's see. Let me just skim
+this real quick. We can see what it
+actually did here. And this is something
+that it did not do when I made librarian
+one is it actually opens up the game in
+its own browser here inside of Cloud
+Code. Test the game to make sure
+everything's working. And then you can
+see it sort of fix what it finds. It
+actually has a screenshot here of the
+game to see what it looks like. I mean,
+just looking at this screenshot now, I'm
+like, dang, this might actually be kind
+of impressive. The camera is punching
+through the ceiling. Let's fix that.
+Depth of field fixes.
+And we can see it just like keeps on
+running the scripts here, testing
+itself, and then fixing what it finds.
+It also sort of tried to balance itself.
+Boss pressure is dominating the chaos
+meter, and bosses never leave, adding
+patience timers and rebalancing their
+pressure. Now death is by attrition from
+kid bumps, not chaos. So the game was
+testing itself and then rebalancing if
+it was way too hard or complicated. All
+right, let me just scroll down here. See
+what our final output is. It generated
+10,400 lines of code across 33 modules.
+Zero asset files. Every texture,
+material, character, sound effect, and
+piece of music is generated in code.
+Items on the floor drive chaos. You
+vacuum them up by proximity and file
+them automatically beside a matching
+color bay with a compass always pointing
+at the nearest one. Filing builds combos
+and XP. Each level you draft one of
+three upgrades. Survive 15 minutes. So
+there's procedural libraries.
+There's different bosses. We've got
+disasters, earthquakes, tornadoes.
+There's four branches which upgrade
+through lifetime XP. Bugs I found and
+fixed along the way. A soft lock where
+you can carry books no shelf would
+accept. Kids that never stopped
+ransacking. What I want your eyes on. So
+balance is still the soft spot. I toot
+it against a scripted bot plus design
+math. The book array currently files
+carried books at range rather than being
+a physical returning projectile. All
+right, let's go ahead and run this and
+then we'll open up our local host and
+see what our V1 looks like.
+[music]
+All right, the librarian too. Look, ma,
+I could read good. Begin a shift. Choose
+a branch. Okay, so these are our levels.
+The Grand Library, Blockbuster is not
+open yet. Groove Merchant Records, Mega
+Mart Supertore.
+We got some background music. We need We
+need this uh menu screen to look cooler.
+So, we'll we'll work on that. Staff
+development. So, this is our meta
+progression here, which needs like a
+return to menu button or something.
+Let's see. settings. So, we've got
+graphics, low, medium, high, and ultra.
+Awesome. Master volume, music, sound
+effects, erase all progress. All right,
+let's begin. Shift.
+Oh my gosh. Okay, so the controls are
+reversed. [laughter] This is way
+different than the last version. I need
+to get these controls dialed in, though.
+Oh, that kid just took a book. Give me
+that book, kid. Ah, okay. I can't do
+this with the controls this way. So,
+we'll need to go fix that. But I need to
+get out of this game here
+because I can't do it with everything
+going backwards. It's too messed up on
+my brain. Also, I need to fix this staff
+development page. There's no like back
+button. I'm going to go give that
+feedback real quick. I'm just going to
+keep on doing this one in Claude Code
+for now. When we start doing a lot more
+of the fine-tuning, I'm going to switch
+models, though. And you know what? While
+we're at it, there's something else I've
+been wanting to do. So, when I made my
+first version of the game, this was the
+thumbnail we used. I did some split
+testing on thumbnails. This was the one
+that won out. However, this character
+that you see here wasn't actually in the
+game. And I feel bad that I used a
+thumbnail and showed this character
+without this character actually
+existing. So, I want to make this
+character that looks like me an option
+to actually be the librarian in the game
+as well. So, I'm going to take that
+image and I'm going to drag it in and
+add it. And I'm going to say, "Cool.
+Now, I'm going to go ahead and give it
+this prompt and get those fixes made,
+but also bake in this new character."
+All right. And so, after 15 minutes, it
+made the fixes. So, the W and S are now
+swapped. The meta shop is now working
+better supposedly, and it added a new
+character called Wolf. If I click on
+staff development. Okay, the scrolling
+actually works now. It wasn't working
+before. And our back button is now in
+existence. All right, let's begin a
+shift. And we have our two characters.
+We might need to do a little optimizing
+on how these [laughter] guys look, but
+uh yeah, you can be Marion or Wolf.
+Let's go ahead and use Wolf.
+And there we go. Now the actual movement
+is working. I want to make it so the
+camera angles change, but I'll come
+around to that one later. I can chase
+these kids around. Get out of here, kid.
+Yeah, I mean, it's looking good. The
+library is a little different looking.
+We actually have a map up in the top
+right, so I can actually go and see
+where the books are being dropped.
+Although, the little arrow isn't like
+pointing the direction my character is
+actually moving. So, that's something we
+should probably fix. Looks like there's
+a book on the floor here.
+Um,
+I can't seem to pick up this book here.
+So, there's a little bug. Why can't I
+find any books on the floor? Chaos is at
+3% and I'm not seeing where the books
+are. All right, so on the map, it's
+showing some purple up here. Okay, so
+there's something on the ground. There
+we go.
+All right, so we got our first level up.
+Fire drill training disasters last 15%
+less time. Overdue finds combos build
+20% faster. reading glasses plus 10% XP.
+Let's go ahead and make it so we upgrade
+XP faster. Look at the light coming
+through the window. And it's even put
+like the shadow here. That's
+interesting. All right. So, we're we're
+making some good progress here, but it
+definitely needs some refinement. So,
+let me go ahead and do that. And before
+I get too far into these refinements, I
+do want to start working with GPT 5.6
+six instead just because I think that's
+actually a little bit better model to do
+some of the fine-tuning I'm trying to
+do. But before I do that, I want to do
+two quick things. One, I want to push
+this whole thing to GitHub and have it
+all sort of backed up there and then
+over time I can actually like pull
+previous versions. If something goes off
+the rails and we go too far in one
+direction, I can sort of go back to a
+previous version. You don't need GitHub
+to do that, but I like to use GitHub
+because it allows me to like pick up
+where I left off and be working on this
+from a different computer and things
+like that. I also want it to create a
+markdown file of what the game currently
+is and where it stands. That way, when I
+jump over to GPT 5.6, GPT can just read
+that markdown file and sort of
+understand the current state of the game
+and help me pick up where I left off.
+So, I'm going to go ahead and do this.
+create a markdown file for me that
+explains this entire game. Put as much
+detail as possible into this markdown
+file. And I'll go ahead and let it go
+off and do those things. All right, so a
+couple minutes later, it made us a
+design
+file and it created our GitHub
+repository. Let's take a peek at the
+design MD that it made. What the game
+is, quick start. So, lots and lots and
+lots of detail here about exactly what
+the game is. So, now when I jump over to
+codeex, it will know how to handle it.
+I'm going to go ahead and jump out of
+cloud code and we're going to work in
+chat GPT from here on out. I'm going to
+switch into codeex mode, which is the
+area where we're going to be doing most
+of our coding. And we're going to create
+a new project called the librarian 2.
+And for the folder, we're going to
+select the folder that we created called
+the librarian 2 when we did it with
+codecs. And just to sort of like warm up
+the context here, I'm going to tell it
+to read the design MD file, get a good
+understanding of the game, and tell me
+what improvements it suggests. Let's let
+codeex and the 5.6 sole model actually
+suggest some improvements. It might have
+some good ideas. So, I'll go ahead and
+create that prompt. Let it go ahead and
+start working on that. And as I was
+playing the game, I also made a list of
+little improvements that need to be
+fixed. Then we'll actually move into
+balancing the game and making it feel
+like it's the right amount of
+difficulty. The game should be really,
+really hard when you start, but as you
+get upgrades, the game gets easier and
+easier, but you shouldn't be able to
+beat it your first time through. That's
+kind of how this type of rogue light
+game works. So, it went ahead and it
+came up with about 12 different
+recommendations. You can see my highest
+priority recommendations, fix procedural
+reachability before doing more balance
+work, repair progression stacking before
+judging difficulty, add a short
+interactive first shift tutorial, and a
+bunch of little suggestions. Now, I also
+gave it a prompt with some more ideas
+that I wanted to fix. And now that these
+recommendations have all been dialed in,
+I'm going to go and test the game again.
+But this time, I'm going to jump on with
+producer Dave, who helped me come up
+with this whole game concept, and him
+and I have been brainstorming what this
+game should be together, and I'm going
+to review it for the first time since
+these changes with him.
+>> Oh my god, this is awesome. That's a
+hype ass menu. You even put the Look,
+Ma, I could read good. [laughter]
+[music]
+>> Oh, now it's playing music.
+All right. So, begin a shift. You could
+be Marion or Wolf.
+>> Who's Marion?
+>> All right. So, there's a tutorial. So,
+pick up the Cobalt book. Oh, and there's
+an arrow that tells me where it is.
+Okay. So, I picked it up and put it on
+the shelf. Move with purpose. Sprint
+while [music] moving. So, I can sprint a
+little bit. And I have a stamina bar up
+here. Ooh. All right. [music] So,
+somehow I've already leveled up. All
+right. So,
+>> chromatic shush. That's outstanding. A
+shock wave that sends every nearby book
+of one color flying back to the shelf at
+work.
+>> And it's an act if you like press F to
+do it. That's sick.
+>> After school rush. Small group has
+arrived. You little [music]
+Like they're just like hanging.
+>> They're going in. Dude, press your F. Go
+close to them and press F. See what
+happens.
+[music]
+>> Earthquake.
+>> Earthquake [laughter] incoming.
+>> Oh jeez.
+>> [music]
+>> Braden the bully.
+>> Oh, you can see him on your mini map.
+>> All right, let's go get him. What the
+hell? He's so [music] fast. Braden, get
+your ass over here.
+>> How is he so fast?
+>> You can't catch him. It's impossible.
+Oh, there he is. [music]
+>> Look at his arms flailing.
+>> He's [laughter and clears throat] so
+fast outside of the library.
+>> There he is. Yeah, just follow him on
+the mini map. All you can do is look at
+the mini map. There you go. Yeah, yeah,
+yeah. Kill him. [music]
+>> It's not killing him. It's catching him.
+[laughter]
+>> Oh, sorry. He's causing some chaos here.
+Look, you're at 36% and climbing. This
+just became hard.
+>> It did, but he's way too freaking fast.
+>> Look at him go.
+>> Oh, he just he just died. He disappeared
+into nothing.
+>> Oh no. Yeah, this is problematic.
+>> A torsado. [laughter]
+>> Where's the tornado? Oh
+>> It's inside the library.
+>> [laughter]
+>> What happens if I walk into the tornado?
+[music]
+>> Nothing.
+>> Your health is dropping. Your health is
+actually dropping.
+>> Oh, I I have a health bar. This is not
+doing nearly enough damage that a
+tornado seems like it should have done
+that.
+>> No, it knocked like four books off the
+shelf. That doesn't That's not tornado
+worthy. Dude, chaos is skyrocketing.
+65%. You might actually lose this run.
+>> I probably will.
+>> Uh 95%. You're toast.
+>> I don't know what I don't know how to
+like keep the chaos. F.
+>> Oh no.
+>> The building has been surrendered to the
+children. [laughter]
+>> This is This is where we're at right
+now.
+>> I'm impressed.
+>> I mean, visually, it's a step up. You
+know what I think the biggest takeaway
+is for me
+>> is that like to make this a really
+enjoyable game with lots of great
+features, great balancing, really
+clearly defined progression and
+replayable game loop, it'll take a long
+time.
+>> Yeah, we a lot of work. [laughter]
+>> Yeah. So, the CEO of Take 2 once said
+like, you know, when it comes to gaming,
+coding was never the bottleneck for us.
+It's all of the little decisions and the
+balancing and the little like elements
+that you decide to add and the elements
+you decide not to add and the you know
+all of that stuff is what makes a good
+game not being able to code.
+>> So I guess then it's fairly safe to say
+that game developers aren't cooked.
+>> Yeah. No, I definitely I [laughter]
+>> we still we still need them. Like I
+don't feel like there's any part of me
+that wants to like stop buying games and
+just vibe code them instead. I have zero
+desire.
+>> It's funny that you say that. This is a
+guy that I follow on Twitter and he's
+he's taken some flak for his recent
+take. He says, "Um, pretty sure gaming
+is a category is dead because everyone
+is just going to build their own games."
+>> Nope.
+>> Games don't have ongoing maintenance
+costs like companies replacing SAS
+vendors. Perhaps an argument for wanting
+someone else to build an experience for
+you. Easier to watch a movie than create
+one. But video games and vibe coding are
+so close. the difference between
+creating the form and playing in a form
+is getting closer and closer to zero. So
+why play someone else's game? Just pay
+chat GPT $20 and make your own. And he
+showed this screenshot of like a
+vibecoded Smash Brothers, right?
+>> And literally nobody in the comments
+agrees with him.
+>> Easier to watch a movie than to create
+one. Yeah, that's the point. It also
+takes the original idea to like be
+something inspiring and interesting that
+people want to watch and want to
+experience for the first time. If you
+could just come up with the idea
+yourself, then nothing is exciting.
+Nothing is interesting. Uh, looking at
+this Super Smash Brothers, I'm sorry,
+but that doesn't look good. [laughter]
+>> No, it doesn't.
+>> I don't want to play this. I'd rather
+play Super Smash Brothers. All due
+respect to whoever this guy is, but take
+this off the screen right now. It's just
+making me mad.
+>> All right, now that Dave and I have had
+a chance to sort of play around with it
+and find out what's working well and
+what's not, I'm going to give it one
+more round of fixes, and that should do
+it. So, a few of the fixes I'm making,
+change the camera angle, fix some of the
+lighting in the windows. The difficulty
+scaling needs to start off a little bit
+harder, but not get so hard so early in
+the game. So, sort of trying to balance
+that a little bit. I want the natural
+disasters to do a little bit more damage
+than they actually do. I want to slow
+down the bully a little bit and just a
+few other balancing things. I also want
+to see if I can optimize the wolf
+character a little bit more to look a
+little bit closer to the thumbnail.
+We'll see what they give us here. And
+I'm also setting it to soul ultra, the
+best model right now from OpenAI to see
+if it can really dial all these things
+in.
+>> A few moments later.
+>> All right, so it took about 30 minutes.
+Not too bad. And it fixed all of my
+stuff here. Let's go ahead and give it a
+test. All right. So, it didn't really
+change my character too much. Even
+though I asked it to try to make it look
+closer to the character of the image, it
+changed the colors. It got a little
+further away. Whatever. It's fine. Okay.
+So, I can actually change the camera and
+rotate. Oh, that is actually smooth. I
+think it's inverted, though. I think I
+want it to be the other way around. All
+right. Let's go over and see how the
+lights look. Look at that. That looks a
+lot better than it did. Can I still go
+outside the walls with the camera? No.
+The camera won't let me go outside the
+walls anymore. Perfect. Perfect. Oh,
+change my mind. Yes, it can. [laughter]
+Oh no, there's a Karen. Not a Karen.
+What is she complaining about? I'll be
+leaving a review. This is unacceptable.
+Okay, Karen.
+I got the booker eggg now, so I can go
+boom and just throw them back to the
+shelf. That's cool. Oh, but it's got a
+cool down, so I can't just like
+immediately do it. Oh no, a volcano.
+There's a volcano grew out of the center
+of the library.
+Yay. Okay, so I beat this level. New
+branch unlocked. Blockbuster night. All
+right, so let's test some of these other
+levels. Uh we've tried the Grand
+Library. Let's see how Blockbuster looks
+different. Let's do Marion this time.
+Okay, so Blockbuster doesn't look a
+whole lot different other than uh a
+different color. Okay, let's abandon the
+shift. Let's try the record store. Okay,
+so the record store looks identical to
+the library. Let's see if the grocery
+store looks any different. Okay, so not
+really. There were some extra things we
+added to the grocery store. Like if a
+banana falls off the shelf, you could
+slip on it. And if like a mushroom falls
+off the shelf, it makes you grow like
+Mario. Definitely need to optimize so
+each of these levels look different
+other than just the color though. Safety
+bonus. Shake and soda can contain. Oh,
+that was a mushroom. Okay, so I just
+picked up a mushroom. You couldn't tell
+that it was a mushroom, but it just made
+me a lot bigger. [laughter]
+I will make a link where it's playable
+using uh GPT sites, so anybody who wants
+to play it can play it. I'll also put it
+up on GitHub so you can download it and
+fork it and make your own version of it.
+I'm going to keep on optimizing this and
+uh fixing a few of the things that I
+want to fix, but uh I do have some final
+thoughts, so let's let's get into those.
+All right, so my final thoughts on this
+whole game development process. First of
+all, it is really, really fun to get AI
+to help you make a game. But do I think
+game developers are actually cooked? Not
+even close. And AAA like even further
+away from being cooked. AI can make a
+fairly decent, pretty fun, and actually
+surprisingly polished looking game. And
+it can do it pretty quickly. But I don't
+actually think that's what makes a good
+game. I actually agree with the take
+that development was probably never
+really the bottleneck to creating good
+games. There's probably really really
+good developers out there that have just
+made absolutely crappy games. While
+there's also probably people out there
+that don't know how to develop at all
+that have come up with really really
+good games and then hired developers to
+help them make them. I think the real
+hard part about making a good game is
+all of the other little elements. Making
+judgment calls about what should be in
+the game and what shouldn't be in the
+game. All of these little decisions need
+to come together to make a really good
+game. And all of those little decisions
+are the thing that make making a really
+good game difficult, not the physical
+typing of the code. So again, game
+development is nowhere near cooked. Now,
+will game development be sped up a
+little bit? Probably. I think game
+developers will be a lot faster at
+getting games out because of AI, but I
+don't think AI is going to do a very
+good job at finding all those little
+nuanced items and figuring out how to
+make the game fun and balanced. Like,
+yeah, I made the library into, you know,
+decent. It's actually a pretty fun game,
+but is this going to turn into a game
+studio? No. Am I going to put this on
+Steam? Absolutely not. I mean, I might
+throw it up on GitHub and let you play
+with it and download it and fork it and
+do whatever you want with it, but I have
+zero intention to sell this. This is
+nowhere near sellable. So, again, I
+think AI is going to make game
+development faster. But this does not
+mean people are going to stop wanting
+professionally developed games or games
+created by like really good game
+designers because the hard creative
+parts and all the little nuances haven't
+disappeared as a result of AI. I also
+don't buy the narrative that people are
+going to want to make games instead of
+buying games. I think most people would
+rather let other people make the
+decisions of what goes into a good game
+and then buy other people's games and
+play them. So, I think AI is a fun toy
+if you're like me and not a hardcore
+developer and want to try playing around
+with making some good games. But I mean,
+even most of the games I've made for
+myself, I've never gone back and played
+very much other than to make demo videos
+of them. But I'm still a big gamer. I
+still go and buy and play a lot of games
+that other people made. And I don't
+think that's going to change. I think
+some people will have fun making their
+own little games and play with them and
+share them with their friends, but
+they're still going to the big studios.
+And I still think game development has a
+lot of life left in it. And I'm still
+excited to go buy and play other
+people's games. Even though yes, I can
+make games myself if I want to. I just
+kind of choose not to most of the time.
+And I think most gamers will agree with
+me. Anyway, that's what I got for you
+today. I know this was a little bit
+different. I love testing tools in this
+way and trying to challenge myself to
+build other things. We're going to be
+doing this more from time to time on the
+channel. The Librarian 1 came out almost
+a year ago exactly. It came out in
+August of 2025. It's now August 2026
+when I'm shooting this one. So, I
+thought it would be fun to see how far
+these tools have come in one year when
+it comes to game development. Back then,
+it was a lot of back and forth, a lot of
+me creating the assets and sound effects
+and music and using all sorts of tools
+to time together. Now, it's like one or
+two tools, give it a few prompts, and I
+have what I'm looking for. Like, it's
+kind of crazy how far along this stuff
+has come. But again, I'm still looking
+forward to the next games out of the
+best game developers. If you like videos
+like this and you want to stay looped in
+on the latest of what's going on in the
+world of AI, whether you love AI, you
+hate AI, you fall somewhere in the
+middle, I'm just trying to do my best to
+keep you informed with what's out there.
+And if you like that kind of stuff,
+consider liking this video and
+subscribing to this channel. It'll make
+sure more stuff like that shows up in
+your YouTube feed. Thank you so much for
+hanging out and nerding out with me. I
+really, really appreciate you. And uh
+hopefully I'll see you in the next one.
+The bike.

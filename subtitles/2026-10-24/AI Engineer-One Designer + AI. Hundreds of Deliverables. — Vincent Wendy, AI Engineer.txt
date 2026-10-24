@@ -1,0 +1,417 @@
+UP主：AI Engineer
+标题：One Designer + AI. Hundreds of Deliverables. — Vincent Wendy, AI Engineer
+链接：https://www.youtube.com/watch?v=O1FN4awNEtM
+
+All right.
+Hello everyone. Hope you guys having a
+good time at the conference.
+So, before we start
+how many of you are actually uh
+designers? Like a product designer. Hey,
+one hands and another. Okay.
+And how many I assume that the rest of
+you are engineers? Is that correct?
+Yeah, pretty much. Okay.
+So, today's talk is a non-technical
+talk, but more of a real-world
+experience how I created the design for
+AI Engineer this conference and
+our other past conference as well and
+how AI has helped me. And so, the talk
+today is one designer plus AI, which is
+me as the designer,
+and hundreds of deliverables.
+All right, let's start.
+So, my name is Vinson Weng. I am a
+senior creative designer at AI Engineer.
+And at AI Engineer, it's a very small
+team. So, we only have around 12 people
+to 15 people at the moment. And
+everyone has been doing their own thing
+and
+I think AI has been like has been a
+really helpful way to like helping
+everybody doing everything.
+And
+at if for if an at this scale
+we have a problem, obviously, right?
+And the problem is the scale problem or
+I would call the challenges.
+And how to overcome it?
+It's basically automation and we get to
+that in the later part of this talk.
+So,
+when I prepared this talk, we only
+expected 6,000 attendees and now it's
+7,000. Well,
+good for us.
+And then we have 140 sponsors. More.
+140 plus sponsors. And then 300 plus
+speakers, 600 plus sessions, and one
+designer.
+And everybody needs
+every designs, right? Like every single
+thing needs design. Sponsor needs
+assets, speaker needs graphic.
+You need sign it so you don't get lost.
+And
+this is basically what we do, what I do.
+So, from stickers, do you like your
+swag, your stickers?
+Well, I hope you do because I create
+that design, too. And
+to a landing page,
+speaker announcement, track mascot, all
+the stuff that you see,
+most of the stuff that you see
+here, from a sign it to a
+digital sign it, landing page,
+everything is a deliverable.
+And
+a thousand details means a thousand way
+to fail, right?
+Because
+I'm missing sponsor logos, going to be a
+huge issue. And speakers that have a
+wrong schedule, also a huge issues,
+right? And it seems impossible to handle
+that many kind of deliverables, but
+yeah, meet my design team.
+So, it's me and Devin, GPT, and Figma.
+And right now we are at the stage where
+tools isn't the like it's not a problem
+anymore, but having a real problem is
+our advantage.
+So, for example,
+when someone asked me, "What inspired
+you when designing in AI engineer?"
+I don't know the answer back then, but
+after I think about it, it's actually a
+problem that inspired me to like
+designing in this AI engineer. And we'll
+get to that in the latter part of this
+talk.
+So,
+have you guys seen the talk by Simon
+Wilson like in 2025?
+>> Yeah.
+>> Yeah, and it's pretty interesting,
+right? He asked to
+He asked every LLM to create
+an a vector file, which is basically a
+pelican riding a bicycle.
+And it is basically to test and I tested
+again and it's still doing this for the
+basic model.
+And it's not usable for me as a
+designer. But as a designer, we have to
+think outside the box.
+And we could simply ask ChatGPT create a
+still image like a PNG for a pelican
+riding a bicycle and then I can
+vectorize it on on Figma.
+And we can ship that now.
+So, we have to think outside the box
+here
+regardless the capabilities of the LLM.
+And
+So, how to solve this scale problem,
+right?
+Basically five five things. So,
+foundation first, reusable designs,
+automated workflows,
+validated output, and also remove
+frictions.
+The foundation is definitely the core
+part that we need to set up right. Like
+the design system, typography, colors,
+components, like other stuff.
+And once this is set up, like for
+example, when we create the website,
+it's all set up within this thing.
+And yeah, this is just an example. Like
+we have the colors, primary, and then
+also the accent colors,
+the typography,
+and also the tagline, all the other
+stuff.
+And
+also, have you guys Are you guys
+familiar with the atomic designs?
+So, yeah, my previous background is I'm
+a product designer. So, I'm pretty
+familiar with the
+thing where we need to create a
+user-centric design and also like atomic
+designs, right? Where we create the
+smallest part possible and then
+combining it into like basically a LEGO
+pieces and then into a deliverables.
+And this is pretty useful in my job desk
+right now.
+So, once we set up all of those
+foundation, we basically need to create
+for example, we use Defont a lot. In at
+the office, we everybody use Defont.
+Everybody like
+abusing Defont for example.
+Yeah. And
+So, in this case, I just need hey, we
+use this desktop typography and this
+mobile typography because we know
+Cloud or like any other LLMs love to
+like throwing some random
+font size, right? And if we don't define
+it, it just delivering a slope like the
+previous slope.
+And
+yeah.
+Typography, color and stuff and
+and then it comes to reusable design.
+So, once we set up it right, like the
+website is has the
+the branding to it, all the other teams
+on the AI engineer, like for example,
+the marketing teams
+can create everything basically. Like
+they can create an email design based on
+that. They can create a flyer, a
+document
+just based on the website because it's
+already defined
+like it defined early.
+And yeah, once you get the design, you
+can just rinse and repeat.
+For example, the mascot, it's all has
+the pretty much the same design and it's
+rinse and repeat. And if you
+already defining those things, you can
+basically like create one design that
+works for all.
+And this is the part that I'm most
+interesting to talk about, which is the
+automated workflows.
+Before, for example,
+if you take a look outside the room,
+there's a schedule, right? The schedule
+for each and everyone.
+So, we used to do it manually on Figma,
+but now we use Devin for it.
+And
+let me show you.
+Hey.
+So, right now we just pull the latest
+data. I just asked Devin like, "Hey,
+I want this room
+at these days." And then we can just
+export it, download it PNG, and the data
+is all accurate, and then we can just
+ship it to the flash drive, and then
+put it on the screen.
+And
+it was like impossible before because
+the friction is just too much between
+the designers and the developers.
+We [snorts] cannot make things like
+pixel perfect because
+once we tell the designer, "Hey, this is
+the design." And then
+Sorry, the the engineers that created
+the design, for example. "Hey, I need
+this to be delivered." And then they
+don't create it pixel perfect, it's a
+lot of
+feedback loop, right? But with Devin, we
+just say, "Hey,
+can you make this more accurate?"
+We can just connect it to MCP, and then
+if it doesn't work, we can just always
+like
+give a spec sheet or something that
+can be defined like what's the spacing,
+what's the
+font size, etc. And
+this is what we do to for the speaker
+announcement. So,
+we have 300 plus speakers, and it's
+impossible for me to like handle one by
+one, right? So, we create this thing,
+which is called which you can also
+access to speaker announcement, and you
+can also try
+it yourself.
+Like this one, for example.
+You can select it right here.
+And then you can also change your name.
+Well, that
+Yeah. For example, this you can change
+the name to whatever you want. And we
+also have the landscape mode
+which can be also loaded. If the speaker
+also have the headshot and all the
+details, it will automatically export.
+And we also have the trading cards
+which is surprisingly pretty popular.
+And we have a different team. And this
+is all pixel perfect.
+All right. For example, this one.
+This is inspired by TBPN, so
+Yeah. And how do I deliver this in pixel
+perfect? Let's jump into it.
+So,
+the process here is
+before
+when I start my career as a product
+designer, it used to be just
+okay, we need to research, we need to
+build product like design thinking in
+general, right? And then feedback loop
+and stuff like that. But right now, it's
+it's just outdated for me. Like in my
+case,
+we just go to Slack,
+Figma, and then send it back to Slack
+because Devin or Devin live in Slack,
+and then ship all the things that he
+need.
+>> [snorts]
+>> Like for example, if we can connect the
+MCP or also the
+spec document, which is for example the
+spec sheet like this,
+which is
+uh plugin in Figma if you interested.
+It's free and it's basically give an
+annotation to the PDF.
+And
+yeah, all designers don't name their
+layers, so yeah, this is just like
+some random frame three, frame four, but
+the LLM will get it.
+And it's basically defining all this
+spacing, all this
+font size, and then all the
+colors and stuff. It's definitely going
+to help you develop a pixel-perfect
+product.
+And
+we also have just recently like today
+have uh photos which we have to create
+the thumbnail for its
+speaker, right? And then we ask Devin
+like, "Hey, who is this person?" And
+yeah, it kind of did. Like I make a
+Tinder kind of
+you know, detection
+if this is the same person or not. And I
+think it's pretty accurate.
+It's Jason Liu. Yes.
+And then we can use this to like
+for context. Like before, when we create
+the thumbnail, we have to search all the
+codes that photographer have and search
+it one by one and maybe by time
+if possible. But now we can just like,
+"Oh, this is Jason Liu. Download that
+photo." And then we can paste it into
+the thumbnail, right? And it's pretty
+amazing. I mean, the world that we live
+in right now is actually like the state
+for me as a designer is already at the
+peak because
+what what else can you ask for, right? I
+mean, we already have things to
+automate, we already have things to
+create the design fast.
+Basically, all you need is a problem
+because once you have a problem that
+worth solving, you can
+basically solve anything.
+And back to my talk, I got sidetracked
+right there.
+Yeah.
+And then yeah. And this is also the
+amazing thing that we test.
+So, as you know, we have like hundreds
+of sponsors, right? Like 140 plus. And
+as you can see on the at the lobby, we
+have the banner with all the sponsors.
+And
+I basically tell Devin like
+"Hi, could you compare
+could you check if there are any missing
+logos in this graphic?" And the accuracy
+is 100% based on the test that I
+do. So,
+which is pretty well. And we use the
+same thing for the
+T-shirt that you got for your swag.
+And yeah, surprisingly, Devin knows how
+to like visualize things, right? Like
+how to detect things visually.
+And that is very surprising because
+as a human, we can like give errors. Oh,
+turns out there's one small something
+that is missing. But with this kind of
+thing, we can like double-check. So,
+human plus AI, combine it,
+well, you got your own QA team.
+And then remove fiction.
+So, this is just uh the way of thinking.
+So, as a designer, we have to think
+as a user, not as a designer, all right?
+Because every user has its needs.
+You can walk through the for example,
+the map plan here. So, basically,
+I'm imagining myself as an attendee to
+go to the registration, go to the
+see the wayfinding and the QR code and
+then all the stuff. Basically,
+everything needs to be connected so you
+guys don't get lost and knows how to
+find your rooms and
+other stuff.
+And
+the real job is handling exceptions.
+So, for example, oh, I have Yeah.
+>> [snorts]
+>> For example,
+um
+there is a schedule update, all right?
+And
+when we create this thing, it doesn't
+has an edit button. And then one
+morning, it just "Hey,
+this schedule needs to be updated and we
+don't have those edit buttons." I could
+just ask Devin, "Hey, can you add me an
+edit button?" And then it did. So, we
+can change everything now and then ship
+it to PNG and replug it to the screen,
+which is pretty convenient, right? And
+those exceptions, right? It
+it's not possible before
+when we have to do it manually and
+stuff.
+But now it's just get easier. And
+so, the takeaway here is that to solve
+the scale problem, you have to actually
+think small. Think all the smallest
+thing possible. Think everything that
+can go wrong and will go wrong and then
+try to solve it before. And also, like
+yeah, right now basically you can
+automate everything.
+And
+at this moment, having a problem is
+actually going to benefit you because
+that's going to help you ship
+a better product, going to ship uh
+things that are
+good. And yeah, I think that's all that
+I can share. Hope my talk has some
+benefits to you and
+yeah.
+That's all. Thanks, guys.
+>> [applause]
+[music]

@@ -1,0 +1,74 @@
+UP主：OpenAI
+标题：Use ChatGPT Work to build custom forecasting apps
+链接：https://www.youtube.com/watch?v=mOAHWk24D28
+
+This has been a really awesome way to do
+forecasting. It saves a lot of time to
+do more strategic forward-looking
+analysis or initiatives for our finance
+team. Hey everyone, I'm Jackson. I'm on
+the data science team here at OpenAI,
+but I work really, really closely with
+the strategic finance team and it's
+really exciting to talk to you a little
+bit about how we do forecasting here at
+OpenAI. All the folks on the call on the
+finance teams, every single
+month you can imagine the beginning of
+the month scramble where you're waiting
+for the data to land, you're updating
+your spreadsheets, you're trying to talk
+to the product team, the marketing team,
+the go-to-market team of like how you
+should be updating your forecast. You're
+trying to build a really solid forecast
+that you can present to the CFO. I think
+everyone kind of feels that scramble.
+It's no different here at OpenAI,
+but we're always asking ourselves how
+can we make this process better? So, the
+problem we want to solve was to build
+something like an interactive UI that we
+could send over to our finance partners,
+work with them collaboratively
+and ultimately update our forecast. The
+first thing I did was
+I'm prompting I'm prompting chat to say
+Hey, let's kick off this monthly
+forecast.
+Pull the latest actuals, update our data
+science baseline, and build an
+interactive finance forecast using
+sites. Sites is basically a way for
+anyone to kind of build a website with
+no code, host it without any
+infrastructure, and it's something we
+use a lot internally. Let's see what it
+came up with. We see the data science
+baseline, we see our prior forecast, and
+we see a kind of a scenario we can
+build. And this is all at the aggregate
+level right here.
+I have a visual representation of this
+as well, so I can kind of see if the
+trends are looking like, you know,
+eyeball the trends to see what we're
+what we're thinking for the next half of
+the year.
+And then um I've also asked it to look
+account by account so I can make kind of
+adjustments by account. And
+this this site has a feature to go down
+every account, but let's look at Apex,
+one of our larger accounts.
+So, we can kind of see the baseline
+here.
+And then we can kind of see this green
+line here that we can actually adjust
+directly in the UI.
+Which is super cool.
+And what's happening right now is it's
+although it's updating the forecast for
+this account, the entire model is
+updating in the background, so the
+aggregate number also gets adjusted.

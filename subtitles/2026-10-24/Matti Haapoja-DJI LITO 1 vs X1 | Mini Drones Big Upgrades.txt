@@ -1,0 +1,414 @@
+UP主：Matti Haapoja
+标题：DJI LITO 1 vs X1 | Mini Drones Big Upgrades
+链接：https://www.youtube.com/watch?v=qP3mg7UCKmg
+
+This is the brand new DJI Lito 1 and
+this is the brand new DJI Lito 1X.
+It's time to find out how much of a
+difference there is between and how they
+stack up against the DJI Mini 5 Pro and
+yes, it is Lito, not Lido. For some
+reason I feel like it should be Lido,
+but it's Lito. All right, let's test.
+This is not sponsored by DJI, but it is
+sponsored by Artlist and just wait till
+you see what I made. It is not what you
+think.
+These are the brand new entry-level
+drones replacing the minis and just
+above the Neo and the flip. I personally
+didn't really understand the flip.
+That's a weird drone to me and the Neo
+is cool, but the quality just isn't the
+best. Let me tell you what I found out
+testing them because I very quickly
+realized there's an obvious choice here
+and a few things many people will miss.
+Let's start with the specs on the Lito
+1X. It has a 48 megapixel 1 over 1.3
+sensor. It does 4K up to 60 frames per
+second in HDR and in the slow-motion
+mode it does 4K 100 frames per second.
+We get 10-bit Dlog built-in 42 gigabytes
+of storage. I love that, especially in
+this situation where storage is is quite
+expensive and 52 minutes of flight time,
+which is absolutely absurd and a
+transmission range of 15 km. Did I test
+that? No, I'm not a psychopath. I would
+I would never do that. Full active track
+with front-facing lidar with a max
+follow speed of 12 m per second, all
+under 249 g and you and I both know how
+important that is. A lot of the the
+rules and the laws in different
+countries start at 250 g, so this is
+just below that. And as we're watching
+the footage, we can see that this is an
+incredible drone. Like just so good. So
+what about the Lito 1? This guy has a
+smaller sensor. It's a half-inch sensor.
+It still does 4K 60 frames per second
+and 100 frames per second in slow
+motion. But we have no 10-bit Dlog. We
+don't have the front-facing lidar
+sensors. And a few really big
+differences that we'll go into a second.
+But guess the price difference of these
+two drones. The Lito 1 will cost you
+$309
+and the Lito 1X is $379.
+And for those prices, I just have to say
+these are insane drones. They are so
+capable. I flew them hard. Like I did I
+did not take it easy on these guys. I
+definitely risked the biscuit and was
+trying to do things that most people
+would never do with their drones just to
+stress test them for you guys. I did
+that for you guys, obviously. And if
+you're thinking it must be tricky riding
+a One Wheel and flying a drone backwards
+at the same time, yeah, it it is quite
+tricky.
+And actually the transmission is so good
+on these now that you can kind of start
+to fly them more like FPV drones where
+it's okay to fly through some gaps and
+some different things because there's no
+latency or very little latency. Whereas
+before, there was enough latency that
+when you were like, "Oh, I'm about to
+crash." You have already crashed. Like
+that already happened. You're seeing it
+slightly delayed and you're already
+screwed. Whereas now, where the drone is
+is where you're seeing it. So you have a
+lot more confidence to fly it through
+small gaps or little trails like I was.
+And here's a nice size comparison for
+you if you're curious about the
+different sizes of the drones. We have
+the tiny Neo, which is cool and fun, but
+it is the quality's kind of meh. We have
+the Lito 1. We have the Lito 1X. Then we
+have the Mini 5 Pro, which are these
+exactly the same size? Looks like it.
+Maybe a tiny bit bigger. Then we have
+the Avata 2, slightly smaller in
+footprint. It's an FPV drone, it's very
+different. Then we have the Avata 360,
+which is quite a bit bigger. And then we
+have the beefy boy, the Mavic. What are
+we on? The 4
+5 Pro, 6 Pro? I don't know, it's really
+hard to remember sometimes.
+And no, no uh the drone cannot fly
+through windows. I'm sure DJI is working
+on that. We'll figure it out. But until
+then, I'll show you how I did that. If
+you are a filmmaker, you will appreciate
+the new Artlist Studio, where they are
+starting to speak our language as
+filmmakers instead of the tech bro
+stuff, so that we as the directors can
+actually get what we want. And this
+doesn't have to be your final film. This
+can be previs. This can be your pitch to
+a client. This can be proof of concept
+for your short film to see if it's
+actually funny or not. For example, I've
+had this silly short film idea of a
+skateboarder who has to go on a top
+secret mission to the moon. It might not
+make sense, but that's okay. I finally
+have kind of proof of concept. So, this
+is the new Artlist Studio, and it's
+basically divided into framing and
+directing. And framing is your image
+generation, and directing is the
+generating of the actual video clips.
+Inside the framing, we can choose what
+model we want to use, and then we can
+even choose what camera we want to use,
+and what lens we want to use, and then
+obviously the quality and the aspect
+ratio. Then you have your prompt window
+here, and then you can choose what kind
+of angle you want, what type of shot,
+whether it's a macro or a full wide, and
+then even the lighting, and then choose
+how many of those images you want. This
+is where it gets interesting. Once you
+have an image, you can actually generate
+locations and characters based off of
+what you generated so that you can get
+consistent characters and consistent
+locations. Not only can you make your
+character and figure out all the
+different angles of your character, you
+can also choose the voice. So, every
+time you generate a video clip, that
+voice stays the same. This is where it
+gets very exciting for me. Then you move
+into directing, and then we can choose
+your characters that you created and
+your environments and make video clips.
+Again, we can choose our models and the
+cameras. We can choose the length of the
+video clips. We can choose what type of
+camera movement. We can choose if the
+audio is from your character that you
+chose or just auto-generated. And then
+how many videos you want. Write your
+prompt, hit generate, and here we have
+our first video clip of my little short
+film. And again, this could be just
+pre-vis or kind of coming up with ideas
+or just pitching a client with a crazy
+idea you might have. Then we move to
+second shot. Again, I created different
+frames and chose my favorite, and then I
+generated the video clip from that. Can
+I just say it's pretty impressive that
+the anamorphic flares are going in and
+out as the the side little fence thing
+here, like there would be a sun over
+there and it's it's getting blocked by
+those little fence posts. That is
+actually super impressive. Then I
+generated a little clip of him panicking
+in
+in the spaceship. Then we're on the
+moon. He is ready for his mission. And
+boom, we are doing massive kickflips
+a moon crater. And this is super cool to
+see kind of my idea come to life. Now, I
+probably wouldn't fully generate my
+whole short film. For example, I would
+love to make this first NASA clip
+actually myself, but maybe I don't have
+budget for that. So, you can kind of mix
+and match real clips and then generated.
+And you can generate characters based
+off of your own face if you want
+yourself to be in the videos or your
+actor's faces. So, you can kind of use
+this as a CGI tool. Now, for my little
+drone transition, that was way simpler.
+So, basically, I just go to the last
+frame of my drone shot and I'm going to
+export that as a frame.
+And then I'm going to go to the first
+frame of my Sony clip and export that as
+a frame, also. Then, all you got to do
+is choose your last frame of your drone
+shot as your starting frame and then the
+first frame of your Sony clip as the
+last frame. Then, we go to directing and
+we're just going to use Kling 3.0 for
+this and I'm going to have camera and
+lens type on auto cuz I just want it to
+match what I have. And then, we just
+prompt a simple
+camera flies through the window to
+reveal man in the studio.
+Going to make that a 5-second and we are
+going to go dolly in cuz we want it to
+fly forwards. We don't want any audio in
+this case and then we're just going to
+generate twice. And there we go, we have
+the generated clip from our drone shot
+to our Sony clip. Then, we drag that in
+between our drone clip and our Sony clip
+and now we have this transition from the
+drone clip to our Sony talking head
+clip. New transition unlocked. So, yeah,
+if you're curious, especially for like
+pre-vis and coming up with ideas, I
+highly recommend checking out Artlist
+Studio. I'll leave the link down below
+and let me know what you think after you
+actually use it. I want you to actually
+try it and then let me know what you
+think. Okay, back to drones.
+And honestly, after testing them for
+just 1 day, I really don't see any
+reason why you should go for the Lito 1.
+The Lito 1X is just so much better, and
+it's not that much more expensive. $70,
+that's not that big of a deal. And some
+of the reasons are obvious, and some of
+them are not so obvious. First off, the
+image quality. It's just a lot better on
+the Lito 1X with that bigger sensor. It
+looks really good, but in tandem with
+that, the Lito 1 does not have
+autofocus, whereas the Lito 1X does have
+autofocus. And so, it doesn't really
+matter how good or bad the the quality
+of the footage is if it's out of focus.
+Now, a lot of times for drone footage,
+it doesn't actually really matter. Fixed
+focus on infinity is totally fine. But,
+if you're filming something closer like
+I was, having autofocus is a big deal.
+Again, the F stops are probably pretty
+high in daylight, but if it's not
+daylight, we're not really bright, the
+Lito 1X with autofocus is so much
+better.
+Here you can really see the difference
+between having autofocus and not having
+autofocus. I'm clearly out of focus
+right now.
+Um and I also just realized I really
+didn't need to fly these. I could have
+just picked them up out of my hand, but
+this is more fun, right?
+No crashes, that's good. But, you can
+definitely see a massive difference
+between the Lito 1 and the Lito 1X. I
+feel like it's probably less of a big
+difference between the Lito 1X and the
+Mini 5 Pro, but still a little bit of a
+difference.
+I actually just realized the biggest
+reason why you would get the Mini 5 Pro
+or the Lito 1X is not the image quality,
+it is the weight. The Mini 5 Pro is not
+under 249 g. So, this one, there's a lot
+more rules and laws and things. This one
+goes under the radar more. So, that is
+probably actually not even the price or
+the quality that is the big decision, I
+think, to make. The other big, big
+reason is that built-in 42 GB of
+storage. Now, some of you might be like,
+"That's not that big of a deal." until
+you do a 6-hour hike and there's this
+immaculate, perfect sunset and it's just
+popping and you go to pull out your
+drone, you turn it on, and then you
+realize you left the microSD card at
+home because you were dumping footage
+the day before, and now you get zero
+drone footage. Except, if you have
+built-in storage, you always have your
+SD card with you. And, you and I both
+know how expensive memory is right now.
+That $70 difference. Now, this is a
+massive bargain when you're getting 42
+GB of storage built-in. Some of you
+might be like, "Is it a big deal that
+the Lite 01 doesn't have lidar?" To me,
+that's actually not as big of a deal.
+It's a nice upgrade. And again, for $70
+difference, I'd probably rather have the
+lidars. But, personally, I think all of
+the obstacle sensing stuff, it's not as
+useful as you think. It should be like a
+last, last resort. You really should not
+be relying on the obstacle sensing to
+stop you from crashing. That should be
+like the final little, little protective
+barrier. And in fact, for me, the way
+that I fly, I almost always just turn
+off all of the obstacle sensing because
+I'm a pretty good drone pilot and I
+don't want it to be doing things that
+are out of my control. That's when I'm
+going to crash. It's so easy to crash
+when it's doing something that you're
+like, "Wait, why isn't it flying?" and
+it's actually braking or whatever. And
+along with that, the ActiveTrack works
+on both drones and it seemed to work
+pretty similarly on both. Obviously,
+you're going to get a little bit of
+performance with those lidar sensors on
+the Lito 1X, but every time I turn on
+ActiveTrack, I am the closest to
+crashing. And for me personally, I just
+cannot trust. It's too stressful for to
+use the ActiveTrack, and it doesn't work
+as good as you want. It does a pretty
+good job. It tracks, for sure, but there
+are moments where it gets sketchy, and
+if there's other people around, I just
+don't want to take any of those risks.
+Not to mention, it might be getting you,
+but it might not be getting the best
+shot. And so, I personally don't use the
+ActiveTrack, and I feel like you should
+do the same where you learn to fly the
+drone and don't just rely on the drone
+flying itself and protecting itself from
+crashing and all that stuff. I think the
+best advice I can give you with drones
+is to do exactly what I did. I got my
+first drone, and I spent hours in a
+wide-open field with no people around,
+just flying and learning how to maneuver
+the drone around. I'd learn how to
+circle perfectly. I'd learn how to fly
+really low to the grass and not crash. I
+would try all of the different moves
+over and over again until I felt really
+comfortable flying a drone, and I
+highly, highly recommend doing that.
+Even though these are entry-level, and
+you might not be into filmmaking or
+whatever, still learn to fly the drone.
+You'll have way more fun. You'll get way
+better shots, and you'll crash it less.
+Now, doing the tracking for the framing,
+that's actually useful. There's a lot of
+drone moves that are very tricky. You
+have to do a whole bunch of things, fly
+up to the side, and be gimbaled down.
+It's really hard to get those perfect.
+Now, I've done this a long time, so I'm
+pretty good at it, but still, there's
+some movements, for example, when I was
+on the bridge, and then I had the drone
+low, and then I want to fly up and away.
+That's a really hard movement to go
+using the gimbal tilt. I was so close to
+get that perfect, and so I just use the
+tracking I select me as the subject and
+then I just fly up and it does a great
+job of keeping me in the frame. So for
+me personally this is an easy choice. I
+go light 01 X every single time like $70
+if you can afford to buy a $300 drone
+you can probably afford to buy the $379
+drone and you're just getting so much
+bang for your buck. Light 01 X for me
+all day long but do you get the light 01
+X or the Mini 5 Pro?
+This decision is a lot harder because
+the Mini 5 Pro is almost double the
+price of the light 01 X and you're
+getting a lot of the same features. I
+think it really depends on what you're
+going to be using the drone for. If you
+just want like a hobbyist like capture
+some of your vacations kind of drone
+this guy is incredible. If you're a bit
+more like I'm an actual filmmaker and I
+do need some drone shots for my client
+videos and stuff like that then I would
+go for the Mini 5 Pro or even higher if
+you can afford it or don't mind the size
+and weight but both of these are
+incredible choices especially for the
+price. You might not realize how good
+how affordable this price point is yeah
+DJI just keeps making incredible drones.
+I was so impressed with how well these
+guys fly. Let me know guys which drone
+are you most interested in right now?
+What drone do you think you're going to
+get? All right, I'll see you guys later.
+Bye.

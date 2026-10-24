@@ -1,0 +1,14 @@
+UP主：OpenAI
+标题：How Oracle Uses Codex to Help Business Users Get Answers
+链接：https://www.youtube.com/watch?v=Ju-JyxDgV7g
+
+If you asked me a year ago that you can actually describe an outcome to Codex
+and it would be accomplished that would be inconceivable.
+In OAL Oracle Applications Lab we you can think of us as part of the operating system
+for the company. The way we answer questions in the past is via the use of reports. So
+it's a laborious process to create a report to answer a question. Now we allow business
+users to just describe an outcome and then it's really up to Codex to plan
+and to rationalize what MCP service to call. They would gather the information and then
+be able to then present the result that is being requested. It could be in the form of a analysis,
+a report or even an application. That is a major shift. I would even call it business
+transformation that would allow our business users to be able to make decisions a lot quicker.

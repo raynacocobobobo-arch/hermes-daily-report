@@ -1,0 +1,448 @@
+UP主：AI Engineer
+标题：Deploying AI Inside a Bank Is Not an Engineering Problem — Paden Gayle, Applied AI Engineers
+链接：https://www.youtube.com/watch?v=3ZlQk4-knWM
+
+Hello and welcome. Today we will be
+talking about deploying AI inside of a
+bank and how it is not an engineering
+problem. Before we get into that, I want
+to introduce myself. My name is Payeyton
+Gail. I worked across many different
+fields. So I started off at consulting
+at Accenture. Before moving over to
+Bloomberg as a software engineer where I
+worked on a trade infrastructure team
+and a data platform team. Then
+afterwards I would be at Google working
+on security and deployment. And right
+now I am a founding FTE at a startup and
+writing the book on for deploy
+engineering with O'Reilly.
+In this example, the system reviews
+client documents and drafts exceptions
+for an analyst. The demo shows the
+intended workflow and everybody can see
+why it would be useful. Then security
+asks, okay, which environment will host
+it? The data owners ask who agreed to
+this use of documents and someone from
+risk asked who will review a wrong
+exception before it reaches the next
+system. Those are reasonable questions,
+right? Each question can change what we
+are allowed to build. The team has
+already invested a design while several
+people responsible for that design have
+never seen it. So in this case, the demo
+worked. The model was fine. However, it
+still did not ship. I want to now show
+you how to uncover those decisions in
+week one so you can design a system with
+a credible route into production.
+These four labels represent decisions
+your deployments depend on. For each
+one, I want a person who can explain the
+decision, the evidence they need, and
+the next step. So, let's start with
+data. Data, who owns the source, who can
+grant access, who can approve using this
+in the workflow. Those responsibilities
+may belong to different people, but
+being able to query a data set does not
+settle every question about how the
+application may use it. For the model
+risk, find a person who can tell you
+which review applies to the intended
+use. Ask what a previous submission
+looked like. Learn who will own the
+system after launch and what evidence
+that owner will need to maintain it. For
+third party risk, draw the actual
+dependency chain. Include the model
+provider, the host arrangements, and
+your role in the operating service. Find
+out which relationships have already
+been reviewed and which proposed changes
+require another decision. For audit, ask
+someone, right?
+For audit, ask what someone would need
+to reconstruct a consequential action.
+Which input was used? Which
+configuration produced the output? What
+did the reviewer see? And who approved
+the action? Those are the questions that
+affect the records you need to capture
+from from the beginning. Now imagine
+getting those answers after you built
+the whole entire system, a deployment
+boundary, a data path or action that may
+have to change. The useful move is to
+bring these people in and bring them
+into the design early. Their
+responsibilities help us identify the
+system we can actually operate.
+And here discovery is the engineering.
+So now we want to talk about what
+discovery is and who we need to really
+find out to understand what exactly we
+need to build.
+So you want to think every data set has
+an owner. The work I did at Bloomberg on
+the data platform team made this
+concrete for me. So building
+infrastructure for for an LLM meant
+understanding which data sets could be
+used and who could approve that use. The
+idea we want to get across is that every
+data set has an owner. My work at
+Bloomberg on the data platform team made
+this concrete for me. Building an
+infrastructure for an LLM meant
+understanding which data sets can be
+used and who could approve that use.
+Carry that into each bank deployment.
+Honestly, any deployment. So before
+designing retrieval, find the person
+accountable for each source. Confirm the
+allowed use and the environment where
+the processing can actually start to
+happen. If those answers change, your
+design changes with them. Imagine the
+key on this slide stands for a real
+permission with a real owner. We should
+be able to name that owner to know where
+exactly this key needs to come from.
+When starting to scope out an
+architecture, a lot of the questions you
+may have can be answered by looking at
+the or chart. Read the top row first.
+Documents go into the model and an
+analyst reviews the output. You can
+probably sketch that system in a few
+minutes. Now read the row underneath it.
+The documents have a data owner. The
+model service needs a platform owner.
+The analyst workflow needs someone who
+can confirm the relevant risk
+requirements. And the last name still
+has a question mark. That question mark
+is a dependency. We have designed a
+workflow without finding the person who
+can tell us whether its intended use is
+acceptable and what evidence will be
+required. So I would walk through this
+diagram with a sponsor or someone you
+trust and figure out, okay, who owns the
+documents? Have they heard about this
+use? Who can help us reach the
+appropriate reviewer? Then I would
+confirm the answers directly with those
+people. The real map will have more
+relationships than this. A technical
+component may depend on several
+approvals. Some decisions span the
+entire system. The point is to make
+those dependencies visible while the
+design is still easy to change. An
+unnamed owner becomes a specific task
+with a person responsible for resolving
+it. That is how discovery starts turning
+uncertainty into an implementation plan.
+And given that you may start to ask
+yourself, okay, Peyton, what sort of
+question should I be asking? So here are
+some of the questions I would bring to a
+discovery call. Where does the data live
+and who can approve reading it? Who has
+stopped it in a similar project before
+and why? Which existing controls could
+cover this workflow and who owns them?
+Where will this production run and who
+are the administrators for that
+environment? Who signs the relevant risk
+review and what have they signed before?
+What obligation is the sponsor
+personally worried about and who can
+explain it? Notice what I want to leave
+with. It's either names, decisions, or
+next conversations. If someone says
+security will be fine, ask will actually
+review the design and when you can meet
+them. Then close the loop. Send each
+owner a short description of the
+proposed use and confirm what they need
+from you. By Friday, the people whose
+decisions the deployment depends on
+should know the project exists. That
+gives scoping a much firmer starting
+point. And once all that is done and we
+know who owns the decisions, I can scope
+the work. When the customer cannot write
+or give out the spec, I rely on these
+three things. Shadow, draft, and shrink.
+For example, at Bloomberg, I worked on a
+system that handled cash flows. That
+work had to reconcile. That gave me a
+concrete place to start. So, it started
+with following. For example, at
+Bloomberg, I worked on a system that
+handled cash flows. The work had to
+reconcile and that gave me a concrete
+place to start. Follow the flow and the
+people responsible for it. I use that
+approach when a sponsor wants AI for
+onboarding. Sit with an analyst, watch
+which systems they open, where they make
+a judgment, and when they ask for
+permission, ask what happens when a
+document is missing. Write down the
+actual sequence. That is the beginning
+of your specification. Now, imagine we
+are building the document exception
+assistant. This is a hypothetical
+example, but I would still put these
+three lines in front of the sponsor.
+One, review the documents. Two, draft
+the exceptions. And three, analyst
+submits. Then I would make each line
+specific. Which documents can the
+analyst access? Is it access approved
+for this processing? What should the
+model produce? And that'll be a
+highlighted passage, a draft form or
+both. And who checks the draft? And also
+who submits it? For first version,
+suppose the output is a highlighted
+exception and a draft form. The analyst
+checks the source, edits the form and
+submits. That is the boundary someone
+can correct. I would also propose a
+success criteria. So either less review
+time with no increases and
+misconceptions. We still need to agree
+on how to measure that against the
+current workflow because that again
+right is the whole point. It is a
+proposal until we have an agreement.
+Take the draft to the sponsor and the
+control owners. They can cross out a
+document type. They can change the
+reviewer or they could just, you know,
+flat out reject the output. Each
+correction gives a decision we can build
+around.
+So once the workflow is complete, scope
+becomes a series of approval questions.
+So now let's grow our hypothetical
+system one step at a time. First, it
+summarizes a document that the analyst
+already has. We will still confirm
+whether that existing access covers its
+use. Next, it reads from a second
+system. Now, there's another data path
+and somebody needs to approve it. Next,
+after that, it drafts a response that a
+customer will see. Who checks the
+content and which will review the
+applies that we can use. Finally, it
+sends a response automatically. Who owns
+that action? What happens if it sends
+something wrong? And how do we stop it
+and recover it? Those are the four
+different engineering scopes. The
+applicable reviews depend on the
+institution and the use case. So I would
+confirm them with people who own those
+decisions.
+Then I ask which increment creates the
+useful value today. Could I draft inside
+the analyst's current workflow to solve
+enough of the problem? If so, start
+there. Confirm that the existing control
+really fits and build the smallest
+useful version or the MVP with a
+credible path of approval.
+That brings me to autonomy. I start with
+the least authority that the problem
+solved then ask what task can be proven
+as evidence to give the system more. So
+when working on cash flows at Bloomberg
+I thought about automation a lot of the
+time. So every automated step needs a
+control and somebody owns a number. I
+carry that discipline into AI. So find
+the consequential action name its owner
+decide what happens when the system is
+wrong. So for example in a hypothetical
+exception workflow the submission is
+that action. An analyst reviewing the
+draft needs the source evidence and
+visible uncertainty to make a real
+judgment. A review button only helps if
+the person can actually check the work.
+So when thinking about autonomy, I want
+you to read the ladder from bottom up.
+Suggest means the analyst receives a
+recommendation and chooses what to do
+with it. Draft means the system prepares
+something the analyst checks and
+submits. That is a highlighted step.
+Acts with approval means a person
+authorizes each action before it
+happens. Acts means the system operates
+within limits that have already been
+approved. Each step changes the
+consequences of an error. However, it
+also changes which controls must work
+and which reviewer needs to be
+convinced. I would start at the lowest
+step that creates value. Then collect
+evidence from there. Are the reviews
+overriding the drafts? Which failures
+keep recurring? Can people recover when
+something breaks? Use those observations
+to make the next authority decision. A
+model does not become more capable by
+itself. Answer how much authority this
+particular workflow should give it.
+So now let's make that concrete with the
+same hypothetical exception assistant.
+Suppose the initial request is an agent
+that reads client documents, decides
+which ones fall outside of policy, and
+files exceptions automatically. In that
+design, the model's judgment can become
+an operational action without an analyst
+checking each case. Now keep the model
+and change the action boundary. It
+highlights a likely exception, points to
+the relevant source, and prepares a
+draft form. The analyst checks the
+evidence, corrects the form, and chooses
+whether to submit. Follow that sequence
+on the slide. Model, human, submit. I'll
+take that design to the people we found
+during discovery. Can this use the
+analyst existing workflow? Does the
+approved data access cover the
+processing? Which controls apply? And
+what evidence do the reviewers need?
+Human review does not guarantee approval
+and it does not determine a regulatory
+category on its own. We still have to
+confirm the intended use and the
+required reviews. The useful question is
+whether this drafting version solves
+enough of the problems to ship first. If
+it does, we can collect evidence about
+errors, overrides, and recovery while
+operating within that boundary. The next
+decision about authority can draw on
+what happened in real use. That makes
+the evaluation part of the operating
+plan. And that brings us to our fourth
+promise. An evaluation the risk team can
+use for evidence, which really just
+means the ones they're responsible for
+managing. At Google, the question I
+needed answered was what happens when
+the system breaks, who notices, what
+stops, who takes responsibility, how
+long will it take to bring back up. For
+an AI deployment, I want the same
+concrete account, right? The intended
+use, a threat model, the failure modes,
+and a response plan. Show me the
+controls working when the model gets
+something wrong. Name the person who
+receives the alert and can stop the
+workflow. That gives a practical way to
+evaluate our example. So going back to
+our lovely example, the hypothetical
+exception assistant. If it invents an
+exception, the analyst checks the source
+passage and rejects the draft. If
+extraction produces unreadable text,
+stop and request a clean file. If it
+misses exceptions, targeted offline
+cases help expose that weakness. They do
+not detect every live miss. Keep
+affected work under manual review. For
+each failure, name the detection path,
+the fallback, and its owner. Put those
+decisions in an evidence pack. These
+five files make the review complete.
+Intended use, record users, boundaries
+and prohibited actions. Data lineage,
+records, each example source and use
+approval, failure modes, records
+detection and fallback, results by
+segment, record coverage and errors
+controls, record reviews, thresholds,
+stopping rules and owners. So with all
+of this, we generate the evidence with
+each evaluation run. alongside it
+preserve the input prompts model version
+configuration output reviewer action
+that lets us reconstruct the historical
+decision. Calling the model again later
+may produce a different answer. So we
+preserve what actually happened. A
+reviewer can then expect that supporting
+record. So now we can take a look to see
+like what exactly is being used to
+organize that result which is in the
+fourth file.
+For a hypothetical workflow, I would
+separate clean documents, scans, rare
+exceptions, and new document types.
+Measure the errors and control behaviors
+in each group, then lead with the
+weakest result. An average can hide a
+serious gap in one segment. If a group
+has a little evidence, say so and
+restrict that use until you have enough.
+This tells reviewers what the results
+support. And it also brings us back to
+our week one decisions. Now, just
+rounding everything up by Friday, I want
+five answers. Is the data owner engaged
+and aware of this project? Are the
+production environment and its
+administrators named? Can the sponsor
+describe the workflow without saying AI?
+Can the smallest useful scope fit
+existing controls confirmed with their
+owners? Do we know the risk signer and
+what happened to the person that signed
+last time? Use those answers as a
+planning heristic. Four or five yeses
+suggest a credible path to ship. Three
+means unresolved decisions need owners
+and dates. Zero to two means resolve
+this decisions before committing to
+delivery, including possibly shrinking
+scope or even redefining scope. This
+score does not predict approval, but it
+does tell us where to spend the next
+week. And here is what I would carry
+into these next conversations.
+So to wrap this up, what I want people
+to walk away with is that discovery is
+the engineering. Draft the spec, then
+shrink it. Give the system only the
+authority it needs. Build the evidence
+pack in sprint one. The demo worked. The
+model was fine. It still did not ship.
+So what do we do? We go find the people.
+Thank you for going through this
+presentation with me. My name is Peyton
+Gail. I am a founding for deployed
+engineer writing the book on FTE for
+O'Reilly. And yeah, love to talk about
+FTE and everything related to it. If
+that's of interest, you can find me on
+LinkedIn or my website painting.com has
+all of my information. Thank you again
+for watching today and yeah looking
+forward to

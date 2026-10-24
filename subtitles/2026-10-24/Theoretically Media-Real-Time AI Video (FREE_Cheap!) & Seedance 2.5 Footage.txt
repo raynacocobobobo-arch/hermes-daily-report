@@ -1,0 +1,429 @@
+UP主：Theoretically Media
+标题：Real-Time AI Video (FREE/Cheap!) & Seedance 2.5 Footage
+链接：https://www.youtube.com/watch?v=FCXz8uyPa3Y
+
+Well, things are heating up in the
+creative AI space. We've got a lot to
+cover today, including a big update in
+real-time AI video, some C dance seed
+news, a quick check-in with our friends
+over at Martini going over their new
+camera control feature, and a really
+interesting new workflow that I think
+you're going to want to check out.
+Kicking off, Deckard recently dropped
+Lucy 2.5. This is the latest rev of
+their real-time video model. This one
+edits video live at 1080p 30 frames a
+second with near zero latency. Now, as a
+quick note, this language always bothers
+me. Obviously, this isn't actually
+editing the video in the traditional
+like non-linear editing sense, but
+rather it's doing the work of like the
+effects or compositing on top of the
+video. Not to say that any of this is
+any less impressive. I just I know that
+there are a few of us out there that
+always kind of bristle when we hear
+video editing in this context. But
+again, Lucy 2.5 is pretty impressive. As
+you can like swap a character, restyle
+the scene, drop in VFX or remove objects
+all midstream driven by text prompts and
+reference images. The way this works is
+what Deckard is calling self-anchoring.
+So, the model adapts to its own
+generated output as the new reference
+point, which is how we avoid everything
+like devolving into Bobby face people or
+like insane psychedelic nightmares.
+Granted, are there sane psychedelic
+nightmares? I mean, I've never had one.
+If you have, let me know in the
+comments. In the meantime, let's go
+ahead over to Deckard where they've set
+up a playground for us to try out Lucy
+2.5. And actually, good news outside of
+the playground as well when it comes to
+pricing. So, yeah, it's always weird
+being on this camera. But as we can see,
+I am now an animated character.
+There's a couple of presets down here as
+well, like hair on fire. Let's try that.
+Yeah, hey, wow. I did need a haircut
+anyways, but now like we're still flame
+thrower girl.
+You can reference
+other things. That's actually the thing
+that interests me the most. Let's toss
+in Renfield here and say
+change the man to the attached reference
+character. Let's see how this ends up
+looking.
+Um
+So, is that fire? Yeah, there is. So,
+yeah, there I am. Now, I'm Renfield.
+Um
+Pretty good. There's a little bit of
+blurring down here. What is Oh, you know
+what that might be? That might be
+because of the microphone, I wonder.
+Um Yeah, it's always interesting seeing
+uh how these characters react. He's a
+little
+like I don't know.
+The
+I got to work on how you act in AI
+restylizations. So, currently the
+easiest way to access Lucy 2.5 is via
+this playground. Although it is again
+available via API. I did not see an app
+version of this yet. That was the thing
+that was kind of showcased in the demo
+with this guy walking around with his
+phone and you know, editing things on
+the fly. But in good news, although you
+know, the app version doesn't exist, it
+looks like you might actually be able to
+build one since the API cost for this at
+least at 720 uh appear to be 2 cents a
+second. So, I mean, that's pretty great.
+Considering that generation costs for
+everything have been skyrocketing. To be
+honest, you know, costs for everything
+have been skyrocketing. Uh 2 cents a
+second, that is refreshing news. So,
+I'll definitely be keeping an eye on
+this one. I do think that one like
+potential use case for Lucy 2.5 is to
+treat it like live previews where you
+can you know, shoot something on your
+phone and then you know, take it through
+a video-to-video model, say like
+obviously SeaDance 2.0 or 2.5 for a
+final render pass. And again,
+considering that the API is available, I
+mean, this is something that you know,
+potentially someone brave enough out
+there might be able to tackle on their
+own. I mean, I'd give it a shot, but I
+am super low on Fable 5 tokens right now
+and I have not gotten access to Kimmy K3
+yet. Moving on, we are all still on Sea
+Dance 2.5 watch. No release date as of
+yet, but samples kind of continue to
+trickle out. Here is the latest.
+I mean, overall, I think this is a
+pretty cool output. It was posted up
+over on Bilibili, so big meow to our
+viewers over there.
+Um, I mean, again, overall, I kind of
+really like this output. I dig that like
+late '70s, early '80s vibe that it has
+going on, very Blues Brothers-esque. The
+crash looks really good. Yeah, there is
+some water that sprays up there
+seemingly out of nowhere, but I yeah,
+kind of works. Um, you know, overall, I
+think it looks good. There are There is,
+of course, stuff to nitpick. I don't
+think I'm being overly critical, but
+there is like a phantom car that appears
+over here. Another point is that as
+these two cars crash, I mean, in in
+terms of like real-world physics,
+obviously, that car that was behind them
+would definitely crash into them as
+well. So, there is that as well. Again,
+a lot of this might be splitting hairs,
+but also might be the reason that it is
+delayed a bit longer. Look, if you think
+that this output looks amazing, that's
+fantastic. If you think it needed more
+work, well, again, I mean, I think
+that's what the delay is about.
+Obviously, my eyes are peeled, and I
+will let you know as soon as I hear
+anything about a release date. Worth a
+quick sidebar while we're in the Sea
+Dance section, uh, director Neill
+Blomkamp of District 9, Elysium, and
+Chappie fame, I guess. And well,
+actually, to me, the, uh, the greatest
+unmated alien movie. Well, he has
+released a short film created with C-DaS
+2.0. Uh you can watch it now. The link
+is down below. I also did want to let
+you guys know I am starting to hear a
+lot more about a C-DaS level model that
+is waiting in the wings. I mean, yes, on
+the one hand it is kind of like a
+no-brainer, but I have spoken with a few
+people who tell me that they have seen
+it. They can't really say much more than
+yes, they have seen it. It's very good
+and it should be here soon. So, yes,
+while you can file this news under
+nothingburger, I did just want to kind
+of put it out there as yeah, there's
+definitely been a lot more concern
+lately uh about ByteDance essentially
+dominating everything and probably could
+use some competition, which you know, I
+mean, it always helps with pricing.
+Speaking of ByteDance completely
+crushing it in just about every area, um
+we recently covered Seed 1.0, the audio
+generator. Uh yet, it is very good.
+Interestingly, Byte just released an
+update. It's not really an update. Like,
+this isn't a 1.1. It is still 1.0, but
+improvements have been made, including
+timing generations and the ability to
+pin dialogue to exact times. Uh you
+know, basically more control. Take a
+quick listen and actually a look as
+well.
+>> Wait a minute. Why do I have an Indian
+accent?
+>> Isn't that what you wrote in the script?
+And you're going to get hit in 3, 2, 1.
+Then Hawk shows up and says,
+>> Watch out.
+>> Gate 7 is closing. Bring it through.
+>> Copy.
+Don't look around. Just keep walking.
+>> Easy, man. We ain't missing this flight.
+>> I have to say,
+this feels way too real.
+>> It's only the beginning.
+>> Remember, kids, sound is half your
+picture. Moving on, we're going to take
+a look at an experimental video
+generation workflow that I think you're
+going to find pretty interesting. But,
+first we're going to head over to
+Martini to check out some of their
+latest features. That part of the video
+is sponsored, but as always Martini is
+super chill, which is also the best way
+to drink one. So, no hard sell here.
+Moving over to a visit with our friends
+at Martini, who were kind enough to
+sponsor today's video and at me maybe
+buy you a drink. I'll I'll tell we'll
+talk about that in a little bit. Now, if
+you've been following the channel for a
+while, you know that I've covered
+Martini a few times in the past and
+well, they have been busy at work with
+some new features for us. But the big
+recent one is camera motion and this one
+kind of builds off of the step into set
+feature. Uh camera motion allows you to
+literally control your camera movements
+in an image to video generation. So, the
+way this works is pretty neat. Uh we
+have this image of flamethrower girl
+here standing in front of the meta
+building.
+Um we use this in a thumbnail uh a few
+videos back. Um come up to your three
+dots up here and then um we want to step
+into set and then camera motion. From
+there it kind of opens up into like a
+Gaussian splat sort of thing. Um you'll
+notice that you can change your uh focal
+length up here, your lens length rather.
+Um and then we have its timeline down
+here. So, if we if we if we scrub down
+the timeline a little bit, you can add a
+keyframe in. So, um let's go ahead and
+add a key Well, okay, hang on. Let's
+see. Let's move her around uh or move
+the camera around. So, WASD keys move
+the camera around and then your mouse um
+you know, just kind of places where you
+want the camera. Um from here we just
+add a keyframe in and now you'll see the
+the keyframe has appeared. We can
+actually slide the keyframe down if we
+want to. Um
+if you grab a hold of it uh those little
+arrows right there. Um and then we have
+a uh like motion intensity, some options
+on that. I just generally leave it on
+this one. Um but if we scroll back to
+the beginning, you'll see up we're at
+the end. Um if you scroll back to the
+beginning, you'll see now we have our
+movement applied. Uh and you can add
+multiple keyframes in, too. So, if you
+wanted to um say get really wacky with
+it, uh you can. So, um add another
+keyframe in a really short This is going
+to be a bit of a mess, but uh we'll see.
+So, um as you can see and then should
+snap over that way. So, yeah,
+obviously, you know, you just control
+the camera.
+When you're happy with what you got, you
+just hit save camera move and then that
+will repopulate over here in which we
+have our motion control or motion camera
+over here along with our start frame
+and then ingredients essentially, you
+know, elements
+audio as well. You can throw in like a
+seed 1.0 audio file if you want to. And
+then prompt box down here. Obviously,
+this is generating in C and S 2.0. So,
+this is just kind of a silly test that I
+ended up putting together with that with
+camera movement that makes no sense and
+a prompt that just says, "She's
+laughing."
+>> [laughter]
+>> We're moving.
+>> What I like about this new feature is
+there's just a lot of different ways to
+approach it. For example, taking our
+crew cabin quarters from a spaceship. I
+think we've used this one before and we
+can add in our crew member as an element
+and then just, you know, have her walk
+in the room and sit down on the bed.
+Now, is this the greatest of camera
+moves for this particular shot? Not
+really, but it just again, it just sort
+of opens up a door
+to create a workflow in which you are
+actually plotting out your camera move
+before your actors even step on the set
+your virtual actors and your virtual
+set. And what's cool is that Martini's
+not even done cooking on this one yet.
+There's an upcoming ability to be able
+to use your phone as a motion controller
+as well. So, that's pretty awesome. The
+other and I'll admit kind of like not
+necessarily mind-blowing game-changing
+feature recently introduced, but also
+super necessary and I think an extremely
+helpful quality of life feature
+and again, particularly since Martini is
+canvas based is that they've introduced
+the the idea of a library. And look, I
+know it probably does not seem like that
+big a deal and I'm actually just getting
+started with putting stuff together
+here, but um, know, obviously, we can
+put together a library for flamethrower
+girl. And that means that any canvas
+that I later visit or any other project
+that I'm in in Martini, I can have
+access to all of my flamethrower girl
+media. Um, so, you know, and obviously
+you can build that out for characters or
+locations or what whatever else you
+need. Uh, the other kind of cool part,
+if you're into the whole MCP thing, uh,
+you can just pop into something like
+Claude and say something like, uh, you
+know, hop into my library and place the
+image of flamethrower girl with her
+flamethrower on the canvas of a new
+project. Oh, look, it's another Claude
+update. It was shocking. And now my
+little minion has done its job. Uh, you
+know, I know this seems pretty stupid
+right now, but I think that when you
+start getting like building up a pretty
+substantial library, this could come in
+very handy. And the Martini team is not
+even done. They're still shaking or
+stirring. Uh, so, if you want to check
+them out, they have been kind enough to
+offer you guys, uh, viewers of this
+channel 50% off your first month of
+subscription. So, just hit the link
+below and enjoy your Martini. Moving on,
+I ran across a pretty new interesting
+technique from Oak. Essentially, the
+idea here is to utilize depth maps as
+your storyboard uh, layouts uh, instead
+of like traditional like, you know,
+storyboard traditional uh, generated uh,
+storyboard frames. So, the idea here is
+that again, uh, you know, we have a nine
+panel grid here uh, that takes the place
+of depth maps and that's referencing
+your characters and I guess just one
+image that kind of defines the look. I I
+think this works pretty well. Uh, it
+definitely retains that kind of like 80s
+like late 80s like dark fantasy kind of
+vibe to it. Very like Henson-esque dark
+crystally, uh, but also by way of um,
+like Drizzt, I want to say. Uh, dark elf
+sneaky archer kind of thing. Yeah, this
+is very cool. Now, I think it is
+important to note that these are not
+actual depth maps. These are well, GPT
+images idea of depth maps. So, much like
+we've seen when we give like Nano Banana
+or image one like, you know, make me a,
+you know, Blender UI. It's kind of
+there, but it's kind of not. So, these
+are not really truly depth maps.
+So, it is hard to say if how much effect
+this has. So, I was curious to see how
+this would perform with an actual depth
+map. And then additionally, I
+remembered, oh yeah, I built a tool for
+that. Yeah, a few videos back I made
+theoretically pose V4
+and release that link to that will be
+down below. Actually, as I was going
+through this one I for V5 one of the
+things I need to do is just be able to
+put in an a still image and get a depth
+map from that. So, regardless, taking
+this and then utilizing it essentially
+with the same prompt and same references
+flamethrower girl and the location
+itself and then just saying to you
+reference video one as essentially the
+the depth reference. We ended up I mean
+I don't know what I was thinking, but
+essentially it was it kind of looks
+exactly the same. It looks exactly the
+same until you compare them back to
+back. I'll fully admit it is definitely
+very subtle, but I mean it's there. The
+characters in the foreground look much
+more separated from the background and
+you know, the again the overall color
+palette has changed I think to its
+benefit. Now, I did want to continue on
+and experiment around more with this,
+but C-Dance has been acting a little
+funky lately.
+Mostly likely due to the imminent
+release or testing or GPU allocation to
+C-Dance 2.5. So, yeah, I'm I'm going to
+bench this experiment for 2.5, but I
+would say for sure,
+I mean give the whole depth map thing a
+shot. If you want the link to the pose
+control thing is down below along with
+the whole video that explains it. Final
+admin notes, yes, I am aware I do need a
+haircut. I think this is going to be a
+pretty busy week, so I do not think that
+I'm going to have time to go out and get
+one. Mostly what I'm trying to say is I
+will see you again very soon. As always,
+I thank you for watching. My name is
+Tim.

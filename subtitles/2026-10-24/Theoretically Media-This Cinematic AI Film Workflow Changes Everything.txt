@@ -1,0 +1,544 @@
+UP主：Theoretically Media
+标题：This Cinematic AI Film Workflow Changes Everything
+链接：https://www.youtube.com/watch?v=WKO-YgMQhLI
+
+So, the other day I released The Bridge,
+an AI short film that, oddly, I
+originally released back in 2025.
+[snorts] Yeah, I basically went maximum
+Lucas and remade the whole thing using
+the latest tools, including letting
+Astra or GPT6 handle a ton of it. And
+the wild thing is like I made the whole
+thing in about a day. So today, I
+thought it would be interesting to show
+you not only how this project came
+together and share a few moments from
+this project that kind of had my jaw on
+the floor. All right, get your popcorn
+ready cuz this one is wild.
+Kicking off a few days ago, I released
+The Bridge. Well, The Bridge 2.0 really,
+as this is a remake of one of my first
+AI films. If you somehow stumbled in
+here and haven't watched either of them,
+they are linked down below. But uh here
+let's take a quick look at just a small
+snippet from well both versions starting
+with the original
+>> whole barbarian.
+>> Do I pass or do I take your head?
+>> You may pass if you pay the toad. It is
+a mega fee.
+>> I'll give you no coin, ghoul.
+>> And now relatively that same scene uh
+only with today's tools.
+>> A little skinny [music] for a barbarian,
+aren't you?
+>> I'm strong enough to take your head,
+ghoul. Now stand [music] aside before I
+do just that.
+>> Ah, but to pass you must pay the toll.
+>> So yeah, I mean we've come a pretty long
+way in a pretty short amount of time.
+Now in general, I'm not a big fan of
+going back and tinkering with past work,
+but this did seem like a pretty
+appropriate time considering like the
+advances in technology recently. So if I
+was going to revisit something, uh, it
+might as well be now. Additionally, as a
+quick FYI, Runway were kind enough to
+sponsor this remake. We'll chat a little
+more about that when we get to the
+making of part, but first a little
+historical context. So, the original The
+Bridge was released about two years ago,
+and at the time, uh, I mean, what we're
+looking at was pretty much like
+state-of-the-art. It was, uh, utilizing
+an actually an early access version of
+V2. Uh, now V2, uh, did lack a lot of
+bells and whistles that we have grown
+very much accustomed to, including
+audio. So yeah, I mean like in order to
+get any like dialogue or lip sync, I
+basically ended up having to run it
+through uh like third party to get that.
+Interestingly also at that time I mean
+there was like no multi-referencing. Uh
+but I think this was the very beginning
+of that hack where you you take the
+first frame and then in the prompt say
+cut immediately and then prompt from
+there. So yeah, this whole version of it
+took me uh about a week of like
+basically pounding nails into the wall
+with my forehead. Uh, and I mean look,
+and not to get to like back in my day,
+but yeah, this was definitely an era
+where making an AI film was an uphill
+battle. Meanwhile, for the Bridge 2.0
+remake, well, that took about a day.
+Well, a day and a half considering like
+the back end with cleanup and whatnot,
+but still, I mean, like remarkably less
+time. And a lot of that was due to uh
+GPT6 Astra and Runway's MCP. Now, very
+briefly, if you're not aware of what an
+MCP is, it stands for model context
+protocol. And really, I mean, all you
+all you really need to know is that this
+is the thing that allows your LLM to
+drive the runway platform or or really
+whatever other platform you point it at.
+And when you combine that with Astra,
+well, things get pretty crazy. So, if
+you want to follow along at home, uh
+what I would recommend doing is
+downloading uh codec uh the desktop
+version. Uh essentially, you know,
+OpenAI's like uh Chat GBT desktop, set
+it to codeex. Uh and then, uh
+additionally, uh you're going to want to
+use Runway. So, you should have a Runway
+account. And from there, basically, I
+mean, all you're doing is just you hop
+into Codeex and say like like, "Hey, uh
+like hook up the uh the Runway MCP." And
+that's it. You're done. The other I kind
+of big part of this project was
+utilizing my theoretically studio film
+skill, which I mean I'm still constantly
+revising that thing. I will have a link
+to it and like a full tutorial in this
+week's newsletter. Uh you can sign up
+for that down below. But basically what
+this is is like a whole folder
+structure. Um what's inside of it is uh
+is essentially a claude MD file and a
+skill MD file. And then beneath that a
+number of uh subfolders for references,
+brief assets tracking. Uh and then below
+that the idea here is that uh each you
+know it handles each phase of the
+production workflow, story and style,
+cast and locations, uh shots and stills
+and then it even contains all of my
+videos. Um so the idea here is that I
+can point Claw to it, I can point Codeex
+to it, I can I can point Kimmy K3 to it,
+and all of those models will know
+exactly how my films are structured and
+how to execute them. Now, admittedly,
+this folder gets pretty out of control.
+So, uh I actually added in a new element
+this time around that we're going to go
+over that really helped me kind of like
+get my head around this whole thing. Um
+so, the next step from here was having
+Astra go through and like like literally
+watch the first version of it.
+Obviously, with all of that material, it
+was able to generate out a script and a
+shot list. Now, in the meantime, uh I
+actually popped over to MidJourney just
+to get my initial character references
+and locations. It was kind of funny when
+I was coming up with concepts for the
+ghoul or like the gatekeeper. I actually
+flashed back to why I originally used
+the death figure in the original version
+and that was because I did not have to
+lip sync him. Uh but you know, obviously
+that was not a problem this time around.
+The next step in my workflow is to take
+that character sheet and then generate a
+360 rotation of them uh utilizing
+whatever video model I'm I'm planning on
+using. In this case, of course, like CDS
+2.5 on runway. My reasoning for going
+video for these turnarounds as opposed
+to using an image editor is that and
+like to be clear, this is speculation on
+my part, but I I have the sneaky feeling
+that uh when you do a rotation like
+this, like the backside of your
+character, if it's generated by the
+video model, then the video model knows
+what the back of it looks that character
+looks like. Does that make sense? Like
+it's somewhere in its brain, that's what
+it thinks the back looks like. So you're
+going to have, you know, a better chance
+of maintaining that uh as you go through
+the image editing process. So now that
+we have our characters, we have a
+script, and we have our location back
+plates, it's time to move on to
+production. That said, circling back to
+that production folder, one thing I have
+definitely learned doing this a number
+of times now, uh, and again, the entire
+reason that I built out the whole studio
+system was that well, I mean, like while
+I am always a mess when it comes to file
+folder structure, uh, obviously it
+becomes much more organized when you
+have a big brain LLM uh, working on it,
+but you still run into this problem
+where like this folder is so dense like
+I I can't even make heads or tails of
+what I've actually made. So the solution
+this time around was to build a
+production dashboard. So this was a
+actually an absolute gamecher for me. Um
+so all this is is a very simple HTML
+file that u you know sits on my desktop
+pointed at the folder. So um you know it
+contains all of the information and then
+we have like these tabs over here like
+we have like every shot uh that I
+generated for the film here. Uh and you
+know all of these you can punch in and
+um you know uh watch them. Essentially,
+the prompt is over here. Uh, we'll talk
+about that in a little bit. Um, and
+then, uh, all of these various notes is
+here. We'll go over that as well. In
+this tab over here, we essentially have,
+you know, all of my storyboard images.
+Um, our references are contained here as
+well. Um, actually even kind of made a
+little little tribute to the to the
+original source film over here. Well, I
+never actually went into this tab. Um,
+and then a breakdown of all of the
+locations and, you know, scenes and
+sequences in the film and, you know,
+what's going on in them. So, with these
+notes down here is that one of the
+things that I ended up having it do was
+uh, in this doc section. So, this
+basically served as a little diary for
+Astra uh, just to know essentially what
+you know what we did in every session.
+So at the end at the end of it, it would
+automatically do this uh essentially
+write up uh everything that uh that we
+did in that particular like work session
+just so that uh well it had a reminder
+well not necessarily like it remembered
+but like when I forgot it could remind
+me about stuff. So from that point on I
+mean I'll say it was just kind of the
+standard production format you know
+creating images reviewing them and then
+sending them over to runway for
+generation. Although I mean I will say
+that like some some of the crazier parts
+in terms of this workflow was that I was
+using the voice mode in codec. So I was
+you doing all of this just by speaking
+and uh you know like talking
+conversationally and again I can give
+conversational directions uh just sort
+of like chatty directions because uh
+once again in that skill folder
+essentially the the system knows how I
+like to prompt. So we can essentially
+translate uh you know my verbal
+directions and then create a uh a prompt
+for me. I do have to say this whole
+workflow felt very much like stepping
+into the future. You know like you
+talking to Astra as essentially I guess
+my production manager and then uh them
+handing it off instructions to it's like
+runway acting as the creative house and
+then all of that like circling back to
+me and me reviewing the footage and
+either you know approving or nixing it.
+Now, I do want to note because we
+actually haven't even looked at the
+runway platform thus far, but uh I do
+want to say that it is very important to
+to like circle back there and keep an
+eye on what's going on and what your
+options are. As great as all of this
+agentic stuff is, uh it's it's some it's
+sometimes not that great at thinking
+ahead or even knowing that there are
+other options available to you. For
+example, over on runway, and I don't
+know how many people uh know this, but
+uh in CNS 2.5, you can actually generate
+in ProRes 42HQ,
+uh which uh if you don't know what that
+is, uh essentially, you know, different
+codec essentially, but uh sidesteps
+apparently sidesteps a lot of that like
+banding those banding issues that we've
+been seeing in CNS 2.5 because uh
+basically you're avoiding that
+compression like that MP4 compression.
+And that would have been super handy to
+know while I was working on the early
+stages of this project. Uh we're going
+to talk about that a little bit later on
+and we're going to take a look at Ruby
+uh their video to HDR model in a little
+bit. But heading back to the bridge
+again, while a lot of this felt a lot
+less uh there was a lot less friction in
+the whole process, I will say that it
+kind of feels like it runs slower, which
+is weird to say because I got, you know,
+the whole thing done in about a day and
+a half, but it feels slower. Um, I I
+think that a lot of that comes down to
+the time spent uh between Asher putting
+the prompt together, sending it over to
+Runway, bringing it back from Runway,
+and then putting it in the correct
+folder. There are going to be times when
+you're just sort of sitting around
+waiting. Now, initially, I did spend a
+bit of that time beginning to fuss
+around with seeing how Astro would do as
+an editor. And initially, I had it
+starting to place clips onto my
+timeline. Although I will say that on
+the premiere side, it did seem to just
+take far too long. Uh, and because at
+least for right now, Adobe doesn't have
+an MCP and Astra requires computer use,
+it would basically, you know, take up a
+monitor and, uh, if I were to, you know,
+move anything, it would basically get
+super mad at me and start yelling at me.
+That said, interestingly, while I was
+working on this project, Runway did
+announce Premiere Pro and After Effects
+integration. Um, so now you can generate
+with runway uh directly on the premiere
+timeline, which is pretty interesting.
+It's definitely something that I'll have
+to play around with uh a little later
+on. So I'll circle back to that. But in
+the meantime, uh Da Vinci fans, I just
+want to let you know you are represented
+in this video. So ultimately, you know,
+having experimented with Astro doing its
+own edit, um I mean, at the end of the
+day, I I'm I'm just faster. At least I'm
+faster for now. Um, so you know, once I
+had my first cut complete, and there
+were a couple of spots that I left open,
+um, well, this is where we kick things
+into overdrive. But before we jump into
+all of that, let's give Runway some
+love. And once again, they were kind
+enough to sponsor the bridge 2.0. Now,
+if you've been in the generative AI
+space for any amount of time, I mean,
+I'm sure you're aware of Runway.
+They're, you know, essentially OGs in
+the field. Not only are they home to
+well just about every model on the
+market uh including like Cance Cl uh
+Miniax uh well Nano Banana GBT Image and
+of course their own Gen 4.5. But I also
+feel that they've always served as a
+really great bridge between indie
+creative projects and full-blown
+professional projects. And a good
+example of like if you're just getting
+started, they do have like these apps
+down here that uh are, you know, broken
+out into films or shorts, marketing,
+social, educational content that really
+help you kind of like wrap your head and
+get started very quickly. But if you're
+on the other end, you've got things that
+are important to you like being able to
+generate uh in, you know, ProRes, HDR
+via Ruby, uh and the aforementioned
+Premiere Pro and After Effects
+integrations. So basically everything
+that you need end to end is available at
+runway. Plus, you know, the thing that
+I'm always keeping an eye on is what
+they're up to in the research
+department. Just the other day, they
+showcase GWM Worlds 2, Realtime
+Interactive Generated Worlds with audio.
+Uh, and I mean, this is this is pretty
+crazy. They also put out this really
+cool paper on real-time video uh that
+illustrated not only how it works and
+that part of it always like tickles my
+brain, but more so how they're
+approaching where it's going. So, look,
+no hard sale here on anything. They do
+have plans starting as low as $12 a
+month. And if you're a first-time
+subscriber, uh there is a promo code
+down below uh to sign up and get 25% off
+any Runway plan. Again, a big thanks to
+Runway for sponsoring the Bridge 2.0.
+So, moving back to the bridge. So, now
+that my, you know, my first cut was
+done, one of the things I wanted to
+experiment around with more was to
+utilize Astra for color correction. Now,
+admittedly, I am I'm not particularly
+great with color or color correction.
+Uh, but I will say that I think most
+people agree with me that the tool to
+use here is Da Vinci Resolve. Now, I can
+fumble my way through a Da Vinci edit,
+but when it comes to like the color and
+all the nodes and all of that stuff, I
+am like super lost. You know who's not
+lost? Astra. So, I had to export my XML
+files or essentially like the
+instructions for my first edit from
+Premiere and then import them into Da
+Vinci. I did try to capture footage of
+that happening. As it turns out, it just
+it actually wasn't really that
+impressive. It just kind of appears. But
+from here, I was able to just say like
+like, "Hey, man. Uh, go ahead and color
+correct this." and and it just got to
+work. Now admittedly, this is just doing
+a color grade pass. Essentially, the
+footage that Cance outputs is the Rex
+709. So, it's not like log or raw or
+anything. So, uh so this is just kind of
+like yeah, it's adjusting the colors
+that are there. We did add a uh plugin
+called Dehancer, which kind of gives
+everything sort of a film grain look.
+Now, that said, if we did want to take
+this a little bit further, uh we could
+have run this through Ruby. Ruby is
+Runway's model that will take your SDR
+clips and then uh essentially
+redistribute your brightness and color
+into an HDR container. Now, to be clear,
+because I know that somebody out there
+is doing this right now, this is not the
+same as like full log footage. Um, so
+this is essentially we're, you know,
+creating more headroom here. So, we're
+not recovering anything necessarily, but
+it does give you some more room to do,
+you know, some actual grading. Um, like
+here's some stuff. it like basically
+this is where I told it to go kind of
+ham and go kind of crazy. Um, so like
+this is taken like to an extreme, but
+you can see exactly how far you can push
+things. Closing out on the Da Vinci side
+of things, there were a couple of like
+minor edits that I ended up having it
+do. Uh, just like things like pulling a
+few frames back um, you know, adding in
+a cross dissolve, that sort of thing.
+Um, that uh, since we were here already,
+I figured uh, you know, it'd just be
+easiest to do it. Uh, and you know,
+again, what was kind of crazy is I just
+said, you know, uh, go to, uh, 01914
+and, you know, uh, trimmed that back a
+little bit. And, yeah, I mean, it it did
+it. It was pretty crazy. The other thing
+that we tackled here was the, uh, title
+treatment at the beginning as well as
+the closing title treatment. So, uh, it
+did end up using, uh, Fusion. I got to
+admit, like I mean, it's pretty pretty
+minor uh, like nodewise here. But again,
+I never go into like Fusion here like
+this like like this stuff. I I still
+don't know what this like all of these
+various nodes all connect to. I can move
+them around a lot though. That's that's
+what was fun. And then finally, I did
+have it go through and do an audio mix
+for me as well. So all of these are
+that's all the original audio over here.
+And then uh these last three down here
+are asteris mix essentially. So uh we
+have our dialogue, our music, and our
+ambient sounds uh on these three
+channels. So, uh, yeah. I mean, there
+wasn't a lot that it had to do, but, you
+know, it basically leveled and smoothed
+everything out. What is, of course, like
+super wild about all of this is that I
+did not touch the mouse once in Da
+Vinci. Now, I I'm sure that you're
+probably wondering like, well, how many
+tokens did that burn? To be honest, it
+actually wasn't that bad. Uh, I mean, I
+use about 70% of my weekly usage on
+this. Uh, and to note, I am on like the
+max spendy pants uh plan. Um, but you
+know, 30% left over. I did do a lot of
+like stupid stuff though, like I left uh
+I left it on ultra a number of times on
+accident. Um, and I probably could have
+got away with like doing it on like
+medium to low for a lot of this stuff.
+Uh, and you know, because I was under
+the thr of Agent computer use, I I had
+to do a lot of dumb stuff like I had it
+like download and install Da Vinci
+Resolve for me. I mean, that that was
+just a total waste of tokens. Yes, I
+watch a computer install a computer
+program on my computer and it was so
+much fun to watch. Speaking of which,
+you know, just just looking at these
+two, you know, versions of like
+essentially the same film uh across the
+span of 2 years, it's it's it's kind of
+mindboggling to see how quickly we've
+come in that like short amount of time.
+And given that we're on the cusp of
+essentially what I think is the next big
+phase of all of this, which is going to
+be world models and real time, you know,
+I I do think again I do highly recommend
+going and checking out that runway
+research page uh link down below. Um
+overall, I I think that it's a really
+good moment to to take a breath here and
+imagine where we're going to be 2 years
+from now. And look, I would be remiss
+because I I mean, I know that for some
+of you out there, this is super
+anxietyinducing. I mean, I just color
+corrected and and did audio mixing
+without touching my keyboard. I just
+talk to it. I mean, that's that's crazy.
+I understand that. But I think the
+important thing to remember here is that
+ultimately this is a tool that unlocks
+the ability for you to use other tools
+at the service of your creativity. So,
+if you're feeling apprehensive about all
+of this stuff, well, I mean, engage with
+it. Learn what it can do. Learn what it
+can't do. Learn what it can do for you.
+And explore the possibilities because at
+the I mean, at the end of the day, there
+are no rules and there never were. In
+the meantime, well, I guess we just
+start the clock for 2 years from now
+when I start making the bridge 3.0. As
+always, I thank you for watching. My
+name is Tim.

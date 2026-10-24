@@ -1,0 +1,216 @@
+UP主：The AI Advantage
+标题：My Honest Take on Muse, Grok Bot, Dots & Duet
+链接：https://www.youtube.com/watch?v=Bd8-geZPwI4
+
+It has been a rather slow week when it comes to consumer AI news. Yet, I and the people around
+me feel like there's more things for ordinary people to do with AI than ever. And I guess the
+one really relevant thing that I would want to pinpoint is the new Claude Duet research preview
+that you have to sign up for on a waitlist to get access to. And it's basically the Muse, Grok Bot,
+or Dot equivalent from Anthropic. And what I want to do today is take this opportunity to share the
+top three things that I have been doing with this category of product, of these always-on agents,
+that I would recommend other people try. Immensely valuable things that are all relatively easy to
+set up and use. And they're going to pretty much work across all of these apps. And as we're at it,
+I'm also going to take the opportunity to weave in my take on which one of these you should use or
+which one is right for whom, cuz that's really the right question. They're different. Yeah,
+we should have had access to Duet. I can early access to some Anthropic models. I'll have
+to reach out to them and politely ask for more. Nevertheless, I think this is going to be a great
+video that I've been looking to make for a while. So, before we talk about the first use case,
+let's just level set and talk about this category of apps, these always-on agents. It's a new thing,
+at least when it comes to user-friendly consumer applications, that you can have an agent that is
+on 24/7, has its own computer, and proactively tells you what to do regularly. If you're new
+to this, it's basically an evolution of what happened in spring this year with Open Claw and
+then Hermes Agent, these manual agents that you set up on a dedicated computer and then they do
+these things. And they're really customizable, but also come with many headaches. I guess Hermes less
+so than Open Claw, that's why it got more popular. But now they really got productized by companies
+like Meta, OpenAI, and now even Anthropic. And I'm going to start with my by far favorite use
+case that I only started doing a few weeks ago, and that is appointment booking with me through
+my open AI dot. And I think this is the one thing that I use my dot for the most because it's just
+so good at interfacing with Slack. And here's how it works. I can basically go into any Slack chat,
+like this one with our project manager in the company, Stephanie, and I just put her in a
+chat with mini Alfredo, my dot that, you know, as of now is still only available on the Pro plan;
+but surely that is coming down soon, especially now that Do It is out. Like I'm 100%confident
+that this is going to come down to the $20 plan. It's just a question of when. And in any event, if
+you look into Slack, I can just put mini Alfredo in here and ask for some meeting times, and then
+meeting Alfredo is going to post them exactly in the format that I've told them to post these,
+and he doesn't just have access to my calendar. He also has a set of, I think it's over 20 to
+25 rules on how I prefer my meetings. Things like, if it's a meeting-free day, keep it a meeting-free
+day. If I have more than 4 hours of meetings, put a 30-minute recharge block right after. And then I
+have a tier list of meetings within the company on what is absolutely non-cancelable and potentially
+movable. It considers, honestly, more things that I could hold in my mind or write down immediately.
+All inside of this dot resulting in mini Alfredo being able to serve up appropriate meeting times
+as well as I could. And here's the cool thing, and this is a bit hidden. If you use the dots,
+you can go into your chat GPT settings, and here under personalization, there's these custom rules.
+And look, I have these two rules that say, "Hey, if other people ask for meeting times, you can
+send them out, and if other people confirm, you can put them in my calendar." Told you this is the
+main thing I use the dot for right now as I'm, you know, experimenting with all these agents,
+but this just works so well. So, my podcast booker has access to the dot, too. Instead of waiting for
+me to reply or personal assistant that might be in a different time zone and take hours, dot does it
+in a minute. Now, yes, you could technically do this with, for example, Grok bots, too, but one,
+you're going to get an inferior model with the XI models right now. And two,
+the setup of that is way more complicated. The dot is really made to be super Slack native. I
+think if you want to work with Slack a lot, it's a no-brainer. It's so good. Literally,
+look at the dot interface, Slack is one of two buttons they put in there. It's so good at that.
+So, if you needed to book appointments for you, I would highly recommend it. Okay, second use case,
+and this one is going to be in Grokbot. It's the classic daily brief. Like probably the number
+one use case of AI agents these days for common people, but a version that has been refined over
+months and connected to all the applications that matter. So, I like doing this one. So, I've had
+so many versions of this across my open claw, and then Claude co-work, I always used Teach It, where
+you just connect it to things and set it up. But, the key to making the daily brief work is really
+refining it over time and giving it feedback on what is relevant and what isn't. It takes a bit
+of time to dial it in. It's not like a set it and just works every day type of thing. I mean,
+it does work, but the level of usefulness of this daily brief increases dramatically after a week
+of you correcting it and fine-tuning it. Because right now for me, the US visa is the top priority,
+and it knows that. That's why it puts it under urgent. Oh, we finally filed, by the way,
+wish me luck. But, these daily briefs have just They've been such a blessing. Nothing
+else allowed me to disconnect from technology more than these daily briefs, because all of a sudden,
+I don't have to keep an eye on Slack and messages and WhatsApp and my three email addresses and what
+my other bots and systems are doing at all times. It all just funnels into the attention brief,
+and I have one daily one that catches me up, but also an hourly one that looks for urgent
+stuff that might need my attention, which then it notifies me and makes sure I get on something
+that might be burning. Now, this can totally be set up everywhere. You can set it up in ChatGPT
+instead of scheduled tasks, just if you go into a new chat and then go to work. And it's really
+about the connectors that you use there. For me, Grok Bot has worked really well on this because it
+has the cloud computer and the cloud computer allows me to log in to things like WhatsApp,
+where setting up a connection is not so simple. Yes, there's some third-party services where
+through a WhatsApp business account, you can kind of do the work around. But I'm just logged in onto
+WhatsApp on the web here and it kind of just uses it as if it was open on the computer. And actually
+see it right here. It's It's always open there. And this has really become the command center
+for my everyday interaction with computers and it just significantly shrunk the amount of time I'm
+spending on all of these admin tasks. I mean, it's important to keep up with all of this. This is my
+work. But again, it just shrunk the amount of time I'm spending on admin. And I'm drafting messages
+through here. One additional tip is if you want to be using, for example, your ChatGPT, you could
+use the cloud computer to log into your ChatGPT account and then whenever it writes a message,
+you can instruct it to use your ChatGPT account to write the message. Then you get the, you know,
+superior writing style, which is superior, from the OpenAI models or any other service to the
+xAI models. And you know, within that, I have the skills that make it write in my voice. So then you
+get the best of both worlds. You get a superior writing style, but also the convenience of Grok
+Bot cuz I believe that this interface, for anybody who's ready to customize things a little more,
+is probably the best fit. And that would be kind of my recommendation for Grok Bot. Like, this is
+not just a, you know, set it up in 5 minutes and have it working type of thing. If you want that,
+go to Muse. That's where you just do the quick onboarding and you have a personal assistant. But
+that type of use is really most beneficial for more personal tasks. Whereas Grok Bot is going
+to allow you to build something like an operating system for your life or your business. But it does
+take setup. Like, you have to create these bots for various purposes. Like, this bot is solely
+responsible for preparing me for my upcoming meetings. I've one that goes in everyday and looks
+at to improve all the other bots. It's just these connected systems, but it compounds really nicely
+and the setup is, you know, pretty intuitive. You don't have to be an expert in like prompting or
+these systems at all. You just kind of need to know what kind of work it could do. And hey,
+you're watching this channel, so you're already kind of hunting for those use cases. So if you're
+watching this, Grok Bot is probably a great fit as of now. And then the cool thing is always,
+and I really want to highlight this every time, is that all of this stuff is transferable,
+right? So when I say that hey, in my first use case I use my dot to book meetings and I have
+like these 25 rules, well, I can always just tell it to, you know, list all of the rules that I have
+related to meeting bookings. It's going to give me a wall of text and I could just copy paste that,
+put that into my calendar bot here in Grok Bot. Yes, it's sort of a duplicate thing. I've been
+testing both. I like the decision making and the formatting of the messages way more inside
+of the dot. That's why I use it for that, but I could easily transfer it, right? So when Grok Bot
+finally opens up as they claiming that it's going to be able to use all types of models,
+I could use the Anthropic models with my calendar bot here, then I'll probably switch it over,
+but I could just transfer it cuz it's just text, right? The context is transferable. So just know
+that a big part of setting these things up isn't going to get lost. It's not like you're going to
+be locked into Grok Bot. Just like all these bots that you see in here were just systems for my open
+claw where I created a little hand off package and I just imported them into here and voila, I have
+the exact same meeting prep or I have the exact same event scanner that I used with my open claw.
+By the way, event scanner, that's kind of a cool bonus one. Every time I travel to a new place,
+it coordinates with my calendar bot that is aware of all my different commitments and my various
+calendars and has deep context on my preferences and hobbies and interests. And then it tells me
+what kind of events are happening in the travel windows as I'm in different places because I move
+around a lot, right? So for example, right now you can see it sees that I'm in Phoenix and it tells
+me about these AI education events and workshops. Whereas on weekends it would highlight more sports
+activities like paddle games, etc. And that kind of nicely transitions to the next use case that I
+wanted to tell you about, which is really more of a workflow and just something that I found myself
+doing over and over again. This is such a big pattern that you have to know about this, and this
+pattern doesn't just come in isolation. It comes with connector recommendation. What am I talking
+about? It's research into decision. That's the pattern. You might know this and you might already
+be doing it, but it's good to talk about it and to become more conscious about it because researching
+something with the help of AI and then helping you make a informed decision with the help of AI
+is just goated. And in the research step, there's so many ways to do it, right? So, the traditional
+way inside of ChatGPT or Claude would usually be to engage the deep research feature, which
+in ChatGPT is called deep research and Claude it would be called just research. And this basically
+goes out there and gathers, I don't know, 100 to 200 different links, looks at all of them,
+and compiles a research report. It works super well and way better than the default web search
+in ChatGPT or Claude. My favorite way though, and maybe I'm biased because this is the type of stuff
+that I work with, but usually the information that I want is not accessible for a typical
+Google search. Information relating to AI that I often work with is often times on Reddit boards or
+inside of YouTube videos, Instagram posts, stuff like that. Stuff that is not searchable through
+deep research or normal search. And this is not sponsored. I just think it's awesome. I've been
+consistently recommending this since a while in many of our paid programs. The Appify connector.
+If you just look for Appify, it's this one. I see right now it's available on Claude. It's
+not available on ChatGPT from what I can see, and it is available in Grok Bot. And then they also
+have direct API access if you want to connect it to something like an open claw, which I've been
+using since the very beginning of my open claw Alfredo. That's what I named it. Editing team,
+put up a image of Alfredo sipping a whiskey or something like that. Perfect. That's my guy.
+And basically the way Appify works, it has all of these workers that are basically just scrapers. If
+you're not familiar with scraping, it's basically gathering information off the web. That's it. So,
+these different workers, they can scrape comment sections on YouTube. They can scrape Reddit posts.
+They can scrape Instagram follower names. Just all this ridiculous stuff that you would normally not
+have access to. All this data that you can then use to create very sophisticated research that is
+grounded in truths that are usually very true to the consumer. And as what I do is demystifying AI
+for consumers and showing people all these use cases that I would consider low-hanging fruit
+that are going to get you time back. Well, a lot of that stuff hides in user comments and
+user-generated content. And Apify allows you to get into that. Again, not sponsored. I actually
+saw them reach out. They wanted to sponsor the channel. But, by the way, we're not doing
+sponsorships on the channel anymore. We turned off ads. It's completely free. All we do is we produce
+our own product. And sometimes I'll point you to something if it's relevant to the video. But,
+yeah. So, let's get back to this workflow and this pattern of research into decision-making because
+for the research step, if you have this Apify connector, you're going to be able to engage these
+workers. And you know, this is not a free thing. Initially, you can start on the free plan and you
+get things done. But, very quickly you will hit the limit. I'll tell you honestly right now, look,
+for what I do in Open Law, I'm on the $500 plan and we use it every single month. But,
+also, we run an organization that focuses on AI education and AI use case research and all
+of these things. And after migrating a bunch of stuff, my Open Law still has like 70 cron jobs,
+of which I think around eight or something use Apify. Most people, even if you use this
+regularly, are going to be fine on a $20 plan. So, then once you have the connector activated,
+you can access the information on various social media channels or other nooks and crannies of the
+internet that usually would not be available. If you want to get inspired, you can kind of just go
+to actors. You can see some recent ones that I have been using. But, there's literally tens of
+thousands of them. Look at that, all actors. You can get it things like LinkedIn that usually would
+block you if you're trying to get information, Google Trends, Google Maps, how about product
+detail scraper, whatever that is. And then you produce some sort of report or analysis on
+whatever you're looking to learn about or gather information about. And as you have that then
+usually I follow up with a second prompt. This is not sophisticated prompting. It's not even like a
+preset skill I have. It's just telling it about the decision that I need to make and then asking
+for recommendations. But doing that as step number two after having it research whatever information
+might be relevant to that decision. So I'll give you the simplest example which is actually videos
+like this. Every day I use Appify scrapers to look at all of these different social media channels
+and extract what kind of new things came out or happened in AI and then I use that information
+to make a decision on what kind of video I want to make this week. By the way, I've been making
+these Friday videos for well over five years now. I'm sure there's willpower involved, but also with
+workflows like this, it makes it easier and it takes less time for me every time I do it. All
+right, so to wrap it up, if you're still looking for an answer on like which one of these tools
+to use and try these workflows in, well I think if you're just doing purely personal things and
+you're looking for the lowest lift, just set up and start using Muse. It's great and I think the
+generous free plan is the biggest perk of it. If you're looking to make your agent available inside
+of Slack or you're looking to get a specific project done and you want a partner on that
+project that is going to keep driving it forward day by day, I think Dot is your best call. It is
+a super intelligent model. Unfortunately, it's still only accessible for the pro plan which is
+$100. So that's where the new Claude and research preview enters the conversation. Now I'm going to
+kind of assume that this is going to be available for to everybody within the next week or two
+and if that's the case, from what I see right now and the state of the other apps right now,
+that would probably be my default recommendation right now cuz one, they make it a standalone app,
+which makes it really simple to use and get into, but they allow you to work on multiple things at
+the same time with a better interface than dots allow you to right now. In dot, it's still just
+one chat that keeps going, whereas in do it, you can have multiple activities running at the
+same time, multiple tasks being executed on, and that's the proactive nature that also the dot has,
+and also muse and grok bot. I mean, that's the point of these products. But then if you want
+the maximum amount of customizability across this product category without getting into using the
+terminal and opening this whole can of worms that comes with a hermes. I guess hermes is
+pretty simple by now, actually. That can of worms really something like open claw that I would not
+recommend for anybody without any technical background whatsoever. And let me tell you,
+even people with a technical background that I know have been moving from hermes or open claw
+to grok bots just cuz it's so easy to use and so easy to iterate in and start up new bots.
+And everybody looking really to build a little operating system for their small business or
+their solopreneur thing should be looking at grok bot. With Claude do it being the up and
+coming tool there cuz they have better models, but grok bot right now with all the updates that came
+out recently and now the better voice input has become a really solid product. Like they've been
+iterating on it pretty much every day over the past 2 months, if you haven't noticed,
+and it's an easy recommendation for somebody looking to invest like 10 to 15 hours into setting
+this stuff up over a week or two. And then again, if you want to switch over, it's not that hard,
+especially cuz you can kind of like look at that. It's grok bot sending me a proactive summary of
+WhatsApp messages that I should be looking at as it sees that I'm around right here. Great stuff.
+Again, the ability to not follow all of these apps and have to reply to all of these messages
+and emails every day. It's a blessing. And if you haven't gotten on this product category, I highly
+recommend it. It's a big step up from just using chat GPT, and it's getting more capable by the
+day. So I hope this was helpful. If you have any comments or anything to add, leave them in the
+comment section, and I'm very much looking forward to getting my hands on do it. I'll be making
+videos on that as soon as I do. Until then, my name is Igor, and I hope you have a wonderful day.

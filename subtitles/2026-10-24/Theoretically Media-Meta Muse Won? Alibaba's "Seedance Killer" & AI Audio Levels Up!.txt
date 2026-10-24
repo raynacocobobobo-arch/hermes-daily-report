@@ -1,0 +1,452 @@
+UP主：Theoretically Media
+标题：Meta Muse Won? Alibaba's "Seedance Killer" & AI Audio Levels Up!
+链接：https://www.youtube.com/watch?v=U4231qULtm8
+
+Well, it's been nothing short of a
+blockbuster week for AI with major
+releases and announcements from just
+about everyone, plus a slew of
+interesting stuff on the creative side,
+including a potential sea dance killer
+coming up in like the next month or so,
+more realtime video world models, uh
+some stuff on the image side, audio
+updates, and a look at what's just
+around the corner.
+Kicking off with the Battle of the
+Titans. Uh this week Meta came storming
+back or I mean were they really here to
+begin with? Regardless, Zuck and Company
+held their big Meta Connect event hyping
+up obviously Meta Muse. But before even
+that happened, the week kicked off with
+a pretty memorable day that really
+illustrated the Titanic slugfest between
+OpenAI and Anthropic with the release on
+the Anthropic side of Opus 5.5 and on
+the Open AI side with Soul and Luna 6 uh
+both dropping on the same day. Setting
+benchmark charts aside because I I mean
+honestly who believes benchmarks
+anymore, the overall vibe does seem to
+be that Anthropic is so back with Opus
+5.5 with it being able to compete on an
+intelligence level with Fable at a
+fraction of the cost and is 40% cheaper
+or at least more efficient than Opus 5.
+Also, as a pretty big win, uh 5.5 does
+seem to have removed that annoying
+personality that has plagued the Opus
+models since the demise of 4.6. Overall,
+I do tend to agree. I've been playing
+around a lot with 5.5. It's just a lot
+nicer to work with. Meanwhile, on the
+OpenAI side, Soul 6 does come in
+cheaper, actually significantly so, but
+the overall sentiment is that Soul kind
+of like taps out of projects a little
+bit quicker. Um, but it is cheap and it
+does ship. That said, uh, a lot of the
+complaints seem to be that it feels
+almost too concise, like almost to the
+point of it being a bit bland. That
+said, I don't necessarily agree with the
+flat personality aspect of it. And that
+obviously that is something that you can
+tune up via the settings, but that also
+might have something to do with the fact
+that I've been leaning a lot more on
+voice as an interface modality with chat
+and codecs. Uh, something that Anthropic
+is kind of sorely behind on.
+Interestingly, in the middle of all of
+this, OpenAI also finally connected
+voice to like mail, calendar, Slack,
+basically all of your apps, which always
+felt like a bit of an oversight to me to
+begin with, but does finally bring us
+closer to, you know, it being that AI
+assistant that is actually helpful in
+your day-to-day. I mean, at least more
+so than the new Siri. Do you guys
+remember when uh Alexa got that big
+update and all of the Alexexas were
+supposed to be smarter and then we all
+tried it and we were like, "Yeah, so
+still pretty much Alexa, though." there.
+That's kind of my mini review of the new
+Siri. So, that persistent AI assistant
+is definitely something that OpenAI is
+aiming towards which does bring us to
+our other big story of the week because
+this week Meta held Meta Connect and you
+know brought their AI assistant Muse
+really storming into the hardware game.
+There is no question that Muse has been
+a bit of a blockbuster for Meta actually
+overtaking the chatbt app in the Apple
+store and generally just kind of having
+a wider adoption amongst the normie
+crowd. But the bigger news coming out of
+Meta Connect seems to be focused on the
+hardware front with Meta unveiling well
+not only the new Meta VR glasses and
+from a form factor. I mean what this to
+me does this look like what the Apple
+Vision Pro should have been all along.
+And to top it off, this is coming in at
+the non-inssane price point of $1,299.
+There were, of course, some new Rayban
+Meta glasses as well. But the thing that
+really seems to have caught the news
+cycle was the Muse Charm, which is kind
+of like a I don't know, like an AI
+Tamagotchi like device with real-time
+voice. Uh, basically like Muse, but
+without a mobile device or a computer.
+This one apparently will have 5G
+connectivity as well. So like it's a
+it's a system that doesn't even need to
+be tethered to your phone. Now while
+Meta does seem to have won the week with
+the gwow of the uh AI Tamagotchi. Um we
+are still not done considering that
+OpenAI has dev day next week as it has
+been highly indicated that we will be
+seeing OpenAI's AON which is uh you know
+basically their answer to Meta's Muse
+and well Gro's Grockbot. There are
+definitely a lot of rumors going around
+as to what we'll see next week at dev
+day. Mostly I'm just curious to see how
+Open AAI decides to differentiate itself
+from the other systems. I'll definitely
+have coverage of DevDay, but yeah, I
+mean overall any way that you look at
+it, it's very clear that the next
+battleground for all of these companies
+is to become your new AI best friend.
+Moving on with some quick hits from our
+side of the creative AI fence. Big news
+from Alibaba. uh at their Absera
+conference uh they showcased a new video
+model that will be dropping in November.
+And I mean taking a look at it, it does
+definitely look like it's it's in around
+like Cance quality. Um not a lot of
+details about this one thus far. It does
+appear to be like the new successor to
+the WAN model uh and is likely tied to
+the launch of Quen 4. Although all we
+have to go on currently is some footage
+captured at at the event on a phone. Um
+it's, you know, we're basically looking
+at bootleg footage, but it does look
+very good. In terms of what we do know
+about this upcoming model, uh to be
+honest, it's kind of like the standard
+new video model bingo card. Alibaba
+stated that it will have longer duration
+while keeping scene, character, and
+visual consistency, better control, and
+more complete narratives, and smarter
+reasoning. No word on pricing as of yet
+and no word obviously on weights being
+open sourced. Interestingly, they did
+end the presentation with a bit of a uh
+prediction, I guess, uh that within
+three years, a native unified omnimodal
+model will emerge and experience will no
+longer be constrained by modal
+boundaries. Meaning that, you know, uh
+there won't be a seance, there won't be
+a minax H3, there won't be a uh there's
+just going to be sort of like one model,
+Quen, I'm presuming that they're
+obviously alluding to that will just do
+it all. Moving on. And well, speaking of
+new video models, looks like Clling is
+back on the menu. While I cannot confirm
+nor deny any of this, uh, Mars for Tech
+over at Dev Mode had some exclusive
+screenshots, which will include an
+updated Omni model and generations
+allowing up to 120 seconds, like 2
+minutes, uh, of video generation at 720
+and 1080. Now, I don't think that I can
+say much more about this right now other
+than um well, I mean, make sure you hit
+that subscribe button and I'll see you
+soon. In other upcoming or actually
+released quick hits uh once again via
+our friends at testing catalog, uh it
+does look like Google is staging out
+Nano Banana 2.5 Flash. It is appearing
+for some people uh over in Google Flow.
+I don't have access to it yet, but you
+know, we'll take a look at it when it
+releases. But importantly, it is not
+NanoBanana 2 Pro, nor is it Nano Banana
+3. I mean, I know, I know. Uh, like
+Google really seems to be stuck in flash
+land right now. At least that seems to
+be the feeling that I've been getting
+since Google IO. So, uh, I I am hoping
+that we see Gemini 4 drop fairly soon
+and then hopefully a flood of big
+updates after that. Moving on with a fun
+one here. Odyssey has released Agora 2,
+Advancing Multi- Aentgent World
+Simulation, and you can try this one
+right now. So, what this basically is is
+a group of AI agents that can play a
+game along with you and other human
+players uh for a total of up to 20. And
+yes, everyone is playing Diablo II. Now,
+the obvious immediate read here, of
+course, is like, well, great, it's an AI
+MPC. But you know what Odyssey is really
+aiming here for is uh this is sort of a
+sandbox environment uh where the Agora 2
+model understands the world of Diablo II
+and uh we get to learn how AI systems
+interact with one another and interact
+with us in a controlled simulation.
+Although, I'm not sure that teaching our
+behavior to an AI agent via Diablo is
+the best idea since the lessons they
+learn will be uh when humans are
+threatened, they stab things, and when
+they're feeling sad or low, they chug
+colorful drinks. Uh that said, if you've
+had a hankering recently to play Diablo
+II, and you know, you want to do so
+alongside some AI agents, the Odyssey
+link to Agora 2 is down below. Moving on
+to the real-time video and world model
+side of things. Uh, Pixverse has
+released R2. I haven't gotten too much
+time to play around with this one as of
+yet, but I mean, I've been a fan of what
+Pixver has been doing with their
+realtime models, and this one does look
+like a pretty big step up in terms of
+visual quality. But the bigger update
+here is that, you know, aside from the
+kind of like Genie 3esque control
+layout, is that you can like actively
+prompt within this generated world
+simulation, which does open up the door
+to some pretty interesting experiences
+in real-time world models, uh, such as
+the ability to chat with a character in
+that world. Alex Prompter captured a
+cool example of this. Let's take a quick
+look.
+No, I can't prove that. I can't prove it
+to myself and I've had 14 hours of
+nothing else to do.
+>> Now, I'll note that it does seem like
+Alex sped that footage up a little bit.
+Nothing on him or anything. Uh, when I
+was playing around with R2, it did feel
+a bit on like the the sluggish, loady
+side. Uh, but again, we're still pretty
+early in with this technology, but I do
+think that we're starting to get to a
+breaking point and something that
+starting to genuinely feel like it
+resembles a hollow deck, you know, minus
+the holograms, but it's also a massive
+step forward from the insane wonk that
+we got in real time uh back in January
+of this year. Um, I mean, this this one
+still brings me so much joy. Um, yeah,
+but I mean this is where things tended
+to like randomly catch on fire and
+coherence was uh like let's call it a
+suggestion, a very surreal suggestion.
+Moving on to the audio side of things,
+some really interesting stuff going on
+there. But first, a quick word from
+today's sponsor, Art List. So lately,
+while I know that everything has been
+going a little more the MCP route and
+we're all spending more time generating
+in codecs or in claude, there are still
+like platform based workflows that are
+more efficient. So today we're going to
+take a look at one of them from our
+friends at Art List who were kind enough
+to sponsor today's video. They have
+introduced Art List flows which yes is a
+note-based murder board, but the angle
+here is that this is a reusable murder
+board. The easiest way to get your head
+around this is to actually look at one
+of their templates. Uh because these are
+actually handy templates. We've all seen
+those templates like what am I going to
+use this for? Uh but these are actually
+really good. Uh generate a 3D title.
+Character sheet of course is uh
+something that is we run a lot. So
+obviously we have two nodes here. One a
+character image and the other a provided
+prompt. Uh both of which feeding into
+our output here in which you know we get
+this multiframe generation. Uh now all
+of this is of course editable and um you
+can swap out any of the models that you
+want to use. A number of them here are
+offered with uh art lists unlimited plan
+as well. Now where things get
+interesting and customizable is that
+from here we can build upon this
+template. If you just rightclick you can
+add a prompt in uh and a video generator
+for example. Um, we can just connect our
+character sheet to an input here and
+then a text prompt because one of the
+things that I've been doing with
+character sheets lately is creating 360
+video rotations of these character
+sheets uh in this case in Cance 2.5 and
+then either providing you know this
+video reference as a reference or uh
+just basically taking screenshots of it.
+Uh, and actually this multiframe
+approach to character sheets, uh, this
+might be really interesting to try out.
+But ultimately, the important part is
+that this now becomes your template.
+Well, it's my template, but you can
+steal it and and then it'll become
+yours. Um, and you can, you know, rerun
+it with different characters. Just
+simply upload a different character
+here, hit run, and the same results or
+the same workflow will then trigger. Now
+again, I know that not everyone is a fan
+of nodebased workflows. And I do want to
+point out Art List does have MCP
+connections, so you can connect Claude
+or Chat GPT to it. But I do think it's
+worth it to take a little time and
+create a flow for something that you
+constantly come back to. I mean, it can
+be a massive timesaver. I mean, at least
+it saves time in arguing with Claude
+about what you did last time. So, if you
+want to try out Art List flows, it is
+available right now over on Art List.
+The link is down below. And hey, my
+thanks to Art List for sponsoring
+today's video. Moving on to some
+interesting updates in the world of AI
+audio. Uh first off, it does look like
+we're going to be getting an update to
+Seed Audio by Dance's audio generator,
+which I looked at uh a few videos back.
+Uh found it to be very good. I mean, uh
+again, think seance but audio. Uh here,
+let's take a quick listen to 1.0.
+They'll tell you the old wards never
+fail. They told me that, too.
+Until the night the stars went hunting.
+>> You're late, boy.
+Fire's near out.
+>> Sorry. The steps are ice cleaned
+through. I
+>> Steps don't kill men. The cold does.
+Feed it. So, Seed Audio 1.5, which
+apparently was initially announced as a
+2.0 and then kicked down uh.5, it looks
+like it's going to be officially
+debuting over on Pippet, which I did not
+realize was another Bite Dance platform.
+By dance, why do you have to make things
+so confusing? I will be keeping an eye
+on this one. One of the major sticking
+points of like the seed dance video
+model is well, I mean, besides the cost
+is the fact that audio is not its strong
+point. Uh, and 1.0 uh seed 1.0 out does
+really seem to help on that front. In
+the meantime, for audio that you
+actually can use today, uh Fish Audio
+has released in preview Drama 3. Uh they
+are calling this the most controllable
+text to speech model ever. I've actually
+been a pretty big fan of the Fish model
+as it tends to do emotive readings
+really well and well, it's multilingual.
+So, uh let's take a quick listen here.
+Just turn off the lights. Stay away from
+the windows and whatever you hear out
+there, do not open that door.
+>> I mean, yeah, overall sounds pretty
+good. Uh, if you want to give this a
+run, uh, this is available actually
+right now. Uh, even on the free plan.
+So, I I don't know how many generations
+you get per free, but um, yeah, I mean,
+I I just logged in and it was here. So,
+uh, under model, just go to, uh, the
+preview for Fish Audio Drama 3 and, uh,
+prompt away. Rounding out with a musical
+project that I've been tracking for I
+guess the last two years. Man, has it
+been that long? My pal Jordan Rutis.
+Yes, that Jordan Rutus, the Virtuoso
+Dream Theater keyboardist who can play
+guitar and keyboard at the same time.
+[music]
+I mean, that's not even fair. I can't
+even wrap my head around that. Anyhow,
+he has spent the last few years working
+with the MIT Media Lab creating JamBot,
+or like I like to call it, Jordanbot,
+which is an AI improvisation tool that
+is trained off of his playing. Now,
+what's interesting about this approach
+is that this isn't like a diffusion
+model trained off of recordings of
+[music] Jordan's work. That's something
+that we would see with like a product
+like SNO, but rather this is a model
+that has been trained to think like a
+Jordan, generating out uh real-time
+music and responses based off of, I
+guess, like you know, the notes and
+phrasings that he would most likely
+choose.
+[music]
+So, while this isn't a product, it's
+kind of more of a research thing.
+Although I would love to be able to
+download Jordan bot and make it suffer
+through me playing Dance of Eternity at
+70 BPM.
+They are doing a concert over at MIT. So
+if you're in the area on October 3rd, uh
+this is this will feature Jordan uh and
+Jamot Jordanbot playing together along
+with live musicians and a full choir.
+Now, I know I'm preaching to the choir
+on this one, but what I really
+appreciate about what Jordan is doing
+here is, uh, you know, obviously not
+[music] running from the technology, but
+actually figuring out a way to
+incorporate it into performance. So, uh,
+if you want to check out the concert,
+again, it is at MIT on October 3rd. If
+you do go, just don't be the person
+screaming freeird, although I'm pretty
+sure Jordan Bot can play it. So, that's
+it for today. Uh, you know, AI fall is
+really heating up and smells like
+pumpkin spice. [music]
+As always, I thank you for watching. My
+name is

@@ -1,0 +1,46 @@
+UP主：OpenAI
+标题：How to Schedule a Weekly Metrics Report With ChatGPT Work
+链接：https://www.youtube.com/watch?v=p_slDAvPjv0
+
+[music]
+>> Every Thursday morning, ChatGPT Work has
+an exact report ready for me to review.
+It pulls in the latest product metrics,
+explains what changed from the week
+before, updates the charts, and [music]
+drafts a Slack message I share with the
+team. Hi, I'm Unji. I'm a data scientist
+at OpenAI. One of my biggest recurring
+responsibility is to deliver our weekly
+metric readout, highlighting how my
+product area is doing and what changed
+week over week. Before ChatGPT [music]
+Work, an update like this would take me
+3 to 4 hours every week. If you're a
+data scientist or just someone working
+on reports, here's how you can get
+started. [music] First, I switch to
+ChatGPT Work. You can do this on the
+desktop app or web. Next, I connect my
+reporting data in Google [music] Drive.
+I've installed the data analytics
+plugin, which helps ChatGPT create
+better data visualizations and reports.
+Then I share my KPIs, targets, and an
+example of a report I want.
+Finally, I review its first report and
+adjust [music] as needed. Once I'm happy
+with I schedule it to run every
+Thursday.
+ChatGPT Work with [music] the data
+analytics plugin handles the full weekly
+metric workflow. It pulls this week's
+KPI, [music] analyzes week-over-week
+changes, identifies the biggest drivers,
+and drafts [music] a story behind the
+metrics.
+What used to take me hours now starts
+with a complete first draft. [music] And
+because I've scheduled it as a recurring
+workflow, every Thursday morning it's
+just already waiting for me.

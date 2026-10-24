@@ -1,0 +1,412 @@
+UP主：Theoretically Media
+标题：What No One Tells You About Making a 17-Minute AI Backrooms Film
+链接：https://www.youtube.com/watch?v=OxxRcagqbHU
+
+You know, we spend a lot of time on the
+channel going over production workflows
+for my AI films, but nothing exists in a
+vacuum, and I am constantly learning
+from everyone else. So, you know, I
+mean, kind of selfishly, I've been
+playing around with the idea of having
+other AI filmmakers on the channel to
+see what I mean, I can learn and share
+that knowledge with you. In this case,
+the timing actually worked out pretty
+well considering that uh my longtime
+friend Jav Lopez decided to release a
+17-minute backrooms short film that he
+produced entirely by himself.
+Simultaneously, I actually owed a
+sponsor video to Magnific. And while I
+mean, Javi is the co-founder of
+Magnific. And look, I know from the
+outside I will 100% say yes, this does
+look a little sus, but I assure you this
+all did come together organically and it
+was my idea because again, I mean, I've
+made a pretty good amount of AI short
+films at this point, but the longest one
+I've made is about 8 minutes. So, I was
+really curious to see and learn how Javi
+handled tackling a 17-minute monster.
+But more importantly, what he learned.
+And you know, not to use the oh so
+common YouTube trope, but his biggest
+lesson learned was something that very
+much surprised me. Yes. Yes. What I
+learned shocked me. Okay. Uh get your
+hazmat suit on. We're going to go no
+clip into the back rooms.
+So just as a brief introduction, as I am
+sure that you are all aware of the name
+the back rooms, you know, particularly
+given the recent film, but not everyone
+may be up to speed on the like
+intricacies and origins of it. Uh so
+just quickly going over that the back
+rooms uh you know now despite being a
+movie well it's actually more of like a
+shared internet mythology appearing as
+one image back in 2019 that someone on
+4chan posted. It's kind of grown into a
+bit of an open- source playground for
+anyone to create in the most well-known
+backrooms project actually started here
+on YouTube in 2022 with 16-year-old Came
+Parsons creating his backroom series in
+Blender. The TLDDW here is well, I mean,
+it's endless liinal space with monsters
+in it. At the end of the day, I mean,
+that's really all you need to know.
+We'll circle back to the back rooms in a
+little bit. In the meantime, a quick
+primer on who we're talking to today.
+Interestingly, I've known Jav Lopez for
+about 4 years now. And if you've been
+around the AI space for a while, you
+probably best know Javi as one of the
+co-founders of Magnific. And that's the
+original Magnific, like the AI image
+upscaler that released in early 2023. At
+that point in time, Magnific was pretty
+much the leading creative AI image
+upscaler. Uh, this was a particularly
+fun era of AI imagery as people were
+always trying to homebrew their own
+version uh to figure out what the
+Magnific sauce was. Moving forward to a
+more modern era, as many of you know,
+uh, the company Freepick acquired
+Magnificently
+changed their name to Magnific as well.
+But the thing that I really love about
+Javi is that throughout this whole
+thing, I mean, he's basically a CEO. But
+despite that, you know, the day job and
+one that I presume uh has a lot of
+responsibilities, he would continue to
+put out his own creative work and
+experiment. Actually, that brings us to
+a good place to kick in to my interview
+with Javi. We definitely have very
+similar uh creative DNA like uh can you
+talk a little bit about that?
+>> We are coming both from from the 80s for
+sure. No.
+>> Yeah. And we can see that in uh in the
+love we have for films like Goonies,
+Back to the Future or the video games of
+the 80s and 90s.
+>> So you were very early into creating
+with AI tools like you know basically
+from the jump, right? I remember very
+well that day that my friend Alio sent
+me that astronaut riding a horse in the
+moon and I was like
+no this is not possible. This is
+incredible. So I was it was like the
+kind of death you you were waiting for
+all your life.
+>> How do you and Amelio know each other?
+Like we'll talk a little bit about that.
+>> Forever forever. uh since secondary
+school so more than 20 years a lot of
+time. Yeah. Then we launched together
+the first company at Rasmos.com.
+>> Oh okay.
+>> Yeah. Yeah. He has he has been my
+co-founder two times and when we started
+Magnificent
+and I was the other 50%. during this
+whole time when you're running original
+Magnific uh you were still putting out
+your own creative work on top of it like
+um because around that time uh the
+vacation videos were going up um and
+those those caught fire like uh can you
+talk a little bit about how how why you
+decided to do those and and and how that
+kind of blew up for you?
+>> Um so I invented a a hook. I gave all my
+vacation videos to an AI h to to do a
+auto editing and this is the result. Of
+course, it was not that. No, it was me
+doing the hallucinations and doing
+everything all the editions etc. I
+started to to to do an addition with one
+real portion of a video, then generated
+one with monsters, a strange thing
+happenings, me flying with water, then
+something real again. The hook was very
+good. The music was great and and it was
+just 30 60 seconds of something super
+strange that people were not used to.
+>> There's a little bit of a producer brain
+and a creative brain happening at the
+same time. like you are always kind of
+thinking about what's the hook of this
+video.
+>> Yes. And what kind of tech I want to to
+test for me. I think until background
+memories the the pilot episode that I
+launched recently I think until that
+moment everything I've done in terms of
+image film making etc was just
+experiments. What will happen if I try
+to do something more professional? Do we
+have already the tools to do that? And I
+think we already do
+>> the last one on the cruise ship.
+Fantastic. Yeah, I love that. I love I
+was very impressed with the producer
+decision to not just lay it out as one
+big long video, but instead kind of like
+time it out. I thought that was really
+smart.
+>> I didn't do it on purpose. I think by
+the half of the cruise, I was already
+bored. I was filming and and explaining
+that they have confined us in in the in
+the in our in our rooms because they
+were it was too early. It's better to
+start creating more lore.
+>> Mhm.
+>> And more expectation and not being very
+explicit because by the time you saw the
+zombie, everybody knows it's just a
+story. No. So, we're going to roll into
+the back rooms segment in just a moment.
+But one thing that I did want to pick up
+here, uh, talking essentially about
+Jav's producer brain that again, the
+backrooms, I mean, it's basically
+open-source IP. I do talk about that a
+lot on the channel. Um, and look, I know
+that using IP in your work is a quick
+way to get eyeballs on that work, but
+honestly, as I always warn, when you
+play with other people's toys, a lawyer
+can take those toys away. The other
+thing that we should probably circle in
+on is Magnific itself because I mean
+obviously they were kind enough to
+sponsor today's video. Now, I'm not
+going to spend a whole lot of time on
+like a holistic Magnificat walkthrough.
+Most of you are aware that Magnific uh
+is, you know, a platform where
+essentially you can use almost like
+every image model and every video model
+that you could ever want. If you need a
+model, if you need a workflow or if you
+need a template, I mean, it's probably
+here on Magnific. And overall, I mean, I
+think they serve as a great alternative
+to say like, you know, that other
+platform that I do not talk about on
+this channel. Well, I mean, I talked
+about it once, but I mean, we're not
+going to talk about them again. You know
+who I'm talking about. There's also just
+lots of little interesting corners that
+you can discover uh with Magnific as
+well. Like, they have a number of the uh
+image to 3D uh models over here, Trio,
+uh Meshi, etc. Uh so, I've been kind of
+playing around with that. So, if you
+haven't gotten your feet wet with the
+whole like Blender MCP process, this is
+a great place to start messing around
+with it. As usual, you can see that I'm
+kind of taking this a little bit too
+far. Uh, and it's definitely not perfect
+yet, but I do think that I'm getting
+someplace interesting. This was thanks
+to the tools available over on Magnific.
+Additionally, Magnific have just
+released Magnific, which is an image
+model with art direction built in. This
+is a cool system that allows you to set
+your own brand rules once uh and then
+Magnific will apply them to every image
+palette, typography, basically
+everything. So that keeps all of your
+outputs on brand. And the really smart
+thing about this is that uh Magnific has
+built this to be a living model. So
+essentially as the technology improves,
+uh we'll see it continue to do so as
+well. Uh but your brand style that stays
+the same. Well, I mean unless you want
+to change it. Magnific.
+Again, just in general, Magnific is a
+great platform to check out. Uh
+especially if you're looking for kind of
+like an all-in-one platform. The link is
+down below. Now, let's get to the back
+rooms with Javi.
+>> So, back rooms. Yeah, amazing. There
+were one image from an anonymous user in
+4chan. And the image was that super
+famous image of a room with yellow um
+wallpapers, no windows and and the
+floors then lights. And if you enter
+there uh you will find an infinite
+amount of rooms connected into a
+labyrinth and don't make any noise
+because the entities that are living
+there will chase you. No, it's it's
+incredible. and I just wanted to create
+my own my own kind of
+>> but you know obviously you have day
+duties that you have to do as well like
+you still have a job and you're trying
+to do this film as well so um how much
+juggling are you doing during
+>> really not really so I com I convinced
+to to just to be fulltime doing doing
+back room memory
+>> that's the dream
+>> and that was my job that's the dream
+that's awesome that is awesome But uh
+something that I thought that was going
+to take me one month, two months, took
+me six months.
+>> How much agentic workflow did you do uh
+with it?
+>> Okay, so that's a very good question.
+And about the agentic side,
+nothing. So a lot of people are asking
+me how are you grading your your
+prrawns? No. So every prone I have a
+kind of a structure like uh starting
+with setting where the character are
+then explaining that this handheld
+camera that was very painful that and
+then the action of what's happening and
+if there are some dialogues
+writing down the dial dialogues and
+ending with no music please and So I was
+creating them my my myself. So it was a
+very complex, painful, long process
+creating the 17 minutes. So it was like
+12 hours of generations. If I put
+together all the 15 or 30 seconds
+is 12 hours of of film and to create 17
+minutes. I saw that you used Da Vinci
+Resolve to cut everything. Um, did you
+use any post effects um to kind of
+maintain the overall like film scratchy
+vibe and uh yes like yeah
+>> a lot most of the time went into edition
+and specifically
+uh sound design inside Dainci Resol and
+you cannot use you cannot just use the
+the song that is being generated with
+your video that usually doesn't work. So
+sometime I was using that song put
+together with maybe 10 layers of other
+song that I was creating myself with
+micro or h finding in in libraries some
+libraries etc. I think son is so so
+important son is going to put you in the
+place maybe even more important than
+than the video.
+>> I they there's an old saying that sound
+is half your picture. What are what are
+some of the big lessons that you think
+that you learned solo film making this
+um that that you came out of that you
+think will apply next time around for
+episode two
+>> for the next episode I'm planning to
+create a team I plan to create a team I
+think a professional sound designer will
+be very cool h voice actors instead of
+generated voices will be super cool and
+maybe having a would color grade it too
+because I I did color I color grade it
+myself
+>> if someone is moving into doing
+something more long form now um or or
+even just a short in general uh what
+advice would you give to them
+considering that they will probably not
+have unlimited credits? You can generate
+a like a
+low
+low resolution video and if you like it
+and it has followed your prom correctly
+>> then then you can improve it. Have you
+seen this?
+>> I did. Yeah. The draft mode I think they
+call it or is that Yeah,
+>> draft mode.
+>> So that's going to to save you lot of
+money for sure. Don't do hang her
+camera.
+do cuts like everybody's doing. Yeah. I
+don't is because if you do cut maybe you
+you do five generations and then you
+will use one cut from the third
+generation, one cut from the other one
+and the third one the third cut from the
+fourth generation. But if you try to do
+what I did with the her camera,
+sometimes you need 30 sec 30 sec 30
+strike seconds that works
+and that is going to take you lot of
+tweaks in the prom and for me it was an
+average of 50 tries per 50 generations
+per not. Uh do you think your next
+episode uh next episode of the back
+rooms will it be shorter or longer than
+the first one?
+>> It was very difficult to finish this. Uh
+I was very tent tented of not finishing
+it. Maybe that will change if I work
+together with more people because I was
+alone and to be alone working on
+something for so long is not not
+it's not funny. I I prefer to work with
+people. So maybe like I already said and
+BFX and if if someone is listening to us
+right now and is came from some design
+the same BFX
+feel free to to contact me and to to
+tell me that he is or she is available
+uh and already making a list because
+some people are contacting us and I
+think that will be more more funny.
+>> So there you go. I mean I did feel a
+little bit weird about putting Jav's
+email address in the description box.
+So, uh, if you want to get his
+attention, uh, I would say either maybe
+tag him over on X or, uh, leave a
+comment down below and I'll let him
+know, uh, to, you know, swing by and
+check out the comments. But to me, the
+biggest takeaway from my chat with Javi
+was about solo film making. I mean, it
+is super impressive that he made this
+17-minute short totally on his own. Uh,
+but, you know, also it we're not all
+experts in everything, and frankly, I
+mean, it is just kind of more fun to
+create with other people. So again, I
+mean, I think the big lesson from this
+particular episode, including don't do
+handheld, is uh, you know, form a band,
+I guess. Uh, just just don't let anyone
+have lead singer syndrome, please.
+Rounding out, you know, I hope this was
+insightful. Uh, definitely let me know
+in the comments if you like this format
+and, you know, I'll start reaching out
+to some others as well. Um, in the
+meantime, my thanks to Magnific for
+sponsoring today's video. And as always,
+I thank you for watching. My name is
+Tim.

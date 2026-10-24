@@ -1,0 +1,707 @@
+UP主：Corridor Crew
+标题：VFX Artists React to Bad & Great CGi 244 Ft. John Knoll
+链接：https://www.youtube.com/watch?v=lvBbHzou3GU
+
+Hey everybody, welcome back to another
+incredible episode of Visual Effects RS
+React. This episode is very special
+because not only are we in the Rebel
+hideout at ILM, we are joined by none
+other than John Null himself.
+>> Hi, my name is John Null. I'm a resident
+troublemaker here at Industrial Light
+and Magic. Been at the company now a
+little over 40 years. Sometimes
+supervise shows, you know, facilitate
+getting them done smoothly
+>> and also, you know, pioneer a lot of new
+practices along the way.
+>> I'm one of the original developers of
+Adobe Photoshop.
+>> I like to tinker. It's good to have
+hobbies.
+[screaming]
+>> Most of my formative years were kind of
+in the late 60s and early '7s. This was
+before the internet and before video
+games. When Star Wars came out, that was
+a real revolution. Very ambitious sci-fi
+film making was being done that uh that
+really raised the bar and a lot of new
+things were happening. It seemed like
+anything was possible. Did you recognize
+at the time that when Star Wars came
+out, this was going to be like a
+groundbreaking technical achievement?
+>> It appeared to be that way just by
+watching it, you know, that with Star
+Wars there was an authenticity and
+realism, that whole kind of used future
+universe there and the polish of the the
+visual effects. It took less suspension
+of disbelief and it felt like, boy, if
+they can do that, just think of what
+else can be done.
+>> Yeah. And I got really fascinated uh by
+visual effects. Now, there weren't a
+load of sources of information about
+that stuff. You couldn't Google it. Um
+and
+>> you couldn't find the YouTube tutorials
+back in the day?
+>> No. Best source of that were magazines.
+American cinematographer and cinetastic
+and then uh later cinnacts.
+>> Love Cin effects. I started hearing
+about industrial light and magic and
+making of Star Wars double issue that
+had interviews with John Dystra and
+Dennis Mirren and Richard Edund and a
+lot of the principles of ILM on that
+show and they were pretty substantial
+in-depth interviews. In May of 1978, I
+had my first visit to California. My dad
+had a professional conference at the
+Anaheim Convention Center. Here's what
+my dad was thinking was that uh hey the
+the conference that I'm going to is
+right next to Disneyland and Uncle Bob
+is going to take us to Disneyland during
+while dad's attending his uh his
+conference
+>> but you had other plans
+>> and I had I had other [laughter] plans.
+So I just you know read this in a
+fantastic and we got checked into the
+hotel and you know this is in the days
+of printed phone books and there was a
+phone book in the in the hotel room. I'm
+just going to look and see if uh if
+there's a listing for Industrial Light
+Magic. Wow.
+>> Oh, and they're wise. Yeah. Like, there
+it is. There's the number.
+>> What do I do with this power?
+>> Okay, I'm just going to do it. And I
+just uhing picked up the phone and I
+called the number and Grant Mune, who
+was the head of the model shop. And at
+this point, I I spent a lot of time
+building models and I had gotten
+reasonably good at it. And talked to
+Grant and I told him I was a model maker
+and I was interested in working in film.
+He said, "Well, why don't you come on
+down and we'll show you around."
+>> Oh, wow.
+>> And so, [laughter] okay. So that's what
+I did instead of Disneyland and I have
+no regrets about that. I
+>> imagine. Yeah. Yeah.
+>> I think the last time I worked on
+something where nobody seemed
+particularly concerned about uh security
+was actually the first Pirates of the
+Caribbean film.
+>> Really?
+>> Pirates of the Caribbean.
+>> Yeah, it's I think there were just low
+expectations. [laughter] You know,
+>> it's based on a ride. Everybody's seen
+the ride.
+>> Honestly, I had some um concerns myself
+when I was first exposed to even the
+idea. What really sealed it for me was a
+few days later I met with Gore Verbinsky
+who's the director. Super smart guy.
+He's got really good ideas. You know 10
+minutes into that I felt like all right
+I'll follow him anywhere. So we built
+these big model boats and we built the
+tank in the back and you know where we
+used to be in San Rafale we had a back
+lot that we would shoot those things on.
+And uh we did this nighttime shoot of
+the interceptor in a storm. So, we had
+wave generators and uh these big Ritter
+fans to to blow wind and spray and
+ramped up the wave machines and the the
+uh the lightning flashes and the
+[laughter]
+this was visible for miles, you know,
+that that uh we had this big bright
+balloon and we were right next to a big
+residential area.
+>> An uptick in UFO sightings.
+>> A whole bunch of people came from the
+the local neighborhood of LA. What's
+going on over there? and [laughter]
+and we didn't have to hide it. I was
+trying to light this in the same way
+that uh Darius Wolski, who was the DP on
+the show, and he tended to use these u
+these big HMI balloons. Um had
+>> you get like the big diffuse sort of
+lighting?
+>> Yeah. So, I was trying to light it in
+the same way that he was lighting the
+the live action portion of it.
+>> Can you tell me more about like what
+sort of compositing work would be done
+to a shot like this? You capture it in
+camera. You have the whole miniature
+ship, which is miniature but huge and a
+big wave tank. 24 feet long.
+>> Wow.
+>> You know, go as big as you can really
+afford to to go because water doesn't
+scale real well. So, I I went as big as
+I could to try and get the water to work
+as well as I could make it work. But if
+you've seen those films, plenty visible
+in Tora to Tora and you know a lot of
+those uh Enemy Below and and other films
+that had ships in the the tank is that
+they can't carry depth of field on
+everything and so that the water goes
+out of focus in the foreground and then
+there's only so much you can do to
+control droplet size on splashes and
+that those tend to be the giveaways. And
+the lovely thing about being able to
+work with digital compositing tools is
+if there's droplets that are the wrong
+scale, you can paint them out. You can
+comp uh full scale water splashes over
+the top of that. So, you can kind of
+patch these things and hide the things
+that were always the giveaways on the
+old stuff that was had to be in camera.
+>> Okay, I did it. I got the only pair of
+shoes that's going to carry me through
+this Los Angeles winter. Oh, thank
+goodness. This video is sponsored by
+Bessie.
+Now, we wait. I don't know if you guys
+are aware of the storm called El Nino
+that's going to be hitting Los Angeles,
+but it's going to be a lot of wind and a
+lot of rain. Perfect time for the
+Chelsea boot from Bessie. So, obviously,
+the main reason I need this Chelsea boot
+is because it's 100% waterproof. I never
+have to take them off while this storm
+is hitting us. Well, and since I'll
+never be taking these shoes off anyways,
+the second best reason, they go with
+almost everything I wear. I can dress
+them up or dress them down. [music] And
+I know what you're thinking, Jordan.
+Your feet are going to smell. You're
+never taking the shoes off. Psyche.
+[music] They're breathable. They're made
+with this Dotex material that is
+patented just by Vessie. They're
+waterproof. Nothing's going to get on
+them. My feet aren't going to smell.
+They're breathable. Don't worry. Another
+thing I love about these shoes is they
+have these little loops. You can just
+slip them right on your feet. So, when
+they get here, I'm just going to
+So, while [music] I wait for El Nino and
+my weekend Chelsea boot from Vessie, I
+might as well let you know that you can
+get 50% off your first pair of Vessies
+if you just go to vessie.com/cord
+crew. There's free shipping. There's a
+one-year warranty if you want to wear it
+in the winter and the summer. So, just
+be prepared for any weather condition
+you may have. Oh, and uh say yes to
+Bessie.
+So, more recently, you've been bringing
+back a lot of those sort of practical
+miniature effects. You built your own
+motion control rig to be able to film
+this stuff. And, you know, most recently
+with Mandalorian and Grou, uh, there's a
+whole bunch of practical effects going
+on. Can you speak to a little bit more
+about your approach to, you know, like a
+movie that came out in 2026 compared to
+the technology that was being used in it
+30 years ago, 40 years ago? Well, John
+has a a a deep love and affection for a
+lot of the old school techniques. And
+part of the appeal of the original
+trilogy was, you know, as slick as those
+productions were for the time, you know,
+you can tell when you're looking at a
+puppet. And that's part of the charm of
+it, person makeup or that that's done
+with a miniature or stop motion. And he
+really wanted to kind of bring some of
+that back into this. You know, we did
+all of the things. We we had actors in
+prosthetic makeup. We had puppeted
+characters. We had stop motion and we
+had miniatures.
+>> For like a sequence like this where
+we're seeing, you know, these ships
+flying through the clouds and through
+the air, it's easy to assume, especially
+today, that like this is just fully CG.
+Yeah.
+>> Is there ever a reason to not do this
+fully CG?
+>> Well, let me start with how the
+miniature Razor Crest thing happened on
+season 1.
+>> Absolutely. So, they were working on,
+you know, one of the first shots of the
+Razor Crest, uh, just flying through
+space, heading to a planet. They were
+getting some push back from Favro that,
+uh, is it too reflective? Is it not
+reflective enough? Does it need more
+bling? Uh, bare metal finishes on
+spacecraft are harder than you might
+think. You'd think that, oh, well, you
+know, you just, it's a reflective thing.
+There's very little diffuse, and, you
+know, sure,
+>> you just apply a reflective shader and
+there you go. But really making it look
+completely real is harder than you think
+it is.
+>> There's like the
+>> Well, there's a lot of Yeah, there's a
+lot of subtlety to it. You know, in
+particular, anotropy on the on the the
+paneling. How much uh diffuse and
+reflectivity actually uh interact with
+each other because there's a layer of
+dirt that is uh diffuse. It attenuates
+reflection and modulates roughness. And
+really getting all that stuff really
+right is kind of a tricky balance. And
+so John suggested building a miniature.
+Let's build a miniature. We'll shoot
+some reference photographs of it that
+will inform what we do with the CG
+model. I talked to John Goodson who had
+previously worked in our model shop and
+I kind of knew him well and and he's got
+a little shop in his garage where he's
+done miniature work. And so I asked if
+he would be willing to build uh this
+model of the Razer Crest for us. And
+then that sort of kind of escalated
+into, well, if we're going to build a a
+miniature that looks good enough to be
+our our reference for the CG, shouldn't
+we shoot some elements of it to be in
+the show? Then, well, if we're going to
+shoot some elements of it to be in the
+show,
+>> it needs to be controlled. So, we we
+kind of need a motion control system.
+[laughter]
+And we didn't have a motion control
+system anymore. This was kind of a
+tightly budgeted show for streaming. And
+there were very tight limits on it. We'd
+already had our budget approved for
+doing this with computer graphics. And
+so the only way that that we could
+really afford to make this work was if
+this was a total garage operation. And I
+mean that literally. [laughter] Um so I
+have a little machine shop in my garage
+that I've kind of I still enjoy doing
+little hobby things in.
+>> Oh, that's awesome. And so I pitched
+building this thing essentially a 50-
+foot long slider with a uh pan tilt head
+on it and then a model mover that could
+rotate in three dimensions.
+>> Okay.
+>> The thought process was that having 50
+ft of track lets me uh get closer or
+further away from the model. So I can
+make it any size in frame that I want.
+>> The pan tilt head lets me put it any
+place in frame that I want. A threeaxis
+rotator lets me present the model at any
+angle that I want. Mhm.
+>> And that was sort of the thought process
+that okay, I can do your typical inspace
+flyby shots and uh and that would sort
+of cover for all the shot designs that
+we wanted to do. And then the
+electronics uh were kind of a an Arduino
+project that kind of got out of hand.
+And [laughter]
+uh and then I wrote all the software
+that ran on it. And again, that sort of
+goes back to my early days in motion
+control. I bought a commercial uh motion
+control system called a Tandro system
+that was kind of state-of-the-art back
+in, you know, the late 80s, like 1988
+was when I bought mine. And the Tandro
+system that I bought um came with a
+developer kit. And I started writing my
+own software to run on the motion
+control system. When I started on the
+one for the for the Mandalorian, I I had
+this idea that, hey, what if I took some
+of this code that used to run on the
+Tandro system, could I port it to run on
+a tiny little microcontroller
+>> because 30 years have elapsed and
+[laughter] and the kind of the computer
+that the Tandro used to run on was an
+IBM PCAT 286 processor that ran at I
+think 16 MHz. The microcontrollers
+today, I used a TNC 4.1.
+>> I've used a TNC 4.1. Yeah, they're
+great.
+>> They're really cool. Yeah,
+>> super powerful.
+>> So, I did some uh back of the envelope
+calculation that the Tinsi was something
+like,00 times faster than the on
+[laughter] the Tandra system. So,
+>> it was 1100 times lighter
+>> and yeah, size of a stick of gum and and
+so I ported all that code to run on the
+uh on the Tinsi and and I thought it was
+just sort of delightful that uh I was
+half the software stack that I was
+running was code that I wrote.
+>> That's amazing. you know, back in 1990.
+>> Dang. The same code and it was still
+working.
+>> Oh, yeah. Even though the miniature was
+only in, I think 16 shots in season one,
+it made all the shots that the CG Razor
+Crest was in better because the
+miniature set the bar for the look.
+>> And we've done that same process on the
+other miniatures that we've built. You
+know, the Onyx Cinder and Skeleton Crew,
+we built a lovely CG model of that. And
+then John Goodson and Dan Petrascu built
+this beautiful 3- foot long miniature of
+it. Re reworked the lookdev and the
+textures on the CG model of it. And even
+though you know 75% of the time when
+you're seeing the onyx cinder, you're
+seeing the CG model, it's better because
+we built that model.
+>> Yeah.
+>> Right. Okay.
+>> And that was our standard.
+>> So it's about kind of like getting that
+informed intent of like everything is
+trying to aim to replicate this bar like
+this. It's supposed to hit this caliber
+of quality.
+>> In computer graphics, having good
+references is super important. And we
+were able to to hit a higher bar because
+we built these miniatures. And if we
+hadn't, you know, I'm sure it would have
+been pretty good, but uh I don't know if
+it would have been quite that good. And
+then for Mando and Grou, uh something I
+really wanted to do for a while was to
+move past the pan tilt head on a slider.
+I wanted to do a full crane.
+>> Oh wow.
+>> So I built a crane that um that had all
+the original degrees of freedom that the
+Dyster Flex have. was a track that ran
+back and forth. It had a a smaller side
+track called a traverse that moved side
+to side. Had a swing, a boom, and then a
+uh pan, tilt, and roll head.
+>> I saw the video with Adam Savage. You
+were talking about how the original
+Dyster Flex had the like the Spartan
+head which let the camera tilt.
+>> And it also the camera itself would move
+forwards and backwards to pull focus.
+>> Yeah. Yeah. It was uh it was good
+optical design. You know, they wanted to
+make sure that that all rotations
+happened around the optical center of
+the lens and that if you focused, you
+weren't pushing the optical center
+forward and back. You didn't want to be
+dollying forward as you uh as you focus.
+So, the idea was lens is always
+stationary and then the camera body
+should move back and forth to to focus.
+I ended up doing that on the uh the
+Mando system as well.
+>> Yeah.
+>> Because otherwise you end up with a
+little bit of drift that you're not
+accounting for in the actual motion
+control.
+>> Yeah. that your uh distance to to the
+subject um isn't what you think it is.
+And then I was fortunate enough to be
+able to use it again on Mando and
+Kroger. One of the other things that I
+really wanted to do was to have a
+miniature LED volume
+>> because you have this bare metal
+spacecraft that's all about reflections
+in the same way that Mando's helmet is
+all about reflections.
+>> Yeah. M I had on season 1 and two
+limited myself to shots that were in
+space because you don't have to do this
+elaborate reflection environment. You
+know, space is basically sunlight and a
+couple of bounce cards and and that sort
+of stylization of lighting is fine for
+space shots. But when you're flying in
+atmosphere, you really have to do a
+better job of it. You have to kind of
+have the whole environment around it for
+those shots to look real. And the right
+solution to that is the same one that it
+was for Mando, which is why you want to
+have a LED volume around you.
+>> Like we have the LED volume contributing
+reflections and lighting to the ship,
+but is the idea to replace the entire
+background?
+>> Yes. This is just to get a really good
+element of the ship, right?
+>> I wasn't trying to get in camera finals
+here. And there was a whole bunch of
+reasons why.
+>> At what point is it easier just to
+replace everything versus just trying to
+paint and maintain what's there? Well,
+part of that because I know it's going
+to go through a compositing process is
+that I shoot the equivalent of AOVs. You
+know, I'll I will shoot, you know, the
+environment reflections as a pass. I'll
+shoot the sunlight as a pass. I'll shoot
+the engines as a pass, running lights,
+and sometimes I'll shoot different
+lighting passes, you know, with more
+diffuse ships. I'll shoot sunlight and
+then bounce fills as separate passes.
+Um, I'm doing animated mixes of them,
+and you can see the balance is is
+changing a little bit here. That's all
+just being done in the comp by
+modulating the brightness of the the
+passes.
+>> That adds a lot of life
+>> just right here. Even on a black
+background,
+>> the fill on the ship should actually be
+fairly dynamic. They should be it should
+be getting brighter and darker and
+changing color. And even the interactive
+light from the missile
+>> um you can do by having all these
+additional passes. So you can put
+together a better looking comp when you
+have it broken out that way.
+>> Tell me about the Y-wing.
+>> So the Y-wing, so this is sort of a fun
+story. red stripe.
+>> My friend John Goodson, he had been
+doing a bunch of work for the Lucas
+Museum and one of the things he had just
+finished on, he did a restoration of
+this model. This Y-wing was the first
+Y-wing that was built by ILM for New
+Hope.
+>> What?
+>> First one that was built.
+>> This is the first Y-wing.
+>> And it never went on camera because
+after it was built, it went to England
+to be the art department reference for
+building the full size setpiece. Oh,
+then when it came back, I think it got
+damaged in transit, and John had just
+done this restoration of it. He got it
+all repaired and cleaned up and back
+into shootable condition. We got talking
+about uh how we're doing this battle at
+the end of the film and there's uh some
+X- wings and Y-wings in them, and this
+this is a squadron that has red livery,
+and he said, you know, I just repaired
+this Y-wing. you know, wouldn't it be
+cool if we uh talked to to George and uh
+were able to shoot some elements of it
+to go in the film?
+>> Oh, man.
+>> God, I love that idea. And so I
+contacted George and I asked, "Pretty
+please, could we I promise we won't
+break it. Could we [laughter] could we
+borrow this model and shoot a couple
+elements of it?" God bless him. George
+said, "Yeah, okay, you can do that."
+[laughter] And certainly the the Lucas
+Museum people were really nervous about
+that. I think in their minds it was like
+they were going to loan it to a daycare
+center for a week, you know, that
+[laughter] that we were for sure going
+to break it, but
+>> they're like, "This is the last time I'm
+going to see it go."
+>> And so it's in two shots in the movie.
+And so that was a real special
+experience for me to to have this
+original model from New Hope
+>> years ago. Yeah.
+>> Was up on the stand and we shot it and
+it's in two shots in the movie and no
+one, you know, nobody watching the movie
+would ever know the difference.
+>> Sure. But I know that that's one of the
+original models from Star Wars and it
+means something to me.
+>> Absolutely. And now everyone else knows.
+[laughter]
+>> I think it it makes a difference. You
+can feel it like it like it subtly
+informs just everything. You know, this
+actually when people talk about
+technology getting better, they think
+usually in terms of CGI, you know, it's
+like, oh, we can render this better. We
+can do this faster. But I feel like
+world of practical effects also sees
+these benefits that are happening. Like
+you Oh, yeah.
+>> Arjuinos, you have Gaussian splats. You
+have all these new like ways of taking
+advantage of practical. What's in the
+future for practical to become even
+easier to use?
+>> Well, I'm a strong believer of use the
+right tool for the job. And I started as
+a model maker. My first years in the
+industry were as a model maker. Then I
+was motion control camera operator. And
+I still have a real deep fondness and
+love for miniatures and miniature
+shooting. And I think a wellexecuted
+miniature can look as good or better
+than than CG. And you know, the main
+reason we don't do it as much as we used
+to is cost is one big one. It's the
+computer graphic tools have gotten
+pretty efficient and it's just cheaper
+to do this work in CG. And the other
+part of it is that we have uh now a few
+generations of clients that have gotten
+really used to being able to change
+things up until the very last minute.
+>> Right.
+>> And when you have photographed a
+miniature, that is what you've you've
+got. You have to commit to it in the
+same way you commit to performance of an
+actor on set.
+>> Right. It's like clients have gotten
+used to not only the cheaper cost, but
+the increased flexibility of it all.
+>> Yeah. Exactly.
+>> They don't they don't want to go back
+even though they like the idea of going
+back. [laughter]
+>> What does a director
+say or do in order to like get your
+respect and trust? You know, you've been
+on so many films. When you meet a new
+director, what's something that makes
+you go like, "That's cool. I can work
+with that guy." Uh well, I've been very
+fortunate that I've worked for a lot of
+really good directors that [laughter]
+have been that that I I really respect
+and good directors come in different
+flavors. There are some that uh you know
+have a writing background and are really
+focused on story. You know, they may not
+have as much uh in-depth technical
+knowledge, but that's why they have you,
+right? That that they brought you in and
+you're sort of a trusted partner and
+they will explain, okay, from a
+storytelling standpoint, this is what I
+need the shots to do. you know, you
+figure out uh how to realize that. And
+then there's other directors that have
+really strong technical backgrounds and
+have very clear vision of exactly what
+the shot is and they want you to to to
+do that.
+>> I've worked a little bit with Jim
+Cameron and he's one of those people
+that kind of knows every aspect of the
+shot. He's got a very clear picture of
+exactly what he wants. He can describe
+it in minute detail. I think he's got a
+reputation of being tricky to work for,
+but that's not what I experienced. Yes,
+he has very high standards, but he has a
+lot of properties I think are are what
+you want in an ideal client.
+>> Got good taste. He knows exactly what he
+wants. He can describe it in detail and
+he's consistent about it.
+>> And you know, the last thing you want is
+the client that uh says, "I don't know.
+Keep showing me stuff. I'll know it when
+I see it."
+>> Sure. Oh, that's the worst.
+>> One of my favorite things is get the
+brain trust together.
+>> The brain trust. That has been one of
+the delights of working for a bigger
+facility with a lot of really talented
+artists is we'll start brainstorming.
+Whoa, have you tried this? What about
+that? I think, you know, my first
+impression when I look at it is this.
+Those are really fun to do and it's
+often a really good way to solve
+problems.
+>> John, thank you for taking the time to
+join us. This has been a really
+important episode for me. I mean, I've
+looked up to you and the work that
+you've done for decades, honestly. and
+to have a chance to talk with you here
+to be at ILM has been a career defining
+moment for me. So, thank you for having
+me. It's been a joy.
+>> I mean, yeah. Same same thing for me is
+like ever since we started doing this
+show and we started having guests, like
+the one guest I always wanted to have
+was you.
+>> You lose.
+>> Yeah. Exactly. Exactly.
+>> We got like five. Busy. [laughter]
+I've been working on stuff. Hey.

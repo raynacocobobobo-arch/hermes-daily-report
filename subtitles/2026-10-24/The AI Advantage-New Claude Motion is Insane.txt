@@ -1,0 +1,68 @@
+UP主：The AI Advantage
+标题：New Claude Motion is Insane
+链接：https://www.youtube.com/watch?v=qZqZ02AsYiA
+
+Claude just released the most intuitive and powerful AI product I've seen in a while.
+It's called Claude Motion, and it turns ideas into videos like this one. Or how about this timeline
+of the United States history? Or check out this video that it made from the Apple website. It's
+kind of crazy and so so so simple to use. So today, I want to show you how to do this,
+too. What plans you need, how to make changes to these videos, and a few nifty little tricks. Now,
+as I'm making this video, this thing just launched. They're only including
+it in their teams and enterprise accounts. But clearly, this feature is meant for everyone,
+and they're going to release it soon. If you're not familiar, over the past few weeks,
+people have been doing things like this with a few extra steps just like this with the new Opus
+5.5 model that is really good at making videos like this. And now they're productizing it. So,
+how does this work? Well, if you're on, let's say, a team's plan, which in this case I logged
+into on a brand new team's account to show you this, you would just go to artifacts here
+in the left sidebar. And then when in the artifacts, you can see these two new tabs,
+motion and dashboard. Motion is for creating motion videos. And dashboard is for creating
+dashboards, but that's not the focus of the video. But just know it's as straightforward as motion.
+If you click motion, it's going to open up a brand new chat with the preview here on the right. And
+now you can basically drop in one of few things. Either just a text description or and this is what
+we found to be really powerful screenshots of what you want to have animated. So literally if
+you put it something as simple as explain the history of the United States in a free minute
+video and then you drop in the Wikipedia link it asks you what kind of style you would want. I said
+unrolling timeline. And then about 4 minutes later see for yourself. This is the oneshot
+result of that prompt. you have a full timeline of all the historic events and it pulls the data from
+the Wikipedia page itself. Now, here's the cool thing. Usually with AI video generates something
+and then you're stuck. You're like, wait, there's a mistake or I want to change something. That's
+the beauty of this product. All of this has been written in code in the background. So,
+you could go in and say, actually, the first people arrived from Siberia in 14,000 BC,
+not 13,000. And then here on the right, you can see I can change that and it updates in the
+video. I could even change the speed of this section. Adjust the duration to be shorter.
+Maybe I want 9 seconds instead of 13. And you see everything just updates live. There's even music.
+There it is. It's really that simple. And hey, as we're rewriting history already, I'll just
+drop this image of me at my desk, basically the reverse view of where I'm at right now, into
+here. And I'll tell it to add that image at the beginning of the timeline just to show you that
+you too can be the creator of your own reality with these videos. You could drop a dozen images
+and it will include them in your explainer. So not just that it can use screenshots for inspiration,
+but you can also include them in the video. Now few interesting things here. First up, this little
+comment feature. See this button right here? If I click this, I can now go ahead and now I could
+mark this thing and say make this bright red. This way I could select any element in the video at any
+point in time and it would change it surgically. Confirmed. Beautiful. About the color palette. If
+you want to change it after the fact, there's only a few options here. But in the beginning, remember
+when I told you it asked me about what kind of style I want, there's also a color selection
+option. And you could always say other and then you could specify the exact colors you want,
+which you would need to prepare in a separate chat. But basically, if you have branding,
+you can just open up a project. And I don't know, let's say I'm working for Nvidia and I would want
+their style and their colors. You know, it can be as simple as taking a screenshot of the website
+and saying given the color palette used here. And now by simply copy pasting this table, for
+example, I could affect this video by simply copy pasting it into here. And now we're making that
+version of this timeline. And that's basically how it works. But before I let you go, here's a
+few more ways you could use this in your own life or business. If you're introducing a new product,
+you could put any reference images you have or details about the product into here and create
+a launch video. even if that just lives on your website. It's a unique way of displaying it. Two,
+you could represent your existing products or services with a video like this. We did
+exactly that by giving it the Apple website and it created a video like this showing the
+different products. Now, given it's not perfect, the iPhone duo should have a different model,
+but that's why you can prompt and change things. You could add a screenshot and make the change
+just how I showed you. Another one would be you could make unique explainer videos for your
+website or for someone like me who teaches all the time. I can now enhance my lectures with little
+videos. And these are all things that Opus could do over the past few weeks. But they basically
+made it so simple that the cost of making these is trending towards zero. And I'm sure soon this
+going to be available on all plans. And if you want even more examples, I included the link to
+a GitHub repo which is basically like a folder of 500 different examples of what people have already
+been doing with Claude Opus, which is exactly the model that powers this. Little features like this
+is really what this channel is all about. And I hope you get to make something amazing. And
+if you have ideas on what you're going to make yourself, please leave them in the comments.
+I'd love to see them. That being said, my name is Eigor and I hope you have a wonderful day.

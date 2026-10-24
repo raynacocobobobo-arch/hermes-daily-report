@@ -1,0 +1,561 @@
+UP主：AI Engineer
+标题：The Chief AI Officer: Scientist, Architect, Coach — Rania Khalaf, WSO2
+链接：https://www.youtube.com/watch?v=9cJrbj23fOA
+
+[music]
+Hi everyone. How are you?
+All right. I'm so excited to see all of
+you here still awake and ready.
+Um, so today I wanted to uh share my
+experiences on the chief AI officer
+role. It's very new. I get a lot of
+questions about it. I've been in this
+role for nearly two years and some
+variant of it for about the last five.
+And um I wanted to so to get started I
+just would like to get an idea about the
+folks around here. Um how many are in
+companies that build and sell software
+products?
+All right, great. Um, and
+um, how many folks are uh, have someone
+leading AI that is not the CEO or the
+CTO?
+All right, very cool.
+So, we'll we'll jump right in. This
+helps.
+Um, so like I was mentioning, the stroll
+is new, but it's becoming more and more
+popular. And what I found is that it
+means drastically different things based
+on two criteria. One is the company, the
+type of company you're working for
+and two is the level of AI maturity of
+that company. There's also another
+dimension which really is depending on
+the skill set and the background of the
+person in the role and I've seen that
+also vary a lot and in some cases the
+role was created for a particular person
+that brings a particular skill set right
+um in other cases there was a very
+specific need and people hired in for it
+right so we'll see because it's so hard
+to hire for this role specifically we'll
+also see that um there's a lot of
+open-mindedness in the companies that
+are recruiting for it for exactly what
+the person might do based on the person
+they find and how well that fits and if
+they can complement it. So I've also
+seen it sometimes breaking into two. Um
+but the really interesting things is you
+see like even these IBM studies one year
+apart uh so it was like 11% in 2024 26%
+in 25 and now 76%.
+Um,
+okay. So, the tricky thing about this
+role is like it's so great. Okay, I have
+an AI officer, but there's AI in
+everything, right? It's kind of like
+saying digital or I don't know,
+electricity. It it's in everything and
+it can be so many things and it can be
+really overwhelming, right? So, you have
+to have a lot of discipline to do it
+well and to still have joy and not to
+get overwhelmed and overloaded. Um, so
+how can we do that? So in my experience,
+it's been about breaking it into three
+focus areas. Um I use the word
+scientist, architect, and coach. I'll
+explain a little more. So scientist is
+more um you're exploring, you're
+experimenting, you're building.
+Architect, you're also building, but
+you're also doing a lot more strategy.
+If the company is selling software
+product, you're really thinking about
+creating new software, you're impacting
+the product strategy. um if the company
+doesn't build software product, you're
+creating you're adding AI in ways that
+affect not only the bottom line and like
+cost takeout and productivity but also
+the top line in terms of um new revenue
+streams or getting to new markets and so
+on. Um I'm putting also there is one
+piece that is uh quite important here.
+So like I'm in a board-facing role,
+right? So I have to report out to the to
+our board in both this company and the
+previous one I was in. And so for that
+there's also part of the job that's like
+responsibility for the what we're doing
+in AI and how that is helping the
+company and our customers. And finally
+for coach the coach one of surprised me.
+Um I had spent 20 years in IBM research
+um running about a third of the global
+research AI organization and when I took
+my first job in this role I forgot that
+you have to really spend a lot of time
+um evangelizing educating sharing
+overcommunicating
+about what you're doing about what how
+AI can help about ways people can adopt
+it not only to your employees but also
+to your customers and now in this role I
+also spend a lot of time as like trusted
+advisor to many of our customers. So
+people in my role at other customers or
+CTOs that are starting to adopt AI,
+right? They they want to learn about
+okay what's happening in other places.
+So I do a lot of calls with customers
+and I'm never going to be like here buy
+my thing, right? Um that happens later
+downstream if they're interested. My
+discussions are always what problems are
+you having? This is how we think about
+the problem.
+And I have no slides, but that's okay.
+Does it come back?
+Well, while you fix it, I'll say a few
+more words. Right. So, the conversation
+I have with them is more of a a trusted
+advisor. Like, I understand what
+problems they're having. I see if our
+technology fits. If our stuff doesn't
+fit, I might direct them to another
+thing that works much better for them
+and where they are. And sometimes
+they'll come back or they'll just want
+to have a discussion again. Um, we have
+many products uh that are also not AI
+first. So, you know, we I might talk to
+some customers that don't use any of our
+AI capability, right? But they want to
+think about what they could do in the
+future.
+Thank you.
+And then each of these focus areas has a
+range and I think this range really
+depends on the kind of company and the
+skill set that you're bringing to the
+role. So for the scientists like even at
+one set you don't have to have a PhD
+you're just exploring heavily. I do
+believe in this AI world that's moving
+so so quickly, um, you have to always
+have some of your team experimenting and
+understanding what's new and trying it
+out and seeing how it fits, right? I
+don't think there's a way around that
+because the tech is moving so fast. Um,
+but on the other end is like the creator
+inventor side of the house for the
+architects. I've also seen I was
+surprised by this because I discovered
+it when I got an email um saying
+something like uh AI education for chief
+AI officers and I'm like wait what like
+how do you get this job if you don't
+know about AI
+and then I realized that there are some
+companies that they have someone in the
+role that really understands the
+business and they're really a steward so
+they have a budget and they're trying to
+understand you know people propose
+projects and they're trying to
+understand which projects will bring
+enough value and they prioritize and
+they allocate budget and they project
+manage them and they report out right so
+for that you don't need deep AI
+knowledge but you need to understand the
+business really well and be a very
+strong operator right on the other side
+is more like what I'm doing which is
+like you're shaping the whole strategy
+of the company you're reinventing how we
+do things in terms of our productivity
+but also in terms of the products and
+the strategy in the go to market
+uh and finally for coaching it also
+depends on the kind of company if you're
+in a company that's not really selling
+an AI product, you're spending a lot of
+time coaching inward. You're coaching
+your uh the different teams, the the
+employees about how to use things. You
+want them to discover for themselves
+things like hallucination because you
+can explain until you're blue in the
+face, but people don't believe it until
+they experience it. Um and then, uh as
+the company has more maturity, you're
+doing more coaching outward, right? So,
+working with customers, working with the
+community and and things like that.
+So uh I also uh worked with Claude and
+Gemini to help me like analyze resumes
+of people in the role, right? And also
+job postings of people in the role and
+match them to these slider directions
+and see like what it thinks. And these
+are some of the areas it found. So this
+validates that like really it's the
+person. So um the row is the type of
+persona and their skill set and then the
+columns are the sliders, right?
+Um so I'm going to give some examples
+from my own journey because this is area
+is so fluid and new. So I think that's
+the the most useful I hope thing to do.
+Uh so after IBM research I joined a
+biotech
+uh unicorn in the Cambridge area that
+was working in agriculture. So they were
+using crisper for corn, soy and wheat to
+make plants that make more food and use
+less water. But to do those experiments
+took 10 years and a ton of land to
+validate like if your gene edit would
+work. So you needed methods to help the
+scientists make better hypothesis of
+what edits to make. Right? So that was
+the way in the door for the AI and data
+part.
+Um and then when I got there they were
+like oh you are like a computer person.
+They are more like they had amazing
+geneticists and amazing act people but
+not a lot of tech people from like
+engineering. So they're like, "We're
+also going to give you it and please
+hire a CISO." And we had no data
+engineers. So like that mandate grew
+very quickly, very far beyond the let's
+build AI together. Um but that company
+sold bags of seeds, right? So we're in
+IBM, I was building platform here. I was
+like we we end up uh to be a fully AWS
+shop. I bought data bricks, right?
+Right. And then I spent my engineers
+time building new algorithms for gene
+discovery and um moving from uh box to
+Microsoft
+and you know things like that the IT
+side which uh was interesting uh but uh
+not my joy and passion.
+So that was a very different experience
+and a very different skill set of what
+to do there. But also the AI there was
+also fundamentally uh changing what the
+how the company operates and its ability
+to have great success. Right?
+So if you go back to the sliders and so
+on. So I would say like at WS2 which is
+the job I have now I'm at about like 20%
+scientist I want to say 60% architect
+20% coach right. Um and these uh sliders
+below are also showing like where I'm at
+in each of the dimensions. Right? So we
+have a small research team there that uh
+we've done some very interesting work.
+We've really worked to change the
+strategy of the company that's very
+focused now on the agentic enterprise
+fabric and I spent a lot of time
+coaching mainly outward. We have a very
+techforward employee base. are about 75%
+technical people uh on in the whole
+company and people are super super
+curious right it's the kind of place
+where if you're not curious you probably
+won't stay for very long right um so
+then I don't have to do a lot of inward
+coaching I do a lot of outward coaching
+um in my previous role the one I was
+just mentioning right it was very
+different so uh there the point was not
+to we didn't need to invent new
+algorithm or make new uh foundation
+models right the idea was how can How
+can we infuse some of the AI techniques
+that are well known? How can we gather
+the data was a total mess, right? How
+can we clean and integrate the data um
+and how do we like inject these things
+into the processes that they have. In
+some case there was more invention for
+the gene discovery part but in other
+places it was just about basic
+operations. So for example uh the
+scientists had a hypothesis that if you
+measure the size of the embryo of the
+corn embryo that is an indicator of how
+likely the size was an indicator of how
+likely you are for the next step to be
+successful in your gene editing but it
+was too costly for humans to do it right
+so they oh please can we use AI and um I
+did my masters in computer vision so I
+looked at that I was like well yeah sure
+we can use AI but you just need like
+blob detection you don't need any
+machine learning that you just need
+basic computer vision and we use a very
+simple algorithm and it worked really
+well right and that helped. Um and then
+in the other case for gene discovery we
+did some very interesting with birds and
+and things like this.
+Uh so this is a bit like I was trying to
+put it a bit on a grid of how do we
+think about it and really in my view
+with my experience having been like at
+IBM and at the biotech startup and now
+at WSO2 those are the dimensions I think
+about right like does the company sell
+software is the is the population mainly
+technical um and where are you in your
+AI journey?
+So uh I get asked a lot what I measure.
+Um, someone asked me to measure tokens
+because to see how much AI we do and I
+said no. Um, because right it's so
+easily hackable like I'm not like okay
+it's easy to measure it but I don't want
+to. Um so they asked me what do you
+measure instead and I said okay these
+are the things I look at AI fluency of
+the workforce like is it only a few
+people that know AI in a center of
+excellence and anytime anyone has to do
+anything you have to get those people um
+are there builders across the functions
+right are there people who know how to
+do enough to get their job done and to
+really augment it that are you know in
+marketing in different engineering teams
+etc or again are you holding all of
+those so now I have a small central AI
+team that kind of works with everybody
+but I have an AI lead in every single
+product and every product team has folks
+working on the AI capabilities in it
+right um and then we have some products
+that are AI first right so everybody
+there is working on AI level of adoption
+I think matters like are you just doing
+a simple task cleaning an email code
+completion or are you changing an entire
+workflow for a better outcome or like we
+have a couple of our teams that have put
+agentic employees right so you have
+these agents that you can instantiate
+and they work alongside inside the team,
+right? So that's a spectrum and
+different teams are in different parts
+of this spectrum.
+Uh tool availability like have you as a
+company do you have you subscribe to
+some tools and are you reimbursing or
+paying the cost with team or enterprise
+accounts? Um and then geo visibility. So
+this is generative engine optimization,
+right? Can LLM find us? Can they know
+what we do? Someone searches? There's a
+lot going on there. We're still working
+uh on that. I think with a lot of other
+people it's not so straightforward.
+Um and that's where also someone it was
+interesting. Someone was telling me that
+just yesterday, right? They're like the
+web has become for agents. Like it's
+unreadable for humans anymore because
+everything is being written assuming an
+LLM is reading it and it's so
+frustrating. He's like so I'm just going
+to have my LLMs read and summarize for
+me and I'm only going to talk to humans
+from now on, right?
+Um for software products uh in the
+beginning like when we when I started in
+this role it was about like what should
+we build what should we extend and where
+should we partner um and then I we
+wanted all our products to be agent and
+LLM consumable. So the docs need to be
+LM consumable. Uh last year we added
+first class support for agents LLMs and
+tools to all our products and this year
+we're making sure every product can be
+used by agents. So everything needs to
+have an MCP server and skills and CLI
+etc.
+Um agent proof pricing. So we've all
+heard this whole SAS is dead and if you
+price per se and whatever what happens
+when the agents come and blow it out of
+the water the consumption. So we are our
+pricing is all consumption based and
+then dog footing our stack. I heard
+another interesting thing today about
+that. Somebody told me like, "Oh, I'm at
+so and so company which I won't name and
+they make us use our product and it
+would be great except nobody takes any
+feedback, right, to make the product
+better." So hopefully we close the
+feedback loop and not only make people
+use our stuff, but they use it if they
+like it and if it helps them. And then
+the third dimension is the market and
+ecosystem. So AI thought leadership is
+not about like articles you can pay for,
+but do you have earned media, which is
+are you invited for talks? Do you uh
+have publications? Are you showing up in
+the press because you're doing something
+interesting for real? Right? Uh analyst
+recognition, customer adoption and use
+cases is I think very very important,
+right? Like I stay up a lot thinking
+about what hurts for my customers and
+how we can make it better. Uh we are a
+fully open source company. So everything
+we do is 100% open source. It's not open
+core. And um so for us also that's a
+really important signal right community
+participation and adoption and stars and
+forks and then finally AR from AI
+products right some of our AI products
+are very new so there isn't a lot of AR
+but some of these other things can give
+signal to it as we get off the ground um
+and also I think um revenue is not the
+only number that matters like tokens is
+not the only number that matters so this
+is and I think what you measure measure
+should change over time based on what
+you're doing and what your company is
+doing, right? So for me, this is what
+I'm measuring now. Once these things
+like reach maturity, I will change this
+list of things, right? Um
+but think a lot about it because you
+really get what you measure. You start
+measuring something, everyone's going to
+optimize for that.
+Um so just a few words about WSO2. So um
+we're about 20 years old. We're about
+150 million in ARR. Uh our software
+powers uh a lot of capability in over 90
+countries in six continents. Uh our main
+products are our history has been in API
+platforms, integration platforms, uh
+identity and access management and uh
+internal developer platform. We have a
+product for that. And in the last couple
+of years since I came, we've added agent
+identity and AI gateway to govern your
+uh AI interactions. We've added an agent
+builder to our integration platform.
+So that's what we do and everything we
+do is open source and this is our whole
+portfolio today. So you'll see on the
+bottom the four platforms this is what
+existed like uh some years back and the
+way we started was saying we're going to
+extend out into what AIs need, right? So
+LLM AI APIs are APIs at the end of the
+day, but they need to be managed
+differently. So we put an AI gateway in
+the API platform. The identity platform,
+we already know how to do very robust
+identity and access managements for
+humans. So now let's do it for agents
+too. We added agent identity. This was
+all last year and this year we've
+released an agent platform
+um that lets you use those things but
+also lets you uh put it all together and
+manage the whole life cycle of these
+agents.
+So I'll give a couple examples on the
+scientist side too. We have a small
+research group like I mentioned I'm very
+proud we have these uh three
+publications this year. Two of them are
+with undergrads in Sri Lanka. Uh that is
+their first publication ever and one of
+them won a best paper award. Um
+on the architect side, right, the idea
+was AI is like great shiny object but we
+want to infuse it in the whole digital
+fabric. So how can we extend that with
+these capabilities like I mentioned
+before? So those are the things that
+we've added and agent manager is the the
+newest we've done. We've just released
+it. Um
+uh in the interest of time I won't step
+but please feel free to explore the
+GitHub repo and the website.
+Um so just to close in a few more
+seconds the idea is okay there's no
+silver bullet depends on the company you
+have to work very closely with others I
+suggest if you try something like this
+you have very strong backing and
+relationship with the CEO because you
+are going to have to work very closely
+with a lot of other parts of the company
+and I've seen also some places where if
+it's a very AI forward company the chief
+officer like the chief product officer
+officer and the chief AI officer are one
+person, right? Or um in other places
+that was surprising in companies that
+are not software. I've also seen cases
+where the head of HR became the head of
+AI.
+I don't know how I feel about that. But
+yeah, I know. I'm like I Okay, so it's
+just interesting things are happening.
+Everyone's trying to figure out what to
+do, right? because they said oh agents
+are work workforce our workforce so we
+manage them HR will manage them
+I appreciate that I like people feel
+like me in this room because that rumor
+I heard it it [laughter] was not the
+reaction
+um but uh so I'll just leave you with
+this to close um when I think about even
+for me like to take this role I was
+trying to think okay um you know what
+I'm somebody had given me this advice
+like think about what are you good at on
+what you love, what the world needs and
+what you can be paid for and try to find
+something at the intersection. So since
+this role is very fluid still try to
+find if you're interested in it and
+you're looking you have a match
+somewhere try to shape it in a way that
+it you are at the center and it makes
+you happy and the things that you don't
+like see if you can like have someone
+work on them differently or maybe a
+different company is a better fit that
+has a better alignment with your
+interests with your love and your needs
+and what you're good at.
+All right. Thank you very much. If you
+have any questions, I'm around
+[applause]

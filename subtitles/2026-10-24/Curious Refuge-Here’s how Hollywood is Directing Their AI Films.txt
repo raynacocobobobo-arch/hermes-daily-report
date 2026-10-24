@@ -1,0 +1,633 @@
+UP主：Curious Refuge
+标题：Here’s how Hollywood is Directing Their AI Films
+链接：https://www.youtube.com/watch?v=BExtQ740QgM
+
+AI video is getting crazy realistic, but
+the truth is camera direction and
+control is still a bit of a nightmare.
+It doesn't matter how good your prompt
+is. A lot of times the output that you
+get is dramatically different from what
+you actually want. But there's a new way
+that's making its way through Hollywood
+that gives you even more control over
+your outputs using the power of Blender.
+Now, if you're like me, you may see a
+tutorial about Blender and be like, "Uh,
+yeah, this is not for me." But the truth
+is, this entire process can be done with
+Claude without you having to know a
+single thing about Blender. So, in this
+tutorial, Albert, the instructor of our
+AI animation 2.0 course, is here to show
+you how to give maximum control to your
+AI videos using [music] the power of 3D.
+So, let's get to it. Hello, I'm Albert
+Bosan and today I want to show you how
+you can use an LLM of your choice such
+as Claude together with the open- source
+3D software Blender to get maximum
+control over the composition and the
+camera motion of your AI videos. We've
+seen some excellent examples of this go
+viral in the past couple weeks and I've
+been playing around with it a ton. But
+while you can get decent results just
+kind of going for it and prompting today
+I want to go deeper with you and give
+you some tips from my experience as well
+as a full [music] template to help you
+get maximum quality out of this
+technique. So let's go have some
+cinematic fun and get started. The very
+first thing we're going to do is go to
+our browser of choice and visit
+blender.org.
+Usually right on the homepage there's
+going to be some sort of ad for the
+latest version of Blender. in my case,
+Blender 5.2 LTS. If not, you can just go
+up here to download and just have a very
+obvious download Blender button. For
+those of you who don't know, Blender is
+completely free, open-source. It's
+[music] maintained and developed by an
+amazing community of creators worldwide.
+And because it's open- source, it's
+especially compatible with using AIS to
+control it. Not only that, there is
+actually an official MCP. So the
+creators of Blender provided software
+and add-on that you can install [music]
+to let for example claude desktop
+control blender directly and especially
+compatibly. So it's used in the way that
+Blender wants the AI to use it [music]
+which is what gives us the power for
+today. So we download Blender and once
+it's downloaded you open it up and
+install it. And this is what you're
+going to see when you open up Blender
+for the very first time, possibly with a
+different image up here. They change
+that with each version. You can just get
+out of this by clicking anywhere outside
+of that splash screen window. And it
+should look like this. Before you worry
+that this is a little complicated and
+you're about to learn a completely new
+software. No, you're not. Because in
+this tutorial, you're going to learn how
+to have AI control all of this for you.
+That said, there is one thing you do
+need [music] to do manually, and that is
+install the Blender MCP add-on. So, for
+that, you're going to go to edit,
+preferences, and here you can see some
+add-ons that you may or may not already
+have installed. And [music] because this
+is such a new feature, you're not going
+to be able to search it in here. You
+need to go to the Blender Lab website.
+[music]
+So, in your browser, just search
+Blendermcp add-on or click the link in
+the video description below. There
+you'll see MCP server on
+blender.org/lab.
+And all you need to do is actually find
+this little area here. So, with your
+browser open and Blender open in the
+background, all you need to do is drag
+and drop. It's [music] going to tell you
+one thing, though,
+and that is you need to allow online
+access from system settings. So, you
+click that. It'll take you to the right
+menu and you click allow online access.
+And while you're in this system, this is
+not super relevant for this tutorial,
+but also make sure if you have an Nvidia
+machine to actually click CUDA [music]
+or you're going to wonder why your
+renders are so incredibly slow in
+Blender. Super important tip right
+there. [music] And now the second time
+you drag and drop into Blender,
+it's going to install it extension and
+check for extension updates. This might
+take a little bit. If it freezes, just
+cancel and drag and drop again. At some
+point, it's going to pop up this where
+you have to allow lab.blender as an
+allowed repository. This is officially
+from the Blender community, so that's
+fine. You click add repository and
+create.
+And then one final time, you drag and
+drop again. Then it's going to ask you,
+do you want to install the following
+add-on? You hit enable add-on and
+[music] okay. Don't worry, a lot of that
+was just because we opened Blender for
+the first time. Installing add-ons is
+going to be easier from here on out when
+you want to do that for another project.
+So, let's [music] check add-ons. And
+you'll now see MCP is on. Perfect.
+There you go. Auto start. It's all there
+and the server is running. So, let's get
+to the second part of this equation, our
+LLM use. I'm going to be using Claude
+Desktop. In Claude, all you have to do
+is go down to settings,
+scroll down to connectors,
+and here you'll [music] see which ones
+you already have. So, I have Comfy MCP,
+for example, through line for
+screenwriting and a couple other GitHub
+integrations, that sort of thing that I
+want Claude to um control. And all we
+have to do is actually search for
+Blender,
+and it's listed by Enthropic as an
+official MCP. So you click on that and
+hit [music] install.
+It might give you another confirmation.
+Once the MCP is installed inside of
+Claude, make sure it's enabled and then
+return to Blender. In theory, you could
+spend years learning the full Blender
+software and still not know nearly
+everything that's available. Believe me,
+I've I've really tried because LLMs can
+[music] now steer it extremely well,
+especially for this specific purpose
+where we're not trying to do extremely
+highquality renders, but rather a rough
+blocking for our AI work. Which is why I
+strongly encourage you to go down to the
+description and download the Blender
+starter kit that I provided for you.
+There's a ton of foundational stuff and
+instructions for your Claude and other
+LLMs to get started making these videos,
+meaning you barely need to do anything
+manually in Blender and you can get your
+results much faster. So, go do that and
+we'll continue in that file. When you
+open the Blender Starter Kit file that I
+provided for you, you're first going to
+be confronted by a lot of text. This is
+because you have to read your prompt
+template first. This is basically where
+I dropped all the text information that
+you [music] need to handle this starter
+kit, both yourself and your Claude. So,
+up here you'll see the prompt that you
+need to give your Claude to help you
+build the world. [music] And this is the
+readme that your AI, your Claude is
+going to be reading with all the
+instructions, all that head start that I
+announced for you. some basics of
+cinematic composition, some blocking,
+what camera motions are realistic, what
+aren't, how to pose characters, how to
+set up different cameras, how to build
+walls, build buildings, all that sort of
+stuff is [music] all in there for your
+Claude to enjoy. And you'll see up here
+there are much fewer tabs than there
+were in the normal startup file in
+Blender. You have scripting, which is
+this, and you have layout. And you'll
+see you'll already have a pre-made
+timeline that starts at frame 1,000 and
+ends at frame 1,119.
+You'll also see I've set up the
+resolution for you. If you make a render
+in this file, it'll be 720p, which is
+plenty. Even if you're rendering the AI
+video at a higher resolution, this is
+plenty for reference. [music]
+And the output is already set to video,
+all that sort of stuff. You're going to
+get a nice MP4 out of this at the end
+automatically from your claude. What
+else have I done here in the scene
+collection? You'll see there are already
+some nice folders for your environment
+models, your props, your characters,
+which your Claude can create from a
+template [music] I added into this
+library here. If you show that, you'll
+see there's a fully Creative Commons
+zero attribution human rig that it can
+duplicate and color in for you to be
+able to reference your different
+characters. So, this guy will be blue
+for character named Paul, magenta for
+Frederick, whatever you you tell it to
+prompt. [music] And this has a full rig
+that it can control. So, just as a
+little demo, this character can be posed
+any way you [music] like. And Claude is
+really, really impressively good at
+actually posing these characters for
+you. So, you're not going to be needing
+to do any of that stuff. Here, it's
+[music] this little pointing character,
+whatever. A bunch of poses are pre-made
+in this. So, that's in there. And
+there's also a ton of generators for
+trees, bushes, rocks, all sorts of other
+stuff, as well as room layouts and
+buildings. Let's get going with the fun
+AI stuff. So, again, in the scripting
+tab, you'll see this prompt template.
+You can just select all, copy and go
+back into your claw into a clean [music]
+new chat
+and paste it in. What you'll see the
+first line is attach the environment
+image to this message. So this is a
+message for me. All the stuff in these
+brackets is stuff I need to change about
+this prompt. The first one being it
+wants me to attach an image AI generated
+of the environment, the set I want to
+create. And for that I will be using
+magnific. You can use any AI of your
+choice to generate that image or even
+take a photo if you like. The method
+[music] is the same. So I'm going to
+delete that line and go make one. What
+I've just prompted here is establishing
+wide panoramic shot of a cyberpunk cafe
+interior. And it described a little uh
+music section in the back with some
+vinyls, some u scrap metal tables in the
+middleground, some diner booths on the
+left, hexagonal windows, windows, all
+kinds of cyber punk stuff. Just a dirty
+location that could be kind of fun.
+We've seen it a million times in sci-fi
+movies. And what I'm very curious about
+are the double doors in the front made
+from an old jukebox, [music]
+but we'll see. Lately, I've been really
+enjoying the Luma Uni 1.1 model for
+realistic stuff. It doesn't use many
+credits and it really does create a lot
+of the details you put in your prompt.
+So, let's see what it creates for us
+today. What's super important at the end
+of this prompt because we're creating a
+location for Blender, right? We're not
+generating characters in there quite
+yet. No humans or creatures. Just as
+general prompt hygiene, no small text
+because that still even [music] in this
+day and age tends to break with video
+models. And we want to have a good time
+with our project here. So, let's go and
+check this out. Here we go. We have four
+options. I adjusted the prompt a little
+on the later one. That's fun. I like
+this. It's very garagey. It doesn't look
+as cozy as I wanted. And the doors don't
+really make sense. This is kind of cool.
+[music]
+Yeah, I like that one. And this one
+really grungy and dirty.
+And [music] yeah, this is clearly the
+winner. We have this little wall here.
+Even if it doesn't make sense, it looks
+fun with these jukebox doors here.
+and could be anywhere in Berlin, but we
+don't judge. Great. Okay, so I'm going
+to download this as the PNG.
+Just straight to the downloads folder.
+What we also need is reference images
+for the characters we want in this
+scene. So, I'm just going to do quick
+character turnarounds for two Cyberpunk
+characters that will interact here. Back
+to Magnific. Let's try this. A detailed
+full character turnaround sheet with
+frontal, back, and both side views, as
+well as an additional front and side
+close-up of the head. Pretty normal
+prompt for a character sheet. There are
+other videos on this channel that'll
+help you more in character development,
+standard AI stuff. And I want kind of a
+middle-aged Spanish looking woman as the
+barkeeper. Here's our character, Alma.
+Yeah, just a good turnaround. She looks
+a little video gamey, but you know,
+cyberpunk just kind of does [music]
+that. This the genre has a lot more
+video game adaptations than films,
+honestly. So, that's fine. And here's
+our dude wearing his bandana.
+Good. Um, it didn't like do both sides
+of him, but we're fine. I think it'll
+understand. Now, we don't actually have
+to upload our character reference images
+to Claude. All Claude needs is to know
+which image we're planning to upload,
+like at which spot in Magnific. And we
+can name it down here in the prompt. And
+this will help us when Claude actually
+generates our seedance prompt at the
+very end for us. So, all we have to do
+is note down my reference images. Image
+one equals the environment. That's going
+to be this image. Image two is going to
+be our character of the barkeeper. I
+like writing them in all caps. It's
+going to be Alma and let's call the
+mysterious newcomer, the teenage guy
+Liam. So, we just write that down there.
+Now, [music] what else up here in
+characters? How many what they are doing
+and saying where they are in the scene.
+So, here we just describe what we want
+the characters to be doing. Almo, the
+barkeeper is standing behind the bar
+wiping down the bar itself annoyed and
+peering around the room watching for
+strangers. [music] So, there's already
+some tension there. When, of course, the
+stranger walks in. Liam, a mysterious up
+to no good guy, walks in through the
+double doors, stumbles over a chair,
+nearly falls as he leans on the bar. He
+reaches for Alma, claiming exclaiming
+quietly for help. So, this is kind of a
+challenge. I don't even know if I should
+have done that. For a more advanced
+motion, this guy confronts Alma. She
+doesn't like strangers, even though she
+runs a bar. They're by themselves in
+this bar area, and he asks her for help.
+And I think that's uh plenty of action
+for a couple different shots. We don't
+want to overdo it with more than like
+three shots in one single generation.
+[music] So, let's actually describe the
+shots we want here. You don't
+necessarily have to. You can also ask
+Claude to figure it out, but you know,
+being a director, I like figuring out
+the shots for my sequence beforehand.
+So, one, wide establishing of the bar.
+That's nice. Two, medium on [music]
+Alma cleaning. Let's do four shots in
+this generation. Three. Reverse shot of
+Liam.
+Actually, let's do a reverse shot over
+the shoulder behind Alma of Liam
+stumbling in. And now under notes, any
+other information Claude should have
+about your video like stylistic notes,
+genre, sound. I just want to remind it
+this is a realistic liveaction style
+cinematic scene. I want sound effects. I
+want the music. I just want the full
+generation coming out of this machine
+here. And uh I don't really want
+dialogue necessarily, just full acting
+Liam's grunts of pain, [music]
+that sort of thing. I'm also going to
+add a detail here that Liam knocks over
+a bottle just to see if Clud can do it
+here. And you'll see because this prompt
+is already prepared, block out the
+environment from the image, place and
+pose the characters and set up the
+cameras. And we're asking it to kind of
+check a couple times between the image
+and what it actually built in Blender to
+make sure that the cameras are placed
+correctly, that sort of thing. We're
+immediately asking it to render the
+animatic and just open up the video when
+it's done. So, let's let it work. It's
+going to ask us for permission a couple
+times when using the Blender MCP. And
+I'm just going to hit always allow. If
+it's asking you for too many
+permissions, you can, of course, anytime
+go over here into settings, connectors,
+[music] and under Blender, set
+everything to always allow. Um, this is
+a computer specifically for this kind of
+work. So, I'm going to do that. Um,
+don't feel too comfortable giving AI
+permissions to everything, but in the
+case of Blender, I'm okay with it. On
+occasion, it'll refresh Blender and you
+can start seeing the work that it's
+doing. You can see it already mapped out
+this room. Pretty basic in the case of
+the bar. I'm hoping it also builds a
+little bit of the street in the
+background. Could be cool. There you go.
+Wow. Literally in this moment, it
+finished the bar.
+And you can see it it added some
+buildings even on the outside. It added
+the double doors, the bars here, the
+music corners here with the speakers,
+the booths. Incredible. And I'm assuming
+that's the bottle that Liam is going to
+knock over. There are the tables. It's
+wild how fast this [music] is. All
+right, it's all done. And here's what
+Claude is telling us. It's showing us
+where the animatic has been rendered.
+It's in [music] my Google Drive.
+Perfect. It told me the timing it chose
+and some things to know. So, let's see.
+I gave shot three most of the time
+because Liam needs about 5 seconds for
+the entrance, the stumble. So it really
+you can tell it it thought about it and
+[music] it even did a 180 degree check.
+So this is important in film making
+right we try to stay on one side of an
+axis between these two characters. We
+would want to stay, for example, on
+Alma's left side and to not jar our
+audience by suddenly switching over. And
+it's very easy to disorient people if
+you do that, which I see a lot in AI
+work, which is why I made sure to put it
+in the template so that doesn't [music]
+happen or at least it tries to check the
+timeline markers. It all shows it even
+it even marked the timeline in Blender.
+And as it was told, it gave the full
+seance prompt. Let's first take a look
+at the reference video and then the
+prompt.
+Wide shot. Closeup of the wiping. Good.
+Dude comes in,
+trips over the table. [laughter]
+Okay, so we will need to make some
+changes. There's like some twirling
+going on here, which I'm sure is by
+accident because it didn't key frame
+quite right. The wrists are kind of out
+by his sides, which I don't think is a
+stylistic choice. It's more, you can
+tell on Elma's um [music] bar as well
+that it just doesn't really understand
+the wrists and the action of hitting the
+bottle over is behind Alma. So, not
+quite what we were looking for, but you
+can see this is super promising. I could
+also imagine some basic camera movements
+in here. That's what we want to test as
+well. So, I was hoping it would make
+that creative choice, but it didn't. So,
+well, Elma also slides over there. So,
+there's a couple changes. Let's send it
+through one more time before looking at
+this prompt. Just any changes we want,
+we write them here. Once you've gone
+back and forth with Claude a little bit,
+made some adjustments in Blender, and
+have your final render, it's time to put
+that into [music] AI. In my case,
+Magnific. So, I'm going to copy the
+prompt that Claude gives me for seance.
+Paste that in here and upload my
+references in the order they are in the
+prompt. So, that's what we defined
+earlier. my case that's video v3. Image
+one is our environment image.
+Image two is Alma
+and image three is Liam.
+The rest is just [music] referencing
+video versus what's in the image. So
+that makes sense. Then you can see it
+describes the exact time spans in which
+things happen which is super helpful.
+Like obviously we have the cuts visible
+in the video but I found in my
+experience it really helps C dance to
+also redescribe where the cuts are, what
+happens in them and together as a whole
+package it ends up getting a good
+result. Full action is described here.
+The tiny radio music all the stuff that
+was in our prompt. Perfect. [music]
+Okay. Down here we can set how long our
+videos are.
+So let's actually set up here the model
+that we want. I strongly recommend
+Cedance 2.5. Now, I know it's one of the
+most expensive models on the market
+right now, but it also sticks to the
+references the most closely that I've
+seen with any model. And you can also
+use draft mode, so generate a 480p video
+first before going whole hog and [music]
+creating it in HD, which is a lot
+cheaper and I think kind of a cool
+feature. So, we set the length to, of
+course, the length of the input video,
+10 seconds, 16x9, sound on, and again,
+draft mode 480p just to see if uh we're
+getting somewhere close to where we want
+to be. Let's generate. All right, the
+moment of truth. Our first generation in
+draft mode.
+>> [laughter]
+>> Um, yeah, that's super super close to
+the Blender blocking. So, I guess I mean
+this is obviously proof that we can
+control very precisely the camera
+motion, the character motion, and the
+blocking uh almost too precisely. So, we
+could try adjusting the prompt a little
+bit and getting not quite so close to
+this [music] result because the guy
+moves like he's uh you know lagging in
+an online game or something. It's stuck
+too closely to the animation of the
+character. But generally this technique
+[music] is really really powerful. So,
+usually the prompt use video one
+precisely is helpful because otherwise
+it goes too far away from the reference.
+If you do have this experience where the
+characters are a little too blocky, a
+little too choppy, you can try something
+like, "Use video one only as a guide for
+camera position, camera moves. The
+figures are placeholders. Do not copy
+their poses or body mechanics." All
+right, we're now ready to watch the
+final version that I believe combines
+most of my priorities for [music] this
+technique. First of all, this video
+proves we can control camera motion and
+cuts via Blender. It also shows that we
+have a decent amount of control over
+character movement and Claude is really
+really getting good at blocking
+character poses and controlling that
+sort of thing. And lastly, this is an
+absolutely valid technique for many
+sequences. I probably wouldn't use it
+for everything cuz oftentimes you can
+just prompt motion and get decent
+results. But really trying to use this
+technique over an entire sequence of
+shots impressed me. This is really
+really promising and I'm sure many of us
+will discover what more one can do with
+these techniques. So let's have a look.
+So of course there are things that are
+kind of classic AI mistakes, right? This
+bottle just kind of breaking under his
+arm. He still moves very video gamey. I
+think in part that's because of the
+cyberpunk connection and also Claude
+isn't perfect and Cance will try to
+stick really really close to the
+reference video. So do be aware of that.
+But overall I'm impressed with this
+technique. I had a lot of fun figuring
+out the best way to do this with the
+least amount of effort by creating that
+starter kit for you. And uh I hope you
+have lots of fun with it. And that's how
+easily you can use an LLM and free 3D
+software called Blender to control your
+AI videos to a degree that just a prompt
+never could. I hope you learned
+something today. I hope you enjoy this
+technique in your own projects. And see
+you soon. Thank you so much for watching
+this video and as always, if you want to
+get the latest AI workflows, I highly
+recommend checking out membership over
+at Curious Refuge. We have courses
+across a wide variety of AI topics from
+AI animation to AI filmmaking and we
+even have one on-one mentorship with
+professional artist success managers who
+would love to help you in your creative
+journey. You'll find all of that and
+more using the link below this video.
+And of course, be sure to like and
+subscribe if you want more tutorials
+like this in the future. Thank you so
+much for watching and we will see you in
+the next one.

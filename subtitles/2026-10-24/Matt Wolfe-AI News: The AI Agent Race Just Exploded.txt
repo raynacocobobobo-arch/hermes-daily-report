@@ -1,0 +1,975 @@
+UP主：Matt Wolfe
+标题：AI News: The AI Agent Race Just Exploded
+链接：https://www.youtube.com/watch?v=NC4h5kWH_-A
+
+[groaning]
+>> There was legitimately a ton of news in
+the AI world this week. We got tons of
+new models, and I'm going to break down
+what I think matters. So, let's get
+right into it. I'm changing things up
+slightly this week, and instead of
+talking about what was probably the
+biggest news of the week, I'm going to
+talk about what I found to be the most
+interesting news and the coolest news
+this week. For me, probably the coolest
+thing that I saw this week is this new
+world claw model from Tencent. Now,
+unfortunately, this isn't a model that
+we have access to actually play with
+yet, but I just found it really, really
+cool, so I wanted to share it first.
+It's a tool where you can actually
+prompt an entire 3D world into
+existence, and every little individual
+element of this 3D world here is
+actually an editable individual asset.
+So, for example, generate a snowline
+village. It generated the entire
+environment, but it also generated every
+little individual asset, the trees, the
+houses, the carts, the little lamp post.
+Everything you see in this was generated
+separately as individual assets. Here's
+another one, a desert battle scene.
+You've got the desert here, and you've
+got all these assets. There's a depth
+map, there's a normal map, there's an
+instance map, and every single one of
+these is a separated asset, which I just
+think is super, super cool. And there
+are a ton of different examples here on
+their website of different worlds with
+the generated assets. Like this one has
+dragons generated inside the world here,
+and I don't know. I just find this
+really impressive. This reminds me of
+some like, you know, Diablo vibes or
+something. And these aren't like 3D
+Gaussian splats or nerves or anything
+like that. In fact, if we take a quick
+look at the research paper, don't worry,
+I'm not going to get too into the weeds
+here. They actually have a terrain
+planning agent, and the tool planning
+agent can actually do a web search to
+get more details about that specific
+terrain. When the scene specification
+contains concepts that require external
+knowledge, the agent invokes a search
+tool to retrieve relevant references.
+And then to actually generate the train,
+it uses GPT image 2. So, the same image
+model you get when you prompt an image
+inside of ChatGPT. It also employs the
+model out of Meta called Sam 3, which
+takes an image and segments out every
+element of that image. So, if let's say
+GPT image 2 generates an image with a
+whole bunch of different assets in it,
+it will then use Sam 3 to segment those
+all out. What this Tencent Hunyuan model
+is most known for is actually taking 2D
+images and converting them to 3D images.
+So, it will generate the images with GPT
+image 2, use the segment anything model
+to break out everything from within the
+images, and then use the Hunyuan
+technology which converts 2D images into
+3D images to create all of the 3D assets
+that go into the world. I find it
+really, really cool. I feel like
+research like this has huge implication
+in like the gaming world, obviously, for
+building things like levels. But, I can
+also see this being used for like
+creating little 3D animations, you know,
+like the worlds that people use to make
+their own version of like a little, you
+know, Toy Story animation or something
+like that. I also believe this could be
+used to develop virtual environments
+that you can train robots in so that
+robots could see every possible scenario
+and train in virtual environments before
+being put into the real world. That's
+kind of how they're already starting to
+train robots now. This seems like
+another pathway into that. Now, again,
+unfortunately, this isn't something that
+we have access to. They do link to their
+GitHub here, but when we pull open
+GitHub, there's really nothing here yet.
+But, it's actually something I'm pretty
+excited to get my hands on. All right,
+now let's move on to the thing that
+probably has the most people talking
+about it this week. And that's the new
+Grok bot out of SpaceX AI. Now,
+interestingly, X AI or SpaceX AI, I'm
+probably just going to call them X AI to
+keep it easy. They recently acquired
+Cursor, and this is a bot that has
+agentic use cases similar to what you
+You do in Cursor, but it's not cursor.
+It's almost like a competing product to
+cursor. Where cursor is probably a
+little bit more designed to be used
+specifically by coders, this new Grok
+bot seems to be for people that want to
+use agents like an open claw or a Hermes
+or that type of thing without needing to
+think about or touch or look at code.
+Probably closer to like a Claude co-work
+or Codex work competitor than it is to a
+cursor competitor, I guess. So, I'm
+going to go ahead and download it for
+Mac OS. Now, once we're inside Grok bot,
+you can basically create little agents
+that are designed to do different things
+or have different focuses. They even
+give you some suggestions down at the
+bottom, inbox triage, a chief of staff,
+a negotiator, a prototyper, researcher,
+shopper, apartment scout, etc. The chief
+of staff it even suggests you use this
+one to manage other bots. Let's create a
+research bot. You can name them whatever
+you want. I like to go pretty literal
+with my names. So, it knows
+[clears throat] it's named research bot
+and it says, "I'm research bot. I dig
+into things, pull sources, and come back
+with clear take so you don't have to
+wade through it all yourself. What's the
+first thing you want me on? A topic,
+company, paper, etc." So, just by naming
+it, it knew its role. So, I'll just say,
+"I want you to keep on top of the latest
+AI news for me and tell me what I need
+to know about it and why it's
+important." And while it's doing that,
+let's go ahead and create a new bot.
+I'll click create new. I'll go ahead and
+name this one email triage. While it's
+thinking about its next steps, let's see
+what research bot says. "All right,
+weekday mornings at 8:57 a.m. I'll send
+a tight brief. What moved, why it
+matters, nothing extra. The first one is
+coming as soon as I've checked today's
+news." So, it's looking it up for me
+right now. The email triage noticed I
+named it email triage and is checking to
+see if it has access to my email. It
+noticed it doesn't and asked me if I
+want to connect my Gmail. We can go
+ahead and authorize and now it says
+Gmail's connected, pulling your inbox
+now. Let's create a chief of staff. It's
+going to know its role just by how I
+titled it. While it's doing that, I can
+jump back to research bot, see what news
+it found for me. We got news out of
+Nvidia, Gemini 3.7 flash, Grok 4.6, news
+out of Anthropic. So, it found a bunch
+of news for me. And now it knows at 8:57
+a.m. to send me new news. Jumping back
+to my email triage here, it did look
+through my emails. I'm going to blur it
+cuz it's obviously it's some sensitive
+stuff here. And I can have it, you know,
+draft an email to one of my messages,
+sweep the pitches from today, set a
+morning digest, things like that. And
+our chief of staff is set up up here.
+What's the main thing you want me on
+calendar and priorities, email, running
+the other bots, or something else
+entirely? I'll just say running the
+other bots. So, let's take a little bit
+more of a look around Grokbot here. If I
+click on plugins, you can see all the
+different things that we can connect it
+to. So, Gmail, Google Drive, Google
+Calendar, Granola, Notion, Slack,
+various agent orchestration tools,
+customer support tools, data analytics.
+So, tons and tons of tools that you can
+connect this to and give it access to.
+Now, another interesting thing that
+Grokbot does is each of these agents has
+its own little like computer that it has
+access to. We can actually see what our
+agent's computer sees right now. It's
+got access to Chrome, a file manager,
+and the terminal. And we can actually
+teach it a task. So, if you have
+something you want it to do on a
+recurring basis, you can come up here,
+click teach a task, it'll start
+recording the screen, and then you can
+just walk through the task that you want
+it to do. Once you're done doing the
+task that you need it to remember, you
+hit stop, and then it learns from the
+demonstration and creates a new skill to
+do the thing you just did whenever you
+ask it to. They've also got what's
+called routines, which is basically like
+cron jobs or automations or recurring
+tasks. I can hit plus on here, give the
+routine a name, give it instructions,
+and then tell it when to run the
+routine. So, it can run on a schedule,
+like every hour, every day, every month,
+you know, whatever schedule you want,
+but also based on other events
+happening. So, if it's connected to
+Slack, anytime there's a new Slack
+message, it could trigger a prompt.
+Every time there's a new get event, it
+can trigger a prompt, things like that.
+So, you can set these routines that
+happen on an automated basis. So, again,
+this is for people that just want it to
+go and do stuff for you. You give it the
+tasks you want it to do on a regular
+basis. You show it how to do the tasks.
+You schedule the tasks up so they happen
+on autopilot, but maybe you don't want
+to have to think about code. You don't
+really need to see all of the thinking
+process behind the scenes. You just want
+to create a bunch of sort of automated
+agents that do things for you. That
+pretty much seems like the main use case
+for this as of right now. They do also
+have a mobile app. So, once you create
+your agents, you can manage these agents
+from your phone, and they can continue
+to do things on the computer because
+again, they have their own computer. The
+computer is in the cloud. It's not
+actually doing things on your computer.
+It's doing them on its cloud computer.
+So, that's the new Grok Bot out of xAI.
+Another big update comes out of Artlist.
+Now, if you've seen the new Seed Dance
+2.5 model that just dropped a couple
+weeks ago, it's an insanely impressive
+model. And Artlist just announced that
+Seed Dance 2.5 is now available directly
+on their platform. Now, what makes this
+model really cool is that it can
+generate videos up to 30 seconds in just
+one go. So, you can build out a whole
+scene without needing to stitch together
+a bunch of tiny clips. And you can also
+use up to 50 reference images for, say,
+a character, product, or location, or
+visual style, and it will stay
+consistent from shot to shot. So, if you
+want to try it out for yourself,
+you can access Seed Dance 2.5 right
+inside Artlist alongside the rest of
+their creative tools. Just head to the
+link in my description box to sign up,
+and thanks so much to Artlist for
+supporting my channel and sponsoring
+this portion of today's video.
+Now, one of the big issues with AI and
+AI just being everywhere now is that you
+really can't tell anymore what's AI
+generated and what's not. AI is getting
+better and better at looking and
+sounding more real and more human in
+pretty much all areas in text in video
+in images in music and all of it is
+getting harder and harder to tell. And
+now a lot of these companies are trying
+to solve for that and a lot of people
+aren't very happy about it either. So
+for example, Claude is starting to put
+little invisible watermarks into the
+content that it generates. To support
+transparency, Anthropic is working to
+include machine-readable marks in
+content that Claude generates. Claude
+markings cover output from supported
+models everywhere you use Claude
+including Claude platform API, Claude,
+Claude Code, Claude Co-work, and Claude
+Tag. Embedded watermarks will apply to
+all generated text. Marking will apply
+to output from supported models wherever
+Claude is offered worldwide. So when a
+supported Claude model generates text,
+it weaves an imperceptible watermark
+directly into the text itself. You won't
+see it and it doesn't change the
+meaning, quality, or readability of
+Claude's response. Because the watermark
+is part of the text, it will travel with
+the text when it's copied and pasted
+elsewhere and may persist through some
+editing. Now it does go on to say that a
+detected mark provides a signal that
+content was processed by Claude, but
+it's not fully conclusive. They also say
+that lack of detected mark doesn't mean
+the content wasn't AI-generated. And
+again, a lot of people really are not
+happy about this. They want to be able
+to write their substacks and their blog
+posts and their newsletters [laughter]
+with AI and not have anyone notice that
+it's AI. But also, it seems like the
+easiest workaround is just letting AI
+write the initial draft and then you go
+through and edit it and tweak it and
+sort of reword it yourself, which you
+probably should be doing anyway. I also
+think like a flurry of tools are going
+to pop up that will figure out how to
+strip these watermarks anyway. If tools
+pop up that can detect them, there's
+definitely going to be tools that pop up
+that will help reword things, pass them
+through the detector to make sure it's
+no longer detecting the watermark and it
+will keep on sort of editing the text
+until it passes the watermark test. So I
+don't really think that this is going to
+work long-term, but I am actually kind
+of happy, believe it or not, that a lot
+of these companies are trying to make it
+more and more obvious when stuff is
+generated by AI. And along similar
+lines, this is actually news from last
+week, but it's so relevant to what we're
+talking about, I'm sharing it this week.
+And that's that if you generate music
+with AI, specifically with Suno, well, a
+lot of the fun there might be ending as
+well. Suno released this article called
+how we're building the future of music
+responsibly. They do say, "While we
+don't think it's our role to decide what
+has artistic value, we have an important
+responsibility to make it harder to
+abuse AI tools in ways that undermine a
+healthy music ecosystem. In the coming
+weeks, we'll be adopting new audio
+watermarking and fingerprinting
+technology so we can partner more
+closely with distribution platforms on
+combating fraud and misuse." So,
+basically, Suno songs are going to have
+watermarks in them, and if you upload
+these Suno songs to YouTube, Spotify,
+Apple Music, you know, wherever the
+music's distributed, it's going to
+signal to those platforms that this song
+was AI generated, and then those
+platforms, it's up to them to decide
+whether they want to pass that
+information along to the end users. They
+also announced they'll introduce a new
+download policy designed to limit the
+ability to mass distribute songs on
+streaming platforms. And well, what that
+actually looks like in practice, if we
+check out their billing page now,
+starting on September 3rd, if you're on
+their less expensive pro plan, you can
+download [clears throat] 20 songs per
+month. can generate, you know, whatever
+your credits will allow, but you're only
+allowed to download 20 times, and then
+it won't let you download any more. If
+you're on their more expensive $24 a
+month plan, you can download 60 songs
+per month. Again, starting September
+3rd. I know a lot of people that
+generate music with Suno are freaking
+out about this and canceling their Suno
+plan, and I understand. They're
+watermarking it, and you're they're
+limiting how many songs you can
+download, but I also know that a lot of
+people are frustrated that they'll
+listen to a song on Spotify, find out it
+was AI generated, and not like the fact
+that they were listening to AI generated
+songs, you know, for their own ethical
+reasons, or whatever reason you have
+against listening to AI songs. I feel
+like people should know. I also
+understand the counterargument.
+Sometimes I do know people that make a
+lot of YouTube videos, and they just
+want like subtle sound beds under their
+video, and they'll use Suno to make
+songs that have no lyrics, that it's
+just like background music. And if you
+put out a lot of videos, and you use
+Suno to generate just like subtle
+background music in those videos, well,
+this is going to impact you as well,
+because now you're going to be limited
+to how many downloads you can get. And
+maybe the rest of the video isn't AI
+generated, but just that underlying
+sound is, and is that watermark going to
+cause that whole video to be marked as
+AI? You know, there there are like some
+subtleties there. The first time I built
+the original Librarian game, I wanted to
+make some background music on the the
+game, and I wanted a few different songs
+to sort of cycle through, so it didn't
+have the same song every time you played
+the game. I generated low-fi beats to be
+the background music of those games
+using Suno. Now, personally, almost
+every use case I have would probably
+fall under me downloading 20 songs or
+less a month, so I don't think it's
+going to have a huge impact on me, but I
+do understand that a lot of people are
+frustrated, and this is probably going
+to push them to some of the more open
+models, or to some of the other
+companies that have song generation that
+don't have watermarks or download
+limits. So, it is what it is, but Suno's
+still the best when it comes to
+generating music. I mean, it's the best
+quality music generator. I got mixed
+feelings about this one. But along the
+same lines, Spotify, they've decided
+they're going to make sure it's very
+clear when you're listening to AI or
+not. So, right now you can voluntarily
+share if your profile represents an AI
+persona through Spotify for artists. We
+hope that artists will be transparent,
+so we're giving them the opportunity to
+disclose, but we won't rely on
+self-disclosure alone. Spotify will also
+review artist profiles and identify
+those whose public identity, the
+identity an artist presents on their
+profile, including name and imagery,
+appears to represent photorealistic
+AI-generated identities. Starting in
+mid-September, you'll start to see the
+AI persona badge appear on artist
+profiles. Also, if you are determined to
+be an AI artist, you will not be
+included anymore in editorial or
+algorithmic recommendations. So, you
+won't see any music from AI personas in
+your personalized recommendations unless
+you follow those AI personas. So,
+Spotify is really starting to crack down
+on this. And again, I'm a fan of the
+idea. Now, if I like a song, I like a
+song. However, I do want to know if it's
+AI-generated or not, just because I do
+have a bigger appreciation for music
+that I know, like a band created or
+individuals put a lot of time into
+without using AI. Like, I want to know
+one way or the other if it was AI or
+not. That doesn't mean I'll never listen
+to AI-generated music. There might be
+some songs that I just like, I really
+dig, but I do want to know. Probably an
+unpopular opinion among the AI world. We
+also had like a flurry of new model
+releases this week. But before I start
+breaking down all the models that came
+out, I do want to say something real
+quick. Yes, I do have eight different
+model announcements that I'm going to
+break down pretty quickly here. But if
+I'm being totally honest, most of them
+feel like pretty marginal updates. Every
+once in a while, a really big model
+comes out that just blows everybody
+away. Fable was one of those. I think
+GPT 5.6 Soul was one of those. Prior to
+that, like Opus 4.6 was one of those big
+leaps. Prior to that, it was maybe GPT-4
+or Gemini 3 Pro. It feels like lately we
+just get tons and tons of new models
+just thrown at us all the time, and most
+of them were just like teeny, tiny
+marginal improvements that 99% of the
+world's never really going to notice the
+difference on. Like, maybe a model got
+slightly cheaper or slightly faster or
+like one point better on a benchmark,
+and I feel like most of what we got this
+week is a lot of that kind of stuff. But
+I also know a lot of people tuned into
+these videos to make sure they stay
+fully looped in on all the latest AI
+news. So I don't want to skip over them.
+I don't want to act like all these new
+models didn't come out this week, but I
+also don't really super care to go too
+deep into every single one of them
+either. [laughter]
+They're just not going to change
+anybody's life in any real meaningful
+way. Let's just be totally honest about
+that. All right, I'm done rambling.
+Let's check them out. I've heard most
+people talking about this week, the one
+that feels like the biggest leap out of
+all of the models that were talked about
+this week is Grok 4.6. Now the benchmark
+I tend to pay attention to the most is
+this deep swee benchmark. This is the
+one that most people that do any sort of
+software development will say has the
+closest correlation to you actually
+noticing a jump in AI coding. And this
+follows along to pretty much how I use
+the models right now. GPT 5.6 Soul is
+pretty much my favorite coding model,
+the one I use the most. Fable 5 is
+probably my second best, the one that I
+use the second most. Well, this Grok 4.6
+kind of is almost as good as those two
+models. Now when it comes to like
+knowledge work type stuff, people look
+at this GDP valve and Grok 4.6 is the
+new leader in this one here. Harvey Lab,
+which looks at sort of like legal use
+cases, it also is beating everybody in
+that one as well. So, I mean, it's a
+good model and the pricing is $2 per
+million input and $6 per million output,
+you compare that to GPT 5.6 Soul, I
+mean, it's a huge discount. $5 input to
+$30 output. So two in and six out.
+You're going to save quite a bit of
+money using it and get fairly close to
+the capability. But again, when I'm
+generating code, I mean, if it's me
+personally, I'm just going to jump to
+the model I like to use the most for
+coding and I am on a pro plan, which
+does cost me 200 bucks a month, but I
+still manage to get most of what I want
+to do done without actually having to
+spend more money on top of my $200 a
+month. So, I'm just going to go and use
+the best model I have access to. Here's
+how Grok 4.6 performed on BusyBench. You
+can see what it generated here. It costs
+a little less than 8 cents to generate,
+used 13,000 tokens, and took about 3
+minutes and 5 seconds to generate. And
+my LLM as a judge, which uses three
+different LLMs to judge this, ranked it
+at number 43 overall on the leaderboard,
+which interestingly, it ranked lower
+than Grok 4.5. It actually thought 4.5
+did a better job. Again, take these
+rankings with a grain of salt. It is LLM
+as a judge, so very subjective. So,
+while this is a pretty good model at a
+better price, there are still models
+that are going to be quite a bit better.
+However, Elon did announce that 4.7 is
+significantly better than 4.6 and should
+be ready in 3 to 4 weeks. So, we'll test
+that one out and see how that one does
+in a few weeks here. Google also
+released another model this week. Not
+another Pro model, not Gemini 4, but
+Gemini 3.7 Flash. So, we got 3.6 Flash a
+few weeks ago. We've been hearing we're
+getting Gemini 3.5 Pro for a while, but
+it keeps on getting delayed. People are
+still expecting that, but instead of
+some big state-of-the-art model, we got
+another Flash model in Gemini 3.7 Flash.
+When we start looking at some of these
+benchmarks here, they're not even really
+comparing this one to any of the
+state-of-the-art models. We can see 3.7
+Flash here on Deep Sweet, got a 65.3%
+but it's comparing it to Sonnet 5, not
+Opus 5, not Fable 5, Sonnet 5 and 5.6
+Terra. So, not even like the best GPT
+models. Where this one really shines is
+again in cost. 3.7 Flash is available
+through the end of the year at an
+introductory price of 75 cents per
+million input tokens and $3.75 per
+million output tokens. If we look at
+this chart here, we can see cost going
+down to the right and then the deep
+sweep score on the left. So, we can see
+Gemini 3.7 flash is pretty far to the
+right, meaning that it's pretty
+inexpensive to use and it's pretty high
+up here as far as intelligence goes.
+Now, it's not at the level of Opus 5. It
+seems to be sort of in line with Fable 5
+but a little bit lower and a little bit
+lower than Chem E K3. So, we can see the
+path that these flash models have
+followed where they're getting cheaper
+and cheaper to use while getting big
+jumps in intelligence. Now, here's the
+rest of the benchmarks if you want to
+take a quick pause and look at them, but
+interestingly, it is really good at
+generating SVGs. Here's what it did on
+BusyBench and we can see it cost a
+little less than 9 cents, used 23,000
+tokens, and took 1 minute and 19 seconds
+to generate. But, if we look at the
+leaderboard, my LLM as a judge here
+ranked this as the new leader of
+BusyBench saying that this is the
+closest looking one to Busy so far. All
+right, so the next model that we got
+this week actually comes from a Meta.
+This model's called Muse Glimmer and
+it's an open agentic model that runs on
+your device. So, it's a smaller model.
+It's not going to be the most
+state-of-the-art intelligence because
+again, small on-device open-weight
+usually not going to be the most
+state-of-the-art. So, when we look at
+the benchmarks down here, they're
+benchmarking it against other similar
+models. Gemma 4 31B, Quinn 3.6 27B,
+models within that same open-weight but
+smaller parameter models. And in its
+class, it pretty much outperforms all
+these other models in a lot of the
+benchmarks. GDP valve for, you know,
+knowledge work type stuff not as good as
+Quinn 3.6, but still not too far off, I
+guess. But again, these ones are
+designed for local deployment. It's
+meant to be downloaded and run with
+fairly consumer GPUs. It does say at
+full precision this model would require
+55 GB of memory. So, I mean, like, you
+can do it on a consumer PC with like the
+highest-end GPUs. Like, this would run
+on a DGX Spark. But, they also have a
+quantized version that can run with less
+RAM. So, you know, you'd get this one to
+run on like a 5090 or something. But,
+again, the big deal with this one, it is
+an open weight model. So, it's designed
+to be downloaded, run locally. You can
+fine-tune it, things like that. I did
+run it through BUSE bench, of course,
+and well, yeah, that's what you get. It
+generated for, you know, a half a penny
+and used 4,289 tokens and only took 25
+seconds. But,
+yeah, you see what I see. And we got
+another open weight model this week.
+This one out of NVIDIA called
+Nemotron-3.5-Lightning. And this one, I
+think, is in
+pretty much the same class as the model
+we were just looking at. It's a 30
+billion parameter model, just like
+Glimmer, and it is an open weight model.
+And here's some benchmarks for that
+model, if you're interested. The light
+green on the left is this new how it did
+on BUSE bench, yeah, not a whole lot
+better than Glimmer. These smaller
+open weight models, not the best at
+generating SVGs. But, it did do it for a
+third of a penny and only took 40
+seconds and used 18,384
+tokens. Deep Seek out of China also
+released a new model in Deep Seek V4
+Pro. previously release a V4 Pro preview
+model, but this is a generally available
+release here. And it does have some
+updated benchmarks over the previous
+model. When looking at Deep Seek here,
+it scored a 62.7,
+which is better than GLM 5.2 and even
+better than Opus 4.8, but not as good as
+Fable or Kimmy K3. And definitely not as
+good as GPT 5.6 Soul. Running this one
+through BUSE bench here, this is what we
+got. I don't think it knows what Gary
+Busy looks like, but it looks like a
+face at least, right? You can see it
+scored decently in the face coherence
+area. But, it took about 8 cents, 25,000
+tokens, and 3 and 1/2 minutes to
+generate. Microsoft released a new model
+called MAI Code 1.1 Flash, and I don't
+know if they really released much
+benchmarks or details about it, and it's
+not inside of Open Router, which is what
+I use for Busy Bench to run all of my
+benchmarks, so I couldn't even benchmark
+this one on Busy Bench. And then, in the
+last bit of model news, I know there's
+been a lot. OpenAI announced GPT 5.6
+Soul with ultra-fast mode. Now, this is
+using the Cerebrus GPUs and generates
+750 output tokens per second, so it is
+going to use their best best model, be
+really good at coding, and be
+ultra-fast. But, they only released this
+to a few like trusted testers. I'm not
+one of them, so I don't have access to
+this model as well. But, we do see a
+demo here where this is generating
+something ultra-fast on the left, and
+this is the sort of standard 5.6 Soul
+where it's generating much slower. Like,
+this one's already done and active,
+while this one's still generating
+forever. I'm really excited to play with
+these really fast models, especially
+like state-of-the-art intelligence like
+5.6 Soul, but like practically instant
+results using those models. So, when you
+think about it, if you have 5.6 Soul,
+which is really smart, and you let it
+think for longer and longer and longer,
+but it's also doing that many tokens per
+second, so every minute it's doing so
+much more thinking than it would have
+done, you're just going to get like
+insane results out of this in way less
+time. All right, so I know I've covered
+a lot already, but I did say there was a
+ton this week. There's still more I want
+to cover, but I'm just going to break it
+all down really quickly from this point
+on, so let's jump into a rapid fire.
+Let's start with some news out of Open
+AI. If you really like to use Codex or
+the ChatGPT app, but you're a Linux
+user, well, now the ChatGPT desktop app,
+which includes ChatGPT, ChatGPT Work,
+and Codex, is now available on Linux
+systems. Jumping over to Anthropic news,
+if you use Claude Code, auto mode is
+going to start being the default now.
+So, starting August 14th, the day this
+video is coming out, new sessions on
+Pro, Max, and Team plans will run in
+auto mode. So, basically, for most
+things, it's going to automatically
+approve them, so you don't need to jump
+in and approve every little step, unless
+Claude deems that it's something that
+could be harmful. Now, you could already
+turn this on, but now it's going to be
+default, and I think most people are
+going to really like this. You're not
+going to have to approve everything. You
+can just prompt something, walk away,
+and ideally come back like an hour later
+to a finished project. There's been an
+update to the Claude Chrome extension.
+It's now using Claude Co-work, and
+actually can take more control on your
+behalf. So, in their example here, they
+open the Claude sidebar extension inside
+of Chrome, and then they have it do work
+with all of the open tabs to generate a
+report, and it actually goes through,
+screenshots all of the various open
+tabs, and then, once it's done
+screenshotting all of the open tabs, it
+continues to work inside of Claude
+Co-work on everything that it just
+screenshotted, then going on to generate
+a report directly inside of the Claude
+app. If you use Claude Code, your
+various Claude Code sessions can now
+message each other. This is actually
+kind of similar to what we were looking
+at with Grok Bot earlier, where your
+different agents could be working on
+stuff, and then message other agents
+that are working. Instead of having to
+re-explain yourself in another session,
+you can now tell Claude to do it. It
+sends a summary, and the other session
+picks it up mid-task. We got a new video
+model in LTX 2.5. It can generate
+10-second AI videos from an image in
+just 6.8 seconds if you're using
+Nvidia's superchips, and it's an open
+weight model. So, here's an example of a
+video clip that it generated. Here's
+another clip of some drones carrying
+some goats. And it does say that it runs
+locally on Nvidia RTX GPUs. Alibaba also
+released a video model last week called
+Juan 3.0 that generates some pretty
+decent looking videos as well. And these
+ones can generate up to 30 seconds per
+clip. So, another really really good
+video model that you can use. Jumping
+back to Microsoft, they also released a
+new image model MAI Image 2.6. And as
+far as the text image arena leaderboard
+goes, it's currently ranked number two
+just behind GPT Image 2. If you're not
+familiar with the arena leaderboard,
+it's basically a blind test of
+generations. So, you give it a prompt,
+it gives you two image outputs, and then
+people vote on their favorite output not
+knowing what model it generated. And
+then based on that blind voting, that's
+how these leaderboards are created. So,
+based on just taste test essentially,
+people ranked this one second only
+behind GPT Image 2. If you're a Twitch
+streamer and you don't want AI models to
+train on your stream or on the comments
+on your stream, you have to manually
+turn that off now. As of right now,
+Amazon can train on your stream, your
+video on demands, and even the comments
+that come in through your stream. So,
+just something to keep in mind if you do
+use Twitch. Speaking of streams, I'm
+going to start doing some streaming. I
+think the next one I'm going to do is
+like next week, but I'll mention that
+again in a minute. And finally, Google
+DeepMind released this this week, which
+is an AI model that can read sign
+language. It's called sign language to
+text or SL2T.
+And we can actually see it in use on
+some of their demo videos on the
+website. This person is doing sign
+language without any audio, and it's
+actually transcribing the sign language
+directly onto the video. That close
+caption you see is reading the sign
+language as he is signing here. So, a
+really valuable helpful use of AI in my
+opinion. Anyway, that's what I got for
+you today. Again, it was a really,
+really busy week. A whole bunch of sort
+of like little updates that combine to
+make it feel like a really, really big
+week. But, that's what I'm here for.
+There is a lot flying around right now.
+A lot of new AI announcements and
+launches and products and companies
+shoving AI into everything. It gets
+really, really overwhelming. And that's
+what this channel is for. I drink from
+the fire hose all week. I overwhelm
+myself and keep myself looped in on
+everything that's happening and then
+turn around and make a video for you
+once a week that helps break it all down
+and tries to tell you what matters and
+what's important and what's not. There's
+some channels out there that are going
+to try to make a video about every
+single announcement that comes out and
+convince you it's the biggest thing
+that's ever happened. That's not what
+I'm trying to do. I'm trying to simplify
+it for you and just give you one video a
+week that helps you understand
+everything that's going on and get the
+full picture. If that's something that
+sounds interesting to you, consider
+liking this video and subscribing to
+this channel. That'll make sure more
+stuff like this shows up in your feed.
+Also, as of this recording, I'm only
+about 5,000 subscribers away from a
+million. So, it'll also help me hit that
+milestone that I've been shooting for.
+Just a fun goalpost that I've been
+working on for 17 years now. Also, I did
+mention a couple minutes ago that I'm
+planning on doing some live streaming.
+So, next week, I think on Tuesday, I'm
+going to go live on this channel and
+we're just going to chat. I'm going to
+bring on one of my buddies. We're going
+to talk about everything that's going on
+in the AI world and just have some
+conversations, chat with the comments,
+pull up some tools and test some things,
+and just have fun on a live stream. I
+think it'll be a really cool experience.
+Hopefully, you'll join me. I'll set up a
+link where you can sort of set up a
+reminder if you want. But, that should
+be Tuesday. We haven't picked a time
+yet, but I imagine it'll be Tuesday
+midday sometime, maybe 11:00 a.m.
+Pacific is kind of what I'm leaning
+towards right now. But, again, thank you
+so much for hanging out with me, nerding
+out with me about all this AI stuff. The
+AI world has been a interesting roller
+coaster. I started talking about AI a
+little over 5 years ago when I started
+talking about it 5 years ago. The sort
+of discourse and the narrative around
+the AI world was this is just the
+coolest thing ever and everybody needs
+to see this and it's exciting and fun
+and everybody just thought it was cool.
+Fast forward to today and the
+narrative's more like AI is destroying
+everything, the internet is worse
+because of AI, data centers are
+destroying everything and if you use AI
+you're lazy and you suck. So, it's been
+a weird ride to like be in the mix of
+that narrative arc over 5 years. I'm
+still excited by cool new technology and
+trying to figure out the limits of what
+I can do with a lot of this stuff and
+I'm still having a lot of fun playing
+with it, but it's definitely been a
+bummer to see that narrative shift and I
+definitely also understand where people
+are coming from and why they're
+frustrated. So, anyway, I don't know why
+I'm rambling about that. That's the kind
+of stuff we're going to go deep on in
+our live stream. So, make sure to join
+us there. Thanks again for nerding out.
+I really, really appreciate you hanging
+out with me. It's been a wild roller
+coaster of the last 5 years in this
+journey to a million and I appreciate
+all of you that have been along for the
+ride. So, thank you so, so much and
+hopefully I'll see you in the next one.
+Love you. Bye.
+>> [groaning]

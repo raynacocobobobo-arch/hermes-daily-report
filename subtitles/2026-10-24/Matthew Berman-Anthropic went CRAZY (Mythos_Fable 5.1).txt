@@ -1,0 +1,457 @@
+UP主：Matthew Berman
+标题：Anthropic went CRAZY (Mythos/Fable 5.1)
+链接：https://www.youtube.com/watch?v=epogfA_0R4E
+
+Fable 5.1 is here. We have a brand new
+Frontier model from Enthropic. They say
+Fable 5.1 is not only better, but much
+cheaper with a big cost reduction, but
+not everybody agrees. I'm going to break
+this all down for you. Two new models
+released today. We have Fable 5.1 and
+Mythos 5.1. These are the absolute
+frontier of artificial intelligence. the
+best of the best coming out of
+Anthropic. And the main story, the main
+thing that Anthropic wants to convey
+here is that there is a significant cost
+reduction. Right now, Anthropic models
+are the most expensive models on the
+planet. Even the best models from OpenAI
+are substantially less expensive. And
+while we did get an effective price cut
+on Fable 5.1, it is and still remains
+the most expensive model on the
+Frontier. Now, Fable 5.1 will cost an
+estimated 25% less than Fable 5 for
+typical workloads. However, if you look
+at the actual pricing, the cost per
+million input tokens and the cost per
+million output tokens, they are the same
+as Fable 5. But there are two things
+working in our favor to get the price
+down. And remember, it is all about cost
+per task completed. The cost per input,
+the cost per output tokens, these things
+don't really matter as much because if
+one model uses a tenth of the number of
+tokens to complete the same exact task,
+it is much less expensive. And they even
+go on to say for highly agentic work the
+savings will often be much larger up to
+approximately 45%.
+Again a very healthy discount. Where the
+price reduction actually comes from is
+right here. They are reducing their
+pricing on cache reads. That means where
+the model reads inputs that have already
+been processed and stored. So, if you're
+doing a lot of agentic workloads that
+require you to give similar templates
+for the prompt over and over again,
+that's where you're going to see the
+biggest cost reduction. One of the other
+massive pieces of feedback and criticism
+for Fable 5 was the fact that they did
+not have a zero data retention policy.
+If you're using Fable, you were giving
+them your data. So, a lot of companies
+simply could [clears throat] not use
+Fable for that exact reason. They are
+still looking at the data except you
+control it. EFS which is enterprise
+frontier safeguards and zero data
+retention really matters to enterprise
+companies. EFS works by storing data in
+cloud infrastructure controlled entirely
+by the customer not anthropic. Now I
+want to talk about this zero data
+retention and specifically the EFS
+enterprise frontier safeguards. First of
+all why do they even do this? Why do
+they have to collect data? They say it
+is for detecting misuse. So they're
+still storing all of it, but this time
+they're going to allow you to store it
+and they get to read from it, which
+again is kind of weird. You're still
+trusting Anthropic with your data. They
+still get to look at it. You just get to
+control it. So it's kind of this like
+half measure. And I don't know if most
+enterprise companies are going to be
+okay with this because ultimately if
+anthropic still has access to your data,
+you still have a lot of those same
+concerns as you did yesterday when they
+were actually collecting and storing all
+of your data. Okay, but enough of all
+that. I know what you're here for.
+Benchmarks. So here's the first one.
+This is terminal bench science. And this
+is where Fable 5.1 got a massive boost
+in performance. And if you remember when
+Fable 5 was first released, a huge
+criticism of Enthropic was simply a lot
+of scientists could not figure out how
+to use the model without getting
+refusals, without the model saying,
+"Hey, I can't do that. That's against
+our policy." And I'm going to get back
+to that theme a few times in this video.
+Because there's this very well-known
+property of artificial intelligence. The
+more guardrails you put on it, the worse
+it performs overall. Basically when you
+restrict it from doing certain things
+you are effectively reducing its
+intelligence. So the mental model I have
+about this specific property is it is
+taking some amount of effort from the
+model to know when to refuse certain
+prompts. And if you are taking any
+effort away from the model the kind of
+unrestricted version of it will always
+be better. it will always have 100% of
+its capabilities versus some percent
+less when you restrict it. Okay. Now,
+back here, what we have is accuracy on
+the y-axis, cost on the x-axis. So, if
+you're not familiar with terminal bench
+science, it is a benchmark that tests
+the model's ability to kind of conduct
+real scientific experiments. So things
+like data analysis and recreating
+scientific analyses with code, proving
+theorems, model fitting, and all these
+really important things when you're
+trying to discover new science. And what
+we see here is that the loweffort
+Fable 5.1 is actually better than the
+max effort Fable 5 and significantly
+less expensive. So, Fable 5 High
+actually seemed to score the highest
+score. So, this is at 25% at a cost of
+$34. Whereas, Fable 5.1 low cost $11 and
+scored 26%. And the max all the way up
+here, if you don't really care about
+price, scoring 52.6%.
+That is effectively doubling the score
+on this benchmark. And if you want to
+test out Fable 5.1 and compare it to
+some of these benchmarks, you can do so
+in cursor, in factory, and of course in
+cloud code. And the cool thing is all of
+them work with here. Now here is the
+easiest way to publish anything to the
+web by your agents. Literally just
+install the skill and your agent will
+have the ability to publish a web page,
+a report, a game, PDFs, powerpoints.
+Basically, anything that you can think
+of, you can publish it easily. And
+here's one of the tests I ran with Fable
+5.1, which you can see right here. I
+just published it to here.now. You
+simply tell your agent to publish to
+here. Now, a few seconds later, you get
+a link that you can share with anybody.
+And the best part, it is free to use.
+So, go check out here.now. Let your
+agents publish anything to the web
+instantly. Click the link down below to
+go check them out. Thanks again to here.
+Now, probably one of the most important
+benchmarks out there if you're using
+these models for coding, we have
+Terminal Bench 4. And here, both Mythos
+5.1 and Fable 5.1 have now increased in
+quality and become cheaper overall. And
+I think just to point out what we were
+talking about earlier, look how Mythos
+5.1, which again is the same exact
+model, just different guard rails,
+scores higher than Fable 5.1 across
+every reasoning effort. And
+surprisingly, it's also cheaper. Not by
+much, but it is cheaper. And it is kind
+of significantly better. At max
+reasoning effort, it gets a 5% better
+score than Fable 5.1. Here's humanity's
+last exam. On the y-axis, once again, we
+have the pass rate or quality. On the
+xaxis, we have the mean cost per task.
+And what we're seeing is Fable 5.1
+didn't actually score all that much
+higher. Definitely scored higher,
+especially with tools, but at max
+effort, we have 65% as compared to Fable
+5 at 63.8%.
+And so, not that much different. Now we
+have cursor bench which is obviously the
+benchmark from cursor and here is where
+we have not only a big improvement in
+quality but also a quite substantial
+reduction in price. So at max reasoning
+effort we have a 70.5% for fable 5 max
+coming in at $17.32
+and then for fable 5.1 we have 73.4% 4%
+which is a nice bump coming in at $964
+which is much less expensive and we see
+that trend across all of the different
+reasoning efforts. Okay, so another few
+benchmarks I want to show. Here's
+computer use. We have a nice fivepoint
+jump right there. We also have GDP val
+which is an eval created by the OpenAI
+team and a massive leap
+130 point leap basically and that is
+better than Opus 5 which was incredibly
+good and a pretty darn big gap between
+that and GPT 5.6 Soul. Now they are
+saying that Mythos 5.1 and Fable 5.1
+don't cheat as much as Fable 5 and
+Mythos 5 did. And if you remember a few
+weeks ago, OpenAI had a model that
+basically broke out of containment
+during a specific hacking benchmark. And
+so this is all within the category of
+what's called reward hacking, optimizing
+for some goal and basically ignoring all
+rules except for trying to achieve that
+goal. And so from our review of its
+training data, Mythos 5.1 both attempts
+and succeeds at reward hacking or
+cheating at a lower overall rate than
+Mythos 5. So this is a good thing. And
+in fact, Enthropic just put out an
+entire paper specifically about a model
+that they removed all guard rails from
+and kind of encouraged it to go hack out
+of its system. Though generally our
+alignment evaluation showed
+improvements, our testing found the
+model can still sometimes bypass
+approvals and auto mode classifiers. And
+we all know Anthropic is very worried
+about distillation attacks. And if
+you're not familiar with that, it's
+basically just another company trying to
+steal the data straight from the model
+itself, asking it a bunch of questions,
+taking the answers, pairing those
+question and answers, and making a new
+model based on the intelligence that it
+just extracted from that model. And
+they're actually putting in an
+additional safeguard to prevent
+distillation. Now, it is funny that they
+say distillation is a safety risk. And
+this is very much their opinion,
+although I think most onlookers might
+disagree with this as I do. I don't
+think it is a safety issue. But here's
+why they say that the distilled
+capabilities can subsequently be
+released without adequate safeguards,
+which is basically an argument against
+open source. They didn't say it
+directly, but that is what they're
+saying because with open- source open
+weights models, you can just remove the
+safeguards. And they're basically
+saying, hey, if another company can
+produce a really good model and release
+it and it's not to our level of
+safeguards, what we believe, then yeah,
+it's unsafe. And so, this is a little
+bit technical. I'm just going to cover
+it briefly, but how they're doing it is
+new API accounts can no longer manually
+edit Claude's prior context in a
+multi-turn conversation while preserving
+the transcript of Claude's prior
+thinking. So basically what they're
+trying to prevent people from doing is
+changing the context over and over again
+to get the changes in chain of thought
+and basically recording those and that
+is all you need. Those are the
+ingredients to create a new model. They
+also say this model will have watermarks
+because of the EU AI acts code of
+practice on transparency of AI generated
+content. They are now required to put
+watermarks in models. Now, it's
+interesting that OpenAI hasn't talked
+about this. Anthropic has. Open AAI has
+not. So, this requires us to add a
+watermark, a numerical way of
+determining the likelihood that Claude
+was involved in writing a piece of text
+to the outputs of models released after
+August 2nd. So, basically, they're going
+to be able to determine if a piece of
+text was written by Claude or not. And
+they also say it shouldn't affect
+anything. You shouldn't be able to tell.
+The only way you'll be able to tell is
+if you ask us. Us being anthropic, which
+you know, okay, fine. All right. Now,
+back to cost. Cash reads are now 75%
+less. That is 25 cents per million
+tokens, which is actually quite cheap.
+That is a massive cost improvement. But
+the actual cost of non-cash hits, input,
+and output are the same exact cost as it
+was for Fable 5. So, I just finished
+recording this video and Artificial
+Analysis came out with their own stats.
+And it turns out Fable 5.1 is in fact
+not cheaper than Fable 5.0 on the
+artificial analysis benchmarks. In fact,
+it's more expensive. Let's take a look.
+So, number one, what they come out of
+the gate with is yes, Fable 5.1 is the
+best model on the planet. It is the
+absolute frontier. And we can actually
+see that on the artificial analysis
+website. Here it is coming in at a 66,
+the highest score so far ever. But even
+with the 75% cash read price cut, Fable
+5.1 still costs more per task because it
+uses 1.7x
+the number of output tokens. So it needs
+more tokens to achieve that same
+intelligence level, more tokens to solve
+a given task. And interestingly, it says
+it has the highest scores on agentic
+work task, but effectively tied with
+Opus 5. And Opus 5 is a great model. So,
+here's where it falls. Here's Claude
+Fable 5.1 Max with fallback 66. And we
+can see Opus 5 at 63. And then GPT 5.6
+Soul all the way down here at 61. Look
+at that. By the way, basically of the
+top 10 models, Enthropic holds eight of
+the positions, which is kind of nuts to
+think about. We have 5.6 6 soul and
+grock 4.6 right there coming in at
+number eight and nine. But here is where
+it really matters. $369
+per task completion. And if you look,
+here's Grock 4.6 at $1.23. And remember,
+way down here, here's GPT 5.6 so high
+coming in at 43 cents. We have GLM 5.3
+Max at 68 cents. I mean, these are
+incredibly inexpensive models down here
+and nearly the same score. Soul is just
+the best bargain for the intelligence
+that you actually get. All right, so let
+me show off some of the tests that I
+gave to Fable 5.1. Now, I just tested
+GPT 5.6 Soul and GLM 5.3. This is a test
+that I gave to both of those. Alex, put
+both of those on the screen while I show
+this, please. All right, so here it is.
+And in fact, it looks really good. If I
+zoom in, the details are fantastic. We
+have the little raincloud raining down
+into a beautiful lake, a little log
+cabin with a moving fire. I'd say this
+is definitely better than GLM 5.3, but
+maybe not quite as good as GPT 5.6 Soul.
+We have the little farm right here.
+Here's the tractor. Here's the windmill,
+the actual barn, some flowers.
+Everything looks really good. Here's the
+beach. Look at this one. This one looks
+really good. The ocean view, except it
+has this little shimmering right here at
+the bottom, which I don't know what's
+causing that, but tons of fish swimming
+around in this ocean. We have this boat
+on top. We have a little buoy bouncing
+around there. Look at those little
+seagulls floating around the boat.
+Really nice. So, yeah, overall very
+good, but I still think GPT 5.6 was
+better. All right, next. Here's the
+Rubik's Cube simulation. Of course, I
+had to do it. And yeah, it looks really
+good. Interestingly, it actually says
+the different sides, which I've never
+seen a model do before, but yeah, it has
+a bunch of different sliders that I
+asked it for. So, let's scramble it.
+There it goes. And solve it. Yeah, all
+models can pretty much do this. Now,
+what I'm looking for is the completeness
+of the simulation, the features that are
+available, and how well it follows the
+instructions. It does have a ton of
+different sliders. You can actually set
+the colors for each it looks like, which
+is really neat. Not something I've seen
+before. Sticker corner radius. A lot of
+these I've never seen before. So, very,
+very nice. Next, I had it create five
+different websites. Again, throw those
+up on the screen while I'm reviewing
+this, please. We have a website
+dedicated to apples. Here, it did not
+actually search the web for anything.
+This is all what it had in its weights.
+So, it created a picture of an apple.
+Looks pretty good. The website is okay.
+Here's some rankings based on sweetness,
+tartness, where you can use them. So,
+yeah, it it's okay. I wouldn't say this
+is fantastic, but it's a very complete
+website. And surprisingly, I don't know
+why this keeps happening, but when I ask
+the model for this Apple website, it
+gives me a very specific address. I
+don't know why it does that. That is
+concerning to say the least. Here's a
+website about the GGX Spark. So, it
+actually tried to create a 3D rendering
+of it. That is definitely not what it
+looks like, but okay. The website looks
+quite good. It is very much the colors
+of Nvidia. Yeah, it's good. I actually
+really like this. Let's see if I can
+type into it. I cannot, but it has a
+nice terminal view right there. I asked
+it to create a website about rubber
+ducks. I think this is actually quite
+good. You know, it's interesting. This
+is very similar to GLM 5.3. And now I'm
+thinking about that a little bit.
+Anthropic pretty directly called out
+these Chinese AI labs for distillation
+attacking them. And now when I'm looking
+at the colors being used, the tone, the
+assets, it is extremely similar in all
+of these examples. Here's a Galaxy Fold.
+This one is different. Okay. Pretty
+good. Pretty good. And then Tesla Model
+Y. Again, a terrible SVG rendering of
+what it thinks a Tesla Model Y looks
+like. This one is not like GLM at all,
+but I actually think the website is
+pretty darn good, you know, except for
+this. It did get the stats right. 300 m,
+3.3 seconds for the performance version.
+And then finally, I asked it to create a
+PowerPoint slide about data centers. And
+yeah, it looks okay. Nothing to write
+home about. Pretty good overall. So,
+I've published all of these tests to
+here.now. I'm going to drop links to all
+of them down below so you can check them
+out. So, I am definitely surprised at
+how similar some of these tests came out
+to GLM 5.3. If you want to see the full
+GLM 5.3 review and all of those tests,
+go check out that video right

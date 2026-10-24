@@ -1,0 +1,552 @@
+UP主：The AI Advantage
+标题：I'm Obsessed With New ChatGPT Voice
+链接：https://www.youtube.com/watch?v=_HzdjYg0vXs
+
+Okay, look at this. I haven't typed a
+single word. Matter of fact, my hands
+are here and chat is turning a real
+prompt into a page I can actually use.
+It's like, heck, using this stuff makes
+me feel like Tony Stark, like Iron Man
+sometimes. If you want, you can do a
+little
+I'll be honest with you. Throughout the
+last week, there were some
+announcements, but nothing came close to
+my obsession with voice. It's just these
+voice tools have become so good in the
+past two weeks that I decided to make
+today's video a follow-up to last week's
+video which you guys seem to really like
+that covered the new chaty voice that
+just sits there and does things with
+you. Now, for you to understand the
+depth of my obsession here, check out my
+chat account. Boom. 0% cuz I used it up
+mostly through voice. I finally gave in
+and I bought a pedal that I've been
+playing around with that I map different
+voice functions on so I can be
+completely hands-free like this and
+prompts just appear. Look, no hands,
+mom. No, on a serious note though, the
+voice features in chat are unbelievable.
+I have not followed up on a new AI
+feature in like 6 months. And what I
+want to show you today is more use cases
+and more ways that I found to go deeper
+like combining it with projects or
+skills. And I think this is the most
+relevant thing this week. You know that
+in this Friday video I always look at
+all the things that come out and then I
+select the one that I want to focus on.
+And this week it is chat GBD voice and
+other voice tools. Let's begin. So as
+mentioned last week we looked at the new
+chat GB voice. A bunch of you asked
+whether it could do real desktop work
+like use projects create reusable
+skills. So I tested those exact things
+and I want to show you that today. But
+because uh OpenAI's naming can be a bit
+confusing I want to clear things up
+first. So, I'm using voice inside chat
+GBT work on the new chat GPT desktop
+app. That's this one right here. The
+regular voice mode is built for
+conversations back and forth. This
+version can coordinate the tools and
+permissions available to work. That's
+the key to this and that's what's going
+to make today's demos possible. And then
+additionally, my shenanigans with this
+pedal here are just hooked up to Whisper
+Flow and I just use it across everything
+wherever I work. Honestly, I just want
+to note that I've been looking for like
+a solution for email with AI and you
+know there's things that help but my
+email inbox is so diverse that I can't
+really let go of answering emails. I
+still have to do that and that's fine.
+This it's not even chat voice. We'll
+look at that today. But this pedal has
+made it so simple. I just want to show
+this. Imagine you have like some emails
+open. Let's just pretend these three
+word docs are free emails and they're
+like, "Oh, I got to reply now." And you
+would start typing. No, look, no hands.
+I'm using the foot pedal. Hey, thank you
+so much for reaching out, but after
+considering some options, I decided
+against this opportunity. Talk soon.
+I had a look at your proposal, and I
+actually really like it. I think we
+could implement it as is. One note would
+be to add some context on our previous
+project to make this stick.
+Nope, not interested.
+That's how quickly you get through this.
+Honestly, it just feels smooth. I have a
+hard time describing it more precisely,
+except that the way you kind of move
+through tasks with a foot pedal is just
+better. Look, people have been telling
+me about this. I've been ignoring it,
+but I'm fully foot pedal pil. You should
+try to I got the fancy Elgato one. It's
+like 70 or 80 bucks. And then I use it
+with Whisper Flow right here if you
+don't want to be paying $20 a month.
+There's all these open source
+alternatives. One particularly caught my
+attention. It's called Quill if you want
+to tinker around with it. I still use
+Whisperflow cuz I like the convenience
+um on my phone, on my laptop, on my
+desktop. But yeah, there you go. You
+could probably get a $30 foot pedal and
+use open source Whisper Flow and get the
+same thing at a discount. But now enough
+foot pedal talk. Let's actually look at
+these Chachi use cases and there's some
+good ones. Okay, let's start with
+building things cuz it's just so fun.
+Generally speaking, like most people,
+you probably have prompts and skills
+laying around and they're all over the
+place, not in one neat place. So, I
+pulled five real prompts into one file
+and I want one page that anybody can
+actually use that I could easily share.
+This is just an example that I recently
+faced where I just wanted to share a few
+skills with a friend and my default
+sharing format often times has become a
+custom site instead of doing a Word
+document or a Google Drive folder. It's
+just sexier to be honest. So, let's do
+this. I'll just start a new voice chat
+and I'll say build me a website with
+sites using the file attached to this
+chat. It's a prompt library for
+nontechnical chat GBT users. Put the
+context sandwich first. Group the other
+prompts by what they help with. Add one
+sentence explaining when to use each
+prompt and give every prompt up copy
+button. Keep it simple, readable, and
+mobile friendly. Don't invent or rewrite
+any prompt. Show a preview before
+anything is published.
+>> Okay, let me take a look.
+>> And just like that, it's working
+already.
+>> Chat context for that attachment.
+>> What I need to do now is attach this
+file that I prepped.
+There we go. A little prompt library
+source pack. I will just send it. And
+honestly, it's just this. It's the way
+it kind of starts working as you're
+talking and then you add things. I love
+it. And again, you can combine it with
+answering emails, right? You could
+create sites to answer emails instead of
+just writing text. That's more exciting.
+Oh, by the way, for anybody wondering,
+Eigor, how are you using chat if you ran
+out of credits as you showed? Well,
+>> I added the exact I'll build the
+preview.
+>> Paying per prompt. I just can't stop.
+The preview is ready with the contact
+sandwich first and each original prompt
+grouped with a short when to use it note
+and a copy button. I'm just restoring a
+missing local component so you can
+review it before I publish anything.
+The unpublished preview is open now. It
+keeps all five prompts unchanged, puts
+the context sandwich first, groups the
+rest by purpose, and adds mobile
+friendly copy buttons.
+>> All right, not bad. Now make the contact
+sandwich the obvious starting point.
+Remove any decorative sections that
+don't help somebody use a prompt and
+make the copy buttons easier to spot.
+Like really easy. Got it. Let me tighten
+that up. The preview now starts directly
+with a bold, clearly marked context
+sandwich. Decorative framing is removed
+and every copy button is big, solid
+green, and high contrast.
+>> One more thing, check every prompt
+against attached source file. Flag
+anything you added or changed that
+wasn't in the source.
+>> Sure, I'll check that. This is a good
+little tip that I found helpful
+throughout the past weeks. Actually,
+I've been doing this for a while. Trust
+verify, especially when working with
+Opus 5 these days. I
+>> don't know. I'm not the biggest fan of
+that model. Sometimes I just ignore
+certain instructions. I feel like I
+can't fully trust it where like 5.6 I
+just trust. But Fable is just
+unbelievable. So, I often times use Opus
+4.8. Anyone else? Anyway, back to this.
+Okay, publish it. All right, publishing
+now. The reviewed version is ready to go
+live with the source prompts preserved.
+Exactly. It's processing for private
+publish. Done. It's published.
+Practically I prompt library. Open it
+and let me know what you want refined.
+>> And there it is. Just through speaking.
+It's just something about the smoothness
+of that while taking a while feels
+right. It feels good. If you haven't
+tried it yet, I recommend it. And
+especially building little sides like
+this on the side while doing other tasks
+and just muting this thing. You could
+also map your foot pedal to mute or
+unmute yourself. And then you can just
+have this sitting here all day until you
+run out of credits. It's a new way of
+life. Okay, so that's the flashy one
+that produces an artifact and people can
+try. But this next one is less flashy,
+but probably more useful every single
+week and it uses a skill in the middle,
+which is something that was recommended
+by a commenter last week. Shout out to
+this comment. Great idea. I was trying
+to add some context to some of these
+repetitive tasks. And yeah, turns out
+skills are the way to do it. If you
+didn't know, skills are now present
+inside of chat. And yeah, the same ones
+that work in claude can also be imported
+into here. So it's just great. So let's
+do this quick little use case that I
+personally face all the time, which is
+somebody requesting time to meet and I'm
+like, I don't know, I'm in the flow
+right now. I don't want to be dealing
+with scheduling and planning things like
+that. So let's say Daniel, who helps
+research some of these YouTube videos,
+send me an email or a Slack asking for a
+30 minute strategy call next week.
+Normally I would have to open up inbox,
+calendar, replies, events, then dig
+through the context before the meeting.
+Let's see if one voice conversation can
+solve all of this. Okay. Find the newest
+email from Daniel with subject YouTube
+strategy sync next week. Tell me exactly
+what he's asking for.
+>> Let me pull that up.
+>> Okay. So, you won't actually see the
+email. Just pretend as if you saw the
+email for the case of this demo.
+>> Let me see what I can do here. From the
+demo, Daniel is asking you to come
+prepared to align on next week's YouTube
+strategy, priorities, audience, content
+angles. Then check my calendar from
+Monday, August 10th through Friday,
+August 10th. Okay. And then stop before
+you suggest a time, draft a reply, or
+create anything. I just want to know
+first. Let me check your calendar. I'm
+checking the Monday to Friday window
+now. I checked Monday, August 10th
+through Friday, August 14th. Monday and
+Tuesday are busy. Wednesday is mostly
+open except 7:15 to 8:15 p.m. Thursday
+has several late morning and evening
+blocks. Friday has no time. Just the
+fact that it knows this still gets me.
+Hey. Okay. So, look, every time we do
+this, uh, I have to reiterate kind of
+the meeting rules and how I like
+scheduling. I like for meetings to stick
+together rather than to be scattered
+throughout the day. So, create a
+personal Eigor skill called Eigor's
+meeting rules. For this demo, my rules
+are 30 minute meetings on weekday
+afternoons in Lisbon time. A 15-minute
+buffer before and after, never double
+booked, choose the earliest valid
+option, and always show me the reply and
+calendar event before taking action. Ask
+if anything is unclear, then let me
+review and install the skill. Also, I
+like meetings to stick together as
+mentioned. So, package all of that into
+a eigor meeting booking skill.
+>> Got it. The skill is ready for review.
+Open Eigore meeting booking to check the
+details. Then tell me if you approve
+installing it. That's so good.
+All right. So now let's handle Daniel's
+request with this skill.
+>> Let me take care of that.
+>> Give me a proposed time. Draft a brief
+and friendly reply and show me the
+calendar event with the title, attendee
+date, time zone, agenda, all this stuff.
+>> Right. I'll pull that together. Skill is
+installed. I'm refreshing that week now.
+Then I'll show the reply and event draft
+without taking action. Propose for
+Daniel Monday, August 10th, 12 to 12:30
+p.m. Lisbon time. Reply draft asks,
+"Would Monday, August 10th at 12:00 p.m.
+Lisbon time work for a 30inut YouTube
+strategy sync?" Event draft title is
+YouTube strategy sync. Agenda is to
+align on priorities, audience, content
+angles, and next steps. Attendee is
+Daniel, but I'll need his email before
+sending. 50-minute buffers are reserved
+on both sides. Nothing sent or created
+yet.
+>> Unbelievable. Put that in my calendar
+and send the email.
+>> Okay, I'll set that up. Quick question.
+What email address should I use for
+Daniel? I'll need it for both the
+calendar invite and the email.
+>> Just do daniel@gmail.com.
+>> All right, using that. The calendar
+event is created from Monday, August
+10th at noon Lisbon time with Daniel
+invited and the agenda included. I
+couldn't send the separate email because
+this chat still has no connected mail
+account. And sure enough, there it is.
+Great. If you'd like, we can connect
+mail. So, I can send that confirmation
+email, too. All right. So, now that we
+have this, use the email thread, the
+calendar event, and the YouTube strategy
+files that you have in this project to
+make a one-page briefing. Use the Eigor
+demo clone project for context. Let's
+sort that out. So, instructional moment.
+This is the part that I didn't know
+beyond creating and using skills with
+voice. You can just tap into projects
+and what he does is he spins up a new
+chat and that chat is inside of a
+project. So last week I did that I was
+like oh it needs a new chat so we can't
+do project but the chat can access the
+project in which it's created which
+means then it comes into here. So you
+could set up projects as different
+context containers and then just and
+just reference them from here. stronger
+own channel focus, timely educational
+angles, human presenters, and model
+agnostic teaching. I'm assembling the
+one pager around those points and the
+scheduled.
+>> All right, I think you see the points.
+That's really how you use skills and
+projects with this. And yeah, I just
+wasn't aware that it's um this easy and
+those skills are a real unlock. You'll
+just have to build a few skills for some
+standard operating procedures or things
+you do regularly. But yeah, that's just
+good old prompt engineering, which AI by
+now is really good at. So you can kind
+of just speak things into existence. If
+this isn't AGI on like a personal level,
+heck, I don't know what is. So the
+important concept here is that the skill
+makes this reusable and the skill makes
+it useful over and over again, whereas
+like doing a one-off task like that is
+useful once, but then restating the
+rules of booking stuff every time. It's
+probably just not worth it. Hey, if you
+enjoy this type of real testing, make
+sure to subscribe. I do this all the
+time on the channel. We take new AI
+features, turn them into workflows you
+can actually use and show you where they
+break or follow up on things that we
+figure out over time. Okay, one more and
+this is a really fun one that I found
+and I wanted this for my own job, what I
+do. But first, a quick correction. Last
+week I said projects don't work and as I
+established like you can access them
+like this by opening this chat that's
+then inside of project as you can see
+right here. But also you can go into
+just a project and start the voice
+conversation. I feel like this one
+didn't work last week. Am I crazy? Maybe
+they enabled it. There's no workaround
+needed. It just works. Okay, so here's
+the last use case. So let's say a late
+AI story just dropped after me recording
+something. And I don't want chat GPT
+just researching it blindly. I want to
+hold on to the useful parts while I
+decide what matters. And the useful
+parts are usually on my screen, you
+know, like I open different tabs, go
+through things. So let's say we're
+researching the new Hermes update. Use
+this project's files and instructions.
+Create a running note called late story
+addendum for every source I approve.
+Capture the source link, the exact claim
+it supports, why it matters to this
+audience, what still needs verification,
+and one visual we could show to support
+the video. Never add anything without a
+source. Keep confirming facts and infer
+separate sections.
+>> Sure. Which saved project should I put
+the late story addendum note in?
+>> Take a look at this. Tell me the main
+new claim, who published it, and the
+publication date.
+>> Let me take a look.
+It says that voice now works inside
+projects in the current chat GBT desktop
+app published by AI news you can use on
+August 6th, 2026.
+>> No, this is what I meant. Look at my
+screen now. Take a screenshot here.
+>> Okay, let me check that.
+>> H see how they two now added streaming
+and conversational voice with bargeon.
+This is the open call update I'm looking
+for. All right, then. And then also
+consider these Reddit comments that I
+have on screen now.
+>> Let me see those.
+Uh, a few more down here.
+>> I'm seeing the Hermes agent release post
+and its comments. I'll treat the release
+posts as the source for claims in the
+comments as audience reaction or leads,
+not proof. Checking those.
+Got the extra comments. People are
+asking if the talk feature replaces
+transcription, expressing strong
+support.
+>> Okay, turn all of this into a one-page
+recording brief. Start with the verified
+headline and why it matters. and give me
+free sourced claims, what to show on
+screen, and the strongest counterpoint
+and a 20 second uh hook.
+>> Let me put that together. I've drafted
+the recording brief, headline first, why
+it matters, then three sourced claims,
+plus screen suggestions, a counterpoint,
+and the one thing not to say. The 20
+second hook is framed around voice plus
+approvals with a quick caveat. And boom,
+you just get a thing right here. Usually
+I would go for like a dozen sources and
+this way it can get everything the
+content, the comment sections, the
+headers and it can just pull things
+together really easily. It's like having
+kind of a scribe. I don't know. It's
+almost like commanding an assistant that
+is on a laptop and saying, "Hey, do this
+now. Look at this side. Now pull it all
+together. Now prep it for me." I don't
+know. It's not night and day to how
+we're used to using CHP. But then also
+it is it feels completely different. And
+after using this for a while, my
+takeaway is pretty simple. It's not just
+better because speaking is faster than
+typing. It's better when typing would
+pull you out of your workflow state or
+when tasks need various tools that you'd
+otherwise keep switching in between. The
+site was most impressive in terms of
+like, hey, just do this boom boom boom
+site. Meeting workflow is arguably the
+most most practical. It's like everybody
+essentially gets an assistant that can
+manage their calendar like this and do
+other things. The research scribe is the
+one I'll probably keep using. That's one
+for me personally. But overall, it's
+just a shift in how I use this tool. And
+I just really really wanted to let you
+know because between this thing building
+stuff over here and then me throwing up
+a sticky note and with the pedal on the
+floor kind of just dictating things into
+here, I'm getting things done left and
+right. Heck, I'm getting things done at
+a speed that I'm not even used to. And I
+use these tools all the time. It just
+feels more fluid. I like it. And I think
+you should try this too if you haven't
+yet. As of other news this week, well,
+it's actually I think one thing and it's
+probably this openi release from a few
+hours ago. Well, I guess on first day
+and they're basically coming down with
+pricing on chat GPT 5.6 sol, which
+currently I do prefer over Opus 5.
+Please leave your thoughts below. And
+now they power both the instant and the
+deep reasoning for plus and pro users
+delivering more factual focused
+responses. And free users now get the
+Luna starting tomorrow, which is also an
+upgrade. And there you go. That's what I
+really wanted to share this week. If you
+have any further notes, how I could
+improve the way I work with it or if you
+found anything else, please leave them
+below. I want to see them. I think both
+projects as context containers and
+skills to empower whatever you're doing
+are just so powerful. And honestly, this
+use case of just getting a daily brief
+of your different communication
+platforms and your calendar every day
+and then using this voice feature to
+kind of interact with it and get through
+any action items is just it's amazing.
+It makes me feel like Tony Stark. And I
+hope this slightly more enthusiastic
+video than usual will make you feel that
+way, too. And that's pretty much
+everything I have to share for this
+week. My name is Eigor Pagani, and I
+hope you have a wonderful rest of the
+week.
+Hit play. Stay smart. Never lose. From
+the trends to the tricks you can choose.
+It's AI news you can use.
+>> AI [music] news you can use.
+>> One stop, one spot for the clues.
+>> Every week, new kings, new views. This
+news you can

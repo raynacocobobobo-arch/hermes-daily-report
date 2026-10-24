@@ -1,0 +1,546 @@
+UP主：Futurepedia
+标题：From Zero to Claude Code in 19 Minutes (no code)
+链接：https://www.youtube.com/watch?v=5tgHMa2Z3jc
+
+People assume they won't be able to use
+Claude Code if they're not technical,
+but that is not true at all. Anyone can
+use it to build apps, websites,
+automations, designs, Chrome extensions,
+productivity tools, and more. And you
+don't need to know any code. This is the
+full guide to start building today even
+as a complete beginner.
+First, you do need any paid Claude
+account. You can use it on the Pro plan,
+then you get more usage on the Max plan.
+You'll also need to download the desktop
+app. This isn't done through the web
+version. Just download that, you can
+click it from the Claude interface, or
+I'll link to it in the description as
+well. Install that like any app, and
+you're good to go. Once the desktop app
+is installed, you'll see three tabs, the
+chat tab, which is the same as the web
+version you're used to, the co-work tab,
+and then the code tab. Click in there,
+and this is where the building happens.
+Getting started is really simple. Type
+what you want in the prompt box, just
+like you would when you're prompting any
+AI tool. I will say, "Build me a game
+that teaches me how to type faster. Make
+it visual, gamified, fun, and
+effective." So, that's a very basic
+prompt on purpose, and this will be a
+fun one to kick it off. I'll do a
+practical build as well after covering a
+couple of the core concepts. And next,
+Claude needs somewhere to work. A big
+difference between Claude Chat and
+Claude Code is code actually creates and
+edits files directly on your computer.
+So, we need to give it access to a
+folder to do all that in. And to stay
+more organized, I have a dedicated
+Claude Code folder. Then I create
+subfolders within that for each new
+project. And I'm creating a new folder.
+You could give it an existing folder as
+well. And now this is where Claude will
+create and edit everything. Next, come
+down and switch it to plan mode. Instead
+of building right away, Claude will lay
+out the whole plan for you to adjust or
+approve. It's much easier to adjust the
+plan up front than fix things after it's
+already started building. That's all we
+need, send it off.
+Your first time using it, it will ask
+you for permission to work in that
+folder. Just approve it. Then usually it
+will have a few questions. This is
+asking the style of game I want. I think
+a racing game sounds good. Then the type
+of learning. I'll just do pure arcade
+for a demo. Then how to structure it.
+Then it came up with a couple more
+questions. The visual theme. I think
+synthwave car sounds cool. Then I'll do
+fun quotes and sentences for what to
+type. Now, it's off. And now just from
+my two sentence prompt, it came back
+with a full detailed plan. The gameplay
+loop, why it's effective, architecture,
+build sequence. If you want to make any
+changes, you can highlight a section and
+give Claude notes. Otherwise, if you
+like it, accept the plan and Claude will
+start building. It's all done building
+and it looks awesome. So, let's test it.
+That is functioning perfectly all from
+that basic prompt I had and answering
+five simple questions. That is insane to
+be able to do. And now to make any
+changes, all you do is ask for them.
+Like one quick thing I noticed is Claude
+left its own score of 173 words per
+minute from when it was testing. So,
+I'll actually take a screenshot then ask
+it to remove that. Anytime there's
+something you want changed where a
+visual would help, just take a
+screenshot and drop it in. That's really
+helpful. That also works if you want it
+to replicate something you've seen. You
+could mock up an element or website and
+Claude can recreate it in your build.
+That was a simple change and it's fixed.
+And anytime you want some clarity, you
+can ask questions. Then Claude will know
+not to build. Like I don't want to play
+through a bunch of levels to understand
+the whole game yet, and I won't look
+through any of the code. I'll just ask
+Claude to explain it. So, I'm just going
+to ask just how this works if it's going
+to be getting progressively harder. Then
+instead of building, it knows to answer
+my question. It explains how all the
+gameplay logic works. I can ask for
+changes from there now that I understand
+it, like adding difficulty levels. Then
+it starts building again. Then you just
+go back and forth from there using
+natural language like this. You don't
+need to understand the code, just
+describe what you want the same way you
+would explain it to a person. We've
+already built something pretty complex,
+and it was really that easy. Before I
+cover more concepts, I want to go back
+and show what happened and what makes
+this so powerful. After I approved the
+plan, it started building. As part of
+that process, it used a bunch of tools,
+then it started testing the game. And it
+can adapt to new information from that
+testing. Right here it says, "I need to
+correct course." So, it was using the
+wrong parameters. It discovered that and
+fixed the error and then went back to
+testing. That's a good example of what
+an agentic model like this can do. It
+can take action on its own. Instead of
+just responding, it tests, adjusts, and
+corrects course without you asking it
+to. And along the way, it's actually
+testing the game. It pulls it up, clicks
+buttons, it types to make it through a
+level, and made sure everything was
+functioning. It does all of that on its
+own before delivering the end result to
+you. I think this will always be amazing
+to me. This game was actually pretty
+fun, so I made some more changes, added
+different levels of difficulty. Like
+hard includes a bunch of symbols and
+numbers. I also added a full testing
+mode that's like a real typing test to
+understand where you're at, and then it
+can place you in the levels from that.
+Just a few different things like that
+using the same process I already showed.
+Just describe it, Claude builds it. If
+you want to use Claude code for
+marketing work, we've got a free guide
+for you. It has four workflows and 12
+prompts that you can copy paste to go
+from idea to finished product in a
+single session. Things like building a
+lead magnet or testing a positioning
+angle the same day you think of it. You
+can even launch a campaign without
+writing a single line of code. If you
+don't know exactly what to build after
+watching this video, this has real-world
+use cases that are easy to get started
+with. That's free, just click the link
+in the description.
+Now, I want to touch on the different
+models. You'll see a drop down with a
+big list of models to choose from. These
+change all the time, so I don't want to
+focus on specific model numbers, but the
+reason this choice matters is because
+Claude has usage limits based on how
+many tokens you use, and the better
+models also use more tokens. The models
+change, but the good rule of thumb is if
+you're on the pro plan, use the highest
+model like Opus or Fable for the plan
+and first build, then switch to a lower
+model for the follow-up edits. If you're
+on the max plan, you'll usually be fine
+sticking with the highest model all the
+time.
+I've got the game built and made some
+edits. From here, there's something
+you'll always want to do, so Claude has
+persistent memory of your project.
+Create a Claude.md file, a permanent
+reference document that holds everything
+Claude needs to know about the project
+long-term. To do that, just type
+{forward slash} init, then send it, and
+Claude knows exactly what to do. It
+reads through all the code and the chat
+history, then creates a markdown file
+that contains all of the important
+aspects. This is what the file looks
+like. It was added right to the project
+folder. This is just markdown, it's not
+code or anything. All these symbols are
+just for formatting. If I open this in
+an app like Obsidian that uses markdown,
+this is what the file looks like. You
+don't need to use Obsidian, I just
+wanted to show that this is a simple
+text file, not some code base or
+anything. And really, you don't even
+have to look at that, but that file will
+be there as a permanent reference file
+for Claude, and you can ask Claude to
+update it with any specifics at any
+time. Or after a long session, you can
+just say, "Update the Claude.md file
+with anything important that we
+covered." Now, this game still lives
+only on my computer, but before I show
+how to actually deploy this live, I want
+to show you some features that make
+Claude code much more powerful.
+You can build a ton of stuff with what
+I've already shown, but there's some
+pretty easy power-ups to help. First is
+MCPs. These connect Claude to external
+tools. These are under customize, then
+Anthropic calls them connectors, which
+is a more understandable name for them.
+But, you'll also hear them called MCPs
+because that's the name of the protocol
+they use. You can come up to the plus
+button, then browse connectors. Then
+there's pre-built connectors for a
+massive list of tools. Common ones like
+Gmail, Google Calendar, and Notion.
+Those are major ones, but there's tons
+more in here for most tools you can
+think of. One I'd recommend everyone
+connect is called Context 7. It pulls in
+up-to-date documentation for things like
+React, Expo, Tailwind, Vercel, and a lot
+more. These tools change and Claude may
+have been trained on an older version or
+pull up outdated info from the web.
+Context 7 makes sure it's always working
+from current documentation. So,
+definitely worth connecting, then it
+will always be there and it will use it
+whenever it needs to. That reduces a lot
+of hallucinations when it's implementing
+those frameworks. And I'll disconnect
+mine just to show this. To connect any
+of these, you just click connect, then
+it will have you log in through the
+platform. Then you're good to go.
+And while we're in here, there's also
+plugins. These are packages of skills
+and tools. There's pre-built plugins
+from Anthropic that are very powerful
+and they ship new ones regularly. You
+can look through to see what might be
+useful to what you're building. One I'd
+recommend is called Superpowers. It adds
+a bunch of different skills Claude can
+call automatically when needed to help
+with all sorts of things like
+brainstorming, sub-agents, debugging,
+and more. Definitely a useful one to
+install. Then Claude will utilize any of
+these skills automatically whenever it's
+relevant to a task. And I mentioned
+skills, these are reusable processes
+that Claude will follow to achieve
+repeatable tasks. They have pre-built
+skills that are awesome, but you can
+also create your own skill. So, how I
+typically do that is whenever I go
+through a process myself that involves
+multiple prompts and iterations, if
+that's a process I want to repeat again
+in the future, you can say package that
+up as a skill, then Claude will analyze
+everything you did and turn that into a
+reusable skill, which will get called
+and executed in the same way every time
+moving forward. Here's a quick example
+of a skill. I'll ask Claude to do a
+security review. Now, it has a built-in
+process for doing this and walks through
+the whole thing. And this is a super
+important step before pushing anything
+public. Claude will find
+vulnerabilities, exposed API keys,
+things like that, which could lead to
+issues. There's nothing present that
+would be an issue for a project like
+this, but you can see Claude identified
+the main attack surfaces for this type
+of game. Then it searched through, went
+to see if any of those vulnerabilities
+were present. And that one's a useful
+skill, but they can be for anything.
+Like I have one for writing social media
+posts and critiquing YouTube scripts.
+There's one for front-end design,
+creating payment systems. Basically, any
+task you can do in Claude, you can
+create a skill to streamline it. And
+those three things can get mixed up, so
+MCPs connect Claude to tools, skills
+give Claude a process to follow, plugins
+can bundle multiple skills, MCPs, and
+more together.
+Now, I want to show you something more
+practical, closer to what you'd actually
+build for work, a real productivity tool
+using your existing apps. I'll go back
+to my connectors.
+And you can see I have Granola
+connected. I use that for meeting notes.
+I can make sure the permissions I want
+it to have are available, then go back
+to my chat, and I'll use this prompt.
+Build a Kanban-style app for extracting
+action items from meeting notes into a
+to-do list where cards move between to
+do, in progress, and done. Use the
+connected Granola MCP to pull in meeting
+notes and extract action items.
+Now, I'll create a new folder for Claude
+to work in,
+switch to plan mode, and send it off.
+Answer a few questions, and Claude comes
+back with a plan. I approve that plan,
+then it gets to work.
+Now, here's what it came back with. It
+pulled my most recent meeting,
+identified all the action items and who
+they're for. I can move those around to
+in progress and done.
+That was a simple build, but pretty
+useful, and it nailed it completely on
+the first try. Once you start connecting
+tools you already use and building them
+into new interfaces and systems, you can
+massively open up what you're able to
+achieve and start making really
+time-saving tools for yourself. Now,
+I'll go ahead and run forward slash
+init, so Claude will create that
+claude.md file. And another reason this
+file is important is if your chat
+history gets too long, you can start a
+brand new chat, point it at that folder,
+and Claude can read that and know
+everything about the project. Down here,
+you can hover to see how much of your
+context window is filled. Your context
+window is basically Claude's working
+memory for that conversation, and
+there's a limit to how much it can hold
+at once. Claude will automatically
+compact that when it gets too full, but
+over time it will start losing details
+or getting confused. After a while, it's
+better to open a new chat, and I'll
+usually ask Claude for a summary before
+doing that as well with a prompt like
+this. That's especially helpful if
+you're actively working on a feature, or
+there's more you'll be building that it
+knows about. Things like that wouldn't
+typically be in the claude.md file.
+Then, you just open a new chat, paste
+that response it gave, point it at the
+same folder, then it will also read the
+claude.md file, and you're good to pick
+up right where you left off, but without
+a messy context history. All right, you
+know how to build things now, but this
+still lives only on your computer. You
+may want to share your project with
+someone or deploy it live to the public.
+That process is simple, although Now,
+takes a little bit of setup the first
+time you do it. You'll need to install
+Git if you don't have it and connect
+Claude to GitHub.
+So, first we need Git installed locally.
+On a newer Mac, it's already installed.
+Windows users will have slightly
+different steps, but since we're asking
+Claude, it'll give you the right
+instructions for your specific setup
+automatically. Just start with this
+prompt, check if I have Git installed,
+if not, install it for me. And mine is
+already installed because it came with
+my Mac out of the box. If yours isn't,
+Claude will walk you through it. Just
+follow what it says. And next, we need
+to connect a GitHub account. GitHub is a
+cloud platform for hosting code. Once
+your project is there, you can access it
+from any device, share it with others,
+or deploy it to the web. It also handles
+version control, like an undo button for
+your whole project. You always have a
+saved snapshot, so you can roll back to
+any previous state if something goes
+wrong. Just ask Claude to connect to
+GitHub so it can push code on your
+behalf and to walk you through anything
+that needs manual input. Claude will
+walk you through it, and the steps will
+be a little different depending on your
+setup, especially Windows versus Mac.
+But I do want to walk through them on
+screen, even though yours may be
+different. This is the most tedious part
+so far and the easiest to get lost in.
+So, this will show you what it feels
+like to go through these, and some of
+the steps will be the same for every
+setup. And what's nice is you only need
+to do this process once. So, it will
+tell me the four-step process we're
+going to go through to do that.
+Installing Homebrew is the first step of
+that process. So, I'll tell it to start
+that. Then it comes back and tells me I
+need to copy and paste a command into
+the terminal. So, this is where we need
+to actually interact with the terminal
+ourselves to run a couple commands.
+Claude makes this easy. You can use the
+same panel button you use for the
+preview window and open up the terminal
+right here. Then it's just copy, paste,
+and hit enter. Then it asks me to put in
+my password. This is the password to my
+computer. And when you type this, it
+won't actually do anything as you're
+typing. The cursor doesn't move. That's
+just how it hides passwords by default.
+So, just type in the full password and
+hit enter. And just wait a minute, then
+when the input field reappears, it's
+done. Then tell Claude that Homebrew is
+installed and ask what next. Now, it
+popped up asking if it can run a
+terminal command itself to install the
+GitHub CLI. Oh, I will allow. Then it
+installs it. And the last part is it
+needs me to run one or more terminal
+commands to authenticate, to actually
+connect to my GitHub account. So, we're
+almost there. For this step, you do need
+a GitHub account. If you don't have one,
+it's free, set it up like any other
+account. Once you're ready, copy the
+command Claude gave, paste it into the
+terminal, and hit enter. Then it will
+ask a few questions. And Claude actually
+told me exactly what to answer for each
+of those questions already. I use it on
+github.com. Preferred protocol is HTTPS.
+Then authenticate by logging in with a
+web browser. Now, it gives me a code to
+copy. Copy that. Then hit enter to open
+the link it gave. Continue with my
+account, paste the code, then authorize
+GitHub. Then it sends a code to that
+email. Enter that here, and we're all
+set. GitHub is officially connected.
+Back in Claude Code, I'll say done. Now,
+it's just verifying it works.
+It did. So, it says it can now push
+code, create and clone repos, and open
+PRs on my behalf. Perfect. Now that it's
+set up, you won't ever have to do that
+again. You can just ask Claude to create
+a new GitHub repository for this project
+and push all the current code. Just
+answer a quick question if I want it
+public or private, then it's done with a
+direct link to the repo it just created.
+I'll open that up, and this is the
+repository on GitHub with all the files
+that have been created so far. Now,
+probably felt like a lot if you're new
+to all of this. That's why I walked
+through every step. The good news is,
+again, you only need to do the initial
+setup once. From here, for any new
+project, you just ask it to push it to
+GitHub, and it handles it all.
+Now that we have a GitHub repository,
+it's really easy to push that live to
+the web using Vercel. First, you'll need
+to create a Vercel account. You can sign
+up for free using your GitHub account.
+Then it will take you to this page. Then
+right in this box where it says import
+Git repository, I'll click the button
+continue with GitHub, click install, and
+it will connect Vercel to my GitHub
+account. I'll select all repositories
+and install. Then that box populates
+with the repositories I have on GitHub.
+So I'll click import on Neon Type Racer.
+Then I don't need to change anything on
+this page, just hit deploy, and that's
+it. Wait a few seconds for it to finish,
+then the game is live on the web. At
+least that's normally all it takes, but
+I have an error, which is perfect to
+show. I'll take a screenshot, drop it
+into Claude, and ask why it doesn't
+work.
+It identified the exact issue, which is
+just that my file had spaces, but
+websites can't, so Vercel used dashes.
+Um it proposed solutions, so I'll pick
+one, then Claude will fix it. And what's
+nice is Vercel will automatically detect
+any changes in GitHub and redeploy with
+the newest update. You don't have to do
+anything. Claude is finished, so let's
+check Vercel, and it looks like it
+worked. The domain is right here that
+this is playable at. This is a live URL
+I can send to anyone to play right now.
+And everything is working perfectly. So
+that's how to build a working web app,
+connect it to real tools, use skills and
+plugins, and deploy it live. This is all
+you need to get started, and the best
+way to learn more is to just start
+building. Then anytime you run into a
+problem, ask Claude for help, and you'll
+learn more along the way. Just pick
+something you would actually use and
+build that.

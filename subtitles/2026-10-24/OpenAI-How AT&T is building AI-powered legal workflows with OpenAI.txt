@@ -1,0 +1,56 @@
+UP主：OpenAI
+标题：How AT&T is building AI-powered legal workflows with OpenAI
+链接：https://www.youtube.com/watch?v=V39_L7uh66M
+
+A lot of people ask the question, are
+you making a trade-off with quality?
+By working with AI, our product quality
+actually goes up.
+>> AT&T's been around for 150 years. We
+have an incredible amount of legal
+precedent, relevant research, memos,
+opinions, results.
+>> The old way was very much
+one lawyer, one issue. One professional,
+one issue. And everyone developed their
+own expertise in their own various ways.
+Legal Edge is AT&T's really first foray
+into the delivery of AI-powered legal
+services.
+>> We brought together attorneys, legal
+professionals, technologists, project
+managers.
+>> Right now, it's focused really on our
+most major matters, both our most
+important matters and our most expensive
+matters. Now, we actually have a new
+thought partner. Now, everyone has an
+easy opportunity to test a bias or to
+push back on a fact. Our partnership
+with OpenAI is going to allow us to
+build that plumbing that powers the
+knowledge layer throughout the company
+and that all of us will draw into.
+>> One of the key initiatives we're excited
+to work on with OpenAI is an intake
+system, a front door, where we have
+natural language intake, we have
+classification and prioritization of
+those intake matters. Then we associate
+knowledge layers. The issue arises, it
+comes into the hands of the responsible
+legal professional, but it comes with
+that historical context and recommended
+first steps for that individual to take.
+So, no single matter is left isolated.
+It's consistently improving the overall
+system.
+>> The decision-making will always remain
+with the lawyers. And in fact, that's
+what our client depends on us for most.
+But to have better information powering
+those decisions, that's what's going to
+make all the difference. I've been
+practicing law now 32 years. I've never
+been more excited about what it means to
+be a lawyer.

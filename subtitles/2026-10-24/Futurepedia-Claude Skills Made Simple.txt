@@ -1,0 +1,224 @@
+UP主：Futurepedia
+标题：Claude Skills Made Simple
+链接：https://www.youtube.com/watch?v=H0vIPXtrlHw
+
+Most people repeat themselves over and
+over in Claude, typing out the same
+instructions and adding the same
+context. Skills fix that. Write it once
+and Claude remembers it forever. In this
+video, I'll show you what skills are,
+how to use the pre-built skills, how to
+stay safe using external skills, and how
+to build and refine your own, which is
+the biggest unlock in all of Claude. And
+there's a really important step that
+most people miss.
+My favorite way to describe skills is
+they're like recipe cards for workflows.
+A set of instructions and context that
+tell Claude exactly how to perform a
+specific task the same way every time.
+Think about something you do in Claude
+regularly, responding to emails,
+creating presentations, writing reports.
+Right now, you probably have to spell
+out the same instructions every single
+time. What tone to use, how to format
+it, what to include. With a skill, you
+write that out once and Claude triggers
+it automatically from that point on. It
+will get the same output on the first
+try every time without writing a long
+prompt. What was cool is skills work
+across all of Claude, chat, co-work, and
+code. You can even take them to other
+tools like Hermes, Codex, or Manis. So,
+whatever you're building or doing, the
+same skill has you covered. Now, you
+don't need to look inside a skill for it
+to work, but if you're curious, under
+the hood, a skill is just a markdown
+file, a plain text file Claude knows how
+to read with all the instructions baked
+in. More advanced skills can also pull
+in additional files. That could be more
+markdown files or also images or PDFs to
+give Claude the visual guidelines and
+extra context it needs to execute
+perfectly.
+Before anything else, there's one quick
+setup step. Go to settings, then
+capabilities, and make sure code
+execution and file creation is turned
+on. Skills won't run without that, but
+it is probably already on for you. Now,
+Claude actually comes with a bunch of
+built-in skills by default. The easiest
+way to understand them is to just see
+them in action. Ask Claude to make a
+PowerPoint, then it automatically
+triggers the PowerPoint skill. No extra
+instructions needed. Then I get a
+perfectly formatted editable deck on the
+first try. Same goes for spreadsheets,
+Word docs, PDFs, data analysis. There's
+already a built-in skill for all of
+those. You can find more by going to
+customize, skills, then browse. You'll
+find additional skills from Anthropic.
+Just look through those and click the
+plus button to add any that are relevant
+to you. Then beyond that, there's also
+plugins. These are a whole 'nother
+level. A plugin bundles together
+multiple skills, plus connectors that
+let Claude use external tools, all in
+one package. Anthropic has built-in
+plugins for productivity, sales,
+finance, legal, marketing, and a lot
+more. Then partners tab are plugins
+built for products you may already use,
+but they help integrate them more deeply
+into Claude. Canva, Zapier, Airtable,
+that sort of thing. There's multiple
+skills built into each.
+The pre-built skills and plugins will
+cover a lot, but eventually you'll want
+something specific to how you work.
+That's when you build your own, and it's
+really easy to do. There is a create a
+skill button where you can describe what
+you want, but that's actually not how
+I'd recommend you do it, unless you've
+already thought through the process
+really thoroughly and have a solid
+prompt. And we have already done that
+and compiled five really useful skills
+into one free resource to get you
+started. It starts with all the same
+information about what a skill is and
+how to use them, but in written form.
+Then we have five skills you can build
+with the exact prompts to copy and paste
+into Claude to work through the process
+with you. We also included the skill.md
+file if you want to use that text
+instead of building it. These are five
+really common and useful skills. We made
+them super easy to use. I'll put a link
+in the description so you can grab that
+for free. When you don't have a prompt
+to copy and paste like that, the best
+way to build a skill is to just use
+Claude normally to work through a task.
+Tell it what you want, go back and
+forth, tell it what's right, what's
+wrong, refine it, iterate until you've
+got the output exactly where you want
+it. Once you've done that, say package
+everything we just did into a skill.
+Then Claude has a built-in skill creator
+that will analyze the whole conversation
+and distill it into a reusable process.
+Then next time, you'll get to the same
+result on the first try. If you've been
+using Claude for a while, you probably
+already have conversations that could
+become skills right now. You just go
+back to those and ask. But to show you
+what this looks like in practice, I'll
+build one that a lot of people ask me
+about, a skill that writes in your own
+voice. Whether that's for social posts,
+blogs, marketing copy, YouTube scripts,
+whatever you need to write. Out of the
+box, Claude is good but not great at
+that. No AI is. But with the right
+skill, it gets much closer. So, start by
+pasting some writing samples and ask for
+an analysis. That will come back with a
+super deep analysis, then from there,
+ask Claude to interview you. A series of
+questions about how you think, what you
+care about, how your sentences flow, and
+what you would never say, until it's
+confident it can replicate your style.
+It should go through a series of
+questions, answer everything thoroughly,
+and then at the end of all of that, say
+package this up as a skill. It will use
+that skill creator and analyze
+everything you covered, then come back
+with the skill. You just save it, and
+from that point on, it triggers
+automatically. Now I can go up to
+customize and look at my skills and it's
+right here. This shows everything Claude
+went through and all that it came up
+with. But, you're not done yet. Test it.
+Look at what it produces, critique it,
+tell it what's good or bad, then ask it
+to update the skill based on your
+feedback. This is what most people miss
+with a more difficult skill like this.
+It won't be all the way there on the
+first try. The skills that become truly
+powerful are the ones you keep refining.
+Every time you modify an output from the
+skill, tell Claude what you changed and
+ask it to update the skill accordingly.
+Do that consistently, and over time,
+you'll have a system that handles more
+and more of your work exactly the way
+you'd do it yourself.
+One more way to get skills is to
+download them. Since a skill is just a
+file or a folder of files, they're easy
+to share. So if you come across a skill
+someone else built, you can drop it
+right in and it works. You can find them
+on GitHub or there's marketplaces or
+people might give them out in YouTube
+videos. They'll have a place to download
+the skill file. Then in Claude under
+customize then skills again, you click
+add then upload skill and then just drop
+that skill file in. Easy as that, the
+skill will be ready to go. But something
+really important to keep in mind, since
+a skill is just a set of instructions, a
+malicious one could tell Claude to send
+your data somewhere without you knowing.
+Or if you're using skills in co-work or
+code, those can actually access files
+directly on your computer. So just
+before you install anything from an
+outside source, make sure it's from
+someone you trust. And then always look
+inside. If you built the skill yourself
+or you're using one from Anthropic,
+you're good. Everything else verify
+first.
+Skills take Claude from a tool you have
+to constantly direct and turn it into a
+system that works automatically,
+consistently, and better over time. So
+here's the easiest way to start. Go back
+through your Claude conversations and
+find one where you've already gone back
+and forth to get something right. Open
+that conversation and say package
+everything we did here into a skill.
+That's it, you're done. You just saved
+time on that workflow forever. If you
+don't have a conversation like that, use
+the prompts from the resource in the
+description or think about one thing you
+do regularly that you'd want Claude's
+help with. Just work through it, get it
+right, then package it up. Either way,
+go build your first skill today. Once
+you have one that actually works the way
+you want it to, you'll understand why
+this changes everything.

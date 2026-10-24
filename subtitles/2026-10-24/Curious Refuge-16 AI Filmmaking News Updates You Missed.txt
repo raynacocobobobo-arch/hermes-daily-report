@@ -1,0 +1,1149 @@
+UP主：Curious Refuge
+标题：16 AI Filmmaking News Updates You Missed
+链接：https://www.youtube.com/watch?v=N7zh3PoMeSk
+
+You probably missed these 16 AI
+filmmaking news updates. Let's get into
+it. Now, last week we talked about a
+brand new release from the team at Seed
+Dance with Seed Dance 2.5. We tested the
+tool for ourselves. And while there are
+some improvements with emotional
+resonance and physical dynamics, the
+truth is the overall model is not as
+good as Cedance 2.0 because you have
+limitations with resolution. Seed dance
+2.0 0 allows you to generate up to 4K
+whereas 2.5 only allows you to generate
+in 720p. But we actually came across a
+very interesting experiment from a
+creator that goes by the name of Kaiku
+Drop over on X. Essentially they created
+a single continuous shot inside of
+Seedance 2.5 with 32 different
+characters. So 32 different people using
+different images to generate the final
+result. Of course, we had to test this
+for ourselves. So, let's take a look.
+So, to pull this off, we have quite a
+few different images of the Curious
+Refuge team, and we wanted to create a
+video with everyone together. So, we
+took all of the images and brought them
+inside of Dramina and wrote a really
+long prompt about what we wanted to see
+in each one of the shots. And because
+it's Drama, you have the ability to
+reference individual assets, images,
+audio clips, video clips, things like
+that directly inside of your prompt. And
+we're inside of Cedance 2.5. You can see
+that we're in 16x9 generating at 720p.
+And then you can create a clip up to 30
+seconds long. And go ahead and click
+generate. And that gave us this
+The sky pretend star. It's crystal
+[singing] sun.
+>> I'm
+Chris
+to win. [music]
+Just take his crazy
+Chris
+[music]
+[cheering] again.
+>> Okay. So, yeah, that's pretty wild.
+Honestly, I have Zoom calls with these
+people on a daily basis, and it did a
+pretty good job. It's not perfect, but
+it is close. And the fact that we got
+all of that from a single generation is
+pretty darn impressive. Now, I should
+note, and some people noted out in the
+comments, that sometimes in Drama, you
+do have problems generating video clips
+because for a variety of reasons, it
+will just throw up an error code. So, we
+did have to generate this about five
+different times before the video finally
+came through, but it did come through.
+And so, sometimes you just have to
+generate a few times to get what you're
+looking for. Now, we wanted to push it
+even further. So, for this one, we used
+20 different reference images where we
+had pictures of our team and then we had
+a bunch of like gold and silver inspired
+gear and we wanted to create a soccer
+match and this is what we got. Hi,
+>> sir. Yes, sir.
+Right.
+[screaming]
+>> YEAH. RIGHT. BUST ON FRETS.
+>> YAY.
+[screaming]
+>> Sunish versus thunder. [laughter]
+>> [gasps]
+>> This one was great because you can
+really see how things began to uh fall
+apart there, the uh the faces kind of
+became amalgamations of each other.
+There's a lot of just like weird
+physical dynamics. And so it does seem
+like the more references that you put
+into the system, the less the overall
+quality is of the output. And yeah, I
+just want to point out that on that
+scoreboard there, there is 10 minutes
+and 99 seconds remaining, which uh I
+don't think is fully accurate. So, for
+our final test, let's pivot into a 2D
+animation style. So, I have 30 different
+character sheets where I basically want
+to create a scene where each character
+walks into the frame. And ultimately, it
+ends with all of the characters on one
+big stage. And we used Dramina to pull
+this off in Cance 2.5. And it gave us
+this
+Hey,
+just take away
+the
+[music]
+[laughter]
+>> Okay, so there's definitely some parts
+that are very impressive. Especially the
+first 10 or so characters came onto the
+scene. It really seemed like there was a
+lot of personality behind the animated
+movements. And overall, I was pretty
+impressed. But then it kind of started
+breaking down. A lot of the characters
+kind of transformed as the scene
+unfolded. People were staged
+incorrectly. And so it didn't do a
+fantastic job, but it was very
+impressive. And I think the fact of the
+matter is you could probably generate
+this a few different times and get what
+you're looking for. So altogether, I'm
+really impressed by the multic character
+tool inside of Seedance 2.5. And to
+reiterate what we learned in our
+previous video, you more than likely are
+not wanting to generate a video clip
+that's more than 5 to 10 seconds long
+anyways. So in that case, maybe you
+would just use 2.0. But the fact of the
+matter is this is impressive and having
+the ability to expand your context
+window and add in more characters,
+locations, voices, video clips, things
+like that really unlock a lot more
+control in the storytelling process. The
+team at Ideogram has updated their
+object remover tool that basically gives
+you the ability to go in and have more
+control over the changes you want to
+make inside of your images. Let's take a
+look at how this tool works and compare
+it against some of the other AI tools on
+the market. So, I'm here on the Ideog
+website and we have this image here. You
+know, I'm just testing out some new
+fashion ideas, but let's say we want to
+take out those sunglasses. So, let's go
+ahead and go to the edit button here and
+we'll hover over the image and click the
+edit [music] button. And from here, you
+can go to the edit area. And now we have
+a brush. So now we can basically go in
+and brush over the sunglasses. And it's
+really cool because we have much more
+control over what we're actually
+changing. And for our prompt, we'll keep
+it super basic. We'll say remove
+sunglasses and go ahead and hit
+generate. So this was our original image
+here. And here is the image that was
+created inside of ideoggram. And yeah,
+it did a good job at removing the
+sunglasses. The problem is it made my
+eyes kind of hazel as opposed to brown.
+So that's on us. We probably should have
+prompted and told the AI system that his
+eyes should have been brown to begin
+with. And this is the result we got from
+GPT2.
+And yeah, GPT2 did an okay job. The
+problem is it expanded the frame and
+changed some of the composition and so
+it was taking a little bit more creative
+liberty here. But altogether both of the
+tools did a good job. Now we have this
+image here and we painted over the
+astronaut's helmet and asked Idoggram to
+remove the helmet. And this is what we
+got from ideoggram
+and I think it did a really good job.
+The color grading is really nice and if
+I saw this I would not think that it was
+edited using artificial intelligence. It
+really seems like the quality of the
+character was baked into the actual
+image that was created. Now let's
+compare that against Nano Banana. So
+inside of Nano Banana, we brought in the
+image and asked it to change the helmet
+and that gave us this shot here which
+looks pretty good. Although the hair
+almost follows a kind of predictable
+pattern and it does come across as
+semiynthetic. So I do think Ioggram did
+a better job. And this was the result
+from GPT2,
+which does look okay, but there is
+something about her eye. It almost seems
+like it's a little too big compared to
+her other eye. But altogether, it's not
+bad. But again, in this case, I think
+that ideoggram actually did a better job
+with image editing. We also have this
+image here of this woman at a park and
+we wanted to remove everyone from the
+background. So, in ideoggram, we got
+this. And yeah, that looks perfect.
+Basically, I think it did a really good
+job. We have a little scraggler there on
+the blanket to the right, but to be
+fair, we didn't brush over that part.
+So, it's actually giving us what we're
+looking for. In Nano Banana, we got
+this. And you can see that just through
+prompting alone, it didn't actually
+remove all of the people from the
+background. It removed some of them, but
+not all of them. And we got this image
+from GPD2. Just typing in a simple
+little prompt. And yeah, it did a really
+good job. So, kind of a tie between
+ideoggram and GPD2 in this case. Next
+up, we have this shot of some friends
+hanging out. And we wanted to remove the
+guy from the left side. Sorry, Gary,
+you're just not invited to this party
+anymore. And inside of idiogram, we got
+this, which does look good, but it did
+change some of the composition, like the
+way in which uh this character here on
+the left has her arm going over the
+other characters. It's just different
+than the original image. And then some
+of the head orientation of some of the
+other people in the scene is different.
+So, it's close, but it's not exactly
+what we were looking for. In Nano
+Banana, we got this image here, which
+was pretty close to the original image,
+but this character on the left did
+change kind of where she was at in the
+frame just a little bit, which is not
+necessarily bad. In fact, I would say
+this looks fairly realistic from Nano
+Banana. And the way in which her arm is
+kind of going across this other
+character and this guy having his arm
+around her here, it does feel much more
+realistic than just simply removing the
+other person, but it did change it just
+a little bit. So, it's worth noting,
+especially if you want maximum control.
+Nano Banana will take some creative
+liberties, but it's not bad, actually.
+And this is the result that we got from
+GPT2, which does look kind of funny,
+like it looks like she's being squished
+by a ghost or something, but ultimately
+it followed our instructions exactly
+because it removed that person from the
+left side of the frame, even though
+she's kind of oriented weird here. So,
+good job GPT2 for following our
+instructions and not deviating. And then
+finally, we have this shot here. And we
+wanted to remove the third coffee cup.
+And inside of Idoggram, it's pretty easy
+because you can just brush and remove
+the cup. And we got this, which yeah,
+looks great. In Nano Banana, we got this
+shot here, which is okay, but there's
+kind of some awkward, I don't know,
+texturing happening on the wood grain
+here. So, I don't know what exactly is
+going on, but this version of Nano
+Banana, which is Nano Banana 2, did not
+do the best job. And then we got this
+from GPT2, which seemed fine at a quick
+glance, but then if you count the number
+of cups, there's some cups missing here.
+It took out too many. So, not the best
+result from GPT2, even though it does
+look fairly realistic. So, if you're
+looking to have very specific control
+over your AI images, I do think that
+this tool inside of Ideoggram, which
+isn't necessarily new, but it is
+updated, is a really great tool to look
+into. Now, that's not the only news that
+came from Ideog this week. So, they
+actually came out with a brand new AI
+image model called Pruna AI that's
+specifically designed to be very fast,
+but also realistic at the same time. It
+can generate an image in 1K quality in 2
+to 5 seconds, making it one of the
+fastest AI image generators on the
+market. But I was really curious to see
+how realistic is this tool. The cool
+part is you can use P image in most
+online aggregators as well. So I'm
+inside of Magnific here in the image
+generation section and you can see we
+have the P image from ideoggram model
+selected. So for our prompt, we'll say a
+cinematic still of a dog at the beach.
+We're in 16x9 and the 1K resolution. And
+go ahead and hit generate. And it
+created these images in about 3 seconds.
+So, we have this one here of this dog.
+And I mean, it looks pretty darn
+realistic. It did a really, really good
+job. We have this shot here of this dog
+walking on the beach. And yeah, again, a
+fantastic image. It really is kind of
+reminding me of like uh maybe midjourney
+version seven, maybe almost version
+eight. like a really really good job and
+super super quick. We have uh this shot
+here of this guy just digging at the
+beach, having a great time. And then
+finally, we have uh this one here of
+this dog. And uh either that's a very
+tall dog or some very shallow water, but
+my brain is having trouble understanding
+what's actually happening here. So, we
+wanted to test this against some of the
+better AI image generators on the market
+just to see where it stacks up because
+it's so fast and it literally only cost
+us a penny to generate those other
+images. So, hypothetically, if you can
+create images that are realistic or
+pretty close to what you're looking for,
+it could be really helpful to use a
+model like Ideogram rather than other AI
+image generation tools that cost more
+money. So, our first test was a
+cinematic still of a woman uh in like
+very moody, dramatic lighting. The idea
+being we're just doing exploration
+creatively of styles that we would want
+for a film project that we are working
+on. And inside of Ideog, we got this
+shot of this woman here. And yeah, it
+looks good, but obviously there's random
+text on the screen. I'm not entirely
+sure why it added in text cuz we were
+not looking for that, but it added it
+in. So, okay. And we also got this shot
+here, which I really like. Everything
+except for just the nonsense text there.
+So, not too sure why it decided to add
+in text into the scene. There might be
+something going on underneath the
+surface where it really wants to push it
+to create text, but overall very
+impressed with the visuals. Now, inside
+of Nano Banana Pro, we got this shot
+here, which I really like. I think that
+it's much more unique. It's less generic
+and I like that even like the edges
+where the highlights are have that kind
+of more natural uh chromatic aberration
+or the hellation that you would want to
+see from a more realistic lens dynamic.
+So, it's doing a really good job here.
+And then we got this shot of this guy
+here, which you know, we did prompt for
+a woman, but it gave us this dude. And,
+you know, all things considered, again,
+it did a really good job. It is
+realistic. I do think that some of the
+clipping occurring in some of the
+brighter parts of the frame maybe are
+coming across as a bit synthetic, but
+overall not too shabby. Now, we did the
+exact same test inside of Midjourney
+8.2, which came out just last week. And
+inside of Midjourney, we prompted for a
+cinematic medium shot of a person
+standing in a room. And we got this
+shot. And you know, it's midjourney.
+It's giving you really hyper cinematic
+shots. It actually really thrives in a
+stylized cinematic setting. So, I think
+it did an amazing job. And then we also
+have this shot here as well. Really
+dynamic lighting. Love the color
+grading. It just did a very, very good
+job. So, I don't necessarily think that
+Ideogram is comparable to MidJourney 8.2
+for realistic cinematic aesthetics, but
+the fact that you can generate images so
+quickly is really, really impressive.
+Now, I have a couple other tests that I
+wanted to run here. So, we prompted for
+kind of this like midcentury wealthy
+villain layer style image. And we got
+this shot here, which that is a dope
+looking house here. And then we also got
+this shot here, which that couch is not
+quite a conversation pit. And I don't
+know how you would sit on it. I think
+you would always have to just like jump
+over the edge of the couch, which uh
+yeah, that could be a vibe, but uh I
+think that's supposed to be sunken in.
+I'm not an expert on mid-century design,
+but I do think that uh that that is
+probably a mistake there. And I should
+also note that they have a unicycle
+leaning against the bar there. That is a
+very interesting creative choice from
+Ideogram. Inside of Nano Banana, we got
+this image here, which does come across
+as more intelligent, but it really feels
+very stock photographyesque. And that's
+just a problem that you're going to run
+into whenever you're using Nano Banana
+Pro or Nano Banana 2. they can just kind
+of come across as almost like stock
+photography unless you really push it
+towards a specific cinematic or 35
+millimeter style. And this image from
+Nano Banana also struggles with a
+similar problem. And there's also some
+architectural issues here because I
+don't know how you're supposed to walk
+this way or that way if it's literally
+blocked off by a gate. So again, you're
+having to climb over the couch. I do
+love the conversation pit, but I do
+think it's going to be a weird flow when
+you actually have to start walking
+around this room. Now, inside of
+MidJourney, we got this image here,
+which, you know, from a creative
+inspiration standpoint is really cool.
+Like, if we wanted to use this as a
+jumping off point, whether it's the
+color grading, the layout of the room, I
+think that this image could be very
+helpful in a collaboration setting. But
+intellectually, it's one of the worst
+images because there's just like weird
+stuff happening with the lamps. the
+furniture doesn't make a lot of sense
+and uh just like the bottles are all
+kind of melding into one another. So,
+it's not the best result. And then our
+final test is to test out how good
+ideoggram is at generating text. And so,
+we have an entire prompt where we wanted
+to create a design layout for our AI
+filmmaking course here at Curious
+Refuge. So, we have AI filmm, the future
+of storytelling starts here. This is
+what we got from ideoggram. And the
+headings look great and the overall
+layout is pretty cool. But of course,
+there's just that jumbled text there
+that you would have to replace if you
+were working on a creative project. Now,
+inside of Nano Banana Pro, we got this,
+which all of the text is technically
+perfect here. The problem is the overall
+design style is coming across as a bit
+more clip art than something that feels,
+you know, very editorial or curated. So,
+I do kind of wish it was a little
+better, but overall, conceptually, it is
+doing a very good job. And we also got
+this from Nano Banana Pro, which I I
+kind of like. I like that the the film
+is kind of spooling out and turning
+into, you know, seemingly like light or
+data or something like that. It's a cool
+concept that was generated from Nano
+Banana Pro. Not my favorite overall
+design style, but conceptually pretty
+cool. And then finally, inside of
+MidJourney 8.2, which did build itself
+as a new image model that is better at
+text, we have this shot here, which I
+don't know, it's just not very good that
+text is so small on the bottom. I don't
+really know what functional purpose it
+could have in a graphic design capacity.
+And then we also generated this, which
+again, it almost seems like something is
+getting cropped off here. So, MidJourney
+is not doing a great job on this
+specific project in a graphic design
+context. So, all things considered, I do
+think that the brand new P image model
+from Ideogram is impressive and I would
+recommend checking it out, especially if
+you need to generate literally hundreds
+of images to get creative inspiration.
+You are probably going to run into some
+issues though because after you generate
+your base image for creative
+inspiration, you're still going to need
+to refine it and then ideoggram is not
+necessarily going to be the best tool
+for refining and doing character
+replacements and things like that. And
+so in that case, you probably are going
+to take your original image from
+midjourney or ideoggram and then run it
+through a more intelligent image editing
+tool like Nano Banana Pro to ultimately
+get the final image that you're looking
+for. But if you simply are trying to
+generate a bunch of images very quickly
+for creative inspiration, I think that
+ideoggram and both MidJourney are
+fantastic tools to check out. The team
+at Google recently updated their AI
+music generation tool, LRA, to LRA 3.5.
+They say it's one of the better AI music
+tools on the market. So, let's take a
+look at the tool. To use LRA, all you
+have to do is go over to the Google LRA
+website, and I have a prompt here for
+this electronic deep house style song.
+And we went into much more information
+about what we want to see from different
+verses and the intro and the chorus, and
+you get the idea. And you do have the
+ability to define the beats per minute,
+which is pretty cool. And then they also
+said that the emotions are more
+expressive inside of this version of
+LRA. So, we'll go ahead and hit
+generate. Now, I wanted to test this
+against other AI music tools on the
+market because they've gotten really
+good recently. So, we're also going to
+be testing this against 11 music version
+2 and Sunno 5.5. So, inside of LRA 3.5,
+that's the music generation tool from
+Google, we got this
+Okay, that song sounds kind of generic,
+but I guess it's fine. Now, inside of 11
+music, we got this.
+[music]
+[music]
+>> Don't tear me in half.
+Okay, it's fine. Maybe sounds a bit more
+like lowbudget house music, but not bad.
+Now, inside of Sununo, we got this.
+[singing]
+[music]
+Yeah, honestly the result from Sunno is
+so much better and the way that the
+stems are edited and everything's just
+layered, it just comes across as much
+more intelligent. So, in this case, I
+think that Sunno did a better job. But
+let's do another test here. So, inside
+of LRA, I prompted for a cinematic
+downtempo kind of cyber jazz song.
+There's some vocals under it, but I
+really wanted it to come across as a bit
+more of like an experimental track with
+a narrator under it. And inside of LRA
+from Google, we got this
+[music]
+>> lemonade countertop. Lemonade countertop
+steam rising from porcelain [music]
+to sugars.
+zero degree [music] vector.
+>> When is the live show? I am totally
+there. Okay, so that was LRA. Let's
+listen to 11 Labs.
+[music]
+>> I don't know what those lyrics are
+saying whatsoever. It's kind of a cool
+beat, but uh I I don't really feel like
+it nailed the lyrics at all. And
+finally, let's listen to Sununo.
+We sit side [music]
+by side.
+The contract remains [music]
+dawn
+approaches.
+>> Okay. So, even from an expressive
+standpoint, I think that Suno did a much
+better job. So, all things considered,
+unless there's some sort of enterprise
+reason why you would want to use Google
+LRA, I think that your better option is
+to use Sunno. Now, speaking of audio
+tools, there was a new tool that was
+announced this last week called Bland
+Speech, which admittedly is probably not
+the best name for a company that's
+trying to push into expressive voices,
+but maybe it's supposed to be ironic.
+So, the big thing with Bland Speech is
+the fact that they say that they are the
+best audio tool on the market in terms
+of overall realism. Now, if you go to
+the websites of all of the other
+competing companies, they're probably
+going to have the opposite information
+on their website, but they do say that
+they have the most expressive and
+realistic voices. Now, to announce the
+launch of their tool, they actually put
+together a video where a man who had a
+stroke and lost his voice. They used
+bland speech to make a clone of his
+voice so that he can talk with his kids.
+And yeah, it's one of the more emotional
+videos that you're going to see this
+week. I uh recommend having a box of
+tissues right next to you as you watch
+it. But they did an amazing job. 10 out
+of 10 from Bland Speech in terms of uh
+marketing launch videos. It's amazing.
+Now, to use Bland Studio, you can go to
+their website, and they have a little
+drop-own menu in the top left that you
+can go between agents, which is like AI,
+customer service, and a bunch of like
+real-time stuff. That's actually pretty
+interesting in a storytelling capacity
+because this type of technology will be
+what ultimately unlocks the ability to
+have real-time films that resonate with
+audiences or interactive video games
+that have custom voices that are really,
+really impressive. But we're actually
+going to go to the speech section here.
+Now, from here, you have the ability to
+select voices. They have a library of
+voices you can select. You, of course,
+can just type in your prompt to generate
+the exact speech that you're looking
+for. And then you also have the ability
+to create a clone. So, they have an
+instant clone and then a studio clone
+that can be more realistic. You can type
+in the name, the description, and then
+upload audio samples that you can use to
+ultimately create the clone. But, let's
+start with one of these preset voices.
+So, I have our voice selected here and
+we have a prompt, but you can see you
+also have the ability to add in tags
+like you do inside of 11 Labs to give
+direction on the overall way in which
+you want your person to present the
+text. So, we'll go ahead and hit [music]
+generate speech. And that gives us this.
+Okay. So, I think I finally figured out
+yoga. You just [clears throat] breathe
+and stretch. And no, wait, that's not it
+either. Honestly, I have no idea what
+I'm doing. I just paid for the class
+already. So, uh 6:00 a.m. by the way,
+who signed me up for 6:00 a.m. Oh,
+right. I did. Uh uh. Anyway, namaste, I
+guess. And yeah, I don't think I would
+call that realistic at all. Sounds like
+an alien possessed that dude. So, let's
+listen to the same result from a voice
+inside 11 Labs.
+>> Okay, so I think I finally figured out
+yoga. H. [clears throat]
+You just breathe and stretch and
+No, wait. That's not it either.
+Honestly, I have no idea what I'm doing.
+I just paid for the class already. So,
+6:00 a.m., by the way, who signed me up
+for 6:00 a.m.? Oh, right. I did. Anyway,
+namaste, I guess.
+>> Okay. It's not great. It's not usable in
+a professional context, but I do think
+it is better than bland audio. So, let's
+do something different here. Let's
+create that prompt again, but make it
+sad. And this is what we got from bland
+audio.
+>> Okay, so I think I finally figured out
+yoga. [snorts] You just breathe and
+stretch. And no, wait, that's not it
+either. Honestly, I have no idea what
+I'm doing. I just paid for the class
+already. So 6:00 a.m., by the way, who
+signed me up for 6:00 a.m.? [snorts] Oh,
+right. I did. Anyway, namaste, I guess.
+>> So, yeah, that was terrible, but let's
+listen to what we got from 11 Labs.
+>> Okay, so
+I think I finally figured out yoga.
+You just breathe
+and stretch. And
+[sighs] no, wait, that's not it either.
+Honestly, I have no idea what I'm doing.
+I just paid for the class already. So
+[gasps]
+6 a.m. by the way. Who signed me up for
+6 a.m.?
+[snorts] Oh, right. I did. Anyway,
+namaste, I guess.
+>> Okay, so there are some parts that are a
+little funny, but ultimately I think 11
+Labs did a better job. And uh yeah, that
+ASMR voice is a little creepy. Let's
+test out the voice cloning now. So, we
+have my voice that we cloned inside of
+Bland Speech using their instant clone
+and we got this. So, tell me, does this
+sound like me? Credible opportunities.
+Okay, so I think I finally figured out
+yoga. You [clears throat] just breathe
+and stretch and No, wait, that's not it
+either. Credible opportunities.
+Honestly, I have no idea what I'm doing.
+I just paid for the class already. So,
+uh 6 a.m. by the way. Who signed me up
+for 6 a.m.? All right, I did. Uh uh uh
+uh. Anyway, namaste, I guess. Do I say
+the word incredible opportunities a lot?
+Because I have no idea why the AI system
+decided to add that into the script. So,
+yeah, that's not my voice. It did not do
+a very good job at all. Now, we did the
+exact same thing inside of 11 Labs, and
+that gave us this. Okay, so I think I
+finally figured out yoga.
+[clears throat] You just breathe and
+stretch. And [sighs and gasps] no, wait,
+that's not it either. Honestly, I have
+no idea what I'm doing. I just paid for
+the class already. So, 6:00 a.m., by the
+way, who signed me up for 6:00 a.m.
+Oh, right. I did. Anyway, namaste, I
+guess. Okay, so it sounds realistic, but
+it's not me, so it's not exactly my
+voice. I don't know why you would want a
+voice clone that almost sounds like
+someone else. So altogether, I think
+from testing out bland speech against 11
+Labs, it hasn't really changed our
+perspective of which AI voice tool is
+the best one on the market. Clearly 11
+Labs is better, but there's definitely
+the opportunity for a better instant
+voice clone to be here. I haven't really
+found one that's really, really
+impressive. If you want a good voice
+clone, you're almost always going to
+need to use the professional voice
+services from one of these companies.
+Now, last week we talked about a new
+tool from the team at Inspatio
+that allows you to upload a video clip
+and create a 360 environment that you
+have the ability to move around in as
+the motion from the video unfolds. It
+was really cool. But the team actually
+came out with an additional tool this
+last week called query splat that gives
+you the ability to upload multiple
+images and create a Gaussian splat. So
+the images can be of a person, a
+location, an object. It will take all of
+those images, combine them together, and
+allow you to move around the scene. For
+example, we have a bunch of images here
+of this living room, and it created this
+3D environment that we can move around.
+Now, it is low resolution. There's a lot
+of room for the tool to be better. But
+the truth is, it's putting this entire
+scene together just from images. This
+isn't a Gaussian splat, and it's not a
+video. It's entirely coming from six
+different reference images. We also have
+a few different shots of this dog here.
+And we can move around in a 360
+environment. And look at the reflection
+on the uh dishwasher in the background
+there. It's pretty cool. Like it's not
+perfect. Again, this is far from
+perfect, but it's kind of awesome that
+it's generating a 3D scene from just a
+few different images. And then finally,
+we have a bunch of images of this
+bookstore here. And yeah, you can see we
+have all of those objects on the shelf.
+And there's 3D depth. Like you see as we
+move around here, you can kind of tell
+the depth of what's in front of what and
+it's generating it behind this object
+here. Like there's a lot more
+intelligence going on under the surface.
+They also have a website that you can
+play around with right now where you can
+upload your images and explore a 360
+scene. I highly recommend checking it
+out. When Google Notebook LM came out
+just a couple years ago, it kind of
+changed our perspective on the future of
+media and entertainment. You could
+essentially take any document, PDF,
+website, or even your own email inbox
+and turn that into a podcast that you
+could listen to. And the podcast was
+frankly pretty good. Well, the team at
+Hen has some similar technology that
+they released this last week that allows
+you to create a podcast clip
+automatically using AI. So, this is a
+video podcast. It's not just the audio
+alone. To use the tool, all you have to
+do is go to the Hey Jen website and
+we'll go to apps on the left and they
+have this little button down here for
+video podcast. Now, for our host, I'm
+going to be using Adam from the Curious
+Refuge team. And we've also cloned his
+voice using the voice clone feature
+inside of Hey Jen and the same with me.
+I don't know why it gave me the name
+Ethan here, but uh that's me along with
+a cloned voice. Now, for the podcast
+content, you can be specific about what
+you want them to talk about, or you can
+have them talk about, you know, a vague
+subject. For our example, we're going to
+have them talk about some fast food.
+Now, you can generate up to 1080p. We'll
+select 16x9. And then you can generate a
+video clip up to 3 minutes long. And
+then you can add in more instructions
+about what you want the overall scene to
+look like, where you want this podcast
+to be happening, things like that.
+[music] And when you're ready, go ahead
+and hit generate. Now, it takes a few
+minutes, but this is what we got.
+>> I've been thinking about fast food
+lately. If you had to pick just one spot
+for the rest of your life, where are you
+going?
+>> That's a tough one, but I'd probably
+have to go with Taco Bell. There's just
+something about those cheesy gordita
+crunches that hits every single time.
+Taco Bell is a solid choice for the
+variety, but I'm a burger guy through
+and through. For me, it's got to be
+Wendy's because the spicy chicken
+sandwich is legendary. Wendy's is great,
+especially the fries, but I feel like
+Chick-fil-A takes the crown for chicken.
+The service is always perfect, and that
+sauce is basically liquid gold. I can't
+argue with the sauce, but the lines are
+always so long. Sometimes I just want a
+quick double cheeseburger from
+McDonald's without the drama. There's a
+nostalgia factor with McDonald's for
+sure. Those thin, salty fries are
+iconic, even if they aren't technically
+the best quality out there. Exactly.
+It's about the consistency. You know
+exactly what that quarter pounder is
+going to taste like whether you're in
+New York or London. True, but if I'm
+feeling fancy, I'm heading to Five Guys.
+It's pricey for fast food, but those
+bags of extra fries make it worth every
+penny. Five Guys is a heavy hitter. I
+think we can both agree that as long as
+the fries are hot, you really can't go
+wrong.
+>> Absolutely. Now, I'm actually getting
+pretty hungry just talking about all
+this. We might need to make a run after
+we're done here. [laughter]
+>> Oh no. Oh my god. Um, yeah, that uh is
+definitely the most realistic podcast
+I've ever seen. So, there's so much
+strangeness happening under the surface
+there. I don't know what AI system
+they're using to power the podcast. It
+feels like from an intelligence
+perspective that it's simply worse than
+Google Notebook LM. So, I don't really
+know what's going on under the hood
+there. and the characters like their
+faces just come across as like too
+synthetic. So, I don't really know what
+the appropriate use case would be here
+because if you're an actual real life
+influencer and you use this tool, it
+would be obvious that you were not
+actually in the studio and that would
+just not be great for your audience. And
+I suppose if you wanted to just put out
+a bunch of like weird slop interview
+content, you could. But I don't really
+know what the overall purpose would be
+of this like video podcast format using
+this specific hijen tool. In upscale
+news, the team at Topaz released two
+brand new AI image upscaling tools
+designed to do two different things. So
+one tool is called Wonder 3.5 and the
+other tool is called Bloom 2. Wonder is
+designed to upscale basically any image
+whereas Bloom is specifically designed
+to upscale AI generated images. Let's
+hop into the tool and take a look at how
+it works. So, I'm here on the Topaz Labs
+website and basically you drag and drop
+your images right into the image section
+here and you can go to the menu, select
+Wonder 3.5 or Bloom 2, depending on
+which one you want to use, and go ahead
+and generate. Now, for our examples, I
+have quite a few different images that
+I'm going to fly through here. So, these
+are all images that we want to upscale.
+So, we have this shot of an AI crowd,
+and when we zoom in on their faces, it's
+just jumbled nonsense. We have this shot
+of a giraffe, a zebra, this animated
+monster, this product shot. We have this
+real historical image that's just super
+pixelated and uh basically unusable on a
+project. We have this shot of a
+character, but the skin is super
+plasticky. This real shot of Time
+Square. We have this shot which again is
+real. And then we have this screenshot
+that has text but the text is very very
+blurry. We also have this shot of an AI
+character. Again skin is very plasticky.
+And then finally we have this image that
+was generated and again some weird text
+and [music] the people just kind of melt
+into each other. So some weirdness going
+on. So I ran both of these tests through
+Bloom 2 and Wonder 3.5. Let's take a
+look at what we like and don't like. So,
+this one's from Wonder 3.5. And when we
+zoom in, the character spaces are
+technically a little better, but they're
+not perfect. And it's kind of a
+balancing act because you want the AI
+system to correct any issues that are
+wrong, but you don't want it to
+completely change the overall scene. And
+so, I'm sure that uh Topaz here was
+like, I have no idea how to even fix
+this person's face. So, uh yeah, here's
+what you get here. This shot again looks
+so nice. There's just tons of details in
+the grass. Very, very nice. We have this
+shot of this animated character. Again,
+the fur texturing looks incredible. This
+product shot is coming across as much
+more realistic. There's like winess in
+the reflections. Overall, amazing job.
+This image is fascinating because it
+really cleaned up a lot here. Now, one
+thing you will need to notice in a
+documentary context is if any details
+aren't supporting the era in which the
+image was generated, but altogether, I
+actually think it did a pretty decent
+job. Like, not too shabby. It even like
+added in details with the characters in
+the images on the walls. Like, not bad.
+This shot of our AI character is still
+pretty plasticky, so I don't know if it
+did a great job. The shot of Time Square
+does actually look really good. And even
+the text in the background says Times
+Square. So, not too bad. This shot is
+much more detailed. It looks good. You
+see the texturing in the grass, the
+individual window panes in the
+background. Very, very nice. The text on
+this image is now legible. This skin
+texturing is still not super realistic.
+It's almost like a pattern. So, I'm not
+entirely in love with that shot. And
+then finally, we have this shot here
+with the people walking around. They're
+still jumbled together, but the overall
+image is much, much more sharp. Now,
+let's compare that against Bloom 2. So,
+Bloom 2 is specifically designed for AI
+image upresing. So, this is what we got
+from the crowd shot. And when we zoom
+in, the faces are better. They're again
+not perfect, like what's going on with
+this person's face here, but they are
+better than what we got from 3.5. You
+can tell there's just more creative
+interpretation happening inside of Bloom
+2. We have this image of the giraffe,
+which basically looks perfect. This shot
+of the zebra, which does look good,
+although there's maybe a little
+overexturing happening on the zebra, but
+altogether not too shabby. The animated
+character looks good, but if you zoom
+into the bokeh, there's almost like kind
+of a brushed texture design happening.
+So, I do think that Wonder did a better
+job. We have this shot of a product. And
+again, the core product is good, but the
+background grain texturing is coming
+across as uh a bit synthetic. It kind of
+has like a banding layout to it. Almost
+like it's like a low res compressed
+image. This is the documentary shot. And
+when we zoom in, it looks pretty good.
+Like there's some weirdness. Like I
+don't know why this kid's cheek is like
+drooping so bad. It's not the best. I
+think Wonder 3.5 did a better job, but
+it's okay. Now, this image actually does
+come across as more realistic. It's not
+realistic, but it's more realistic. It
+did cut down on some of the plastic skin
+texturing there. This shot from Time
+Square is fine. It did okay. This shot
+is basically indistinguishable from the
+other one. It did a really good job. On
+this image, it looks pretty good, but I
+do think the character is very synthetic
+looking. And uh there's just some slight
+texturing going on in the actual graphic
+design. So, you know, it's not really
+designed for this use case, but you
+know, it did okay. The skin texturing on
+this one, again, not realistic, but it
+did a better job than the previous
+version. And then finally, we have our
+city here, which um yeah, I think it
+probably did a better job. It's not
+perfect. The text is absolute nonsense.
+Uh but you know altogether I think it's
+pretty decent. We saw an interesting
+news story this last week where more
+than 230 large companies so like Nvidia,
+A16Z, Microsoft very very large
+companies came out with the open weights
+in American AI leadership letter. This
+basically argued for support of openw
+weightighted AI models. So a lot of
+times AI models will be behind a
+subscription payw wall and you'll have
+to pay a lot of money to have individual
+access to systems like OpenAI or Claude
+or Google Gemini. But this initiative is
+basically a push for more openw weighted
+models to be less regulated in the
+United States to create an even playing
+field for more people that want to get
+into the AI game. And I think generally
+we would agree here at Curious Refuge.
+It's really nice to be able to have open
+weighted models that number one you
+don't have to pay to use and number two
+you can add in customization whether
+it's in the data set or a Laura model. I
+think having the ability to hop in and
+work with an open weighted model is
+simply really helpful. In other industry
+news, I want to give a hat tip to Forbes
+for writing an article about Promise are
+AI film studios approach to protecting
+copyright in an AI filmmaking context.
+It's a really good article. I highly
+recommend checking it out. And I'm also
+super excited to tell you that Disney
+has announced their 2026 accelerator
+program and Promise Studios, our
+company, is a part of the cohort. Past
+companies going through this program
+include Epic Games and 11 Labs, so we're
+in good company. You can read more about
+it in the link below this video. We've
+had a ton of AI meetups happening around
+the world. I want to give a hat tip to
+the LA community for coming out to the
+meetup on Wednesday. It was a ton of
+fun. We also recently hosted a meetup in
+Dubai and in Vancouver. If you happen to
+be in any of those cities, be sure to
+subscribe to our newsletter over at
+Curious Refuge to be the first to know
+when a new meetup starts. And then I
+should note that we have a London meetup
+happening on August 12th and a Denver
+meetup happening on August 29th. And
+that brings us to our AI films of the
+week. The first film that I want to
+shout out is called Red Rainbow by A's
+Alter. This was fully written, directed,
+and scored by the artist, which is
+really impressive. This was actually
+created in partnership with Phantom X,
+which was co-founded by Cavin Cardoza,
+who is the instructor of our advanced AI
+filmmaking course. So, really cool to
+see some of the work coming from their
+studio. They actually used Invido's
+Agent 2, which we're going to take a
+deeper look at in the very near future
+to pull this off, and it's just one of
+the more impressive film projects that
+we've seen in a while. So, fantastic
+work there. And the next project I want
+to give a shout out to is called Eureka.
+This was a spec project created by Ben
+Chimoy for Runway's big ad contest. It's
+a really funny concept for a waterproof
+pin pad and it really leans into the
+extreme parts of artificial
+intelligence. So, I think they did an
+amazing job. Thank you so much for
+watching this week's episode of AI Film
+News. As always, if you want to get the
+latest AI tutorials and news directly
+here on the platform, be sure to like
+and subscribe. Thank you so much for
+being an incredible member of the
+Curious Refuge community. We'll see you
+in the next one.

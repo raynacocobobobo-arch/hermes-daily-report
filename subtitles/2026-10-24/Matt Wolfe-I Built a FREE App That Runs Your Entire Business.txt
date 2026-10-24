@@ -1,0 +1,785 @@
+UP主：Matt Wolfe
+标题：I Built a FREE App That Runs Your Entire Business
+链接：https://www.youtube.com/watch?v=rKo9iLGjUbs
+
+So, there's really only one thing that's
+been getting me pretty fired up lately
+about AI these days, and that's
+building. [music] Building tools and
+workflows and little optimizers and
+little bespoke apps [music] for myself,
+things like that. If I'm being totally
+honest, I'm kind of over video
+generators and image models and even
+like the latest [music] large language
+models, they all kind of feel just like
+marginal improvements to me. They don't
+feel like that big of a deal.
+>> I am bored.
+>> And although I did just make a video
+claiming that not all industries are
+dead in the face of AI, the SaaS
+businesses, well, those are ones that
+might be in a little bit of trouble. In
+this video, I want to show you how to
+make the ultimate productivity app that
+combines a ton of manual things that
+you're probably already doing every day.
+This is actually a dashboard that I
+built in my own business that is kind of
+the single tab that I have open all day
+long that's running everything for me.
+But, I'm going to build it starting from
+scratch on this video. And I'm going to
+take you through each feature
+step-by-step. And at the end, I'll even
+share the whole like GitHub page with
+you, so you can just like download it
+and run [music] it yourself if you want.
+Anybody who's ever wanted to have one
+single dashboard where they literally
+manage everything in their business or
+even everything in their life, this
+one's for you. And this one's pretty
+insane. Let's dig in. So, this is what I
+call my wolf control tower. I actually
+previewed this in a live stream that I
+did recently where I went into a deep
+dive and showed everything this does.
+But, here's the quick quick overview of
+my current dashboard. So, in my
+dashboard, since I make videos that
+break down all the latest AI news, I
+have, well, a news dashboard. My AI
+intel section here pulls in all of the
+latest news from pretty much every
+single lab that's working on AI plus
+websites like TechCrunch and The Verge
+and sites that cover AI a lot. I also
+have a newsletter tab. I basically made
+it so my little dashboard here is
+subscribed to like every AI newsletter
+out there. I also have my brand
+dashboard. This is like my Google
+alerts, right? I have it watching for
+any mention of Future Tools, any mention
+of Matt Wolfe, any of my social handles.
+Anytime any of that is mentioned, it
+finds it and it brings it to me. I have
+this reminders tab, which is actually
+hooked up to a Chrome extension, so I
+can save stuff from around the web and
+it brings it back to me and I can even
+put notes in here on why I saved it in
+the first place and then I can organize
+this stuff into folders. I have an
+audience tab here where I can track my
+audience growth across all of the social
+media platforms and then I have my sites
+tab here where I can get a quick
+snapshot of how my various websites are
+doing. But in this new dashboard, we're
+going to build one from scratch and I'm
+going to even add some additional
+features to it. So as I walk through
+building this, think about the dash
+board that you would build. Just take
+the elements that would be useful to you
+and your life or business, use those and
+you can ignore the other parts. So to
+build this, I'm going to use the Chat
+GPT app and specifically, I'm going to
+make sure I'm in Codex cuz it's going to
+be building a lot of code. I'm going to
+start by creating a new project, so I'll
+click on the plus here and we're going
+to create this as a local project here.
+I'll just call it Control Center and
+then for source folders, I'll go ahead
+and click in this box. I have a folder
+on my computer called code where I store
+all of my projects. So I'm going to go
+ahead and create a new folder here and
+I'm going to call it Control Center.
+We'll create this new folder and we'll
+open that. Then I'll go ahead and create
+the project. I'm going to use 5.6 Soul
+High cuz I know that's going to do a
+decent job building this out, but use
+the best model you have access to at
+least for the initial build out. You can
+actually lower which model you're using
+once you start just tweaking features
+and making small changes, but for the
+initial build out, I personally like to
+use the best model I have access to. All
+right, so I'm going to go ahead and give
+this a prompt and with my initial
+prompt, I want to sort of build the
+bones. We're going to lay the
+groundwork. We're not going to make sure
+every single bit of functionality is
+working from the very very start. We're
+just going to get that rough draft going
+and then we're going to go and build the
+functionality for each thing. I want to
+build a business dashboard where I can
+keep up to date with all the latest news
+in my industry. I want a reminder
+section where I can save stuff to that
+section from around the web. I want a
+page that has an audience tracker that
+tracks my social media stats. I also
+want a newsletter page and I also want a
+page that has a task list and I want
+each of these to be in their own
+separate tabs. This app can have access
+to my granola, Gmail, Google Calendar,
+Slack, basically anything that I've got
+a plugin installed for. It can have
+access to that to help keep this
+dashboard up-to-date. So that's my
+initial prompt. A lot of this stuff
+isn't going to work out of the box like
+the Gmail account, but I have a feeling
+a lot of it will work from the very
+beginning. And it's probably going to
+take a little while to go ahead and
+build this out. It's going to be a
+pretty big initial buildout and then
+once this is done, we'll start dialing
+in each little thing individually.
+>> A few moments later.
+>> All right, so it took about 15 minutes.
+It looks like most of what's here
+already is kind of filler content, but
+you can see it created a to-do tab.
+We've got our industry tab. So it has an
+article from the information. So if I
+pull this open, the link doesn't work.
+So that's not set up yet. We've got our
+mentions. Is this an actual link? No,
+none of these links work either. All
+right, so reminders. Right now you can
+save things to it manually. We've got
+our audience tab, newsletters. It has a
+setup guide that is not working yet and
+then we've got our task list and our
+task list seems to be working. So, we've
+got the bones of our newsletter now. I'm
+going to switch this back over to Soul
+High. So, we're using our better model.
+So, I'm going to give it that additional
+context and have it continue to build
+based on that information.
+>> Later.
+>> Okay, so [laughter] it's been a while. I
+went back and forth with OpenAI quite a
+bit and decided let's just like skip
+over all of the back and forth of me
+saying, "This isn't working. Fix this. I
+found another issue that needs to be
+addressed." and all other wordings of
+that. And yeah, so several hours later,
+as you can see, worked for 20 minutes,
+worked for 23 minutes, worked for 31
+minutes, worked for 2 hours and 37
+minutes. And after all of this back and
+forth, I finally feel like I have a
+dashboard worth showing off. And here's
+what it looks like. But, I just realized
+I need to fix one more thing. Let's add
+a dark mode so you can toggle between
+light and dark mode. And let's make dark
+mode the default cuz I'm not a psycho. I
+somehow skipped over like the most
+important feature. All right, dark mode
+is now the default civilization
+preserved. Perfect. All right, so let me
+give you a quick tour of the dashboard I
+built and then walk you through how you
+can just take this and use it yourself
+if you want. So, the first screen you're
+going to see is the today screen. This
+is like a customizable screen where you
+can add your task lists and a daily
+brief of what you want to see on this
+the home page here. Quite honestly, on
+my dashboard, I almost never look at my
+daily brief, but it's there. I kind of
+like to go through the individual
+modules. So, we have an industry module
+here and we can see that it surfaced 22
+things that it thinks are important now
+for me to review. If I look in my
+settings, this is based on my industry
+settings. I have it watching OpenAI for
+me, Anthropic, and DeepMind, as well as
+watching the internet for keywords like
+AI, artificial intelligence, machine
+learning, and neural network. Obviously,
+if you were to use this dashboard, you
+would set these sources up to whatever
+you want to track. And then that's what
+surfaces the sources you see on this
+page. And right now, this is sorted by
+what the app determines is most
+important. But, you can sort it by
+newest first, and it will now show me in
+order of the newest article. So, this
+article's from 16 minutes ago, 1 hour
+ago, 2 hours ago. We can sort it by
+oldest first, and we can sort it by
+watched sites first. So, it's going to
+specifically focus on just the URLs that
+you plugged into the sites to watch as
+the sort of first order news here. We
+can click this little link here to open
+up the article in a new tab and read the
+news. We can click this little button
+here, and it will save it to our
+reminders folder. And when we save one
+of these to the reminders folder, well,
+it becomes something that we'll be
+looking at again later. Or as you go
+through uh news review, this is
+something I do daily. I skim all the
+news it uncovers for me, and as I read
+the news, I archive it when I'm done
+reading it. Once an item's been
+archived, it then shows up under the
+archived folder. So, they're not gone
+completely, they just no longer show up
+under your important now list. You've
+got your at mentions page. This is
+basically like a Google Alerts, but way
+better. It It makes sure that it is
+finding stuff about you or your brands
+and filtering out stuff that's obviously
+not about you. So, for example, Matt
+Wolf is actually kind of a common name.
+Like, there's a golfer named Matt Wolf.
+There's a real estate agent named Matt
+Wolf. I run into all these other Matt
+Wolfs on the internet all the time.
+Well, this is smart enough to know which
+ones are me and which ones aren't, and
+only pulls the relevant stuff forward.
+And the same functionality works here.
+There's this podcast Everyone Sounds
+Like ChatGPT Now, Including You, and
+it's got a high confidence that it's
+actually about me. I can open this in a
+new tab here and see this podcast that I
+did with Joe Fear on his podcast. Once I
+have reviewed this, I can click the
+archive button and then it shows up in
+the archive and history section. So now
+on a daily basis, I'm keeping up with
+all of the industry news that's going on
+in the AI world, plus I'm watching for
+any mentions of me, my brand, my
+website, whatever. It's not just looking
+for Matt Wolf, it's also looking for
+mentions of futuretools.io.
+We can see this page here is showing the
+builtwith.com for futuretools.io and it
+shows all of the various scripts that
+are running on future tools. But now
+that I've reviewed it, let's go ahead
+and archive it. And then we have our
+reminders tab where anything that I
+wanted to remember from the industry or
+mentions page will get popped into the
+reminders tab so I can review it again
+later. But I can also manually add stuff
+to the reminders. So say another thing,
+let's say I come across a tweet that I
+really want to remember. I can type in
+the URL of the tweet here, a little note
+about why I saved it, and it will save
+it right here as a reminder and I can
+come back and view my reminders whenever
+I want. I also created an audience tab.
+This audience tab is based on another
+setting. So if I jump back to my
+settings here, go to audience, you can
+see that you can plug in a YouTube
+profile, X profile, Instagram profile,
+Facebook, LinkedIn, Threads, or TikTok
+and you can even add multiple of these
+profiles if you want. It's going to
+watch all of those profiles, tell you
+the audience size of each, and then show
+you the growth. Now, right now it's
+waiting for a baseline and then in 24
+hours it's going to show the growth from
+the baseline that was there previously.
+And then of course, it's going to total
+up all of your social media subscribers
+across all platforms here. We also have
+the newsletters tab which I'm going to
+skip past for a second. We'll come back
+to that. And we have the tasks tab which
+is exactly what it sounds like. It's a
+task list app. But we can add a task and
+let's just say uh, you know, review
+industry news. And let's say I want to
+do that every day. I can make that due
+today, but make it a daily recurring
+task. Add my task here. When I check it
+off, we can see one task is complete for
+the day, but it added a new one with a
+due date of tomorrow. It doesn't have to
+be recurring task. I can just say review
+the contract that Dave sent over and add
+it as a one-time task. And when I check
+that one off, we can see it removes it
+from our task list, adds it to our list
+of completed tasks, and we can see that
+we've done 100% of the tasks that we've
+added for today. Very, very simple task
+list. Something I'll probably build out
+more in the future. And then we've got
+the newsletters tab. And this is
+something that's really cool that I
+built for myself in my original
+dashboard that's been really, really
+helpful. Pretty much every AI newsletter
+you've ever heard of, I am subscribed
+to. But this tool reads the newsletters
+for me and pulls all the news to me, so
+I don't actually have to click through
+every single email. But it does take
+some setup. So I'm going to go ahead and
+click on open settings. And the first
+time you do this, you will have to set
+this up, but it only needs to be done
+once. You need to set up a Google OAuth
+client secret. So click on open Google
+OAuth credentials to grab our client
+secret here. So click on this little
+link. It'll open this credentials page
+in a new tab. We're going to click on
+create credentials. Click on OAuth
+client ID here. Application ID is a web
+application. We can call this control
+center. Now for this, you can skip over
+the authorized JavaScript origins, but
+under authorized redirect URIs here,
+click on add URI, and then jump back to
+the control center, and here's the URL
+you want to copy and paste right here. I
+know it's very small on my screen, but
+go ahead and copy this URL right here,
+and then you'll paste that into your
+authorized redirect URI, and then click
+create. And then right here, it will
+give you a client secret. Go ahead and
+copy that client secret. Click okay.
+Jump back to your control tower, and
+we're going to paste that client secret
+right here. We also need the client ID
+that's showing up right here. So, we'll
+go ahead and copy that. We'll paste that
+into our Google OAuth client ID. And
+once you have your secret and your OAuth
+client ID connected, go ahead and click
+save and choose Gmail account, and it'll
+bring you to this page where it asks
+which Gmail account you want to connect
+to watch for news from. Now, I actually
+created a Gmail account just for opting
+into newsletters. So, nothing else goes
+to those Gmail accounts, but the
+newsletters I opt into. So, I'm going to
+select that newsletter inbox that I
+created, and you'll probably get this
+screen that says Google hasn't verified
+this app yet. Don't worry about it. It's
+safe. Just click advanced go to
+dashboard newsletter watcher. You'll get
+this screen, and then we'll click
+continue. Click continue on the next
+page, and now your newsletter watcher is
+set up. If I click on newsletters now,
+it's going to check those inboxes for
+any emails that have come across, and it
+found a security alert because we just
+connected a new app to it, but then you
+can also see it found these newsletters:
+the AI Breakdown, Bite Bite Go, TLDR AI,
+Alpha Signal, Superhuman, Ben's Bites,
+etc. And it's going to watch these
+newsletters for me. I can add it to my
+reminders page, or I can directly open
+one of these emails inside of Gmail
+itself. But I don't want this to just be
+a secondary inbox for me. I actually
+want it to read the emails for me and
+bring the news to my attention that it
+sees in the emails. So, I'm actually
+going to fix that real quick. And after
+a quick prompt here, and by quick
+prompt, I mean a prompt that ran for
+another 41 minutes, it's actually now
+reading all of the emails for us and
+deduplicating any of the news. Now, we
+can see there is 48 newsletters that
+it's watching. That's actually 48
+newsletter issues. The inbox probably
+had multiple days worth of newsletters
+in it that it was watching. So, some of
+the newsletters we might I gotten
+multiple issues from, and it found 156
+active stories. And this is after
+deduplication. So, if multiple
+newsletters reported on the same story,
+it deduplicated them and only shows them
+as one story here. But, we can see here
+that, you know, Anthropic releases
+Claude Academy online learning platform.
+This one looks like it was mentioned in
+the AI Pulse, Ben's Bites, and
+Superhuman. I can send it to my
+reminders, or I can open the source of
+this news, which is the academy.claude
+site here. So, we can actually see which
+newsletters it came from. We can remind
+ourselves of them. We can archive them
+after we've reviewed them. We can open
+the source. And this little newsletter
+evidence here will open the original
+email that this came from. Now, there's
+a few settings I want to show you. So,
+when I jump into the settings page here,
+here's how you really get this dialed
+in. Under general, you can name it
+whatever you want. Right now, it's
+currently named Control Center, but
+obviously name it whatever you want.
+Under the industry page, you can give it
+some details about what matters in the
+industry. So, you can kind of explain, I
+want news about this. The stuff that's
+important to me is this. So, for
+example, when I do AI news, I like to
+say AI news that allows us to do new
+things that we couldn't do before, and
+major technical advancements. Those are
+the things that are important to me. You
+can tell it how many target articles you
+want it to find. I have it set on 30.
+You can track specific sources. These
+are my examples, OpenAI, Anthropic, and
+DeepMind. You'll probably have a lot
+more in your industry. You can give it
+some tags you want it to look for. So,
+it will try to find news that includes
+these tags outside of these tracked
+sources. And you can also add excluded
+topics that you're not interested in
+following. Now, under the mentions tab,
+this is where you're going to add things
+that you want your mentions or Google
+Alerts kind of thing to alert you of.
+So, for me, I put Matt Wolfe, Future
+Tools, and Mr. Eflow, which is my social
+media handle. Under official websites,
+I've got futuretools.io and
+mattwolfe.com. I'll also add
+youseebench.com to make sure it finds
+any mentions of buseybench.
+>> Yeah!
+>> You can also make sure it excludes
+mentions that are not related to you.
+So, for me, there's a new show where
+David Harbour is playing a character
+named Matt Wolf. I can make sure that it
+ignores anything related to David
+Harbour. It's also got identity aware
+filtering, so it will reject things that
+it doesn't think are correlated with
+you, and exclude your own website. So,
+if you add new blog posts or anything
+like that, it's not going to find them
+and say, "Look, this is what we found
+that's new about you." For the
+newsletters tab, we've already set that
+up. For your audience tab, again, you
+can set up all of these social media
+accounts, but you can also add multiple.
+So, if you do have multiple X accounts,
+multiple YouTube accounts, multiple
+Instagram accounts, you can add them all
+and it will track all of them. And if
+you want this to do an even better job
+at filtering and finding more and more
+relevant news, you can actually give it
+an AI API key. Now, you do not need to
+connect this to OpenAI, Anthropic, or
+Gemini, or any of the AI models, and it
+will do everything I just showed you.
+The current version that I showed you is
+not connected to an AI model. However,
+if you do give it an API key to one of
+these models, it will work even better.
+It will work better at filtering and
+making sure that the news is very, very
+relevant to you and what you're looking
+for specifically. So, if you're
+comfortable giving it an API key, you
+can do that. I'm going to go to my
+OpenAI API keys here. You can see you go
+to
+create a new secret key, and I'm going
+to call this one Control Center
+demo, leave it on all permissions, and
+create a secret key. Now, I am going to
+delete this key after I demo this, but
+we'll copy this key, jump back to our
+Control Center, paste this in, and we'll
+have OpenAI be selected as our active
+provider. Now, if I save my settings, we
+can see our OpenAI key is configured.
+And now, when I click back to my
+industry tab here, you can actually see
+it says OpenAI assisted. Now, the AI
+model is actually helping us decide what
+is most important on the list. We're
+getting a better ranking of importance
+and we're getting a little AI summary
+here of each thing. So Stability AI
+raised 76 million, blah blah blah, and
+we can just see why it decided to pull
+that forward for us. And that's the full
+tour of the control center dashboard
+that I built. Now again, I built this so
+anybody can use it and install it. It's
+completely free. If you go over to
+GitHub, you can actually find this. It's
+at github.com/mistereflo
+control center here. And here's the
+easiest way to install it. Literally
+grab this URL, just copy this URL to the
+mistereflo/controlcenter.
+It will also be down in the description
+of this video. Open up the Codex app or
+Claude code or whatever your sort of
+harness of choice is. Create a new
+project, make it a local project, name
+it whatever you want. I'm going to call
+it control center demo. And then click
+add folders Codex can read and edit.
+Save it wherever you want on your
+computer. I'm going to create a new
+folder called control center demo. Click
+create and then we'll open this folder.
+Yes, it's going to be empty. That's
+totally fine. So I'll create the
+project. You don't need to use a
+particularly strong model. So if you use
+even like 5.6 Luna here, I can say clone
+this repo for me. And then paste in the
+URL to the GitHub. Hit enter and it's
+going to copy all of the files on your
+computer locally for you. It took 7
+seconds to clone it. And then what I
+want to do is I want to make sure it's
+actually going to be able to run. So
+I'll say install any necessary
+dependencies to make sure this runs
+properly, then start my local host and
+open it in my browser. It's going to
+make sure it has everything it needs to
+run. It took about 2 and 1/2 minutes to
+do everything that it needed to and it
+opened it in our browser here. You can
+see this is a fresh install with no
+settings dialed in yet. So, now you go
+to your settings page and start dialing
+in your industry, the mentions you want
+to follow, set up your newsletter, your
+audience, decide if you want AI curation
+or not, and you'll be ready to go. It's
+that simple to set up. Okay, so after I
+finished recording, I've kind of been
+continuing to improve it, update, and I
+wanted to show just a couple more quick
+updates that I built onto this. So, on
+the today page, I made it so the daily
+brief automatically pulls in the five
+things it thinks are most important from
+the industry tab, the five things it
+thinks are most important from your
+mentions, and the five things it thinks
+are most important from the newsletters.
+So, the daily brief makes a little more
+sense to just see like the main things
+you should pay attention to right now.
+On the mentions page, I updated it so if
+you do add your AI API key, like an
+OpenAI API key or something like that,
+it now uses AI to summarize each of the
+things. So, instead of just giving you
+like the title of the thing that it
+found, it gives you like a quick AI
+summary of the thing it found, and it
+also gives it a ranking of like how
+important it thinks it is for you. So,
+you can actually sort by the priority,
+you can sort by the newest thing it
+found, the oldest thing it found, but I
+like leaving it on priority because it
+sort of determines the importance of
+each thing that it found for you. And
+then I overhauled the audience page. I
+thought the audience page was a little
+too boring, so I added some charts and
+graphs. You've got a little pie chart
+that shows like which percentage of your
+audience comes from which section. You
+could see which audience here is growing
+the fastest among all of them. You've
+got like a little mini graph for each
+audience to see the growth over time for
+each audience, and you've got that
+original view that I had in there in the
+first place. So, it's just like a
+cooler, cleaner looking audience page.
+On the newsletter page, I updated some
+features here where you can actually
+search for headlines, but it's now also
+using AI if you did add an API key. So,
+you can sort stories by priority,
+newest, or oldest. And the priority is
+basically the AI read sheet through
+these news stories and then gives it a
+priority sort of score. You could also
+filter by specific newsletters if you
+want. So, let's say you want to see just
+what the Rundown newsletter found for
+you. You can select the Rundown and it
+filters it down to just 18 stories that
+were pulled from the Rundown
+specifically. Maybe you learn over time
+that that's the newsletter that you get
+the most value out of and you can filter
+down to just those and look at just
+those topics if you want. And then, when
+I jumped into settings for the AI, I
+originally just had OpenAI, Anthropic,
+and Google Gemini. Well, now I added the
+ability to use Grok if you want. But, if
+you want to use a local model and keep
+this completely offline, I'm giving you
+those options as well. You can connect
+it directly to LM Studio or Ollama if
+you have one of those set up to run
+local models. So, you don't even need to
+connect to a cloud provider to run this
+whole system if you don't want anymore.
+And I updated this model section here.
+So, if you do have OpenAI set as your
+cloud provider, you can pick which model
+you want to use specifically to have it
+run the AI automation. GPT-5 Mini is the
+default because it's sort of like the
+best balance between doing its job and
+cost. But, I mean, if you really, really
+want to be using like the
+state-of-the-art GPT-5.6
+Soul, you can. And it will do it for any
+of these. So, if you plug in Anthropic,
+Google Gemini, or an XAI API key, it
+will show you those models as well. So,
+just wanted to make some cool
+quality-of-life updates that make this
+control center even better. And even
+after this video is live, I'm going to
+keep on improving it and building on it
+and making an even cooler control
+center. So, the version that you
+download off of GitHub and install after
+watching this video may even end up
+being better than the version you saw in
+the video, cuz this is just too much fun
+for me. Okay, one more bonus tip. As we
+built it right now, you have to run it
+on your localhost, and you need to fire
+up the localhost every time you want to
+use it, and you have to use it only from
+the one computer that you installed it
+on. If you're using Chat GPT, and you
+have one of the existing paid pro plans,
+you can host it on Chat GPT's servers
+for no extra charge, and then you can
+actually access this dashboard from
+anywhere you want. Like, not just the
+computer that you originally installed
+it on. So, if you give a prompt inside
+of Chat GPT, make sure you're in the
+same project, and say, "Build this
+entire project on", and then tag @sites,
+and then hit enter, it'll build the
+whole thing on Chat GPT's servers for
+you. And you can see it did take about
+21 minutes, but it gave us a URL. So, if
+I copy this URL, I'm actually going to
+open it inside of Chrome here, paste it
+in here, and it's going to ask me to log
+in through Chat GPT. So, I'm the only
+one who can access it, cuz I have to log
+in with my Chat GPT to access it. But,
+you can see I now have a URL that's
+online that I can go to. So, I can
+actually check out this site for mobile,
+or for my laptop in a hotel room, and
+stay on top of everything. Now, I do
+have to reset everything. None of my
+settings are dialed in on this new
+version, but I have a fully online
+version that I can use of this dashboard
+now. So, just wanted to share that bonus
+tip, if you're a Chat GPT paid customer.
+But, that's what I got for you today. I
+hope you enjoyed this video. If you like
+videos like this, and you want to learn
+really cool ways to use AI, or if you
+want to stay up with all of the latest
+AI advancements, every Friday I put out
+a video where I break down everything
+that's happened in the world of AI. I'll
+drink from that fire hose all week long,
+find all the news that I think's
+important, and share it with you in just
+one video. So, you don't need to try to
+keep up with it on a daily basis. I keep
+myself overwhelmed, so you don't have
+to. That's kind of what I do with this
+channel. If that's something that you
+think would be interesting to you, maybe
+consider [snorts] liking this video, and
+subscribing to this channel. As of the
+release of this video, I think I'm
+hitting like a million subscribers like
+right now, probably like the day this is
+coming out. So, I really, really
+appreciate everybody who subscribed to
+this channel and helped me like make my
+dream come true of being able to create
+content and play with tech for a living.
+This has just been the most exciting
+thing in the world and just a wild ride.
+So, thank you. Thank you so much to
+everybody who tunes in and watches these
+videos and comments and interacts and
+who's clicked that like button and
+clicked that subscribe button. It has
+been such a cool ride and I can't thank
+you enough. And thanks again for
+watching this video and nerding out with
+me once again. I really, really
+appreciate you and hopefully I'll see
+you in the next one.
+Bye-bye.

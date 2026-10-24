@@ -1,0 +1,49 @@
+UP主：OpenAI
+标题：Build more personal sites with Codex
+链接：https://www.youtube.com/watch?v=KJ_7KPKlO_Q
+
+We're making it easier to keep data
+and Sites up to date in two ways.
+First, we now have a native way
+to link scheduled tasks to a site
+so that you can update
+the site's data automatically.
+Previously, you had to create
+scheduled tasks separately,
+and it wasn't necessarily
+easy to keep track of.
+But now, you can connect
+Sites to a scheduled task,
+and the Sites plugin will also suggest
+it proactively when it makes sense.
+Second, bring your own plugin.
+With this new feature, you can build
+a site that works with each visitor's
+own app connectors and data.
+That means you can create new kinds
+of apps that have a personalized
+view for each visitor
+out of the box without having
+to set up any third-party integrations.
+When visitors of the same org access
+a site, data will be refreshed
+using their connectors after
+they've granted the right access.
+There's many things you could
+build with this, anything that
+requires custom views for the apps
+you already use in your workspace.
+For example, you could build a team
+mission control site that lists
+the team's priorities and shows the PRs
+that each team member needs to review
+or the Linear tickets assigned to them.
+With the new Sites updates,
+we're making Sites more personal.
+You can build one site for your team,
+keep the data up-to-date thanks
+to scheduled tasks, and give
+everyone a view of their own work
+with bring your own plugin.
+If you want to try it out,
+just ask Codex.
